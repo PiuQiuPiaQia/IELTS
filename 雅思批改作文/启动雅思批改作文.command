@@ -7,7 +7,7 @@ if [ ! -d "node_modules" ]; then
   pnpm install
 fi
 
-pnpm dev -- --host 127.0.0.1 --port 4173 --strictPort > ".local-server.log" 2>&1 &
+pnpm dev --hostname 127.0.0.1 --port 4173 --strictPort > ".local-server.log" 2>&1 &
 LOCAL_APP_PID=$!
 
 finish() {

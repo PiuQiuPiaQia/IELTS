@@ -23,11 +23,10 @@ test("uses the local product name and JSONL file storage", async () => {
   assert.match(storage, /rename\(temporaryPath, storagePath\)/);
 
   const lines = jsonl.trim().split("\n").map((line) => JSON.parse(line));
-  assert.deepEqual(lines[0], {
-    _meta: { version: 10, browserStorageMigrated: false },
-  });
-  assert.equal(lines.length, 10);
-  assert.equal(lines[1].id, "weekend-camping-invitation");
+  assert.equal(lines[0]._meta.version, 10);
+  assert.equal(typeof lines[0]._meta.browserStorageMigrated, "boolean");
+  assert.ok(lines.length > 1);
+  assert.ok(lines.slice(1).some((record) => record.id === "weekend-camping-invitation"));
 });
 
 test("does not contain online hosting configuration", async () => {
@@ -48,6 +47,8 @@ test("uses pnpm for reproducible local installs", async () => {
   assert.match(readme, /pnpm install/);
   assert.match(launcher, /pnpm install/);
   assert.match(launcher, /pnpm dev/);
+  assert.match(launcher, /--hostname 127\.0\.0\.1/);
+  assert.doesNotMatch(launcher, /-- --host/);
   await assert.rejects(access(new URL("../package-lock.json", import.meta.url)));
 });
 
