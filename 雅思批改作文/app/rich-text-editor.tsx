@@ -13,8 +13,9 @@ type DeletedReview = { review: ReviewRecord; index: number };
 
 const STORAGE_KEY = "ielts-writing-review-history-v1";
 const SEED_VERSION_KEY = "ielts-writing-review-seed-version";
-const CURRENT_SEED_VERSION = 8;
+const CURRENT_SEED_VERSION = 9;
 const SEED_INTRODUCED_VERSION = new Map<string, number>([
+  ["international-school-reference-letter", 9],
   ["reception-area-improvements", 2],
   ["home-work-laptop-problem", 4],
   ["cancelled-flight-insurance-claim", 5],

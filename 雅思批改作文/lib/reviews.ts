@@ -30,6 +30,77 @@ export type ReviewRecord = ReviewSeed & {
 
 export const DEFAULT_REVIEW_SEEDS: ReviewSeed[] = [
   {
+    id: "international-school-reference-letter",
+    taskType: "GENERAL TRAINING · TASK 1",
+    title: "国际学校求职推荐信",
+    question:
+      "Your friend is looking for a job to work with foreign teenagers at an international school. The school requires him/her to provide a reference letter from someone who knows him/her well.",
+    instruction: "Write a reference letter for your friend. In your letter",
+    points: [
+      "describe his/her character",
+      "describe his/her qualifications or skills for the job",
+      "explain why you want to recommend him/her",
+    ],
+    score: "5.5",
+    scoreNote: "四项等权平均 · 三个任务点完整，语法准确性需加强",
+    criteria: [
+      {
+        code: "TA",
+        name: "Task Achievement",
+        nameZh: "任务完成度",
+        score: 6,
+        feedback:
+          "人物性格、相关能力和推荐理由三个任务点均有回答，并提供了认识时间和夏令营经历等细节；部分能力与岗位的联系还可以解释得更具体，全文正好约 150 词，考试时建议写到 160—180 词。",
+      },
+      {
+        code: "CC",
+        name: "Coherence & Cohesion",
+        nameZh: "连贯与衔接",
+        score: 6,
+        feedback:
+          "内容按照写信目的、性格、技能和推荐理由分段，信息顺序清楚；In addition 和 As a result 能帮助推进内容，但部分句子之间的因果关系略显机械。",
+      },
+      {
+        code: "LR",
+        name: "Lexical Resource",
+        nameZh: "词汇资源",
+        score: 5,
+        feedback:
+          "使用了 patient、responsible、warm-hearted、supportive environment 等与推荐信相关的词汇，但拼写、词性和搭配错误较明显，例如 konw、hime、enjoy communication 和 culture background。",
+      },
+      {
+        code: "GRA",
+        name: "Grammatical Range & Accuracy",
+        nameZh: "语法多样性与准确性",
+        score: 5,
+        feedback:
+          "能够使用 so、which 和 because 连接信息，大部分意思清楚；第三人称单数、动词形式和名词修饰错误反复出现，例如 he enjoy、how to communication 和 different culture background。",
+      },
+    ],
+    paperLabel: "Formal reference letter",
+    wordCount: 150,
+    focus: "拼写 · 第三人称单数 · 动词形式与词性",
+    createdAt: "2026-08-05T09:00:00.000Z",
+    reviewHtml: `
+      <p>Dear Sir <span class="change" data-note="固定称呼应为 Dear Sir or Madam"><del>for</del><strong>or</strong></span> Madam,</p>
+      <p>I am writing to provide <span class="change" data-note="这封信本身就是 reference letter，因此 provide a reference 更简洁自然"><del>a reference letter</del><strong>a reference</strong></span> for my friend, Alex. He <span class="change" data-note="申请某个职位使用 apply for a job；working with 可说明工作对象"><del>is looking for a job to work</del><strong>is applying for a job working</strong></span> with foreign teenagers. I have known Alex for about eight years, so I <span class="change" data-note="拼写错误：konw 应为 know"><del>konw</del><strong>know</strong></span> <span class="change" data-note="拼写错误：宾格代词应为 him"><del>hime</del><strong>him</strong></span> very well.</p>
+      <p>Alex is a patient and responsible person. He <span class="change" data-note="主语 He 后用 enjoys；enjoy 后接动名词 communicating"><del>enjoy communication</del><strong>enjoys communicating</strong></span> with others and can be trusted to complete his duties. He is warm-hearted and helpful, and he often helps others solve their problems.</p>
+      <p>In addition, Alex has <span class="change" data-note="many skills 表达较笼统；the skills needed for the job 更准确地连接岗位要求"><del>many skills for the job</del><strong>the skills needed for the job</strong></span>. He can speak English fluently and has excellent academic results. He <span class="change" data-note="持续到现在的两年经历使用现在完成时；summer camps 使用复数更自然"><del>also took part in a summer camp for two years</del><strong>has also taken part in summer camps for two years</strong></span>, which included sports, games and group activities. As a result, <span class="change" data-note="指代刚刚提到的经历使用 this experience"><del>the</del><strong>this</strong></span> experience taught him how to <span class="change" data-note="how to 后需要接动词原形 communicate"><del>communication</del><strong>communicate</strong></span> with young people from different <span class="change" data-note="culture 应改为形容词 cultural；background 在这里通常使用复数"><del>culture background</del><strong>cultural backgrounds</strong></span>.</p>
+      <p>I recommend him because he <span class="change" data-note="主语 he 是第三人称单数，动词应为 enjoys"><del>enjoy</del><strong>enjoys</strong></span> helping <span class="change" data-note="teenages 拼写错误；teenagers 已包含年轻人的意思，不需要再加 young"><del>young teenages</del><strong>teenagers</strong></span> and can create a safe and supportive environment for them.</p>
+      <p>Yours faithfully,</p>
+      <p>Allen</p>
+    `,
+    cleanHtml: `
+      <p>Dear Sir or Madam,</p>
+      <p>I am writing to provide a reference for my friend, Alex. He is applying for a job working with foreign teenagers. I have known Alex for about eight years, so I know him very well.</p>
+      <p>Alex is a patient and responsible person. He enjoys communicating with others and can be trusted to complete his duties. He is warm-hearted and helpful, and he often helps others solve their problems.</p>
+      <p>In addition, Alex has the skills needed for the job. He can speak English fluently and has excellent academic results. He has also taken part in summer camps for two years, which included sports, games and group activities. As a result, this experience taught him how to communicate with young people from different cultural backgrounds.</p>
+      <p>I recommend him because he enjoys helping teenagers and can create a safe and supportive environment for them.</p>
+      <p>Yours faithfully,</p>
+      <p>Allen</p>
+    `,
+  },
+  {
     id: "neighbourhood-dog-safety-complaint",
     taskType: "GENERAL TRAINING · TASK 1",
     title: "社区遛狗安全投诉及建议信",

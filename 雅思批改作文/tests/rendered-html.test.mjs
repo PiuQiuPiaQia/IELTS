@@ -46,12 +46,12 @@ test("renders the four official IELTS writing criteria and their scores", async 
 
   assert.match(editor, /IELTS 四项评分/);
   assert.match(editor, /getOverallScore/);
-  assert.equal([...reviews.matchAll(/criteria:\s*\[/g)].length, 7);
-  assert.equal([...reviews.matchAll(/code: "TA",/g)].length, 6);
+  assert.equal([...reviews.matchAll(/criteria:\s*\[/g)].length, 8);
+  assert.equal([...reviews.matchAll(/code: "TA",/g)].length, 7);
   assert.equal([...reviews.matchAll(/code: "TR",/g)].length, 1);
-  assert.equal([...reviews.matchAll(/code: "CC",/g)].length, 7);
-  assert.equal([...reviews.matchAll(/code: "LR",/g)].length, 7);
-  assert.equal([...reviews.matchAll(/code: "GRA",/g)].length, 7);
+  assert.equal([...reviews.matchAll(/code: "CC",/g)].length, 8);
+  assert.equal([...reviews.matchAll(/code: "LR",/g)].length, 8);
+  assert.equal([...reviews.matchAll(/code: "GRA",/g)].length, 8);
 });
 
 test("adds the newest laptop review without restoring older deleted records", async () => {
@@ -91,7 +91,7 @@ test("adds the neighbourhood dog safety letter as the newest scored review", asy
     readFile(new URL("../lib/reviews.ts", import.meta.url), "utf8"),
   ]);
 
-  assert.match(editor, /CURRENT_SEED_VERSION = 8/);
+  assert.match(editor, /CURRENT_SEED_VERSION = 9/);
   assert.match(editor, /\["neighbourhood-dog-safety-complaint", 6\]/);
   assert.match(editor, /\["neighbourhood-dog-safety-complaint", 8\]/);
   assert.match(editor, /contentUpdatedInVersion > savedVersion/);
@@ -140,6 +140,23 @@ test("uses granular corrections for every stored essay and refreshes local histo
   assert.doesNotMatch(reviews, /<del>And if parents arrange every part of activities/);
 });
 
+test("adds the international school reference letter as the newest scored review", async () => {
+  const [editor, reviews] = await Promise.all([
+    readFile(new URL("../app/rich-text-editor.tsx", import.meta.url), "utf8"),
+    readFile(new URL("../lib/reviews.ts", import.meta.url), "utf8"),
+  ]);
+
+  assert.match(editor, /\["international-school-reference-letter", 9\]/);
+  assert.match(reviews, /id: "international-school-reference-letter"/);
+  assert.match(reviews, /国际学校求职推荐信/);
+  assert.match(reviews, /wordCount: 150/);
+  assert.match(reviews, /score: "5\.5"/);
+  assert.match(reviews, /<del>konw<\/del><strong>know<\/strong>/);
+  assert.match(reviews, /<del>enjoy communication<\/del><strong>enjoys communicating<\/strong>/);
+  assert.match(reviews, /<del>culture background<\/del><strong>cultural backgrounds<\/strong>/);
+  assert.match(reviews, /<del>young teenages<\/del><strong>teenagers<\/strong>/);
+});
+
 test("keeps each corrected review aligned with its clean version", async () => {
   const reviews = await readFile(
     new URL("../lib/reviews.ts", import.meta.url),
@@ -157,7 +174,7 @@ test("keeps each corrected review aligned with its clean version", async () => {
       .replace(/\s+/g, " ")
       .trim();
 
-  assert.equal(blocks.length, 7);
+  assert.equal(blocks.length, 8);
   for (const [, id, block] of blocks) {
     const marked = block.match(/reviewHtml: `([\s\S]*?)`,\n    cleanHtml:/)?.[1];
     const clean = block.match(/cleanHtml: `([\s\S]*?)`,\n  }/)?.[1];
