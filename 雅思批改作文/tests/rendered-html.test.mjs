@@ -25,6 +25,21 @@ test("does not contain online hosting configuration", async () => {
   assert.doesNotMatch(viteConfig, /hostingConfig|sites\(\)/);
 });
 
+test("uses pnpm for reproducible local installs", async () => {
+  const [packageJson, readme, launcher] = await Promise.all([
+    readFile(new URL("../package.json", import.meta.url), "utf8"),
+    readFile(new URL("../README.md", import.meta.url), "utf8"),
+    readFile(new URL("../启动雅思批改作文.command", import.meta.url), "utf8"),
+    access(new URL("../pnpm-lock.yaml", import.meta.url)),
+  ]);
+
+  assert.match(packageJson, /"packageManager": "pnpm@11\.10\.0"/);
+  assert.match(readme, /pnpm install/);
+  assert.match(launcher, /pnpm install/);
+  assert.match(launcher, /pnpm dev/);
+  await assert.rejects(access(new URL("../package-lock.json", import.meta.url)));
+});
+
 test("shows correction issues and advice on separate tooltip lines", async () => {
   const [editor, styles] = await Promise.all([
     readFile(new URL("../app/rich-text-editor.tsx", import.meta.url), "utf8"),

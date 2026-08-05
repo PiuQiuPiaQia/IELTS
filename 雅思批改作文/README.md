@@ -19,7 +19,7 @@
 ## 开发命令
 
 ```bash
-npm install
-npm run dev
-npm run build
+pnpm install
+pnpm dev
+pnpm build
 ```

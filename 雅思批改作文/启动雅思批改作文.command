@@ -4,10 +4,10 @@ set -e
 cd "$(dirname "$0")"
 
 if [ ! -d "node_modules" ]; then
-  npm install
+  pnpm install
 fi
 
-npm run dev -- --host 127.0.0.1 --port 4173 --strictPort > ".local-server.log" 2>&1 &
+pnpm dev -- --host 127.0.0.1 --port 4173 --strictPort > ".local-server.log" 2>&1 &
 LOCAL_APP_PID=$!
 
 finish() {
