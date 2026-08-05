@@ -4,19 +4,30 @@ import test from "node:test";
 
 const root = new URL("../", import.meta.url);
 
-test("uses the local product name and local browser storage", async () => {
-  const [layout, page, editor, header] = await Promise.all([
+test("uses the local product name and JSONL file storage", async () => {
+  const [layout, page, editor, header, storage, jsonl] = await Promise.all([
     readFile(new URL("../app/layout.tsx", import.meta.url), "utf8"),
     readFile(new URL("../app/page.tsx", import.meta.url), "utf8"),
     readFile(new URL("../app/rich-text-editor.tsx", import.meta.url), "utf8"),
     readFile(new URL("../app/site-header.tsx", import.meta.url), "utf8"),
+    readFile(new URL("../local-review-storage.ts", import.meta.url), "utf8"),
+    readFile(new URL("../data/reviews.jsonl", import.meta.url), "utf8"),
   ]);
 
   assert.match(layout, /雅思批改作文/);
   assert.match(page, /雅思批改作文/);
   assert.match(header, /雅思批改作文/);
-  assert.match(editor, /window\.localStorage/);
-  assert.doesNotMatch(editor, /\/api\/reviews/);
+  assert.match(editor, /\/api\/local-reviews/);
+  assert.match(editor, /LEGACY_STORAGE_KEY/);
+  assert.match(storage, /data\/reviews\.jsonl/);
+  assert.match(storage, /rename\(temporaryPath, storagePath\)/);
+
+  const lines = jsonl.trim().split("\n").map((line) => JSON.parse(line));
+  assert.deepEqual(lines[0], {
+    _meta: { version: 10, browserStorageMigrated: false },
+  });
+  assert.equal(lines.length, 10);
+  assert.equal(lines[1].id, "weekend-camping-invitation");
 });
 
 test("does not contain online hosting configuration", async () => {
@@ -61,12 +72,12 @@ test("renders the four official IELTS writing criteria and their scores", async 
 
   assert.match(editor, /IELTS 四项评分/);
   assert.match(editor, /getOverallScore/);
-  assert.equal([...reviews.matchAll(/criteria:\s*\[/g)].length, 8);
-  assert.equal([...reviews.matchAll(/code: "TA",/g)].length, 7);
+  assert.equal([...reviews.matchAll(/criteria:\s*\[/g)].length, 9);
+  assert.equal([...reviews.matchAll(/code: "TA",/g)].length, 8);
   assert.equal([...reviews.matchAll(/code: "TR",/g)].length, 1);
-  assert.equal([...reviews.matchAll(/code: "CC",/g)].length, 8);
-  assert.equal([...reviews.matchAll(/code: "LR",/g)].length, 8);
-  assert.equal([...reviews.matchAll(/code: "GRA",/g)].length, 8);
+  assert.equal([...reviews.matchAll(/code: "CC",/g)].length, 9);
+  assert.equal([...reviews.matchAll(/code: "LR",/g)].length, 9);
+  assert.equal([...reviews.matchAll(/code: "GRA",/g)].length, 9);
 });
 
 test("adds the newest laptop review without restoring older deleted records", async () => {
@@ -100,13 +111,13 @@ test("keeps the cancelled flight letter in scored review history", async () => {
   assert.match(reviews, /passengers should be informed earlier/);
 });
 
-test("adds the neighbourhood dog safety letter as the newest scored review", async () => {
+test("keeps the neighbourhood dog safety letter in scored review history", async () => {
   const [editor, reviews] = await Promise.all([
     readFile(new URL("../app/rich-text-editor.tsx", import.meta.url), "utf8"),
     readFile(new URL("../lib/reviews.ts", import.meta.url), "utf8"),
   ]);
 
-  assert.match(editor, /CURRENT_SEED_VERSION = 9/);
+  assert.match(editor, /CURRENT_SEED_VERSION = 10/);
   assert.match(editor, /\["neighbourhood-dog-safety-complaint", 6\]/);
   assert.match(editor, /\["neighbourhood-dog-safety-complaint", 8\]/);
   assert.match(editor, /contentUpdatedInVersion > savedVersion/);
@@ -155,7 +166,7 @@ test("uses granular corrections for every stored essay and refreshes local histo
   assert.doesNotMatch(reviews, /<del>And if parents arrange every part of activities/);
 });
 
-test("adds the international school reference letter as the newest scored review", async () => {
+test("keeps the international school reference letter in scored review history", async () => {
   const [editor, reviews] = await Promise.all([
     readFile(new URL("../app/rich-text-editor.tsx", import.meta.url), "utf8"),
     readFile(new URL("../lib/reviews.ts", import.meta.url), "utf8"),
@@ -170,6 +181,24 @@ test("adds the international school reference letter as the newest scored review
   assert.match(reviews, /<del>enjoy communication<\/del><strong>enjoys communicating<\/strong>/);
   assert.match(reviews, /<del>culture background<\/del><strong>cultural backgrounds<\/strong>/);
   assert.match(reviews, /<del>young teenages<\/del><strong>teenagers<\/strong>/);
+});
+
+test("adds the weekend camping invitation as the newest scored review", async () => {
+  const [editor, reviews] = await Promise.all([
+    readFile(new URL("../app/rich-text-editor.tsx", import.meta.url), "utf8"),
+    readFile(new URL("../lib/reviews.ts", import.meta.url), "utf8"),
+  ]);
+
+  assert.match(editor, /CURRENT_SEED_VERSION = 10/);
+  assert.match(editor, /\["weekend-camping-invitation", 10\]/);
+  assert.match(reviews, /id: "weekend-camping-invitation"/);
+  assert.match(reviews, /哥哥受伤后的周末露营邀请信/);
+  assert.match(reviews, /wordCount: 160/);
+  assert.match(reviews, /score: "5\.5"/);
+  assert.match(reviews, /<del>me and my brother<\/del><strong>my brother and I<\/strong>/);
+  assert.match(reviews, /<del>have rent<\/del><strong>have rented<\/strong>/);
+  assert.match(reviews, /<del>sleepbags<\/del><strong>sleeping bags<\/strong>/);
+  assert.match(reviews, /<del>Yours sincerely,<\/del><strong>Best wishes,<\/strong>/);
 });
 
 test("keeps each corrected review aligned with its clean version", async () => {
@@ -189,7 +218,7 @@ test("keeps each corrected review aligned with its clean version", async () => {
       .replace(/\s+/g, " ")
       .trim();
 
-  assert.equal(blocks.length, 8);
+  assert.equal(blocks.length, 9);
   for (const [, id, block] of blocks) {
     const marked = block.match(/reviewHtml: `([\s\S]*?)`,\n    cleanHtml:/)?.[1];
     const clean = block.match(/cleanHtml: `([\s\S]*?)`,\n  }/)?.[1];

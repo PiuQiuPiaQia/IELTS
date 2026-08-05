@@ -30,6 +30,79 @@ export type ReviewRecord = ReviewSeed & {
 
 export const DEFAULT_REVIEW_SEEDS: ReviewSeed[] = [
   {
+    id: "weekend-camping-invitation",
+    taskType: "GENERAL TRAINING · TASK 1",
+    title: "哥哥受伤后的周末露营邀请信",
+    question:
+      "You planned to go camping with your brother, but unfortunately, your brother can't make it.",
+    instruction: "Write a letter to your friend to invite him/her to go with you. In your letter",
+    points: [
+      "say what has happened",
+      "describe the details about this camping trip",
+      "explain what your friend should do if he/she wants to go with you",
+    ],
+    score: "5.5",
+    scoreNote: "四项等权平均 · 三个任务点完整，语法与非正式语气需加强",
+    criteria: [
+      {
+        code: "TA",
+        name: "Task Achievement",
+        nameZh: "任务完成度",
+        score: 6,
+        feedback:
+          "哥哥受伤无法参加、露营时间地点与活动、朋友的回复时间和携带物品三个任务点均有回答，细节比较具体；开头和落款过于正式，接送时间还可以说得更准确。",
+      },
+      {
+        code: "CC",
+        name: "Coherence & Cohesion",
+        nameZh: "连贯与衔接",
+        score: 6,
+        feedback:
+          "文章按照邀请目的、计划变化、露营安排和回复要求分段，顺序清楚；go camping with me 重复较多，个别句子之间的衔接仍比较直接。",
+      },
+      {
+        code: "LR",
+        name: "Lexical Resource",
+        nameZh: "词汇资源",
+        score: 5,
+        feedback:
+          "使用了 surrounded by mountains、a beautiful view、cooking equipment 和 personal items 等与露营相关的表达；但 takes two hours away、have rent 和 sleepbags 等搭配、词形或拼写错误影响了准确性。",
+      },
+      {
+        code: "GRA",
+        name: "Grammatical Range & Accuracy",
+        nameZh: "语法多样性与准确性",
+        score: 5,
+        feedback:
+          "能够使用 but、which、so that 和 if 连接信息，大部分意思清楚；主格、主谓一致、现在完成时和介词错误较明显，例如 me and my brother、he need、have rent 和 at Friday afternoon。",
+      },
+    ],
+    paperLabel: "Informal invitation letter",
+    wordCount: 160,
+    focus: "主格与主谓一致 · 动词形式 · 介词与非正式语气",
+    createdAt: "2026-08-05T10:20:39.000Z",
+    reviewHtml: `
+      <p>Dear Alex,</p>
+      <p><span class="change" data-note="写给朋友时可以使用缩写，语气更自然；表示写信邀请使用 write to invite"><del>I am writing this letter about inviting</del><strong>I'm writing to invite</strong></span> you to go camping with me.</p>
+      <p>Last month, <span class="change" data-note="在句中作主语时应使用 I，并通常先说另一个人"><del>me and my brother</del><strong>my brother and I</strong></span> planned to go camping this weekend, but unfortunately, he hurt his left leg yesterday. He can't <span class="change" data-note="哥哥受伤后不能参加的是露营，go camping 比 go outside 更准确"><del>go outside</del><strong>go camping</strong></span> and <span class="change" data-note="主语 he 后动词使用 needs；表示住院休息使用 rest in hospital"><del>need a rest at hospital</del><strong>needs to rest in hospital</strong></span>.</p>
+      <p>We are going camping <span class="change" data-note="表示在某个公园露营使用 at a park；地点距离使用 be ... away from"><del>in the park which takes two hours away from our city</del><strong>at a park which is about two hours away from our city</strong></span>. We will depart on Friday evening and return on Saturday afternoon. The park is surrounded by mountains and has a beautiful view of the lake. During this trip, we can go hiking, take photos and swim in <span class="change" data-note="前文已经提到这个湖，使用 the lake 更自然"><del>this lake</del><strong>the lake</strong></span>. I <span class="change" data-note="现在完成时结构为 have + 过去分词，rent 的过去分词为 rented"><del>have rent</del><strong>have rented</strong></span> cooking equipment and <span class="change" data-note="睡袋的正确表达是 sleeping bag，这里使用复数"><del>sleepbags</del><strong>sleeping bags</strong></span>.</p>
+      <p><span class="change" data-note="I will be grateful if you can 过于正式且不够自然，朋友邀请信可以直接表达希望"><del>I will be grateful if you can go camping with me.</del><strong>I really hope you can join me.</strong></span> <span class="change" data-note="表示如果对方想参加，If you'd like to come 更自然"><del>If you come</del><strong>If you'd like to come</strong></span>, please let me know before Thursday evening so that I can make the final <span class="change" data-note="这里指需要确认的多项出行安排，通常使用复数 arrangements"><del>arrangement</del><strong>arrangements</strong></span>. You should bring some warm clothes and your personal items. I will pick you up <span class="change" data-note="在具体某天的上午或下午使用介词 on"><del>at Friday afternoon</del><strong>on Friday afternoon</strong></span>.</p>
+      <p><span class="change" data-note="look forward 后需要加 to；写给朋友时 Hope to hear from you soon 更自然"><del>Looking forward your reply.</del><strong>Hope to hear from you soon.</strong></span></p>
+      <p><span class="change" data-note="Yours sincerely 适用于知道姓名的正式或半正式信；写给朋友使用 Best wishes"><del>Yours sincerely,</del><strong>Best wishes,</strong></span></p>
+      <p>Allen</p>
+    `,
+    cleanHtml: `
+      <p>Dear Alex,</p>
+      <p>I'm writing to invite you to go camping with me.</p>
+      <p>Last month, my brother and I planned to go camping this weekend, but unfortunately, he hurt his left leg yesterday. He can't go camping and needs to rest in hospital.</p>
+      <p>We are going camping at a park which is about two hours away from our city. We will depart on Friday evening and return on Saturday afternoon. The park is surrounded by mountains and has a beautiful view of the lake. During this trip, we can go hiking, take photos and swim in the lake. I have rented cooking equipment and sleeping bags.</p>
+      <p>I really hope you can join me. If you'd like to come, please let me know before Thursday evening so that I can make the final arrangements. You should bring some warm clothes and your personal items. I will pick you up on Friday afternoon.</p>
+      <p>Hope to hear from you soon.</p>
+      <p>Best wishes,</p>
+      <p>Allen</p>
+    `,
+  },
+  {
     id: "international-school-reference-letter",
     taskType: "GENERAL TRAINING · TASK 1",
     title: "国际学校求职推荐信",

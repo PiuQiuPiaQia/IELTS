@@ -10,11 +10,18 @@ import SiteHeader from "./site-header";
 type ViewMode = "review" | "clean";
 type SyncState = "loading" | "synced" | "error";
 type DeletedReview = { review: ReviewRecord; index: number };
+type ReviewFilePayload = {
+  version: number;
+  browserStorageMigrated: boolean;
+  records: ReviewRecord[];
+};
 
-const STORAGE_KEY = "ielts-writing-review-history-v1";
-const SEED_VERSION_KEY = "ielts-writing-review-seed-version";
-const CURRENT_SEED_VERSION = 9;
+const REVIEW_API_PATH = "/api/local-reviews";
+const LEGACY_STORAGE_KEY = "ielts-writing-review-history-v1";
+const LEGACY_SEED_VERSION_KEY = "ielts-writing-review-seed-version";
+const CURRENT_SEED_VERSION = 10;
 const SEED_INTRODUCED_VERSION = new Map<string, number>([
+  ["weekend-camping-invitation", 10],
   ["international-school-reference-letter", 9],
   ["reception-area-improvements", 2],
   ["home-work-laptop-problem", 4],
@@ -34,6 +41,74 @@ const defaultRecords: ReviewRecord[] = DEFAULT_REVIEW_SEEDS.map((review) => ({
   ...review,
   updatedAt: review.createdAt,
 }));
+
+function mergeCurrentSeeds(records: ReviewRecord[], savedVersion: number) {
+  let merged = records;
+
+  if (savedVersion < CURRENT_SEED_VERSION) {
+    const newSeeds = defaultRecords.filter((record) => {
+      const introducedInVersion = SEED_INTRODUCED_VERSION.get(record.id) ?? 0;
+      return (
+        introducedInVersion > savedVersion &&
+        !merged.some((savedRecord) => savedRecord.id === record.id)
+      );
+    });
+    merged = [...newSeeds, ...merged];
+  }
+
+  if (savedVersion !== CURRENT_SEED_VERSION) {
+    const currentSeeds = new Map(
+      defaultRecords.map((record) => [record.id, record]),
+    );
+    merged = merged.map((record) => {
+      const currentSeed = currentSeeds.get(record.id);
+      if (!currentSeed) return record;
+      const contentUpdatedInVersion =
+        SEED_CONTENT_UPDATED_VERSION.get(record.id) ?? 0;
+      return {
+        ...record,
+        score: currentSeed.score,
+        scoreNote: currentSeed.scoreNote,
+        criteria: currentSeed.criteria,
+        ...(contentUpdatedInVersion > savedVersion
+          ? {
+              reviewHtml: currentSeed.reviewHtml,
+              cleanHtml: currentSeed.cleanHtml,
+              wordCount: currentSeed.wordCount,
+              focus: currentSeed.focus,
+            }
+          : {}),
+      };
+    });
+  }
+
+  return merged;
+}
+
+async function readReviewFile(): Promise<ReviewFilePayload | null> {
+  const response = await fetch(REVIEW_API_PATH, { cache: "no-store" });
+  if (response.status === 404) return null;
+  if (!response.ok) throw new Error("Unable to read review data");
+
+  const payload = (await response.json()) as ReviewFilePayload;
+  if (!Array.isArray(payload.records) || !Number.isInteger(payload.version)) {
+    throw new Error("Invalid review data");
+  }
+  return payload;
+}
+
+async function writeReviewFile(records: ReviewRecord[]) {
+  const response = await fetch(REVIEW_API_PATH, {
+    method: "PUT",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({
+      version: CURRENT_SEED_VERSION,
+      browserStorageMigrated: true,
+      records,
+    } satisfies ReviewFilePayload),
+  });
+  if (!response.ok) throw new Error("Unable to save review data");
+}
 
 const toolbarActions = [
   { command: "undo", label: "↶", title: "撤销" },
@@ -94,8 +169,23 @@ function prepareReviewHtml(html: string) {
   return template.innerHTML;
 }
 
+function cleanReviewHtmlForStorage(html: string) {
+  const template = document.createElement("template");
+  template.innerHTML = html;
+  template.content.querySelectorAll<HTMLElement>(".change").forEach((change) => {
+    change.removeAttribute("data-tooltip");
+    change.removeAttribute("tabindex");
+    change.removeAttribute("aria-label");
+  });
+  return template.innerHTML;
+}
+
 export default function RichTextEditor() {
   const editorRef = useRef<HTMLDivElement>(null);
+  const recordsRef = useRef<ReviewRecord[]>([]);
+  const saveQueueRef = useRef<Promise<void>>(Promise.resolve());
+  const saveRevisionRef = useRef(0);
+  const editorSaveTimerRef = useRef<number | null>(null);
   const [mode, setMode] = useState<ViewMode>("review");
   const [records, setRecords] = useState<ReviewRecord[]>([]);
   const [selectedId, setSelectedId] = useState<string | null>(null);
@@ -108,82 +198,57 @@ export default function RichTextEditor() {
     records.find((record) => record.id === selectedId) ?? null;
 
   useEffect(() => {
-    try {
-      const saved = window.localStorage.getItem(STORAGE_KEY);
-      const savedSeedVersion = window.localStorage.getItem(SEED_VERSION_KEY);
-      const parsedSeedVersion = Number.parseInt(savedSeedVersion ?? "0", 10);
-      const savedVersion = Number.isNaN(parsedSeedVersion)
-        ? 0
-        : parsedSeedVersion;
-      let loaded =
-        saved === null
-          ? defaultRecords
-          : (JSON.parse(saved) as ReviewRecord[]);
+    let cancelled = false;
 
-      if (!Array.isArray(loaded)) throw new Error("Invalid local history");
-
-      if (saved !== null && savedVersion < CURRENT_SEED_VERSION) {
-        const newSeeds = defaultRecords.filter(
-          (record) => {
-            const introducedInVersion =
-              SEED_INTRODUCED_VERSION.get(record.id) ?? 0;
-            return (
-              introducedInVersion > savedVersion &&
-              !loaded.some((savedRecord) => savedRecord.id === record.id)
-            );
-          },
+    void (async () => {
+      try {
+        const storedFile = await readReviewFile();
+        const legacyRecords = window.localStorage.getItem(LEGACY_STORAGE_KEY);
+        const shouldMigrateBrowserStorage =
+          storedFile?.browserStorageMigrated !== true && legacyRecords !== null;
+        const legacyVersion = Number.parseInt(
+          window.localStorage.getItem(LEGACY_SEED_VERSION_KEY) ?? "0",
+          10,
         );
-        loaded = [...newSeeds, ...loaded];
-      }
+        const savedVersion = shouldMigrateBrowserStorage
+          ? Number.isNaN(legacyVersion)
+            ? 0
+            : legacyVersion
+          : (storedFile?.version ?? CURRENT_SEED_VERSION);
+        const storedRecords = shouldMigrateBrowserStorage
+          ? (JSON.parse(legacyRecords) as ReviewRecord[])
+          : (storedFile?.records ?? defaultRecords);
 
-      if (saved !== null && savedVersion !== CURRENT_SEED_VERSION) {
-        const currentSeeds = new Map(
-          defaultRecords.map((record) => [record.id, record]),
-        );
-        loaded = loaded.map((record) => {
-          const currentSeed = currentSeeds.get(record.id);
-          if (!currentSeed) return record;
-          const contentUpdatedInVersion =
-            SEED_CONTENT_UPDATED_VERSION.get(record.id) ?? 0;
-          return {
-            ...record,
-            score: currentSeed.score,
-            scoreNote: currentSeed.scoreNote,
-            criteria: currentSeed.criteria,
-            ...(contentUpdatedInVersion > savedVersion
-              ? {
-                  reviewHtml: currentSeed.reviewHtml,
-                  cleanHtml: currentSeed.cleanHtml,
-                  wordCount: currentSeed.wordCount,
-                  focus: currentSeed.focus,
-                }
-              : {}),
-          };
-        });
-      }
+        if (!Array.isArray(storedRecords)) {
+          throw new Error("Invalid review history");
+        }
 
-      window.localStorage.setItem(STORAGE_KEY, JSON.stringify(loaded));
-      window.localStorage.setItem(
-        SEED_VERSION_KEY,
-        String(CURRENT_SEED_VERSION),
-      );
-      setRecords(loaded);
-      setSelectedId(loaded[0]?.id ?? null);
-      setSyncState("synced");
-    } catch {
-      window.localStorage.setItem(
-        STORAGE_KEY,
-        JSON.stringify(defaultRecords),
-      );
-      window.localStorage.setItem(
-        SEED_VERSION_KEY,
-        String(CURRENT_SEED_VERSION),
-      );
-      setRecords(defaultRecords);
-      setSelectedId(defaultRecords[0]?.id ?? null);
-      setSyncState("error");
-      setNotice("本机历史记录已恢复为默认内容。");
-    }
+        const loaded = mergeCurrentSeeds(storedRecords, savedVersion);
+        await writeReviewFile(loaded);
+        if (cancelled) return;
+
+        recordsRef.current = loaded;
+        setRecords(loaded);
+        setSelectedId(loaded[0]?.id ?? null);
+        setSyncState("synced");
+        window.localStorage.removeItem(LEGACY_STORAGE_KEY);
+        window.localStorage.removeItem(LEGACY_SEED_VERSION_KEY);
+      } catch {
+        if (cancelled) return;
+        recordsRef.current = defaultRecords;
+        setRecords(defaultRecords);
+        setSelectedId(defaultRecords[0]?.id ?? null);
+        setSyncState("error");
+        setNotice("无法读取 JSONL 数据文件，当前显示默认内容。");
+      }
+    })();
+
+    return () => {
+      cancelled = true;
+      if (editorSaveTimerRef.current !== null) {
+        window.clearTimeout(editorSaveTimerRef.current);
+      }
+    };
   }, []);
 
   useEffect(() => {
@@ -193,6 +258,52 @@ export default function RichTextEditor() {
     editorRef.current.innerHTML =
       mode === "review" ? prepareReviewHtml(html) : html;
   }, [currentReview?.id, mode]);
+
+  const replaceRecords = (nextRecords: ReviewRecord[]) => {
+    recordsRef.current = nextRecords;
+    setRecords(nextRecords);
+  };
+
+  const persistRecords = (nextRecords: ReviewRecord[]) => {
+    const revision = ++saveRevisionRef.current;
+    setSyncState("loading");
+    saveQueueRef.current = saveQueueRef.current
+      .catch(() => undefined)
+      .then(() => writeReviewFile(nextRecords));
+
+    void saveQueueRef.current
+      .then(() => {
+        if (saveRevisionRef.current === revision) setSyncState("synced");
+      })
+      .catch(() => {
+        if (saveRevisionRef.current !== revision) return;
+        setSyncState("error");
+        setNotice("JSONL 数据文件保存失败。");
+      });
+  };
+
+  const handleEditorInput = () => {
+    if (!editorRef.current || !selectedId) return;
+    const property = mode === "review" ? "reviewHtml" : "cleanHtml";
+    const html =
+      mode === "review"
+        ? cleanReviewHtmlForStorage(editorRef.current.innerHTML)
+        : editorRef.current.innerHTML;
+    const nextRecords = recordsRef.current.map((record) =>
+      record.id === selectedId
+        ? { ...record, [property]: html, updatedAt: new Date().toISOString() }
+        : record,
+    );
+
+    replaceRecords(nextRecords);
+    if (editorSaveTimerRef.current !== null) {
+      window.clearTimeout(editorSaveTimerRef.current);
+    }
+    editorSaveTimerRef.current = window.setTimeout(() => {
+      persistRecords(nextRecords);
+      editorSaveTimerRef.current = null;
+    }, 400);
+  };
 
   const runCommand = (command: string) => {
     editorRef.current?.focus();
@@ -236,11 +347,11 @@ export default function RichTextEditor() {
         ? (remaining[Math.min(index, remaining.length - 1)]?.id ?? null)
         : selectedId;
 
-    setRecords(remaining);
+    replaceRecords(remaining);
     setSelectedId(nextSelected);
     setLastDeleted({ review, index });
     setNotice(null);
-    window.localStorage.setItem(STORAGE_KEY, JSON.stringify(remaining));
+    persistRecords(remaining);
   };
 
   const restoreDeletedReview = () => {
@@ -254,8 +365,8 @@ export default function RichTextEditor() {
       0,
       deleted.review,
     );
-    window.localStorage.setItem(STORAGE_KEY, JSON.stringify(restored));
-    setRecords(restored);
+    replaceRecords(restored);
+    persistRecords(restored);
     setSelectedId(deleted.review.id);
     setMode("review");
     setLastDeleted(null);
@@ -264,10 +375,10 @@ export default function RichTextEditor() {
 
   const syncLabel =
     syncState === "loading"
-      ? "正在读取"
+      ? "正在同步"
       : syncState === "error"
-        ? "本地记录已重置"
-        : "已保存到本机";
+        ? "文件保存失败"
+        : "已保存到 JSONL";
 
   return (
     <main className="app-shell">
@@ -353,7 +464,7 @@ export default function RichTextEditor() {
 
           <div className="history-footnote">
             <i />
-            记录仅保存在这台设备
+            记录保存在项目 JSONL 文件
           </div>
         </aside>
 
@@ -463,6 +574,7 @@ export default function RichTextEditor() {
                       contentEditable
                       suppressContentEditableWarning
                       spellCheck={false}
+                      onInput={handleEditorInput}
                       aria-label="作文富文本编辑区"
                     />
                   </div>
