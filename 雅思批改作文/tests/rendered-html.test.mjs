@@ -23,10 +23,12 @@ test("uses the local product name and JSONL file storage", async () => {
   assert.match(storage, /rename\(temporaryPath, storagePath\)/);
 
   const lines = jsonl.trim().split("\n").map((line) => JSON.parse(line));
-  assert.equal(lines[0]._meta.version, 10);
+  assert.equal(lines[0]._meta.version, 15);
   assert.equal(typeof lines[0]._meta.browserStorageMigrated, "boolean");
   assert.ok(lines.length > 1);
+  assert.ok(lines.slice(1).some((record) => record.id === "chinese-new-year-project-letter"));
   assert.ok(lines.slice(1).some((record) => record.id === "weekend-camping-invitation"));
+  assert.ok(lines.slice(1).some((record) => record.id === "large-versus-small-company"));
 });
 
 test("does not contain online hosting configuration", async () => {
@@ -73,12 +75,12 @@ test("renders the four official IELTS writing criteria and their scores", async 
 
   assert.match(editor, /IELTS 四项评分/);
   assert.match(editor, /getOverallScore/);
-  assert.equal([...reviews.matchAll(/criteria:\s*\[/g)].length, 9);
-  assert.equal([...reviews.matchAll(/code: "TA",/g)].length, 8);
-  assert.equal([...reviews.matchAll(/code: "TR",/g)].length, 1);
-  assert.equal([...reviews.matchAll(/code: "CC",/g)].length, 9);
-  assert.equal([...reviews.matchAll(/code: "LR",/g)].length, 9);
-  assert.equal([...reviews.matchAll(/code: "GRA",/g)].length, 9);
+  assert.equal([...reviews.matchAll(/criteria:\s*\[/g)].length, 12);
+  assert.equal([...reviews.matchAll(/code: "TA",/g)].length, 10);
+  assert.equal([...reviews.matchAll(/code: "TR",/g)].length, 2);
+  assert.equal([...reviews.matchAll(/code: "CC",/g)].length, 12);
+  assert.equal([...reviews.matchAll(/code: "LR",/g)].length, 12);
+  assert.equal([...reviews.matchAll(/code: "GRA",/g)].length, 12);
 });
 
 test("adds the newest laptop review without restoring older deleted records", async () => {
@@ -118,7 +120,7 @@ test("keeps the neighbourhood dog safety letter in scored review history", async
     readFile(new URL("../lib/reviews.ts", import.meta.url), "utf8"),
   ]);
 
-  assert.match(editor, /CURRENT_SEED_VERSION = 10/);
+  assert.match(editor, /CURRENT_SEED_VERSION = 15/);
   assert.match(editor, /\["neighbourhood-dog-safety-complaint", 6\]/);
   assert.match(editor, /\["neighbourhood-dog-safety-complaint", 8\]/);
   assert.match(editor, /contentUpdatedInVersion > savedVersion/);
@@ -190,7 +192,7 @@ test("adds the weekend camping invitation as the newest scored review", async ()
     readFile(new URL("../lib/reviews.ts", import.meta.url), "utf8"),
   ]);
 
-  assert.match(editor, /CURRENT_SEED_VERSION = 10/);
+  assert.match(editor, /CURRENT_SEED_VERSION = 15/);
   assert.match(editor, /\["weekend-camping-invitation", 10\]/);
   assert.match(reviews, /id: "weekend-camping-invitation"/);
   assert.match(reviews, /哥哥受伤后的周末露营邀请信/);
@@ -200,6 +202,63 @@ test("adds the weekend camping invitation as the newest scored review", async ()
   assert.match(reviews, /<del>have rent<\/del><strong>have rented<\/strong>/);
   assert.match(reviews, /<del>sleepbags<\/del><strong>sleeping bags<\/strong>/);
   assert.match(reviews, /<del>Yours sincerely,<\/del><strong>Best wishes,<\/strong>/);
+});
+
+test("adds the Chinese New Year project letter as the newest scored review", async () => {
+  const [editor, reviews] = await Promise.all([
+    readFile(new URL("../app/rich-text-editor.tsx", import.meta.url), "utf8"),
+    readFile(new URL("../lib/reviews.ts", import.meta.url), "utf8"),
+  ]);
+
+  assert.match(editor, /CURRENT_SEED_VERSION = 15/);
+  assert.match(editor, /\["chinese-new-year-project-letter", 11\]/);
+  assert.match(reviews, /id: "chinese-new-year-project-letter"/);
+  assert.match(reviews, /向朋友介绍中国新年庆祝方式/);
+  assert.match(reviews, /wordCount: 164/);
+  assert.match(reviews, /score: "5\.0"/);
+  assert.match(reviews, /<del>of shpping malls<\/del><strong>shopping malls<\/strong>/);
+  assert.match(reviews, /<del>will be most execting<\/del><strong>will be the most excited<\/strong>/);
+  assert.match(reviews, /<del>celecrate<\/del><strong>celebrate<\/strong>/);
+  assert.match(reviews, /<del>those are<\/del><strong>this information is<\/strong>/);
+});
+
+test("refreshes the revised large-company essay in the review history", async () => {
+  const [editor, reviews] = await Promise.all([
+    readFile(new URL("../app/rich-text-editor.tsx", import.meta.url), "utf8"),
+    readFile(new URL("../lib/reviews.ts", import.meta.url), "utf8"),
+  ]);
+
+  assert.match(editor, /CURRENT_SEED_VERSION = 15/);
+  assert.match(editor, /\["large-versus-small-company", 13\]/);
+  assert.match(reviews, /id: "large-versus-small-company"/);
+  assert.match(reviews, /wordCount: 268/);
+  assert.match(reviews, /score: "5\.5"/);
+  assert.match(reviews, /<del>diffetent<\/del><strong>different<\/strong>/);
+  assert.match(reviews, /<del>have<\/del><strong>has<\/strong>/);
+  assert.match(reviews, /<del>abale<\/del><strong>able<\/strong>/);
+  assert.match(
+    reviews,
+    /<del>learn experiences from<\/del><strong>learn from the experience of<\/strong>/,
+  );
+});
+
+test("adds the internal department transfer request as the newest scored review", async () => {
+  const [editor, reviews] = await Promise.all([
+    readFile(new URL("../app/rich-text-editor.tsx", import.meta.url), "utf8"),
+    readFile(new URL("../lib/reviews.ts", import.meta.url), "utf8"),
+  ]);
+
+  assert.match(editor, /CURRENT_SEED_VERSION = 15/);
+  assert.match(editor, /\["internal-department-transfer-request", 14\]/);
+  assert.match(editor, /\["internal-department-transfer-request", 15\]/);
+  assert.match(reviews, /id: "internal-department-transfer-request"/);
+  assert.match(reviews, /公司内部调岗申请信/);
+  assert.match(reviews, /wordCount: 164/);
+  assert.match(reviews, /score: "5\.0"/);
+  assert.match(reviews, /<del>works<\/del><strong>tasks<\/strong>/);
+  assert.match(reviews, /<del>Your<\/del><strong>Yours<\/strong>/);
+  assert.match(reviews, /<del>professional skills<\/del><strong>knowledge of the company and communication skills<\/strong>/);
+  assert.match(reviews, /valuable training and support from my colleagues/);
 });
 
 test("keeps each corrected review aligned with its clean version", async () => {
@@ -219,7 +278,7 @@ test("keeps each corrected review aligned with its clean version", async () => {
       .replace(/\s+/g, " ")
       .trim();
 
-  assert.equal(blocks.length, 9);
+  assert.equal(blocks.length, 12);
   for (const [, id, block] of blocks) {
     const marked = block.match(/reviewHtml: `([\s\S]*?)`,\n    cleanHtml:/)?.[1];
     const clean = block.match(/cleanHtml: `([\s\S]*?)`,\n  }/)?.[1];
@@ -368,22 +427,31 @@ test("provides a complete PDF-based Band 6 Task 2 material library", async () =>
   assert.match(header, /href="\/task2-materials"/);
   assert.match(header, /大作文素材/);
   assert.match(page, /TaskTwoMaterialTabs/);
-  assert.match(materials, /大作文 PDF 主题素材/);
+  assert.match(materials, /大作文 G 类主题素材/);
   assert.match(materials, /完整保留原 PDF 的 8 类/);
-  assert.match(materials, /同一主题的小素材已适当合并/);
+  assert.match(materials, /已按 G 类常见题优先呈现/);
+  assert.match(materials, /★ 表示应先掌握的高频主题/);
   assert.doesNotMatch(materials, /每个话题精选 5 条，共 40 条/);
   assert.doesNotMatch(materials, /HOW TO USE|一条素材，只记 3 个部分|TOPIC LIBRARY|备考顺序/);
   assert.doesNotMatch(materials, /PDF 核心思路/);
   assert.match(materials, /可直接使用的逻辑链/);
   assert.match(materials, /Band 6 通用英文/);
   assert.match(materials, /中文翻译/);
+  assert.match(materials, /可用观点/);
+  assert.match(materials, /G类补充表达/);
+  assert.match(materials, /material-english-additional-hint/);
+  assert.match(materials, /material-english-additional/);
+  assert.match(materials, /material-translation-additional/);
+  assert.match(materials, /G 类补充短语/);
+  assert.doesNotMatch(materials, /material-general-focus/);
+  assert.match(materials, /generalCategoryOrder/);
   assert.match(materials, /highlightEnglish\(material\.paragraph, material\.phrases\)/);
   assert.match(materials, /核心词汇 \/ 短语/);
   assert.match(materials, /const orderedMaterials = \[\.\.\.activeCategory\.materials\]\.sort/);
   assert.match(materials, /Number\(Boolean\(second\.priority\)\)/);
-  assert.match(materials, /orderedMaterials\.map\(\(material\)/);
-  assert.match(materials, /aria-label="优先背诵"/);
-  assert.match(materials, /title="优先背诵主题"/);
+  assert.match(materials, /orderedMaterials\.map\(\(material, index\)/);
+  assert.match(materials, /aria-label="G类优先背诵"/);
+  assert.match(materials, /title="G类优先背诵主题"/);
   assert.equal([...data.matchAll(/priority: true/g)].length, 12);
   assert.match(data, /Population changes/);
   assert.match(data, /Religion and belief/);
@@ -391,6 +459,10 @@ test("provides a complete PDF-based Band 6 Task 2 material library", async () =>
   assert.match(data, /Law and human rights/);
   assert.match(data, /Investment and savings/);
   assert.match(data, /Vaccination and health education/);
+  assert.equal([...data.matchAll(/generalFocus:/g)].length, 12);
+  assert.equal([...data.matchAll(/generalFocus: \{[\s\S]*?translation:/g)].length, 12);
+  assert.match(data, /父母帮助作业/);
+  assert.match(data, /维生素补充剂/);
   assert.match(materials, /核心短语/);
   assert.match(materials, /navigator\.clipboard\.writeText/);
   assert.match(materials, /role="tablist"/);

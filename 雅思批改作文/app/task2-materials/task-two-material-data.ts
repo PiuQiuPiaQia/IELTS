@@ -8,6 +8,12 @@ export type TopicMaterial = {
   paragraph: string;
   translation: string;
   phrases: string[];
+  generalFocus?: {
+    promptHints: string[];
+    sentence: string;
+    translation: string;
+    phrases: string[];
+  };
   priority?: boolean;
 };
 
@@ -40,7 +46,6 @@ export const categories: MaterialCategory[] = [
         paragraph: "Population changes can create pressure on society. An ageing population increases the cost of pensions and health care, while rapid urbanisation raises the demand for housing, transport and other public services.",
         translation: "人口变化会给社会带来压力。人口老龄化会增加养老金和医疗成本，而快速城市化会提高住房、交通和其他公共服务的需求。",
         phrases: ["create pressure on society", "an ageing population", "the cost of pensions and health care", "rapid urbanisation", "the demand for housing, transport and other public services"],
-        priority: true,
       },
       {
         id: "society-education-training",
@@ -56,6 +61,12 @@ export const categories: MaterialCategory[] = [
         paragraph: "Investment in education gives people useful knowledge and job skills. Vocational training and lifelong learning also help workers adapt to a changing job market, while equal access to education can reduce social inequality.",
         translation: "教育投资能让人们获得有用的知识和工作技能。职业培训和终身学习也能帮助劳动者适应不断变化的就业市场，而平等的教育机会可以减少社会不平等。",
         phrases: ["investment in education", "useful knowledge and job skills", "vocational training and lifelong learning", "adapt to a changing job market", "equal access to education", "reduce social inequality"],
+        generalFocus: {
+          promptHints: ["职业培训", "工作技能", "终身学习"],
+          sentence: "For many young adults, practical training can make the move from school to work easier because it gives them useful skills and the confidence to apply for suitable jobs.",
+          translation: "对许多年轻人来说，职业培训可以让从学校到工作的过渡更容易，因为它能提供实用技能以及申请合适工作的信心。",
+          phrases: ["practical training", "the move from school to work", "useful skills", "apply for suitable jobs"],
+        },
         priority: true,
       },
       {
@@ -72,7 +83,6 @@ export const categories: MaterialCategory[] = [
         paragraph: "Social welfare can protect vulnerable people and reduce poverty. However, governments need fair and sustainable policies because the rising cost of pensions, health care and education may place pressure on public budgets.",
         translation: "社会福利可以保护弱势群体并减少贫困。但是，政府需要制定公平且可持续的政策，因为不断上升的养老金、医疗和教育成本可能会给公共预算带来压力。",
         phrases: ["social welfare", "protect vulnerable people and reduce poverty", "fair and sustainable policies", "the rising cost of pensions, health care and education", "place pressure on public budgets"],
-        priority: true,
       },
       {
         id: "society-crime-law",
@@ -103,6 +113,13 @@ export const categories: MaterialCategory[] = [
         paragraph: "Changes in family structure can affect the way children are raised. Parental leave, affordable childcare and early education can help working parents and give children a safer and more supportive environment.",
         translation: "家庭结构的变化会影响儿童的抚养方式。育儿假、可负担的托儿服务和早期教育可以帮助在职父母，并为儿童提供更安全、更有支持性的环境。",
         phrases: ["changes in family structure", "affect the way children are raised", "parental leave, affordable childcare and early education", "help working parents", "a safer and more supportive environment"],
+        generalFocus: {
+          promptHints: ["父母帮助作业", "儿童独立性", "家庭与学习"],
+          sentence: "Parents can give children guidance when a task is difficult, but children should still complete it independently so that they develop problem-solving skills and confidence.",
+          translation: "任务困难时，父母可以给孩子指导，但孩子仍应独立完成，这样才能培养解决问题的能力和信心。",
+          phrases: ["give children guidance", "complete it independently", "problem-solving skills", "confidence"],
+        },
+        priority: true,
       },
       {
         id: "society-cultural-identity",
@@ -141,7 +158,6 @@ export const categories: MaterialCategory[] = [
         paragraph: "Economic growth can create jobs, raise national income and improve living standards. However, real development should also improve education and health, and growth must be managed carefully to avoid pollution and resource depletion.",
         translation: "经济增长可以创造就业、提高国民收入并改善生活水平。但是，真正的发展还应改善教育和健康，而且必须谨慎管理增长，以避免污染和资源枯竭。",
         phrases: ["economic growth", "create jobs", "raise national income", "improve living standards", "improve education and health", "pollution and resource depletion"],
-        priority: true,
       },
       {
         id: "economy-employment",
@@ -157,6 +173,12 @@ export const categories: MaterialCategory[] = [
         paragraph: "Stable employment gives families a regular income and improves their quality of life. During periods of high unemployment, governments can invest in new jobs and provide vocational training to help people return to work.",
         translation: "稳定就业能为家庭提供固定收入并改善生活质量。在高失业时期，政府可以投资创造新岗位，并提供职业培训来帮助人们重返工作。",
         phrases: ["stable employment", "a regular income", "quality of life", "high unemployment", "invest in new jobs", "vocational training"],
+        generalFocus: {
+          promptHints: ["高薪还是好环境", "工作满意度", "职业选择"],
+          sentence: "Although a high salary is attractive, a supportive working environment and a reasonable work-life balance often help employees stay motivated and do their jobs well.",
+          translation: "尽管高薪很有吸引力，支持性的工作环境和合理的工作生活平衡通常能帮助员工保持积极并做好工作。",
+          phrases: ["a high salary", "a supportive working environment", "a reasonable work-life balance", "stay motivated"],
+        },
         priority: true,
       },
       {
@@ -203,6 +225,13 @@ export const categories: MaterialCategory[] = [
         paragraph: "International trade gives consumers more choices and allows businesses to enter larger markets. Globalisation can also spread technology and ideas, but trade rules should be fair so that poorer countries can share the benefits.",
         translation: "国际贸易给消费者更多选择，也让企业进入更大的市场。全球化还可以传播技术和思想，但贸易规则应当公平，让较贫穷的国家也能分享好处。",
         phrases: ["international trade", "more choices", "enter larger markets", "spread technology and ideas", "trade rules should be fair", "poorer countries can share the benefits"],
+        generalFocus: {
+          promptHints: ["海外工作", "国际公司", "职业发展"],
+          sentence: "For employees in international companies, working abroad can improve communication skills and give them a clearer understanding of how the business operates in other countries.",
+          translation: "对于国际公司的员工来说，海外工作可以提升沟通能力，并让他们更清楚地了解企业在其他国家如何运作。",
+          phrases: ["employees in international companies", "working abroad", "improve communication skills", "how the business operates"],
+        },
+        priority: true,
       },
       {
         id: "economy-tax-public-spending",
@@ -301,6 +330,13 @@ export const categories: MaterialCategory[] = [
         paragraph: "The media gives people access to information and allows more voices to be heard. However, global content can become so popular that local programmes, traditions and cultural identities receive less attention.",
         translation: "媒体让人们获得信息，也让更多声音被听见。但是，全球内容可能过于流行，导致本地节目、传统和文化身份受到较少关注。",
         phrases: ["access to information", "allows more voices to be heard", "global content", "local programmes, traditions and cultural identities", "receive less attention"],
+        generalFocus: {
+          promptHints: ["社交媒体", "线上交流", "面对面关系"],
+          sentence: "Social media allows people to stay in touch and share information quickly, yet users should limit the time they spend online so that face-to-face relationships are not neglected.",
+          translation: "社交媒体让人们保持联系并快速分享信息，但用户应限制上网时间，以免忽视面对面的人际关系。",
+          phrases: ["stay in touch", "share information quickly", "limit the time", "face-to-face relationships"],
+        },
+        priority: true,
       },
     ],
   },
@@ -354,6 +390,12 @@ export const categories: MaterialCategory[] = [
         paragraph: "Industrial emissions, farm waste and household rubbish can damage the environment and public health. Governments should set strict pollution standards, improve waste management and encourage clean technology and renewable energy.",
         translation: "工业排放、农业废物和生活垃圾会损害环境与公众健康。政府应制定严格的污染标准、改善废物管理，并鼓励清洁技术和可再生能源。",
         phrases: ["industrial emissions, farm waste and household rubbish", "damage the environment and public health", "strict pollution standards", "improve waste management", "clean technology and renewable energy"],
+        generalFocus: {
+          promptHints: ["过度买衣服", "包装浪费", "消费者选择"],
+          sentence: "Buying fewer unnecessary clothes and using reusable products can reduce household waste. These small changes are easier when shops offer durable goods with less packaging.",
+          translation: "少买不必要的衣服、使用可重复使用的产品可以减少家庭垃圾。当商店提供耐用且包装更少的商品时，这些小改变会更容易实现。",
+          phrases: ["unnecessary clothes", "reusable products", "reduce household waste", "durable goods"],
+        },
         priority: true,
       },
       {
@@ -408,7 +450,6 @@ export const categories: MaterialCategory[] = [
         paragraph: "New technology can improve productivity, product quality and economic growth. Although automation may replace some jobs, it also creates new industries, so workers need regular training to learn the skills required by the changing market.",
         translation: "新技术可以提高生产率、产品质量并促进经济增长。尽管自动化可能取代一些工作，它也会创造新产业，因此劳动者需要定期培训，以掌握变化中的市场所需技能。",
         phrases: ["improve productivity", "product quality and economic growth", "automation may replace some jobs", "creates new industries", "regular training", "skills required by the changing market"],
-        priority: true,
       },
       {
         id: "technology-internet",
@@ -424,6 +465,12 @@ export const categories: MaterialCategory[] = [
         paragraph: "The Internet gives people quick access to information and makes global communication easier. However, personal data must be protected, and governments should help people who lack devices or reliable Internet access.",
         translation: "互联网让人们快速获取信息，也使全球交流更加容易。但是，个人数据必须受到保护，政府也应帮助缺少设备或稳定网络的人。",
         phrases: ["quick access to information", "global communication", "personal data must be protected", "help people who lack devices or reliable Internet access"],
+        generalFocus: {
+          promptHints: ["老年人使用科技", "线上服务", "日常沟通"],
+          sentence: "Online services are useful for older people and busy workers because they make it easier to keep in touch, find information and complete simple tasks from home.",
+          translation: "线上服务对老年人和忙碌的工作者很有用，因为它们让人们更容易在家保持联系、查找信息和完成简单任务。",
+          phrases: ["older people and busy workers", "keep in touch", "find information", "from home"],
+        },
         priority: true,
       },
       {
@@ -455,6 +502,13 @@ export const categories: MaterialCategory[] = [
         paragraph: "Modern transport and communication can connect people, businesses and rural areas more efficiently. Smart systems may improve safety and access to services, but greener solutions are needed to control traffic congestion and pollution.",
         translation: "现代交通和通信可以更高效地连接个人、企业和农村地区。智能系统可以改善安全和服务可及性，但仍需要更环保的方案来控制交通拥堵和污染。",
         phrases: ["modern transport and communication", "rural areas more efficiently", "smart systems", "improve safety and access to services", "greener solutions", "traffic congestion and pollution"],
+        generalFocus: {
+          promptHints: ["日常通勤", "公共交通", "城市拥堵"],
+          sentence: "Good public transport saves commuters time and makes daily travel less stressful. It can also reduce the number of private cars on the road.",
+          translation: "良好的公共交通可以节省通勤者的时间，让日常出行压力更小。它还可以减少道路上的私家车数量。",
+          phrases: ["public transport", "saves commuters time", "daily travel", "private cars"],
+        },
+        priority: true,
       },
       {
         id: "technology-energy",
@@ -470,7 +524,6 @@ export const categories: MaterialCategory[] = [
         paragraph: "Investment in renewable energy and energy-saving technology can reduce emissions and waste. A wider range of energy sources can also improve energy security, but governments must balance environmental protection with economic needs.",
         translation: "投资可再生能源和节能技术可以减少排放与浪费。更多样的能源来源还能提高能源安全，但政府必须平衡环境保护与经济需求。",
         phrases: ["renewable energy and energy-saving technology", "reduce emissions and waste", "a wider range of energy sources", "improve energy security", "balance environmental protection with economic needs"],
-        priority: true,
       },
     ],
   },
@@ -494,6 +547,13 @@ export const categories: MaterialCategory[] = [
         paragraph: "A strong education system supports both economic and social progress. Governments should distribute resources fairly, improve teaching quality and update education policies as the needs of students and society change.",
         translation: "健全的教育体系可以支持经济与社会进步。政府应公平分配资源、提高教学质量，并随着学生和社会需求的变化更新教育政策。",
         phrases: ["a strong education system", "economic and social progress", "distribute resources fairly", "improve teaching quality", "update education policies", "needs of students and society"],
+        generalFocus: {
+          promptHints: ["入学年龄", "学校假期", "学校安排"],
+          sentence: "When deciding the school starting age, parents and schools should consider whether children are emotionally ready to follow routines and learn with others.",
+          translation: "在决定入学年龄时，家长和学校应考虑孩子是否已在情绪上准备好遵守日常规则并与他人一起学习。",
+          phrases: ["the school starting age", "emotionally ready", "follow routines", "learn with others"],
+        },
+        priority: true,
       },
       {
         id: "education-learning-methods",
@@ -509,6 +569,13 @@ export const categories: MaterialCategory[] = [
         paragraph: "Both classroom teaching and online learning can be useful when they suit students' needs. A supportive environment, good study habits and regular feedback help learners understand their progress and improve their results.",
         translation: "只要适合学生的需要，课堂教学和在线学习都可以发挥作用。良好的学习环境、学习习惯和定期反馈能帮助学习者了解自己的进度并提高成绩。",
         phrases: ["classroom teaching and online learning", "suit students' needs", "a supportive environment", "good study habits", "regular feedback", "understand their progress and improve their results"],
+        generalFocus: {
+          promptHints: ["独立完成作业", "父母帮助", "学习习惯"],
+          sentence: "Children learn best when adults explain a difficult point and then let them try by themselves. This gives them support without making them depend on others.",
+          translation: "当成年人解释难点后让孩子自己尝试时，孩子学得最好。这既能提供支持，又不会让他们依赖别人。",
+          phrases: ["explain a difficult point", "try by themselves", "gives them support", "depend on others"],
+        },
+        priority: true,
       },
       {
         id: "education-equality",
@@ -524,7 +591,6 @@ export const categories: MaterialCategory[] = [
         paragraph: "Equal access to education allows students from poor or disadvantaged backgrounds to develop useful skills. Financial support and fair resource distribution can improve their future job opportunities and reduce long-term inequality.",
         translation: "平等的教育机会让贫困或处于不利背景的学生获得实用技能。经济支持和公平的资源分配可以改善他们未来的就业机会，并减少长期不平等。",
         phrases: ["equal access to education", "poor or disadvantaged backgrounds", "develop useful skills", "financial support and fair resource distribution", "future job opportunities", "reduce long-term inequality"],
-        priority: true,
       },
       {
         id: "education-teachers",
@@ -555,6 +621,12 @@ export const categories: MaterialCategory[] = [
         paragraph: "School subjects should be relevant to students' future lives and careers. A balanced curriculum can teach practical skills, encourage creativity, include different cultures and help students develop the habit of lifelong learning.",
         translation: "学校课程应与学生未来的生活和职业相关。均衡的课程可以教授实用技能、鼓励创造力、包含不同文化，并帮助学生养成终身学习的习惯。",
         phrases: ["relevant to students' future lives and careers", "a balanced curriculum", "teach practical skills", "encourage creativity", "include different cultures", "lifelong learning"],
+        generalFocus: {
+          promptHints: ["体育课", "实用技能", "课程平衡"],
+          sentence: "Schools should give students time for physical activities as well as classroom lessons, since regular exercise can improve concentration and help children work with others.",
+          translation: "学校应该给学生安排体育活动和课堂学习的时间，因为规律运动可以提高注意力，并帮助孩子与他人合作。",
+          phrases: ["physical activities", "classroom lessons", "regular exercise", "improve concentration"],
+        },
         priority: true,
       },
     ],
@@ -579,7 +651,6 @@ export const categories: MaterialCategory[] = [
         paragraph: "Governments are responsible for basic services such as education, health care and public safety. They should also regulate the economy, protect the environment and support vulnerable groups to reduce poverty and inequality.",
         translation: "政府负责教育、医疗和公共安全等基本服务。政府还应监管经济、保护环境并支持弱势群体，以减少贫困和不平等。",
         phrases: ["basic services", "education, health care and public safety", "regulate the economy", "protect the environment", "support vulnerable groups", "reduce poverty and inequality"],
-        priority: true,
       },
       {
         id: "government-democracy-participation",
@@ -693,6 +764,13 @@ export const categories: MaterialCategory[] = [
         paragraph: "A balanced diet, regular exercise and enough rest can reduce the risk of disease. People should also avoid smoking and excessive drinking, while safe public spaces and a good work-life balance make healthy choices easier.",
         translation: "均衡饮食、规律运动和充足休息可以降低患病风险。人们还应避免吸烟和过量饮酒，而安全的公共空间和良好的工作生活平衡能让健康选择更容易。",
         phrases: ["a balanced diet, regular exercise and enough rest", "reduce the risk of disease", "avoid smoking and excessive drinking", "safe public spaces", "a good work-life balance", "make healthy choices easier"],
+        generalFocus: {
+          promptHints: ["维生素补充剂", "兴趣爱好", "运动与饮食"],
+          sentence: "People are more likely to improve their health when healthy food, regular exercise and enjoyable hobbies become part of their daily routine, rather than something they do only for a short time.",
+          translation: "当健康食品、规律运动和有趣的爱好成为日常生活的一部分，而不是短期行为时，人们更有可能改善健康。",
+          phrases: ["healthy food", "regular exercise", "enjoyable hobbies", "daily routine"],
+        },
+        priority: true,
       },
       {
         id: "health-mental-support",

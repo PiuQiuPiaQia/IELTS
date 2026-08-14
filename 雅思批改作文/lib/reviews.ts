@@ -30,6 +30,211 @@ export type ReviewRecord = ReviewSeed & {
 
 export const DEFAULT_REVIEW_SEEDS: ReviewSeed[] = [
   {
+    id: "internal-department-transfer-request",
+    taskType: "GENERAL TRAINING · TASK 1",
+    title: "公司内部调岗申请信",
+    question:
+      "You started in your present job two years ago. You now feel it is important for your career development to move to a different department in the same company.",
+    instruction: "Write a letter to your manager. In your letter",
+    points: [
+      "say what you have learned in your present job",
+      "suggest how the company would benefit from moving you to a different department",
+      "explain why you do not wish to leave the company",
+    ],
+    score: "5.0",
+    scoreNote: "四项等权平均 · 三个任务点均已涉及，但后两点展开偏短",
+    criteria: [
+      {
+        code: "TA",
+        name: "Task Achievement",
+        nameZh: "任务完成度",
+        score: 5,
+        feedback:
+          "全文约 164 词，达到最低字数。工作收获回答较清楚；新增的 more efficient 开始回应公司收益，without going to a new company 也触及留任意愿。但前者缺少具体解释，后者仍没有明确说明喜欢现公司的原因。",
+      },
+      {
+        code: "CC",
+        name: "Coherence & Cohesion",
+        nameZh: "连贯与衔接",
+        score: 5,
+        feedback:
+          "分段和信息顺序基本清楚，In addition 和 Therefore 能帮助推进内容。但第三段同时混合个人学习、公司收益和留任意愿，后两个要点之间的逻辑连接还不够充分。",
+      },
+      {
+        code: "LR",
+        name: "Lexical Resource",
+        nameZh: "词汇资源",
+        score: 5,
+        feedback:
+          "使用了 communication skills、practical skills、international business、professional skills 和 career development 等相关词汇。但搭配和拼写错误较多，例如 complete teamwork、complete works、responsebility、chioce、effiencient 和 advices。",
+      },
+      {
+        code: "GRA",
+        name: "Grammatical Range & Accuracy",
+        nameZh: "语法多样性与准确性",
+        score: 5,
+        feedback:
+          "已正确使用 Over the past two years, I have learned，并尝试使用定语从句和情态动词。但冠词、主谓一致和从句结构错误仍较频繁，例如 a lot communication skills、for me moving、business operate、a important 和 Looking forward your reply。",
+      },
+    ],
+    paperLabel: "Formal internal transfer request",
+    wordCount: 164,
+    focus: "任务点展开 · 词汇搭配 · 主谓一致 · 书信落款",
+    createdAt: "2026-08-13T10:00:00.000Z",
+    reviewHtml: `
+      <p>Dear <span class="change" data-note="英式正式称呼中 Mr 后通常不加句点"><del>Mr.</del><strong>Mr</strong></span> Wang,</p>
+      <p>I am writing <span class="change" data-note="write about whether 不适合引出正式请求；使用 write to ask whether 更自然; 礼貌提出申请时使用 could"><del>this letter about whether I can</del><strong>to ask whether I could</strong></span> move to a different department <span class="change" data-note="表示在同一公司内部调动，within our company 更准确"><del>in</del><strong>within</strong></span> our company.</p>
+      <p>Over the past two years, I have learned a lot <span class="change" data-note="learn a lot 后使用 about 引出学习内容"><strong>about</strong></span> communication skills and <span class="change" data-note="complete teamwork 不是自然搭配；表示团队合作使用 work as part of a team"><del>how to complete teamwork</del><strong>how to work as part of a team</strong></span>. Before I joined this company, I used to complete <span class="change" data-note="work 通常为不可数名词；这里表示一项项工作任务，使用 tasks"><del>works</del><strong>tasks</strong></span> by myself. With <span class="change" data-note="需要用 my 说明是我的同事"><strong>my </strong></span>colleagues' help, I have learned many practical skills<span class="change" data-note="such as 引出例子前加逗号"><strong>,</strong></span> such as how to communicate with <span class="change" data-note="cross-department colleagues 搭配生硬；使用 colleagues from other departments"><del>cross-department colleagues</del><strong>colleagues from other departments</strong></span>.</p>
+      <p>Recently, I found <span class="change" data-note="job opportunity from other department 搭配不自然；an opening in another department 表示另一个部门的空缺职位"><del>a new job opportunity from other department</del><strong>an opening in another department</strong></span>, which <span class="change" data-note="has responsibility for 可以使用，但 be responsible for 更简洁；responsebility 拼写错误"><del>has responsebility for</del><strong>is responsible for</strong></span> <span class="change" data-note="需要用所有格说明是公司的国际业务"><del>international business in our company</del><strong>our company's international business</strong></span>. I think it <span class="change" data-note="nice 过于口语化，使用 good；chioce 应拼写为 choice；固定结构为 a good choice for me to move"><del>is a very nice chioce for me moving</del><strong>would be a good choice for me to move</strong></span> to this department. In the new department, I would learn <span class="change" data-note="learn how 后直接接从句，不需要 that; 主语 the business 是单数，operate 使用 operates"><del>that how the business operate</del><strong>how the business operates</strong></span> in other countries. In addition, my <span class="change" data-note="professional skills 过于笼统；明确为对公司的了解和沟通技能，更能说明公司如何受益"><del>professional skills</del><strong>knowledge of the company and communication skills</strong></span> <span class="change" data-note="正式申请中使用 could 表示调岗后可以带来的收益; effiencient 拼写应为 efficient"><del>can make the new department more effiencient</del><strong>could help the new department work more efficiently with other teams</strong></span>. Therefore, <span class="change" data-note="句中代词不应大写; important 以元音音素开头，使用 an"><del>It is a</del><strong>it would be an</strong></span> important opportunity for my career development<span class="change" data-note="without going to a new company 只表示结果，没有解释为什么愿意留下；补充现公司提供的培训和同事支持作为原因"><del> without going to a new company</del><strong>, and I would not need to leave a company where I have received valuable training and support from my colleagues</strong></span>.</p>
+      <p><span class="change" data-note="Looking forward 不能直接作为完整句，look forward 后需要 to; 正式请求可使用 I would be grateful if you could; advice 是不可数名词，不能加 s"><del>Looking forward your reply and I will be grateful if you provide some other advices for my career development.</del><strong>I would be grateful if you could consider my request and give me some advice about this move. I look forward to your reply.</strong></span></p>
+      <p><span class="change" data-note="固定书信落款为 Yours sincerely，不是 Your sincerely"><del>Your</del><strong>Yours</strong></span> sincerely,</p>
+      <p>Allen</p>
+    `,
+    cleanHtml: `
+      <p>Dear Mr Wang,</p>
+      <p>I am writing to ask whether I could move to a different department within our company.</p>
+      <p>Over the past two years, I have learned a lot about communication skills and how to work as part of a team. Before I joined this company, I used to complete tasks by myself. With my colleagues' help, I have learned many practical skills, such as how to communicate with colleagues from other departments.</p>
+      <p>Recently, I found an opening in another department, which is responsible for our company's international business. I think it would be a good choice for me to move to this department. In the new department, I would learn how the business operates in other countries. In addition, my knowledge of the company and communication skills could help the new department work more efficiently with other teams. Therefore, it would be an important opportunity for my career development, and I would not need to leave a company where I have received valuable training and support from my colleagues.</p>
+      <p>I would be grateful if you could consider my request and give me some advice about this move. I look forward to your reply.</p>
+      <p>Yours sincerely,</p>
+      <p>Allen</p>
+    `,
+  },
+  {
+    id: "large-versus-small-company",
+    taskType: "WRITING · TASK 2",
+    title: "大公司与小公司工作选择",
+    question:
+      "Some people say that it is better to work for a large company than a small one.",
+    instruction: "Do you agree or disagree?",
+    points: [],
+    score: "5.5",
+    scoreNote: "四项等权平均 · 已达到词数，准确性仍需加强",
+    criteria: [
+      {
+        code: "TR",
+        name: "Task Response",
+        nameZh: "任务回应",
+        score: 6,
+        feedback:
+          "立场明确，并从薪资和工作环境两个角度作答；全文约 268 词，达到最低词数要求，主体段也有解释和例子。第二个理由仍可更具体说明稳定环境如何帮助员工长期发展。",
+      },
+      {
+        code: "CC",
+        name: "Coherence & Cohesion",
+        nameZh: "连贯与衔接",
+        score: 5.5,
+        feedback:
+          "四段结构完整，两个主体理由清楚；For the first reason、For the second reason 和 Therefore 的使用仍略显机械，Although 句的连接方式也需要修正。",
+      },
+      {
+        code: "LR",
+        name: "Lexical Resource",
+        nameZh: "词汇资源",
+        score: 5,
+        feedback:
+          "使用了 paid holidays、health insurance、financial pressure、training courses 和 long-term career development 等相关词汇；仍有拼写和搭配错误，例如 diffetent、abale、learn experiences 和 flexible environment。",
+      },
+      {
+        code: "GRA",
+        name: "Grammatical Range & Accuracy",
+        nameZh: "语法多样性与准确性",
+        score: 5,
+        feedback:
+          "能够使用 Although、so 和 which 等结构，但冠词、主谓一致和句子完整性错误仍较明显，例如 better choice、company often have、Because 单独成句，以及 Although 与 but 同时使用。",
+      },
+    ],
+    paperLabel: "Agree or disagree essay",
+    wordCount: 268,
+    focus: "冠词 · 主谓一致 · 连词搭配 · 词汇搭配",
+    createdAt: "2026-08-10T13:15:00.000Z",
+    reviewHtml: `
+      <p>People have <span class="change" data-note="拼写错误：diffetent 应为 different"><del>diffetent</del><strong>different</strong></span> views about whether it is better to work for a large company than for a small one. I agree that it would be <span class="change" data-note="choice 是可数名词单数，前面需要 a"><strong>a </strong></span>better choice to work in a large company<span class="change" data-note="Because 不能单独构成完整句；改为 because 连接前后原因；they 指代不清，明确写 employees"><del>. Because they can get</del><strong> because employees can receive</strong></span> good salaries and a supportive environment.</p>
+      <p><span class="change" data-note="原句结构错误；使用 The first reason for this view is that 更自然完整"><del>For the first reason why I hold this new is that</del><strong>The first reason for this view is that</strong></span> a large company often <span class="change" data-note="主语 a large company 是第三人称单数，使用 has"><del>have</del><strong>has</strong></span> more money and can provide better salaries for employees. A big company usually has many customers and a successful business, so workers can receive a higher income, paid holidays and health insurance. This can help workers support their families and improve <span class="change" data-note="workers 指复数人群，使用 their quality of life"><del>the</del><strong>their</strong></span> quality of life. For example, young parents who work for a large company may be <span class="change" data-note="拼写错误：abale 应为 able"><del>abale</del><strong>able</strong></span> to afford better education for their children and save money for the future. Therefore, good salaries can reduce financial pressure and make employees feel more secure.</p>
+      <p>For the second reason, a large company can provide a more supportive environment for employees. Although workers <span class="change" data-note="Although 不能与 but 同时使用；flexible environment 前需要 a，且应明确为工作环境；less stable 的主语应为 jobs"><del>have flexible environment in a small company, but they may be less stable</del><strong>may have a more flexible working environment in a small company, their jobs may be less stable</strong></span>. Larger companies often provide training courses for employees. They may have the chance to work with colleagues from other departments, which can improve their communication <span class="change" data-note="避免重复 skills，使用 communication and teamwork skills"><del>skills and teamwork skills</del><strong>and teamwork skills</strong></span>. For instance, a young graduate can <span class="change" data-note="learn experiences 搭配不自然；应使用 learn from the experience of"><del>learn experiences from</del><strong>learn from the experience of</strong></span> other colleagues and managers. This is good for <span class="change" data-note="career 前使用物主代词 their"><del>career</del><strong>their career</strong></span>. Therefore, a supportive environment is one of the most important factors for <span class="change" data-note="career development 是不可数概念，这里不使用 a"><del>a long-term career development</del><strong>long-term career development</strong></span>.</p>
+      <p>In conclusion, I totally agree that it is a better choice for workers because of good salaries and a supportive environment where they can learn skills and develop their careers.</p>
+    `,
+    cleanHtml: `
+      <p>People have different views about whether it is better to work for a large company than for a small one. I agree that it would be a better choice to work in a large company because employees can receive good salaries and a supportive environment.</p>
+      <p>The first reason for this view is that a large company often has more money and can provide better salaries for employees. A big company usually has many customers and a successful business, so workers can receive a higher income, paid holidays and health insurance. This can help workers support their families and improve their quality of life. For example, young parents who work for a large company may be able to afford better education for their children and save money for the future. Therefore, good salaries can reduce financial pressure and make employees feel more secure.</p>
+      <p>For the second reason, a large company can provide a more supportive environment for employees. Although workers may have a more flexible working environment in a small company, their jobs may be less stable. Larger companies often provide training courses for employees. They may have the chance to work with colleagues from other departments, which can improve their communication and teamwork skills. For instance, a young graduate can learn from the experience of other colleagues and managers. This is good for their career. Therefore, a supportive environment is one of the most important factors for long-term career development.</p>
+      <p>In conclusion, I totally agree that it is a better choice for workers because of good salaries and a supportive environment where they can learn skills and develop their careers.</p>
+    `,
+  },
+  {
+    id: "chinese-new-year-project-letter",
+    taskType: "GENERAL TRAINING · TASK 1",
+    title: "向朋友介绍中国新年庆祝方式",
+    question:
+      "Your English-speaking friend has asked for your help with a college project he/she is doing about celebrating New Year in different countries.",
+    instruction: "Write a letter to your friend. In your letter",
+    points: [
+      "say how important New Year is to people in your country",
+      "describe how New Year is celebrated in your country",
+      "explain what you like about New Year celebrations in your country",
+    ],
+    score: "5.0",
+    scoreNote: "四项等权平均 · 三个任务点均有涉及，第三点展开不足",
+    criteria: [
+      {
+        code: "TA",
+        name: "Task Achievement",
+        nameZh: "任务完成度",
+        score: 5,
+        feedback:
+          "三个任务点均有涉及，并写到了返乡、家庭聚餐、红包和烟花等具体内容；但是新年的重要性说明较笼统，自己喜欢的部分只有一句，缺少进一步解释。全文达到 150 词要求。",
+      },
+      {
+        code: "CC",
+        name: "Coherence & Cohesion",
+        nameZh: "连贯与衔接",
+        score: 5,
+        feedback:
+          "文章基本按照重要性、庆祝方式和个人喜好分段，整体顺序容易理解；部分信息连接生硬，families 等词重复，烟花句还出现了逗号连接两个完整句的问题。",
+      },
+      {
+        code: "LR",
+        name: "Lexical Resource",
+        nameZh: "词汇资源",
+        score: 5,
+        feedback:
+          "使用了 legal holiday、red envelopes、fireworks、environment 和 public health 等相关词汇；但 shpping、execting、evolopes、celecrate 等拼写错误较多，provide a legal holiday、every number of families 等搭配不自然。",
+      },
+      {
+        code: "GRA",
+        name: "Grammatical Range & Accuracy",
+        nameZh: "语法多样性与准确性",
+        score: 4,
+        feedback:
+          "能够使用 because 和 so that 表达原因与结果，但介词、单复数、被动语态和主谓一致错误频繁，例如 In the day、Fireworks is、has be banned 和 it damage。多数意思仍然可以理解。",
+      },
+    ],
+    paperLabel: "Informal information letter",
+    wordCount: 164,
+    focus: "拼写 · 主谓一致 · 介词与固定搭配",
+    createdAt: "2026-08-08T10:34:19.000Z",
+    reviewHtml: `
+      <p>Dear Alex,</p>
+      <p><span class="change" data-note="写给朋友时可以使用缩写；give you some information 比 provide more information 更自然，并明确介绍的是 Chinese New Year"><del>I am writing to provide more information about New Year</del><strong>I'm writing to give you some information about Chinese New Year</strong></span> in my country.</p>
+      <p><span class="change" data-note="原句不能清楚说明节日的重要程度；one of the most important festivals 可以直接回应第一个任务点"><del>It is especially important for us to celebrate New Year</del><strong>Chinese New Year is one of the most important festivals</strong></span> in China. During <span class="change" data-note="表示春节期间使用 during the Chinese New Year period；government 在这里用单数；法定公共假期用 public holiday；so that 后需要完整句"><del>the period of New Year, governments provide a legal holiday for citizens to return home</del><strong>the Chinese New Year period, the government provides a public holiday so that people can return home</strong></span>. Most <span class="change" data-note="most 后直接接复数名词，不使用 of；shpping 拼写应为 shopping"><del>of shpping malls</del><strong>shopping malls</strong></span> will be closed and workers will return to their <span class="change" data-note="workers 是复数，不同的人返回各自的家乡，因此 hometown 使用复数"><del>hometown</del><strong>hometowns</strong></span>.</p>
+      <p><span class="change" data-note="表示在某一天使用介词 on"><del>In</del><strong>On</strong></span> the day before <span class="change" data-note="这里具体指中国新年，需要补充 Chinese"><strong>Chinese </strong></span>New Year, <span class="change" data-note="every number of 不是正确的数量表达；many families 表示许多家庭"><del>every number of</del><strong>many</strong></span> families <span class="change" data-note="描述节日惯例使用一般现在时"><del>will celebrate</del><strong>celebrate</strong></span> the festival together and prepare <span class="change" data-note="prepare dinner 不需要冠词；with their relatives 可以避免重复 families"><del>the dinner with families</del><strong>dinner with their relatives</strong></span>. Children <span class="change" data-note="人感到兴奋使用 excited；最高级前需要 the"><del>will be most execting</del><strong>will be the most excited</strong></span> because they will receive some red <span class="change" data-note="evolopes 拼写应为 envelopes；which 从句可以自然说明红包的用途；anything 应改为 things"><del>evolopes so that they can buy anything</del><strong>envelopes, which they can use to buy things</strong></span> such as toys and books. <span class="change" data-note="fireworks 作复数；固定结构为 one of the most important parts of；however 不能只用逗号连接两个完整句；被动语态为 have been banned；代词和谓语都应使用复数"><del>Fireworks is one part of the most important activities in this festival, however, it has be banned by governments because it damage</del><strong>Fireworks are one of the most important parts of this festival. However, they have been banned by local governments in some places because they damage</strong></span> the environment and public health.</p>
+      <p>My <span class="change" data-note="项目采用英式拼写，使用 favourite；美式 favorite 本身并非错误"><del>favorite</del><strong>favourite</strong></span> part <span class="change" data-note="固定搭配为 part of，并明确指 Chinese New Year"><del>in the New Year</del><strong>of Chinese New Year</strong></span> is that we can <span class="change" data-note="拼写错误：celecrate 应为 celebrate"><del>celecrate</del><strong>celebrate</strong></span> together and <span class="change" data-note="meet others 过于含糊；春节语境下 see relatives and friends 更具体自然"><del>meet others</del><strong>see relatives and friends</strong></span> again.</p>
+      <p>I hope <span class="change" data-note="information 是不可数名词，应使用 this information is；后面的请求另起一句更清楚"><del>those are</del><strong>this information is</strong></span> useful for your college project<span class="change" data-note="and reply 会错误地与 I hope 并列；改为新的祈使句 Please reply"><del> and reply</del><strong>. Please reply</strong></span> if you need more details.</p>
+      <p>Best wishes,</p>
+      <p>Allen</p>
+    `,
+    cleanHtml: `
+      <p>Dear Alex,</p>
+      <p>I'm writing to give you some information about Chinese New Year in my country.</p>
+      <p>Chinese New Year is one of the most important festivals in China. During the Chinese New Year period, the government provides a public holiday so that people can return home. Most shopping malls will be closed and workers will return to their hometowns.</p>
+      <p>On the day before Chinese New Year, many families celebrate the festival together and prepare dinner with their relatives. Children will be the most excited because they will receive some red envelopes, which they can use to buy things such as toys and books. Fireworks are one of the most important parts of this festival. However, they have been banned by local governments in some places because they damage the environment and public health.</p>
+      <p>My favourite part of Chinese New Year is that we can celebrate together and see relatives and friends again.</p>
+      <p>I hope this information is useful for your college project. Please reply if you need more details.</p>
+      <p>Best wishes,</p>
+      <p>Allen</p>
+    `,
+  },
+  {
     id: "weekend-camping-invitation",
     taskType: "GENERAL TRAINING · TASK 1",
     title: "哥哥受伤后的周末露营邀请信",

@@ -4821,6 +4821,7 @@ button {
 }
 
 .material-panel .material-card > .material-logic,
+.material-panel .material-card > .material-ideas,
 .material-panel .material-card > .material-english,
 .material-panel .material-card > .material-translation {
   display: block;
@@ -4843,6 +4844,7 @@ button {
 
 .material-panel .material-useful-for strong,
 .material-panel .material-logic > strong,
+.material-panel .material-ideas > strong,
 .material-panel .material-keywords > strong {
   font-size: 13px;
 }
@@ -4850,6 +4852,45 @@ button {
 .material-panel .material-logic {
   margin-top: 13px;
   padding: 14px 16px;
+}
+
+.material-panel .material-ideas {
+  margin-top: 15px;
+  padding: 0 1px;
+}
+
+.material-panel .material-ideas ul {
+  margin: 7px 0 0;
+  padding-left: 19px;
+  color: #52645a;
+  font-size: 14px;
+  line-height: 1.75;
+}
+
+.material-panel .material-ideas li + li {
+  margin-top: 2px;
+}
+
+.material-panel .material-english-additional {
+  margin-top: 16px;
+  padding-top: 14px;
+  border-top: 1px solid #d7e4dc;
+}
+
+.material-panel .material-english-additional-hint {
+  display: block;
+  color: #7f7469;
+  font-family: var(--font-geist-sans), "PingFang SC", sans-serif;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.material-panel .material-english-additional p {
+  margin: 7px 0 0;
+  color: #34483b;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 18px;
+  line-height: 1.72;
 }
 
 .material-panel .material-logic li {
@@ -4939,6 +4980,17 @@ button {
   line-height: 1.75;
 }
 
+.material-panel .material-translation-additional {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid #e1e9e3;
+}
+
+.material-panel .material-translation-additional span {
+  color: #68756e;
+  font-weight: 650;
+}
+
 .material-panel .material-keywords {
   margin-top: 0;
   padding-top: 14px;
@@ -4947,6 +4999,13 @@ button {
 .material-panel .material-keywords code {
   padding: 4px 8px;
   font-size: 13px;
+}
+
+.material-panel .material-keywords-additional-label {
+  display: block;
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid #e1e9e3;
 }
 
 @media (max-width: 760px) {
@@ -4966,5 +5025,9 @@ button {
     align-items: flex-start;
     flex-direction: column;
     gap: 7px;
+  }
+
+  .material-panel .material-english-additional p {
+    font-size: 16px;
   }
 }

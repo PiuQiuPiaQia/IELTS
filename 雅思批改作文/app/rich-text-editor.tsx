@@ -19,8 +19,11 @@ type ReviewFilePayload = {
 const REVIEW_API_PATH = "/api/local-reviews";
 const LEGACY_STORAGE_KEY = "ielts-writing-review-history-v1";
 const LEGACY_SEED_VERSION_KEY = "ielts-writing-review-seed-version";
-const CURRENT_SEED_VERSION = 10;
+const CURRENT_SEED_VERSION = 15;
 const SEED_INTRODUCED_VERSION = new Map<string, number>([
+  ["internal-department-transfer-request", 14],
+  ["large-versus-small-company", 12],
+  ["chinese-new-year-project-letter", 11],
   ["weekend-camping-invitation", 10],
   ["international-school-reference-letter", 9],
   ["reception-area-improvements", 2],
@@ -29,6 +32,8 @@ const SEED_INTRODUCED_VERSION = new Map<string, number>([
   ["neighbourhood-dog-safety-complaint", 6],
 ]);
 const SEED_CONTENT_UPDATED_VERSION = new Map<string, number>([
+  ["internal-department-transfer-request", 15],
+  ["large-versus-small-company", 13],
   ["neighbourhood-dog-safety-complaint", 8],
   ["cancelled-flight-insurance-claim", 8],
   ["home-work-laptop-problem", 8],
