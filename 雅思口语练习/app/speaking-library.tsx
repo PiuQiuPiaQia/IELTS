@@ -7,7 +7,6 @@ import {
   additionalMaterials,
   type AdditionalMaterial,
 } from "./additional-materials";
-import { remainingMaterials } from "./remaining-materials";
 
 type Topic = {
   id: string;
@@ -926,10 +925,7 @@ export default function SpeakingLibrary() {
   const [activeMaterialId, setActiveMaterialId] = useState("shanghai");
   const [activeTopicId, setActiveTopicId] = useState("helpful-person");
   const [activeParkTopicId, setActiveParkTopicId] = useState("park-recommend");
-  const orderedAdditionalMaterials = [
-    ...additionalMaterials,
-    ...remainingMaterials,
-  ].sort((a, b) => a.tab.localeCompare(b.tab, "zh-CN"));
+  const orderedAdditionalMaterials = additionalMaterials;
   const activeAdditionalMaterial =
     orderedAdditionalMaterials.find((material) => material.id === activeMaterialId) ??
     orderedAdditionalMaterials[0];

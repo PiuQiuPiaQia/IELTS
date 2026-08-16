@@ -35,7 +35,9 @@ test("server-renders the IELTS speaking material library", async () => {
   assert.match(html, /<title>雅思口语练习｜Part 2 通用素材库<\/title>/i);
   assert.match(html, /Part 2 通用素材练习/);
   assert.match(html, /素材 01｜Alex 工作故事/);
-  assert.match(html, /素材 16｜常用应用/);
+  assert.match(html, /素材 02｜家附近的公园/);
+  assert.match(html, /素材 03｜上海城市旅行/);
+  assert.doesNotMatch(html, /素材 04｜职业规划|素材 16｜常用应用/);
   assert.match(html, /核心通用素材库/);
   assert.match(html, /适配本题的完整范文/);
   assert.doesNotMatch(html, developmentPreviewMeta);
@@ -54,7 +56,7 @@ test("keeps the finished site free of starter preview code", async () => {
   assert.match(layout, /title:\s*"雅思口语练习"/);
   assert.match(speakingLibrary, /Part 2 通用素材练习/);
   assert.match(speakingLibrary, /additionalMaterials/);
-  assert.match(speakingLibrary, /remainingMaterials/);
+  assert.doesNotMatch(speakingLibrary, /remainingMaterials/);
   assert.doesNotMatch(page, /codex-preview|_sites-preview|SkeletonPreview/);
   assert.doesNotMatch(layout, /codex-preview|_sites-preview|SkeletonPreview/);
   assert.doesNotMatch(packageJson, /react-loading-skeleton/);
