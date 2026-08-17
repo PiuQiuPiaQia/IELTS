@@ -10,6 +10,23 @@ const connectors = [
   "On the other hand", "while", "but", "As a result", "Therefore", "Overall", "so",
 ];
 
+const stopWords = new Set([
+  "a", "an", "the", "and", "or", "of", "to", "in", "on", "at", "for", "from", "with", "by", "about", "as", "than",
+  "that", "this", "these", "those", "it", "its", "they", "them", "their", "he", "she", "his", "her", "we", "our", "you", "your", "i", "my",
+  "some", "many", "much", "more", "most", "very", "really", "usually", "often", "also", "only", "both", "one", "all", "each", "every", "different",
+  "can", "could", "should", "would", "may", "might", "will", "must", "do", "does", "did", "have", "has", "had", "be", "is", "are", "was", "were", "been",
+  "who", "what", "when", "where", "why", "how", "if", "not", "no", "yes", "but", "so", "because", "since", "however", "while", "overall",
+]);
+
+function escapeRegExp(text: string) {
+  return text.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
+const connectorSource = connectors
+  .map(escapeRegExp)
+  .sort((a, b) => b.length - a.length)
+  .join("|");
+
 type LogicRole = "观点" | "原因" | "例子/结果" | "对比";
 
 function getLogicRole(sentence: string, index: number): LogicRole {
@@ -22,13 +39,59 @@ function getLogicRole(sentence: string, index: number): LogicRole {
   return "例子/结果";
 }
 
+function getKeyPhrases(text: string) {
+  const withoutConnectors = text.replace(new RegExp(`\\b(?:${connectorSource})\\b`, "gi"), " ");
+  const chunks = withoutConnectors
+    .split(/[,.!?;:()]|\s+/)
+    .map((word) => word.replace(/^[^A-Za-z]+|[^A-Za-z']+$/g, ""))
+    .filter(Boolean);
+  const phrases: string[] = [];
+  let current: string[] = [];
+
+  const flush = () => {
+    if (!current.length) return;
+    const phrase = current.slice(-5).join(" ");
+    if (current.length >= 2 || phrase.length >= 8) phrases.push(phrase);
+    current = [];
+  };
+
+  for (const word of chunks) {
+    if (stopWords.has(word.toLowerCase())) flush();
+    else current.push(word);
+  }
+  flush();
+
+  const unique = [...new Set(phrases)]
+    .map((phrase) => ({
+      phrase,
+      index: text.toLowerCase().indexOf(phrase.toLowerCase()),
+      score: phrase.split(/\s+/).length * 10 + phrase.length,
+    }))
+    .filter(({ index }) => index >= 0)
+    .sort((a, b) => b.score - a.score)
+    .slice(0, 3)
+    .sort((a, b) => a.index - b.index)
+    .map(({ phrase }) => phrase);
+
+  if (unique.length) return unique;
+  const fallback = withoutConnectors.match(/[A-Za-z]+(?:['-][A-Za-z]+)?(?:\s+[A-Za-z]+(?:['-][A-Za-z]+)?){0,3}/g);
+  return fallback ? [fallback.at(-1)!.trim()] : [];
+}
+
 function highlightLogic(text: string) {
-  const pattern = new RegExp(`(${connectors.join("|")})`, "gi");
-  return text.split(pattern).map((part, index) =>
-    connectors.some((connector) => connector.toLowerCase() === part.toLowerCase())
-      ? <mark className="logic-connector" key={index}>{part}</mark>
-      : part,
-  );
+  const keyPhrases = getKeyPhrases(text);
+  const tokenSource = [connectorSource, ...keyPhrases.map(escapeRegExp)].join("|");
+  const pattern = new RegExp(`\\b(${tokenSource})\\b`, "gi");
+  return text.split(pattern).map((part, index) => {
+    const lowerPart = part.toLowerCase();
+    if (connectors.some((connector) => connector.toLowerCase() === lowerPart)) {
+      return <mark className="logic-connector" key={index}>{part}</mark>;
+    }
+    if (keyPhrases.some((phrase) => phrase.toLowerCase() === lowerPart)) {
+      return <mark className="logic-key-info" key={index}>{part}</mark>;
+    }
+    return part;
+  });
 }
 
 function splitEnglishSentences(text: string) {
@@ -113,7 +176,7 @@ export default function PartThreeLibrary() {
                               return (
                                 <div className={`logic-line logic-${role}`} key={`${sentence}-${sentenceIndex}`}>
                                   <span className="logic-role">{role}</span>
-                                  <p><strong>{highlightLogic(sentence)}</strong></p>
+                                  <p>{highlightLogic(sentence)}</p>
                                 </div>
                               );
                             })}

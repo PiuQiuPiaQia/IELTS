@@ -472,10 +472,6 @@ button {
   line-height: 1.7;
 }
 
-.logic-line strong {
-  font-weight: 650;
-}
-
 .logic-connector {
   padding: 1px 4px;
   border-radius: 4px;
@@ -483,6 +479,15 @@ button {
   background: #fff0b8;
   box-shadow: inset 0 -1px 0 #e4c661;
   font-weight: 800;
+}
+
+.logic-key-info {
+  padding: 1px 3px;
+  border-radius: 4px;
+  color: #1f5b3c;
+  background: #dff1e5;
+  box-shadow: inset 0 -1px 0 #a9d0b7;
+  font-weight: 750;
 }
 
 .part-three-chinese-answer {

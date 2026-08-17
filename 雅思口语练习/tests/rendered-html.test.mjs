@@ -75,6 +75,9 @@ test("includes the Part 3 prediction library", async () => {
   assert.match(page, /partThreeGroups/);
   assert.match(page, /partThreeTranslations/);
   assert.match(page, /观点.*原因.*例子\/\u7ed3果/s);
+  assert.match(page, /logic-connector/);
+  assert.match(page, /logic-key-info/);
+  assert.doesNotMatch(page, /<strong>\{highlightLogic\(sentence\)\}<\/strong>/);
   assert.equal((data.match(/^\s*\{ question:/gm) ?? []).length, 162);
   assert.equal((translations.match(/^ {2}".+": \{$/gm) ?? []).length, 162);
 });
