@@ -39,6 +39,8 @@ test("server-renders the IELTS speaking material library", async () => {
   assert.match(html, /素材 03｜上海城市旅行/);
   assert.match(html, /素材 04｜种菜的奶奶/);
   assert.match(html, /素材 05｜戒断手机瘾/);
+  assert.match(html, /素材 06｜家庭电影之夜/);
+  assert.match(html, /素材 07｜喜欢的歌手与音乐活动/);
   assert.doesNotMatch(html, /素材 04｜职业规划|素材 16｜常用应用/);
   assert.match(html, /核心通用素材库/);
   assert.match(html, /适配本题的完整范文/);
