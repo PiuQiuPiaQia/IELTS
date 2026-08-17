@@ -1,6 +1,5 @@
 "use client";
-
-import Link from "next/link";
+/* eslint-disable @next/next/no-html-link-for-pages -- plain links are required for reliable Vinext local navigation */
 
 type Item = { question: string; answer: string; note?: string };
 type Group = { id: string; tab: string; title: string; description: string; items: Item[] };
@@ -304,8 +303,8 @@ export default function PartOneLibrary() {
 
   return <main className="reference-shell">
     <header className="topbar">
-      <Link className="brand" href="/" aria-label="返回雅思口语练习"><div className="brand-mark">S</div><div><div className="brand-title">雅思口语练习</div><div className="brand-subtitle">Local speaking practice</div></div></Link>
-      <nav className="main-nav" aria-label="主导航"><Link className="active" aria-current="page" href="/part-1">Part 1 练习</Link><Link href="/">Part 2 练习</Link><Link href="/part-3">Part 3 练习</Link></nav>
+      <a className="brand" href="/" aria-label="返回雅思口语练习"><div className="brand-mark">S</div><div><div className="brand-title">雅思口语练习</div><div className="brand-subtitle">Local speaking practice</div></div></a>
+      <nav className="main-nav" aria-label="主导航"><a className="active" aria-current="page" href="/part-1">Part 1 练习</a><a href="/">Part 2 练习</a><a href="/part-3">Part 3 练习</a></nav>
       <div className="saved-state"><i />已练记录</div>
     </header>
     <article className="tab-reference">

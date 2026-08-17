@@ -1,6 +1,6 @@
 "use client";
+/* eslint-disable @next/next/no-html-link-for-pages -- plain links are required for reliable Vinext local navigation */
 
-import Link from "next/link";
 import { partThreeGroups } from "./part-three-data";
 
 const connectors = [
@@ -23,17 +23,17 @@ export default function PartThreeLibrary() {
   return (
     <main className="reference-shell">
       <header className="topbar">
-        <Link className="brand" href="/" aria-label="返回雅思口语练习">
+        <a className="brand" href="/" aria-label="返回雅思口语练习">
           <div className="brand-mark">S</div>
           <div>
             <div className="brand-title">雅思口语练习</div>
             <div className="brand-subtitle">Local speaking practice</div>
           </div>
-        </Link>
+        </a>
         <nav className="main-nav" aria-label="主导航">
-          <Link href="/part-1">Part 1 练习</Link>
-          <Link href="/">Part 2 练习</Link>
-          <Link className="active" href="/part-3" aria-current="page">Part 3 练习</Link>
+          <a href="/part-1">Part 1 练习</a>
+          <a href="/">Part 2 练习</a>
+          <a className="active" href="/part-3" aria-current="page">Part 3 练习</a>
         </nav>
         <div className="saved-state"><i />押题观点库</div>
       </header>

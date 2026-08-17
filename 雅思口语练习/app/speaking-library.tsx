@@ -1,7 +1,7 @@
 "use client";
+/* eslint-disable @next/next/no-html-link-for-pages -- plain links are required for reliable Vinext local navigation */
 
 import { useState } from "react";
-import Link from "next/link";
 import { modelAnswersDetailed } from "./model-answers";
 import {
   additionalMaterials,
@@ -1067,17 +1067,17 @@ export default function SpeakingLibrary() {
   return (
     <main className="reference-shell">
       <header className="topbar">
-        <Link className="brand" href="/" aria-label="返回雅思口语练习">
+        <a className="brand" href="/" aria-label="返回雅思口语练习">
           <div className="brand-mark">S</div>
           <div>
             <div className="brand-title">雅思口语练习</div>
             <div className="brand-subtitle">Local speaking practice</div>
           </div>
-        </Link>
+        </a>
         <nav className="main-nav" aria-label="主导航">
-          <Link href="/part-1">Part 1 练习</Link>
-          <Link className="active" aria-current="page" href="/">Part 2 练习</Link>
-          <Link href="/part-3">Part 3 练习</Link>
+          <a href="/part-1">Part 1 练习</a>
+          <a className="active" aria-current="page" href="/">Part 2 练习</a>
+          <a href="/part-3">Part 3 练习</a>
         </nav>
         <div className="saved-state"><i />本地素材库</div>
       </header>
