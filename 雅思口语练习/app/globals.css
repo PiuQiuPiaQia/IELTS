@@ -402,6 +402,109 @@ button {
   font-weight: 750;
 }
 
+.part-three-question-pair {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(260px, 0.82fr);
+  gap: 18px;
+  align-items: start;
+}
+
+.part-three-question-translation {
+  margin: 0;
+  color: #69736d;
+  font-size: 13px;
+  line-height: 1.55;
+}
+
+.part-three-bilingual-answer {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(280px, 0.85fr);
+  gap: 14px;
+  margin-top: 7px;
+}
+
+.part-three-english-answer,
+.part-three-chinese-answer {
+  border: 1px solid #dfe8e2;
+  border-radius: 10px;
+  background: white;
+}
+
+.part-three-english-answer {
+  padding: 7px;
+}
+
+.logic-line {
+  display: grid;
+  grid-template-columns: 42px 1fr;
+  gap: 9px;
+  align-items: start;
+  padding: 7px 8px;
+  border-radius: 7px;
+}
+
+.logic-line + .logic-line {
+  margin-top: 3px;
+}
+
+.logic-line:nth-child(even) {
+  background: #f7faf8;
+}
+
+.logic-role {
+  margin-top: 2px;
+  padding: 2px 4px;
+  border: 1px solid #bed3c5;
+  border-radius: 999px;
+  color: #3d6d54;
+  background: #edf6f0;
+  font-size: 10px;
+  font-weight: 800;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.logic-line p {
+  margin: 0;
+  color: #294739;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.logic-line strong {
+  font-weight: 650;
+}
+
+.logic-connector {
+  padding: 1px 4px;
+  border-radius: 4px;
+  color: #694d10;
+  background: #fff0b8;
+  box-shadow: inset 0 -1px 0 #e4c661;
+  font-weight: 800;
+}
+
+.part-three-chinese-answer {
+  padding: 13px 14px;
+  border-left: 3px solid #b9cec0;
+  background: #f7f9f7;
+}
+
+.part-three-chinese-answer > span {
+  color: #6f7b74;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+}
+
+.part-three-chinese-answer p {
+  margin: 7px 0 0;
+  color: #53605a;
+  font-size: 13px;
+  line-height: 1.75;
+}
+
 .part-one-note {
   margin: 9px 0 0;
   color: #8a661f;
@@ -1107,6 +1210,12 @@ blockquote {
     grid-row: 2;
     grid-column: 1 / -1;
     justify-self: center;
+  }
+
+  .part-three-question-pair,
+  .part-three-bilingual-answer {
+    grid-template-columns: 1fr;
+    gap: 8px;
   }
 
   .saved-state {

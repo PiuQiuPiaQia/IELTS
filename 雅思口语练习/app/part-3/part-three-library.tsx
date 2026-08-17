@@ -2,19 +2,37 @@
 /* eslint-disable @next/next/no-html-link-for-pages -- plain links are required for reliable Vinext local navigation */
 
 import { partThreeGroups } from "./part-three-data";
+import { partThreeTranslations } from "./part-three-translations";
 
 const connectors = [
-  "I think", "In my opinion", "because", "For example", "However",
-  "In contrast", "Overall", "It depends", "while", "As a result",
+  "I think", "In my opinion", "I believe", "It depends", "because", "since",
+  "For example", "For instance", "such as", "However", "In contrast",
+  "On the other hand", "while", "but", "As a result", "Therefore", "Overall", "so",
 ];
 
-function highlightConnectors(text: string) {
+type LogicRole = "观点" | "原因" | "例子/结果" | "对比";
+
+function getLogicRole(sentence: string, index: number): LogicRole {
+  if (/for example|for instance|such as/i.test(sentence)) return "例子/结果";
+  if (/however|in contrast|on the other hand|\bwhile\b|\bbut\b/i.test(sentence)) return "对比";
+  if (/as a result|therefore|\bso\b|this (?:can|helps?|means?|makes?)/i.test(sentence)) return "例子/结果";
+  if (/because|since|due to|the reason/i.test(sentence)) return "原因";
+  if (index === 0) return "观点";
+  if (index === 1) return "原因";
+  return "例子/结果";
+}
+
+function highlightLogic(text: string) {
   const pattern = new RegExp(`(${connectors.join("|")})`, "gi");
   return text.split(pattern).map((part, index) =>
     connectors.some((connector) => connector.toLowerCase() === part.toLowerCase())
-      ? <mark key={index}>{part}</mark>
+      ? <mark className="logic-connector" key={index}>{part}</mark>
       : part,
   );
+}
+
+function splitEnglishSentences(text: string) {
+  return text.match(/[^.!?]+[.!?]+|[^.!?]+$/g)?.map((sentence) => sentence.trim()) ?? [text];
 }
 
 export default function PartThreeLibrary() {
@@ -42,7 +60,7 @@ export default function PartThreeLibrary() {
         <header className="tab-reference-title">
           <span>IELTS SPEAKING · PART 3 · BAND 5.5</span>
           <h1>Part 3 押题问题与简洁答案</h1>
-          <p>每题使用“观点＋原因＋例子／对比”，目标约25—40秒；不需要背成Part 2长篇。</p>
+          <p>每题只用5.5分三步模板：直接观点 → 简单原因 → 例子／结果／对比。</p>
         </header>
 
         <section className="material-panel part-three-panel">
@@ -69,21 +87,42 @@ export default function PartThreeLibrary() {
                 <div>
                   <span>{group.category} · 关联Part 2：{group.partTwo}</span>
                   <h3>{String(groupIndex + 1).padStart(2, "0")} · {group.title}</h3>
-                  <p>六道讨论题依次练习；答案不需要逐字背诵，掌握观点和连接方式即可。</p>
+                  <p>六道讨论题依次练习；只记“观点、原因、例子/结果”，不需要逐字背诵。</p>
                 </div>
               </header>
               <div className="part-one-list">
                 {group.items.map((item, index) => {
                   const words = item.answer.trim().split(/\s+/).length;
+                  const translation = partThreeTranslations[item.question];
+                  const sentences = splitEnglishSentences(item.answer);
                   return (
                     <article className="part-one-card part-three-card" key={item.question}>
                       <div className="part-one-number">Q{index + 1}</div>
                       <div>
-                        <p className="part-one-question">{item.question}</p>
-                        <div className="part-three-answer-label">
-                          <span>5.5分参考答案</span><b>{words}词</b>
+                        <div className="part-three-question-pair">
+                          <p className="part-one-question">{item.question}</p>
+                          <p className="part-three-question-translation">中文：{translation.question}</p>
                         </div>
-                        <blockquote>{highlightConnectors(item.answer)}</blockquote>
+                        <div className="part-three-answer-label">
+                          <span>5.5分参考答案 · 思路分解</span><b>{words}词</b>
+                        </div>
+                        <div className="part-three-bilingual-answer">
+                          <div className="part-three-english-answer" lang="en">
+                            {sentences.map((sentence, sentenceIndex) => {
+                              const role = getLogicRole(sentence, sentenceIndex);
+                              return (
+                                <div className={`logic-line logic-${role}`} key={`${sentence}-${sentenceIndex}`}>
+                                  <span className="logic-role">{role}</span>
+                                  <p><strong>{highlightLogic(sentence)}</strong></p>
+                                </div>
+                              );
+                            })}
+                          </div>
+                          <div className="part-three-chinese-answer" lang="zh-CN">
+                            <span>中文答案</span>
+                            <p>{translation.answer}</p>
+                          </div>
+                        </div>
                       </div>
                     </article>
                   );
@@ -95,9 +134,9 @@ export default function PartThreeLibrary() {
           <section className="material-guide-section">
             <h3>使用提醒</h3>
             <ul className="notice-list">
-              <li>第一句直接回答，不要先讲很长的背景。</li>
-              <li>优先使用because、for example、however和while连接观点。</li>
-              <li>每题说3—5句即可；被追问时再补充，不主动讲成两分钟。</li>
+              <li>第一句直接给观点，不要先讲很长的背景。</li>
+              <li>第二句用 because 或一个简单原因解释。</li>
+              <li>第三句补一个例子、结果或对比，说清楚即可。</li>
               <li>练习时允许更换例子，但不要改变答案的核心观点。</li>
             </ul>
           </section>

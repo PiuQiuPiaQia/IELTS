@@ -69,8 +69,12 @@ test("keeps the finished site free of starter preview code", async () => {
 
 test("includes the Part 3 prediction library", async () => {
   const data = await readFile(new URL("../app/part-3/part-three-data.ts", import.meta.url), "utf8");
+  const translations = await readFile(new URL("../app/part-3/part-three-translations.ts", import.meta.url), "utf8");
   const page = await readFile(new URL("../app/part-3/part-three-library.tsx", import.meta.url), "utf8");
   assert.match(page, /Part 3 押题问题与简洁答案/);
   assert.match(page, /partThreeGroups/);
+  assert.match(page, /partThreeTranslations/);
+  assert.match(page, /观点.*原因.*例子\/\u7ed3果/s);
   assert.equal((data.match(/^\s*\{ question:/gm) ?? []).length, 162);
+  assert.equal((translations.match(/^ {2}".+": \{$/gm) ?? []).length, 162);
 });
