@@ -7,6 +7,7 @@ import {
   additionalMaterials,
   type AdditionalMaterial,
 } from "./additional-materials";
+import { expandAnswer } from "./answer-expansions";
 
 type Topic = {
   id: string;
@@ -857,7 +858,7 @@ function QuestionLibrary({
   setActiveId: (id: string) => void;
 }) {
   const active = items.find((topic) => topic.id === activeId) ?? items[0];
-  const activeAnswer = modelAnswersDetailed[active.id] ?? [];
+  const activeAnswer = expandAnswer(active.id, modelAnswersDetailed[active.id] ?? []);
   const displayAnswerLines = activeAnswer.flatMap((line) =>
     line.text
       .split(/(?<=[.!?])\s+(?=[A-Z])/)
@@ -937,13 +938,14 @@ function AdditionalMaterialPanel({ material }: { material: AdditionalMaterial })
   const [activeId, setActiveId] = useState(material.topics[0].id);
   const active =
     material.topics.find((topic) => topic.id === activeId) ?? material.topics[0];
-  const displayAnswerLines = active.answer.flatMap((line) =>
+  const expandedAnswer = expandAnswer(active.id, active.answer);
+  const displayAnswerLines = expandedAnswer.flatMap((line) =>
     line.text
       .split(/(?<=[.!?])\s+(?=[A-Z])/)
       .filter(Boolean)
       .map((text) => ({ ...line, text })),
   );
-  const answerWordCount = active.answer
+  const answerWordCount = expandedAnswer
     .map((line) => line.text)
     .join(" ")
     .trim()
