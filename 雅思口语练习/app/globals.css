@@ -114,6 +114,25 @@ button {
   box-shadow: 0 1px 4px rgba(30, 48, 38, 0.12);
 }
 
+.main-nav a {
+  padding: 8px 14px;
+  border: 0;
+  border-radius: 7px;
+  color: #68726c;
+  background: transparent;
+  font-size: 12px;
+  font-weight: 650;
+  white-space: nowrap;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.main-nav a.active {
+  color: var(--green-deep);
+  background: white;
+  box-shadow: 0 1px 4px rgba(30, 48, 38, 0.12);
+}
+
 .main-nav button:disabled {
   opacity: 0.52;
 }
@@ -231,6 +250,102 @@ button {
   font-family: Georgia, "Songti SC", serif;
   font-size: 25px;
   font-weight: 600;
+}
+
+.material-guide-heading p {
+  margin: 8px 0 0;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+.part-one-list {
+  display: grid;
+  gap: 12px;
+}
+
+.part-one-group-heading {
+  margin-bottom: 16px;
+}
+
+.part-one-group-heading span {
+  color: var(--green);
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+}
+
+.part-one-group-heading h3 {
+  margin: 4px 0 5px;
+  font-family: Georgia, "Songti SC", serif;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.part-one-group-heading p {
+  margin: 0;
+  color: #6b756f;
+  font-size: 12px;
+}
+
+.part-one-card {
+  display: grid;
+  grid-template-columns: 38px 1fr;
+  gap: 13px;
+  padding: 17px;
+  border: 1px solid #e0e6e2;
+  border-radius: 11px;
+  background: #fafbfa;
+}
+
+.part-one-number {
+  width: 30px;
+  height: 30px;
+  display: grid;
+  place-items: center;
+  border-radius: 8px;
+  color: var(--green-deep);
+  background: var(--green-soft);
+  font-family: Georgia, serif;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.part-one-question {
+  margin: 0 0 9px;
+  color: #284837;
+  font-size: 13px;
+  font-weight: 750;
+  line-height: 1.45;
+}
+
+.part-one-card blockquote {
+  padding: 11px 13px;
+  border-left: 3px solid var(--green);
+  background: white;
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+.part-one-card blockquote mark {
+  padding: 1px 3px;
+  border-radius: 3px;
+  color: #24513b;
+  background: #dff0df;
+  font-weight: 750;
+}
+
+.part-one-translation {
+  margin: 10px 0 0;
+  color: #596960;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.part-one-note {
+  margin: 9px 0 0;
+  color: #8a661f;
+  font-size: 11px;
 }
 
 .fit-counts {
