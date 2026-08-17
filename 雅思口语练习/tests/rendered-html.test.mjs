@@ -66,3 +66,11 @@ test("keeps the finished site free of starter preview code", async () => {
   assert.doesNotMatch(layout, /codex-preview|_sites-preview|SkeletonPreview/);
   assert.doesNotMatch(packageJson, /react-loading-skeleton/);
 });
+
+test("includes the Part 3 prediction library", async () => {
+  const data = await readFile(new URL("../app/part-3/part-three-data.ts", import.meta.url), "utf8");
+  const page = await readFile(new URL("../app/part-3/part-three-library.tsx", import.meta.url), "utf8");
+  assert.match(page, /Part 3 押题问题与简洁答案/);
+  assert.match(page, /partThreeGroups/);
+  assert.equal((data.match(/^\s*\{ question:/gm) ?? []).length, 162);
+});

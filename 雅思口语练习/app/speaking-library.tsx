@@ -1075,9 +1075,9 @@ export default function SpeakingLibrary() {
           </div>
         </Link>
         <nav className="main-nav" aria-label="主导航">
-          <button type="button" onClick={() => window.location.assign("/part-1")}>Part 1 练习</button>
-          <button type="button" className="active" aria-current="page" onClick={() => window.location.assign("/")}>Part 2 练习</button>
-          <button type="button" disabled>Part 3 练习</button>
+          <Link href="/part-1">Part 1 练习</Link>
+          <Link className="active" aria-current="page" href="/">Part 2 练习</Link>
+          <Link href="/part-3">Part 3 练习</Link>
         </nav>
         <div className="saved-state"><i />本地素材库</div>
       </header>
