@@ -60,6 +60,7 @@ test("keeps the finished site free of starter preview code", async () => {
   assert.match(layout, /title:\s*"雅思口语练习"/);
   assert.match(speakingLibrary, /Part 2 通用素材练习/);
   assert.match(speakingLibrary, /additionalMaterials/);
+  assert.match(speakingLibrary, /expandAnswer/);
   assert.doesNotMatch(speakingLibrary, /remainingMaterials/);
   assert.doesNotMatch(page, /codex-preview|_sites-preview|SkeletonPreview/);
   assert.doesNotMatch(layout, /codex-preview|_sites-preview|SkeletonPreview/);
