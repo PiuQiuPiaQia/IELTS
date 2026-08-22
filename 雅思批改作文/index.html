@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="本地 IELTS 写作批改记录、Task 1 书信模板、Task 2 范文与主题素材。">
+    <title>雅思批改作文</title>
+    <link rel="icon" href="favicon.svg">
+    <link rel="stylesheet" href="styles.css">
+    <script src="data.js" defer></script>
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#content">跳到主要内容</a>
+    <header class="site-header">
+      <a class="brand" href="#reviews" aria-label="雅思批改作文首页">
+        <span class="brand-mark" aria-hidden="true">W</span>
+        <span><strong>雅思批改作文</strong><small>Static writing library</small></span>
+      </a>
+      <nav class="main-nav" aria-label="主导航">
+        <button type="button" data-page="reviews" class="active">作文批改</button>
+        <button type="button" data-page="letters">Task 1 书信</button>
+        <button type="button" data-page="task2">Task 2 范文</button>
+        <button type="button" data-page="materials">主题素材</button>
+      </nav>
+      <span class="local-badge">本地保存</span>
+    </header>
+
+    <main id="content" tabindex="-1">
+      <section class="loading-state" aria-live="polite"><span class="spinner" aria-hidden="true"></span><p>正在读取本地写作资料…</p></section>
+    </main>
+
+    <input id="import-file" type="file" accept=".jsonl,application/json,text/plain" hidden>
+    <noscript><p class="error-state">需要启用 JavaScript 才能使用写作资料库。</p></noscript>
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  </body>
+</html>

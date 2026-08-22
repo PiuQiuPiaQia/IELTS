@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="本地 IELTS Speaking Part 1、Part 2、Part 3 与通用素材库。">
+    <title>雅思口语练习</title>
+    <link rel="icon" href="favicon.svg">
+    <link rel="stylesheet" href="styles.css">
+    <script src="data.js" defer></script>
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#content">跳到主要内容</a>
+    <header class="site-header">
+      <a class="brand" href="#part2" aria-label="雅思口语练习首页">
+        <span class="brand-mark" aria-hidden="true">S</span>
+        <span><strong>雅思口语练习</strong><small>Static speaking library</small></span>
+      </a>
+      <nav class="main-nav" aria-label="主导航">
+        <button type="button" data-page="part1">Part 1</button>
+        <button type="button" data-page="part2" class="active">Part 2</button>
+        <button type="button" data-page="part3">Part 3</button>
+        <button type="button" data-page="toolkit">万能素材</button>
+      </nav>
+      <span class="local-badge">仅本机</span>
+    </header>
+
+    <main id="content" tabindex="-1">
+      <section class="loading-state" aria-live="polite">
+        <span class="spinner" aria-hidden="true"></span>
+        <p>正在读取本地素材…</p>
+      </section>
+    </main>
+
+    <noscript><p class="error-state">需要启用 JavaScript 才能浏览题库。</p></noscript>
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  </body>
+</html>

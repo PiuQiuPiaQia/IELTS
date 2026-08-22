@@ -19,3 +19,6 @@ build/
 
 # Env
 .env*
+
+# Local research archive
+/调研资料/
