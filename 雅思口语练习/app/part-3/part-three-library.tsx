@@ -29,12 +29,30 @@ const connectorSource = connectors
 
 type LogicRole = "观点" | "原因" | "例子/结果" | "对比";
 
+type AnswerFramework = {
+  name: string;
+  pattern: string;
+};
+
+function getAnswerFramework(question: string): AnswerFramework {
+  if (/difference|different|compared|which .*more|better|prefer|young and old|older people or|urban areas and rural areas/i.test(question)) {
+    return { name: "对比框架", pattern: "A的特点 → B的特点 → 对比/结论" };
+  }
+  if (/why|factors|influence|impact|problems|advantages and disadvantages|benefits/i.test(question)) {
+    return { name: "原因框架", pattern: "核心原因 → 补充原因 → 结果/例子" };
+  }
+  if (/how|what can|what should|ways|prepare|suggest/i.test(question)) {
+    return { name: "方法框架", pattern: "可行方法 → 具体做法 → 作用" };
+  }
+  return { name: "观点框架", pattern: "直接观点 → 简单原因 → 例子/结果" };
+}
+
 function getLogicRole(sentence: string, index: number): LogicRole {
+  if (index === 0) return "观点";
   if (/for example|for instance|such as/i.test(sentence)) return "例子/结果";
   if (/however|in contrast|on the other hand|\bwhile\b|\bbut\b/i.test(sentence)) return "对比";
   if (/as a result|therefore|\bso\b|this (?:can|helps?|means?|makes?)/i.test(sentence)) return "例子/结果";
   if (/because|since|due to|the reason/i.test(sentence)) return "原因";
-  if (index === 0) return "观点";
   if (index === 1) return "原因";
   return "例子/结果";
 }
@@ -115,6 +133,7 @@ export default function PartThreeLibrary() {
           <a href="/part-1">Part 1 练习</a>
           <a href="/">Part 2 练习</a>
           <a className="active" href="/part-3" aria-current="page">Part 3 练习</a>
+          <a href="/toolkit">万能素材</a>
         </nav>
         <div className="saved-state"><i />押题观点库</div>
       </header>
@@ -158,6 +177,7 @@ export default function PartThreeLibrary() {
                   const words = item.answer.trim().split(/\s+/).length;
                   const translation = partThreeTranslations[item.question];
                   const sentences = splitEnglishSentences(item.answer);
+                  const framework = getAnswerFramework(item.question);
                   return (
                     <article className="part-one-card part-three-card" key={item.question}>
                       <div className="part-one-number">Q{index + 1}</div>
@@ -167,8 +187,9 @@ export default function PartThreeLibrary() {
                           <p className="part-three-question-translation">中文：{translation.question}</p>
                         </div>
                         <div className="part-three-answer-label">
-                          <span>5.5分参考答案 · 思路分解</span><b>{words}词</b>
+                          <span>5.5分参考答案 · {framework.name}</span><b>{words}词</b>
                         </div>
+                        <p className="part-three-framework">套用顺序：{framework.pattern}</p>
                         <div className="part-three-bilingual-answer">
                           <div className="part-three-english-answer" lang="en">
                             {sentences.map((sentence, sentenceIndex) => {

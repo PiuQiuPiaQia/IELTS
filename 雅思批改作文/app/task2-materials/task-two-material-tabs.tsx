@@ -106,6 +106,7 @@ export default function TaskTwoMaterialTabs() {
           className="material-tabs"
           role="tablist"
           aria-label="大作文素材分类"
+          tabIndex={-1}
           onKeyDown={(event) => {
             if (event.key === "ArrowRight") moveTab(1);
             if (event.key === "ArrowLeft") moveTab(-1);

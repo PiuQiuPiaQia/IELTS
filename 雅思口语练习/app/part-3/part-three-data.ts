@@ -7,14 +7,14 @@ export type PartThreeGroup = {
   items: PartThreeItem[];
 };
 
-export const partThreeGroups: PartThreeGroup[] = [
+const basePartThreeGroups: PartThreeGroup[] = [
   {
     id: "helping-others",
     category: "人物类",
     title: "帮助与互助",
     partTwo: "乐于助人的人",
     items: [
-      { question: "Should children help their parents with household chores?", answer: "Yes, I think they should. Simple chores such as cleaning their room or washing dishes can teach children responsibility." },
+      { question: "Should children help their parents with household chores?", answer: "Yes, I think they should. Doing simple chores can teach children to be responsible and help their parents at the same time." },
       { question: "What kind of help do people need when looking for a new job?", answer: "People often need help with finding good job information, improving their CV and preparing for interviews. Friends or experienced colleagues can also explain what a company is really like." },
       { question: "Who should people ask for help, colleagues or family members?", answer: "I think it depends on the problem. For work-related issues, colleagues are usually more helpful because they have related experience." },
       { question: "Why do you think some people are more willing to help others than some?", answer: "Some people are naturally kind and feel happy when they are useful to others. Their family or education may also have taught them to share and work together." },
@@ -28,12 +28,12 @@ export const partThreeGroups: PartThreeGroup[] = [
     title: "自然与环保",
     partTwo: "鼓励你保护自然的人",
     items: [
-      { question: "How can parents teach their children to protect nature?", answer: "Parents should explain environmental ideas through daily actions. For example, they can teach children to sort rubbish, save water and avoid wasting food." },
-      { question: "Should schools teach children to get close to nature?", answer: "Yes, because children may not care about something they have never experienced. Schools can organise visits to parks, farms or nature centres." },
+      { question: "How can parents teach their children to protect nature?", answer: "Firstly, parents can take children outdoors to experience nature and learn by doing. They can also set an example by recycling, saving water, and reducing waste at home." },
+      { question: "Should schools teach children to get close to nature?", answer: "Yes, I think they should. Schools can take children outdoors to experience nature and learn by doing. This can help them understand why protecting nature is important." },
       { question: "Do you think there should be laws to protect nature?", answer: "Yes, laws are necessary because education alone cannot stop every person or company from damaging the environment. Governments can limit pollution and punish illegal activities." },
       { question: "Besides laws, what else can the government do to protect the environment?", answer: "The government can improve public transport, provide recycling facilities and support clean energy. It can also run public campaigns and teach environmental topics in schools." },
-      { question: "Why do some people not care about environmental protection?", answer: "Some people think environmental problems are too distant and do not affect their daily lives. Others care more about convenience or money." },
-      { question: "Do you think individuals can make a real difference in protecting nature? Why?", answer: "Yes, but individual action works best when many people take part. One person using less plastic has a small effect, but millions of people can change demand and influence companies." },
+      { question: "Why do some people not care about environmental protection?", answer: "I think some people feel environmental problems do not affect their daily lives. Others care more about convenience or saving money." },
+      { question: "Do you think individuals can make a real difference in protecting nature? Why?", answer: "Yes, I think they can, especially when many people take action together. For example, using less plastic can reduce waste and encourage companies to change." },
     ],
   },
   {
@@ -46,8 +46,8 @@ export const partThreeGroups: PartThreeGroup[] = [
       { question: "How do children become smart at school?", answer: "They become smarter by learning basic knowledge, practising skills and discussing ideas with teachers and classmates. Schools should encourage children to ask why instead of only memorising answers." },
       { question: "Why are some people well-rounded and others only good at one thing?", answer: "People have different interests, opportunities and ways of learning. Some enjoy trying many activities, while others spend most of their time developing one talent." },
       { question: "Why does modern society need talents of all kinds?", answer: "Modern society has many different problems, so one type of talent is not enough. Engineers build technology, doctors protect health and artists support culture." },
-      { question: "In your opinion, what is more important in solving problems, intelligence or experience?", answer: "I think experience is usually more important for practical problems because experienced people notice common causes and avoid old mistakes. Intelligence helps when the situation is completely new." },
-      { question: "Can you give an example of how technology helps people solve problems in a smart way today?", answer: "Navigation apps are a simple example. They collect traffic information and suggest a faster route, saving drivers time. At work, software can also find unusual system activity before a serious failure happens." },
+      { question: "In your opinion, what is more important in solving problems, intelligence or experience?", answer: "I think both are important. Intelligence helps us tackle new problems, while experience helps us deal with similar issues we've seen before." },
+      { question: "Can you give an example of how technology helps people solve problems in a smart way today?", answer: "Navigation apps are a good example. They check traffic and suggest a faster route, so drivers can save time and avoid busy roads." },
     ],
   },
   {
@@ -56,12 +56,12 @@ export const partThreeGroups: PartThreeGroup[] = [
     title: "计划与职业选择",
     partTwo: "常做计划的人",
     items: [
-      { question: "Do you think it's important to plan ahead?", answer: "Yes, planning helps people organise their time and prepare for possible problems. For example, a work plan can make duties and deadlines clear." },
-      { question: "Do you think children should plan their future careers?", answer: "Older children can start thinking about careers, but they do not need to make a final decision too early. Their interests and abilities may change as they grow." },
-      { question: "Should children ask their teachers or parents for advice when making plans?", answer: "They should ask both. Teachers understand education and may know which subjects match a child's strengths, while parents know the child's personality and family situation." },
-      { question: "What activities do we need to plan ahead?", answer: "Important activities involving time, money or other people usually need planning. Examples include travel, major work projects, exams and family events." },
-      { question: "Is making study plans popular among young people?", answer: "It is quite common, especially before important exams. Many students use calendars or study apps to divide subjects into smaller tasks." },
-      { question: "Do you think choosing a college major is closely related to a person's future career?", answer: "Yes, in fields such as medicine or engineering, a related major is often necessary. However, many graduates later work in a different area because skills like communication and problem-solving can be transferred." },
+      { question: "Do you think it's important to plan ahead?", answer: "Yes, I think it is important. Planning helps people use their time better and avoid problems. For example, I usually make a simple plan before a busy week at work." },
+      { question: "Do you think children should plan their future careers?", answer: "They can start thinking about it when they are older, but they should not decide too early. Their interests may change as they grow up." },
+      { question: "Should children ask their teachers or parents for advice when making plans?", answer: "I think they should ask both. Teachers can give advice about study, while parents know their children better." },
+      { question: "What activities do we need to plan ahead?", answer: "We need to plan important activities that take time or money. For example, people often plan trips, exams, family events, or big work projects." },
+      { question: "Is making study plans popular among young people?", answer: "Yes, I think it is quite popular, especially before important exams. A study plan can help students finish small tasks one by one." },
+      { question: "Do you think choosing a college major is closely related to a person's future career?", answer: "It is important for some jobs, such as medicine or engineering. However, it is not the only factor because people can learn new skills after they graduate." },
     ],
   },
   {
@@ -70,12 +70,12 @@ export const partThreeGroups: PartThreeGroup[] = [
     title: "儿童画画与艺术",
     partTwo: "喜欢画画的孩子",
     items: [
-      { question: "What is the right age for a child to learn drawing?", answer: "Children can start drawing as soon as they can safely hold a pencil, perhaps at three or four years old. At that age, the goal should be enjoyment rather than technical skill." },
-      { question: "Why do most children draw more often than adults do?", answer: "Children have more free time and are less worried about whether their drawings look professional. Drawing is also an easy way for them to express ideas before their language skills are fully developed." },
-      { question: "Why do some people visit galleries or museums instead of viewing artworks online?", answer: "Seeing the original artwork gives people a clearer idea of its real size, colour and texture. Museums also provide a quiet atmosphere and useful background information." },
-      { question: "Do you think galleries and museums should be free of charge?", answer: "Basic public museums should be free or inexpensive so families and students can visit regularly. However, special exhibitions may need a reasonable ticket price because displaying and protecting valuable objects costs money." },
-      { question: "How do artworks inspire people?", answer: "Art can introduce people to a different way of seeing ordinary life. A painting may encourage someone to notice colours, emotions or social problems they usually ignore." },
-      { question: "In your opinion, should drawing be a compulsory subject in primary school? Why or why not?", answer: "Yes, at primary level it can develop creativity, observation and hand control. The subject should remain enjoyable and should not create too much exam pressure." },
+      { question: "What is the right age for a child to learn drawing?", answer: "I think children can start at about three or four years old, when they can hold a pencil safely. At that age, drawing should be fun, and parents should not put too much pressure on them." },
+      { question: "Why do most children draw more often than adults do?", answer: "Children usually have more free time and enjoy trying new things. They also do not worry too much about whether their drawings are good or not." },
+      { question: "Why do some people visit galleries or museums instead of viewing artworks online?", answer: "I think seeing real artwork is a different experience. People can see the real colours and details, and museums are usually quiet places to learn something new." },
+      { question: "Do you think galleries and museums should be free of charge?", answer: "I think basic museums should be free or cheap, so more families and students can visit. However, special exhibitions can charge a reasonable price because they cost money to organise." },
+      { question: "How do artworks inspire people?", answer: "Art can inspire people by giving them new ideas and a different view of life. For example, a painting can make people think about their feelings or social problems." },
+      { question: "In your opinion, should drawing be a compulsory subject in primary school? Why or why not?", answer: "Yes, I think it should be taught in primary school. Drawing can help children develop creativity and express their ideas. However, it should be enjoyable and should not become a stressful exam subject." },
     ],
   },
   {
@@ -84,12 +84,12 @@ export const partThreeGroups: PartThreeGroup[] = [
     title: "名人与社交媒体",
     partTwo: "想见的名人",
     items: [
-      { question: "What are the advantages and disadvantages of being a famous child?", answer: "A famous child may receive special opportunities, good training and money. However, public attention can create pressure and reduce privacy." },
-      { question: "What can today's children do to become famous?", answer: "Some children become known through sport, music, acting or online videos. Social media makes it easier to reach a large audience, but becoming famous should not be the only goal." },
-      { question: "What can children do with their fame?", answer: "They can use it to support charities, encourage positive behaviour or introduce useful ideas to other young people. They may also build a future career." },
-      { question: "Do people become famous because of their talent?", answer: "Talent is one important reason, especially in music, sport and acting. However, timing, marketing, personal connections and luck also matter." },
-      { question: "Why are some people more interested in the private lives of celebrities?", answer: "People are curious about lives that seem richer or more exciting than their own. Celebrity news also provides easy conversation and entertainment." },
-      { question: "Do you think the definition of “fame” has changed in the age of social media? How?", answer: "Yes. In the past, famous people were usually actors, singers or athletes known through television. Now an ordinary person can gain millions of followers online very quickly." },
+      { question: "What are the advantages and disadvantages of being a famous child?", answer: "A famous child may have more chances to get good training or earn money. However, too much public attention can cause stress and give them less privacy." },
+      { question: "What can today's children do to become famous?", answer: "They can become famous through sport, music, acting, or making online videos. Social media makes this easier, but children should not only focus on becoming famous." },
+      { question: "What can children do with their fame?", answer: "They can use their fame to help charities or share useful ideas. For example, they can encourage other young people to do positive things." },
+      { question: "Do people become famous because of their talent?", answer: "Talent is important, especially in music or sport. However, luck, good timing, and social media can also help people become famous." },
+      { question: "Why are some people more interested in the private lives of celebrities?", answer: "Some people are curious because celebrities have a different and exciting lifestyle. Celebrity news is also easy to watch and talk about with friends." },
+      { question: "Do you think the definition of “fame” has changed in the age of social media? How?", answer: "Yes, I think it has changed a lot. In the past, famous people were usually actors or singers, but now ordinary people can become famous online very quickly." },
     ],
   },
   {
@@ -116,7 +116,7 @@ export const partThreeGroups: PartThreeGroup[] = [
       { question: "Should teachers make learning in their classes fun?", answer: "Yes, an interesting class helps students pay attention and remember information. Teachers can use examples, discussions and simple activities." },
       { question: "Do you think there are too many subjects for students to learn?", answer: "In some schools, students may have too many subjects and too much homework. A broad education is useful, but there should be enough time to understand important ideas properly." },
       { question: "Is it better to focus on a few subjects or to learn many subjects?", answer: "Younger students should learn many basic subjects so they can discover their interests and understand the world. Older students can gradually focus on fewer areas related to their future." },
-      { question: "Do you think enterprises should provide training for their employees?", answer: "Yes, because training helps employees use new tools and work more safely and quickly. It also shows that the company values their development." },
+      { question: "Do you think enterprises should provide training for their employees?", answer: "Yes, I do. Training is important because it helps employees learn practical skills and use new tools more confidently. However, it should be closely related to their jobs." },
       { question: "Do you think it is good for older adults to continue learning?", answer: "Yes. Learning can keep their minds active, give them confidence and help them use modern services. They might learn a language, a musical instrument or basic smartphone skills." },
     ],
   },
@@ -131,7 +131,7 @@ export const partThreeGroups: PartThreeGroup[] = [
       { question: "What kind of encouragement should parents give?", answer: "They should praise specific effort, such as practising regularly or helping a classmate, instead of only saying a child is smart. Practical support and patient listening are also useful." },
       { question: "Do you think some people are better than others at persuading?", answer: "Yes. Good persuaders usually listen carefully, understand the other person's concerns and explain benefits clearly. They also choose the right time and tone." },
       { question: "What is the difference between encouraging someone and pressuring someone?", answer: "Encouragement gives support and respects the person's final choice, while pressure makes them feel that they cannot refuse. Encouragement focuses on confidence and possible benefits." },
-      { question: "In your opinion, is it always good to encourage people to try new things? Why?", answer: "Not always. Trying new things can build confidence and skills, but the activity must be safe and suitable. People should not be pushed into serious financial risks or situations that make them extremely uncomfortable." },
+      { question: "In your opinion, is it always good to encourage people to try new things? Why?", answer: "Not always. New experiences can build confidence, but they should be safe and suitable. People should not be pushed to do something that makes them very uncomfortable." },
     ],
   },
   {
@@ -156,7 +156,7 @@ export const partThreeGroups: PartThreeGroup[] = [
     items: [
       { question: "Which form of vehicle is more popular in your country, bikes, cars or motorcycles?", answer: "Cars are probably the most popular for families because they are comfortable and useful for longer trips. Shared bicycles are also common in large cities for short journeys." },
       { question: "Do you think air pollution comes mostly from mobile vehicles?", answer: "Vehicles are an important source, especially in crowded cities, but they are not the only one. Factories, construction and energy production also create pollution." },
-      { question: "Do you think people need to change the way of transportation drastically to protect the environment?", answer: "A sudden complete change would be difficult, but people can gradually drive less and use public transport for suitable journeys. Governments should make buses, underground systems and cycling safer first." },
+      { question: "Do you think people need to change the way of transportation drastically to protect the environment?", answer: "I don't think people need to change their transportation completely, because it may affect their daily lives. However, they can gradually drive less and use public transport more. This can help reduce pollution." },
       { question: "How are the transportation systems in urban areas and rural areas different?", answer: "Cities usually have more buses, underground lines and shared bicycles because many people travel short distances. Rural areas have fewer services and longer distances, so residents depend more on private cars." },
       { question: "What are the benefits of travelling by bicycle compared to by car?", answer: "Cycling produces no direct pollution, costs less and gives people exercise. It can also be faster than driving for short trips in crowded areas." },
       { question: "Do you think the government should encourage people to use bicycles? How?", answer: "Yes. The government can build protected cycling paths, provide safe parking and connect bike routes to bus or underground stations." },
@@ -172,7 +172,7 @@ export const partThreeGroups: PartThreeGroup[] = [
       { question: "Is it good to ask advice from strangers online?", answer: "Online advice can provide different experiences and useful starting points, but strangers may not understand the full situation. Some information may also be wrong." },
       { question: "What are the personalities of people whose job is to give advice to others?", answer: "They should be patient, responsible and good at listening. They also need to explain complex information clearly without judging the client." },
       { question: "What are the problems if you ask too many people for advice?", answer: "Different people may give opposite suggestions, which can make the decision more confusing. Some advice may reflect their own interests rather than yours." },
-      { question: "When is it not appropriate to give advice to others?", answer: "It may be not suitable when nobody has asked and the issue is very personal. People should also avoid giving professional advice without knowledge." },
+      { question: "When is it not appropriate to give advice to others?", answer: "It may not be appropriate when nobody has asked and the problem is very personal. People should also avoid giving professional advice without enough knowledge." },
       { question: "Which do you think is more helpful: advice from older people or advice from friends of the same age? Why?", answer: "Older people often have more life experience, while friends of the same age may understand current pressures better. For a major career or financial decision, experience can be valuable." },
     ],
   },
@@ -215,7 +215,7 @@ export const partThreeGroups: PartThreeGroup[] = [
       { question: "What are the advantages of shopping in a mall compared to shopping online?", answer: "Customers can see, touch and try products before paying, which is especially useful for clothes or expensive items. They can also receive the product quickly." },
       { question: "Do young people and old people like to go to the same kind of malls? Why?", answer: "Not always. Young people may prefer modern malls with fashionable shops, cinemas and cafés, while older people may care more about supermarkets, seating and easy transport." },
       { question: "How can a shopping mall attract more customers?", answer: "It needs a good location, useful shops, clean facilities and convenient parking or public transport. Events, restaurants and entertainment can encourage people to stay longer." },
-      { question: "Do you think having many malls in a city is a good thing?", answer: "Some competition gives customers more choice and can improve service. Malls also create jobs and indoor public spaces. However, too many similar malls may waste land, increase traffic and harm small local shops." },
+      { question: "Do you think having many malls in a city is a good thing?", answer: "It can be good because malls give people more choices and create jobs. However, too many malls may increase traffic and make life harder for small local shops." },
     ],
   },
   {
@@ -242,7 +242,7 @@ export const partThreeGroups: PartThreeGroup[] = [
       { question: "Why do most people smile in photographs?", answer: "People want photographs to record a happy or attractive moment. Smiling also makes a group photo look more positive and helps everyone appear relaxed." },
       { question: "Do women smile more than men? Why?", answer: "In some cultures, women may be encouraged to appear warm and friendly, so they might smile more in public. Men may be taught to look serious." },
       { question: "Do people smile more when they are younger or older?", answer: "Children may smile more openly because they worry less about how they look and react quickly to simple fun. Adults face more duties, but older people may also smile often when spending time with family." },
-      { question: "In what situations is it inappropriate to smile?", answer: "Smiling can be not suitable during a serious accident, funeral or conversation about someone else's pain. It may make people think the situation is not being respected." },
+      { question: "In what situations is it inappropriate to smile?", answer: "It is inappropriate to smile during a serious accident, a funeral, or a conversation about someone's pain. It may make other people feel that we do not respect the situation." },
       { question: "Do you think smiling can actually make people feel happier? Why?", answer: "Yes, smiling may slightly improve a person's mood and can encourage a positive response from others. If someone smiles, people may speak to them more warmly." },
     ],
   },
@@ -341,7 +341,7 @@ export const partThreeGroups: PartThreeGroup[] = [
       { question: "What kinds of apps are most popular among young people in your country?", answer: "Social media, short-video, messaging, shopping, music and game apps are very popular. Young people also use study, food-delivery and transport apps." },
       { question: "Do you think mobile apps have made our lives easier or more complicated?", answer: "Overall, they have made many tasks easier, such as payment, navigation and booking tickets. However, too many apps, passwords, notifications and privacy settings can create new problems." },
       { question: "What should people pay attention to when downloading a new app?", answer: "They should check the developer, reviews, permissions and privacy policy. An app should not request access that is unrelated to its purpose." },
-      { question: "Do you think we will use more or fewer apps in the future? Why?", answer: "We may use more digital services but fewer separate apps. Large platforms and smart helpants could combine payment, travel and communication functions." },
+      { question: "Do you think we will use more or fewer apps in the future? Why?", answer: "I think we will use more digital services but fewer separate apps. One large app may combine payment, travel, shopping, and communication in the future." },
     ],
   },
   {
@@ -366,7 +366,7 @@ export const partThreeGroups: PartThreeGroup[] = [
     items: [
       { question: "What jobs do children want to do when they grow up?", answer: "Many children choose familiar or exciting jobs, such as doctors, teachers, athletes, pilots or online creators. Their choices are influenced by family, media and school." },
       { question: "What should people consider when choosing jobs?", answer: "They should consider their interests, skills, salary, working hours, location and opportunities to grow. Job security and team culture also matter." },
-      { question: "Is salary the main reason people choose a certain job?", answer: "Salary is important because people need to support themselves and their families. However, working hours, interest, stability and relationships also affect future." },
+      { question: "Is salary the main reason people choose a certain job?", answer: "Salary is important because people need to support themselves and their families. However, working hours, personal interest, and job stability also affect their choice." },
       { question: "How have people’s opinions about the “perfect job” changed compared to the past?", answer: "In the past, many people valued stability and staying with one company. Today, younger workers may care more about flexibility, personal growth and work-life balance." },
       { question: "Do you think it’s easy for people to find their ideal job? Why or why not?", answer: "No, because competition, location and economic conditions limit choices. People may also have unrealistic expectations before gaining work experience." },
       { question: "What is more important for job satisfaction: a high salary or good relationships with colleagues?", answer: "Both matter, but good relationships may be more important after basic financial needs are met. People spend many hours with colleagues, so conflict creates daily stress." },
@@ -387,3 +387,39 @@ export const partThreeGroups: PartThreeGroup[] = [
     ],
   },
 ];
+
+// These answers were practised and confirmed with the learner, so their final
+// wording must stay unchanged. All other answers share the same easy opening
+// wherever it sounds natural, which reduces the number of patterns to memorise.
+const practisedQuestions = new Set([
+  "What kind of help do people need when looking for a new job?",
+  "Who should people ask for help, colleagues or family members?",
+  "Why do you think some people are more willing to help others than some?",
+  "Do you think it is important for neighbors to help each other? Why?",
+  "How can helping others benefit the person who offers the help?",
+  "How can parents teach their children to protect nature?",
+  "Should schools teach children to get close to nature?",
+  "Do you think there should be laws to protect nature?",
+  "Besides laws, what else can the government do to protect the environment?",
+  "In your opinion, what is more important in solving problems, intelligence or experience?",
+  "Do you think enterprises should provide training for their employees?",
+  "How do artworks inspire people?",
+  "Do you think people need to change the way of transportation drastically to protect the environment?",
+]);
+
+function applyLearnerFramework(question: string, answer: string) {
+  if (practisedQuestions.has(question)) return answer;
+  if (/^(?:I think|In my opinion|I believe|It depends|Yes\b|No\b|Not\b|Probably\b|Both\b|Overall\b|I\b)/i.test(answer)) {
+    return answer;
+  }
+
+  return `I think ${answer.charAt(0).toLowerCase()}${answer.slice(1)}`;
+}
+
+export const partThreeGroups: PartThreeGroup[] = basePartThreeGroups.map((group) => ({
+  ...group,
+  items: group.items.map((item) => ({
+    ...item,
+    answer: applyLearnerFramework(item.question, item.answer),
+  })),
+}));

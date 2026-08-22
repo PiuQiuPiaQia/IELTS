@@ -691,12 +691,12 @@ const parkExpressions = [
   {
     stage: "距离",
     use: "说明公园方便到达",
-    line: "It is only a ten-minute walk away, so it is very convenient for me to visit.",
+    line: "I'd like to talk about a small lakeside park near my home. It is only a ten-minute walk away, so I can visit it easily.",
   },
   {
     stage: "环境",
     use: "介绍公园里稳定不变的景物",
-    line: "The park has green grass, tall trees, a small lake and several wooden benches.",
+    line: "The park is not famous or very large, but it has green grass, tall trees, a small lake and several wooden benches.",
   },
   {
     stage: "日常活动",
@@ -706,17 +706,17 @@ const parkExpressions = [
   {
     stage: "放松作用",
     use: "适合地点、安静、推荐和日常活动题",
-    line: "I often listen to music or sit quietly on a bench, which helps me forget about work and clear my mind.",
+    line: "I listen to music or enjoy the sound of birds and the wind in the trees.",
   },
   {
     stage: "安静角落",
     use: "湖边长椅是素材里的固定细节",
-    line: "My favourite part is a wooden bench under a large tree, away from the main road.",
+    line: "My favourite part of the park is a wooden bench under a large tree, away from the main road. I found it by chance during an evening walk. When work becomes stressful, I sit there quietly and organise my thoughts before going home.",
   },
   {
     stage: "野餐经历",
     use: "适合微笑、朋友和愉快经历题",
-    line: "Last spring, I had a picnic there with three close friends under a large tree.",
+    line: "Last spring, I had a picnic there with three close friends. We brought food and drinks, told jokes and took some funny photos. Everyone was smiling because we had not met for a long time.",
   },
   {
     stage: "野餐细节",
@@ -726,7 +726,7 @@ const parkExpressions = [
   {
     stage: "骑车经历",
     use: "适合自行车旅行和早起题",
-    line: "I set off early in the morning and cycled to the park before the weather became hot.",
+    line: "On another weekend, I got up at six in the morning and cycled there with two friends before the weather became hot. We rode along a quiet road beside the river, walked around the lake and ate a simple breakfast on the grass.",
   },
   {
     stage: "骑车细节",
@@ -736,12 +736,12 @@ const parkExpressions = [
   {
     stage: "环保经历",
     use: "适合爱护自然和环保规则题",
-    line: "I also joined a community clean-up organised by my friend Lisa, and we collected and sorted rubbish in the park.",
+    line: "I have also joined a community clean-up in the park. My friend Lisa organised it and showed us how to collect and sort different kinds of rubbish. The activity was tiring, but the park looked much cleaner afterwards, and it encouraged me to use less plastic.",
   },
   {
     stage: "翻新消息",
     use: "适合当地新闻和公园变化题",
-    line: "The news said that the local government plans to add a cycling path, more benches and better recycling bins.",
+    line: "Local news says the government plans to add a cycling path, more benches and better recycling bins. I was pleased because these changes will make the park safer and more comfortable. Although it is an ordinary place, it has become an important part of my life. I always leave feeling calmer, happier and more energetic.",
   },
   {
     stage: "地点价值",
@@ -772,79 +772,52 @@ const commonStory = [
   },
   {
     label: "事件开头",
-    title: "工作故事的固定时间",
-    detail: "经历、决定、计划和科技问题都可以用这一句开场。",
+    title: "介绍 Alex 和时间",
+    detail: "介绍 Alex 的身份、性格，并把故事定位在大约一年前。",
     sentence:
-      "I'd like to talk about something that happened at work about a year ago.",
+      "I'd like to talk about a work experience involving my colleague Alex, who is a senior software engineer on my team. This happened about a year ago. Alex is patient, calm and always willing to help whenever a difficult problem appears.",
   },
   {
-    label: "人物衔接",
-    title: "从事件自然带出 Alex",
-    detail: "当第一句已经使用经历型开头时，用这一句避免再次重复 I'd like to talk about。",
+    label: "上线背景",
+    title: "发布购物系统新功能",
+    detail: "团队准备上线新功能，我负责其中一部分，测试正常后在周五下午发布。",
     sentence:
-      "It involved my colleague Alex, who is a senior software engineer on my team.",
-  },
-  {
-    label: "故事背景",
-    title: "新功能上线",
-    detail: "大约一年前，团队上线新功能，你负责其中一部分。",
-    sentence:
-      "At that time, our team had just released a new feature, and I was responsible for one part of it.",
-  },
-  {
-    label: "人物题背景",
-    title: "人物介绍后转入故事",
-    detail: "当答案先介绍 Alex 时，改用 About a year ago，避免没有指代对象的 At that time。",
-    sentence:
-      "About a year ago, our team released a new feature, and I was responsible for one part of it.",
+      "At that time, our team was preparing to release a new feature for an online shopping system. I was responsible for one part of it, and I had tested it carefully. Everything seemed normal, so we released the feature on a Friday afternoon.",
   },
   {
     label: "问题出现",
-    title: "系统出现问题",
-    detail: "系统突然变慢，部分用户无法完成订单。",
+    title: "系统变慢且订单失败",
+    detail: "上线后系统很快变慢，用户无法下单，经理要求尽快排查，我开始担心是自己的错误。",
     sentence:
-      "Soon after that, the system became very slow, and some users could not complete their orders.",
+      "Soon after that, the system became slow, and some users could not complete their orders. Our manager asked us to investigate quickly. I felt nervous because my work was connected to the feature, and I feared I had made a serious mistake.",
   },
   {
     label: "自己尝试",
-    title: "第一次没有找到原因",
+    title: "第一次没找到原因",
+    detail: "先检查代码、重启部分服务并查看错误信息，但仍无法确定真正原因。",
     sentence:
-      "I tried to solve the problem by myself, but I could not find the cause.",
+      "At first, I tried to solve the problem by myself. I checked my code, restarted part of the service and read the error messages, but I still could not find the cause.",
   },
   {
     label: "同事帮助",
-    title: "一起逐步检查",
-    detail: "Alex 保持冷静，并和你一起检查错误信息。",
+    title: "Alex 冷静地逐步检查",
+    detail: "Alex 先询问情况，再与我分工：我看错误信息，他检查最近修改和请求数量。",
     sentence:
-      "Alex stayed calm and checked the error messages with me step by step.",
+      "When Alex became available, I asked him for help and explained what had happened. He did not blame me or make random changes. Instead, he stayed calm, asked some questions and checked the problem with me step by step. I examined the error messages while he reviewed the changes and the number of requests.",
   },
   {
     label: "找到原因",
-    title: "修改并测试",
-    detail: "找到请求过多的部分，进行小改动并仔细测试。",
+    title: "修正设置并测试订单",
+    detail: "发现一项设置造成同时请求过多，修正后测试样例订单，约三十分钟后系统恢复。",
     sentence:
-      "We found that one part of the system was receiving too many requests, so we made a small change and tested it carefully.",
+      "In the end, we discovered that one setting was causing the system to receive too many requests at the same time. We corrected it, tested several sample orders and watched the system carefully for a while. About thirty minutes later, everything worked normally again.",
   },
   {
-    label: "最终结果",
-    title: "系统恢复正常",
-    detail: "用户能够继续下单，问题得到解决。",
+    label: "感受与收获",
+    title: "如释重负并理解团队合作",
+    detail: "Alex 没有抢走任务，而是帮我一起学习；这次经历让我明白求助不是软弱。",
     sentence:
-      "In the end, the system worked normally again, and users could complete their orders.",
-  },
-  {
-    label: "感受变化",
-    title: "从紧张到如释重负",
-    detail: "用于多数经历题的情绪结尾。",
-    sentence:
-      "At first, I felt stressed and worried. However, I felt relieved after we solved the problem.",
-  },
-  {
-    label: "核心收获",
-    title: "合作不是软弱",
-    detail: "适合帮助、团队、观点改变和克服困难等题目。",
-    sentence:
-      "This experience taught me that asking for help is not a weakness and that teamwork can save a lot of time.",
+      "I felt relieved and grateful because Alex had helped me without taking control of the whole task. This experience taught me that asking for help is not a weakness. Good teamwork can save time, reduce stress and help everyone learn from a difficult situation.",
   },
 ];
 
@@ -1078,6 +1051,7 @@ export default function SpeakingLibrary() {
           <a href="/part-1">Part 1 练习</a>
           <a className="active" aria-current="page" href="/">Part 2 练习</a>
           <a href="/part-3">Part 3 练习</a>
+          <a href="/toolkit">万能素材</a>
         </nav>
         <div className="saved-state"><i />本地素材库</div>
       </header>

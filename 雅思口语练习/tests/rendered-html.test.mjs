@@ -5,13 +5,13 @@ import test from "node:test";
 const developmentPreviewMeta =
   /<meta(?=[^>]*\bname=["']codex-preview["'])(?=[^>]*\bcontent=["']development["'])[^>]*>/i;
 
-async function render() {
+async function render(pathname = "/") {
   const workerUrl = new URL("../dist/server/index.js", import.meta.url);
   workerUrl.searchParams.set("test", `${process.pid}-${Date.now()}`);
   const { default: worker } = await import(workerUrl.href);
 
   return worker.fetch(
-    new Request("http://localhost/", {
+    new Request(`http://localhost${pathname}`, {
       headers: { accept: "text/html" },
     }),
     {
@@ -80,4 +80,39 @@ test("includes the Part 3 prediction library", async () => {
   assert.doesNotMatch(page, /<strong>\{highlightLogic\(sentence\)\}<\/strong>/);
   assert.equal((data.match(/^\s*\{ question:/gm) ?? []).length, 162);
   assert.equal((translations.match(/^ {2}".+": \{$/gm) ?? []).length, 162);
+});
+
+test("includes the universal speaking toolkit tab", async () => {
+  const response = await render("/toolkit");
+  assert.equal(response.status, 200);
+
+  const html = await response.text();
+  assert.match(html, /<title>雅思口语练习｜万能素材工具箱<\/title>/i);
+  assert.match(html, /Part 3 统一答题结构/);
+  assert.match(html, /三类对比/);
+  assert.match(html, /九类万能素材/);
+  assert.match(html, /老人 vs 年轻人/);
+  assert.match(html, /内向和外向/);
+  assert.match(html, /城市 VS 乡村/);
+  assert.match(html, /more life experience and know more about the world/i);
+  assert.match(html, /get their energy back by spending time alone/i);
+  assert.match(html, /better public services, including public transport/i);
+  assert.match(html, /表达提醒/);
+  assert.match(html, /易背对比结构/);
+  assert.match(html, /Generally speaking, there are several differences between A and B/i);
+  assert.doesNotMatch(html, /wealth of life experiences|fragmented|invigorated|pesticide runoff|deforestation|traffic congestion/i);
+  assert.doesNotMatch(html, /Generally, A tends to/);
+  assert.match(html, /完整背诵段落/);
+  assert.match(html, /中文思路/);
+  assert.match(html, /<mark>unwind and release daily pressure<\/mark>/i);
+  assert.match(html, /<mark>broaden my horizons<\/mark>/i);
+  assert.match(html, /<mark>makes me feel less tired<\/mark>/i);
+  assert.match(html, /<mark>feeling low on energy<\/mark>/i);
+  assert.match(html, /<mark>avoid using it too much<\/mark>/i);
+  assert.match(html, /<mark>not really my cup of tea<\/mark>/i);
+  assert.match(html, /做这件事能让我放松身心、释放压力/);
+  assert.match(html, /我很少做这件事，因为它不是我的喜好/);
+  assert.doesNotMatch(html, /九类简化素材|适用：/);
+  assert.doesNotMatch(html, /sluggish|relieves tiredness|over-indulgence/i);
+  assert.match(html, /The main reason is that/i);
 });

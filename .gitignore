@@ -12,6 +12,7 @@ build/
 .next/
 .vinext/
 .wrangler/
+*.tsbuildinfo
 
 # Logs
 *.log

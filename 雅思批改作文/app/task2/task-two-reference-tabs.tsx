@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import PredictedEssayTabs from "./predicted-essay-tabs";
 
 type EssayMode = {
   id: string;
@@ -87,15 +88,15 @@ const modes: EssayMode[] = [
     relationship: "两个主体段是同向关系，共同支持一个立场。",
     taskA: "支持立场的理由 1",
     taskB: "支持同一立场的理由 2",
-    opinionRule: "必须表态；引言、两个主体段的回扣和结论保持同一立场。",
+    opinionRule: "5.5 分备考直接选择 agree 或 disagree；引言、两个主体段和结论保持同一立场。",
     intro:
-      "People have different views about whether [题干核心观点]. I [agree / disagree / partly agree] with this view because [理由 1 的概括] and [理由 2 的概括].",
+      "People have different views about whether [题干核心观点]. I [agree / disagree] with this view because [理由 1 的概括] and [理由 2 的概括].",
     bodyOneLead: "The first reason why I hold this view is that [理由 1]",
     bodyOneClose: "说明这一结果怎样支持你的立场",
     bodyTwoLead: "Another important reason is that [理由 2]",
     bodyTwoClose: "再次支持你的立场",
     conclusion:
-      "In conclusion, I [agree / disagree / partly agree] that [题干核心观点]. This is because [理由 1 的简短概括] and [理由 2 的简短概括] can [总体结果].",
+      "In conclusion, I [agree / disagree] that [题干核心观点]. This is because [理由 1 的简短概括] and [理由 2 的简短概括] can [总体结果].",
     variants: [
       {
         name: "正负发展",
@@ -104,14 +105,6 @@ const modes: EssayMode[] = [
           "引言改为：[改写题干背景]. I consider this to be an overall positive/negative development because [理由 1 的概括] and [理由 2 的概括].",
           "两个主体段分别写两个 positive 或两个 negative 的理由。",
           "结论再次说明这是 overall positive/negative development。",
-        ],
-      },
-      {
-        name: "部分同意",
-        trigger: "To what extent do you agree or disagree?",
-        replacements: [
-          "只有能清楚说明两种情况时才使用 partly agree。",
-          "主体一写同意的部分，主体二写为什么不能完全同意；这时两段不再是同向理由。",
         ],
       },
     ],
@@ -462,28 +455,10 @@ export default function TaskTwoReferenceTabs() {
             </button>
           </div>
 
-          <section className="template-variants">
-            <h4>特殊题目只改这些地方</h4>
-            <div>
-              {modes.flatMap((mode) =>
-                mode.variants.map((variant) => (
-                  <article key={`${mode.id}-${variant.name}`}>
-                    <header>
-                      <strong>{mode.name} · {variant.name}</strong>
-                      <code>{variant.trigger}</code>
-                    </header>
-                    <ul>
-                      {variant.replacements.map((replacement) => (
-                        <li key={replacement}>{replacement}</li>
-                      ))}
-                    </ul>
-                  </article>
-                )),
-              )}
-            </div>
-          </section>
         </section>
       </section>
+
+      <PredictedEssayTabs />
     </article>
   );
 }

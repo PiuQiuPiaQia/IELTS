@@ -3,7 +3,7 @@ export type PartThreeTranslation = { question: string; answer: string };
 export const partThreeTranslations: Record<string, PartThreeTranslation> = {
   "Should children help their parents with household chores?": {
     question: "孩子该不该帮父母做家务？",
-    answer: "是的，我认为他们应该这样做。打扫房间或洗碗等简单的家务活可以教会孩子责任感。",
+    answer: "是的，我认为应该。做简单的家务能教会孩子负责任，同时也能帮助父母。",
   },
   "What kind of help do people need when looking for a new job?": {
     question: "人们在寻找新工作时需要什么样的帮助？",
@@ -27,11 +27,11 @@ export const partThreeTranslations: Record<string, PartThreeTranslation> = {
   },
   "How can parents teach their children to protect nature?": {
     question: "家长如何教育孩子保护自然？",
-    answer: "父母应通过日常行动诠释环保理念。例如，他们可以教孩子们分类垃圾、节约用水和避免浪费食物。",
+    answer: "首先，父母可以带孩子到户外体验自然，在实践中学习。他们也可以通过回收利用、节约用水和减少家庭浪费来以身作则。",
   },
   "Should schools teach children to get close to nature?": {
     question: "学校该不该教孩子亲近大自然？",
-    answer: "是的，因为孩子们可能不会关心他们从未经历过的事情。学校可以组织参观公园、农场或自然中心。",
+    answer: "是的，我认为应该。学校可以带孩子到户外体验自然，在实践中学习。这能帮助他们理解为什么保护自然很重要。",
   },
   "Do you think there should be laws to protect nature?": {
     question: "您认为应该制定法律来保护自然吗？",
@@ -43,11 +43,11 @@ export const partThreeTranslations: Record<string, PartThreeTranslation> = {
   },
   "Why do some people not care about environmental protection?": {
     question: "为什么有些人不关心环保？",
-    answer: "有些人认为环境问题太遥远，不会影响他们的日常生活。其他人更关心便利或金钱。",
+    answer: "我认为有些人觉得环境问题不会影响自己的日常生活。另一些人更在意方便或省钱。",
   },
   "Do you think individuals can make a real difference in protecting nature? Why?": {
     question: "您认为个人可以在保护自然方面发挥真正的作用吗？为什么？",
-    answer: "是的，但是当许多人参与时，个人行动效果最好。一个人减少使用塑料的影响很小，但数百万人可以改变需求并影响公司。",
+    answer: "是的，我认为可以，尤其是很多人一起行动时。例如，少用塑料可以减少垃圾，也能促使企业作出改变。",
   },
   "Do you think children are born smart or they learn to become smart?": {
     question: "你认为孩子是天生聪明还是后天学习变得聪明？",
@@ -67,83 +67,83 @@ export const partThreeTranslations: Record<string, PartThreeTranslation> = {
   },
   "In your opinion, what is more important in solving problems, intelligence or experience?": {
     question: "您认为解决问题时，智力和经验哪个更重要？",
-    answer: "我认为经验对于实际问题通常更重要，因为有经验的人能够识别常见原因并避免旧错误。当情况全新时，情报会有所帮助。",
+    answer: "我认为两者都很重要。智力帮助我们处理新问题，而经验帮助我们应对以前见过的类似问题。",
   },
   "Can you give an example of how technology helps people solve problems in a smart way today?": {
     question: "您能举例说明当今技术如何帮助人们以智能方式解决问题吗？",
-    answer: "导航应用程序是一个简单的例子。他们收集交通信息并建议更快的路线，从而节省驾驶员的时间。在工作中，软件还可以在严重故障发生之前发现异常的系统活动。",
+    answer: "导航应用就是一个很好的例子。它们会查看路况并推荐更快的路线，让司机节省时间并避开拥堵道路。",
   },
   "Do you think it's important to plan ahead?": {
     question: "你认为提前计划重要吗？",
-    answer: "是的，计划可以帮助人们安排时间并为可能出现的问题做好准备。例如，工作计划可以明确职责和期限。",
+    answer: "是的，我认为很重要。计划能帮助人们更好地安排时间并避免问题。例如，我工作忙的一周前通常会做一个简单计划。",
   },
   "Do you think children should plan their future careers?": {
     question: "您认为孩子应该规划自己未来的职业吗？",
-    answer: "大一点的孩子可以开始考虑职业，但不需要太早做出最终决定。他们的兴趣和能力可能会随着成长而改变。",
+    answer: "年龄大一些时，他们可以开始考虑，但不必太早做决定，因为兴趣会随着成长而改变。",
   },
   "Should children ask their teachers or parents for advice when making plans?": {
     question: "孩子在制定计划时是否应该征求老师或家长的意见？",
-    answer: "他们应该问两个。老师了解教育，可能知道哪些科目适合孩子的强项，而家长则了解孩子的性格和家庭情况。",
+    answer: "我认为应该都问。老师可以给学习方面的建议，而父母更了解自己的孩子。",
   },
   "What activities do we need to plan ahead?": {
     question: "我们需要提前计划哪些活动？",
-    answer: "涉及时间、金钱或其他人的重要活动通常需要计划。例如旅行、主要工作项目、考试和家庭活动。",
+    answer: "需要花时间或金钱的重要活动都应提前计划，例如旅行、考试、家庭活动或大型工作项目。",
   },
   "Is making study plans popular among young people?": {
     question: "制定学习计划受年轻人欢迎吗？",
-    answer: "这是很常见的，尤其是在重要考试之前。许多学生使用日历或学习应用程序将科目划分为较小的任务。",
+    answer: "是的，我觉得很常见，特别是重要考试前。学习计划能帮助学生一个个完成小任务。",
   },
   "Do you think choosing a college major is closely related to a person's future career?": {
     question: "您认为大学专业的选择与一个人未来的职业生涯密切相关吗？",
-    answer: "是的，在医学或工程等领域，相关专业通常是必要的。然而，许多毕业生后来在不同的领域工作，因为沟通和解决问题等技能可以转移。",
+    answer: "对医学或工程等一些职业来说很重要。不过这不是唯一因素，因为毕业后人们还能学习新技能。",
   },
   "What is the right age for a child to learn drawing?": {
     question: "孩子几岁适合学画画？",
-    answer: "孩子们一旦能够安全地握笔就可以开始画画，也许在三四岁的时候。在那个年龄，目标应该是享受而不是技术技能。",
+    answer: "我觉得孩子三四岁、能安全握住铅笔时就可以开始。这个年龄画画应该以好玩为主，家长不该给太多压力。",
   },
   "Why do most children draw more often than adults do?": {
     question: "为什么大多数孩子比成人更常画画？",
-    answer: "孩子们有更多的空闲时间，也不太担心自己的画看起来是否专业。绘画也是他们在语言技能完全发展之前表达想法的一种简单方式。",
+    answer: "孩子通常有更多空闲时间，也喜欢尝试新东西。他们不会太担心自己画得好不好。",
   },
   "Why do some people visit galleries or museums instead of viewing artworks online?": {
     question: "为什么有些人参观画廊或博物馆而不是在线观看艺术品？",
-    answer: "看到原作可以让人们更清楚地了解它的真实尺寸、颜色和纹理。博物馆还提供安静的氛围和有用的背景信息。",
+    answer: "我觉得看原作是一种不同的体验。人们能看到真实的颜色和细节，博物馆通常也是安静、能学到新知识的地方。",
   },
   "Do you think galleries and museums should be free of charge?": {
     question: "您认为画廊和博物馆应该免费吗？",
-    answer: "基本的公共博物馆应该免费或便宜，以便家庭和学生可以定期参观。然而，特别展览可能需要合理的票价，因为展示和保护有价值的物品需要花钱。",
+    answer: "我觉得基础博物馆应该免费或便宜，这样更多家庭和学生能参观。不过特别展览可以收合理票价，因为组织它们需要花钱。",
   },
   "How do artworks inspire people?": {
     question: "艺术作品如何启发人们？",
-    answer: "艺术可以引导人们以不同的方式看待日常生活。一幅画可能会鼓励人们注意他们通常忽视的颜色、情感或社会问题。",
+    answer: "艺术可以通过给人新想法和不同的生活视角来启发人们。例如，一幅画能让人思考自己的感受或社会问题。",
   },
   "In your opinion, should drawing be a compulsory subject in primary school? Why or why not?": {
     question: "您认为绘画应该成为小学必修课吗？为什么或为什么不呢？",
-    answer: "是的，在初级阶段，它可以培养创造力、观察力和手部控制能力。该科目应该保持有趣，不应该造成太大的考试压力。",
+    answer: "是的，我觉得小学应该教画画。它能帮助孩子培养创造力、表达想法；不过它应该有趣，不该变成压力很大的考试科目。",
   },
   "What are the advantages and disadvantages of being a famous child?": {
     question: "出名的孩子有哪些优点和缺点？",
-    answer: "一个著名的孩子可能会获得特殊的机会、专业培训和经济奖励。然而，公众的关注会产生压力并减少隐私。",
+    answer: "出名的孩子可能得到更好的培训机会或赚钱机会。不过太多公众关注会带来压力，也会减少隐私。",
   },
   "What can today's children do to become famous?": {
     question: "现在的孩子怎样才能出名呢？",
-    answer: "有些孩子通过体育、音乐、表演或在线视频而出名。社交媒体可以更轻松地吸引大量受众，但出名不应该是唯一的目标。",
+    answer: "他们可以通过体育、音乐、表演或制作在线视频出名。社交媒体让这更容易，但孩子不该只关注出名。",
   },
   "What can children do with their fame?": {
     question: "孩子们可以利用自己的名气做什么？",
-    answer: "他们可以用它来支持慈善机构、鼓励积极行为或向其他年轻人介绍有用的想法。他们还可能建立未来的职业生涯。",
+    answer: "他们可以用名气帮助慈善机构或分享有用的想法。例如，可以鼓励其他年轻人做积极的事。",
   },
   "Do people become famous because of their talent?": {
     question: "人是因为才华而出名的吗？",
-    answer: "天赋是重要原因之一，尤其是在音乐、体育和表演方面。然而，时机、营销、个人关系和运气也很重要。",
+    answer: "天赋很重要，尤其在音乐或体育领域。不过运气、好时机和社交媒体也能帮助人出名。",
   },
   "Why are some people more interested in the private lives of celebrities?": {
     question: "为什么有些人对明星的私生活更感兴趣？",
-    answer: "人们对那些看起来比自己更丰富或更令人兴奋的生活感到好奇。名人新闻还提供轻松的对话和娱乐。",
+    answer: "有些人好奇，因为名人的生活看起来不同又精彩。名人新闻也很容易看，并和朋友聊天。",
   },
   "Do you think the definition of “fame” has changed in the age of social media? How?": {
     question: "您认为社交媒体时代“名气”的定义是否发生了变化？如何？",
-    answer: "是的。过去，名人通常是通过电视认识的演员、歌手或运动员。现在，一个普通人可以很快在网上获得数百万粉丝。",
+    answer: "是的，我觉得变化很大。过去名人通常是演员或歌手，现在普通人也能很快在网上出名。",
   },
   "What would children do to make their parents proud?": {
     question: "孩子会做什么让父母感到骄傲？",
@@ -187,7 +187,7 @@ export const partThreeTranslations: Record<string, PartThreeTranslation> = {
   },
   "Do you think enterprises should provide training for their employees?": {
     question: "您认为企业应该为员工提供培训吗？",
-    answer: "是的，因为培训可以帮助员工使用新工具并更安全、更高效地工作。这也表明公司重视他们的发展。",
+    answer: "是的。培训很重要，因为它能帮助员工学习实用技能，更自信地使用新工具。不过，培训内容应该与工作密切相关。",
   },
   "Do you think it is good for older adults to continue learning?": {
     question: "您认为老年人继续学习有好处吗？",
@@ -215,7 +215,7 @@ export const partThreeTranslations: Record<string, PartThreeTranslation> = {
   },
   "In your opinion, is it always good to encourage people to try new things? Why?": {
     question: "您认为鼓励人们尝试新事物总是好的吗？为什么？",
-    answer: "并非总是如此。尝试新事物可以建立信心和技能，但活动必须安全且合适。人们不应该陷入严重的财务风险或让他们极度不舒服的情况。",
+    answer: "不一定。新体验可以增强信心，但必须安全、合适。不能强迫别人去做让他们非常不舒服的事。",
   },
   "Do you think adults can have lots of imagination?": {
     question: "你认为成年人可以有很多想象力吗？",
@@ -251,7 +251,7 @@ export const partThreeTranslations: Record<string, PartThreeTranslation> = {
   },
   "Do you think people need to change the way of transportation drastically to protect the environment?": {
     question: "您认为人们需要彻底改变交通方式来保护环境吗？",
-    answer: "突然彻底改变是困难的，但人们可以逐渐减少开车，并使用公共交通工具进行适当的出行。政府应该首先让公交车、地铁系统和自行车变得更安全。",
+    answer: "我不认为人们需要完全改变出行方式，因为这可能会影响日常生活。不过，他们可以逐渐少开车，多使用公共交通，这能帮助减少污染。",
   },
   "How are the transportation systems in urban areas and rural areas different?": {
     question: "城市和农村的交通系统有何不同？",
@@ -283,7 +283,7 @@ export const partThreeTranslations: Record<string, PartThreeTranslation> = {
   },
   "When is it not appropriate to give advice to others?": {
     question: "什么时候不适合给别人提供建议？",
-    answer: "当没有人问过并且问题非常个人化时，这可能是不合适的。人们还应该避免在没有知识的情况下提供专业建议。",
+    answer: "如果别人没有询问，而且问题非常私人，就不太适合主动给建议。没有足够知识时，也不应该提供专业建议。",
   },
   "Which do you think is more helpful: advice from older people or advice from friends of the same age? Why?": {
     question: "您认为哪一个更有帮助：年长者的建议还是同龄朋友的建议？为什么？",
@@ -359,7 +359,7 @@ export const partThreeTranslations: Record<string, PartThreeTranslation> = {
   },
   "Do you think having many malls in a city is a good thing?": {
     question: "你认为一个城市拥有很多购物中心是件好事吗？",
-    answer: "一些竞争可以为客户提供更多选择，并可以改善服务。购物中心还创造就业机会和室内公共空间。然而，太多类似的购物中心可能会浪费土地、增加人流量并损害当地的小商店。",
+    answer: "这可能是好事，因为商场能给人们更多选择，也能创造工作机会。不过，商场太多可能加重交通压力，也会让本地小商店更难经营。",
   },
   "Why do people sometimes go to other cities or other countries to travel?": {
     question: "为什么人们有时会去其他城市或其他国家旅行？",
@@ -403,7 +403,7 @@ export const partThreeTranslations: Record<string, PartThreeTranslation> = {
   },
   "In what situations is it inappropriate to smile?": {
     question: "哪些情况下不宜微笑？",
-    answer: "在严重事故、葬礼或谈论别人的痛苦时微笑可能是不合适的。这可能会让人们认为这种情况没有得到尊重。",
+    answer: "在严重事故、葬礼或谈论他人痛苦时微笑是不合适的。这会让别人觉得我们不尊重当时的情况。",
   },
   "Do you think smiling can actually make people feel happier? Why?": {
     question: "你认为微笑真的可以让人感到更快乐吗？为什么？",
@@ -575,7 +575,7 @@ export const partThreeTranslations: Record<string, PartThreeTranslation> = {
   },
   "Do you think we will use more or fewer apps in the future? Why?": {
     question: "您认为未来我们会使用更多还是更少的应用程序？为什么？",
-    answer: "我们可能会使用更多的数字服务，但更少的独立应用程序。大平台和智能助手可以将支付、出行和通讯功能结合起来。",
+    answer: "我认为我们会使用更多数字服务，但独立应用可能会变少。未来，一个大型应用也许能把支付、出行、购物和通讯结合起来。",
   },
   "Why are children attracted to new things (such as electronics)?": {
     question: "为什么孩子会对新事物（例如电子产品）感兴趣？",
@@ -611,7 +611,7 @@ export const partThreeTranslations: Record<string, PartThreeTranslation> = {
   },
   "Is salary the main reason people choose a certain job?": {
     question: "薪水是人们选择某种工作的主要原因吗？",
-    answer: "工资很重要，因为人们需要养活自己和家人。然而，工作时间、兴趣、稳定性和人际关系也会影响长期的幸福感。",
+    answer: "薪水很重要，因为人们需要养活自己和家人。不过，工作时间、个人兴趣和工作稳定性也会影响他们的选择。",
   },
   "How have people’s opinions about the “perfect job” changed compared to the past?": {
     question: "与过去相比，人们对“完美工作”的看法有何变化？",

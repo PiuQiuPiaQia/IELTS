@@ -2,8 +2,6 @@ import assert from "node:assert/strict";
 import { access, readFile } from "node:fs/promises";
 import test from "node:test";
 
-const root = new URL("../", import.meta.url);
-
 test("uses the local product name and JSONL file storage", async () => {
   const [layout, page, editor, header, storage, jsonl] = await Promise.all([
     readFile(new URL("../app/layout.tsx", import.meta.url), "utf8"),
@@ -268,7 +266,7 @@ test("keeps each corrected review aligned with its clean version", async () => {
   );
   const blocks = [
     ...reviews.matchAll(
-      /\n  \{\n    id: "([^"]+)"([\s\S]*?)(?=\n  \{\n    id:|\n\];)/g,
+      /\n {2}\{\n {4}id: "([^"]+)"([\s\S]*?)(?=\n {2}\{\n {4}id:|\n\];)/g,
     ),
   ];
   const normalize = (html) =>
@@ -280,8 +278,8 @@ test("keeps each corrected review aligned with its clean version", async () => {
 
   assert.equal(blocks.length, 12);
   for (const [, id, block] of blocks) {
-    const marked = block.match(/reviewHtml: `([\s\S]*?)`,\n    cleanHtml:/)?.[1];
-    const clean = block.match(/cleanHtml: `([\s\S]*?)`,\n  }/)?.[1];
+    const marked = block.match(/reviewHtml: `([\s\S]*?)`,\n {4}cleanHtml:/)?.[1];
+    const clean = block.match(/cleanHtml: `([\s\S]*?)`,\n {2}}/)?.[1];
     assert.ok(marked, `${id} should contain reviewHtml`);
     assert.ok(clean, `${id} should contain cleanHtml`);
     assert.equal(normalize(marked), normalize(clean), `${id} should stay aligned`);
@@ -343,12 +341,20 @@ test("provides fast fill-in frameworks for General Training letters", async () =
   );
 });
 
-test("provides fast fill-in frameworks for the common Task 2 types", async () => {
-  const [header, page, tabs] = await Promise.all([
+test("provides fast fill-in frameworks and predicted essays for Task 2", async () => {
+  const [header, page, tabs, predictedTabs, predictedData] = await Promise.all([
     readFile(new URL("../app/site-header.tsx", import.meta.url), "utf8"),
     readFile(new URL("../app/task2/page.tsx", import.meta.url), "utf8"),
     readFile(
       new URL("../app/task2/task-two-reference-tabs.tsx", import.meta.url),
+      "utf8",
+    ),
+    readFile(
+      new URL("../app/task2/predicted-essay-tabs.tsx", import.meta.url),
+      "utf8",
+    ),
+    readFile(
+      new URL("../app/task2/predicted-essay-data.ts", import.meta.url),
       "utf8",
     ),
   ]);
@@ -360,6 +366,7 @@ test("provides fast fill-in frameworks for the common Task 2 types", async () =>
   assert.match(tabs, /四段结构只记一套；主体段根据任务选择“解释／论证”或“措施”逻辑/);
   assert.match(tabs, /所有题型都用这四段/);
   assert.match(tabs, /同侧论证/);
+  assert.doesNotMatch(tabs, /partly agree|部分同意/);
   assert.match(tabs, /双面比较/);
   assert.match(tabs, /两问回答/);
   assert.doesNotMatch(tabs, /第一步|先识别这 5 类常见问法/);
@@ -388,7 +395,7 @@ test("provides fast fill-in frameworks for the common Task 2 types", async () =>
   assert.doesNotMatch(tabs, /id: "positive-negative"/);
   assert.match(tabs, /Is this a positive or negative development\?/);
   assert.match(tabs, /讨论双方 · 普通利弊 · advantages outweigh disadvantages/);
-  assert.match(tabs, /特殊题目只改这些地方/);
+  assert.doesNotMatch(tabs, /特殊题目只改这些地方/);
   assert.match(tabs, /原因影响 · 任意两个直接问题/);
   assert.doesNotMatch(tabs, /套用时必须检查|正确的背法|fast-final-check/);
   assert.doesNotMatch(tabs, /supporters of/);
@@ -407,6 +414,79 @@ test("provides fast fill-in frameworks for the common Task 2 types", async () =>
   assert.match(tabs, /How important/);
   assert.match(tabs, /影响的重要性、范围或持续时间/);
   assert.match(tabs, /普通利弊题没有要求 opinion 时不强加判断/);
+  assert.match(tabs, /PredictedEssayTabs/);
+  assert.match(predictedTabs, /预测题 Band 5\.5 范文/);
+  assert.match(predictedTabs, /G 类优先/);
+  assert.match(predictedTabs, /G 类备考相关性排序/);
+  assert.match(predictedTabs, /prediction-material-highlight/);
+  assert.match(predictedTabs, /绿色高亮/);
+  assert.match(predictedTabs, /高亮素材短语/);
+  assert.match(predictedTabs, /keyPhrasesUsedInExample/);
+  assert.match(predictedTabs, /highlightBodyPhrases/);
+  assert.match(predictedTabs, /reasonPhrases/);
+  assert.match(predictedTabs, /开头段｜立场/);
+  assert.match(predictedTabs, /introPhrases/);
+  assert.doesNotMatch(predictedTabs, /keyPhrasesPerBody/);
+  assert.match(predictedTabs, /phrase\.translation/);
+  assert.match(predictedTabs, /本题套快速框架/);
+  assert.match(predictedTabs, /frameworkPoints/);
+  assert.match(predictedTabs, /role="tablist"/);
+  assert.match(predictedTabs, /role="tabpanel"/);
+  assert.match(predictedTabs, /复制题目与范文/);
+  assert.equal([...predictedData.matchAll(/title: "/g)].length, 24);
+  assert.equal(
+    [...predictedData.matchAll(/\n {8}keyPhrases: \[\n {10}\{ text/g)].length,
+    24,
+  );
+  assert.match(predictedData, /additionalKeyPhrasesByEssayId/);
+  assert.match(predictedData, /reasonPhrasesByEssayId/);
+  assert.match(predictedData, /introPhrasesByEssayId/);
+  assert.match(predictedData, /simpleFrameworkPointsByEssayId/);
+  assert.match(predictedData, /simpleBodyReasonSentencesByEssayId/);
+  assert.match(predictedData, /singleSidePositionByEssayId/);
+  assert.match(predictedData, /simplifiedEssayContentByEssayId/);
+  assert.match(predictedData, /generalTrainingEssayOrderByCategory/);
+  assert.match(predictedData, /"move-companies": "同意"/);
+  assert.doesNotMatch(predictedData, /"move-companies": "不同意"/);
+  assert.match(predictedData, /搬迁工作地点可以减少进入城市的日常通勤/);
+  assert.match(predictedData, /moving workplaces can reduce traffic congestion/);
+  assert.match(predictedData, /relocation can lower the demand for urban housing/);
+  assert.match(predictedData, /create regional jobs/);
+  assert.match(predictedData, /support local businesses/);
+  assert.equal(
+    [...predictedData.matchAll(/frameworkPoints: \[/g)].length,
+    24,
+  );
+
+  for (const match of predictedData.matchAll(
+    /title: "([^"]+)"[\s\S]*?keyPhrases: \[([^\]]*)\],[\s\S]*?paragraphs: \[([\s\S]*?)\n\s*\],/g,
+  )) {
+    const phrases = [
+      ...match[2].matchAll(
+        /text: "([^"]+)", translation: "([^"]+)"/g,
+      ),
+    ].map((phrase) => ({ text: phrase[1], translation: phrase[2] }));
+    const paragraphs = [...match[3].matchAll(/`([^`]*)`/g)].map(
+      (paragraph) => paragraph[1],
+    );
+    const fullEssay = paragraphs.join(" ");
+    const wordCount = fullEssay.trim().split(/\s+/).length;
+    assert.ok(
+      wordCount >= 250 && wordCount <= 280,
+      `${match[1]} should contain 250—280 words, received ${wordCount}`,
+    );
+    for (const phrase of phrases) {
+      assert.ok(
+        paragraphs
+          .slice(1, 3)
+          .some((body) =>
+            body.toLowerCase().includes(phrase.text.toLowerCase()),
+          ),
+        `${match[1]} should use ${phrase.text} in a body paragraph`,
+      );
+      assert.ok(phrase.translation.length > 0);
+    }
+  }
 });
 
 test("provides a complete PDF-based Band 6 Task 2 material library", async () => {

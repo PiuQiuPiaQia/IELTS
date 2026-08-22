@@ -304,7 +304,7 @@ export default function PartOneLibrary() {
   return <main className="reference-shell">
     <header className="topbar">
       <a className="brand" href="/" aria-label="返回雅思口语练习"><div className="brand-mark">S</div><div><div className="brand-title">雅思口语练习</div><div className="brand-subtitle">Local speaking practice</div></div></a>
-      <nav className="main-nav" aria-label="主导航"><a className="active" aria-current="page" href="/part-1">Part 1 练习</a><a href="/">Part 2 练习</a><a href="/part-3">Part 3 练习</a></nav>
+      <nav className="main-nav" aria-label="主导航"><a className="active" aria-current="page" href="/part-1">Part 1 练习</a><a href="/">Part 2 练习</a><a href="/part-3">Part 3 练习</a><a href="/toolkit">万能素材</a></nav>
       <div className="saved-state"><i />已练记录</div>
     </header>
     <article className="tab-reference">
