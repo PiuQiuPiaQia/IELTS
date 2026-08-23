@@ -2,7 +2,7 @@
 // 页面脚本从 window.IELTS_DATA 获取数据，不依赖 fetch 或本地服务器。
 
 window.IELTS_DATA = {
-  "version": "p3-v9",
+  "version": "p3-v10",
   "part1": [
     {
       "id": "crowded",
@@ -5779,7 +5779,7 @@ window.IELTS_DATA = {
         },
         {
           "question": "Why do some people visit galleries or museums instead of viewing artworks online?",
-          "answer": "Young people often view art online because it is quick and convenient. Older people may prefer seeing things face to face and taking time over the details. A real gallery visit also helps people understand cultural heritage more clearly.",
+          "answer": "Young people often view art online because it is quick and convenient. Older people may prefer seeing things face to face and taking time over the details. A real gallery visit also helps people understand local art and culture better.",
           "materials": [
             "C1",
             "M2",
@@ -5787,20 +5787,20 @@ window.IELTS_DATA = {
           ],
           "translation": {
             "question": "为什么有些人参观画廊或博物馆而不是在线观看艺术品？",
-            "answer": "年轻人经常在网上看艺术品，因为这种方式快捷方便。年长者可能更喜欢亲眼观看，并慢慢观察细节。亲自参观美术馆也能帮助人们更清楚地理解文化遗产。"
+            "answer": "年轻人经常在网上看艺术品，因为这种方式快捷方便。年长者可能更喜欢亲眼观看，并慢慢观察细节。亲自参观美术馆也能帮助人们更好地了解当地艺术和文化。"
           },
           "comparison": "C1 · 社交互动"
         },
         {
           "question": "Do you think galleries and museums should be free of charge?",
-          "answer": "Basic entry should be free or affordable. It gives the public good value for money and allows more families to learn about art, local culture and cultural heritage.",
+          "answer": "Basic entry should be free or affordable. It gives the public good value for money and allows more families to learn about art, local traditions and culture.",
           "materials": [
             "M3",
             "M8"
           ],
           "translation": {
             "question": "您认为画廊和博物馆应该免费吗？",
-            "answer": "基础门票应该免费或价格合理。这样能让公众觉得物有所值，也能让更多家庭了解艺术、当地文化和文化遗产。"
+            "answer": "基础门票应该免费或价格合理。这样能让公众觉得物有所值，也能让更多家庭了解艺术、当地传统和文化。"
           }
         },
         {
@@ -6191,14 +6191,14 @@ window.IELTS_DATA = {
         },
         {
           "question": "What subjects are helpful for children's imagination?",
-          "answer": "Art, music, literature and science can all develop imagination. They give children new knowledge and different ideas. Cultural subjects also help them understand traditions and broaden their cultural awareness.",
+          "answer": "Art, music, literature and science can all develop imagination. They give children new knowledge and different ideas. Cultural subjects also teach them about traditions and help them understand their culture better.",
           "materials": [
             "M4",
             "M8"
           ],
           "translation": {
             "question": "哪些科目有助于培养孩子的想象力？",
-            "answer": "艺术、音乐、文学和科学都能培养想象力。它们给孩子新知识和不同想法，文化类学科还能帮助他们理解传统并拓宽文化认知。"
+            "answer": "艺术、音乐、文学和科学都能培养想象力。它们给孩子新知识和不同想法，文化类学科还能教他们了解传统，更好地理解自己的文化。"
           }
         },
         {
@@ -6533,19 +6533,19 @@ window.IELTS_DATA = {
         },
         {
           "question": "Why do people like to visit historical sites?",
-          "answer": "People visit historical sites because they carry local customs and cultural heritage. Visitors can also gain new knowledge, broaden their horizons and understand the past more clearly.",
+          "answer": "People visit historical sites because they show local traditions and customs. Visitors can also learn new things, see more of the world and understand the past better.",
           "materials": [
             "M8",
             "M4"
           ],
           "translation": {
             "question": "为什么人们喜欢参观历史古迹？",
-            "answer": "人们参观历史遗址，是因为它们承载当地习俗和文化遗产。参观者还能获得新知识、开阔眼界，并更清楚地了解过去。"
+            "answer": "人们参观历史遗址，是因为这些地方展现了当地传统和习俗。参观者还能学到新东西、增长见识，并更好地了解过去。"
           }
         },
         {
           "question": "What are the challenges in preserving old or historical buildings?",
-          "answer": "The challenges differ by location. Cities face expensive land and pressure from new development, while rural areas may have limited roads, services and repair budgets. Governments need a cost-effective plan that still preserves cultural heritage.",
+          "answer": "The challenges differ by location. Cities face expensive land and pressure from new development, while rural areas may have limited roads, services and repair budgets. Governments need a plan that is not too expensive but can still keep local culture alive.",
           "materials": [
             "C3",
             "M3",
@@ -6553,20 +6553,20 @@ window.IELTS_DATA = {
           ],
           "translation": {
             "question": "保护古老或历史建筑面临哪些挑战？",
-            "answer": "保护难题会因地区而不同。城市面临昂贵土地和新开发压力，而农村可能道路、服务和维修预算有限。政府需要制定有性价比、同时能够保护文化遗产的方案。"
+            "answer": "保护难题会因地区而不同。城市面临昂贵土地和新开发压力，而农村可能道路、服务和维修预算有限。政府需要制定一个不会太贵、又能让当地文化延续下去的方案。"
           },
           "comparison": "C3 · 基础设施"
         },
         {
           "question": "Do you think modern buildings will become as culturally valuable as ancient ones in the future?",
-          "answer": "Yes, some may. Older people often value ancient buildings because they are linked to tradition, while younger people are more open to modern design. If a modern building represents today's culture, it may become valuable heritage in the future.",
+          "answer": "Yes, some may. Older people often value ancient buildings because they are linked to tradition, while younger people are more open to modern design. If a modern building shows life and culture today, it may become important in the future.",
           "materials": [
             "C1",
             "M8"
           ],
           "translation": {
             "question": "您认为未来现代建筑会像古代建筑一样具有文化价值吗？",
-            "answer": "是的，一些现代建筑可能会。年长者通常重视与传统有关的古建筑，而年轻人更愿意接受现代设计。如果一座现代建筑能够代表今天的文化，它未来可能成为有价值的遗产。"
+            "answer": "是的，一些现代建筑可能会。年长者通常重视与传统有关的古建筑，而年轻人更愿意接受现代设计。如果一座现代建筑能展现今天的生活和文化，它未来也可能变得很重要。"
           },
           "comparison": "C1 · 对改变的态度"
         }
@@ -6728,14 +6728,14 @@ window.IELTS_DATA = {
         },
         {
           "question": "Do you think short-term visits can help people understand a different culture?",
-          "answer": "Yes, a short visit shows people local food, customs and daily routines. It broadens their horizons and cultural awareness, although a deeper understanding needs more time.",
+          "answer": "Yes, a short visit shows people local food, customs and daily routines. It helps them see more of the world and understand another culture better, although a deeper understanding needs more time.",
           "materials": [
             "M4",
             "M8"
           ],
           "translation": {
             "question": "您认为短期访问可以帮助人们了解不同的文化吗？",
-            "answer": "可以，短期旅行能让人接触当地食物、习俗和日常生活。它能开阔眼界和文化认知，不过更深入的理解仍需要更多时间。"
+            "answer": "可以，短期旅行能让人接触当地食物、习俗和日常生活。它能帮助人们增长见识，更好地了解另一种文化，不过深入理解仍需要更多时间。"
           }
         }
       ]
@@ -7076,7 +7076,7 @@ window.IELTS_DATA = {
       "items": [
         {
           "question": "What kinds of movies do you think are successful in your country?",
-          "answer": "Successful films often serve different age groups. Young people may prefer active action films or comedies, while older people may enjoy calmer historical stories. The first group gets excitement and relaxation, while the second connects with culture and tradition.",
+          "answer": "Successful films often serve different age groups. Young people may prefer active action films or comedies, while older people may enjoy calmer historical stories. The first group gets excitement and relaxation, while the second learns more about local culture and traditions.",
           "materials": [
             "C1",
             "M1",
@@ -7084,7 +7084,7 @@ window.IELTS_DATA = {
           ],
           "translation": {
             "question": "您认为哪些类型的电影在您的国家比较成功？",
-            "answer": "成功的电影通常会满足不同年龄群体。年轻人可能喜欢活跃的动作片或喜剧，而年长者可能喜欢节奏较慢的历史故事。前者获得刺激和放松，后者则能接触文化和传统。"
+            "answer": "成功的电影通常会满足不同年龄群体。年轻人可能喜欢活跃的动作片或喜剧，而年长者可能喜欢节奏较慢的历史故事。前者获得刺激和放松，后者则能更多地了解当地文化和传统。"
           },
           "comparison": "C1 · 兴趣爱好"
         },
@@ -7102,7 +7102,7 @@ window.IELTS_DATA = {
         },
         {
           "question": "Do Chinese people prefer to watch domestic movies or foreign movies?",
-          "answer": "Older viewers may prefer domestic films because the language, traditions and local customs are familiar. By contrast, young people are often more open to foreign films. They can explore different cultures and broaden their horizons.",
+          "answer": "Older viewers may prefer domestic films because the language, traditions and local customs are familiar. By contrast, young people are often more open to foreign films. They can learn about different cultures and see more of the world.",
           "materials": [
             "C1",
             "M4",
@@ -7110,7 +7110,7 @@ window.IELTS_DATA = {
           ],
           "translation": {
             "question": "中国人更喜欢看国产电影还是外国电影？",
-            "answer": "年长观众可能更喜欢国产电影，因为语言、传统和当地习俗都很熟悉。相比之下，年轻人通常更愿意接受外国电影，并通过它们探索不同文化、开阔眼界。"
+            "answer": "年长观众可能更喜欢国产电影，因为语言、传统和当地习俗都很熟悉。相比之下，年轻人通常更愿意接受外国电影，并通过它们了解不同文化、增长见识。"
           },
           "comparison": "C1 · 对改变的态度"
         },
@@ -7161,38 +7161,38 @@ window.IELTS_DATA = {
       "items": [
         {
           "question": "What things do families keep for a long time?",
-          "answer": "Families often keep photographs, letters, jewellery and handmade items. These objects carry family traditions and shared memories. They also strengthen emotional bonds between family members.",
+          "answer": "Families often keep photographs, letters, jewellery and handmade items. These objects hold shared memories and help keep family traditions alive. They also make family members feel closer.",
           "materials": [
             "M5",
             "M8"
           ],
           "translation": {
             "question": "哪些东西是家人可以长期保存的？",
-            "answer": "家庭经常保存照片、信件、首饰和手工物品。这些物品承载家庭传统和共同记忆，也能加深家庭成员之间的情感纽带。"
+            "answer": "家庭经常保存照片、信件、首饰和手工物品。这些物品留住共同回忆，也让家庭传统延续下去，还能让家人感觉更亲近。"
           }
         },
         {
           "question": "What's the difference between things valued by people in the past and today?",
-          "answer": "Older people often value handmade objects and family traditions because these fit their memories. By contrast, young people may prefer digital devices and accept change faster. Old objects still matter because they preserve cultural heritage.",
+          "answer": "Older people often value handmade objects and family traditions because these fit their memories. By contrast, young people may prefer digital devices and accept change faster. Old objects still matter because they help keep our culture alive.",
           "materials": [
             "C1",
             "M8"
           ],
           "translation": {
             "question": "过去和今天人们所重视的事物有什么区别？",
-            "answer": "年长者通常重视手工物品和家庭传统，因为这些符合他们的记忆。相比之下，年轻人可能更喜欢数字设备，也更快接受变化。旧物仍然重要，因为它们保存着文化遗产。"
+            "answer": "年长者通常重视手工物品和家庭传统，因为这些符合他们的记忆。相比之下，年轻人可能更喜欢数字设备，也更快接受变化。旧物仍然重要，因为它们能让我们的文化延续下去。"
           },
           "comparison": "C1 · 对改变的态度"
         },
         {
           "question": "What kinds of things are kept in museums?",
-          "answer": "Museums keep artworks, tools, clothes, documents and objects from important events. These items preserve cultural heritage and help visitors understand local customs and history.",
+          "answer": "Museums keep artworks, tools, clothes, documents and objects from important events. These items help keep culture alive and teach visitors about local customs and history.",
           "materials": [
             "M8"
           ],
           "translation": {
             "question": "博物馆里保存着什么样的东西？",
-            "answer": "博物馆保存艺术品、工具、服装、文件和重要事件相关物品。这些物品保护文化遗产，也帮助参观者理解当地习俗和历史。"
+            "answer": "博物馆保存艺术品、工具、服装、文件和重要事件相关物品。这些物品能让文化延续下去，也能让参观者了解当地习俗和历史。"
           }
         },
         {
@@ -7211,19 +7211,19 @@ window.IELTS_DATA = {
         },
         {
           "question": "Why is it important for people (especially children) to learn about family history?",
-          "answer": "Family history preserves traditions and shows children where they come from. Sharing these stories creates quality family time, strengthens emotional bonds and improves communication between generations.",
+          "answer": "Family history keeps traditions alive and shows children where they come from. Sharing these stories gives families time together, makes them feel closer and improves communication between generations.",
           "materials": [
             "M8",
             "M5"
           ],
           "translation": {
             "question": "为什么人们（尤其是儿童）了解家族史很重要？",
-            "answer": "家庭历史能保存传统，并让孩子知道自己来自哪里。分享这些故事能创造高质量的家庭时光、加深情感纽带，并改善代际交流。"
+            "answer": "家族历史能让传统延续下去，也让孩子知道自己来自哪里。分享这些故事能让家人一起相处、感觉更亲近，并改善不同代人之间的交流。"
           }
         },
         {
           "question": "Do you think people will keep fewer physical objects in the future as memories? Why?",
-          "answer": "Young people are comfortable keeping photos in convenient cloud storage, while older people may prefer physical objects linked to family traditions. So people will keep fewer objects overall, but meaningful items will remain part of family heritage.",
+          "answer": "Young people are comfortable keeping photos in convenient cloud storage, while older people may prefer physical objects linked to family traditions. So people will keep fewer objects overall, but meaningful items will still help keep family traditions alive.",
           "materials": [
             "C1",
             "M2",
@@ -7231,7 +7231,7 @@ window.IELTS_DATA = {
           ],
           "translation": {
             "question": "您认为未来人们会保留更少的实物作为记忆吗？为什么？",
-            "answer": "年轻人习惯把照片保存在便利的云端，而年长者可能更喜欢与家庭传统有关的实体物品。因此，人们总体会保存更少物品，但有意义的东西仍会成为家庭传承的一部分。"
+            "answer": "年轻人习惯把照片保存在便利的云端，而年长者可能更喜欢与家庭传统有关的实体物品。因此，人们总体会保存更少物品，但有意义的东西仍能让家庭传统延续下去。"
           },
           "comparison": "C1 · 社交互动与改变"
         }
@@ -7294,7 +7294,7 @@ window.IELTS_DATA = {
         },
         {
           "question": "Do you think traditional stories (like fairy tales) are still relevant for children today?",
-          "answer": "Yes. Older people often value fairy tales because they carry traditions, while young children are open to imaginative stories and new ideas. When adults explain old messages in a modern way, these stories preserve culture and give children useful knowledge and values.",
+          "answer": "Yes. Older people often value fairy tales because they are part of tradition, while children enjoy their fun and imaginative stories. If adults explain the lessons in a simple, modern way, these stories can keep culture alive and teach children useful values.",
           "materials": [
             "C1",
             "M4",
@@ -7302,20 +7302,20 @@ window.IELTS_DATA = {
           ],
           "translation": {
             "question": "您认为传统故事（如童话故事）对今天的孩子来说仍然有意义吗？",
-            "answer": "是的。年长者通常重视童话，因为它们承载传统；年幼的孩子则愿意接受富有想象力的故事和新想法。当成年人用现代方式解释旧寓意时，这些故事既能保存文化，也能给孩子有用的知识和价值观。"
+            "answer": "是的。年长者通常重视童话，因为它们是传统的一部分，而孩子喜欢其中有趣又富有想象力的故事。如果成年人用简单、现代的方式解释故事寓意，这些故事就能让文化延续下去，也能教给孩子有用的价值观。"
           },
           "comparison": "C1 · 对改变的态度"
         },
         {
           "question": "How can stories influence a person‘s character or values?",
-          "answer": "Stories show choices and results without making people experience them directly. They broaden people's horizons, improve cultural awareness and help them develop more open-minded values.",
+          "answer": "Stories show choices and results without people having to experience them. They also give people new ideas, help them understand other cultures and make them more open-minded.",
           "materials": [
             "M4",
             "M8"
           ],
           "translation": {
             "question": "故事如何影响一个人的性格或价值观？",
-            "answer": "故事不用让人亲身经历，就能展示选择和结果。它们能开阔眼界、增强文化认知，并帮助人们形成更加开放的价值观。"
+            "answer": "故事不用让人亲身经历，就能展示选择和结果。它们还能给人新想法，帮助人们理解其他文化，并让人变得更加开放。"
           }
         }
       ]
@@ -7424,7 +7424,7 @@ window.IELTS_DATA = {
         },
         {
           "question": "Why do some grown-ups hate to throw out old things (such as clothes)?",
-          "answer": "Older adults may keep old clothes because they carry family traditions and memories. By contrast, young people often accept change faster. For older people, throwing an item away can feel like losing an emotional bond.",
+          "answer": "Older adults may keep old clothes because they remind them of family traditions and old memories. By contrast, young people often accept change faster. For older people, throwing an item away can feel like losing an important memory.",
           "materials": [
             "C1",
             "M5",
@@ -7432,7 +7432,7 @@ window.IELTS_DATA = {
           ],
           "translation": {
             "question": "为什么有些大人不愿意扔掉旧东西（比如衣服）？",
-            "answer": "年长者可能会保留旧衣服，因为它们承载着家庭传统和记忆。相比之下，年轻人通常更快接受变化。对年长者来说，扔掉物品可能像失去一段情感联系。"
+            "answer": "年长者可能会保留旧衣服，因为它们让人想起家庭传统和过去的回忆。相比之下，年轻人通常更快接受变化。对年长者来说，扔掉一件物品可能像失去一段重要回忆。"
           },
           "comparison": "C1 · 对改变的态度"
         },
@@ -7597,7 +7597,7 @@ window.IELTS_DATA = {
         },
         {
           "question": "What are the different types of films in your country?",
-          "answer": "There are comedies, action films, cartoons and historical films. Young people may prefer active action or animated films, while older viewers may enjoy calmer historical stories. These choices provide either relaxation or stronger cultural awareness.",
+          "answer": "There are comedies, action films, cartoons and historical films. Young people may prefer active action or animated films, while older viewers may enjoy calmer historical stories. These choices can help people relax or learn more about local culture.",
           "materials": [
             "C1",
             "M1",
@@ -7605,13 +7605,13 @@ window.IELTS_DATA = {
           ],
           "translation": {
             "question": "你们国家有哪些不同类型的电影？",
-            "answer": "电影类型包括喜剧、动作片、动画片和历史片。年轻人可能喜欢活跃的动作片或动画片，而年长观众可能喜欢节奏较慢的历史故事。这些选择能带来放松或更强的文化认知。"
+            "answer": "电影类型包括喜剧、动作片、动画片和历史片。年轻人可能喜欢活跃的动作片或动画片，而年长观众可能喜欢节奏较慢的历史故事。这些选择能让人放松，或帮助他们更多地了解当地文化。"
           },
           "comparison": "C1 · 兴趣爱好"
         },
         {
           "question": "Are historical films popular in your country? Why?",
-          "answer": "Yes, especially among older viewers, who may value traditions and stories connected with the past. Young people often prefer more active modern films, but a good historical film can still give them knowledge and broaden their cultural awareness.",
+          "answer": "Yes, especially among older viewers, who may value traditions and stories connected with the past. Young people often prefer more active modern films, but a good historical film can still teach them about the past and help them understand local culture.",
           "materials": [
             "C1",
             "M4",
@@ -7619,7 +7619,7 @@ window.IELTS_DATA = {
           ],
           "translation": {
             "question": "历史电影在你们国家受欢迎吗？为什么？",
-            "answer": "是的，尤其是在年长观众中，他们可能重视传统和与过去有关的故事。年轻人往往喜欢更活跃的现代电影，但优秀的历史片仍能给他们知识并拓宽文化认知。"
+            "answer": "是的，尤其是在年长观众中，他们可能重视传统和与过去有关的故事。年轻人往往喜欢更活跃的现代电影，但优秀的历史片仍能让他们了解过去和当地文化。"
           },
           "comparison": "C1 · 兴趣爱好"
         },
@@ -7637,14 +7637,14 @@ window.IELTS_DATA = {
         },
         {
           "question": "Why are Japanese animated films so popular?",
-          "answer": "Japanese animation has a clear visual culture, imaginative stories and themes for different ages. It lets international viewers explore new ideas, gain knowledge and broaden their horizons.",
+          "answer": "Japanese animation has a special style, interesting stories and ideas for different ages. It helps viewers from other countries learn new things and understand Japanese culture better.",
           "materials": [
             "M8",
             "M4"
           ],
           "translation": {
             "question": "为什么日本动画电影如此受欢迎？",
-            "answer": "日本动画拥有鲜明的视觉文化、富有想象力的故事和适合不同年龄的主题。它让国际观众探索新想法、获得知识并开阔眼界。"
+            "answer": "日本动画有特别的风格、有趣的故事和适合不同年龄的想法。它能帮助其他国家的观众学到新东西，更好地了解日本文化。"
           }
         },
         {
@@ -7930,15 +7930,14 @@ window.IELTS_DATA = {
         {
           "code": "M8",
           "title": "文化仪式感类",
-          "chineseIdea": "它承载深厚传统文化和当地习俗 → 给普通生活带来仪式感 → 帮助传承文化遗产 → 让人体验独特地域特色，增强文化认知。",
-          "paragraph": "It carries profound traditional culture and local customs. It brings a strong sense of ritual to ordinary daily life and helps preserve our cultural heritage. It allows people to experience unique local features and enrich their cultural awareness.",
+          "chineseIdea": "它是传统和当地习俗的一部分 → 让普通日子变得特别 → 让文化延续下去，也帮助我们了解当地生活。",
+          "paragraph": "It is part of our traditions and local customs. It makes ordinary days feel special and helps keep our culture alive. It also helps us understand local life and culture better.",
           "highlights": [
-            "profound traditional culture",
+            "part of our traditions",
             "local customs",
-            "sense of ritual",
-            "preserve our cultural heritage",
-            "unique local features",
-            "cultural awareness"
+            "makes ordinary days feel special",
+            "keep our culture alive",
+            "understand local life and culture better"
           ]
         },
         {
