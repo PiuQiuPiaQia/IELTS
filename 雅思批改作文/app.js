@@ -1,8 +1,10 @@
 "use strict";
 
 const STORAGE_KEY = "ielts-writing-static-reviews-v1";
+const UI_STORAGE_KEY = "ielts-writing-ui-state-v1";
+const PAGES = new Set(["reviews", "letters", "task2", "materials"]);
 const state = {
-  page: location.hash.slice(1) || "reviews",
+  page: PAGES.has(location.hash.slice(1)) ? location.hash.slice(1) : "reviews",
   data: {},
   reviews: [],
   selectedReviewId: "",
@@ -13,6 +15,10 @@ const state = {
   materialCategoryId: "",
   lastDeleted: null,
 };
+
+let readingPositions = {};
+let scrollSaveTimer = 0;
+let suspendScrollSave = false;
 
 const main = document.querySelector("main");
 const navButtons = [...document.querySelectorAll("[data-page]")];
@@ -43,6 +49,141 @@ function highlight(text, phrases = []) {
   return safeText.replace(pattern, "<mark>$1</mark>");
 }
 
+function loadUiState() {
+  try {
+    const saved = JSON.parse(localStorage.getItem(UI_STORAGE_KEY) || "null");
+    if (!saved || typeof saved !== "object") return;
+    if (!PAGES.has(location.hash.slice(1)) && PAGES.has(saved.page)) state.page = saved.page;
+    if (typeof saved.selectedReviewId === "string") state.selectedReviewId = saved.selectedReviewId;
+    if (["review", "clean"].includes(saved.reviewMode)) state.reviewMode = saved.reviewMode;
+    if (typeof saved.letterId === "string") state.letterId = saved.letterId;
+    if (typeof saved.essayCategoryId === "string") state.essayCategoryId = saved.essayCategoryId;
+    if (typeof saved.essayId === "string") state.essayId = saved.essayId;
+    if (typeof saved.materialCategoryId === "string") state.materialCategoryId = saved.materialCategoryId;
+    if (saved.readingPositions && typeof saved.readingPositions === "object" && !Array.isArray(saved.readingPositions)) readingPositions = saved.readingPositions;
+  } catch (error) {
+    console.warn("Unable to restore writing UI state", error);
+  }
+}
+
+function persistUiState() {
+  try {
+    localStorage.setItem(UI_STORAGE_KEY, JSON.stringify({
+      page: state.page,
+      selectedReviewId: state.selectedReviewId,
+      reviewMode: state.reviewMode,
+      letterId: state.letterId,
+      essayCategoryId: state.essayCategoryId,
+      essayId: state.essayId,
+      materialCategoryId: state.materialCategoryId,
+      readingPositions,
+    }));
+  } catch (error) {
+    console.warn("Unable to save writing UI state", error);
+  }
+}
+
+function currentViewKey() {
+  if (state.page === "reviews") return `reviews:${state.selectedReviewId}:${state.reviewMode}`;
+  if (state.page === "letters") return `letters:${state.letterId}`;
+  if (state.page === "task2") return `task2:${state.essayCategoryId}:${state.essayId}`;
+  if (state.page === "materials") return `materials:${state.materialCategoryId}`;
+  return state.page;
+}
+
+function markReadingAnchors() {
+  main.querySelectorAll(".card, .criterion, .editor-shell, .essay-paragraph, .answer-line, .dimension").forEach((element, index) => {
+    element.dataset.readingAnchor = `item-${index}`;
+  });
+}
+
+function revealActiveTabs() {
+  requestAnimationFrame(() => {
+    main.querySelectorAll(".sidebar").forEach((sidebar) => {
+      const activeItems = [...sidebar.querySelectorAll(".active")];
+      const active = activeItems[activeItems.length - 1];
+      if (!active) return;
+      const sidebarRect = sidebar.getBoundingClientRect();
+      const activeRect = active.getBoundingClientRect();
+      if (activeRect.top < sidebarRect.top || activeRect.bottom > sidebarRect.bottom) {
+        sidebar.scrollTop += activeRect.top - sidebarRect.top - ((sidebar.clientHeight - activeRect.height) / 2);
+      }
+    });
+  });
+}
+
+function trimReadingPositions() {
+  const entries = Object.entries(readingPositions);
+  if (entries.length <= 120) return;
+  entries.sort(([, left], [, right]) => (right?.updatedAt || 0) - (left?.updatedAt || 0));
+  readingPositions = Object.fromEntries(entries.slice(0, 120));
+}
+
+function saveReadingPosition() {
+  if (suspendScrollSave || !Object.keys(state.data).length) return;
+  const anchors = [...main.querySelectorAll("[data-reading-anchor]")];
+  let anchor = null;
+  for (const candidate of anchors) {
+    const rect = candidate.getBoundingClientRect();
+    if (rect.top <= 112 && rect.bottom > 0) anchor = candidate;
+    if (rect.top > 112) break;
+  }
+  if (!anchor) anchor = anchors.find((candidate) => candidate.getBoundingClientRect().top > 0) || null;
+  const position = {
+    y: Math.max(0, Math.round(window.scrollY)),
+    updatedAt: Date.now(),
+  };
+  if (anchor) {
+    position.anchor = anchor.dataset.readingAnchor;
+    position.offset = Math.round(anchor.getBoundingClientRect().top);
+  }
+  readingPositions[currentViewKey()] = position;
+  trimReadingPositions();
+  persistUiState();
+}
+
+function scheduleReadingSave() {
+  if (suspendScrollSave) return;
+  clearTimeout(scrollSaveTimer);
+  scrollSaveTimer = setTimeout(saveReadingPosition, 120);
+}
+
+function restoreReadingPosition(fallbackY = 0) {
+  const viewKey = currentViewKey();
+  const saved = readingPositions[viewKey];
+  suspendScrollSave = true;
+  clearTimeout(scrollSaveTimer);
+  requestAnimationFrame(() => requestAnimationFrame(() => {
+    if (viewKey !== currentViewKey()) {
+      suspendScrollSave = false;
+      return;
+    }
+    let targetY = Number.isFinite(fallbackY) ? fallbackY : 0;
+    if (saved) {
+      const anchor = saved.anchor
+        ? [...main.querySelectorAll("[data-reading-anchor]")].find((element) => element.dataset.readingAnchor === saved.anchor)
+        : null;
+      targetY = anchor
+        ? window.scrollY + anchor.getBoundingClientRect().top - (saved.offset || 0)
+        : saved.y;
+    }
+    const maxY = Math.max(0, document.documentElement.scrollHeight - window.innerHeight);
+    const previousScrollBehavior = document.documentElement.style.scrollBehavior;
+    document.documentElement.style.scrollBehavior = "auto";
+    window.scrollTo({ top: Math.min(Math.max(0, targetY || 0), maxY), left: 0, behavior: "auto" });
+    document.documentElement.style.scrollBehavior = previousScrollBehavior;
+    setTimeout(() => { suspendScrollSave = false; }, 160);
+  }));
+}
+
+function changeView(update) {
+  saveReadingPosition();
+  const fallbackY = window.scrollY;
+  update();
+  render();
+  restoreReadingPosition(fallbackY);
+}
+
 function showToast(message) {
   toast.textContent = message;
   toast.classList.add("show");
@@ -71,8 +212,12 @@ function hero(kicker, title, description, count, label) {
   return `<header class="hero"><div><span class="eyebrow">${escapeHtml(kicker)}</span><h1>${escapeHtml(title)}</h1><p>${escapeHtml(description)}</p></div><div class="hero-stat"><strong>${escapeHtml(count)}</strong><span>${escapeHtml(label)}</span></div></header>`;
 }
 
-function setPage(page) {
-  if (!(["reviews", "letters", "task2", "materials"].includes(page))) page = "reviews";
+function setPage(page, { saveCurrent = true } = {}) {
+  if (!PAGES.has(page)) page = "reviews";
+  if (saveCurrent) {
+    if (state.page === "reviews") saveEditor();
+    saveReadingPosition();
+  }
   state.page = page;
   if (location.hash !== `#${page}`) {
     try {
@@ -87,7 +232,7 @@ function setPage(page) {
     button.setAttribute("aria-current", active ? "page" : "false");
   });
   render();
-  window.scrollTo({ top: 0, behavior: "smooth" });
+  restoreReadingPosition(0);
 }
 
 function persistReviews() {
@@ -207,13 +352,11 @@ function renderReviews() {
 function bindReviewEvents() {
   document.querySelectorAll("[data-review-id]").forEach((button) => button.addEventListener("click", () => {
     saveEditor();
-    state.selectedReviewId = button.dataset.reviewId;
-    renderReviews();
+    changeView(() => { state.selectedReviewId = button.dataset.reviewId; });
   }));
   document.querySelectorAll("[data-mode]").forEach((button) => button.addEventListener("click", () => {
     saveEditor();
-    state.reviewMode = button.dataset.mode;
-    renderReviews();
+    changeView(() => { state.reviewMode = button.dataset.mode; });
   }));
   document.querySelectorAll("[data-command]").forEach((button) => button.addEventListener("click", () => {
     document.querySelector("[data-editor]")?.focus();
@@ -234,20 +377,22 @@ function bindReviewEvents() {
   document.querySelector("[data-copy-review]")?.addEventListener("click", () => copyText(editor?.innerText || ""));
   document.querySelector("[data-delete]")?.addEventListener("click", () => {
     if (!confirm(`确定删除“${reviewTitle(currentReview())}”吗？`)) return;
-    const index = state.reviews.findIndex((item) => item.id === state.selectedReviewId);
-    state.lastDeleted = { record: state.reviews[index], index };
-    state.reviews.splice(index, 1);
-    state.selectedReviewId = state.reviews[Math.min(index, state.reviews.length - 1)]?.id || "";
-    persistReviews();
-    renderReviews();
+    changeView(() => {
+      const index = state.reviews.findIndex((item) => item.id === state.selectedReviewId);
+      state.lastDeleted = { record: state.reviews[index], index };
+      state.reviews.splice(index, 1);
+      state.selectedReviewId = state.reviews[Math.min(index, state.reviews.length - 1)]?.id || "";
+      persistReviews();
+    });
   });
   document.querySelector("[data-undo]")?.addEventListener("click", () => {
     if (!state.lastDeleted) return;
-    state.reviews.splice(state.lastDeleted.index, 0, state.lastDeleted.record);
-    state.selectedReviewId = state.lastDeleted.record.id;
-    state.lastDeleted = null;
-    persistReviews();
-    renderReviews();
+    changeView(() => {
+      state.reviews.splice(state.lastDeleted.index, 0, state.lastDeleted.record);
+      state.selectedReviewId = state.lastDeleted.record.id;
+      state.lastDeleted = null;
+      persistReviews();
+    });
   });
   bindImportExport();
 }
@@ -281,10 +426,11 @@ importFile.addEventListener("change", async () => {
     const records = (await file.text()).split(/\r?\n/).filter((line) => line.trim()).map((line) => JSON.parse(line)).filter((record) => !record._meta);
     if (!records.length || records.some((record) => !record.id || !record.title || typeof record.reviewHtml !== "string")) throw new Error("invalid records");
     if (!confirm(`将用 ${records.length} 篇导入记录替换当前浏览器中的记录，是否继续？`)) return;
-    state.reviews = records.map((record) => ({ ...record, reviewHtml: sanitizeReviewHtml(record.reviewHtml), cleanHtml: sanitizeReviewHtml(record.cleanHtml) }));
-    state.selectedReviewId = state.reviews[0].id;
-    persistReviews();
-    renderReviews();
+    changeView(() => {
+      state.reviews = records.map((record) => ({ ...record, reviewHtml: sanitizeReviewHtml(record.reviewHtml), cleanHtml: sanitizeReviewHtml(record.cleanHtml) }));
+      state.selectedReviewId = state.reviews[0].id;
+      persistReviews();
+    });
     showToast("导入完成");
   } catch (error) {
     console.error(error);
@@ -312,7 +458,9 @@ function renderLetters() {
         </div>
       </article>
     </div>`;
-  document.querySelectorAll("[data-letter-id]").forEach((button) => button.addEventListener("click", () => { state.letterId = button.dataset.letterId; renderLetters(); }));
+  document.querySelectorAll("[data-letter-id]").forEach((button) => button.addEventListener("click", () => {
+    changeView(() => { state.letterId = button.dataset.letterId; });
+  }));
   document.querySelector("[data-copy-letter]")?.addEventListener("click", () => copyText(template.paragraphs.map((paragraph) => paragraph.template).join("\n\n")));
 }
 
@@ -342,8 +490,15 @@ function renderTaskTwo() {
         </div>
       </article>
     </div>`;
-  document.querySelectorAll("[data-essay-category]").forEach((button) => button.addEventListener("click", () => { state.essayCategoryId = button.dataset.essayCategory; state.essayId = ""; renderTaskTwo(); }));
-  document.querySelectorAll("[data-essay-id]").forEach((button) => button.addEventListener("click", () => { state.essayId = button.dataset.essayId; renderTaskTwo(); }));
+  document.querySelectorAll("[data-essay-category]").forEach((button) => button.addEventListener("click", () => {
+    changeView(() => {
+      state.essayCategoryId = button.dataset.essayCategory;
+      state.essayId = "";
+    });
+  }));
+  document.querySelectorAll("[data-essay-id]").forEach((button) => button.addEventListener("click", () => {
+    changeView(() => { state.essayId = button.dataset.essayId; });
+  }));
   document.querySelector("[data-copy-essay]")?.addEventListener("click", () => copyText(essay.paragraphs.join("\n\n")));
 }
 
@@ -361,7 +516,9 @@ function renderMaterials() {
         <div class="panel-body card-list">${[...category.materials].sort((a,b) => Number(Boolean(b.priority)) - Number(Boolean(a.priority)) || a.sourceOrder - b.sourceOrder).map((material) => `<article class="card"><div class="action-row"><span class="badge ${material.priority ? "gold" : ""}">${material.priority ? "★ 高频" : `#${material.sourceOrder}`}</span><button class="button secondary small" type="button" data-copy-material="${escapeHtml(material.id)}">复制</button></div><h3>${escapeHtml(material.title)} · ${escapeHtml(material.titleEn)}</h3><p><strong>可用观点：</strong>${material.ideas.map(escapeHtml).join("；")}</p><p class="note"><strong>逻辑链：</strong>${material.logic.map(escapeHtml).join(" → ")}</p><div class="answer">${highlight(material.paragraph, material.phrases)}</div><p class="translation">${escapeHtml(material.translation)}</p><div class="chip-row">${material.phrases.map((phrase) => `<span class="chip">${escapeHtml(phrase)}</span>`).join("")}</div></article>`).join("")}</div>
       </section>
     </div>`;
-  document.querySelectorAll("[data-material-category]").forEach((button) => button.addEventListener("click", () => { state.materialCategoryId = button.dataset.materialCategory; renderMaterials(); }));
+  document.querySelectorAll("[data-material-category]").forEach((button) => button.addEventListener("click", () => {
+    changeView(() => { state.materialCategoryId = button.dataset.materialCategory; });
+  }));
   document.querySelectorAll("[data-copy-material]").forEach((button) => button.addEventListener("click", () => {
     const material = category.materials.find((item) => item.id === button.dataset.copyMaterial);
     copyText([material.title, material.ideas.join("；"), material.paragraph, material.translation, material.phrases.join(" · ")].join("\n\n"));
@@ -374,11 +531,28 @@ function render() {
   if (state.page === "letters") renderLetters();
   if (state.page === "task2") renderTaskTwo();
   if (state.page === "materials") renderMaterials();
+  markReadingAnchors();
+  revealActiveTabs();
+  persistUiState();
 }
 
 navButtons.forEach((button) => button.addEventListener("click", () => setPage(button.dataset.page)));
-window.addEventListener("hashchange", () => setPage(location.hash.slice(1)));
-window.addEventListener("beforeunload", saveEditor);
+window.addEventListener("hashchange", () => {
+  const page = location.hash.slice(1);
+  if (PAGES.has(page)) setPage(page);
+});
+window.addEventListener("scroll", scheduleReadingSave, { passive: true });
+window.addEventListener("pagehide", () => {
+  saveEditor();
+  saveReadingPosition();
+});
+document.addEventListener("visibilitychange", () => {
+  if (document.visibilityState !== "hidden") return;
+  saveEditor();
+  saveReadingPosition();
+});
+
+if ("scrollRestoration" in history) history.scrollRestoration = "manual";
 
 try {
   if (!window.IELTS_DATA?.reviews || !window.IELTS_DATA?.letters) {
@@ -386,8 +560,9 @@ try {
   }
   state.data = window.IELTS_DATA;
   state.reviews = loadSavedReviews(state.data.reviews);
-  state.selectedReviewId = state.reviews[0]?.id || "";
-  setPage(state.page);
+  loadUiState();
+  if (!state.reviews.some((review) => review.id === state.selectedReviewId)) state.selectedReviewId = state.reviews[0]?.id || "";
+  setPage(state.page, { saveCurrent: false });
 } catch (error) {
   console.error(error);
   main.innerHTML = '<div class="error-state"><div><h1>无法读取本地资料</h1><p>请确认 data.js 与 index.html 位于同一目录。</p></div></div>';

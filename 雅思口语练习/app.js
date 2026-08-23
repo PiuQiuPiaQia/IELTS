@@ -1,14 +1,20 @@
 "use strict";
 
 const PAGES = new Set(["part1", "part2", "part3", "toolkit"]);
+const UI_STORAGE_KEY = "ielts-speaking-ui-state-v1";
 
 const state = {
-  page: location.hash.slice(1) || "part2",
+  page: PAGES.has(location.hash.slice(1)) ? location.hash.slice(1) : "part2",
   data: {},
+  part1Query: "",
   part2MaterialId: "alex",
   part2TopicId: "helpful-person",
   part3GroupId: "",
 };
+
+let readingPositions = {};
+let scrollSaveTimer = 0;
+let suspendScrollSave = false;
 
 const main = document.querySelector("main");
 const navButtons = [...document.querySelectorAll("[data-page]")];
@@ -58,6 +64,136 @@ function highlight(text, phrases = []) {
   return safeText.replace(pattern, "<mark>$1</mark>");
 }
 
+function loadUiState() {
+  try {
+    const saved = JSON.parse(localStorage.getItem(UI_STORAGE_KEY) || "null");
+    if (!saved || typeof saved !== "object") return;
+    if (!PAGES.has(location.hash.slice(1)) && PAGES.has(saved.page)) state.page = saved.page;
+    if (typeof saved.part1Query === "string") state.part1Query = saved.part1Query;
+    if (typeof saved.part2MaterialId === "string") state.part2MaterialId = saved.part2MaterialId;
+    if (typeof saved.part2TopicId === "string") state.part2TopicId = saved.part2TopicId;
+    if (typeof saved.part3GroupId === "string") state.part3GroupId = saved.part3GroupId;
+    if (saved.readingPositions && typeof saved.readingPositions === "object" && !Array.isArray(saved.readingPositions)) readingPositions = saved.readingPositions;
+  } catch (error) {
+    console.warn("Unable to restore speaking UI state", error);
+  }
+}
+
+function persistUiState() {
+  try {
+    localStorage.setItem(UI_STORAGE_KEY, JSON.stringify({
+      page: state.page,
+      part1Query: state.part1Query,
+      part2MaterialId: state.part2MaterialId,
+      part2TopicId: state.part2TopicId,
+      part3GroupId: state.part3GroupId,
+      readingPositions,
+    }));
+  } catch (error) {
+    console.warn("Unable to save speaking UI state", error);
+  }
+}
+
+function currentViewKey() {
+  if (state.page === "part1") return `part1:${encodeURIComponent(state.part1Query)}`;
+  if (state.page === "part2") return `part2:${state.part2MaterialId}:${state.part2TopicId}`;
+  if (state.page === "part3") return `part3:${state.part3GroupId}`;
+  return state.page;
+}
+
+function markReadingAnchors() {
+  main.querySelectorAll(".group-section, .card, .answer-line, .dimension, .essay-paragraph").forEach((element, index) => {
+    element.dataset.readingAnchor = `item-${index}`;
+  });
+}
+
+function revealActiveTabs() {
+  requestAnimationFrame(() => {
+    main.querySelectorAll(".sidebar").forEach((sidebar) => {
+      const activeItems = [...sidebar.querySelectorAll(".active")];
+      const active = activeItems[activeItems.length - 1];
+      if (!active) return;
+      const sidebarRect = sidebar.getBoundingClientRect();
+      const activeRect = active.getBoundingClientRect();
+      if (activeRect.top < sidebarRect.top || activeRect.bottom > sidebarRect.bottom) {
+        sidebar.scrollTop += activeRect.top - sidebarRect.top - ((sidebar.clientHeight - activeRect.height) / 2);
+      }
+    });
+  });
+}
+
+function trimReadingPositions() {
+  const entries = Object.entries(readingPositions);
+  if (entries.length <= 120) return;
+  entries.sort(([, left], [, right]) => (right?.updatedAt || 0) - (left?.updatedAt || 0));
+  readingPositions = Object.fromEntries(entries.slice(0, 120));
+}
+
+function saveReadingPosition() {
+  if (suspendScrollSave || !Object.keys(state.data).length) return;
+  const anchors = [...main.querySelectorAll("[data-reading-anchor]")];
+  let anchor = null;
+  for (const candidate of anchors) {
+    const rect = candidate.getBoundingClientRect();
+    if (rect.top <= 112 && rect.bottom > 0) anchor = candidate;
+    if (rect.top > 112) break;
+  }
+  if (!anchor) anchor = anchors.find((candidate) => candidate.getBoundingClientRect().top > 0) || null;
+  const position = {
+    y: Math.max(0, Math.round(window.scrollY)),
+    updatedAt: Date.now(),
+  };
+  if (anchor) {
+    position.anchor = anchor.dataset.readingAnchor;
+    position.offset = Math.round(anchor.getBoundingClientRect().top);
+  }
+  readingPositions[currentViewKey()] = position;
+  trimReadingPositions();
+  persistUiState();
+}
+
+function scheduleReadingSave() {
+  if (suspendScrollSave) return;
+  clearTimeout(scrollSaveTimer);
+  scrollSaveTimer = setTimeout(saveReadingPosition, 120);
+}
+
+function restoreReadingPosition(fallbackY = 0) {
+  const viewKey = currentViewKey();
+  const saved = readingPositions[viewKey];
+  suspendScrollSave = true;
+  clearTimeout(scrollSaveTimer);
+  requestAnimationFrame(() => requestAnimationFrame(() => {
+    if (viewKey !== currentViewKey()) {
+      suspendScrollSave = false;
+      return;
+    }
+    let targetY = Number.isFinite(fallbackY) ? fallbackY : 0;
+    if (saved) {
+      const anchor = saved.anchor
+        ? [...main.querySelectorAll("[data-reading-anchor]")].find((element) => element.dataset.readingAnchor === saved.anchor)
+        : null;
+      targetY = anchor
+        ? window.scrollY + anchor.getBoundingClientRect().top - (saved.offset || 0)
+        : saved.y;
+    }
+    const maxY = Math.max(0, document.documentElement.scrollHeight - window.innerHeight);
+    const previousScrollBehavior = document.documentElement.style.scrollBehavior;
+    document.documentElement.style.scrollBehavior = "auto";
+    window.scrollTo({ top: Math.min(Math.max(0, targetY || 0), maxY), left: 0, behavior: "auto" });
+    document.documentElement.style.scrollBehavior = previousScrollBehavior;
+    setTimeout(() => { suspendScrollSave = false; }, 160);
+  }));
+}
+
+function changeView(update) {
+  saveReadingPosition();
+  const fallbackY = window.scrollY;
+  update();
+  render();
+  restoreReadingPosition(fallbackY);
+}
+
 function showToast(message) {
   toast.textContent = message;
   toast.classList.add("show");
@@ -82,8 +218,9 @@ async function copyText(text) {
   showToast("已复制到剪贴板");
 }
 
-function setPage(page) {
+function setPage(page, { saveCurrent = true } = {}) {
   if (!PAGES.has(page)) page = "part2";
+  if (saveCurrent) saveReadingPosition();
   state.page = page;
   if (location.hash !== `#${page}`) {
     try {
@@ -98,7 +235,7 @@ function setPage(page) {
     button.setAttribute("aria-current", active ? "page" : "false");
   });
   render();
-  window.scrollTo({ top: 0, behavior: "smooth" });
+  restoreReadingPosition(0);
 }
 
 function hero(kicker, title, description, count, label) {
@@ -116,15 +253,21 @@ function hero(kicker, title, description, count, label) {
 function renderPartOne() {
   const groups = state.data.part1;
   const total = groups.reduce((sum, group) => sum + group.items.length, 0);
+  const query = state.part1Query.trim().toLowerCase();
+  const visibleGroups = groups
+    .map((group) => ({ ...group, items: group.items.filter((item) => JSON.stringify(item).toLowerCase().includes(query)) }))
+    .filter((group) => group.items.length);
+  const visibleTotal = visibleGroups.reduce((sum, group) => sum + group.items.length, 0);
   main.innerHTML = `
     ${hero("IELTS SPEAKING · PART 1", "已练题目与答案", "按题组整理最终练习版本，支持即时搜索英文问题、答案和中文翻译。", total, "已练答案")}
     <div class="toolbar">
-      <label class="search"><span aria-hidden="true">⌕</span><input id="part1-search" type="search" placeholder="搜索题目、答案或中文…" autocomplete="off"></label>
-      <span class="count" id="part1-count">显示 ${total} 题</span>
+      <label class="search"><span aria-hidden="true">⌕</span><input id="part1-search" type="search" value="${escapeHtml(state.part1Query)}" placeholder="搜索题目、答案或中文…" autocomplete="off"></label>
+      <span class="count" id="part1-count">显示 ${visibleTotal} 题</span>
     </div>
-    <div id="part1-results">${partOneGroupsHtml(groups)}</div>`;
+    <div id="part1-results">${visibleGroups.length ? partOneGroupsHtml(visibleGroups) : '<div class="empty-state">没有找到匹配的题目。</div>'}</div>`;
   document.querySelector("#part1-search").addEventListener("input", (event) => {
-    const query = event.target.value.trim().toLowerCase();
+    state.part1Query = event.target.value;
+    const query = state.part1Query.trim().toLowerCase();
     const filtered = groups
       .map((group) => ({ ...group, items: group.items.filter((item) => JSON.stringify(item).toLowerCase().includes(query)) }))
       .filter((group) => group.items.length);
@@ -133,6 +276,8 @@ function renderPartOne() {
       ? partOneGroupsHtml(filtered)
       : '<div class="empty-state">没有找到匹配的题目。</div>';
     document.querySelector("#part1-count").textContent = `显示 ${count} 题`;
+    markReadingAnchors();
+    persistUiState();
   });
 }
 
@@ -187,13 +332,13 @@ function renderPartTwo() {
       </section>
     </div>`;
   document.querySelectorAll("[data-material-id]").forEach((button) => button.addEventListener("click", () => {
-    state.part2MaterialId = button.dataset.materialId;
-    state.part2TopicId = "";
-    renderPartTwo();
+    changeView(() => {
+      state.part2MaterialId = button.dataset.materialId;
+      state.part2TopicId = "";
+    });
   }));
   document.querySelectorAll("[data-topic-id]").forEach((button) => button.addEventListener("click", () => {
-    state.part2TopicId = button.dataset.topicId;
-    renderPartTwo();
+    changeView(() => { state.part2TopicId = button.dataset.topicId; });
   }));
   document.querySelector("[data-copy-answer]")?.addEventListener("click", () => copyText(topic.answer.map((line) => line.text).join(" ")));
 }
@@ -260,8 +405,7 @@ function renderPartThree() {
       </section>
     </div>`;
   document.querySelectorAll("[data-part3-id]").forEach((button) => button.addEventListener("click", () => {
-    state.part3GroupId = button.dataset.part3Id;
-    renderPartThree();
+    changeView(() => { state.part3GroupId = button.dataset.part3Id; });
   }));
 }
 
@@ -296,17 +440,31 @@ function render() {
   if (state.page === "part2") renderPartTwo();
   if (state.page === "part3") renderPartThree();
   if (state.page === "toolkit") renderToolkit();
+  markReadingAnchors();
+  revealActiveTabs();
+  persistUiState();
 }
 
 navButtons.forEach((button) => button.addEventListener("click", () => setPage(button.dataset.page)));
-window.addEventListener("hashchange", () => setPage(location.hash.slice(1)));
+window.addEventListener("hashchange", () => {
+  const page = location.hash.slice(1);
+  if (PAGES.has(page)) setPage(page);
+});
+window.addEventListener("scroll", scheduleReadingSave, { passive: true });
+window.addEventListener("pagehide", saveReadingPosition);
+document.addEventListener("visibilitychange", () => {
+  if (document.visibilityState === "hidden") saveReadingPosition();
+});
+
+if ("scrollRestoration" in history) history.scrollRestoration = "manual";
 
 try {
   if (!window.IELTS_DATA?.part1 || !window.IELTS_DATA?.part2) {
     throw new Error("Missing embedded speaking data");
   }
   state.data = window.IELTS_DATA;
-  setPage(state.page);
+  loadUiState();
+  setPage(state.page, { saveCurrent: false });
 } catch (error) {
   console.error(error);
   main.innerHTML = '<div class="error-state"><div><h1>无法读取本地素材</h1><p>请确认 data.js 与 index.html 位于同一目录。</p></div></div>';
