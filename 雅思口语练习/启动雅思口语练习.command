@@ -2,4 +2,5 @@
 set -e
 
 cd "$(dirname "$0")"
-open "index.html"
+site_url="file://$(pwd)/index.html?v=$(/bin/date +%s)"
+open "$site_url"

@@ -1,7 +1,8 @@
-"use strict";
+// 本文件由项目内静态素材生成，可直接通过 file:// 读取。
+// 页面脚本从 window.IELTS_DATA 获取数据，不依赖 fetch 或本地服务器。
 
-// Generated from the former JSONL source files for direct file:// use.
 window.IELTS_DATA = {
+  "version": "p3-v9",
   "part1": [
     {
       "id": "crowded",
@@ -5437,50 +5438,74 @@ window.IELTS_DATA = {
       "items": [
         {
           "question": "Should children help their parents with household chores?",
-          "answer": "Yes, I think they should. Doing simple chores can teach children to be responsible and help their parents at the same time.",
+          "answer": "Yes, children should do simple chores. They can learn useful skills and become more responsible. Doing housework together also creates quality family time and makes their relationship closer.",
+          "materials": [
+            "M4",
+            "M5"
+          ],
           "translation": {
             "question": "孩子该不该帮父母做家务？",
-            "answer": "是的，我认为应该。做简单的家务能教会孩子负责任，同时也能帮助父母。"
+            "answer": "是的，孩子应该做一些简单家务。他们可以学习实用技能，也会变得更有责任感。一起做家务还能创造高质量的家庭时光，让家人关系更亲近。"
           }
         },
         {
           "question": "What kind of help do people need when looking for a new job?",
-          "answer": "People often need help with finding good job information, improving their CV and preparing for interviews. Friends or experienced colleagues can also explain what a company is really like.",
+          "answer": "Job seekers often need help with their CV and interview practice. This support gives them new knowledge, improves their skills and helps them see more career choices with an open mind.",
+          "materials": [
+            "M4"
+          ],
           "translation": {
             "question": "人们在寻找新工作时需要什么样的帮助？",
-            "answer": "人们经常需要帮助来寻找可靠的工作信息、完善简历和准备面试。朋友或有经验的同事也可以解释公司的真实情况。"
+            "answer": "求职者通常需要简历和面试练习方面的帮助。这些支持能给他们新知识、提升技能，也能帮助他们以开放的心态看到更多职业选择。"
           }
         },
         {
           "question": "Who should people ask for help, colleagues or family members?",
-          "answer": "I think it depends on the problem. For work-related issues, colleagues are usually more helpful because they have related experience.",
+          "answer": "For work problems, people should ask their colleagues. For personal problems, family members may be better. Honest face-to-face communication can build trust and make these relationships closer and warmer.",
+          "materials": [
+            "M5"
+          ],
           "translation": {
             "question": "人们应该向谁寻求帮助，同事还是家人？",
-            "answer": "我认为这取决于问题。对于与工作相关的问题，同事通常会提供更多帮助，因为他们有相关经验。"
+            "answer": "工作问题应该请教同事，个人问题则可能更适合找家人。坦诚的面对面交流能够建立信任，也能让这些关系更加亲近温暖。"
           }
         },
         {
           "question": "Why do you think some people are more willing to help others than some?",
-          "answer": "Some people are naturally kind and feel happy when they are useful to others. Their family or education may also have taught them to share and work together.",
+          "answer": "Personality can make a difference. Introverts may prefer to solve problems by themselves, while extroverts are more likely to work with others and share ideas. Because of this, extroverts may offer help more often and build closer relationships.",
+          "materials": [
+            "C2",
+            "M5"
+          ],
           "translation": {
             "question": "你认为为什么有些人比其他人更愿意帮助别人？",
-            "answer": "有些人天生善良，对别人有用时会感到高兴。他们的家庭或教育也可能教会了他们分享和合作。"
-          }
+            "answer": "性格可能会带来差异。内向的人可能更喜欢自己解决问题，而外向的人更愿意与别人合作并分享想法。因此，外向的人可能更常主动帮忙，也更容易建立亲近的关系。"
+          },
+          "comparison": "C2 · 问题解决"
         },
         {
           "question": "Do you think it is important for neighbors to help each other? Why?",
-          "answer": "Yes, especially when someone is old, ill or facing an emergency. Neighbours live close by, so they can often provide help faster than relatives who live far away.",
+          "answer": "Yes, it is important. In rural areas, people often know their neighbours well and help each other quickly. By contrast, city people may have less direct contact, so neighbourly help can improve face-to-face communication and make the community warmer.",
+          "materials": [
+            "C3",
+            "M5"
+          ],
           "translation": {
             "question": "你认为邻居之间互相帮助重要吗？为什么？",
-            "answer": "是的，尤其是当有人年老、生病或面临紧急情况时。邻居住得很近，因此他们通常可以比住得很远的亲戚更快地提供帮助。"
-          }
+            "answer": "是的，这很重要。在农村，人们通常很熟悉邻居，也会很快互相帮助。相比之下，城市居民的直接接触可能较少，因此邻里互助能促进面对面交流，让社区更加温暖。"
+          },
+          "comparison": "C3 · 邻里关系"
         },
         {
           "question": "How can helping others benefit the person who offers the help?",
-          "answer": "Helping others can give people a sense of achievement and make them feel connected to their community. They may also learn new skills or build stronger relationships.",
+          "answer": "The helper can also gain something. Solving another person's problem teaches new skills and broadens the helper's experience. It also builds trust and makes the relationship closer.",
+          "materials": [
+            "M4",
+            "M5"
+          ],
           "translation": {
             "question": "帮助他人如何使提供帮助的人受益？",
-            "answer": "帮助他人可以给人一种成就感，让他们感到与社区有联系。他们还可以学习新技能或建立更牢固的关系。"
+            "answer": "提供帮助的人也能有所收获。解决别人的问题可以学习新技能并丰富自身经验，同时还能建立信任，让双方关系更加亲近。"
           }
         }
       ]
@@ -5493,51 +5518,76 @@ window.IELTS_DATA = {
       "items": [
         {
           "question": "How can parents teach their children to protect nature?",
-          "answer": "Firstly, parents can take children outdoors to experience nature and learn by doing. They can also set an example by recycling, saving water, and reducing waste at home.",
+          "answer": "Parents can take children outside and explain why trees, animals and clean water matter. Real experience helps children gain knowledge, broaden their horizons and develop a more open-minded view of nature.",
+          "materials": [
+            "M4"
+          ],
           "translation": {
             "question": "家长如何教育孩子保护自然？",
-            "answer": "首先，父母可以带孩子到户外体验自然，在实践中学习。他们也可以通过回收利用、节约用水和减少家庭浪费来以身作则。"
+            "answer": "父母可以带孩子到户外，并解释树木、动物和清洁水源的重要性。真实经历能帮助孩子获得知识、开阔眼界，并形成更加开放的自然观。"
           }
         },
         {
           "question": "Should schools teach children to get close to nature?",
-          "answer": "Yes, I think they should. Schools can take children outdoors to experience nature and learn by doing. This can help them understand why protecting nature is important.",
+          "answer": "Yes, schools should organise simple outdoor lessons. Children can learn new things about nature and broaden their horizons. Outdoor activity also keeps them active and supports a healthy lifestyle.",
+          "materials": [
+            "M4",
+            "M6"
+          ],
           "translation": {
             "question": "学校该不该教孩子亲近大自然？",
-            "answer": "是的，我认为应该。学校可以带孩子到户外体验自然，在实践中学习。这能帮助他们理解为什么保护自然很重要。"
+            "answer": "是的，学校应该组织简单的户外课程。孩子能学习自然方面的新知识并开阔眼界，户外活动也能让他们保持活力，养成健康的生活方式。"
           }
         },
         {
           "question": "Do you think there should be laws to protect nature?",
-          "answer": "Yes, laws are necessary because education alone cannot stop every person or company from damaging the environment. Governments can limit pollution and punish illegal activities.",
+          "answer": "Yes, clear laws are necessary. Cities often have more air and noise pollution, while rural areas may face water pollution from farm chemicals. Laws can limit excessive damage in both places and encourage more responsible use of natural resources.",
+          "materials": [
+            "C3",
+            "M7"
+          ],
           "translation": {
             "question": "您认为应该制定法律来保护自然吗？",
-            "answer": "是的，法律是必要的，因为仅靠教育并不能阻止每个人或每个公司破坏环境。政府可以限制污染并惩罚非法活动。"
-          }
+            "answer": "是的，明确的法律很有必要。城市通常有更多空气和噪声污染，而农村可能面临农用化学品造成的水污染。法律可以限制两地的过度破坏，并鼓励人们更负责任地使用自然资源。"
+          },
+          "comparison": "C3 · 污染"
         },
         {
           "question": "Besides laws, what else can the government do to protect the environment?",
-          "answer": "The government can improve public transport, provide recycling facilities and support clean energy. It can also run public campaigns and teach environmental topics in schools.",
+          "answer": "The government should meet different local needs. Cities need efficient public transport because traffic is heavier, while rural areas need better roads and recycling services. These improvements make green choices more convenient and reduce unnecessary travel and waiting.",
+          "materials": [
+            "C3",
+            "M2"
+          ],
           "translation": {
             "question": "除了法律之外，政府还能做些什么来保护环境呢？",
-            "answer": "政府可以改善公共交通、提供回收设施并支持清洁能源。它还可以开展公共活动并在学校教授环境主题。"
-          }
+            "answer": "政府应该满足不同地区的需求。城市交通更拥堵，因此需要高效的公共交通；农村则需要更好的道路和回收服务。这些改进能让环保选择更加便利，并减少不必要的出行和等待。"
+          },
+          "comparison": "C3 · 基础设施"
         },
         {
           "question": "Why do some people not care about environmental protection?",
-          "answer": "I think some people feel environmental problems do not affect their daily lives. Others care more about convenience or saving money.",
+          "answer": "Some people only think about short-term convenience. They may use water, electricity or plastic excessively. Public education can help them make more rational choices and keep a balanced lifestyle.",
+          "materials": [
+            "M7"
+          ],
           "translation": {
             "question": "为什么有些人不关心环保？",
-            "answer": "我认为有些人觉得环境问题不会影响自己的日常生活。另一些人更在意方便或省钱。"
+            "answer": "有些人只考虑眼前的便利，可能会过度使用水、电或塑料。公共教育能帮助他们作出更理性的选择，并保持平衡的生活方式。"
           }
         },
         {
           "question": "Do you think individuals can make a real difference in protecting nature? Why?",
-          "answer": "Yes, I think they can, especially when many people take action together. For example, using less plastic can reduce waste and encourage companies to change.",
+          "answer": "Yes, individuals can help in different ways. Introverts may prefer saving energy and sorting waste by themselves, while extroverts may join community groups and share ideas. Both approaches can reduce excessive consumption and create a wider change.",
+          "materials": [
+            "C2",
+            "M7"
+          ],
           "translation": {
             "question": "您认为个人可以在保护自然方面发挥真正的作用吗？为什么？",
-            "answer": "是的，我认为可以，尤其是很多人一起行动时。例如，少用塑料可以减少垃圾，也能促使企业作出改变。"
-          }
+            "answer": "可以，个人能够用不同方式发挥作用。内向的人可能更喜欢自己节约能源、分类垃圾，而外向的人可能参加社区团体并分享想法。两种方式都能减少过度消费，并带来更广泛的改变。"
+          },
+          "comparison": "C2 · 问题解决"
         }
       ]
     },
@@ -5549,50 +5599,72 @@ window.IELTS_DATA = {
       "items": [
         {
           "question": "Do you think children are born smart or they learn to become smart?",
-          "answer": "I think both natural ability and learning are important. Some children understand ideas quickly, but practice, education and curiosity can greatly improve their ability.",
+          "answer": "Natural ability helps, but children can learn to become smarter. By gaining knowledge, practising new skills and trying unfamiliar tasks, they slowly develop a wider and more open-minded way of thinking.",
+          "materials": [
+            "M4"
+          ],
           "translation": {
             "question": "你认为孩子是天生聪明还是后天学习变得聪明？",
-            "answer": "我认为天赋和学习都很重要。有些孩子理解想法很快，但实践、教育和好奇心可以极大地提高他们的能力。"
+            "answer": "天赋有帮助，但孩子也可以通过学习变得更聪明。通过获得知识、练习新技能并尝试陌生任务，他们会逐渐形成更广阔、更开放的思考方式。"
           }
         },
         {
           "question": "How do children become smart at school?",
-          "answer": "I think they become smarter by learning basic knowledge, practising skills and discussing ideas with teachers and classmates. Schools should encourage children to ask why instead of only memorising answers.",
+          "answer": "Children become smarter when they use classroom knowledge in real tasks. Projects and experiments let them learn new skills, explore different ideas and understand a problem from more than one view.",
+          "materials": [
+            "M4"
+          ],
           "translation": {
             "question": "孩子在学校如何变得聪明？",
-            "answer": "他们通过学习基础知识、练习技能以及与老师和同学讨论想法而变得更加聪明。学校应该鼓励孩子们问为什么，而不是仅仅记住答案。"
+            "answer": "孩子把课堂知识用于真实任务时会变得更聪明。项目和实验能让他们学习新技能、探索不同想法，并从不止一个角度理解问题。"
           }
         },
         {
           "question": "Why are some people well-rounded and others only good at one thing?",
-          "answer": "I think people have different interests, opportunities and ways of learning. Some enjoy trying many activities, while others spend most of their time developing one talent.",
+          "answer": "Personality is one possible reason. Introverts may prefer working alone and developing one skill deeply, while extroverts often work with others and explore more ideas. Both paths can build useful skills, but they lead to different kinds of growth.",
+          "materials": [
+            "C2",
+            "M4"
+          ],
           "translation": {
             "question": "为什么有些人多才多艺，而另一些人只擅长一件事？",
-            "answer": "人们有不同的兴趣、机会和学习方式。有些人喜欢尝试多种活动，而另一些人则将大部分时间花在培养一项才能上。"
-          }
+            "answer": "性格可能是其中一个原因。内向的人可能更喜欢独自钻研一项技能，而外向的人经常与别人合作并探索更多想法。两种方式都能培养实用技能，但会带来不同类型的成长。"
+          },
+          "comparison": "C2 · 问题解决"
         },
         {
           "question": "Why does modern society need talents of all kinds?",
-          "answer": "I think modern society has many different problems, so one type of talent is not enough. Engineers build technology, doctors protect health and artists support culture.",
+          "answer": "Society has many kinds of problems, so it needs people with different skills. When people share their knowledge and experience, they can learn from each other and find better answers.",
+          "materials": [
+            "M4"
+          ],
           "translation": {
             "question": "现代社会为什么需要各类人才？",
-            "answer": "现代社会有很多不同的问题，因此一种人才是不够的。工程师开发技术，医生保护健康，艺术家支持文化。"
+            "answer": "社会存在很多不同的问题，因此需要拥有不同技能的人。当人们分享知识和经验时，他们可以互相学习，并找到更好的答案。"
           }
         },
         {
           "question": "In your opinion, what is more important in solving problems, intelligence or experience?",
-          "answer": "I think both are important. Intelligence helps us tackle new problems, while experience helps us deal with similar issues we've seen before.",
+          "answer": "Experience is usually more useful for familiar problems. Older people often have more life experience and can avoid past mistakes, while younger people may bring fresh ideas. In my view, the best solution combines practical knowledge with open-minded thinking.",
+          "materials": [
+            "C1",
+            "M4"
+          ],
           "translation": {
             "question": "您认为解决问题时，智力和经验哪个更重要？",
-            "answer": "我认为两者都很重要。智力帮助我们处理新问题，而经验帮助我们应对以前见过的类似问题。"
-          }
+            "answer": "面对熟悉的问题时，经验通常更有用。年长者往往有更多人生经验，能够避免过去的错误；年轻人则可能带来新想法。在我看来，最好的解决办法是把实用知识和开放思维结合起来。"
+          },
+          "comparison": "C1 · 生活经验"
         },
         {
           "question": "Can you give an example of how technology helps people solve problems in a smart way today?",
-          "answer": "I think navigation apps are a good example. They check traffic and suggest a faster route, so drivers can save time and avoid busy roads.",
+          "answer": "Navigation apps are a good example. They compare routes in seconds and show traffic problems. This saves time, cuts down unnecessary waiting and makes the whole journey more efficient.",
+          "materials": [
+            "M2"
+          ],
           "translation": {
             "question": "您能举例说明当今技术如何帮助人们以智能方式解决问题吗？",
-            "answer": "导航应用就是一个很好的例子。它们会查看路况并推荐更快的路线，让司机节省时间并避开拥堵道路。"
+            "answer": "导航应用就是一个好例子。它能在几秒内比较路线并显示交通问题，从而节省时间、减少不必要的等待，让整个行程更加高效。"
           }
         }
       ]
@@ -5605,51 +5677,73 @@ window.IELTS_DATA = {
       "items": [
         {
           "question": "Do you think it's important to plan ahead?",
-          "answer": "Yes, I think it is important. Planning helps people use their time better and avoid problems. For example, I usually make a simple plan before a busy week at work.",
+          "answer": "Yes, planning ahead is useful. A clear plan simplifies a difficult task, saves time and cuts down unnecessary waiting. It also helps people use their energy more efficiently.",
+          "materials": [
+            "M2"
+          ],
           "translation": {
             "question": "你认为提前计划重要吗？",
-            "answer": "是的，我认为很重要。计划能帮助人们更好地安排时间并避免问题。例如，我工作忙的一周前通常会做一个简单计划。"
+            "answer": "是的，提前计划很有用。清晰的计划能简化困难任务、节省时间并减少不必要的等待，也能帮助人们更高效地使用精力。"
           }
         },
         {
           "question": "Do you think children should plan their future careers?",
-          "answer": "I think they can start thinking about it when they are older, but they should not decide too early. Their interests may change as they grow up.",
+          "answer": "Children can think about future careers, but they have less life experience and may see jobs in a simple way. Adults can offer practical advice, while children should stay open-minded, explore different subjects and learn useful skills first.",
+          "materials": [
+            "C1",
+            "M4"
+          ],
           "translation": {
             "question": "您认为孩子应该规划自己未来的职业吗？",
-            "answer": "年龄大一些时，他们可以开始考虑，但不必太早做决定，因为兴趣会随着成长而改变。"
-          }
+            "answer": "孩子可以思考未来职业，但他们的人生经验较少，可能会把工作看得比较简单。成年人可以提供实用建议，而孩子应该先保持开放心态、探索不同学科并学习有用技能。"
+          },
+          "comparison": "C1 · 生活经验"
         },
         {
           "question": "Should children ask their teachers or parents for advice when making plans?",
-          "answer": "I think they should ask both. Teachers can give advice about study, while parents know their children better.",
+          "answer": "They should ask both. Teachers know more about study, while parents understand the child's personality. A face-to-face talk with both sides can build trust and lead to a better plan.",
+          "materials": [
+            "M5"
+          ],
           "translation": {
             "question": "孩子在制定计划时是否应该征求老师或家长的意见？",
-            "answer": "我认为应该都问。老师可以给学习方面的建议，而父母更了解自己的孩子。"
+            "answer": "他们应该同时询问双方。老师更了解学习，父母更了解孩子的性格。与双方进行面对面交流能够建立信任，也能制定出更好的计划。"
           }
         },
         {
           "question": "What activities do we need to plan ahead?",
-          "answer": "I think we need to plan important activities that take time or money. For example, people often plan trips, exams, family events, or big work projects.",
+          "answer": "People should plan travel, study and large work tasks. These activities involve many steps. Early planning simplifies the process, saves time and reduces unnecessary waiting or last-minute stress.",
+          "materials": [
+            "M2"
+          ],
           "translation": {
             "question": "我们需要提前计划哪些活动？",
-            "answer": "需要花时间或金钱的重要活动都应提前计划，例如旅行、考试、家庭活动或大型工作项目。"
+            "answer": "旅行、学习和大型工作任务都应该提前计划，因为它们包含很多步骤。早做计划能简化过程、节省时间，并减少不必要的等待或最后一刻的压力。"
           }
         },
         {
           "question": "Is making study plans popular among young people?",
-          "answer": "Yes, I think it is quite popular, especially before important exams. A study plan can help students finish small tasks one by one.",
+          "answer": "Yes, study plans are common among young people. They often have several subjects and deadlines. A simple timetable saves time, keeps the routine clear and improves study efficiency.",
+          "materials": [
+            "M2"
+          ],
           "translation": {
             "question": "制定学习计划受年轻人欢迎吗？",
-            "answer": "是的，我觉得很常见，特别是重要考试前。学习计划能帮助学生一个个完成小任务。"
+            "answer": "是的，学习计划在年轻人中很常见。他们往往有多个科目和截止日期。简单的时间表能节省时间、让日程更清晰，并提高学习效率。"
           }
         },
         {
           "question": "Do you think choosing a college major is closely related to a person's future career?",
-          "answer": "I think it is important for some jobs, such as medicine or engineering. However, it is not the only factor because people can learn new skills after they graduate.",
+          "answer": "Older people often expected one major to lead to one stable career. By contrast, young people today are more open to change and can learn new skills later. A major gives useful knowledge, but it does not decide a person's whole future.",
+          "materials": [
+            "C1",
+            "M4"
+          ],
           "translation": {
             "question": "您认为大学专业的选择与一个人未来的职业生涯密切相关吗？",
-            "answer": "对医学或工程等一些职业来说很重要。不过这不是唯一因素，因为毕业后人们还能学习新技能。"
-          }
+            "answer": "年长者过去常常认为一个专业应该对应一份稳定职业。相比之下，如今的年轻人更愿意接受变化，以后也可以学习新技能。专业能提供有用知识，但不会决定一个人的全部未来。"
+          },
+          "comparison": "C1 · 对改变的态度"
         }
       ]
     },
@@ -5661,50 +5755,75 @@ window.IELTS_DATA = {
       "items": [
         {
           "question": "What is the right age for a child to learn drawing?",
-          "answer": "I think children can start at about three or four years old, when they can hold a pencil safely. At that age, drawing should be fun, and parents should not put too much pressure on them.",
+          "answer": "Five or six is a good age to start. Children are curious and enjoy trying new things. Drawing teaches a useful skill and lets them explore ideas in a simple way.",
+          "materials": [
+            "M4"
+          ],
           "translation": {
             "question": "孩子几岁适合学画画？",
-            "answer": "我觉得孩子三四岁、能安全握住铅笔时就可以开始。这个年龄画画应该以好玩为主，家长不该给太多压力。"
+            "answer": "五六岁是一个合适的起点。孩子好奇，也喜欢尝试新事物。画画能教会他们一种有用的技能，也让他们用简单方式探索想法。"
           }
         },
         {
           "question": "Why do most children draw more often than adults do?",
-          "answer": "I think children usually have more free time and enjoy trying new things. They also do not worry too much about whether their drawings are good or not.",
+          "answer": "Adults are often used to fixed routines and may worry about making mistakes. By contrast, children are more open to new ideas and enjoy trying unfamiliar things. Drawing therefore helps them explore ideas, learn skills and broaden their horizons.",
+          "materials": [
+            "C1",
+            "M4"
+          ],
           "translation": {
             "question": "为什么大多数孩子比成人更常画画？",
-            "answer": "孩子通常有更多空闲时间，也喜欢尝试新东西。他们不会太担心自己画得好不好。"
-          }
+            "answer": "成年人通常习惯固定的生活方式，也可能担心犯错。相比之下，孩子更愿意接受新想法，也喜欢尝试陌生事物。因此，画画能帮助他们探索想法、学习技能并开阔眼界。"
+          },
+          "comparison": "C1 · 对改变的态度"
         },
         {
           "question": "Why do some people visit galleries or museums instead of viewing artworks online?",
-          "answer": "I think seeing real artwork is a different experience. People can see the real colours and details, and museums are usually quiet places to learn something new.",
+          "answer": "Young people often view art online because it is quick and convenient. Older people may prefer seeing things face to face and taking time over the details. A real gallery visit also helps people understand cultural heritage more clearly.",
+          "materials": [
+            "C1",
+            "M2",
+            "M8"
+          ],
           "translation": {
             "question": "为什么有些人参观画廊或博物馆而不是在线观看艺术品？",
-            "answer": "我觉得看原作是一种不同的体验。人们能看到真实的颜色和细节，博物馆通常也是安静、能学到新知识的地方。"
-          }
+            "answer": "年轻人经常在网上看艺术品，因为这种方式快捷方便。年长者可能更喜欢亲眼观看，并慢慢观察细节。亲自参观美术馆也能帮助人们更清楚地理解文化遗产。"
+          },
+          "comparison": "C1 · 社交互动"
         },
         {
           "question": "Do you think galleries and museums should be free of charge?",
-          "answer": "I think basic museums should be free or cheap, so more families and students can visit. However, special exhibitions can charge a reasonable price because they cost money to organise.",
+          "answer": "Basic entry should be free or affordable. It gives the public good value for money and allows more families to learn about art, local culture and cultural heritage.",
+          "materials": [
+            "M3",
+            "M8"
+          ],
           "translation": {
             "question": "您认为画廊和博物馆应该免费吗？",
-            "answer": "我觉得基础博物馆应该免费或便宜，这样更多家庭和学生能参观。不过特别展览可以收合理票价，因为组织它们需要花钱。"
+            "answer": "基础门票应该免费或价格合理。这样能让公众觉得物有所值，也能让更多家庭了解艺术、当地文化和文化遗产。"
           }
         },
         {
           "question": "How do artworks inspire people?",
-          "answer": "Art can inspire people by giving them new ideas and a different view of life. For example, a painting can make people think about their feelings or social problems.",
+          "answer": "Art can show people a new way of seeing the world. It broadens their horizons and gives them fresh ideas. Beautiful art can also lift their mood and help them relax.",
+          "materials": [
+            "M1",
+            "M4"
+          ],
           "translation": {
             "question": "艺术作品如何启发人们？",
-            "answer": "艺术可以通过给人新想法和不同的生活视角来启发人们。例如，一幅画能让人思考自己的感受或社会问题。"
+            "answer": "艺术能向人们展示看世界的新方式，开阔眼界并带来新想法。美丽的艺术也能改善情绪，帮助人们放松。"
           }
         },
         {
           "question": "In your opinion, should drawing be a compulsory subject in primary school? Why or why not?",
-          "answer": "Yes, I think it should be taught in primary school. Drawing can help children develop creativity and express their ideas. However, it should be enjoyable and should not become a stressful exam subject.",
+          "answer": "Yes, basic drawing should be taught in primary school. It helps children learn a creative skill, explore new ideas and become more open-minded, even if they never become artists.",
+          "materials": [
+            "M4"
+          ],
           "translation": {
             "question": "您认为绘画应该成为小学必修课吗？为什么或为什么不呢？",
-            "answer": "是的，我觉得小学应该教画画。它能帮助孩子培养创造力、表达想法；不过它应该有趣，不该变成压力很大的考试科目。"
+            "answer": "是的，小学应该教授基础绘画。即使孩子以后不成为艺术家，画画也能帮助他们学习创造性技能、探索新想法并变得更加开放。"
           }
         }
       ]
@@ -5717,51 +5836,78 @@ window.IELTS_DATA = {
       "items": [
         {
           "question": "What are the advantages and disadvantages of being a famous child?",
-          "answer": "I think a famous child may have more chances to get good training or earn money. However, too much public attention can cause stress and give them less privacy.",
+          "answer": "Fame can bring training and useful opportunities, but a child has less life experience than an adult and may not handle pressure well. Parents should control excessive public attention and help the child keep a balanced daily life.",
+          "materials": [
+            "C1",
+            "M7"
+          ],
           "translation": {
             "question": "出名的孩子有哪些优点和缺点？",
-            "answer": "出名的孩子可能得到更好的培训机会或赚钱机会。不过太多公众关注会带来压力，也会减少隐私。"
-          }
+            "answer": "成名可以带来培训和有用的机会，但孩子的人生经验少于成年人，可能不太会处理压力。父母应该控制过度的公众关注，并帮助孩子保持平衡的日常生活。"
+          },
+          "comparison": "C1 · 生活经验"
         },
         {
           "question": "What can today's children do to become famous?",
-          "answer": "I think they can become famous through sport, music, acting, or making online videos. Social media makes this easier, but children should not only focus on becoming famous.",
+          "answer": "Children may become famous through sport, music or online videos. They need to learn skills and keep improving. They should also use social media moderately and avoid becoming addicted to attention.",
+          "materials": [
+            "M4",
+            "M7"
+          ],
           "translation": {
             "question": "现在的孩子怎样才能出名呢？",
-            "answer": "他们可以通过体育、音乐、表演或制作在线视频出名。社交媒体让这更容易，但孩子不该只关注出名。"
+            "answer": "孩子可能通过体育、音乐或网络视频成名。他们需要学习技能并不断进步，同时也应该适度使用社交媒体，避免沉迷于关注度。"
           }
         },
         {
           "question": "What can children do with their fame?",
-          "answer": "I think they can use their fame to help charities or share useful ideas. For example, they can encourage other young people to do positive things.",
+          "answer": "Famous children can support charities or encourage other young people to learn useful skills. This builds social connections, strengthens emotional bonds and turns fame into something meaningful.",
+          "materials": [
+            "M5",
+            "M4"
+          ],
           "translation": {
             "question": "孩子们可以利用自己的名气做什么？",
-            "answer": "他们可以用名气帮助慈善机构或分享有用的想法。例如，可以鼓励其他年轻人做积极的事。"
+            "answer": "成名的孩子可以支持慈善活动，或鼓励其他年轻人学习实用技能。这样能建立社会联系、加深情感纽带，也能让名气变得更有意义。"
           }
         },
         {
           "question": "Do people become famous because of their talent?",
-          "answer": "I think talent is important, especially in music or sport. However, luck, good timing, and social media can also help people become famous.",
+          "answer": "Talent is helpful, but it is not enough. Famous people usually practise for years, learn new skills and gain experience. These things help them grow and see more opportunities.",
+          "materials": [
+            "M4"
+          ],
           "translation": {
             "question": "人是因为才华而出名的吗？",
-            "answer": "天赋很重要，尤其在音乐或体育领域。不过运气、好时机和社交媒体也能帮助人出名。"
+            "answer": "天赋有帮助，但并不够。名人通常会练习多年、学习新技能并积累经验，这些事情能帮助他们成长并看到更多机会。"
           }
         },
         {
           "question": "Why are some people more interested in the private lives of celebrities?",
-          "answer": "I think some people are curious because celebrities have a different and exciting lifestyle. Celebrity news is also easy to watch and talk about with friends.",
+          "answer": "Personality may affect this interest. Extroverts often enjoy social discussion and may share celebrity news, while introverts may spend less time on this kind of talk. In either case, excessive interest can distract people from their own lives.",
+          "materials": [
+            "C2",
+            "M7"
+          ],
           "translation": {
             "question": "为什么有些人对明星的私生活更感兴趣？",
-            "answer": "有些人好奇，因为名人的生活看起来不同又精彩。名人新闻也很容易看，并和朋友聊天。"
-          }
+            "answer": "性格可能会影响这种兴趣。外向的人通常喜欢社交讨论，可能会分享名人新闻；内向的人则可能较少花时间聊这些内容。无论哪种情况，过度关注都会让人忽视自己的生活。"
+          },
+          "comparison": "C2 · 社交互动"
         },
         {
           "question": "Do you think the definition of “fame” has changed in the age of social media? How?",
-          "answer": "Yes, I think it has changed a lot. In the past, famous people were usually actors or singers, but now ordinary people can become famous online very quickly.",
+          "answer": "In the past, famous people were mainly actors, singers or athletes known through traditional media. By contrast, young people now use social media to become famous quickly. This is efficient, but online attention can also become excessive and short-lived.",
+          "materials": [
+            "C1",
+            "M2",
+            "M7"
+          ],
           "translation": {
             "question": "您认为社交媒体时代“名气”的定义是否发生了变化？如何？",
-            "answer": "是的，我觉得变化很大。过去名人通常是演员或歌手，现在普通人也能很快在网上出名。"
-          }
+            "answer": "过去，名人主要是通过传统媒体被认识的演员、歌手或运动员。相比之下，现在的年轻人可以利用社交媒体迅速成名。这种方式很高效，但网络关注也可能过度而且短暂。"
+          },
+          "comparison": "C1 · 社交互动"
         }
       ]
     },
@@ -5773,50 +5919,69 @@ window.IELTS_DATA = {
       "items": [
         {
           "question": "What would children do to make their parents proud?",
-          "answer": "I think children can make parents proud by working hard, behaving responsibly and treating other people kindly. Good exam results may be one example, but character is also important.",
+          "answer": "Children can make their parents proud by working hard, learning useful skills and becoming responsible. Parents usually value steady personal growth more than one perfect exam result.",
+          "materials": [
+            "M4"
+          ],
           "translation": {
             "question": "孩子会做什么让父母感到骄傲？",
-            "answer": "孩子们可以通过努力工作、行为负责和善待他人而让父母感到自豪。良好的考试成绩可能是一个例子，但品格也很重要。"
+            "answer": "孩子可以通过努力、学习实用技能并变得有责任感让父母骄傲。父母通常更看重持续的个人成长，而不是一次完美的考试成绩。"
           }
         },
         {
           "question": "What did you do to make your parents proud when you were young?",
-          "answer": "I think my parents were proud when I studied hard and entered university. I also learned to manage my own life and did not cause them many serious problems.",
+          "answer": "When I was young, I studied hard and learned to finish tasks by myself. Gaining new knowledge and becoming more independent made my parents proud of my growth.",
+          "materials": [
+            "M4"
+          ],
           "translation": {
             "question": "你小时候做过什么让父母感到骄傲的事？",
-            "answer": "我认为当我努力学习并进入大学时，我的父母感到自豪。我也学会了管理自己的生活，没有给他们带来很多严重的问题。"
+            "answer": "小时候，我努力学习，也学会独立完成任务。获得新知识并变得更加独立，让父母为我的成长感到骄傲。"
           }
         },
         {
           "question": "What advantages of yours make you proud?",
-          "answer": "I am proud that I can stay patient when I face a difficult problem. This is useful in my work as a software engineer because solutions sometimes take a long time.",
+          "answer": "I am proud of my willingness to learn and solve problems calmly. These strengths help me gain new skills, handle unfamiliar situations and keep an open-minded attitude.",
+          "materials": [
+            "M4"
+          ],
           "translation": {
             "question": "你的哪些优点让你感到自豪？",
-            "answer": "我很自豪，当我面对难题时，我能保持耐心。这对于我作为软件工程师的工作很有用，因为解决方案有时需要很长时间。"
+            "answer": "我为自己愿意学习并能冷静解决问题而骄傲。这些优点能帮助我获得新技能、处理陌生情况，并保持开放的态度。"
           }
         },
         {
           "question": "When was the last time that you felt proud of yourself?",
-          "answer": "I recently felt proud after finishing a difficult project at work. The task had several problems, but I communicated with my teammates and completed it successfully.",
+          "answer": "I felt proud after finishing a difficult work task last month. I had to learn a new skill and solve an unfamiliar problem, so the experience helped me grow.",
+          "materials": [
+            "M4"
+          ],
           "translation": {
             "question": "您最后一次为自己感到骄傲是什么时候？",
-            "answer": "最近，我在完成了一个困难的工作项目后感到自豪。任务出现了一些问题，但是我和队友们沟通并顺利完成了。"
+            "answer": "上个月完成一项困难的工作任务后，我感到很骄傲。我必须学习一项新技能并解决陌生问题，因此这段经历帮助我成长。"
           }
         },
         {
           "question": "Should parents reward children? Why and how?",
-          "answer": "I think reasonable rewards can encourage effort and good habits. They do not always need to be money or expensive gifts; praise, extra playtime or a family activity can work well.",
+          "answer": "Parents can reward effort with praise or a small gift. Rewards should be moderate because excessive rewards may distract children from learning. The main goal should still be personal growth.",
+          "materials": [
+            "M7",
+            "M4"
+          ],
           "translation": {
             "question": "父母该奖励孩子吗？为什么以及如何？",
-            "answer": "合理的奖励可以鼓励努力和良好的习惯。它们并不总是需要金钱或昂贵的礼物；表扬、额外的游戏时间或家庭活动都可以起到很好的效果。"
+            "answer": "父母可以用表扬或小礼物奖励努力。奖励应该适度，因为过多奖励可能让孩子忽视学习，主要目标仍然应该是个人成长。"
           }
         },
         {
           "question": "On what occasions would adults be proud of themselves?",
-          "answer": "I think adults may feel proud after reaching a career goal, supporting their family or overcoming a personal difficulty. Some are also proud when they help another person.",
+          "answer": "Adults feel proud when they learn a hard skill, finish an important project or support their family. These experiences show personal growth and give them more confidence.",
+          "materials": [
+            "M4"
+          ],
           "translation": {
             "question": "成年人在什么情况下会为自己感到骄傲？",
-            "answer": "成年人在实现职业目标、支持家庭或克服个人困难后可能会感到自豪。有些人在帮助别人时也会感到自豪。"
+            "answer": "成年人在学会困难技能、完成重要项目或支持家人时会感到骄傲。这些经历体现个人成长，也会给他们更多信心。"
           }
         }
       ]
@@ -5829,51 +5994,75 @@ window.IELTS_DATA = {
       "items": [
         {
           "question": "Is it necessary to keep learning after graduating from school?",
-          "answer": "Yes, because technology and workplaces continue to change. Adults may need new skills to remain useful or find better jobs.",
+          "answer": "Yes, people should keep learning after graduation because work and technology change. New knowledge and skills broaden their horizons and help them stay open-minded in daily life.",
+          "materials": [
+            "M4"
+          ],
           "translation": {
             "question": "毕业后还有必要继续学习吗？",
-            "answer": "是的，因为技术和工作场所在不断变化。成年人可能需要新技能才能保持高效或找到更好的工作。"
+            "answer": "是的，人们毕业后应该继续学习，因为工作和技术会变化。新知识和技能能开阔眼界，也能帮助他们在日常生活中保持开放。"
           }
         },
         {
           "question": "Should teachers make learning in their classes fun?",
-          "answer": "Yes, an interesting class helps students pay attention and remember information. Teachers can use examples, discussions and simple activities.",
+          "answer": "Yes, enjoyable classes make students feel calm and less afraid of mistakes. When their mood is better, they are more willing to explore ideas and gain new knowledge.",
+          "materials": [
+            "M1",
+            "M4"
+          ],
           "translation": {
             "question": "老师应该让课堂上的学习变得有趣吗？",
-            "answer": "是的，有趣的课程可以帮助学生集中注意力并记住信息。教师可以使用示例、讨论和简单的活动。"
+            "answer": "是的，有趣的课堂能让学生平静下来，也不那么害怕犯错。心情变好以后，他们会更愿意探索想法并获得新知识。"
           }
         },
         {
           "question": "Do you think there are too many subjects for students to learn?",
-          "answer": "I think in some schools, students may have too many subjects and too much homework. A broad education is useful, but there should be enough time to understand important ideas properly.",
+          "answer": "Some schools offer too many subjects, so students cannot study each one well. An excessive workload causes stress and distraction. A more balanced timetable would be healthier.",
+          "materials": [
+            "M7"
+          ],
           "translation": {
             "question": "您是否认为学生需要学习的科目太多？",
-            "answer": "在一些学校，学生可能有太多科目和太多家庭作业。广泛的教育是有用的，但应该有足够的时间来正确理解重要的想法。"
+            "answer": "有些学校提供的科目太多，学生无法学好每一门。过重的负担会造成压力和分心，更平衡的课程表会更加健康。"
           }
         },
         {
           "question": "Is it better to focus on a few subjects or to learn many subjects?",
-          "answer": "I think younger students should learn many basic subjects so they can discover their interests and understand the world. Older students can gradually focus on fewer areas related to their future.",
+          "answer": "Younger students have less life experience, so learning several subjects helps them discover their interests and broaden their horizons. Older students usually know their goals better and can focus on fewer subjects to develop deeper skills.",
+          "materials": [
+            "C1",
+            "M4"
+          ],
           "translation": {
             "question": "专注于几门科目好还是学习多门科目好？",
-            "answer": "年轻的学生应该学习许多基础科目，这样他们才能发现自己的兴趣并了解世界。年长的学生可以逐渐关注与他们的未来相关的较少领域。"
-          }
+            "answer": "年龄较小的学生人生经验较少，因此学习多门学科能帮助他们发现兴趣并开阔眼界。年龄较大的学生通常更了解自己的目标，可以专注于较少的学科来培养更深入的技能。"
+          },
+          "comparison": "C1 · 生活经验"
         },
         {
           "question": "Do you think enterprises should provide training for their employees?",
-          "answer": "Yes, I do. Training is important because it helps employees learn practical skills and use new tools more confidently. However, it should be closely related to their jobs.",
+          "answer": "Yes, companies should offer training. It gives employees new knowledge and practical skills. Better skills also save time, reduce mistakes and improve their work efficiency.",
+          "materials": [
+            "M4",
+            "M2"
+          ],
           "translation": {
             "question": "您认为企业应该为员工提供培训吗？",
-            "answer": "是的。培训很重要，因为它能帮助员工学习实用技能，更自信地使用新工具。不过，培训内容应该与工作密切相关。"
+            "answer": "是的，公司应该提供培训。培训能给员工新知识和实用技能，更好的技能还能节省时间、减少错误并提高工作效率。"
           }
         },
         {
           "question": "Do you think it is good for older adults to continue learning?",
-          "answer": "Yes. Learning can keep their minds active, give them confidence and help them use modern services. They might learn a language, a musical instrument or basic smartphone skills.",
+          "answer": "Young people are often more open to change, while older adults have more life experience but may accept new ideas more slowly. Continued learning gives older people fresh knowledge, useful skills and a more open-minded view.",
+          "materials": [
+            "C1",
+            "M4"
+          ],
           "translation": {
             "question": "您认为老年人继续学习有好处吗？",
-            "answer": "是的。学习可以保持他们的思维活跃，给他们信心并帮助他们使用现代服务。他们可能会学习一门语言、一种乐器或基本的智能手机技能。"
-          }
+            "answer": "年轻人通常更愿意接受变化，而老年人拥有更多人生经验，但接受新想法可能较慢。持续学习能给老年人新知识、实用技能和更加开放的视角。"
+          },
+          "comparison": "C1 · 对改变的态度"
         }
       ]
     },
@@ -5885,50 +6074,76 @@ window.IELTS_DATA = {
       "items": [
         {
           "question": "How can leaders encourage their employees?",
-          "answer": "I think leaders should set clear goals, notice good work and give employees useful feedback. They can also provide training and allow people some freedom in how they complete a task.",
+          "answer": "Leaders should encourage different employees in different ways. Introverts may prefer clear feedback and time to solve a problem alone, while extroverts often enjoy teamwork and sharing ideas. Both groups also benefit from training that builds new skills and from supportive communication.",
+          "materials": [
+            "C2",
+            "M4",
+            "M5"
+          ],
           "translation": {
             "question": "领导者如何激励员工？",
-            "answer": "领导者应该设定明确的目标，认可优秀的工作并为员工提供有用的反馈。他们还可以提供培训并允许人们在如何完成任务方面有一定的自由。"
-          }
+            "answer": "领导应该用不同方式鼓励不同员工。内向的人可能更喜欢清晰反馈和独立解决问题的时间，而外向的人通常喜欢团队合作和分享想法。两类人也都能从培养新技能的培训和支持性交流中受益。"
+          },
+          "comparison": "C2 · 问题解决"
         },
         {
           "question": "When should parents encourage their children?",
-          "answer": "I think parents should encourage children when they are learning something difficult, facing failure or trying a healthy new activity. Support is especially important when children make an effort but do not succeed quickly.",
+          "answer": "Parents should encourage children when they face a new challenge or fear failure. Calm support helps them try unfamiliar things, learn useful skills and become more confident.",
+          "materials": [
+            "M4"
+          ],
           "translation": {
             "question": "父母应该在什么时候鼓励孩子？",
-            "answer": "当孩子学习困难、面临失败或尝试健康的新活动时，父母应该鼓励他们。当孩子付出努力但没有立即取得成功时，支持尤其重要。"
+            "answer": "当孩子面对新挑战或害怕失败时，父母应该鼓励他们。平静的支持能帮助孩子尝试陌生事物、学习实用技能并变得更自信。"
           }
         },
         {
           "question": "What kind of encouragement should parents give?",
-          "answer": "I think they should praise specific effort, such as practising regularly or helping a classmate, instead of only saying a child is smart. Practical support and patient listening are also useful.",
+          "answer": "The form of encouragement should fit the child. An introverted child may prefer a quiet private talk, while an extroverted child may enjoy sharing progress with others. In both cases, specific face-to-face praise can build trust and confidence.",
+          "materials": [
+            "C2",
+            "M5"
+          ],
           "translation": {
             "question": "家长应该给予怎样的鼓励呢？",
-            "answer": "他们应该赞扬具体的努力，例如定期练习或帮助同学，而不是仅仅说孩子很聪明。实际支持和耐心倾听也很有用。"
-          }
+            "answer": "鼓励的方式应该适合孩子。内向的孩子可能更喜欢安静的私下交流，而外向的孩子可能喜欢和别人分享进步。无论哪种情况，具体的面对面表扬都能建立信任和信心。"
+          },
+          "comparison": "C2 · 社交互动"
         },
         {
           "question": "Do you think some people are better than others at persuading?",
-          "answer": "Yes. Good persuaders usually listen carefully, understand the other person's concerns and explain benefits clearly. They also choose the right time and tone.",
+          "answer": "Yes, personality can matter. Introverts may think carefully before speaking, while extroverts are more likely to share ideas and find an answer with others. However, anyone can become persuasive by listening well and communicating clearly face-to-face.",
+          "materials": [
+            "C2",
+            "M5"
+          ],
           "translation": {
             "question": "你认为有些人比其他人更擅长说服别人吗？",
-            "answer": "是的。好的说服者通常会仔细倾听，了解对方的担忧并清楚地解释其好处。他们还选择合适的时间和语气。"
-          }
+            "answer": "是的，性格可能有影响。内向的人可能会先仔细思考再说话，而外向的人更愿意分享想法并与别人一起寻找答案。不过，任何人都可以通过认真倾听和清晰的面对面交流提高说服力。"
+          },
+          "comparison": "C2 · 问题解决"
         },
         {
           "question": "What is the difference between encouraging someone and pressuring someone?",
-          "answer": "I think encouragement gives support and respects the person's final choice, while pressure makes them feel that they cannot refuse. Encouragement focuses on confidence and possible benefits.",
+          "answer": "Encouragement gives support and leaves the final choice to the person. Pressure is excessive and may cause anxiety. A moderate and rational approach is more helpful.",
+          "materials": [
+            "M7"
+          ],
           "translation": {
             "question": "鼓励某人和向某人施加压力有什么区别？",
-            "answer": "鼓励给予支持并尊重人的最终选择，而压力则让他们感到无法拒绝。鼓励的重点是信心和可能的好处。"
+            "answer": "鼓励会提供支持，并把最终选择留给对方。施压则是过度的，可能造成焦虑。适度、理性的方式会更有帮助。"
           }
         },
         {
           "question": "In your opinion, is it always good to encourage people to try new things? Why?",
-          "answer": "Not always. New experiences can build confidence, but they should be safe and suitable. People should not be pushed to do something that makes them very uncomfortable.",
+          "answer": "Usually yes, because new experiences help people learn skills and broaden their horizons. However, encouragement should be moderate. People should not be pushed into unsafe or unsuitable activities.",
+          "materials": [
+            "M4",
+            "M7"
+          ],
           "translation": {
             "question": "您认为鼓励人们尝试新事物总是好的吗？为什么？",
-            "answer": "不一定。新体验可以增强信心，但必须安全、合适。不能强迫别人去做让他们非常不舒服的事。"
+            "answer": "通常是的，因为新经历能帮助人们学习技能并开阔眼界。不过，鼓励应该适度，不能强迫别人参加危险或不适合的活动。"
           }
         }
       ]
@@ -5941,51 +6156,77 @@ window.IELTS_DATA = {
       "items": [
         {
           "question": "Do you think adults can have lots of imagination?",
-          "answer": "Yes. Adults use imagination when they design products, solve unusual problems or plan for the future.",
+          "answer": "Yes, but adults may use imagination differently. Young people are often open to new ideas, while older adults can turn their life experience into creative solutions. If adults keep learning and exploring, their imagination can continue to grow.",
+          "materials": [
+            "C1",
+            "M4"
+          ],
           "translation": {
             "question": "你认为成年人可以有很多想象力吗？",
-            "answer": "是的。成年人在设计产品、解决不寻常的问题或规划未来时会运用想象力。"
-          }
+            "answer": "可以，不过成年人使用想象力的方式可能不同。年轻人通常更愿意接受新想法，而年长者可以把人生经验转化成有创意的解决方案。只要成年人持续学习和探索，想象力就能继续成长。"
+          },
+          "comparison": "C1 · 生活经验"
         },
         {
           "question": "Do you think imagination is essential for scientists?",
-          "answer": "Yes, because scientists need to think of explanations and experiments that nobody has tried before. Knowledge and evidence are still necessary, but imagination helps them ask new questions.",
+          "answer": "Yes, imagination helps scientists see a problem in a new way. Knowledge gives them a strong base, while an open-minded view helps them explore ideas that nobody has tested before.",
+          "materials": [
+            "M4"
+          ],
           "translation": {
             "question": "您认为想象力对于科学家来说至关重要吗？",
-            "answer": "是的，因为科学家需要思考以前没有人尝试过的解释和实验。知识和证据仍然是必要的，但想象力可以帮助他们提出新问题。"
+            "answer": "是的，想象力能帮助科学家用新方式看待问题。知识提供坚实基础，而开放的视角能帮助他们探索以前没人验证过的想法。"
           }
         },
         {
           "question": "What kinds of jobs need imagination?",
-          "answer": "I think artists, writers, designers and advertising workers clearly need imagination. Engineers, teachers and business owners also use it to solve problems and explain ideas in new ways.",
+          "answer": "Designers, writers, scientists and software engineers all need imagination. They must explore different ideas, learn new skills and create solutions that people have not used before.",
+          "materials": [
+            "M4"
+          ],
           "translation": {
             "question": "什么样的工作需要想象力？",
-            "answer": "艺术家、作家、设计师和广告工作者显然需要想象力。工程师、教师和企业主也用它来解决问题并以新的方式解释想法。"
+            "answer": "设计师、作家、科学家和软件工程师都需要想象力。他们必须探索不同想法、学习新技能，并创造过去没有使用过的解决方案。"
           }
         },
         {
           "question": "What subjects are helpful for children's imagination?",
-          "answer": "I think art, music and literature are especially helpful because they allow children to create and interpret ideas. Science can also develop imagination through experiments and questions about how the world works.",
+          "answer": "Art, music, literature and science can all develop imagination. They give children new knowledge and different ideas. Cultural subjects also help them understand traditions and broaden their cultural awareness.",
+          "materials": [
+            "M4",
+            "M8"
+          ],
           "translation": {
             "question": "哪些科目有助于培养孩子的想象力？",
-            "answer": "艺术、音乐和文学特别有帮助，因为它们可以让孩子们创造和解释想法。科学还可以通过实验和关于世界如何运作的问题来发展想象力。"
+            "answer": "艺术、音乐、文学和科学都能培养想象力。它们给孩子新知识和不同想法，文化类学科还能帮助他们理解传统并拓宽文化认知。"
           }
         },
         {
           "question": "Why do you think some children seem to have more imagination than others?",
-          "answer": "I think children have different personalities and interests, but their environment also matters. Those who read stories, play freely and receive encouragement may express more ideas.",
+          "answer": "Personality and environment both matter. Introverted children may develop ideas through reading or drawing alone, while extroverted children often gain ideas from group play and discussion. Both ways let children explore new things and build imagination.",
+          "materials": [
+            "C2",
+            "M4"
+          ],
           "translation": {
             "question": "你认为为什么有些孩子似乎比其他孩子有更多的想象力？",
-            "answer": "孩子们有不同的个性和兴趣，但他们的环境也很重要。那些读故事、自由玩耍并受到鼓励的人可能会表达更多的想法。"
-          }
+            "answer": "性格和环境都会产生影响。内向的孩子可能通过独自阅读或画画形成想法，而外向的孩子常从集体游戏和讨论中获得灵感。两种方式都能让孩子探索新事物并培养想象力。"
+          },
+          "comparison": "C2 · 放松方式"
         },
         {
           "question": "Do you think modern technology (like TV and smartphones) helps or hurts people‘s imagination?",
-          "answer": "I think it can do both. Technology gives people access to stories, images and creative tools, which can inspire new ideas. However, endless passive entertainment may reduce time for thinking and creating.",
+          "answer": "Young people are usually more willing to try digital creative tools, while older people may draw ideas from richer life experience. Technology can support both groups, but excessive passive screen time may reduce independent thinking.",
+          "materials": [
+            "C1",
+            "M4",
+            "M7"
+          ],
           "translation": {
             "question": "您认为现代技术（如电视和智能手机）会帮助还是损害人们的想象力？",
-            "answer": "它可以两者兼得。技术让人们能够接触到故事、图像和创意工具，从而激发新的想法。然而，无休止的被动娱乐可能会减少思考和创造的时间。"
-          }
+            "answer": "年轻人通常更愿意尝试数字创作工具，而年长者可能从更丰富的人生经验中获得想法。技术能帮助两类人，但过度被动地看屏幕可能会减少独立思考。"
+          },
+          "comparison": "C1 · 对改变的态度"
         }
       ]
     },
@@ -5997,51 +6238,84 @@ window.IELTS_DATA = {
       "items": [
         {
           "question": "Which form of vehicle is more popular in your country, bikes, cars or motorcycles?",
-          "answer": "I think cars are probably the most popular for families because they are comfortable and useful for longer trips. Shared bicycles are also common in large cities for short journeys.",
+          "answer": "Cars are probably the most popular overall. In cities, people also use shared bikes for short trips because traffic is heavy. By contrast, rural residents travel longer distances and have fewer public services, so cars or motorcycles are often more practical and efficient.",
+          "materials": [
+            "C3",
+            "M2"
+          ],
           "translation": {
             "question": "在您的国家，哪种交通工具更受欢迎：自行车、汽车还是摩托车？",
-            "answer": "汽车可能是最受家庭欢迎的，因为它们对于长途旅行来说既舒适又实用。共享单车在大城市短途出行也很常见。"
-          }
+            "answer": "总体来说，汽车可能最受欢迎。在城市，由于交通拥堵，人们也会在短途出行时使用共享单车。相比之下，农村居民出行距离更长、公共服务更少，因此汽车或摩托车通常更实用高效。"
+          },
+          "comparison": "C3 · 交通"
         },
         {
           "question": "Do you think air pollution comes mostly from mobile vehicles?",
-          "answer": "I think vehicles are an important source, especially in crowded cities, but they are not the only one. Factories, construction and energy production also create pollution.",
+          "answer": "Vehicles are a major source in cities because traffic is heavy, but they are not the only cause. Factories and power plants also pollute urban air. Rural areas have fewer cars, although farm chemicals can still damage water. Reducing excessive car use is still a rational step.",
+          "materials": [
+            "C3",
+            "M7"
+          ],
           "translation": {
             "question": "您认为空气污染主要来自移动车辆吗？",
-            "answer": "车辆是一个重要的来源，尤其是在拥挤的城市，但它们并不是唯一的来源。工厂、建筑和能源生产也会造成污染。"
-          }
+            "answer": "在城市里，由于交通拥堵，车辆是主要污染来源之一，但不是唯一原因。工厂和发电厂也会污染城市空气。农村车辆较少，不过农用化学品仍可能污染水源。减少过度开车仍是理性的做法。"
+          },
+          "comparison": "C3 · 污染"
         },
         {
           "question": "Do you think people need to change the way of transportation drastically to protect the environment?",
-          "answer": "I don't think people need to change their transportation completely, because it may affect their daily lives. However, they can gradually drive less and use public transport more. This can help reduce pollution.",
+          "answer": "The change should depend on location. Cities have heavier traffic, so residents should use efficient public transport more often. Rural areas have fewer services and longer distances, so people still need cars. A gradual, balanced change is more practical.",
+          "materials": [
+            "C3",
+            "M2",
+            "M7"
+          ],
           "translation": {
             "question": "您认为人们需要彻底改变交通方式来保护环境吗？",
-            "answer": "我不认为人们需要完全改变出行方式，因为这可能会影响日常生活。不过，他们可以逐渐少开车，多使用公共交通，这能帮助减少污染。"
-          }
+            "answer": "改变应该取决于地区。城市交通更拥堵，因此居民应该更多使用高效的公共交通。农村公共服务较少、出行距离更长，所以人们仍需要汽车。渐进而平衡的改变更加实际。"
+          },
+          "comparison": "C3 · 交通"
         },
         {
           "question": "How are the transportation systems in urban areas and rural areas different?",
-          "answer": "I think cities usually have more buses, underground lines and shared bicycles because many people travel short distances. Rural areas have fewer services and longer distances, so residents depend more on private cars.",
+          "answer": "Rural areas often have basic roads and limited public transport, so people wait longer and depend on cars. By contrast, cities provide more buses and underground lines, although traffic is heavier. Better services make travel more efficient.",
+          "materials": [
+            "C3",
+            "M2"
+          ],
           "translation": {
             "question": "城市和农村的交通系统有何不同？",
-            "answer": "由于许多人短途出行，城市通常有更多的公交车、地铁线路和共享自行车。农村地区服务较少，距离较长，因此居民对私家车的依赖程度更高。"
-          }
+            "answer": "农村通常只有基础道路，公共交通也有限，因此人们等待更久并依赖汽车。相比之下，城市提供更多公交和地铁，不过交通也更拥堵。更好的服务能让出行更加高效。"
+          },
+          "comparison": "C3 · 基础设施"
         },
         {
           "question": "What are the benefits of travelling by bicycle compared to by car?",
-          "answer": "I think cycling produces no direct pollution, costs less and gives people exercise. It can also be faster than driving for short trips in crowded areas.",
+          "answer": "In crowded cities, a bicycle can be cheaper and faster than a car for short trips, and it also supports physical health. By contrast, rural journeys are often longer, so a car may be more practical there.",
+          "materials": [
+            "C3",
+            "M3",
+            "M6"
+          ],
           "translation": {
             "question": "与开车相比，骑自行车旅行有什么好处？",
-            "answer": "骑自行车不产生直接污染，成本较低，还能锻炼身体。在拥挤的地区，它也比开车短途旅行更快。"
-          }
+            "answer": "在拥堵的城市里，短途骑车可能比开车更便宜、更快，而且有益身体健康。相比之下，农村出行距离通常更长，因此在那里汽车可能更加实用。"
+          },
+          "comparison": "C3 · 交通"
         },
         {
           "question": "Do you think the government should encourage people to use bicycles? How?",
-          "answer": "Yes. The government can build protected cycling paths, provide safe parking and connect bike routes to bus or underground stations.",
+          "answer": "Yes, especially in cities where traffic and pollution are serious. The government can build safe cycle lanes and offer affordable bike-sharing, which supports a healthy lifestyle. Rural areas have longer journeys, so cycling support should focus on towns and short local trips.",
+          "materials": [
+            "C3",
+            "M3",
+            "M6"
+          ],
           "translation": {
             "question": "你认为政府应该鼓励人们使用自行车吗？如何？",
-            "answer": "是的。政府可以修建受保护的自行车道，提供安全停车并将自行车道连接到公交车站或地铁站。"
-          }
+            "answer": "应该，尤其是在交通和污染严重的城市。政府可以建设安全的自行车道，并提供价格合理的共享单车，这也有助于健康生活。农村出行距离较长，因此骑行支持应该集中在城镇和本地短途出行上。"
+          },
+          "comparison": "C3 · 交通"
         }
       ]
     },
@@ -6053,51 +6327,78 @@ window.IELTS_DATA = {
       "items": [
         {
           "question": "Should people prepare before giving advice?",
-          "answer": "Yes, especially when the decision involves health, money or a career. People should understand the situation and check good information before speaking confidently.",
+          "answer": "Yes, people should prepare. Older people may have more life experience, while younger people may know more about recent study or technology. A good adviser should check the facts, learn about the situation and keep an open mind.",
+          "materials": [
+            "C1",
+            "M4"
+          ],
           "translation": {
             "question": "人们在提供建议之前应该做好准备吗？",
-            "answer": "是的，尤其是当决定涉及健康、金钱或职业时。人们在自信地说话之前应该了解情况并检查可靠的信息。"
-          }
+            "answer": "是的，人们应该做准备。年长者可能有更多人生经验，而年轻人可能更了解最近的学习或技术。好的建议者应该核实事实、了解情况，并保持开放心态。"
+          },
+          "comparison": "C1 · 生活经验"
         },
         {
           "question": "Is it good to ask advice from strangers online?",
-          "answer": "I think online advice can provide different experiences and useful starting points, but strangers may not understand the full situation. Some information may also be wrong.",
+          "answer": "Young people often ask strangers online because answers are quick and available anywhere. Older people may prefer advice face to face from someone they trust. Online advice is convenient, but it should be checked and used rationally.",
+          "materials": [
+            "C1",
+            "M2",
+            "M7"
+          ],
           "translation": {
             "question": "在网上向陌生人寻求建议好吗？",
-            "answer": "在线建议可以提供不同的体验和有用的起点，但陌生人可能无法了解全部情况。有些信息也可能是错误的。"
-          }
+            "answer": "年轻人经常向网络陌生人求助，因为答案获取快，而且不受地点限制。年长者可能更喜欢向信任的人面对面咨询。网络建议很方便，但应该经过核实并理性使用。"
+          },
+          "comparison": "C1 · 社交互动"
         },
         {
           "question": "What are the personalities of people whose job is to give advice to others?",
-          "answer": "I think they should be patient, responsible and good at listening. They also need to explain complex information clearly without judging the client.",
+          "answer": "Both introverts and extroverts can give good advice. Introverts may listen carefully and think before speaking, while extroverts are often comfortable sharing ideas. Both need patience and clear face-to-face communication to build trust.",
+          "materials": [
+            "C2",
+            "M5"
+          ],
           "translation": {
             "question": "那些以向他人提供建议为工作的人有哪些性格？",
-            "answer": "他们应该有耐心、有责任心、善于倾听。他们还需要在不评判客户的情况下清楚地解释复杂的信息。"
-          }
+            "answer": "内向和外向的人都可以给出好建议。内向的人可能会认真倾听并先思考再说话，而外向的人通常更自在地分享想法。两类人都需要耐心和清晰的面对面交流来建立信任。"
+          },
+          "comparison": "C2 · 问题解决"
         },
         {
           "question": "What are the problems if you ask too many people for advice?",
-          "answer": "I think different people may give opposite suggestions, which can make the decision more confusing. Some advice may reflect their own interests rather than yours.",
+          "answer": "Too many opinions can make a simple choice confusing. They may cause distraction and waste time. It is better to ask a few reliable people and keep a balanced view.",
+          "materials": [
+            "M7"
+          ],
           "translation": {
             "question": "如果向太多人寻求建议会出现什么问题？",
-            "answer": "不同的人可能会给出相反的建议，这会让决策更加混乱。有些建议可能反映他们自己的利益而不是你的利益。"
+            "answer": "太多意见会让简单选择变得混乱，也可能让人分心并浪费时间。最好只询问少数可靠的人，并保持平衡的看法。"
           }
         },
         {
           "question": "When is it not appropriate to give advice to others?",
-          "answer": "I think it may not be appropriate when nobody has asked and the problem is very personal. People should also avoid giving professional advice without enough knowledge.",
+          "answer": "Advice is not suitable when the person did not ask for it or the adviser knows little about the problem. Excessive advice feels like pressure, so people should be moderate.",
+          "materials": [
+            "M7"
+          ],
           "translation": {
             "question": "什么时候不适合给别人提供建议？",
-            "answer": "如果别人没有询问，而且问题非常私人，就不太适合主动给建议。没有足够知识时，也不应该提供专业建议。"
+            "answer": "如果对方没有询问，或者建议者不太了解问题，那么建议就不合适。过多建议会让人感到压力，因此人们应该适度。"
           }
         },
         {
           "question": "Which do you think is more helpful: advice from older people or advice from friends of the same age? Why?",
-          "answer": "I think older people often have more life experience, while friends of the same age may understand current pressures better. For a major career or financial decision, experience can be valuable.",
+          "answer": "Older people usually have more life experience and can give a wider view. By contrast, friends of the same age understand current pressures better. For a major decision, I would use older people's experience but also listen to my friends.",
+          "materials": [
+            "C1",
+            "M4"
+          ],
           "translation": {
             "question": "您认为哪一个更有帮助：年长者的建议还是同龄朋友的建议？为什么？",
-            "answer": "年长的人往往有更多的生活经历，而同龄的朋友可能更能理解当下的压力。对于重大职业或财务决策，经验可能很有价值。"
-          }
+            "answer": "年长者通常有更多人生经验，能提供更广阔的视角。相比之下，同龄朋友更了解当下的压力。面对重大决定时，我会借鉴年长者的经验，同时也听取朋友的意见。"
+          },
+          "comparison": "C1 · 生活经验"
         }
       ]
     },
@@ -6109,50 +6410,81 @@ window.IELTS_DATA = {
       "items": [
         {
           "question": "Do you think everyone has the same taste in music? Why/Why not?",
-          "answer": "No. Musical taste is influenced by age, culture, personality and personal memories. Young people may enjoy new pop music, while older people may prefer songs from their youth.",
+          "answer": "No, musical taste often changes with age. Older people may prefer calm music that fits their habits, while younger people often enjoy louder and more active songs. Both kinds of music can help listeners relax and lift their mood.",
+          "materials": [
+            "C1",
+            "M1"
+          ],
           "translation": {
             "question": "你认为每个人对音乐的品味都一样吗？为什么/为什么不？",
-            "answer": "不会。音乐品味受年龄、文化、个性和个人记忆的影响。年轻人可能喜欢新的流行音乐，而老年人可能更喜欢年轻时的歌曲。"
-          }
+            "answer": "不会，音乐品味通常会随年龄变化。年长者可能喜欢符合习惯的平静音乐，而年轻人往往喜欢更响亮、更有活力的歌曲。两种音乐都能帮助听众放松并改善情绪。"
+          },
+          "comparison": "C1 · 兴趣爱好"
         },
         {
           "question": "What kind of music is suitable for big public events, like sports games or celebrations?",
-          "answer": "I think upbeat, familiar music usually works well because it creates energy and many people can enjoy it. The volume should not be painfully loud, and organisers should consider the audience.",
+          "answer": "For a mixed public event, organisers should use several styles. Young people may prefer active music, while older people may enjoy softer familiar songs. This balance lifts the crowd's mood and helps families enjoy the event together.",
+          "materials": [
+            "C1",
+            "M1",
+            "M5"
+          ],
           "translation": {
             "question": "什么样的音乐适合大型公共活动，例如体育比赛或庆祝活动？",
-            "answer": "欢快、熟悉的音乐通常效果很好，因为它能创造能量，而且很多人都能享受它。音量不应该太大，组织者应该考虑观众。"
-          }
+            "answer": "面向不同年龄的公共活动，组织者应该使用多种音乐风格。年轻人可能喜欢活跃的音乐，而年长者可能喜欢柔和、熟悉的歌曲。这种平衡能改善人群情绪，也让家人一起享受活动。"
+          },
+          "comparison": "C1 · 兴趣爱好"
         },
         {
           "question": "How important is music in creating the atmosphere at a social event?",
-          "answer": "I think music is quite important because it affects people's mood and fills uncomfortable silence. Fast music can make a celebration lively, while soft music suits a meal or conversation.",
+          "answer": "Music is very important, but the right style depends on the guests. Extroverts may enjoy energetic music and social activity, while introverts may prefer softer music. A suitable choice lifts the mood and makes communication easier.",
+          "materials": [
+            "C2",
+            "M1",
+            "M5"
+          ],
           "translation": {
             "question": "音乐对于营造社交活动的氛围有多重要？",
-            "answer": "音乐相当重要，因为它影响人们的情绪并填补令人不舒服的沉默。快节奏的音乐可以让庆祝活动热闹起来，而轻柔的音乐则适合用餐或交谈。"
-          }
+            "answer": "音乐很重要，但合适的风格取决于来宾。外向的人可能喜欢有活力的音乐和社交活动，而内向的人可能偏好柔和音乐。合适的选择能改善情绪，也让交流更容易。"
+          },
+          "comparison": "C2 · 放松方式"
         },
         {
           "question": "Do you think older people and younger people enjoy the same kind of music at events? What are the differences?",
-          "answer": "I think there is some overlap, but younger people often prefer current pop or electronic music, while older people may enjoy familiar older songs. At mixed-age events, organisers can play several styles.",
+          "answer": "They do not always enjoy the same music. Older people may prefer softer songs that fit their habits, while younger people often choose louder and more active music. However, both groups use music to relax and feel happy.",
+          "materials": [
+            "C1",
+            "M1"
+          ],
           "translation": {
             "question": "您认为老年人和年轻人在活动中喜欢同样的音乐吗？有什么区别？",
-            "answer": "有一些重叠，但年轻人通常更喜欢当前的流行音乐或电子音乐，而老年人可能喜欢熟悉的老歌曲。在混合年龄的活动中，组织者可以发挥多种风格。"
-          }
+            "answer": "他们不一定喜欢相同的音乐。年长者可能偏好符合习惯的柔和歌曲，而年轻人往往选择更响亮、更有活力的音乐。不过，两类人都会用音乐放松并获得愉快心情。"
+          },
+          "comparison": "C1 · 兴趣爱好"
         },
         {
           "question": "How has technology (like streaming apps) changed the way people listen to music at parties or events?",
-          "answer": "I think streaming apps give organisers access to huge music libraries and ready-made playlists. Guests can also request a song instantly.",
+          "answer": "Young people now use streaming apps to choose and share songs instantly, while older people may prefer familiar playlists or music chosen face to face. The apps save time and make it easy to meet different guests' needs.",
+          "materials": [
+            "C1",
+            "M2"
+          ],
           "translation": {
             "question": "技术（如流媒体应用程序）如何改变人们在聚会或活动中听音乐的方式？",
-            "answer": "流媒体应用程序使组织者可以访问庞大的音乐库和现成的播放列表。客人还可以立即点歌。"
-          }
+            "answer": "现在年轻人会用流媒体应用即时选择和分享歌曲，而年长者可能更喜欢熟悉的歌单或面对面选歌。这些应用能节省时间，也更容易满足不同来宾的需求。"
+          },
+          "comparison": "C1 · 社交互动"
         },
         {
           "question": "Do you think live music at events will be replaced by recorded music in the future? Why or why not?",
-          "answer": "I think recorded music will remain more common because it is cheaper and easier to organise. However, live music will not disappear because performers create interaction and a special atmosphere.",
+          "answer": "Recorded music is affordable and time-saving, so it will stay common. However, live music creates stronger face-to-face interaction and a shared experience, so it will not disappear.",
+          "materials": [
+            "M5",
+            "M2"
+          ],
           "translation": {
             "question": "您认为未来活动中的现场音乐会被录制音乐所取代吗？为什么或为什么不呢？",
-            "answer": "录制的音乐将仍然更加普遍，因为它更便宜且更容易组织。然而，现场音乐不会消失，因为表演者会创造互动和特殊的氛围。"
+            "answer": "录制音乐价格合理而且省时，因此会继续普遍存在。不过，现场音乐能带来更强的面对面互动和共同体验，所以不会消失。"
           }
         }
       ]
@@ -6165,51 +6497,78 @@ window.IELTS_DATA = {
       "items": [
         {
           "question": "What types of buildings are popular in your country?",
-          "answer": "I think modern apartment buildings are common in cities because they can house many people on limited land. Shopping centres and office towers are also popular.",
+          "answer": "Apartment blocks, shopping centres and office towers are common in cities because land is limited and services are convenient. By contrast, rural areas have fewer large buildings and more simple houses. Each type fits different daily needs.",
+          "materials": [
+            "C3",
+            "M2"
+          ],
           "translation": {
             "question": "你们国家流行什么类型的建筑？",
-            "answer": "现代公寓楼在城市中很常见，因为它们可以在有限的土地上容纳许多人。购物中心和办公楼也很受欢迎。"
-          }
+            "answer": "住宅楼、购物中心和办公楼在城市很常见，因为土地有限而且服务便利。相比之下，农村大型建筑较少，简单住宅更多。每种建筑都符合不同的日常需求。"
+          },
+          "comparison": "C3 · 基础设施"
         },
         {
           "question": "Is it worth spending a lot of money on the exterior appearance of a building?",
-          "answer": "I think for important public or cultural buildings, an attractive exterior can improve the city and create a landmark. However, safety, function and energy use should come first.",
+          "answer": "Only a reasonable amount should be spent. The exterior should be practical, durable and good value for money. Excessive decoration may waste money needed for safety and basic function.",
+          "materials": [
+            "M3",
+            "M7"
+          ],
           "translation": {
             "question": "在建筑物的外观上花很多钱值得吗？",
-            "answer": "对于重要的公共或文化建筑来说，有吸引力的外观可以改善城市并创造地标。然而，安全、功能和能源使用应该是第一位的。"
+            "answer": "只应该投入合理的费用。建筑外观应该实用、耐用并且物有所值。过度装饰可能浪费原本用于安全和基本功能的资金。"
           }
         },
         {
           "question": "Is it more important for a building to look good on the outside or on the inside?",
-          "answer": "I think the inside is usually more important because people use it every day and need a safe, comfortable space. The exterior still matters because it affects the surrounding area.",
+          "answer": "The inside is more important because people use it every day. A safe and practical interior fits real needs and gives better value for money than an expensive outside design.",
+          "materials": [
+            "M3"
+          ],
           "translation": {
             "question": "对于建筑物来说，外观好看还是内部好看更重要？",
-            "answer": "内部通常更重要，因为人们每天都会使用它，需要一个安全、舒适的空间。外部仍然很重要，因为它会影响周围区域。"
+            "answer": "内部更重要，因为人们每天都要使用。安全、实用的内部空间符合真实需求，也比昂贵的外观设计更物有所值。"
           }
         },
         {
           "question": "Why do people like to visit historical sites?",
-          "answer": "I think historical sites allow people to see real places connected with the past. They can understand architecture, culture and important events more clearly than by only reading a book.",
+          "answer": "People visit historical sites because they carry local customs and cultural heritage. Visitors can also gain new knowledge, broaden their horizons and understand the past more clearly.",
+          "materials": [
+            "M8",
+            "M4"
+          ],
           "translation": {
             "question": "为什么人们喜欢参观历史古迹？",
-            "answer": "历史遗迹让人们看到与过去有关的真实地点。他们比只看书能更清楚地了解建筑、文化和重要事件。"
+            "answer": "人们参观历史遗址，是因为它们承载当地习俗和文化遗产。参观者还能获得新知识、开阔眼界，并更清楚地了解过去。"
           }
         },
         {
           "question": "What are the challenges in preserving old or historical buildings?",
-          "answer": "I think repairs can be expensive, and old materials may be difficult to replace. Cities also need space for modern housing and transport, so development creates pressure.",
+          "answer": "The challenges differ by location. Cities face expensive land and pressure from new development, while rural areas may have limited roads, services and repair budgets. Governments need a cost-effective plan that still preserves cultural heritage.",
+          "materials": [
+            "C3",
+            "M3",
+            "M8"
+          ],
           "translation": {
             "question": "保护古老或历史建筑面临哪些挑战？",
-            "answer": "维修费用可能很高，而且旧材料可能难以更换。城市还需要现代住房和交通的空间，因此发展会产生压力。"
-          }
+            "answer": "保护难题会因地区而不同。城市面临昂贵土地和新开发压力，而农村可能道路、服务和维修预算有限。政府需要制定有性价比、同时能够保护文化遗产的方案。"
+          },
+          "comparison": "C3 · 基础设施"
         },
         {
           "question": "Do you think modern buildings will become as culturally valuable as ancient ones in the future?",
-          "answer": "I think some will, especially buildings that represent an important period or new design idea. However, not every modern office tower will become valuable.",
+          "answer": "Yes, some may. Older people often value ancient buildings because they are linked to tradition, while younger people are more open to modern design. If a modern building represents today's culture, it may become valuable heritage in the future.",
+          "materials": [
+            "C1",
+            "M8"
+          ],
           "translation": {
             "question": "您认为未来现代建筑会像古代建筑一样具有文化价值吗？",
-            "answer": "有些会，尤其是代表重要时期或新设计理念的建筑。然而，并不是每座现代办公楼都会变得有价值。"
-          }
+            "answer": "是的，一些现代建筑可能会。年长者通常重视与传统有关的古建筑，而年轻人更愿意接受现代设计。如果一座现代建筑能够代表今天的文化，它未来可能成为有价值的遗产。"
+          },
+          "comparison": "C1 · 对改变的态度"
         }
       ]
     },
@@ -6221,51 +6580,81 @@ window.IELTS_DATA = {
       "items": [
         {
           "question": "Why do people buy things they don't need?",
-          "answer": "I think advertising, discounts and social pressure can make unnecessary products feel attractive. Shopping also gives some people short-term excitement when they are bored or stressed.",
+          "answer": "People often buy unnecessary things because advertising makes shopping look exciting. Excessive shopping wastes money and causes distraction. A clear list can help them shop in a rational way.",
+          "materials": [
+            "M7"
+          ],
           "translation": {
             "question": "人们为什么要买他们不需要的东西？",
-            "answer": "广告、折扣和社会压力会让不必要的产品变得有吸引力。当一些人感到无聊或有压力时，购物也会给他们带来短暂的兴奋。"
+            "answer": "人们经常购买不需要的东西，因为广告让购物显得令人兴奋。过度购物会浪费金钱并让人分心，清晰的购物清单能帮助他们理性消费。"
           }
         },
         {
           "question": "Do you think shopping malls are popular in your country? Why?",
-          "answer": "Yes, especially in cities. Malls combine shops, restaurants, cinemas and children's activities in one comfortable place. They are useful in very hot, cold or rainy weather.",
+          "answer": "Yes, especially in cities. Cities have more choices such as cinemas, restaurants and large shops, while rural areas have fewer entertainment places. A mall puts many services together, so it saves time and simplifies a family trip.",
+          "materials": [
+            "C3",
+            "M2"
+          ],
           "translation": {
             "question": "您认为购物中心在你们国家受欢迎吗？为什么？",
-            "answer": "是的，尤其是在城市。购物中心将商店、餐馆、电影院和儿童活动场所融为一体。它们在非常炎热、寒冷或多雨的天气中很有用。"
-          }
+            "answer": "是的，尤其在城市。城市有电影院、餐厅和大型商店等更多选择，而农村娱乐场所较少。商场把多种服务集中起来，因此能节省时间并简化家庭出行。"
+          },
+          "comparison": "C3 · 娱乐"
         },
         {
           "question": "What are the advantages of shopping in a mall compared to shopping online?",
-          "answer": "I think customers can see, touch and try products before paying, which is especially useful for clothes or expensive items. They can also receive the product quickly.",
+          "answer": "Older shoppers may prefer a mall because they can see products and speak to staff face to face. By contrast, young people often shop online for speed and convenience. Malls are better for direct service and shared family time.",
+          "materials": [
+            "C1",
+            "M2",
+            "M5"
+          ],
           "translation": {
             "question": "与网上购物相比，在商场购物有哪些优势？",
-            "answer": "顾客可以在付款前看到、触摸和试用产品，这对于衣服或昂贵的物品特别有用。他们还可以立即收到产品。"
-          }
+            "answer": "年长的顾客可能更喜欢商场，因为他们能看到商品并与店员面对面交流。相比之下，年轻人经常为了速度和便利而网购。商场更适合直接服务和家庭共同活动。"
+          },
+          "comparison": "C1 · 社交互动"
         },
         {
           "question": "Do young people and old people like to go to the same kind of malls? Why?",
-          "answer": "Not always. Young people may prefer modern malls with fashionable shops, cinemas and cafés, while older people may care more about supermarkets, seating and easy transport.",
+          "answer": "Not always. Young people may prefer lively malls with new brands, cinemas and cafés, while older people often choose quieter places with supermarkets, seats and easy transport. Both groups still value convenient, time-saving services.",
+          "materials": [
+            "C1",
+            "M2"
+          ],
           "translation": {
             "question": "年轻人和老年人喜欢去同一种商场吗？为什么？",
-            "answer": "并非总是如此。年轻人可能更喜欢拥有时尚商店、电影院和咖啡馆的现代化购物中心，而老年人可能更关心超市、座位和便捷的交通。"
-          }
+            "answer": "不一定。年轻人可能喜欢有新品牌、电影院和咖啡馆的热闹商场，而年长者通常选择有超市、座椅和便利交通的安静场所。两类人仍然都重视便利、省时的服务。"
+          },
+          "comparison": "C1 · 兴趣爱好"
         },
         {
           "question": "How can a shopping mall attract more customers?",
-          "answer": "I think it needs a good location, useful shops, clean facilities and convenient parking or public transport. Events, restaurants and entertainment can encourage people to stay longer.",
+          "answer": "A mall should serve different age groups. Young people may want new brands and active entertainment, while older people may prefer relaxing spaces and face-to-face service. Good transport and family events also make visits convenient and enjoyable.",
+          "materials": [
+            "C1",
+            "M2",
+            "M5"
+          ],
           "translation": {
             "question": "购物中心如何才能吸引更多的顾客？",
-            "answer": "它需要一个好的位置、有用的商店、干净的设施和方便的停车或公共交通。活动、餐厅和娱乐活动可以鼓励人们停留更长时间。"
-          }
+            "answer": "商场应该服务不同年龄群体。年轻人可能想要新品牌和活跃的娱乐活动，而年长者可能喜欢休闲空间和面对面服务。便利交通和家庭活动也能让购物更加方便愉快。"
+          },
+          "comparison": "C1 · 兴趣爱好"
         },
         {
           "question": "Do you think having many malls in a city is a good thing?",
-          "answer": "I think it can be good because malls give people more choices and create jobs. However, too many malls may increase traffic and make life harder for small local shops.",
+          "answer": "It depends on planning. Cities offer more entertainment, but they also have heavier traffic, so too many malls can increase pollution and excessive spending. Rural areas need fewer large malls. A balanced number is better for both places.",
+          "materials": [
+            "C3",
+            "M7"
+          ],
           "translation": {
             "question": "你认为一个城市拥有很多购物中心是件好事吗？",
-            "answer": "这可能是好事，因为商场能给人们更多选择，也能创造工作机会。不过，商场太多可能加重交通压力，也会让本地小商店更难经营。"
-          }
+            "answer": "这取决于规划。城市提供更多娱乐，但交通也更拥堵，因此商场过多会增加污染和过度消费。农村需要的大型商场较少。对两种地区来说，数量平衡会更好。"
+          },
+          "comparison": "C3 · 交通与娱乐"
         }
       ]
     },
@@ -6277,50 +6666,76 @@ window.IELTS_DATA = {
       "items": [
         {
           "question": "Why do people sometimes go to other cities or other countries to travel?",
-          "answer": "I think people travel to relax, experience different cultures and escape their usual routine. Some also visit friends, study or look for business opportunities.",
+          "answer": "People travel for different reasons. Young people may prefer active trips and new places, while older people may choose relaxing travel that fits their habits. Both can take a break, gain new experience and broaden their horizons.",
+          "materials": [
+            "C1",
+            "M1",
+            "M4"
+          ],
           "translation": {
             "question": "为什么人们有时会去其他城市或其他国家旅行？",
-            "answer": "人们旅行是为了放松、体验不同的文化并逃离日常生活。有些人还拜访朋友、学习或寻找商机。"
-          }
+            "answer": "人们旅行的原因不同。年轻人可能喜欢有活力的旅行和新地方，而年长者可能选择符合习惯的休闲旅行。两类人都能暂时休息、获得新经历并开阔眼界。"
+          },
+          "comparison": "C1 · 兴趣爱好"
         },
         {
           "question": "What are the benefits of living in a foreign country for a short time?",
-          "answer": "I think people can practise a language, understand another culture and become more independent. A short stay also gives them international work or study experience without requiring a permanent move.",
+          "answer": "A short stay abroad lets people experience a different way of life. They can gain knowledge, learn practical skills and become more open-minded without changing their whole life.",
+          "materials": [
+            "M4"
+          ],
           "translation": {
             "question": "短期生活在异国他乡有什么好处？",
-            "answer": "人们可以练习一种语言，了解另一种文化并变得更加独立。短期停留还可以让他们获得国际工作或学习经验，而无需永久搬迁。"
+            "answer": "在国外短期生活能让人体验不同的生活方式。他们可以获得知识、学习实用技能并变得更加开放，同时不必彻底改变自己的生活。"
           }
         },
         {
           "question": "What problems might people have when they stay in a foreign country?",
-          "answer": "I think language difficulties, unfamiliar food and different rules can create stress. People may also feel lonely or have trouble finding housing and healthcare.",
+          "answer": "They may face high costs, language problems and loneliness. Daily life may not be affordable, and living far from family reduces quality time and face-to-face communication.",
+          "materials": [
+            "M3",
+            "M5"
+          ],
           "translation": {
             "question": "人们在异国他乡时可能会遇到哪些问题？",
-            "answer": "语言困难、不熟悉的食物和不同的规则都会造成压力。人们还可能感到孤独或难以找到住房和医疗保健。"
+            "answer": "他们可能面对高昂费用、语言问题和孤独感。日常生活可能负担不起，远离家人也会减少高质量时光和面对面交流。"
           }
         },
         {
           "question": "Is it better to travel alone or with friends when visiting another country? Why?",
-          "answer": "I think travelling with friends can feel safer, reduce costs and provide someone to share memories with. Travelling alone gives more freedom and encourages independence.",
+          "answer": "It depends on personality. Introverts may prefer travelling alone because quiet time gives them energy, while extroverts enjoy sharing ideas and activities with others. I prefer friends because the trip creates quality time and closer relationships.",
+          "materials": [
+            "C2",
+            "M5"
+          ],
           "translation": {
             "question": "去另一个国家旅行是独自旅行好还是和朋友一起旅行好？为什么？",
-            "answer": "与朋友一起旅行可以感觉更安全、降低成本并提供可以分享回忆的人。独自旅行给予更多的自由并鼓励独立。"
-          }
+            "answer": "这取决于性格。内向的人可能更喜欢独自旅行，因为安静时光能恢复精力；外向的人则喜欢与别人分享想法和活动。我更喜欢和朋友旅行，因为这能创造高质量时光并拉近关系。"
+          },
+          "comparison": "C2 · 放松方式"
         },
         {
           "question": "How can people prepare before going to stay in a foreign country?",
-          "answer": "I think they should check visa rules, insurance, accommodation, transport and local costs. Learning a few basic phrases and understanding important cultural rules is also helpful.",
+          "answer": "People should learn basic local rules, plan transport and book accommodation. Good preparation saves time and reduces waiting. A few language skills also make the experience easier and more useful.",
+          "materials": [
+            "M2",
+            "M4"
+          ],
           "translation": {
             "question": "人们在去异国他乡之前要做好哪些准备？",
-            "answer": "他们应该检查签证规则、保险、住宿、交通和当地费用。学习一些基本短语和了解重要的文化规则也很有帮助。"
+            "answer": "人们应该了解基本的当地规则、规划交通并预订住宿。充分准备能节省时间并减少等待，掌握一些语言技能也能让这段经历更轻松、更有价值。"
           }
         },
         {
           "question": "Do you think short-term visits can help people understand a different culture?",
-          "answer": "Yes, visitors can observe daily behaviour, food, transport and communication directly. However, a short stay only provides a limited view, especially if someone remains in tourist areas.",
+          "answer": "Yes, a short visit shows people local food, customs and daily routines. It broadens their horizons and cultural awareness, although a deeper understanding needs more time.",
+          "materials": [
+            "M4",
+            "M8"
+          ],
           "translation": {
             "question": "您认为短期访问可以帮助人们了解不同的文化吗？",
-            "answer": "是的，游客可以直接观察日常行为、食物、交通和通讯。然而，短暂停留只能看到有限的视野，尤其是当有人留在旅游区时。"
+            "answer": "可以，短期旅行能让人接触当地食物、习俗和日常生活。它能开阔眼界和文化认知，不过更深入的理解仍需要更多时间。"
           }
         }
       ]
@@ -6333,50 +6748,75 @@ window.IELTS_DATA = {
       "items": [
         {
           "question": "Do you think people who like to smile are more friendly?",
-          "answer": "I think they often appear more friendly because a smile makes other people feel welcome. However, personality cannot be judged from one expression.",
+          "answer": "Often, but personality matters. Extroverts get energy from social contact and may smile more openly, while introverts can be friendly in a quieter way. A natural smile still makes face-to-face communication warmer and helps build relationships.",
+          "materials": [
+            "C2",
+            "M5"
+          ],
           "translation": {
             "question": "你认为喜欢微笑的人更友善吗？",
-            "answer": "他们通常显得更友好，因为微笑让其他人感到受欢迎。然而，一个人的性格并不能从一种表现来判断。"
-          }
+            "answer": "通常是，但性格也很重要。外向的人从社交中获得能量，可能笑得更明显；内向的人也可以用更安静的方式表现友好。自然的微笑仍能让面对面交流更温暖，并帮助建立关系。"
+          },
+          "comparison": "C2 · 社交互动"
         },
         {
           "question": "Why do most people smile in photographs?",
-          "answer": "I think people want photographs to record a happy or attractive moment. Smiling also makes a group photo look more positive and helps everyone appear relaxed.",
+          "answer": "People smile because photos usually record happy time with family or friends. A smile creates a warm feeling, strengthens emotional bonds and helps people remember a good mood.",
+          "materials": [
+            "M5",
+            "M1"
+          ],
           "translation": {
             "question": "为什么大多数人在照片中微笑？",
-            "answer": "人们希望用照片来记录快乐或有吸引力的时刻。微笑还可以让合影看起来更加积极，让每个人都显得放松。"
+            "answer": "人们微笑，是因为照片通常记录与家人朋友相处的快乐时光。微笑能营造温暖感觉、加深情感纽带，也能帮助人们记住好心情。"
           }
         },
         {
           "question": "Do women smile more than men? Why?",
-          "answer": "I think in some cultures, women may be encouraged to appear warm and friendly, so they might smile more in public. Men may be taught to look serious.",
+          "answer": "Not necessarily. Personality may matter more than gender. Extroverts often enjoy social contact and may smile more, while introverts may show friendliness less openly. In both cases, smiling can make face-to-face communication warmer.",
+          "materials": [
+            "C2",
+            "M5"
+          ],
           "translation": {
             "question": "女人比男人笑得更多吗？为什么？",
-            "answer": "在某些文化中，可能会鼓励女性表现得热情友好，因此她们可能会在公共场合微笑更多。男人可能被教导要显得严肃。"
-          }
+            "answer": "不一定。性格可能比性别更重要。外向的人通常喜欢社交，可能笑得更多；内向的人表现友好的方式可能不那么明显。无论哪种情况，微笑都能让面对面交流更温暖。"
+          },
+          "comparison": "C2 · 社交互动"
         },
         {
           "question": "Do people smile more when they are younger or older?",
-          "answer": "I think children may smile more openly because they worry less about how they look and react quickly to simple fun. Adults face more duties, but older people may also smile often when spending time with family.",
+          "answer": "Young people may show feelings more openly and smile often with friends. By contrast, older people may be calmer but value close face-to-face contact. The difference is not fixed, and a smile can make both groups seem warmer.",
+          "materials": [
+            "C1",
+            "M5"
+          ],
           "translation": {
             "question": "人们年轻时微笑的多还是年老时微笑的多？",
-            "answer": "孩子们可能会更开怀地微笑，因为他们不太担心自己的外表，并且对简单的乐趣反应很快。成年人面临更多的责任，但老年人在与家人共度时光时也可能经常微笑。"
-          }
+            "answer": "年轻人可能更公开地表达感受，也经常和朋友一起微笑。相比之下，年长者可能更平静，但重视亲近的面对面交流。这种差异并不固定，微笑都能让两类人显得更温暖。"
+          },
+          "comparison": "C1 · 社交互动"
         },
         {
           "question": "In what situations is it inappropriate to smile?",
-          "answer": "I think it is inappropriate to smile during a serious accident, a funeral, or a conversation about someone's pain. It may make other people feel that we do not respect the situation.",
+          "answer": "It is wrong to smile during an accident, serious news or another person's painful moment. People should control their reaction and respond in a moderate and respectful way.",
+          "materials": [
+            "M7"
+          ],
           "translation": {
             "question": "哪些情况下不宜微笑？",
-            "answer": "在严重事故、葬礼或谈论他人痛苦时微笑是不合适的。这会让别人觉得我们不尊重当时的情况。"
+            "answer": "在事故、严肃消息或别人痛苦的时刻微笑是不合适的。人们应该控制自己的反应，并以适度、尊重的方式回应。"
           }
         },
         {
           "question": "Do you think smiling can actually make people feel happier? Why?",
-          "answer": "Yes, smiling may slightly improve a person's mood and can encourage a positive response from others. If someone smiles, people may speak to them more warmly.",
+          "answer": "Yes, smiling can lift people's mood and ease mild anxiety. It cannot solve a serious problem, but it may calm the mind and create a peaceful moment.",
+          "materials": [
+            "M1"
+          ],
           "translation": {
             "question": "你认为微笑真的可以让人感到更快乐吗？为什么？",
-            "answer": "是的，微笑可以稍微改善一个人的情绪，并可以鼓励他人做出积极的反应。如果有人微笑，人们可能会更热情地与他们交谈。"
+            "answer": "可以，微笑能改善情绪并缓解轻微焦虑。它不能解决严重问题，但可能让人平静下来，并带来片刻安宁。"
           }
         }
       ]
@@ -6389,50 +6829,77 @@ window.IELTS_DATA = {
       "items": [
         {
           "question": "How do young and old people use mobile phones differently?",
-          "answer": "I think young people often use phones for social media, games, videos and online study. Older people may focus more on calls, messages, news and practical services.",
+          "answer": "Older people mainly use phones for calls and simple services because they prefer familiar routines. By contrast, young people quickly try new apps and stay connected online. These apps save time and make daily tasks more efficient.",
+          "materials": [
+            "C1",
+            "M2"
+          ],
           "translation": {
             "question": "年轻人和老年人使用手机有何不同？",
-            "answer": "年轻人经常使用手机进行社交媒体、游戏、视频和在线学习。老年人可能更关注电话、消息、新闻和实用服务。"
-          }
+            "answer": "年长者主要用手机打电话和使用简单服务，因为他们偏好熟悉的生活方式。相比之下，年轻人会很快尝试新应用并在线保持联系。这些应用能节省时间，让日常任务更高效。"
+          },
+          "comparison": "C1 · 社交互动与改变"
         },
         {
           "question": "What positive and negative impact do mobile phones have on friendship?",
-          "answer": "I think phones make it easy to stay in contact with friends who live far away and organise activities quickly. However, constant messages can reduce face-to-face attention, and online misunderstandings are common.",
+          "answer": "Young people often stay connected through messages and social media, while older people may prefer talking face to face. Phones make contact convenient, but excessive use can weaken direct communication. A balanced habit protects close friendships.",
+          "materials": [
+            "C1",
+            "M5",
+            "M7"
+          ],
           "translation": {
             "question": "手机对友谊有哪些积极和消极的影响？",
-            "answer": "电话可以让您轻松地与远方的朋友保持联系并快速组织活动。然而，不断的消息会减少面对面的关注，网上的误解也很常见。"
-          }
+            "answer": "年轻人经常通过消息和社交媒体保持联系，而年长者可能更喜欢面对面交谈。手机让联系更方便，但过度使用会削弱直接交流。平衡的使用习惯能够保护亲密友谊。"
+          },
+          "comparison": "C1 · 社交互动"
         },
         {
           "question": "Is it a waste of time to take pictures with mobile phones?",
-          "answer": "Not necessarily. Photos help people record important moments and share useful information. It becomes a waste of time when someone takes hundreds of similar pictures or focuses on posting instead of enjoying the experience.",
+          "answer": "Taking photos is not always a waste because pictures keep useful memories and enrich life experience. It becomes a problem when excessive editing distracts people from the real moment.",
+          "materials": [
+            "M4",
+            "M7"
+          ],
           "translation": {
             "question": "用手机拍照是不是浪费时间？",
-            "answer": "未必。照片帮助人们记录重要时刻并分享有用的信息。当有人拍摄数百张相似的照片或专注于发布而不是享受这种体验时，这就是浪费时间。"
+            "answer": "拍照并不总是浪费时间，因为照片能保存有用的回忆并丰富人生经历。只有过度编辑让人忽视真实时刻时，它才会成为问题。"
           }
         },
         {
           "question": "Do you think it is necessary to have laws on the use of mobile phones?",
-          "answer": "I think some rules are necessary for safety and privacy, such as banning phone use while driving or taking secret photographs. However, governments should not control ordinary personal use too much.",
+          "answer": "Some rules are needed in schools, hospitals and while driving. They can stop dangerous or excessive phone use. However, the rules should be moderate and keep useful services available.",
+          "materials": [
+            "M7"
+          ],
           "translation": {
             "question": "您认为有必要制定有关手机使用的法律吗？",
-            "answer": "为了安全和隐私，一些规则是必要的，例如禁止在驾驶时使用手机或拍摄秘密照片。然而，政府不应过多控制普通个人使用。"
+            "answer": "学校、医院和驾驶过程中需要一些规则，它们能阻止危险或过度使用手机。不过，规则应该适度，并保留有用服务。"
           }
         },
         {
           "question": "Why do you think some people feel anxious when they cannot use their phones?",
-          "answer": "I think phones provide messages, entertainment, work information and payment, so people may feel disconnected without them. Checking can also become a strong habit.",
+          "answer": "Young people often stay connected online all day, so they may fear missing messages when a phone is unavailable. Older people who use simpler services may feel less pressure. This anxiety often shows excessive dependence on online contact.",
+          "materials": [
+            "C1",
+            "M7"
+          ],
           "translation": {
             "question": "您认为为什么有些人在无法使用手机时会感到焦虑？",
-            "answer": "手机提供消息、娱乐、工作信息和付款，因此如果没有手机，人们可能会感到与世隔绝。检查也可以成为一种强烈的习惯。"
-          }
+            "answer": "年轻人经常整天在线保持联系，因此手机不能使用时可能害怕错过消息。只使用简单服务的年长者压力可能较小。这种焦虑通常说明人们过度依赖网络联系。"
+          },
+          "comparison": "C1 · 社交互动"
         },
         {
           "question": "Can you suggest some effective ways to help people reduce their screen time?",
-          "answer": "I think people can set daily limits, remove unnecessary notifications and keep phones away from the bed. Replacing screen time with a specific activity, such as walking or reading, is also helpful.",
+          "answer": "People can set app limits, keep phones away during meals and exercise more. These moderate habits reduce distraction, support mental health and help them keep a balanced lifestyle.",
+          "materials": [
+            "M7",
+            "M6"
+          ],
           "translation": {
             "question": "您能建议一些有效的方法来帮助人们减少屏幕时间吗？",
-            "answer": "人们可以设置每日限制、删除不必要的通知并将手机远离床头。用特定的活动（例如散步或阅读）代替屏幕时间也很有帮助。"
+            "answer": "人们可以设置应用时间限制、吃饭时把手机放远，并增加运动。这些适度习惯能减少分心、支持心理健康，也能帮助保持平衡的生活方式。"
           }
         }
       ]
@@ -6445,50 +6912,77 @@ window.IELTS_DATA = {
       "items": [
         {
           "question": "Why is it difficult for some people to relax?",
-          "answer": "I think some people have heavy workloads, family duties or financial worries. Even after work, messages and phones keep their minds active.",
+          "answer": "Some people use the wrong way to relax. Introverts often get their energy back through quiet time alone, while extroverts need social activities. If people ignore their own personality, they may remain tired instead of unwinding and releasing pressure.",
+          "materials": [
+            "C2",
+            "M1"
+          ],
           "translation": {
             "question": "为什么有些人很难放松？",
-            "answer": "有些人工作繁重、家庭责任或经济担忧。即使下班后，短信和电话也能让他们的思维保持活跃。"
-          }
+            "answer": "有些人使用了不适合自己的放松方式。内向的人通常通过独处恢复精力，而外向的人需要社交活动。如果人们忽视自己的性格，就可能仍然疲惫，无法真正放松和释放压力。"
+          },
+          "comparison": "C2 · 放松方式"
         },
         {
           "question": "What are the benefits of doing exercise?",
-          "answer": "I think exercise improves physical health, strengthens the body and can reduce stress. It may also help people sleep better and meet others through group activities.",
+          "answer": "Exercise benefits every age group in different ways. Young people may prefer active sports, while older people often choose relaxing activities such as walking. Both forms support physical and mental health and help people stay energetic.",
+          "materials": [
+            "C1",
+            "M6"
+          ],
           "translation": {
             "question": "锻炼身体有什么好处？",
-            "answer": "锻炼可以改善身体健康、增强体质并减轻压力。它还可以帮助人们睡得更好，并通过团体活动结识其他人。"
-          }
+            "answer": "运动以不同方式让各年龄群体受益。年轻人可能喜欢活跃的体育运动，而年长者通常选择散步等舒缓活动。两种形式都有益身心健康，也能帮助人们保持活力。"
+          },
+          "comparison": "C1 · 兴趣爱好"
         },
         {
           "question": "Do people in your country exercise after work?",
-          "answer": "I think many do, especially younger office workers who go to gyms, run or walk in parks. However, overtime and long travel times make regular exercise difficult for others.",
+          "answer": "Many people exercise after work by walking, running or going to the gym. It keeps them active and healthy. It also helps them release pressure and lift their mood.",
+          "materials": [
+            "M6",
+            "M1"
+          ],
           "translation": {
             "question": "你们国家的人下班后锻炼身体吗？",
-            "answer": "许多人都这样做，尤其是去健身房、在公园跑步或散步的年轻上班族。然而，加班和长途旅行给其他人的正常锻炼带来了困难。"
+            "answer": "很多人下班后会散步、跑步或去健身房。运动能让他们保持活力和健康，也能帮助释放压力并改善情绪。"
           }
         },
         {
           "question": "What is the place where people spend most of their time at home?",
-          "answer": "I think many people spend most of their free time in the living room because they can watch television, talk and relax there. Younger people may spend more time in their bedrooms using computers.",
+          "answer": "The living room is probably the most common place, but personality creates differences. Introverts may prefer a quiet bedroom, while extroverts enjoy the living room with family. Both spaces can help people unwind in their own way.",
+          "materials": [
+            "C2",
+            "M1"
+          ],
           "translation": {
             "question": "人们在家里呆得最多的地方是哪里？",
-            "answer": "许多人大部分空闲时间都在客厅度过，因为他们可以在那里看电视、聊天和放松。年轻人可能会花更多时间在卧室使用电脑。"
-          }
+            "answer": "客厅可能是最常见的地方，但性格会造成差异。内向的人可能喜欢安静的卧室，而外向的人喜欢和家人待在客厅。两个空间都能以各自方式帮助人们放松。"
+          },
+          "comparison": "C2 · 放松方式"
         },
         {
           "question": "Do you think there should be classes for training young people and children how to relax?",
-          "answer": "I think schools could teach simple stress-management skills, such as breathing, exercise and healthy time planning. These lessons may help students during exams.",
+          "answer": "Yes, simple classes could teach breathing, exercise and healthy sleep habits. These skills calm the mind, ease anxiety and help young people stay in good condition.",
+          "materials": [
+            "M1",
+            "M6"
+          ],
           "translation": {
             "question": "您认为是否应该开设培训青少年和儿童如何放松的课程？",
-            "answer": "学校可以教授简单的压力管理技能，例如呼吸、锻炼和健康的时间规划。这些课程可以在考试期间帮助学生。"
+            "answer": "是的，简单的课程可以教授呼吸、运动和健康睡眠习惯。这些技能能平静情绪、缓解焦虑，并帮助年轻人保持良好状态。"
           }
         },
         {
           "question": "Which is more important, mental relaxation or physical relaxation?",
-          "answer": "Both are connected. Physical rest is necessary after hard work or exercise, while mental relaxation helps people handle stress and sleep.",
+          "answer": "Both are important because the body and mind affect each other. Physical rest keeps the body in good condition, while mental relaxation calms the mind and eases anxiety.",
+          "materials": [
+            "M6",
+            "M1"
+          ],
           "translation": {
             "question": "精神上的放松和身体上的放松哪个更重要？",
-            "answer": "两者都是相连的。辛苦工作或运动后，身体休息是必要的，而精神放松则有助于人们应对压力和睡眠。"
+            "answer": "两者都很重要，因为身体和心理会互相影响。身体休息能保持良好状态，而心理放松能平静情绪并缓解焦虑。"
           }
         }
       ]
@@ -6501,50 +6995,75 @@ window.IELTS_DATA = {
       "items": [
         {
           "question": "Do you often buy more than you expected?",
-          "answer": "Not very often, because I usually make a list and compare prices. However, discounts sometimes encourage me to add small things to an order.",
+          "answer": "Not very often. I make a list and choose practical things that fit my daily needs. This rational habit helps me avoid excessive spending and get better value for money.",
+          "materials": [
+            "M7",
+            "M3"
+          ],
           "translation": {
             "question": "您是否经常购买超出预期的商品？",
-            "answer": "不经常，因为我通常会列出清单并比较价格。然而，折扣有时会鼓励我在订单中添加一些小东西。"
+            "answer": "不太经常。我会列清单，并选择符合日常需求的实用物品。这种理性习惯能帮助我避免过度消费，并获得更好的性价比。"
           }
         },
         {
           "question": "What do you think young people spend most of their money on?",
-          "answer": "I think many spend money on housing, food, transport, phones, entertainment and travel. In large cities, rent can take the biggest share.",
+          "answer": "Young people often spend money on phones, games, food and active travel because these match their interests. Older people may spend more on practical family needs. Young consumers should keep entertainment spending moderate and avoid financial pressure.",
+          "materials": [
+            "C1",
+            "M3",
+            "M7"
+          ],
           "translation": {
             "question": "你认为年轻人的钱大部分花在什么地方？",
-            "answer": "许多人把钱花在住房、食物、交通、电话、娱乐和旅行上。在大城市，租金占据最大份额。"
-          }
+            "answer": "年轻人常把钱花在手机、游戏、食物和活跃的旅行上，因为这些符合他们的兴趣。年长者可能更多购买实用的家庭用品。年轻消费者应该适度控制娱乐开支，避免经济压力。"
+          },
+          "comparison": "C1 · 兴趣爱好"
         },
         {
           "question": "Do you think it is important to save money? Why?",
-          "answer": "Yes. Savings help people handle emergencies, unemployment or major future plans without quickly borrowing money. Even a small regular amount can create security.",
+          "answer": "Yes, saving money is practical because it protects people from unexpected costs. It also stops them from wasting income and helps them pay for things that fit their real needs.",
+          "materials": [
+            "M3"
+          ],
           "translation": {
             "question": "你认为省钱重要吗？为什么？",
-            "answer": "是的。储蓄可以帮助人们应对紧急情况、失业或重大未来计划，而无需立即借钱。即使是少量的常规金额也能带来安全感。"
+            "answer": "是的，存钱很实用，因为它能应对意外支出，也能防止人们浪费收入，并帮助他们购买真正符合需求的东西。"
           }
         },
         {
           "question": "Do people buy things they don't need?",
-          "answer": "Yes, because advertisements, trends and low prices can make products seem necessary. Some people also shop when they are bored or stressed.",
+          "answer": "Yes, advertising and social pressure can create false needs. Excessive shopping wastes time and money. People should think rationally and keep a balanced attitude before they buy.",
+          "materials": [
+            "M7"
+          ],
           "translation": {
             "question": "人们会买他们不需要的东西吗？",
-            "answer": "是的，因为广告、流行趋势和低廉的价格会让产品显得必要。有些人在无聊或有压力时也会购物。"
+            "answer": "会，广告和社会压力会制造虚假的需求。过度购物会浪费时间和金钱，人们购买前应该理性思考并保持平衡的态度。"
           }
         },
         {
           "question": "How do advertisements influence people’s spending habits?",
-          "answer": "I think advertisements connect products with happiness, success or attractiveness, which can create emotional demand. Online platforms also show personalised adverts repeatedly.",
+          "answer": "Young people often see targeted advertisements through social media, while older people may notice television or shop advertising. Online ads are more personal and immediate, so they can cause distraction and excessive spending more easily.",
+          "materials": [
+            "C1",
+            "M7"
+          ],
           "translation": {
             "question": "广告如何影响人们的消费习惯？",
-            "answer": "广告将产品与幸福、成功或吸引力联系起来，这可以创造情感需求。在线平台还反复展示个性化广告。"
-          }
+            "answer": "年轻人经常在社交媒体上看到定向广告，而年长者可能更多注意电视或商店广告。网络广告更个性化、也更即时，因此更容易让人分心并导致过度消费。"
+          },
+          "comparison": "C1 · 社交互动"
         },
         {
           "question": "What can people do to avoid overspending?",
-          "answer": "I think they can set a monthly budget, use a shopping list and compare prices before paying. Waiting one or two days before a non-important buy reduces impulse buying.",
+          "answer": "People can make a list, compare prices and wait before buying non-essential things. These habits keep spending practical and cost-effective, and they prevent excessive shopping.",
+          "materials": [
+            "M3",
+            "M7"
+          ],
           "translation": {
             "question": "人们可以做什么来避免超支？",
-            "answer": "他们可以设定每月预算、使用购物清单并在付款前比较价格。在购买非必需品之前等待一两天可以减少冲动购买。"
+            "answer": "人们可以列清单、比较价格，并在购买非必需品前等待一下。这些习惯能让消费保持实用和有性价比，也能防止过度购物。"
           }
         }
       ]
@@ -6557,51 +7076,80 @@ window.IELTS_DATA = {
       "items": [
         {
           "question": "What kinds of movies do you think are successful in your country?",
-          "answer": "I think comedies, action films and stories about family life often attract large audiences. Recently, good animated and science-fiction films have also become popular.",
+          "answer": "Successful films often serve different age groups. Young people may prefer active action films or comedies, while older people may enjoy calmer historical stories. The first group gets excitement and relaxation, while the second connects with culture and tradition.",
+          "materials": [
+            "C1",
+            "M1",
+            "M8"
+          ],
           "translation": {
             "question": "您认为哪些类型的电影在您的国家比较成功？",
-            "answer": "喜剧、动作片和家庭生活故事经常吸引大量观众。最近，好看的动画、科幻片也开始流行。"
-          }
+            "answer": "成功的电影通常会满足不同年龄群体。年轻人可能喜欢活跃的动作片或喜剧，而年长者可能喜欢节奏较慢的历史故事。前者获得刺激和放松，后者则能接触文化和传统。"
+          },
+          "comparison": "C1 · 兴趣爱好"
         },
         {
           "question": "What are the factors that make a successful movie?",
-          "answer": "I think a clear story, believable characters and good acting are basic factors. Music, visual quality and marketing also matter.",
+          "answer": "A successful movie needs a clear story, believable characters and fresh ideas. It should help people relax, broaden their horizons and sometimes give them useful knowledge about life.",
+          "materials": [
+            "M1",
+            "M4"
+          ],
           "translation": {
             "question": "一部成功的电影需要哪些因素？",
-            "answer": "清晰的故事、可信的角色和出色的表演是基本因素。音乐、视觉质量和营销也很重要。"
+            "answer": "成功的电影需要清晰的故事、可信的角色和新鲜想法。它应该帮助人们放松、开阔眼界，有时还能带来有用的生活知识。"
           }
         },
         {
           "question": "Do Chinese people prefer to watch domestic movies or foreign movies?",
-          "answer": "I think many people watch both. Domestic films are easier to connect with because of language, humour and familiar social issues. Foreign films offer different styles and larger productions.",
+          "answer": "Older viewers may prefer domestic films because the language, traditions and local customs are familiar. By contrast, young people are often more open to foreign films. They can explore different cultures and broaden their horizons.",
+          "materials": [
+            "C1",
+            "M4",
+            "M8"
+          ],
           "translation": {
             "question": "中国人更喜欢看国产电影还是外国电影？",
-            "answer": "很多人都看。国产电影因为语言、幽默和熟悉的社会问题更容易产生共鸣。外国电影风格多样，制作规模较大。"
-          }
+            "answer": "年长观众可能更喜欢国产电影，因为语言、传统和当地习俗都很熟悉。相比之下，年轻人通常更愿意接受外国电影，并通过它们探索不同文化、开阔眼界。"
+          },
+          "comparison": "C1 · 对改变的态度"
         },
         {
           "question": "Do you think only well-known directors can create the best movies?",
-          "answer": "No. Experienced directors may have more resources and professional teams, but new directors can bring fresh ideas. Some excellent films are made with small budgets.",
+          "answer": "No, new directors can also make excellent films. If they keep learning skills, exploring ideas and staying open-minded, they may create something fresher than an experienced director.",
+          "materials": [
+            "M4"
+          ],
           "translation": {
             "question": "你认为只有知名导演才能创作出最好的电影吗？",
-            "answer": "不会。经验丰富的导演可能拥有更多的资源和专业团队，但新导演可以带来新鲜的想法。一些优秀的电影是用很少的预算制作的。"
+            "answer": "不是，新导演也能拍出优秀电影。如果他们持续学习技能、探索想法并保持开放，就可能创造出比资深导演更新鲜的作品。"
           }
         },
         {
           "question": "Do you think successful movies should have well-known actors or actresses in leading roles?",
-          "answer": "I think famous actors can attract attention and may have strong skills, but they are not important. A less famous actor who suits the character can be more believable.",
+          "answer": "Famous actors can attract attention, but they do not guarantee quality. Excessive focus on fame may distract the team. A good story and skilled work are more important.",
+          "materials": [
+            "M7",
+            "M4"
+          ],
           "translation": {
             "question": "您认为成功的电影应该由知名演员担任主角吗？",
-            "answer": "名演员可以吸引眼球，也可以有很强的演技，但不是必需的。适合这个角色的不太出名的演员可能会更可信。"
+            "answer": "知名演员能吸引注意，但不能保证质量。过度关注名气可能让团队分心，好的故事和熟练的制作更加重要。"
           }
         },
         {
           "question": "Why do people prefer to watch movies in the cinema?",
-          "answer": "I think cinemas offer a large screen, powerful sound and fewer daily interruptions. Watching with an audience can also make comedy or action more exciting.",
+          "answer": "Extroverts may prefer cinemas because they enjoy sharing reactions and spending time with friends. Introverts can also enjoy the large screen but may choose quieter times. In both cases, the cinema helps people relax and escape daily pressure.",
+          "materials": [
+            "C2",
+            "M1",
+            "M5"
+          ],
           "translation": {
             "question": "为什么人们更喜欢去电影院看电影？",
-            "answer": "电影院拥有大屏幕、震撼的音效和较少的日常干扰。与观众一起观看也可以使喜剧或动作变得更加精彩。"
-          }
+            "answer": "外向的人可能更喜欢电影院，因为他们享受分享反应和与朋友共度时光。内向的人也可能喜欢大屏幕，但会选择更安静的场次。无论哪种情况，电影院都能帮助人们放松并暂时摆脱日常压力。"
+          },
+          "comparison": "C2 · 社交与放松"
         }
       ]
     },
@@ -6613,51 +7161,79 @@ window.IELTS_DATA = {
       "items": [
         {
           "question": "What things do families keep for a long time?",
-          "answer": "I think families often keep photographs, letters, jewellery, books and objects connected with important events. These items may not be expensive, but they carry personal memories.",
+          "answer": "Families often keep photographs, letters, jewellery and handmade items. These objects carry family traditions and shared memories. They also strengthen emotional bonds between family members.",
+          "materials": [
+            "M5",
+            "M8"
+          ],
           "translation": {
             "question": "哪些东西是家人可以长期保存的？",
-            "answer": "家庭经常保存与重要事件有关的照片、信件、珠宝、书籍和物品。这些物品或许并不昂贵，但却承载着个人的回忆。"
+            "answer": "家庭经常保存照片、信件、首饰和手工物品。这些物品承载家庭传统和共同记忆，也能加深家庭成员之间的情感纽带。"
           }
         },
         {
           "question": "What's the difference between things valued by people in the past and today?",
-          "answer": "I think in the past, durable household objects and handwritten letters were often valuable because products were harder to replace. Today, people may value phones, digital photographs and branded items.",
+          "answer": "Older people often value handmade objects and family traditions because these fit their memories. By contrast, young people may prefer digital devices and accept change faster. Old objects still matter because they preserve cultural heritage.",
+          "materials": [
+            "C1",
+            "M8"
+          ],
           "translation": {
             "question": "过去和今天人们所重视的事物有什么区别？",
-            "answer": "过去，耐用的家用物品和手写信件往往很有价值，因为产品很难更换。如今，人们可能看重手机、数码照片和品牌商品。"
-          }
+            "answer": "年长者通常重视手工物品和家庭传统，因为这些符合他们的记忆。相比之下，年轻人可能更喜欢数字设备，也更快接受变化。旧物仍然重要，因为它们保存着文化遗产。"
+          },
+          "comparison": "C1 · 对改变的态度"
         },
         {
           "question": "What kinds of things are kept in museums?",
-          "answer": "I think museums keep historical objects, artworks, documents, clothing, tools and scientific examples. The collection depends on the museum's purpose.",
+          "answer": "Museums keep artworks, tools, clothes, documents and objects from important events. These items preserve cultural heritage and help visitors understand local customs and history.",
+          "materials": [
+            "M8"
+          ],
           "translation": {
             "question": "博物馆里保存着什么样的东西？",
-            "answer": "博物馆保存历史物品、艺术品、文件、服装、工具和科学实例。藏品取决于博物馆的目的。"
+            "answer": "博物馆保存艺术品、工具、服装、文件和重要事件相关物品。这些物品保护文化遗产，也帮助参观者理解当地习俗和历史。"
           }
         },
         {
           "question": "What's the influence of technology on museums?",
-          "answer": "I think technology allows museums to create interactive displays, digital guides and virtual visits. It also helps experts record and protect collections.",
+          "answer": "Young visitors usually accept digital displays and virtual tours quickly, while older visitors may prefer simple signs and real objects. Technology still saves time, improves access and helps both groups gain knowledge when it is easy to use.",
+          "materials": [
+            "C1",
+            "M2",
+            "M4"
+          ],
           "translation": {
             "question": "科技对博物馆有何影响？",
-            "answer": "技术使博物馆能够创建交互式展示、数字指南和虚拟参观。它还可以帮助专家记录和保护藏品。"
-          }
+            "answer": "年轻参观者通常很快接受数字展示和虚拟参观，而年长参观者可能更喜欢简单说明和真实物品。只要技术容易使用，它仍能节省时间、改善获取方式，并帮助两类人获得知识。"
+          },
+          "comparison": "C1 · 对改变的态度"
         },
         {
           "question": "Why is it important for people (especially children) to learn about family history?",
-          "answer": "I think family history helps children understand where they come from and how older generations lived. It can create respect and a sense of identity.",
+          "answer": "Family history preserves traditions and shows children where they come from. Sharing these stories creates quality family time, strengthens emotional bonds and improves communication between generations.",
+          "materials": [
+            "M8",
+            "M5"
+          ],
           "translation": {
             "question": "为什么人们（尤其是儿童）了解家族史很重要？",
-            "answer": "家族史可以帮助孩子们了解他们来自哪里以及老一辈人的生活方式。它可以创造尊重和认同感。"
+            "answer": "家庭历史能保存传统，并让孩子知道自己来自哪里。分享这些故事能创造高质量的家庭时光、加深情感纽带，并改善代际交流。"
           }
         },
         {
           "question": "Do you think people will keep fewer physical objects in the future as memories? Why?",
-          "answer": "Probably, because photographs, messages and documents are increasingly stored digitally. Small homes also reduce storage space.",
+          "answer": "Young people are comfortable keeping photos in convenient cloud storage, while older people may prefer physical objects linked to family traditions. So people will keep fewer objects overall, but meaningful items will remain part of family heritage.",
+          "materials": [
+            "C1",
+            "M2",
+            "M8"
+          ],
           "translation": {
             "question": "您认为未来人们会保留更少的实物作为记忆吗？为什么？",
-            "answer": "可能是因为照片、消息和文档越来越多地以数字方式存储。小房子也会减少存储空间。"
-          }
+            "answer": "年轻人习惯把照片保存在便利的云端，而年长者可能更喜欢与家庭传统有关的实体物品。因此，人们总体会保存更少物品，但有意义的东西仍会成为家庭传承的一部分。"
+          },
+          "comparison": "C1 · 社交互动与改变"
         }
       ]
     },
@@ -6669,50 +7245,77 @@ window.IELTS_DATA = {
       "items": [
         {
           "question": "Why do most children like listening to stories before bedtime?",
-          "answer": "I think stories help children relax, use their imagination and spend close time with their parents. A regular story can also become part of a healthy bedtime routine.",
+          "answer": "Bedtime stories calm children and create a peaceful moment before sleep. They also give parents and children quality time together and make their emotional bond stronger.",
+          "materials": [
+            "M1",
+            "M5"
+          ],
           "translation": {
             "question": "为什么大多数孩子喜欢睡前听故事？",
-            "answer": "故事可以帮助孩子放松、发挥想象力并与父母共度亲密时光。定期讲故事也可以成为健康的睡前习惯的一部分。"
+            "answer": "睡前故事能让孩子平静下来，并在睡前创造安静时光。它也能让父母和孩子共度高质量时光，并加深他们的情感纽带。"
           }
         },
         {
           "question": "Is a good storyline important for a movie?",
-          "answer": "Yes, because the storyline gives meaning to the acting, images and music. Without a clear or interesting story, viewers may lose attention even if the film looks beautiful.",
+          "answer": "Yes, a good storyline keeps viewers interested and helps them explore new ideas. It can also lift their mood and make the movie a relaxing experience.",
+          "materials": [
+            "M1",
+            "M4"
+          ],
           "translation": {
             "question": "一个好的故事情节对于一部电影来说重要吗？",
-            "answer": "是的，因为故事情节赋予了表演、图像和音乐以意义。如果没有清晰或有趣的故事，即使电影看起来很美，观众也可能会失去注意力。"
+            "answer": "是的，好的故事情节能让观众保持兴趣，并帮助他们探索新想法。它也能改善情绪，让看电影成为一种放松体验。"
           }
         },
         {
           "question": "Do you think films with many celebrities are more likely to be popular?",
-          "answer": "I think they are more likely to receive attention at first because fans notice the actors. However, too many famous people cannot guarantee quality.",
+          "answer": "They may be popular at first because famous names attract attention. However, excessive focus on celebrities can distract viewers from the story, so people should judge the film rationally.",
+          "materials": [
+            "M7"
+          ],
           "translation": {
             "question": "你认为明星多的电影更容易受到欢迎吗？",
-            "answer": "他们一开始更有可能受到关注，因为粉丝认识演员。但明星太多，质量也无法保证。"
+            "answer": "它们一开始可能很受欢迎，因为明星名字能吸引注意。不过，过度关注名人会让观众忽视故事，因此人们应该理性评价电影。"
           }
         },
         {
           "question": "What films are popular in China right now?",
-          "answer": "I think comedies, action movies, animation and stories about ordinary family life are generally popular. Large holiday periods often bring successful domestic films.",
+          "answer": "Popular films differ by age. Young people may prefer active comedies, animation and action films, while older viewers often enjoy calmer historical or family stories. These choices either provide relaxation or connect people with local culture.",
+          "materials": [
+            "C1",
+            "M1",
+            "M8"
+          ],
           "translation": {
             "question": "现在中国有哪些电影很受欢迎？",
-            "answer": "喜剧、动作片、动画和普通家庭生活的故事普遍受到欢迎。大假期往往会带来成功的国产电影。"
-          }
+            "answer": "受欢迎的电影会因年龄而不同。年轻人可能喜欢活跃的喜剧、动画和动作片，而年长观众通常喜欢节奏较慢的历史片或家庭故事。这些选择要么带来放松，要么让人与当地文化建立联系。"
+          },
+          "comparison": "C1 · 兴趣爱好"
         },
         {
           "question": "Do you think traditional stories (like fairy tales) are still relevant for children today?",
-          "answer": "Yes. Traditional stories discuss courage, kindness, greed and responsibility, which are still related. Adults may need to explain old-fashioned ideas or frightening parts.",
+          "answer": "Yes. Older people often value fairy tales because they carry traditions, while young children are open to imaginative stories and new ideas. When adults explain old messages in a modern way, these stories preserve culture and give children useful knowledge and values.",
+          "materials": [
+            "C1",
+            "M4",
+            "M8"
+          ],
           "translation": {
             "question": "您认为传统故事（如童话故事）对今天的孩子来说仍然有意义吗？",
-            "answer": "是的。传统故事讨论勇气、善良、贪婪和责任，这些仍然具有现实意义。成年人可能需要解释老式的想法或可怕的部分。"
-          }
+            "answer": "是的。年长者通常重视童话，因为它们承载传统；年幼的孩子则愿意接受富有想象力的故事和新想法。当成年人用现代方式解释旧寓意时，这些故事既能保存文化，也能给孩子有用的知识和价值观。"
+          },
+          "comparison": "C1 · 对改变的态度"
         },
         {
           "question": "How can stories influence a person‘s character or values?",
-          "answer": "I think stories allow people to experience choices and consequences through characters. A child may learn empathy by seeing a situation from another person's view.",
+          "answer": "Stories show choices and results without making people experience them directly. They broaden people's horizons, improve cultural awareness and help them develop more open-minded values.",
+          "materials": [
+            "M4",
+            "M8"
+          ],
           "translation": {
             "question": "故事如何影响一个人的性格或价值观？",
-            "answer": "故事让人们通过角色体验选择和后果。孩子可以通过从他人的角度看待情况来学会同理心。"
+            "answer": "故事不用让人亲身经历，就能展示选择和结果。它们能开阔眼界、增强文化认知，并帮助人们形成更加开放的价值观。"
           }
         }
       ]
@@ -6725,50 +7328,78 @@ window.IELTS_DATA = {
       "items": [
         {
           "question": "What are the differences between old and young people when using apps?",
-          "answer": "I think young people often explore new social, shopping and entertainment apps quickly. Older users may prefer a smaller number of practical apps and need clearer instructions.",
+          "answer": "Older people may learn new apps slowly because they are used to familiar routines. By contrast, young people are more open to change and try new functions quickly. Apps save time and simplify tasks when users understand them.",
+          "materials": [
+            "C1",
+            "M2"
+          ],
           "translation": {
             "question": "老年人和年轻人在使用应用程序时有何不同？",
-            "answer": "年轻人经常快速探索新的社交、购物和娱乐应用程序。年长的用户可能更喜欢较少数量的实用应用程序，并且需要更清晰的说明。"
-          }
+            "answer": "年长者学习新应用可能较慢，因为他们习惯熟悉的生活方式。相比之下，年轻人更愿意接受变化，也会迅速尝试新功能。用户理解应用以后，它们能节省时间并简化任务。"
+          },
+          "comparison": "C1 · 对改变的态度"
         },
         {
           "question": "Why do some people not like using apps?",
-          "answer": "I think they may worry about privacy, complicated menus, advertisements or spending too much time online. Some apps require frequent updates and permissions.",
+          "answer": "Older users may accept technology more slowly because they prefer familiar routines, while young people usually try new apps quickly. Some people also find apps confusing and time-consuming, so using them is simply not their cup of tea.",
+          "materials": [
+            "C1",
+            "M9"
+          ],
           "translation": {
             "question": "为什么有些人不喜欢使用应用程序？",
-            "answer": "他们可能担心隐私、复杂的菜单、广告或花太多时间上网。某些应用程序需要频繁更新和权限。"
-          }
+            "answer": "年长用户接受技术可能较慢，因为他们偏好熟悉的生活方式，而年轻人通常很快尝试新应用。有些人还觉得应用复杂又耗时，因此使用应用确实不是他们喜欢的事情。"
+          },
+          "comparison": "C1 · 对改变的态度"
         },
         {
           "question": "What kinds of apps are most popular among young people in your country?",
-          "answer": "I think social media, short-video, messaging, shopping, music and game apps are very popular. Young people also use study, food-delivery and transport apps.",
+          "answer": "Social media, shopping, payment and transport apps are popular with young people. They simplify daily routines and also help friends stay connected at any time and place.",
+          "materials": [
+            "M2",
+            "M5"
+          ],
           "translation": {
             "question": "哪些类型的应用程序最受贵国年轻人的欢迎？",
-            "answer": "社交媒体、短视频、消息、购物、音乐和游戏应用程序非常受欢迎。年轻人还使用学习、送餐和交通应用程序。"
+            "answer": "社交、购物、支付和交通应用在年轻人中很受欢迎。它们能简化日常流程，也能帮助朋友随时随地保持联系。"
           }
         },
         {
           "question": "Do you think mobile apps have made our lives easier or more complicated?",
-          "answer": "Overall, they have made many tasks easier, such as payment, navigation and booking tickets. However, too many apps, passwords, notifications and privacy settings can create new problems.",
+          "answer": "For young people, apps usually make life easier because they learn new functions quickly. Older people may find many apps complicated at first. Apps save time, but designers should keep them simple and users should avoid excessive use.",
+          "materials": [
+            "C1",
+            "M2",
+            "M7"
+          ],
           "translation": {
             "question": "您认为移动应用程序使我们的生活变得更轻松还是更复杂？",
-            "answer": "总体而言，它们使许多任务变得更加容易，例如支付、导航和订票。然而，太多的应用程序、密码、通知和隐私设置可能会产生新的问题。"
-          }
+            "answer": "对年轻人来说，应用通常让生活更轻松，因为他们很快学会新功能。年长者起初可能觉得很多应用很复杂。应用能够节省时间，但设计应该保持简单，用户也应避免过度使用。"
+          },
+          "comparison": "C1 · 对改变的态度"
         },
         {
           "question": "What should people pay attention to when downloading a new app?",
-          "answer": "I think they should check the developer, reviews, permissions and privacy policy. An app should not request access that is unrelated to its purpose.",
+          "answer": "People should check privacy, permissions, reviews and whether the app meets a real need. This rational check prevents unnecessary downloads and keeps phone use practical.",
+          "materials": [
+            "M7",
+            "M3"
+          ],
           "translation": {
             "question": "人们在下载新应用程序时应该注意什么？",
-            "answer": "他们应该检查开发者、评论、权限和隐私政策。应用程序不应请求与其用途无关的访问权限。"
+            "answer": "人们应该检查隐私、权限、评价，以及应用是否符合真实需求。这种理性检查能防止不必要的下载，并让手机使用保持实用。"
           }
         },
         {
           "question": "Do you think we will use more or fewer apps in the future? Why?",
-          "answer": "I think we will use more digital services but fewer separate apps. One large app may combine payment, travel, shopping, and communication in the future.",
+          "answer": "We may use more digital services, but some functions will join together in fewer apps. Convenience will grow, while people may also try to avoid excessive screen use.",
+          "materials": [
+            "M2",
+            "M7"
+          ],
           "translation": {
             "question": "您认为未来我们会使用更多还是更少的应用程序？为什么？",
-            "answer": "我认为我们会使用更多数字服务，但独立应用可能会变少。未来，一个大型应用也许能把支付、出行、购物和通讯结合起来。"
+            "answer": "我们可能会使用更多数字服务，但一些功能会合并到更少的应用中。便利会增加，同时人们也可能努力避免过度使用屏幕。"
           }
         }
       ]
@@ -6781,50 +7412,80 @@ window.IELTS_DATA = {
       "items": [
         {
           "question": "Why are children attracted to new things (such as electronics)?",
-          "answer": "I think new things provide surprise, bright colours and new ways to play. Children are naturally curious and may also copy friends or online influencers.",
+          "answer": "New electronics offer games, information and convenient functions, so children notice them quickly. However, excessive use can cause distraction. Parents should set moderate limits.",
+          "materials": [
+            "M2",
+            "M7"
+          ],
           "translation": {
             "question": "为什么孩子会对新事物（例如电子产品）感兴趣？",
-            "answer": "新事物带来惊喜、鲜艳的色彩和新的玩法。孩子们天生好奇，也可能模仿朋友或网络影响者。"
+            "answer": "新电子产品提供游戏、信息和便利功能，因此很快吸引孩子注意。不过，过度使用会让人分心，父母应该设置适度限制。"
           }
         },
         {
           "question": "Why do some grown-ups hate to throw out old things (such as clothes)?",
-          "answer": "I think old things may carry memories or still seem useful, so throwing them away feels wasteful. Some adults grew up when products were less available.",
+          "answer": "Older adults may keep old clothes because they carry family traditions and memories. By contrast, young people often accept change faster. For older people, throwing an item away can feel like losing an emotional bond.",
+          "materials": [
+            "C1",
+            "M5",
+            "M8"
+          ],
           "translation": {
             "question": "为什么有些大人不愿意扔掉旧东西（比如衣服）？",
-            "answer": "旧东西可能带有记忆，或者看起来仍然有用，所以扔掉它们感觉很浪费。有些成年人是在产品较少的情况下长大的。"
-          }
+            "answer": "年长者可能会保留旧衣服，因为它们承载着家庭传统和记忆。相比之下，年轻人通常更快接受变化。对年长者来说，扔掉物品可能像失去一段情感联系。"
+          },
+          "comparison": "C1 · 对改变的态度"
         },
         {
           "question": "Is the way people buy things affected? How?",
-          "answer": "Yes, technology, advertising, income and social trends strongly affect shopping. Online stores allow people to compare and buy at any time, while personalised adverts create demand.",
+          "answer": "Yes, technology has changed buying habits. Young people often shop through apps and social media at any time, while older people may prefer face-to-face service in shops. Online shopping is convenient and saves time but can also encourage excessive buying.",
+          "materials": [
+            "C1",
+            "M2",
+            "M7"
+          ],
           "translation": {
             "question": "人们买东西的方式是否受到影响？如何？",
-            "answer": "是的，技术、广告、收入和社会趋势强烈影响购物。网上商店让人们可以随时比较和购买，而个性化广告则创造需求。"
-          }
+            "answer": "是的，技术改变了购买习惯。年轻人经常随时通过应用和社交媒体购物，而年长者可能更喜欢商店里的面对面服务。网购既方便又省时，但也可能鼓励过度消费。"
+          },
+          "comparison": "C1 · 社交互动"
         },
         {
           "question": "What do you think influences people to buy new things?",
-          "answer": "I think need, price, quality and advertising are major influences. Friends, famous people and online reviews can also affect a decision.",
+          "answer": "Young people are often influenced by new trends and social media because they are open to change. Older people may choose familiar, practical products. Everyone should make a rational choice by asking whether an item fits real needs and offers value for money.",
+          "materials": [
+            "C1",
+            "M3",
+            "M7"
+          ],
           "translation": {
             "question": "您认为是什么影响人们购买新东西？",
-            "answer": "需求、价格、质量和广告是主要影响因素。朋友、名人和在线评论也会影响决定。"
-          }
+            "answer": "年轻人愿意接受变化，因此经常受到新潮流和社交媒体影响。年长者可能选择熟悉、实用的商品。每个人都应该理性判断物品是否符合真实需求、是否物有所值。"
+          },
+          "comparison": "C1 · 对改变的态度"
         },
         {
           "question": "Why do all children like toys?",
-          "answer": "I think most children like toys because they provide fun, imagination and a way to practise real-life roles. Toys can also help them play with others and develop physical skills.",
+          "answer": "Toys bring fun and lift children's mood. Through play, children also explore new ideas, learn useful skills and develop their imagination in a natural way.",
+          "materials": [
+            "M1",
+            "M4"
+          ],
           "translation": {
             "question": "为什么所有的孩子都喜欢玩具？",
-            "answer": "大多数孩子喜欢玩具，因为它们提供乐趣、想象力和练习现实生活角色的方式。玩具还可以帮助他们与他人一起玩耍并发展身体技能。"
+            "answer": "玩具能带来乐趣并改善孩子的情绪。通过玩耍，孩子还能探索新想法、学习实用技能，并自然地发展想象力。"
           }
         },
         {
           "question": "Do you think it is good for a child to always take his or her favourite toy with them all the time?",
-          "answer": "I think a familiar toy can make a young child feel safe in a new place. However, always depending on it may create problems at school or during travel.",
+          "answer": "A favourite toy can calm a young child and ease anxiety. However, carrying it everywhere may create dependence. Parents should build a moderate and balanced habit.",
+          "materials": [
+            "M1",
+            "M7"
+          ],
           "translation": {
             "question": "您认为孩子总是带着他或她最喜欢的玩具有好处吗？",
-            "answer": "熟悉的玩具可以让幼儿在新地方感到安全。然而，总是依赖它可能会在学校或旅行期间产生问题。"
+            "answer": "喜欢的玩具能让年幼的孩子平静下来并缓解焦虑。不过，到处携带可能造成依赖，父母应该培养适度、平衡的习惯。"
           }
         }
       ]
@@ -6837,51 +7498,81 @@ window.IELTS_DATA = {
       "items": [
         {
           "question": "What jobs do children want to do when they grow up?",
-          "answer": "I think many children choose familiar or exciting jobs, such as doctors, teachers, athletes, pilots or online creators. Their choices are influenced by family, media and school.",
+          "answer": "Children often want to be doctors, athletes, artists or engineers. These jobs look exciting and give them chances to explore interests, learn skills and imagine personal growth.",
+          "materials": [
+            "M4"
+          ],
           "translation": {
             "question": "孩子长大后想从事什么工作？",
-            "answer": "许多孩子选择熟悉或令人兴奋的工作，例如医生、教师、运动员、飞行员或在线创作者。他们的选择受到家庭、媒体和学校的影响。"
+            "answer": "孩子经常想成为医生、运动员、艺术家或工程师。这些工作看起来很有趣，也给他们探索兴趣、学习技能和想象个人成长的机会。"
           }
         },
         {
           "question": "What should people consider when choosing jobs?",
-          "answer": "I think they should consider their interests, skills, salary, working hours, location and opportunities to grow. Job security and team culture also matter.",
+          "answer": "Priorities often change with age. Young people may be open to new ideas and value training and growth, while older workers use life experience and may want stability. A suitable job should meet practical needs and offer useful development.",
+          "materials": [
+            "C1",
+            "M3",
+            "M4"
+          ],
           "translation": {
             "question": "人们在选择工作时应该考虑什么？",
-            "answer": "他们应该考虑自己的兴趣、技能、薪水、工作时间、地点和成长机会。工作保障和团队文化也很重要。"
-          }
+            "answer": "职业重点通常会随年龄变化。年轻人可能愿意接受新想法，并重视培训和成长；年长员工会运用人生经验，也可能更想要稳定。合适的工作应该满足实际需求并提供有用的发展。"
+          },
+          "comparison": "C1 · 生活经验与改变"
         },
         {
           "question": "Is salary the main reason people choose a certain job?",
-          "answer": "I think salary is important because people need to support themselves and their families. However, working hours, personal interest, and job stability also affect their choice.",
+          "answer": "Salary matters, but age can change its importance. Younger workers may focus on income and career growth, while older workers may care more about stable routines and close workplace relationships. So salary is only one practical factor.",
+          "materials": [
+            "C1",
+            "M3",
+            "M5"
+          ],
           "translation": {
             "question": "薪水是人们选择某种工作的主要原因吗？",
-            "answer": "薪水很重要，因为人们需要养活自己和家人。不过，工作时间、个人兴趣和工作稳定性也会影响他们的选择。"
-          }
+            "answer": "工资很重要，但年龄会改变它的重要程度。年轻员工可能更关注收入和职业成长，而年长员工可能更在意稳定的工作方式和亲近的职场关系。因此，工资只是一个实际因素。"
+          },
+          "comparison": "C1 · 生活阶段"
         },
         {
           "question": "How have people’s opinions about the “perfect job” changed compared to the past?",
-          "answer": "I think in the past, many people valued stability and staying with one company. Today, younger workers may care more about flexibility, personal growth and work-life balance.",
+          "answer": "Older people often value stable work and salary because these fit familiar routines. By contrast, young people are more open to change and may choose jobs that offer new skills, knowledge and personal growth.",
+          "materials": [
+            "C1",
+            "M4"
+          ],
           "translation": {
             "question": "与过去相比，人们对“完美工作”的看法有何变化？",
-            "answer": "过去，很多人看重稳定性，看重留在一家公司。如今，年轻员工可能更关心灵活性、个人成长和工作与生活的平衡。"
-          }
+            "answer": "年长者通常重视稳定的工作和工资，因为这些符合熟悉的生活方式。相比之下，年轻人更愿意接受变化，可能选择能够提供新技能、知识和个人成长的工作。"
+          },
+          "comparison": "C1 · 对改变的态度"
         },
         {
           "question": "Do you think it’s easy for people to find their ideal job? Why or why not?",
-          "answer": "No, because competition, location and economic conditions limit choices. People may also have unrealistic expectations before gaining work experience.",
+          "answer": "No, people must match their interests, skills and financial needs with available jobs. Finding this balance takes experience, continued learning and several practical choices.",
+          "materials": [
+            "M4",
+            "M3"
+          ],
           "translation": {
             "question": "您认为人们很容易找到自己理想的工作吗？为什么或为什么不呢？",
-            "answer": "不，因为竞争、地点和经济条件限制了选择。人们在获得工作经验之前也可能有不切实际的期望。"
+            "answer": "不容易，人们必须让兴趣、技能和经济需求与现有工作匹配。找到这种平衡需要经验、持续学习和多次实际选择。"
           }
         },
         {
           "question": "What is more important for job satisfaction: a high salary or good relationships with colleagues?",
-          "answer": "Both matter, but good relationships may be more important after basic financial needs are met. People spend many hours with colleagues, so conflict creates daily stress.",
+          "answer": "Younger workers may value a high salary because they are building their careers, while older workers may care more about supportive colleagues and stable relationships. Once basic practical and financial needs are met, good communication usually brings longer job satisfaction.",
+          "materials": [
+            "C1",
+            "M3",
+            "M5"
+          ],
           "translation": {
             "question": "对于工作满意度来说，哪个更重要：高薪还是良好的同事关系？",
-            "answer": "两者都很重要，但在满足基本的财务需求后，良好的关系可能更重要。人们花很多时间与同事相处，因此冲突会造成日常压力。"
-          }
+            "answer": "年轻员工可能更看重高工资，因为他们正在建立事业；年长员工可能更重视支持性的同事和稳定关系。当基本实际和经济需求得到满足后，良好交流通常能带来更长久的工作满意度。"
+          },
+          "comparison": "C1 · 生活阶段"
         }
       ]
     },
@@ -6893,50 +7584,79 @@ window.IELTS_DATA = {
       "items": [
         {
           "question": "Do you believe movie reviews?",
-          "answer": "I use reviews as a reference but do not believe every opinion. Professional critics may notice technical quality, while ordinary viewers may focus on entertainment.",
+          "answer": "Young people often read online reviews and social-media comments, while older people may trust friends or traditional media more. I compare several sources and make a rational choice because one review can be subjective.",
+          "materials": [
+            "C1",
+            "M7"
+          ],
           "translation": {
             "question": "你相信影评吗？",
-            "answer": "我使用评论作为参考，但并不相信每一个意见。专业评论家可能会注意到技术质量，而普通观众可能会关注娱乐性。"
-          }
+            "answer": "年轻人经常阅读网络影评和社交媒体评论，而年长者可能更相信朋友或传统媒体。我会比较多个来源并理性选择，因为一篇影评可能很主观。"
+          },
+          "comparison": "C1 · 社交互动"
         },
         {
           "question": "What are the different types of films in your country?",
-          "answer": "I think there are comedies, action films, historical dramas, romance, animation, science fiction and documentaries. Domestic films increasingly cover both large national stories and ordinary family life.",
+          "answer": "There are comedies, action films, cartoons and historical films. Young people may prefer active action or animated films, while older viewers may enjoy calmer historical stories. These choices provide either relaxation or stronger cultural awareness.",
+          "materials": [
+            "C1",
+            "M1",
+            "M8"
+          ],
           "translation": {
             "question": "你们国家有哪些不同类型的电影？",
-            "answer": "有喜剧、动作片、历史剧、爱情片、动画、科幻片和纪录片。国产电影越来越多地涵盖大型国家故事和普通家庭生活。"
-          }
+            "answer": "电影类型包括喜剧、动作片、动画片和历史片。年轻人可能喜欢活跃的动作片或动画片，而年长观众可能喜欢节奏较慢的历史故事。这些选择能带来放松或更强的文化认知。"
+          },
+          "comparison": "C1 · 兴趣爱好"
         },
         {
           "question": "Are historical films popular in your country? Why?",
-          "answer": "Yes, some are popular because Chinese history offers many famous events and characters. These films can be educational and visually impressive.",
+          "answer": "Yes, especially among older viewers, who may value traditions and stories connected with the past. Young people often prefer more active modern films, but a good historical film can still give them knowledge and broaden their cultural awareness.",
+          "materials": [
+            "C1",
+            "M4",
+            "M8"
+          ],
           "translation": {
             "question": "历史电影在你们国家受欢迎吗？为什么？",
-            "answer": "是的，有些很受欢迎，因为中国历史上有许多著名的事件和人物。这些电影具有教育意义且视觉效果令人印象深刻。"
-          }
+            "answer": "是的，尤其是在年长观众中，他们可能重视传统和与过去有关的故事。年轻人往往喜欢更活跃的现代电影，但优秀的历史片仍能给他们知识并拓宽文化认知。"
+          },
+          "comparison": "C1 · 兴趣爱好"
         },
         {
           "question": "Do you think films with famous actors or actresses are more likely to become successful films?",
-          "answer": "I think they are more likely to receive attention and strong promotion, but success is not certain. Famous actors cannot repair a confusing story.",
+          "answer": "Famous actors can attract viewers, but they do not guarantee success. Excessive focus on fame distracts from the story. Good skills, teamwork and fresh ideas matter more.",
+          "materials": [
+            "M7",
+            "M4"
+          ],
           "translation": {
             "question": "您认为由著名演员或女演员主演的电影更有可能成为成功的电影吗？",
-            "answer": "他们更有可能受到关注和强力晋升，但并不能保证成功。著名演员无法修复一个令人困惑的故事。"
+            "answer": "知名演员能吸引观众，但不能保证成功。过度关注名气会让人忽视故事，好的技能、团队合作和新鲜想法更加重要。"
           }
         },
         {
           "question": "Why are Japanese animated films so popular?",
-          "answer": "I think many have detailed artwork, emotional stories and themes that both children and adults can understand. They cover more than simple comedy and often create memorable characters.",
+          "answer": "Japanese animation has a clear visual culture, imaginative stories and themes for different ages. It lets international viewers explore new ideas, gain knowledge and broaden their horizons.",
+          "materials": [
+            "M8",
+            "M4"
+          ],
           "translation": {
             "question": "为什么日本动画电影如此受欢迎？",
-            "answer": "许多作品都有详细的艺术作品、情感故事和主题，儿童和成人都能理解。它们涵盖的不仅仅是简单的喜剧，而且经常创造令人难忘的角色。"
+            "answer": "日本动画拥有鲜明的视觉文化、富有想象力的故事和适合不同年龄的主题。它让国际观众探索新想法、获得知识并开阔眼界。"
           }
         },
         {
           "question": "Should the director pay a lot of money to famous actors?",
-          "answer": "I think it may be worthwhile if the actor fits the role and helps attract enough viewers. However, spending too much on one star can reduce money for writing, visual effects and other actors.",
+          "answer": "Only if the actor fits the role and offers value for money. Paying an excessive amount for fame is not cost-effective and may waste money needed for the story.",
+          "materials": [
+            "M3",
+            "M7"
+          ],
           "translation": {
             "question": "导演应该给著名演员花很多钱吗？",
-            "answer": "如果演员适合这个角色并有助于吸引足够多的观众，这可能是值得的。然而，在一位明星身上花太多钱会减少编剧、视觉效果和其他演员的费用。"
+            "answer": "只有当演员适合角色并且物有所值时才应该支付高片酬。单纯为名气支付过多费用没有性价比，也可能浪费原本用于故事的资金。"
           }
         }
       ]

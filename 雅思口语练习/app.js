@@ -13,6 +13,26 @@ const state = {
 const main = document.querySelector("main");
 const navButtons = [...document.querySelectorAll("[data-page]")];
 const toast = document.querySelector("#toast");
+const PART3_COMPARISON_PHRASES = [
+  "By contrast",
+  "while",
+  "whereas",
+  "Older people",
+  "older people",
+  "Older adults",
+  "older adults",
+  "Young people",
+  "young people",
+  "Introverts",
+  "introverts",
+  "Extroverts",
+  "extroverts",
+  "In rural areas",
+  "Rural areas",
+  "rural areas",
+  "Cities",
+  "cities",
+];
 
 function escapeHtml(value = "") {
   return String(value)
@@ -158,13 +178,10 @@ function renderPartTwo() {
           <p>${escapeHtml(material.description || material.storyline || "")}</p>
         </header>
         <div class="panel-body">
-          ${material.storyline ? `<div class="note">故事线：${escapeHtml(material.storyline)}</div>` : ""}
+          ${partTwoMasterHtml(material)}
           <div class="section-heading"><h2>选择原题</h2><p>切换题目后，下方答案与扣题重点会同步更新。</p></div>
           <div class="chip-row">${material.topics.map((item) => `<button class="chip ${item.id === topic.id ? "active" : ""}" type="button" data-topic-id="${escapeHtml(item.id)}">${escapeHtml(item.code || "")} ${escapeHtml(item.name || item.question)}</button>`).join("")}</div>
           ${partTwoTopicHtml(topic)}
-          ${material.modules ? sourceModulesHtml(material.modules) : ""}
-          ${material.story ? sourceModulesHtml(material.story) : ""}
-          ${material.expressions ? expressionsHtml(material.expressions) : ""}
           ${material.rules?.length ? `<div class="section-heading"><h2>使用提醒</h2></div><ul class="numbered-list">${material.rules.map((rule) => `<li>${escapeHtml(rule)}</li>`).join("")}</ul>` : ""}
         </div>
       </section>
@@ -179,6 +196,22 @@ function renderPartTwo() {
     renderPartTwo();
   }));
   document.querySelector("[data-copy-answer]")?.addEventListener("click", () => copyText(topic.answer.map((line) => line.text).join(" ")));
+}
+
+function partTwoMasterHtml(material) {
+  return `
+    <section aria-labelledby="part-two-master-title">
+      <div class="section-heading">
+        <span class="eyebrow">PART 2 · CORE MATERIAL</span>
+        <h2 id="part-two-master-title">素材母版</h2>
+        <p>先熟悉整组母版，再到下方选择原题并调整扣题重点。</p>
+      </div>
+      ${material.storyline ? `<div class="note">故事线：${escapeHtml(material.storyline)}</div>` : ""}
+      ${material.baseAnswer ? `<article class="card" style="margin-top:14px"><span class="badge warm">完整母版</span><div class="answer">${escapeHtml(material.baseAnswer)}</div></article>` : ""}
+      ${material.modules ? sourceModulesHtml(material.modules) : ""}
+      ${material.story ? sourceModulesHtml(material.story) : ""}
+      ${material.expressions ? expressionsHtml(material.expressions) : ""}
+    </section>`;
 }
 
 function partTwoTopicHtml(topic) {
@@ -209,19 +242,35 @@ function renderPartThree() {
   const selected = groups.find((group) => group.id === state.part3GroupId) || groups[0];
   state.part3GroupId = selected.id;
   const total = groups.reduce((sum, group) => sum + group.items.length, 0);
+  const comparisonTotal = groups.reduce((sum, group) => sum + group.items.filter((item) => item.materials?.some((code) => code.startsWith("C"))).length, 0);
   main.innerHTML = `
-    ${hero("IELTS SPEAKING · PART 3", "观点题库", "按 Part 2 主题关联整理，答案保持简洁、明确，并附中文理解。", total, "观点问题")}
+    ${hero("IELTS SPEAKING · PART 3", "观点题库", `原题库全题重写版 · ${escapeHtml(state.data.version)}。保留 27 个原主题、${total} 道原题；${comparisonTotal} 道自然套用 C 对比框架，全部使用 M 万能素材。`, total, "观点问题")}
     <div class="content-grid">
       <aside class="sidebar" aria-label="观点分类"><span class="sidebar-label">选择主题</span>${groups.map((group) => `<button class="sidebar-button ${group.id === selected.id ? "active" : ""}" type="button" data-part3-id="${escapeHtml(group.id)}"><strong>${escapeHtml(group.title)}</strong><small>${escapeHtml(group.category)} · ${group.items.length} 题</small></button>`).join("")}</aside>
       <section class="panel">
         <header class="panel-header"><span class="eyebrow">${escapeHtml(selected.category)} · 对应 Part 2：${escapeHtml(selected.partTwo)}</span><h2>${escapeHtml(selected.title)}</h2></header>
-        <div class="panel-body card-list">${selected.items.map((item, index) => `<article class="card"><span class="badge warm">${String(index + 1).padStart(2, "0")}</span><p class="question">${escapeHtml(item.question)}</p><div class="answer">${escapeHtml(item.answer)}</div>${item.translation ? `<p class="translation"><strong>${escapeHtml(item.translation.question)}</strong><br>${escapeHtml(item.translation.answer)}</p>` : ""}</article>`).join("")}</div>
+        <div class="panel-body card-list">${selected.items.map((item, index) => `<article class="card">
+          <span class="badge warm">${String(index + 1).padStart(2, "0")}</span>
+          <p class="question">${escapeHtml(item.question)}</p>
+          ${item.translation?.question ? `<p class="translation"><strong>题目：</strong>${escapeHtml(item.translation.question)}</p>` : ""}
+          ${item.materials?.length ? `<div class="chip-row">${item.materials.map((code) => `<span class="chip">${escapeHtml(toolkitMaterialLabel(code))}</span>`).join("")}</div>` : ""}
+          ${item.comparison ? `<p class="note"><strong>高频对比：</strong>${escapeHtml(item.comparison)}</p>` : ""}
+          ${item.answer ? `<div class="answer">${item.comparison ? highlight(item.answer, PART3_COMPARISON_PHRASES) : escapeHtml(item.answer)}</div>${item.translation?.answer ? `<p class="translation"><strong>翻译：</strong>${escapeHtml(item.translation.answer)}</p>` : ""}` : '<div class="note">这道题无法自然套用现有万能素材，答案暂时留空。</div>'}
+        </article>`).join("")}</div>
       </section>
     </div>`;
   document.querySelectorAll("[data-part3-id]").forEach((button) => button.addEventListener("click", () => {
     state.part3GroupId = button.dataset.part3Id;
     renderPartThree();
   }));
+}
+
+function toolkitMaterialLabel(code) {
+  for (const block of state.data.toolkit) {
+    const item = block.items.find((entry) => entry.code === code);
+    if (item) return `${code} · ${item.title}`;
+  }
+  return code;
 }
 
 function renderToolkit() {
