@@ -7499,10 +7499,79 @@ window.IELTS_DATA = {
     });
   });
 
-  const tagRank = { "必练高频": 0, "本周重点": 1 };
+  const gtPriority = {
+    stance: [
+      ["T2-0438", 7],
+      ["T2-0451", 6],
+      ["T2-0575", 6],
+      ["T2-0430", 6],
+      ["T2-0464", 6],
+      ["T2-0784", 6],
+      ["T2-0532", 6],
+      ["T2-0432", 6],
+      ["T2-0439", 5],
+      ["T2-0790", 5],
+      ["T2-0440", 5],
+      ["T2-0780", 4],
+      ["T2-0481", 4],
+      ["T2-0444", 4],
+      ["T2-0431", 4],
+      ["T2-0467", 4],
+      ["T2-0487", 3],
+      ["T2-0505", 3],
+      ["T2-0737", 1],
+      ["T2-0740", 0],
+    ],
+    comparison: [
+      ["T2-1166", 7],
+      ["T2-0598", 6],
+      ["T2-0573", 6],
+      ["T2-0480", 6],
+      ["T2-0511", 6],
+      ["T2-0425", 4],
+      ["T2-0742", 4],
+      ["T2-0617", 4],
+      ["T2-0882", 4],
+      ["T2-0423", 3],
+      ["T2-0555", 1],
+      ["T2-0478", 0],
+    ],
+    "two-question": [
+      ["T2-0540", 6],
+      ["T2-0433", 6],
+      ["T2-0522", 6],
+      ["T2-1148", 5],
+      ["T2-0855", 5],
+      ["T2-0488", 5],
+      ["T2-0758", 4],
+      ["T2-0518", 3],
+      ["T2-0733", 1],
+      ["T2-0513", 1],
+    ],
+  };
+
+  Object.entries(gtPriority).forEach(([type, rankedItems]) => {
+    const metadataByGid = new Map(
+      rankedItems.map(([gid, score], index) => [gid, {
+        gtFitRank: index + 1,
+        gtFitScore: score,
+        gtTier: score >= 6 ? "G类优先" : score >= 4 ? "G类常见" : "拓展补充",
+      }]),
+    );
+    const essays = priorityByType[type];
+    if (metadataByGid.size !== essays.length) {
+      throw new Error("Incomplete General Training ranking for Task 2 type: " + type);
+    }
+    essays.forEach((essay) => {
+      const metadata = metadataByGid.get(essay.sourceGid);
+      if (!metadata) throw new Error("Missing General Training ranking: " + essay.sourceGid);
+      Object.assign(essay, metadata);
+    });
+  });
+
   window.IELTS_DATA.essays.forEach((category) => {
     const priority = priorityByType[category.id] || [];
-    priority.sort((left, right) => (tagRank[left.sourceTag] - tagRank[right.sourceTag]) || (left.sourceNumber - right.sourceNumber));
+    priority.sort((left, right) => left.gtFitRank - right.gtFitRank);
     category.essays = [
       ...priority,
       ...category.essays.filter((essay) => !reusedIds.has(essay.id)),
