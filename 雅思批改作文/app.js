@@ -49,6 +49,20 @@ function highlight(text, phrases = []) {
   return safeText.replace(pattern, "<mark>$1</mark>");
 }
 
+function taskTwoHighlights(essay) {
+  const seen = new Set();
+  return [
+    ...(essay.keyPhrases || []),
+    ...(essay.introPhrases || []),
+    ...(essay.reasonPhrases || []),
+  ].filter((phrase) => {
+    const key = phrase.text.trim().toLowerCase();
+    if (!key || seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
+}
+
 function loadUiState() {
   try {
     const saved = JSON.parse(localStorage.getItem(UI_STORAGE_KEY) || "null");
@@ -471,6 +485,7 @@ function renderTaskTwo() {
   state.essayCategoryId = category.id;
   const essay = category.essays.find((item) => item.id === state.essayId) || category.essays[0];
   state.essayId = essay.id;
+  const focusPhrases = taskTwoHighlights(essay);
   const total = categories.reduce((sum, item) => sum + item.essays.length, 0);
   main.innerHTML = `
     ${hero("IELTS WRITING · TASK 2", "通用框架与预测范文", "先确认题型和立场，再用简洁框架组织两个主体段。", total, "篇参考范文")}
@@ -484,8 +499,8 @@ function renderTaskTwo() {
         <header class="panel-header"><span class="eyebrow">${escapeHtml(category.name)} · 立场：${escapeHtml(essay.position)}</span><h2>${escapeHtml(essay.title)}</h2><p>${escapeHtml(essay.prompt)}</p><div class="chip-row">${essay.materials.map((item) => `<span class="badge">${escapeHtml(item)}</span>`).join("")}</div></header>
         <div class="panel-body">
           <div class="section-heading"><h2>快速框架</h2></div><div class="two-column">${essay.frameworkPoints.map((point) => `<article class="card"><span class="badge gold">${escapeHtml(point.label)}</span><p>${escapeHtml(point.text)}</p></article>`).join("")}</div>
-          <div class="section-heading"><h2>重点短语</h2></div><div class="chip-row">${essay.keyPhrases.map((phrase) => `<span class="chip">${escapeHtml(phrase.text)}｜${escapeHtml(phrase.translation)}</span>`).join("")}</div>
-          <div class="section-heading"><h2>完整范文</h2></div><div class="stack">${essay.paragraphs.map((paragraph) => `<div class="essay-paragraph">${highlight(paragraph, essay.keyPhrases.map((phrase) => phrase.text))}</div>`).join("")}</div>
+          <div class="section-heading"><h2>重点短语与核心句</h2></div><div class="chip-row">${focusPhrases.map((phrase) => `<span class="chip">${escapeHtml(phrase.text)}｜${escapeHtml(phrase.translation)}</span>`).join("")}</div>
+          <div class="section-heading"><h2>完整范文</h2></div><div class="stack">${essay.paragraphs.map((paragraph) => `<div class="essay-paragraph">${highlight(paragraph, focusPhrases.map((phrase) => phrase.text))}</div>`).join("")}</div>
           <div class="action-row" style="margin-top:20px"><button class="button" type="button" data-copy-essay>复制完整范文</button></div>
         </div>
       </article>

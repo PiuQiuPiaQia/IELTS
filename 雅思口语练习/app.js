@@ -2,6 +2,17 @@
 
 const PAGES = new Set(["part1", "part2", "part3", "toolkit"]);
 const UI_STORAGE_KEY = "ielts-speaking-ui-state-v1";
+const PART2_MATERIAL_ORDER = [
+  "people-tips",
+  "place-tips",
+  "alex",
+  "shanghai",
+  "gardening-grandma",
+  "movie-night",
+  "phone-detox",
+  "standalone-topics"
+];
+const PART2_PRIMARY_MATERIALS = new Set(["alex", "shanghai", "gardening-grandma", "movie-night"]);
 
 const state = {
   page: PAGES.has(location.hash.slice(1)) ? location.hash.slice(1) : "part2",
@@ -21,14 +32,49 @@ const navButtons = [...document.querySelectorAll("[data-page]")];
 const toast = document.querySelector("#toast");
 const PART3_COMPARISON_PHRASES = [
   "By contrast",
+  "Compared with",
   "while",
   "whereas",
   "Older people",
   "older people",
   "Older adults",
   "older adults",
+  "Young adults",
+  "young adults",
+  "Younger adults",
+  "younger adults",
+  "Older children",
+  "older children",
+  "Younger children",
+  "younger children",
+  "Young children",
+  "young children",
+  "Older students",
+  "older students",
+  "Younger students",
+  "younger students",
+  "Young viewers",
+  "young viewers",
+  "Older viewers",
+  "older viewers",
+  "Young job seekers",
+  "young job seekers",
+  "Older workers",
+  "older workers",
+  "Young visitors",
+  "young visitors",
+  "Older visitors",
+  "older visitors",
+  "Teenagers",
+  "teenagers",
+  "a child",
+  "an adult",
   "Young people",
   "young people",
+  "Children",
+  "children",
+  "Adults",
+  "adults",
   "Introverts",
   "introverts",
   "Extroverts",
@@ -36,9 +82,32 @@ const PART3_COMPARISON_PHRASES = [
   "In rural areas",
   "Rural areas",
   "rural areas",
+  "Rural children",
+  "rural children",
+  "City children",
+  "city children",
+  "Rural parents",
+  "rural parents",
+  "City parents",
+  "city parents",
+  "Rural residents",
+  "rural residents",
+  "City residents",
+  "city residents",
   "Cities",
   "cities",
 ];
+const PART3_MATERIAL_PHRASES = {
+  M1: ["unwind", "release pressure", "calm the mind", "calm children", "peaceful moment", "feel calm", "help students relax", "help them relax", "helps them relax", "ease anxiety", "eases mild anxiety", "lift their mood", "lifts their mood", "lift people", "lifts the crowd", "lift children", "lifts my mood", "relaxing experience", "relax"],
+  M2: ["time-saving", "save time", "saves time", "efficient", "convenient", "convenience", "simplifies", "simplify", "reduce waiting", "reduces waiting", "less preparation", "no restrictions on time or location"],
+  M3: ["practical", "cost-effective", "affordable", "budget-friendly", "value for money", "fits real needs", "fit their real needs", "fits their real needs", "fits my daily needs", "fits daily needs"],
+  M4: ["broaden their horizons", "broadens their horizons", "broaden the helper", "broaden my horizons", "enrich their life experience", "life experience", "gain new knowledge", "gives them new knowledge", "new knowledge", "learn new skills", "learn new language skills", "learn useful skills", "useful skills", "explore new ideas", "explore different things", "open-minded", "personal growth", "helped me grow", "helps them grow"],
+  M5: ["spend quality time", "quality time", "quality family time", "emotional bond", "face-to-face communication", "face-to-face interaction", "build trust", "builds trust", "closer relationships", "close relationships", "relationship closer", "relationships closer", "feel closer", "stay connected", "shared experience"],
+  M6: ["physical and mental health", "physical health", "mental health", "keeps them active", "keep them active", "healthy lifestyle", "stay energetic", "more energy", "good condition", "active and healthy"],
+  M7: ["moderate and rational way", "moderate", "moderately", "rational way", "rational choice", "rational check", "excessive", "too much", "overuse", "distraction", "addiction", "waste time", "wastes time", "waste of time", "balanced", "avoid using", "avoid buying", "depend on it too much", "only what they need", "unnecessary spending", "unnecessary things", "unnecessary downloads", "false needs"],
+  M8: ["traditions", "local customs", "old customs and culture", "culture alive", "local culture", "another culture", "different culture", "other cultures", "Japanese culture", "cultural", "local life and culture"],
+  M9: ["not really my cup of tea", "time-consuming and boring", "relaxation or pleasure", "distracts me from", "tend to avoid", "difficult to use", "take too much time"],
+};
 
 function escapeHtml(value = "") {
   return String(value)
@@ -62,6 +131,23 @@ function highlight(text, phrases = []) {
   if (!matches.length) return safeText;
   const pattern = new RegExp(`(${matches.map(escapeRegExp).join("|")})`, "gi");
   return safeText.replace(pattern, "<mark>$1</mark>");
+}
+
+function partThreeHighlightPhrases(item) {
+  const phrases = item.comparison ? [...PART3_COMPARISON_PHRASES] : [];
+  for (const code of item.materials || []) phrases.push(...(PART3_MATERIAL_PHRASES[code] || []));
+  return phrases;
+}
+
+function partThreeAnswerHtml(item) {
+  if (item.answerLanguage === "zh") {
+    const keywords = item.keywords?.length ? `<div class="answer-keywords"><span>英文关键词</span>${item.keywords.map((keyword) => `<code>${escapeHtml(keyword)}</code>`).join("")}</div>` : "";
+    return `<div class="answer chinese-only-answer"><strong>中文答案：</strong><p class="plain-chinese-answer">${escapeHtml(item.translation?.answer || "答案整理中")}</p>${keywords}</div>`;
+  }
+  if (item.answer) {
+    return `<div class="answer">${highlight(item.answer, partThreeHighlightPhrases(item))}</div>${item.translation?.answer ? `<p class="translation"><strong>翻译：</strong>${escapeHtml(item.translation.answer)}</p>` : ""}`;
+  }
+  return '<div class="note">这道题的答案暂时留空。</div>';
 }
 
 function loadUiState() {
@@ -119,6 +205,17 @@ function revealActiveTabs() {
         sidebar.scrollTop += activeRect.top - sidebarRect.top - ((sidebar.clientHeight - activeRect.height) / 2);
       }
     });
+  });
+}
+
+function sidebarScrollPositions() {
+  return [...main.querySelectorAll(".sidebar")].map((sidebar) => sidebar.scrollTop);
+}
+
+function restoreSidebarScrollPositions(positions) {
+  main.querySelectorAll(".sidebar").forEach((sidebar, index) => {
+    const scrollTop = positions[index];
+    if (Number.isFinite(scrollTop)) sidebar.scrollTop = scrollTop;
   });
 }
 
@@ -186,12 +283,24 @@ function restoreReadingPosition(fallbackY = 0) {
   }));
 }
 
-function changeView(update) {
-  saveReadingPosition();
-  const fallbackY = window.scrollY;
+function changeTopicTab(update) {
+  clearTimeout(scrollSaveTimer);
+  suspendScrollSave = true;
   update();
   render();
-  restoreReadingPosition(fallbackY);
+  persistUiState();
+  requestAnimationFrame(() => requestAnimationFrame(() => {
+    suspendScrollSave = false;
+  }));
+}
+
+function changeSidebarView(update) {
+  const positions = sidebarScrollPositions();
+  saveReadingPosition();
+  clearTimeout(scrollSaveTimer);
+  update();
+  render({ revealActive: false });
+  restoreSidebarScrollPositions(positions);
 }
 
 function showToast(message) {
@@ -238,28 +347,14 @@ function setPage(page, { saveCurrent = true } = {}) {
   restoreReadingPosition(0);
 }
 
-function hero(kicker, title, description, count, label) {
-  return `
-    <header class="hero">
-      <div>
-        <span class="eyebrow">${escapeHtml(kicker)}</span>
-        <h1>${escapeHtml(title)}</h1>
-        <p>${escapeHtml(description)}</p>
-      </div>
-      <div class="hero-stat"><strong>${escapeHtml(count)}</strong><span>${escapeHtml(label)}</span></div>
-    </header>`;
-}
-
 function renderPartOne() {
   const groups = state.data.part1;
-  const total = groups.reduce((sum, group) => sum + group.items.length, 0);
   const query = state.part1Query.trim().toLowerCase();
   const visibleGroups = groups
     .map((group) => ({ ...group, items: group.items.filter((item) => JSON.stringify(item).toLowerCase().includes(query)) }))
     .filter((group) => group.items.length);
   const visibleTotal = visibleGroups.reduce((sum, group) => sum + group.items.length, 0);
   main.innerHTML = `
-    ${hero("IELTS SPEAKING · PART 1", "已练题目与答案", "按题组整理最终练习版本，支持即时搜索英文问题、答案和中文翻译。", total, "已练答案")}
     <div class="toolbar">
       <label class="search"><span aria-hidden="true">⌕</span><input id="part1-search" type="search" value="${escapeHtml(state.part1Query)}" placeholder="搜索题目、答案或中文…" autocomplete="off"></label>
       <span class="count" id="part1-count">显示 ${visibleTotal} 题</span>
@@ -303,18 +398,21 @@ function materialLabel(material) {
 }
 
 function renderPartTwo() {
-  const materials = state.data.part2;
+  const materialOrder = new Map(PART2_MATERIAL_ORDER.map((id, index) => [id, index]));
+  const materials = [...state.data.part2].sort((a, b) =>
+    (materialOrder.get(a.id) ?? PART2_MATERIAL_ORDER.length) -
+    (materialOrder.get(b.id) ?? PART2_MATERIAL_ORDER.length)
+  );
   let material = materials.find((item) => item.id === state.part2MaterialId) || materials[0];
   state.part2MaterialId = material.id;
-  let topic = material.topics.find((item) => item.id === state.part2TopicId) || material.topics[0];
-  state.part2TopicId = topic.id;
-  const topicCount = materials.reduce((sum, item) => sum + item.topics.length, 0);
+  const isTips = Boolean(material.tips);
+  let topic = isTips ? null : material.topics.find((item) => item.id === state.part2TopicId) || material.topics[0];
+  state.part2TopicId = topic?.id || "";
   main.innerHTML = `
-    ${hero("IELTS SPEAKING · PART 2", "通用素材与原题适配", "先选一组熟悉素材，再查看每道题的扣题重点、答题框架和完整 Band 6 答案。", topicCount, "适配题目")}
     <div class="content-grid">
       <aside class="sidebar" aria-label="通用素材">
         <span class="sidebar-label">选择素材</span>
-        ${materials.map((item) => `<button class="sidebar-button ${item.id === material.id ? "active" : ""}" type="button" data-material-id="${escapeHtml(item.id)}"><strong>${escapeHtml(materialLabel(item))}</strong><small>${item.topics.length} 道适配题</small></button>`).join("")}
+        ${materials.map((item) => `<button class="sidebar-button ${item.id === material.id ? "active" : ""}" type="button" data-material-id="${escapeHtml(item.id)}"><strong>${escapeHtml(materialLabel(item))}</strong><small>${item.tips ? escapeHtml(item.tipLabel || "通用框架") : `${PART2_PRIMARY_MATERIALS.has(item.id) ? "首要素材 · " : ""}${item.topics.length} 道${item.standalone ? "独立题" : "适配题"}`}</small></button>`).join("")}
       </aside>
       <section class="panel">
         <header class="panel-header">
@@ -323,24 +421,83 @@ function renderPartTwo() {
           <p>${escapeHtml(material.description || material.storyline || "")}</p>
         </header>
         <div class="panel-body">
-          ${partTwoMasterHtml(material)}
-          <div class="section-heading"><h2>选择原题</h2><p>切换题目后，下方答案与扣题重点会同步更新。</p></div>
-          <div class="chip-row">${material.topics.map((item) => `<button class="chip ${item.id === topic.id ? "active" : ""}" type="button" data-topic-id="${escapeHtml(item.id)}">${escapeHtml(item.code || "")} ${escapeHtml(item.name || item.question)}</button>`).join("")}</div>
-          ${partTwoTopicHtml(topic)}
-          ${material.rules?.length ? `<div class="section-heading"><h2>使用提醒</h2></div><ul class="numbered-list">${material.rules.map((rule) => `<li>${escapeHtml(rule)}</li>`).join("")}</ul>` : ""}
+          ${material.tips
+            ? partTwoTipsHtml(material.tips, state.data.toolkit?.find((item) => item.type === "materials")?.items || [])
+            : material.standalone
+            ? `<div class="standalone-topic-list">${material.topics.map((item) => `<section class="standalone-topic-block">${partTwoTopicHtml(item, { showFramework: false })}</section>`).join("")}</div>`
+            : `${partTwoMasterHtml(material)}
+              <div class="section-heading"><h2>选择原题</h2><p>切换题目后，下方答案与扣题重点会同步更新。</p></div>
+              <div class="chip-row">${material.topics.map((item) => `<button class="chip ${item.id === topic.id ? "active" : ""}" type="button" data-topic-id="${escapeHtml(item.id)}">${escapeHtml(item.code || "")} ${escapeHtml(item.name || item.question)}</button>`).join("")}</div>
+              ${partTwoTopicHtml(topic)}
+              ${material.rules?.length ? `<div class="section-heading"><h2>使用提醒</h2></div><ul class="numbered-list">${material.rules.map((rule) => `<li>${escapeHtml(rule)}</li>`).join("")}</ul>` : ""}`}
         </div>
       </section>
     </div>`;
   document.querySelectorAll("[data-material-id]").forEach((button) => button.addEventListener("click", () => {
-    changeView(() => {
+    changeSidebarView(() => {
       state.part2MaterialId = button.dataset.materialId;
       state.part2TopicId = "";
     });
   }));
   document.querySelectorAll("[data-topic-id]").forEach((button) => button.addEventListener("click", () => {
-    changeView(() => { state.part2TopicId = button.dataset.topicId; });
+    changeTopicTab(() => { state.part2TopicId = button.dataset.topicId; });
   }));
-  document.querySelector("[data-copy-answer]")?.addEventListener("click", () => copyText(topic.answer.map((line) => line.text).join(" ")));
+  document.querySelectorAll("[data-copy-answer]").forEach((button) => button.addEventListener("click", () => {
+    const answerTopic = material.topics.find((item) => item.id === button.dataset.copyAnswer) || topic;
+    copyText(answerTopic.answer.map((line) => line.text).join(" "));
+  }));
+}
+
+function partTwoTipsHtml(tips, universalMaterials = []) {
+  const section = tips.section;
+  const techniqueHtml = tips.techniques?.length ? `<div class="note">
+    <strong>Part 2 通用技巧</strong><br>
+    ${tips.techniques.map((technique) => `${escapeHtml(technique.title)}：${technique.steps.map(escapeHtml).join(" → ")}`).join("<br>")}
+    ${tips.reasonIdeas?.length ? `<br>地点类套三原因：${tips.reasonIdeas.map(escapeHtml).join(" → ")}` : ""}
+  </div>` : "";
+  const sectionHtml = section?.answerSections?.length ? `
+    <div class="section-heading">
+      <h2>母版</h2>
+    </div>
+    <article class="card simple-master">
+      <p class="translation">${escapeHtml(section.answerTitle || "按固定套路展开")}</p>
+      ${section.answerSections.map((answerSection, index) => {
+        const draftCues = answerSection.draftCues?.length ? answerSection.draftCues : answerSection.keywords || [];
+        return `<section class="simple-master-section">
+          <h3>${String(index + 1).padStart(2, "0")} · ${escapeHtml(answerSection.title)}</h3>
+          ${draftCues.length ? `<p class="simple-master-cues"><strong>草稿：</strong>${draftCues.map(escapeHtml).join(" · ")}</p>` : ""}
+          ${answerSection.lead ? `<p class="simple-master-english">${escapeHtml(answerSection.lead)}</p>` : ""}
+          <p class="simple-master-english">${highlight(answerSection.english, answerSection.keywords)}</p>
+          <p class="translation"><strong>中文：</strong>${escapeHtml(answerSection.translation)}</p>
+        </section>`;
+      }).join("")}
+    </article>` : "";
+  const universalMaterialMap = new Map(universalMaterials.map((item) => [item.code, item]));
+  const materialsHtml = tips.materialUses?.length ? `
+    <div class="section-heading">
+      <h2>最后一问</h2>
+    </div>
+    <article class="card simple-master">
+      <p class="translation">只保留自然适配的素材，每道题选择一组即可。</p>
+      ${tips.materialUses.map((usage) => {
+        const item = universalMaterialMap.get(usage.code);
+        if (!item) return "";
+        return `<section class="simple-master-section">
+          <h3>${escapeHtml(item.code)} · ${escapeHtml(item.title)}</h3>
+          <p class="simple-master-cues"><strong>适用：</strong>${escapeHtml(usage.reason)}</p>
+          <p><strong>${escapeHtml(tips.usageLabel || "怎么套")}：</strong>${escapeHtml(usage.use)}</p>
+          <p class="simple-master-english">${highlight(item.paragraph, item.highlights)}</p>
+          <p class="translation"><strong>中文逻辑：</strong>${escapeHtml(item.chineseIdea)}</p>
+        </section>`;
+      }).join("")}
+    </article>` : "";
+  return `
+    <div class="card-list">
+      ${techniqueHtml}
+      ${sectionHtml}
+      ${materialsHtml}
+      ${tips.reminder ? `<div class="note"><strong>提醒：</strong>${escapeHtml(tips.reminder)}</div>` : ""}
+    </div>`;
 }
 
 function partTwoMasterHtml(material) {
@@ -349,63 +506,74 @@ function partTwoMasterHtml(material) {
       <div class="section-heading">
         <span class="eyebrow">PART 2 · CORE MATERIAL</span>
         <h2 id="part-two-master-title">素材母版</h2>
-        <p>先熟悉整组母版，再到下方选择原题并调整扣题重点。</p>
+        <p>一分钟草稿：每段只写 2 个情节锚点，用来恢复整段内容。</p>
       </div>
       ${material.storyline ? `<div class="note">故事线：${escapeHtml(material.storyline)}</div>` : ""}
-      ${material.baseAnswer ? `<article class="card" style="margin-top:14px"><span class="badge warm">完整母版</span><div class="answer">${escapeHtml(material.baseAnswer)}</div></article>` : ""}
-      ${material.modules ? sourceModulesHtml(material.modules) : ""}
-      ${material.story ? sourceModulesHtml(material.story) : ""}
-      ${material.expressions ? expressionsHtml(material.expressions) : ""}
+      ${partTwoMasterAnswerHtml(material)}
     </section>`;
 }
 
-function partTwoTopicHtml(topic) {
+function partTwoMasterAnswerHtml(material) {
+  const sections = material.baseAnswerSections?.length
+    ? material.baseAnswerSections
+    : material.baseAnswer && material.modules?.length
+      ? material.modules.map((module) => ({
+          title: module.title,
+          english: module.sentence,
+          translation: module.translation || module.detail,
+          keywords: module.keywords
+        }))
+      : [];
+  if (sections.length) {
+    return `<div class="master-section-list">${sections.map((section, index) => `
+      <article class="card">
+        <span class="badge warm">${String(index + 1).padStart(2, "0")} · ${escapeHtml(section.title)}</span>
+        ${section.keywords?.length ? `<div class="draft-cues"><strong>草稿锚点</strong>${section.keywords.map((keyword) => `<span>${escapeHtml(keyword)}</span>`).join("")}</div>` : ""}
+        <div class="answer">${highlight(section.english, section.keywords)}</div>
+        <p class="translation"><strong>中文：</strong>${escapeHtml(section.translation)}</p>
+      </article>`).join("")}</div>`;
+  }
+  return material.baseAnswer ? `<article class="card master-answer-card"><span class="badge warm">完整母版</span><div class="answer">${escapeHtml(material.baseAnswer)}</div></article>` : "";
+}
+
+function partTwoTopicHtml(topic, { showFramework = true } = {}) {
   return `
     <div class="section-heading"><h2>${escapeHtml(topic.name || "参考答案")}</h2><p class="question">${escapeHtml(topic.question)}</p></div>
+    ${topic.cuePoints?.length ? `<ul class="numbered-list">${topic.cuePoints.map((point) => `<li>${escapeHtml(point)}</li>`).join("")}</ul>` : ""}
+    ${topic.draftCues?.length ? `<div class="draft-cues"><strong>一分钟草稿</strong>${topic.draftCues.map((cue) => `<span>${escapeHtml(cue)}</span>`).join("")}</div>` : ""}
     ${topic.fit ? `<span class="badge">${escapeHtml(topic.fit)}</span>` : ""}
     ${(topic.focus || topic.modules || topic.omit) ? `<div class="meta-grid">
       ${topic.focus ? `<div class="meta-box"><span>扣题重点</span><strong>${escapeHtml(topic.focus)}</strong></div>` : ""}
       ${topic.modules ? `<div class="meta-box"><span>模块顺序</span><strong>${escapeHtml(topic.modules)}</strong></div>` : ""}
       ${topic.omit ? `<div class="meta-box"><span>可以省略</span><strong>${escapeHtml(topic.omit)}</strong></div>` : ""}
     </div>` : ""}
-    ${topic.framework?.length ? `<h3>答题框架</h3><ol class="numbered-list">${topic.framework.map((line) => `<li>${escapeHtml(line)}</li>`).join("")}</ol>` : ""}
-    <div class="group-title section-heading"><div><h2>完整参考答案</h2><p>“特殊”句负责贴合当前题目，其余句可重复使用。</p></div><button class="copy-button" type="button" data-copy-answer>复制答案</button></div>
-    <div class="answer-list">${(topic.answer || []).map((line) => `<div class="answer-line"><span class="badge ${line.kind === "特殊" ? "warm" : ""}">${escapeHtml(line.kind)}</span>${escapeHtml(line.text)}</div>`).join("") || '<p class="empty-state">这道题暂时没有完整答案。</p>'}</div>
+    ${showFramework && topic.framework?.length ? `<h3>答题框架</h3><ol class="numbered-list">${topic.framework.map((line) => `<li>${escapeHtml(line)}</li>`).join("")}</ol>` : ""}
+    <div class="group-title section-heading"><div><h2>完整参考答案</h2><p>${escapeHtml(topic.answerNote || "“特殊”句负责贴合当前题目，其余句可重复使用。")}</p></div><button class="copy-button" type="button" data-copy-answer="${escapeHtml(topic.id || "")}">复制答案</button></div>
+    <div class="answer-list">${(topic.answer || []).map((line) => `<div class="answer-line"><span class="badge ${line.kind === "特殊" ? "warm" : ""}">${escapeHtml(line.kind)}</span>${escapeHtml(line.text)}${line.translation ? `<p class="translation"><strong>中文：</strong>${escapeHtml(line.translation)}</p>` : ""}</div>`).join("") || '<p class="empty-state">这道题暂时没有完整答案。</p>'}</div>
     ${topic.keys?.length ? `<h3>关键英文句</h3><div class="key-list">${topic.keys.map((line) => `<code>${escapeHtml(line)}</code>`).join("")}</div>` : ""}`;
-}
-
-function sourceModulesHtml(modules) {
-  return `<div class="section-heading"><h2>素材模块</h2><p>按题目选择相关段落，不需要全部使用。</p></div><div class="card-list">${modules.map((item) => `<article class="card"><span class="badge">${escapeHtml(item.label)}</span><h3>${escapeHtml(item.title)}</h3><p>${escapeHtml(item.detail)}</p><div class="answer">${escapeHtml(item.sentence)}</div></article>`).join("")}</div>`;
-}
-
-function expressionsHtml(items) {
-  return `<div class="section-heading"><h2>可复用表达</h2></div><div class="card-list">${items.map((item) => `<article class="card"><span class="badge">${escapeHtml(item.stage)}</span><p>${escapeHtml(item.use)}</p><div class="answer">${escapeHtml(item.line)}</div></article>`).join("")}</div>`;
 }
 
 function renderPartThree() {
   const groups = state.data.part3;
   const selected = groups.find((group) => group.id === state.part3GroupId) || groups[0];
   state.part3GroupId = selected.id;
-  const total = groups.reduce((sum, group) => sum + group.items.length, 0);
-  const comparisonTotal = groups.reduce((sum, group) => sum + group.items.filter((item) => item.materials?.some((code) => code.startsWith("C"))).length, 0);
   main.innerHTML = `
-    ${hero("IELTS SPEAKING · PART 3", "观点题库", `原题库全题重写版 · ${escapeHtml(state.data.version)}。保留 27 个原主题、${total} 道原题；${comparisonTotal} 道自然套用 C 对比框架，全部使用 M 万能素材。`, total, "观点问题")}
     <div class="content-grid">
-      <aside class="sidebar" aria-label="观点分类"><span class="sidebar-label">选择主题</span>${groups.map((group) => `<button class="sidebar-button ${group.id === selected.id ? "active" : ""}" type="button" data-part3-id="${escapeHtml(group.id)}"><strong>${escapeHtml(group.title)}</strong><small>${escapeHtml(group.category)} · ${group.items.length} 题</small></button>`).join("")}</aside>
+      <aside class="sidebar" aria-label="观点分类"><span class="sidebar-label">选择主题</span>${groups.map((group) => `<button class="sidebar-button ${group.id === selected.id ? "active" : ""}" type="button" data-part3-id="${escapeHtml(group.id)}"><strong>${escapeHtml(group.title)}${group.isNew ? '<span class="new-tag">新题</span>' : ""}</strong><small>${escapeHtml(group.category)} · ${group.items.length} 题</small></button>`).join("")}</aside>
       <section class="panel">
-        <header class="panel-header"><span class="eyebrow">${escapeHtml(selected.category)} · 对应 Part 2：${escapeHtml(selected.partTwo)}</span><h2>${escapeHtml(selected.title)}</h2></header>
+        <header class="panel-header"><span class="eyebrow">${selected.isNew ? "新题 · 中文答案 · " : ""}${escapeHtml(selected.category)} · 对应 Part 2：${escapeHtml(selected.partTwo)}</span><h2>${escapeHtml(selected.title)}</h2></header>
         <div class="panel-body card-list">${selected.items.map((item, index) => `<article class="card">
           <span class="badge warm">${String(index + 1).padStart(2, "0")}</span>
           <p class="question">${escapeHtml(item.question)}</p>
           ${item.translation?.question ? `<p class="translation"><strong>题目：</strong>${escapeHtml(item.translation.question)}</p>` : ""}
-          ${item.materials?.length ? `<div class="chip-row">${item.materials.map((code) => `<span class="chip">${escapeHtml(toolkitMaterialLabel(code))}</span>`).join("")}</div>` : ""}
+          ${item.answerLanguage === "zh" ? (item.structure ? `<div class="chip-row"><span class="chip structure">结构 · ${escapeHtml(item.structure)}</span></div>` : "") : ((item.structure || item.materials?.length) ? `<div class="chip-row">${item.structure ? `<span class="chip structure">结构 · ${escapeHtml(item.structure)}</span>` : ""}${item.materials?.map((code) => `<span class="chip">${escapeHtml(toolkitMaterialLabel(code))}</span>`).join("") || ""}</div>` : "")}
           ${item.comparison ? `<p class="note"><strong>高频对比：</strong>${escapeHtml(item.comparison)}</p>` : ""}
-          ${item.answer ? `<div class="answer">${item.comparison ? highlight(item.answer, PART3_COMPARISON_PHRASES) : escapeHtml(item.answer)}</div>${item.translation?.answer ? `<p class="translation"><strong>翻译：</strong>${escapeHtml(item.translation.answer)}</p>` : ""}` : '<div class="note">这道题无法自然套用现有万能素材，答案暂时留空。</div>'}
+          ${partThreeAnswerHtml(item)}
         </article>`).join("")}</div>
       </section>
     </div>`;
   document.querySelectorAll("[data-part3-id]").forEach((button) => button.addEventListener("click", () => {
-    changeView(() => { state.part3GroupId = button.dataset.part3Id; });
+    changeSidebarView(() => { state.part3GroupId = button.dataset.part3Id; });
   }));
 }
 
@@ -423,7 +591,6 @@ function renderToolkit() {
   const comparisons = comparisonRecord?.items || [];
   const materials = materialRecord?.items || [];
   main.innerHTML = `
-    ${hero("IELTS SPEAKING · TOOLKIT", "万能素材工具箱", "用少量对比维度和完整段落覆盖常见 Part 3 观点题。", comparisons.length + materials.length, "组核心素材")}
     <section class="panel">
       <header class="panel-header"><span class="eyebrow">COMPARISON</span><h2>三类高频对比</h2><p>从生活经验、习惯、成本、效率等维度快速组织答案。</p></header>
       <div class="panel-body stack">${comparisons.map((comparison) => `<section><div class="group-title"><h2>${escapeHtml(comparison.code)} · ${escapeHtml(comparison.title)}</h2></div><div class="comparison-grid">${comparison.dimensions.map((dimension) => `<article class="dimension"><h3>${escapeHtml(dimension.title)}</h3>${dimension.entries.map((entry) => `<strong>${escapeHtml(entry.label)}</strong><blockquote>${escapeHtml(entry.text)}</blockquote>`).join("")}</article>`).join("")}</div></section>`).join("")}</div>
@@ -434,14 +601,14 @@ function renderToolkit() {
     </section>`;
 }
 
-function render() {
+function render({ revealActive = true } = {}) {
   if (!state.data[state.page]) return;
   if (state.page === "part1") renderPartOne();
   if (state.page === "part2") renderPartTwo();
   if (state.page === "part3") renderPartThree();
   if (state.page === "toolkit") renderToolkit();
   markReadingAnchors();
-  revealActiveTabs();
+  if (revealActive) revealActiveTabs();
   persistUiState();
 }
 
