@@ -2861,7 +2861,7 @@ window.IELTS_DATA = {
             "Human activity has seriously damaged many plant and animal species. Some people believe the damage has already gone too far, while others think effective action is still possible. I agree with the second view because many habitats and populations can recover when harmful activity is stopped early enough.",
             "The first view is that some environmental damage cannot be repaired. Once a species becomes extinct, it cannot return, and forests or coral areas may need many years to recover. Climate change also affects very large areas. For example, habitat loss and illegal trade can reduce a small animal population so quickly that later action cannot protect biodiversity or prevent permanent loss. People may therefore think money should be spent on human needs. However, protecting remaining species can still keep ecosystems useful.",
             "The second view is that action can still protect remaining species. Governments can protect habitats, stop hunting and require companies to repair environmental damage. Local people can receive support for farming or tourism that does not destroy wildlife. For example, nature reserves give animals safe areas to feed and reproduce, while stronger laws can stop businesses and hunters from causing further losses. In my view, these measures are worthwhile because every recovered population makes the wider ecosystem more stable and prevents another permanent extinction.",
-            "In conclusion, although some losses are permanent and full recovery may be impossible, I believe effective action is still worthwhile because it can prevent further extinction and restore many damaged ecosystems."
+            "In conclusion, although some losses are permanent and full recovery may be impossible, I believe effective action is still worthwhile because it can prevent further extinction and restore many damaged ecosystems for future generations around the world."
           ],
           "introPhrases": [
             {
@@ -4847,10 +4847,2665 @@ window.IELTS_DATA = {
             "protect whole communities",
             "reliable evidence",
             "promote healthy behaviour",
-            "regularly evaluate policies"
-          ]
-        }
-      ]
-    }
-  ]
+          "regularly evaluate policies"
+        ]
+      }
+    ]
+  }
+]
 };
+
+// 帅付老师写作站 2026-08-26—09-01 期重点题；运行时前置到三类 Task 2 范文列表。
+(() => {
+  const sourcePeriod = "8月26日-9月1日";
+  const prioritySpecs = {
+    "stance": [
+      {
+        "gid": "T2-0439",
+        "number": 1,
+        "tag": "必练高频",
+        "title": "学校应服务社会还是个人",
+        "prompt": "Some people think that the main purpose of schools is to turn children into good citizens and workers, rather than to benefit them as individuals. To what extent do you agree or disagree?",
+        "position": "不同意：学校应兼顾个人发展和社会需要",
+        "materials": [
+          "教育目的和个人发展",
+          "公民意识和社会责任"
+        ],
+        "frameworkLabels": [
+          "第一点原因",
+          "第二点原因"
+        ],
+        "introPhrases": [
+          [
+            "education should support both individuals and society",
+            "教育应同时服务个人和社会"
+          ],
+          [
+            "helping children as individuals",
+            "帮助儿童实现个人发展"
+          ]
+        ],
+        "reasonPhrases": [
+          [
+            "schools should help children develop their own abilities",
+            "学校应帮助儿童发展自身能力"
+          ],
+          [
+            "personal development can also produce responsible citizens",
+            "个人发展也能培养负责任的公民"
+          ]
+        ],
+        "phrases": [
+          [
+            "personal strengths",
+            "个人优势"
+          ],
+          [
+            "fixed social roles",
+            "固定的社会角色"
+          ],
+          [
+            "a sense of responsibility",
+            "责任感"
+          ],
+          [
+            "a school community project",
+            "学校社区项目"
+          ],
+          [
+            "useful workers",
+            "有用的劳动者"
+          ],
+          [
+            "benefit society",
+            "造福社会"
+          ]
+        ],
+        "paragraphs": [
+          "Some people argue that schools should mainly prepare children to become good citizens and useful workers instead of helping children as individuals. I disagree because education should support both individuals and society, and personal growth can later benefit the whole community.",
+          "The first reason is that schools should help children develop their own abilities. Children have different personal strengths, interests and learning needs. If a school only trains them for fixed social roles, some pupils may lose interest and confidence. For example, a child who enjoys art should have a chance to practise creative work, while another child may prefer science or practical skills. Teachers can then give suitable advice and prevent a narrow idea of success from controlling every child's education. Helping children as individuals allows both pupils to become motivated adults and choose work that suits them.",
+          "The second reason is that personal development can also produce responsible citizens. Schools can teach teamwork, respect for rules and a sense of responsibility while still caring about individual goals. For example, a school community project can allow children to solve a local problem together and discover their own strengths. Confident and skilled people are more likely to become useful workers and help their neighbours. Therefore, individual development does not conflict with the needs of society.",
+          "In conclusion, schools should teach children how to contribute to society, but this should not replace their personal development. By supporting individual abilities and social responsibility together, education can benefit society in the long term. This balance is the real purpose of school."
+        ]
+      },
+      {
+        "gid": "T2-0790",
+        "number": 2,
+        "tag": "必练高频",
+        "title": "通过影像还是文字了解历史",
+        "prompt": "It is better to learn the way people lived in the past through films and video records than written documents. To what extent do you agree or disagree?",
+        "position": "不同意：文字资料更可靠，影像适合作为补充",
+        "materials": [
+          "历史教育和文化传承",
+          "媒体和信息可靠性"
+        ],
+        "frameworkLabels": [
+          "第一点原因",
+          "第二点原因"
+        ],
+        "introPhrases": [
+          [
+            "films can make history easier to understand",
+            "影像能让历史更容易理解"
+          ],
+          [
+            "written documents remain more reliable",
+            "文字资料仍然更可靠"
+          ]
+        ],
+        "reasonPhrases": [
+          [
+            "written records provide detailed historical evidence",
+            "文字记录能提供详细的历史证据"
+          ],
+          [
+            "the best method is to use both types of source",
+            "最佳方法是结合两类资料"
+          ]
+        ],
+        "phrases": [
+          [
+            "exact dates and personal accounts",
+            "确切日期和个人记述"
+          ],
+          [
+            "check the original words",
+            "核对原始文字"
+          ],
+          [
+            "visual details",
+            "视觉细节"
+          ],
+          [
+            "simplify a complex event",
+            "简化复杂事件"
+          ],
+          [
+            "compare different sources",
+            "比较不同资料来源"
+          ],
+          [
+            "a fuller picture of the past",
+            "对过去更完整的认识"
+          ]
+        ],
+        "paragraphs": [
+          "Films and video records are popular ways to learn about the past because they are clear and interesting. However, I disagree that they are better than written documents. Films can make history easier to understand, but written documents remain more reliable and detailed.",
+          "The first reason is that written records provide detailed historical evidence. Letters, diaries, laws and newspaper reports can show exact dates and personal accounts from a particular period. Students can check the original words and compare what different people said. Written sources also allow learners to return to a passage and study its exact language slowly. A film often selects only a few events because it has limited time. It may also add imagined conversations to make the story more exciting. As a result, viewers may not know which parts are facts and which parts were created by the director.",
+          "The second reason is that the best method is to use both types of source. Films can show clothes, buildings and other visual details, so they are useful for introducing a topic. However, they may simplify a complex event or present only one opinion. After watching a short film, students should read documents and compare different sources. For example, a video about factory life can be checked against workers' letters and government reports. This gives learners a fuller picture of the past.",
+          "In conclusion, although films can make history lively and memorable, they should not replace written evidence. Using films together with reliable documents is a more accurate and effective way to understand how people lived in the past."
+        ]
+      },
+      {
+        "gid": "T2-0451",
+        "number": 4,
+        "tag": "必练高频",
+        "title": "是否应鼓励儿童看电视学习",
+        "prompt": "Some children can learn effectively by watching television. Therefore, they should be encouraged to watch television both at home and at school. To what extent do you agree or disagree?",
+        "position": "不同意普遍鼓励：教育节目可辅助，但必须限时并配合主动学习",
+        "materials": [
+          "教育技术和在线学习",
+          "儿童发展和健康"
+        ],
+        "frameworkLabels": [
+          "第一点原因",
+          "第二点原因"
+        ],
+        "introPhrases": [
+          [
+            "educational television can support learning",
+            "教育电视节目可以辅助学习"
+          ],
+          [
+            "children should not be encouraged to watch it freely",
+            "不应鼓励儿童不受限制地观看电视"
+          ]
+        ],
+        "reasonPhrases": [
+          [
+            "educational programmes can support some lessons",
+            "教育节目可以辅助部分课程"
+          ],
+          [
+            "children need limits and active learning",
+            "儿童需要观看限制和主动学习"
+          ]
+        ],
+        "phrases": [
+          [
+            "clear pictures and simple examples",
+            "清晰的画面和简单的例子"
+          ],
+          [
+            "a difficult scientific process",
+            "复杂的科学过程"
+          ],
+          [
+            "too much screen time",
+            "过多的屏幕时间"
+          ],
+          [
+            "read, write and discuss ideas",
+            "阅读、书写并讨论观点"
+          ],
+          [
+            "carefully selected programmes",
+            "经过认真挑选的节目"
+          ],
+          [
+            "a limited teaching tool",
+            "有限使用的教学工具"
+          ]
+        ],
+        "paragraphs": [
+          "Some television programmes can teach children useful knowledge in an enjoyable way. Even so, I disagree that children should be encouraged to watch television freely at home and at school. Educational television can support learning, but children should not be encouraged to watch it freely because they also need active study and healthy limits.",
+          "The first reason is that educational programmes can support some lessons. Clear pictures and simple examples may explain a difficult scientific process or show life in another country. This can help children remember information, especially when a teacher pauses the programme and asks questions. For example, a short nature video can show how an animal lives more clearly than a single textbook picture. However, the programme is useful because an adult connects it to a lesson, not simply because the child is watching a screen.",
+          "The second reason is that children need limits and active learning. Too much screen time can reduce physical activity, sleep and face-to-face communication. Children also need to read, write and discuss ideas instead of receiving information without responding. At home, parents may not always know whether a programme is accurate or suitable. At school, long videos can take time away from experiments and group work. Therefore, carefully selected programmes should be used for a clear purpose and for a short period.",
+          "In conclusion, television can be a limited teaching tool, but general encouragement to watch more television is unwise. Parents and teachers should choose suitable content, control viewing time and combine it with reading, discussion and practical activities."
+        ]
+      },
+      {
+        "gid": "T2-0430",
+        "number": 37,
+        "tag": "必练高频",
+        "title": "科技是否带来更多闲暇时间",
+        "prompt": "It was predicted that with the development of technology, people in the 21st century would have much more free time than in the past. To what extent has this prediction come true?",
+        "position": "只部分实现：科技节省时间，也制造了新的工作和联系压力",
+        "materials": [
+          "技术创新和应用",
+          "就业和工作生活平衡"
+        ],
+        "frameworkLabels": [
+          "已经实现的一面",
+          "没有完全实现的一面"
+        ],
+        "introPhrases": [
+          [
+            "technology has saved time in many daily tasks",
+            "科技在许多日常任务中节省了时间"
+          ],
+          [
+            "the prediction has only partly come true",
+            "这一预测只得到部分实现"
+          ]
+        ],
+        "reasonPhrases": [
+          [
+            "machines and digital services reduce routine work",
+            "机器和数字服务减少了日常事务"
+          ],
+          [
+            "modern technology also creates new demands",
+            "现代科技也带来了新的要求"
+          ]
+        ],
+        "phrases": [
+          [
+            "household machines",
+            "家用机器"
+          ],
+          [
+            "online banking and shopping",
+            "网上银行和购物"
+          ],
+          [
+            "finish routine jobs faster",
+            "更快完成日常工作"
+          ],
+          [
+            "expected to reply quickly",
+            "被期待迅速回复"
+          ],
+          [
+            "outside normal working hours",
+            "正常工作时间之外"
+          ],
+          [
+            "protect their free time",
+            "保护自己的闲暇时间"
+          ]
+        ],
+        "paragraphs": [
+          "People once expected new technology to give everyone much more leisure time. In my view, the prediction has only partly come true. Technology has saved time in many daily tasks, but many people now use the saved time for additional work and constant online communication.",
+          "On the one hand, machines and digital services reduce routine work. Household machines can wash clothes and dishes, while online banking and shopping remove the need to travel to several places. At work, computers can calculate figures, store information and send documents within seconds. These tools allow people to finish routine jobs faster than previous generations. Some workers can also work from home and avoid a long journey to the office, leaving more time for family activities or rest.",
+          "On the other hand, modern technology also creates new demands. Employees can receive messages anywhere and may be expected to reply quickly outside normal working hours. Companies often use faster technology to increase the amount of work rather than shorten the working day. People may be busy for longer even though each task takes less time. Social media and entertainment also use many hours that do not always feel restful. For example, a person may save an hour by working online but then spend that hour answering extra emails. Therefore, time-saving tools do not automatically create real leisure.",
+          "In conclusion, technology has made many tasks quicker, so part of the prediction was correct. However, people only gain more leisure when employers set reasonable expectations and individuals protect their free time from unnecessary work and screen use."
+        ]
+      },
+      {
+        "gid": "T2-0780",
+        "number": 54,
+        "tag": "必练高频",
+        "title": "个人能否改善环境",
+        "prompt": "Individuals can do nothing to improve the environment; only governments and large companies can make a difference. To what extent do you agree or disagree?",
+        "position": "不同意：政府和企业作用更大，但个人集体行动同样重要",
+        "materials": [
+          "个人环保行为",
+          "环境政策和企业责任"
+        ],
+        "frameworkLabels": [
+          "第一点原因",
+          "第二点原因"
+        ],
+        "introPhrases": [
+          [
+            "governments and companies have greater power",
+            "政府和企业拥有更大的力量"
+          ],
+          [
+            "individual action still matters",
+            "个人行动仍然重要"
+          ]
+        ],
+        "reasonPhrases": [
+          [
+            "daily choices can reduce environmental pressure",
+            "日常选择能够减轻环境压力"
+          ],
+          [
+            "public behaviour can influence policy and business",
+            "公众行为能够影响政策和企业"
+          ]
+        ],
+        "phrases": [
+          [
+            "reduce household waste",
+            "减少家庭垃圾"
+          ],
+          [
+            "use public transport",
+            "乘坐公共交通"
+          ],
+          [
+            "demand for harmful products",
+            "对有害产品的需求"
+          ],
+          [
+            "support environmental rules",
+            "支持环保法规"
+          ],
+          [
+            "change company behaviour",
+            "改变企业行为"
+          ],
+          [
+            "collective individual action",
+            "个人的集体行动"
+          ]
+        ],
+        "paragraphs": [
+          "Governments and large companies clearly have the money and authority to make major environmental changes. However, I disagree that ordinary people can do nothing. Governments and companies have greater power, but individual action still matters because millions of small choices affect markets and public policy.",
+          "The first reason is that daily choices can reduce environmental pressure. People can reduce household waste, save electricity, use public transport and avoid products with unnecessary packaging. One person's action is small, but the total effect can be large when many households act in the same way. For example, if more commuters take buses, a city may have lower fuel use and cleaner air. Saving water and buying fewer disposable items can have the same kind of combined effect. Consumers can also reduce demand for harmful products and support businesses that use less plastic or energy.",
+          "The second reason is that public behaviour can influence policy and business. Citizens vote, join local projects and support environmental rules. When many customers ask for cleaner products, companies have a financial reason to change company behaviour. Governments are also more willing to improve recycling or public transport when voters clearly support these services. Of course, national laws and industrial investment remain necessary, but they work better when the public follows them. Therefore, collective individual action is an important part of wider change.",
+          "In conclusion, governments and major businesses must lead large environmental programmes, but individuals are not powerless. Their daily choices and public support can reduce pollution directly and encourage stronger action from more powerful organisations."
+        ]
+      },
+      {
+        "gid": "T2-0481",
+        "number": 55,
+        "tag": "必练高频",
+        "title": "提高燃油价格能否解决环境问题",
+        "prompt": "Some people think that one of the best ways to solve environmental problems is to increase the cost of fuels for cars and other vehicles. To what extent do you agree or disagree?",
+        "position": "部分不同意：涨价可辅助减排，但公共交通和法规更有效公平",
+        "materials": [
+          "交通和城市规划",
+          "环境政策和税收"
+        ],
+        "frameworkLabels": [
+          "局限",
+          "更有效的办法"
+        ],
+        "introPhrases": [
+          [
+            "higher fuel prices may reduce some driving",
+            "更高的燃油价格可能减少部分驾车行为"
+          ],
+          [
+            "it is not the best solution",
+            "这并不是最佳解决办法"
+          ]
+        ],
+        "reasonPhrases": [
+          [
+            "a fuel price rise can be unfair and limited",
+            "提高燃油价格可能不公平且作用有限"
+          ],
+          [
+            "better transport and clear rules offer stronger results",
+            "更好的交通和明确法规能带来更强效果"
+          ]
+        ],
+        "phrases": [
+          [
+            "low-income drivers",
+            "低收入驾驶者"
+          ],
+          [
+            "no practical alternative",
+            "没有可行的替代选择"
+          ],
+          [
+            "reliable public transport",
+            "可靠的公共交通"
+          ],
+          [
+            "safe cycling routes",
+            "安全的自行车道"
+          ],
+          [
+            "vehicle emission standards",
+            "车辆排放标准"
+          ],
+          [
+            "reduce transport pollution",
+            "减少交通污染"
+          ]
+        ],
+        "paragraphs": [
+          "Some people believe that expensive fuel will encourage people to drive less and therefore protect the environment. I accept that higher fuel prices may reduce some driving, but it is not the best solution. It can be unfair, and transport investment and environmental rules can achieve more.",
+          "The first problem is that a fuel price rise can be unfair and limited. Low-income drivers spend a larger part of their earnings on travel, while wealthy people may continue driving as before. People in rural areas may have no practical alternative because buses are rare and workplaces are far away. Higher prices also affect the cost of food and other goods transported by road. Therefore, the policy may create financial pressure without greatly reducing traffic in places where people still need their cars.",
+          "A stronger approach is that better transport and clear rules offer stronger results. Governments should provide reliable public transport, safe cycling routes and convenient connections between homes and workplaces. They can also introduce vehicle emission standards and support cleaner cars. For example, a frequent and affordable bus service gives commuters a real reason to leave their cars at home. Fuel taxes may help pay for these improvements, but they should be only one part of a wider plan to reduce transport pollution.",
+          "In conclusion, increasing fuel prices can discourage unnecessary journeys, but it is not one of the best solutions by itself. Affordable alternatives and firm pollution standards are more practical, effective and fair for the public in both cities and rural areas."
+        ]
+      },
+      {
+        "gid": "T2-0464",
+        "number": 75,
+        "tag": "必练高频",
+        "title": "儿童应尽早独立做决定",
+        "prompt": "It is important to give children the chance to act independently and make their own decisions from early age. To what extent do you agree or disagree with this idea?",
+        "position": "同意，但独立程度应符合年龄并有成人指导",
+        "materials": [
+          "儿童发展和家庭教育",
+          "教育机会和个人能力"
+        ],
+        "frameworkLabels": [
+          "第一点原因",
+          "第二点原因"
+        ],
+        "introPhrases": [
+          [
+            "age-appropriate independence",
+            "符合年龄的独立性"
+          ],
+          [
+            "guidance from adults",
+            "成年人的指导"
+          ]
+        ],
+        "reasonPhrases": [
+          [
+            "small decisions build confidence and judgement",
+            "小决定能够培养自信和判断力"
+          ],
+          [
+            "safe mistakes teach children responsibility",
+            "安全范围内的错误能教会儿童责任"
+          ]
+        ],
+        "phrases": [
+          [
+            "choose a book or activity",
+            "选择一本书或一项活动"
+          ],
+          [
+            "consider different options",
+            "考虑不同选择"
+          ],
+          [
+            "solve simple problems",
+            "解决简单问题"
+          ],
+          [
+            "experience the result",
+            "体验结果"
+          ],
+          [
+            "reasonable boundaries",
+            "合理界限"
+          ],
+          [
+            "become independent gradually",
+            "逐步变得独立"
+          ]
+        ],
+        "paragraphs": [
+          "Children need protection, but they also need chances to think and act for themselves. I agree that age-appropriate independence should begin early, provided that children receive guidance from adults and are not asked to make decisions involving serious danger.",
+          "The first reason is that small decisions build confidence and judgement. A young child can choose a book or activity, while an older child can plan homework or manage a small amount of money. These choices teach children to consider different options instead of waiting for an adult to decide everything. For example, when a pupil chooses the order of several school tasks, the pupil learns to use time and solve simple problems. Regular practice can make later decisions about study, work and relationships less frightening.",
+          "The second reason is that safe mistakes teach children responsibility. If children make a poor but harmless choice, they can experience the result and learn how to improve it. A child who spends all of a weekly allowance on one day will understand why planning is useful. Parents and teachers should explain the lesson rather than immediately remove every difficulty. This process is safer than giving complete freedom suddenly when they become teenagers. However, adults must set reasonable boundaries for health, safety and behaviour. In this way, children can become independent gradually without facing risks they cannot understand.",
+          "In conclusion, children should have increasing freedom to make suitable decisions from an early age. With clear limits and supportive adults, this experience develops confidence, practical judgement and personal responsibility."
+        ]
+      },
+      {
+        "gid": "T2-0784",
+        "number": 77,
+        "tag": "必练高频",
+        "title": "国际旅行更加容易且便宜",
+        "prompt": "It has become easier and more affordable for people to travel to other countries. Do you think it is a positive or negative development?",
+        "position": "总体积极：促进理解并支持当地经济，负面影响可以管理",
+        "materials": [
+          "旅游业和地方经济",
+          "文化交流和环境保护"
+        ],
+        "frameworkLabels": [
+          "第一点好处",
+          "第二点好处"
+        ],
+        "introPhrases": [
+          [
+            "international travel is more widely available",
+            "国际旅行更加普及"
+          ],
+          [
+            "a mainly positive development",
+            "总体积极的发展"
+          ]
+        ],
+        "reasonPhrases": [
+          [
+            "travel can improve cultural understanding",
+            "旅行能够增进文化理解"
+          ],
+          [
+            "tourism can support local economies",
+            "旅游业能够支持当地经济"
+          ]
+        ],
+        "phrases": [
+          [
+            "experience another culture directly",
+            "直接体验另一种文化"
+          ],
+          [
+            "reduce simple stereotypes",
+            "减少简单的刻板印象"
+          ],
+          [
+            "local hotels and restaurants",
+            "当地酒店和餐馆"
+          ],
+          [
+            "create jobs",
+            "创造就业"
+          ],
+          [
+            "overcrowding and pollution",
+            "过度拥挤和污染"
+          ],
+          [
+            "responsible tourism",
+            "负责任的旅游"
+          ]
+        ],
+        "paragraphs": [
+          "Cheaper flights and simpler travel arrangements mean that international travel is more widely available than before. I consider this a mainly positive development because it can improve cultural understanding and support jobs, although popular destinations need to control environmental and social pressure.",
+          "The first benefit is that travel can improve cultural understanding. Visitors can experience another culture directly, hear a different language and learn how local people live. This is often more memorable than reading a short description online. For example, a student who stays with a host family may understand local food, customs and daily routines. Direct contact can reduce simple stereotypes and make people more comfortable with those from other countries. Travel can also encourage people to learn languages and become more independent.",
+          "The second benefit is that tourism can support local economies. Visitors spend money in local hotels and restaurants, use transport and buy products from small businesses. This can create jobs in places with few other industries. Tourism income can also support museums, public spaces and the protection of historic sites. There are real problems, including overcrowding and pollution, especially when travel grows too quickly. However, governments can limit visitor numbers in fragile areas, improve waste systems and charge environmental fees. Travellers can also choose local services and follow rules, making responsible tourism more common.",
+          "In conclusion, easier and cheaper international travel brings important cultural and economic benefits. Its negative effects should be managed carefully, but they do not outweigh the opportunities for learning, employment and international understanding."
+        ]
+      },
+      {
+        "gid": "T2-0740",
+        "number": 79,
+        "tag": "必练高频",
+        "title": "博物馆文物是否应归还原属国",
+        "prompt": "Historical objects in museums all over the world should be returned to their country of origin. To what extent do you agree or disagree?",
+        "position": "部分同意：重要或被不当取得的文物应归还，但不宜一刀切",
+        "materials": [
+          "文化遗产和身份认同",
+          "国际合作和博物馆"
+        ],
+        "frameworkLabels": [
+          "支持归还的理由",
+          "需要保留弹性的理由"
+        ],
+        "introPhrases": [
+          [
+            "important objects should often be returned",
+            "重要文物通常应被归还"
+          ],
+          [
+            "a complete return of every object is unnecessary",
+            "没有必要归还每一件文物"
+          ]
+        ],
+        "reasonPhrases": [
+          [
+            "returning major objects can correct past unfairness",
+            "归还重要文物能够纠正历史不公"
+          ],
+          [
+            "museums also need practical international cooperation",
+            "博物馆也需要务实的国际合作"
+          ]
+        ],
+        "phrases": [
+          [
+            "cultural and religious meaning",
+            "文化和宗教意义"
+          ],
+          [
+            "taken without fair permission",
+            "未经公平许可而取得"
+          ],
+          [
+            "restore national identity",
+            "恢复国家认同"
+          ],
+          [
+            "safe storage and expert care",
+            "安全保存和专业养护"
+          ],
+          [
+            "long-term loans",
+            "长期借展"
+          ],
+          [
+            "shared exhibitions",
+            "联合展览"
+          ]
+        ],
+        "paragraphs": [
+          "Museums in many countries hold historical objects that were made elsewhere. I partly agree that important objects should often be returned, especially when they were taken unfairly. However, a complete return of every object is unnecessary and practical cooperation can sometimes serve the public better.",
+          "The main argument for return is that returning major objects can correct past unfairness. Some items have deep cultural and religious meaning and were taken without fair permission during war or foreign rule. People in the country of origin may rarely have a chance to see an important part of their own history. Returning such an object can restore national identity and allow local schools and researchers to study it. It can also improve trust between the countries involved.",
+          "At the same time, museums also need practical international cooperation. Some objects were bought legally, given as gifts or have been abroad for centuries. A country may not yet have safe storage and expert care for a very fragile item. In these cases, immediate permanent return may not be best. Museums can use long-term loans, shared exhibitions and joint research so that people in several countries can learn from the objects. Decisions should consider ownership, importance, safety and public access rather than follow one rule for every item.",
+          "In conclusion, culturally important or unfairly obtained objects should normally go back to their country of origin. Nevertheless, legal ownership and preservation conditions differ, so careful agreements are better than requiring every museum object to be returned. This approach protects both justice and public learning."
+        ]
+      },
+      {
+        "gid": "T2-0444",
+        "number": 161,
+        "tag": "必练高频",
+        "title": "城市应优先种树还是建住房",
+        "prompt": "Some people think that it is more important to plant trees in open areas of towns and cities than to build more housing. To what extent do you agree or disagree?",
+        "position": "部分不同意：树木重要，但住房紧缺地区应平衡两种需求",
+        "materials": [
+          "城市规划和住房",
+          "绿地和公共健康"
+        ],
+        "frameworkLabels": [
+          "种树的价值",
+          "平衡住房需求"
+        ],
+        "introPhrases": [
+          [
+            "urban trees provide major public benefits",
+            "城市树木带来重要公共利益"
+          ],
+          [
+            "housing needs cannot be ignored",
+            "住房需求不能被忽视"
+          ]
+        ],
+        "reasonPhrases": [
+          [
+            "trees improve health and the urban environment",
+            "树木能够改善健康和城市环境"
+          ],
+          [
+            "cities must also provide enough affordable homes",
+            "城市也必须提供足够的可负担住房"
+          ]
+        ],
+        "phrases": [
+          [
+            "reduce heat and air pollution",
+            "降低高温和空气污染"
+          ],
+          [
+            "safe green space",
+            "安全的绿色空间"
+          ],
+          [
+            "a serious housing shortage",
+            "严重的住房短缺"
+          ],
+          [
+            "rents may rise",
+            "租金可能上涨"
+          ],
+          [
+            "well-planned housing",
+            "规划良好的住房"
+          ],
+          [
+            "include shared green areas",
+            "包含共享绿地"
+          ]
+        ],
+        "paragraphs": [
+          "Open land in cities is limited, so planners must choose between several important uses. I agree that urban trees provide major public benefits, but I do not believe they are always more important than new homes. Housing needs cannot be ignored, and good planning should provide both.",
+          "On the one hand, trees improve health and the urban environment. They can reduce heat and air pollution, provide shade and absorb some rainwater. Parks with trees also give children and older people safe green space for exercise and relaxation. It can also improve mental health and social contact. For example, a line of trees beside a busy road can make nearby streets cooler and more pleasant. These benefits are shared by the whole neighbourhood, so cities should protect existing green areas and plant trees wherever suitable space is available.",
+          "On the other hand, cities must also provide enough affordable homes. When there is a serious housing shortage, rents may rise and families may live in crowded or distant areas. Refusing to use every open site can make this problem worse. However, housing and greenery do not always compete. Well-planned housing can use taller buildings, protect mature trees and include shared green areas, roof gardens or small parks. The correct decision depends on local population, housing supply and environmental conditions.",
+          "In conclusion, planting trees is essential for healthy cities, but it should not automatically take priority over housing. City governments should examine local needs and design neighbourhoods that combine affordable homes with useful green space."
+        ]
+      },
+      {
+        "gid": "T2-0440",
+        "number": 5,
+        "tag": "本周重点",
+        "title": "政府是否也应资助青年休闲活动",
+        "prompt": "Some people feel that there is too much emphasis on getting an education and that the government should spend money on leisure activities for young people too. To what extent do you agree or disagree?",
+        "position": "同意：教育仍重要，但休闲活动同样支持健康和成长",
+        "materials": [
+          "教育投入和公共支出",
+          "青年健康和社区活动"
+        ],
+        "frameworkLabels": [
+          "第一点原因",
+          "第二点原因"
+        ],
+        "introPhrases": [
+          [
+            "education should remain a major priority",
+            "教育应继续作为重要优先事项"
+          ],
+          [
+            "leisure activities also deserve public support",
+            "休闲活动也值得公共支持"
+          ]
+        ],
+        "reasonPhrases": [
+          [
+            "leisure activities protect physical and mental health",
+            "休闲活动能够保护身心健康"
+          ],
+          [
+            "public funding gives more young people equal access",
+            "公共资金让更多年轻人平等参与"
+          ]
+        ],
+        "phrases": [
+          [
+            "pressure from schoolwork and examinations",
+            "课业和考试压力"
+          ],
+          [
+            "regular exercise and creative activities",
+            "规律运动和创意活动"
+          ],
+          [
+            "local sports centres",
+            "当地体育中心"
+          ],
+          [
+            "low-cost music classes",
+            "低价音乐课程"
+          ],
+          [
+            "teamwork and communication",
+            "团队合作和沟通"
+          ],
+          [
+            "a balanced public budget",
+            "平衡的公共预算"
+          ]
+        ],
+        "paragraphs": [
+          "Governments often spend heavily on schools because education affects a country's future. Education should remain a major priority, but I agree that leisure activities also deserve public support. They improve health and give young people experiences that classrooms cannot always provide.",
+          "The first reason is that leisure activities protect physical and mental health. Many young people face pressure from schoolwork and examinations, and they need time to exercise, relax and meet friends. Regular exercise and creative activities can reduce stress and help students return to study with better concentration. For example, a weekly football session or art class gives teenagers a safe way to use their energy and express themselves. This does not weaken education; it can help young people remain healthy enough to learn effectively.",
+          "The second reason is that public funding gives more young people equal access. Private clubs may be too expensive for low-income families, so talented children can miss useful opportunities. Governments can support local sports centres, parks and low-cost music classes. These activities teach teamwork and communication, while supervised programmes may also keep teenagers away from crime or harmful behaviour. Funding should be carefully targeted and should not take essential money from schools. A balanced public budget can support both academic learning and personal development.",
+          "In conclusion, education must continue to receive strong government support, but it should not be the only concern. Affordable leisure programmes can improve health, social skills and equality, so they are a sensible use of some public money in every local community."
+        ]
+      },
+      {
+        "gid": "T2-0487",
+        "number": 6,
+        "tag": "本周重点",
+        "title": "是否应让很高比例的年轻人上大学",
+        "prompt": "It is neither possible nor useful for a country to provide university places for a high proportion of young people. To what extent do you agree or disagree?",
+        "position": "基本同意：大学并非人人所需，应同时发展职业教育",
+        "materials": [
+          "高等教育和公共支出",
+          "职业培训和就业"
+        ],
+        "frameworkLabels": [
+          "第一点原因",
+          "第二点原因"
+        ],
+        "introPhrases": [
+          [
+            "university education should be widely available",
+            "大学教育应被广泛提供"
+          ],
+          [
+            "it is not the best route for everyone",
+            "大学并非每个人的最佳道路"
+          ]
+        ],
+        "reasonPhrases": [
+          [
+            "many careers require practical rather than academic training",
+            "许多职业需要实践培训而非学术教育"
+          ],
+          [
+            "unlimited university expansion can waste resources",
+            "无限扩张大学教育可能浪费资源"
+          ]
+        ],
+        "phrases": [
+          [
+            "vocational colleges and apprenticeships",
+            "职业院校和学徒制"
+          ],
+          [
+            "job-ready skills",
+            "可直接就业的技能"
+          ],
+          [
+            "academic ability or interest",
+            "学术能力或兴趣"
+          ],
+          [
+            "reduce teaching quality",
+            "降低教学质量"
+          ],
+          [
+            "graduate job market",
+            "毕业生就业市场"
+          ],
+          [
+            "several respected pathways",
+            "多条受尊重的发展道路"
+          ]
+        ],
+        "paragraphs": [
+          "University education should be widely available to capable students, but it is not the best route for everyone. I largely agree that giving places to a very high proportion of young people may be neither practical nor useful. Countries need several forms of education that match different abilities and jobs.",
+          "The first reason is that many careers require practical rather than academic training. Electricians, nurses, technicians and construction workers need direct experience and specific job-ready skills. Vocational colleges and apprenticeships may prepare them more effectively than a general university degree. If society presents university as the only successful choice, students without strong academic ability or interest may spend years on a course they do not enjoy. At the same time, employers may struggle to find skilled workers for essential practical roles.",
+          "The second reason is that unlimited university expansion can waste resources. Universities need trained lecturers, laboratories, libraries and financial support. Expanding too quickly can reduce teaching quality and cost taxpayers a great deal. It may also produce more graduates than the graduate job market can employ, leaving some people with debt and unrealistic expectations. However, access should remain fair for students from poorer families. The goal is not to restrict education, but to create several respected pathways with clear links to future work.",
+          "In conclusion, a country should not try to send almost every young person to university. Strong universities should exist alongside high-quality vocational training, allowing students to choose the route that best suits their ability, interest and career plans."
+        ]
+      },
+      {
+        "gid": "T2-0737",
+        "number": 59,
+        "tag": "本周重点",
+        "title": "鼓励替代能源是否积极",
+        "prompt": "Fossil fuels (coal, oil and natural gas) are the main sources in many countries. However, in some countries, the use of alternative sources of energy (wind and solar energy) is encouraged. Do you think it is a positive or negative development?",
+        "position": "积极发展：减少污染并提高能源安全",
+        "materials": [
+          "可再生能源和气候变化",
+          "能源安全和技术投资"
+        ],
+        "frameworkLabels": [
+          "第一点好处",
+          "第二点好处"
+        ],
+        "introPhrases": [
+          [
+            "a positive development",
+            "积极的发展"
+          ],
+          [
+            "a gradual move towards cleaner energy",
+            "逐步转向更清洁的能源"
+          ]
+        ],
+        "reasonPhrases": [
+          [
+            "renewable energy can reduce pollution",
+            "可再生能源能够减少污染"
+          ],
+          [
+            "alternative energy improves long-term energy security",
+            "替代能源能提高长期能源安全"
+          ]
+        ],
+        "phrases": [
+          [
+            "greenhouse gas emissions",
+            "温室气体排放"
+          ],
+          [
+            "air quality and public health",
+            "空气质量和公共健康"
+          ],
+          [
+            "local wind and sunlight",
+            "当地的风能和太阳能"
+          ],
+          [
+            "depending completely on imported fuel",
+            "完全依赖进口燃料"
+          ],
+          [
+            "initial construction costs",
+            "初期建设成本"
+          ],
+          [
+            "reliable electricity storage",
+            "可靠的电力储存"
+          ]
+        ],
+        "paragraphs": [
+          "Many countries still depend heavily on coal, oil and natural gas, while others are encouraging wind and solar power. I believe this is a positive development. A gradual move towards cleaner energy can protect the environment and make national energy supplies more secure.",
+          "The first benefit is that renewable energy can reduce pollution. Burning fossil fuels releases greenhouse gas emissions and harmful substances into the air. Wind and solar systems produce electricity without this daily fuel burning. As their use grows, cities may gain better air quality and public health, while countries can reduce their contribution to climate change. Cleaner energy is especially valuable near large cities and industrial areas where many people already suffer from polluted air. It can also reduce long-term health spending caused by breathing problems.",
+          "The second benefit is that alternative energy improves long-term energy security. Countries can use local wind and sunlight instead of depending completely on imported fuel whose price may suddenly rise. Building and maintaining new systems can also create technical jobs. There are difficulties, including initial construction costs and changes in weather. However, governments can develop reliable electricity storage, improve power networks and keep some backup supply during the change. Technology is also becoming cheaper as more countries invest in it.",
+          "In conclusion, encouraging wind and solar energy is a positive step despite the cost of changing existing systems. Cleaner air, lower emissions and a more secure energy supply make the long-term benefits greater than the temporary difficulties for both governments and families."
+        ]
+      },
+      {
+        "gid": "T2-0532",
+        "number": 83,
+        "tag": "本周重点",
+        "title": "失业是否好过不喜欢的工作",
+        "prompt": "Some people believe that it is better for people to be unemployed than to be employed in a job they do not enjoy. To what extent do you agree or disagree?",
+        "position": "不同意：一般情况下工作带来的收入和经验更重要",
+        "materials": [
+          "就业和失业",
+          "工作满意度和心理健康"
+        ],
+        "frameworkLabels": [
+          "第一点原因",
+          "第二点原因"
+        ],
+        "introPhrases": [
+          [
+            "job satisfaction is important",
+            "工作满意度很重要"
+          ],
+          [
+            "unemployment is usually a worse choice",
+            "失业通常是更差的选择"
+          ]
+        ],
+        "reasonPhrases": [
+          [
+            "employment provides income and daily structure",
+            "工作能提供收入和日常规律"
+          ],
+          [
+            "people can improve their situation while working",
+            "人们可以在工作期间改善处境"
+          ]
+        ],
+        "phrases": [
+          [
+            "pay for basic needs",
+            "支付基本生活需求"
+          ],
+          [
+            "a regular routine",
+            "规律的生活安排"
+          ],
+          [
+            "useful experience and references",
+            "有用的经验和推荐证明"
+          ],
+          [
+            "search for a better position",
+            "寻找更好的职位"
+          ],
+          [
+            "take a training course",
+            "参加培训课程"
+          ],
+          [
+            "seriously harms physical or mental health",
+            "严重损害身心健康"
+          ]
+        ],
+        "paragraphs": [
+          "Job satisfaction is important because adults spend much of their lives at work. Nevertheless, unemployment is usually a worse choice than doing an unenjoyable job. Employment provides financial security and experience, while people can continue looking for a more suitable position without losing all regular income.",
+          "The first reason is that employment provides income and daily structure. Workers can pay for basic needs such as housing, food and transport without depending completely on family or public support. A regular routine and contact with colleagues can also prevent isolation. Even an unexciting job may offer useful experience and references for the future. Long periods without work, by contrast, can reduce confidence and make it harder to explain an empty period to a later employer.",
+          "The second reason is that people can improve their situation while working. They can search for a better position, take a training course or ask for different duties. For example, an office worker who dislikes routine tasks might study digital skills in the evening and later apply for a more interesting role. Leaving immediately is sensible when a workplace is dangerous, abusive or seriously harms physical or mental health. In ordinary cases, however, planning a careful move is safer than accepting unemployment with no clear next step.",
+          "In conclusion, people should aim for work that suits their interests, but being unemployed is not generally better than keeping an imperfect job. Maintaining income and experience while preparing for change is usually the more practical and less stressful choice for most workers."
+        ]
+      },
+      {
+        "gid": "T2-0432",
+        "number": 86,
+        "tag": "本周重点",
+        "title": "做负责任的游客是否不可能",
+        "prompt": "In recent years, \"responsible tourists\" have paid attention to preserving both the culture and environment of the places they visit. However, some people say that it is impossible to be a \"responsible tourist\". To what extent do you agree or disagree?",
+        "position": "不同意：游客无法完全消除影响，但能够明显减少伤害",
+        "materials": [
+          "负责任的旅游",
+          "文化遗产和环境保护"
+        ],
+        "frameworkLabels": [
+          "第一点原因",
+          "第二点原因"
+        ],
+        "introPhrases": [
+          [
+            "tourism always has some impact",
+            "旅游总会产生一些影响"
+          ],
+          [
+            "responsible travel is still possible",
+            "负责任的旅行仍然可行"
+          ]
+        ],
+        "reasonPhrases": [
+          [
+            "tourists can reduce environmental damage",
+            "游客能够减少环境破坏"
+          ],
+          [
+            "visitors can respect culture and support local people",
+            "游客能够尊重文化并支持当地居民"
+          ]
+        ],
+        "phrases": [
+          [
+            "use public transport",
+            "使用公共交通"
+          ],
+          [
+            "avoid single-use plastic",
+            "避免使用一次性塑料"
+          ],
+          [
+            "follow rules in protected areas",
+            "遵守保护区规定"
+          ],
+          [
+            "locally owned businesses",
+            "当地人经营的企业"
+          ],
+          [
+            "ask before taking photographs",
+            "拍照前先征得同意"
+          ],
+          [
+            "reduce unnecessary harm",
+            "减少不必要的伤害"
+          ]
+        ],
+        "paragraphs": [
+          "Tourism always has some impact because visitors use transport, accommodation and local resources. However, responsible travel is still possible. Tourists cannot remove every effect, but they can make choices that protect the environment and show respect for local communities.",
+          "The first reason is that tourists can reduce environmental damage. They can use public transport, carry reusable bottles, avoid single-use plastic and stay on marked paths. They should also follow rules in protected areas and avoid activities that disturb animals. For example, a visitor to a small island can choose a certified boat company and take all waste away. Choosing accommodation that saves water and energy provides another practical improvement. One tourist makes only a small difference, but common responsible behaviour can reduce pressure on water, wildlife and public spaces.",
+          "The second reason is that visitors can respect culture and support local people. They can learn basic customs, dress appropriately, ask before taking photographs and buy from locally owned businesses. This keeps more tourism income in the community and avoids treating local traditions as entertainment. Governments and travel companies must also provide clear information and control harmful activities. Being responsible does not mean creating no impact at all; it means understanding the effects of a trip and taking realistic steps to reduce unnecessary harm.",
+          "In conclusion, although perfect tourism may not exist, responsible tourism is both possible and worthwhile. Careful choices by visitors, together with sensible local rules, can protect cultural and natural places while allowing people to enjoy them for many years."
+        ]
+      },
+      {
+        "gid": "T2-0438",
+        "number": 87,
+        "tag": "本周重点",
+        "title": "移居国外是否应遵从当地习俗",
+        "prompt": "People should follow the customs and traditions when they start to live in a new country. To what extent do you agree or disagree?",
+        "position": "部分同意：应尊重重要规则，但可以保留无害的自身文化",
+        "materials": [
+          "文化融合和移民",
+          "社会规则和个人身份"
+        ],
+        "frameworkLabels": [
+          "应该遵从的部分",
+          "不应完全放弃的部分"
+        ],
+        "introPhrases": [
+          [
+            "new residents should respect local customs",
+            "新居民应尊重当地习俗"
+          ],
+          [
+            "complete cultural change is unnecessary",
+            "没有必要完全改变自身文化"
+          ]
+        ],
+        "reasonPhrases": [
+          [
+            "basic customs help people integrate",
+            "基本习俗能够帮助人们融入社会"
+          ],
+          [
+            "people should keep harmless parts of their identity",
+            "人们应保留自身文化中无害的部分"
+          ]
+        ],
+        "phrases": [
+          [
+            "understand local expectations",
+            "了解当地社会预期"
+          ],
+          [
+            "avoid unnecessary offence",
+            "避免不必要的冒犯"
+          ],
+          [
+            "build trust with neighbours",
+            "与邻居建立信任"
+          ],
+          [
+            "language, food and festivals",
+            "语言、食物和节日"
+          ],
+          [
+            "cultural diversity",
+            "文化多样性"
+          ],
+          [
+            "laws and shared public rules",
+            "法律和共同公共规则"
+          ]
+        ],
+        "paragraphs": [
+          "Moving to another country requires adjustment. I partly agree that new residents should respect local customs because this helps daily communication and social trust. However, complete cultural change is unnecessary, and people should be free to keep traditions that do not harm others.",
+          "The first point is that basic customs help people integrate. Newcomers should understand local expectations about public behaviour, punctuality, clothing in certain places and communication. Following these practices can avoid unnecessary offence and make work or school relationships easier. For example, learning how neighbours normally deal with noise or shared spaces can prevent conflict. Taking part in community events can also help new residents build trust with neighbours, practise the local language and feel less isolated in daily life.",
+          "The second point is that people should keep harmless parts of their identity. Language, food and festivals connect families to their history and can enrich the new country through cultural diversity. Requiring immigrants to abandon every tradition would be unfair and may make integration harder. Of course, customs that break laws or deny other people's rights cannot be defended as culture. The reasonable standard is to follow laws and shared public rules while allowing private and family traditions to continue.",
+          "In conclusion, people living in a new country should learn and respect its important customs, especially those affecting public life. At the same time, they should not have to give up their own identity when their traditions are lawful, harmless and compatible with the rights of other residents."
+        ]
+      },
+      {
+        "gid": "T2-0505",
+        "number": 88,
+        "tag": "本周重点",
+        "title": "青少年犯罪是否应按成年人处理",
+        "prompt": "Some people think that young people who commit crimes should be treated in the same way as adults. To what extent do you agree or disagree?",
+        "position": "不同意：青少年应承担责任，但处罚应重视年龄和改造",
+        "materials": [
+          "犯罪和法律",
+          "青少年教育和改造"
+        ],
+        "frameworkLabels": [
+          "第一点原因",
+          "第二点原因"
+        ],
+        "introPhrases": [
+          [
+            "young offenders must face consequences",
+            "青少年罪犯必须承担后果"
+          ],
+          [
+            "they should not usually be treated exactly like adults",
+            "通常不应完全按照成年人处理"
+          ]
+        ],
+        "reasonPhrases": [
+          [
+            "young people are still developing judgement",
+            "青少年的判断力仍在发展"
+          ],
+          [
+            "rehabilitation can reduce future crime",
+            "改造能够减少未来犯罪"
+          ]
+        ],
+        "phrases": [
+          [
+            "pressure from older friends",
+            "来自年长朋友的压力"
+          ],
+          [
+            "understand long-term results",
+            "理解长期后果"
+          ],
+          [
+            "education and counselling",
+            "教育和心理辅导"
+          ],
+          [
+            "repair the harm",
+            "弥补造成的伤害"
+          ],
+          [
+            "serious violent offences",
+            "严重暴力犯罪"
+          ],
+          [
+            "a youth justice system",
+            "青少年司法体系"
+          ]
+        ],
+        "paragraphs": [
+          "Young offenders must face consequences because crime harms victims and communities. Nevertheless, they should not usually be treated exactly like adults. Age affects judgement, and a youth justice system has a better chance of changing behaviour before it becomes permanent.",
+          "The first reason is that young people are still developing judgement. Teenagers may act quickly, follow pressure from older friends or fail to understand long-term results. This does not remove responsibility, but it should affect the type and length of punishment. Placing a minor in an adult prison can expose that person to experienced criminals and make future offending more likely. It can also interrupt education at a stage when change is still possible. Courts should consider age, personal background and the seriousness of the offence when deciding a suitable response.",
+          "The second reason is that rehabilitation can reduce future crime. Education and counselling can address poor school performance, family problems, addiction or anger. Young offenders can also complete supervised community work to repair the harm and learn responsibility. Serious violent offences still require firm punishment and protection for the public, and repeated offenders may need secure detention. Even then, education and treatment should remain available. A response that combines clear limits with support is more useful than treating every young person as a fully developed adult.",
+          "In conclusion, young people should be held responsible for crimes, but adult punishment should not be the normal approach. Age-based sentences, rehabilitation and careful supervision are more likely to protect society in the long term."
+        ]
+      },
+      {
+        "gid": "T2-0431",
+        "number": 163,
+        "tag": "本周重点",
+        "title": "个人是否可以不向国家纳税",
+        "prompt": "Some people believe that they should be able to keep all the money they earn, and should not have to pay tax to the state. To what extent do you agree or disagree?",
+        "position": "不同意：税收用于公共服务并维持社会公平",
+        "materials": [
+          "税收和公共支出",
+          "公共服务和社会公平"
+        ],
+        "frameworkLabels": [
+          "第一点原因",
+          "第二点原因"
+        ],
+        "introPhrases": [
+          [
+            "people should contribute part of their income",
+            "人们应贡献一部分收入"
+          ],
+          [
+            "tax is necessary for a functioning society",
+            "税收是社会正常运转所必需的"
+          ]
+        ],
+        "reasonPhrases": [
+          [
+            "taxes pay for essential public services",
+            "税收用于支付基本公共服务"
+          ],
+          [
+            "a fair tax system reduces social inequality",
+            "公平税制能够减少社会不平等"
+          ]
+        ],
+        "phrases": [
+          [
+            "schools, hospitals and public transport",
+            "学校、医院和公共交通"
+          ],
+          [
+            "roads and emergency services",
+            "道路和紧急服务"
+          ],
+          [
+            "shared public systems",
+            "共享公共体系"
+          ],
+          [
+            "a larger contribution",
+            "更大的贡献"
+          ],
+          [
+            "clear and transparent",
+            "清晰透明"
+          ],
+          [
+            "spend public money responsibly",
+            "负责任地使用公共资金"
+          ]
+        ],
+        "paragraphs": [
+          "Most people naturally prefer to keep more of the money they earn. However, I disagree that they should pay no tax. People should contribute part of their income because tax is necessary for a functioning society and allows the state to provide services that individuals cannot organise alone.",
+          "The first reason is that taxes pay for essential public services. Schools, hospitals and public transport require buildings, trained staff and regular maintenance. Taxes also support roads and emergency services that everyone may need. A person might not use every service each day, but all citizens benefit from living in a healthier, safer and better educated society. Businesses also depend on educated workers and reliable infrastructure. Without shared public systems, families would have to buy many services privately, and poorer people might receive no adequate care or education.",
+          "The second reason is that a fair tax system reduces social inequality. People with higher incomes can make a larger contribution without losing the ability to meet basic needs. The money can support disabled people, unemployed workers and children from low-income families. Tax rules should be clear and transparent, and governments must spend public money responsibly. Waste or corruption should be challenged, but these problems are reasons to improve the system rather than remove taxation completely.",
+          "In conclusion, citizens should not keep every part of their earnings because society depends on shared services and support. A fair, well-managed tax system asks people to contribute according to their ability and benefits the whole population over many years."
+        ]
+      },
+      {
+        "gid": "T2-0467",
+        "number": 180,
+        "tag": "本周重点",
+        "title": "是否应禁止媒体报道暴力犯罪",
+        "prompt": "Media coverage of violent crime frightens people and encourages criminals. Some people say it should be banned from newspapers and TV programmes. To what extent do you agree or disagree?",
+        "position": "不同意全面禁止：报道有公共价值，但应受到负责任的规则约束",
+        "materials": [
+          "新闻媒体和公共信息",
+          "犯罪预防和媒体责任"
+        ],
+        "frameworkLabels": [
+          "第一点原因",
+          "第二点原因"
+        ],
+        "introPhrases": [
+          [
+            "violent crime reporting can cause harm",
+            "暴力犯罪报道可能造成伤害"
+          ],
+          [
+            "a complete ban would be unnecessary",
+            "全面禁止没有必要"
+          ]
+        ],
+        "reasonPhrases": [
+          [
+            "the public needs accurate information about serious crime",
+            "公众需要了解严重犯罪的准确信息"
+          ],
+          [
+            "responsible rules can reduce harmful coverage",
+            "负责任的规则能够减少有害报道"
+          ]
+        ],
+        "phrases": [
+          [
+            "warn residents about a real danger",
+            "提醒居民真实危险"
+          ],
+          [
+            "hold authorities responsible",
+            "督促有关部门承担责任"
+          ],
+          [
+            "sensational details",
+            "耸动细节"
+          ],
+          [
+            "identify victims without permission",
+            "未经同意识别受害者"
+          ],
+          [
+            "copying a criminal method",
+            "模仿犯罪手法"
+          ],
+          [
+            "public interest",
+            "公共利益"
+          ]
+        ],
+        "paragraphs": [
+          "Detailed media stories about violent crime can frighten the public and sometimes give offenders attention. Even so, I disagree with a total ban. Violent crime reporting can cause harm, but a complete ban would be unnecessary because accurate news has public value and better rules can limit irresponsible coverage.",
+          "The first reason is that the public needs accurate information about serious crime. News can warn residents about a real danger, help witnesses contact the police and explain whether crime is increasing or falling. Journalists can also investigate failures and hold authorities responsible. Families need reliable facts when deciding how to protect themselves. If newspapers and television cannot report violent offences at all, rumours may spread online without reliable facts. A ban could also hide important problems such as unsafe streets, weak policing or violence against vulnerable groups.",
+          "The second reason is that responsible rules can reduce harmful coverage. Media organisations should avoid sensational details, repeated violent images and language that makes an offender appear famous. They should not identify victims without permission or publish instructions that make copying a criminal method easier. Reports should give context, including actual crime statistics and advice about safety, so that people do not believe every area is dangerous. Independent regulators can act when coverage ignores privacy or public interest.",
+          "In conclusion, violent crime should be reported carefully rather than banned. Accurate information can protect the public and support accountability, while firm professional rules can reduce unnecessary fear and the risk of encouraging offenders without hiding serious events."
+        ]
+      }
+    ],
+    "comparison": [
+      {
+        "gid": "T2-0598",
+        "number": 51,
+        "tag": "必练高频",
+        "title": "只吃本地食物的利弊",
+        "prompt": "Today, food travels thousands of miles from farms to consumers. Some people think it would be better for our environment and economy if people only ate locally produced food. To what extent do the advantages outweigh the disadvantages?",
+        "position": "总体利大于弊，但不应要求所有食物都来自本地",
+        "materials": [
+          "本地农业和经济",
+          "食品运输和环境"
+        ],
+        "frameworkLabels": [
+          "主要优点",
+          "缺点与判断"
+        ],
+        "introPhrases": [
+          [
+            "locally produced food offers clear benefits",
+            "本地生产的食物有明显好处"
+          ],
+          [
+            "a completely local diet is unrealistic",
+            "完全本地化的饮食并不现实"
+          ]
+        ],
+        "reasonPhrases": [
+          [
+            "local food can support farmers and reduce some transport",
+            "本地食物能支持农民并减少部分运输"
+          ],
+          [
+            "limited choice and higher prices are real disadvantages",
+            "选择有限和价格较高是真实缺点"
+          ]
+        ],
+        "phrases": [
+          [
+            "shorter supply chains",
+            "更短的供应链"
+          ],
+          [
+            "local farms and food businesses",
+            "当地农场和食品企业"
+          ],
+          [
+            "seasonal products",
+            "季节性产品"
+          ],
+          [
+            "cannot grow every type of food",
+            "无法种植所有种类的食物"
+          ],
+          [
+            "a balanced approach",
+            "平衡的做法"
+          ],
+          [
+            "outweigh the disadvantages",
+            "利大于弊"
+          ]
+        ],
+        "paragraphs": [
+          "Food is now transported over very long distances before reaching consumers. In my view, locally produced food offers clear benefits for communities and the environment, although a completely local diet is unrealistic. With a balanced approach, the advantages can outweigh the disadvantages.",
+          "The main advantage is that local food can support farmers and reduce some transport. Shorter supply chains allow more money to remain with local farms and food businesses, which can protect jobs in rural areas. Food may also reach shops more quickly and require less packaging or cold storage. For example, buying vegetables from a nearby farm can reduce the need for long road journeys and large storage centres. Consumers may also learn where their food comes from and develop greater trust in producers.",
+          "However, limited choice and higher prices are real disadvantages. Many regions cannot grow every type of food because of climate, land or water conditions. Relying only on seasonal products could create shortages and make a healthy diet difficult, especially in winter. Small local farms may also have higher production costs. A balanced approach is therefore better: people should buy suitable local food when possible while importing products that cannot be produced efficiently nearby. Governments can also improve clean transport for necessary imports.",
+          "In conclusion, although eating only local food would reduce choice and sometimes increase prices, the economic and environmental benefits of buying more local products still outweigh the disadvantages. Local food should be encouraged without completely ending useful international trade for consumers, farmers and local communities."
+        ]
+      },
+      {
+        "gid": "T2-0478",
+        "number": 76,
+        "tag": "必练高频",
+        "title": "全球统一法律还是各国自有法律",
+        "prompt": "Some people think it is better for one single legal system throughout the world. Others say countries should have their own laws. Discuss both views and give your opinion.",
+        "position": "各国应保留自身法律，同时在跨国问题上采用共同标准",
+        "materials": [
+          "法律制度和社会秩序",
+          "国际合作和共同标准"
+        ],
+        "frameworkLabels": [
+          "全球统一法律",
+          "各国自有法律与判断"
+        ],
+        "introPhrases": [
+          [
+            "a single global legal system",
+            "全球统一法律体系"
+          ],
+          [
+            "countries should mainly keep their own laws",
+            "各国应主要保留自己的法律"
+          ]
+        ],
+        "reasonPhrases": [
+          [
+            "common laws could make international cooperation easier",
+            "共同法律可使国际合作更容易"
+          ],
+          [
+            "national laws can reflect local conditions",
+            "国家法律能够反映当地情况"
+          ]
+        ],
+        "phrases": [
+          [
+            "the same basic rights",
+            "相同的基本权利"
+          ],
+          [
+            "cross-border crime",
+            "跨境犯罪"
+          ],
+          [
+            "different histories and social values",
+            "不同的历史和社会价值"
+          ],
+          [
+            "public trust",
+            "公众信任"
+          ],
+          [
+            "international agreements",
+            "国际协议"
+          ],
+          [
+            "shared minimum standards",
+            "共同最低标准"
+          ]
+        ],
+        "paragraphs": [
+          "Some people support a single global legal system, while others want every nation to make its own rules. Although common standards are useful in several areas, I believe countries should mainly keep their own laws because societies have different needs and values.",
+          "The first view is that common laws could make international cooperation easier. People everywhere would receive the same basic rights, and companies would face clearer rules when operating in several countries. A shared system could also improve action against cross-border crime, online fraud and environmental damage. For example, criminals might find it harder to escape punishment by moving money or activities to a country with weaker laws. Supporters therefore believe one system would be simpler and fairer.",
+          "The other view is that national laws can reflect local conditions. Countries have different histories and social values, as well as different economic and security problems. A rule suitable for a small peaceful country may not work in a large nation facing another situation. Laws are also more likely to gain public trust when citizens can debate and change them through their own institutions. This flexibility allows laws to change when a country's problems or public opinion change. In my view, international agreements should create shared minimum standards for human rights, trade and global problems, but national governments should decide most detailed laws.",
+          "In conclusion, although one legal system could improve consistency across borders, national laws are better able to respond to local society. International cooperation should set important common standards rather than replace every country's legal system."
+        ]
+      },
+      {
+        "gid": "T2-0425",
+        "number": 78,
+        "tag": "必练高频",
+        "title": "城市功能分区的利弊",
+        "prompt": "In many cities, planners have located shops, schools, offices and homes in specific areas which may be widely separated from each other. Do you think the advantages of this policy outweigh the disadvantages for city residents?",
+        "position": "弊大于利：整齐规划不及长距离出行和生活不便严重",
+        "materials": [
+          "城市规划和公共服务",
+          "交通拥堵和社区生活"
+        ],
+        "frameworkLabels": [
+          "可能的优点",
+          "主要缺点与判断"
+        ],
+        "introPhrases": [
+          [
+            "separating urban functions can make planning easier",
+            "分离城市功能可让规划更容易"
+          ],
+          [
+            "the disadvantages are greater for residents",
+            "对居民而言弊大于利"
+          ]
+        ],
+        "reasonPhrases": [
+          [
+            "zoning can reduce conflicts between different land uses",
+            "功能分区能够减少不同土地用途之间的冲突"
+          ],
+          [
+            "wide separation creates long and necessary journeys",
+            "远距离分隔会造成漫长且不可避免的出行"
+          ]
+        ],
+        "phrases": [
+          [
+            "heavy industry away from homes",
+            "让重工业远离住宅"
+          ],
+          [
+            "organise roads and public services",
+            "规划道路和公共服务"
+          ],
+          [
+            "depend on private cars",
+            "依赖私家车"
+          ],
+          [
+            "traffic congestion and pollution",
+            "交通拥堵和污染"
+          ],
+          [
+            "mixed-use neighbourhoods",
+            "混合用途社区"
+          ],
+          [
+            "outweigh its planning advantages",
+            "超过其规划优势"
+          ]
+        ],
+        "paragraphs": [
+          "Many cities place housing, employment, education and shopping in separate zones. Separating urban functions can make planning easier, but I believe the disadvantages are greater for residents. Long daily journeys and dependence on cars reduce convenience and quality of life.",
+          "One advantage is that zoning can reduce conflicts between different land uses. Planners can keep heavy industry away from homes and place large shops near roads with enough space. It may also be easier to organise roads and public services when similar buildings are grouped together. For example, an office district can have direct bus routes and parking designed for workers. Quiet residential streets may then face less noise from factories or late-night businesses.",
+          "The larger problem is that wide separation creates long and necessary journeys. Residents may need to travel far to work, take children to school and buy basic goods. Where public transport is weak, families depend on private cars, increasing traffic congestion and pollution. People without cars, including many older or low-income residents, may struggle to reach services. Long journeys also leave less time for family, exercise and community life. Mixed-use neighbourhoods are more practical because homes, small shops, schools and offices can be within walking or cycling distance. Careful rules can still keep dangerous industry separate.",
+          "In conclusion, although strict zoning can simplify planning and protect homes from some disturbance, the extra travel and unequal access it creates outweigh its planning advantages for most residents. Cities should develop safer mixed-use areas instead of widely separating every daily activity."
+        ]
+      },
+      {
+        "gid": "T2-0573",
+        "number": 8,
+        "tag": "本周重点",
+        "title": "小班是否更有利于练习口语",
+        "prompt": "Some people think that it is more effective for students to learn speaking skills in a small class, while others think that the number of people in a class does not matter. Discuss both views and give your opinion.",
+        "position": "小班通常更有效，但教师方法同样重要",
+        "materials": [
+          "语言学习和课堂教学",
+          "教育资源和班级规模"
+        ],
+        "frameworkLabels": [
+          "班级规模不重要",
+          "小班更有效与判断"
+        ],
+        "introPhrases": [
+          [
+            "teaching quality matters greatly",
+            "教学质量非常重要"
+          ],
+          [
+            "small classes are usually more effective",
+            "小班通常更有效"
+          ]
+        ],
+        "reasonPhrases": [
+          [
+            "good teaching methods can work in a larger class",
+            "良好教学方法也能在大班发挥作用"
+          ],
+          [
+            "small classes give every learner more speaking time",
+            "小班能给每位学习者更多开口时间"
+          ]
+        ],
+        "phrases": [
+          [
+            "pair and group activities",
+            "两人和小组活动"
+          ],
+          [
+            "clear digital recordings",
+            "清晰的数字录音"
+          ],
+          [
+            "individual feedback",
+            "个别反馈"
+          ],
+          [
+            "correct pronunciation mistakes",
+            "纠正发音错误"
+          ],
+          [
+            "quiet students",
+            "不太主动的学生"
+          ],
+          [
+            "regular personal practice",
+            "规律的个人练习"
+          ]
+        ],
+        "paragraphs": [
+          "People disagree about whether class size affects the learning of speaking skills. Teaching quality matters greatly, and a skilled teacher can organise useful work in many settings. Nevertheless, I believe small classes are usually more effective because students receive more practice and feedback.",
+          "One view is that good teaching methods can work in a larger class. A teacher can use pair and group activities so that many students speak at the same time. Clear digital recordings and online practice can also provide examples outside class. If lessons are well organised, learners do not need to wait for the teacher before every conversation. Large classes may also expose students to more accents, opinions and speaking partners, which can make activities varied and interesting. Students can learn by listening to a wider range of classmates.",
+          "However, small classes give every learner more speaking time. The teacher can listen closely, provide individual feedback and correct pronunciation mistakes before they become habits. Quiet students are also less likely to hide behind more confident classmates. For example, in a class of ten, each person can answer several questions and take part in a longer discussion. In a class of forty, the teacher may hear each student only briefly. In my view, methods remain important, but regular personal practice makes smaller groups more suitable for speaking lessons.",
+          "In conclusion, although strong teaching can make a large class useful, the advantages of a small class outweigh this flexibility for speaking practice. More individual attention and active participation normally lead to faster improvement."
+        ]
+      },
+      {
+        "gid": "T2-0555",
+        "number": 58,
+        "tag": "本周重点",
+        "title": "经济增长、贫困与环境",
+        "prompt": "Some people believe that economic growth is the only way to end poverty and hunger in the world, while others say that economic growth is causing damage to the environment and should be stopped. Discuss both views and give your own opinion.",
+        "position": "经济仍需发展，但必须转向有环境限制的可持续增长",
+        "materials": [
+          "经济发展和减贫",
+          "环境保护和可持续增长"
+        ],
+        "frameworkLabels": [
+          "支持经济增长",
+          "环境担忧与判断"
+        ],
+        "introPhrases": [
+          [
+            "economic growth can reduce poverty",
+            "经济增长能够减少贫困"
+          ],
+          [
+            "growth should not continue without environmental limits",
+            "经济增长不应在没有环境限制的情况下继续"
+          ]
+        ],
+        "reasonPhrases": [
+          [
+            "growth can create jobs and public income",
+            "经济增长能够创造就业和公共收入"
+          ],
+          [
+            "uncontrolled growth can destroy natural resources",
+            "不受控制的增长会破坏自然资源"
+          ]
+        ],
+        "phrases": [
+          [
+            "stable employment",
+            "稳定就业"
+          ],
+          [
+            "fund schools and food programmes",
+            "资助学校和食品项目"
+          ],
+          [
+            "polluted air and water",
+            "被污染的空气和水"
+          ],
+          [
+            "clean energy and efficient production",
+            "清洁能源和高效生产"
+          ],
+          [
+            "enforce environmental standards",
+            "执行环境标准"
+          ],
+          [
+            "sustainable economic activity",
+            "可持续的经济活动"
+          ]
+        ],
+        "paragraphs": [
+          "Some people see economic growth as the only realistic way to end poverty, while others want growth to stop because of environmental damage. I believe economic growth can reduce poverty, but growth should not continue without environmental limits. The aim should be cleaner and fairer development.",
+          "The first view is that growth can create jobs and public income. When businesses expand, they employ workers who can buy food, housing and education. Stable employment gives families reliable income and better access to basic food. Governments also collect more tax to fund schools and food programmes for people who still need support. Poor countries may require better roads, electricity and farming equipment before living standards can improve. Without some economic development, these services are difficult to provide, and families may remain dependent on low-paid informal work.",
+          "The opposing view is that uncontrolled growth can destroy natural resources. Factories, mining and rapid construction may create polluted air and water, while climate change can damage farming and increase hunger later. Stopping all growth, however, would also harm poor communities. In my view, governments should support clean energy and efficient production, enforce environmental standards and direct investment towards useful public services. Sustainable economic activity can create work without repeating the most damaging forms of development.",
+          "In conclusion, although economic growth is necessary in many poor regions, its benefits do not justify unlimited environmental damage. Carefully controlled growth is better than either stopping development completely or allowing the economy to expand at any cost for future generations."
+        ]
+      },
+      {
+        "gid": "T2-0480",
+        "number": 80,
+        "tag": "本周重点",
+        "title": "团队运动与个人运动",
+        "prompt": "Some people think that it is more beneficial to take part in sports which are played in teams, like football, while other people think that taking part in individual sports, like tennis or swimming, is better. Discuss both views and give your own opinion.",
+        "position": "两者都有价值，但团队运动对多数年轻人的综合收益更大",
+        "materials": [
+          "体育运动和健康",
+          "团队合作和个人能力"
+        ],
+        "frameworkLabels": [
+          "个人运动",
+          "团队运动与判断"
+        ],
+        "introPhrases": [
+          [
+            "both forms of sport improve health",
+            "两类运动都能改善健康"
+          ],
+          [
+            "team sports offer wider social benefits",
+            "团队运动带来更广泛的社交收益"
+          ]
+        ],
+        "reasonPhrases": [
+          [
+            "individual sports develop independence and personal control",
+            "个人运动培养独立性和个人控制力"
+          ],
+          [
+            "team sports teach cooperation and communication",
+            "团队运动教授合作和沟通"
+          ]
+        ],
+        "phrases": [
+          [
+            "train at a suitable time",
+            "在合适的时间训练"
+          ],
+          [
+            "measure personal progress",
+            "衡量个人进步"
+          ],
+          [
+            "depend on other players",
+            "依靠其他队员"
+          ],
+          [
+            "share responsibility",
+            "分担责任"
+          ],
+          [
+            "solve disagreements",
+            "解决分歧"
+          ],
+          [
+            "a sense of belonging",
+            "归属感"
+          ]
+        ],
+        "paragraphs": [
+          "Both individual and team sports can improve fitness and confidence. Some people value the freedom of exercising alone, while others prefer cooperation. In my view, both forms of sport improve health, but team sports offer wider social benefits, especially for young people.",
+          "Supporters of individual activities argue that individual sports develop independence and personal control. A swimmer or runner can train at a suitable time, set personal goals and measure personal progress without waiting for a whole group. This is useful for people who are shy, have irregular schedules or prefer quiet concentration. Success and failure also depend mainly on the individual, which can build self-discipline. In addition, activities such as swimming can continue throughout life without needing many other players.",
+          "On the other hand, team sports teach cooperation and communication. Players must depend on other players, share responsibility and follow a common plan. They learn to solve disagreements and continue supporting teammates after a mistake. For example, a football player may need to pass rather than seek personal attention. Regular team meetings also create friendships and a sense of belonging. Players can also practise leadership and learn how to accept shared results. These skills are useful at school and work. I therefore believe the social learning from team sports is more valuable for most young participants.",
+          "In conclusion, although individual sports provide flexibility and strong personal discipline, the social advantages of team sports generally outweigh these benefits for young people. The best choice still depends on a person's interests and circumstances."
+        ]
+      },
+      {
+        "gid": "T2-0511",
+        "number": 81,
+        "tag": "本周重点",
+        "title": "高管与普通员工的薪资差距",
+        "prompt": "Directors of large organizations earn much higher salaries than ordinary employees do. Some people believe it is necessary, but others think that it is unfair. Discuss both these views and give your own opinions.",
+        "position": "高管可以多得，但过大的差距不必要且不公平",
+        "materials": [
+          "收入分配和公平",
+          "企业管理和员工激励"
+        ],
+        "frameworkLabels": [
+          "支持高薪",
+          "反对过大差距与判断"
+        ],
+        "introPhrases": [
+          [
+            "directors carry major responsibilities",
+            "高管承担重大责任"
+          ],
+          [
+            "extremely large pay gaps are unfair",
+            "极大的薪资差距并不公平"
+          ]
+        ],
+        "reasonPhrases": [
+          [
+            "higher salaries can attract capable leaders",
+            "较高薪资能够吸引有能力的领导者"
+          ],
+          [
+            "excessive differences can damage staff motivation",
+            "过大的差距会损害员工积极性"
+          ]
+        ],
+        "phrases": [
+          [
+            "difficult financial decisions",
+            "困难的财务决策"
+          ],
+          [
+            "responsible for thousands of jobs",
+            "对数千个工作岗位负责"
+          ],
+          [
+            "daily work of ordinary employees",
+            "普通员工的日常工作"
+          ],
+          [
+            "a fair share of success",
+            "公平分享成功成果"
+          ],
+          [
+            "clear performance results",
+            "明确的业绩结果"
+          ],
+          [
+            "a reasonable salary difference",
+            "合理的薪资差距"
+          ]
+        ],
+        "paragraphs": [
+          "Directors of large organisations often receive far more money than ordinary workers. Supporters say directors carry major responsibilities, while critics see the difference as unfair. I believe managers can earn more, but extremely large pay gaps are unfair and may harm the organisation.",
+          "The first view is that higher salaries can attract capable leaders. Directors make difficult financial decisions, represent the organisation and may be responsible for thousands of jobs. A poor decision can cause serious losses, so companies want experienced people with rare skills. High pay may also compensate leaders for pressure, long hours and the risk of losing their position after weak results. From this perspective, a significant salary is necessary when a director creates clear value.",
+          "The other view is that excessive differences can damage staff motivation. An organisation also depends on the daily work of ordinary employees, and they may feel ignored if one manager earns hundreds of times more. Workers who do not receive a fair share of success may leave or reduce their effort. A clear pay policy can show workers how rewards are decided and reduce suspicion. In my opinion, director pay should be linked to clear performance results, staff conditions and long-term success, not only short-term profit. A reasonable salary difference is justified, but there should be limits and transparency.",
+          "In conclusion, although skilled directors deserve higher rewards for greater responsibility, the disadvantages of an extreme pay gap outweigh its value. Fairer differences can still attract good leaders while maintaining trust and motivation among employees."
+        ]
+      },
+      {
+        "gid": "T2-1166",
+        "number": 84,
+        "tag": "本周重点",
+        "title": "回收与减废应由学校还是家庭教授",
+        "prompt": "Some say that children should be taught at school to recycle and avoid waste. Others say they should learn this at home. Discuss both views and give your own opinion.",
+        "position": "学校和家庭都应负责，学校保证知识，家庭形成日常习惯",
+        "materials": [
+          "环境教育和学校课程",
+          "家庭习惯和垃圾回收"
+        ],
+        "frameworkLabels": [
+          "家庭教育",
+          "学校教育与判断"
+        ],
+        "introPhrases": [
+          [
+            "both schools and families have an important role",
+            "学校和家庭都承担重要作用"
+          ],
+          [
+            "consistent teaching is most effective",
+            "一致的教育最有效"
+          ]
+        ],
+        "reasonPhrases": [
+          [
+            "home is where children practise daily habits",
+            "家庭是儿童实践日常习惯的地方"
+          ],
+          [
+            "schools can provide equal and accurate environmental education",
+            "学校能够提供平等准确的环境教育"
+          ]
+        ],
+        "phrases": [
+          [
+            "separate paper, plastic and food waste",
+            "分类纸张、塑料和厨余垃圾"
+          ],
+          [
+            "avoid unnecessary packaging",
+            "避免不必要的包装"
+          ],
+          [
+            "understand the reasons",
+            "理解其中原因"
+          ],
+          [
+            "recycling projects",
+            "回收项目"
+          ],
+          [
+            "measure how much waste",
+            "测量垃圾数量"
+          ],
+          [
+            "turn knowledge into a daily habit",
+            "把知识转化为日常习惯"
+          ]
+        ],
+        "paragraphs": [
+          "People disagree about whether children should learn recycling at school or at home. In my view, both schools and families have an important role, and consistent teaching is most effective. Schools explain the issue, while families help children practise it every day.",
+          "Those who support parents argue that home is where children practise daily habits. Parents can show them how to separate paper, plastic and food waste, reuse bags and avoid unnecessary packaging. Children also copy adult behaviour, so a family that wastes food cannot expect a short school lesson to solve the problem. For example, involving a child in planning meals and sorting rubbish makes the lesson practical and repeated. These actions become normal parts of life rather than facts learned for an examination.",
+          "Others believe schools can provide equal and accurate environmental education. Not every parent has the time or knowledge to explain recycling, so school ensures that all pupils understand the reasons. Teachers can organise recycling projects, visits and simple experiments. A class might measure how much waste it produces before and after changing its habits. In my opinion, schools should teach the common knowledge and provide facilities, while parents should follow similar rules at home. This cooperation can turn knowledge into a daily habit.",
+          "In conclusion, although the home is the main place where waste is handled, schools provide knowledge and equal access to learning. The two sides should work together closely at school and in everyday life rather than place the full responsibility on only one of them."
+        ]
+      },
+      {
+        "gid": "T2-0423",
+        "number": 85,
+        "tag": "本周重点",
+        "title": "英语成为全球语言的利弊",
+        "prompt": "The advantages of the spread of English as a global language will continue to outweigh its disadvantages. To what extent do you agree or disagree?",
+        "position": "同意：沟通和教育收益更大，但应保护其他语言",
+        "materials": [
+          "全球语言和国际交流",
+          "文化多样性和教育机会"
+        ],
+        "frameworkLabels": [
+          "主要优势",
+          "缺点与判断"
+        ],
+        "introPhrases": [
+          [
+            "English provides a common means of communication",
+            "英语提供共同的交流方式"
+          ],
+          [
+            "its advantages will continue to be greater",
+            "其优势将继续更加显著"
+          ]
+        ],
+        "reasonPhrases": [
+          [
+            "a shared language supports study and international work",
+            "共同语言支持学习和国际工作"
+          ],
+          [
+            "the spread of English can weaken smaller languages",
+            "英语传播可能削弱较小语种"
+          ]
+        ],
+        "phrases": [
+          [
+            "access research and online courses",
+            "获取研究和在线课程"
+          ],
+          [
+            "communicate across borders",
+            "跨境交流"
+          ],
+          [
+            "lose vocabulary and traditions",
+            "失去词汇和传统"
+          ],
+          [
+            "bilingual education",
+            "双语教育"
+          ],
+          [
+            "protect cultural identity",
+            "保护文化身份"
+          ],
+          [
+            "outweigh its disadvantages",
+            "利大于弊"
+          ]
+        ],
+        "paragraphs": [
+          "English is increasingly used in education, business, travel and online communication. I agree that English provides a common means of communication and that its advantages will continue to be greater than its disadvantages, provided that other languages are actively protected.",
+          "The main benefit is that a shared language supports study and international work. Students can access research and online courses from many countries, while workers can cooperate with overseas colleagues. Travellers and emergency services can also communicate across borders more easily. For example, a scientist can share results with a wide international audience without translating the work into many different languages. A common language does not remove every misunderstanding, but it makes first contact and the exchange of information much faster.",
+          "The main concern is that the spread of English can weaken smaller languages. Young people may use English for school and work and lose vocabulary and traditions from their home language. This is particularly serious when only a small number of older speakers remain. However, governments can support bilingual education, local media and literature so that people learn English without abandoning their first language. Families and schools can protect cultural identity while still giving children access to an international language. These policies reduce the main disadvantage without losing the practical benefits.",
+          "In conclusion, although the global use of English may place pressure on smaller languages, its educational, economic and communication benefits still outweigh its disadvantages. The sensible response is to teach English while investing in local languages and cultures."
+        ]
+      },
+      {
+        "gid": "T2-0617",
+        "number": 90,
+        "tag": "本周重点",
+        "title": "举办大型国际体育赛事的利弊",
+        "prompt": "Many people think hosting a major international sporting event brings a lot of benefits to a country, while others believe that it brings only disadvantages. Discuss both views and give your opinion.",
+        "position": "规划得当时利大于弊，但应避免浪费和闲置场馆",
+        "materials": [
+          "国际体育赛事",
+          "公共支出和旅游经济"
+        ],
+        "frameworkLabels": [
+          "主要缺点",
+          "好处与判断"
+        ],
+        "introPhrases": [
+          [
+            "major events involve serious costs",
+            "大型赛事涉及高额成本"
+          ],
+          [
+            "the benefits can outweigh the disadvantages",
+            "其好处可以大于弊端"
+          ]
+        ],
+        "reasonPhrases": [
+          [
+            "hosting can waste public money and disturb residents",
+            "举办赛事可能浪费公共资金并打扰居民"
+          ],
+          [
+            "well-planned events can support tourism and useful investment",
+            "规划良好的赛事能够促进旅游和有用投资"
+          ]
+        ],
+        "phrases": [
+          [
+            "expensive stadiums",
+            "昂贵的体育场馆"
+          ],
+          [
+            "used for only a short period",
+            "只在短期内使用"
+          ],
+          [
+            "improve transport systems",
+            "改善交通系统"
+          ],
+          [
+            "international visitors",
+            "国际游客"
+          ],
+          [
+            "a realistic long-term purpose",
+            "现实的长期用途"
+          ],
+          [
+            "strict and transparent budget",
+            "严格透明的预算"
+          ]
+        ],
+        "paragraphs": [
+          "Countries often compete to host events such as the Olympic Games or a football tournament. Major events involve serious costs, but I believe the benefits can outweigh the disadvantages when spending is controlled and new facilities have a useful future.",
+          "Critics argue that hosting can waste public money and disturb residents. Governments may build expensive stadiums that are used for only a short period, while hospitals or schools still need funding. Construction can force people to move and create traffic, noise and higher prices. If visitor numbers are lower than expected, the country may also carry debt for many years. These problems show why an event should not be accepted mainly for national pride.",
+          "Supporters believe well-planned events can support tourism and useful investment. A country may improve transport systems, public spaces and sports facilities that residents continue using later. International visitors spend money in hotels, restaurants and local businesses, and television coverage can encourage future tourism. New sports programmes may encourage children to exercise, while local workers can gain training and experience. In my view, every project should have a realistic long-term purpose, and existing buildings should be used whenever possible. A strict and transparent budget can prevent the largest risks while keeping the economic and social benefits.",
+          "In conclusion, although international sporting events can cause debt and disruption, their advantages can outweigh the disadvantages under careful planning. Countries should host them only when facilities, transport and budgets serve residents after the event ends, rather than only visitors and sponsors."
+        ]
+      },
+      {
+        "gid": "T2-0882",
+        "number": 162,
+        "tag": "本周重点",
+        "title": "政府是否应该资助艺术家",
+        "prompt": "Some believe that the government should support artists like musicians, painters, and poets, while others argue that this is a waste of money. Discuss both views and give your own opinion.",
+        "position": "支持有限且透明的公共资助，重点支持公众可接触的文化项目",
+        "materials": [
+          "艺术文化和公共价值",
+          "政府资助和预算优先级"
+        ],
+        "frameworkLabels": [
+          "反对公共资助",
+          "支持资助与判断"
+        ],
+        "introPhrases": [
+          [
+            "public money has many competing uses",
+            "公共资金有许多相互竞争的用途"
+          ],
+          [
+            "limited support for the arts is justified",
+            "对艺术的有限支持是合理的"
+          ]
+        ],
+        "reasonPhrases": [
+          [
+            "critics see artistic funding as a lower priority",
+            "批评者认为艺术资助优先级较低"
+          ],
+          [
+            "the arts create cultural and public benefits",
+            "艺术能够创造文化和公共利益"
+          ]
+        ],
+        "phrases": [
+          [
+            "health care and education",
+            "医疗和教育"
+          ],
+          [
+            "support themselves through the market",
+            "通过市场维持自身发展"
+          ],
+          [
+            "preserve local culture",
+            "保护当地文化"
+          ],
+          [
+            "free public performances",
+            "免费公共演出"
+          ],
+          [
+            "clear public value",
+            "明确的公共价值"
+          ],
+          [
+            "open and competitive process",
+            "公开竞争的程序"
+          ]
+        ],
+        "paragraphs": [
+          "People disagree about whether governments should give money to artists. Public money has many competing uses, and not every artistic project deserves funding. However, I believe limited support for the arts is justified when it provides clear benefits to the public.",
+          "On one side, critics see artistic funding as a lower priority. Governments must pay for health care and education, housing and transport before supporting individual careers. Successful musicians or painters may be able to support themselves through the market by selling tickets or work. Officials may also choose projects according to personal taste, and money could go to art that few citizens see. From this view, private buyers and charities should decide which artists receive support.",
+          "On the other side, the arts create cultural and public benefits. Music, painting and poetry can preserve local culture, improve public spaces and help people understand different experiences. Some valuable work may never be commercially popular, especially in small communities. Public art can also attract visitors and support nearby shops and services. Governments can fund museums, free public performances, school programmes and projects with clear public value. In my opinion, grants should be modest and awarded through an open and competitive process by independent experts. This reduces waste while allowing wider access to culture.",
+          "In conclusion, although artistic funding should not come before essential services, its social and cultural advantages outweigh the limited cost of carefully chosen programmes. Transparent public support can benefit whole communities over the long term without paying every artist directly."
+        ]
+      }
+    ],
+    "two-question": [
+      {
+        "gid": "T2-1148",
+        "number": 3,
+        "tag": "必练高频",
+        "title": "大学入学竞争增加",
+        "prompt": "Competition for places at university is increasing. Why do more and more people want to study at university? Is it a positive or negative development?",
+        "position": "原因是就业和社会期待；总体积极，但需保留职业教育并保证质量",
+        "materials": [
+          "高等教育和就业",
+          "教育机会和职业培训"
+        ],
+        "frameworkLabels": [
+          "第一问｜原因",
+          "第二问｜评价"
+        ],
+        "introPhrases": [
+          [
+            "demand for university education is rising",
+            "大学教育需求正在上升"
+          ],
+          [
+            "better employment prospects",
+            "更好的就业前景"
+          ],
+          [
+            "a mainly positive development",
+            "总体积极的发展"
+          ]
+        ],
+        "reasonPhrases": [
+          [
+            "more jobs now require a degree",
+            "越来越多工作要求大学学历"
+          ],
+          [
+            "wider university participation can benefit society",
+            "更多人接受大学教育能够造福社会"
+          ]
+        ],
+        "phrases": [
+          [
+            "professional and office careers",
+            "专业和办公室职业"
+          ],
+          [
+            "social respect and personal independence",
+            "社会认可和个人独立"
+          ],
+          [
+            "a more skilled workforce",
+            "技能更强的劳动力"
+          ],
+          [
+            "expand too quickly",
+            "扩张过快"
+          ],
+          [
+            "high-quality vocational routes",
+            "高质量职业教育路径"
+          ],
+          [
+            "real labour-market needs",
+            "真实的劳动力市场需求"
+          ]
+        ],
+        "paragraphs": [
+          "Competition for university places has grown in many countries as demand for university education is rising. This is mainly linked to better employment prospects and social expectations. I consider wider access a mainly positive development, although countries must protect teaching quality and other training routes.",
+          "Regarding the first question, more jobs now require a degree. Professional and office careers often ask for university qualifications, even when some skills can be learned at work. Young people therefore believe a degree will provide higher pay and more stable employment. Parents and schools may also present university as the normal path to social respect and personal independence. In addition, more families can now afford higher education, and online information makes students aware of courses in other cities or countries. These changes increase the number of applicants faster than available places.",
+          "As for the second question, wider university participation can benefit society. Graduates can provide a more skilled workforce for health care, engineering, education and technology, while students from poorer backgrounds gain new opportunities. However, universities can expand too quickly, causing crowded classes, lower standards and graduates without suitable jobs. Governments should therefore fund quality teaching and maintain high-quality vocational routes for practical careers. Course numbers should also reflect real labour-market needs rather than the belief that every person requires a degree.",
+          "In conclusion, people increasingly seek university places because qualifications are connected with jobs, income and status. This trend is mostly positive when universities maintain standards and students can also choose respected vocational education."
+        ]
+      },
+      {
+        "gid": "T2-0733",
+        "number": 52,
+        "tag": "必练高频",
+        "title": "全球环境方案为何无效及如何改进",
+        "prompt": "Environmental problems such as pollution and climate change affect all the people in the world. Although global decisions are made to reduce these problems, the solutions are not effective. Why are the solutions ineffective? How can these problems be solved?",
+        "position": "原因是执行和合作不足；应采用可衡量承诺、监督和资金支持",
+        "materials": [
+          "国际环境合作",
+          "环境政策和法规"
+        ],
+        "frameworkLabels": [
+          "第一问｜无效原因",
+          "第二问｜解决办法"
+        ],
+        "introPhrases": [
+          [
+            "international environmental decisions often achieve too little",
+            "国际环境决定往往收效甚微"
+          ],
+          [
+            "weak enforcement and unequal costs",
+            "执行不力和成本不均"
+          ],
+          [
+            "stronger targets and practical support",
+            "更严格的目标和实际支持"
+          ]
+        ],
+        "reasonPhrases": [
+          [
+            "countries often avoid expensive short-term action",
+            "各国常常回避短期成本高昂的行动"
+          ],
+          [
+            "agreements need measurable targets and reliable enforcement",
+            "协议需要可衡量目标和可靠执行"
+          ]
+        ],
+        "phrases": [
+          [
+            "economic advantage",
+            "经济利益"
+          ],
+          [
+            "clear penalties",
+            "明确处罚"
+          ],
+          [
+            "publish regular progress reports",
+            "定期公布进展报告"
+          ],
+          [
+            "financial and technical support",
+            "资金和技术支持"
+          ],
+          [
+            "clean energy and public transport",
+            "清洁能源和公共交通"
+          ],
+          [
+            "shared responsibility",
+            "共同责任"
+          ]
+        ],
+        "paragraphs": [
+          "Pollution and climate change cross national borders, yet international environmental decisions often achieve too little. The main reasons are weak enforcement and unequal costs between countries. Stronger targets and practical support are needed if global agreements are to produce real change.",
+          "Regarding the first question, countries often avoid expensive short-term action. Closing a polluting factory or changing an energy system can affect jobs and prices, so leaders may delay difficult decisions. Some governments also fear losing economic advantage if other countries continue using cheaper, dirtier methods. International agreements may use general promises without deadlines, independent checks or clear penalties. Poorer countries face another problem because they may lack money and technology. As a result, each nation waits for others to act and total emissions continue rising.",
+          "As for the second question, agreements need measurable targets and reliable enforcement. Countries should publish regular progress reports using the same standards, and serious failure should lead to financial or trade consequences. The rules must apply equally so that responsible countries are not placed at an economic disadvantage. Wealthier nations should provide financial and technical support so poorer countries can develop clean energy and public transport without slowing basic development. National governments must then turn global promises into local laws for power stations, vehicles and industry. Public information can also help voters demand progress and understand that environmental protection is a shared responsibility.",
+          "In conclusion, global solutions are ineffective when promises are vague, costly and poorly enforced. Clear targets, transparent monitoring, fair support and strong national laws can make international cooperation more practical and successful."
+        ]
+      },
+      {
+        "gid": "T2-0518",
+        "number": 74,
+        "tag": "必练高频",
+        "title": "青少年犯罪增加的原因和处罚",
+        "prompt": "In many parts of the world, children and teenagers are committing more crimes. What are the reasons for this trend? How should these young people be punished?",
+        "position": "原因是家庭、学校和同伴支持不足；处罚应兼顾责任与改造",
+        "materials": [
+          "青少年犯罪和法律",
+          "家庭教育和社会支持"
+        ],
+        "frameworkLabels": [
+          "第一问｜原因",
+          "第二问｜处罚"
+        ],
+        "introPhrases": [
+          [
+            "youth crime has several social causes",
+            "青少年犯罪有多种社会原因"
+          ],
+          [
+            "weak supervision and exclusion",
+            "监管不足和社会排斥"
+          ],
+          [
+            "proportionate punishment and rehabilitation",
+            "适度处罚和改造"
+          ]
+        ],
+        "reasonPhrases": [
+          [
+            "some young people lack stable guidance and opportunity",
+            "一些年轻人缺乏稳定指导和机会"
+          ],
+          [
+            "punishment should protect the public and change behaviour",
+            "处罚应保护公众并改变行为"
+          ]
+        ],
+        "phrases": [
+          [
+            "poor school attendance",
+            "出勤情况不佳"
+          ],
+          [
+            "pressure from criminal groups",
+            "犯罪团伙的压力"
+          ],
+          [
+            "supervised community service",
+            "受监督的社区服务"
+          ],
+          [
+            "education and counselling",
+            "教育和心理辅导"
+          ],
+          [
+            "repair damage to victims",
+            "弥补对受害者造成的伤害"
+          ],
+          [
+            "secure youth detention",
+            "封闭式青少年拘留"
+          ]
+        ],
+        "paragraphs": [
+          "Youth crime has several social causes, especially weak supervision and exclusion from school or work. Young offenders must face consequences, but proportionate punishment and rehabilitation are more useful than simply copying adult sentences.",
+          "Regarding the first question, some young people lack stable guidance and opportunity. Parents may work long hours or face serious family problems, leaving children without enough supervision. Poor school attendance can then reduce skills and connection with responsible adults. Teenagers who feel excluded may seek acceptance from friends or face pressure from criminal groups. A lack of affordable sports or youth programmes can leave them with few safe activities. Online content can also make theft or violence appear exciting without showing the harm to victims. Poverty alone does not cause crime, but limited support and few realistic opportunities can increase the risk.",
+          "As for punishment, punishment should protect the public and change behaviour. Minor first offences can lead to supervised community service, education and counselling. Young people may also meet trained staff, continue school and repair damage to victims where appropriate. Serious violent or repeated crime requires secure youth detention, but it should still include treatment and learning. Courts must consider age, intent, personal history and the harm caused. This approach makes responsibility clear while giving a developing person a realistic chance to build a lawful life.",
+          "In conclusion, youth crime often grows from weak support, school failure and harmful peer influence. Fair punishment should be firm enough to protect society but focused strongly on education, supervision and preventing another offence."
+        ]
+      },
+      {
+        "gid": "T2-0855",
+        "number": 179,
+        "tag": "必练高频",
+        "title": "报纸影响观点的原因及利弊",
+        "prompt": "Nowadays, newspapers have an increasing influence on people’s ideas and opinions. What are the reasons for this? Is it a negative or positive development?",
+        "position": "原因是选题、重复传播和品牌信任；总体偏负面，需提高多源阅读",
+        "materials": [
+          "新闻媒体和舆论",
+          "信息可靠性和媒体素养"
+        ],
+        "frameworkLabels": [
+          "第一问｜原因",
+          "第二问｜评价"
+        ],
+        "introPhrases": [
+          [
+            "newspapers can strongly shape public opinion",
+            "报纸能够强烈塑造公众舆论"
+          ],
+          [
+            "repeated and widely shared reporting",
+            "被反复广泛传播的报道"
+          ],
+          [
+            "a mainly negative development",
+            "总体偏负面的发展"
+          ]
+        ],
+        "reasonPhrases": [
+          [
+            "newspapers decide which stories receive attention",
+            "报纸决定哪些事件获得关注"
+          ],
+          [
+            "too much influence can narrow public understanding",
+            "影响力过大会缩小公众认知"
+          ]
+        ],
+        "phrases": [
+          [
+            "headlines and photographs",
+            "标题和照片"
+          ],
+          [
+            "trusted news brands",
+            "受信任的新闻品牌"
+          ],
+          [
+            "one political or commercial interest",
+            "单一政治或商业利益"
+          ],
+          [
+            "compare several reliable sources",
+            "比较多个可靠来源"
+          ],
+          [
+            "separate fact from opinion",
+            "区分事实和观点"
+          ],
+          [
+            "independent journalism",
+            "独立新闻报道"
+          ]
+        ],
+        "paragraphs": [
+          "Newspapers can strongly shape public opinion even though many readers now use digital media. This influence comes from repeated and widely shared reporting and the trust attached to established organisations. In my view, it is a mainly negative development when only a few sources control public attention.",
+          "Regarding the first question, newspapers decide which stories receive attention. Headlines and photographs can make one issue appear urgent while another receives almost no coverage. Articles are also copied onto websites and social media, so the same message may reach people many times. Many readers lack time to investigate every topic and therefore rely on trusted news brands to explain politics, crime or the economy. Editorial language and the order of information can influence opinions even when the basic facts are correct.",
+          "As for the second question, too much influence can narrow public understanding. A newspaper connected to one political or commercial interest may present only evidence that supports its position. Repeated negative stories can also create unnecessary fear or prejudice. Responsible newspapers do provide investigations and useful public information, so the answer is not censorship. Readers should compare several reliable sources and learn to separate fact from opinion. Clear ownership rules and support for independent journalism can also reduce the risk that one organisation controls debate.",
+          "In conclusion, newspapers influence ideas because they select, frame and repeat information through trusted channels. This is mostly negative when readers depend on one source, but media education and a diverse press can make the influence healthier."
+        ]
+      },
+      {
+        "gid": "T2-0540",
+        "number": 38,
+        "tag": "本周重点",
+        "title": "如何帮助老年人使用手机和互联网",
+        "prompt": "Mobile phones and the internet bring a lot of benefits to people nowadays. However, older people use them the least. In what aspects do mobile phones and the internet benefit older people? How can we encourage them to use these technologies?",
+        "position": "可改善联系和独立生活；应通过简单设计、耐心培训和安全支持鼓励使用",
+        "materials": [
+          "数字技术和老年生活",
+          "数字技能和社会支持"
+        ],
+        "frameworkLabels": [
+          "第一问｜好处",
+          "第二问｜鼓励办法"
+        ],
+        "introPhrases": [
+          [
+            "digital tools can improve older people's independence",
+            "数字工具能够提高老年人的独立性"
+          ],
+          [
+            "communication and access to services",
+            "沟通和获取服务"
+          ],
+          [
+            "patient training and safer design",
+            "耐心培训和更安全的设计"
+          ]
+        ],
+        "reasonPhrases": [
+          [
+            "phones and the internet help older people stay connected",
+            "手机和互联网帮助老年人保持联系"
+          ],
+          [
+            "older users need simple teaching and continued support",
+            "老年用户需要简单教学和持续支持"
+          ]
+        ],
+        "phrases": [
+          [
+            "video calls with family",
+            "与家人视频通话"
+          ],
+          [
+            "book medical appointments",
+            "预约医疗服务"
+          ],
+          [
+            "larger text and clear buttons",
+            "更大字体和清晰按钮"
+          ],
+          [
+            "small practical steps",
+            "小而实用的步骤"
+          ],
+          [
+            "recognise online fraud",
+            "识别网络诈骗"
+          ],
+          [
+            "a trusted person to ask for help",
+            "可以求助的可信任人士"
+          ]
+        ],
+        "paragraphs": [
+          "Although older adults use digital technology less, digital tools can improve older people's independence through communication and access to services. Patient training and safer design can encourage them to use these tools with greater confidence.",
+          "Regarding the first question, phones and the internet help older people stay connected. Video calls with family can reduce loneliness, especially when relatives live far away. Older users can also book medical appointments, receive reminders, check transport and buy necessary goods without difficult journeys. Emergency calls and location services may improve safety. For example, a person with limited movement can speak to a doctor online and ask a family member for help immediately. These services allow many older people to remain independent for longer.",
+          "As for the second question, older users need simple teaching and continued support. Community centres, libraries and families can teach small practical steps instead of presenting too much information at once. Devices should offer larger text and clear buttons, while important services should avoid complicated sign-in processes. Training must also show users how to create safe passwords and recognise online fraud. Regular practice with a familiar task, such as sending a photo, can build confidence. Most importantly, each learner should have a trusted person to ask for help when a problem appears.",
+          "In conclusion, mobile phones and the internet can improve contact, safety and access to everyday services for older people. Simple technology, patient lessons and reliable personal support can help more of them use these benefits safely and with greater independence."
+        ]
+      },
+      {
+        "gid": "T2-0433",
+        "number": 56,
+        "tag": "本周重点",
+        "title": "食物浪费的原因和对策",
+        "prompt": "Nowadays people waste a lot of food that was brought from shops and restaurants. Why do you think people waste food? What can be done to reduce the amount of food they throw away?",
+        "position": "原因是过度购买、份量过大和标签误解；应改善计划、份量、标签和捐赠",
+        "materials": [
+          "食品消费和家庭习惯",
+          "垃圾减少和企业责任"
+        ],
+        "frameworkLabels": [
+          "第一问｜原因",
+          "第二问｜解决办法"
+        ],
+        "introPhrases": [
+          [
+            "food waste has become a common problem",
+            "食物浪费已成为常见问题"
+          ],
+          [
+            "poor planning and oversized portions",
+            "规划不足和份量过大"
+          ],
+          [
+            "action by households and businesses",
+            "家庭和企业共同采取行动"
+          ]
+        ],
+        "reasonPhrases": [
+          [
+            "people often buy or receive more food than they need",
+            "人们经常购买或得到超过需要的食物"
+          ],
+          [
+            "better planning and clearer business practices can reduce waste",
+            "更好的计划和更清晰的商业做法能够减少浪费"
+          ]
+        ],
+        "phrases": [
+          [
+            "special offers and large packages",
+            "促销和大包装"
+          ],
+          [
+            "confuse date labels",
+            "混淆日期标签"
+          ],
+          [
+            "plan meals and shopping lists",
+            "规划膳食和购物清单"
+          ],
+          [
+            "offer smaller portions",
+            "提供更小份量"
+          ],
+          [
+            "donate safe unsold food",
+            "捐赠安全的未售食物"
+          ],
+          [
+            "the real cost of waste",
+            "浪费的真实成本"
+          ]
+        ],
+        "paragraphs": [
+          "Food waste has become a common problem in homes, shops and restaurants. The main causes are poor planning and oversized portions, while effective solutions require action by households and businesses as well as clearer public information.",
+          "Regarding the first question, people often buy or receive more food than they need. Special offers and large packages can make extra purchases appear cheap, even when some food will not be eaten. Families may shop without checking what they already have or change meal plans during the week. Many consumers also confuse date labels and throw away food that is still safe. Restaurants contribute by serving portions that are too large and preparing more dishes than customers order. Because food is widely available, its full environmental and financial value is easily forgotten.",
+          "As for the second question, better planning and clearer business practices can reduce waste. Households should plan meals and shopping lists, store food correctly and use older items first. Shops can sell imperfect produce, explain date labels and reduce prices near the end of the day. Restaurants should offer smaller portions and allow customers to take leftovers home. Businesses can also donate safe unsold food through local charities. Schools and public campaigns should explain the real cost of waste, including the water, land, energy and money used to produce it.",
+          "In conclusion, food is wasted because people overbuy, misunderstand labels and receive excessive portions. Practical planning, flexible portion sizes, clearer information and food donation can greatly reduce the amount sent to rubbish bins."
+        ]
+      },
+      {
+        "gid": "T2-0513",
+        "number": 89,
+        "tag": "本周重点",
+        "title": "衡量国家成功的其他因素",
+        "prompt": "Economic progress is often used to measure a country's success. However, some people believe that other factors are more important. What other factors should also be considered when measuring a country's success? Do you think one factor is more important than others?",
+        "position": "还应考察健康、教育、环境和公平；公共健康最重要",
+        "materials": [
+          "国家发展和生活质量",
+          "公共健康和社会公平"
+        ],
+        "frameworkLabels": [
+          "第一问｜其他因素",
+          "第二问｜最重要因素"
+        ],
+        "introPhrases": [
+          [
+            "economic growth is only one measure of success",
+            "经济增长只是成功的一项指标"
+          ],
+          [
+            "health, education, equality and the environment",
+            "健康、教育、公平和环境"
+          ],
+          [
+            "public health is the most fundamental factor",
+            "公共健康是最基础的因素"
+          ]
+        ],
+        "reasonPhrases": [
+          [
+            "a successful country should provide a good quality of life",
+            "成功国家应提供良好生活质量"
+          ],
+          [
+            "good health supports every other area of progress",
+            "良好健康支撑其他所有发展领域"
+          ]
+        ],
+        "phrases": [
+          [
+            "access to schools and medical care",
+            "获得学校教育和医疗服务"
+          ],
+          [
+            "clean air and water",
+            "清洁的空气和水"
+          ],
+          [
+            "income and opportunity are shared",
+            "收入和机会得到共享"
+          ],
+          [
+            "life expectancy",
+            "预期寿命"
+          ],
+          [
+            "preventable disease",
+            "可预防疾病"
+          ],
+          [
+            "a broad group of indicators",
+            "一组广泛指标"
+          ]
+        ],
+        "paragraphs": [
+          "Economic growth is only one measure of success because higher national income does not automatically improve daily life. Governments should also examine health, education, equality and the environment. Among these, I believe public health is the most fundamental factor.",
+          "Regarding the first question, a successful country should provide a good quality of life. Useful indicators include access to schools and medical care, personal safety, clean air and water, and whether income and opportunity are shared across society. Employment quality and affordable housing also matter. For example, a country may report rapid economic growth while many families cannot afford treatment or breathe polluted air. Such a country is wealthier on paper, but its citizens may not feel secure or able to improve their lives.",
+          "As for the second question, good health supports every other area of progress. Healthy children can attend school, healthy adults can work and care for families, and older people can live independently. Measures such as life expectancy, child health and rates of preventable disease reveal whether development reaches ordinary citizens. Health is connected to clean environments, education and fair income, so it reflects several other conditions as well. Nevertheless, no single number is enough, and governments should publish a broad group of indicators to guide policy.",
+          "In conclusion, national success should be judged through economic strength, education, equality, safety, environmental quality and health. Public health deserves the greatest attention because people cannot benefit fully from other achievements when illness prevents them from learning, working or living well."
+        ]
+      }
+    ]
+  };
+  const reusedSpecs = [
+    {
+      "type": "stance",
+      "reuseId": "communication-relationships",
+      "gid": "T2-0575",
+      "number": 36,
+      "tag": "必练高频",
+      "prompt": "Some people think that modern communication technology is having a negative effect on social relationships. To what extent do you agree or disagree with this?"
+    },
+    {
+      "type": "two-question",
+      "reuseId": "subject-gender",
+      "gid": "T2-0488",
+      "number": 7,
+      "tag": "本周重点",
+      "prompt": "In schools and universities, girls tend to choose arts subjects (e.g. languages) while boys like science subjects (e.g. physics). What are the reasons for this trend? Do you think this tendency should be changed?"
+    },
+    {
+      "type": "comparison",
+      "reuseId": "wildlife-too-late",
+      "gid": "T2-0742",
+      "number": 57,
+      "tag": "本周重点",
+      "prompt": "Human activities have had negative effects on plant and animal species. Some people think it is too late to do anything about this problem, while others believe that effective measures can still be taken to improve this situation. Discuss both views and give your opinion."
+    },
+    {
+      "type": "two-question",
+      "reuseId": "species-extinction",
+      "gid": "T2-0758",
+      "number": 53,
+      "tag": "必练高频",
+      "prompt": "In many countries, the number of animals and plants is declining. Why do you think this is happening? How can this issue be solved?"
+    },
+    {
+      "type": "two-question",
+      "reuseId": "older-parents",
+      "gid": "T2-0522",
+      "number": 82,
+      "tag": "本周重点",
+      "prompt": "In some countries today, many people decide to have their first child when they are older. What are the reasons? Do you think the advantages of this outweigh the disadvantages?"
+    }
+  ];
+
+  const toPhrases = (pairs) => pairs.map(([text, translation]) => ({ text, translation }));
+  const makeEssay = (spec) => ({
+    id: "priority-" + spec.gid.toLowerCase(),
+    sourceGid: spec.gid,
+    sourceNumber: spec.number,
+    sourceTag: spec.tag,
+    sourcePeriod,
+    targetBand: "5.5",
+    title: spec.title,
+    prompt: spec.prompt,
+    position: spec.position,
+    materials: spec.materials,
+    frameworkPoints: spec.reasonPhrases.map((phrase, index) => ({
+      label: spec.frameworkLabels[index],
+      text: phrase[1] + "。",
+    })),
+    keyPhrases: toPhrases(spec.phrases),
+    paragraphs: spec.paragraphs,
+    introPhrases: toPhrases(spec.introPhrases),
+    reasonPhrases: toPhrases(spec.reasonPhrases),
+  });
+
+  const priorityByType = {
+    stance: prioritySpecs.stance.map(makeEssay),
+    comparison: prioritySpecs.comparison.map(makeEssay),
+    "two-question": prioritySpecs["two-question"].map(makeEssay),
+  };
+  const originalById = new Map(
+    window.IELTS_DATA.essays.flatMap((category) => category.essays).map((essay) => [essay.id, essay]),
+  );
+  const reusedIds = new Set(reusedSpecs.map((spec) => spec.reuseId));
+
+  reusedSpecs.forEach((spec) => {
+    const original = originalById.get(spec.reuseId);
+    if (!original) throw new Error("Missing reusable Task 2 essay: " + spec.reuseId);
+    priorityByType[spec.type].push({
+      ...original,
+      prompt: spec.prompt,
+      sourceGid: spec.gid,
+      sourceNumber: spec.number,
+      sourceTag: spec.tag,
+      sourcePeriod,
+      targetBand: "5.5",
+    });
+  });
+
+  const tagRank = { "必练高频": 0, "本周重点": 1 };
+  window.IELTS_DATA.essays.forEach((category) => {
+    const priority = priorityByType[category.id] || [];
+    priority.sort((left, right) => (tagRank[left.sourceTag] - tagRank[right.sourceTag]) || (left.sourceNumber - right.sourceNumber));
+    category.essays = [
+      ...priority,
+      ...category.essays.filter((essay) => !reusedIds.has(essay.id)),
+    ];
+  });
+})();

@@ -43,9 +43,13 @@ function highlight(text, phrases = []) {
   const matches = phrases
     .filter(Boolean)
     .filter((phrase) => text.toLowerCase().includes(phrase.toLowerCase()))
-    .sort((a, b) => b.length - a.length);
+    .map((phrase) => ({ raw: phrase, safe: escapeHtml(phrase) }))
+    .sort((a, b) => b.raw.length - a.raw.length);
   if (!matches.length) return safeText;
-  const pattern = new RegExp(`(${matches.map(escapeRegExp).join("|")})`, "gi");
+  const pattern = new RegExp(
+    `(${matches.map(({ safe }) => escapeRegExp(safe)).join("|")})`,
+    "gi",
+  );
   return safeText.replace(pattern, "<mark>$1</mark>");
 }
 
@@ -494,9 +498,9 @@ function renderTaskTwo() {
       <div class="panel-body two-column">${framework.modes.map((mode) => `<article class="card"><span class="badge">${escapeHtml(mode.includes)}</span><h3>${escapeHtml(mode.name)}</h3><p>${escapeHtml(mode.goal)}</p><div class="answer">${escapeHtml(mode.intro)}</div><p class="translation">${escapeHtml(mode.opinionRule || mode.relationship)}</p></article>`).join("")}</div>
     </section>
     <div class="content-grid" style="margin-top:24px">
-      <aside class="sidebar" aria-label="范文分类"><span class="sidebar-label">选择范文</span>${categories.map((item) => `<div><button class="sidebar-button ${item.id === category.id ? "active" : ""}" type="button" data-essay-category="${escapeHtml(item.id)}"><strong>${escapeHtml(item.name)}</strong><small>${item.essays.length} 篇</small></button>${item.id === category.id ? item.essays.map((entry) => `<button class="sidebar-button ${entry.id === essay.id ? "active" : ""}" type="button" data-essay-id="${escapeHtml(entry.id)}" style="padding-left:22px"><strong>${escapeHtml(entry.title)}</strong><small>${escapeHtml(entry.position)}</small></button>`).join("") : ""}</div>`).join("")}</aside>
+      <aside class="sidebar" aria-label="范文分类"><span class="sidebar-label">选择范文</span>${categories.map((item) => `<div><button class="sidebar-button ${item.id === category.id ? "active" : ""}" type="button" data-essay-category="${escapeHtml(item.id)}"><strong>${escapeHtml(item.name)}</strong><small>${item.essays.length} 篇</small></button>${item.id === category.id ? item.essays.map((entry) => `<button class="sidebar-button ${entry.id === essay.id ? "active" : ""}" type="button" data-essay-id="${escapeHtml(entry.id)}" style="padding-left:22px"><strong>${escapeHtml(entry.title)}</strong><small>${escapeHtml(entry.sourceTag ? `${entry.sourceTag} · ${entry.position}` : entry.position)}</small></button>`).join("") : ""}</div>`).join("")}</aside>
       <article class="panel">
-        <header class="panel-header"><span class="eyebrow">${escapeHtml(category.name)} · 立场：${escapeHtml(essay.position)}</span><h2>${escapeHtml(essay.title)}</h2><p>${escapeHtml(essay.prompt)}</p><div class="chip-row">${essay.materials.map((item) => `<span class="badge">${escapeHtml(item)}</span>`).join("")}</div></header>
+        <header class="panel-header"><span class="eyebrow">${escapeHtml(category.name)} · 立场：${escapeHtml(essay.position)}</span><h2>${escapeHtml(essay.title)}</h2><p>${escapeHtml(essay.prompt)}</p><div class="chip-row">${essay.sourceTag ? `<span class="badge gold">${escapeHtml(`${essay.sourceTag} · ${essay.sourceGid} · ${essay.sourcePeriod} · 目标 ${essay.targetBand} 分`)}</span>` : ""}${essay.materials.map((item) => `<span class="badge">${escapeHtml(item)}</span>`).join("")}</div></header>
         <div class="panel-body">
           <div class="section-heading"><h2>快速框架</h2></div><div class="two-column">${essay.frameworkPoints.map((point) => `<article class="card"><span class="badge gold">${escapeHtml(point.label)}</span><p>${escapeHtml(point.text)}</p></article>`).join("")}</div>
           <div class="section-heading"><h2>重点短语与核心句</h2></div><div class="chip-row">${focusPhrases.map((phrase) => `<span class="chip">${escapeHtml(phrase.text)}｜${escapeHtml(phrase.translation)}</span>`).join("")}</div>
