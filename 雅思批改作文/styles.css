@@ -39,16 +39,7 @@ a { color: inherit; }
 .local-badge { justify-self: end; padding: 6px 11px; border-radius: 999px; background: var(--accent-wash); color: var(--accent-strong); font-size: 12px; font-weight: 800; }
 
 main { width: min(1420px, calc(100% - 32px)); min-height: calc(100vh - 72px); margin: 0 auto; padding: 40px 0 72px; }
-.hero { position: relative; display: grid; grid-template-columns: minmax(0,1fr) auto; align-items: end; gap: 24px; margin-bottom: 26px; padding: clamp(26px,4vw,50px); overflow: hidden; border-radius: 28px; background: linear-gradient(135deg,#1c344c,#315d8a); color: #fff; box-shadow: var(--shadow); }
-.hero::after { content: ""; position: absolute; right: -75px; bottom: -130px; width: 320px; height: 320px; border: 58px solid rgba(255,255,255,.07); border-radius: 50%; }
-.hero > * { position: relative; z-index: 1; }
 .eyebrow { display: block; margin-bottom: 9px; color: #bfd2e4; font-size: 12px; font-weight: 850; letter-spacing: .13em; text-transform: uppercase; }
-.hero h1 { max-width: 880px; margin: 0; font-family: Georgia,serif; font-size: clamp(32px,5vw,58px); line-height: 1.08; letter-spacing: -.03em; }
-.hero p { max-width: 760px; margin: 15px 0 0; color: #d9e5ef; }
-.hero-stat { min-width: 150px; padding: 20px; border: 1px solid rgba(255,255,255,.18); border-radius: 18px; background: rgba(255,255,255,.08); text-align: center; }
-.hero-stat strong,.hero-stat span { display: block; }
-.hero-stat strong { font-family: Georgia,serif; font-size: 38px; line-height: 1; }
-.hero-stat span { margin-top: 8px; color: #d6e2ec; font-size: 12px; }
 
 .content-grid { display: grid; grid-template-columns: 300px minmax(0,1fr); gap: 24px; align-items: start; }
 .sidebar { position: sticky; top: 94px; max-height: calc(100vh - 118px); overflow: auto; padding: 10px; border: 1px solid var(--line); border-radius: 18px; background: rgba(255,255,255,.8); }
@@ -135,8 +126,6 @@ mark { padding: 0 .15em; border-radius: 3px; background: #f6dca6; color: inherit
   .main-nav { grid-column: 1/-1; justify-content: center; overflow-x: auto; }
   .local-badge { grid-column: 2; grid-row: 1; }
   main { padding-top: 24px; }
-  .hero { grid-template-columns: 1fr; }
-  .hero-stat { justify-self: start; }
   .content-grid { grid-template-columns: 1fr; }
   .sidebar { position: static; display: flex; max-height: none; overflow-x: auto; }
   .sidebar-label,.sidebar-actions { display: none; }
@@ -149,7 +138,6 @@ mark { padding: 0 .15em; border-radius: 3px; background: #f6dca6; color: inherit
   .main-nav { justify-content: start; }
   .main-nav button { flex: 0 0 auto; padding-inline: 11px; }
   main { width: min(100% - 20px,1420px); }
-  .hero { padding: 26px 22px; border-radius: 20px; }
   .panel-header,.panel-body { padding: 20px; }
   .criteria-grid,.two-column { grid-template-columns: 1fr; }
   .review-title { display: block; }

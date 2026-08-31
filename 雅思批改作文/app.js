@@ -226,10 +226,6 @@ async function copyText(text) {
   showToast("已复制到剪贴板");
 }
 
-function hero(kicker, title, description, count, label) {
-  return `<header class="hero"><div><span class="eyebrow">${escapeHtml(kicker)}</span><h1>${escapeHtml(title)}</h1><p>${escapeHtml(description)}</p></div><div class="hero-stat"><strong>${escapeHtml(count)}</strong><span>${escapeHtml(label)}</span></div></header>`;
-}
-
 function setPage(page, { saveCurrent = true } = {}) {
   if (!PAGES.has(page)) page = "reviews";
   if (saveCurrent) {
@@ -326,14 +322,13 @@ function reviewSidebar(records, selectedId) {
 function renderReviews() {
   const review = currentReview();
   if (!review) {
-    main.innerHTML = `${hero("IELTS WRITING", "作文批改记录", "记录为空，可从 JSONL 备份恢复。", 0, "篇作文")}<div class="empty-state"><div><p>当前没有作文记录。</p><button class="button" type="button" data-import>导入 JSONL</button></div></div>`;
+    main.innerHTML = '<div class="empty-state"><div><p>当前没有作文记录。</p><button class="button" type="button" data-import>导入 JSONL</button></div></div>';
     bindImportExport();
     return;
   }
   state.selectedReviewId = review.id;
   const content = state.reviewMode === "review" ? review.reviewHtml : review.cleanHtml;
   main.innerHTML = `
-    ${hero("IELTS WRITING · LOCAL REVIEW", "作文批改记录", "编辑内容保存在当前浏览器；可随时导出 JSONL 备份或在其他浏览器导入。", state.reviews.length, "篇作文")}
     <div class="content-grid">
       ${reviewSidebar(state.reviews, review.id)}
       <article class="panel">
@@ -461,7 +456,6 @@ function renderLetters() {
   const template = templates.find((item) => item.id === state.letterId) || templates[0];
   state.letterId = template.id;
   main.innerHTML = `
-    ${hero("GENERAL TRAINING · TASK 1", "书信通用框架", "按写信目的选择模板，再根据题目替换方括号内容。", templates.length, "类书信模板")}
     <div class="content-grid">
       <aside class="sidebar" aria-label="书信类型"><span class="sidebar-label">选择类型</span>${templates.map((item) => `<button class="sidebar-button ${item.id === template.id ? "active" : ""}" type="button" data-letter-id="${escapeHtml(item.id)}"><strong>${escapeHtml(item.name)}</strong><small>${escapeHtml(item.tone)}</small></button>`).join("")}</aside>
       <article class="panel">
@@ -490,9 +484,7 @@ function renderTaskTwo() {
   const essay = category.essays.find((item) => item.id === state.essayId) || category.essays[0];
   state.essayId = essay.id;
   const focusPhrases = taskTwoHighlights(essay);
-  const total = categories.reduce((sum, item) => sum + item.essays.length, 0);
   main.innerHTML = `
-    ${hero("IELTS WRITING · TASK 2", "通用框架与 G 类重点范文", "先按 G 类练习贴近度选题，再确认题型和立场；排序不代表押题概率。", total, "篇参考范文")}
     <section class="panel">
       <header class="panel-header"><span class="eyebrow">STRUCTURE FIRST</span><h2>三类主体结构</h2><p>不追求复杂句式，优先保证立场、原因、例子和结果完整。</p></header>
       <div class="panel-body two-column">${framework.modes.map((mode) => `<article class="card"><span class="badge">${escapeHtml(mode.includes)}</span><h3>${escapeHtml(mode.name)}</h3><p>${escapeHtml(mode.goal)}</p><div class="answer">${escapeHtml(mode.intro)}</div><p class="translation">${escapeHtml(mode.opinionRule || mode.relationship)}</p></article>`).join("")}</div>
@@ -525,9 +517,7 @@ function renderMaterials() {
   const categories = state.data.materials;
   const category = categories.find((item) => item.id === state.materialCategoryId) || categories[0];
   state.materialCategoryId = category.id;
-  const total = categories.reduce((sum, item) => sum + item.materials.length, 0);
   main.innerHTML = `
-    ${hero("IELTS WRITING · IDEA BANK", "Task 2 主题素材", "每个主题保留中文逻辑链、Band 6 英文段落和可复用核心短语。", total, "个主题")}
     <div class="content-grid">
       <aside class="sidebar" aria-label="素材分类"><span class="sidebar-label">选择分类</span>${categories.map((item) => `<button class="sidebar-button ${item.id === category.id ? "active" : ""}" type="button" data-material-category="${escapeHtml(item.id)}"><strong>${escapeHtml(item.name)} · ${escapeHtml(item.nameEn)}</strong><small>${item.materials.length} 个主题</small></button>`).join("")}</aside>
       <section class="panel">
