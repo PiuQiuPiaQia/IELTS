@@ -1801,6 +1801,7 @@ window.IELTS_DATA = {
         "techniques": [
           {
             "title": "三部曲",
+            "when": "感受 / 看法 / 变化",
             "steps": [
               "at first",
               "after a while / however",
@@ -1810,6 +1811,7 @@ window.IELTS_DATA = {
           },
           {
             "title": "三原因",
+            "when": "原因 / 优点 / 为什么喜欢",
             "steps": [
               "first of all",
               "secondly",
@@ -1926,6 +1928,7 @@ window.IELTS_DATA = {
         "techniques": [
           {
             "title": "三部曲",
+            "when": "感受 / 看法 / 变化",
             "steps": [
               "at first",
               "after a while / however",
@@ -1935,6 +1938,7 @@ window.IELTS_DATA = {
           },
           {
             "title": "三原因",
+            "when": "原因 / 优点 / 为什么喜欢",
             "steps": [
               "first of all",
               "secondly",

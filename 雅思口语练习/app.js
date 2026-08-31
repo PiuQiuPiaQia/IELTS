@@ -451,9 +451,10 @@ function renderPartTwo() {
 function partTwoTipsHtml(tips, universalMaterials = []) {
   const section = tips.section;
   const techniqueHtml = tips.techniques?.length ? `<div class="note">
-    <strong>Part 2 通用技巧</strong><br>
-    ${tips.techniques.map((technique) => `${escapeHtml(technique.title)}：${technique.steps.map(escapeHtml).join(" → ")}`).join("<br>")}
-    ${tips.reasonIdeas?.length ? `<br>地点类套三原因：${tips.reasonIdeas.map(escapeHtml).join(" → ")}` : ""}
+    <strong>Part 2 · 最后一问技巧</strong><br>
+    前面先正常覆盖题卡信息；最后一问用 <strong>As for...</strong> 扣题，再按问法选择一种：<br>
+    ${tips.techniques.map((technique) => `${escapeHtml(technique.title)}（${escapeHtml(technique.when)}）：${technique.steps.map(escapeHtml).join(" → ")}`).join("<br>")}
+    ${tips.reasonIdeas?.length ? `<br>地点类使用三原因：${tips.reasonIdeas.map(escapeHtml).join(" → ")}` : ""}
   </div>` : "";
   const sectionHtml = section?.answerSections?.length ? `
     <div class="section-heading">
