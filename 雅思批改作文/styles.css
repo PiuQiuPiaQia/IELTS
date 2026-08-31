@@ -112,7 +112,10 @@ main { width: min(1420px, calc(100% - 32px)); min-height: calc(100vh - 72px); ma
 .numbered-list { margin: 12px 0 0; padding-left: 22px; }
 .numbered-list li + li { margin-top: 7px; }
 .template-block { white-space: pre-wrap; }
+.essay-pair { display: grid; gap: 8px; }
 .essay-paragraph { padding: 16px 18px; border-radius: 13px; background: #f6f8fa; font-family: Georgia,serif; font-size: 16px; line-height: 1.85; }
+.essay-translation { display: grid; grid-template-columns: auto 1fr; gap: 10px; align-items: start; padding: 13px 18px; border-left: 3px solid #d7b35d; border-radius: 0 11px 11px 0; background: #fffaf0; color: #59636c; font-size: 14px; line-height: 1.8; }
+.translation-label { margin-top: 3px; padding: 1px 7px; border-radius: 999px; background: #f0e2bd; color: #745b22; font-size: 11px; font-weight: 700; line-height: 1.6; white-space: nowrap; }
 mark { padding: 0 .15em; border-radius: 3px; background: #f6dca6; color: inherit; }
 
 .loading-state,.error-state,.empty-state { display: grid; place-items: center; min-height: 44vh; text-align: center; color: var(--muted); }

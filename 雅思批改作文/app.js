@@ -1,6 +1,7 @@
 "use strict";
 
 const STORAGE_KEY = "ielts-writing-static-reviews-v1";
+const REVIEW_DATA_VERSION_KEY = "ielts-writing-static-reviews-data-version";
 const UI_STORAGE_KEY = "ielts-writing-ui-state-v1";
 const PAGES = new Set(["reviews", "letters", "task2", "materials"]);
 const state = {
@@ -65,6 +66,20 @@ function taskTwoHighlights(essay) {
     seen.add(key);
     return true;
   });
+}
+
+function taskTwoTranslationHighlights(paragraph, phrases) {
+  const source = paragraph.toLowerCase();
+  const seen = new Set();
+  return phrases
+    .filter((phrase) => phrase.text && phrase.translation && source.includes(phrase.text.toLowerCase()))
+    .map((phrase) => phrase.translation)
+    .filter((translation) => {
+      const key = translation.trim();
+      if (!key || seen.has(key)) return false;
+      seen.add(key);
+      return true;
+    });
 }
 
 function loadUiState() {
@@ -262,15 +277,43 @@ function persistReviews() {
 }
 
 function loadSavedReviews(seedLines) {
+  const metadata = seedLines.find((record) => record._meta)?._meta || {};
   const seeds = seedLines.filter((record) => !record._meta);
+  let saved = null;
   try {
-    const saved = JSON.parse(localStorage.getItem(STORAGE_KEY) || "null");
-    if (Array.isArray(saved) && saved.length) return saved;
+    saved = JSON.parse(localStorage.getItem(STORAGE_KEY) || "null");
   } catch (error) {
     console.warn("Unable to parse local review history", error);
   }
+  if (Array.isArray(saved) && saved.length) {
+    let migrated = saved;
+    try {
+      const savedVersion = Number(localStorage.getItem(REVIEW_DATA_VERSION_KEY)) || 0;
+      const currentVersion = Number(metadata.version) || savedVersion;
+      if (currentVersion > savedVersion) {
+        const pendingSeeds = seeds.filter((record) => Number(record.seedVersion) > savedVersion);
+        const pendingById = new Map(pendingSeeds.map((record) => [record.id, record]));
+        const existingIds = new Set(saved.map((record) => record.id));
+        migrated = saved.map((record) => {
+          const seed = pendingById.get(record.id);
+          return seed && !record.userEdited ? seed : record;
+        });
+        const additions = pendingSeeds.filter((record) => (
+          !existingIds.has(record.id)
+          && Number(record.introducedVersion || record.seedVersion) > savedVersion
+        ));
+        migrated = [...additions, ...migrated];
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(migrated));
+        localStorage.setItem(REVIEW_DATA_VERSION_KEY, String(currentVersion));
+      }
+    } catch (error) {
+      console.warn("Unable to migrate local review history", error);
+    }
+    return migrated;
+  }
   try {
     localStorage.setItem(STORAGE_KEY, JSON.stringify(seeds));
+    if (metadata.version) localStorage.setItem(REVIEW_DATA_VERSION_KEY, String(metadata.version));
   } catch (error) {
     console.warn("Browser storage is unavailable; export changes before closing", error);
   }
@@ -310,7 +353,10 @@ function saveEditor() {
   const review = currentReview();
   if (!editor || !review) return;
   const key = state.reviewMode === "review" ? "reviewHtml" : "cleanHtml";
-  review[key] = sanitizeReviewHtml(editor.innerHTML);
+  const nextHtml = sanitizeReviewHtml(editor.innerHTML);
+  if (sanitizeReviewHtml(review[key]) === nextHtml) return;
+  review[key] = nextHtml;
+  review.userEdited = true;
   review.updatedAt = new Date().toISOString();
   persistReviews();
 }
@@ -462,11 +508,11 @@ function renderLetters() {
         <header class="panel-header"><span class="eyebrow">${escapeHtml(template.tone)} · ${escapeHtml(template.targetWords)}</span><h2>${escapeHtml(template.name)}</h2><p>${escapeHtml(template.goal)}</p></header>
         <div class="panel-body">
           <div class="note"><strong>题目识别：</strong>${escapeHtml(template.prompt)}</div>
-          <div class="section-heading"><h2>从题目提取信息</h2></div><ol class="numbered-list">${template.copyFromQuestion.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}</ol>
-          <div class="section-heading"><h2>逐段模板</h2><p>推荐连接词：${template.connectors.map(escapeHtml).join(" · ")}</p></div>
+          <div class="section-heading"><h2>${escapeHtml(template.extractHeading || "从题目提取信息")}</h2></div><ol class="numbered-list">${template.copyFromQuestion.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}</ol>
+          <div class="section-heading"><h2>${escapeHtml(template.contentHeading || "逐段模板")}</h2><p>${escapeHtml(template.connectorLabel || "推荐连接词：")}${template.connectors.map(escapeHtml).join(" · ")}</p></div>
           <div class="card-list">${template.paragraphs.map((paragraph) => `<article class="card"><span class="badge">${escapeHtml(paragraph.name)} · ${escapeHtml(paragraph.target)}</span><h3>${escapeHtml(paragraph.function)}</h3><div class="answer template-block">${escapeHtml(paragraph.template)}</div></article>`).join("")}</div>
-          <div class="section-heading"><h2>最后检查</h2></div><ul class="numbered-list">${template.checks.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}</ul>
-          <div class="action-row" style="margin-top:22px"><button class="button" type="button" data-copy-letter>复制完整模板</button></div>
+          <div class="section-heading"><h2>${escapeHtml(template.checkHeading || "最后检查")}</h2></div><ul class="numbered-list">${template.checks.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}</ul>
+          <div class="action-row" style="margin-top:22px"><button class="button" type="button" data-copy-letter>${escapeHtml(template.copyLabel || "复制完整模板")}</button></div>
         </div>
       </article>
     </div>`;
@@ -496,7 +542,10 @@ function renderTaskTwo() {
         <div class="panel-body">
           <div class="section-heading"><h2>快速框架</h2></div><div class="two-column">${essay.frameworkPoints.map((point) => `<article class="card"><span class="badge gold">${escapeHtml(point.label)}</span><p>${escapeHtml(point.text)}</p></article>`).join("")}</div>
           <div class="section-heading"><h2>重点短语与核心句</h2></div><div class="chip-row">${focusPhrases.map((phrase) => `<span class="chip">${escapeHtml(phrase.text)}｜${escapeHtml(phrase.translation)}</span>`).join("")}</div>
-          <div class="section-heading"><h2>完整范文</h2></div><div class="stack">${essay.paragraphs.map((paragraph) => `<div class="essay-paragraph">${highlight(paragraph, focusPhrases.map((phrase) => phrase.text))}</div>`).join("")}</div>
+          <div class="section-heading"><h2>完整范文</h2></div><div class="stack">${essay.paragraphs.map((paragraph, index) => {
+            const translation = essay.paragraphTranslations?.[index];
+            return `<div class="essay-pair"><div class="essay-paragraph" lang="en">${highlight(paragraph, focusPhrases.map((phrase) => phrase.text))}</div>${translation ? `<div class="essay-translation" lang="zh-CN"><span class="translation-label">中文</span><span>${highlight(translation, taskTwoTranslationHighlights(paragraph, focusPhrases))}</span></div>` : ""}</div>`;
+          }).join("")}</div>
           <div class="action-row" style="margin-top:20px"><button class="button" type="button" data-copy-essay>复制完整范文</button></div>
         </div>
       </article>

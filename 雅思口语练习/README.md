@@ -13,6 +13,8 @@
 - `index.html`：页面骨架
 - `styles.css`：全部样式
 - `app.js`：题库读取和页面交互
-- `data.js`：Part 1、Part 2、Part 3 与万能素材
+- `data.js`：Part 1、Part 2、Part 3、核心词块与万能素材
+
+「核心词块」是一页平铺的背诵页：结构模板（P1 三步、P3 PREC；Part 2 模板留在 Part 2 页）、万能连接词块，以及 8 组内容词块链。每条链的 `covers` 字段记录它覆盖的本季新题，用于校验，不在页面显示。
 
 无需本地服务器、Node.js、pnpm 或任何前端依赖。

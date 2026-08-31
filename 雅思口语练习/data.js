@@ -1894,6 +1894,306 @@ window.IELTS_DATA = {
             }
           ]
         },
+        "topicGroups": [
+          {
+            "title": "李华学习线｜语言与职业",
+            "note": "关系和相识过程固定，中间只替换他学什么、想做什么。",
+            "items": [
+              {
+                "question": "Describe a person who is good at learning and speaking new languages",
+                "sourceOrder": 1,
+                "body": {
+                  "text": "I'd like to talk about my classmate Li Hua. I first met him on the first day of high school, when he sat behind me. We soon became good friends. He decided to learn French because he wanted to travel to France. He read simple books after school, watched French videos at weekends and asked his teacher for help. After practising every day, he could speak it well, and last month he finally visited France.",
+                  "highlights": [
+                    "my classmate Li Hua",
+                    "first day of high school",
+                    "learn French",
+                    "watched French videos",
+                    "asked his teacher for help",
+                    "visited France"
+                  ]
+                },
+                "draftCues": [
+                  "Li Hua",
+                  "high school",
+                  "French-travel",
+                  "books-videos",
+                  "ask teacher",
+                  "France"
+                ],
+                "pointsLabel": "How I feel · 3 点",
+                "reasons": [
+                  {
+                    "text": "At first, I thought French was difficult and he had no time to practise.",
+                    "highlights": [
+                      "difficult",
+                      "no time"
+                    ]
+                  },
+                  {
+                    "text": "However, he tried his best and showed a real talent for languages.",
+                    "highlights": [
+                      "tried his best",
+                      "talent for languages"
+                    ]
+                  },
+                  {
+                    "text": "Now he speaks French fluently, and I want to learn from him.",
+                    "highlights": [
+                      "speaks French fluently",
+                      "learn from him"
+                    ]
+                  }
+                ]
+              },
+              {
+                "question": "Describe a person you know who would like to choose a career in the medical field (e.g. a doctor, a nurse)",
+                "sourceOrder": 3,
+                "body": {
+                  "text": "I'd like to talk about my classmate Li Hua. I met him on the first day of high school, and we have been friends since then. His father is a doctor, so Li Hua learned a lot about this job while growing up. One day, he told me that he also wanted to become a doctor. He now reads medical books, watches simple medical videos and studies hard because he hopes to enter a good medical school.",
+                  "highlights": [
+                    "my classmate Li Hua",
+                    "first day of high school",
+                    "father is a doctor",
+                    "become a doctor",
+                    "reads medical books",
+                    "medical school"
+                  ]
+                },
+                "draftCues": [
+                  "Li Hua",
+                  "high school",
+                  "doctor",
+                  "father",
+                  "medical books",
+                  "medical school"
+                ],
+                "pointsLabel": "Why this career · 3 原因",
+                "reasons": [
+                  {
+                    "text": "First of all, his father is a doctor and has been a strong influence on him.",
+                    "highlights": [
+                      "father is a doctor",
+                      "strong influence"
+                    ]
+                  },
+                  {
+                    "text": "Secondly, he wants to help patients and gain a sense of achievement.",
+                    "highlights": [
+                      "help patients",
+                      "sense of achievement"
+                    ]
+                  },
+                  {
+                    "text": "What's more, it can give him a stable job and a good income.",
+                    "highlights": [
+                      "stable job",
+                      "good income"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "软件公司线｜员工与创业",
+            "note": "共用“软件公司越做越大”，一题从员工角度说，一题从老板角度说。",
+            "items": [
+              {
+                "question": "Describe a person who works in a successful company",
+                "sourceOrder": 2,
+                "body": {
+                  "text": "I'd like to talk about my friend Li Hua, who works for a successful software company. He joined it six years ago as a junior engineer. Because he worked hard and learned quickly, he later became a senior engineer and now leads a small team. The company develops simple software for shops and other businesses. Its products have many customers, and the company is now well known in our city.",
+                  "highlights": [
+                    "works for a successful software company",
+                    "six years ago",
+                    "junior engineer",
+                    "senior engineer",
+                    "leads a small team",
+                    "well known"
+                  ]
+                },
+                "draftCues": [
+                  "Li Hua",
+                  "software",
+                  "6 years",
+                  "junior-senior",
+                  "lead team",
+                  "famous"
+                ],
+                "pointsLabel": "Why the company is successful · 3 原因",
+                "reasons": [
+                  {
+                    "text": "First of all, its software products are useful and popular with customers.",
+                    "highlights": [
+                      "useful and popular"
+                    ]
+                  },
+                  {
+                    "text": "Secondly, skilled workers like Li Hua cooperate well and keep improving the products.",
+                    "highlights": [
+                      "skilled workers",
+                      "cooperate well"
+                    ]
+                  },
+                  {
+                    "text": "What's more, the company is growing quickly and gives its staff better pay and opportunities.",
+                    "highlights": [
+                      "growing quickly",
+                      "better pay and opportunities"
+                    ]
+                  }
+                ]
+              },
+              {
+                "question": "Describe a person you know who has a successful business",
+                "sourceOrder": 4,
+                "body": {
+                  "text": "I'd like to talk about my friend Li Hua. I first met him in high school, and we still keep in touch. About six years ago, he started a small software business because he wanted to make useful apps for local shops. At first, he rented a tiny office and had no staff. He did most of the work himself. Later, more customers used his products, so he hired several workers and the business became well known.",
+                  "highlights": [
+                    "my friend Li Hua",
+                    "six years ago",
+                    "small software business",
+                    "tiny office",
+                    "had no staff",
+                    "became well known"
+                  ]
+                },
+                "draftCues": [
+                  "Li Hua",
+                  "software business",
+                  "6 years",
+                  "small office",
+                  "no staff",
+                  "grow-famous"
+                ],
+                "pointsLabel": "Why the business is successful · 3 原因",
+                "reasons": [
+                  {
+                    "text": "First of all, he makes useful products that solve real problems for customers.",
+                    "highlights": [
+                      "solve real problems"
+                    ]
+                  },
+                  {
+                    "text": "Secondly, the business earns good money and has grown from a small office into a strong team.",
+                    "highlights": [
+                      "earns good money",
+                      "strong team"
+                    ]
+                  },
+                  {
+                    "text": "What's more, he helps other people by creating jobs and donating some money.",
+                    "highlights": [
+                      "creating jobs",
+                      "donating some money"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "生活熟人｜奶奶与童年朋友",
+            "note": "这两题人物和行为不同，分开记，但仍用同一套“前面覆盖题卡，最后一问三点”。",
+            "items": [
+              {
+                "question": "Describe a person who loves to grow plants (e.g.vegetables, flowers) at home or in the garden",
+                "sourceOrder": 5,
+                "body": {
+                  "text": "I'd like to talk about my grandma, who lives in the countryside. She has a small garden beside her house and grows tomatoes, cabbages and several kinds of flowers there. She gets up early to water the plants, remove weeds and check them carefully. In autumn, she picks the fresh vegetables and often gives some to our neighbours. I sometimes help her when I visit during the holidays.",
+                  "highlights": [
+                    "my grandma",
+                    "lives in the countryside",
+                    "small garden",
+                    "water the plants",
+                    "remove weeds",
+                    "gives some to our neighbours"
+                  ]
+                },
+                "draftCues": [
+                  "grandma",
+                  "countryside",
+                  "garden",
+                  "vegetables",
+                  "water-care",
+                  "share"
+                ],
+                "pointsLabel": "Why she loves it · 3 原因",
+                "reasons": [
+                  {
+                    "text": "First of all, gardening is a relaxing hobby and helps her use her free time well.",
+                    "highlights": [
+                      "relaxing hobby",
+                      "free time"
+                    ]
+                  },
+                  {
+                    "text": "Secondly, home-grown vegetables are fresh and good for her health.",
+                    "highlights": [
+                      "fresh",
+                      "good for her health"
+                    ]
+                  },
+                  {
+                    "text": "What's more, growing food saves money and lets her share it with neighbours.",
+                    "highlights": [
+                      "saves money",
+                      "share it with neighbours"
+                    ]
+                  }
+                ]
+              },
+              {
+                "question": "Describe a friend from your childhood",
+                "sourceOrder": 6,
+                "body": {
+                  "text": "I'd like to talk about my childhood friend Li Hua. We met on the first day of primary school because he sat behind me in class. We started talking during a break and soon became good friends. After school, we often did our homework together. At weekends, we sometimes went to a nearby park, had a picnic or played basketball. Although we are both busy now, we still send messages to each other.",
+                  "highlights": [
+                    "childhood friend Li Hua",
+                    "first day of primary school",
+                    "sat behind me",
+                    "did our homework together",
+                    "nearby park",
+                    "played basketball"
+                  ]
+                },
+                "draftCues": [
+                  "Li Hua",
+                  "primary school",
+                  "sat behind",
+                  "friends",
+                  "study",
+                  "park-ball"
+                ],
+                "pointsLabel": "What made me like him · 3 原因",
+                "reasons": [
+                  {
+                    "text": "First of all, he was clever and often helped me with schoolwork.",
+                    "highlights": [
+                      "clever",
+                      "helped me with schoolwork"
+                    ]
+                  },
+                  {
+                    "text": "Secondly, he was funny and his jokes always cheered me up.",
+                    "highlights": [
+                      "funny",
+                      "cheered me up"
+                    ]
+                  },
+                  {
+                    "text": "What's more, he was kind and stayed with me whenever I had a problem.",
+                    "highlights": [
+                      "kind",
+                      "whenever I had a problem"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
         "materialsTitle": "人物类最后一问｜适配的完整素材",
         "usageLabel": "人物题怎么套",
         "materialUses": [
@@ -2008,7 +2308,7 @@ window.IELTS_DATA = {
               "keywords": [
                 "local food",
                 "delicious",
-                "xiaolongbao",
+                "xiaolongbao"
               ],
               "english": "What's more, the local food is delicious, especially xiaolongbao.",
               "translation": "另外，当地食物很好吃，尤其是小笼包。"
@@ -2027,6 +2327,266 @@ window.IELTS_DATA = {
             }
           ]
         },
+        "topicGroups": [
+          {
+            "title": "上海正面线｜推荐与想去",
+            "note": "主体和三个原因都可共用；只把去过的过去时换成想去的将来时。",
+            "items": [
+              {
+                "question": "Describe a place you have travelled to that you would like to recommend to others",
+                "sourceOrder": 1,
+                "body": {
+                  "text": "I'd like to talk about Shanghai, one of the largest cities in China. I went there with my girlfriend last year during a holiday. We travelled by high-speed train and stayed for seven days. On the first day, we visited the Oriental Pearl Tower and looked over the city. Later, we walked along the river, visited a large shopping mall and tried local food such as xiaolongbao.",
+                  "highlights": [
+                    "Shanghai",
+                    "with my girlfriend last year",
+                    "high-speed train",
+                    "seven days",
+                    "Oriental Pearl Tower",
+                    "tried local food"
+                  ]
+                },
+                "draftCues": [
+                  "Shanghai",
+                  "last year-GF",
+                  "Tower",
+                  "river",
+                  "mall-food",
+                  "7 days"
+                ],
+                "pointsLabel": "Why I recommend it · 3 原因",
+                "reasons": [
+                  {
+                    "text": "First of all, the scenery is amazing, with modern buildings, traditional streets and a river view.",
+                    "highlights": [
+                      "scenery is amazing",
+                      "modern buildings",
+                      "traditional streets",
+                      "river view"
+                    ]
+                  },
+                  {
+                    "text": "Secondly, local people are friendly and often smile at visitors.",
+                    "highlights": [
+                      "friendly",
+                      "smile at visitors"
+                    ]
+                  },
+                  {
+                    "text": "What's more, the local food is delicious, especially xiaolongbao.",
+                    "highlights": [
+                      "local food is delicious",
+                      "xiaolongbao"
+                    ]
+                  }
+                ]
+              },
+              {
+                "question": "Describe a place you would like to visit in your free time",
+                "sourceOrder": 2,
+                "body": {
+                  "text": "I'd like to visit Shanghai in my next long holiday. I first became interested in it after a friend showed me a travel video. I plan to go there with my girlfriend by high-speed train and stay for about seven days. We will visit the Oriental Pearl Tower, walk along the river and spend some time in a large shopping mall. I also want to try several kinds of local food.",
+                  "highlights": [
+                    "visit Shanghai",
+                    "a friend showed me a travel video",
+                    "with my girlfriend",
+                    "high-speed train",
+                    "seven days",
+                    "Oriental Pearl Tower"
+                  ]
+                },
+                "draftCues": [
+                  "Shanghai",
+                  "friend-video",
+                  "high-speed train",
+                  "Tower-river",
+                  "mall-food",
+                  "7 days"
+                ],
+                "pointsLabel": "Why I want to visit it · 3 原因",
+                "reasons": [
+                  {
+                    "text": "First of all, I want to see its modern buildings, traditional streets and beautiful river view.",
+                    "highlights": [
+                      "modern buildings",
+                      "traditional streets",
+                      "river view"
+                    ]
+                  },
+                  {
+                    "text": "Secondly, I have heard that local people are friendly to visitors.",
+                    "highlights": [
+                      "friendly to visitors"
+                    ]
+                  },
+                  {
+                    "text": "What's more, I really want to try local food such as xiaolongbao.",
+                    "highlights": [
+                      "try local food",
+                      "xiaolongbao"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "上海反面线｜无聊地点",
+            "note": "仍用上海主体，但把“景美、人美、食物美”换成三个具体的负面点。",
+            "items": [
+              {
+                "question": "Describe a boring place",
+                "sourceOrder": 3,
+                "body": {
+                  "text": "I'd like to talk about a museum area in Shanghai that I visited with my girlfriend last year. We planned to spend three days there and went to the tower and several small museums near our hotel. However, many displays looked almost the same, and it rained heavily during most of the trip. We could not walk outside for long, so we returned to the hotel early on two afternoons.",
+                  "highlights": [
+                    "a museum area in Shanghai",
+                    "with my girlfriend",
+                    "three days",
+                    "several small museums",
+                    "rained heavily",
+                    "returned to the hotel early"
+                  ]
+                },
+                "draftCues": [
+                  "Shanghai",
+                  "last year",
+                  "tower-museum",
+                  "3 days",
+                  "rain",
+                  "hotel"
+                ],
+                "pointsLabel": "Why it was boring · 3 原因",
+                "reasons": [
+                  {
+                    "text": "First of all, the view looked similar everywhere and was not attractive to me.",
+                    "highlights": [
+                      "looked similar",
+                      "not attractive"
+                    ]
+                  },
+                  {
+                    "text": "Secondly, everyone seemed busy, so I had almost no chance to talk with local people.",
+                    "highlights": [
+                      "everyone seemed busy",
+                      "no chance to talk"
+                    ]
+                  },
+                  {
+                    "text": "What's more, it rained for most of the trip, so I stayed in the hotel with nothing to do.",
+                    "highlights": [
+                      "rained for most of the trip",
+                      "nothing to do"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "奶奶家｜喜欢去但不想住",
+            "items": [
+              {
+                "question": "Describe a home that you like to visit but do not want to live in",
+                "sourceOrder": 4,
+                "body": {
+                  "text": "I'd like to talk about my grandma's house in the countryside. It is a traditional one-floor house with three bedrooms, a large yard and a vegetable garden. I usually visit it during long holidays. I like helping my grandma in the garden, eating fresh vegetables and sitting in the quiet yard with her. The air is clean, and the whole place feels peaceful, so it is perfect for a short visit.",
+                  "highlights": [
+                    "my grandma's house",
+                    "in the countryside",
+                    "three bedrooms",
+                    "large yard",
+                    "vegetable garden",
+                    "during long holidays"
+                  ]
+                },
+                "draftCues": [
+                  "grandma",
+                  "countryside",
+                  "big yard",
+                  "3 bedrooms",
+                  "holidays",
+                  "quiet-vegetables"
+                ],
+                "pointsLabel": "Why I would not live there · 3 原因",
+                "reasons": [
+                  {
+                    "text": "First of all, public transport is inconvenient, so travelling to work would take too long.",
+                    "highlights": [
+                      "public transport is inconvenient",
+                      "take too long"
+                    ]
+                  },
+                  {
+                    "text": "Secondly, most of my friends live in the city, so I might feel lonely there.",
+                    "highlights": [
+                      "friends live in the city",
+                      "feel lonely"
+                    ]
+                  },
+                  {
+                    "text": "What's more, there are few shops or entertainment places nearby.",
+                    "highlights": [
+                      "few shops",
+                      "entertainment places"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "当地河流｜独立准备",
+            "items": [
+              {
+                "question": "Describe an important river/lake in your country",
+                "sourceOrder": 5,
+                "body": {
+                  "text": "I'd like to talk about a large river in my province. It passes through several cities and is both long and wide. In some parts, there are bridges and small boats, while other parts have green parks along the riverbank. I visited one of these parks with my family last spring. We walked beside the water, watched the boats and took several photos of the river.",
+                  "highlights": [
+                    "a large river in my province",
+                    "several cities",
+                    "long and wide",
+                    "bridges and small boats",
+                    "green parks",
+                    "with my family"
+                  ]
+                },
+                "draftCues": [
+                  "local river",
+                  "many cities",
+                  "long-wide",
+                  "parks",
+                  "boats",
+                  "farms"
+                ],
+                "pointsLabel": "Why it is important · 3 原因",
+                "reasons": [
+                  {
+                    "text": "First of all, it provides clean water for many cities and local families.",
+                    "highlights": [
+                      "provides clean water"
+                    ]
+                  },
+                  {
+                    "text": "Secondly, it attracts tourists and supports local shops and jobs.",
+                    "highlights": [
+                      "attracts tourists",
+                      "supports local shops and jobs"
+                    ]
+                  },
+                  {
+                    "text": "What's more, farmers use its water to grow vegetables and other crops.",
+                    "highlights": [
+                      "farmers use its water",
+                      "grow vegetables"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
         "materialsTitle": "地点类最后一问｜适配的完整素材",
         "usageLabel": "地点题怎么套",
         "materialUses": [
@@ -2047,6 +2607,1267 @@ window.IELTS_DATA = {
           }
         ],
         "reminder": "去过或推荐用过去时，想去用将来时；最后一问从 M1、M4、M8 中选最贴题的一组。其他素材只在题目明确涉及交通、价格、健康或缺点时再调用。"
+      },
+      "topics": []
+    },
+    {
+      "id": "object-tips",
+      "tab": "事物类",
+      "title": "事物类｜分题草稿",
+      "tagline": "题库文档 · 12 道原题",
+      "description": "只合并能自然共用主体的题目；其他题目分开保留核心草稿和最后一问三点。",
+      "tipLabel": "12 道原题 · 分组",
+      "tips": {
+        "techniques": [
+          {
+            "title": "三部曲",
+            "when": "感受 / 看法 / 变化",
+            "steps": [
+              "at first",
+              "after a while / however",
+              "now",
+              "future"
+            ]
+          },
+          {
+            "title": "三原因",
+            "when": "原因 / 优点 / 为什么喜欢",
+            "steps": [
+              "first of all",
+              "secondly",
+              "what’s more"
+            ]
+          }
+        ],
+        "topicGroups": [
+          {
+            "title": "环保法律｜三题共用一个主体",
+            "note": "统一说“禁止乱丢垃圾，违者罚款”；只根据最后一问换三个展开点。",
+            "items": [
+              {
+                "question": "Describe a law on environmental protection",
+                "sourceOrder": 2,
+                "body": {
+                  "text": "I'd like to talk about a law that does not allow people to drop rubbish in public places. Anyone who breaks it may receive a fine of up to 2,000 yuan. I first learned about a similar law from a TV programme about Singapore last month. Local residents, street cleaners and even animals can benefit from it because there will be less plastic and other rubbish in parks and streets.",
+                  "highlights": [
+                    "drop rubbish in public places",
+                    "fine of up to 2,000 yuan",
+                    "TV programme about Singapore",
+                    "local residents",
+                    "street cleaners",
+                    "less plastic"
+                  ]
+                },
+                "draftCues": [
+                  "no littering",
+                  "2,000 fine",
+                  "TV-Singapore",
+                  "residents",
+                  "cleaners",
+                  "clean city"
+                ],
+                "pointsLabel": "How I feel · 3 原因",
+                "reasons": [
+                  {
+                    "text": "First of all, the law can make streets and parks much cleaner.",
+                    "highlights": [
+                      "streets and parks much cleaner"
+                    ]
+                  },
+                  {
+                    "text": "Secondly, it can protect animals from eating plastic rubbish.",
+                    "highlights": [
+                      "protect animals",
+                      "plastic rubbish"
+                    ]
+                  },
+                  {
+                    "text": "What's more, the fine reminds people to take responsibility for their actions.",
+                    "highlights": [
+                      "fine reminds people",
+                      "take responsibility"
+                    ]
+                  }
+                ]
+              },
+              {
+                "question": "Describe a new law you would like to introduce in your country",
+                "sourceOrder": 10,
+                "body": {
+                  "text": "I'd like to introduce a law against littering in public places. Under this law, people who drop bottles, plastic bags or other rubbish could receive a fine of up to 2,000 yuan. It would make people more careful and keep streets and parks cleaner. I think it would be quite popular because most people want a better environment, although some may need time to get used to the fine.",
+                  "highlights": [
+                    "a law against littering",
+                    "plastic bags",
+                    "fine of up to 2,000 yuan",
+                    "streets and parks cleaner",
+                    "quite popular",
+                    "get used to the fine"
+                  ]
+                },
+                "draftCues": [
+                  "no littering",
+                  "2,000 fine",
+                  "saw rubbish",
+                  "TV-Singapore",
+                  "cleaner city",
+                  "popular"
+                ],
+                "pointsLabel": "How I came up with it · 3 点",
+                "reasons": [
+                  {
+                    "text": "First, I often saw plastic bags and bottles on streets near my home.",
+                    "highlights": [
+                      "plastic bags and bottles"
+                    ]
+                  },
+                  {
+                    "text": "Then I watched a TV programme about a similar law in Singapore.",
+                    "highlights": [
+                      "TV programme",
+                      "similar law in Singapore"
+                    ]
+                  },
+                  {
+                    "text": "So I thought a clear fine could change people's habits in my country too.",
+                    "highlights": [
+                      "clear fine",
+                      "change people's habits"
+                    ]
+                  }
+                ]
+              },
+              {
+                "question": "Describe an environmental law you would like your country to introduce",
+                "sourceOrder": 12,
+                "body": {
+                  "text": "I'd like my country to introduce a stricter environmental law. It would stop people from littering and encourage shops to use fewer single-use plastic bags. Anyone who repeatedly breaks the rule would have to pay a fine. People should follow it because plastic rubbish damages streets, rivers and animal habitats. I believe the law would become popular after a short period because everyone can enjoy a cleaner living environment.",
+                  "highlights": [
+                    "a stricter environmental law",
+                    "fewer single-use plastic bags",
+                    "pay a fine",
+                    "animal habitats",
+                    "become popular",
+                    "cleaner living environment"
+                  ]
+                },
+                "draftCues": [
+                  "no littering",
+                  "2,000 fine",
+                  "plastic bags",
+                  "people-animals",
+                  "clean services",
+                  "popular"
+                ],
+                "pointsLabel": "How I feel · 3 原因",
+                "reasons": [
+                  {
+                    "text": "First of all, less litter means a cleaner and healthier place to live.",
+                    "highlights": [
+                      "cleaner and healthier"
+                    ]
+                  },
+                  {
+                    "text": "Secondly, using fewer plastic bags gives animals a safer habitat.",
+                    "highlights": [
+                      "fewer plastic bags",
+                      "safer habitat"
+                    ]
+                  },
+                  {
+                    "text": "What's more, fine money can support recycling and other green services.",
+                    "highlights": [
+                      "fine money",
+                      "recycling",
+                      "green services"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Alex 工作线｜目标、计划与决定",
+            "note": "共用软件工作背景；目标题讲长期成长，计划和决定题讲系统故障。",
+            "items": [
+              {
+                "question": "Describe a long-term goal/ambition you would like to achieve",
+                "sourceOrder": 3,
+                "body": {
+                  "text": "I'd like to become a senior software engineer who can lead a small team. I have had this goal for about two years, after working in software for several years and learning from my colleague Alex. To achieve it, I plan to improve my technical skills, practise English and ask Alex for regular feedback. I also want to take responsibility for a larger project within the next three years.",
+                  "highlights": [
+                    "senior software engineer",
+                    "lead a small team",
+                    "for about two years",
+                    "my colleague Alex",
+                    "practise English",
+                    "next three years"
+                  ]
+                },
+                "draftCues": [
+                  "senior engineer",
+                  "lead team",
+                  "6 years",
+                  "Alex",
+                  "skills-English",
+                  "3 years"
+                ],
+                "pointsLabel": "Why I set it · 3 原因",
+                "reasons": [
+                  {
+                    "text": "First of all, leading a team would give me a strong sense of achievement.",
+                    "highlights": [
+                      "leading a team",
+                      "sense of achievement"
+                    ]
+                  },
+                  {
+                    "text": "Secondly, a senior position could bring a higher salary and a more stable life.",
+                    "highlights": [
+                      "higher salary",
+                      "stable life"
+                    ]
+                  },
+                  {
+                    "text": "What's more, I could help younger teammates and share what I have learned.",
+                    "highlights": [
+                      "help younger teammates",
+                      "share what I have learned"
+                    ]
+                  }
+                ]
+              },
+              {
+                "question": "Describe a plan that you had to change recently",
+                "sourceOrder": 9,
+                "body": {
+                  "text": "This happened at work on a Friday afternoon. Our original plan was to release a new feature for an online shopping system. Soon after the release, the system became slow and some users could not complete their orders. We therefore changed the plan and paused the feature. The new plan was to investigate the problem with Alex, correct the setting, test several orders and release the feature again the next day.",
+                  "highlights": [
+                    "Friday afternoon",
+                    "release a new feature",
+                    "system became slow",
+                    "paused the feature",
+                    "investigate the problem with Alex",
+                    "the next day"
+                  ]
+                },
+                "draftCues": [
+                  "release Friday",
+                  "system slow",
+                  "pause feature",
+                  "Alex",
+                  "fix-test",
+                  "next day"
+                ],
+                "pointsLabel": "How I felt · 3 点",
+                "reasons": [
+                  {
+                    "text": "At first, I felt disappointed because our original release plan had failed.",
+                    "highlights": [
+                      "felt disappointed",
+                      "plan had failed"
+                    ]
+                  },
+                  {
+                    "text": "However, pausing the feature was safer than leaving users with a broken system.",
+                    "highlights": [
+                      "pausing the feature",
+                      "safer"
+                    ]
+                  },
+                  {
+                    "text": "In the end, I felt relieved because the new plan prevented a bigger problem.",
+                    "highlights": [
+                      "felt relieved",
+                      "prevented a bigger problem"
+                    ]
+                  }
+                ]
+              },
+              {
+                "question": "Describe an important decision that you made",
+                "sourceOrder": 11,
+                "body": {
+                  "text": "I'd like to talk about a decision I made during a system problem at work. After our team released a new feature, the system became slow and some orders failed. I had to decide whether to keep it online or pause it. After checking the error messages and speaking with Alex, I decided to pause the feature. We then fixed the setting and tested it carefully, and users could place orders normally again.",
+                  "highlights": [
+                    "a system problem at work",
+                    "some orders failed",
+                    "keep it online or pause it",
+                    "speaking with Alex",
+                    "pause the feature",
+                    "orders normally again"
+                  ]
+                },
+                "draftCues": [
+                  "system slow",
+                  "orders failed",
+                  "keep-or-pause",
+                  "pause feature",
+                  "Alex-fix",
+                  "users normal"
+                ],
+                "pointsLabel": "Why it was important · 3 原因",
+                "reasons": [
+                  {
+                    "text": "First of all, the decision protected users from more failed orders.",
+                    "highlights": [
+                      "protected users",
+                      "failed orders"
+                    ]
+                  },
+                  {
+                    "text": "Secondly, it was the safest and most responsible choice for the team.",
+                    "highlights": [
+                      "safest",
+                      "responsible choice"
+                    ]
+                  },
+                  {
+                    "text": "What's more, it taught me to stay calm and take responsibility under pressure.",
+                    "highlights": [
+                      "stay calm",
+                      "take responsibility"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "食物｜蛋糕与饺子分开记",
+            "items": [
+              {
+                "question": "Describe a special cake you received from others",
+                "sourceOrder": 1,
+                "body": {
+                  "text": "I'd like to talk about a cake that my friend Li Hua gave me on my birthday last year. He invited me to his home for a small dinner and surprised me with it after the meal. He had made the cake himself and spent about three hours on it. It was round, covered with chocolate and decorated with fresh fruit. He had even written my name on the top.",
+                  "highlights": [
+                    "my friend Li Hua",
+                    "my birthday last year",
+                    "to his home",
+                    "made the cake himself",
+                    "three hours",
+                    "covered with chocolate"
+                  ]
+                },
+                "draftCues": [
+                  "last birthday",
+                  "Li Hua-home",
+                  "handmade",
+                  "3 hours",
+                  "fruit-chocolate",
+                  "surprise"
+                ],
+                "pointsLabel": "Why it was special · 3 原因",
+                "reasons": [
+                  {
+                    "text": "First of all, Li Hua made it himself and spent about three hours on it.",
+                    "highlights": [
+                      "made it himself",
+                      "three hours"
+                    ]
+                  },
+                  {
+                    "text": "Secondly, he used my favourite fruit and chocolate, so the taste felt personal.",
+                    "highlights": [
+                      "my favourite fruit and chocolate",
+                      "felt personal"
+                    ]
+                  },
+                  {
+                    "text": "What's more, it showed that he cared about our friendship.",
+                    "highlights": [
+                      "cared about our friendship"
+                    ]
+                  }
+                ]
+              },
+              {
+                "question": "Describe a food that people eat on special occasions/events",
+                "sourceOrder": 6,
+                "body": {
+                  "text": "I'd like to talk about dumplings, which many Chinese families eat during the Spring Festival. To make them, people first prepare dough and cut it into small round wrappers. They then put meat and vegetables inside, close the wrappers and boil the dumplings in hot water. In my family, several people make them together on New Year's Eve, so the kitchen is usually busy but cheerful.",
+                  "highlights": [
+                    "dumplings",
+                    "Spring Festival",
+                    "prepare dough",
+                    "meat and vegetables",
+                    "boil the dumplings",
+                    "New Year's Eve"
+                  ]
+                },
+                "draftCues": [
+                  "dumplings",
+                  "Spring Festival",
+                  "dough",
+                  "meat-vegetables",
+                  "boil",
+                  "family"
+                ],
+                "pointsLabel": "Why people eat it then · 3 原因",
+                "reasons": [
+                  {
+                    "text": "First of all, dumplings are an important part of Spring Festival tradition.",
+                    "highlights": [
+                      "Spring Festival tradition"
+                    ]
+                  },
+                  {
+                    "text": "Secondly, their shape looks like old Chinese money and represents good luck.",
+                    "highlights": [
+                      "old Chinese money",
+                      "good luck"
+                    ]
+                  },
+                  {
+                    "text": "What's more, making them together brings family members closer.",
+                    "highlights": [
+                      "making them together",
+                      "family members closer"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "书、广告与视频｜内容不同，分题记",
+            "items": [
+              {
+                "question": "Describe a story/book with animals in it",
+                "sourceOrder": 4,
+                "body": {
+                  "text": "I'd like to talk about an animal book that my science teacher gave our class in primary school. It included many animals, such as elephants, birds, tigers and lions. The book explained where they lived, what they ate and how they behaved. It also had many colourful real photos. I first read it during a science lesson because our teacher wanted us to understand nature, and I later borrowed it again out of curiosity.",
+                  "highlights": [
+                    "my science teacher",
+                    "in primary school",
+                    "tigers and lions",
+                    "where they lived",
+                    "colourful real photos",
+                    "understand nature"
+                  ]
+                },
+                "draftCues": [
+                  "primary school",
+                  "science book",
+                  "many animals",
+                  "real photos",
+                  "tiger-lion",
+                  "nature"
+                ],
+                "pointsLabel": "What I think of it · 3 原因",
+                "reasons": [
+                  {
+                    "text": "First of all, its real animal photos were colourful and easy to remember.",
+                    "highlights": [
+                      "real animal photos",
+                      "easy to remember"
+                    ]
+                  },
+                  {
+                    "text": "Secondly, it taught me about animal habits and the natural world.",
+                    "highlights": [
+                      "animal habits",
+                      "natural world"
+                    ]
+                  },
+                  {
+                    "text": "What's more, the strong tigers and lions made the book exciting for a child.",
+                    "highlights": [
+                      "strong tigers and lions",
+                      "exciting"
+                    ]
+                  }
+                ]
+              },
+              {
+                "question": "Describe an advertisement with a famous person in it",
+                "sourceOrder": 5,
+                "body": {
+                  "text": "I'd like to talk about a television advertisement for a Xiaomi laptop. The famous person in it is Zhang Jie, a Chinese singer I have known from music programmes for years. I saw the advertisement on TV last month. In it, he sang a short song, opened the laptop and showed how light and fast it was. The advertisement mainly introduced the laptop's design, battery life and useful features for work and study.",
+                  "highlights": [
+                    "a Xiaomi laptop",
+                    "Zhang Jie",
+                    "on TV last month",
+                    "sang a short song",
+                    "light and fast",
+                    "work and study"
+                  ]
+                },
+                "draftCues": [
+                  "Xiaomi laptop",
+                  "Zhang Jie",
+                  "TV",
+                  "song",
+                  "show features",
+                  "want buy"
+                ],
+                "pointsLabel": "How I feel · 3 原因",
+                "reasons": [
+                  {
+                    "text": "First of all, the short song made the advertisement creative and easy to remember.",
+                    "highlights": [
+                      "short song",
+                      "easy to remember"
+                    ]
+                  },
+                  {
+                    "text": "Secondly, Zhang Jie is a singer I like, so he caught my attention immediately.",
+                    "highlights": [
+                      "a singer I like",
+                      "caught my attention"
+                    ]
+                  },
+                  {
+                    "text": "What's more, the advertisement showed the laptop's useful features clearly.",
+                    "highlights": [
+                      "useful features clearly"
+                    ]
+                  }
+                ]
+              },
+              {
+                "question": "Describe an interesting video",
+                "sourceOrder": 7,
+                "body": {
+                  "text": "I'd like to talk about a short video that I watched at home last weekend. A friend sent me the link through a short-video app and said it was funny. The video showed a young singer and dancer performing an original song. Between parts of the song, he told a few jokes and mixed modern dance with some traditional Chinese movements. I watched it because my friend recommended it, and I finished the whole video twice.",
+                  "highlights": [
+                    "at home last weekend",
+                    "a friend sent me the link",
+                    "short-video app",
+                    "a young singer and dancer",
+                    "told a few jokes",
+                    "modern dance"
+                  ]
+                },
+                "draftCues": [
+                  "last weekend",
+                  "friend sent",
+                  "short-video app",
+                  "singer-dancer",
+                  "song-jokes",
+                  "modern-traditional"
+                ],
+                "pointsLabel": "How I feel · 3 原因",
+                "reasons": [
+                  {
+                    "text": "First of all, the singer told funny jokes and helped me relax.",
+                    "highlights": [
+                      "funny jokes",
+                      "helped me relax"
+                    ]
+                  },
+                  {
+                    "text": "Secondly, the video mixed modern and traditional dance in an interesting way.",
+                    "highlights": [
+                      "modern and traditional dance"
+                    ]
+                  },
+                  {
+                    "text": "What's more, its original music put me in a good mood.",
+                    "highlights": [
+                      "original music",
+                      "good mood"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "上海高楼｜东方明珠",
+            "items": [
+              {
+                "question": "Describe a tall building you like or dislike",
+                "sourceOrder": 8,
+                "body": {
+                  "text": "I'd like to talk about the Oriental Pearl Tower in Shanghai. It stands beside the river and is mainly used for sightseeing, television and communication. The building is very tall and has several large round parts, so it is easy to recognise. Visitors can take a lift to the viewing area, and one floor has a glass section under their feet. At night, the whole tower is covered in colourful lights.",
+                  "highlights": [
+                    "Oriental Pearl Tower",
+                    "in Shanghai",
+                    "beside the river",
+                    "several large round parts",
+                    "glass section",
+                    "colourful lights"
+                  ]
+                },
+                "draftCues": [
+                  "Oriental Pearl",
+                  "Shanghai",
+                  "sightseeing",
+                  "round parts",
+                  "glass floor",
+                  "night lights"
+                ],
+                "pointsLabel": "Why I like it · 3 原因",
+                "reasons": [
+                  {
+                    "text": "First of all, its modern shape and round parts make it look special.",
+                    "highlights": [
+                      "modern shape",
+                      "look special"
+                    ]
+                  },
+                  {
+                    "text": "Secondly, visitors can enjoy a wide view of the city and the river.",
+                    "highlights": [
+                      "wide view",
+                      "city and the river"
+                    ]
+                  },
+                  {
+                    "text": "What's more, its colourful lights are beautiful in the evening.",
+                    "highlights": [
+                      "colourful lights",
+                      "in the evening"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "reminder": "事物类先用核心草稿覆盖题卡的前三问，再根据最后一问选用三原因或三部曲。不要为了共用素材强行改题。"
+      },
+      "topics": []
+    },
+    {
+      "id": "event-tips",
+      "tab": "事件类",
+      "title": "事件类｜分组草稿",
+      "tagline": "题库文档 · 12 道原题",
+      "description": "优先迁移 Alex、手机戒断、家庭休闲和种菜的奶奶；故事线不一样的题目单独准备。",
+      "tipLabel": "12 道原题 · 分组",
+      "tips": {
+        "techniques": [
+          {
+            "title": "三部曲",
+            "when": "感受 / 看法 / 变化",
+            "steps": [
+              "at first",
+              "after a while / however",
+              "now",
+              "future"
+            ]
+          },
+          {
+            "title": "三原因",
+            "when": "原因 / 优点 / 为什么喜欢",
+            "steps": [
+              "first of all",
+              "secondly",
+              "what’s more"
+            ]
+          }
+        ],
+        "topicGroups": [
+          {
+            "title": "手机戒断｜最近的改变",
+            "items": [
+              {
+                "question": "Describe a change that you made recently",
+                "sourceOrder": 1,
+                "body": {
+                  "text": "I'd like to talk about a change I made about a month ago, which was reducing my phone use. My screen-time report showed that I was spending over six hours a day on my phone, and I often felt tired and distracted. I set limits for short-video apps, put my phone in another room while working and stopped taking it to bed. I also replaced some screen time with walking and reading.",
+                  "highlights": [
+                    "about a month ago",
+                    "reducing my phone use",
+                    "over six hours a day",
+                    "set limits",
+                    "another room",
+                    "walking and reading"
+                  ]
+                },
+                "draftCues": [
+                  "phone addiction",
+                  "screen time",
+                  "app limit",
+                  "phone away",
+                  "walk-read",
+                  "one month"
+                ],
+                "pointsLabel": "How I feel · 3 原因",
+                "reasons": [
+                  {
+                    "text": "First of all, I can focus better on work and study now.",
+                    "highlights": [
+                      "focus better"
+                    ]
+                  },
+                  {
+                    "text": "Secondly, I sleep earlier and feel more energetic during the day.",
+                    "highlights": [
+                      "sleep earlier",
+                      "more energetic"
+                    ]
+                  },
+                  {
+                    "text": "What's more, I have more time for walks, books and face-to-face conversations.",
+                    "highlights": [
+                      "more time",
+                      "face-to-face conversations"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Alex 故障线｜观点、消息、技术问题与团队",
+            "note": "四题共用“发布新功能后系统变慢”，分别突出改变观点、等回复、解决步骤和分工。",
+            "items": [
+              {
+                "question": "Describe a time when you changed an important opinion of yours",
+                "sourceOrder": 2,
+                "body": {
+                  "text": "This happened at work about a year ago. I used to believe that a good engineer should solve every problem alone. Then our online shopping system became slow after a new feature was released. I spent nearly an hour checking it by myself but found nothing. After Alex joined me, we found the wrong setting quite quickly. That experience changed my opinion because I saw that asking for help can be a responsible choice.",
+                  "highlights": [
+                    "about a year ago",
+                    "solve every problem alone",
+                    "system became slow",
+                    "checking it by myself",
+                    "Alex joined me",
+                    "changed my opinion"
+                  ]
+                },
+                "draftCues": [
+                  "work-1 year",
+                  "solve alone",
+                  "system slow",
+                  "Alex helped",
+                  "faster-safer",
+                  "ask early"
+                ],
+                "pointsLabel": "How I felt · 3 点",
+                "reasons": [
+                  {
+                    "text": "At first, I felt a little embarrassed because my old opinion was wrong.",
+                    "highlights": [
+                      "felt a little embarrassed",
+                      "old opinion was wrong"
+                    ]
+                  },
+                  {
+                    "text": "However, Alex showed me that asking for help can make work faster and safer.",
+                    "highlights": [
+                      "asking for help",
+                      "faster and safer"
+                    ]
+                  },
+                  {
+                    "text": "Now I feel more confident because I communicate with my team earlier.",
+                    "highlights": [
+                      "more confident",
+                      "communicate with my team earlier"
+                    ]
+                  }
+                ]
+              },
+              {
+                "question": "Describe a time when you sent a message or an email to someone but received no reply for a long time",
+                "sourceOrder": 3,
+                "body": {
+                  "text": "I'd like to talk about a message I sent to my colleague Alex during an urgent system problem. I needed his advice, so I described the error and asked whether he could check it with me. However, I received no reply for about two hours. He finally answered and explained that he had been in a long meeting with his phone on silent. After the meeting, he came back and helped me deal with the problem.",
+                  "highlights": [
+                    "my colleague Alex",
+                    "an urgent system problem",
+                    "described the error",
+                    "no reply for about two hours",
+                    "in a long meeting",
+                    "phone on silent"
+                  ]
+                },
+                "draftCues": [
+                  "Alex",
+                  "urgent system",
+                  "message",
+                  "2 hours",
+                  "in meeting",
+                  "reply-help"
+                ],
+                "pointsLabel": "How I felt · 3 点",
+                "reasons": [
+                  {
+                    "text": "At first, I was worried because the system problem was urgent.",
+                    "highlights": [
+                      "was worried",
+                      "urgent"
+                    ]
+                  },
+                  {
+                    "text": "After he replied, I felt relieved because he had only been in a meeting.",
+                    "highlights": [
+                      "felt relieved",
+                      "in a meeting"
+                    ]
+                  },
+                  {
+                    "text": "In the future, I will call or contact another teammate when a problem is truly urgent.",
+                    "highlights": [
+                      "call",
+                      "another teammate",
+                      "truly urgent"
+                    ]
+                  }
+                ]
+              },
+              {
+                "question": "Describe a challenging technological problem you faced",
+                "sourceOrder": 4,
+                "body": {
+                  "text": "I'd like to talk about a system problem I faced at work about a year ago. Our team had just released a new feature for an online shopping system. Soon afterwards, the system became very slow and some users could not complete their orders. It was challenging because I could not find the cause by myself. I asked my colleague Alex for help, and we checked the code, error messages and recent settings together.",
+                  "highlights": [
+                    "at work about a year ago",
+                    "released a new feature",
+                    "system became very slow",
+                    "complete their orders",
+                    "could not find the cause",
+                    "asked my colleague Alex for help"
+                  ]
+                },
+                "draftCues": [
+                  "new feature",
+                  "system slow",
+                  "orders failed",
+                  "Alex",
+                  "too many requests",
+                  "fix-test"
+                ],
+                "pointsLabel": "How I solved it · 3 步",
+                "reasons": [
+                  {
+                    "text": "First, Alex and I checked the code and error messages together.",
+                    "highlights": [
+                      "checked the code",
+                      "error messages"
+                    ]
+                  },
+                  {
+                    "text": "Then we found one setting that was sending too many requests at the same time.",
+                    "highlights": [
+                      "one setting",
+                      "too many requests"
+                    ]
+                  },
+                  {
+                    "text": "Finally, we corrected it and tested several orders until the system worked normally.",
+                    "highlights": [
+                      "corrected it",
+                      "tested several orders",
+                      "worked normally"
+                    ]
+                  }
+                ]
+              },
+              {
+                "question": "Describe a time when you worked in a group",
+                "sourceOrder": 6,
+                "body": {
+                  "text": "I'd like to talk about a time when I worked with Alex and two teammates to solve a system problem. A new feature had made our online shopping system slow, and some orders were failing. We divided the work: I checked the error messages, Alex reviewed the settings and the others prepared test orders. The main difficulty was finding the cause quickly without creating another problem, so we shared our findings before making any change.",
+                  "highlights": [
+                    "Alex and two teammates",
+                    "solve a system problem",
+                    "some orders were failing",
+                    "divided the work",
+                    "prepared test orders",
+                    "shared our findings"
+                  ]
+                },
+                "draftCues": [
+                  "system problem",
+                  "Alex-team",
+                  "divide roles",
+                  "logs-settings",
+                  "share findings",
+                  "test-normal"
+                ],
+                "pointsLabel": "Why I worked in a group · 3 原因",
+                "reasons": [
+                  {
+                    "text": "First of all, the technical problem was too complex for one person to solve quickly.",
+                    "highlights": [
+                      "too complex",
+                      "one person"
+                    ]
+                  },
+                  {
+                    "text": "Secondly, each teammate had different skills, so we could divide the work.",
+                    "highlights": [
+                      "different skills",
+                      "divide the work"
+                    ]
+                  },
+                  {
+                    "text": "What's more, checking and testing together made the solution faster and safer.",
+                    "highlights": [
+                      "testing together",
+                      "faster and safer"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "家庭休闲线｜球赛、省钱出游与电影之夜",
+            "note": "共用“周末和女朋友一起”，但三件事的地点和行为分开记。",
+            "items": [
+              {
+                "question": "Describe a live sports event you watched and liked",
+                "sourceOrder": 5,
+                "body": {
+                  "text": "I'd like to talk about a live football match I watched on television at home last weekend. I watched it with my girlfriend, and we prepared some drinks and snacks before it started. The two teams were quite evenly matched, and the score stayed level for most of the game. In the final few minutes, one team scored the winning goal. We both stood up and cheered because it happened so suddenly.",
+                  "highlights": [
+                    "a live football match",
+                    "at home last weekend",
+                    "with my girlfriend",
+                    "drinks and snacks",
+                    "score stayed level",
+                    "winning goal"
+                  ]
+                },
+                "draftCues": [
+                  "football live",
+                  "last weekend",
+                  "home-TV",
+                  "girlfriend",
+                  "snacks",
+                  "last goal"
+                ],
+                "pointsLabel": "Why I liked it · 3 原因",
+                "reasons": [
+                  {
+                    "text": "First of all, the score was close and the last goal made the match exciting.",
+                    "highlights": [
+                      "score was close",
+                      "last goal",
+                      "exciting"
+                    ]
+                  },
+                  {
+                    "text": "Secondly, watching it helped me relax after a busy week.",
+                    "highlights": [
+                      "helped me relax",
+                      "busy week"
+                    ]
+                  },
+                  {
+                    "text": "What's more, it gave my girlfriend and me some enjoyable time together.",
+                    "highlights": [
+                      "enjoyable time together"
+                    ]
+                  }
+                ]
+              },
+              {
+                "question": "Describe a special day out that cost you little money/didn't cost you much",
+                "sourceOrder": 8,
+                "body": {
+                  "text": "I'd like to talk about a simple day out I had with my girlfriend last weekend. We went to a nearby park on foot, so we did not need to pay for transport or tickets. We bought some bread, fruit and drinks for about 30 yuan. In the park, we walked around the lake, had a small picnic, took photos and stayed until sunset. We spent almost the whole afternoon there.",
+                  "highlights": [
+                    "with my girlfriend last weekend",
+                    "a nearby park",
+                    "on foot",
+                    "about 30 yuan",
+                    "a small picnic",
+                    "until sunset"
+                  ]
+                },
+                "draftCues": [
+                  "nearby park",
+                  "last weekend",
+                  "girlfriend",
+                  "walk-picnic",
+                  "30 yuan",
+                  "sunset"
+                ],
+                "pointsLabel": "How I feel · 3 原因",
+                "reasons": [
+                  {
+                    "text": "First of all, it was affordable, so I did not feel any money pressure.",
+                    "highlights": [
+                      "affordable",
+                      "money pressure"
+                    ]
+                  },
+                  {
+                    "text": "Secondly, walking in the quiet park helped me relax.",
+                    "highlights": [
+                      "quiet park",
+                      "helped me relax"
+                    ]
+                  },
+                  {
+                    "text": "What's more, the simple picnic gave us quality time and a happy memory.",
+                    "highlights": [
+                      "quality time",
+                      "happy memory"
+                    ]
+                  }
+                ]
+              },
+              {
+                "question": "Describe a time when you organized a happy event successfully",
+                "sourceOrder": 9,
+                "body": {
+                  "text": "I'd like to talk about a small movie night that I organized at home last month. I invited my girlfriend and two close friends. I cleaned the living room, chose a short comedy and prepared drinks and snacks. My girlfriend helped me arrange the seats and check the television before everyone arrived. We started on time, watched one film and talked for a while afterwards, so the evening was simple and relaxed.",
+                  "highlights": [
+                    "a small movie night",
+                    "at home last month",
+                    "a short comedy",
+                    "drinks and snacks",
+                    "my girlfriend helped me",
+                    "started on time"
+                  ]
+                },
+                "draftCues": [
+                  "movie night",
+                  "home",
+                  "short comedy",
+                  "snacks",
+                  "girlfriend helped",
+                  "everyone laughed"
+                ],
+                "pointsLabel": "Why it was successful · 3 原因",
+                "reasons": [
+                  {
+                    "text": "First of all, I chose a short comedy and prepared the room and snacks in advance.",
+                    "highlights": [
+                      "short comedy",
+                      "in advance"
+                    ]
+                  },
+                  {
+                    "text": "Secondly, my girlfriend helped me, so everything was simple and well organized.",
+                    "highlights": [
+                      "helped me",
+                      "well organized"
+                    ]
+                  },
+                  {
+                    "text": "What's more, everyone laughed, relaxed and became closer during the film.",
+                    "highlights": [
+                      "everyone laughed",
+                      "became closer"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "交通堵塞｜独立事件",
+            "items": [
+              {
+                "question": "Describe a time when you were stuck in a traffic jam for a very long time",
+                "sourceOrder": 7,
+                "body": {
+                  "text": "This happened during my last trip to Shanghai. My girlfriend and I were taking a taxi to a shopping area when we became stuck on a busy city road. There had been a small accident ahead, so the traffic hardly moved for nearly two hours. While waiting, we listened to music, talked about our travel plan and checked the map on my phone. We finally arrived late in the afternoon.",
+                  "highlights": [
+                    "my last trip to Shanghai",
+                    "taking a taxi",
+                    "a busy city road",
+                    "a small accident",
+                    "nearly two hours",
+                    "listened to music"
+                  ]
+                },
+                "draftCues": [
+                  "Shanghai trip",
+                  "taxi",
+                  "city road",
+                  "2 hours",
+                  "music-chat",
+                  "late"
+                ],
+                "pointsLabel": "How I felt · 3 点",
+                "reasons": [
+                  {
+                    "text": "At first, I felt annoyed because the cars hardly moved and we were getting late.",
+                    "highlights": [
+                      "felt annoyed",
+                      "hardly moved",
+                      "getting late"
+                    ]
+                  },
+                  {
+                    "text": "However, I became calmer after we listened to music and talked.",
+                    "highlights": [
+                      "became calmer",
+                      "music and talked"
+                    ]
+                  },
+                  {
+                    "text": "In the future, I will leave earlier or take the subway during busy hours.",
+                    "highlights": [
+                      "leave earlier",
+                      "take the subway"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "李华法语线｜学习另一门语言",
+            "items": [
+              {
+                "question": "Describe a thing you did to learn another language",
+                "sourceOrder": 10,
+                "body": {
+                  "text": "I'd like to talk about learning French by following my friend Li Hua's method. I wanted to learn it for future travel, so I started with a simple French book and short online videos. I wrote down useful words, repeated the speakers' pronunciation and asked a teacher whenever I had a question. I also practised short conversations with Li Hua at weekends. This routine helped me remember words and speak more clearly.",
+                  "highlights": [
+                    "learning French",
+                    "my friend Li Hua's method",
+                    "a simple French book",
+                    "short online videos",
+                    "asked a teacher",
+                    "practised short conversations"
+                  ]
+                },
+                "draftCues": [
+                  "French",
+                  "Li Hua",
+                  "books",
+                  "videos",
+                  "ask teacher",
+                  "practise"
+                ],
+                "pointsLabel": "How I felt · 3 点",
+                "reasons": [
+                  {
+                    "text": "At first, French pronunciation was difficult and I made many mistakes.",
+                    "highlights": [
+                      "pronunciation was difficult",
+                      "many mistakes"
+                    ]
+                  },
+                  {
+                    "text": "After a while, books and videos helped me understand more words and sounds.",
+                    "highlights": [
+                      "books and videos",
+                      "more words and sounds"
+                    ]
+                  },
+                  {
+                    "text": "Now I feel more confident, and I want to keep practising for future travel.",
+                    "highlights": [
+                      "more confident",
+                      "keep practising",
+                      "future travel"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "种菜的奶奶｜早起",
+            "items": [
+              {
+                "question": "Describe a time when you got up early",
+                "sourceOrder": 11,
+                "body": {
+                  "text": "I'd like to talk about a morning when I got up at six o'clock during a visit to my grandma's home in the countryside. She normally works in her garden before the weather becomes hot, so I decided to help her. We watered the vegetables, removed some weeds and picked a few tomatoes. After finishing the work, we washed our hands and ate a simple breakfast made with fresh vegetables.",
+                  "highlights": [
+                    "at six o'clock",
+                    "my grandma's home",
+                    "in the countryside",
+                    "works in her garden",
+                    "watered the vegetables",
+                    "fresh vegetables"
+                  ]
+                },
+                "draftCues": [
+                  "grandma",
+                  "countryside",
+                  "6 a.m.",
+                  "garden",
+                  "water-weeds",
+                  "fresh breakfast"
+                ],
+                "pointsLabel": "How I felt · 3 点",
+                "reasons": [
+                  {
+                    "text": "At first, I felt sleepy because I was not used to getting up at six.",
+                    "highlights": [
+                      "felt sleepy",
+                      "six"
+                    ]
+                  },
+                  {
+                    "text": "After a while, the fresh air and quiet garden made me feel peaceful.",
+                    "highlights": [
+                      "fresh air",
+                      "quiet garden",
+                      "feel peaceful"
+                    ]
+                  },
+                  {
+                    "text": "In the end, I felt proud that I had helped my grandma and spent time with her.",
+                    "highlights": [
+                      "felt proud",
+                      "helped my grandma",
+                      "spent time with her"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "环保新闻｜独立事件",
+            "items": [
+              {
+                "question": "Describe a piece of local news that people are interested in",
+                "sourceOrder": 12,
+                "body": {
+                  "text": "I'd like to talk about a piece of news I saw on local television last month. It was about a new rubbish and recycling rule that the city government planned to introduce. Residents would need to put different kinds of waste into separate bins, and people who littered could receive a fine. The report included interviews with local residents, street cleaners and government workers who explained how the rule might work.",
+                  "highlights": [
+                    "local television last month",
+                    "rubbish and recycling rule",
+                    "city government",
+                    "separate bins",
+                    "receive a fine",
+                    "street cleaners"
+                  ]
+                },
+                "draftCues": [
+                  "local TV",
+                  "rubbish law",
+                  "fine",
+                  "residents",
+                  "government",
+                  "recycling"
+                ],
+                "pointsLabel": "Why people were interested · 3 原因",
+                "reasons": [
+                  {
+                    "text": "First of all, the new rule would affect everyone's daily habits and could include a fine.",
+                    "highlights": [
+                      "daily habits",
+                      "a fine"
+                    ]
+                  },
+                  {
+                    "text": "Secondly, people hoped it would make local streets and parks cleaner.",
+                    "highlights": [
+                      "streets and parks cleaner"
+                    ]
+                  },
+                  {
+                    "text": "What's more, the news started a public discussion about recycling and green services.",
+                    "highlights": [
+                      "public discussion",
+                      "recycling",
+                      "green services"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "reminder": "事件类先记“时间、人物、问题、行动、结果”的顺序。最后一问若问感受，用三部曲；若问原因，用三原因；若问怎么解决，就列三个步骤。"
       },
       "topics": []
     },
@@ -4573,7 +6394,10 @@ window.IELTS_DATA = {
         {
           "label": "04 · 采取行动",
           "title": "做两个简单改变",
-          "keywords": ["distracting apps", "across the room"],
+          "keywords": [
+            "distracting apps",
+            "across the room"
+          ],
           "detail": "读完后，我删掉了几个容易让人分心的应用，晚上还把手机放在房间另一头。这些简单的改变让手机不再那么诱人。",
           "sentence": "After reading it, I deleted several distracting apps and left my phone across the room at night. These simple changes made it much less tempting."
         },
@@ -9157,2262 +10981,6 @@ window.IELTS_DATA = {
           "structure": "PREC"
         }
       ]
-    },
-    {
-      "id": "helping-others",
-      "category": "人物类",
-      "title": "乐于助人的人",
-      "partTwo": "乐于助人的人",
-      "items": [
-        {
-          "question": "Should children help their parents with household chores?",
-          "answer": "Yes. Younger children can do simple chores, while older children can take more responsibility. Both groups can learn useful skills and spend quality time with their parents.",
-          "materials": [
-            "C1",
-            "M5"
-          ],
-          "translation": {
-            "question": "孩子该不该帮父母做家务？",
-            "answer": "是的。年龄较小的孩子可以做简单家务，而年龄较大的孩子可以承担更多责任。两类孩子都能学习实用技能，并与父母共度高质量时光。"
-          },
-          "comparison": "C1 · 年龄与家务责任",
-          "structure": "PREC + 对比"
-        },
-        {
-          "question": "What kind of help do people need when looking for a new job?",
-          "answer": "People often need practical help with writing a clear CV, preparing for interviews and finding reliable job information. This support helps them learn useful skills and see more career choices.",
-          "materials": [
-            "M4"
-          ],
-          "translation": {
-            "question": "人们在寻找新工作时需要什么样的帮助？",
-            "answer": "人们通常需要一些实用帮助，比如写一份清楚的简历、准备面试和寻找可靠的招聘信息。这些帮助能让他们学到实用技能，并看到更多职业选择。"
-          },
-          "structure": "直接回答"
-        },
-        {
-          "question": "Who should people ask for help, colleagues or family members?",
-          "answer": "It depends on the situation. For work-related problems, people should ask their colleagues or managers for help, while family members may be better for personal problems. Honest face-to-face communication can build trust and make these relationships closer and warmer.",
-          "materials": [
-            "M5"
-          ],
-          "translation": {
-            "question": "人们应该向谁寻求帮助，同事还是家人？",
-            "answer": "这取决于具体情况。遇到工作相关的问题时，人们应该向同事或经理求助；而遇到个人问题时，家人可能是更好的选择。坦诚的面对面交流能够建立信任，也能让这些关系更加亲近温暖。"
-          },
-          "structure": "PREC"
-        },
-        {
-          "question": "Why do you think some people are more willing to help others than some?",
-          "answer": "Some people help because they are kind or have received help before. Helping others can build trust and closer relationships. However, busy people may not have enough time.",
-          "materials": [
-            "M5"
-          ],
-          "translation": {
-            "question": "你认为为什么有些人比其他人更愿意帮助别人？",
-            "answer": "有些人愿意帮忙，是因为他们很善良，或者以前也接受过帮助。帮助别人能够建立信任并拉近关系。不过，忙碌的人可能没有足够的时间。"
-          },
-          "structure": "PREC"
-        },
-        {
-          "question": "Do you think it is important for neighbors to help each other? Why?",
-          "answer": "Yes, it is important because neighbours can respond quickly in an emergency or help with small daily problems. This face-to-face contact can build trust and make the community warmer.",
-          "materials": [
-            "M5"
-          ],
-          "translation": {
-            "question": "你认为邻居之间互相帮助重要吗？为什么？",
-            "answer": "是的，这很重要，因为遇到紧急情况时邻居可以快速回应，也能帮忙解决日常小问题。这种面对面的接触能够建立信任，让社区更加温暖。"
-          },
-          "structure": "PREC"
-        },
-        {
-          "question": "How can helping others benefit the person who offers the help?",
-          "answer": "Helping others benefits the helper because solving problems builds useful skills and confidence. For example, supporting a colleague can build trust and make the relationship closer. As a result, the helper may also receive support later.",
-          "materials": [
-            "M4",
-            "M5"
-          ],
-          "translation": {
-            "question": "帮助他人如何使提供帮助的人受益？",
-            "answer": "帮助别人也会让帮助者受益，因为解决问题能培养实用技能和信心。例如，支持一位同事可以建立信任并拉近关系。因此，帮助者以后也可能得到别人的支持。"
-          },
-          "structure": "PREC"
-        }
-      ]
-    },
-    {
-      "id": "protecting-nature",
-      "category": "人物类",
-      "title": "鼓励你保护自然的人",
-      "partTwo": "鼓励你保护自然的人",
-      "items": [
-        {
-          "question": "How can parents teach their children to protect nature?",
-          "answer": "Parents can set a good example. They can recycle, save water and avoid littering with their children. These simple daily habits teach children to protect nature.",
-          "materials": [],
-          "translation": {
-            "question": "家长如何教育孩子保护自然？",
-            "answer": "父母可以树立好榜样。他们可以和孩子一起回收物品、节约用水并避免乱扔垃圾。这些简单的日常习惯能教孩子保护自然。"
-          },
-          "structure": "PREC"
-        },
-        {
-          "question": "Should schools teach children to get close to nature?",
-          "answer": "Yes. Rural children may see fields and animals in daily life, while city children often have less contact with nature. Outdoor lessons help both groups gain new knowledge and broaden their horizons.",
-          "materials": [
-            "C3",
-            "M4"
-          ],
-          "translation": {
-            "question": "学校该不该教孩子亲近大自然？",
-            "answer": "是的。农村孩子在日常生活中可能经常看到田野和动物，而城市孩子与自然的接触通常较少。户外课程能帮助两类孩子获得新知识并开阔眼界。"
-          },
-          "comparison": "C3 · 接触自然的机会",
-          "structure": "PREC + 对比"
-        },
-        {
-          "question": "Do you think there should be laws to protect nature?",
-          "answer": "Yes, definitely. Education is useful, but some people and companies may still damage the environment. For example, companies that pollute rivers should pay a fine. Clear laws can reduce pollution and make people more responsible.",
-          "materials": [],
-          "translation": {
-            "question": "您认为应该制定法律来保护自然吗？",
-            "answer": "是的，当然应该。教育很有用，但有些人和企业仍然可能破坏环境。例如，污染河流的企业应该缴纳罚款。明确的法律可以减少污染，并让人们更负责任。"
-          },
-          "structure": "PREC"
-        },
-        {
-          "question": "Besides laws, what else can the government do to protect the environment?",
-          "answer": "Governments should provide practical support as well. In cities, governments can improve public transport and recycling services. Rural areas may need better forest protection and tighter control of farm chemicals. These actions make green choices more convenient in both places.",
-          "materials": [
-            "C3",
-            "M2"
-          ],
-          "translation": {
-            "question": "除了法律之外，政府还能做些什么来保护环境呢？",
-            "answer": "政府还应该提供实际支持。在城市，政府可以改善公共交通和回收服务。农村地区可能更需要加强森林保护，并严格控制农用化学品。这些措施能让两种地区的环保选择更加方便。"
-          },
-          "comparison": "C3 · 城乡环保措施",
-          "structure": "PREC + 对比"
-        },
-        {
-          "question": "Why do some people not care about environmental protection?",
-          "answer": "Some people do not care because environmental damage may feel distant from their daily lives. Others think green choices are inconvenient or expensive. Clear public education can help them understand the results and make more rational choices.",
-          "materials": [
-            "M7"
-          ],
-          "translation": {
-            "question": "为什么有些人不关心环保？",
-            "answer": "有些人不关心环保，是因为环境破坏似乎离日常生活很远；另一些人觉得环保选择不方便或太贵。清楚的公众教育能帮助他们了解后果，并作出更理性的选择。"
-          },
-          "structure": "PREC"
-        },
-        {
-          "question": "Do you think individuals can make a real difference in protecting nature? Why?",
-          "answer": "Yes. One person's action seems small, but many people saving water, recycling and using fewer plastic bags can reduce pollution. Good habits can also influence family and friends.",
-          "materials": [],
-          "translation": {
-            "question": "您认为个人可以在保护自然方面发挥真正的作用吗？为什么？",
-            "answer": "可以。一个人的行动看起来很小，但许多人一起节约用水、回收物品并少用塑料袋，就能减少污染。好习惯还会影响家人和朋友。"
-          },
-          "structure": "PREC"
-        }
-      ]
-    },
-    {
-      "id": "smart-problem-solving",
-      "category": "人物类",
-      "title": "机智解决问题的人",
-      "partTwo": "机智解决问题的人",
-      "items": [
-        {
-          "question": "Do you think children are born smart or they learn to become smart?",
-          "answer": "I think both matter, but learning is more important because intelligence can grow through practice. For example, children become better at solving problems when they study and learn new skills. Natural talent is helpful, but it is not enough without effort.",
-          "materials": [
-            "M4"
-          ],
-          "translation": {
-            "question": "你认为孩子是天生聪明还是后天学习变得聪明？",
-            "answer": "我认为两者都重要，但学习更加重要，因为智力可以通过练习提高。例如，孩子学习和掌握新技能时，会更善于解决问题。天赋会有帮助，但如果不努力，只有天赋是不够的。"
-          },
-          "structure": "PREC"
-        },
-        {
-          "question": "How do children become smart at school?",
-          "answer": "Children become smarter by learning actively and practising different tasks. Reading gives them new knowledge, and projects teach them how to solve problems with others. Regular practice helps them learn useful skills and explore new ideas.",
-          "materials": [
-            "M4"
-          ],
-          "translation": {
-            "question": "孩子在学校如何变得聪明？",
-            "answer": "孩子通过主动学习和练习不同任务变得更聪明。阅读能带来新知识，项目活动能教他们与他人一起解决问题。持续练习能帮助他们学习实用技能并探索新想法。"
-          },
-          "structure": "PREC"
-        },
-        {
-          "question": "Why are some people well-rounded and others only good at one thing?",
-          "answer": "It mainly depends on people's interests and opportunities. People become well-rounded when they have chances to learn new skills in different areas. Others focus on one thing because they are very interested in it or need it for work. Both ways can be useful.",
-          "materials": [
-            "M4"
-          ],
-          "translation": {
-            "question": "为什么有些人多才多艺，而另一些人只擅长一件事？",
-            "answer": "这主要取决于人们的兴趣和机会。如果人们有机会在不同领域学习新技能，就可能发展得比较全面。另一些人专注于一件事，是因为他们对它很感兴趣，或者工作需要这项能力。两种方式都可能有用。"
-          },
-          "structure": "PREC"
-        },
-        {
-          "question": "Why does modern society need talents of all kinds?",
-          "answer": "Modern society faces many kinds of problems, so it needs scientists, teachers, artists and skilled workers. They bring different knowledge and useful skills. When they work together, they can explore more ideas and find better solutions.",
-          "materials": [
-            "M4"
-          ],
-          "translation": {
-            "question": "现代社会为什么需要各类人才？",
-            "answer": "现代社会面对许多不同的问题，因此需要科学家、教师、艺术家和技术工人。他们能带来不同的知识和实用技能。大家一起合作时，就能探索更多想法并找到更好的解决办法。"
-          },
-          "structure": "PREC"
-        },
-        {
-          "question": "In your opinion, what is more important in solving problems, intelligence or experience?",
-          "answer": "Experience is usually more useful for familiar problems because it helps people avoid past mistakes. Intelligence is helpful when the problem is new and needs a fresh idea. In my view, the best solution combines experience with open-minded thinking.",
-          "materials": [
-            "M4"
-          ],
-          "translation": {
-            "question": "您认为解决问题时，智力和经验哪个更重要？",
-            "answer": "经验通常对熟悉的问题更有用，因为它能帮助人们避免过去的错误；遇到需要新思路的新问题时，聪明才智会更有帮助。在我看来，最好的解决办法是把经验和开放的思维结合起来。"
-          },
-          "structure": "PREC + 对比"
-        },
-        {
-          "question": "Can you give an example of how technology helps people solve problems in a smart way today?",
-          "answer": "Navigation apps are a good example. They compare routes in seconds and show traffic problems. This saves time, cuts down unnecessary waiting and makes the whole journey more efficient.",
-          "materials": [
-            "M2"
-          ],
-          "translation": {
-            "question": "您能举例说明当今技术如何帮助人们以智能方式解决问题吗？",
-            "answer": "导航应用就是一个好例子。它能在几秒内比较路线并显示交通问题，从而节省时间、减少不必要的等待，让整个行程更加高效。"
-          },
-          "structure": "直接回答"
-        }
-      ]
-    },
-    {
-      "id": "planning",
-      "category": "人物类",
-      "title": "常做计划的人",
-      "partTwo": "常做计划的人",
-      "items": [
-        {
-          "question": "Do you think it's important to plan ahead?",
-          "answer": "Yes, because planning ahead prevents last-minute problems and helps people use their time efficiently. For example, a simple plan for an exam or a trip can save time and reduce stress.",
-          "materials": [
-            "M2"
-          ],
-          "translation": {
-            "question": "你认为提前计划重要吗？",
-            "answer": "是的，因为提前计划能避免最后一刻出现问题，也能让人们更高效地利用时间。例如，为考试或旅行做一个简单计划可以节省时间并减轻压力。"
-          },
-          "structure": "PREC"
-        },
-        {
-          "question": "Do you think children should plan their future careers?",
-          "answer": "Yes, but the plan should stay flexible because children's interests may change. They can first explore different subjects and learn useful skills, while parents and teachers give practical advice.",
-          "materials": [
-            "M4"
-          ],
-          "translation": {
-            "question": "您认为孩子应该规划自己未来的职业吗？",
-            "answer": "可以，但计划应该保持灵活，因为孩子的兴趣可能会改变。他们可以先探索不同学科、学习实用技能，同时听取父母和老师的实际建议。"
-          },
-          "structure": "PREC"
-        },
-        {
-          "question": "Should children ask their teachers or parents for advice when making plans?",
-          "answer": "They should ask both. Teachers know more about study, while parents understand the child's personality. A face-to-face talk with both sides can build trust and lead to a better plan.",
-          "materials": [
-            "M5"
-          ],
-          "translation": {
-            "question": "孩子在制定计划时是否应该征求老师或家长的意见？",
-            "answer": "他们应该同时询问双方。老师更了解学习，父母更了解孩子的性格。与双方进行面对面交流能够建立信任，也能制定出更好的计划。"
-          },
-          "structure": "PREC"
-        },
-        {
-          "question": "What activities do we need to plan ahead?",
-          "answer": "People should plan important activities such as exams, trips, job interviews and large purchases. Planning these things early saves time and reduces last-minute stress.",
-          "materials": [
-            "M2"
-          ],
-          "translation": {
-            "question": "我们需要提前计划哪些活动？",
-            "answer": "人们应该提前计划考试、旅行、求职面试和大额消费等重要活动。提早计划这些事情能节省时间，并减少最后一刻的压力。"
-          },
-          "structure": "直接回答"
-        },
-        {
-          "question": "Is making study plans popular among young people?",
-          "answer": "Yes, especially before important exams. Many young people use a simple timetable to organise their subjects and daily tasks. It saves time and makes their study more efficient.",
-          "materials": [
-            "M2"
-          ],
-          "translation": {
-            "question": "制定学习计划受年轻人欢迎吗？",
-            "answer": "是的，特别是在重要考试之前。许多年轻人会用简单的时间表安排科目和日常任务，这样能节省时间，也能提高学习效率。"
-          },
-          "structure": "PREC"
-        },
-        {
-          "question": "Do you think choosing a college major is closely related to a person's future career?",
-          "answer": "Yes, but only to some extent. A major gives people useful knowledge and may help them get their first job. However, they can still learn new skills and change careers later, so a major does not completely decide their future.",
-          "materials": [
-            "M4"
-          ],
-          "translation": {
-            "question": "您认为大学专业的选择与一个人未来的职业生涯密切相关吗？",
-            "answer": "是的，但只是在一定程度上。专业能给人们提供实用知识，也可能帮助他们找到第一份工作。不过，他们以后仍然可以通过学习新技能来转行，所以专业并不能完全决定未来。"
-          },
-          "structure": "PREC"
-        }
-      ]
-    },
-    {
-      "id": "drawing-and-art",
-      "category": "人物类",
-      "title": "喜欢画画的孩子",
-      "partTwo": "喜欢画画的孩子",
-      "items": [
-        {
-          "question": "What is the right age for a child to learn drawing?",
-          "answer": "Five or six is a good age to start. Younger children can begin with free drawing, while older children can learn more detailed techniques. Both groups can learn new skills and explore new ideas.",
-          "materials": [
-            "C1",
-            "M4"
-          ],
-          "translation": {
-            "question": "孩子几岁适合学画画？",
-            "answer": "五六岁是开始学习的合适年龄。年龄较小的孩子可以先自由画画，而年龄较大的孩子可以学习更细致的技巧。两类孩子都能学习新技能并探索新想法。"
-          },
-          "comparison": "C1 · 不同年龄的学习方式",
-          "structure": "PREC + 对比"
-        },
-        {
-          "question": "Why do most children draw more often than adults do?",
-          "answer": "Adults are often used to fixed routines and may worry about making mistakes. By contrast, children are more open to new ideas and enjoy trying unfamiliar things. Drawing therefore helps them explore ideas, learn skills and broaden their horizons.",
-          "materials": [
-            "C1",
-            "M4"
-          ],
-          "translation": {
-            "question": "为什么大多数孩子比成人更常画画？",
-            "answer": "成年人通常习惯固定的生活方式，也可能担心犯错。相比之下，孩子更愿意接受新想法，也喜欢尝试陌生事物。因此，画画能帮助他们探索想法、学习技能并开阔眼界。"
-          },
-          "comparison": "C1 · 对改变的态度",
-          "structure": "PREC + 对比"
-        },
-        {
-          "question": "Why do some people visit galleries or museums instead of viewing artworks online?",
-          "answer": "People visit galleries because real artworks give a stronger experience than pictures on a screen. They can see the real size, colour and details in a quiet space. This can also help them understand local culture better.",
-          "materials": [
-            "M8"
-          ],
-          "translation": {
-            "question": "为什么有些人参观画廊或博物馆而不是在线观看艺术品？",
-            "answer": "人们去美术馆，是因为真实艺术品带来的体验比屏幕上的图片更强。他们可以在安静的空间里看到真实的尺寸、颜色和细节，也能更好地了解当地文化。"
-          },
-          "structure": "PREC + 对比"
-        },
-        {
-          "question": "Do you think galleries and museums should be free of charge?",
-          "answer": "Basic entry should be free or low-cost because museums help the public understand local culture. They can charge for special exhibitions to cover some costs and offer convenient online exhibitions for people who cannot visit.",
-          "materials": [
-            "M2",
-            "M8"
-          ],
-          "translation": {
-            "question": "您认为画廊和博物馆应该免费吗？",
-            "answer": "基础门票应该免费或价格较低，因为博物馆能帮助公众了解当地文化。博物馆可以通过特别展览收费来承担部分成本，也可以为不能到场的人提供方便的线上展览。"
-          },
-          "structure": "PREC"
-        },
-        {
-          "question": "How do artworks inspire people?",
-          "answer": "Artworks inspire people by giving them new ideas and feelings. For example, a painting may make someone imagine an unfamiliar life or remember a personal experience. As a result, art can broaden their horizons and help them relax.",
-          "materials": [
-            "M1",
-            "M4"
-          ],
-          "translation": {
-            "question": "艺术作品如何启发人们？",
-            "answer": "艺术品通过带来新的想法和感受来启发人们。例如，一幅画可能让人想象一种陌生的生活，或回忆起个人经历。因此，艺术能够开阔眼界，也能帮助人们放松。"
-          },
-          "structure": "PREC"
-        },
-        {
-          "question": "In your opinion, should drawing be a compulsory subject in primary school? Why or why not?",
-          "answer": "Yes, because drawing helps children express ideas and develop creativity. It also lets them explore new ideas and learn useful skills. However, it should not take too much time from basic subjects.",
-          "materials": [
-            "M4"
-          ],
-          "translation": {
-            "question": "您认为绘画应该成为小学必修课吗？为什么或为什么不呢？",
-            "answer": "是的，因为画画能帮助孩子表达想法并培养创造力，也能让他们探索新想法、学习实用技能。不过，它不应该占用基础学科太多时间。"
-          },
-          "structure": "PREC"
-        }
-      ]
-    },
-    {
-      "id": "fame",
-      "category": "人物类",
-      "title": "想见的名人",
-      "partTwo": "想见的名人",
-      "items": [
-        {
-          "question": "What are the advantages and disadvantages of being a famous child?",
-          "answer": "Fame can bring training and useful opportunities, but a child has less life experience than an adult and may not handle pressure well. Parents should control excessive public attention and help the child keep a balanced daily life.",
-          "materials": [
-            "C1",
-            "M7"
-          ],
-          "translation": {
-            "question": "出名的孩子有哪些优点和缺点？",
-            "answer": "成名可以带来培训和有用的机会，但孩子的人生经验少于成年人，可能不太会处理压力。父母应该控制过度的公众关注，并帮助孩子保持平衡的日常生活。"
-          },
-          "comparison": "C1 · 生活经验",
-          "structure": "PREC + 对比"
-        },
-        {
-          "question": "What can today's children do to become famous?",
-          "answer": "Children can become known through sport, music, acting or useful online videos. However, they need to learn useful skills and use social media in a moderate way instead of chasing attention all the time.",
-          "materials": [
-            "M4",
-            "M7"
-          ],
-          "translation": {
-            "question": "现在的孩子怎样才能出名呢？",
-            "answer": "孩子可以通过运动、音乐、表演或有用的网络视频获得关注。不过，他们需要学习实用技能，并适度使用社交媒体，而不是一直追逐关注。"
-          },
-          "structure": "直接回答"
-        },
-        {
-          "question": "What can children do with their fame?",
-          "answer": "Children can use their fame to support charities, share useful messages or encourage other children. Their parents should help them choose safe activities and protect their normal daily life.",
-          "materials": [],
-          "translation": {
-            "question": "孩子们可以利用自己的名气做什么？",
-            "answer": "孩子可以利用名气支持慈善活动、分享有用的信息，或鼓励其他孩子。父母应该帮助他们选择安全的活动，并保护他们正常的日常生活。"
-          },
-          "structure": "直接回答"
-        },
-        {
-          "question": "Do people become famous because of their talent?",
-          "answer": "Talent is helpful, but it is not enough. Famous people usually practise for years, learn new skills and gain experience. These things help them grow and see more opportunities.",
-          "materials": [
-            "M4"
-          ],
-          "translation": {
-            "question": "人是因为才华而出名的吗？",
-            "answer": "天赋有帮助，但并不够。名人通常会练习多年、学习新技能并积累经验，这些事情能帮助他们成长并看到更多机会。"
-          },
-          "structure": "PREC"
-        },
-        {
-          "question": "Why are some people more interested in the private lives of celebrities?",
-          "answer": "Some people are interested because social media gives them constant updates about celebrities. Their lifestyles can also be an easy form of entertainment. However, too much interest can waste time and invade other people's privacy.",
-          "materials": [
-            "M7"
-          ],
-          "translation": {
-            "question": "为什么有些人对明星的私生活更感兴趣？",
-            "answer": "有些人感兴趣，是因为社交媒体不断提供名人的最新消息，而且名人的生活方式也是一种轻松的娱乐。不过，过度关注会浪费时间，也可能侵犯他人的隐私。"
-          },
-          "structure": "PREC"
-        },
-        {
-          "question": "Do you think the definition of “fame” has changed in the age of social media? How?",
-          "answer": "Yes. In the past, people usually became famous through films, music or sport. Now social media makes this process quick and convenient, although online fame may not last long.",
-          "materials": [
-            "M2"
-          ],
-          "translation": {
-            "question": "您认为社交媒体时代“名气”的定义是否发生了变化？如何？",
-            "answer": "是的。过去，人们通常通过电影、音乐或体育成名。现在，社交媒体让这个过程变得快捷方便，不过网络名气可能不会持续很久。"
-          },
-          "structure": "PREC"
-        }
-      ]
-    },
-    {
-      "id": "pride",
-      "category": "人物类",
-      "title": "让你骄傲的家人",
-      "partTwo": "让你骄傲的家人",
-      "items": [
-        {
-          "question": "What would children do to make their parents proud?",
-          "answer": "Children make parents proud by becoming responsible. Young children can make parents proud by being kind and doing simple chores, while older children can study hard and become independent. Parents value both when children learn useful skills and show personal growth.",
-          "materials": [
-            "C1",
-            "M4"
-          ],
-          "translation": {
-            "question": "孩子会做什么让父母感到骄傲？",
-            "answer": "孩子变得有责任感时会让父母自豪。年龄较小的孩子可以通过友善和做简单家务让父母自豪，而年龄较大的孩子可以努力学习并变得独立。当孩子学习实用技能并展现个人成长时，父母都会感到自豪。"
-          },
-          "comparison": "C1 · 不同年龄让父母自豪的方式",
-          "structure": "PREC + 对比"
-        },
-        {
-          "question": "What did you do to make your parents proud when you were young?",
-          "answer": "When I was young, I studied hard and learned to finish tasks by myself. Gaining new knowledge and becoming more independent made my parents proud of my growth.",
-          "materials": [
-            "M4"
-          ],
-          "translation": {
-            "question": "你小时候做过什么让父母感到骄傲的事？",
-            "answer": "小时候，我努力学习，也学会独立完成任务。获得新知识并变得更加独立，让父母为我的成长感到骄傲。"
-          },
-          "structure": "直接回答"
-        },
-        {
-          "question": "What advantages of yours make you proud?",
-          "answer": "I am proud of my willingness to learn and solve problems calmly. These strengths help me gain new skills, handle unfamiliar situations and keep an open-minded attitude.",
-          "materials": [
-            "M4"
-          ],
-          "translation": {
-            "question": "你的哪些优点让你感到自豪？",
-            "answer": "我为自己愿意学习并能冷静解决问题而骄傲。这些优点能帮助我获得新技能、处理陌生情况，并保持开放的态度。"
-          },
-          "structure": "直接回答"
-        },
-        {
-          "question": "When was the last time that you felt proud of yourself?",
-          "answer": "I felt proud after finishing a difficult work task last month. I had to learn new skills and solve an unfamiliar problem, so the experience helped me grow.",
-          "materials": [
-            "M4"
-          ],
-          "translation": {
-            "question": "您最后一次为自己感到骄傲是什么时候？",
-            "answer": "上个月完成一项困难的工作任务后，我为自己感到骄傲。我必须学习新技能并解决一个陌生问题，因此这段经历帮助我成长。"
-          },
-          "structure": "直接回答"
-        },
-        {
-          "question": "Should parents reward children? Why and how?",
-          "answer": "Yes, because rewards can motivate children, but they should be moderate. For example, young children may like praise or a small gift, while older children may value trust and freedom. Too many rewards can cause distraction.",
-          "materials": [
-            "C1",
-            "M7"
-          ],
-          "translation": {
-            "question": "父母该奖励孩子吗？为什么以及如何？",
-            "answer": "是的，因为奖励能激励孩子，但应该保持适度。例如，年龄较小的孩子可能喜欢表扬或小礼物，而年龄较大的孩子可能更看重信任和自由。奖励过多会让孩子分心。"
-          },
-          "comparison": "C1 · 不同年龄的奖励方式",
-          "structure": "PREC + 对比"
-        },
-        {
-          "question": "On what occasions would adults be proud of themselves?",
-          "answer": "Adults feel proud when they reach important goals. Young adults may value starting a career, while older adults may value supporting their family or staying independent. Both show personal growth.",
-          "materials": [
-            "C1",
-            "M4"
-          ],
-          "translation": {
-            "question": "成年人在什么情况下会为自己感到骄傲？",
-            "answer": "成年人实现重要目标时会感到自豪。年轻成年人可能看重开始职业生涯，而年长者可能看重照顾家庭或保持独立。两者都体现了个人成长。"
-          },
-          "comparison": "C1 · 不同年龄成年人的自豪来源",
-          "structure": "PREC + 对比"
-        }
-      ]
-    },
-    {
-      "id": "lifelong-learning",
-      "category": "人物类",
-      "title": "自学的朋友",
-      "partTwo": "自学的朋友",
-      "items": [
-        {
-          "question": "Is it necessary to keep learning after graduating from school?",
-          "answer": "Yes, because work and technology keep changing after people graduate. Continued learning helps them learn useful skills, gain new knowledge and stay ready for new opportunities.",
-          "materials": [
-            "M4"
-          ],
-          "translation": {
-            "question": "毕业后还有必要继续学习吗？",
-            "answer": "有必要，因为毕业以后工作和科技仍在不断变化。持续学习能帮助人们掌握实用技能、获得新知识，并为新的机会做好准备。"
-          },
-          "structure": "PREC"
-        },
-        {
-          "question": "Should teachers make learning in their classes fun?",
-          "answer": "Yes, because enjoyable lessons improve attention and help students relax. Teachers can use games, stories or practical tasks, so students can explore new ideas and learn useful skills.",
-          "materials": [
-            "M1",
-            "M4"
-          ],
-          "translation": {
-            "question": "老师应该让课堂上的学习变得有趣吗？",
-            "answer": "应该，因为有趣的课堂能提高注意力，也能帮助学生放松。老师可以使用游戏、故事或实践任务，让学生探索新想法并学习实用技能。"
-          },
-          "structure": "PREC"
-        },
-        {
-          "question": "Do you think there are too many subjects for students to learn?",
-          "answer": "Sometimes, especially for older students. Younger students need several subjects to find their interests, while older students should have more choice to focus on a few areas. Too many compulsory subjects can create an excessive workload and cause stress.",
-          "materials": [
-            "C1",
-            "M7"
-          ],
-          "translation": {
-            "question": "您是否认为学生需要学习的科目太多？",
-            "answer": "有时是这样，尤其是对年龄较大的学生来说。年龄较小的学生需要学习多门学科来发现兴趣，而年龄较大的学生应该有更多选择，可以专注于少数领域。过多必修科目会造成过重的学习负担和压力。"
-          },
-          "comparison": "C1 · 不同学习阶段的科目数量",
-          "structure": "PREC + 对比"
-        },
-        {
-          "question": "Is it better to focus on a few subjects or to learn many subjects?",
-          "answer": "It depends on the student's age and goals. Younger students should learn several subjects to discover their interests, while older students can focus on fewer subjects. Both approaches help them gain new knowledge and learn useful skills.",
-          "materials": [
-            "C1",
-            "M4"
-          ],
-          "translation": {
-            "question": "专注于几门科目好还是学习多门科目好？",
-            "answer": "这取决于学生的年龄和目标。年龄较小的学生应该学习多门学科来发现兴趣，而年龄较大的学生可以专注于较少的学科。两种方式都能帮助他们获得新知识并学习实用技能。"
-          },
-          "comparison": "C1 · 广泛学习与深入学习",
-          "structure": "PREC + 对比"
-        },
-        {
-          "question": "Do you think enterprises should provide training for their employees?",
-          "answer": "Yes, because employees need different training at different stages. New employees need to learn basic tasks, while experienced workers may need updates on new technology. Good training saves time, reduces mistakes and makes work more efficient.",
-          "materials": [
-            "M2"
-          ],
-          "translation": {
-            "question": "您认为企业应该为员工提供培训吗？",
-            "answer": "应该，因为员工在不同阶段需要不同的培训。新员工需要学习基本任务，而有经验的员工可能需要了解新技术。良好的培训能节省时间、减少错误，并提高工作效率。"
-          },
-          "structure": "PREC + 对比"
-        },
-        {
-          "question": "Do you think it is good for older adults to continue learning?",
-          "answer": "Yes, because learning helps older adults stay active and independent. They can learn to use technology or enjoy a new hobby. This gives them new knowledge and useful skills for daily life.",
-          "materials": [
-            "M4"
-          ],
-          "translation": {
-            "question": "您认为老年人继续学习有好处吗？",
-            "answer": "是的，因为学习能帮助老年人保持活力和独立。他们可以学习使用科技产品，或培养一种新爱好，从而获得新知识和日常生活所需的实用技能。"
-          },
-          "structure": "PREC"
-        }
-      ]
-    },
-    {
-      "id": "encouragement",
-      "category": "事件类",
-      "title": "鼓励别人做不愿做的事",
-      "partTwo": "鼓励别人做不愿做的事",
-      "items": [
-        {
-          "question": "How can leaders encourage their employees?",
-          "answer": "Leaders can set clear goals, give specific feedback and offer fair rewards. Regular face-to-face communication also helps employees understand their progress and builds trust in the team.",
-          "materials": [
-            "M5"
-          ],
-          "translation": {
-            "question": "领导者如何激励员工？",
-            "answer": "领导可以设定清楚的目标、给出具体反馈并提供公平的奖励。定期的面对面沟通也能帮助员工了解自己的进步，并在团队中建立信任。"
-          },
-          "structure": "直接回答"
-        },
-        {
-          "question": "When should parents encourage their children?",
-          "answer": "Young children need encouragement when trying simple new tasks, while teenagers may need it before exams or important choices. Calm support helps both groups learn useful skills and become more confident.",
-          "materials": [
-            "C1",
-            "M4"
-          ],
-          "translation": {
-            "question": "父母应该在什么时候鼓励孩子？",
-            "answer": "年龄较小的孩子尝试简单的新任务时需要鼓励，而青少年在考试或重要选择前可能需要鼓励。平静的支持能帮助两类孩子学习实用技能并变得更自信。"
-          },
-          "comparison": "C1 · 不同年龄需要的鼓励",
-          "structure": "PREC + 对比"
-        },
-        {
-          "question": "What kind of encouragement should parents give?",
-          "answer": "Parents should give specific and honest praise, especially for effort and improvement. For example, they can explain exactly what the child did well. This kind of face-to-face encouragement builds trust and confidence.",
-          "materials": [
-            "M5"
-          ],
-          "translation": {
-            "question": "家长应该给予怎样的鼓励呢？",
-            "answer": "父母应该给予具体而真诚的表扬，尤其要肯定孩子的努力和进步。例如，他们可以明确说出孩子哪里做得好。这种面对面的鼓励能建立信任和信心。"
-          },
-          "structure": "直接回答"
-        },
-        {
-          "question": "Do you think some people are better than others at persuading?",
-          "answer": "Yes. People who listen carefully, speak clearly and understand other people's needs are usually more persuasive. Experience can improve this ability, and good face-to-face communication helps them build trust.",
-          "materials": [
-            "M5"
-          ],
-          "translation": {
-            "question": "你认为有些人比其他人更擅长说服别人吗？",
-            "answer": "是的。认真倾听、表达清楚并理解他人需求的人通常更有说服力。经验能提升这种能力，而良好的面对面沟通能帮助他们建立信任。"
-          },
-          "structure": "PREC"
-        },
-        {
-          "question": "What is the difference between encouraging someone and pressuring someone?",
-          "answer": "Encouragement gives support and leaves the choice to the person. Pressure forces someone to act and may cause anxiety. A moderate approach is more helpful.",
-          "materials": [
-            "M7"
-          ],
-          "translation": {
-            "question": "鼓励某人和向某人施加压力有什么区别？",
-            "answer": "鼓励会提供支持，并把选择留给对方。压力会迫使一个人行动，也可能造成焦虑。适度的方式更有帮助。"
-          },
-          "structure": "PREC"
-        },
-        {
-          "question": "In your opinion, is it always good to encourage people to try new things? Why?",
-          "answer": "Usually yes, because trying new things can help people learn useful skills and support personal growth. However, it is not a good idea if the activity is dangerous or too expensive. Encouragement should be moderate and respect the person's choice.",
-          "materials": [
-            "M4",
-            "M7"
-          ],
-          "translation": {
-            "question": "您认为鼓励人们尝试新事物总是好的吗？为什么？",
-            "answer": "通常是好的，因为尝试新事物能帮助人们学习实用技能并促进个人成长。不过，如果活动危险或过于昂贵，就不适合鼓励。鼓励应该适度，也要尊重对方的选择。"
-          },
-          "structure": "PREC"
-        }
-      ]
-    },
-    {
-      "id": "imagination",
-      "category": "事件类",
-      "title": "发挥想象力",
-      "partTwo": "发挥想象力",
-      "items": [
-        {
-          "question": "Do you think adults can have lots of imagination?",
-          "answer": "Yes. Adults use imagination at work, in hobbies and when solving daily problems. Their experience can give them useful ideas, especially if they stay open-minded and keep exploring different things.",
-          "materials": [
-            "M4"
-          ],
-          "translation": {
-            "question": "你认为成年人可以有很多想象力吗？",
-            "answer": "可以。成年人会在工作、爱好和解决日常问题时使用想象力。他们的经验能够带来有用的想法，尤其是在保持开放心态并不断探索不同事物时。"
-          },
-          "structure": "PREC"
-        },
-        {
-          "question": "Do you think imagination is essential for scientists?",
-          "answer": "Yes, imagination helps scientists see a problem in a new way. Knowledge gives them a strong base, while an open-minded view helps them explore ideas that nobody has tested before.",
-          "materials": [
-            "M4"
-          ],
-          "translation": {
-            "question": "您认为想象力对于科学家来说至关重要吗？",
-            "answer": "是的，想象力能帮助科学家用新方式看待问题。知识提供坚实基础，而开放的视角能帮助他们探索以前没人验证过的想法。"
-          },
-          "structure": "PREC"
-        },
-        {
-          "question": "What kinds of jobs need imagination?",
-          "answer": "Designers, writers, scientists and software engineers all need imagination. They must explore different ideas, learn new skills and create solutions that people have not used before.",
-          "materials": [
-            "M4"
-          ],
-          "translation": {
-            "question": "什么样的工作需要想象力？",
-            "answer": "设计师、作家、科学家和软件工程师都需要想象力。他们必须探索不同想法、学习新技能，并创造过去没有使用过的解决方案。"
-          },
-          "structure": "直接回答"
-        },
-        {
-          "question": "What subjects are helpful for children's imagination?",
-          "answer": "Art, music, literature and science are all helpful. They give children new knowledge, let them imagine different situations and help them understand other cultures.",
-          "materials": [
-            "M4",
-            "M8"
-          ],
-          "translation": {
-            "question": "哪些科目有助于培养孩子的想象力？",
-            "answer": "美术、音乐、文学和科学都有帮助。这些学科能给孩子带来新知识，让他们想象不同的情境，也能帮助他们了解其他文化。"
-          },
-          "structure": "直接回答"
-        },
-        {
-          "question": "Why do you think some children seem to have more imagination than others?",
-          "answer": "Some children have more chances to hear stories, play creative games and try their own ideas. Support from parents and teachers also matters. These experiences let children explore different things and broaden their horizons.",
-          "materials": [
-            "M4"
-          ],
-          "translation": {
-            "question": "你认为为什么有些孩子似乎比其他孩子有更多的想象力？",
-            "answer": "有些孩子有更多机会听故事、玩创意游戏并尝试自己的想法。父母和老师的支持也很重要。这些经历能让孩子探索不同事物并开阔眼界。"
-          },
-          "structure": "PREC"
-        },
-        {
-          "question": "Do you think modern technology (like TV and smartphones) helps or hurts people‘s imagination?",
-          "answer": "Technology can do both. Creative apps and educational videos can give people new ideas, but excessive use may lead to distraction and make them passive. Technology is helpful when people use it to create, not only to watch.",
-          "materials": [
-            "M7"
-          ],
-          "translation": {
-            "question": "您认为现代技术（如电视和智能手机）会帮助还是损害人们的想象力？",
-            "answer": "科技既可能有帮助，也可能有伤害。创作类应用和教育视频能给人们新想法，但过度使用可能导致分心，让人变得被动。人们用科技进行创作，而不只是观看时，它才更有帮助。"
-          },
-          "structure": "PREC"
-        }
-      ]
-    },
-    {
-      "id": "transport",
-      "category": "事件类",
-      "title": "自行车/摩托车/汽车旅行",
-      "partTwo": "自行车/摩托车/汽车旅行",
-      "items": [
-        {
-          "question": "Which form of vehicle is more popular in your country, bikes, cars or motorcycles?",
-          "answer": "Cars are probably the most popular overall. In cities, people also use shared bikes for short trips because traffic is heavy. By contrast, rural residents travel longer distances and have fewer public services, so cars or motorcycles are often more practical and efficient.",
-          "materials": [
-            "C3",
-            "M2"
-          ],
-          "translation": {
-            "question": "在您的国家，哪种交通工具更受欢迎：自行车、汽车还是摩托车？",
-            "answer": "总体来说，汽车可能最受欢迎。在城市，由于交通拥堵，人们也会在短途出行时使用共享单车。相比之下，农村居民出行距离更长、公共服务更少，因此汽车或摩托车通常更实用高效。"
-          },
-          "comparison": "C3 · 交通",
-          "structure": "PREC + 对比"
-        },
-        {
-          "question": "Do you think air pollution comes mostly from mobile vehicles?",
-          "answer": "No, not entirely. Vehicles are a major source of pollution in places with heavy traffic, but factories, power plants and construction also pollute the air. Therefore, reducing car use helps, but several measures are needed.",
-          "materials": [],
-          "translation": {
-            "question": "您认为空气污染主要来自移动车辆吗？",
-            "answer": "不，不完全是。车辆是交通拥堵地区的重要污染源，但工厂、发电厂和建筑施工也会污染空气。因此，减少汽车使用有帮助，但仍然需要多种措施。"
-          },
-          "structure": "PREC"
-        },
-        {
-          "question": "Do you think people need to change the way of transportation drastically to protect the environment?",
-          "answer": "The change should depend on location. Cities have heavier traffic, so residents should use efficient public transport more often. Rural areas have fewer services and longer distances, so people still need cars. A gradual, balanced change is more practical.",
-          "materials": [
-            "C3",
-            "M7"
-          ],
-          "translation": {
-            "question": "您认为人们需要彻底改变交通方式来保护环境吗？",
-            "answer": "改变应该取决于地区。城市交通更拥堵，因此居民应该更多使用高效的公共交通。农村公共服务较少、出行距离更长，所以人们仍需要汽车。渐进而平衡的改变更加实际。"
-          },
-          "comparison": "C3 · 交通",
-          "structure": "PREC + 对比"
-        },
-        {
-          "question": "How are the transportation systems in urban areas and rural areas different?",
-          "answer": "Rural areas often have basic roads and limited public transport, so people wait longer and depend on cars. By contrast, cities provide more buses and underground lines, although traffic is heavier. Better services make travel more efficient.",
-          "materials": [
-            "C3",
-            "M2"
-          ],
-          "translation": {
-            "question": "城市和农村的交通系统有何不同？",
-            "answer": "农村通常只有基础道路，公共交通也有限，因此人们等待更久并依赖汽车。相比之下，城市提供更多公交和地铁，不过交通也更拥堵。更好的服务能让出行更加高效。"
-          },
-          "comparison": "C3 · 基础设施",
-          "structure": "PREC + 对比"
-        },
-        {
-          "question": "What are the benefits of travelling by bicycle compared to by car?",
-          "answer": "In crowded cities, a bicycle can be cheaper and faster than a car for short trips, and it also supports physical health. By contrast, rural journeys are often longer, so a car may be more practical there.",
-          "materials": [
-            "C3",
-            "M6"
-          ],
-          "translation": {
-            "question": "与开车相比，骑自行车旅行有什么好处？",
-            "answer": "在拥堵的城市里，短途骑车可能比开车更便宜、更快，而且有益身体健康。相比之下，农村出行距离通常更长，因此在那里汽车可能更加实用。"
-          },
-          "comparison": "C3 · 交通",
-          "structure": "PREC + 对比"
-        },
-        {
-          "question": "Do you think the government should encourage people to use bicycles? How?",
-          "answer": "Yes, especially in cities where traffic and pollution are serious. The government can build safe cycle lanes and offer affordable bike-sharing, which supports a healthy lifestyle. Rural areas have longer journeys, so cycling support should focus on towns and short local trips.",
-          "materials": [
-            "C3",
-            "M6"
-          ],
-          "translation": {
-            "question": "你认为政府应该鼓励人们使用自行车吗？如何？",
-            "answer": "应该，尤其是在交通和污染严重的城市。政府可以建设安全的自行车道，并提供价格合理的共享单车，这也有助于健康生活。农村出行距离较长，因此骑行支持应该集中在城镇和本地短途出行上。"
-          },
-          "comparison": "C3 · 交通",
-          "structure": "PREC + 对比"
-        }
-      ]
-    },
-    {
-      "id": "advice",
-      "category": "事件类",
-      "title": "给别人建议",
-      "partTwo": "给别人建议",
-      "items": [
-        {
-          "question": "Should people prepare before giving advice?",
-          "answer": "Yes. People should understand the problem and check the facts before giving advice. Otherwise, the advice may be wrong and cause more trouble.",
-          "materials": [],
-          "translation": {
-            "question": "人们在提供建议之前应该做好准备吗？",
-            "answer": "应该。人们在给建议之前要了解问题并核对事实，否则建议可能是错误的，反而造成更多麻烦。"
-          },
-          "structure": "PREC"
-        },
-        {
-          "question": "Is it good to ask advice from strangers online?",
-          "answer": "It can be useful because strangers may share relevant experience. However, online advice can be wrong or dishonest, so people should check reliable sources and make a rational choice before following it.",
-          "materials": [
-            "M7"
-          ],
-          "translation": {
-            "question": "在网上向陌生人寻求建议好吗？",
-            "answer": "这可能有用，因为陌生人也许会分享相关经验。不过，网络建议可能是错误或不诚实的，所以采纳之前应该核对可靠来源并作出理性选择。"
-          },
-          "structure": "PREC"
-        },
-        {
-          "question": "What are the personalities of people whose job is to give advice to others?",
-          "answer": "They should be patient, open-minded and good at listening. They also need to explain ideas clearly and understand the real problem. Good face-to-face communication helps them build trust with clients.",
-          "materials": [
-            "M5"
-          ],
-          "translation": {
-            "question": "那些以向他人提供建议为工作的人有哪些性格？",
-            "answer": "他们应该有耐心、思想开放并善于倾听，也需要清楚地解释想法并理解真正的问题。良好的面对面沟通能帮助他们与客户建立信任。"
-          },
-          "structure": "直接回答"
-        },
-        {
-          "question": "What are the problems if you ask too many people for advice?",
-          "answer": "Too many opinions can make a simple choice confusing. They may cause distraction and waste time. It is better to ask a few reliable people and keep a balanced view.",
-          "materials": [
-            "M7"
-          ],
-          "translation": {
-            "question": "如果向太多人寻求建议会出现什么问题？",
-            "answer": "太多意见会让简单选择变得混乱，也可能让人分心并浪费时间。最好只询问少数可靠的人，并保持平衡的看法。"
-          },
-          "structure": "PREC"
-        },
-        {
-          "question": "When is it not appropriate to give advice to others?",
-          "answer": "Advice is not suitable when the person did not ask for it or the adviser knows little about the problem. Excessive advice feels like pressure, so people should be moderate.",
-          "materials": [
-            "M7"
-          ],
-          "translation": {
-            "question": "什么时候不适合给别人提供建议？",
-            "answer": "如果对方没有询问，或者建议者不太了解问题，那么建议就不合适。过多建议会让人感到压力，因此人们应该适度。"
-          },
-          "structure": "PREC"
-        },
-        {
-          "question": "Which do you think is more helpful: advice from older people or advice from friends of the same age? Why?",
-          "answer": "Older people usually have more life experience and can give a wider view. By contrast, friends of the same age understand current pressures better. For a major decision, I would use older people's experience but also listen to my friends.",
-          "materials": [
-            "C1",
-            "M4"
-          ],
-          "translation": {
-            "question": "您认为哪一个更有帮助：年长者的建议还是同龄朋友的建议？为什么？",
-            "answer": "年长者通常有更多人生经验，能提供更广阔的视角。相比之下，同龄朋友更了解当下的压力。面对重大决定时，我会借鉴年长者的经验，同时也听取朋友的意见。"
-          },
-          "comparison": "C1 · 生活经验",
-          "structure": "PREC + 对比"
-        }
-      ]
-    },
-    {
-      "id": "music-events",
-      "category": "事件类",
-      "title": "不喜欢的音乐活动",
-      "partTwo": "不喜欢的音乐活动",
-      "items": [
-        {
-          "question": "Do you think everyone has the same taste in music? Why/Why not?",
-          "answer": "No, musical taste often changes with age. Older people may prefer calm music that fits their habits, while younger people often enjoy louder and more active songs. Both kinds of music can help listeners relax and lift their mood.",
-          "materials": [
-            "C1",
-            "M1"
-          ],
-          "translation": {
-            "question": "你认为每个人对音乐的品味都一样吗？为什么/为什么不？",
-            "answer": "不会，音乐品味通常会随年龄变化。年长者可能喜欢符合习惯的平静音乐，而年轻人往往喜欢更响亮、更有活力的歌曲。两种音乐都能帮助听众放松并改善情绪。"
-          },
-          "comparison": "C1 · 兴趣爱好",
-          "structure": "PREC + 对比"
-        },
-        {
-          "question": "What kind of music is suitable for big public events, like sports games or celebrations?",
-          "answer": "Lively and familiar music is usually suitable because it gives the crowd energy. Organisers can use several popular styles and keep the volume moderate. The right music lifts the crowd's mood and helps families enjoy the event.",
-          "materials": [
-            "M1",
-            "M7"
-          ],
-          "translation": {
-            "question": "什么样的音乐适合大型公共活动，例如体育比赛或庆祝活动？",
-            "answer": "欢快而熟悉的音乐通常比较合适，因为它能让人群更有活力。组织者可以使用几种流行风格，并把音量控制在适度范围。合适的音乐能提升现场气氛，让家庭一起享受活动。"
-          },
-          "structure": "直接回答"
-        },
-        {
-          "question": "How important is music in creating the atmosphere at a social event?",
-          "answer": "Music is very important because it sets the mood and pace of an event. Soft music can create a relaxed atmosphere, while lively music brings more energy. The right choice can lift people's mood and make guests feel comfortable.",
-          "materials": [
-            "M1"
-          ],
-          "translation": {
-            "question": "音乐对于营造社交活动的氛围有多重要？",
-            "answer": "音乐很重要，因为它决定活动的情绪和节奏。柔和的音乐能营造轻松氛围，而欢快的音乐能带来更多活力。合适的选择可以改善人们的心情，让客人感到舒适。"
-          },
-          "structure": "PREC + 对比"
-        },
-        {
-          "question": "Do you think older people and younger people enjoy the same kind of music at events? What are the differences?",
-          "answer": "They do not always enjoy the same music. Older people may prefer softer songs that fit their habits, while younger people often choose louder and more active music. However, both groups use music to relax and feel happy.",
-          "materials": [
-            "C1",
-            "M1"
-          ],
-          "translation": {
-            "question": "您认为老年人和年轻人在活动中喜欢同样的音乐吗？有什么区别？",
-            "answer": "他们不一定喜欢相同的音乐。年长者可能偏好符合习惯的柔和歌曲，而年轻人往往选择更响亮、更有活力的音乐。不过，两类人都会用音乐放松并获得愉快心情。"
-          },
-          "comparison": "C1 · 兴趣爱好",
-          "structure": "PREC + 对比"
-        },
-        {
-          "question": "How has technology (like streaming apps) changed the way people listen to music at parties or events?",
-          "answer": "Streaming apps let organisers search for songs and create playlists very quickly. Guests can also request music without changing CDs or equipment. This makes event music more convenient and time-saving.",
-          "materials": [
-            "M2"
-          ],
-          "translation": {
-            "question": "技术（如流媒体应用程序）如何改变人们在聚会或活动中听音乐的方式？",
-            "answer": "流媒体应用让组织者可以很快搜索歌曲并创建播放列表，客人也可以点歌，不需要更换光盘或设备。这让活动中的音乐安排更加方便，也更节省时间。"
-          },
-          "structure": "PREC"
-        },
-        {
-          "question": "Do you think live music at events will be replaced by recorded music in the future? Why or why not?",
-          "answer": "Recorded music is affordable and time-saving, so it will stay common. However, live music creates stronger face-to-face interaction and a shared experience, so it will not disappear.",
-          "materials": [
-            "M5",
-            "M2"
-          ],
-          "translation": {
-            "question": "您认为未来活动中的现场音乐会被录制音乐所取代吗？为什么或为什么不呢？",
-            "answer": "录制音乐价格合理而且省时，因此会继续普遍存在。不过，现场音乐能带来更强的面对面互动和共同体验，所以不会消失。"
-          },
-          "structure": "PREC"
-        }
-      ]
-    },
-    {
-      "id": "buildings",
-      "category": "地点类",
-      "title": "有趣的建筑",
-      "partTwo": "有趣的建筑",
-      "items": [
-        {
-          "question": "What types of buildings are popular in your country?",
-          "answer": "Apartment blocks, shopping centres and office towers are common in cities because land is limited and services are convenient. By contrast, rural areas have fewer large buildings and more simple houses. Each type fits different daily needs.",
-          "materials": [
-            "C3",
-            "M2"
-          ],
-          "translation": {
-            "question": "你们国家流行什么类型的建筑？",
-            "answer": "住宅楼、购物中心和办公楼在城市很常见，因为土地有限而且服务便利。相比之下，农村大型建筑较少，简单住宅更多。每种建筑都符合不同的日常需求。"
-          },
-          "comparison": "C3 · 基础设施",
-          "structure": "直接回答 + 对比"
-        },
-        {
-          "question": "Is it worth spending a lot of money on the exterior appearance of a building?",
-          "answer": "Only a reasonable amount is worth spending because safety and function are more important. An attractive exterior can improve the area, but excessive decoration simply wastes money. A practical, cost-effective design is a better choice.",
-          "materials": [
-            "M3",
-            "M7"
-          ],
-          "translation": {
-            "question": "在建筑物的外观上花很多钱值得吗？",
-            "answer": "只值得投入合理的金额，因为安全和功能更加重要。漂亮的外观可以改善周围环境，但过度装饰只会浪费钱。实用且划算的设计是更好的选择。"
-          },
-          "structure": "PREC"
-        },
-        {
-          "question": "Is it more important for a building to look good on the outside or on the inside?",
-          "answer": "The inside is more important because people use it every day. A safe and practical interior fits real needs and gives better value for money than an expensive outside design.",
-          "materials": [
-            "M3"
-          ],
-          "translation": {
-            "question": "对于建筑物来说，外观好看还是内部好看更重要？",
-            "answer": "内部更重要，因为人们每天都要使用。安全、实用的内部空间符合真实需求，也比昂贵的外观设计更物有所值。"
-          },
-          "structure": "PREC"
-        },
-        {
-          "question": "Why do people like to visit historical sites?",
-          "answer": "People visit historical sites to learn about the past, see old designs and understand local culture. The real buildings make history easier to imagine, so the visit can give people new knowledge and broaden their horizons.",
-          "materials": [
-            "M4",
-            "M8"
-          ],
-          "translation": {
-            "question": "为什么人们喜欢参观历史古迹？",
-            "answer": "人们参观历史遗址，是为了了解过去、观看旧建筑设计并理解当地文化。真实的建筑让历史更容易想象，因此参观能够带来新知识并开阔眼界。"
-          },
-          "structure": "PREC"
-        },
-        {
-          "question": "What are the challenges in preserving old or historical buildings?",
-          "answer": "In cities, high land prices and new development can put old buildings at risk. In rural areas, the main problem may be limited money and a lack of skilled workers for repairs. In both places, protection takes time and careful planning.",
-          "materials": [
-            "C3"
-          ],
-          "translation": {
-            "question": "保护古老或历史建筑面临哪些挑战？",
-            "answer": "在城市，高昂的土地价格和新的开发项目可能威胁老建筑。在农村，主要问题可能是资金有限，以及缺少有维修技能的工人。在两种地区，保护工作都需要时间和认真规划。"
-          },
-          "comparison": "C3 · 城乡保护条件",
-          "structure": "直接回答 + 对比"
-        },
-        {
-          "question": "Do you think modern buildings will become as culturally valuable as ancient ones in the future?",
-          "answer": "Yes, some modern buildings may become culturally valuable. If a building has a special design or is connected with an important event, people may remember it for many years. Over time, it can become part of local culture.",
-          "materials": [
-            "M8"
-          ],
-          "translation": {
-            "question": "您认为未来现代建筑会像古代建筑一样具有文化价值吗？",
-            "answer": "是的，一些现代建筑可能会变得具有文化价值。如果一座建筑设计特别，或者与重要事件有关，人们可能会记住它很多年。随着时间过去，它可以成为当地文化的一部分。"
-          },
-          "structure": "PREC"
-        }
-      ]
-    },
-    {
-      "id": "shopping-malls",
-      "category": "地点类",
-      "title": "商场",
-      "partTwo": "商场",
-      "items": [
-        {
-          "question": "Why do people buy things they don't need?",
-          "answer": "Advertising, discounts and social media can create false needs. People may also fear missing a special offer, so they buy something without thinking carefully. Waiting before paying can help them make a more rational choice.",
-          "materials": [
-            "M7"
-          ],
-          "translation": {
-            "question": "人们为什么要买他们不需要的东西？",
-            "answer": "广告、折扣和社交媒体会制造虚假需求。人们也可能害怕错过优惠，所以没有认真考虑就买下东西。付款前等一等，能帮助他们作出更理性的选择。"
-          },
-          "structure": "PREC"
-        },
-        {
-          "question": "Do you think shopping malls are popular in your country? Why?",
-          "answer": "Yes, especially in cities. Cities have more choices such as cinemas, restaurants and large shops, while rural areas have fewer entertainment places. A mall puts many services together, so it saves time and simplifies a family trip.",
-          "materials": [
-            "C3",
-            "M2"
-          ],
-          "translation": {
-            "question": "您认为购物中心在你们国家受欢迎吗？为什么？",
-            "answer": "是的，尤其在城市。城市有电影院、餐厅和大型商店等更多选择，而农村娱乐场所较少。商场把多种服务集中起来，因此能节省时间并简化家庭出行。"
-          },
-          "comparison": "C3 · 娱乐",
-          "structure": "PREC + 对比"
-        },
-        {
-          "question": "What are the advantages of shopping in a mall compared to shopping online?",
-          "answer": "A mall lets customers check and try products before paying. Online shopping is more convenient and saves time, but the size or quality may be unclear. A mall is better when people need an item immediately.",
-          "materials": [
-            "M2"
-          ],
-          "translation": {
-            "question": "与网上购物相比，在商场购物有哪些优势？",
-            "answer": "商场让顾客可以在付款前检查和试用商品。网购更加方便和节省时间，但尺寸或质量可能不清楚。人们马上需要一件商品时，商场更合适。"
-          },
-          "structure": "PREC + 对比"
-        },
-        {
-          "question": "Do young people and old people like to go to the same kind of malls? Why?",
-          "answer": "Not always. Young people may prefer lively malls with cinemas and cafés. Older people may choose quieter malls with supermarkets, seats and easy transport. Both groups still want convenient services.",
-          "materials": [
-            "C1",
-            "M2"
-          ],
-          "translation": {
-            "question": "年轻人和老年人喜欢去同一种商场吗？为什么？",
-            "answer": "不一定。年轻人可能喜欢有电影院和咖啡馆的热闹商场。年长者可能选择有超市、座椅和便利交通的安静商场。两类人仍然都需要便利的服务。"
-          },
-          "comparison": "C1 · 兴趣爱好",
-          "structure": "PREC + 对比"
-        },
-        {
-          "question": "How can a shopping mall attract more customers?",
-          "answer": "A mall can attract customers by offering useful shops, clean dining areas, entertainment and regular family events. Easy transport and comfortable rest areas also make each visit convenient and enjoyable.",
-          "materials": [
-            "M2"
-          ],
-          "translation": {
-            "question": "购物中心如何才能吸引更多的顾客？",
-            "answer": "商场可以通过提供实用的商店、干净的用餐区、娱乐活动和定期的家庭活动来吸引顾客。便利的交通和舒适的休息区也能让每次购物更加方便愉快。"
-          },
-          "structure": "直接回答"
-        },
-        {
-          "question": "Do you think having many malls in a city is a good thing?",
-          "answer": "A reasonable number of malls is useful because they provide shops, food and jobs. However, too many malls can cause traffic, waste land and encourage unnecessary spending. City planners should keep a balance.",
-          "materials": [
-            "M7"
-          ],
-          "translation": {
-            "question": "你认为一个城市拥有很多购物中心是件好事吗？",
-            "answer": "数量合理的商场是有用的，因为它们能提供购物、餐饮和工作机会。不过，商场太多可能造成交通问题、浪费土地，并鼓励不必要的消费。城市规划者应该保持平衡。"
-          },
-          "structure": "PREC"
-        }
-      ]
-    },
-    {
-      "id": "foreign-stay",
-      "category": "地点类",
-      "title": "外国的短期停留",
-      "partTwo": "外国的短期停留",
-      "items": [
-        {
-          "question": "Why do people sometimes go to other cities or other countries to travel?",
-          "answer": "People travel to take a break from their routine and experience a new place. They can relax, try local food and learn about another culture. These experiences can broaden their horizons.",
-          "materials": [
-            "M1",
-            "M4",
-            "M8"
-          ],
-          "translation": {
-            "question": "为什么人们有时会去其他城市或其他国家旅行？",
-            "answer": "人们旅行是为了暂时离开日常生活，并体验一个新的地方。他们可以放松、品尝当地食物并了解另一种文化，这些经历能够开阔眼界。"
-          },
-          "structure": "PREC"
-        },
-        {
-          "question": "What are the benefits of living in a foreign country for a short time?",
-          "answer": "A short stay gives people direct experience of another language, local culture and daily life. It can also make them more independent and confident. As a result, they gain new knowledge without moving abroad permanently.",
-          "materials": [
-            "M4",
-            "M8"
-          ],
-          "translation": {
-            "question": "短期生活在异国他乡有什么好处？",
-            "answer": "短期居住能让人们直接体验另一种语言、当地文化和日常生活，也能让他们更加独立和自信。因此，他们不需要永久移居国外，也能获得新知识。"
-          },
-          "structure": "PREC"
-        },
-        {
-          "question": "What problems might people have when they stay in a foreign country?",
-          "answer": "Common problems include language difficulties, high costs, homesickness and unfamiliar local rules. Affordable accommodation and clear information can reduce stress, while face-to-face communication helps people ask for help.",
-          "materials": [
-            "M3",
-            "M5"
-          ],
-          "translation": {
-            "question": "人们在异国他乡时可能会遇到哪些问题？",
-            "answer": "常见问题包括语言困难、费用高、想家以及不熟悉当地规则。价格合理的住宿和清楚的信息能够减轻压力，而面对面沟通能帮助人们寻求帮助。"
-          },
-          "structure": "直接回答"
-        },
-        {
-          "question": "Is it better to travel alone or with friends when visiting another country? Why?",
-          "answer": "It depends on personality. Introverts may prefer travelling alone because quiet time gives them energy, while extroverts enjoy sharing ideas and activities with others. I prefer friends because the trip creates quality time and closer relationships.",
-          "materials": [
-            "C2",
-            "M5"
-          ],
-          "translation": {
-            "question": "去另一个国家旅行是独自旅行好还是和朋友一起旅行好？为什么？",
-            "answer": "这取决于性格。内向的人可能更喜欢独自旅行，因为安静时光能恢复精力；外向的人则喜欢与别人分享想法和活动。我更喜欢和朋友旅行，因为这能创造高质量时光并拉近关系。"
-          },
-          "comparison": "C2 · 放松方式",
-          "structure": "PREC + 对比"
-        },
-        {
-          "question": "How can people prepare before going to stay in a foreign country?",
-          "answer": "People should check visas, accommodation, insurance and transport before leaving. They can also learn new language skills and local rules. Good preparation saves time and reduces unnecessary waiting after arrival.",
-          "materials": [
-            "M2",
-            "M4"
-          ],
-          "translation": {
-            "question": "人们在去异国他乡之前要做好哪些准备？",
-            "answer": "出发前，人们应该检查签证、住宿、保险和交通，也可以学习新的语言技能和当地规则。充分准备能在抵达后节省时间，并减少不必要的等待。"
-          },
-          "structure": "直接回答"
-        },
-        {
-          "question": "Do you think short-term visits can help people understand a different culture?",
-          "answer": "Yes, because visitors can try local food, use public transport and talk to local people. These experiences help them understand local customs and broaden their horizons. However, a short visit only gives a basic understanding.",
-          "materials": [
-            "M4",
-            "M8"
-          ],
-          "translation": {
-            "question": "您认为短期访问可以帮助人们了解不同的文化吗？",
-            "answer": "可以，因为游客能够品尝当地食物、使用公共交通并与当地人交谈。这些经历能帮助他们理解当地习俗并开阔眼界。不过，短期访问只能带来基础了解。"
-          },
-          "structure": "PREC"
-        }
-      ]
-    },
-    {
-      "id": "smiling",
-      "category": "地点类",
-      "title": "微笑的场合",
-      "partTwo": "微笑的场合",
-      "items": [
-        {
-          "question": "Do you think people who like to smile are more friendly?",
-          "answer": "Often yes, because a natural smile makes a person look warm and approachable. However, some friendly people are shy or serious and may not smile much. Their behaviour in face-to-face communication is more important.",
-          "materials": [
-            "M5"
-          ],
-          "translation": {
-            "question": "你认为喜欢微笑的人更友善吗？",
-            "answer": "通常是的，因为自然的微笑会让一个人显得温暖、容易接近。不过，一些友好的人可能害羞或严肃，所以不常微笑。面对面交流中的实际行为更加重要。"
-          },
-          "structure": "PREC"
-        },
-        {
-          "question": "Why do most people smile in photographs?",
-          "answer": "People smile because photos usually record quality time with family or friends. A smile creates a warm feeling, lifts their mood and helps them remember the moment in a positive way.",
-          "materials": [
-            "M5",
-            "M1"
-          ],
-          "translation": {
-            "question": "为什么大多数人在照片中微笑？",
-            "answer": "人们微笑，是因为照片通常记录与家人或朋友共度的高质量时光。微笑能营造温暖的感觉、改善心情，也能帮助他们以积极的方式记住这一刻。"
-          },
-          "structure": "PREC"
-        },
-        {
-          "question": "Do women smile more than men? Why?",
-          "answer": "Not necessarily. Culture and personality may matter more than gender. In some situations, women are encouraged to smile more. However, anyone's smile can make face-to-face communication warmer.",
-          "materials": [
-            "M5"
-          ],
-          "translation": {
-            "question": "女人比男人笑得更多吗？为什么？",
-            "answer": "不一定。文化和性格可能比性别更重要。在一些场合，女性更常被鼓励微笑。不过，任何人的微笑都能让面对面交流更温暖。"
-          },
-          "structure": "PREC"
-        },
-        {
-          "question": "Do people smile more when they are younger or older?",
-          "answer": "Young people may smile more because they spend more time with friends and show feelings openly. Older people also smile, but they may be more reserved in public. Still, personality matters more than age.",
-          "materials": [
-            "C1"
-          ],
-          "translation": {
-            "question": "人们年轻时微笑的多还是年老时微笑的多？",
-            "answer": "年轻人可能笑得更多，因为他们花更多时间和朋友相处，也更公开地表达感受。年长者也会微笑，但在公共场合可能更加克制。不过，性格仍然比年龄更重要。"
-          },
-          "comparison": "C1 · 社交互动",
-          "structure": "PREC + 对比"
-        },
-        {
-          "question": "In what situations is it inappropriate to smile?",
-          "answer": "It is not suitable to smile during serious news, funerals, accidents or when someone is in pain. A smile may look disrespectful in these situations. People should first understand how others feel.",
-          "materials": [],
-          "translation": {
-            "question": "哪些情况下不宜微笑？",
-            "answer": "在听到严重消息、参加葬礼、遇到事故，或者别人正处于痛苦中时，微笑并不合适。在这些情况下，微笑可能显得不尊重。人们应该先理解别人的感受。"
-          },
-          "structure": "直接回答"
-        },
-        {
-          "question": "Do you think smiling can actually make people feel happier? Why?",
-          "answer": "Yes, smiling can lift people's mood and ease mild anxiety. It cannot solve a serious problem, but it may calm the mind and create a peaceful moment.",
-          "materials": [
-            "M1"
-          ],
-          "translation": {
-            "question": "你认为微笑真的可以让人感到更快乐吗？为什么？",
-            "answer": "可以，微笑能改善情绪并缓解轻微焦虑。它不能解决严重问题，但可能让人平静下来，并带来片刻安宁。"
-          },
-          "structure": "PREC"
-        }
-      ]
-    },
-    {
-      "id": "mobile-phones",
-      "category": "地点类",
-      "title": "禁用手机的场合",
-      "partTwo": "禁用手机的场合",
-      "items": [
-        {
-          "question": "How do young and old people use mobile phones differently?",
-          "answer": "Older people mainly use phones for calls and simple services because they prefer familiar routines. By contrast, young people quickly try new apps and stay connected online. These apps save time and make daily tasks more efficient.",
-          "materials": [
-            "C1",
-            "M2"
-          ],
-          "translation": {
-            "question": "年轻人和老年人使用手机有何不同？",
-            "answer": "年长者主要用手机打电话和使用简单服务，因为他们偏好熟悉的生活方式。相比之下，年轻人会很快尝试新应用并在线保持联系。这些应用能节省时间，让日常任务更高效。"
-          },
-          "comparison": "C1 · 社交互动与改变",
-          "structure": "PREC + 对比"
-        },
-        {
-          "question": "What positive and negative impact do mobile phones have on friendship?",
-          "answer": "Phones help friends stay connected and share news quickly. However, too many messages can cause distraction and reduce face-to-face communication, which may lead to misunderstandings. A balanced use of phones is better for friendship.",
-          "materials": [
-            "M5",
-            "M7"
-          ],
-          "translation": {
-            "question": "手机对友谊有哪些积极和消极的影响？",
-            "answer": "手机能帮助朋友保持联系并快速分享消息。不过，过多信息会让人分心，也会减少面对面交流，从而可能造成误解。平衡地使用手机对友谊更好。"
-          },
-          "structure": "PREC + 对比"
-        },
-        {
-          "question": "Is it a waste of time to take pictures with mobile phones?",
-          "answer": "No, if the pictures record meaningful people or events. It becomes a waste of time only when someone takes an excessive number of photos or spends hours editing and sharing them. A moderate approach is useful.",
-          "materials": [
-            "M7"
-          ],
-          "translation": {
-            "question": "用手机拍照是不是浪费时间？",
-            "answer": "如果照片记录了有意义的人或事情，那就不是浪费时间。只有在拍摄过多照片，或花几个小时编辑和分享时才会浪费时间。适度拍照是有用的。"
-          },
-          "structure": "PREC"
-        },
-        {
-          "question": "Do you think it is necessary to have laws on the use of mobile phones?",
-          "answer": "Yes, especially in dangerous or sensitive situations. Young people need clear phone rules at school, while adults need rules when driving or working in hospitals. These rules prevent dangerous or excessive use, but they should still be moderate.",
-          "materials": [
-            "C1",
-            "M7"
-          ],
-          "translation": {
-            "question": "您认为有必要制定有关手机使用的法律吗？",
-            "answer": "是的，尤其是在危险或敏感场合。年轻人在学校需要明确的手机规则，而成年人开车或在医院工作时也需要规则。这些规则能防止危险或过度使用，但仍应保持适度。"
-          },
-          "comparison": "C1 · 不同年龄的手机使用规则",
-          "structure": "PREC + 对比"
-        },
-        {
-          "question": "Why do you think some people feel anxious when they cannot use their phones?",
-          "answer": "People feel anxious because phones now manage messages, maps, payments and work. They may worry about missing important information or being unable to complete a daily task. This feeling becomes stronger when they depend on the phone too much.",
-          "materials": [
-            "M7"
-          ],
-          "translation": {
-            "question": "您认为为什么有些人在无法使用手机时会感到焦虑？",
-            "answer": "人们焦虑，是因为手机现在管理着消息、地图、支付和工作。他们可能担心错过重要信息，或无法完成日常任务。过度依赖手机时，这种感觉会更强。"
-          },
-          "structure": "PREC"
-        },
-        {
-          "question": "Can you suggest some effective ways to help people reduce their screen time?",
-          "answer": "Children can reduce game time with help from parents, while adults can take breaks from work apps and keep phones away during meals. These balanced habits reduce distraction and support mental health.",
-          "materials": [
-            "C1",
-            "M6",
-            "M7"
-          ],
-          "translation": {
-            "question": "您能建议一些有效的方法来帮助人们减少屏幕时间吗？",
-            "answer": "孩子可以在父母帮助下减少游戏时间，而成年人可以暂时离开工作应用，并在吃饭时把手机放远。这些平衡的习惯能减少分心并维护心理健康。"
-          },
-          "comparison": "C1 · 不同年龄减少屏幕时间的方法",
-          "structure": "直接回答 + 对比"
-        }
-      ]
-    },
-    {
-      "id": "relaxation",
-      "category": "地点类",
-      "title": "家里放松的地方",
-      "partTwo": "家里放松的地方",
-      "items": [
-        {
-          "question": "Why is it difficult for some people to relax?",
-          "answer": "Work pressure, family duties and constant phone messages can keep people's minds busy. Some people also feel guilty when they rest. Turning off the phone or doing a quiet activity can help them unwind and release pressure.",
-          "materials": [
-            "M1"
-          ],
-          "translation": {
-            "question": "为什么有些人很难放松？",
-            "answer": "工作压力、家庭责任和不断出现的手机消息会让大脑一直忙碌。有些人在休息时还会感到内疚。关掉手机或做一项安静的活动能帮助他们放松并释放压力。"
-          },
-          "structure": "PREC"
-        },
-        {
-          "question": "What are the benefits of doing exercise?",
-          "answer": "Exercise improves both physical and mental health. Regular movement keeps people active, gives them more energy and reduces stress. Even a daily walk can support a healthy lifestyle.",
-          "materials": [
-            "M6"
-          ],
-          "translation": {
-            "question": "锻炼身体有什么好处？",
-            "answer": "运动能改善身体和心理健康。规律活动能让人保持活跃、增加精力并减轻压力。即使每天散步，也能支持健康的生活方式。"
-          },
-          "structure": "PREC"
-        },
-        {
-          "question": "Do people in your country exercise after work?",
-          "answer": "Yes, many people do. They may go to a gym, run in a park or simply walk home. These activities help them release pressure, keep active and support both physical and mental health.",
-          "materials": [
-            "M1",
-            "M6"
-          ],
-          "translation": {
-            "question": "你们国家的人下班后锻炼身体吗？",
-            "answer": "是的，很多人会这样做。他们可能去健身房、在公园跑步，或者直接走路回家。这些活动能帮助他们释放压力、保持活跃，并促进身心健康。"
-          },
-          "structure": "PREC"
-        },
-        {
-          "question": "What is the place where people spend most of their time at home?",
-          "answer": "Probably the living room, because family members can sit, rest, watch television and talk there. It gives them a place to spend quality time together and relax at the end of the day.",
-          "materials": [
-            "M1",
-            "M5"
-          ],
-          "translation": {
-            "question": "人们在家里呆得最多的地方是哪里？",
-            "answer": "可能是客厅，因为家人可以在那里坐着休息、看电视和聊天。客厅让他们能在一天结束时共度高质量时光并放松下来。"
-          },
-          "structure": "直接回答"
-        },
-        {
-          "question": "Do you think there should be classes for training young people and children how to relax?",
-          "answer": "Yes, because relaxation is a skill that children can learn. Younger children can learn simple breathing and relaxing games, while teenagers may need exercise and time planning for school stress. Both methods can calm the mind and ease anxiety.",
-          "materials": [
-            "C1",
-            "M1"
-          ],
-          "translation": {
-            "question": "您认为是否应该开设培训青少年和儿童如何放松的课程？",
-            "answer": "是的，因为放松是一项孩子可以学习的技能。年龄较小的孩子可以学习简单呼吸和放松游戏，而青少年可能需要通过运动和时间规划缓解学习压力。两种方法都能让头脑平静并缓解焦虑。"
-          },
-          "comparison": "C1 · 不同年龄学习放松的方法",
-          "structure": "PREC + 对比"
-        },
-        {
-          "question": "Which is more important, mental relaxation or physical relaxation?",
-          "answer": "Both are important because the body and mind affect each other. Physical rest keeps the body in good condition, while mental relaxation calms the mind and eases anxiety.",
-          "materials": [
-            "M6",
-            "M1"
-          ],
-          "translation": {
-            "question": "精神上的放松和身体上的放松哪个更重要？",
-            "answer": "两者都很重要，因为身体和心理会互相影响。身体休息能保持良好状态，而心理放松能平静情绪并缓解焦虑。"
-          },
-          "structure": "PREC"
-        }
-      ]
-    },
-    {
-      "id": "overspending",
-      "category": "事物类",
-      "title": "花费超过预期的物品",
-      "partTwo": "花费超过预期的物品",
-      "items": [
-        {
-          "question": "Do you often buy more than you expected?",
-          "answer": "Not very often. I make a list and choose practical things that fit my daily needs. This rational habit helps me avoid excessive spending and get better value for money.",
-          "materials": [
-            "M7",
-            "M3"
-          ],
-          "translation": {
-            "question": "您是否经常购买超出预期的商品？",
-            "answer": "不太经常。我会列清单，并选择符合日常需求的实用物品。这种理性习惯能帮助我避免过度消费，并获得更好的性价比。"
-          },
-          "structure": "直接回答"
-        },
-        {
-          "question": "What do you think young people spend most of their money on?",
-          "answer": "Young people usually spend money on food, transport, phones, clothes and entertainment. Online shopping and new trends can also increase their spending, so a simple budget helps them avoid excessive buying.",
-          "materials": [
-            "M7"
-          ],
-          "translation": {
-            "question": "你认为年轻人的钱大部分花在什么地方？",
-            "answer": "年轻人通常把钱花在食物、交通、手机、衣服和娱乐上。网购和新潮流也会增加他们的支出，所以简单的预算能帮助他们避免过度消费。"
-          },
-          "structure": "直接回答"
-        },
-        {
-          "question": "Do you think it is important to save money? Why?",
-          "answer": "Yes. Young people may save for education, a home or emergencies, while older people may save for retirement and medical costs. In both cases, saving is practical and helps people pay for things that fit their real needs.",
-          "materials": [
-            "C1",
-            "M3"
-          ],
-          "translation": {
-            "question": "你认为省钱重要吗？为什么？",
-            "answer": "是的。年轻人可能为教育、买房或紧急情况存钱，而年长者可能为退休和医疗开支存钱。无论哪种情况，储蓄都很实用，也能帮助人们支付真正符合需求的东西。"
-          },
-          "comparison": "C1 · 不同年龄的储蓄目的",
-          "structure": "PREC + 对比"
-        },
-        {
-          "question": "Do people buy things they don't need?",
-          "answer": "Yes, because advertising and discounts can create false needs. For example, someone may buy extra clothes or a new electronic device simply because it is on sale. A short pause before buying can prevent unnecessary spending.",
-          "materials": [
-            "M7"
-          ],
-          "translation": {
-            "question": "人们会买他们不需要的东西吗？",
-            "answer": "会，因为广告和折扣会制造虚假需求。例如，有人可能只是因为打折就购买多余的衣服或新的电子产品。购买前稍等一下，可以避免不必要的消费。"
-          },
-          "structure": "PREC"
-        },
-        {
-          "question": "How do advertisements influence people’s spending habits?",
-          "answer": "Advertisements repeat messages, use discounts and make products look attractive on social media. This creates urgency and false needs, so people may spend money without planning. A rational check before buying can reduce unnecessary spending.",
-          "materials": [
-            "M7"
-          ],
-          "translation": {
-            "question": "广告如何影响人们的消费习惯？",
-            "answer": "广告会重复信息、使用折扣，并在社交媒体上把产品展示得很有吸引力。这会制造紧迫感和虚假需求，让人们没有计划就花钱。购买前理性检查能减少不必要的消费。"
-          },
-          "structure": "PREC"
-        },
-        {
-          "question": "What can people do to avoid overspending?",
-          "answer": "People can set a budget, make a shopping list, compare prices and wait one day before a large purchase. These habits keep spending practical, help them buy only what they need and prevent excessive shopping.",
-          "materials": [
-            "M3",
-            "M7"
-          ],
-          "translation": {
-            "question": "人们可以做什么来避免超支？",
-            "answer": "人们可以设定预算、列购物清单、比较价格，并在大额消费前等一天。这些习惯能让消费更实际，帮助他们只买需要的东西，并避免过度购物。"
-          },
-          "structure": "直接回答"
-        }
-      ]
-    },
-    {
-      "id": "successful-movies",
-      "category": "事物类",
-      "title": "近期观影",
-      "partTwo": "近期观影",
-      "items": [
-        {
-          "question": "What kinds of movies do you think are successful in your country?",
-          "answer": "Comedies, action films, animation and family films can all be successful in my country. A movie usually does well when it has a strong story, suitable actors and something the audience can relate to.",
-          "materials": [],
-          "translation": {
-            "question": "您认为哪些类型的电影在您的国家比较成功？",
-            "answer": "喜剧、动作片、动画片和家庭电影在我的国家都可能成功。一部电影通常在故事有吸引力、演员合适，而且观众能够产生共鸣时表现较好。"
-          },
-          "structure": "直接回答"
-        },
-        {
-          "question": "What are the factors that make a successful movie?",
-          "answer": "The main factors are a strong story, suitable actors, clear direction and effective promotion. Good sound and visual effects can help, but the film still needs characters and ideas that interest the audience.",
-          "materials": [],
-          "translation": {
-            "question": "一部成功的电影需要哪些因素？",
-            "answer": "主要因素包括有吸引力的故事、合适的演员、清楚的导演思路和有效的宣传。良好的声音和视觉效果也有帮助，但电影仍然需要让观众感兴趣的人物和主题。"
-          },
-          "structure": "直接回答"
-        },
-        {
-          "question": "Do Chinese people prefer to watch domestic movies or foreign movies?",
-          "answer": "Many Chinese people watch both. Domestic films are easier to understand because the language and local culture are familiar, while foreign films offer different stories and styles. In the end, quality matters most.",
-          "materials": [
-            "M8"
-          ],
-          "translation": {
-            "question": "中国人更喜欢看国产电影还是外国电影？",
-            "answer": "很多中国人两种都会看。国产电影因为语言和当地文化熟悉而更容易理解，外国电影则能带来不同的故事和风格。最终，质量最重要。"
-          },
-          "structure": "PREC + 对比"
-        },
-        {
-          "question": "Do you think only well-known directors can create the best movies?",
-          "answer": "No, new directors can also make excellent films. If they keep learning skills, exploring ideas and staying open-minded, they may create something fresher than an experienced director.",
-          "materials": [
-            "M4"
-          ],
-          "translation": {
-            "question": "你认为只有知名导演才能创作出最好的电影吗？",
-            "answer": "不是，新导演也能拍出优秀电影。如果他们持续学习技能、探索想法并保持开放，就可能创造出比资深导演更新鲜的作品。"
-          },
-          "structure": "PREC"
-        },
-        {
-          "question": "Do you think successful movies should have well-known actors or actresses in leading roles?",
-          "answer": "No, not necessarily. Famous actors can attract attention, but they do not guarantee quality. Excessive focus on fame may distract the team. A good story and suitable acting are more important.",
-          "materials": [
-            "M7"
-          ],
-          "translation": {
-            "question": "您认为成功的电影应该由知名演员担任主角吗？",
-            "answer": "不，不一定。知名演员可以吸引关注，但不能保证电影质量。过度关注名气可能让制作团队分心。好故事和合适的表演更加重要。"
-          },
-          "structure": "PREC"
-        },
-        {
-          "question": "Why do people prefer to watch movies in the cinema?",
-          "answer": "People prefer cinemas because the large screen and strong sound make the film more exciting. There are also fewer distractions than at home, and going with friends is a chance to spend quality time together.",
-          "materials": [
-            "M5"
-          ],
-          "translation": {
-            "question": "为什么人们更喜欢去电影院看电影？",
-            "answer": "人们更喜欢电影院，是因为大屏幕和强烈的声音能让电影更精彩。电影院里的干扰也比家里少，而且和朋友一起去还能共度高质量时光。"
-          },
-          "structure": "PREC"
-        }
-      ]
-    },
-    {
-      "id": "family-objects",
-      "category": "事物类",
-      "title": "对家庭重要的东西",
-      "partTwo": "对家庭重要的东西",
-      "items": [
-        {
-          "question": "What things do families keep for a long time?",
-          "answer": "Families often keep photos, letters, jewellery, children's drawings and travel souvenirs. These objects carry memories, keep family traditions alive and help relatives feel closer.",
-          "materials": [
-            "M5",
-            "M8"
-          ],
-          "translation": {
-            "question": "哪些东西是家人可以长期保存的？",
-            "answer": "家庭经常长期保存照片、信件、首饰、孩子的画和旅行纪念品。这些物品承载回忆、延续家庭传统，也能让亲人感觉更亲近。"
-          },
-          "structure": "直接回答"
-        },
-        {
-          "question": "What's the difference between things valued by people in the past and today?",
-          "answer": "In the past, people often valued practical things, handmade objects and family photos. Today, many people also value phones and digital files because they use them every day. However, objects linked to family traditions are still important.",
-          "materials": [
-            "M8"
-          ],
-          "translation": {
-            "question": "过去和今天人们所重视的事物有什么区别？",
-            "answer": "过去，人们经常重视实用物品、手工制品和家庭照片。如今，很多人也重视手机和数字文件，因为每天都会使用它们。不过，与家庭传统有关的物品仍然很重要。"
-          },
-          "structure": "PREC"
-        },
-        {
-          "question": "What kinds of things are kept in museums?",
-          "answer": "Museums keep old tools, artworks, clothes, historical documents and scientific objects. These collections protect important information, keep culture alive and teach visitors about the past.",
-          "materials": [
-            "M8"
-          ],
-          "translation": {
-            "question": "博物馆里保存着什么样的东西？",
-            "answer": "博物馆会保存旧工具、艺术品、服装、历史文件和科学物品。这些藏品保护重要信息、让文化延续，也能教游客了解过去。"
-          },
-          "structure": "直接回答"
-        },
-        {
-          "question": "What's the influence of technology on museums?",
-          "answer": "Technology makes museums easier to access. City residents can visit large museums more easily, while people in rural areas may depend more on virtual tours. Digital screens and online exhibitions are convenient and make museum knowledge easier to access.",
-          "materials": [
-            "C3",
-            "M2"
-          ],
-          "translation": {
-            "question": "科技对博物馆有何影响？",
-            "answer": "科技让博物馆更容易接触。城市居民可以更方便地参观大型博物馆，而农村居民可能更依赖虚拟参观。数字屏幕和网上展览很方便，也让博物馆知识更容易获取。"
-          },
-          "comparison": "C3 · 城乡博物馆访问",
-          "structure": "PREC + 对比"
-        },
-        {
-          "question": "Why is it important for people (especially children) to learn about family history?",
-          "answer": "Family history is important because it gives children identity and keeps traditions alive. For example, older relatives can tell stories while children record them. This face-to-face communication helps generations feel closer.",
-          "materials": [
-            "C1",
-            "M5",
-            "M8"
-          ],
-          "translation": {
-            "question": "为什么人们（尤其是儿童）了解家族史很重要？",
-            "answer": "家族历史很重要，因为它能给孩子身份认同并让传统延续。例如，年长亲属可以讲述故事，孩子则把它们记录下来。这种面对面交流能让不同世代感觉更亲近。"
-          },
-          "comparison": "C1 · 家庭历史中的代际分工",
-          "structure": "PREC + 对比"
-        },
-        {
-          "question": "Do you think people will keep fewer physical objects in the future as memories? Why?",
-          "answer": "Yes, probably. Young people are comfortable keeping photos in convenient cloud storage, while older people may prefer physical objects linked to family traditions. So people will keep fewer objects overall, but meaningful items will still help keep family traditions alive.",
-          "materials": [
-            "C1",
-            "M8"
-          ],
-          "translation": {
-            "question": "您认为未来人们会保留更少的实物作为记忆吗？为什么？",
-            "answer": "是的，很可能会。年轻人习惯把照片保存在便利的云端，而年长者可能更喜欢与家庭传统有关的实体物品。因此，人们总体会保存更少物品，但有意义的东西仍能让家庭传统延续下去。"
-          },
-          "comparison": "C1 · 社交互动与改变",
-          "structure": "PREC + 对比"
-        }
-      ]
-    },
-    {
-      "id": "stories",
-      "category": "事物类",
-      "title": "最近读过的故事",
-      "partTwo": "最近读过的故事",
-      "items": [
-        {
-          "question": "Why do most children like listening to stories before bedtime?",
-          "answer": "Children like bedtime stories because they help them relax and feel safe with their parents. A calm story also creates quality time and gives children a familiar routine before sleep.",
-          "materials": [
-            "M1",
-            "M5"
-          ],
-          "translation": {
-            "question": "为什么大多数孩子喜欢睡前听故事？",
-            "answer": "孩子喜欢睡前故事，是因为故事能帮助他们放松，并在父母身边感到安全。平静的故事也能创造高质量的亲子时光，让孩子在睡前形成熟悉的习惯。"
-          },
-          "structure": "PREC"
-        },
-        {
-          "question": "Is a good storyline important for a movie?",
-          "answer": "Yes, because a good storyline connects the scenes and makes viewers care about the characters. Famous actors and visual effects are not enough if the story is weak. A strong plot can also help people explore new ideas.",
-          "materials": [
-            "M4"
-          ],
-          "translation": {
-            "question": "一个好的故事情节对于一部电影来说重要吗？",
-            "answer": "重要，因为好的故事线能把各个场景连接起来，也能让观众关心人物。如果故事很弱，知名演员和视觉效果也不够。好的情节还能帮助人们探索新想法。"
-          },
-          "structure": "PREC"
-        },
-        {
-          "question": "Do you think films with many celebrities are more likely to be popular?",
-          "answer": "They may attract attention at first because people know the actors. However, famous names cannot make a weak story good. A film stays popular only if the story and acting are strong.",
-          "materials": [],
-          "translation": {
-            "question": "你认为明星多的电影更容易受到欢迎吗？",
-            "answer": "它们一开始可能会吸引关注，因为观众认识这些演员。不过，明星无法让一个薄弱的故事变好。只有故事和表演都很出色，电影才能持续受欢迎。"
-          },
-          "structure": "PREC"
-        },
-        {
-          "question": "What films are popular in China right now?",
-          "answer": "Action films, comedies, animation, family films and historical films are all popular in China. People usually choose entertaining stories that help them relax after work or study.",
-          "materials": [
-            "M1"
-          ],
-          "translation": {
-            "question": "现在中国有哪些电影很受欢迎？",
-            "answer": "动作片、喜剧、动画片、家庭电影和历史片在中国都很受欢迎。人们通常会选择有娱乐性的故事，在工作或学习后帮助自己放松。"
-          },
-          "structure": "直接回答"
-        },
-        {
-          "question": "Do you think traditional stories (like fairy tales) are still relevant for children today?",
-          "answer": "Yes, because traditional stories can still teach kindness, courage and local culture. Adults may need to explain some old-fashioned parts, but the stories can keep culture alive and still entertain children.",
-          "materials": [
-            "M8"
-          ],
-          "translation": {
-            "question": "您认为传统故事（如童话故事）对今天的孩子来说仍然有意义吗？",
-            "answer": "仍然有意义，因为传统故事依然可以教孩子善良、勇气和当地文化。成年人可能需要解释一些过时的内容，但这些故事能够延续文化，也仍然能给孩子带来乐趣。"
-          },
-          "structure": "PREC"
-        },
-        {
-          "question": "How can stories influence a person‘s character or values?",
-          "answer": "Stories influence values by showing choices and results. Children may learn simple lessons about kindness and honesty from stories, while adults may think about more complex choices and other cultures. Stories help both groups gain new ideas and become more open-minded.",
-          "materials": [
-            "C1",
-            "M4",
-            "M8"
-          ],
-          "translation": {
-            "question": "故事如何影响一个人的性格或价值观？",
-            "answer": "故事通过展示选择和结果影响价值观。孩子可以从故事中学习善良和诚实等简单道理，而成年人可能思考更复杂的选择和其他文化。故事能帮助两类人获得新想法，并变得更加开放。"
-          },
-          "comparison": "C1 · 故事对不同年龄价值观的影响",
-          "structure": "PREC + 对比"
-        }
-      ]
-    },
-    {
-      "id": "apps",
-      "category": "事物类",
-      "title": "App/程序",
-      "partTwo": "App/程序",
-      "items": [
-        {
-          "question": "What are the differences between old and young people when using apps?",
-          "answer": "Young people usually learn new apps quickly and use many services. Older people may need more time because they prefer familiar routines. However, apps can save time for both groups.",
-          "materials": [
-            "C1",
-            "M2"
-          ],
-          "translation": {
-            "question": "老年人和年轻人在使用应用程序时有何不同？",
-            "answer": "年轻人通常能很快学会新应用，并使用很多服务。年长者可能需要更多时间，因为他们更喜欢熟悉的生活方式。不过，应用能为两类人节省时间。"
-          },
-          "comparison": "C1 · 学习速度与使用习惯",
-          "structure": "PREC + 对比"
-        },
-        {
-          "question": "Why do some people not like using apps?",
-          "answer": "Some people find apps difficult to use or worry about privacy and advertisements. Too many notifications can also make an app time-consuming and boring. They may prefer a simple website or face-to-face service instead.",
-          "materials": [
-            "M9"
-          ],
-          "translation": {
-            "question": "为什么有些人不喜欢使用应用程序？",
-            "answer": "有些人觉得应用程序难用，或担心隐私和广告。太多通知也会让使用应用变得耗时且无聊，所以他们可能更喜欢简单的网站或面对面的服务。"
-          },
-          "structure": "PREC"
-        },
-        {
-          "question": "What kinds of apps are most popular among young people in your country?",
-          "answer": "Teenagers often prefer social media and game apps, while young adults use more payment, shopping and transport apps. These services simplify daily routines and help both groups stay connected.",
-          "materials": [
-            "C1",
-            "M2",
-            "M5"
-          ],
-          "translation": {
-            "question": "哪些类型的应用程序最受贵国年轻人的欢迎？",
-            "answer": "青少年经常更喜欢社交媒体和游戏应用，而年轻成年人更多使用支付、购物和交通应用。这些服务能简化日常生活，也能帮助两类人保持联系。"
-          },
-          "comparison": "C1 · 不同年龄年轻人的常用应用",
-          "structure": "直接回答 + 对比"
-        },
-        {
-          "question": "Do you think mobile apps have made our lives easier or more complicated?",
-          "answer": "Overall, apps have made life easier because payment, maps and shopping services save time. However, too many accounts, notifications and privacy settings can make life complicated. Designers should keep apps simple, and users should avoid excessive use.",
-          "materials": [
-            "M2",
-            "M7"
-          ],
-          "translation": {
-            "question": "您认为移动应用程序使我们的生活变得更轻松还是更复杂？",
-            "answer": "总体来说，应用让生活更轻松，因为支付、地图和购物服务能够节省时间。不过，太多账号、通知和隐私设置也会让生活变复杂。设计者应该保持应用简单，用户也应避免过度使用。"
-          },
-          "structure": "PREC + 对比"
-        },
-        {
-          "question": "What should people pay attention to when downloading a new app?",
-          "answer": "People should check the app's permissions, privacy settings, developer and user reviews. They should also choose a practical app and download only what they need.",
-          "materials": [
-            "M3",
-            "M7"
-          ],
-          "translation": {
-            "question": "人们在下载新应用程序时应该注意什么？",
-            "answer": "人们应该检查应用的权限、隐私设置、开发者和用户评价，也应该选择实用的应用，只下载自己需要的内容。"
-          },
-          "structure": "直接回答"
-        },
-        {
-          "question": "Do you think we will use more or fewer apps in the future? Why?",
-          "answer": "We may use more digital services but fewer separate apps because one app can combine many functions. This will make daily tasks more convenient, although people should still avoid excessive screen use.",
-          "materials": [
-            "M2",
-            "M7"
-          ],
-          "translation": {
-            "question": "您认为未来我们会使用更多还是更少的应用程序？为什么？",
-            "answer": "我们可能会使用更多数字服务，但独立应用会更少，因为一个应用可以整合许多功能。这会让日常任务更加方便，不过人们仍然应该避免过度使用屏幕。"
-          },
-          "structure": "PREC"
-        }
-      ]
-    },
-    {
-      "id": "important-things",
-      "category": "事物类",
-      "title": "生活中离不开的东西",
-      "partTwo": "生活中离不开的东西",
-      "items": [
-        {
-          "question": "Why are children attracted to new things (such as electronics)?",
-          "answer": "Children are attracted to new electronics because they have bright colours, games and interesting functions. New devices are also convenient and give them something to discuss with friends. However, excessive use can cause distraction.",
-          "materials": [
-            "M2",
-            "M7"
-          ],
-          "translation": {
-            "question": "为什么孩子会对新事物（例如电子产品）感兴趣？",
-            "answer": "孩子被新电子产品吸引，是因为它们有鲜艳的颜色、游戏和有趣的功能。新设备也很方便，还能让他们有话题和朋友讨论。不过，过度使用会让人分心。"
-          },
-          "structure": "PREC"
-        },
-        {
-          "question": "Why do some grown-ups hate to throw out old things (such as clothes)?",
-          "answer": "Many grown-ups keep old things because they carry personal memories or family traditions. Some items are still useful, and throwing them away may feel wasteful. However, keeping too many things can take up valuable space.",
-          "materials": [
-            "M8"
-          ],
-          "translation": {
-            "question": "为什么有些大人不愿意扔掉旧东西（比如衣服）？",
-            "answer": "许多成年人保留旧物，是因为它们承载个人回忆或家庭传统。有些物品仍然有用，扔掉会让人觉得浪费。不过，保留太多东西会占用宝贵空间。"
-          },
-          "structure": "PREC"
-        },
-        {
-          "question": "Is the way people buy things affected? How?",
-          "answer": "Yes, technology has changed the way people buy things. They can compare products and order at any time, so shopping is more convenient and time-saving. However, easy online payment can also encourage excessive buying.",
-          "materials": [
-            "M2",
-            "M7"
-          ],
-          "translation": {
-            "question": "人们买东西的方式是否受到影响？如何？",
-            "answer": "是的，科技改变了人们买东西的方式。他们可以随时比较商品并下单，因此购物更加方便和节省时间。不过，轻松的线上支付也可能鼓励过度消费。"
-          },
-          "structure": "PREC"
-        },
-        {
-          "question": "What do you think influences people to buy new things?",
-          "answer": "People are influenced by practical needs, prices, advertisements, new trends and their friends. Advertising can create false needs, so buyers should make a rational choice before paying for something new.",
-          "materials": [
-            "M7"
-          ],
-          "translation": {
-            "question": "您认为是什么影响人们购买新东西？",
-            "answer": "人们会受到实际需求、价格、广告、新潮流和朋友的影响。广告会制造虚假需求，所以购买新东西之前应该作出理性选择。"
-          },
-          "structure": "PREC"
-        },
-        {
-          "question": "Why do all children like toys?",
-          "answer": "Children like toys because playing is fun and helps them use their imagination. Toys can also help them relax, learn useful skills and practise solving simple problems.",
-          "materials": [
-            "M1",
-            "M4"
-          ],
-          "translation": {
-            "question": "为什么所有的孩子都喜欢玩具？",
-            "answer": "孩子喜欢玩具，是因为玩耍很有趣，也能帮助他们发挥想象力。玩具还能帮助他们放松、学习实用技能，并练习解决简单问题。"
-          },
-          "structure": "PREC"
-        },
-        {
-          "question": "Do you think it is good for a child to always take his or her favourite toy with them all the time?",
-          "answer": "A favourite toy can comfort young children and ease anxiety. However, older children should not depend on it too much. A moderate approach gives comfort without creating a strong habit.",
-          "materials": [
-            "C1",
-            "M1",
-            "M7"
-          ],
-          "translation": {
-            "question": "您认为孩子总是带着他或她最喜欢的玩具有好处吗？",
-            "answer": "最喜欢的玩具能安慰年龄较小的孩子并缓解焦虑。不过，年龄较大的孩子不应该过度依赖它。适度的做法能够带来安慰，又不会形成很强的习惯。"
-          },
-          "comparison": "C1 · 不同年龄对玩具的依赖",
-          "structure": "PREC + 对比"
-        }
-      ]
-    },
-    {
-      "id": "ideal-work",
-      "category": "事物类",
-      "title": "完美工作",
-      "partTwo": "完美工作",
-      "items": [
-        {
-          "question": "What jobs do children want to do when they grow up?",
-          "answer": "Young children often want to be athletes or artists because these jobs look exciting. Teenagers may think more about salary and useful skills. Their ideas usually change as they grow older.",
-          "materials": [
-            "C1",
-            "M4"
-          ],
-          "translation": {
-            "question": "孩子长大后想从事什么工作？",
-            "answer": "年龄较小的孩子经常想成为运动员或艺术家，因为这些职业看起来很令人兴奋。青少年可能会更多考虑工资和实用技能。随着年龄增长，他们的想法通常会发生变化。"
-          },
-          "comparison": "C1 · 不同年龄的职业理想",
-          "structure": "直接回答 + 对比"
-        },
-        {
-          "question": "What should people consider when choosing jobs?",
-          "answer": "People should consider their interests, salary, working hours, location, job security and chances to grow. A suitable job should fit their practical needs and allow them to learn useful skills.",
-          "materials": [
-            "M3",
-            "M4"
-          ],
-          "translation": {
-            "question": "人们在选择工作时应该考虑什么？",
-            "answer": "人们应该考虑兴趣、工资、工作时间、地点、工作稳定性和成长机会。合适的工作应该符合实际需求，也能让他们学习实用技能。"
-          },
-          "structure": "直接回答"
-        },
-        {
-          "question": "Is salary the main reason people choose a certain job?",
-          "answer": "No. Salary is important because people need to pay their bills, but they also consider interest, job security, working hours and close relationships with colleagues. High pay alone does not guarantee job satisfaction.",
-          "materials": [
-            "M5"
-          ],
-          "translation": {
-            "question": "薪水是人们选择某种工作的主要原因吗？",
-            "answer": "不是。工资很重要，因为人们需要支付生活费用，但他们也会考虑兴趣、工作稳定性、工作时间和良好的同事关系。只有高工资并不能保证工作满意度。"
-          },
-          "structure": "PREC"
-        },
-        {
-          "question": "How have people’s opinions about the “perfect job” changed compared to the past?",
-          "answer": "In the past, many people saw a stable salary and a long-term position as the perfect job. Today, people also care about flexible hours, work-life balance and chances to learn new skills. Technology has also given them more career choices.",
-          "materials": [
-            "M4"
-          ],
-          "translation": {
-            "question": "与过去相比，人们对“完美工作”的看法有何变化？",
-            "answer": "过去，许多人把稳定的工资和长期职位看作理想工作。现在，人们也重视灵活的工作时间、工作与生活的平衡，以及学习新技能的机会。科技也带来了更多职业选择。"
-          },
-          "structure": "PREC + 对比"
-        },
-        {
-          "question": "Do you think it’s easy for people to find their ideal job? Why or why not?",
-          "answer": "No, because competition is strong and many people are not sure about their strengths. Some jobs also look better from the outside than they really are. People often need time, experience and a chance to learn new skills before finding a suitable role.",
-          "materials": [
-            "M4"
-          ],
-          "translation": {
-            "question": "您认为人们很容易找到自己理想的工作吗？为什么或为什么不呢？",
-            "answer": "不容易，因为竞争激烈，而且很多人不确定自己的优势。有些工作从外面看起来很好，实际情况却并非如此。人们通常需要时间、经验和新技能，才能找到合适的职位。"
-          },
-          "structure": "PREC"
-        },
-        {
-          "question": "What is more important for job satisfaction: a high salary or good relationships with colleagues?",
-          "answer": "I think good relationships are more important in the long term. A fair salary meets practical needs, but supportive colleagues reduce daily stress. Clear face-to-face communication can also build trust and make work more enjoyable.",
-          "materials": [
-            "M3",
-            "M5"
-          ],
-          "translation": {
-            "question": "对于工作满意度来说，哪个更重要：高薪还是良好的同事关系？",
-            "answer": "我认为从长远来看，良好的同事关系更重要。合理的工资能满足实际需求，但互相支持的同事可以减少日常压力。清楚的面对面沟通也能建立信任，让工作更愉快。"
-          },
-          "structure": "PREC + 对比"
-        }
-      ]
-    },
-    {
-      "id": "disappointing-films",
-      "category": "事物类",
-      "title": "让你失望的电影",
-      "partTwo": "让你失望的电影",
-      "items": [
-        {
-          "question": "Do you believe movie reviews?",
-          "answer": "Not completely, because reviews are personal and some may be influenced by advertising. I usually read several opinions and watch a short trailer. Then I decide whether the film suits my interests.",
-          "materials": [],
-          "translation": {
-            "question": "你相信影评吗？",
-            "answer": "不完全相信，因为影评带有个人观点，有些也可能受广告影响。我通常会读几种不同意见，再看一个短预告片，然后判断这部电影是否符合我的兴趣。"
-          },
-          "structure": "PREC"
-        },
-        {
-          "question": "What are the different types of films in your country?",
-          "answer": "My country has many types of films, including action films, animation, comedies, historical films, science fiction and family films. This gives audiences plenty of choices.",
-          "materials": [],
-          "translation": {
-            "question": "你们国家有哪些不同类型的电影？",
-            "answer": "我的国家有很多电影类型，包括动作片、动画片、喜剧、历史片、科幻片和家庭电影，这让观众有很多选择。"
-          },
-          "structure": "直接回答"
-        },
-        {
-          "question": "Are historical films popular in your country? Why?",
-          "answer": "Yes, especially among older viewers because they are interested in the past. Young people may prefer modern action films. However, a good historical film can still help everyone understand local culture.",
-          "materials": [
-            "C1",
-            "M8"
-          ],
-          "translation": {
-            "question": "历史电影在你们国家受欢迎吗？为什么？",
-            "answer": "是的，历史片尤其受年长观众欢迎，因为他们对过去感兴趣。年轻人可能更喜欢现代动作片。不过，好的历史片仍然能帮助所有人了解当地文化。"
-          },
-          "comparison": "C1 · 兴趣爱好",
-          "structure": "PREC + 对比"
-        },
-        {
-          "question": "Do you think films with famous actors or actresses are more likely to become successful films?",
-          "answer": "Yes, famous actors can attract viewers because they already have many fans. However, excessive focus on fame may distract the team from the story. So well-known actors improve the chance of success, but they do not guarantee it.",
-          "materials": [
-            "M7"
-          ],
-          "translation": {
-            "question": "您认为由著名演员或女演员主演的电影更有可能成为成功的电影吗？",
-            "answer": "是的，知名演员能够吸引观众，因为他们已经拥有许多粉丝。不过，过度关注名气可能让团队忽视故事。因此，知名演员能提高成功的可能性，但不能保证成功。"
-          },
-          "structure": "PREC"
-        },
-        {
-          "question": "Why are Japanese animated films so popular?",
-          "answer": "Japanese animated films are popular because their creative stories appeal to different age groups. For example, children may enjoy the colourful worlds, while adults connect with themes such as family and growth. Streaming platforms also make these films convenient to watch worldwide.",
-          "materials": [
-            "C1",
-            "M2"
-          ],
-          "translation": {
-            "question": "为什么日本动画电影如此受欢迎？",
-            "answer": "日本动画电影很受欢迎，因为它们富有创意的故事能吸引不同年龄段的人。例如，孩子可能喜欢多彩的世界，而成年人会对家庭和成长等主题产生共鸣。流媒体平台也让世界各地的人方便地观看这些电影。"
-          },
-          "comparison": "C1 · 不同年龄的广泛吸引力",
-          "structure": "PREC + 对比"
-        },
-        {
-          "question": "Should the director pay a lot of money to famous actors?",
-          "answer": "No, because paying famous actors too much can put pressure on the production. A fair salary is more cost-effective and leaves money for the story and visual effects. So directors should pay for ability, not fame alone.",
-          "materials": [
-            "M3",
-            "M7"
-          ],
-          "translation": {
-            "question": "导演应该给著名演员花很多钱吗？",
-            "answer": "不，因为给知名演员过高的片酬会给制作带来压力。合理的片酬更有性价比，也能为故事和视觉效果留下资金。因此，导演应该为能力付费，而不是只为名气付费。"
-          },
-          "structure": "PREC"
-        }
-      ]
     }
   ],
   "toolkit": [
@@ -11708,5 +11276,2142 @@ window.IELTS_DATA = {
         }
       ]
     }
-  ]
+  ],
+  "chunks": {
+    "intro": "本页把 Part 1、Part 2、Part 3 的本季新题拆成同一套词块。词块按“链”记忆：想起链头，后面几个自然跟出来。结构模板负责“怎么摆”，词块链负责“说什么”，两者分开练。",
+    "usage": [
+      "先背结构模板（P1 三步、P3 PREC），再背词块链。",
+      "每条链只记链头，其余靠联想带出；说的时候允许只用其中 3-4 个。",
+      "Part 2 直接用「Part 2」页的人物类三部曲和地点类三原因母版，本页的词块链只往故事段里填。",
+      "抽到新题时，从这套词块里挑组合，不要临时造新表达。",
+      "带 ★ 的是本季新题里反复出现的词块，时间不够时只背 ★。"
+    ],
+    "structures": [
+      {
+        "part": "Part 1",
+        "title": "三步直接回答",
+        "note": "两到三句就够。先表态，再给一个原因，最后补一个具体细节。不要展开成 Part 2。",
+        "steps": [
+          {
+            "label": "① 表态",
+            "en": "Yes, I do. / Not really. / Honestly, I don't.",
+            "zh": "直接给出立场，不要绕。"
+          },
+          {
+            "label": "② 原因",
+            "en": "…mainly because it helps me relax.",
+            "zh": "一个原因就够，用 because 接住。"
+          },
+          {
+            "label": "③ 细节",
+            "en": "For example, I usually… / I did that last week.",
+            "zh": "一个具体细节或频率词收尾。"
+          }
+        ],
+        "demo": {
+          "question": "Do you like watching videos online?",
+          "english": "Yes, I do. I mainly watch videos online because it helps me relax after work. For example, I usually watch some short cooking videos before dinner.",
+          "translation": "喜欢。我主要在网上看视频，因为下班后它能帮我放松。比如我一般会在晚饭前看几个做菜的短视频。"
+        }
+      },
+      {
+        "part": "Part 3",
+        "title": "PREC 四步",
+        "note": "每题都摆成 Point → Reason → Example → Consequence。四句起步，能说到六句就够 5.5。需要对比时，在 Reason 后面加一句 By contrast。",
+        "steps": [
+          {
+            "label": "P 观点",
+            "en": "I think… / Personally, I'd say…",
+            "zh": "第一句必须给明确立场。"
+          },
+          {
+            "label": "R 原因",
+            "en": "The main reason is that…",
+            "zh": "一个原因，接一个词块。"
+          },
+          {
+            "label": "E 例子",
+            "en": "For example, … / Take my own case,…",
+            "zh": "举例，直接调用词块链。"
+          },
+          {
+            "label": "C 结果",
+            "en": "As a result, … / So over time,…",
+            "zh": "落到影响或结果，收住。"
+          },
+          {
+            "label": "＋对比（可选）",
+            "en": "By contrast, older people usually…",
+            "zh": "只有逻辑自然时才加，别硬套。"
+          }
+        ],
+        "demo": {
+          "question": "Do people need to have goals?",
+          "english": "I think people do need goals. The main reason is that a clear goal helps them make a plan instead of wasting time. For example, my friend wanted to learn French, so he broke it into small steps and practised every day. As a result, he could speak it fluently in about two years.",
+          "translation": "我认为人确实需要目标。主要原因是明确的目标能帮人做出计划，而不是浪费时间。比如我朋友想学法语，他把目标拆成小步骤，每天练习。结果大约两年后他就能流利地说法语了。"
+        }
+      }
+    ],
+    "functionChunks": [
+      {
+        "title": "表态开头（P1 / P3 第一句）",
+        "items": [
+          {
+            "en": "Yes, definitely.",
+            "zh": "当然是的。",
+            "star": true
+          },
+          {
+            "en": "Not really.",
+            "zh": "其实不太。",
+            "star": true
+          },
+          {
+            "en": "Honestly, I don't.",
+            "zh": "老实说，我不。",
+            "star": true
+          },
+          {
+            "en": "I think so, yes.",
+            "zh": "我觉得是的。"
+          },
+          {
+            "en": "It depends, but usually…",
+            "zh": "看情况，不过一般来说…",
+            "star": true
+          }
+        ]
+      },
+      {
+        "title": "给原因（R）",
+        "items": [
+          {
+            "en": "mainly because…",
+            "zh": "主要是因为…",
+            "star": true
+          },
+          {
+            "en": "The main reason is that…",
+            "zh": "主要原因是…",
+            "star": true
+          },
+          {
+            "en": "That's because…",
+            "zh": "那是因为…"
+          },
+          {
+            "en": "What matters most is…",
+            "zh": "最重要的是…"
+          }
+        ]
+      },
+      {
+        "title": "举例（E）",
+        "items": [
+          {
+            "en": "For example,…",
+            "zh": "比如说…",
+            "star": true
+          },
+          {
+            "en": "Take my own case,…",
+            "zh": "拿我自己来说…",
+            "star": true
+          },
+          {
+            "en": "Something like this happened to me.",
+            "zh": "我自己就遇到过这种事。"
+          },
+          {
+            "en": "a real-life example",
+            "zh": "一个真实的例子",
+            "star": true
+          }
+        ]
+      },
+      {
+        "title": "结果与收尾（C）",
+        "items": [
+          {
+            "en": "As a result,…",
+            "zh": "结果是…",
+            "star": true
+          },
+          {
+            "en": "So over time,…",
+            "zh": "所以时间一长…",
+            "star": true
+          },
+          {
+            "en": "That's why…",
+            "zh": "所以才会…",
+            "star": true
+          },
+          {
+            "en": "In the end,…",
+            "zh": "最后…",
+            "star": true
+          }
+        ]
+      },
+      {
+        "title": "限定与让步（避免说死）",
+        "items": [
+          {
+            "en": "in a moderate way",
+            "zh": "适度地",
+            "star": true
+          },
+          {
+            "en": "it depends on the situation",
+            "zh": "这要看具体情况",
+            "star": true
+          },
+          {
+            "en": "it's not for everyone",
+            "zh": "并不是所有人都适合",
+            "star": true
+          },
+          {
+            "en": "it has both good and bad sides",
+            "zh": "它有好的一面也有不好的一面",
+            "star": true
+          }
+        ]
+      },
+      {
+        "title": "对比（只在逻辑自然时用）",
+        "items": [
+          {
+            "en": "By contrast,…",
+            "zh": "相比之下…",
+            "star": true
+          },
+          {
+            "en": "Compared with…",
+            "zh": "和…相比",
+            "star": true
+          },
+          {
+            "en": "while young people usually…",
+            "zh": "而年轻人通常…",
+            "star": true
+          },
+          {
+            "en": "in cities / in the countryside",
+            "zh": "在城市里／在乡下",
+            "star": true
+          }
+        ]
+      }
+    ],
+    "families": [
+      {
+        "code": "F1",
+        "title": "工作与协作",
+        "source": "Alex · 生产系统故障",
+        "zh": "所有“出问题、求助、合作、职业”类题目都从这里出。",
+        "chains": [
+          {
+            "code": "C01",
+            "title": "系统出故障",
+            "source": "Alex",
+            "materials": [
+              "M4",
+              "M6"
+            ],
+            "chunks": [
+              {
+                "en": "something went wrong with…",
+                "zh": "…出了点问题",
+                "star": true
+              },
+              {
+                "en": "sort it out on my own first",
+                "zh": "先自己想办法解决",
+                "star": true
+              },
+              {
+                "en": "turn to… for help",
+                "zh": "找…帮忙",
+                "star": true
+              },
+              {
+                "en": "go through it step by step",
+                "zh": "一步步排查",
+                "star": true
+              },
+              {
+                "en": "work out what caused…",
+                "zh": "弄清…是什么造成的",
+                "star": true
+              },
+              {
+                "en": "it turned out to be…",
+                "zh": "结果发现是…",
+                "star": true
+              },
+              {
+                "en": "it was just a small problem",
+                "zh": "其实就是个小问题",
+                "star": true
+              },
+              {
+                "en": "it was a big relief",
+                "zh": "一下子松了口气",
+                "star": true
+              }
+            ],
+            "demo": {
+              "english": "Something went wrong with our system at work, so I tried to sort it out on my own first. When that got me nowhere, I turned to a colleague for help, and we went through it step by step to work out what had caused it. Getting to the bottom of it took most of the afternoon, but it was a huge relief.",
+              "translation": "我们公司系统出了点问题，我先自己想办法解决。没什么进展之后，我找同事帮忙，两个人一步步排查，弄清是什么造成的。彻底查清楚花了大半个下午，但一下子就松了口气。"
+            },
+            "covers": [
+              "new-help-solve-problem",
+              "new-ai-problem",
+              "new-electronic-device-problem",
+              "new-success-after-difficulty",
+              "new-teamwork",
+              "new-delayed-reply"
+            ]
+          },
+          {
+            "code": "C02",
+            "title": "联系与回应",
+            "source": "Alex",
+            "materials": [
+              "M5",
+              "M2"
+            ],
+            "chunks": [
+              {
+                "en": "get back to… as soon as I can",
+                "zh": "尽快回复…",
+                "star": true
+              },
+              {
+                "en": "leave… waiting for hours",
+                "zh": "让…等上好几个小时"
+              },
+              {
+                "en": "I try not to worry about it",
+                "zh": "我尽量不去多想",
+                "star": true
+              },
+              {
+                "en": "there's usually a good reason for it",
+                "zh": "通常都有说得过去的原因",
+                "star": true
+              },
+              {
+                "en": "everyone gets busy sometimes",
+                "zh": "谁都有忙的时候",
+                "star": true
+              },
+              {
+                "en": "remind… again later",
+                "zh": "过一会儿再提醒…一次",
+                "star": true
+              },
+              {
+                "en": "let… know what's happening",
+                "zh": "让…知道情况",
+                "star": true
+              }
+            ],
+            "demo": {
+              "english": "If someone doesn't get back to me for a while, I try not to jump to conclusions, because there's usually a good reason for it — so I give them the benefit of the doubt. If it really is urgent, I'll send a gentle reminder. At work I do the opposite: I keep everyone in the loop so nobody is left waiting for hours.",
+              "translation": "如果有人半天没回我，我尽量不妄下结论，因为通常都有说得过去的原因，所以我会先往好处想。要是真的很急，我就委婉地再提醒一次。工作上我反过来做：让所有人随时知道进展，不让谁等上好几个小时。"
+            },
+            "covers": [
+              "new-delayed-reply",
+              "new-childhood-friend",
+              "new-teamwork"
+            ]
+          },
+          {
+            "code": "C03",
+            "title": "团队协作",
+            "source": "Alex",
+            "materials": [
+              "M2",
+              "M5"
+            ],
+            "chunks": [
+              {
+                "en": "be responsible for one part of…",
+                "zh": "负责…当中的一部分",
+                "star": true
+              },
+              {
+                "en": "each do what we're good at",
+                "zh": "各自做自己擅长的",
+                "star": true
+              },
+              {
+                "en": "share ideas with each other",
+                "zh": "互相交流想法",
+                "star": true
+              },
+              {
+                "en": "keep each other updated",
+                "zh": "互相同步进度",
+                "star": true
+              },
+              {
+                "en": "everyone does their part",
+                "zh": "每个人都做好自己那份",
+                "star": true
+              },
+              {
+                "en": "meet the deadline",
+                "zh": "按时完成",
+                "star": true
+              },
+              {
+                "en": "get much more done than…",
+                "zh": "比…做成的多得多",
+                "star": true
+              },
+              {
+                "en": "it's much faster than working alone",
+                "zh": "比一个人做快多了",
+                "star": true
+              }
+            ],
+            "demo": {
+              "english": "In a good team, everyone is responsible for one part of the project, so we can play to our strengths. We bounce ideas off each other in short meetings and keep each other updated, and as long as everyone pulls their weight, we meet the deadline and get far more done than we would on our own.",
+              "translation": "在一个好的团队里，每个人负责项目当中的一部分，这样能各自发挥所长。我们在短会上互相碰想法、同步进度，只要每个人都尽到本分，就能按时完成，而且比各自单干做成的多得多。"
+            },
+            "covers": [
+              "new-teamwork",
+              "new-successful-company-worker",
+              "new-happy-event",
+              "new-help-solve-problem"
+            ]
+          },
+          {
+            "code": "C04",
+            "title": "职业与压力",
+            "source": "工作 / 职业类",
+            "materials": [
+              "M4"
+            ],
+            "chunks": [
+              {
+                "en": "work under a lot of pressure",
+                "zh": "在很大压力下工作",
+                "star": true
+              },
+              {
+                "en": "take on more responsibility",
+                "zh": "承担更多责任",
+                "star": true
+              },
+              {
+                "en": "learn skills you can use in…",
+                "zh": "学到在…也用得上的技能",
+                "star": true
+              },
+              {
+                "en": "a stable income",
+                "zh": "稳定的收入",
+                "star": true
+              },
+              {
+                "en": "a real sense of achievement",
+                "zh": "实实在在的成就感",
+                "star": true
+              },
+              {
+                "en": "make a difference to other people",
+                "zh": "对别人的生活产生影响",
+                "star": true
+              },
+              {
+                "en": "hard work, but worth it",
+                "zh": "辛苦，但值得",
+                "star": true
+              }
+            ],
+            "demo": {
+              "english": "Doctors work under a lot of pressure and have to take on more responsibility than most of us. In return they pick up skills that transfer to almost any situation, they have a stable income, and above all they make a difference to other people. It's demanding but rewarding, and that's where the real sense of achievement comes from.",
+              "translation": "医生在很大压力下工作，要承担比多数人更多的责任。作为回报，他们学到几乎任何场合都用得上的技能，有稳定的收入，最重要的是能对别人的生活产生影响。这份工作辛苦但值得，实实在在的成就感就来自这里。"
+            },
+            "covers": [
+              "new-medical-career",
+              "new-successful-businessperson",
+              "new-successful-company-worker",
+              "new-long-held-ambition",
+              "new-language-speaker",
+              "new-help-solve-problem",
+              "new-important-decision"
+            ]
+          },
+          {
+            "code": "C05",
+            "title": "经营生意",
+            "source": "工作 / 商业类",
+            "materials": [
+              "M2",
+              "M3"
+            ],
+            "chunks": [
+              {
+                "en": "run my own business",
+                "zh": "自己经营一份生意",
+                "star": true
+              },
+              {
+                "en": "meet a real need",
+                "zh": "满足一个真实存在的需求",
+                "star": true
+              },
+              {
+                "en": "be different from…",
+                "zh": "和…不一样",
+                "star": true
+              },
+              {
+                "en": "listen to what customers say",
+                "zh": "听顾客怎么说",
+                "star": true
+              },
+              {
+                "en": "keep the costs down",
+                "zh": "把成本控制住",
+                "star": true
+              },
+              {
+                "en": "build a good reputation",
+                "zh": "积累起好名声",
+                "star": true
+              },
+              {
+                "en": "people tell their friends about it",
+                "zh": "大家会告诉自己的朋友",
+                "star": true
+              }
+            ],
+            "demo": {
+              "english": "If you want to run a business of your own, you have to meet a real need and stand out from the competition. The people I admire take feedback seriously and keep the costs down without cutting quality. Once they build a good reputation, word of mouth does the rest.",
+              "translation": "如果想自己经营一份生意，就得满足一个真实存在的需求，并且在同行里脱颖而出。我佩服的那些人会认真对待反馈，在不降低质量的前提下把成本控制住。等好名声积累起来，剩下的就靠口碑了。"
+            },
+            "covers": [
+              "new-successful-businessperson",
+              "new-successful-company-worker",
+              "new-celebrity-advertisement"
+            ]
+          }
+        ]
+      },
+      {
+        "code": "F2",
+        "title": "目标 · 计划 · 改变",
+        "source": "李华 / 计划类母版",
+        "zh": "目标、志向、决定、计划改变、想法改变、早起，全部共用这一组。",
+        "chains": [
+          {
+            "code": "C06",
+            "title": "定目标与执行",
+            "source": "李华",
+            "materials": [
+              "M4"
+            ],
+            "chunks": [
+              {
+                "en": "set myself a clear goal",
+                "zh": "给自己定一个明确的目标",
+                "star": true
+              },
+              {
+                "en": "break it down into small steps",
+                "zh": "把它拆成一个个小步骤",
+                "star": true
+              },
+              {
+                "en": "stick to it even when…",
+                "zh": "即使…也坚持下去",
+                "star": true
+              },
+              {
+                "en": "stay motivated",
+                "zh": "保持动力",
+                "star": true
+              },
+              {
+                "en": "it's worth it in the end",
+                "zh": "到最后是值得的",
+                "star": true
+              },
+              {
+                "en": "see real progress",
+                "zh": "看到实实在在的进展",
+                "star": true
+              },
+              {
+                "en": "look back and feel proud of…",
+                "zh": "回头看会为…感到骄傲",
+                "star": true
+              }
+            ],
+            "demo": {
+              "english": "He set himself a clear goal and broke it down into small steps, which is the only way he could stay motivated. He stuck to it even when he was busy, and it paid off in the long run. Once he started to see real progress, he could look back and feel proud of how far he'd come.",
+              "translation": "他给自己定了一个明确的目标，并把它拆成一个个小步骤，这是他能保持动力的唯一办法。就算再忙他也坚持下去，长远来看确实值得。等到看见实实在在的进展，他回头看就会为自己走了这么远感到骄傲。"
+            },
+            "covers": [
+              "new-long-term-goal",
+              "new-long-held-ambition",
+              "new-language-learning",
+              "new-success-after-difficulty",
+              "new-early-morning"
+            ]
+          },
+          {
+            "code": "C07",
+            "title": "临时改计划",
+            "source": "计划类",
+            "materials": [
+              "M2",
+              "M7"
+            ],
+            "chunks": [
+              {
+                "en": "something came up",
+                "zh": "临时有事",
+                "star": true
+              },
+              {
+                "en": "change my plan at the last minute",
+                "zh": "临时改计划",
+                "star": true
+              },
+              {
+                "en": "keep the plan flexible",
+                "zh": "让计划留有余地",
+                "star": true
+              },
+              {
+                "en": "let people know in advance",
+                "zh": "提前告诉大家",
+                "star": true
+              },
+              {
+                "en": "do it another time",
+                "zh": "改到别的时间做",
+                "star": true
+              },
+              {
+                "en": "find another way",
+                "zh": "找别的办法",
+                "star": true
+              },
+              {
+                "en": "it turned out fine in the end",
+                "zh": "最后结果还不错",
+                "star": true
+              },
+              {
+                "en": "there's no point getting upset about…",
+                "zh": "为…着急也没用",
+                "star": true
+              }
+            ],
+            "demo": {
+              "english": "Something came up at work, so I had to change my plan at the last minute. I let everyone know in advance and we worked around it. There's no point getting upset about things you can't control, and it turned out fine in the end — which is why I always keep my plans flexible now.",
+              "translation": "工作上临时有事，我不得不临时改计划。我提前告诉了大家，然后想办法绕开这个问题。为自己控制不了的事着急没什么用，最后结果也还不错——所以现在我做计划都会留有余地。"
+            },
+            "covers": [
+              "new-changed-plan",
+              "new-recent-change",
+              "new-traffic-jam",
+              "new-happy-event"
+            ]
+          },
+          {
+            "code": "C08",
+            "title": "改变想法",
+            "source": "想法改变类",
+            "materials": [
+              "M4"
+            ],
+            "chunks": [
+              {
+                "en": "I used to think…",
+                "zh": "我以前觉得…",
+                "star": true
+              },
+              {
+                "en": "hear a completely different view",
+                "zh": "听到一个完全不同的看法",
+                "star": true
+              },
+              {
+                "en": "see it from another angle",
+                "zh": "换个角度看这件事",
+                "star": true
+              },
+              {
+                "en": "it made me rethink…",
+                "zh": "这让我重新想了想…",
+                "star": true
+              },
+              {
+                "en": "change my mind about…",
+                "zh": "改变了我对…的看法",
+                "star": true
+              },
+              {
+                "en": "now I think…",
+                "zh": "现在我认为…",
+                "star": true
+              },
+              {
+                "en": "keep an open mind",
+                "zh": "保持开放的心态",
+                "star": true
+              },
+              {
+                "en": "there's no single right answer",
+                "zh": "这件事没有唯一正确的答案",
+                "star": true
+              }
+            ],
+            "demo": {
+              "english": "I used to think working alone was always faster. Then I heard a completely different view from my team leader, and it made me rethink how I work. Seeing it from another angle changed my mind about teamwork — now I think there's no single right answer, so I try to keep an open mind.",
+              "translation": "我以前觉得一个人做总是更快。后来我从组长那里听到一个完全不同的看法，这让我重新想了想自己的做事方式。换个角度看之后，我对团队合作的看法变了——现在我觉得这件事没有唯一正确的答案，所以我尽量保持开放的心态。"
+            },
+            "covers": [
+              "new-changed-opinion",
+              "new-recent-change",
+              "new-ai-problem",
+              "new-childhood-friend"
+            ]
+          },
+          {
+            "code": "C09",
+            "title": "做重要决定",
+            "source": "决定类",
+            "materials": [
+              "M4"
+            ],
+            "chunks": [
+              {
+                "en": "it was a hard decision",
+                "zh": "那是个很难做的决定",
+                "star": true
+              },
+              {
+                "en": "think about it carefully",
+                "zh": "仔细想清楚",
+                "star": true
+              },
+              {
+                "en": "ask… for advice",
+                "zh": "找…拿主意",
+                "star": true
+              },
+              {
+                "en": "think about the good and bad sides",
+                "zh": "把好处和坏处都想一遍",
+                "star": true
+              },
+              {
+                "en": "think about what would happen later",
+                "zh": "想想以后会怎么样",
+                "star": true
+              },
+              {
+                "en": "trust my own feeling",
+                "zh": "最后还是信自己的感觉",
+                "star": true
+              },
+              {
+                "en": "I've never regretted it",
+                "zh": "我从没后悔过",
+                "star": true
+              }
+            ],
+            "demo": {
+              "english": "Moving to another city for work was a tough call. I thought it through carefully and turned to my family for advice, weighing up the pros and cons and thinking about the long-term consequences. In the end I just went with my gut, and I've never regretted it.",
+              "translation": "为了工作搬到另一个城市，那是个很难做的决定。我从头到尾想清楚，也找家人拿了主意，权衡利弊，考虑长远的后果。最后我还是凭直觉决定了，而且从没后悔过。"
+            },
+            "covers": [
+              "new-important-decision",
+              "new-changed-opinion",
+              "new-long-term-goal"
+            ]
+          },
+          {
+            "code": "C10",
+            "title": "作息与效率",
+            "source": "早起 / 日常类",
+            "materials": [
+              "M6"
+            ],
+            "chunks": [
+              {
+                "en": "be a morning person",
+                "zh": "是那种早上状态好的人",
+                "star": true
+              },
+              {
+                "en": "drag myself out of bed",
+                "zh": "硬把自己从床上拖起来",
+                "star": true
+              },
+              {
+                "en": "I work best before…",
+                "zh": "我在…之前状态最好",
+                "star": true
+              },
+              {
+                "en": "make the most of…",
+                "zh": "把…用到最充分",
+                "star": true
+              },
+              {
+                "en": "it makes the whole day easier",
+                "zh": "它让一整天都轻松一些",
+                "star": true
+              },
+              {
+                "en": "stick to a routine",
+                "zh": "保持固定的作息",
+                "star": true
+              },
+              {
+                "en": "it's not easy at first",
+                "zh": "一开始不容易",
+                "star": true
+              }
+            ],
+            "demo": {
+              "english": "I'm not naturally a morning person, so I still have to drag myself out of bed. But I get my best work done before nine, so I try to make the most of that time. Starting early sets the tone for the whole day, and it gets easier once you stick to a routine — though I'd admit it's a hard habit to build.",
+              "translation": "我天生不是那种早上状态好的人，所以到现在还得硬把自己从床上拖起来。但我九点之前效率最高，所以我尽量把那段时间用到最充分。早点开始给一整天定下了基调，保持固定作息之后就没那么难了——不过我承认这个习惯不好养成。"
+            },
+            "covers": [
+              "new-early-morning",
+              "new-recent-change"
+            ]
+          }
+        ]
+      },
+      {
+        "code": "F3",
+        "title": "学习与技能",
+        "source": "李华 · 学法语",
+        "zh": "语言、自学、儿童学习、成功因素类题目共用。",
+        "chains": [
+          {
+            "code": "C11",
+            "title": "学语言",
+            "source": "李华",
+            "materials": [
+              "M4"
+            ],
+            "chunks": [
+              {
+                "en": "learn a new language",
+                "zh": "学一门新语言",
+                "star": true
+              },
+              {
+                "en": "use it a little every day",
+                "zh": "每天都用一点",
+                "star": true
+              },
+              {
+                "en": "understand the grammar",
+                "zh": "把语法弄懂",
+                "star": true
+              },
+              {
+                "en": "not be afraid of making mistakes",
+                "zh": "不怕犯错",
+                "star": true
+              },
+              {
+                "en": "it's all about…",
+                "zh": "关键全在…",
+                "star": true
+              },
+              {
+                "en": "hold a conversation",
+                "zh": "能撑下一整段对话",
+                "star": true
+              },
+              {
+                "en": "it gives you more chances",
+                "zh": "它能给你更多机会",
+                "star": true
+              }
+            ],
+            "demo": {
+              "english": "The best way to pick up a language is to expose yourself to it every day. It took my classmate a long time to get his head around the grammar, but what mattered most was that he wasn't afraid of making mistakes — it's all about practice, really. Two years later he could hold a conversation in French, and honestly it opens doors.",
+              "translation": "学会一门语言最好的办法就是每天让自己接触它。我同学花了很久才把语法搞明白，但最关键的是他不怕犯错——说到底关键全在练。两年后他就能用法语撑下一整段对话了，而且这门语言确实能打开很多机会。"
+            },
+            "covers": [
+              "new-language-speaker",
+              "new-language-learning",
+              "new-childhood-friend"
+            ]
+          },
+          {
+            "code": "C12",
+            "title": "自学技能",
+            "source": "手机戒断 / 自学类",
+            "materials": [
+              "M4",
+              "M2"
+            ],
+            "chunks": [
+              {
+                "en": "teach myself…",
+                "zh": "自学…",
+                "star": true
+              },
+              {
+                "en": "learn at my own pace",
+                "zh": "按自己的节奏学",
+                "star": true
+              },
+              {
+                "en": "look it up online",
+                "zh": "上网查一下",
+                "star": true
+              },
+              {
+                "en": "learn from my own mistakes",
+                "zh": "从自己犯的错里学",
+                "star": true
+              },
+              {
+                "en": "you have to try again and again",
+                "zh": "得反复试很多次",
+                "star": true
+              },
+              {
+                "en": "learn a useful skill",
+                "zh": "学会一项有用的技能",
+                "star": true
+              },
+              {
+                "en": "once you get used to it",
+                "zh": "一旦习惯了",
+                "star": true
+              }
+            ],
+            "demo": {
+              "english": "Nowadays a lot of people just teach themselves. The advantage is that you learn at your own pace — whenever you get stuck you can look it up online and learn from your own mistakes. It takes a lot of trial and error at the start, but once you get the hang of it you can pick up a useful skill without ever sitting in a classroom.",
+              "translation": "现在很多人都是自学。好处是可以按自己的节奏学——卡住的时候上网查一下，从自己犯的错里学。刚开始得反复试错，但一旦上手了，不进教室也能学会一项拿得出手的技能。"
+            },
+            "covers": [
+              "new-language-learning",
+              "new-medical-career",
+              "new-success-after-difficulty",
+              "new-home-gardener",
+              "new-language-speaker",
+              "new-help-solve-problem"
+            ]
+          }
+        ]
+      },
+      {
+        "code": "F4",
+        "title": "城市与出行",
+        "source": "上海 · 城市旅行",
+        "zh": "城市、推荐地点、高楼、无聊地方、河湖、堵车共用。",
+        "chains": [
+          {
+            "code": "C13",
+            "title": "值得去的地方",
+            "source": "上海",
+            "materials": [
+              "M4",
+              "M8"
+            ],
+            "chunks": [
+              {
+                "en": "really worth visiting",
+                "zh": "很值得去一趟",
+                "star": true
+              },
+              {
+                "en": "get away from… for a day",
+                "zh": "离开…一天透透气",
+                "star": true
+              },
+              {
+                "en": "there's a lot to see and do",
+                "zh": "可看可玩的东西很多",
+                "star": true
+              },
+              {
+                "en": "just enjoy the atmosphere",
+                "zh": "好好感受那里的气氛",
+                "star": true
+              },
+              {
+                "en": "the view from the top is amazing",
+                "zh": "从高处看下去景色特别好",
+                "star": true
+              },
+              {
+                "en": "try the local food",
+                "zh": "尝尝当地菜",
+                "star": true
+              },
+              {
+                "en": "I'd recommend it to anyone who…",
+                "zh": "我会推荐给任何…的人",
+                "star": true
+              }
+            ],
+            "demo": {
+              "english": "Shanghai is well worth a visit if you want to get away from your own city for a day or two. There's plenty to see and do, and you can just walk along the river and soak up the atmosphere. The view from the top of Shanghai Tower is stunning, and you have to try the local food. I'd recommend it to anyone who likes big cities.",
+              "translation": "如果你想离开自己的城市一两天透透气，上海很值得去一趟。可看可玩的东西很多，沿着江边走走就能好好感受那里的气氛。从上海中心大厦高处看下去景色非常震撼，当地菜也一定要尝。我会推荐给任何喜欢大城市的人。"
+            },
+            "covers": [
+              "new-recommended-place",
+              "new-favourite-city",
+              "new-free-time-travel-place",
+              "new-tall-building",
+              "new-low-cost-day-out",
+              "new-boring-place"
+            ]
+          },
+          {
+            "code": "C14",
+            "title": "城市好与无聊",
+            "source": "上海 / 家乡",
+            "materials": [
+              "M2",
+              "M7"
+            ],
+            "chunks": [
+              {
+                "en": "public transport is convenient",
+                "zh": "公共交通很方便",
+                "star": true
+              },
+              {
+                "en": "it gets very crowded at weekends",
+                "zh": "周末特别挤",
+                "star": true
+              },
+              {
+                "en": "lively and busy",
+                "zh": "热闹、有人气",
+                "star": true
+              },
+              {
+                "en": "many more job opportunities",
+                "zh": "工作机会多得多",
+                "star": true
+              },
+              {
+                "en": "a slower pace of life",
+                "zh": "生活节奏更慢",
+                "star": true
+              },
+              {
+                "en": "there's not much going on",
+                "zh": "那边没什么热闹事",
+                "star": true
+              },
+              {
+                "en": "you run out of things to do",
+                "zh": "很快就没什么可玩的了",
+                "star": true
+              }
+            ],
+            "demo": {
+              "english": "In big cities the public transport is convenient and there are far more job opportunities, even though everywhere gets packed at weekends. Small towns have a slower pace of life, but there's not much going on, so young people run out of things to do and end up leaving.",
+              "translation": "大城市公共交通方便，工作机会多得多，虽然周末哪儿都挤得不行。小城市生活节奏更慢，但没什么热闹事，年轻人很快就没什么可玩的了，最后就走了。"
+            },
+            "covers": [
+              "new-favourite-city",
+              "new-boring-place",
+              "new-visit-home",
+              "new-tall-building",
+              "new-local-news",
+              "new-important-river-lake"
+            ]
+          },
+          {
+            "code": "C15",
+            "title": "堵车通勤",
+            "source": "交通类",
+            "materials": [
+              "M2",
+              "M7"
+            ],
+            "chunks": [
+              {
+                "en": "get stuck in traffic",
+                "zh": "被堵在路上",
+                "star": true
+              },
+              {
+                "en": "at rush hour",
+                "zh": "在高峰期",
+                "star": true
+              },
+              {
+                "en": "the traffic moves very slowly",
+                "zh": "车流走得非常慢",
+                "star": true
+              },
+              {
+                "en": "avoid the busiest roads",
+                "zh": "避开最堵的那几条路",
+                "star": true
+              },
+              {
+                "en": "take the subway instead",
+                "zh": "改坐地铁",
+                "star": true
+              },
+              {
+                "en": "it takes up my free time",
+                "zh": "它占掉我的空闲时间",
+                "star": true
+              },
+              {
+                "en": "there are fewer cars on the road",
+                "zh": "路上的车就少了",
+                "star": true
+              }
+            ],
+            "demo": {
+              "english": "I once got stuck in traffic for almost two hours at rush hour, with the traffic crawling along the whole way. Now I try to avoid the busiest routes or just take the subway instead, because sitting in a car like that eats into my free time. If more people did the same, it would ease the pressure on the roads.",
+              "translation": "有一次高峰期我被堵在路上将近两个小时，车流一路都在一点点往前挪。现在我尽量避开最堵的路线，或者干脆改坐地铁，因为那样干坐着会一点点吃掉我的空闲时间。如果更多人都这么做，也能缓解道路的压力。"
+            },
+            "covers": [
+              "new-traffic-jam",
+              "new-early-morning",
+              "new-changed-plan"
+            ]
+          }
+        ]
+      },
+      {
+        "code": "F5",
+        "title": "自然与规则",
+        "source": "奶奶 · 种菜",
+        "zh": "种植、动物、河湖、环保法律、一般法律共用。",
+        "chains": [
+          {
+            "code": "C16",
+            "title": "亲手照料",
+            "source": "奶奶",
+            "materials": [
+              "M6",
+              "M8"
+            ],
+            "chunks": [
+              {
+                "en": "grow my own…",
+                "zh": "自己种…",
+                "star": true
+              },
+              {
+                "en": "it takes patience and care",
+                "zh": "得有耐心，也得上心",
+                "star": true
+              },
+              {
+                "en": "watch it grow little by little",
+                "zh": "看着它一点点长起来",
+                "star": true
+              },
+              {
+                "en": "there's something satisfying about…",
+                "zh": "…有种说不出的满足感",
+                "star": true
+              },
+              {
+                "en": "do it with my own hands",
+                "zh": "亲手去干",
+                "star": true
+              },
+              {
+                "en": "fresher than anything you can buy",
+                "zh": "比买得到的任何东西都新鲜",
+                "star": true
+              },
+              {
+                "en": "share it with the neighbours",
+                "zh": "分一些给邻居",
+                "star": true
+              }
+            ],
+            "demo": {
+              "english": "My grandma grows her own vegetables on the balcony. It takes patience and care, but she likes to watch them grow little by little — there's something satisfying about producing your own food. She doesn't mind getting her hands dirty, and the vegetables taste fresher than anything you can buy, so she always shares them with the neighbours.",
+              "translation": "我奶奶在阳台上自己种菜。这得有耐心，也得上心，但她喜欢看着菜一点点长起来——自己种出吃的有种说不出的满足感。她不介意亲手去干，种出来的菜比买得到的任何东西都新鲜，所以她总会分一些给邻居。"
+            },
+            "covers": [
+              "new-home-gardener",
+              "new-special-occasion-food",
+              "new-animal-story"
+            ]
+          },
+          {
+            "code": "C17",
+            "title": "河流与湖泊",
+            "source": "地点 / 自然类",
+            "materials": [
+              "M6",
+              "M8"
+            ],
+            "chunks": [
+              {
+                "en": "keep the water clean",
+                "zh": "把水质保住",
+                "star": true
+              },
+              {
+                "en": "a source of drinking water",
+                "zh": "饮用水的来源",
+                "star": true
+              },
+              {
+                "en": "somewhere people go to relax",
+                "zh": "人们去放松的地方",
+                "star": true
+              },
+              {
+                "en": "move goods by boat",
+                "zh": "走水路运东西",
+                "star": true
+              },
+              {
+                "en": "a lot of visitors come to see it",
+                "zh": "很多游客专门来看",
+                "star": true
+              },
+              {
+                "en": "an important part of the city",
+                "zh": "这座城市很重要的一部分",
+                "star": true
+              },
+              {
+                "en": "once it's polluted, it's hard to clean up",
+                "zh": "一旦污染了就很难治理",
+                "star": true
+              }
+            ],
+            "demo": {
+              "english": "The river matters to us for several reasons. It's a source of drinking water, goods are still carried by water, and it's somewhere people go to unwind at weekends, so it draws a lot of visitors. More than that, it's part of the city's identity — and once it's polluted, it's hard to recover, which is why keeping the water clean has to come first.",
+              "translation": "这条河对我们重要有几个原因。它是饮用水的来源，现在仍然走水路运货，也是人们周末去放松的地方，所以吸引来大量游客。更重要的是，它是城市身份的一部分——而且一旦污染了就很难恢复，所以把水质保住必须排在第一位。"
+            },
+            "covers": [
+              "new-important-river-lake",
+              "new-recommended-place",
+              "new-environmental-law-story"
+            ]
+          },
+          {
+            "code": "C18",
+            "title": "保护环境",
+            "source": "奶奶 / 环保类",
+            "materials": [
+              "M6",
+              "M7"
+            ],
+            "chunks": [
+              {
+                "en": "cut down on…",
+                "zh": "减少…的使用",
+                "star": true
+              },
+              {
+                "en": "sort our rubbish properly",
+                "zh": "认真做垃圾分类",
+                "star": true
+              },
+              {
+                "en": "small changes add up",
+                "zh": "小的改变积累起来就有效果",
+                "star": true
+              },
+              {
+                "en": "it's everyone's responsibility",
+                "zh": "这是每个人的事",
+                "star": true
+              },
+              {
+                "en": "make people more aware",
+                "zh": "让大家更有意识",
+                "star": true
+              },
+              {
+                "en": "it won't work unless…",
+                "zh": "除非…否则起不了作用",
+                "star": true
+              },
+              {
+                "en": "make a real difference",
+                "zh": "真正起到作用",
+                "star": true
+              }
+            ],
+            "demo": {
+              "english": "Ordinary people can cut down on plastic, sort their rubbish properly and use public transport, and those small changes add up. But it won't work unless governments raise people's awareness at the same time, because it's everyone's responsibility. Do both and you make a real difference.",
+              "translation": "普通人可以减少塑料的使用、认真做垃圾分类、多坐公共交通，这些小的改变积累起来就有效果。但除非政府同时提高大家的意识，否则起不了作用，因为这是每个人的事。两边一起做，才能真正起到作用。"
+            },
+            "covers": [
+              "new-environmental-law-story",
+              "new-environmental-law-proposal",
+              "new-general-law",
+              "new-important-river-lake"
+            ]
+          },
+          {
+            "code": "C19",
+            "title": "法律与规定",
+            "source": "法律 / 规则类",
+            "materials": [
+              "M7",
+              "M8"
+            ],
+            "chunks": [
+              {
+                "en": "make a new rule",
+                "zh": "出台一条新规定",
+                "star": true
+              },
+              {
+                "en": "stick to the rules",
+                "zh": "老老实实守规矩",
+                "star": true
+              },
+              {
+                "en": "keep people safe",
+                "zh": "保障大家的安全",
+                "star": true
+              },
+              {
+                "en": "explain the reasons behind it",
+                "zh": "把背后的道理讲清楚",
+                "star": true
+              },
+              {
+                "en": "there have to be real punishments",
+                "zh": "必须有实实在在的处罚",
+                "star": true
+              },
+              {
+                "en": "people take it more seriously when…",
+                "zh": "当…的时候人们才会当回事",
+                "star": true
+              },
+              {
+                "en": "it's there for a reason",
+                "zh": "它的存在是有道理的",
+                "star": true
+              }
+            ],
+            "demo": {
+              "english": "When the government brings in a new rule, most people will stick to it once they understand it's there for a reason — usually to keep people safe. It helps a lot if officials explain the reasons behind it, but there also have to be consequences, because people take it more seriously when breaking the rule actually costs them something.",
+              "translation": "政府出台一条新规定时，只要大家明白它的存在是有道理的——通常是为了保障大家的安全——多数人就会老老实实守规矩。官方把背后的道理讲清楚很有帮助，但也必须有相应的后果，因为只有当违规真的要付出代价时，人们才会当回事。"
+            },
+            "covers": [
+              "new-general-law",
+              "new-environmental-law-proposal",
+              "new-environmental-law-story",
+              "new-traffic-jam"
+            ]
+          }
+        ]
+      },
+      {
+        "code": "F6",
+        "title": "放松与花费",
+        "source": "电影之夜 · 沙发",
+        "zh": "看片、看节目、看比赛、低花费外出、买东西超支共用。",
+        "chains": [
+          {
+            "code": "C20",
+            "title": "在家放松",
+            "source": "电影之夜",
+            "materials": [
+              "M1",
+              "M5"
+            ],
+            "chunks": [
+              {
+                "en": "relax after a long day",
+                "zh": "忙了一天之后放松一下",
+                "star": true
+              },
+              {
+                "en": "easy to follow",
+                "zh": "情节不用费劲就能跟上",
+                "star": true
+              },
+              {
+                "en": "you don't have to think too hard",
+                "zh": "不用动太多脑子",
+                "star": true
+              },
+              {
+                "en": "it takes my mind off…",
+                "zh": "它让我暂时不去想…",
+                "star": true
+              },
+              {
+                "en": "it helps me forget about…",
+                "zh": "它让我暂时忘掉…",
+                "star": true
+              },
+              {
+                "en": "watch several episodes in a row",
+                "zh": "一连看好几集",
+                "star": true
+              },
+              {
+                "en": "talk about it with friends afterwards",
+                "zh": "看完还能和朋友聊",
+                "star": true
+              },
+              {
+                "en": "it puts me in a better mood",
+                "zh": "它让我心情好一些",
+                "star": true
+              }
+            ],
+            "demo": {
+              "english": "At weekends I mostly stay in and watch something to wind down after a long day. I go for shows that are easy to follow, where you don't have to think too hard — sometimes I'll binge-watch a whole series. It takes my mind off work, and I can talk about it with friends afterwards. It's my way of switching off.",
+              "translation": "周末我多半待在家里看点东西，忙了一天之后放松下来。我会挑情节不用费劲就能跟上的，不用动太多脑子——有时候会一口气刷完一整部剧。它让我暂时不去想工作，看完还能和朋友聊。这是我放空的方式。"
+            },
+            "covers": [
+              "new-recent-program",
+              "new-interesting-video",
+              "new-low-cost-day-out",
+              "new-happy-event",
+              "new-live-sports-event",
+              "new-boring-place"
+            ]
+          },
+          {
+            "code": "C21",
+            "title": "低花费出门",
+            "source": "低花费类",
+            "materials": [
+              "M3",
+              "M1"
+            ],
+            "chunks": [
+              {
+                "en": "cost almost nothing",
+                "zh": "几乎没花什么钱",
+                "star": true
+              },
+              {
+                "en": "free to get in",
+                "zh": "免门票",
+                "star": true
+              },
+              {
+                "en": "spend the whole afternoon…",
+                "zh": "一整个下午都在…",
+                "star": true
+              },
+              {
+                "en": "it's not about how much you spend",
+                "zh": "重点不在你花了多少钱",
+                "star": true
+              },
+              {
+                "en": "who you go with matters more than where you go",
+                "zh": "跟谁去比去哪儿更重要",
+                "star": true
+              },
+              {
+                "en": "some of the best things are free",
+                "zh": "最好的东西往往是免费的",
+                "star": true
+              },
+              {
+                "en": "a simple day I still remember",
+                "zh": "简单，却让我到现在还记得的一天",
+                "star": true
+              }
+            ],
+            "demo": {
+              "english": "That day out cost me next to nothing. The park was free to get in, so we brought our own food and spent the whole afternoon just sitting by the water and chatting. For me it's not about how much you spend — the company matters more than the place. Some of the best things are free, and it turned out to be a simple but memorable day.",
+              "translation": "那次外出几乎没花什么钱。公园免门票，我们自己带了吃的，一整个下午都在水边坐着聊天。对我来说重点不在你花了多少钱——跟谁去比去哪儿更重要。最好的东西往往是免费的，那天简单，却让人记很久。"
+            },
+            "covers": [
+              "new-low-cost-day-out",
+              "new-happy-event",
+              "new-free-time-travel-place",
+              "new-boring-place"
+            ]
+          },
+          {
+            "code": "C22",
+            "title": "花钱与超支",
+            "source": "沙发 / 电视",
+            "materials": [
+              "M3"
+            ],
+            "chunks": [
+              {
+                "en": "fit my budget",
+                "zh": "在我的预算之内",
+                "star": true
+              },
+              {
+                "en": "save up for it",
+                "zh": "攒钱买它",
+                "star": true
+              },
+              {
+                "en": "spend much more than I planned",
+                "zh": "花得比原本打算的多得多",
+                "star": true
+              },
+              {
+                "en": "good value for money",
+                "zh": "很值这个价",
+                "star": true
+              },
+              {
+                "en": "worth the money",
+                "zh": "这钱花得值",
+                "star": true
+              },
+              {
+                "en": "I use it all the time",
+                "zh": "我一直在用，没浪费",
+                "star": true
+              },
+              {
+                "en": "buy it without thinking",
+                "zh": "没想清楚就买了",
+                "star": true
+              }
+            ],
+            "demo": {
+              "english": "At first I was looking for something that would fit my budget, and I saved up for a couple of months. In the end I spent far more than I'd planned, but it wasn't an impulse buy — I'd thought about it for weeks. It turned out to be good value for money, and since I get plenty of use out of it, I'd say it was worth every penny.",
+              "translation": "一开始我想找在我预算之内的，还攒了两个月的钱。最后我花得比原本打算的多得多，但那不是一次冲动消费——我想了好几周。事实证明很值这个价，而且我用得很充分没浪费，所以我觉得每一分钱都花得值。"
+            },
+            "covers": [
+              "new-special-cake",
+              "new-low-cost-day-out",
+              "new-successful-businessperson",
+              "new-free-time-travel-place"
+            ]
+          },
+          {
+            "code": "C23",
+            "title": "现场的气氛",
+            "source": "足球直播",
+            "materials": [
+              "M5",
+              "M1"
+            ],
+            "chunks": [
+              {
+                "en": "watch it live",
+                "zh": "去现场看",
+                "star": true
+              },
+              {
+                "en": "the atmosphere is completely different",
+                "zh": "现场气氛完全是另一回事",
+                "star": true
+              },
+              {
+                "en": "you can feel the excitement",
+                "zh": "你能感觉到那种兴奋",
+                "star": true
+              },
+              {
+                "en": "everyone around you is cheering",
+                "zh": "周围所有人都在喊",
+                "star": true
+              },
+              {
+                "en": "share the moment with…",
+                "zh": "和…一起经历那一刻",
+                "star": true
+              },
+              {
+                "en": "you remember it for years",
+                "zh": "这种事能记很多年",
+                "star": true
+              },
+              {
+                "en": "you can't get that from a screen",
+                "zh": "隔着屏幕是感受不到的",
+                "star": true
+              }
+            ],
+            "demo": {
+              "english": "Last summer I watched a football match live rather than on TV, and the atmosphere is completely different. You get caught up in the excitement because everyone around you is cheering at the same time. Sharing that moment with thousands of strangers is something you remember for years — you simply can't get that from a screen.",
+              "translation": "去年夏天我没在电视上看，而是去现场看了一场足球比赛，现场气氛完全是另一回事。周围所有人同时在喊，你整个人就被气氛带进去了。和几千个陌生人一起经历那一刻，这种事能记很多年——隔着屏幕是感受不到的。"
+            },
+            "covers": [
+              "new-live-sports-event",
+              "new-happy-event"
+            ]
+          }
+        ]
+      },
+      {
+        "code": "F7",
+        "title": "手机与信息",
+        "source": "手机戒断 · Sara",
+        "zh": "手机、AI、新闻、视频、广告类共用。",
+        "chains": [
+          {
+            "code": "C24",
+            "title": "手机戒断",
+            "source": "手机戒断",
+            "materials": [
+              "M7",
+              "M6"
+            ],
+            "chunks": [
+              {
+                "en": "the first thing I check in the morning",
+                "zh": "我早上第一件事就是看它",
+                "star": true
+              },
+              {
+                "en": "I check it out of habit",
+                "zh": "我是出于习惯才看",
+                "star": true
+              },
+              {
+                "en": "it breaks my concentration",
+                "zh": "它把我的专注打断了",
+                "star": true
+              },
+              {
+                "en": "put it somewhere I can't see it",
+                "zh": "把它放到我看不见的地方",
+                "star": true
+              },
+              {
+                "en": "set a rule for myself about…",
+                "zh": "给自己定一条关于…的规矩",
+                "star": true
+              },
+              {
+                "en": "really pay attention when…",
+                "zh": "…的时候真的用心在听 / 在看",
+                "star": true
+              },
+              {
+                "en": "I don't feel like I'm missing anything",
+                "zh": "我并不觉得自己错过了什么",
+                "star": true
+              }
+            ],
+            "demo": {
+              "english": "My phone used to be the first thing I reached for in the morning, and most of the time I was checking it out of habit rather than need. The real problem was that it broke my concentration — I'd sit down to work and lose twenty minutes. So I started keeping it out of sight and setting some boundaries around when I use it. Now I'm fully present when I'm with people, and I don't feel like I'm missing out at all.",
+              "translation": "以前早上一睁眼，手机是我最先伸手去拿的东西，而且大多数时候是出于习惯而不是真有事才看。真正的问题是它把我的专注打断了——一坐下来工作，二十分钟就没了。所以我开始让它不出现在视线里，并给使用时间划一条界线。现在和人在一起时我是真的在场，也并不觉得自己错过了什么。"
+            },
+            "covers": [
+              "new-recent-change",
+              "new-ai-problem",
+              "new-electronic-device-problem",
+              "new-childhood-friend",
+              "new-early-morning",
+              "new-boring-place"
+            ]
+          },
+          {
+            "code": "C25",
+            "title": "新闻与 AI",
+            "source": "新闻 / AI 类",
+            "materials": [
+              "M2",
+              "M7"
+            ],
+            "chunks": [
+              {
+                "en": "I usually see… on my phone",
+                "zh": "我一般是在手机上刷到…",
+                "star": true
+              },
+              {
+                "en": "everyone was talking about it online",
+                "zh": "网上大家都在说这件事",
+                "star": true
+              },
+              {
+                "en": "I don't believe everything I read",
+                "zh": "我不会看到什么就信什么",
+                "star": true
+              },
+              {
+                "en": "check if it's true",
+                "zh": "先确认一下是不是真的",
+                "star": true
+              },
+              {
+                "en": "decide what I think about…",
+                "zh": "自己判断怎么看…",
+                "star": true
+              },
+              {
+                "en": "it saves me a lot of time, but…",
+                "zh": "它帮我省了很多时间，但…",
+                "star": true
+              },
+              {
+                "en": "you still have to check… yourself",
+                "zh": "…你还是得自己再看一遍",
+                "star": true
+              }
+            ],
+            "demo": {
+              "english": "I usually come across the news on my phone rather than going looking for it. A while ago a local story was all over social media, and half the details turned out to be wrong, so now I take that kind of thing with a pinch of salt and check where it actually comes from before I form my own view on it. I use AI in much the same way — it saves me a lot of time, but you still need to double-check whatever it gives you.",
+              "translation": "我一般是在手机上无意中刷到新闻，而不是特地去找。前段时间有条本地新闻在社交平台上到处都是，结果一半细节是错的，所以现在这类东西我都保留几分怀疑地看，会先去核实它到底是哪来的，再对它形成自己的判断。我用 AI 也差不多是这个路子——它帮我省了很多时间，但它给的东西你还是得自己再核一遍。"
+            },
+            "covers": [
+              "new-local-news",
+              "new-ai-problem",
+              "new-interesting-video",
+              "new-recent-program"
+            ]
+          },
+          {
+            "code": "C26",
+            "title": "广告与代言",
+            "source": "广告类",
+            "materials": [
+              "M7"
+            ],
+            "chunks": [
+              {
+                "en": "use a famous person to sell…",
+                "zh": "找名人来卖…",
+                "star": true
+              },
+              {
+                "en": "it catches your attention",
+                "zh": "它一下子抓住你的注意力",
+                "star": true
+              },
+              {
+                "en": "you remember it easily",
+                "zh": "你很容易就记住了",
+                "star": true
+              },
+              {
+                "en": "it makes you think of…",
+                "zh": "它会让你想到…",
+                "star": true
+              },
+              {
+                "en": "before you really think about it",
+                "zh": "你还没认真想就已经…",
+                "star": true
+              },
+              {
+                "en": "some ads are not honest",
+                "zh": "有些广告不太实在",
+                "star": true
+              },
+              {
+                "en": "I'd rather listen to real users",
+                "zh": "我更愿意听真正用过的人怎么说",
+                "star": true
+              }
+            ],
+            "demo": {
+              "english": "Putting a familiar face on a product grabs your attention straight away, and the ad sticks in your head, so you end up associating it with someone you already like. That's clever, because it makes you want the thing before you've really thought about it. The downside is that some of them overpromise, so I'd rather go by what real users say than by who's holding the bottle.",
+              "translation": "给一个产品配一张熟面孔，一下子就抓住你的注意力，广告也会一直留在你脑子里，于是你会把它和一个你本来就喜欢的人联系起来。这招很聪明，因为你还没真正想清楚就已经想要了。问题是有些广告吹得太满，所以比起看是谁举着那瓶东西，我更愿意看真实用户怎么说。"
+            },
+            "covers": [
+              "new-celebrity-advertisement",
+              "new-successful-businessperson",
+              "new-recent-program",
+              "new-important-decision"
+            ]
+          }
+        ]
+      },
+      {
+        "code": "F8",
+        "title": "人情与场合",
+        "source": "家庭 / 李华",
+        "zh": "特别场合、蛋糕、组织活动、拜访、友情、宠物共用。",
+        "chains": [
+          {
+            "code": "C27",
+            "title": "特别的日子",
+            "source": "家庭 / 节日",
+            "materials": [
+              "M8",
+              "M5"
+            ],
+            "chunks": [
+              {
+                "en": "a good reason to get everyone together",
+                "zh": "一个把大家聚起来的好理由",
+                "star": true
+              },
+              {
+                "en": "everyone helps out",
+                "zh": "每个人都搭把手",
+                "star": true
+              },
+              {
+                "en": "we tell the same stories every year",
+                "zh": "每年都会讲同样那些老故事",
+                "star": true
+              },
+              {
+                "en": "it's more about the people than…",
+                "zh": "重点在人，而不在…",
+                "star": true
+              },
+              {
+                "en": "keep the tradition going",
+                "zh": "把这个传统延续下去",
+                "star": true
+              },
+              {
+                "en": "it turns a normal day into…",
+                "zh": "它把平常的一天变成…",
+                "star": true
+              },
+              {
+                "en": "we've done this since I was little",
+                "zh": "从我小时候起就一直这样",
+                "star": true
+              }
+            ],
+            "demo": {
+              "english": "For us a festival is really just an excuse to get everyone in one room. Everyone pitches in with the cooking, the same stories come out every year, and by the end nobody remembers what we ate — it's more about the people than the food. We've done it for as long as I can remember, and keeping a tradition going like that turns an ordinary day into something you look forward to all year.",
+              "translation": "对我们来说，过节其实就是一个把大家聚到一屋的由头。每个人都搭把手做饭，每年都会翻出同样那些老故事，到最后谁也想不起来吃了什么——重点在人，而不在菜。从我记事起就一直这样，这样把一个传统延续下去，就把平常的一天变成了一件你会盼一整年的事。"
+            },
+            "covers": [
+              "new-special-occasion-food",
+              "new-special-cake",
+              "new-happy-event",
+              "new-visit-home"
+            ]
+          },
+          {
+            "code": "C28",
+            "title": "组织活动",
+            "source": "活动类",
+            "materials": [
+              "M5",
+              "M2"
+            ],
+            "chunks": [
+              {
+                "en": "take charge of…",
+                "zh": "牵头负责…",
+                "star": true
+              },
+              {
+                "en": "split the work between us",
+                "zh": "把活儿分一分",
+                "star": true
+              },
+              {
+                "en": "sort out the details in advance",
+                "zh": "提前把细节都敲定",
+                "star": true
+              },
+              {
+                "en": "there's always something you didn't plan for",
+                "zh": "总会有你没算到的事",
+                "star": true
+              },
+              {
+                "en": "we had to improvise",
+                "zh": "我们只能临场应变",
+                "star": true
+              },
+              {
+                "en": "it came together in the end",
+                "zh": "最后还是成了",
+                "star": true
+              },
+              {
+                "en": "it was worth the trouble because…",
+                "zh": "折腾得值，因为…",
+                "star": true
+              }
+            ],
+            "demo": {
+              "english": "I took charge of the venue and we split the rest of the work between us, so everyone had one thing to look after. I sorted out most of the details in advance, but there's always something you didn't plan for — the sound system wouldn't start — so we had to improvise. It came together in the end, and it was worth the trouble because people still bring it up now.",
+              "translation": "我牵头负责场地，剩下的活儿我们分了一分，每个人管一块。大部分细节我都提前敲定了，但总会有你没算到的事——音响开不了机——我们只能临场应变。最后还是成了，折腾得值，因为到现在还有人会提起那次。"
+            },
+            "covers": [
+              "new-happy-event",
+              "new-special-cake",
+              "new-teamwork"
+            ]
+          },
+          {
+            "code": "C29",
+            "title": "拜访亲友",
+            "source": "人际类",
+            "materials": [
+              "M5"
+            ],
+            "chunks": [
+              {
+                "en": "make the effort to…",
+                "zh": "特地花力气去…",
+                "star": true
+              },
+              {
+                "en": "turn up with…",
+                "zh": "带着…上门",
+                "star": true
+              },
+              {
+                "en": "we pick up where we left off",
+                "zh": "一见面就接着上次继续",
+                "star": true
+              },
+              {
+                "en": "face to face is just different",
+                "zh": "面对面就是不一样",
+                "star": true
+              },
+              {
+                "en": "you notice things you'd never see online",
+                "zh": "你会注意到网上永远看不到的东西",
+                "star": true
+              },
+              {
+                "en": "it's easy to let it slide",
+                "zh": "很容易就慢慢放下不管了",
+                "star": true
+              },
+              {
+                "en": "keep in touch properly",
+                "zh": "真正地保持联系",
+                "star": true
+              }
+            ],
+            "demo": {
+              "english": "I try to make the effort to visit my grandparents every couple of months, and I usually turn up with something small from the city. Even if we haven't spoken for weeks, we pick up where we left off. Face to face is just different — you notice things you'd never see online, like how much slower she walks now. It's easy to let a relationship slide if you only keep in touch through a screen.",
+              "translation": "我尽量每两个月特地去看一次外婆，通常会带点城里的小东西上门。哪怕几周没联系，我们一见面还是接着上次继续。面对面就是不一样——你会注意到网上永远看不到的东西，比如她走路比以前慢了多少。要是只隔着屏幕联系，一段关系很容易就慢慢放下不管了。"
+            },
+            "covers": [
+              "new-visit-home",
+              "new-childhood-friend",
+              "new-special-cake",
+              "new-special-occasion-food"
+            ]
+          },
+          {
+            "code": "C30",
+            "title": "养宠物",
+            "source": "宠物 / 动物类",
+            "materials": [
+              "M1",
+              "M5"
+            ],
+            "chunks": [
+              {
+                "en": "it's a big responsibility",
+                "zh": "这是一份不小的责任",
+                "star": true
+              },
+              {
+                "en": "you can't just go out whenever you want",
+                "zh": "你没法想出门就出门",
+                "star": true
+              },
+              {
+                "en": "there's always someone waiting for you",
+                "zh": "总有一个在等你回来的",
+                "star": true
+              },
+              {
+                "en": "it gets me out of the house",
+                "zh": "它逼着我出门",
+                "star": true
+              },
+              {
+                "en": "it teaches you to think about others",
+                "zh": "它教你不只想着自己",
+                "star": true
+              },
+              {
+                "en": "it's not fair to… if…",
+                "zh": "如果…，对…是不公平的",
+                "star": true
+              },
+              {
+                "en": "treat them as part of the family",
+                "zh": "把它们当成家里的一员",
+                "star": true
+              }
+            ],
+            "demo": {
+              "english": "Having a dog is a real commitment, and it ties you down a bit — you can't just decide to stay out all night. But there's always someone waiting for you when you get home, and it gets me out of the house twice a day whether I feel like it or not. I think it teaches you to think about someone other than yourself, which is why so many people treat them as part of the family. That said, it's not fair on the animal if you're out working twelve hours a day.",
+              "translation": "养狗是实打实的一份责任，也会有点拴住你——你没法临时决定在外面待一整晚。但你回家时总有一个在等你的，而且不管我想不想，它每天逼着我出两次门。我觉得它教你不只想着自己，所以那么多人才把它们当成家里的一员。话说回来，如果你每天在外面工作十二小时，对这个动物是不公平的。"
+            },
+            "covers": [
+              "new-animal-story",
+              "new-home-gardener"
+            ]
+          },
+          {
+            "code": "C31",
+            "title": "吃饭与做饭",
+            "source": "Part 1 饮食类",
+            "materials": [],
+            "chunks": [
+              {
+                "en": "cook something simple at home",
+                "zh": "在家做点简单的",
+                "star": true
+              },
+              {
+                "en": "it doesn't take long to make",
+                "zh": "做起来花不了多少时间",
+                "star": true
+              },
+              {
+                "en": "I'm not a great cook, but…",
+                "zh": "我做饭不算好，但…",
+                "star": true
+              },
+              {
+                "en": "eat out with friends",
+                "zh": "和朋友出去吃",
+                "star": true
+              },
+              {
+                "en": "there's a lot more choice now",
+                "zh": "现在选择多多了",
+                "star": true
+              },
+              {
+                "en": "everyone shares the dishes",
+                "zh": "大家一桌菜分着吃",
+                "star": true
+              },
+              {
+                "en": "food tastes better when…",
+                "zh": "…的时候东西吃起来更香",
+                "star": true
+              }
+            ],
+            "covers": [
+              "new-special-occasion-food",
+              "new-special-cake",
+              "new-happy-event"
+            ]
+          },
+          {
+            "code": "C32",
+            "title": "走路与户外",
+            "source": "Part 1 步行类",
+            "materials": [],
+            "chunks": [
+              {
+                "en": "go for a walk after dinner",
+                "zh": "晚饭后出去走走",
+                "star": true
+              },
+              {
+                "en": "it's only ten minutes away on foot",
+                "zh": "走路十分钟就到",
+                "star": true
+              },
+              {
+                "en": "you don't need any equipment for it",
+                "zh": "什么装备都不用",
+                "star": true
+              },
+              {
+                "en": "get some fresh air",
+                "zh": "透透气",
+                "star": true
+              },
+              {
+                "en": "walk instead of taking the car",
+                "zh": "能走路就不开车",
+                "star": true
+              },
+              {
+                "en": "I always feel better afterwards",
+                "zh": "走完整个人舒服多了",
+                "star": true
+              },
+              {
+                "en": "we used to walk everywhere",
+                "zh": "以前我们哪儿都是走着去",
+                "star": true
+              }
+            ],
+            "covers": [
+              "new-low-cost-day-out",
+              "new-free-time-travel-place",
+              "new-boring-place"
+            ]
+          },
+          {
+            "code": "C33",
+            "title": "送礼与人情",
+            "source": "Part 1 礼物类",
+            "materials": [],
+            "chunks": [
+              {
+                "en": "pick something they'll actually use",
+                "zh": "挑一个他们真用得上的",
+                "star": true
+              },
+              {
+                "en": "it's the thought that counts",
+                "zh": "重要的是这份心意",
+                "star": true
+              },
+              {
+                "en": "it doesn't have to be expensive",
+                "zh": "不一定非要贵",
+                "star": true
+              },
+              {
+                "en": "I'd rather give than receive",
+                "zh": "比起收，我更喜欢送",
+                "star": true
+              },
+              {
+                "en": "show someone you care about them",
+                "zh": "让对方知道你在意他",
+                "star": true
+              },
+              {
+                "en": "remember what… said they wanted",
+                "zh": "记住…说过想要什么",
+                "star": true
+              },
+              {
+                "en": "it makes the day feel special",
+                "zh": "它让那一天变得不一样",
+                "star": true
+              }
+            ],
+            "covers": [
+              "new-special-cake",
+              "new-visit-home",
+              "new-childhood-friend",
+              "new-happy-event"
+            ]
+          }
+        ]
+      }
+    ]
+  }
 };

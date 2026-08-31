@@ -1,10 +1,12 @@
 "use strict";
 
-const PAGES = new Set(["part1", "part2", "part3", "toolkit"]);
+const PAGES = new Set(["part1", "part2", "part3", "chunks", "toolkit"]);
 const UI_STORAGE_KEY = "ielts-speaking-ui-state-v1";
 const PART2_MATERIAL_ORDER = [
   "people-tips",
   "place-tips",
+  "object-tips",
+  "event-tips",
   "alex",
   "shanghai",
   "gardening-grandma",
@@ -450,6 +452,13 @@ function renderPartTwo() {
 
 function partTwoTipsHtml(tips, universalMaterials = []) {
   const section = tips.section;
+  const topicGuideItems = (tips.topicGroups || [])
+    .flatMap((group, groupIndex) => group.items.map((item, itemIndex) => ({
+      group,
+      item,
+      order: Number.isFinite(item.sourceOrder) ? item.sourceOrder : groupIndex * 100 + itemIndex
+    })))
+    .sort((a, b) => a.order - b.order);
   const techniqueHtml = tips.techniques?.length ? `<div class="note">
     <strong>Part 2 · 最后一问技巧</strong><br>
     前面先正常覆盖题卡信息；最后一问用 <strong>As for...</strong> 扣题，再按问法选择一种：<br>
@@ -473,6 +482,26 @@ function partTwoTipsHtml(tips, universalMaterials = []) {
         </section>`;
       }).join("")}
     </article>` : "";
+  const topicGroupsHtml = topicGuideItems.length ? `
+    <div class="section-heading">
+      <h2>题目草稿与展开</h2>
+      <p>核心草稿负责恢复故事顺序；前面主体覆盖题卡信息；最后一问再展开 3 点。</p>
+    </div>
+    <div class="topic-guide-groups">
+      ${topicGuideItems.map(({ group, item }) => `<article class="card topic-guide-group">
+        <h3>${escapeHtml(group.title)}</h3>
+        ${group.note ? `<p class="translation">${escapeHtml(group.note)}</p>` : ""}
+        <section class="simple-master-section topic-guide-item">
+          <p class="question">${escapeHtml(item.question)}</p>
+          ${item.draftCues?.length ? `<p class="simple-master-cues"><strong>核心草稿：</strong>${item.draftCues.map(escapeHtml).join(" · ")}</p>` : ""}
+          ${item.body?.text ? `<p class="topic-guide-body"><strong>前面主体：</strong>${highlight(item.body.text, item.body.highlights)}</p>` : ""}
+          <p class="reason-label"><strong>${escapeHtml(item.pointsLabel || "最后一问 3 点")}：</strong></p>
+          <ol class="numbered-list topic-reason-list">
+            ${item.reasons.map((reason) => `<li>${highlight(reason.text, reason.highlights)}</li>`).join("")}
+          </ol>
+        </section>
+      </article>`).join("")}
+    </div>` : "";
   const universalMaterialMap = new Map(universalMaterials.map((item) => [item.code, item]));
   const materialsHtml = tips.materialUses?.length ? `
     <div class="section-heading">
@@ -496,6 +525,7 @@ function partTwoTipsHtml(tips, universalMaterials = []) {
     <div class="card-list">
       ${techniqueHtml}
       ${sectionHtml}
+      ${topicGroupsHtml}
       ${materialsHtml}
       ${tips.reminder ? `<div class="note"><strong>提醒：</strong>${escapeHtml(tips.reminder)}</div>` : ""}
     </div>`;
@@ -555,7 +585,7 @@ function partTwoTopicHtml(topic, { showFramework = true } = {}) {
 }
 
 function renderPartThree() {
-  const groups = state.data.part3;
+  const groups = state.data.part3.filter((group) => group.isNew);
   const selected = groups.find((group) => group.id === state.part3GroupId) || groups[0];
   state.part3GroupId = selected.id;
   main.innerHTML = `
@@ -576,6 +606,188 @@ function renderPartThree() {
   document.querySelectorAll("[data-part3-id]").forEach((button) => button.addEventListener("click", () => {
     changeSidebarView(() => { state.part3GroupId = button.dataset.part3Id; });
   }));
+}
+
+function chunkLibrary() {
+  return state.data.chunks || { structures: [], functionChunks: [], families: [] };
+}
+
+// 考前 2-3 小时速记版：每条链只渲染 3 个词块，连接词块只渲染 12 个，Set 里一共 69 个（12 连接 + 19 链 × 3）。
+// 挑选标准：短、不绑死在某一个具体故事上、中文一看就懂。data.js 里 7 个一条的完整链全部保留。
+// 想看回完整版，把下面这行改成 const CHUNK_KEEP = null; 即可，数据一行都不用动。
+const CHUNK_KEEP = new Set([
+  // 二、万能连接词块（12）
+  "Yes, definitely.", "Not really.", "It depends, but usually…",
+  "mainly because…", "The main reason is that…",
+  "For example,…", "Take my own case,…",
+  "As a result,…", "That's why…",
+  "it has both good and bad sides",
+  "By contrast,…", "Compared with…",
+  // C01 系统出故障
+  "something went wrong with…", "turn to… for help", "it was just a small problem",
+  // C03 团队协作
+  "be responsible for one part of…", "each do what we're good at", "it's much faster than working alone",
+  // C04 职业与压力
+  "a stable income", "a real sense of achievement", "make a difference to other people",
+  // C06 定目标与执行
+  "set myself a clear goal", "break it down into small steps", "see real progress",
+  // C08 改变想法
+  "I used to think…", "now I think…", "keep an open mind",
+  // C10 作息与效率
+  "be a morning person", "I work best before…", "stick to a routine",
+  // C13 值得去的地方
+  "really worth visiting", "there's a lot to see and do", "I'd recommend it to anyone who…",
+  // C14 城市好与无聊
+  "public transport is convenient", "many more job opportunities", "a slower pace of life",
+  // C15 堵车与通勤
+  "get stuck in traffic", "at rush hour", "take the subway instead",
+  // C18 保护环境
+  "cut down on…", "it's everyone's responsibility", "small changes add up",
+  // C20 在家放松
+  "relax after a long day", "easy to follow", "it helps me forget about…",
+  // C30 养宠物
+  "it's a big responsibility", "treat them as part of the family", "it teaches you to think about others",
+  // C31 吃饭与做饭
+  "cook something simple at home", "eat out with friends", "there's a lot more choice now",
+  // C32 走路与户外
+  "go for a walk after dinner", "get some fresh air", "we used to walk everywhere",
+  // C33 送礼与人情
+  "it's the thought that counts", "pick something they'll actually use", "I'd rather give than receive",
+  // C19 法律与规定（补 P3 法律/校规/职场规定/惩罚）
+  "stick to the rules", "keep people safe", "it's there for a reason",
+  // C26 广告与代言（补 P3 广告/名人代言/公司）
+  "it catches your attention", "you remember it easily", "some ads are not honest",
+  // C02 联系与回应（补 P3 延迟回复/社交媒体/童年朋友）
+  "get back to… as soon as I can", "everyone gets busy sometimes", "there's usually a good reason for it",
+  // C25 新闻与 AI（补 P3 新闻渠道/AI 优缺点/节目）
+  "I usually see… on my phone", "it saves me a lot of time, but…", "I don't believe everything I read"
+]);
+
+function chunkItemsHtml(items) {
+  const kept = CHUNK_KEEP ? items.filter((item) => CHUNK_KEEP.has(item.en)) : items;
+  return `<div class="chunk-list">${kept.map((item) => `<div class="chunk-item${item.star ? " star" : ""}"><code>${escapeHtml(item.en)}</code><span>${escapeHtml(item.zh)}</span></div>`).join("")}</div>`;
+}
+
+function chunkStructureHtml(structure) {
+  return `
+    <article class="card">
+      <div class="group-title"><div><span class="badge">${escapeHtml(structure.part)}</span><h3>${escapeHtml(structure.title)}</h3></div></div>
+      <p class="note">${escapeHtml(structure.note)}</p>
+      <div class="chunk-steps">${structure.steps.map((step) => `<div class="chunk-step"><strong>${escapeHtml(step.label)}</strong><code>${escapeHtml(step.en)}</code><span>${escapeHtml(step.zh)}</span></div>`).join("")}</div>
+    </article>`;
+}
+
+// 每条链的「串句」：把这条链的 3 个词块串成一句能直接说出口的话。
+// 背的时候背这一句，不要背 3 个碎片——19 句 = 57 个内容词块，而且每句本身就是现成的 P1 答案。
+const CHAIN_SENTENCES = {
+  C01: "Something went wrong with my laptop, so I turned to a friend for help, and it was just a small problem.",
+  C03: "We each do what we're good at, and I'm responsible for one part of the project, so it's much faster than working alone.",
+  C04: "It gives you a stable income and a real sense of achievement, and you can make a difference to other people.",
+  C06: "I set myself a clear goal, break it down into small steps, and then I can see real progress.",
+  C08: "I used to think money mattered most, but now I think health does — you have to keep an open mind.",
+  C10: "I'm a morning person — I work best before lunch, so I stick to a routine.",
+  C13: "It's really worth visiting because there's a lot to see and do — I'd recommend it to anyone who likes history.",
+  C14: "Public transport is convenient and there are many more job opportunities, but the countryside has a slower pace of life.",
+  C15: "I always get stuck in traffic at rush hour, so now I take the subway instead.",
+  C18: "We all need to cut down on plastic, because small changes add up — it's everyone's responsibility.",
+  C20: "I watch it to relax after a long day; it's easy to follow and it helps me forget about work.",
+  C30: "It's a big responsibility, but we treat them as part of the family, and it teaches you to think about others.",
+  C31: "I usually cook something simple at home, but I also eat out with friends — there's a lot more choice now.",
+  C32: "I go for a walk after dinner just to get some fresh air; we used to walk everywhere when I was young.",
+  C33: "It's the thought that counts, so I pick something they'll actually use — I'd rather give than receive.",
+  C19: "You should stick to the rules because they keep people safe — every rule is there for a reason.",
+  C26: "A good ad catches your attention and you remember it easily, but some ads are not honest.",
+  C02: "I get back to people as soon as I can, but everyone gets busy sometimes, so there's usually a good reason for it.",
+  C25: "I usually see the news on my phone. It saves me a lot of time, but I don't believe everything I read."
+};
+
+// 三轮背诵顺序。第一轮是覆盖题目最多的 8 条，第二轮是话题绑得死、抽到才用得上的 11 条。
+const REVIEW_ROUNDS = [
+  {
+    title: "第一轮 · 60 分钟",
+    lead: "先花 15 分钟把第一部分的 PREC 骨架和第二部分的 12 个连接词块念熟（当一个四句模板背，不要当 12 个词背），再按下面的顺序背 8 条链，每条 5 分钟。背完 Part 3 一半以上的题能开口。",
+    chains: ["定目标与执行", "职业与压力", "改变想法", "城市好与无聊", "值得去的地方", "在家放松", "团队协作", "系统出故障"]
+  },
+  {
+    title: "第二轮 · 70 分钟",
+    lead: "这 11 条频率低一些，但话题绑得死——抽到守规矩、广告、送礼这类题，没有它就是空的，一条都别跳。每条 6 分钟。",
+    chains: ["作息与效率", "堵车通勤", "吃饭与做饭", "走路与户外", "送礼与人情", "养宠物", "保护环境", "法律与规定", "广告与代言", "联系与回应", "新闻与 AI"]
+  },
+  {
+    title: "第三轮 · 50 分钟",
+    lead: "绝对不要再通读一遍。读第三遍只会产生「我记住了」的错觉，但考场是从中文往英文调，通读练不到这个方向。改成：① 25 分钟盖住英文，只看链标题把串句说出来，卡超过两秒的抄在纸上；② 15 分钟只念抄下来的那十几个，不要又从头过一遍；③ 10 分钟去 Part 3 页随机点五道题，硬套 PREC 说完——真正的瓶颈是「听到题想起哪条链」，不是词块本身。",
+    chains: []
+  }
+];
+
+function chunkChainHtml(chain) {
+  if (!chain) return "";
+  const sentence = CHAIN_SENTENCES[chain.code];
+  return `
+    <article class="card chunk-card">
+      <h3 class="chunk-head">${escapeHtml(chain.title)}</h3>
+      ${chunkItemsHtml(chain.chunks)}
+      ${sentence ? `<p class="chunk-sentence">${escapeHtml(sentence)}</p>` : ""}
+    </article>`;
+}
+
+// 考前精简版：只渲染这 19 条链，每条 3 个词块（由 CHUNK_KEEP 控制），共 57 个内容词块。
+// 选链标准是 Part 1 的 16 个话题组 + Part 3 的 41 道新题组，Part 2 有自己的母版页，不在这里管。
+// C31/C32/C33 是为 Part 1 的食物、步行、礼物三组新写的，原来的 30 条链都是从 Part 2 母版长出来的，接不住这几组。
+// 最后一组 C19/C26/C02/C25 是为补 Part 3 的法律规则、广告商业、人际沟通、媒体新闻四个缺口加回来的。
+// data.js 里 33 条链全部保留，把某条链的编号加回下面即可恢复。
+const CORE_CHAIN_GROUPS = [
+  { title: "工作与协作", codes: ["C01", "C03", "C04"] },
+  { title: "目标 · 作息 · 改变", codes: ["C06", "C08", "C10"] },
+  { title: "城市与出行", codes: ["C13", "C14", "C15"] },
+  { title: "吃饭 · 走路 · 放松", codes: ["C31", "C32", "C20"] },
+  { title: "送礼 · 宠物 · 环保", codes: ["C33", "C30", "C18"] },
+  { title: "规则 · 广告 · 沟通 · 信息", codes: ["C19", "C26", "C02", "C25"] }
+];
+
+function coreChainGroups(families) {
+  const byCode = new Map();
+  families.forEach((family) => (family.chains || []).forEach((chain) => byCode.set(chain.code, chain)));
+  return CORE_CHAIN_GROUPS
+    .map((group) => ({ title: group.title, chains: group.codes.map((code) => byCode.get(code)).filter(Boolean) }))
+    .filter((group) => group.chains.length);
+}
+
+function renderChunks() {
+  const library = chunkLibrary();
+  const chainGroups = coreChainGroups(library.families);
+  main.innerHTML = `
+    <section class="panel">
+      <header class="panel-header"><span class="eyebrow">CORE CHUNKS</span><h2>核心词块库</h2></header>
+      <div class="panel-body stack">
+        <section class="group-section">
+          <div class="group-title"><div><span class="eyebrow">STRUCTURE</span><h2>一、结构模板</h2></div></div>
+          <div class="card-list">${library.structures.map(chunkStructureHtml).join("")}</div>
+        </section>
+        <section class="group-section">
+          <div class="group-title"><div><span class="eyebrow">GLUE</span><h2>二、万能连接词块</h2></div></div>
+          <div class="card-list">${library.functionChunks.map((group) => `<article class="card"><h3>${escapeHtml(group.title)}</h3>${chunkItemsHtml(group.items)}</article>`).join("")}</div>
+        </section>
+        <section class="group-section">
+          <div class="group-title"><div><span class="eyebrow">CHAINS</span><h2>三、内容词块链</h2></div></div>
+          ${chainGroups.map((group) => `
+          <div class="chunk-family">
+            <div class="group-title"><div><h3>${escapeHtml(group.title)}</h3></div></div>
+            <div class="card-list">${group.chains.map(chunkChainHtml).join("")}</div>
+          </div>`).join("")}
+        </section>
+        <section class="group-section">
+          <div class="group-title"><div><span class="eyebrow">PLAN</span><h2>四、三轮背诵顺序</h2></div></div>
+          <p class="note">不要一条一条背词块，背每条链下面那句串句——19 句就是 57 个内容词块，而且每句本身就是能直接说出口的 Part 1 答案。</p>
+          <div class="card-list">${REVIEW_ROUNDS.map((round) => `
+          <article class="card chunk-card">
+            <h3 class="chunk-head">${escapeHtml(round.title)}</h3>
+            <p class="round-lead">${escapeHtml(round.lead)}</p>
+            ${round.chains.length ? `<div class="round-chains">${round.chains.map((name, index) => `<span><b>${index + 1}</b>${escapeHtml(name)}</span>`).join("")}</div>` : ""}
+          </article>`).join("")}</div>
+        </section>
+      </div>
+    </section>`;
 }
 
 function toolkitMaterialLabel(code) {
@@ -607,6 +819,7 @@ function render({ revealActive = true } = {}) {
   if (state.page === "part1") renderPartOne();
   if (state.page === "part2") renderPartTwo();
   if (state.page === "part3") renderPartThree();
+  if (state.page === "chunks") renderChunks();
   if (state.page === "toolkit") renderToolkit();
   markReadingAnchors();
   if (revealActive) revealActiveTabs();
