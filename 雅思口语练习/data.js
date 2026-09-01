@@ -2,7 +2,7 @@
 // 页面脚本从 window.IELTS_DATA 获取数据，不依赖 fetch 或本地服务器。
 
 window.IELTS_DATA = {
-  "version": "p3-v27",
+  "version": "p3-v29-categorized-p2",
   "part1": [
     {
       "id": "crowded",
@@ -1819,6 +1819,179 @@ window.IELTS_DATA = {
             ]
           }
         ],
+        "mergedStories": [
+          {
+            "title": "李华学法语",
+            "sourceOrder": 1,
+            "baseQuestion": "Describe a person who is good at learning and speaking new languages",
+            "questions": [
+              {
+                "question": "Describe a person who is good at learning and speaking new languages",
+                "special": "突出 books / videos / teacher，以及现在能说 French。"
+              },
+              {
+                "question": "Describe a person who met difficulties but succeeded",
+                "special": "补 pronunciation was hard、作业多，以及 he did not give up。"
+              }
+            ],
+            "reasons": [
+              {
+                "text": "At first, I thought he might give up because French was difficult and he had little free time. We also had a lot of homework at school.",
+                "highlights": [
+                  "French was difficult",
+                  "little free time"
+                ],
+                "memory": "法语难＋时间少 → 起初担心他放弃"
+              },
+              {
+                "text": "However, he corrected his mistakes and practised every day, so he overcame the difficulties step by step. Whenever he said a word wrongly, he tried it again.",
+                "highlights": [
+                  "corrected his mistakes",
+                  "step by step"
+                ],
+                "memory": "改错误＋每天练 → 一步步克服困难"
+              },
+              {
+                "text": "Now he can speak French well and use it while travelling, which gives him a real sense of achievement. Last month, he ordered food and asked for directions in France.",
+                "highlights": [
+                  "speak French well",
+                  "sense of achievement"
+                ],
+                "memory": "现在说得好＋旅行能用 → 很有成就感"
+              },
+              {
+                "text": "His learning method is simple and useful: books, short videos, a notebook and help from a teacher. He used each one for a different kind of practice.",
+                "highlights": [
+                  "simple and useful",
+                  "help from a teacher"
+                ],
+                "memory": "书＋视频＋单词本＋问老师 → 方法简单有效"
+              },
+              {
+                "text": "His success inspires me, so I want to learn another language with him in the future. His progress makes the goal feel possible for me.",
+                "highlights": [
+                  "inspires me",
+                  "in the future"
+                ],
+                "memory": "他的成功鼓励我 → 以后一起学新语言"
+              }
+            ]
+          },
+          {
+            "title": "李华的软件公司",
+            "sourceOrder": 2,
+            "baseQuestion": "Describe a person you know who has a successful business",
+            "questions": [
+              {
+                "question": "Describe a person who works in a successful company",
+                "special": "说 he owns and works at the company；重点讲他的工作和公司为什么成功。"
+              },
+              {
+                "question": "Describe a person you know who has a successful business",
+                "special": "突出 he started it six years ago，并从 small office 做大。"
+              }
+            ],
+            "reasons": [
+              {
+                "text": "First of all, the apps are simple to use and popular with students and office workers. New users can understand them without a long lesson.",
+                "highlights": [
+                  "simple to use",
+                  "popular"
+                ],
+                "memory": "软件简单好用 → 学生和上班族喜欢"
+              },
+              {
+                "text": "Secondly, the company listens to users and fixes small problems quickly, so people continue using its products. The team releases a better version almost every month.",
+                "highlights": [
+                  "listens to users",
+                  "fixes small problems quickly"
+                ],
+                "memory": "听用户意见＋快速修问题 → 用户愿意继续用"
+              },
+              {
+                "text": "What's more, its study software helps students learn at home and improve their grades. They can watch short lessons and check answers after school.",
+                "highlights": [
+                  "helps students",
+                  "improve their grades"
+                ],
+                "memory": "学习软件在家能用 → 帮学生提高成绩"
+              },
+              {
+                "text": "The business makes money and keeps growing, so it can hire more workers and build a stronger team. Li Hua began alone, but now several engineers work with him.",
+                "highlights": [
+                  "keeps growing",
+                  "hire more workers"
+                ],
+                "memory": "公司赚钱成长 → 招更多员工 → 团队更强"
+              },
+              {
+                "text": "It also donates money to society, which gives the company a good name and makes Li Hua proud. People trust a business more when it also helps others.",
+                "highlights": [
+                  "donates money",
+                  "a good name"
+                ],
+                "memory": "公司捐钱帮助社会 → 更受信任 → 李华自豪"
+              }
+            ]
+          },
+          {
+            "title": "种菜的奶奶",
+            "sourceOrder": 5,
+            "baseQuestion": "Describe a person who loves to grow vegetables at home or in the garden",
+            "questions": [
+              {
+                "question": "Describe a person who loves to grow plants (e.g.vegetables, flowers) at home or in the garden",
+                "special": "保留 vegetables，再补一句 she also grows several kinds of flowers。"
+              },
+              {
+                "question": "Describe a person who loves to grow vegetables at home or in the garden",
+                "special": "只突出 tomatoes, cabbages and green beans，以及浇水、除草。"
+              }
+            ],
+            "reasons": [
+              {
+                "text": "First of all, gardening is her hobby and helps her use her free time after retirement. Watching a seed become a vegetable gives her something to expect.",
+                "highlights": [
+                  "her hobby",
+                  "free time"
+                ],
+                "memory": "退休后有时间 → 园艺是爱好"
+              },
+              {
+                "text": "Secondly, her own vegetables are fresh and healthy, and our family knows exactly how they were grown. She does not use anything that she thinks is unsafe.",
+                "highlights": [
+                  "fresh and healthy",
+                  "how they were grown"
+                ],
+                "memory": "自己种更新鲜健康 → 家人吃得安心"
+              },
+              {
+                "text": "What's more, growing vegetables saves money because she does not need to buy as much food from shops. The saving is small each week, but it grows over time.",
+                "highlights": [
+                  "saves money",
+                  "buy as much food"
+                ],
+                "memory": "少去商店买菜 → 节省生活费"
+              },
+              {
+                "text": "She can share extra vegetables with neighbours, which makes their relationship closer. They sometimes give her fruit or snacks in return.",
+                "highlights": [
+                  "share extra vegetables",
+                  "relationship closer"
+                ],
+                "memory": "多余蔬菜送邻居 → 邻里关系更近"
+              },
+              {
+                "text": "Working in the garden gives her gentle exercise and helps her feel calm and relaxed. She moves around outside instead of sitting indoors all day.",
+                "highlights": [
+                  "gentle exercise",
+                  "calm and relaxed"
+                ],
+                "memory": "浇水除草能活动身体 → 心情放松"
+              }
+            ]
+          }
+        ],
         "section": {
           "answerTitle": "完整人物母版｜李华学法语",
           "answerSections": [
@@ -1949,6 +2122,61 @@ window.IELTS_DATA = {
                     "text": "Now he speaks French fluently, and I want to learn from him. His progress shows me that daily practice really works. In the future, I hope to learn another language with him.",
                     "highlights": [
                       "speaks French fluently",
+                      "learn from him"
+                    ]
+                  }
+                ]
+              },
+              {
+                "question": "Describe a person who met difficulties but succeeded",
+                "sourceOrder": 7,
+                "memoryChain": {
+                  "story": "高中认识李华 → 为去法国学法语 → 发音难＋作业多 → 单词本＋视频＋问老师 → 午休练习 → 去法国成功交流",
+                  "reasons": [
+                    "法语难＋空闲少 → 起初以为他会放弃",
+                    "改正错误＋每天练习 → 一步步克服困难",
+                    "现在能顺利交流 → 我很佩服 → 以后向他学习"
+                  ]
+                },
+                "body": {
+                  "text": "I'd like to talk about my classmate Li Hua, who met several difficulties while learning French but finally succeeded. I first met him on the first day of high school, and we soon became friends. He wanted to learn French because he hoped to travel to France. At first, pronunciation was hard for him, and he also had a lot of homework. He could only say a few basic words and often made the same mistakes. However, he did not give up. He wrote new words in a small notebook, watched simple French videos and asked his teacher for help. We sometimes practised together at lunch. Several months later, he could hold a short conversation. Last month, he visited France, ordered food and asked for directions in French.",
+                  "highlights": [
+                    "Li Hua",
+                    "learning French",
+                    "pronunciation was hard",
+                    "did not give up",
+                    "small notebook",
+                    "visited France"
+                  ]
+                },
+                "draftCues": [
+                  "Li Hua",
+                  "French-travel",
+                  "hard-busy",
+                  "words-video",
+                  "ask-practise",
+                  "France"
+                ],
+                "pointsLabel": "How I feel · 3 阶段",
+                "reasons": [
+                  {
+                    "text": "At first, I did not think he could succeed because French was difficult and he had little free time. I thought he would stop after a few weeks.",
+                    "highlights": [
+                      "did not think he could succeed",
+                      "little free time"
+                    ]
+                  },
+                  {
+                    "text": "However, he kept correcting his mistakes and practising every day. His patience and hard work helped him overcome each difficulty step by step.",
+                    "highlights": [
+                      "correcting his mistakes",
+                      "step by step"
+                    ]
+                  },
+                  {
+                    "text": "Now he can speak French well, so I really admire him. His experience shows me that daily practice works, and I hope to learn from him in the future.",
+                    "highlights": [
+                      "speak French well",
                       "learn from him"
                     ]
                   }
@@ -2129,7 +2357,7 @@ window.IELTS_DATA = {
           },
           {
             "title": "生活熟人｜奶奶与童年朋友",
-            "note": "这两题人物和行为不同，分开记，但仍用同一套“前面覆盖题卡，最后一问三点”。",
+            "note": "两道种菜奶奶题共用一条故事；童年朋友单独记，但都用“前面覆盖题卡，最后一问三点”。",
             "items": [
               {
                 "question": "Describe a person who loves to grow plants (e.g.vegetables, flowers) at home or in the garden",
@@ -2187,6 +2415,61 @@ window.IELTS_DATA = {
                 ]
               },
               {
+                "question": "Describe a person who loves to grow vegetables at home or in the garden",
+                "sourceOrder": 8,
+                "memoryChain": {
+                  "story": "奶奶住农村 → 家旁小菜园 → 番茄白菜豆角 → 早起浇水除草 → 厨余做肥料 → 收菜分享做午饭",
+                  "reasons": [
+                    "退休后有空 → 园艺是爱好 → 看菜长大很开心",
+                    "自己种更新鲜 → 知道种植过程 → 家人吃得安心",
+                    "少去商店买 → 节省买菜钱 → 多余的送邻居"
+                  ]
+                },
+                "body": {
+                  "text": "I'd like to talk about my grandma, who lives in the countryside and loves to grow vegetables at home. She has a small garden beside her house, where she grows tomatoes, cabbages and green beans. Every morning, she gets up early to water them, remove weeds and check the leaves. She knows how much water each plant needs. She also makes simple plant food from kitchen waste, so she rarely buys anything special. In autumn, she picks the fresh vegetables and gives some to our neighbours. When I visit during the holidays, I help her choose ripe tomatoes and carry the vegetables into the kitchen. Then we cook lunch together. The work takes time, but she always looks relaxed and happy in the garden.",
+                  "highlights": [
+                    "my grandma",
+                    "small garden",
+                    "tomatoes, cabbages and green beans",
+                    "water them",
+                    "remove weeds",
+                    "kitchen waste"
+                  ]
+                },
+                "draftCues": [
+                  "grandma",
+                  "garden",
+                  "3 veg",
+                  "water-weed",
+                  "food waste",
+                  "pick-share"
+                ],
+                "pointsLabel": "Why she loves it · 3 原因",
+                "reasons": [
+                  {
+                    "text": "First of all, gardening is her hobby. She is retired, so it helps her use her free time. Watching a small seed grow into a vegetable makes her happy.",
+                    "highlights": [
+                      "her hobby",
+                      "use her free time"
+                    ]
+                  },
+                  {
+                    "text": "Secondly, her own vegetables are fresh and healthy. She knows exactly how they were grown, so our family feels safe when we eat them.",
+                    "highlights": [
+                      "fresh and healthy",
+                      "feels safe"
+                    ]
+                  },
+                  {
+                    "text": "What's more, growing vegetables saves money because she buys less food from shops. She also shares extra vegetables with neighbours, which brings them closer.",
+                    "highlights": [
+                      "saves money",
+                      "shares extra vegetables"
+                    ]
+                  }
+                ]
+              },
+              {
                 "question": "Describe a friend from your childhood",
                 "sourceOrder": 6,
                 "memoryChain": {
@@ -2238,6 +2521,220 @@ window.IELTS_DATA = {
                       "kind",
                       "whenever I had a problem"
                     ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "本次新题｜人物经历与性格",
+            "note": "四道人物题分别使用陈先生、Alex、奶奶和于东来素材，保留完整题卡与中英答案。",
+            "items": [
+              {
+                "id": "p2-met-once-person",
+                "code": "S6",
+                "name": "最近只见过一次、想深入了解的人",
+                "isNew": true,
+                "question": "Describe a person you only met once recently and want to know more about",
+                "cuePoints": [
+                  "Who he/she is",
+                  "When you met him/her",
+                  "Why you want to know more about him/her",
+                  "And explain how you feel about him/her"
+                ],
+                "draftCues": [
+                  "Mr Chen",
+                  "technology event",
+                  "last month",
+                  "project experience",
+                  "calm and friendly"
+                ],
+                "fit": "新题独立答案",
+                "focus": "说清只见过一次，再用对方的职业经验和性格解释为什么想继续了解他。",
+                "modules": "陈先生 → 科技活动 → 短暂交谈 → 项目经验 → 好奇与欣赏",
+                "omit": "不要把一次见面说成长期友谊，也不需要编造过多个人背景。",
+                "answerNote": "按题卡分成 5 段；时间统一用过去时，现在的感受用现在时。",
+                "answer": [
+                  {
+                    "kind": "人物",
+                    "text": "I'd like to talk about a person called Mr Chen. He is a product manager at another software company, and I only met him once. Although our conversation was short, he left a strong impression on me.",
+                    "translation": "我想讲一位叫陈先生的人。他是另一家软件公司的产品经理，我只见过他一次。虽然我们聊得不久，但他给我留下了很深的印象。"
+                  },
+                  {
+                    "kind": "见面",
+                    "text": "I met him at a small technology event last month. I went there with two colleagues, and Mr Chen gave a short talk about communication between different teams. After the talk, I introduced myself and asked him a few questions.",
+                    "translation": "上个月，我在一场小型科技活动上遇到了他。我和两位同事一起去的，陈先生做了一场关于跨团队沟通的短讲。演讲后，我做了自我介绍，并问了他几个问题。"
+                  },
+                  {
+                    "kind": "交谈",
+                    "text": "We talked for about ten minutes. I told him that I was a software engineer and sometimes found it difficult to explain technical problems to other teams. He listened carefully and suggested using simple examples instead of too many technical words.",
+                    "translation": "我们聊了大约十分钟。我告诉他自己是一名软件工程师，有时很难向其他团队解释技术问题。他认真听我说，并建议我用简单的例子，不要堆太多技术词。"
+                  },
+                  {
+                    "kind": "原因",
+                    "text": "I want to know more about him because he has managed several large projects and seems calm under pressure. I would like to learn how he plans his work, deals with disagreements and makes difficult decisions. His experience could help me grow in my own career.",
+                    "translation": "我想更了解他，因为他管理过几个大项目，面对压力时似乎也很冷静。我想学习他如何安排工作、处理分歧和作出困难的决定。他的经验可以帮助我在自己的职业中成长。"
+                  },
+                  {
+                    "kind": "感受",
+                    "text": "I feel curious and positive about him. He appeared confident, but he was also patient and friendly when answering my questions. I hope I can meet him again and have a longer conversation with him in the future.",
+                    "translation": "我对他感到好奇，也有很好的印象。他看起来很自信，但回答我的问题时也很有耐心、很友好。我希望以后能再次遇到他，和他聊得更久一些。"
+                  }
+                ]
+              },
+              {
+                "id": "p2-organized-person",
+                "code": "S9",
+                "name": "做事很有条理的人",
+                "isNew": true,
+                "question": "Describe a person you know who is very organized",
+                "cuePoints": [
+                  "Who this person is",
+                  "What this person usually does to stay organized",
+                  "In what situations you have noticed this quality",
+                  "And explain why you think being organized is important to him/her"
+                ],
+                "draftCues": [
+                  "Alex",
+                  "daily list",
+                  "calendar and checklist",
+                  "software release",
+                  "fewer mistakes"
+                ],
+                "fit": "Alex 计划素材直接适配",
+                "focus": "把日常清单、日历和上线检查表说具体，再解释有条理如何减少团队错误。",
+                "modules": "Alex → 每日清单 → 日历与检查表 → 系统上线 → 减少错误",
+                "omit": "不要只用 organized 反复描述，必须给出可见的行动。",
+                "answerNote": "人物现在仍保持习惯，平时行为用现在时，具体事件用过去时。",
+                "answer": [
+                  {
+                    "kind": "人物",
+                    "text": "I'd like to talk about my colleague Alex, who is one of the most organized people I know. We have worked in the same software team for about six years, and I often depend on him when a project becomes complicated.",
+                    "translation": "我想讲我的同事 Alex，他是我认识的人中做事最有条理的人之一。我们在同一个软件团队工作了大约六年，项目变得复杂时，我经常会依靠他。"
+                  },
+                  {
+                    "kind": "习惯",
+                    "text": "Every morning, he writes down his three most important tasks. He puts meetings and deadlines in his calendar and keeps short notes after each discussion. Before we release new software, he also prepares a simple checklist so that no important step is missed.",
+                    "translation": "每天早上，他都会写下最重要的三件事。他会把会议和截止日期放进日历，每次讨论后还会记下简短笔记。在我们发布新软件之前，他也会准备一份简单的检查表，避免漏掉重要步骤。"
+                  },
+                  {
+                    "kind": "场景",
+                    "text": "I noticed this quality clearly during an important software release last year. The team was under pressure, but Alex divided the work, gave each person a clear responsibility and checked our progress at fixed times. Because of his plan, everyone knew what to do.",
+                    "translation": "去年一次重要的软件发布过程中，我非常清楚地看到了他的这个特点。团队当时压力很大，但 Alex 把工作拆开，给每个人明确的责任，并在固定时间检查进度。因为他的计划，每个人都知道自己要做什么。"
+                  },
+                  {
+                    "kind": "结果",
+                    "text": "We found one small problem before it affected users and finished the release on time. Alex also sent the team a short summary afterwards, including what went well and what we should improve next time.",
+                    "translation": "我们在一个小问题影响用户之前就发现了它，并按时完成了发布。之后，Alex 还给团队发了一份简短总结，写清了哪些做得好，以及下次应该改进什么。"
+                  },
+                  {
+                    "kind": "重要性",
+                    "text": "Being organized is important to him because his decisions affect the whole team and real users. A clear plan saves time, reduces stress and prevents avoidable mistakes. It also makes other people trust him, which is especially important when he leads a project.",
+                    "translation": "做事有条理对他很重要，因为他的决定会影响整个团队和真实用户。清晰的计划能节省时间、减少压力，也能防止可以避免的错误。这还会让别人信任他，尤其在他带领项目时很重要。"
+                  }
+                ]
+              },
+              {
+                "id": "p2-happy-person",
+                "code": "S11",
+                "name": "我认识的快乐的人",
+                "isNew": true,
+                "question": "Describe a happy person you know",
+                "cuePoints": [
+                  "Who this person is",
+                  "What he/she is like",
+                  "How he/she shows happiness",
+                  "And explain why you think he/she is a happy person"
+                ],
+                "draftCues": [
+                  "my grandmother",
+                  "kind and calm",
+                  "small garden",
+                  "smiles and shares",
+                  "enjoys simple things"
+                ],
+                "fit": "奶奶菜园素材直接适配",
+                "focus": "幸福不只用 happy 表达，要通过微笑、哼歌、分享蔬菜和珍惜简单生活来体现。",
+                "modules": "奶奶 → 温和耐心 → 照顾菜园 → 微笑分享 → 享受简单生活",
+                "omit": "不需要把她说成永远没有烦恼；说清她面对小问题时仍然积极即可。",
+                "answerNote": "主体使用现在时，加一个周末探望的小例子让人物更具体。",
+                "answer": [
+                  {
+                    "kind": "人物",
+                    "text": "The happy person I would like to talk about is my grandmother. She lives in a quiet neighbourhood and has a small garden beside her home. I visit her regularly, especially at weekends and during family holidays.",
+                    "translation": "我想讲的快乐的人是我的奶奶。她住在一个安静的社区，家旁边有一个小菜园。我会定期去看她，尤其是周末和家庭节日时。"
+                  },
+                  {
+                    "kind": "性格",
+                    "text": "She is kind, calm and patient. She does not speak very loudly, but she always listens carefully when family members talk to her. She rarely complains and usually looks for a simple solution when something goes wrong.",
+                    "translation": "她善良、平静，而且很有耐心。她说话声音不大，但家人和她聊天时，她总会认真听。她很少抱怨，遇到问题时通常会找一个简单的解决办法。"
+                  },
+                  {
+                    "kind": "表现",
+                    "text": "She shows her happiness in small ways. She smiles when she works in the garden, sometimes hums an old song and becomes excited when new vegetables begin to grow. When relatives visit, she gives them fresh vegetables and enjoys seeing everyone eat together.",
+                    "translation": "她会通过很多小细节表现快乐。她在菜园干活时会微笑，有时还会哼一首老歌；新蔬菜开始生长时，她会很兴奋。亲戚来看她时，她会把新鲜蔬菜分给大家，也很喜欢看到一家人坐在一起吃饭。"
+                  },
+                  {
+                    "kind": "例子",
+                    "text": "Last spring, heavy rain damaged some plants in her garden. I expected her to feel upset, but she simply cleared the broken plants and planted new seeds. She said gardening always included a few surprises and laughed about it.",
+                    "translation": "去年春天，大雨损坏了她菜园里的一些植物。我以为她会很难过，但她只是清理掉损坏的植物，又种下了新种子。她说种菜总会有一些意外，说完还笑了。"
+                  },
+                  {
+                    "kind": "原因",
+                    "text": "I think she is happy because she values simple things: good health, useful work and time with her family. She does not compare her life with other people's lives. Her happiness feels natural, and being around her usually makes me calmer as well.",
+                    "translation": "我觉得她很快乐，因为她珍惜简单的事物：健康、有意义的劳动和与家人相处的时间。她不会把自己的生活和别人比较。她的快乐很自然，和她在一起通常也会让我更平静。"
+                  }
+                ]
+              },
+              {
+                "id": "p2-local-famous-person",
+                "code": "S12",
+                "name": "我当地的知名人物",
+                "isNew": true,
+                "question": "Describe a famous person in your local area",
+                "cuePoints": [
+                  "Who this person is",
+                  "What he/she has done",
+                  "Why he/she is popular",
+                  "And explain how you feel about this person"
+                ],
+                "draftCues": [
+                  "Yu Donglai",
+                  "Pang Dong Lai",
+                  "local supermarket",
+                  "service and staff",
+                  "positive influence"
+                ],
+                "fit": "当地新闻与人物素材联动",
+                "focus": "用胖东来创始人于东来作为当地知名人物，只说稳定、易表达的公开信息。",
+                "modules": "于东来 → 创办胖东来 → 改善购物体验 → 本地口碑 → 欣赏他的实干",
+                "omit": "不记具体资产、门店数量或容易变化的商业数据。",
+                "answerNote": "用当地超市品牌解释他的知名度，最后从对城市的积极影响谈感受。",
+                "answer": [
+                  {
+                    "kind": "人物",
+                    "text": "A famous person in my local area is Yu Donglai, the founder of Pang Dong Lai, a supermarket company that is very well known where I live. Many local people recognise his name even if they have never met him.",
+                    "translation": "我当地的一位知名人物是于东来，他是胖东来的创始人。胖东来是我居住地区非常有名的超市公司。即使很多当地人从没见过他，也知道他的名字。"
+                  },
+                  {
+                    "kind": "做过的事",
+                    "text": "He built the supermarket business from a local company into a strong local brand. The stores pay close attention to the shopping environment, product information and customer service. The company is also known for taking the working experience of its staff seriously.",
+                    "translation": "他把这家本地超市企业发展成了一个很有影响力的当地品牌。这些门店很重视购物环境、商品信息和顾客服务。这家公司也因为认真对待员工的工作体验而受到关注。"
+                  },
+                  {
+                    "kind": "受欢迎",
+                    "text": "He is popular mainly because people feel that the supermarkets solve small customer problems carefully. The stores are clean, the signs are clear and staff members are usually willing to help. Local residents often recommend the stores to relatives and visitors.",
+                    "translation": "他受欢迎，主要是因为人们觉得这些超市会认真解决顾客的小问题。门店很干净，标识很清楚，员工通常也愿意提供帮助。当地居民经常会把这些超市推荐给亲戚和外地来客。"
+                  },
+                  {
+                    "kind": "影响",
+                    "text": "His company has also made the local area better known. People from other cities sometimes come specifically to visit a Pang Dong Lai store, and local businesses discuss what they can learn from its service.",
+                    "translation": "他的公司也让当地变得更有名。有时其他城市的人会专门来参观胖东来门店，当地企业也会讨论能从它的服务中学到什么。"
+                  },
+                  {
+                    "kind": "感受",
+                    "text": "I respect him because he shows that a business can become successful by paying attention to ordinary people's real needs. I do not know him personally, but I think his practical ideas have had a positive influence on my local area.",
+                    "translation": "我很尊重他，因为他说明了企业可以通过关注普通人的真实需要获得成功。我和他并不认识，但我认为他的实际想法给我的当地带来了积极影响。"
                   }
                 ]
               }
@@ -2300,6 +2797,70 @@ window.IELTS_DATA = {
           "景美",
           "人美",
           "食物美"
+        ],
+        "mergedStories": [
+          {
+            "title": "上海城市旅行",
+            "sourceOrder": 1,
+            "baseQuestion": "Describe your favorite city that you have visited",
+            "questions": [
+              {
+                "question": "Describe a place you have travelled to that you would like to recommend to others",
+                "special": "结尾加 I would really recommend it to others。"
+              },
+              {
+                "question": "Describe a place you would like to visit in your free time",
+                "special": "开头改成 I would like to visit Shanghai again in my next holiday。"
+              },
+              {
+                "question": "Describe your favorite city that you have visited",
+                "special": "保留 how I knew it：school → a friend's travel video。"
+              }
+            ],
+            "reasons": [
+              {
+                "text": "First of all, the scenery is amazing because modern buildings, traditional streets and the river are close together. We could see several different views in one day.",
+                "highlights": [
+                  "scenery is amazing",
+                  "modern buildings",
+                  "traditional streets"
+                ],
+                "memory": "高楼＋老街＋河景 → 一天看到多种景色"
+              },
+              {
+                "text": "Secondly, local people are friendly to visitors and are willing to help when someone gets lost. A local man once showed us the way to the station.",
+                "highlights": [
+                  "friendly to visitors",
+                  "willing to help"
+                ],
+                "memory": "当地人友好 → 迷路时愿意指路"
+              },
+              {
+                "text": "What's more, the local food is delicious, especially xiaolongbao, and sharing it with my girlfriend was enjoyable. It was hot, fresh and full of soup.",
+                "highlights": [
+                  "local food is delicious",
+                  "xiaolongbao"
+                ],
+                "memory": "小笼包好吃＋和女友分享 → 旅行更开心"
+              },
+              {
+                "text": "Public transport is convenient, so we could take the metro and visit several places without wasting much time. The stations were clear even when the city was busy.",
+                "highlights": [
+                  "Public transport is convenient",
+                  "take the metro"
+                ],
+                "memory": "地铁方便 → 多个景点之间移动快"
+              },
+              {
+                "text": "The trip gave my girlfriend and me a lovely memory, so I want to visit the city again and recommend it to others. I still look at our photos sometimes.",
+                "highlights": [
+                  "a lovely memory",
+                  "visit the city again"
+                ],
+                "memory": "和女友留下回忆 → 想再去＋愿意推荐"
+              }
+            ]
+          }
         ],
         "section": {
           "answerTitle": "完整地点母版｜上海",
@@ -2490,6 +3051,61 @@ window.IELTS_DATA = {
                     "highlights": [
                       "try local food",
                       "xiaolongbao"
+                    ]
+                  }
+                ]
+              },
+              {
+                "question": "Describe your favorite city that you have visited",
+                "sourceOrder": 6,
+                "memoryChain": {
+                  "story": "上学时听说上海 → 朋友给我看旅行视频 → 去年和女友坐高铁 → 住七天 → 塔＋河边＋老街＋小笼包 → 最喜欢上海",
+                  "reasons": [
+                    "高楼＋老街＋河景 → 新旧景色都能看到",
+                    "当地人友好 → 迷路时帮忙指路 → 感觉安心",
+                    "小笼包好吃＋和女友分享 → 留下美好回忆"
+                  ]
+                },
+                "body": {
+                  "text": "I'd like to talk about Shanghai, which is my favourite city that I have visited. I had known its name since school, but I became really interested when a friend showed me a travel video. Last year, I went there with my girlfriend during a holiday. We travelled by high-speed train and stayed for seven days. On the first day, we visited Shanghai Tower and looked over the city. Later, we walked along the river, explored some old streets, visited a large shopping mall and tried xiaolongbao. At night, the lights beside the river were beautiful. The city was busy, but the metro made travelling easy. When we got lost once, a local man kindly showed us the station. We took many photos and had a great time together.",
+                  "highlights": [
+                    "Shanghai",
+                    "friend showed me a travel video",
+                    "with my girlfriend",
+                    "seven days",
+                    "Shanghai Tower",
+                    "tried xiaolongbao"
+                  ]
+                },
+                "draftCues": [
+                  "Shanghai",
+                  "school-video",
+                  "last year-GF",
+                  "Tower-river",
+                  "old street-food",
+                  "7 days"
+                ],
+                "pointsLabel": "Why it is my favourite · 3 原因",
+                "reasons": [
+                  {
+                    "text": "First of all, the scenery is amazing. Modern buildings, traditional streets and the river are close together, so I can enjoy several different views in one day.",
+                    "highlights": [
+                      "scenery is amazing",
+                      "different views"
+                    ]
+                  },
+                  {
+                    "text": "Secondly, local people are friendly to visitors. The man who helped us find the station made the busy city feel warm and safe.",
+                    "highlights": [
+                      "friendly to visitors",
+                      "warm and safe"
+                    ]
+                  },
+                  {
+                    "text": "What's more, the local food is delicious, especially xiaolongbao. Sharing it with my girlfriend gave us a lovely memory, so I would like to visit Shanghai again.",
+                    "highlights": [
+                      "local food is delicious",
+                      "visit Shanghai again"
                     ]
                   }
                 ]
@@ -2705,9 +3321,9 @@ window.IELTS_DATA = {
       "id": "object-tips",
       "tab": "事物类",
       "title": "事物类｜分题草稿",
-      "tagline": "题库文档 · 12 道原题",
+      "tagline": "题库文档 · 14 道原题",
       "description": "只合并能自然共用主体的题目；其他题目分开保留核心草稿和最后一问三点。",
-      "tipLabel": "12 道原题 · 分组",
+      "tipLabel": "14 道原题 · 分组",
       "tips": {
         "techniques": [
           {
@@ -2727,6 +3343,187 @@ window.IELTS_DATA = {
               "first of all",
               "secondly",
               "what’s more"
+            ]
+          }
+        ],
+        "mergedStories": [
+          {
+            "title": "环保法律｜禁止乱丢垃圾",
+            "sourceOrder": 2,
+            "baseQuestion": "Describe a law on environmental protection",
+            "questions": [
+              {
+                "question": "Describe a law on environmental protection",
+                "special": "用过去时讲香港现行法律；补 residents and street cleaners benefit。"
+              },
+              {
+                "question": "Describe a new law you would like to introduce in your country",
+                "special": "开头改成 I would like my country to introduce a similar law；补处罚和帮助。"
+              },
+              {
+                "question": "Describe an environmental law you would like your country to introduce",
+                "special": "突出 why people should follow it、whether it will be popular、how I feel。"
+              }
+            ],
+            "reasons": [
+              {
+                "text": "First of all, the law can keep streets clean and make public places more pleasant for everyone. Clean streets also attract visitors to local shops and restaurants.",
+                "highlights": [
+                  "keep streets clean",
+                  "more pleasant"
+                ],
+                "memory": "街道更干净 → 公共环境更舒服"
+              },
+              {
+                "text": "Secondly, clear rules can remind people to put rubbish in bins and slowly build a better habit. Children can learn this habit by watching adults.",
+                "highlights": [
+                  "put rubbish in bins",
+                  "better habit"
+                ],
+                "memory": "法律提醒环保 → 扔进垃圾桶成为习惯"
+              },
+              {
+                "text": "What's more, a fine makes people take the rule seriously because nobody wants to lose money. The punishment is clear and easy for everyone to understand.",
+                "highlights": [
+                  "take the rule seriously",
+                  "lose money"
+                ],
+                "memory": "违规会罚钱 → 人们更愿意守规则"
+              },
+              {
+                "text": "The fine money could pay for more public bins, cleaners, trees and flowers. These services would make the city greener and easier to clean.",
+                "highlights": [
+                  "fine money",
+                  "public bins"
+                ],
+                "memory": "罚款收入 → 添垃圾桶＋种树种花"
+              },
+              {
+                "text": "The law benefits residents, cleaners, local shops and animals, so I think most people would support it. A cleaner habitat is also safer for birds and other animals.",
+                "highlights": [
+                  "benefits residents",
+                  "support it"
+                ],
+                "memory": "居民清洁工商店动物都受益 → 法律容易受欢迎"
+              }
+            ]
+          },
+          {
+            "title": "长期目标｜升职当经理",
+            "sourceOrder": 3,
+            "baseQuestion": "Describe a long-term goal you would like to achieve",
+            "questions": [
+              {
+                "question": "Describe a long-term goal/ambition you would like to achieve",
+                "special": "直接说长期目标是 become a manager，并交代工作六年。"
+              },
+              {
+                "question": "Describe a long-term goal you would like to achieve",
+                "special": "突出 how long、management course、lead a project、apply next year。"
+              },
+              {
+                "question": "Describe an ambition that you have had for a long time",
+                "special": "突出 what I have done，以及 I hope to achieve it next year。"
+              }
+            ],
+            "reasons": [
+              {
+                "text": "First of all, I could lead a team and finish difficult projects, which would give me a strong sense of achievement. I would enjoy seeing everyone reach the same clear result.",
+                "highlights": [
+                  "lead a team",
+                  "sense of achievement"
+                ],
+                "memory": "带团队完成难项目 → 有成就感"
+              },
+              {
+                "text": "Secondly, a manager earns a higher salary, so I could improve my life and reduce family pressure. For example, I could save more money for a home.",
+                "highlights": [
+                  "higher salary",
+                  "reduce family pressure"
+                ],
+                "memory": "工资更高 → 改善生活＋减轻家庭压力"
+              },
+              {
+                "text": "What's more, I could help new workers and share the experience I have gained over the years. Their progress would make my own work feel more meaningful.",
+                "highlights": [
+                  "help new workers",
+                  "share the experience"
+                ],
+                "memory": "帮助新人＋分享经验 → 工作更有意义"
+              },
+              {
+                "text": "Preparing for the position helps me improve my speaking, planning and leadership skills. I already practise these skills when I lead small meetings.",
+                "highlights": [
+                  "improve my speaking",
+                  "leadership skills"
+                ],
+                "memory": "准备升职 → 提高表达规划和带队能力"
+              },
+              {
+                "text": "The position might give me a chance to join an overseas project and learn new ideas from different people. That experience could also help me find better ideas for our team.",
+                "highlights": [
+                  "overseas project",
+                  "learn new ideas"
+                ],
+                "memory": "可能参加海外项目 → 接触不同的人和想法"
+              }
+            ]
+          },
+          {
+            "title": "线上才艺节目",
+            "sourceOrder": 7,
+            "baseQuestion": "Describe a TV show/online program you have watched recently",
+            "questions": [
+              {
+                "question": "Describe an interesting video",
+                "special": "说这是节目中的 one short clip；why I watched it = to relax after dinner。"
+              },
+              {
+                "question": "Describe a TV show/online program you have watched recently",
+                "special": "说它是 weekly online talent program；补节目内容和 once a week。"
+              }
+            ],
+            "reasons": [
+              {
+                "text": "First of all, the jokes and funny faces help me relax and forget about work for a while. I usually watch it after a tiring day.",
+                "highlights": [
+                  "help me relax",
+                  "forget about work"
+                ],
+                "memory": "笑话和表情有趣 → 忘掉工作＋放松"
+              },
+              {
+                "text": "Secondly, the performance mixes modern and traditional dance in a natural and interesting way. I had never seen the two styles together before.",
+                "highlights": [
+                  "modern and traditional dance",
+                  "interesting way"
+                ],
+                "memory": "现代舞＋传统舞结合 → 新鲜有趣"
+              },
+              {
+                "text": "What's more, the original music is lively and easy to remember, so it puts me in a good mood. I sometimes remember the tune the next morning.",
+                "highlights": [
+                  "original music",
+                  "good mood"
+                ],
+                "memory": "原创音乐好记 → 心情变好"
+              },
+              {
+                "text": "Each episode is short, so I can watch it once a week without taking too much time. One episode is only about thirty minutes long.",
+                "highlights": [
+                  "once a week",
+                  "without taking too much time"
+                ],
+                "memory": "节目只有约三十分钟 → 每周看也不费时间"
+              },
+              {
+                "text": "I can share the best clip with Li Hua, which gives us something enjoyable to talk about. We often laugh about the same funny part the next day.",
+                "highlights": [
+                  "share the best clip",
+                  "talk about"
+                ],
+                "memory": "发给李华 → 多一个共同话题"
+              }
             ]
           }
         ],
@@ -2903,8 +3700,8 @@ window.IELTS_DATA = {
             ]
           },
           {
-            "title": "工作类｜目标、计划与决定分别准备",
-            "note": "长远目标与改计划按 DOCX 原故事；重要决定在 DOCX 中没有作答，才迁移已背的 Alex 系统故障。",
+            "title": "工作类｜目标与决定分别准备",
+            "note": "三道长远目标相关题目共用“升职当经理”；重要决定迁移已背的 Alex 系统故障。“近期改变的计划”已移到事件类的软件延期发布素材。",
             "items": [
               {
                 "question": "Describe a long-term goal/ambition you would like to achieve",
@@ -2963,56 +3760,111 @@ window.IELTS_DATA = {
                 ]
               },
               {
-                "question": "Describe a plan that you had to change recently",
-                "sourceOrder": 9,
+                "question": "Describe a long-term goal you would like to achieve",
+                "sourceOrder": 13,
                 "memoryChain": {
-                  "story": "学生软件原定九月发布 → 图片文案已准备 → 测试发现卡顿＋打不开课程 → 学生开学很忙 → 开会改到十月 → 修复＋小范围测试",
+                  "story": "入职软件公司六年 → 长远目标当经理 → 从初级升到高级 → 加班＋向经理学习 → 帮新人＋带小项目 → 明年申请经理",
                   "reasons": [
-                    "准备很久却延期 → 担心显得不认真 → 开始不开心",
-                    "开会后明白原因 → 晚一点但稳定 → 好过准时却有问题",
-                    "现在认可十月计划 → 希望发布成功 → 以后多留测试时间"
+                    "带团队完成难项目 → 帮更多人 → 有成就感",
+                    "月薪七千到一万二 → 买房买车 → 家庭压力更小",
+                    "分享工作经验 → 接触海外项目 → 学到新想法"
                   ]
                 },
                 "body": {
-                  "text": "I'd like to talk about a plan for a new software product for students. Our original plan was to release it in September, and my team had already prepared the pictures, online messages and user guide. However, during the final test, we found that the product was not ready because it still had some technical problems. The app sometimes became slow and a few students could not open a lesson. We did not want users to have a bad first experience. We also learned that September was not a suitable time because students had just started school and were very busy. After two team meetings, we changed the release date to October. This gave the engineers more time to fix the problems and gave us more time to test the app with a group of students.",
+                  "text": "I'd like to talk about a long-term goal I would like to achieve, which is becoming a manager in my software company. I have had this goal for about six years, since I joined the company as a junior worker. At first, I only checked small problems and helped senior staff. Since then, I have learned new skills, stayed late for important projects and asked my manager for advice. Three years ago, I became a senior worker. Now I help new colleagues and sometimes lead small meetings. My plan is to finish a management course, lead another project and apply for a manager position next year. I know it will take time, but I am making steady progress.",
                   "highlights": [
-                    "software product for students",
-                    "September",
-                    "October",
-                    "not ready",
-                    "technical problems",
-                    "students had just started school"
+                    "becoming a manager",
+                    "six years",
+                    "junior worker",
+                    "senior worker",
+                    "management course",
+                    "next year"
                   ]
                 },
                 "draftCues": [
-                  "student software",
-                  "Sep → Oct",
-                  "not ready",
-                  "tech problems",
-                  "students busy",
-                  "new plan better"
+                  "manager",
+                  "6 years",
+                  "junior-senior",
+                  "learn-ask",
+                  "lead project",
+                  "next year"
                 ],
-                "pointsLabel": "How I felt · 3 点",
+                "pointsLabel": "Why I want to achieve it · 3 原因",
                 "reasons": [
                   {
-                    "text": "At first, I felt unhappy because we had prepared for the September release for a long time. I worried that changing the date would make our work look careless.",
+                    "text": "First of all, I could lead a team and help everyone finish difficult projects. Doing more useful work would give me a strong sense of achievement.",
                     "highlights": [
-                      "felt unhappy",
-                      "prepared for the September release"
+                      "lead a team",
+                      "sense of achievement"
                     ]
                   },
                   {
-                    "text": "However, after a few meetings, I understood why we had to change the plan. A late but stable product was better than an early product full of problems.",
+                    "text": "Secondly, I could earn a higher salary. I now make about 7,000 yuan a month, while a manager can make about 12,000 yuan, so family life would be less stressful.",
                     "highlights": [
-                      "after a few meetings",
-                      "understood why"
+                      "higher salary",
+                      "12,000 yuan"
                     ]
                   },
                   {
-                    "text": "Now I think the October plan is better, and I hope the product will succeed then. In the future, I will always leave more time for testing.",
+                    "text": "What's more, I could share my experience with new workers and possibly join an overseas project. That would help me meet different people and learn new ideas.",
                     "highlights": [
-                      "October plan is better",
-                      "will succeed"
+                      "share my experience",
+                      "overseas project"
+                    ]
+                  }
+                ]
+              },
+              {
+                "question": "Describe an ambition that you have had for a long time",
+                "sourceOrder": 14,
+                "memoryChain": {
+                  "story": "六年前入职就想当经理 → 努力工作＋偶尔加班 → 三次升职 → 向经理学＋帮新人 → 已能带小项目 → 希望明年实现",
+                  "reasons": [
+                    "带团队做更多工作 → 完成困难项目 → 有成就感",
+                    "工资提高到约一万二 → 改善生活 → 支持父母",
+                    "帮助新人＋分享经验 → 有海外机会 → 继续成长"
+                  ]
+                },
+                "body": {
+                  "text": "I'd like to talk about an ambition I have had for a long time, which is becoming a manager in my company. I first had this ambition six years ago when I joined the company as a junior worker. Since then, I have worked hard, sometimes worked overtime and tried to finish every task well. I have received three promotions and am now a senior worker. I also learn from my current manager, help new colleagues and practise speaking in team meetings. Last month, I led a small project while my manager was busy, and we finished it on time. I plan to take a management course and lead one more project. If things go well, I hope to achieve this ambition next year.",
+                  "highlights": [
+                    "becoming a manager",
+                    "six years ago",
+                    "worked overtime",
+                    "three promotions",
+                    "led a small project",
+                    "next year"
+                  ]
+                },
+                "draftCues": [
+                  "manager",
+                  "6 years",
+                  "work-overtime",
+                  "3 promotions",
+                  "lead project",
+                  "next year"
+                ],
+                "pointsLabel": "Why I have this ambition · 3 原因",
+                "reasons": [
+                  {
+                    "text": "First of all, being a manager would let me lead the team and complete more difficult work. Finishing a project together would give me a real sense of achievement.",
+                    "highlights": [
+                      "lead the team",
+                      "sense of achievement"
+                    ]
+                  },
+                  {
+                    "text": "Secondly, the position has a better salary. A manager can make about 12,000 yuan a month, so I could improve my life and support my parents.",
+                    "highlights": [
+                      "better salary",
+                      "support my parents"
+                    ]
+                  },
+                  {
+                    "text": "What's more, I could help new workers by sharing my experience and might have a chance to work overseas. This would help me continue growing in the future.",
+                    "highlights": [
+                      "help new workers",
+                      "work overseas"
                     ]
                   }
                 ]
@@ -3137,52 +3989,55 @@ window.IELTS_DATA = {
                 "question": "Describe a food that people eat on special occasions/events",
                 "sourceOrder": 6,
                 "memoryChain": {
-                  "story": "除夕全家包饺子 → 妈妈备馅＋爸爸和面 → 包皮放馅 → 奶奶教我包好 → 煮好后看完春晚吃 → 厨房里聊天欢笑",
+                  "story": "春节吃饺子 → 水和面粉混合 → 得到面团 → 切成小块 → 放入肉和蔬菜 → 水煮后很好吃",
                   "reasons": [
-                    "祖辈一直包饺子 → 春节传统 → 连接不同代人",
-                    "形状像古代钱 → 代表好运 → 希望新年成功",
-                    "全家放下手机一起包 → 边做边聊天 → 感情更近"
+                    "春节吃了几千年 → 中国传统文化 → 应该继续保留",
+                    "形状像古代钱币 → 代表好运 → 希望新年顺利",
+                    "全家聚在一起包饺子 → 分享生活的起伏 → 感情更好"
                   ]
                 },
                 "body": {
-                  "text": "I'd like to talk about dumplings, which many Chinese families eat during the Spring Festival. My family usually makes them on New Year's Eve. In the afternoon, my mother prepares meat and vegetables, while my father helps prepare dough. We cut the dough into small round wrappers, put the filling inside and close each one by hand. Mine sometimes look strange, but my grandma always shows me how to make them better. We usually make a large plate, boil the dumplings in hot water and eat them after watching the Spring Festival TV show. Everyone talks and laughs in the kitchen, and even the children can help with a simple job. The whole process takes time, but it is an important part of the celebration.",
+                  "text": "I'd like to talk about dumplings, which Chinese people often eat during the Spring Festival. They are one of the most common festival foods in China. Making them is not very difficult. At first, we mix water and flour together until we get soft dough. After that, we cut the dough into many small pieces and make each piece thin and round. Then we put some meat and vegetables in the middle and close it carefully by hand. When all the dumplings are ready, we boil them in hot water for several minutes. We take them out when they are fully cooked and eat them while they are still hot. They are soft outside, full of flavour inside and really delicious.",
                   "highlights": [
                     "dumplings",
                     "Spring Festival",
-                    "prepare dough",
+                    "mix water and flour",
+                    "soft dough",
                     "meat and vegetables",
-                    "boil the dumplings",
-                    "New Year's Eve"
+                    "boil them in hot water"
                   ]
                 },
                 "draftCues": [
                   "dumplings",
                   "Spring Festival",
-                  "dough",
-                  "meat-vegetables",
-                  "boil",
-                  "family"
+                  "water-flour",
+                  "dough-pieces",
+                  "meat-veg",
+                  "boil-delicious"
                 ],
                 "pointsLabel": "Why people eat it then · 3 原因",
                 "reasons": [
                   {
-                    "text": "First of all, dumplings are an important part of Spring Festival tradition. My grandparents made them when they were young, so the food connects different generations in our family.",
+                    "text": "First of all, dumplings are part of a long tradition. Chinese people have eaten them during the Spring Festival for thousands of years, so they are an important part of our culture.",
                     "highlights": [
-                      "Spring Festival tradition"
+                      "long tradition",
+                      "thousands of years",
+                      "our culture"
                     ]
                   },
                   {
-                    "text": "Secondly, their shape looks like old Chinese money and represents good luck. People hope that eating them will bring a better and more successful new year.",
+                    "text": "Secondly, the shape of dumplings looks like ancient Chinese money and represents good luck. People eat them because they hope the new year will be happy and successful.",
                     "highlights": [
-                      "old Chinese money",
+                      "ancient Chinese money",
                       "good luck"
                     ]
                   },
                   {
-                    "text": "What's more, making them together brings family members closer. We can put our phones away, share stories and enjoy real time with one another.",
+                    "text": "What's more, family members can get together and make dumplings during the festival. While doing this, they share the highs and lows of their lives, which helps them build a better relationship. In my view, dumplings are really special, and I hope this tradition will continue in the future.",
                     "highlights": [
-                      "making them together",
-                      "family members closer"
+                      "family members can get together",
+                      "share the highs and lows",
+                      "better relationship"
                     ]
                   }
                 ]
@@ -3191,7 +4046,7 @@ window.IELTS_DATA = {
           },
           {
             "title": "书、广告与视频｜内容不同，分题记",
-            "note": "视频题的 DOCX 只给了内容和三点原因；时间、地点只用 at home one evening 最小补齐，不再添加朋友转发等新情节。",
+            "note": "短视频和线上节目共用“唱歌、笑话、现代舞＋传统舞”；只按题卡替换节目形式和观看频率。",
             "items": [
               {
                 "question": "Describe a story/book with animals in it",
@@ -3356,6 +4211,61 @@ window.IELTS_DATA = {
                     ]
                   }
                 ]
+              },
+              {
+                "question": "Describe a TV show/online program you have watched recently",
+                "sourceOrder": 15,
+                "memoryChain": {
+                  "story": "上周末晚饭后 → 视频软件里的每周才艺节目 → 普通年轻人唱歌跳舞讲笑话 → 现代舞转传统舞 → 自制音乐 → 每周看一次",
+                  "reasons": [
+                    "笑话＋表情时机好 → 忘掉工作 → 放松下来",
+                    "现代舞＋传统舞结合 → 学到一点文化 → 很有趣",
+                    "原创音乐简单好记 → 心情变好 → 还想继续看"
+                  ]
+                },
+                "body": {
+                  "text": "I'd like to talk about an online talent program I watched recently on a video app. It is a weekly show in which ordinary young people sing, dance or tell jokes. Last weekend, I watched an episode at home after dinner because it appeared on the front page of the app. My favourite part was a young man who first did a modern dance and then added some traditional Chinese movements. After that, he sang a song he had written himself. The song was simple, but the music was lively and everyone in the studio cheered. I normally watch the program once a week, and each episode is around thirty minutes. I later sent the best clip to Li Hua, and we talked about it the next day.",
+                  "highlights": [
+                    "online talent program",
+                    "last weekend",
+                    "at home after dinner",
+                    "modern dance",
+                    "traditional Chinese movements",
+                    "once a week"
+                  ]
+                },
+                "draftCues": [
+                  "online show",
+                  "last weekend",
+                  "sing-dance-jokes",
+                  "modern-traditional",
+                  "own song",
+                  "weekly"
+                ],
+                "pointsLabel": "How I feel · 3 原因",
+                "reasons": [
+                  {
+                    "text": "First of all, the jokes and performances help me relax after work. Even simple jokes become funny because the performers use good faces and timing.",
+                    "highlights": [
+                      "help me relax",
+                      "good faces and timing"
+                    ]
+                  },
+                  {
+                    "text": "Secondly, the program mixes modern and traditional dance in an interesting way. I can enjoy the show and learn a little about Chinese culture at the same time.",
+                    "highlights": [
+                      "modern and traditional dance",
+                      "Chinese culture"
+                    ]
+                  },
+                  {
+                    "text": "What's more, the original music puts me in a good mood and is easy to remember. That is why I would like to watch another episode next week.",
+                    "highlights": [
+                      "good mood",
+                      "another episode"
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -3419,6 +4329,64 @@ window.IELTS_DATA = {
                 ]
               }
             ]
+          },
+          {
+            "title": "本次新题｜送给朋友的智能手表",
+            "note": "按用户指定素材：工作提醒、健康监测，以及朋友以前送过自己类似的实用礼物。",
+            "items": [
+              {
+                "id": "p2-friend-gift",
+                "code": "S8",
+                "name": "想送给朋友的智能手表",
+                "isNew": true,
+                "question": "Describe a gift you would like to buy for your friend",
+                "cuePoints": [
+                  "How you knew your friend",
+                  "How long you have known him/her",
+                  "How you would choose a gift for him/her",
+                  "And explain why you would choose that gift for him/her"
+                ],
+                "draftCues": [
+                  "Alex at work",
+                  "six years",
+                  "smart watch",
+                  "work and health",
+                  "returned his kindness"
+                ],
+                "fit": "用户指定的智能手表素材",
+                "focus": "手表要同时体现工作提醒和健康监测；结尾说清朋友以前送过自己类似的实用礼物。",
+                "modules": "Alex → 认识六年 → 挑智能手表 → 工作与健康 → 回应他的心意",
+                "omit": "不需要记品牌、复杂参数或精确价格。",
+                "answerNote": "按题卡分成 5 段；因为还没送，选礼物和用途主要用 would。",
+                "answer": [
+                  {
+                    "kind": "朋友",
+                    "text": "The friend I would like to buy a gift for is Alex. I met him on my first day at my current company because we joined the same software team. He helped me understand the work and introduced me to the other team members.",
+                    "translation": "我想买礼物送给我的朋友 Alex。我在现在这家公司上班的第一天认识了他，因为我们进入了同一个软件团队。他帮我熟悉工作，还把我介绍给了其他团队成员。"
+                  },
+                  {
+                    "kind": "时间",
+                    "text": "I have known him for about six years. We have worked on several difficult projects together, and he once helped me solve a serious system problem. Over time, we became good friends as well as colleagues.",
+                    "translation": "我认识他大约六年了。我们一起做过几个困难的项目，他还曾帮我解决过一次严重的系统问题。慢慢地，我们不仅是同事，也成了好朋友。"
+                  },
+                  {
+                    "kind": "选择",
+                    "text": "I would choose a practical smart watch in a simple colour. I would first check that it worked well with his phone, read some user reviews and compare two or three models. I would not buy the most expensive one, but I would choose a reliable mid-range watch.",
+                    "translation": "我会选一块颜色简单、很实用的智能手表。我会先确认它能和他的手机良好配合，看一些用户评价，再比较两三个型号。我不会买最贵的，而是会选一块可靠的中等价位手表。"
+                  },
+                  {
+                    "kind": "用途",
+                    "text": "The watch would be useful in his daily work because it could show meeting reminders and important messages without making him check his phone all the time. It could also count his steps, measure his heart rate and help him understand his sleep.",
+                    "translation": "这块手表对他的日常工作很有用，因为它可以显示会议提醒和重要消息，他就不用一直查看手机了。它还可以记录步数、测量心率，并帮助他了解自己的睡眠情况。"
+                  },
+                  {
+                    "kind": "原因",
+                    "text": "I would choose this gift because Alex likes useful electronic products. He gave me a pair of wireless headphones for my birthday before, and I use them almost every day. A smart watch would be a similar practical gift, so it would return his kindness and show that I understand what he needs.",
+                    "translation": "我会选这份礼物，因为 Alex 喜欢实用的电子产品。他以前在我生日时送过我一副无线耳机，我几乎每天都在用。智能手表是一份类似的实用礼物，既能回应他的心意，也能表明我了解他的需要。"
+                  }
+                ]
+              }
+            ]
           }
         ],
         "reminder": "事物类先用核心草稿覆盖题卡的前三问，再根据最后一问选用三原因或三部曲。不要为了共用素材强行改题。"
@@ -3429,9 +4397,9 @@ window.IELTS_DATA = {
       "id": "event-tips",
       "tab": "事件类",
       "title": "事件类｜分组草稿",
-      "tagline": "题库文档 · 12 道原题",
-      "description": "优先迁移 Alex、手机戒断、家庭观赛和日出外出；故事线不一样的题目单独准备。",
-      "tipLabel": "12 道原题 · 分组",
+      "tagline": "题库文档 · 20 道原题",
+      "description": "优先迁移 Alex、软件延期发布、家庭观赛和日出外出；故事线不一样的题目单独准备。",
+      "tipLabel": "17 道原题 · 分组",
       "tips": {
         "techniques": [
           {
@@ -3454,60 +4422,293 @@ window.IELTS_DATA = {
             ]
           }
         ],
+        "mergedStories": [
+          {
+            "title": "Alex 与系统故障",
+            "sourceOrder": 1,
+            "baseQuestion": "Describe a challenging technological problem you faced",
+            "questions": [
+              {
+                "question": "Describe a change that you made recently",
+                "special": "change = the way I deal with technical problems；改成 about a month ago，结尾说 now I ask for help earlier。"
+              },
+              {
+                "question": "Describe a time when you sent a message or an email to someone but received no reply for a long time",
+                "special": "我发 screenshot 给 Alex；他开会两小时且 phone on silent。"
+              },
+              {
+                "question": "Describe a challenging technological problem you faced",
+                "special": "重点讲 problem → checks → Alex → wrong setting → normal again。"
+              },
+              {
+                "question": "Describe a time when you worked in a group",
+                "special": "补 two teammates；四个人分工查 messages / settings / test orders。"
+              },
+              {
+                "question": "Describe a time when you received a message or email and it took you a long time to reply",
+                "special": "方向反过来：Alex 发消息；我在两小时会议且 phone on silent。"
+              },
+              {
+                "question": "Describe a time when a person did something to help you solve a problem",
+                "special": "突出 Alex read my notes、divided the work、found the setting。"
+              },
+              {
+                "question": "Describe a time when you had a problem with using an electronic device",
+                "special": "把 system 换成 office laptop：report 打不开、storage full、清理后恢复。"
+              }
+            ],
+            "reasons": [
+              {
+                "text": "At first, receiving no reply made the urgent problem more stressful, and I worried that Alex did not want to help. I kept checking my phone while users were still waiting.",
+                "highlights": [
+                  "no reply",
+                  "more stressful"
+                ],
+                "memory": "发出消息没回复 → 误会 Alex 不想帮 → 更紧张"
+              },
+              {
+                "text": "When I replied late, I felt embarrassed because Alex had waited, although I had not ignored him on purpose. I explained the meeting as soon as I saw the message.",
+                "highlights": [
+                  "felt embarrassed",
+                  "not ignored him on purpose"
+                ],
+                "memory": "自己回复晚 → Alex 等很久 → 尴尬但并非故意"
+              },
+              {
+                "text": "I felt relieved and grateful when Alex read my notes, shared his method and helped solve the problem. The system worked normally again before the end of the day.",
+                "highlights": [
+                  "relieved and grateful",
+                  "helped solve the problem"
+                ],
+                "memory": "Alex 耐心帮助 → 问题解决 → 安心又感激"
+              },
+              {
+                "text": "Working as a team was faster and safer because different people could check different parts at the same time. This also stopped one person from missing an important detail.",
+                "highlights": [
+                  "faster and safer",
+                  "at the same time"
+                ],
+                "memory": "多人同时分工检查 → 更快更安全"
+              },
+              {
+                "text": "The experience taught me to communicate earlier, keep clear notes and back up important files in the future. These simple habits can stop a small problem becoming bigger.",
+                "highlights": [
+                  "communicate earlier",
+                  "back up important files"
+                ],
+                "memory": "以后早点沟通＋留记录＋备份文件"
+              }
+            ]
+          },
+          {
+            "title": "学生软件延期发布",
+            "sourceOrder": 2,
+            "baseQuestion": "Describe a plan that you had to change recently",
+            "questions": [
+              {
+                "question": "Describe a plan that you had to change recently",
+                "special": "重点讲 original plan = September、两点原因和 new plan = October；感受从 unhappy 到理解。"
+              },
+              {
+                "question": "Describe a time when you changed an important opinion of yours",
+                "special": "original opinion = on-time release is most important；new opinion = quality is more important than speed。"
+              }
+            ],
+            "memoryChain": {
+              "story": "去年九月准备发布学生软件 → 原计划九月上线＋认为按时最重要 → 测试发现卡顿＋课程打不开 → 学生刚开学很忙 → 开会改到十月 → 明白质量比速度重要",
+              "reasons": [
+                "准备很久却延期 → 担心显得不认真 → 开始不开心",
+                "原以为按时发布最重要 → 开会后改变看法 → 质量比速度重要",
+                "软件卡顿＋课程打不开 → 会影响用户体验 → 延期后充分测试",
+                "学生刚开学很忙 → 十月更愿意试用 → 软件更可能成功",
+                "现在觉得放心 → 延期是负责任的选择 → 以后多留测试时间"
+              ]
+            },
+            "body": {
+              "text": "I'd like to talk about something that happened at work last September, when my team was preparing to release a new software product for students. Our original plan was to release it that month, and I strongly believed that releasing a product on time was the most important thing. However, during the final test, we found that the app sometimes became slow and a few students could not open a lesson. We also realised that September was not a good time because students had just started school and were very busy. After two team meetings, we moved the release date to October. This gave us more time to fix the technical problems and test the app with a small group of students. At first, I felt unhappy about the delay. However, I later realised that a late but stable product was better than an early product full of problems.",
+              "highlights": [
+                "last September",
+                "software product for students",
+                "releasing a product on time",
+                "technical problems",
+                "moved the release date to October",
+                "late but stable product"
+              ]
+            },
+            "draftCues": [
+              "last Sep",
+              "student software",
+              "on time first",
+              "bugs-students busy",
+              "Sep → Oct",
+              "quality > speed"
+            ],
+            "pointsLabel": "可选扣题点 / 感受",
+            "reasons": [
+              {
+                "text": "At first, I felt unhappy because we had prepared for the September release for a long time. I worried that changing the date would make our work look careless.",
+                "highlights": [
+                  "felt unhappy",
+                  "prepared for the September release"
+                ],
+                "memory": "准备很久却延期 → 担心显得不认真 → 开始不开心"
+              },
+              {
+                "text": "However, after the meetings, I changed my opinion. I used to think an on-time release was the most important thing, but I realised that quality was more important than speed.",
+                "highlights": [
+                  "changed my opinion",
+                  "quality was more important than speed"
+                ],
+                "memory": "原以为按时发布最重要 → 开会后改变看法 → 质量比速度重要"
+              },
+              {
+                "text": "The technical problems could have given users a bad first experience. Delaying the release gave us enough time to fix the app and test it carefully.",
+                "highlights": [
+                  "bad first experience",
+                  "test it carefully"
+                ],
+                "memory": "软件卡顿＋课程打不开 → 会影响用户体验 → 延期后充分测试"
+              },
+              {
+                "text": "October was also a better time because students would be less busy and more willing to try the software. This gave the product a better chance to succeed.",
+                "highlights": [
+                  "students would be less busy",
+                  "better chance to succeed"
+                ],
+                "memory": "学生刚开学很忙 → 十月更愿意试用 → 软件更可能成功"
+              },
+              {
+                "text": "Now I feel relieved because changing the plan was the responsible choice. In the future, I will always leave more time for testing instead of only thinking about the date.",
+                "highlights": [
+                  "feel relieved",
+                  "responsible choice",
+                  "more time for testing"
+                ],
+                "memory": "现在觉得放心 → 延期是负责任的选择 → 以后多留测试时间"
+              }
+            ]
+          },
+          {
+            "title": "早起去看日出",
+            "sourceOrder": 8,
+            "baseQuestion": "Describe a special day out that costs you little money/didn't cost you much",
+            "questions": [
+              {
+                "question": "Describe a special day out that cost you little money/didn't cost you much",
+                "special": "突出 free hill、walked there、60 yuan bought food and water。"
+              },
+              {
+                "question": "Describe a time when you organized a happy event successfully",
+                "special": "补 checked weather、route、shopping list 和朋友分工。"
+              },
+              {
+                "question": "Describe a time when you got up early",
+                "special": "开头补 alarm at four、felt sleepy；结尾 early start was worthwhile。"
+              },
+              {
+                "question": "Describe a special day out that costs you little money/didn't cost you much",
+                "special": "和 cost 版本完全共用：免费小山＋步行＋只花六十元。"
+              }
+            ],
+            "reasons": [
+              {
+                "text": "First of all, the walk and waiting time gave us plenty of time to chat instead of only sending short messages.",
+                "highlights": [
+                  "time to chat",
+                  "short messages"
+                ],
+                "memory": "步行等待时间长 → 能认真聊天"
+              },
+              {
+                "text": "Secondly, sharing breakfast and helping one another on the path brought us closer.",
+                "highlights": [
+                  "sharing breakfast",
+                  "brought us closer"
+                ],
+                "memory": "分享早餐＋互相帮助 → 感情更近"
+              },
+              {
+                "text": "What's more, the hill and sunrise were free, and 60 yuan bought enough food for four people.",
+                "highlights": [
+                  "sunrise were free",
+                  "60 yuan"
+                ],
+                "memory": "景色免费＋六十元买够四人食物 → 花费很少"
+              },
+              {
+                "text": "Everyone arrived on time and we reached the top before sunrise, so I felt proud that my plan worked well.",
+                "highlights": [
+                  "arrived on time",
+                  "felt proud"
+                ],
+                "memory": "全员准时＋日出前到达 → 组织成功＋自豪"
+              },
+              {
+                "text": "Although I felt sleepy at first, the fresh air and beautiful view made the early start worthwhile.",
+                "highlights": [
+                  "felt sleepy",
+                  "early start worthwhile"
+                ],
+                "memory": "开始很困 → 空气和景色很好 → 早起值得"
+              }
+            ]
+          }
+        ],
         "topicGroups": [
           {
-            "title": "手机戒断｜最近的改变",
+            "title": "Alex 工作习惯｜最近的改变",
             "items": [
               {
                 "question": "Describe a change that you made recently",
                 "sourceOrder": 1,
                 "memoryChain": {
-                  "story": "一个月前屏幕时间超过六小时 → 总刷短视频＋疲惫分心 → 限制 App＋手机放远＋不带上床 → 用书和水替代 → 改成散步阅读 → 两周后习惯",
+                  "story": "一个月前仍坚持独自解决问题 → 系统变慢＋订单失败 → 自己查一小时无果 → 记录过程后找 Alex → 分工找到错误设置 → 现在二十分钟没进展就求助",
                   "reasons": [
-                    "不再几分钟看一次手机 → 一口气完成任务 → 更专注",
-                    "不在床上刷到半夜 → 更早睡 → 白天更有精神",
-                    "空出时间散步看书 → 晚饭后和女友聊天 → 回到真实生活"
+                    "早点求助＋两个人检查不同部分 → 工作更快更安全",
+                    "不用独自承受故障压力 → 知道队友会帮忙 → 更轻松自信",
+                    "先记录已查内容再沟通 → 团队更清楚 → 小问题不容易变大"
                   ]
                 },
                 "body": {
-                  "text": "I'd like to talk about a change I made about a month ago, which was reducing my phone use. My screen-time report showed that I was spending over six hours a day on my phone, and I often felt tired and distracted. I checked short videos every few minutes, even when I had work to finish. I set limits for short-video apps, put my phone in another room while working and stopped taking it to bed. During the first week, I still wanted to pick it up, so I kept a book and a bottle of water beside me instead. I also replaced some screen time with walking and reading. After about two weeks, these new habits started to feel normal.",
+                  "text": "I'd like to talk about a change I made about a month ago. I changed the way I deal with technical problems at work. In the past, I believed that a good engineer should solve every problem alone. Then, after our team released a new feature, the online shopping system became slow and some orders failed. I read the error messages, searched online and watched several videos for nearly an hour, but nothing worked. Finally, I wrote down what I had checked and asked my colleague Alex for help. He reviewed the settings while I prepared test orders. We found one wrong setting and fixed the system together. Since then, I still try a few safe checks first, but if I make no progress after twenty minutes, I share my notes and ask a teammate for help.",
                   "highlights": [
                     "about a month ago",
-                    "reducing my phone use",
-                    "over six hours a day",
-                    "set limits",
-                    "another room",
-                    "walking and reading"
+                    "changed the way",
+                    "solve every problem alone",
+                    "system became slow",
+                    "asked my colleague Alex for help",
+                    "after twenty minutes"
                   ]
                 },
                 "draftCues": [
-                  "phone addiction",
-                  "screen time",
-                  "app limit",
-                  "phone away",
-                  "walk-read",
-                  "one month"
+                  "1 month",
+                  "solve alone",
+                  "system slow",
+                  "1h fail",
+                  "Alex-divide",
+                  "now ask early"
                 ],
-                "pointsLabel": "How I feel · 3 原因",
+                "pointsLabel": "How I feel about the change · 3 点",
                 "reasons": [
                   {
-                    "text": "First of all, I can focus better on work and study now. I can finish one task without stopping every few minutes to check a message.",
+                    "text": "First of all, my work is faster and safer now because two people can check different parts and notice different details.",
                     "highlights": [
-                      "focus better"
+                      "faster and safer",
+                      "different details"
                     ]
                   },
                   {
-                    "text": "Secondly, I sleep earlier and feel more energetic during the day. I no longer watch short videos in bed until midnight.",
+                    "text": "Secondly, I feel less stressed and more confident because I know I do not have to face every difficult problem alone.",
                     "highlights": [
-                      "sleep earlier",
-                      "more energetic"
+                      "less stressed",
+                      "more confident"
                     ]
                   },
                   {
-                    "text": "What's more, I have more time for walks, books and face-to-face conversations. For example, I now take an evening walk and talk with my girlfriend after dinner.",
+                    "text": "What's more, the change has improved communication in my team. In the future, I will keep clear notes and speak up before a small problem becomes bigger.",
                     "highlights": [
-                      "more time",
-                      "face-to-face conversations"
+                      "improved communication",
+                      "keep clear notes"
                     ]
                   }
                 ]
@@ -3515,64 +4716,23 @@ window.IELTS_DATA = {
             ]
           },
           {
-            "title": "Alex 故障线｜观点、消息、技术问题与团队",
-            "note": "四题共用“发布新功能后系统变慢”，分别突出改变观点、等回复、解决步骤和分工。",
+            "title": "学生软件延期发布｜计划与观点",
+            "note": "两题共用“九月发布改到十月”；改计划题突出旧计划和新计划，改观点题突出“按时最重要 → 质量比速度重要”。",
             "items": [
               {
-                "question": "Describe a time when you changed an important opinion of yours",
-                "sourceOrder": 2,
-                "memoryChain": {
-                  "story": "原以为好工程师要独立解决 → 系统变慢＋订单失败 → 自己查一小时无果 → Alex 加入并分工 → 很快找到错误设置 → 改变看法",
-                  "reasons": [
-                    "旧想法错了 → 因怕显得弱而浪费时间 → 有点尴尬",
-                    "两个人看不同细节＋互相检查 → 求助让工作更快更安全",
-                    "现在更早沟通 → 先自己尝试但不死撑 → 未来更有信心"
-                  ]
-                },
-                "body": {
-                  "text": "This happened at work about a year ago. I used to believe that a good engineer should solve every problem alone. I thought asking for help showed that I was not good enough. Then our online shopping system became slow after a new feature was released, and several users could not complete their orders. I spent nearly an hour checking it by myself but found nothing. I became nervous because more error messages were appearing. After Alex joined me, he looked at the settings while I checked the messages. We found the wrong setting quite quickly and tested the system together. That experience changed my opinion because I saw that asking for help can be a responsible choice.",
-                  "highlights": [
-                    "about a year ago",
-                    "solve every problem alone",
-                    "system became slow",
-                    "checking it by myself",
-                    "Alex joined me",
-                    "changed my opinion"
-                  ]
-                },
-                "draftCues": [
-                  "work-1 year",
-                  "solve alone",
-                  "system slow",
-                  "Alex helped",
-                  "faster-safer",
-                  "ask early"
-                ],
-                "pointsLabel": "How I felt · 3 点",
-                "reasons": [
-                  {
-                    "text": "At first, I felt a little embarrassed because my old opinion was wrong. I had wasted time because I was too worried about looking weak.",
-                    "highlights": [
-                      "felt a little embarrassed",
-                      "old opinion was wrong"
-                    ]
-                  },
-                  {
-                    "text": "However, Alex showed me that asking for help can make work faster and safer. Two people can notice different details and check each other's ideas.",
-                    "highlights": [
-                      "asking for help",
-                      "faster and safer"
-                    ]
-                  },
-                  {
-                    "text": "Now I feel more confident because I communicate with my team earlier. In the future, I will still try first, but I will not wait too long before speaking up.",
-                    "highlights": [
-                      "more confident",
-                      "communicate with my team earlier"
-                    ]
-                  }
-                ]
+                "question": "Describe a plan that you had to change recently",
+                "sourceOrder": 2
               },
+              {
+                "question": "Describe a time when you changed an important opinion of yours",
+                "sourceOrder": 2
+              }
+            ]
+          },
+          {
+            "title": "Alex 故障线｜改变、消息、技术问题与团队",
+            "note": "七题共用“发布新功能后系统变慢”；按题卡突出工作习惯改变、消息、设备、他人帮助、解决步骤或分工。",
+            "items": [
               {
                 "question": "Describe a time when you sent a message or an email to someone but received no reply for a long time",
                 "sourceOrder": 3,
@@ -3737,6 +4897,171 @@ window.IELTS_DATA = {
                     ]
                   }
                 ]
+              },
+              {
+                "question": "Describe a time when you received a message or email and it took you a long time to reply",
+                "sourceOrder": 13,
+                "memoryChain": {
+                  "story": "Alex 发来系统报错＋截图 → 我在两小时会议且手机静音 → 会后看到多条消息 → 立刻解释并回办公室 → 一起检查错误设置 → 当天解决",
+                  "reasons": [
+                    "看到消息时很尴尬 → Alex 等了很久 → 怕他误会",
+                    "并非故意不回 → 会议要求专心＋手机静音 → 解释后放心",
+                    "以后先发简短回复 → 真忙就找其他队友 → 避免耽误"
+                  ]
+                },
+                "body": {
+                  "text": "I'd like to talk about a message from my colleague Alex that took me a long time to reply to. It happened about a year ago at work. Our company system suddenly became slow, and Alex sent me a message with a screenshot of an error. He asked whether I knew how to fix it. At that time, I was in a two-hour meeting and had put my phone on silent, so I did not see the message. When the meeting ended, I saw several messages from him and felt worried. I replied at once, explained why I was late and went back to our office. We checked the system together, found a wrong setting and fixed the problem before the end of the day.",
+                  "highlights": [
+                    "my colleague Alex",
+                    "screenshot of an error",
+                    "two-hour meeting",
+                    "phone on silent",
+                    "replied at once",
+                    "fixed the problem"
+                  ]
+                },
+                "draftCues": [
+                  "Alex-message",
+                  "system error",
+                  "2h meeting",
+                  "silent phone",
+                  "reply-explain",
+                  "fix"
+                ],
+                "pointsLabel": "How I felt · 3 阶段",
+                "reasons": [
+                  {
+                    "text": "At first, I felt embarrassed because Alex had waited for a long time. I was also worried that he might think I did not want to help him.",
+                    "highlights": [
+                      "felt embarrassed",
+                      "waited for a long time"
+                    ]
+                  },
+                  {
+                    "text": "However, I had not ignored him on purpose. The meeting needed my full attention, and my phone was silent, so I felt better after I explained this clearly.",
+                    "highlights": [
+                      "not ignored him on purpose",
+                      "explained this clearly"
+                    ]
+                  },
+                  {
+                    "text": "Now I know I should send a short reply whenever possible. In the future, if I am truly busy, I will ask another teammate to help with an urgent problem.",
+                    "highlights": [
+                      "send a short reply",
+                      "ask another teammate"
+                    ]
+                  }
+                ]
+              },
+              {
+                "question": "Describe a time when a person did something to help you solve a problem",
+                "sourceOrder": 14,
+                "memoryChain": {
+                  "story": "新功能上线后系统变慢 → 订单失败＋客户投诉 → 自己查错误搜视频仍无果 → Alex 看我的记录 → 分工查设置和测试 → 找到错误并恢复",
+                  "reasons": [
+                    "系统恢复＋投诉停止 → 压力马上减轻 → 很安心",
+                    "Alex 耐心看记录＋分享方法 → 没有责怪我 → 很感激",
+                    "明白求助不是软弱 → 团队合作更快更安全 → 以后早点开口"
+                  ]
+                },
+                "body": {
+                  "text": "I'd like to talk about a time when my colleague Alex helped me solve a problem at work. It happened about a year ago after our team released a new feature. The online shopping system became very slow, some orders failed and the customer service team received complaints. I first tried to solve it alone. I read the error messages, searched online and watched a few videos, but nothing worked. I then wrote down everything I had checked. When Alex returned from a meeting, he read my notes and asked a few simple questions. He suggested dividing the work. He checked the new settings while I prepared test orders. We soon found one wrong setting, changed it carefully and tested the system again. After that, customers could place orders normally.",
+                  "highlights": [
+                    "my colleague Alex",
+                    "system became very slow",
+                    "some orders failed",
+                    "nothing worked",
+                    "dividing the work",
+                    "one wrong setting"
+                  ]
+                },
+                "draftCues": [
+                  "Alex",
+                  "new feature",
+                  "system slow",
+                  "try alone",
+                  "divide work",
+                  "setting-fixed"
+                ],
+                "pointsLabel": "How I felt · 3 原因",
+                "reasons": [
+                  {
+                    "text": "First of all, I felt relieved because the system worked again and the complaints stopped. A serious problem was solved before it became even bigger.",
+                    "highlights": [
+                      "felt relieved",
+                      "complaints stopped"
+                    ]
+                  },
+                  {
+                    "text": "Secondly, I felt grateful because Alex patiently read my notes and shared his method. He did not blame me for failing to solve it alone.",
+                    "highlights": [
+                      "felt grateful",
+                      "shared his method"
+                    ]
+                  },
+                  {
+                    "text": "What's more, I learned that asking for help is not a weakness. Teamwork can make difficult work faster and safer, so I will speak up earlier next time.",
+                    "highlights": [
+                      "asking for help",
+                      "faster and safer"
+                    ]
+                  }
+                ]
+              },
+              {
+                "question": "Describe a time when you had a problem with using an electronic device",
+                "sourceOrder": 15,
+                "memoryChain": {
+                  "story": "去年办公室准备会议报告 → 笔记本突然很慢＋打不开文件 → 重启关软件仍无效 → Alex 检查储存空间 → 移走旧视频＋删临时文件 → 重启后按时开会",
+                  "reasons": [
+                    "会议只剩一小时＋怕文件丢失 → 起初很紧张",
+                    "Alex 找到简单原因并解释 → 文件全部保住 → 很放心",
+                    "现在定期清理＋备份报告 → 下次先看储存空间 → 更有信心"
+                  ]
+                },
+                "body": {
+                  "text": "I'd like to talk about a problem I had with my laptop at the office last year. I was preparing a report for a team meeting that would begin in one hour. Suddenly, the laptop became very slow and the report would not open. I restarted it and closed several programs, but the problem stayed the same. I searched on my phone and watched a short video, but that did not help. I became worried because I thought I might lose my work. My colleague Alex checked the laptop and found that its storage was almost full because of old videos and temporary files. We moved the videos to another drive, deleted the temporary files and restarted the laptop. The report opened normally, and the meeting began on time.",
+                  "highlights": [
+                    "my laptop",
+                    "at the office last year",
+                    "report would not open",
+                    "storage was almost full",
+                    "temporary files",
+                    "meeting began on time"
+                  ]
+                },
+                "draftCues": [
+                  "laptop-office",
+                  "report-1h",
+                  "slow-no open",
+                  "restart-fail",
+                  "storage full",
+                  "clean-normal"
+                ],
+                "pointsLabel": "How I felt · 3 阶段",
+                "reasons": [
+                  {
+                    "text": "At first, I felt very nervous because the meeting was close and I was afraid of losing the report. I did not know whether I could finish on time.",
+                    "highlights": [
+                      "felt very nervous",
+                      "afraid of losing the report"
+                    ]
+                  },
+                  {
+                    "text": "However, I felt relieved when Alex found a simple cause and saved all my work. He also explained each step, so I could understand the solution.",
+                    "highlights": [
+                      "felt relieved",
+                      "understand the solution"
+                    ]
+                  },
+                  {
+                    "text": "Now I clean the storage and back up important files regularly. In the future, I will check the storage first if the laptop becomes slow again.",
+                    "highlights": [
+                      "back up important files",
+                      "check the storage first"
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -3803,7 +5128,7 @@ window.IELTS_DATA = {
           },
           {
             "title": "日出外出线｜花费甚少、组织活动与早起",
-            "note": "三题共用：3 friends → 4:30 → nearby hill → 60 yuan → food and water → chat → sunrise。前两个原因固定为聊天和增进感情，第三点按题目替换。",
+            "note": "四个题目入口共用：3 friends → 4:30 → nearby hill → 60 yuan → food and water → chat → sunrise。前两个原因固定为聊天和增进感情，第三点按题目替换。",
             "items": [
               {
                 "question": "Describe a special day out that cost you little money/didn't cost you much",
@@ -3963,6 +5288,59 @@ window.IELTS_DATA = {
                     "highlights": [
                       "fresh air",
                       "early start worthwhile"
+                    ]
+                  }
+                ]
+              },
+              {
+                "question": "Describe a special day out that costs you little money/didn't cost you much",
+                "sourceOrder": 16,
+                "memoryChain": {
+                  "story": "上周末和三位好友看日出 → 凌晨四点半步行去附近小山 → 交通门票零元 → 六十元买面包水果零食水 → 边爬边聊 → 山顶早餐＋日出拍照",
+                  "reasons": [
+                    "步行和等待时间长 → 不只发短消息 → 能认真聊天",
+                    "分享早餐＋互相帮忙爬山 → 一起笑困倦的样子 → 感情更近",
+                    "日出景色免费＋六十元买很多东西 → 不贵却比大餐更难忘"
+                  ]
+                },
+                "body": {
+                  "text": "I'd like to talk about a sunrise trip I had with three close friends last weekend. We chose a nearby hill because it was free and close to our homes. We met at 4:30 in the morning and walked there, so we paid nothing for transport or tickets. The streets were quiet, and we used our phone lights on the darker part of the path. On the way, we stopped at a shop and spent only about 60 yuan on bread, fruit, snacks and bottled water, which was enough for all four of us. We climbed slowly, chatted about school and work, and helped one another carry the bags. We reached the top before sunrise, sat on a picnic mat and shared breakfast. When the sky turned orange, we took photos and stayed there for nearly an hour.",
+                  "highlights": [
+                    "a sunrise trip",
+                    "three close friends",
+                    "at 4:30",
+                    "a nearby hill",
+                    "only about 60 yuan",
+                    "bread, fruit, snacks and bottled water"
+                  ]
+                },
+                "draftCues": [
+                  "3 friends",
+                  "4:30",
+                  "nearby hill",
+                  "60 yuan",
+                  "food-water",
+                  "chat-sunrise"
+                ],
+                "pointsLabel": "How I feel · 3 原因",
+                "reasons": [
+                  {
+                    "text": "First of all, the walk and the waiting time gave us plenty of time to chat. We normally only send short messages, so this long conversation felt special.",
+                    "highlights": [
+                      "time to chat"
+                    ]
+                  },
+                  {
+                    "text": "Secondly, sharing breakfast and watching the sunrise brought us closer. We passed the food around, helped each other on the path and laughed at our sleepy faces.",
+                    "highlights": [
+                      "brought us closer"
+                    ]
+                  },
+                  {
+                    "text": "What's more, the view was free, so the day felt special without costing much. The 60 yuan bought many simple things, and the memory was better than an expensive meal.",
+                    "highlights": [
+                      "the view was free",
+                      "without costing much"
                     ]
                   }
                 ]
@@ -4147,6 +5525,168 @@ window.IELTS_DATA = {
                       "friendly and helpful service",
                       "shopping more pleasant"
                     ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "本次新题｜课程、采访与重要决定",
+            "note": "三道经历题分别准备：小学外教英语课、采访科技博主、暂停故障功能的重要决定。",
+            "items": [
+              {
+                "id": "p2-impressive-course",
+                "code": "S7",
+                "name": "印象深刻的小学英语课",
+                "isNew": true,
+                "question": "Describe a course that impressed you a lot",
+                "cuePoints": [
+                  "What the course was about",
+                  "Where you took the course",
+                  "What you did during the course",
+                  "And explain why it impressed you a lot"
+                ],
+                "draftCues": [
+                  "primary-school English",
+                  "foreign teacher",
+                  "sing a song",
+                  "watch a movie",
+                  "English became fun"
+                ],
+                "fit": "用户经历独立答案",
+                "focus": "固定为小学英语课，重点说外教、唱歌和看电影让英语第一次变得有趣。",
+                "modules": "小学英语课 → 外国老师 → 唱歌 → 看动画片 → 对英语产生兴趣",
+                "omit": "不需要记外教的国籍或电影的具体名字。",
+                "answerNote": "题干用 course，答案中用 a special lesson in my primary-school English course 保留用户的真实经历。",
+                "answer": [
+                  {
+                    "kind": "课程",
+                    "text": "The course that impressed me most was my English course in primary school, especially one lesson when I was about ten years old. It was about basic spoken English, simple songs and everyday words.",
+                    "translation": "最让我印象深刻的课程是小学时的英语课，尤其是我大约十岁时的一节课。那节课主要讲基础口语、简单歌曲和日常单词。"
+                  },
+                  {
+                    "kind": "地点",
+                    "text": "I took it in my usual classroom at primary school. However, our regular teacher did not teach that lesson. A foreign teacher came to our school, so everyone felt excited before the class even started.",
+                    "translation": "我在小学平时上课的教室里上了这节课。不过，那节课不是我们平时的老师来上。一位外国老师来到了学校，所以课还没开始，大家就很兴奋。"
+                  },
+                  {
+                    "kind": "活动",
+                    "text": "First, the teacher taught us a simple English song and asked us to sing it together. Then we watched part of an animated movie in English. He paused it at several places, taught us a few useful lines and invited us to repeat them in groups.",
+                    "translation": "首先，老师教了我们一首简单的英文歌，让大家一起唱。然后，我们看了一段英文动画电影。他在几个地方按下暂停，教了我们几句实用台词，还让我们分组跟读。"
+                  },
+                  {
+                    "kind": "变化",
+                    "text": "Before that lesson, I thought English mainly meant copying words and remembering grammar rules. I was often afraid of making mistakes. During this class, nobody worried about perfect grammar because we were busy singing, watching and speaking.",
+                    "translation": "在那节课之前，我觉得英语主要就是抄单词和背语法规则。我经常害怕犯错。但在这节课上，大家都忙着唱、看和说，没有人担心语法是不是完美。"
+                  },
+                  {
+                    "kind": "印象",
+                    "text": "It impressed me because it was the first time I realised that English could be lively and enjoyable. The lesson made me more willing to speak in class and gave me a real interest in the language. Even now, I can still remember the whole class singing together.",
+                    "translation": "这节课让我印象深刻，因为我第一次意识到英语可以很生动、很有趣。它让我更愿意在课堂上开口，也让我真正对这门语言产生了兴趣。即使到现在，我仍然记得全班一起唱歌的样子。"
+                  }
+                ]
+              },
+              {
+                "id": "p2-famous-interview",
+                "code": "S10",
+                "name": "采访知名科技博主的经历",
+                "isNew": true,
+                "question": "Describe a time when you interviewed a famous person",
+                "cuePoints": [
+                  "Who the famous person was",
+                  "When and where you interviewed this person",
+                  "What you talked about during the interview",
+                  "And explain how you feel about the experience"
+                ],
+                "draftCues": [
+                  "technology blogger",
+                  "company event",
+                  "last year",
+                  "career and pressure",
+                  "nervous but proud"
+                ],
+                "fit": "新题独立答案",
+                "focus": "把采访设定为公司活动后的短访谈，人物是在科技圈有知名度的博主，故事更容易成立。",
+                "modules": "王先生 → 公司科技活动 → 十五分钟访谈 → 职业与压力 → 紧张但自豪",
+                "omit": "不需要设定全国顶级明星，也不要把采访说成几个小时的正式专访。",
+                "answerNote": "用一次可信的短采访覆盖四个题卡点，感受写采访前后的变化。",
+                "answer": [
+                  {
+                    "kind": "人物",
+                    "text": "I'd like to talk about a short interview I had with Mr Wang, a well-known technology blogger in China. He makes videos about software products and working in the technology industry, and many young engineers follow him online.",
+                    "translation": "我想讲一次对王先生的短采访，他是中国一位知名科技博主。他会制作关于软件产品和科技行业工作的视频，很多年轻工程师都在网上关注他。"
+                  },
+                  {
+                    "kind": "时间地点",
+                    "text": "The interview happened after a technology event held by my company last year. My manager knew that I watched Mr Wang's videos, so he asked me to interview him for our internal newsletter. We sat in a quiet meeting room and talked for about fifteen minutes.",
+                    "translation": "这次采访发生在去年我们公司举办的一场科技活动之后。经理知道我会看王先生的视频，就让我为公司内部通讯采访他。我们坐在一间安静的会议室里，聊了大约十五分钟。"
+                  },
+                  {
+                    "kind": "内容",
+                    "text": "I asked how he had started making videos, how he chose useful topics and how technology workers could keep learning. We also talked about work pressure. He said people should focus on one problem at a time and ask for help before they become too stressed.",
+                    "translation": "我问他当初如何开始做视频、怎样选择有用的主题，以及科技工作者如何持续学习。我们还聊到了工作压力。他说，人们应该一次专注于一个问题，在压力太大之前就寻求帮助。"
+                  },
+                  {
+                    "kind": "过程",
+                    "text": "At first, I was nervous and spoke a little too quickly. However, he smiled, listened carefully and gave clear answers, so I gradually relaxed. I also asked one extra question based on his reply, which made the interview feel more natural.",
+                    "translation": "刚开始时，我很紧张，说话也有一点太快。不过，他一直微笑，认真听我说，并给出清楚的回答，所以我慢慢放松了。我还根据他的回答追问了一个问题，让整个采访更自然。"
+                  },
+                  {
+                    "kind": "感受",
+                    "text": "I felt proud and excited afterwards because it was my first time interviewing a famous person. The experience improved my confidence and taught me that good preparation makes a conversation much easier. I still keep the final newsletter as a memory of that day.",
+                    "translation": "采访后，我感到自豪又兴奋，因为这是我第一次采访知名人物。这次经历提高了我的自信，也让我明白充分准备会让交谈轻松很多。我现在还保留着最后的内部通讯，把它当作那天的纪念。"
+                  }
+                ]
+              },
+              {
+                "id": "p2-happy-important-decision",
+                "code": "S13",
+                "name": "结果让我满意的重要决定",
+                "isNew": true,
+                "question": "Describe a time you made an important decision and were happy with the result",
+                "cuePoints": [
+                  "What the decision was",
+                  "Why you made the decision",
+                  "How easy it was for you to make the decision",
+                  "And explain why you were happy with the result"
+                ],
+                "draftCues": [
+                  "new feature",
+                  "orders failed",
+                  "pause or continue",
+                  "difficult but responsible",
+                  "fixed safely"
+                ],
+                "fit": "Alex 系统故障与重要决定素材直接适配",
+                "focus": "决定必须是暂停新功能，最后用避免更大损失、修复成功和用户恢复正常解释满意的结果。",
+                "modules": "新功能上线 → 系统变慢 → 决定暂停 → 修复并测试 → 用户恢复正常",
+                "omit": "不要把决定写成单纯向 Alex 求助；求助只是作出决定前的核对步骤。",
+                "answerNote": "按事件顺序分成 5 段，明确回答决定是否容易和为何对结果满意。",
+                "answer": [
+                  {
+                    "kind": "背景",
+                    "text": "I'd like to talk about an important decision I made at work about a year ago. My team had just released a new feature for an online shopping system. Soon afterwards, the system became slow and some customers could not complete their orders.",
+                    "translation": "我想讲一次大约一年前在工作中作出的重要决定。当时，我们团队刚为一个在线购物系统发布了新功能。没过多久，系统就变慢了，一些顾客无法完成订单。"
+                  },
+                  {
+                    "kind": "决定",
+                    "text": "I had to decide whether to keep the feature online or pause it. After checking the error messages and speaking briefly with Alex, I decided to pause the feature, tell the customer service team what had happened and fix the problem before releasing it again.",
+                    "translation": "我必须决定是继续让这个功能在线运行，还是暂停它。检查错误信息并和 Alex 简短沟通后，我决定暂停该功能，把情况告诉客服团队，并在重新发布前解决问题。"
+                  },
+                  {
+                    "kind": "原因",
+                    "text": "I made this decision because keeping the feature online could cause more failed orders and affect more users. We wanted to meet our release schedule, but protecting customers and their order information was more important than saving a few hours.",
+                    "translation": "我作出这个决定，是因为继续让功能在线运行可能会导致更多订单失败，并影响更多用户。我们当然想按时完成发布，但保护顾客和他们的订单信息比节省几个小时更重要。"
+                  },
+                  {
+                    "kind": "难度",
+                    "text": "It was not an easy decision. The team had worked hard on the feature, and pausing it meant changing our plan and explaining the delay to other people. However, once I compared the two risks, I knew that pausing it was the more responsible choice.",
+                    "translation": "这不是一个容易的决定。团队为这个功能付出了很多努力，暂停它意味着要改变计划，还要向其他人解释延迟。不过，当我比较了两种风险后，就知道暂停功能是更负责的选择。"
+                  },
+                  {
+                    "kind": "结果",
+                    "text": "Alex and I found one wrong setting, corrected it and tested the system carefully. A few hours later, we put the feature online again, and customers could place orders normally. I was happy because the decision prevented a bigger problem, and the team trusted my judgement afterwards.",
+                    "translation": "Alex 和我发现了一个错误设置，修正后又认真测试了系统。几个小时后，我们重新上线了该功能，顾客又能正常下单了。我很高兴，因为这个决定防止了更大的问题，此后团队也更信任我的判断。"
                   }
                 ]
               }
@@ -11562,6 +13102,534 @@ window.IELTS_DATA = {
             "C08",
             "C06"
           ]
+        }
+      ]
+    },
+    {
+      "id": "new-met-once-person",
+      "category": "人物类",
+      "title": "初次见面与交友",
+      "partTwo": "最近只见过一次、想深入了解的人",
+      "partTwoQuestion": "Describe a person you only met once recently and want to know more about",
+      "isNew": true,
+      "isLatest": true,
+      "items": [
+        {
+          "question": "What can we do to leave a good impression on people we meet for the first time?",
+          "answerLanguage": "en",
+          "materials": [],
+          "answer": "We should be polite, listen carefully and show real interest in the other person. For example, remembering their name and asking a simple follow-up question can make the conversation feel comfortable. It also helps to arrive on time and avoid checking our phone. These small actions usually work better than trying too hard to sound impressive.",
+          "translation": {
+            "question": "我们可以怎样给第一次见面的人留下好印象？",
+            "answer": "我们应该有礼貌、认真倾听，并真诚地对对方感兴趣。比如，记住对方的名字，再追问一个简单问题，能让交谈感觉更舒服。准时到达、不一直看手机也很有帮助。这些小行动通常比刻意表现自己更有效。"
+          },
+          "structure": "建议 → 例子 → 补充 → 结果"
+        },
+        {
+          "question": "What should we not talk about when we meet a person for the first time?",
+          "answerLanguage": "en",
+          "materials": [],
+          "answer": "We should avoid topics that are too private or likely to cause an argument, such as salary, health problems and strong political opinions. Since we do not know the person's boundaries yet, these questions may make them uncomfortable. Safer topics include work, hobbies, food and travel. We can discuss more personal matters after we know each other better.",
+          "translation": {
+            "question": "第一次见到一个人时，我们不应该谈论什么？",
+            "answer": "我们应该避免太私人或容易引发争论的话题，比如收入、健康问题和强烈的政治观点。因为我们还不了解对方的界限，这些问题可能让人不舒服。工作、爱好、食物和旅行是更安全的话题。等大家更熟悉之后，再谈更私人的事情。"
+          },
+          "structure": "观点 → 原因 → 安全选择 → 限定"
+        },
+        {
+          "question": "How do people make friends in China?",
+          "answerLanguage": "en",
+          "materials": [],
+          "answer": "Many people make friends at school or work because they see the same people regularly. Friends and relatives also introduce people to one another, and younger adults may meet through sports clubs or online groups. For example, colleagues often become closer after having lunch or working on a project together. Strong friendships usually develop slowly through repeated contact and trust.",
+          "translation": {
+            "question": "中国人怎样交朋友？",
+            "answer": "很多人会在学校或工作中交朋友，因为他们会经常见到同一群人。朋友和亲戚也会互相介绍，年轻人还可能通过运动俱乐部或网络群组认识新人。比如，同事一起吃午饭或完成项目后，往往会变得更亲近。深厚的友谊通常通过反复相处和信任慢慢形成。"
+          },
+          "structure": "常见方式 → 补充 → 例子 → 结果"
+        },
+        {
+          "question": "On what occasions do people like to make friends?",
+          "answerLanguage": "en",
+          "materials": [],
+          "answer": "People often like to make friends when they enter a new environment, such as a school, a company or a new city. Social events, weddings, trips, volunteer activities and hobby classes also create good chances because people feel relaxed and already share an activity. A common purpose makes it easier to start talking. However, not everyone wants to make friends at large or noisy events.",
+          "translation": {
+            "question": "人们喜欢在什么场合交朋友？",
+            "answer": "人们进入新环境时往往喜欢交朋友，比如新学校、新公司或新城市。社交活动、婚礼、旅行、志愿活动和兴趣课也会带来好机会，因为大家比较放松，而且已经在做同一件事。共同目的会让开口交谈变得更容易。不过，不是每个人都喜欢在人多嘲杂的活动上交朋友。"
+          },
+          "structure": "场合 → 原因 → 结果 → 限定"
+        },
+        {
+          "question": "Is it important to have the same hobbies and interests when making friends?",
+          "answerLanguage": "en",
+          "materials": [],
+          "answer": "Having the same hobbies is helpful, but it is not essential. Shared interests give people something to talk about and a reason to spend time together. For example, two people who enjoy hiking can meet regularly and gradually become close. However, true friendship depends more on respect, honesty and support, so good friends can still enjoy very different activities.",
+          "translation": {
+            "question": "交朋友时，拥有相同的爱好和兴趣重要吗？",
+            "answer": "相同的爱好很有帮助，但不是必要条件。共同兴趣会给人们带来话题，也让大家有理由一起活动。比如，两个喜欢徒步的人可以经常见面，慢慢变得亲近。不过，真正的友谊更依赖尊重、诚实和支持，所以好朋友也可以喜欢完全不同的活动。"
+          },
+          "structure": "观点 → 好处 → 例子 → 限定"
+        },
+        {
+          "question": "What qualities make true friends?",
+          "answerLanguage": "en",
+          "materials": [],
+          "answer": "True friends should be honest, reliable and caring. They listen without judging too quickly and offer practical help when someone has a problem. For example, a real friend will tell us when we are making a mistake, but will do it kindly and stay with us while we solve it. They also respect differences and do not expect constant agreement.",
+          "translation": {
+            "question": "什么品质能造就真正的朋友？",
+            "answer": "真正的朋友应该诚实、可靠而且会关心别人。他们会倾听，不会太快下判断，在别人遇到问题时还会给出实际帮助。比如，真正的朋友会在我们犯错时提醒我们，但会用友善的方式表达，并陪着我们解决问题。他们也会尊重差异，不会要求大家永远意见一致。"
+          },
+          "structure": "品质 → 行为 → 例子 → 补充"
+        }
+      ]
+    },
+    {
+      "id": "new-impressive-course",
+      "category": "事件类",
+      "title": "课程、记忆与纪念",
+      "partTwo": "印象深刻的课程",
+      "partTwoQuestion": "Describe a course that impressed you a lot",
+      "isNew": true,
+      "isLatest": true,
+      "items": [
+        {
+          "question": "What do people need to remember in their daily lives?",
+          "answerLanguage": "en",
+          "materials": [],
+          "answer": "People need to remember appointments, work deadlines, passwords and small daily tasks such as buying food or taking medicine. Forgetting one of these things can waste time or even affect someone's health. For example, many people use a phone reminder before an important meeting. We do not need to remember every detail, but we should keep track of anything that has a clear result.",
+          "translation": {
+            "question": "人们在日常生活中需要记住什么？",
+            "answer": "人们需要记住约会、工作截止日期、密码，以及买食物或吃药这样的日常小事。忘记这些事可能浪费时间，甚至影响健康。比如，很多人会在重要会议前使用手机提醒。我们不用记住每个细节，但应该记好那些会产生明确后果的事。"
+          },
+          "structure": "列举 → 原因 → 例子 → 限定"
+        },
+        {
+          "question": "What can we learn from history?",
+          "answerLanguage": "en",
+          "materials": [],
+          "answer": "History teaches us how societies changed and why some decisions led to good or bad results. It can help governments and ordinary people avoid repeating serious mistakes. It also explains where traditions, cities and social rules came from. However, we should study different sources because one historical story may not show every side of an event.",
+          "translation": {
+            "question": "我们能从历史中学到什么？",
+            "answer": "历史会告诉我们社会如何变化，以及为什么有些决定会带来好或坏的结果。它可以帮助政府和普通人避免重复严重的错误。历史还能解释传统、城市和社会规则从何而来。不过，我们应该学习不同来源，因为一种历史叙述不一定能展示一件事的每一面。"
+          },
+          "structure": "观点 → 用处 → 补充 → 限定"
+        },
+        {
+          "question": "Why do some people have a better memory than others?",
+          "answerLanguage": "en",
+          "materials": [],
+          "answer": "Memory is affected by attention, interest, sleep and practice. People often remember information better when they understand it and connect it with something they already know. For example, a football fan may remember many match results but forget an ordinary shopping list. Natural ability matters, but healthy habits and regular review can improve almost anyone's memory.",
+          "translation": {
+            "question": "为什么有些人的记忆力比其他人更好？",
+            "answer": "记忆会受注意力、兴趣、睡眠和练习影响。当人们理解信息，并把它和自己已经知道的东西联系起来时，往往能记得更好。比如，足球迷可能记得很多比赛结果，却会忘记普通的购物清单。天生能力有影响，但健康习惯和定期复习几乎能改善每个人的记忆。"
+          },
+          "structure": "原因 → 解释 → 例子 → 限定"
+        },
+        {
+          "question": "Do people like things of memorial significance?",
+          "answerLanguage": "en",
+          "materials": [],
+          "answer": "Yes, many people like objects with personal meaning, such as old photos, tickets, letters and gifts. These things can bring back a person, a trip or an important stage of life. For example, someone may keep a cheap concert ticket for years because it reminds them of a special evening. The emotional value is often much greater than the price.",
+          "translation": {
+            "question": "人们喜欢有纪念意义的东西吗？",
+            "answer": "是的，很多人喜欢有个人意义的物品，比如旧照片、票根、信件和礼物。这些东西可以让人回想起某个人、一次旅行或人生的重要阶段。比如，有人会把一张便宜的演唱会票保留多年，因为它能让人想起一个特别的夜晚。这类物品的情感价值往往远高于它的价格。"
+          },
+          "structure": "观点 → 作用 → 例子 → 结果"
+        },
+        {
+          "question": "Which can help people remember things better, words or photos?",
+          "answerLanguage": "en",
+          "materials": [],
+          "answer": "Photos are usually better for remembering places, faces and particular moments because the image gives the brain many details at once. Words are more useful for exact information, such as a date, an address or an explanation. For example, a travel photo brings back the atmosphere, while a note records the hotel name. In practice, using both together works best.",
+          "translation": {
+            "question": "文字和照片，哪一种更能帮助人们记住事情？",
+            "answer": "照片通常更适合记住地点、面孔和某个具体时刻，因为图像会一次给大脑很多细节。文字则更适合记录精确信息，比如日期、地址或解释。例如，旅行照片能唤起当时的氛围，而笔记能记下酒店名称。实际上，两者一起使用的效果最好。"
+          },
+          "structure": "分类回答 → 对比 → 例子 → 结论"
+        },
+        {
+          "question": "Can technology help people remember things better? How?",
+          "answerLanguage": "en",
+          "materials": [],
+          "answer": "Yes, technology can help by storing information and reminding people at the right time. Calendar alerts, note apps and smart watches can remind us about meetings, medicine and deadlines, while cloud photos help us keep personal memories. For example, a repeated alarm can prevent someone from missing a daily tablet. However, people should still understand important information instead of depending on devices for everything.",
+          "translation": {
+            "question": "科技能帮助人们更好地记住事情吗？怎样帮助？",
+            "answer": "可以，科技能够储存信息，并在正确的时间提醒人们。日历提醒、笔记应用和智能手表可以提醒我们会议、吃药和截止日期，云端照片则能帮助我们保存个人回忆。比如，重复闹钟可以防止一个人忘记每天要吃的药。不过，人们仍然应该理解重要信息，而不是什么都依赖设备。"
+          },
+          "structure": "观点 → 方式 → 例子 → 限定"
+        }
+      ]
+    },
+    {
+      "id": "new-friend-gift",
+      "category": "物品类",
+      "title": "送礼与选礼",
+      "partTwo": "想送给朋友的礼物",
+      "partTwoQuestion": "Describe a gift you would like to buy for your friend",
+      "isNew": true,
+      "isLatest": true,
+      "items": [
+        {
+          "question": "When do people normally send gifts to others?",
+          "answerLanguage": "en",
+          "materials": [],
+          "answer": "People normally give gifts on birthdays, at weddings and during important festivals. They may also bring something when visiting another person's home or when they want to thank someone for help. For example, a guest might bring fruit or tea to a family dinner. The occasion changes the type of gift, but the main purpose is usually to show care or respect.",
+          "translation": {
+            "question": "人们通常在什么时候给别人送礼物？",
+            "answer": "人们通常会在生日、婚礼和重要节日送礼物。去别人家做客，或者想感谢别人的帮助时，他们也可能会带一些东西。比如，客人参加家庭聚餐时可能会带水果或茶叶。不同场合会改变礼物的类型，但主要目的通常都是表达关心或尊重。"
+          },
+          "structure": "场合 → 补充 → 例子 → 目的"
+        },
+        {
+          "question": "Is it hard to choose a gift?",
+          "answerLanguage": "en",
+          "materials": [],
+          "answer": "It depends on how well we know the person. Choosing for a close friend is often easier because we understand their interests and remember what they need. It is harder for a colleague or distant relative because we may worry about the price or choose something they never use. In that case, a simple, practical gift is usually the safest choice.",
+          "translation": {
+            "question": "选礼物很难吗？",
+            "answer": "这取决于我们对那个人有多了解。给好朋友选礼物通常更容易，因为我们知道他们的兴趣，也记得他们需要什么。给同事或关系较远的亲戚挑选则比较难，因为我们可能会担心价格，或选到对方根本不会用的东西。这种情况下，简单实用的礼物通常最安全。"
+          },
+          "structure": "分情况 → 原因 → 难点 → 建议"
+        },
+        {
+          "question": "Will people feel happy when receiving an expensive gift?",
+          "answerLanguage": "en",
+          "materials": [],
+          "answer": "An expensive gift can make someone happy, but price does not guarantee a good reaction. People usually care more about whether the gift suits them and shows that the giver understands them. A very expensive present may even create pressure because the receiver feels they must return something similar. A useful and thoughtful gift can therefore be more enjoyable than a costly one.",
+          "translation": {
+            "question": "收到昂贵的礼物时，人们会感到快乐吗？",
+            "answer": "昂贵的礼物可能让人开心，但价格不能保证对方一定喜欢。人们通常更在意礼物是否适合自己，以及它是否表明送礼者了解自己。太贵的礼物甚至可能带来压力，因为收礼者会觉得自己必须回送价值相似的东西。所以，实用又用心的礼物可能比昂贵的礼物更让人愉快。"
+          },
+          "structure": "观点 → 原因 → 反面结果 → 结论"
+        },
+        {
+          "question": "Which do people give on traditional festivals, red envelopes or other kinds of gifts?",
+          "answerLanguage": "en",
+          "materials": [],
+          "answer": "People give both, depending on the festival and the receiver. During Chinese New Year, adults often give red envelopes to children or younger relatives because money is easy to use and represents good wishes. On festivals such as Mid-Autumn Festival, people are more likely to give food, tea or gift boxes. Family customs also differ, so there is no single rule.",
+          "translation": {
+            "question": "传统节日时，人们会送红包还是其他种类的礼物？",
+            "answer": "人们两种都会送，具体取决于节日和收礼者。春节时，成年人经常给孩子或年轻亲戚红包，因为钱很方便使用，也代表美好祝愿。在中秋节等节日，人们则更可能送食物、茶叶或礼盒。各家的习惯也不同，所以没有唯一规则。"
+          },
+          "structure": "分情况 → 节日例子 → 对比 → 限定"
+        },
+        {
+          "question": "What do people usually consider when buying gifts?",
+          "answerLanguage": "en",
+          "materials": [],
+          "answer": "People usually consider the receiver's interests, needs and age, as well as the occasion and their own budget. A good gift should be suitable rather than simply expensive. For example, a smart watch may suit a friend who likes useful technology and wants to monitor their health. People also think about whether the gift is easy to carry, use or exchange.",
+          "translation": {
+            "question": "人们买礼物时通常会考虑什么？",
+            "answer": "人们通常会考虑收礼者的兴趣、需要和年龄，也会考虑场合和自己的预算。好礼物应该合适，而不只是昂贵。比如，如果朋友喜欢实用科技产品，又想监测健康，智能手表就很合适。人们还会考虑礼物是否方便携带、使用或更换。"
+          },
+          "structure": "考虑因素 → 原则 → 例子 → 补充"
+        },
+        {
+          "question": "Are there any unlucky things that people should not buy as gifts in your country?",
+          "answerLanguage": "en",
+          "materials": [],
+          "answer": "Yes, some traditional beliefs affect gift choices in China. Clocks are often avoided, especially as gifts for older people, because the phrase for giving a clock sounds connected with attending a funeral. Some people also avoid umbrellas for close friends or couples because the word sounds like separation. These customs are less important to many young people, but checking first can prevent an awkward moment.",
+          "translation": {
+            "question": "在你的国家，有没有一些不吉利、不应该买来送人的东西？",
+            "answer": "有，中国的一些传统观念会影响礼物选择。人们经常避免送钟，尤其不会送给老年人，因为“送钟”的发音会让人联想到送终。有些人也不会给好朋友或伴侣送伞，因为“伞”听起来像“散”。很多年轻人已经不太在意这些习俗，但送礼前先了解一下，可以避免尴尬。"
+          },
+          "structure": "观点 → 例子一 → 例子二 → 限定"
+        }
+      ]
+    },
+    {
+      "id": "new-organized-person",
+      "category": "人物类",
+      "title": "做事有条理",
+      "partTwo": "做事很有条理的人",
+      "partTwoQuestion": "Describe a person you know who is very organized",
+      "isNew": true,
+      "isLatest": true,
+      "items": [
+        {
+          "question": "Why is it important for people to be organized?",
+          "answerLanguage": "en",
+          "materials": [],
+          "answer": "Being organized helps people use their time well and reduces unnecessary stress. When tasks, deadlines and information are clear, people are less likely to forget something or repeat the same work. For example, a simple weekly plan can stop an employee from missing an important meeting. Organization is especially useful when several responsibilities must be handled at the same time.",
+          "translation": {
+            "question": "为什么做事有条理对人们很重要？",
+            "answer": "做事有条理能帮助人们合理使用时间，减少不必要的压力。当任务、截止日期和信息都很清楚时，人们更不容易忘事或重复同样的工作。比如，一份简单的每周计划可以防止员工错过重要会议。当一个人需要同时处理多项责任时，有条理尤其有用。"
+          },
+          "structure": "观点 → 原因 → 例子 → 适用场景"
+        },
+        {
+          "question": "Do you think children should learn to be organized from a young age?",
+          "answerLanguage": "en",
+          "materials": [],
+          "answer": "Yes, children should learn simple organizational habits early because these habits become easier with practice. Young children can put away toys, prepare their school bag and finish homework before playing. These small tasks teach responsibility and independence. However, parents should keep the routine simple and age-appropriate instead of expecting a child to plan life like an adult.",
+          "translation": {
+            "question": "你认为孩子应该从小学会做事有条理吗？",
+            "answer": "是的，孩子应该尽早学习简单的整理习惯，因为这些习惯会随着练习变得更容易。年幼的孩子可以收好玩具、准备书包，并在玩之前完成作业。这些小任务能教会他们责任感和独立性。不过，父母应该让这些安排保持简单、符合年龄，而不是要求孩子像成年人一样规划生活。"
+          },
+          "structure": "观点 → 原因 → 例子 → 限定"
+        },
+        {
+          "question": "Are organized people more likely to be successful at work or in their studies?",
+          "answerLanguage": "en",
+          "materials": [],
+          "answer": "Organized people are often more likely to succeed because they can set priorities, meet deadlines and prepare before problems appear. A student who reviews regularly may perform better than one who studies everything the night before an exam. At work, clear planning also helps teams cooperate. Still, organization alone is not enough; knowledge, effort and communication are also important.",
+          "translation": {
+            "question": "做事有条理的人在工作或学习中更容易成功吗？",
+            "answer": "做事有条理的人往往更容易成功，因为他们能确定优先级、按时完成任务，并在问题出现前做好准备。定期复习的学生可能比考试前一晚才学习全部内容的学生表现更好。在工作中，清晰规划也有助于团队合作。不过，只有条理还不够，知识、努力和沟通同样重要。"
+          },
+          "structure": "观点 → 原因 → 学习例子 → 限定"
+        },
+        {
+          "question": "What can people do to become more organized?",
+          "answerLanguage": "en",
+          "materials": [],
+          "answer": "People can start with one task list and one calendar instead of using many complicated systems. They should break large jobs into small steps, give each step a deadline and review the list at the end of the day. Keeping the desk and digital files clear also saves time. The key is to follow a simple routine consistently rather than create a perfect plan once.",
+          "translation": {
+            "question": "人们可以做什么来变得更有条理？",
+            "answer": "人们可以从一份任务清单和一个日历开始，不要同时使用很多复杂系统。他们应该把大任务拆成小步骤，给每一步设定截止时间，并在每天结束时查看清单。保持桌面和电子文件整洁也能节省时间。关键是持续遵循一个简单习惯，而不是只制定一次完美计划。"
+          },
+          "structure": "方法 → 步骤 → 补充 → 核心原则"
+        },
+        {
+          "question": "Should parents teach their children to be organized?",
+          "answerLanguage": "en",
+          "materials": [],
+          "answer": "Yes, parents should teach this skill because the home is where children build their first routines. Parents can show them how to put things back, prepare clothes for the next day and check a short homework list. More importantly, adults should model the same behaviour themselves. Teaching should be patient and practical, not a reason to punish children for every untidy moment.",
+          "translation": {
+            "question": "父母应该教孩子做事有条理吗？",
+            "answer": "应该，因为家是孩子建立最初日常习惯的地方。父母可以教他们把东西放回原位、提前准备第二天的衣服，并查看一份简短作业清单。更重要的是，成年人自己也应该示范同样的行为。教孩子时应该耐心、务实，不能因为每一次不整齐就惩罚他们。"
+          },
+          "structure": "观点 → 原因 → 做法 → 限定"
+        },
+        {
+          "question": "Do you think it is important for managers to be well organized?",
+          "answerLanguage": "en",
+          "materials": [],
+          "answer": "It is very important because managers coordinate people, deadlines and resources rather than only their own work. If a manager gives unclear instructions or forgets a dependency, the whole team may lose time. For example, a clear release plan helps each person know what to finish and when. Good managers should also stay flexible because unexpected problems can still change the plan.",
+          "translation": {
+            "question": "你认为管理者做事很有条理重要吗？",
+            "answer": "非常重要，因为管理者要协调人员、截止日期和资源，而不只是处理自己的工作。如果管理者给出不清楚的指示，或忘记某个前置任务，整个团队都可能浪费时间。比如，清晰的发布计划能让每个人知道什么时候要完成什么。好管理者也应该保持灵活，因为意外问题仍然可能改变计划。"
+          },
+          "structure": "观点 → 风险 → 例子 → 限定"
+        }
+      ]
+    },
+    {
+      "id": "new-famous-interview",
+      "category": "事件类",
+      "title": "采访与求职面试",
+      "partTwo": "采访知名人物的经历",
+      "partTwoQuestion": "Describe a time when you interviewed a famous person",
+      "isNew": true,
+      "isLatest": true,
+      "items": [
+        {
+          "question": "What kinds of people are usually interviewed?",
+          "answerLanguage": "en",
+          "materials": [],
+          "answer": "The answer depends on the purpose of the interview. News organisations often interview public figures, experts and people who witnessed an event because they can provide information or an opinion. Companies interview job candidates and sometimes customers. For example, after a new product is released, users may be interviewed about their experience so that the company can improve it.",
+          "translation": {
+            "question": "通常会采访哪些类型的人？",
+            "answer": "答案取决于采访的目的。新闻机构经常采访公众人物、专家和事件目击者，因为他们能提供信息或观点。公司会面试求职者，有时也会访谈顾客。比如，新产品发布后，公司可能会访谈用户的使用体验，以便继续改进。"
+          },
+          "structure": "分目的 → 媒体场景 → 公司场景 → 例子"
+        },
+        {
+          "question": "Why do some people dislike being interviewed?",
+          "answerLanguage": "en",
+          "materials": [],
+          "answer": "Some people feel nervous when they are judged or recorded, so they worry about saying the wrong thing. Others want to protect their privacy or fear that their words will be shortened and taken out of context. For example, a shy employee may know the answer but become quiet in a formal interview. Clear questions and enough preparation time can make the situation easier.",
+          "translation": {
+            "question": "为什么有些人不喜欢被采访或被面试？",
+            "answer": "有些人在被评价或录制时会紧张，所以担心自己说错话。另一些人想保护隐私，或害怕自己的话被缩短后脱离语境。比如，一位害羞的员工可能明明知道答案，却在正式面试中变得沉默。清楚的问题和充足的准备时间能让这种情况更轻松。"
+          },
+          "structure": "原因一 → 原因二 → 例子 → 解决"
+        },
+        {
+          "question": "Why do some people think interviews are a waste of time?",
+          "answerLanguage": "en",
+          "materials": [],
+          "answer": "Some interviews are repetitive, too long or focused on questions that do not reveal anything useful. In job hunting, candidates may attend several rounds and receive no clear decision or feedback. Media interviews can also feel shallow when the questions only try to attract attention. However, a focused interview with a clear purpose can still provide information that a form or test cannot show.",
+          "translation": {
+            "question": "为什么有些人认为采访或面试是浪费时间？",
+            "answer": "有些采访或面试内容重复、时间太长，或者专门问一些无法提供有用信息的问题。求职时，候选人可能要参加好几轮面试，却得不到清楚的决定或反馈。媒体采访如果只用问题来吸引注意，也可能显得很浅。不过，目的明确、问题集中的采访仍然能提供表格或测试无法展示的信息。"
+          },
+          "structure": "问题 → 求职例子 → 媒体例子 → 限定"
+        },
+        {
+          "question": "What should people do to prepare for a job interview?",
+          "answerLanguage": "en",
+          "materials": [],
+          "answer": "People should research the company and understand the main duties of the job. They can prepare two or three real examples that show how they solved a problem, worked with others or learned from a mistake. Practising common questions aloud improves clarity. They should also prepare questions for the employer, check the route or video connection, choose suitable clothes and get enough sleep.",
+          "translation": {
+            "question": "人们应该怎样准备求职面试？",
+            "answer": "人们应该了解公司，并弄清这份工作的主要职责。他们可以准备两三个真实例子，展示自己如何解决问题、与他人合作，或从错误中学习。大声练习常见问题能让表达更清楚。他们还应该准备要问雇主的问题，确认路线或视频连接，选择合适的衣服，并保证充足睡眠。"
+          },
+          "structure": "了解 → 例子 → 练习 → 细节准备"
+        }
+      ]
+    },
+    {
+      "id": "new-happy-person",
+      "category": "人物类",
+      "title": "快乐、儿童与积极情绪",
+      "partTwo": "我认识的快乐的人",
+      "partTwoQuestion": "Describe a happy person you know",
+      "isNew": true,
+      "isLatest": true,
+      "items": [
+        {
+          "question": "Should teachers know what children are doing all the time?",
+          "answerLanguage": "en",
+          "materials": [],
+          "answer": "No, teachers should not monitor children every minute. They need to know enough to keep students safe, support their learning and notice serious problems. However, children also need privacy and chances to make small decisions independently. If adults control everything, students may become afraid of making mistakes or may hide their real feelings instead of asking for help.",
+          "translation": {
+            "question": "老师应该一直知道孩子在做什么吗？",
+            "answer": "不应该，老师不需要每分每秒都监督孩子。他们需要了解足够的情况，以保证学生安全、支持学习，并发现严重问题。不过，孩子也需要隐私，以及独立作出小决定的机会。如果成年人控制一切，学生可能会害怕犯错，或者隐藏真实感受，而不是寻求帮助。"
+          },
+          "structure": "观点 → 老师责任 → 儿童需要 → 风险"
+        },
+        {
+          "question": "Do you think teachers are able to spot the unhappy children?",
+          "answerLanguage": "en",
+          "materials": [],
+          "answer": "Teachers can sometimes notice changes such as a child becoming unusually quiet, angry, tired or less interested in schoolwork. A teacher who knows the student well may see these signs early. However, some children hide their feelings and still behave normally. Teachers therefore need a trusting relationship, regular private conversations and help from parents or school counsellors when necessary.",
+          "translation": {
+            "question": "你认为老师能发现不快乐的孩子吗？",
+            "answer": "老师有时能注意到变化，比如孩子突然变得特别安静、生气、疲惫，或对学习失去兴趣。如果老师很了解这个学生，就可能较早看到这些信号。不过，有些孩子会隐藏情绪，表面上仍然表现正常。因此，老师需要建立信任关系，定期私下交谈，必要时还要寻求家长或学校辅导员的帮助。"
+          },
+          "structure": "可能信号 → 条件 → 限定 → 做法"
+        },
+        {
+          "question": "How can the arts spread positive emotions in society?",
+          "answerLanguage": "en",
+          "materials": [],
+          "answer": "Music, films, theatre and public art can tell hopeful stories and help people feel that their experiences are shared. A cheerful song or a warm film may improve someone's mood after a difficult day. Community performances also bring strangers together and create a sense of belonging. Positive art does not need to ignore real problems; it can show that people can understand and overcome them.",
+          "translation": {
+            "question": "艺术如何在社会中传播积极情绪？",
+            "answer": "音乐、电影、戏剧和公共艺术可以讲述充满希望的故事，让人们感觉自己的经历被他人理解。一首轻快的歌或一部温暖的电影，可能在艰难的一天后改善某个人的心情。社区演出还能让陌生人聚在一起，产生归属感。积极的艺术不需要忽视现实问题；它可以展示人们能够理解并克服这些问题。"
+          },
+          "structure": "方式 → 个人影响 → 社会影响 → 限定"
+        },
+        {
+          "question": "When do you think people are happiest?",
+          "answerLanguage": "en",
+          "materials": [],
+          "answer": "People are often happiest when they feel close to others, healthy and able to see progress in something meaningful. This may happen during a relaxed family meal, after completing a difficult goal or while helping someone they care about. These moments provide connection and a sense of purpose. The exact situation differs, because some people value excitement while others prefer a peaceful routine.",
+          "translation": {
+            "question": "你认为人们什么时候最快乐？",
+            "answer": "当人们感觉自己与他人关系亲近、身体健康，并能在有意义的事情上看到进步时，往往最快乐。这可能发生在一顿轻松的家庭聚餐中、完成困难目标之后，或帮助自己在意的人时。这些时刻会带来联系感和目的感。具体情况因人而异，因为有些人看重兴奋，而有些人更喜欢平静的日常生活。"
+          },
+          "structure": "观点 → 场景 → 原因 → 限定"
+        }
+      ]
+    },
+    {
+      "id": "new-local-famous-person",
+      "category": "人物类",
+      "title": "校园中受欢迎的学生",
+      "partTwo": "当地的知名人物",
+      "partTwoQuestion": "Describe a famous person in your local area",
+      "isNew": true,
+      "isLatest": true,
+      "items": [
+        {
+          "question": "Is it always good to be a popular student at school?",
+          "answerLanguage": "en",
+          "materials": [],
+          "answer": "No, popularity has both benefits and pressure. A popular student may feel confident, have many friends and receive more chances to lead activities. However, they may worry about keeping everyone happy, face jealousy or spend too much time trying to fit in. Popularity is positive when it comes from being kind and helpful, but it should not become more important than learning or real friendship.",
+          "translation": {
+            "question": "在学校里成为受欢迎的学生总是好事吗？",
+            "answer": "不一定，受欢迎既有好处也有压力。受欢迎的学生可能更自信、朋友更多，也有更多机会带领活动。但是，他们可能担心如何让每个人满意，可能面对嫉妒，还可能花太多时间努力合群。如果人气来自善良和乐于助人，那就是积极的；但它不应该比学习或真正的友谊更重要。"
+          },
+          "structure": "观点 → 好处 → 压力 → 限定"
+        },
+        {
+          "question": "Why are some students popular?",
+          "answerLanguage": "en",
+          "materials": [],
+          "answer": "Some students are popular because they are friendly, confident and willing to include others. They may also be funny, good at sport or helpful with schoolwork, which gives classmates a reason to spend time with them. For example, a student who welcomes a new classmate can quickly earn respect. Appearance may attract attention at first, but lasting popularity usually depends on how someone treats people.",
+          "translation": {
+            "question": "为什么有些学生很受欢迎？",
+            "answer": "有些学生受欢迎，是因为他们友好、自信，并且愿意接纳别人。他们也可能很幽默、擅长运动，或愿意帮助同学学习，这些都会让同学想和他们相处。比如，一个主动欢迎新同学的学生能很快赢得尊重。外表可能会在一开始吸引注意，但长久的人气通常取决于一个人如何对待别人。"
+          },
+          "structure": "原因 → 补充 → 例子 → 限定"
+        }
+      ]
+    },
+    {
+      "id": "new-happy-important-decision",
+      "category": "事件类",
+      "title": "决定的大小、速度与共识",
+      "partTwo": "结果让我满意的重要决定",
+      "partTwoQuestion": "Describe a time you made an important decision and were happy with the result",
+      "isNew": true,
+      "isLatest": true,
+      "items": [
+        {
+          "question": "How can we tell the difference between an important and an easy decision?",
+          "answerLanguage": "en",
+          "materials": [],
+          "answer": "An important decision has a large or long-term effect on our life, money, work or other people. An easy decision is one that needs little information, risk or effort. These are not opposites: accepting a good job offer may be easy but still important, while choosing between two similar products may take a long time but have little effect. Consequences are therefore the best test of importance.",
+          "translation": {
+            "question": "我们怎样区分重要决定和容易决定？",
+            "answer": "重要决定会对我们的生活、金钱、工作或其他人产生很大或长期影响。容易决定则不需要太多信息、风险或努力。这两者并不对立：接受一份很好的工作可能很容易，但仍然很重要；在两个类似产品之间选择可能花很长时间，却没有太大影响。因此，后果是判断重要性的最好标准。"
+          },
+          "structure": "定义重要 → 定义容易 → 对比例子 → 结论"
+        },
+        {
+          "question": "Do you think it is a good idea to make a small decision every day?",
+          "answerLanguage": "en",
+          "materials": [],
+          "answer": "Yes, making small decisions is a normal and useful part of daily life. It helps people manage their time and practise taking responsibility instead of waiting for others to choose everything. For example, deciding the three most important tasks each morning can make the day clearer. However, creating a routine for repeated choices, such as breakfast or exercise, can save mental energy.",
+          "translation": {
+            "question": "你认为每天作出一个小决定是好主意吗？",
+            "answer": "是的，作出小决定是日常生活中正常而有用的一部分。它能帮助人们管理时间，练习承担责任，而不是等待别人为自己决定一切。比如，每天早上确定最重要的三项任务，能让一天更清晰。不过，对早餐或运动这样重复出现的选择建立固定习惯，可以节省思考精力。"
+          },
+          "structure": "观点 → 好处 → 例子 → 限定"
+        },
+        {
+          "question": "What little decisions do people make every day?",
+          "answerLanguage": "en",
+          "materials": [],
+          "answer": "People decide what to wear, what to eat, how to travel and which task to do first. They also choose whether to buy a small item, reply to a message immediately or leave it until later. Each decision seems minor, but together they shape the day's time, cost and mood. Simple routines can reduce the number of choices when people feel busy.",
+          "translation": {
+            "question": "人们每天会作出哪些小决定？",
+            "answer": "人们会决定穿什么、吃什么、怎样出行，以及先做哪项任务。他们还会选择是否购买一件小物品、立即回复消息，还是稍后再处理。每个决定看起来都很小，但加在一起会影响一天的时间、花费和心情。忙碌时，简单习惯可以减少需要作出的选择。"
+          },
+          "structure": "列举 → 补充 → 结果 → 建议"
+        },
+        {
+          "question": "What if people in a group have different opinions on a decision?",
+          "answerLanguage": "en",
+          "materials": [],
+          "answer": "The group should first agree on the common goal and let each person explain their reason without interruption. They can compare the advantages, risks and evidence for each option, then look for a compromise. If agreement is still impossible, a vote or the responsible leader can make the final choice. The process should be clear so that people can support the result even if it was not their first choice.",
+          "translation": {
+            "question": "如果一个团体中的人对某个决定意见不同，应该怎么办？",
+            "answer": "团体应该先就共同目标达成一致，再让每个人不受打断地解释自己的理由。大家可以比较每个选择的优点、风险和证据，然后寻找折中方案。如果仍然无法达成一致，可以投票，或由负责的领导作出最终选择。整个过程应该透明，这样即使最终结果不是某个人的首选，他也能支持。"
+          },
+          "structure": "共同目标 → 比较 → 决策方式 → 结果"
+        },
+        {
+          "question": "Do you think most of people’s decisions are made in their 20s?",
+          "answerLanguage": "en",
+          "materials": [],
+          "answer": "I do not think most decisions are made in people's twenties, although many important first decisions happen then. People may choose a career, a city to live in or a long-term partner during that period. However, later life brings major choices about children, housing, health, career changes and retirement. Decision-making continues throughout life because people's needs and circumstances keep changing.",
+          "translation": {
+            "question": "你认为人们的大多数决定都是在二十多岁时作出的吗？",
+            "answer": "我不认为大多数决定都在二十多岁时作出，虽然很多重要的“第一次决定”确实发生在那个阶段。人们可能会在那时选择职业、居住城市或长期伴侣。但是，之后的人生还会带来有关子女、住房、健康、职业变化和退休的重大选择。因为人们的需要和环境一直在变，作决定会贯穿一生。"
+          },
+          "structure": "观点 → 二十岁阶段 → 后续阶段 → 结论"
+        },
+        {
+          "question": "Which is better, to make a decision quickly or slowly?",
+          "answerLanguage": "en",
+          "materials": [],
+          "answer": "It depends on the urgency and how easy the decision is to reverse. Small or urgent choices should usually be made quickly after checking the main facts, because delay can create a bigger problem. Long-term decisions about work, money or health need more time and advice. Even then, setting a deadline is useful, since thinking forever does not necessarily produce a better answer.",
+          "translation": {
+            "question": "快速作决定和慢慢作决定，哪一种更好？",
+            "answer": "这取决于事情有多紧急，以及决定之后是否容易更改。小事或紧急选择通常应该在确认主要事实后快速作出，因为拖延可能造成更大问题。有关工作、金钱或健康的长期决定则需要更多时间和建议。即使如此，设定一个截止时间也很有用，因为无限思考不一定能得到更好的答案。"
+          },
+          "structure": "分情况 → 快速场景 → 慢速场景 → 限定"
         }
       ]
     }
