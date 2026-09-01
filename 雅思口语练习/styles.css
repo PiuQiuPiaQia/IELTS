@@ -104,6 +104,10 @@ main { width: min(1360px, calc(100% - 32px)); min-height: calc(100vh - 72px); ma
 .topic-guide-body > strong { display: block; margin-bottom: 4px; color: var(--muted); font-size: 12px; }
 .reason-label { margin-top: 11px; color: var(--muted); font-size: 12px; }
 .topic-reason-list { color: #27463e; line-height: 1.65; }
+.memory-chain { display: block; margin-top: 7px; padding: 7px 10px; border-radius: 9px; background: #fff8e8; color: #6f592c; font-size: 13px; line-height: 1.65; }
+.memory-chain strong { margin-right: 7px; font-size: 12px; }
+.story-memory-chain { margin-top: 9px; }
+.reason-memory-chain { font-weight: 500; }
 .draft-cues { display: flex; flex-wrap: wrap; align-items: center; gap: 7px; margin-top: 13px; }
 .draft-cues strong { margin-right: 2px; color: var(--muted); font-size: 12px; }
 .draft-cues span { padding: 4px 9px; border: 1px solid #b9ddcd; border-radius: 999px; background: #eef8f3; color: var(--accent-strong); font-size: 12px; font-weight: 800; }
@@ -137,6 +141,7 @@ mark { padding: 0 .15em; background: #ccebdc; color: inherit; border-radius: 3px
 .chunk-family .card-list { gap: 10px; }
 .chunk-card { padding: 10px 14px 11px; }
 .chunk-head { font-size: 15px; }
+.chunk-head b { display: inline-grid; place-items: center; width: 20px; height: 20px; margin-right: 8px; border-radius: 50%; background: var(--accent-wash); color: var(--accent-strong); font-size: 11px; vertical-align: 1px; }
 .chunk-sentence { margin: 8px 0 0; padding: 7px 11px; border-left: 3px solid var(--accent); border-radius: 0 8px 8px 0; background: var(--soft); color: #27463e; font-size: 14px; line-height: 1.6; }
 .round-lead { margin: 6px 0 0; color: var(--muted); font-size: 13px; line-height: 1.7; }
 .round-chains { display: flex; flex-wrap: wrap; gap: 7px; margin-top: 11px; }

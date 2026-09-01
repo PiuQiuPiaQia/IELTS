@@ -1902,8 +1902,16 @@ window.IELTS_DATA = {
               {
                 "question": "Describe a person who is good at learning and speaking new languages",
                 "sourceOrder": 1,
+                "memoryChain": {
+                  "story": "高中第一天认识李华 → 为去法国学法语 → 书＋视频＋问老师 → 午休练习＋单词本 → 能用法语交流 → 去法国点餐",
+                  "reasons": [
+                    "法语难＋作业多 → 以为他会放弃",
+                    "犯错就改＋坚持开口 → 看出努力和天赋",
+                    "现在说得流利 → 每日练习有效 → 以后向他学"
+                  ]
+                },
                 "body": {
-                  "text": "I'd like to talk about my classmate Li Hua. I first met him on the first day of high school, when he sat behind me. We soon became good friends. He decided to learn French because he wanted to travel to France. He read simple books after school, watched French videos at weekends and asked his teacher for help. After practising every day, he could speak it well, and last month he finally visited France.",
+                  "text": "I'd like to talk about my classmate Li Hua. I first met him on the first day of high school, when he sat behind me. We soon became good friends. He decided to learn French because he wanted to travel to France. He read simple books after school, watched French videos at weekends and asked his teacher for help. At the beginning, he could only say a few basic words. Sometimes we practised together at lunch, and he kept new words in a small notebook. Several months later, he could have short conversations with his teacher. After practising every day, he could speak it well, and last month he finally visited France. During the trip, he ordered food in French, which made him very proud.",
                   "highlights": [
                     "my classmate Li Hua",
                     "first day of high school",
@@ -1924,21 +1932,21 @@ window.IELTS_DATA = {
                 "pointsLabel": "How I feel · 3 点",
                 "reasons": [
                   {
-                    "text": "At first, I thought French was difficult and he had no time to practise.",
+                    "text": "At first, I thought French was difficult and he had no time to practise. We also had a lot of homework, so I thought he might stop.",
                     "highlights": [
                       "difficult",
                       "no time"
                     ]
                   },
                   {
-                    "text": "However, he tried his best and showed a real talent for languages.",
+                    "text": "However, he tried his best and showed a real talent for languages. When he made mistakes, he corrected them and kept speaking.",
                     "highlights": [
                       "tried his best",
                       "talent for languages"
                     ]
                   },
                   {
-                    "text": "Now he speaks French fluently, and I want to learn from him.",
+                    "text": "Now he speaks French fluently, and I want to learn from him. His progress shows me that daily practice really works. In the future, I hope to learn another language with him.",
                     "highlights": [
                       "speaks French fluently",
                       "learn from him"
@@ -1949,46 +1957,54 @@ window.IELTS_DATA = {
               {
                 "question": "Describe a person you know who would like to choose a career in the medical field (e.g. a doctor, a nurse)",
                 "sourceOrder": 3,
+                "memoryChain": {
+                  "story": "高中第一天认识李华 → 想当医生救人 → 努力读书 → 去爸爸的医院观察 → 学急救 → 医学院＋明年毕业",
+                  "reasons": [
+                    "爸爸是医生 → 工作受尊重 → 影响李华",
+                    "救治病人 → 帮人好起来 → 有成就感",
+                    "月薪约一万 → 生活更好 → 以后照顾父母"
+                  ]
+                },
                 "body": {
-                  "text": "I'd like to talk about my classmate Li Hua. I met him on the first day of high school, and we have been friends since then. His father is a doctor, so Li Hua learned a lot about this job while growing up. One day, he told me that he also wanted to become a doctor. He now reads medical books, watches simple medical videos and studies hard because he hopes to enter a good medical school.",
+                  "text": "I'd like to talk about my classmate Li Hua. I first met him on the first day of high school, when he sat behind me, and we soon became good friends. One day, he told me that he wanted to be a doctor because he hoped to save people's lives. He read books and studied hard every day because it was difficult to enter medical school. During the holidays, he sometimes visited his father's hospital and watched how doctors talked to patients. He also joined a first-aid class at school, so he learned how to help someone in a simple emergency. Now he is studying at medical school, and he hopes to graduate and become a doctor next year.",
                   "highlights": [
-                    "my classmate Li Hua",
-                    "first day of high school",
-                    "father is a doctor",
-                    "become a doctor",
-                    "reads medical books",
+                    "Li Hua",
+                    "first day",
+                    "friends",
+                    "be a doctor",
+                    "read books",
                     "medical school"
                   ]
                 },
                 "draftCues": [
                   "Li Hua",
-                  "high school",
-                  "doctor",
-                  "father",
-                  "medical books",
-                  "medical school"
+                  "first day-friends",
+                  "doctor-save lives",
+                  "read-study",
+                  "medical school",
+                  "graduate next year"
                 ],
                 "pointsLabel": "Why this career · 3 原因",
                 "reasons": [
                   {
-                    "text": "First of all, his father is a doctor and has been a strong influence on him.",
+                    "text": "First of all, his father is a doctor, so he has influenced Li Hua a lot and is respected by people in the hospital. Li Hua has heard many useful stories about his father's work.",
                     "highlights": [
                       "father is a doctor",
-                      "strong influence"
+                      "influenced Li Hua"
                     ]
                   },
                   {
-                    "text": "Secondly, he wants to help patients and gain a sense of achievement.",
+                    "text": "Secondly, he thinks saving patients is meaningful and can give him a strong sense of achievement. Even helping one person feel better would make him happy.",
                     "highlights": [
-                      "help patients",
+                      "saving patients",
                       "sense of achievement"
                     ]
                   },
                   {
-                    "text": "What's more, it can give him a stable job and a good income.",
+                    "text": "What's more, the pay is good. He may earn about 10,000 yuan a month and support a comfortable life. He could also take care of his parents in the future.",
                     "highlights": [
-                      "stable job",
-                      "good income"
+                      "pay is good",
+                      "10,000 yuan"
                     ]
                   }
                 ]
@@ -2002,20 +2018,28 @@ window.IELTS_DATA = {
               {
                 "question": "Describe a person who works in a successful company",
                 "sourceOrder": 2,
+                "memoryChain": {
+                  "story": "李华在软件公司六年 → 初级工程师 → 检查问题＋写程序 → 三年后升高级 → 学习软件进学校 → 现在带团队",
+                  "reasons": [
+                    "产品受欢迎 → 听用户意见 → 公司赚钱成长",
+                    "学习软件 → 在家看课查答案 → 帮学生提分",
+                    "公司捐钱助人 → 名声更好 → 工作更有意义"
+                  ]
+                },
                 "body": {
-                  "text": "I'd like to talk about my friend Li Hua, who works for a successful software company. He joined it six years ago as a junior engineer. Because he worked hard and learned quickly, he later became a senior engineer and now leads a small team. The company develops simple software for shops and other businesses. Its products have many customers, and the company is now well known in our city.",
+                  "text": "I'd like to talk about my friend Li Hua, who has worked for a successful software company for six years. The company makes study software and office apps. At first, he was a junior engineer and assisted senior staff with software development. His main jobs were checking small problems and writing simple parts of the programs. He often stayed late when the team had an important project. He worked hard, and after three years he became a senior engineer. Last year, one of his study apps was used by many local schools. Now he leads a team that designs new software, and the company is well known. He is busy, but he enjoys the work and feels proud of his progress.",
                   "highlights": [
-                    "works for a successful software company",
-                    "six years ago",
+                    "Li Hua",
+                    "software company",
+                    "study software and office apps",
+                    "six years",
                     "junior engineer",
-                    "senior engineer",
-                    "leads a small team",
-                    "well known"
+                    "leads a team"
                   ]
                 },
                 "draftCues": [
                   "Li Hua",
-                  "software",
+                  "study-office apps",
                   "6 years",
                   "junior-senior",
                   "lead team",
@@ -2024,23 +2048,24 @@ window.IELTS_DATA = {
                 "pointsLabel": "Why the company is successful · 3 原因",
                 "reasons": [
                   {
-                    "text": "First of all, its software products are useful and popular with customers.",
+                    "text": "First of all, its products are popular, so the company makes a lot of money and grows quickly. Many users tell the company what they need, and the team improves the apps every month.",
                     "highlights": [
-                      "useful and popular"
+                      "products are popular",
+                      "makes a lot of money"
                     ]
                   },
                   {
-                    "text": "Secondly, skilled workers like Li Hua cooperate well and keep improving the products.",
+                    "text": "Secondly, its software helps many people. For example, its study apps can help students improve their grades. They can watch short lessons and check their answers at home.",
                     "highlights": [
-                      "skilled workers",
-                      "cooperate well"
+                      "helps many people",
+                      "students improve their grades"
                     ]
                   },
                   {
-                    "text": "What's more, the company is growing quickly and gives its staff better pay and opportunities.",
+                    "text": "What's more, the company donates money to society and helps people who cannot afford enough food. This gives the company a good name and makes Li Hua's work more meaningful.",
                     "highlights": [
-                      "growing quickly",
-                      "better pay and opportunities"
+                      "donates money",
+                      "cannot afford enough food"
                     ]
                   }
                 ]
@@ -2048,15 +2073,23 @@ window.IELTS_DATA = {
               {
                 "question": "Describe a person you know who has a successful business",
                 "sourceOrder": 4,
+                "memoryChain": {
+                  "story": "李华六年前创业 → 小办公室＋没员工 → 白天写程序＋晚上回消息 → 逐个修问题 → 学校使用产品 → 公司出名",
+                  "reasons": [
+                    "产品简单好用 → 听用户意见 → 生意赚钱成长",
+                    "学习软件 → 随时学习 → 帮学生提分",
+                    "公司捐钱助人 → 大家更信任 → 李华很自豪"
+                  ]
+                },
                 "body": {
-                  "text": "I'd like to talk about my friend Li Hua. I first met him in high school, and we still keep in touch. About six years ago, he started a small software business because he wanted to make useful apps for local shops. At first, he rented a tiny office and had no staff. He did most of the work himself. Later, more customers used his products, so he hired several workers and the business became well known.",
+                  "text": "I'd like to talk about my friend Li Hua, who owns a software company. It makes study software and office apps. He started the business six years ago. At first, he had only a small office and no staff, so he did most of the work himself. He wrote programs during the day and answered users' messages at night. Sometimes a new app did not work well, but he fixed the problems one by one. However, he worked very hard. Three years later, the business began to grow quickly and many people joined it. Last year, several schools started using its study apps. Now the company is well known, and Li Hua has a team to help him.",
                   "highlights": [
-                    "my friend Li Hua",
+                    "Li Hua",
+                    "study software and office apps",
                     "six years ago",
-                    "small software business",
-                    "tiny office",
-                    "had no staff",
-                    "became well known"
+                    "small office",
+                    "no staff",
+                    "company is well known"
                   ]
                 },
                 "draftCues": [
@@ -2070,23 +2103,24 @@ window.IELTS_DATA = {
                 "pointsLabel": "Why the business is successful · 3 原因",
                 "reasons": [
                   {
-                    "text": "First of all, he makes useful products that solve real problems for customers.",
+                    "text": "First of all, its products are popular, so the business makes a lot of money and grows quickly. The apps are simple to use, and the company listens carefully to its users.",
                     "highlights": [
-                      "solve real problems"
+                      "products are popular",
+                      "makes a lot of money"
                     ]
                   },
                   {
-                    "text": "Secondly, the business earns good money and has grown from a small office into a strong team.",
+                    "text": "Secondly, its software helps many people. For example, its study apps can help students improve their grades. Students can study for a few minutes whenever they have free time.",
                     "highlights": [
-                      "earns good money",
-                      "strong team"
+                      "helps many people",
+                      "students improve their grades"
                     ]
                   },
                   {
-                    "text": "What's more, he helps other people by creating jobs and donating some money.",
+                    "text": "What's more, the company donates money to society and helps people who cannot afford enough food. Because of this, people trust the business and Li Hua feels proud of it.",
                     "highlights": [
-                      "creating jobs",
-                      "donating some money"
+                      "donates money",
+                      "cannot afford enough food"
                     ]
                   }
                 ]
@@ -2100,8 +2134,16 @@ window.IELTS_DATA = {
               {
                 "question": "Describe a person who loves to grow plants (e.g.vegetables, flowers) at home or in the garden",
                 "sourceOrder": 5,
+                "memoryChain": {
+                  "story": "奶奶住农村 → 家旁小花园 → 种菜种花 → 早起浇水除草 → 秋天收菜分享 → 我帮忙采摘做饭",
+                  "reasons": [
+                    "退休后有时间 → 园艺是爱好 → 看种子长大很开心",
+                    "自己种的更新鲜 → 知道怎么种 → 吃得健康安心",
+                    "少去商店买菜 → 省钱 → 多余的菜送邻居"
+                  ]
+                },
                 "body": {
-                  "text": "I'd like to talk about my grandma, who lives in the countryside. She has a small garden beside her house and grows tomatoes, cabbages and several kinds of flowers there. She gets up early to water the plants, remove weeds and check them carefully. In autumn, she picks the fresh vegetables and often gives some to our neighbours. I sometimes help her when I visit during the holidays.",
+                  "text": "I'd like to talk about my grandma, who lives in the countryside. She has a small garden beside her house and grows tomatoes, cabbages and several kinds of flowers there. She gets up early to water the plants, remove weeds and check them carefully. She knows when each plant needs more water, and she sometimes makes simple plant food from kitchen waste. In autumn, she picks the fresh vegetables and often gives some to our neighbours. I sometimes help her when I visit during the holidays. She shows me how to choose ripe tomatoes, and then we cook them for lunch. The work is not easy, but she always looks relaxed and happy in the garden.",
                   "highlights": [
                     "my grandma",
                     "lives in the countryside",
@@ -2122,24 +2164,24 @@ window.IELTS_DATA = {
                 "pointsLabel": "Why she loves it · 3 原因",
                 "reasons": [
                   {
-                    "text": "First of all, gardening is a relaxing hobby and helps her use her free time well.",
+                    "text": "First of all, gardening is her hobby. She is retired, so it makes her happy and helps her use her free time. Watching a small seed become a plant gives her something to look forward to.",
                     "highlights": [
-                      "relaxing hobby",
-                      "free time"
+                      "her hobby",
+                      "use her free time"
                     ]
                   },
                   {
-                    "text": "Secondly, home-grown vegetables are fresh and good for her health.",
+                    "text": "Secondly, eating her own vegetables is healthy because they are fresher than vegetables from a supermarket. She knows exactly how they were grown, so our family feels safe eating them.",
                     "highlights": [
-                      "fresh",
-                      "good for her health"
+                      "healthy",
+                      "fresher"
                     ]
                   },
                   {
-                    "text": "What's more, growing food saves money and lets her share it with neighbours.",
+                    "text": "What's more, growing vegetables saves money because buying them from shops can be expensive. She can also share extra vegetables with neighbours, which makes their relationship closer.",
                     "highlights": [
                       "saves money",
-                      "share it with neighbours"
+                      "shops can be expensive"
                     ]
                   }
                 ]
@@ -2147,8 +2189,16 @@ window.IELTS_DATA = {
               {
                 "question": "Describe a friend from your childhood",
                 "sourceOrder": 6,
+                "memoryChain": {
+                  "story": "小学第一天认识李华 → 坐我后面 → 一起写作业 → 公园野餐打球 → 雨天共伞送我回家 → 现在仍联系",
+                  "reasons": [
+                    "聪明＋耐心讲题 → 从不让我难堪",
+                    "很幽默 → 放学路上讲笑话 → 让我开心",
+                    "遇到问题陪着我 → 一直善良 → 现在仍信任他"
+                  ]
+                },
                 "body": {
-                  "text": "I'd like to talk about my childhood friend Li Hua. We met on the first day of primary school because he sat behind me in class. We started talking during a break and soon became good friends. After school, we often did our homework together. At weekends, we sometimes went to a nearby park, had a picnic or played basketball. Although we are both busy now, we still send messages to each other.",
+                  "text": "I'd like to talk about my childhood friend Li Hua. We met on the first day of primary school because he sat behind me in class. We started talking during a break and soon became good friends. After school, we often did our homework together. When I could not understand a maths question, he explained it slowly and showed me an easier way. At weekends, we sometimes went to a nearby park, had a picnic or played basketball. I still remember one rainy day when I forgot my umbrella. He shared his with me and walked me home. Although we are both busy now, we still send messages to each other and meet when we return to our hometown.",
                   "highlights": [
                     "childhood friend Li Hua",
                     "first day of primary school",
@@ -2169,21 +2219,21 @@ window.IELTS_DATA = {
                 "pointsLabel": "What made me like him · 3 原因",
                 "reasons": [
                   {
-                    "text": "First of all, he was clever and often helped me with schoolwork.",
+                    "text": "First of all, he was clever and often helped me with schoolwork. He never made me feel stupid when I asked a simple question.",
                     "highlights": [
                       "clever",
                       "helped me with schoolwork"
                     ]
                   },
                   {
-                    "text": "Secondly, he was funny and his jokes always cheered me up.",
+                    "text": "Secondly, he was funny and his jokes always cheered me up. Even after a difficult school day, we could laugh together on the way home.",
                     "highlights": [
                       "funny",
                       "cheered me up"
                     ]
                   },
                   {
-                    "text": "What's more, he was kind and stayed with me whenever I had a problem.",
+                    "text": "What's more, he was kind and stayed with me whenever I had a problem. This is why I still trust him and value our long friendship today.",
                     "highlights": [
                       "kind",
                       "whenever I had a problem"
@@ -2335,14 +2385,22 @@ window.IELTS_DATA = {
               {
                 "question": "Describe a place you have travelled to that you would like to recommend to others",
                 "sourceOrder": 1,
+                "memoryChain": {
+                  "story": "去年和女友去上海 → 高铁＋七天 → 上海中心看全城 → 河边＋商场＋小笼包 → 夜景下聊天 → 想推荐给别人",
+                  "reasons": [
+                    "现代高楼＋传统街道＋河景 → 一天看到多种景色",
+                    "当地人友好 → 迷路时主动指路",
+                    "小笼包好吃 → 和女友分享 → 旅行记忆更美好"
+                  ]
+                },
                 "body": {
-                  "text": "I'd like to talk about Shanghai, one of the largest cities in China. I went there with my girlfriend last year during a holiday. We travelled by high-speed train and stayed for seven days. On the first day, we visited the Oriental Pearl Tower and looked over the city. Later, we walked along the river, visited a large shopping mall and tried local food such as xiaolongbao.",
+                  "text": "I'd like to talk about Shanghai, one of the largest cities in China. I went there with my girlfriend last year during a holiday. We travelled by high-speed train and stayed for seven days. On the first day, we visited Shanghai Tower and looked over the city. We could see many roads, houses and boats below us, so we took lots of photos. Later, we walked along the river, visited a large shopping mall and tried local food such as xiaolongbao. In the evening, the lights beside the river were beautiful. We sat there for a while, talked about the trip and planned what to do the next day.",
                   "highlights": [
                     "Shanghai",
                     "with my girlfriend last year",
                     "high-speed train",
                     "seven days",
-                    "Oriental Pearl Tower",
+                    "Shanghai Tower",
                     "tried local food"
                   ]
                 },
@@ -2357,7 +2415,7 @@ window.IELTS_DATA = {
                 "pointsLabel": "Why I recommend it · 3 原因",
                 "reasons": [
                   {
-                    "text": "First of all, the scenery is amazing, with modern buildings, traditional streets and a river view.",
+                    "text": "First of all, the scenery is amazing, with modern buildings, traditional streets and a river view. These different views are close together, so visitors can see a lot in one day.",
                     "highlights": [
                       "scenery is amazing",
                       "modern buildings",
@@ -2366,14 +2424,14 @@ window.IELTS_DATA = {
                     ]
                   },
                   {
-                    "text": "Secondly, local people are friendly and often smile at visitors.",
+                    "text": "Secondly, local people are friendly and often smile at visitors. When we could not find the station, a young man stopped and showed us the right way.",
                     "highlights": [
                       "friendly",
                       "smile at visitors"
                     ]
                   },
                   {
-                    "text": "What's more, the local food is delicious, especially xiaolongbao.",
+                    "text": "What's more, the local food is delicious, especially xiaolongbao. It was hot and full of soup, and sharing a basket with my girlfriend was a lovely part of the trip.",
                     "highlights": [
                       "local food is delicious",
                       "xiaolongbao"
@@ -2384,15 +2442,23 @@ window.IELTS_DATA = {
               {
                 "question": "Describe a place you would like to visit in your free time",
                 "sourceOrder": 2,
+                "memoryChain": {
+                  "story": "朋友给我看上海视频 → 想和女友坐高铁 → 计划住七天 → 上海中心＋河边＋商场 → 拍照看船 → 吃小笼包",
+                  "reasons": [
+                    "现代高楼＋传统街道＋河景 → 新旧上海都想看",
+                    "听说当地人友好 → 迷路也有人帮忙",
+                    "网上常看到小笼包 → 想在上海吃新鲜的"
+                  ]
+                },
                 "body": {
-                  "text": "I'd like to visit Shanghai in my next long holiday. I first became interested in it after a friend showed me a travel video. I plan to go there with my girlfriend by high-speed train and stay for about seven days. We will visit the Oriental Pearl Tower, walk along the river and spend some time in a large shopping mall. I also want to try several kinds of local food.",
+                  "text": "I'd like to visit Shanghai in my next long holiday. I first became interested in it after a friend showed me a travel video. The video showed tall buildings, old streets and colourful lights beside the river. I plan to go there with my girlfriend by high-speed train and stay for about seven days. We will visit Shanghai Tower, walk along the river and spend some time in a large shopping mall. I want to take photos from the tower and watch the boats in the evening. I also want to try several kinds of local food. Before the trip, I will make a simple daily plan so that we do not waste time.",
                   "highlights": [
                     "visit Shanghai",
                     "a friend showed me a travel video",
                     "with my girlfriend",
                     "high-speed train",
                     "seven days",
-                    "Oriental Pearl Tower"
+                    "Shanghai Tower"
                   ]
                 },
                 "draftCues": [
@@ -2406,7 +2472,7 @@ window.IELTS_DATA = {
                 "pointsLabel": "Why I want to visit it · 3 原因",
                 "reasons": [
                   {
-                    "text": "First of all, I want to see its modern buildings, traditional streets and beautiful river view.",
+                    "text": "First of all, I want to see its modern buildings, traditional streets and beautiful river view. Seeing old and new parts of the same city would be interesting to me.",
                     "highlights": [
                       "modern buildings",
                       "traditional streets",
@@ -2414,13 +2480,13 @@ window.IELTS_DATA = {
                     ]
                   },
                   {
-                    "text": "Secondly, I have heard that local people are friendly to visitors.",
+                    "text": "Secondly, I have heard that local people are friendly to visitors. If I get lost, I believe someone will be willing to help me.",
                     "highlights": [
                       "friendly to visitors"
                     ]
                   },
                   {
-                    "text": "What's more, I really want to try local food such as xiaolongbao.",
+                    "text": "What's more, I really want to try local food such as xiaolongbao. I have seen it online many times, but I want to taste the fresh one in Shanghai.",
                     "highlights": [
                       "try local food",
                       "xiaolongbao"
@@ -2437,15 +2503,23 @@ window.IELTS_DATA = {
               {
                 "question": "Describe a boring place",
                 "sourceOrder": 3,
+                "memoryChain": {
+                  "story": "去年和女友去上海三天 → 塔＋博物馆＋当地菜 → 原本期待很高 → 渐渐无聊 → 最后一天下午提前回酒店",
+                  "reasons": [
+                    "景色像家乡 → 拍完照片就没事做",
+                    "当地人比较害羞 → 没机会聊天听故事",
+                    "下雨两天 → 困在酒店看电视玩手机"
+                  ]
+                },
                 "body": {
-                  "text": "I'd like to talk about a museum area in Shanghai that I visited with my girlfriend last year. We planned to spend three days there and went to the tower and several small museums near our hotel. However, many displays looked almost the same, and it rained heavily during most of the trip. We could not walk outside for long, so we returned to the hotel early on two afternoons.",
+                  "text": "I'd like to talk about Shanghai, which I visited with my girlfriend last year. We stayed there for three days. At first, we went to the Shanghai Tower and saw the city view. Then we visited several famous museums and tried some local food. I had made a long list of places before leaving home, so I expected every day to be exciting. However, I did not enjoy the trip as much as I expected, and I gradually felt bored. By the last afternoon, we were tired and went back to the hotel much earlier than planned.",
                   "highlights": [
-                    "a museum area in Shanghai",
+                    "Shanghai",
                     "with my girlfriend",
                     "three days",
-                    "several small museums",
-                    "rained heavily",
-                    "returned to the hotel early"
+                    "Shanghai Tower",
+                    "famous museums",
+                    "felt bored"
                   ]
                 },
                 "draftCues": [
@@ -2459,24 +2533,24 @@ window.IELTS_DATA = {
                 "pointsLabel": "Why it was boring · 3 原因",
                 "reasons": [
                   {
-                    "text": "First of all, the view looked similar everywhere and was not attractive to me.",
+                    "text": "First of all, although the buildings and river were nice, the view was similar to my hometown, so it was not very attractive to me. After taking a few photos, I did not know what else to do there.",
                     "highlights": [
-                      "looked similar",
-                      "not attractive"
+                      "similar to my hometown",
+                      "not very attractive"
                     ]
                   },
                   {
-                    "text": "Secondly, everyone seemed busy, so I had almost no chance to talk with local people.",
+                    "text": "Secondly, the local people seemed shy and did not really talk with me, so I had no chance to chat with them. I had hoped to hear some local stories, but that did not happen.",
                     "highlights": [
-                      "everyone seemed busy",
-                      "no chance to talk"
+                      "local people seemed shy",
+                      "no chance to chat"
                     ]
                   },
                   {
-                    "text": "What's more, it rained for most of the trip, so I stayed in the hotel with nothing to do.",
+                    "text": "What's more, it rained for two days, so I could only stay in the hotel and had little to do. We watched TV and played with our phones, which was no different from being at home.",
                     "highlights": [
-                      "rained for most of the trip",
-                      "nothing to do"
+                      "rained for two days",
+                      "stay in the hotel"
                     ]
                   }
                 ]
@@ -2489,8 +2563,16 @@ window.IELTS_DATA = {
               {
                 "question": "Describe a home that you like to visit but do not want to live in",
                 "sourceOrder": 4,
+                "memoryChain": {
+                  "story": "奶奶的农村平房 → 三间卧室＋大院＋菜园 → 假期去住 → 浇菜摘番茄＋喝茶聊天 → 夜晚看星星 → 住两三天就离开",
+                  "reasons": [
+                    "公交一小时一班＋车站远 → 上班太慢",
+                    "朋友都在城里 → 只能网上联系 → 长住会孤单",
+                    "附近商店和娱乐场所少 → 买东西看电影都要进城"
+                  ]
+                },
                 "body": {
-                  "text": "I'd like to talk about my grandma's house in the countryside. It is a traditional one-floor house with three bedrooms, a large yard and a vegetable garden. I usually visit it during long holidays. I like helping my grandma in the garden, eating fresh vegetables and sitting in the quiet yard with her. The air is clean, and the whole place feels peaceful, so it is perfect for a short visit.",
+                  "text": "I'd like to talk about my grandma's house in the countryside. It is a traditional one-floor house with three bedrooms, a large yard and a vegetable garden. I usually visit it during long holidays. In the morning, I help my grandma water the vegetables and pick some tomatoes for lunch. In the afternoon, we sit in the quiet yard, drink tea and talk about my life in the city. At night, I can see more stars because there are fewer tall buildings and bright lights. The air is clean, and the whole place feels peaceful, so it is perfect for a short visit. I normally stay for two or three days and feel rested when I leave.",
                   "highlights": [
                     "my grandma's house",
                     "in the countryside",
@@ -2511,21 +2593,21 @@ window.IELTS_DATA = {
                 "pointsLabel": "Why I would not live there · 3 原因",
                 "reasons": [
                   {
-                    "text": "First of all, public transport is inconvenient, so travelling to work would take too long.",
+                    "text": "First of all, public transport is inconvenient, so travelling to work would take too long. There is only one bus every hour, and the nearest station is far away.",
                     "highlights": [
                       "public transport is inconvenient",
                       "take too long"
                     ]
                   },
                   {
-                    "text": "Secondly, most of my friends live in the city, so I might feel lonely there.",
+                    "text": "Secondly, most of my friends live in the city, so I might feel lonely there. I could call them online, but it would not feel the same as meeting them.",
                     "highlights": [
                       "friends live in the city",
                       "feel lonely"
                     ]
                   },
                   {
-                    "text": "What's more, there are few shops or entertainment places nearby.",
+                    "text": "What's more, there are few shops or entertainment places nearby. Buying something simple or watching a film would require a long trip into town.",
                     "highlights": [
                       "few shops",
                       "entertainment places"
@@ -2541,44 +2623,53 @@ window.IELTS_DATA = {
               {
                 "question": "Describe an important river/lake in your country",
                 "sourceOrder": 5,
+                "memoryChain": {
+                  "story": "地理课知道凉水河 → 约两千公里＋地图像龙 → 流经很多城市 → 河边建公园 → 和家人散步看船 → 当地人运动野餐",
+                  "reasons": [
+                    "处理后可饮用＋可洗衣 → 很少缺水 → 方便居民生活",
+                    "河景吸引游客 → 坐船购物吃饭 → 带动当地经济",
+                    "给农民提供水 → 种菜和其他作物 → 保住收入"
+                  ]
+                },
                 "body": {
-                  "text": "I'd like to talk about a large river in my province. It passes through several cities and is both long and wide. In some parts, there are bridges and small boats, while other parts have green parks along the riverbank. I visited one of these parks with my family last spring. We walked beside the water, watched the boats and took several photos of the river.",
+                  "text": "I'd like to talk about the Liangshui River in my country. It is about 2,000 kilometres long and looks like a flying dragon on the map. It crosses many cities, and local governments have built parks and gardens along its banks. I first learned about it in a geography class, and later I visited one part of it with my family. We walked beside the water, saw small boats and rested under the trees. The river view is beautiful, so local people often walk there and take photos. In the morning, some older people exercise nearby, while families often come for a picnic at weekends.",
                   "highlights": [
-                    "a large river in my province",
-                    "several cities",
-                    "long and wide",
-                    "bridges and small boats",
-                    "green parks",
-                    "with my family"
+                    "Liangshui River",
+                    "2,000 kilometres",
+                    "flying dragon",
+                    "many cities",
+                    "parks and gardens",
+                    "take photos"
                   ]
                 },
                 "draftCues": [
-                  "local river",
+                  "Liangshui River",
+                  "2,000 km",
+                  "dragon-map",
                   "many cities",
-                  "long-wide",
                   "parks",
-                  "boats",
-                  "farms"
+                  "photos"
                 ],
                 "pointsLabel": "Why it is important · 3 原因",
                 "reasons": [
                   {
-                    "text": "First of all, it provides clean water for many cities and local families.",
+                    "text": "First of all, it provides drinking water after factory treatment. People can also use the water to wash clothes, so the area rarely faces a water shortage. This makes daily life easier for many families along the river.",
                     "highlights": [
-                      "provides clean water"
+                      "drinking water",
+                      "water shortage"
                     ]
                   },
                   {
-                    "text": "Secondly, it attracts tourists and supports local shops and jobs.",
+                    "text": "Secondly, its beautiful river view attracts tourists and helps the local economy. Visitors buy food, take boat trips and spend money in small local shops.",
                     "highlights": [
                       "attracts tourists",
-                      "supports local shops and jobs"
+                      "local economy"
                     ]
                   },
                   {
-                    "text": "What's more, farmers use its water to grow vegetables and other crops.",
+                    "text": "What's more, it provides enough water for farmers to grow vegetables and other plants. Without the river, their crops could become dry, and their income would be lower.",
                     "highlights": [
-                      "farmers use its water",
+                      "water for farmers",
                       "grow vegetables"
                     ]
                   }
@@ -2647,21 +2738,29 @@ window.IELTS_DATA = {
               {
                 "question": "Describe a law on environmental protection",
                 "sourceOrder": 2,
+                "memoryChain": {
+                  "story": "去香港旅行 → 听说禁止乱扔垃圾 → 违者罚两千 → 街上垃圾桶多 → 城市很干净 → 居民和清洁工受益",
+                  "reasons": [
+                    "街道干净 → 人们愿意停留消费 → 本地商店顾客更多",
+                    "法律提醒环保 → 久而久之 → 扔进垃圾桶成为习惯",
+                    "罚款收入 → 种树种花＋添垃圾桶 → 城市更美"
+                  ]
+                },
                 "body": {
-                  "text": "I'd like to talk about a law that does not allow people to drop rubbish in public places. Anyone who breaks it may receive a fine of up to 2,000 yuan. I first learned about a similar law from a TV programme about Singapore last month. Local residents, street cleaners and even animals can benefit from it because there will be less plastic and other rubbish in parks and streets.",
+                  "text": "I'd like to talk about a law against throwing rubbish on the street. I first learned about it when I visited Hong Kong last year. A local person told me that anyone who dropped rubbish in a public place could receive a fine of 2,000 yuan, which is a lot of money. During my trip, I saw rubbish bins on many streets, and most people used them. The city looked clean and pleasant, even in a busy shopping area. Everyone benefits from this law, especially local residents and street cleaners, because they have a better environment and less rubbish to deal with. This was very different from some crowded places I had visited before, so the law left an impression on me.",
                   "highlights": [
-                    "drop rubbish in public places",
-                    "fine of up to 2,000 yuan",
-                    "TV programme about Singapore",
+                    "throwing rubbish on the street",
+                    "Hong Kong last year",
+                    "fine of 2,000 yuan",
                     "local residents",
                     "street cleaners",
-                    "less plastic"
+                    "city looked clean"
                   ]
                 },
                 "draftCues": [
                   "no littering",
                   "2,000 fine",
-                  "TV-Singapore",
+                  "Hong Kong",
                   "residents",
                   "cleaners",
                   "clean city"
@@ -2669,23 +2768,24 @@ window.IELTS_DATA = {
                 "pointsLabel": "How I feel · 3 原因",
                 "reasons": [
                   {
-                    "text": "First of all, the law can make streets and parks much cleaner.",
+                    "text": "First of all, the city stays clean because people do not throw rubbish, so it has a better environment and attracts more customers to local businesses. People are more willing to eat, shop and spend time in a clean area.",
                     "highlights": [
-                      "streets and parks much cleaner"
+                      "city stays clean",
+                      "attracts more customers"
                     ]
                   },
                   {
-                    "text": "Secondly, it can protect animals from eating plastic rubbish.",
+                    "text": "Secondly, the law helps people understand the importance of protecting the environment. After following it for some time, using a rubbish bin can become a natural habit.",
                     "highlights": [
-                      "protect animals",
-                      "plastic rubbish"
+                      "understand the importance",
+                      "protecting the environment"
                     ]
                   },
                   {
-                    "text": "What's more, the fine reminds people to take responsibility for their actions.",
+                    "text": "What's more, the fine money can be used to plant more trees and flowers and make the city more beautiful. It can also support more bins and cleaning work in public places.",
                     "highlights": [
-                      "fine reminds people",
-                      "take responsibility"
+                      "fine money",
+                      "trees and flowers"
                     ]
                   }
                 ]
@@ -2693,45 +2793,54 @@ window.IELTS_DATA = {
               {
                 "question": "Describe a new law you would like to introduce in your country",
                 "sourceOrder": 10,
+                "memoryChain": {
+                  "story": "想立法禁止乱扔垃圾 → 违者罚两千 → 灵感来自新加坡 → 忙碌区域也干净 → 多设标牌和垃圾桶 → 居民与清洁工受益",
+                  "reasons": [
+                    "城市更干净 → 人们愿意散步购物 → 本地商店受益",
+                    "法律教育大家 → 父母也能教孩子 → 形成环保意识",
+                    "罚款收入 → 种树种花＋买垃圾桶 → 城市更美"
+                  ]
+                },
                 "body": {
-                  "text": "I'd like to introduce a law against littering in public places. Under this law, people who drop bottles, plastic bags or other rubbish could receive a fine of up to 2,000 yuan. It would make people more careful and keep streets and parks cleaner. I think it would be quite popular because most people want a better environment, although some may need time to get used to the fine.",
+                  "text": "I'd like to introduce a law against throwing rubbish on the street. Anyone who broke it would have to pay a fine of 2,000 yuan. I got this idea when I visited Singapore last year and a local person told me about a similar law there. While walking around, I noticed that the roads and parks were very clean, even in busy areas. People put bottles and food bags into bins instead of leaving them on the ground. If my country introduced this law, there could be clear signs and more bins near stations, schools and shopping centres. Local residents would enjoy a better environment and street cleaners would have less work, so I think the law would be popular.",
                   "highlights": [
-                    "a law against littering",
-                    "plastic bags",
-                    "fine of up to 2,000 yuan",
-                    "streets and parks cleaner",
-                    "quite popular",
-                    "get used to the fine"
+                    "throwing rubbish on the street",
+                    "fine of 2,000 yuan",
+                    "Singapore last year",
+                    "better environment",
+                    "street cleaners would have less work",
+                    "popular"
                   ]
                 },
                 "draftCues": [
                   "no littering",
                   "2,000 fine",
-                  "saw rubbish",
                   "TV-Singapore",
+                  "residents-cleaners",
                   "cleaner city",
                   "popular"
                 ],
-                "pointsLabel": "How I came up with it · 3 点",
+                "pointsLabel": "How I feel · 3 原因",
                 "reasons": [
                   {
-                    "text": "First, I often saw plastic bags and bottles on streets near my home.",
+                    "text": "First of all, the city would stay clean, so it would have a better environment and attract more customers to local businesses. People would enjoy walking and shopping there instead of leaving quickly.",
                     "highlights": [
-                      "plastic bags and bottles"
+                      "city would stay clean",
+                      "attract more customers"
                     ]
                   },
                   {
-                    "text": "Then I watched a TV programme about a similar law in Singapore.",
+                    "text": "Secondly, the law would help people understand the importance of protecting the environment. Parents could also use it to teach children not to drop rubbish.",
                     "highlights": [
-                      "TV programme",
-                      "similar law in Singapore"
+                      "understand the importance",
+                      "protecting the environment"
                     ]
                   },
                   {
-                    "text": "So I thought a clear fine could change people's habits in my country too.",
+                    "text": "What's more, the fine money could be used to plant more trees and flowers and make the city more beautiful. It could also pay for new bins and regular cleaning.",
                     "highlights": [
-                      "clear fine",
-                      "change people's habits"
+                      "fine money",
+                      "trees and flowers"
                     ]
                   }
                 ]
@@ -2739,46 +2848,54 @@ window.IELTS_DATA = {
               {
                 "question": "Describe an environmental law you would like your country to introduce",
                 "sourceOrder": 12,
+                "memoryChain": {
+                  "story": "想引入禁止乱扔垃圾法 → 违者罚两千 → 新加坡旅行得到想法 → 公共场所很干净 → 增加标牌和垃圾桶 → 大家习惯后会支持",
+                  "reasons": [
+                    "街道干净 → 人们停留更久＋再次来 → 商家顾客更多",
+                    "法律提醒环保 → 扔垃圾进桶 → 变成日常习惯",
+                    "罚款收入 → 种树种花＋支持清洁工 → 环境更好"
+                  ]
+                },
                 "body": {
-                  "text": "I'd like my country to introduce a stricter environmental law. It would stop people from littering and encourage shops to use fewer single-use plastic bags. Anyone who repeatedly breaks the rule would have to pay a fine. People should follow it because plastic rubbish damages streets, rivers and animal habitats. I believe the law would become popular after a short period because everyone can enjoy a cleaner living environment.",
+                  "text": "I'd like my country to introduce a law against throwing rubbish on the street. Anyone who broke it would have to pay a fine of 2,000 yuan. I got this idea when I visited Singapore last year and learned about a similar law there. I noticed that the roads, parks and stations were clean, although many people used them every day. People should follow it because it keeps public places clean. Rubbish can smell bad, attract insects and make a place unpleasant. The government should also put clear signs and enough bins in public areas. Local residents would have a better environment and street cleaners would have less work, so I believe the law would be popular after people got used to it.",
                   "highlights": [
-                    "a stricter environmental law",
-                    "fewer single-use plastic bags",
-                    "pay a fine",
-                    "animal habitats",
-                    "become popular",
-                    "cleaner living environment"
+                    "throwing rubbish on the street",
+                    "fine of 2,000 yuan",
+                    "Singapore last year",
+                    "public places clean",
+                    "street cleaners",
+                    "popular"
                   ]
                 },
                 "draftCues": [
                   "no littering",
                   "2,000 fine",
-                  "plastic bags",
-                  "people-animals",
-                  "clean services",
+                  "Singapore",
+                  "residents-cleaners",
+                  "clean city",
                   "popular"
                 ],
                 "pointsLabel": "How I feel · 3 原因",
                 "reasons": [
                   {
-                    "text": "First of all, less litter means a cleaner and healthier place to live.",
+                    "text": "First of all, the city would stay clean, so it would have a better environment and attract more customers to local businesses. A clean street makes people want to stay longer and visit again.",
                     "highlights": [
-                      "cleaner and healthier"
+                      "city would stay clean",
+                      "attract more customers"
                     ]
                   },
                   {
-                    "text": "Secondly, using fewer plastic bags gives animals a safer habitat.",
+                    "text": "Secondly, the law would help people understand the importance of protecting the environment. In time, putting waste in a bin could become an easy daily habit.",
                     "highlights": [
-                      "fewer plastic bags",
-                      "safer habitat"
+                      "understand the importance",
+                      "protecting the environment"
                     ]
                   },
                   {
-                    "text": "What's more, fine money can support recycling and other green services.",
+                    "text": "What's more, the fine money could be used to plant more trees and flowers and make the city more beautiful. It could also support cleaners and buy more public bins.",
                     "highlights": [
                       "fine money",
-                      "recycling",
-                      "green services"
+                      "trees and flowers"
                     ]
                   }
                 ]
@@ -2786,52 +2903,61 @@ window.IELTS_DATA = {
             ]
           },
           {
-            "title": "Alex 工作线｜目标、计划与决定",
-            "note": "共用软件工作背景；目标题讲长期成长，计划和决定题讲系统故障。",
+            "title": "工作类｜目标、计划与决定分别准备",
+            "note": "长远目标与改计划按 DOCX 原故事；重要决定在 DOCX 中没有作答，才迁移已背的 Alex 系统故障。",
             "items": [
               {
                 "question": "Describe a long-term goal/ambition you would like to achieve",
                 "sourceOrder": 3,
+                "memoryChain": {
+                  "story": "工作六年＋三次升职 → 目标成为经理 → 努力工作偶尔加班 → 向经理学习＋帮助新人 → 带小项目按时完成 → 希望明年实现",
+                  "reasons": [
+                    "带团队完成难项目 → 做更多工作 → 有成就感",
+                    "月薪七千升到一万二 → 买房买车 → 家庭压力更小",
+                    "分享经验帮助别人 → 可能去海外工作 → 学到新想法"
+                  ]
+                },
                 "body": {
-                  "text": "I'd like to become a senior software engineer who can lead a small team. I have had this goal for about two years, after working in software for several years and learning from my colleague Alex. To achieve it, I plan to improve my technical skills, practise English and ask Alex for regular feedback. I also want to take responsibility for a larger project within the next three years.",
+                  "text": "I'd like to become a manager in my company. I set this long-term goal after I had worked there for a while. I have now worked for the company for six years and received three promotions, so manager is the next position I hope to reach. To achieve it, I work hard, sometimes work overtime and try my best to complete every task well. I also learn from my current manager, help new workers and practise speaking during team meetings. Last month, I led a small project when my manager was busy, and we finished it on time. That experience made me more confident. I hope I can become a manager next year.",
                   "highlights": [
-                    "senior software engineer",
-                    "lead a small team",
-                    "for about two years",
-                    "my colleague Alex",
-                    "practise English",
-                    "next three years"
+                    "become a manager",
+                    "six years",
+                    "three promotions",
+                    "next position",
+                    "work overtime",
+                    "next year"
                   ]
                 },
                 "draftCues": [
-                  "senior engineer",
-                  "lead team",
+                  "manager",
                   "6 years",
-                  "Alex",
-                  "skills-English",
-                  "3 years"
+                  "3 promotions",
+                  "next level",
+                  "work overtime",
+                  "next year"
                 ],
                 "pointsLabel": "Why I set it · 3 原因",
                 "reasons": [
                   {
-                    "text": "First of all, leading a team would give me a strong sense of achievement.",
+                    "text": "First of all, I could lead my team to do more work and gain a strong sense of achievement. I would enjoy helping everyone finish a difficult project together.",
                     "highlights": [
-                      "leading a team",
+                      "lead my team",
                       "sense of achievement"
                     ]
                   },
                   {
-                    "text": "Secondly, a senior position could bring a higher salary and a more stable life.",
+                    "text": "Secondly, I could earn a higher salary. I now make about 7,000 yuan a month, but a manager can make about 12,000 yuan, which would help me buy a house or a car. It would also make family life less stressful.",
                     "highlights": [
                       "higher salary",
-                      "stable life"
+                      "7,000 yuan",
+                      "12,000 yuan"
                     ]
                   },
                   {
-                    "text": "What's more, I could help younger teammates and share what I have learned.",
+                    "text": "What's more, I could help more people, share my experience and possibly get a chance to work overseas. Meeting workers from another country would help me learn new ideas.",
                     "highlights": [
-                      "help younger teammates",
-                      "share what I have learned"
+                      "help more people",
+                      "work overseas"
                     ]
                   }
                 ]
@@ -2839,46 +2965,54 @@ window.IELTS_DATA = {
               {
                 "question": "Describe a plan that you had to change recently",
                 "sourceOrder": 9,
+                "memoryChain": {
+                  "story": "学生软件原定九月发布 → 图片文案已准备 → 测试发现卡顿＋打不开课程 → 学生开学很忙 → 开会改到十月 → 修复＋小范围测试",
+                  "reasons": [
+                    "准备很久却延期 → 担心显得不认真 → 开始不开心",
+                    "开会后明白原因 → 晚一点但稳定 → 好过准时却有问题",
+                    "现在认可十月计划 → 希望发布成功 → 以后多留测试时间"
+                  ]
+                },
                 "body": {
-                  "text": "This happened at work on a Friday afternoon. Our original plan was to release a new feature for an online shopping system. Soon after the release, the system became slow and some users could not complete their orders. We therefore changed the plan and paused the feature. The new plan was to investigate the problem with Alex, correct the setting, test several orders and release the feature again the next day.",
+                  "text": "I'd like to talk about a plan for a new software product for students. Our original plan was to release it in September, and my team had already prepared the pictures, online messages and user guide. However, during the final test, we found that the product was not ready because it still had some technical problems. The app sometimes became slow and a few students could not open a lesson. We did not want users to have a bad first experience. We also learned that September was not a suitable time because students had just started school and were very busy. After two team meetings, we changed the release date to October. This gave the engineers more time to fix the problems and gave us more time to test the app with a group of students.",
                   "highlights": [
-                    "Friday afternoon",
-                    "release a new feature",
-                    "system became slow",
-                    "paused the feature",
-                    "investigate the problem with Alex",
-                    "the next day"
+                    "software product for students",
+                    "September",
+                    "October",
+                    "not ready",
+                    "technical problems",
+                    "students had just started school"
                   ]
                 },
                 "draftCues": [
-                  "release Friday",
-                  "system slow",
-                  "pause feature",
-                  "Alex",
-                  "fix-test",
-                  "next day"
+                  "student software",
+                  "Sep → Oct",
+                  "not ready",
+                  "tech problems",
+                  "students busy",
+                  "new plan better"
                 ],
                 "pointsLabel": "How I felt · 3 点",
                 "reasons": [
                   {
-                    "text": "At first, I felt disappointed because our original release plan had failed.",
+                    "text": "At first, I felt unhappy because we had prepared for the September release for a long time. I worried that changing the date would make our work look careless.",
                     "highlights": [
-                      "felt disappointed",
-                      "plan had failed"
+                      "felt unhappy",
+                      "prepared for the September release"
                     ]
                   },
                   {
-                    "text": "However, pausing the feature was safer than leaving users with a broken system.",
+                    "text": "However, after a few meetings, I understood why we had to change the plan. A late but stable product was better than an early product full of problems.",
                     "highlights": [
-                      "pausing the feature",
-                      "safer"
+                      "after a few meetings",
+                      "understood why"
                     ]
                   },
                   {
-                    "text": "In the end, I felt relieved because the new plan prevented a bigger problem.",
+                    "text": "Now I think the October plan is better, and I hope the product will succeed then. In the future, I will always leave more time for testing.",
                     "highlights": [
-                      "felt relieved",
-                      "prevented a bigger problem"
+                      "October plan is better",
+                      "will succeed"
                     ]
                   }
                 ]
@@ -2886,8 +3020,16 @@ window.IELTS_DATA = {
               {
                 "question": "Describe an important decision that you made",
                 "sourceOrder": 11,
+                "memoryChain": {
+                  "story": "新功能上线 → 系统变慢＋订单失败 → 决定继续还是暂停 → 和 Alex 检查 → 暂停功能＋通知用户 → 修复测试后恢复",
+                  "reasons": [
+                    "及时暂停 → 防止更多订单失败 → 保护用户",
+                    "先停下来查真正原因 → 避免冒险修改 → 对团队更负责",
+                    "压力下保持冷静＋沟通清楚 → 小问题不会变大"
+                  ]
+                },
                 "body": {
-                  "text": "I'd like to talk about a decision I made during a system problem at work. After our team released a new feature, the system became slow and some orders failed. I had to decide whether to keep it online or pause it. After checking the error messages and speaking with Alex, I decided to pause the feature. We then fixed the setting and tested it carefully, and users could place orders normally again.",
+                  "text": "I'd like to talk about a decision I made during a system problem at work. After our team released a new feature, the system became slow and some orders failed. More error messages appeared every few minutes, so I had to decide whether to keep it online or pause it. Keeping it online might help us collect more information, but it could also cause more users to lose their orders. After checking the messages and speaking with Alex, I decided to pause the feature. I told the team what I was doing and wrote a short notice for users. We then fixed the setting, tested it carefully and put the feature online again. After that, users could place orders normally again.",
                   "highlights": [
                     "a system problem at work",
                     "some orders failed",
@@ -2908,21 +3050,21 @@ window.IELTS_DATA = {
                 "pointsLabel": "Why it was important · 3 原因",
                 "reasons": [
                   {
-                    "text": "First of all, the decision protected users from more failed orders.",
+                    "text": "First of all, the decision protected users from more failed orders. It was better to stop for a short time than let people keep losing their shopping information.",
                     "highlights": [
                       "protected users",
                       "failed orders"
                     ]
                   },
                   {
-                    "text": "Secondly, it was the safest and most responsible choice for the team.",
+                    "text": "Secondly, it was the safest and most responsible choice for the team. It gave us time to check the real cause instead of making a quick and risky change.",
                     "highlights": [
                       "safest",
                       "responsible choice"
                     ]
                   },
                   {
-                    "text": "What's more, it taught me to stay calm and take responsibility under pressure.",
+                    "text": "What's more, it taught me to stay calm and take responsibility under pressure. Now I know that a clear decision and good communication can prevent a small problem from becoming bigger.",
                     "highlights": [
                       "stay calm",
                       "take responsibility"
@@ -2938,45 +3080,55 @@ window.IELTS_DATA = {
               {
                 "question": "Describe a special cake you received from others",
                 "sourceOrder": 1,
+                "memoryChain": {
+                  "story": "项目结束后李华邀我去家里 → 水果巧克力奶油蛋糕 → 亲手做三小时 → 看视频＋买水果＋写名字 → 一起吃蛋糕聊生活 → 很难忘",
+                  "reasons": [
+                    "李华很忙仍花三小时 → 时间和心意最珍贵",
+                    "水果精心挑选＋奶油搭配 → 味道特别 → 我吃了两块",
+                    "不只是一块蛋糕 → 表示在乎我 → 证明友情很深"
+                  ]
+                },
                 "body": {
-                  "text": "I'd like to talk about a cake that my friend Li Hua gave me on my birthday last year. He invited me to his home for a small dinner and surprised me with it after the meal. He had made the cake himself and spent about three hours on it. It was round, covered with chocolate and decorated with fresh fruit. He had even written my name on the top.",
+                  "text": "I'd like to talk about a special cake I received from my friend Li Hua last year. He called me and invited me to his home after I finished a project at work. When I arrived, I noticed a beautiful cake covered with fruit, chocolate and cream. I was surprised because he had never made a cake for me before. Li Hua told me that he had made it himself and spent three hours on it. He watched a cooking video, bought the fruit that morning and carefully wrote my name on top. The cake was not as perfect as one from a shop, but it looked warm and personal. We ate it, shared the highs and lows of our lives and had a great time.",
                   "highlights": [
-                    "my friend Li Hua",
-                    "my birthday last year",
-                    "to his home",
-                    "made the cake himself",
+                    "Li Hua",
+                    "last year",
+                    "invited me to his home",
+                    "fruit, chocolate and cream",
+                    "made it himself",
                     "three hours",
-                    "covered with chocolate"
+                    "shared the highs and lows"
                   ]
                 },
                 "draftCues": [
-                  "last birthday",
+                  "last year",
                   "Li Hua-home",
                   "handmade",
                   "3 hours",
-                  "fruit-chocolate",
-                  "surprise"
+                  "fruit-chocolate-cream",
+                  "talk-great time"
                 ],
                 "pointsLabel": "Why it was special · 3 原因",
                 "reasons": [
                   {
-                    "text": "First of all, Li Hua made it himself and spent about three hours on it.",
+                    "text": "First of all, Li Hua made it himself and spent about three hours on it. I knew he was busy, so the time and effort meant a lot to me.",
                     "highlights": [
                       "made it himself",
                       "three hours"
                     ]
                   },
                   {
-                    "text": "Secondly, he used my favourite fruit and chocolate, so the taste felt personal.",
+                    "text": "Secondly, it had a special taste because all the fruit was carefully chosen, so it felt unique. The sweet cream and fresh fruit worked well together, and I ate two pieces.",
                     "highlights": [
-                      "my favourite fruit and chocolate",
-                      "felt personal"
+                      "special taste",
+                      "carefully chosen"
                     ]
                   },
                   {
-                    "text": "What's more, it showed that he cared about our friendship.",
+                    "text": "What's more, it was not only a cake. It showed that our friendship was strong and that he cared about me. Whenever I see a fruit cake now, I remember that happy evening.",
                     "highlights": [
-                      "cared about our friendship"
+                      "friendship was strong",
+                      "cared about me"
                     ]
                   }
                 ]
@@ -2984,8 +3136,16 @@ window.IELTS_DATA = {
               {
                 "question": "Describe a food that people eat on special occasions/events",
                 "sourceOrder": 6,
+                "memoryChain": {
+                  "story": "除夕全家包饺子 → 妈妈备馅＋爸爸和面 → 包皮放馅 → 奶奶教我包好 → 煮好后看完春晚吃 → 厨房里聊天欢笑",
+                  "reasons": [
+                    "祖辈一直包饺子 → 春节传统 → 连接不同代人",
+                    "形状像古代钱 → 代表好运 → 希望新年成功",
+                    "全家放下手机一起包 → 边做边聊天 → 感情更近"
+                  ]
+                },
                 "body": {
-                  "text": "I'd like to talk about dumplings, which many Chinese families eat during the Spring Festival. To make them, people first prepare dough and cut it into small round wrappers. They then put meat and vegetables inside, close the wrappers and boil the dumplings in hot water. In my family, several people make them together on New Year's Eve, so the kitchen is usually busy but cheerful.",
+                  "text": "I'd like to talk about dumplings, which many Chinese families eat during the Spring Festival. My family usually makes them on New Year's Eve. In the afternoon, my mother prepares meat and vegetables, while my father helps prepare dough. We cut the dough into small round wrappers, put the filling inside and close each one by hand. Mine sometimes look strange, but my grandma always shows me how to make them better. We usually make a large plate, boil the dumplings in hot water and eat them after watching the Spring Festival TV show. Everyone talks and laughs in the kitchen, and even the children can help with a simple job. The whole process takes time, but it is an important part of the celebration.",
                   "highlights": [
                     "dumplings",
                     "Spring Festival",
@@ -3006,20 +3166,20 @@ window.IELTS_DATA = {
                 "pointsLabel": "Why people eat it then · 3 原因",
                 "reasons": [
                   {
-                    "text": "First of all, dumplings are an important part of Spring Festival tradition.",
+                    "text": "First of all, dumplings are an important part of Spring Festival tradition. My grandparents made them when they were young, so the food connects different generations in our family.",
                     "highlights": [
                       "Spring Festival tradition"
                     ]
                   },
                   {
-                    "text": "Secondly, their shape looks like old Chinese money and represents good luck.",
+                    "text": "Secondly, their shape looks like old Chinese money and represents good luck. People hope that eating them will bring a better and more successful new year.",
                     "highlights": [
                       "old Chinese money",
                       "good luck"
                     ]
                   },
                   {
-                    "text": "What's more, making them together brings family members closer.",
+                    "text": "What's more, making them together brings family members closer. We can put our phones away, share stories and enjoy real time with one another.",
                     "highlights": [
                       "making them together",
                       "family members closer"
@@ -3031,50 +3191,59 @@ window.IELTS_DATA = {
           },
           {
             "title": "书、广告与视频｜内容不同，分题记",
+            "note": "视频题的 DOCX 只给了内容和三点原因；时间、地点只用 at home one evening 最小补齐，不再添加朋友转发等新情节。",
             "items": [
               {
                 "question": "Describe a story/book with animals in it",
                 "sourceOrder": 4,
+                "memoryChain": {
+                  "story": "小狮子想独自捕猎 → 妈妈教它安静等待 → 开始总失败 → 妈妈让它耐心 → 每天努力练习 → 最后捕到鹿并和妈妈分享",
+                  "reasons": [
+                    "小狮子可爱＋早期错误好笑 → 故事有趣",
+                    "图画漂亮 → 小时候吸引我 → 我还照着画狮子",
+                    "一直失败仍不放弃 → 最后成功 → 教我遇到困难要坚持"
+                  ]
+                },
                 "body": {
-                  "text": "I'd like to talk about an animal book that my science teacher gave our class in primary school. It included many animals, such as elephants, birds, tigers and lions. The book explained where they lived, what they ate and how they behaved. It also had many colourful real photos. I first read it during a science lesson because our teacher wanted us to understand nature, and I later borrowed it again out of curiosity.",
+                  "text": "I'd like to talk about a children's story about a small lion and its mother. The small lion wanted to learn how to hunt because it hoped to find food by itself. At first, its mother taught it how to move quietly and wait, but it could not do well and never caught anything. It ran too early and frightened the other animals away. The small lion felt sad, but its mother told it to be patient. After that, it worked hard, watched her carefully and practised every day. In the end, it could hunt a deer by itself and proudly shared the food with its mother. I read the story when I was a child because the pictures of the lions attracted me.",
                   "highlights": [
-                    "my science teacher",
-                    "in primary school",
-                    "tigers and lions",
-                    "where they lived",
-                    "colourful real photos",
-                    "understand nature"
+                    "small lion",
+                    "learn how to hunt",
+                    "mother taught it",
+                    "never caught anything",
+                    "worked hard",
+                    "hunt a deer"
                   ]
                 },
                 "draftCues": [
-                  "primary school",
-                  "science book",
-                  "many animals",
-                  "real photos",
-                  "tiger-lion",
-                  "nature"
+                  "small lion",
+                  "mother-teach",
+                  "cannot hunt",
+                  "work-practise",
+                  "hunt deer",
+                  "pictures"
                 ],
                 "pointsLabel": "What I think of it · 3 原因",
                 "reasons": [
                   {
-                    "text": "First of all, its real animal photos were colourful and easy to remember.",
+                    "text": "First of all, the story is interesting and the small lion is very cute. Its early mistakes are funny, so children can enjoy the story easily.",
                     "highlights": [
-                      "real animal photos",
-                      "easy to remember"
+                      "story is interesting",
+                      "small lion is very cute"
                     ]
                   },
                   {
-                    "text": "Secondly, it taught me about animal habits and the natural world.",
+                    "text": "Secondly, the pictures are beautiful. They attracted me when I was a little boy, and I even drew the lions. The pictures also made the simple story much easier to understand.",
                     "highlights": [
-                      "animal habits",
-                      "natural world"
+                      "pictures are beautiful",
+                      "drew the lions"
                     ]
                   },
                   {
-                    "text": "What's more, the strong tigers and lions made the book exciting for a child.",
+                    "text": "What's more, it taught me never to give up when I face difficulties, because the lion kept trying and finally succeeded. I still remember this lesson when I make mistakes at work.",
                     "highlights": [
-                      "strong tigers and lions",
-                      "exciting"
+                      "never to give up",
+                      "finally succeeded"
                     ]
                   }
                 ]
@@ -3082,15 +3251,23 @@ window.IELTS_DATA = {
               {
                 "question": "Describe an advertisement with a famous person in it",
                 "sourceOrder": 5,
+                "memoryChain": {
+                  "story": "电视上看到小米笔记本广告 → 张杰出镜 → 打开电脑唱歌做音乐 → 展示轻便 → 广告很短但歌好记 → 想买来工作娱乐",
+                  "reasons": [
+                    "为产品写歌 → 抓住注意力 → 第二天还记得",
+                    "张杰是我喜欢的歌手 → 熟悉的人更吸引我 → 也更信任产品",
+                    "每卖一台捐十元 → 买电脑也能帮人 → 广告有意义"
+                  ]
+                },
                 "body": {
-                  "text": "I'd like to talk about a television advertisement for a Xiaomi laptop. The famous person in it is Zhang Jie, a Chinese singer I have known from music programmes for years. I saw the advertisement on TV last month. In it, he sang a short song, opened the laptop and showed how light and fast it was. The advertisement mainly introduced the laptop's design, battery life and useful features for work and study.",
+                  "text": "I'd like to talk about a television advertisement for a Xiaomi laptop. The famous person in it is Zhang Jie, a popular Chinese singer. I first saw it on television at home one evening. In the advertisement, he opens the laptop, sings a song about it and shows how he uses it to make music. The screen then shows the laptop from different sides and explains that it is light and easy to carry. The whole advertisement lasts less than a minute, but the song is simple and easy to remember. It attracted me immediately. Since then, I have seen it many times and have wanted to buy the laptop for work and entertainment.",
                   "highlights": [
-                    "a Xiaomi laptop",
+                    "Xiaomi laptop",
                     "Zhang Jie",
-                    "on TV last month",
-                    "sang a short song",
-                    "light and fast",
-                    "work and study"
+                    "sings a song",
+                    "make music",
+                    "on television",
+                    "wanted to buy the laptop"
                   ]
                 },
                 "draftCues": [
@@ -3104,23 +3281,24 @@ window.IELTS_DATA = {
                 "pointsLabel": "How I feel · 3 原因",
                 "reasons": [
                   {
-                    "text": "First of all, the short song made the advertisement creative and easy to remember.",
+                    "text": "First of all, the advertisement is special because the singer created a song for the product, which can attract people and make it well known. I could still remember part of the song the next morning.",
                     "highlights": [
-                      "short song",
-                      "easy to remember"
+                      "created a song",
+                      "attract people"
                     ]
                   },
                   {
-                    "text": "Secondly, Zhang Jie is a singer I like, so he caught my attention immediately.",
+                    "text": "Secondly, Zhang Jie is a singer I like, so he caught my attention immediately. Seeing a familiar person also made me trust the product a little more.",
                     "highlights": [
                       "a singer I like",
                       "caught my attention"
                     ]
                   },
                   {
-                    "text": "What's more, the advertisement showed the laptop's useful features clearly.",
+                    "text": "What's more, it says that 10 yuan from every product sold will be donated to poor people, so the advertisement feels meaningful. Buying the laptop would therefore help someone as well as meet my own needs.",
                     "highlights": [
-                      "useful features clearly"
+                      "10 yuan",
+                      "donated to poor people"
                     ]
                   }
                 ]
@@ -3128,42 +3306,50 @@ window.IELTS_DATA = {
               {
                 "question": "Describe an interesting video",
                 "sourceOrder": 7,
+                "memoryChain": {
+                  "story": "晚饭后刷到视频 → 年轻人唱歌讲笑话 → 现代舞突然转传统舞 → 自制音乐＋喊声 → 我看了两遍 → 发给李华一起笑",
+                  "reasons": [
+                    "笑话简单但表情时机好 → 忘掉工作 → 放松下来",
+                    "现代舞＋传统舞自然混合 → 以前没见过 → 很有趣",
+                    "原创音乐好记 → 心情变好 → 第二天还会唱"
+                  ]
+                },
                 "body": {
-                  "text": "I'd like to talk about a short video that I watched at home last weekend. A friend sent me the link through a short-video app and said it was funny. The video showed a young singer and dancer performing an original song. Between parts of the song, he told a few jokes and mixed modern dance with some traditional Chinese movements. I watched it because my friend recommended it, and I finished the whole video twice.",
+                  "text": "I'd like to talk about an interesting video I watched at home one evening. I found it while looking through short videos after dinner. It showed a young man singing songs, making jokes and performing a special dance. At first, he wore normal clothes and moved like a modern dancer. After a few seconds, traditional music started, and he changed his movements completely. He mixed modern and traditional dances together, and the music was made by himself. It even included some people shouting, which made the performance unusual. I watched the whole video twice because I had missed some funny details the first time. Later, I sent it to Li Hua, and he laughed too. I watched it to relax, and it made me laugh after a tiring day.",
                   "highlights": [
-                    "at home last weekend",
-                    "a friend sent me the link",
-                    "short-video app",
-                    "a young singer and dancer",
-                    "told a few jokes",
-                    "modern dance"
+                    "at home one evening",
+                    "young man",
+                    "singing songs",
+                    "making jokes",
+                    "modern and traditional dances",
+                    "music was made by himself"
                   ]
                 },
                 "draftCues": [
-                  "last weekend",
-                  "friend sent",
-                  "short-video app",
-                  "singer-dancer",
+                  "home-evening",
+                  "young man",
                   "song-jokes",
-                  "modern-traditional"
+                  "modern-traditional",
+                  "own music",
+                  "shouting-happy"
                 ],
                 "pointsLabel": "How I feel · 3 原因",
                 "reasons": [
                   {
-                    "text": "First of all, the singer told funny jokes and helped me relax.",
+                    "text": "First of all, the singer told funny jokes and helped me relax. His face and timing made even the simple jokes funny, so I forgot about work for a while.",
                     "highlights": [
                       "funny jokes",
                       "helped me relax"
                     ]
                   },
                   {
-                    "text": "Secondly, the video mixed modern and traditional dance in an interesting way.",
+                    "text": "Secondly, the video mixed modern and traditional dance in an interesting way. I had never seen the two styles put together so naturally before.",
                     "highlights": [
                       "modern and traditional dance"
                     ]
                   },
                   {
-                    "text": "What's more, its original music put me in a good mood.",
+                    "text": "What's more, its original music put me in a good mood. The tune was easy to remember, and I found myself singing it the next day.",
                     "highlights": [
                       "original music",
                       "good mood"
@@ -3175,12 +3361,21 @@ window.IELTS_DATA = {
           },
           {
             "title": "上海高楼｜东方明珠",
+            "note": "DOCX 没有给这题作答；这里保留你亲自写过的东方明珠草稿：造型 → 观景 → 夜灯。",
             "items": [
               {
                 "question": "Describe a tall building you like or dislike",
                 "sourceOrder": 8,
+                "memoryChain": {
+                  "story": "和女友去上海 → 东方明珠在河边 → 圆球造型很明显 → 坐电梯上观景层 → 克服紧张踩玻璃地板 → 看全城河流和夜晚灯光",
+                  "reasons": [
+                    "圆球＋现代造型 → 不像普通办公楼 → 一眼认出",
+                    "高处看城市和河流 → 发现上海真的很大",
+                    "夜晚彩灯倒映水面 → 河边更热闹 → 记忆深刻"
+                  ]
+                },
                 "body": {
-                  "text": "I'd like to talk about the Oriental Pearl Tower in Shanghai. It stands beside the river and is mainly used for sightseeing, television and communication. The building is very tall and has several large round parts, so it is easy to recognise. Visitors can take a lift to the viewing area, and one floor has a glass section under their feet. At night, the whole tower is covered in colourful lights.",
+                  "text": "I'd like to talk about the Oriental Pearl Tower in Shanghai. I visited it with my girlfriend during our last trip there. It stands beside the river and is mainly used for sightseeing, television and communication. The building is very tall and has several large round parts, so it is easy to recognise. We bought tickets in the morning and took a fast lift to the viewing area. From there, we could see the river, boats, roads and many other tall buildings. One floor has a glass section under visitors' feet. I was nervous at first, but I slowly stepped onto it and took a photo. At night, the whole tower is covered in colourful lights, so we watched it again from the river.",
                   "highlights": [
                     "Oriental Pearl Tower",
                     "in Shanghai",
@@ -3201,21 +3396,21 @@ window.IELTS_DATA = {
                 "pointsLabel": "Why I like it · 3 原因",
                 "reasons": [
                   {
-                    "text": "First of all, its modern shape and round parts make it look special.",
+                    "text": "First of all, its modern shape and round parts make it look special. It is very different from a normal office building, so people can recognise it immediately.",
                     "highlights": [
                       "modern shape",
                       "look special"
                     ]
                   },
                   {
-                    "text": "Secondly, visitors can enjoy a wide view of the city and the river.",
+                    "text": "Secondly, visitors can enjoy a wide view of the city and the river. Looking down from such a high place helped me understand how large Shanghai really is.",
                     "highlights": [
                       "wide view",
                       "city and the river"
                     ]
                   },
                   {
-                    "text": "What's more, its colourful lights are beautiful in the evening.",
+                    "text": "What's more, its colourful lights are beautiful in the evening. They reflect on the water and make the whole riverside area feel lively and memorable.",
                     "highlights": [
                       "colourful lights",
                       "in the evening"
@@ -3235,7 +3430,7 @@ window.IELTS_DATA = {
       "tab": "事件类",
       "title": "事件类｜分组草稿",
       "tagline": "题库文档 · 12 道原题",
-      "description": "优先迁移 Alex、手机戒断、家庭休闲和种菜的奶奶；故事线不一样的题目单独准备。",
+      "description": "优先迁移 Alex、手机戒断、家庭观赛和日出外出；故事线不一样的题目单独准备。",
       "tipLabel": "12 道原题 · 分组",
       "tips": {
         "techniques": [
@@ -3266,8 +3461,16 @@ window.IELTS_DATA = {
               {
                 "question": "Describe a change that you made recently",
                 "sourceOrder": 1,
+                "memoryChain": {
+                  "story": "一个月前屏幕时间超过六小时 → 总刷短视频＋疲惫分心 → 限制 App＋手机放远＋不带上床 → 用书和水替代 → 改成散步阅读 → 两周后习惯",
+                  "reasons": [
+                    "不再几分钟看一次手机 → 一口气完成任务 → 更专注",
+                    "不在床上刷到半夜 → 更早睡 → 白天更有精神",
+                    "空出时间散步看书 → 晚饭后和女友聊天 → 回到真实生活"
+                  ]
+                },
                 "body": {
-                  "text": "I'd like to talk about a change I made about a month ago, which was reducing my phone use. My screen-time report showed that I was spending over six hours a day on my phone, and I often felt tired and distracted. I set limits for short-video apps, put my phone in another room while working and stopped taking it to bed. I also replaced some screen time with walking and reading.",
+                  "text": "I'd like to talk about a change I made about a month ago, which was reducing my phone use. My screen-time report showed that I was spending over six hours a day on my phone, and I often felt tired and distracted. I checked short videos every few minutes, even when I had work to finish. I set limits for short-video apps, put my phone in another room while working and stopped taking it to bed. During the first week, I still wanted to pick it up, so I kept a book and a bottle of water beside me instead. I also replaced some screen time with walking and reading. After about two weeks, these new habits started to feel normal.",
                   "highlights": [
                     "about a month ago",
                     "reducing my phone use",
@@ -3288,20 +3491,20 @@ window.IELTS_DATA = {
                 "pointsLabel": "How I feel · 3 原因",
                 "reasons": [
                   {
-                    "text": "First of all, I can focus better on work and study now.",
+                    "text": "First of all, I can focus better on work and study now. I can finish one task without stopping every few minutes to check a message.",
                     "highlights": [
                       "focus better"
                     ]
                   },
                   {
-                    "text": "Secondly, I sleep earlier and feel more energetic during the day.",
+                    "text": "Secondly, I sleep earlier and feel more energetic during the day. I no longer watch short videos in bed until midnight.",
                     "highlights": [
                       "sleep earlier",
                       "more energetic"
                     ]
                   },
                   {
-                    "text": "What's more, I have more time for walks, books and face-to-face conversations.",
+                    "text": "What's more, I have more time for walks, books and face-to-face conversations. For example, I now take an evening walk and talk with my girlfriend after dinner.",
                     "highlights": [
                       "more time",
                       "face-to-face conversations"
@@ -3318,8 +3521,16 @@ window.IELTS_DATA = {
               {
                 "question": "Describe a time when you changed an important opinion of yours",
                 "sourceOrder": 2,
+                "memoryChain": {
+                  "story": "原以为好工程师要独立解决 → 系统变慢＋订单失败 → 自己查一小时无果 → Alex 加入并分工 → 很快找到错误设置 → 改变看法",
+                  "reasons": [
+                    "旧想法错了 → 因怕显得弱而浪费时间 → 有点尴尬",
+                    "两个人看不同细节＋互相检查 → 求助让工作更快更安全",
+                    "现在更早沟通 → 先自己尝试但不死撑 → 未来更有信心"
+                  ]
+                },
                 "body": {
-                  "text": "This happened at work about a year ago. I used to believe that a good engineer should solve every problem alone. Then our online shopping system became slow after a new feature was released. I spent nearly an hour checking it by myself but found nothing. After Alex joined me, we found the wrong setting quite quickly. That experience changed my opinion because I saw that asking for help can be a responsible choice.",
+                  "text": "This happened at work about a year ago. I used to believe that a good engineer should solve every problem alone. I thought asking for help showed that I was not good enough. Then our online shopping system became slow after a new feature was released, and several users could not complete their orders. I spent nearly an hour checking it by myself but found nothing. I became nervous because more error messages were appearing. After Alex joined me, he looked at the settings while I checked the messages. We found the wrong setting quite quickly and tested the system together. That experience changed my opinion because I saw that asking for help can be a responsible choice.",
                   "highlights": [
                     "about a year ago",
                     "solve every problem alone",
@@ -3340,21 +3551,21 @@ window.IELTS_DATA = {
                 "pointsLabel": "How I felt · 3 点",
                 "reasons": [
                   {
-                    "text": "At first, I felt a little embarrassed because my old opinion was wrong.",
+                    "text": "At first, I felt a little embarrassed because my old opinion was wrong. I had wasted time because I was too worried about looking weak.",
                     "highlights": [
                       "felt a little embarrassed",
                       "old opinion was wrong"
                     ]
                   },
                   {
-                    "text": "However, Alex showed me that asking for help can make work faster and safer.",
+                    "text": "However, Alex showed me that asking for help can make work faster and safer. Two people can notice different details and check each other's ideas.",
                     "highlights": [
                       "asking for help",
                       "faster and safer"
                     ]
                   },
                   {
-                    "text": "Now I feel more confident because I communicate with my team earlier.",
+                    "text": "Now I feel more confident because I communicate with my team earlier. In the future, I will still try first, but I will not wait too long before speaking up.",
                     "highlights": [
                       "more confident",
                       "communicate with my team earlier"
@@ -3365,8 +3576,16 @@ window.IELTS_DATA = {
               {
                 "question": "Describe a time when you sent a message or an email to someone but received no reply for a long time",
                 "sourceOrder": 3,
+                "memoryChain": {
+                  "story": "系统紧急故障 → 给 Alex 发错误说明＋截图 → 两小时没回复 → 反复看手机＋担心 → 原来他在开会且手机静音 → 回来一起解决",
+                  "reasons": [
+                    "一直没回复 → 误以为他不想合作 → 更紧张不开心",
+                    "收到解释后不再多想 → 能专心处理问题 → 感觉好多了",
+                    "人一次只能专注一件事 → 以后先理解情况 → 真紧急就联系其他队友"
+                  ]
+                },
                 "body": {
-                  "text": "I'd like to talk about a message I sent to my colleague Alex during an urgent system problem. I needed his advice, so I described the error and asked whether he could check it with me. However, I received no reply for about two hours. He finally answered and explained that he had been in a long meeting with his phone on silent. After the meeting, he came back and helped me deal with the problem.",
+                  "text": "I'd like to talk about a message I sent to my colleague Alex during an urgent system problem. I needed his advice, so I described the error, added a screenshot and asked whether he could check it with me. However, I received no reply for about two hours. Meanwhile, I checked my phone many times and started to worry because users could not place orders. I tried a few safe checks by myself, but I did not want to make a big change without him. He finally answered and explained that he had been in a long meeting with his phone on silent. After the meeting, he came back, read my notes and helped me deal with the problem.",
                   "highlights": [
                     "my colleague Alex",
                     "an urgent system problem",
@@ -3387,25 +3606,24 @@ window.IELTS_DATA = {
                 "pointsLabel": "How I felt · 3 点",
                 "reasons": [
                   {
-                    "text": "At first, I was worried because the system problem was urgent.",
+                    "text": "At first, I felt unhappy because Alex did not reply, and I thought he did not want to work with me. The silence made the urgent situation feel even more stressful.",
                     "highlights": [
-                      "was worried",
-                      "urgent"
+                      "felt unhappy",
+                      "did not want to work"
                     ]
                   },
                   {
-                    "text": "After he replied, I felt relieved because he had only been in a meeting.",
+                    "text": "After I received his email, I felt better because I could focus on the problem and knew he still wanted to work with me. His clear explanation also stopped me from taking it personally.",
                     "highlights": [
-                      "felt relieved",
-                      "in a meeting"
+                      "felt better",
+                      "focus on the problem"
                     ]
                   },
                   {
-                    "text": "In the future, I will call or contact another teammate when a problem is truly urgent.",
+                    "text": "This experience taught me that people can focus on only one thing at a time, and I will remember that in the future. If something is truly urgent, I will also contact another teammate.",
                     "highlights": [
-                      "call",
-                      "another teammate",
-                      "truly urgent"
+                      "one thing at a time",
+                      "remember that in the future"
                     ]
                   }
                 ]
@@ -3413,47 +3631,54 @@ window.IELTS_DATA = {
               {
                 "question": "Describe a challenging technological problem you faced",
                 "sourceOrder": 4,
+                "memoryChain": {
+                  "story": "新功能上线后系统变慢＋订单失败 → 客服收到投诉 → 自己查错误＋搜索视频 → 一小时仍无果 → 记录检查过程后找 Alex → 分工找到设置并恢复",
+                  "reasons": [
+                    "先自己搜索和看视频 → 虽没解决 → 排除几个可能原因",
+                    "找 Alex 帮忙 → 分开检查＋互相汇报 → 更快找到问题",
+                    "最终恢复系统 → 明白必要时要请求帮助 → 还要留下清楚记录"
+                  ]
+                },
                 "body": {
-                  "text": "I'd like to talk about a system problem I faced at work about a year ago. Our team had just released a new feature for an online shopping system. Soon afterwards, the system became very slow and some users could not complete their orders. It was challenging because I could not find the cause by myself. I asked my colleague Alex for help, and we checked the code, error messages and recent settings together.",
+                  "text": "I'd like to talk about a system problem I faced at work about a year ago. After our team released a new feature, the online shopping system became very slow and some users could not complete their orders. The customer service team started receiving complaints, so we needed to act quickly. At first, I tried to solve it by myself. I read the error messages, searched online and watched several videos, but nothing worked. After nearly an hour, I wrote down what I had already checked and asked my colleague Alex for help. He reviewed the new settings while I prepared test orders. We worked together, found one wrong setting and changed it carefully. After several tests, the system finally worked normally again.",
                   "highlights": [
                     "at work about a year ago",
                     "released a new feature",
                     "system became very slow",
-                    "complete their orders",
-                    "could not find the cause",
+                    "searched online",
+                    "nothing worked",
                     "asked my colleague Alex for help"
                   ]
                 },
                 "draftCues": [
                   "new feature",
                   "system slow",
-                  "orders failed",
-                  "Alex",
-                  "too many requests",
-                  "fix-test"
+                  "try alone",
+                  "online-videos",
+                  "Alex-help",
+                  "solve-normal"
                 ],
                 "pointsLabel": "How I solved it · 3 步",
                 "reasons": [
                   {
-                    "text": "First, Alex and I checked the code and error messages together.",
+                    "text": "First, I tried to solve it myself by searching online and watching videos, but it did not work. Still, those checks helped us remove several possible causes.",
                     "highlights": [
-                      "checked the code",
-                      "error messages"
+                      "searching online",
+                      "did not work"
                     ]
                   },
                   {
-                    "text": "Then we found one setting that was sending too many requests at the same time.",
+                    "text": "Then I talked to Alex, and we checked the problem and worked on it together. We divided the jobs and told each other what we found.",
                     "highlights": [
-                      "one setting",
-                      "too many requests"
+                      "talked to Alex",
+                      "worked on it together"
                     ]
                   },
                   {
-                    "text": "Finally, we corrected it and tested several orders until the system worked normally.",
+                    "text": "Finally, we solved it, and I learned that asking for help is useful when I cannot handle a problem alone. I also learned to keep clear notes during an emergency.",
                     "highlights": [
-                      "corrected it",
-                      "tested several orders",
-                      "worked normally"
+                      "solved it",
+                      "asking for help"
                     ]
                   }
                 ]
@@ -3461,8 +3686,16 @@ window.IELTS_DATA = {
               {
                 "question": "Describe a time when you worked in a group",
                 "sourceOrder": 6,
+                "memoryChain": {
+                  "story": "系统故障 → 我和 Alex＋两位队友开会 → 先定简单计划 → 分工查错误／设置／测试订单 → 每十五分钟同步 → 找到错误设置并恢复",
+                  "reasons": [
+                    "问题可能原因很多 → 一个人容易漏掉 → 团队更适合",
+                    "每人技能不同 → 同时检查不同部分 → 节省时间",
+                    "一起检查测试 → 解决更快更安全 → 大家也没那么紧张"
+                  ]
+                },
                 "body": {
-                  "text": "I'd like to talk about a time when I worked with Alex and two teammates to solve a system problem. A new feature had made our online shopping system slow, and some orders were failing. We divided the work: I checked the error messages, Alex reviewed the settings and the others prepared test orders. The main difficulty was finding the cause quickly without creating another problem, so we shared our findings before making any change.",
+                  "text": "I'd like to talk about a time when I worked with Alex and two teammates to solve a system problem. A new feature had made our online shopping system slow, and some orders were failing. We met in a small room and agreed on a simple plan before touching the system. We divided the work: I checked the error messages, Alex reviewed the settings and the others prepared test orders. Every fifteen minutes, we stopped and shared our findings. The main difficulty was finding the cause quickly without creating another problem, so nobody made a change alone. After about two hours, Alex found a wrong setting. We corrected it, ran the test orders again and saw that the system was normal.",
                   "highlights": [
                     "Alex and two teammates",
                     "solve a system problem",
@@ -3483,21 +3716,21 @@ window.IELTS_DATA = {
                 "pointsLabel": "Why I worked in a group · 3 原因",
                 "reasons": [
                   {
-                    "text": "First of all, the technical problem was too complex for one person to solve quickly.",
+                    "text": "First of all, the technical problem was too complex for one person to solve quickly. There were many possible causes, so one person could easily miss something.",
                     "highlights": [
                       "too complex",
                       "one person"
                     ]
                   },
                   {
-                    "text": "Secondly, each teammate had different skills, so we could divide the work.",
+                    "text": "Secondly, each teammate had different skills, so we could divide the work. This meant that several useful checks could happen at the same time.",
                     "highlights": [
                       "different skills",
                       "divide the work"
                     ]
                   },
                   {
-                    "text": "What's more, checking and testing together made the solution faster and safer.",
+                    "text": "What's more, checking and testing together made the solution faster and safer. We also felt less stressed because everyone knew they were not facing the problem alone.",
                     "highlights": [
                       "testing together",
                       "faster and safer"
@@ -3508,14 +3741,22 @@ window.IELTS_DATA = {
             ]
           },
           {
-            "title": "家庭休闲线｜球赛、省钱出游与电影之夜",
-            "note": "共用“周末和女朋友一起”，但三件事的地点和行为分开记。",
+            "title": "家庭观赛线｜球赛直播",
+            "note": "保留在家和女朋友看球的独立素材。",
             "items": [
               {
                 "question": "Describe a live sports event you watched and liked",
                 "sourceOrder": 5,
+                "memoryChain": {
+                  "story": "上周末和女友在家看足球直播 → 准备饮料零食 → 两队实力接近 → 认识球员＋猜胜负 → 大部分时间平分 → 最后几分钟绝杀并起身欢呼",
+                  "reasons": [
+                    "比分一直接近 → 最后一分钟才分胜负 → 很刺激",
+                    "忙碌一周后专心看两小时 → 暂时忘掉工作 → 很放松",
+                    "和女友分享零食＋一起欢呼 → 赛后继续讨论 → 相处很开心"
+                  ]
+                },
                 "body": {
-                  "text": "I'd like to talk about a live football match I watched on television at home last weekend. I watched it with my girlfriend, and we prepared some drinks and snacks before it started. The two teams were quite evenly matched, and the score stayed level for most of the game. In the final few minutes, one team scored the winning goal. We both stood up and cheered because it happened so suddenly.",
+                  "text": "I'd like to talk about a live football match I watched on television at home last weekend. I do not follow every football game, so I chose this one because both teams were strong. I watched it with my girlfriend, and we prepared some drinks and snacks before it started. At first, we sat quietly and tried to learn the players' names. Soon both teams began attacking, and we started talking about which side might win. The score stayed level for most of the game, and each team missed a good chance. In the final few minutes, one player ran past a defender and scored the winning goal. We both stood up and cheered because it happened so suddenly. After the match, we talked about that goal again while cleaning the table.",
                   "highlights": [
                     "a live football match",
                     "at home last weekend",
@@ -3536,7 +3777,7 @@ window.IELTS_DATA = {
                 "pointsLabel": "Why I liked it · 3 原因",
                 "reasons": [
                   {
-                    "text": "First of all, the score was close and the last goal made the match exciting.",
+                    "text": "First of all, the score was close and the last goal made the match exciting. Until the final minute, neither of us knew which team would win.",
                     "highlights": [
                       "score was close",
                       "last goal",
@@ -3544,63 +3785,75 @@ window.IELTS_DATA = {
                     ]
                   },
                   {
-                    "text": "Secondly, watching it helped me relax after a busy week.",
+                    "text": "Secondly, watching it helped me relax after a busy week. For about two hours, I forgot my work and simply enjoyed the game.",
                     "highlights": [
                       "helped me relax",
                       "busy week"
                     ]
                   },
                   {
-                    "text": "What's more, it gave my girlfriend and me some enjoyable time together.",
+                    "text": "What's more, it gave my girlfriend and me some enjoyable time together. We shared food, laughed and had something interesting to discuss afterwards.",
                     "highlights": [
                       "enjoyable time together"
                     ]
                   }
                 ]
-              },
+              }
+            ]
+          },
+          {
+            "title": "日出外出线｜花费甚少、组织活动与早起",
+            "note": "三题共用：3 friends → 4:30 → nearby hill → 60 yuan → food and water → chat → sunrise。前两个原因固定为聊天和增进感情，第三点按题目替换。",
+            "items": [
               {
                 "question": "Describe a special day out that cost you little money/didn't cost you much",
                 "sourceOrder": 8,
+                "memoryChain": {
+                  "story": "上周末和三位好友看日出 → 凌晨四点半步行去附近小山 → 交通门票零元 → 六十元买面包水果零食水 → 边爬边聊 → 山顶早餐＋日出拍照",
+                  "reasons": [
+                    "步行和等待时间长 → 不只发短消息 → 能认真聊天",
+                    "分享早餐＋互相帮忙爬山 → 一起笑困倦的样子 → 感情更近",
+                    "日出景色免费＋六十元买很多东西 → 不贵却比大餐更难忘"
+                  ]
+                },
                 "body": {
-                  "text": "I'd like to talk about a simple day out I had with my girlfriend last weekend. We went to a nearby park on foot, so we did not need to pay for transport or tickets. We bought some bread, fruit and drinks for about 30 yuan. In the park, we walked around the lake, had a small picnic, took photos and stayed until sunset. We spent almost the whole afternoon there.",
+                  "text": "I'd like to talk about a sunrise trip I had with three close friends last weekend. We chose a nearby hill because it was free and close to our homes. We met at 4:30 in the morning and walked there, so we paid nothing for transport or tickets. The streets were quiet, and we used our phone lights on the darker part of the path. On the way, we stopped at a shop and spent only about 60 yuan on bread, fruit, snacks and bottled water, which was enough for all four of us. We climbed slowly, chatted about school and work, and helped one another carry the bags. We reached the top before sunrise, sat on a picnic mat and shared breakfast. When the sky turned orange, we took photos and stayed there for nearly an hour.",
                   "highlights": [
-                    "with my girlfriend last weekend",
-                    "a nearby park",
-                    "on foot",
-                    "about 30 yuan",
-                    "a small picnic",
-                    "until sunset"
+                    "a sunrise trip",
+                    "three close friends",
+                    "at 4:30",
+                    "a nearby hill",
+                    "only about 60 yuan",
+                    "bread, fruit, snacks and bottled water"
                   ]
                 },
                 "draftCues": [
-                  "nearby park",
-                  "last weekend",
-                  "girlfriend",
-                  "walk-picnic",
-                  "30 yuan",
-                  "sunset"
+                  "3 friends",
+                  "4:30",
+                  "nearby hill",
+                  "60 yuan",
+                  "food-water",
+                  "chat-sunrise"
                 ],
                 "pointsLabel": "How I feel · 3 原因",
                 "reasons": [
                   {
-                    "text": "First of all, it was affordable, so I did not feel any money pressure.",
+                    "text": "First of all, the walk and the waiting time gave us plenty of time to chat. We normally only send short messages, so this long conversation felt special.",
                     "highlights": [
-                      "affordable",
-                      "money pressure"
+                      "time to chat"
                     ]
                   },
                   {
-                    "text": "Secondly, walking in the quiet park helped me relax.",
+                    "text": "Secondly, sharing breakfast and watching the sunrise brought us closer. We passed the food around, helped each other on the path and laughed at our sleepy faces.",
                     "highlights": [
-                      "quiet park",
-                      "helped me relax"
+                      "brought us closer"
                     ]
                   },
                   {
-                    "text": "What's more, the simple picnic gave us quality time and a happy memory.",
+                    "text": "What's more, the view was free, so the day felt special without costing much. The 60 yuan bought many simple things, and the memory was better than an expensive meal.",
                     "highlights": [
-                      "quality time",
-                      "happy memory"
+                      "the view was free",
+                      "without costing much"
                     ]
                   }
                 ]
@@ -3608,46 +3861,108 @@ window.IELTS_DATA = {
               {
                 "question": "Describe a time when you organized a happy event successfully",
                 "sourceOrder": 9,
+                "memoryChain": {
+                  "story": "群聊提出看日出 → 查天气＋选附近小山 → 凌晨四点半集合 → 六十元购物＋朋友分工 → 准时到达并照明爬山 → 山顶吃喝聊天看日出",
+                  "reasons": [
+                    "路线简单＋时间充足 → 大家边走边聊 → 不用赶行程",
+                    "分享食物＋互相帮助＋拍合照 → 友情更牢",
+                    "所有人准时＋日出前到山顶 → 计划成功 → 我很自豪"
+                  ]
+                },
                 "body": {
-                  "text": "I'd like to talk about a small movie night that I organized at home last month. I invited my girlfriend and two close friends. I cleaned the living room, chose a short comedy and prepared drinks and snacks. My girlfriend helped me arrange the seats and check the television before everyone arrived. We started on time, watched one film and talked for a while afterwards, so the evening was simple and relaxed.",
+                  "text": "I'd like to talk about a sunrise trip that I organized for three close friends last weekend. I suggested the idea in our group chat because we had not spent much time together recently. I checked the weather, chose a nearby hill and asked everyone to meet at 4:30 in the morning. I made a shopping list and spent only about 60 yuan on bread, fruit, snacks and water. One friend brought a picnic mat, another checked the walking route, and I reminded everyone to wear shoes. On the morning of the trip, we all arrived on time. We walked slowly, used our phone lights on the dark path and arrived before sunrise. Then we put the food on the mat, talked, laughed and watched the sky become bright together.",
                   "highlights": [
-                    "a small movie night",
-                    "at home last month",
-                    "a short comedy",
-                    "drinks and snacks",
-                    "my girlfriend helped me",
-                    "started on time"
+                    "a sunrise trip",
+                    "three close friends",
+                    "checked the weather",
+                    "at 4:30",
+                    "only about 60 yuan",
+                    "arrived before sunrise"
                   ]
                 },
                 "draftCues": [
-                  "movie night",
-                  "home",
-                  "short comedy",
-                  "snacks",
-                  "girlfriend helped",
-                  "everyone laughed"
+                  "3 friends",
+                  "4:30",
+                  "nearby hill",
+                  "60 yuan",
+                  "food-water",
+                  "chat-sunrise"
                 ],
                 "pointsLabel": "Why it was successful · 3 原因",
                 "reasons": [
                   {
-                    "text": "First of all, I chose a short comedy and prepared the room and snacks in advance.",
+                    "text": "First of all, the walk and waiting time allowed all of us to chat and enjoy ourselves. The plan gave everyone enough time to speak instead of rushing from place to place.",
                     "highlights": [
-                      "short comedy",
-                      "in advance"
+                      "chat",
+                      "enjoy ourselves"
                     ]
                   },
                   {
-                    "text": "Secondly, my girlfriend helped me, so everything was simple and well organized.",
+                    "text": "Secondly, sharing food and watching the sunrise together made our friendship stronger. We helped one another climb and took a group photo that we all still keep.",
                     "highlights": [
-                      "helped me",
-                      "well organized"
+                      "friendship stronger"
                     ]
                   },
                   {
-                    "text": "What's more, everyone laughed, relaxed and became closer during the film.",
+                    "text": "What's more, everyone arrived on time, and we reached the top before the sun appeared. That showed me the event was well planned, and I felt proud that everyone was happy.",
                     "highlights": [
-                      "everyone laughed",
-                      "became closer"
+                      "arrived on time",
+                      "before the sun appeared"
+                    ]
+                  }
+                ]
+              },
+              {
+                "question": "Describe a time when you got up early",
+                "sourceOrder": 11,
+                "memoryChain": {
+                  "story": "凌晨四点闹钟响 → 洗脸穿衣出门 → 四点半和朋友集合 → 六十元买早餐 → 黑路上边聊边爬 → 山顶看天变橙＋日出拍照",
+                  "reasons": [
+                    "开始很困 → 朋友讲笑话 → 黑暗的路也好走了",
+                    "分享早餐＋看日出 → 聊平时网上不聊的事 → 感情更近",
+                    "新鲜空气＋美丽景色 → 虽然后来很累 → 早起值得"
+                  ]
+                },
+                "body": {
+                  "text": "I'd like to talk about last weekend, when I got up at four o'clock to see the sunrise with three close friends. I normally get up after seven, so hearing the alarm in the dark was difficult. I washed my face, put on comfortable clothes and left home with a small bag. We met at 4:30 and walked to a nearby hill. On the way, we spent only about 60 yuan on bread, fruit, snacks and bottled water. The road was quiet and the air was a little cold, but talking helped us stay awake. We climbed slowly, reached the top before sunrise and shared the food there. After that, we watched the sky change from grey to orange and saw the sun come up. We took several photos together and walked home before the streets became busy.",
+                  "highlights": [
+                    "at four o'clock",
+                    "three close friends",
+                    "at 4:30",
+                    "a nearby hill",
+                    "only about 60 yuan",
+                    "before sunrise"
+                  ]
+                },
+                "draftCues": [
+                  "3 friends",
+                  "4:30",
+                  "nearby hill",
+                  "60 yuan",
+                  "food-water",
+                  "chat-sunrise"
+                ],
+                "pointsLabel": "How I felt · 3 点",
+                "reasons": [
+                  {
+                    "text": "At first, I felt sleepy, but chatting with my friends helped me wake up. Their jokes made the dark and quiet walk much easier.",
+                    "highlights": [
+                      "felt sleepy",
+                      "chatting with my friends"
+                    ]
+                  },
+                  {
+                    "text": "After a while, sharing breakfast and the sunrise made us feel much closer. We had time to talk about things that we usually do not discuss online.",
+                    "highlights": [
+                      "sharing breakfast",
+                      "feel much closer"
+                    ]
+                  },
+                  {
+                    "text": "In the end, the fresh air and beautiful view made the early start worthwhile. I was tired later that day, but I would happily do it again during a holiday.",
+                    "highlights": [
+                      "fresh air",
+                      "early start worthwhile"
                     ]
                   }
                 ]
@@ -3656,51 +3971,59 @@ window.IELTS_DATA = {
           },
           {
             "title": "交通堵塞｜独立事件",
+            "note": "按你的指定：先不开心 → 和朋友玩手机游戏后开心 → 增进感情，但最后很累、不想再在高峰期去。",
             "items": [
               {
                 "question": "Describe a time when you were stuck in a traffic jam for a very long time",
                 "sourceOrder": 7,
+                "memoryChain": {
+                  "story": "上海旅行和好友坐出租车 → 去购物区遇堵车 → 两小时几乎不动 → 开始不开心＋反复看地图 → 一起玩手机游戏聊天 → 晚到商店关门＋非常累",
+                  "reasons": [
+                    "车一直不动＋担心错过景点 → 等待很累 → 很不开心",
+                    "和朋友玩手机游戏 → 不再只看道路 → 又开心起来",
+                    "玩游戏聊天让我们更亲近 → 但最后很累 → 下次坐地铁或早点走"
+                  ]
+                },
                 "body": {
-                  "text": "This happened during my last trip to Shanghai. My girlfriend and I were taking a taxi to a shopping area when we became stuck on a busy city road. There had been a small accident ahead, so the traffic hardly moved for nearly two hours. While waiting, we listened to music, talked about our travel plan and checked the map on my phone. We finally arrived late in the afternoon.",
+                  "text": "This happened during my last trip to Shanghai with a close friend. We were taking a taxi to a popular shopping area when we got stuck on a busy road. The road was full of cars. The traffic hardly moved for nearly two hours. At first, we simply waited and felt unhappy because we thought the trip would take only thirty minutes. We checked the map and became more tired. Later, my friend opened a simple mobile phone game, and we played against each other. We also talked about funny things from school and laughed for a while. This changed the mood inside the taxi. We finally arrived very late, several shops were closing, and both of us felt exhausted.",
                   "highlights": [
-                    "my last trip to Shanghai",
+                    "last trip to Shanghai",
+                    "a close friend",
                     "taking a taxi",
-                    "a busy city road",
-                    "a small accident",
                     "nearly two hours",
-                    "listened to music"
+                    "mobile phone game",
+                    "felt exhausted"
                   ]
                 },
                 "draftCues": [
-                  "Shanghai trip",
+                  "Shanghai-friend",
                   "taxi",
-                  "city road",
                   "2 hours",
-                  "music-chat",
-                  "late"
+                  "unhappy",
+                  "phone game",
+                  "tired-no return"
                 ],
                 "pointsLabel": "How I felt · 3 点",
                 "reasons": [
                   {
-                    "text": "At first, I felt annoyed because the cars hardly moved and we were getting late.",
+                    "text": "At first, I felt unhappy because the traffic hardly moved and the long wait was tiring. I also worried that we would miss the places we wanted to visit.",
                     "highlights": [
-                      "felt annoyed",
-                      "hardly moved",
-                      "getting late"
+                      "felt unhappy",
+                      "long wait"
                     ]
                   },
                   {
-                    "text": "However, I became calmer after we listened to music and talked.",
+                    "text": "After a while, my friend and I played a mobile phone game together, so I became happy again. The game gave us something simple to do instead of watching the road.",
                     "highlights": [
-                      "became calmer",
-                      "music and talked"
+                      "played a mobile phone game",
+                      "happy again"
                     ]
                   },
                   {
-                    "text": "In the future, I will leave earlier or take the subway during busy hours.",
+                    "text": "What's more, playing and talking brought us closer, but I was exhausted in the end and probably will not visit that area at a busy time again. Next time, I will take the subway or leave much earlier.",
                     "highlights": [
-                      "leave earlier",
-                      "take the subway"
+                      "brought us closer",
+                      "will not visit that area"
                     ]
                   }
                 ]
@@ -3713,8 +4036,16 @@ window.IELTS_DATA = {
               {
                 "question": "Describe a thing you did to learn another language",
                 "sourceOrder": 10,
+                "memoryChain": {
+                  "story": "为了旅行学法语 → 简单书＋短视频 → 每天五个词记在本上 → 跟读录音找错误 → 问老师＋周末和李华练 → 从自我介绍进步到聊旅行",
+                  "reasons": [
+                    "法语发音难＋反复出错 → 开始觉得尴尬",
+                    "书和视频帮助听懂 → 每天练习很短 → 忙时也能坚持",
+                    "现在更自信 → 继续为旅行练习 → 希望在法国真实使用"
+                  ]
+                },
                 "body": {
-                  "text": "I'd like to talk about learning French by following my friend Li Hua's method. I wanted to learn it for future travel, so I started with a simple French book and short online videos. I wrote down useful words, repeated the speakers' pronunciation and asked a teacher whenever I had a question. I also practised short conversations with Li Hua at weekends. This routine helped me remember words and speak more clearly.",
+                  "text": "I'd like to talk about learning French by following my friend Li Hua's method. I wanted to learn it for future travel because I hoped to order food and ask for directions by myself. I started with a simple French book and short online videos. Every evening, I learned five useful words and wrote them in a small notebook. I repeated the speakers' pronunciation, recorded my own voice and listened again to find mistakes. Whenever I had a question, I asked a teacher instead of guessing. I also practised short conversations with Li Hua at weekends. At first, I could only introduce myself, but after several months I could talk about food, weather and travel plans. This routine helped me remember words and speak more clearly.",
                   "highlights": [
                     "learning French",
                     "my friend Li Hua's method",
@@ -3735,21 +4066,21 @@ window.IELTS_DATA = {
                 "pointsLabel": "How I felt · 3 点",
                 "reasons": [
                   {
-                    "text": "At first, French pronunciation was difficult and I made many mistakes.",
+                    "text": "At first, French pronunciation was difficult and I made many mistakes. I sometimes felt embarrassed because the same word sounded wrong again and again.",
                     "highlights": [
                       "pronunciation was difficult",
                       "many mistakes"
                     ]
                   },
                   {
-                    "text": "After a while, books and videos helped me understand more words and sounds.",
+                    "text": "After a while, books and videos helped me understand more words and sounds. Daily practice was short, so it was easy to continue even when I was busy.",
                     "highlights": [
                       "books and videos",
                       "more words and sounds"
                     ]
                   },
                   {
-                    "text": "Now I feel more confident, and I want to keep practising for future travel.",
+                    "text": "Now I feel more confident, and I want to keep practising for future travel. If I visit France, I hope to use French in a shop and have a simple conversation.",
                     "highlights": [
                       "more confident",
                       "keep practising",
@@ -3761,105 +4092,60 @@ window.IELTS_DATA = {
             ]
           },
           {
-            "title": "种菜的奶奶｜早起",
-            "items": [
-              {
-                "question": "Describe a time when you got up early",
-                "sourceOrder": 11,
-                "body": {
-                  "text": "I'd like to talk about a morning when I got up at six o'clock during a visit to my grandma's home in the countryside. She normally works in her garden before the weather becomes hot, so I decided to help her. We watered the vegetables, removed some weeds and picked a few tomatoes. After finishing the work, we washed our hands and ate a simple breakfast made with fresh vegetables.",
-                  "highlights": [
-                    "at six o'clock",
-                    "my grandma's home",
-                    "in the countryside",
-                    "works in her garden",
-                    "watered the vegetables",
-                    "fresh vegetables"
-                  ]
-                },
-                "draftCues": [
-                  "grandma",
-                  "countryside",
-                  "6 a.m.",
-                  "garden",
-                  "water-weeds",
-                  "fresh breakfast"
-                ],
-                "pointsLabel": "How I felt · 3 点",
-                "reasons": [
-                  {
-                    "text": "At first, I felt sleepy because I was not used to getting up at six.",
-                    "highlights": [
-                      "felt sleepy",
-                      "six"
-                    ]
-                  },
-                  {
-                    "text": "After a while, the fresh air and quiet garden made me feel peaceful.",
-                    "highlights": [
-                      "fresh air",
-                      "quiet garden",
-                      "feel peaceful"
-                    ]
-                  },
-                  {
-                    "text": "In the end, I felt proud that I had helped my grandma and spent time with her.",
-                    "highlights": [
-                      "felt proud",
-                      "helped my grandma",
-                      "spent time with her"
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "title": "环保新闻｜独立事件",
+            "title": "胖东来开店｜当地新闻",
+            "note": "按你的指定单独准备；硬套其他人物或事物题会改变 DOCX 原故事线，因此不再强行迁移。",
             "items": [
               {
                 "question": "Describe a piece of local news that people are interested in",
                 "sourceOrder": 12,
+                "memoryChain": {
+                  "story": "本地电视看到新闻 → 邻里群继续转发 → 家附近要开胖东来 → 公布位置月份＋招聘本地员工 → 店内有休息区 → 家人邻居讨论要买什么",
+                  "reasons": [
+                    "很多东西便宜 → 一次买鲜食和日用品 → 家庭省钱省路程",
+                    "自有品牌别处不常见 → 简单实用 → 大家想尝试",
+                    "服务友好耐心 → 回答问题＋帮助老人 → 购物更舒服"
+                  ]
+                },
                 "body": {
-                  "text": "I'd like to talk about a piece of news I saw on local television last month. It was about a new rubbish and recycling rule that the city government planned to introduce. Residents would need to put different kinds of waste into separate bins, and people who littered could receive a fine. The report included interviews with local residents, street cleaners and government workers who explained how the rule might work.",
+                  "text": "I'd like to talk about a piece of local news I saw last month. I first noticed it on a local TV programme, and later many people shared it in our neighbourhood group. It said that a new Pang Dong Lai supermarket would open near my home. The report showed the location of the new shop, the planned opening month and some local workers who would work there. It also showed wide shopping areas and a place where customers could rest. Many residents were excited because they had heard good things about the supermarket and wanted to visit it after it opened. My parents and neighbours discussed what they might buy there. I am interested too because the nearest large supermarket is quite far from my home now.",
                   "highlights": [
-                    "local television last month",
-                    "rubbish and recycling rule",
-                    "city government",
-                    "separate bins",
-                    "receive a fine",
-                    "street cleaners"
+                    "last month",
+                    "Pang Dong Lai",
+                    "near my home",
+                    "new shop",
+                    "local workers",
+                    "residents were excited"
                   ]
                 },
                 "draftCues": [
-                  "local TV",
-                  "rubbish law",
-                  "fine",
-                  "residents",
-                  "government",
-                  "recycling"
+                  "local news",
+                  "Pang Dong Lai",
+                  "new shop",
+                  "near home",
+                  "local workers",
+                  "residents"
                 ],
                 "pointsLabel": "Why people were interested · 3 原因",
                 "reasons": [
                   {
-                    "text": "First of all, the new rule would affect everyone's daily habits and could include a fine.",
+                    "text": "First of all, many things there are very cheap, so local families can save money. For example, people may be able to buy fresh food and daily products in one trip.",
                     "highlights": [
-                      "daily habits",
-                      "a fine"
+                      "very cheap",
+                      "save money"
                     ]
                   },
                   {
-                    "text": "Secondly, people hoped it would make local streets and parks cleaner.",
+                    "text": "Secondly, many products are the supermarket's own brands, so people want to try something different. These products are often simple and useful, and they cannot be found in every shop.",
                     "highlights": [
-                      "streets and parks cleaner"
+                      "own brands",
+                      "try something different"
                     ]
                   },
                   {
-                    "text": "What's more, the news started a public discussion about recycling and green services.",
+                    "text": "What's more, it is famous for its friendly and helpful service, which makes shopping more pleasant. Staff may answer questions, help older customers and deal with problems patiently.",
                     "highlights": [
-                      "public discussion",
-                      "recycling",
-                      "green services"
+                      "friendly and helpful service",
+                      "shopping more pleasant"
                     ]
                   }
                 ]
@@ -6076,73 +6362,6 @@ window.IELTS_DATA = {
           ]
         },
         {
-          "id": "grandma-early",
-          "code": "G7",
-          "name": "早起经历",
-          "fit": "直接适配",
-          "question": "Describe a time when you got up early.",
-          "focus": "重点讲为什么被奶奶早早叫醒、在菜园做了什么，以及早起前后的感受变化。",
-          "modules": "住在奶奶家 → 早上六点起床 → 菜园浇水除草 → 一起吃早餐 → 感受",
-          "omit": "不用完整介绍所有蔬菜；重点放在这一次早起经历。",
-          "framework": [
-            "交代去年夏天在奶奶家住了一个周末。",
-            "说明奶奶六点叫你起床，因为要趁天气凉快照料菜园。",
-            "讲松土、拔草、浇水以及奶奶精力充沛的样子。",
-            "用一起吃早餐和自己从困倦变得清醒、开心收尾。"
-          ],
-          "keys": [
-            "My grandma woke me up at about six o'clock one summer morning.",
-            "She wanted to water the vegetables before the weather became too hot.",
-            "Although I felt sleepy at first, I enjoyed the quiet morning and the time I spent with her."
-          ],
-          "answer": [
-            {
-              "kind": "特殊",
-              "text": "I'd like to talk about a summer morning when my grandma made me get up much earlier than usual."
-            },
-            {
-              "kind": "特殊",
-              "text": "I was staying at her house for the weekend, and she woke me at about six o'clock."
-            },
-            {
-              "kind": "特殊",
-              "text": "She wanted to water the vegetables and pull out weeds before the weather became too hot."
-            },
-            {
-              "kind": "通用",
-              "text": "Behind her house, she has a small garden where she grows tomatoes, cucumbers, carrots and garlic."
-            },
-            {
-              "kind": "通用",
-              "text": "She taught me how to loosen the soil, pull out weeds and water the plants."
-            },
-            {
-              "kind": "特殊",
-              "text": "At first, I was sleepy and wanted to go back to bed, but the cool air soon woke me up."
-            },
-            {
-              "kind": "通用",
-              "text": "After only ten minutes, I felt tired, but she was still moving around the garden with lots of energy."
-            },
-            {
-              "kind": "特殊",
-              "text": "When we finished, we washed some fresh tomatoes and cucumbers and ate them with breakfast."
-            },
-            {
-              "kind": "特殊",
-              "text": "I felt proud because we had completed so much work before most people were awake."
-            },
-            {
-              "kind": "特殊",
-              "text": "Although getting out of bed was difficult, the quiet morning made me feel fresh and peaceful."
-            },
-            {
-              "kind": "特殊",
-              "text": "It also gave me meaningful time with my grandma, so I was glad that she had woken me up."
-            }
-          ]
-        },
-        {
           "id": "grandma-nature-person",
           "code": "G8",
           "name": "鼓励你保护自然的人",
@@ -7389,14 +7608,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "在你的国家，会说外语的人多吗？",
-            "answer": "有不少，尤其是学生和需要国际交流的工作人员。会外语能帮助人们获得新知识，也能带来更多学习和工作机会。"
+            "answer": "我觉得现在会说外语的人比以前多多了。很多年轻人英语都不错，因为学校教得早，学的人也越来越多了（pick up the language naturally）。"
           },
-          "keywords": [
-            "gain new knowledge",
-            "job opportunities",
-            "language skills"
+          "structure": "直接回答",
+          "chunkPhrases": [
+            "pick up the language naturally"
           ],
-          "structure": "直接回答"
+          "chunks": [
+            "C11"
+          ]
         },
         {
           "question": "Does speaking other languages help at work?",
@@ -7404,14 +7624,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "会说其他语言对工作有帮助吗？",
-            "answer": "有帮助，因为外语能让员工直接和外国客户沟通。比如，他们可以自己解释产品信息，不必一直依靠翻译。这样既能减少误解，也能提高工作效率。"
+            "answer": "我觉得很有帮助，尤其是在大公司。因为会说别的语言，就能和外国客户直接交流，学到在工作上也用得上的技能（learn skills you can use in…）。比如说，我朋友会日语，谈生意的时候方便很多，老板也更看重他。"
           },
-          "keywords": [
-            "communicate with foreign clients",
-            "reduce misunderstandings",
-            "a practical skill"
+          "structure": "PREC",
+          "chunkPhrases": [
+            "learn skills you can use in…"
           ],
-          "structure": "PREC"
+          "chunks": [
+            "C04"
+          ]
         },
         {
           "question": "Do people learn any languages other than English?",
@@ -7419,14 +7640,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "人们会学习英语以外的语言吗？",
-            "answer": "会。有些人因为工作学习日语、韩语或西班牙语，也有人只是对其他文化感兴趣。学习另一种语言可以开阔眼界。"
+            "answer": "会，现在学日语和韩语的人挺多的。很多人是因为喜欢看日剧韩剧，想听懂原声，就自己去学（learn it by myself）。"
           },
-          "keywords": [
-            "broaden their horizons",
-            "understand other cultures",
-            "language skills"
+          "structure": "直接回答",
+          "chunkPhrases": [
+            "learn it by myself"
           ],
-          "structure": "直接回答"
+          "chunks": [
+            "C12"
+          ]
         },
         {
           "question": "Why is it easier for children to learn new things  than for adults?",
@@ -7434,14 +7656,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "为什么孩子比成年人更容易学习新事物？",
-            "answer": "孩子通常学得更快，因为他们有更多时间，也不太害怕犯错。比如，他们会通过模仿和反复练习掌握新内容，而成年人常受到工作和家庭责任的影响。所以儿童时期通常更适合学习新事物。"
+            "answer": "我觉得孩子学得快，因为他们不怕犯错。孩子说错了也没什么压力，多说多练，自然就学会了（make mistakes and learn from them）。成年人就不一样，总怕说错丢面子，所以学起来慢很多。"
           },
-          "keywords": [
-            "learn through imitation",
-            "practise regularly",
-            "family responsibilities"
+          "structure": "PREC + 对比",
+          "chunkPhrases": [
+            "make mistakes and learn from them"
           ],
-          "structure": "PREC + 对比"
+          "chunks": [
+            "C11"
+          ]
         },
         {
           "question": "How do people learn new things?",
@@ -7449,14 +7672,16 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "人们怎样学习新事物？",
-            "answer": "人们可以上课、看教学视频，也可以向有经验的人请教。最重要的是经常练习，并把学到的内容用在真实生活中。"
+            "answer": "现在很多人都是自己上网学，比如说看在线教程（watch online tutorials）。每天学一点，一步步来（learn step by step），练多了就慢慢会了。"
           },
-          "keywords": [
-            "take a course",
-            "watch teaching videos",
-            "practise regularly"
+          "structure": "直接回答",
+          "chunkPhrases": [
+            "watch online tutorials",
+            "learn step by step"
           ],
-          "structure": "直接回答"
+          "chunks": [
+            "C12"
+          ]
         },
         {
           "question": "What is the most important thing for learning a language well?",
@@ -7464,14 +7689,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "学好一门语言最重要的事情是什么？",
-            "answer": "最重要的是每天真正使用这门语言，因为只背规则很容易忘记。比如，学习者可以每天听一小段录音，再和别人说几句话。长期练习会让语言使用得越来越自然。"
+            "answer": "我觉得最重要的就是每天练习说（practise speaking every day）。因为语言是用来交流的，光背单词不开口，很快就忘了。比如说我朋友每天跟外国人聊天，半年下来进步特别大。"
           },
-          "keywords": [
-            "use the language every day",
-            "not be afraid of mistakes",
-            "long-term practice"
+          "structure": "PREC",
+          "chunkPhrases": [
+            "practise speaking every day"
           ],
-          "structure": "PREC"
+          "chunks": [
+            "C11"
+          ]
         }
       ]
     },
@@ -7489,14 +7715,17 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "为什么有些人会自己创业？",
-            "answer": "一些人创业是因为想更加独立，并把自己的想法变成产品或服务。比如，他们可能发现市场中有一个真实需求，想用自己的方式解决。创业可能提高收入，但同时也会带来风险和压力。"
+            "answer": "有些人想自己创业，因为不想一直听别人的安排。自己开个小店，能按自己的想法来（run my own business）。做成了会很有成就感（a real sense of achievement）。"
           },
-          "keywords": [
-            "be more independent",
-            "earn more money",
-            "take risks"
+          "structure": "PREC",
+          "chunkPhrases": [
+            "run my own business",
+            "a real sense of achievement"
           ],
-          "structure": "PREC"
+          "chunks": [
+            "C05",
+            "C04"
+          ]
         },
         {
           "question": "Should governments provide financial support to start-ups?",
@@ -7504,14 +7733,17 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "政府应该为初创企业提供资金支持吗？",
-            "answer": "政府可以适度支持初创企业，因为它们能够创造工作机会和新产品。比如，政府可以向有清楚计划的企业提供短期贷款或培训。不过每个项目都应该认真审核，不能长期支持没有实际价值的公司。"
+            "answer": "我觉得政府应该支持新的小公司（the government should support…）。因为这些公司能创造工作机会，还能满足大家的需要（meet a real need）。不过钱要用在靠谱的公司上，不能乱给。"
           },
-          "keywords": [
-            "support start-ups",
-            "create job opportunities",
-            "check each project carefully"
+          "structure": "PREC",
+          "chunkPhrases": [
+            "the government should support…",
+            "meet a real need"
           ],
-          "structure": "PREC"
+          "chunks": [
+            "C05",
+            "C05"
+          ]
         },
         {
           "question": "Do most people prefer shopping at big stores or small stores?",
@@ -7519,14 +7751,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "大多数人更喜欢在大商店还是小商店购物？",
-            "answer": "这取决于需要。大商店选择更多，也比较方便；小商店通常服务更直接，还能支持当地生意。"
+            "answer": "我觉得年轻人更喜欢去大商店，因为选择多，还能留意价格（keep an eye on the price）。但老人更喜欢小店，因为和老板熟，能聊聊天。大商店方便，小店更有人情味。"
           },
-          "keywords": [
-            "more convenient",
-            "meet customer needs",
-            "good customer service"
+          "structure": "直接回答 + 对比",
+          "chunkPhrases": [
+            "keep an eye on the price"
           ],
-          "structure": "直接回答 + 对比"
+          "chunks": [
+            "C22"
+          ]
         },
         {
           "question": "What makes a business successful?",
@@ -7534,14 +7767,17 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "什么能让一家企业成功？",
-            "answer": "企业需要提供符合真实需求的产品、稳定的质量和良好的顾客服务。同时，它也要控制成本，并根据顾客反馈作出改变。"
+            "answer": "我觉得最重要的是满足一个真实存在的需求（meet a real need）。还要多听顾客怎么说，把名声做好（build a good reputation）。"
           },
-          "keywords": [
-            "good customer service",
-            "meet real needs",
-            "control costs"
+          "structure": "直接回答",
+          "chunkPhrases": [
+            "meet a real need",
+            "build a good reputation"
           ],
-          "structure": "直接回答"
+          "chunks": [
+            "C05",
+            "C05"
+          ]
         },
         {
           "question": "What makes a business fail?",
@@ -7549,14 +7785,17 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "什么会让一家企业失败？",
-            "answer": "常见原因包括缺少计划、产品没有市场以及成本过高。如果企业忽视顾客意见或资金管理不当，也很难长期经营。"
+            "answer": "我觉得很多生意失败，是因为不听顾客的意见（listen to what customers say）。还有成本没控制住（keep the costs down），钱不够就撑不下去了。"
           },
-          "keywords": [
-            "control costs",
-            "make a plan",
-            "meet customer needs"
+          "structure": "直接回答",
+          "chunkPhrases": [
+            "listen to what customers say",
+            "keep the costs down"
           ],
-          "structure": "直接回答"
+          "chunks": [
+            "C05",
+            "C05"
+          ]
         },
         {
           "question": "Is it easy to set up a new business in your country?",
@@ -7564,14 +7803,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "在你的国家创办一家新企业容易吗？",
-            "answer": "在我国创办新企业并不容易，因为经营者需要资金、经验，还要面对激烈竞争。比如，新老板必须了解顾客需求、市场情况和相关规定。网络平台虽然能降低部分成本，但清楚的计划仍然不可缺少。"
+            "answer": "我觉得不容易。因为要办很多手续，还要花很多钱，压力很大（work under a lot of pressure）。不过现在网上申请比以前简单，但租金还是很贵。"
           },
-          "keywords": [
-            "start a new business",
-            "face strong competition",
-            "understand the market"
+          "structure": "PREC",
+          "chunkPhrases": [
+            "work under a lot of pressure"
           ],
-          "structure": "PREC"
+          "chunks": [
+            "C04"
+          ]
         }
       ]
     },
@@ -7589,14 +7829,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "你认为政府应该为公司提供资金支持吗？",
-            "answer": "政府可以支持公司，但应该设置清楚的条件，因为公共资金需要带来实际价值。比如，能够创造就业或解决社会问题的公司可以获得短期帮助。不过政府不应该一直帮助经营不好的企业。"
+            "answer": "我觉得政府应该给公司一些资金支持。因为很多小公司刚起步，没钱就很难撑下去。政府帮一把，工作保住了，经济也会更好（the government should support…）。"
           },
-          "keywords": [
-            "job opportunities",
-            "provide financial support",
-            "help society"
+          "structure": "PREC",
+          "chunkPhrases": [
+            "the government should support…"
           ],
-          "structure": "PREC"
+          "chunks": [
+            "C05"
+          ]
         },
         {
           "question": "Do you think companies should donate money to help society?",
@@ -7604,14 +7845,17 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "你认为公司应该捐款帮助社会吗？",
-            "answer": "如果公司有能力，我认为它应该适当捐款，因为这能帮助有需要的人。比如，公司可以支持当地教育、医疗或环保项目。这样能建立良好的社会形象，但公司也要先照顾好员工和正常经营。"
+            "answer": "我觉得大公司应该捐钱帮助社会。因为公司赚了钱，回报社会是应该的。捐款能真正帮到有困难的人（make a difference to other people），公司也会有好名声（build a good reputation）。"
           },
-          "keywords": [
-            "donate money",
-            "help society",
-            "a positive public image"
+          "structure": "PREC",
+          "chunkPhrases": [
+            "make a difference to other people",
+            "build a good reputation"
           ],
-          "structure": "PREC"
+          "chunks": [
+            "C04",
+            "C05"
+          ]
         },
         {
           "question": "Do you think customer satisfaction is important for a company?",
@@ -7619,14 +7863,17 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "你认为顾客满意度对公司重要吗？",
-            "answer": "顾客满意度非常重要，因为满意的顾客更可能再次购买。比如，如果公司认真听取反馈并快速解决问题，顾客可能会把它推荐给朋友。因此，良好的服务有利于公司的长期发展。"
+            "answer": "我觉得顾客满意度对公司非常重要。因为顾客满意才会再来买，还会告诉朋友（people tell their friends about it）。所以要多听顾客的意见，生意才会越来越好（listen to what customers say）。"
           },
-          "keywords": [
-            "customer satisfaction",
-            "listen to feedback",
-            "long-term development"
+          "structure": "PREC",
+          "chunkPhrases": [
+            "people tell their friends about it",
+            "listen to what customers say"
           ],
-          "structure": "PREC"
+          "chunks": [
+            "C05",
+            "C05"
+          ]
         }
       ]
     },
@@ -7644,14 +7891,16 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "你认为当医生容易还是困难？",
-            "answer": "当医生很困难，因为医生需要接受长期训练，还要在压力下作出重要决定。比如，遇到紧急病人时，他们必须快速选择合适的治疗方法。不过这份工作很有意义，因为它能直接帮助病人。"
+            "answer": "我觉得当医生很难。因为医生要在很大压力下工作，还要一直学习新东西（work under a lot of pressure）。比如我认识一个医生，经常加班，但他觉得能帮到病人就值得（hard work, but worth it）。"
           },
-          "keywords": [
-            "long-term training",
-            "work under pressure",
-            "help patients"
+          "structure": "PREC",
+          "chunkPhrases": [
+            "work under a lot of pressure",
+            "hard work, but worth it"
           ],
-          "structure": "PREC"
+          "chunks": [
+            "C04"
+          ]
         },
         {
           "question": "Do you think learning biology is interesting for children?",
@@ -7659,15 +7908,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "你认为学习生物对孩子来说有趣吗？",
-            "answer": "是的，我认为生物对孩子很有趣，因为很多孩子对动物和自然充满好奇。例如，他们可以观察植物和昆虫，或者在课堂上做简单实验。这会让学习更有趣，并帮助他们更好地理解自然世界。"
+            "answer": "我觉得挺有趣的。因为生物讲的都是身边的事，比如动物、植物，还有我们自己的身体。孩子可以一步步学，比如种颗种子看它发芽，会特别有成就感（learn step by step）。"
           },
-          "keywords": [
-            "be curious about animals and nature",
-            "observe plants and insects",
-            "do simple experiments",
-            "understand the natural world"
+          "structure": "PREC",
+          "chunkPhrases": [
+            "learn step by step"
           ],
-          "structure": "PREC"
+          "chunks": [
+            "C12"
+          ]
         },
         {
           "question": "Why do you some children want to become doctors?",
@@ -7675,14 +7924,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "为什么有些孩子想成为医生？",
-            "answer": "一些孩子想当医生，是因为他们尊敬医生，也想帮助生病的人。比如，孩子可能看到医生帮助自己的家人，因此对医学产生兴趣。这样，他们就会觉得医生是一份很有意义的职业。"
+            "answer": "我觉得主要是因为医生能帮到人。孩子看到医生把病人治好，会觉得这份工作特别有意义。所以很多孩子想当医生，想对别人的生活产生影响（make a difference to other people）。"
           },
-          "keywords": [
-            "admire doctors",
-            "help sick people",
-            "a meaningful job"
+          "structure": "PREC",
+          "chunkPhrases": [
+            "make a difference to other people"
           ],
-          "structure": "PREC"
+          "chunks": [
+            "C04"
+          ]
         },
         {
           "question": "Do you think governments should put a large amount of money into medical research?",
@@ -7690,14 +7940,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "你认为政府应该为医学研究投入大量资金吗？",
-            "answer": "我认为政府应该投入大量资金，因为医学研究能够预防疾病并挽救生命。比如，政府资金可以帮助科学家研发新的药物和治疗方法。不过这些钱应该谨慎使用，并优先解决影响很多人的健康问题。"
+            "answer": "我觉得应该，而且很重要。因为医学研究能帮我们治更多的病，很多病人会因此受益。比如研究新药很花钱，但能救很多人，影响很多人的生活（make a difference to other people）。"
           },
-          "keywords": [
-            "medical research",
-            "develop new treatments",
-            "save lives"
+          "structure": "PREC",
+          "chunkPhrases": [
+            "make a difference to other people"
           ],
-          "structure": "PREC"
+          "chunks": [
+            "C04"
+          ]
         }
       ]
     },
@@ -7715,14 +7966,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "你还和童年朋友保持联系吗？为什么？",
-            "answer": "我仍然会和童年朋友保持联系，因为共同的经历让这段关系很特别。比如，我们会通过社交媒体了解彼此的生活，也会在节假日见面。虽然联系没有以前频繁，但我们仍然重视这段友谊。"
+            "answer": "我觉得还会。因为从小一起长大，我们感情很深，所以我会尽快回复他们的消息（get back to… as soon as I can）。比如我最好的发小在国外，我们每个月都会视频聊天。"
           },
-          "keywords": [
-            "stay connected",
-            "social media",
-            "a shared experience"
+          "structure": "PREC",
+          "chunkPhrases": [
+            "get back to… as soon as I can"
           ],
-          "structure": "PREC"
+          "chunks": [
+            "C02"
+          ]
         },
         {
           "question": "How important is childhood friendship to children?",
@@ -7730,14 +7982,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "童年友谊对孩子有多重要？",
-            "answer": "很重要。因为孩子能在友谊中学习分享与合作。例如，他们会一起解决小矛盾。这些经历能帮助他们建立信任和自信。"
+            "answer": "我觉得非常重要。因为小时候的朋友陪我们一起长大，教会我们分享，也让我们学会关心别人（show you care about…）。比如我女儿每天都会和邻居家的小朋友一起玩，她现在开心多了。"
           },
-          "keywords": [
-            "build trust",
-            "stay connected",
-            "face-to-face communication"
+          "structure": "PREC",
+          "chunkPhrases": [
+            "show you care about…"
           ],
-          "structure": "PREC"
+          "chunks": [
+            "C33"
+          ]
         },
         {
           "question": "What do you think of communicating via social media?",
@@ -7745,14 +7998,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "你如何看待通过社交媒体交流？",
-            "answer": "通过社交媒体交流很方便，因为距离很远的人也能随时保持联系。比如，朋友可以发送照片和短消息，分享最近发生的事情。不过重要问题最好面对面谈，这样更容易理解彼此的感受。"
+            "answer": "我觉得挺方便的，但也有点不好。因为虽然能很快联系到朋友，但谁都有忙的时候，回复会很慢（everyone gets busy sometimes）。比如我发的消息，朋友有时候第二天才回。"
           },
-          "keywords": [
-            "stay connected",
-            "social media",
-            "more convenient"
+          "structure": "PREC",
+          "chunkPhrases": [
+            "everyone gets busy sometimes"
           ],
-          "structure": "PREC"
+          "chunks": [
+            "C02"
+          ]
         },
         {
           "question": "Do you think online communication through social media will replace face-to-face communication?",
@@ -7760,14 +8014,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "你认为社交媒体上的线上交流会取代面对面交流吗？",
-            "answer": "线上交流不会完全取代面对面沟通，因为文字很难表达全部语气和感受。比如，一条很短的信息可能引起误解，而见面时可以看到表情并立即解释。所以线上交流适合日常联系，重要事情仍然适合当面谈。"
+            "answer": "我觉得不会。因为网上聊天虽然方便，但有时候对方一直不回，要等很久（leave… waiting for hours）。所以我觉得见面聊天更真实，线上聊天永远代替不了。"
           },
-          "keywords": [
-            "face-to-face communication",
-            "closer relationships",
-            "save time"
+          "structure": "PREC + 对比",
+          "chunkPhrases": [
+            "leave… waiting for hours"
           ],
-          "structure": "PREC + 对比"
+          "chunks": [
+            "C02"
+          ]
         },
         {
           "question": "What's the difference between having younger friends and older friends?",
@@ -7775,14 +8030,16 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "拥有年龄较小的朋友和年龄较大的朋友有什么区别？",
-            "answer": "年龄较小的朋友可能带来新想法和活力，年龄较大的朋友通常有更多生活经验。两种友谊都有价值，关键是互相尊重。"
+            "answer": "年轻朋友和我更聊得来，在一起玩特别开心（spend time together）。年纪大的朋友经历多，和他们聊聊近况，能学到很多东西（catch up with…）。"
           },
-          "keywords": [
-            "younger friends",
-            "older friends",
-            "life experience"
+          "structure": "直接回答 + 对比",
+          "chunkPhrases": [
+            "spend time together",
+            "catch up with…"
           ],
-          "structure": "直接回答 + 对比"
+          "chunks": [
+            "C29"
+          ]
         },
         {
           "question": "Has technology changed people's friendships? How?",
@@ -7790,14 +8047,16 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "科技改变了人们的友谊吗？如何改变的？",
-            "answer": "科技已经改变了友谊，因为人们现在可以随时保持联系。比如，住在不同城市的朋友也能通过视频通话分享生活。不过大量短消息可能减少深入交流，所以科技应该适度使用。"
+            "answer": "我觉得科技改变了很多。因为现在很多人手机用得太多了，连朋友见面都在刷手机（be on my phone too much）。比如我和朋友吃饭时，都会先把手机收起来，好好聊天（put my phone away）。"
           },
-          "keywords": [
-            "face-to-face communication",
-            "stay connected",
-            "in a moderate way"
+          "structure": "PREC",
+          "chunkPhrases": [
+            "be on my phone too much",
+            "put my phone away"
           ],
-          "structure": "PREC"
+          "chunks": [
+            "C24"
+          ]
         }
       ]
     },
@@ -7815,14 +8074,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "在家种蔬菜或花有什么好处？",
-            "answer": "种植物能帮助人放松，也能让他们适当活动身体。如果一家人一起照顾植物，还可以共度高质量时光。"
+            "answer": "我觉得好处很多。比如菜更新鲜，看自己种的植物长大也很有成就感（feel proud of the result）。"
           },
-          "keywords": [
-            "spend quality time",
-            "help people relax",
-            "stay active"
+          "structure": "直接回答",
+          "chunkPhrases": [
+            "feel proud of the result"
           ],
-          "structure": "直接回答"
+          "chunks": [
+            "C16"
+          ]
         },
         {
           "question": "Do many people grow vegetables or flowers at home in your country?",
@@ -7830,14 +8090,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "在你的国家，很多人会在家种蔬菜或花吗？",
-            "answer": "有一些人会，尤其是有花园或阳台的人。城市住宅空间有限，所以很多人选择容易照顾的小型植物。"
+            "answer": "我觉得挺多的。现在很多人喜欢在阳台种点菜，亲手种的感觉不一样（grow plants with my own hands）。"
           },
-          "keywords": [
-            "grow plants at home",
-            "limited space",
-            "easy-to-care-for plants"
+          "structure": "直接回答",
+          "chunkPhrases": [
+            "grow plants with my own hands"
           ],
-          "structure": "直接回答"
+          "chunks": [
+            "C16"
+          ]
         },
         {
           "question": "Is it easy to grow plants at home?",
@@ -7845,14 +8106,16 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "在家种植物容易吗？",
-            "answer": "在家种植物不一定容易，因为植物需要合适的阳光、水和温度。比如，初学者可以先种香草或其他容易照顾的小植物。掌握基本方法以后，种植就不会太困难。"
+            "answer": "我觉得不难，但要用心。因为植物需要时间，还要自己天天照顾（take care of… myself）。比如我自己种过小番茄，看着它们一点点长大（watch them grow）。"
           },
-          "keywords": [
-            "enough sunlight and water",
-            "start with easy plants",
-            "basic gardening skills"
+          "structure": "PREC",
+          "chunkPhrases": [
+            "take care of… myself",
+            "watch them grow"
           ],
-          "structure": "PREC"
+          "chunks": [
+            "C16"
+          ]
         },
         {
           "question": "Why do some people like to grow plants?",
@@ -7860,14 +8123,16 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "为什么有些人喜欢种植物？",
-            "answer": "很多人喜欢种植物。因为照顾植物能让他们暂时离开工作和手机。例如，看着植物慢慢长大会带来成就感。所以这是一种简单而健康的放松方式。"
+            "answer": "我觉得种植物能让人放松。因为照顾它们要花时间和耐心（it takes time and patience）。比如种的花开了，看到成果会很高兴（feel proud of the result）。"
           },
-          "keywords": [
-            "help people relax",
-            "grow plants at home",
-            "take responsibility"
+          "structure": "PREC",
+          "chunkPhrases": [
+            "it takes time and patience",
+            "feel proud of the result"
           ],
-          "structure": "PREC"
+          "chunks": [
+            "C16"
+          ]
         },
         {
           "question": "Why do some people prefer to grow their own fruits and vegetables instead of buying them from the market?",
@@ -7875,14 +8140,16 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "为什么有些人喜欢自己种水果和蔬菜，而不是从市场购买？",
-            "answer": "一些人喜欢自己种水果和蔬菜，因为这些食物可能更新鲜，来源也更清楚。比如，他们可以在阳台种番茄或香草，成熟后直接食用。不过种植需要时间和空间，所以并不适合所有人。"
+            "answer": "我觉得自己种菜更新鲜，也更放心。因为亲手种的，知道没乱打药（grow plants with my own hands）。比如我家种的西红柿，看到成果特别开心（feel proud of the result）。"
           },
-          "keywords": [
-            "fresh food",
-            "take time and space",
-            "not for everyone"
+          "structure": "PREC",
+          "chunkPhrases": [
+            "grow plants with my own hands",
+            "feel proud of the result"
           ],
-          "structure": "PREC"
+          "chunks": [
+            "C16"
+          ]
         },
         {
           "question": "Do you think students should learn to grow plant?",
@@ -7890,14 +8157,16 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "你认为学生应该学习种植植物吗？",
-            "answer": "学生应该学习一些基础种植知识，因为这能让他们了解自然、食物来源和责任感。比如，学校可以让每组学生照顾一盆蔬菜，并记录它的生长。课程应该简单，并以实际操作为主。"
+            "answer": "我觉得应该学。因为种东西需要时间和耐心（it takes time and patience）。比如学校让每个班种点花草，学生每天负责浇水（water them every day）。"
           },
-          "keywords": [
-            "take responsibility",
-            "understand nature",
-            "grow plants at home"
+          "structure": "PREC",
+          "chunkPhrases": [
+            "it takes time and patience",
+            "water them every day"
           ],
-          "structure": "PREC"
+          "chunks": [
+            "C16"
+          ]
         }
       ]
     },
@@ -7915,14 +8184,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "在你的国家，哪个行业更容易取得成功？",
-            "answer": "服务业、科技和网络相关行业有不少机会，因为人们的日常需求很大。不过任何行业都需要实用技能，不能只依靠行业趋势。"
+            "answer": "我觉得是科技行业，像互联网和电商，因为大家都离不开手机。只要你的东西能真正帮到别人，成功的机会就很大（make a difference to other people）。"
           },
-          "keywords": [
-            "service and technology industries",
-            "daily needs",
-            "learn useful skills"
+          "structure": "直接回答",
+          "chunkPhrases": [
+            "make a difference to other people"
           ],
-          "structure": "直接回答"
+          "chunks": [
+            "C04"
+          ]
         },
         {
           "question": "What's the difference between ordinary people and successful people?",
@@ -7930,14 +8200,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "普通人和成功人士有什么区别？",
-            "answer": "成功人士通常有更清楚的目标，也更愿意从失败中学习。不过他们不一定天生更聪明，长期努力和机会同样重要。"
+            "answer": "我觉得主要是坚持和规划的区别。普通人遇到困难容易放弃，成功的人会一直坚持，把大目标拆成小步骤（break it down into small steps）。所以到最后，坚持下来的人做得更好。"
           },
-          "keywords": [
-            "set clear goals",
-            "learn from failure",
-            "useful skills"
+          "structure": "直接回答 + 对比",
+          "chunkPhrases": [
+            "break it down into small steps"
           ],
-          "structure": "直接回答 + 对比"
+          "chunks": [
+            "C06"
+          ]
         },
         {
           "question": "What are the factors leading to people's success?",
@@ -7945,14 +8216,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "哪些因素会带来成功？",
-            "answer": "清楚的目标、持续努力和实用技能都很重要。合适的机会以及家人或同事的支持也能帮助一个人坚持下去。"
+            "answer": "我觉得主要是目标和坚持。先给自己定一个明确的目标，然后一步一步去做（set myself a clear goal）。"
           },
-          "keywords": [
-            "learn useful skills",
-            "set clear goals",
-            "practise regularly"
+          "structure": "直接回答",
+          "chunkPhrases": [
+            "set myself a clear goal"
           ],
-          "structure": "直接回答"
+          "chunks": [
+            "C06"
+          ]
         }
       ]
     },
@@ -7970,14 +8242,17 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "一个社会应该有哪些目标？",
-            "answer": "社会应该改善教育、医疗和环境，也要让人们拥有公平的工作机会。这些目标能提高生活质量，并帮助社会长期稳定发展。"
+            "answer": "我觉得一个社会最该做的是让大家生活安稳，出门也安全（keep people safe）。另外要把环境保护好，这样大家才能一直住下去（protect the environment）。"
           },
-          "keywords": [
-            "job opportunities",
-            "fairness",
-            "set clear goals"
+          "structure": "直接回答",
+          "chunkPhrases": [
+            "keep people safe",
+            "protect the environment"
           ],
-          "structure": "直接回答"
+          "chunks": [
+            "C19",
+            "C18"
+          ]
         },
         {
           "question": "Do people need to have goals?",
@@ -7985,14 +8260,17 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "人们需要目标吗？",
-            "answer": "人们需要目标，因为目标能够提供方向和动力。比如，学生可以把通过考试这个大目标分成每天复习的小步骤。不过目标应该根据现实情况调整，否则可能带来过大压力。"
+            "answer": "我觉得需要，有目标才有方向（set myself a clear goal）。因为有了目标，每天都知道该做什么，不会瞎忙。比如说我学英语，每天背一点，能看到进步，到最后就值得了（see real progress）。"
           },
-          "keywords": [
-            "set clear goals",
-            "break it into small steps",
-            "stay motivated"
+          "structure": "PREC",
+          "chunkPhrases": [
+            "set myself a clear goal",
+            "see real progress"
           ],
-          "structure": "PREC"
+          "chunks": [
+            "C06",
+            "C06"
+          ]
         },
         {
           "question": "What goals do people at your age have?",
@@ -8000,14 +8278,17 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "和你同龄的人通常有什么目标？",
-            "answer": "很多人希望发展事业、保持健康并存一些钱。有些人也计划买房、旅行或学习新技能，具体目标取决于生活阶段。"
+            "answer": "我觉得同龄人最想要的是找份稳定的工作，有稳定的收入（a stable income）。再就是慢慢承担更多责任，让生活更好一点（take on more responsibility）。"
           },
-          "keywords": [
-            "make a plan",
-            "set clear goals",
-            "break it into small steps"
+          "structure": "直接回答",
+          "chunkPhrases": [
+            "a stable income",
+            "take on more responsibility"
           ],
-          "structure": "直接回答"
+          "chunks": [
+            "C04",
+            "C04"
+          ]
         },
         {
           "question": "Is it necessary to give advice to children?",
@@ -8015,14 +8296,17 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "有必要给孩子建议吗？",
-            "answer": "给孩子建议是有必要的，因为他们的生活经验比较有限。比如，成年人可以在孩子选择活动时提供信息和安全提醒。不过不应该替孩子作出所有决定，他们也需要学习独立判断。"
+            "answer": "我觉得有必要，孩子还小，很多事拿不准主意（make a big decision）。因为大人的经验能帮他们少走弯路，知道什么该做什么不该做。比如说选学校选专业，先想清楚再做决定（think it through）。"
           },
-          "keywords": [
-            "give advice",
-            "limited experience",
-            "not decide everything"
+          "structure": "PREC",
+          "chunkPhrases": [
+            "make a big decision",
+            "think it through"
           ],
-          "structure": "PREC"
+          "chunks": [
+            "C09",
+            "C09"
+          ]
         },
         {
           "question": "What goals do young people usually have?",
@@ -8030,14 +8314,17 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "年轻人通常有什么目标？",
-            "answer": "他们通常关注教育、职业、旅行和经济独立。这些目标能帮助他们成长，但也应该保持灵活，不必和别人完全一样。"
+            "answer": "我觉得年轻人最想的是先有个好前途，比如找份好工作（a stable income）。还有不少人想自己经营一份生意，做点自己想做的事（run my own business）。"
           },
-          "keywords": [
-            "be more independent",
-            "set clear goals",
-            "break it into small steps"
+          "structure": "直接回答",
+          "chunkPhrases": [
+            "a stable income",
+            "run my own business"
           ],
-          "structure": "直接回答"
+          "chunks": [
+            "C04",
+            "C05"
+          ]
         },
         {
           "question": "What should people do to achieve their goals?",
@@ -8045,14 +8332,17 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "人们应该怎样实现自己的目标？",
-            "answer": "他们可以把大目标分成几个小步骤，制定简单计划并定期检查进度。遇到困难时，调整方法比直接放弃更有用。"
+            "answer": "我觉得先要定个明确的目标，把它拆成小步骤（break it down into small steps）。然后保持动力，每天做一点，慢慢就能看到进步（stay motivated）。"
           },
-          "keywords": [
-            "break it into small steps",
-            "make a plan",
-            "set clear goals"
+          "structure": "直接回答",
+          "chunkPhrases": [
+            "break it down into small steps",
+            "stay motivated"
           ],
-          "structure": "直接回答"
+          "chunks": [
+            "C06",
+            "C06"
+          ]
         }
       ]
     },
@@ -8070,14 +8360,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "人们会有哪些志向？",
-            "answer": "人们可能希望获得理想工作、创办企业、继续学习或照顾好家庭。志向没有固定形式，只要符合个人真实需要就可以。"
+            "answer": "我觉得人们的志向大概分两类。一类是工作上的，比如升职或者有稳定的收入（a stable income）；另一类是生活上的，比如学好一门外语。"
           },
-          "keywords": [
-            "have an ambition",
-            "personal growth",
-            "try new things"
+          "structure": "直接回答",
+          "chunkPhrases": [
+            "a stable income"
           ],
-          "structure": "直接回答"
+          "chunks": [
+            "C04"
+          ]
         },
         {
           "question": "What's the importance of having ambition?",
@@ -8085,14 +8376,16 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "拥有志向有什么重要性？",
-            "answer": "拥有志向很重要，因为它能给人方向，并在困难时提供动力。比如，一个想从事医疗工作的人会更愿意学习相关知识和技能。不过目标需要现实，也应该根据情况调整。"
+            "answer": "我觉得有志向特别重要，因为它能让人一直往前走。有了志向，你就会给自己定一个明确的目标（set myself a clear goal），遇到困难也不容易放弃。比如说我学英语，定好目标就能看到进步（see real progress），一直有动力。"
           },
-          "keywords": [
-            "have an ambition",
-            "personal growth",
-            "try new things"
+          "structure": "PREC",
+          "chunkPhrases": [
+            "set myself a clear goal",
+            "see real progress"
           ],
-          "structure": "PREC"
+          "chunks": [
+            "C06"
+          ]
         },
         {
           "question": "What are the advantages of feeling ambitious towards your work?",
@@ -8100,14 +8393,16 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "对工作有抱负有什么好处？",
-            "answer": "有抱负的人通常更愿意提高技能、承担责任并寻找新机会。这有助于个人成长，但过度竞争也可能造成压力。"
+            "answer": "对工作有抱负好处很多。你会更愿意承担更多责任（take on more responsibility），做好的话会很有成就感（a real sense of achievement）。"
           },
-          "keywords": [
-            "take responsibility",
-            "have an ambition",
-            "personal growth"
+          "structure": "直接回答",
+          "chunkPhrases": [
+            "take on more responsibility",
+            "a real sense of achievement"
           ],
-          "structure": "直接回答"
+          "chunks": [
+            "C04"
+          ]
         },
         {
           "question": "Do you think children should have ambitions?",
@@ -8115,14 +8410,16 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "你认为孩子应该有志向吗？",
-            "answer": "孩子应该有一些志向，因为这能鼓励他们探索兴趣并建立信心。比如，他们可以尝试体育、艺术或科学活动，再发现自己真正喜欢什么。志向不需要很大，适合孩子自身就可以。"
+            "answer": "我觉得孩子应该有志向。因为从小给自己定一个明确的目标（set myself a clear goal），长大以后会更有方向，也更愿意努力。比如说我小时候想学好英语，把目标拆成小步骤（break it down into small steps），慢慢就做到了。"
           },
-          "keywords": [
-            "have an ambition",
-            "personal growth",
-            "try new things"
+          "structure": "PREC",
+          "chunkPhrases": [
+            "set myself a clear goal",
+            "break it down into small steps"
           ],
-          "structure": "PREC"
+          "chunks": [
+            "C06"
+          ]
         },
         {
           "question": "Why should parents encourage children to have ambitions?",
@@ -8130,14 +8427,16 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "为什么父母应该鼓励孩子拥有志向？",
-            "answer": "父母应该适当鼓励孩子有志向，因为支持能增强孩子的信心。比如，当孩子尝试一项新活动时，父母可以肯定他们的努力，而不只看结果。这样孩子会更愿意尝试新事物，而不是只关注成绩或收入。"
+            "answer": "因为孩子还小，不太清楚自己想要什么，父母的鼓励能帮他们找到方向。有父母支持，孩子会更愿意坚持，遇到困难也不放弃（stick to it even when…）。这样他们能看见自己的进步（see real progress），越来越有信心。"
           },
-          "keywords": [
-            "have an ambition",
-            "personal growth",
-            "try new things"
+          "structure": "PREC",
+          "chunkPhrases": [
+            "stick to it even when…",
+            "see real progress"
           ],
-          "structure": "PREC"
+          "chunks": [
+            "C06"
+          ]
         },
         {
           "question": "Do you think parents should stop children from thinking too big?",
@@ -8145,14 +8444,16 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "你认为父母应该阻止孩子把目标想得太大吗？",
-            "answer": "不应该直接阻止。因为孩子需要自由探索自己的想法。父母可以帮助他们了解可能遇到的困难。最后一起制定现实的步骤会更好。"
+            "answer": "我觉得不应该直接拦着孩子。因为想得大不是坏事，重要的是帮他们把大目标拆成小步骤（break it down into small steps），一步一步去做。比如说孩子想当科学家，先鼓励他好好学习，慢慢来，到最后是值得的（it's worth it in the end）。"
           },
-          "keywords": [
-            "have an ambition",
-            "personal growth",
-            "try new things"
+          "structure": "PREC",
+          "chunkPhrases": [
+            "break it down into small steps",
+            "it's worth it in the end"
           ],
-          "structure": "PREC"
+          "chunks": [
+            "C06"
+          ]
         }
       ]
     },
@@ -8170,14 +8471,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "中国的学校有哪些规定？",
-            "answer": "学校通常要求学生准时、完成作业、尊重他人并遵守安全规则。有些学校也规定校服和手机使用。"
+            "answer": "学校规定挺多的，比如上课要准时、要穿校服、不能带手机进教室。这些规定是为了让大家专心学习，也保证校园安全（stick to the rules）。"
           },
-          "keywords": [
-            "keep people safe",
-            "follow the rules",
-            "respect others"
+          "structure": "直接回答",
+          "chunkPhrases": [
+            "stick to the rules"
           ],
-          "structure": "直接回答"
+          "chunks": [
+            "C19"
+          ]
         },
         {
           "question": "Do you think school rules are important?",
@@ -8185,14 +8487,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "你认为校规重要吗？",
-            "answer": "校规很重要，因为它能保证安全和公平，也能维持正常的学习环境。比如，禁止走廊奔跑和考试作弊可以保护学生并维护秩序。不过规则应该清楚合理，而且学校需要解释制定规则的原因。"
+            "answer": "我觉得校规很重要，因为规则能让学生知道什么该做什么不该做。比如说按时交作业，大家慢慢就学会了负责任。没有规则的话，学校会乱成一团（stick to the rules）。"
           },
-          "keywords": [
-            "keep people safe",
-            "fairness",
-            "follow the rules"
+          "structure": "PREC",
+          "chunkPhrases": [
+            "stick to the rules"
           ],
-          "structure": "PREC"
+          "chunks": [
+            "C19"
+          ]
         },
         {
           "question": "Are children unhappy with the school rules?",
@@ -8200,14 +8503,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "孩子会对校规感到不满吗？",
-            "answer": "有些孩子会，尤其是规则太严格或没有解释的时候。如果学校听取学生意见，他们更容易理解并接受合理的规定。"
+            "answer": "有些孩子确实会不满，因为规则限制了他们的自由，比如不能带手机。但他们慢慢会明白，规则是为了保护自己（it's there for a reason）。"
           },
-          "keywords": [
-            "follow the rules",
-            "keep people safe",
-            "protect fairness"
+          "structure": "直接回答",
+          "chunkPhrases": [
+            "it's there for a reason"
           ],
-          "structure": "直接回答"
+          "chunks": [
+            "C19"
+          ]
         },
         {
           "question": "What are the rules people should obey at work?",
@@ -8215,14 +8519,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "人们在工作中应该遵守哪些规定？",
-            "answer": "员工应该准时、尊重同事并遵守安全和保密要求。这些规定能减少错误，也能建立团队信任。"
+            "answer": "工作中最重要的规则是守时，不能迟到早退，也要认真完成自己的任务。还有就是要服从安排，和同事好好配合（be responsible for one part of…）。"
           },
-          "keywords": [
-            "workplace rules",
-            "keep information private",
-            "build trust"
+          "structure": "直接回答",
+          "chunkPhrases": [
+            "be responsible for one part of…"
           ],
-          "structure": "直接回答"
+          "chunks": [
+            "C03"
+          ]
         },
         {
           "question": "What is the purpose of punishment?",
@@ -8230,14 +8535,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "惩罚的目的是什么？",
-            "answer": "惩罚应该阻止错误行为再次发生，并让人理解后果。它的重点应该是教育和保护公平，而不是让人害怕。"
+            "answer": "惩罚的目的不是让人难受，而是让人记住不能犯同样的错。有了真正的惩罚，大家才会更重视规则（there have to be real punishments）。"
           },
-          "keywords": [
-            "fairness",
-            "understand the consequences",
-            "follow the rules"
+          "structure": "直接回答",
+          "chunkPhrases": [
+            "there have to be real punishments"
           ],
-          "structure": "直接回答"
+          "chunks": [
+            "C19"
+          ]
         },
         {
           "question": "How can parents and teachers help children understand and follow rules?",
@@ -8245,14 +8551,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "父母和老师怎样帮助孩子理解并遵守规则？",
-            "answer": "他们应该用简单例子解释规则的原因，并且自己先遵守。对好行为给予肯定，比只在犯错后批评更有效。"
+            "answer": "我觉得要跟孩子解释规则背后的原因，而不是只说必须听话。另外大人自己也要先做到，孩子看到了就会跟着学（explain the reasons behind it）。"
           },
-          "keywords": [
-            "explain the reasons",
-            "set a good example",
-            "praise good behaviour"
+          "structure": "直接回答",
+          "chunkPhrases": [
+            "explain the reasons behind it"
           ],
-          "structure": "直接回答"
+          "chunks": [
+            "C19"
+          ]
         }
       ]
     },
@@ -8270,14 +8577,17 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "学校应该教孩子动物知识吗？",
-            "answer": "学校应该教孩子动物知识，因为这能帮助他们了解自然并尊重生命。比如，老师可以使用图片、视频或简单的户外课程介绍动物怎样生活。这样既能增加知识，也能让学习变得更有趣。"
+            "answer": "我觉得应该，因为了解动物能让孩子学会为别人着想（it teaches you to think about others）。比如课上放动物视频、讲动物怎么生活，孩子会特别感兴趣。这样他们长大后会懂得保护环境（protect the environment）。"
           },
-          "keywords": [
-            "respect living things",
-            "understand nature",
-            "make learning interesting"
+          "structure": "PREC",
+          "chunkPhrases": [
+            "it teaches you to think about others",
+            "protect the environment"
           ],
-          "structure": "PREC"
+          "chunks": [
+            "C30",
+            "C18"
+          ]
         },
         {
           "question": "Some people think pets should not be kept in cities. What do you think?",
@@ -8285,14 +8595,16 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "有些人认为城市里不应该养宠物。你怎么看？",
-            "answer": "我不完全同意禁止在城市养宠物，因为得到良好照顾的宠物也能适应城市生活。比如，小型犬只要有足够空间、运动和日常照顾，就可以生活得很好。不过大型或危险动物需要更严格的规定。"
+            "answer": "我觉得城市里可以养宠物，但条件是主人得负责（it's a big responsibility）。比如我朋友在公寓里养猫，他每天都照顾它（take care of it every day），猫也很开心。只要做到这些，城市里养宠物没什么问题。"
           },
-          "keywords": [
-            "keep pets in cities",
-            "enough space and exercise",
-            "stricter rules"
+          "structure": "PREC",
+          "chunkPhrases": [
+            "it's a big responsibility",
+            "take care of it every day"
           ],
-          "structure": "PREC"
+          "chunks": [
+            "C30"
+          ]
         },
         {
           "question": "Many people regard pets as members of their family. What do you think?",
@@ -8300,14 +8612,16 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "很多人把宠物看作家庭成员。你怎么看？",
-            "answer": "人们把宠物当作家人很正常，因为他们每天照顾宠物，也能从宠物那里得到陪伴。比如，主人会给宠物喂食、散步，并在孤独时和它相处。把宠物当作家人也会让主人更认真地承担责任。"
+            "answer": "我同意，很多人真的把宠物当家人（treat them as part of the family）。因为每天一起生活，人和宠物之间有很深的感情（the bond between…）。比如我邻居每天带狗散步，狗就像家里的一员。"
           },
-          "keywords": [
-            "treat pets as family",
-            "provide companionship",
-            "take responsibility"
+          "structure": "PREC",
+          "chunkPhrases": [
+            "treat them as part of the family",
+            "the bond between…"
           ],
-          "structure": "PREC"
+          "chunks": [
+            "C30"
+          ]
         },
         {
           "question": "Do many people keep pets in your country?",
@@ -8315,14 +8629,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "在你的国家，养宠物的人多吗？",
-            "answer": "比较多，猫、狗和鱼都很常见。很多人养宠物是为了陪伴和放松，不过饲养成本和居住空间也会影响选择。"
+            "answer": "挺多的，尤其是年轻人，很多人养猫养狗。在城市里宠物很常见，大家都把它们当家人（treat them as part of the family）。"
           },
-          "keywords": [
-            "help people relax",
-            "provide companionship",
-            "understand nature"
+          "structure": "直接回答",
+          "chunkPhrases": [
+            "treat them as part of the family"
           ],
-          "structure": "直接回答"
+          "chunks": [
+            "C30"
+          ]
         },
         {
           "question": "What are the advantages of keeping a pet?",
@@ -8330,14 +8645,16 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "养宠物有什么好处？",
-            "answer": "宠物能提供陪伴、减轻压力，也能教孩子责任感。养狗还会鼓励主人出门散步，对身体健康有帮助。"
+            "answer": "养宠物能让人放松，回家有它陪着，心情会好很多。而且它会教你为别人着想（it teaches you to think about others），这也是种责任（it's a big responsibility）。"
           },
-          "keywords": [
-            "release pressure",
-            "physical health",
-            "take responsibility"
+          "structure": "直接回答",
+          "chunkPhrases": [
+            "it teaches you to think about others",
+            "it's a big responsibility"
           ],
-          "structure": "直接回答"
+          "chunks": [
+            "C30"
+          ]
         },
         {
           "question": "Why do people always tell children stories with animals?",
@@ -8345,14 +8662,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "为什么人们总给孩子讲有动物的故事？",
-            "answer": "人们常给孩子讲动物故事，因为动物角色有趣，也很容易记住。比如，一个关于动物合作的故事可以教孩子分享和帮助别人。这样成年人就能用简单方式讲善良、合作和保护自然等道理。"
+            "answer": "因为孩子喜欢小动物，动物故事更容易吸引他们。而且故事里的动物就像人一样，能教孩子一些道理（it teaches you to think about others）。比如说龟兔赛跑，孩子听完就明白不能骄傲。"
           },
-          "keywords": [
-            "animal stories",
-            "teach simple lessons",
-            "protect nature"
+          "structure": "PREC",
+          "chunkPhrases": [
+            "it teaches you to think about others"
           ],
-          "structure": "PREC"
+          "chunks": [
+            "C30"
+          ]
         }
       ]
     },
@@ -8370,14 +8688,16 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "人工智能有哪些优点和缺点？",
-            "answer": "人工智能可以节省时间、处理大量信息并帮助人们完成重复任务。不过它也可能带来隐私问题、错误信息和过度依赖。"
+            "answer": "我觉得 AI 最大的好处是省时间，查资料很快（get the information quickly）。坏处是信息不一定真实，我不会全信它（I don't believe everything I read）。年轻人用得多，老人用得少。"
           },
-          "keywords": [
-            "avoid overdependence",
-            "save time",
-            "artificial intelligence"
+          "structure": "直接回答 + 对比",
+          "chunkPhrases": [
+            "get the information quickly",
+            "I don't believe everything I read"
           ],
-          "structure": "直接回答 + 对比"
+          "chunks": [
+            "C25"
+          ]
         },
         {
           "question": "Do you think people today should learn about AI technology?",
@@ -8385,14 +8705,16 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "你认为现在的人应该学习人工智能技术吗？",
-            "answer": "人们应该学习人工智能的基础知识，因为这项技术已经进入工作和日常生活。比如，使用者应该知道人工智能可能出错，并学会检查它给出的信息。了解它的能力和限制，能让人们更安全、理性地使用它。"
+            "answer": "我觉得应该学，因为 AI 已经到处都是了（I usually see… on my phone）。不会用的话，很多方便的东西都用不上。比如查资料、问问题，它都能很快帮上忙（get the information quickly）。"
           },
-          "keywords": [
-            "understand AI's limits",
-            "use AI safely",
-            "artificial intelligence"
+          "structure": "PREC",
+          "chunkPhrases": [
+            "I usually see… on my phone",
+            "get the information quickly"
           ],
-          "structure": "PREC"
+          "chunks": [
+            "C25"
+          ]
         },
         {
           "question": "Should children learn to use AI?",
@@ -8400,14 +8722,16 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "孩子应该学习使用人工智能吗？",
-            "answer": "孩子可以学习使用人工智能，但需要老师和家长指导，因为他们还在培养基本学习能力。比如，孩子可以让人工智能解释一个生词，然后再用自己的话说明意思。这样可以获得新知识，同时避免过度依赖并保持独立思考。"
+            "answer": "我觉得可以学一点，但要有大人盯着。因为孩子自制力差，用多了容易上瘾（be on my phone too much）。所以老师家长要管着，减少他们看屏幕的时间（cut down on screen time）。"
           },
-          "keywords": [
-            "think independently",
-            "gain new knowledge",
-            "artificial intelligence"
+          "structure": "PREC",
+          "chunkPhrases": [
+            "be on my phone too much",
+            "cut down on screen time"
           ],
-          "structure": "PREC"
+          "chunks": [
+            "C24"
+          ]
         },
         {
           "question": "How can AI help in our lives?",
@@ -8415,14 +8739,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "人工智能怎样帮助我们的生活？",
-            "answer": "它可以帮助翻译、规划路线、整理信息和完成简单工作。这些功能能节省时间，不过重要决定仍然需要人来检查。"
+            "answer": "我觉得 AI 能帮忙的地方很多，比如查资料，一下子就出来了（get the information quickly）。还有翻译、导航这些，每天都能用到，省了我不少时间。"
           },
-          "keywords": [
-            "save time",
-            "artificial intelligence",
-            "make important decisions"
+          "structure": "直接回答",
+          "chunkPhrases": [
+            "get the information quickly"
           ],
-          "structure": "直接回答"
+          "chunks": [
+            "C25"
+          ]
         },
         {
           "question": "Do you think students are overly reliant on AI?",
@@ -8430,14 +8755,16 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "你认为学生过度依赖人工智能吗？",
-            "answer": "有些学生确实过度依赖人工智能，因为他们可能直接复制答案，不再自己思考。比如，有人会提交人工智能完成的作业，却无法解释其中的内容。所以学生应该适度使用，并确保自己真正理解答案。"
+            "answer": "我觉得是的，很多学生天天抱着手机问 AI（be on my phone too much）。因为一有作业就直接问 AI，自己不动脑子。所以我觉得应该减少用手机的时间（cut down on screen time）。"
           },
-          "keywords": [
-            "avoid overdependence",
-            "in a moderate way",
-            "artificial intelligence"
+          "structure": "PREC",
+          "chunkPhrases": [
+            "be on my phone too much",
+            "cut down on screen time"
           ],
-          "structure": "PREC"
+          "chunks": [
+            "C24"
+          ]
         },
         {
           "question": "What can teachers do to stop students relying too much on AI?",
@@ -8445,14 +8772,17 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "老师怎样阻止学生过度依赖人工智能？",
-            "answer": "老师可以要求学生展示思考过程、进行口头解释，并在课堂上完成部分任务。同时，学校应该说明哪些使用方式是允许的。"
+            "answer": "老师可以布置一些课堂上的任务，让大家先自己动脑，再讨论（share ideas with each other）。也可以规定做作业的时候不用 AI，自己一步步来（learn step by step）。"
           },
-          "keywords": [
-            "show the thinking process",
-            "explain answers orally",
-            "avoid overdependence"
+          "structure": "直接回答",
+          "chunkPhrases": [
+            "share ideas with each other",
+            "learn step by step"
           ],
-          "structure": "直接回答"
+          "chunks": [
+            "C03",
+            "C12"
+          ]
         }
       ]
     },
@@ -8470,14 +8800,16 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "广告有哪些优点和缺点？",
-            "answer": "广告能介绍产品并帮助顾客比较选择，但也可能制造虚假需求或夸大效果。人们应该把广告当作信息来源之一，而不是完全相信。"
+            "answer": "我觉得广告有好处也有坏处。好处是能让我们知道新产品，好广告一看就记住了（you remember it easily）。坏处是有些广告不诚实，光说好话，容易把人骗了（some ads are not honest）。"
           },
-          "keywords": [
-            "create false needs",
-            "advertising",
-            "attract attention"
+          "structure": "直接回答 + 对比",
+          "chunkPhrases": [
+            "you remember it easily",
+            "some ads are not honest"
           ],
-          "structure": "直接回答 + 对比"
+          "chunks": [
+            "C26"
+          ]
         },
         {
           "question": "Why are many advertisements endorsed by celebrities? How useful are they?",
@@ -8485,14 +8817,16 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "为什么很多广告由名人代言？这种做法有多大作用？",
-            "answer": "很多广告请名人代言，因为名人能够迅速吸引注意，也会把粉丝的信任带给产品。比如，粉丝看到喜欢的演员使用某个品牌时，可能更愿意了解它。代言能提高知名度，但不能保证产品质量。"
+            "answer": "我觉得名人代言很常见，是因为大家认识这张脸，广告一下子就被注意到了（a famous face）。比如说我喜欢的一个歌手代言饮料，我就很想去试试。不过我不会全信，还是先看看东西好不好（check the real quality first）。"
           },
-          "keywords": [
-            "celebrity endorsement",
-            "attract attention",
-            "product quality"
+          "structure": "PREC",
+          "chunkPhrases": [
+            "a famous face",
+            "check the real quality first"
           ],
-          "structure": "PREC"
+          "chunks": [
+            "C26"
+          ]
         },
         {
           "question": "What is the most important factor in an advertisement?",
@@ -8500,14 +8834,16 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "广告中最重要的因素是什么？",
-            "answer": "最重要的是信息清楚并且真实。因为顾客需要知道产品能否解决实际问题。例如，广告应说明产品功能，而不只是展示漂亮画面。这样可以避免夸张承诺误导顾客。"
+            "answer": "我觉得最重要的是能一下子抓住人（it catches your attention）。因为现在广告太多了，抓不住人的，大家看都不看。比如广告开头来个搞笑片段，我就愿意看完，也记得住（you remember it easily）。"
           },
-          "keywords": [
-            "clear and honest information",
-            "solve a real problem",
-            "avoid exaggerated claims"
+          "structure": "PREC",
+          "chunkPhrases": [
+            "it catches your attention",
+            "you remember it easily"
           ],
-          "structure": "PREC"
+          "chunks": [
+            "C26"
+          ]
         },
         {
           "question": "Why are some advertisements boring?",
@@ -8515,14 +8851,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "为什么有些广告很无聊？",
-            "answer": "重复又无关的广告容易让人觉得无聊。因为观众从中得不到有用信息。例如，有些广告时间很长，却一直重复同一句话。所以简单、有用并且容易记住的广告更有效。"
+            "answer": "我觉得广告无聊，是因为内容太老套，翻来覆去都是那几句话，抓不住人（it catches your attention）。比如电视上卖保健品的广告，天天说一样的话。这种广告我一般直接跳过，不会看完。"
           },
-          "keywords": [
-            "repeat the same message",
-            "too long",
-            "relevant to the audience"
+          "structure": "PREC",
+          "chunkPhrases": [
+            "it catches your attention"
           ],
-          "structure": "PREC"
+          "chunks": [
+            "C26"
+          ]
         },
         {
           "question": "Is advertising important for a company? Why?",
@@ -8530,14 +8867,16 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "广告对公司重要吗？为什么？",
-            "answer": "广告对公司很重要，因为顾客需要先知道产品，才可能购买。比如，一家小公司可以通过网络广告接触附近的潜在顾客。不过广告只能建立最初的知名度，长期成功仍然依靠质量和服务。"
+            "answer": "我觉得广告对公司特别重要。因为做广告能让更多人知道这个牌子，慢慢积累起名声（build a good reputation）。而且广告效果好，大家还会推荐给朋友（people tell their friends about it）。"
           },
-          "keywords": [
-            "build a brand",
-            "reach customers",
-            "quality and service"
+          "structure": "PREC",
+          "chunkPhrases": [
+            "build a good reputation",
+            "people tell their friends about it"
           ],
-          "structure": "PREC"
+          "chunks": [
+            "C05"
+          ]
         },
         {
           "question": "Which is more effective, online advertising or offline advertising?",
@@ -8545,14 +8884,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "线上广告和线下广告，哪一种更有效？",
-            "answer": "哪种广告更有效取决于目标顾客，因为两种方式接触的人群不同。比如，线上广告适合寻找年轻或远距离顾客，线下广告对当地商店和活动更直接。因此，公司可以根据需要选择，或者把两种方式结合起来。"
+            "answer": "我觉得线上广告更有效。因为大家天天刷手机，我一般就是在手机上看到广告（I usually see… on my phone）。线下广告就不一样，比如路边的大牌子，看一眼就过去了，效果差很多。"
           },
-          "keywords": [
-            "online advertising",
-            "offline advertising",
-            "target customers"
+          "structure": "PREC + 对比",
+          "chunkPhrases": [
+            "I usually see… on my phone"
           ],
-          "structure": "PREC + 对比"
+          "chunks": [
+            "C25"
+          ]
         }
       ]
     },
@@ -8570,14 +8910,16 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "年轻人喜欢的电视节目和老年人喜欢的节目有什么区别？",
-            "answer": "年轻人可能更喜欢短视频、真人秀和娱乐节目，老年人可能更多观看新闻、历史或健康节目。不过兴趣比年龄更重要，不能一概而论。"
+            "answer": "我觉得年轻人喜欢轻松搞笑的节目，因为忙了一天只想放松（relax after a long day）。老年人喜欢慢一点、容易跟上的（easy to follow）。"
           },
-          "keywords": [
-            "young viewers",
-            "older viewers",
-            "personal interests"
+          "structure": "直接回答 + 对比",
+          "chunkPhrases": [
+            "relax after a long day",
+            "easy to follow"
           ],
-          "structure": "直接回答 + 对比"
+          "chunks": [
+            "C20"
+          ]
         },
         {
           "question": "What makes a popular TV or online program?",
@@ -8585,14 +8927,16 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "什么能让电视节目或网络节目受欢迎？",
-            "answer": "节目需要主题清楚、内容有趣，并且容易观看。好的主持人、真实的故事和实用信息也能让观众愿意继续看。"
+            "answer": "我觉得一个节目要火，首先要让人放松（it takes my mind off…）。然后大家看完还能和朋友聊（talk about it with friends afterwards），节目自然就受欢迎了。"
           },
-          "keywords": [
-            "online programs",
-            "attract viewers",
-            "useful information"
+          "structure": "直接回答",
+          "chunkPhrases": [
+            "it takes my mind off…",
+            "talk about it with friends afterwards"
           ],
-          "structure": "直接回答"
+          "chunks": [
+            "C20"
+          ]
         },
         {
           "question": "What kinds of TV or online programs are popular in your country?",
@@ -8600,14 +8944,17 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "在你的国家，哪些电视节目或网络节目比较受欢迎？",
-            "answer": "电视剧、综艺、新闻和短视频都很受欢迎。人们通常选择能带来放松、实用知识或共同话题的内容。"
+            "answer": "我觉得现在最火的是短视频和综艺节目。我一般是在手机上看到这些（I usually see… on my phone），下班后看看真的很放松（relax after a long day）。"
           },
-          "keywords": [
-            "help people relax",
-            "online programs",
-            "attract viewers"
+          "structure": "直接回答",
+          "chunkPhrases": [
+            "I usually see… on my phone",
+            "relax after a long day"
           ],
-          "structure": "直接回答"
+          "chunks": [
+            "C25",
+            "C20"
+          ]
         }
       ]
     },
@@ -8625,14 +8972,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "为什么特殊场合或活动会有特别的食物？",
-            "answer": "特别食物在重要场合很常见。因为它们通常和传统及共同回忆有关。例如，家人会一起准备和分享这些食物。这样能让节日更有气氛并拉近关系。"
+            "answer": "我觉得是因为大家想用特别的方式庆祝这一天。因为平时吃的都一样，有点特别的菜，大家就更开心。比如过年时全家一起吃饭，就让那一天变得不一样（make the day feel special）。"
           },
-          "keywords": [
-            "closer relationships",
-            "keep traditions alive",
-            "special occasions"
+          "structure": "PREC",
+          "chunkPhrases": [
+            "make the day feel special"
           ],
-          "structure": "PREC"
+          "chunks": [
+            "C27"
+          ]
         },
         {
           "question": "What are the differences between everyday food and festival food?",
@@ -8640,14 +8988,16 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "日常食物和节日食物有什么区别？",
-            "answer": "日常食物通常更简单、便宜，也更关注健康；节日食物可能准备更久、种类更多，而且带有文化意义。"
+            "answer": "日常饭很简单，节日饭更讲究。平时上班没时间，在家做点简单的就够了（cook something simple at home）。过节时大家一起吃饭，让那天更特别（share a meal together）。"
           },
-          "keywords": [
-            "special occasions",
-            "family traditions",
-            "spend quality time"
+          "structure": "直接回答 + 对比",
+          "chunkPhrases": [
+            "cook something simple at home",
+            "share a meal together"
           ],
-          "structure": "直接回答 + 对比"
+          "chunks": [
+            "C31"
+          ]
         },
         {
           "question": "Are there any differences between the food people eat today and the food people ate in the past?",
@@ -8655,14 +9005,16 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "现在人们吃的食物和过去有什么不同？",
-            "answer": "过去人们更多吃本地、当季和家里制作的食物。现在选择更多，外卖也更方便，但加工食品和高糖食物可能增加。"
+            "answer": "最大的不同是现在选择多多了（there's a lot more choice now）。以前只能吃当季的食物，现在什么都能买到，能尝到不同种类的菜（try different kinds of food）。"
           },
-          "keywords": [
-            "more convenient",
-            "special occasions",
-            "family traditions"
+          "structure": "直接回答 + 对比",
+          "chunkPhrases": [
+            "there's a lot more choice now",
+            "try different kinds of food"
           ],
-          "structure": "直接回答 + 对比"
+          "chunks": [
+            "C31"
+          ]
         },
         {
           "question": "Do people today prefer eating at home or in a restaurant?",
@@ -8670,14 +9022,16 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "现在的人更喜欢在家吃饭还是去餐厅？",
-            "answer": "人们选择在家吃还是去餐厅取决于具体场合，因为两种方式各有好处。比如，普通周末在家吃更省钱，也方便家人交流；庆祝生日时去餐厅则更方便。最终应该根据时间、预算和参加的人来决定。"
+            "answer": "我觉得要看人，年轻人更喜欢去餐厅。因为出去吃省事，还能和朋友边吃边聊（eat out with friends）。但像我父母那辈人，还是觉得在家吃更自在，在家做点简单的就够了（cook something simple at home）。"
           },
-          "keywords": [
-            "more convenient",
-            "special occasions",
-            "family traditions"
+          "structure": "PREC + 对比",
+          "chunkPhrases": [
+            "eat out with friends",
+            "cook something simple at home"
           ],
-          "structure": "PREC + 对比"
+          "chunks": [
+            "C31"
+          ]
         }
       ]
     },
@@ -8695,14 +9049,16 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "为什么有些人喜欢观看体育赛事？",
-            "answer": "一些人喜欢看体育比赛，因为比赛有竞争和不确定性。比如，比分接近并在最后一分钟决定胜负时，观众会感到非常激动。支持喜欢的队伍并和亲友分享这一刻，也能创造共同回忆。"
+            "answer": "我觉得现场看最吸引人的是气氛（the atmosphere is amazing）。因为大家都很激动，感觉自己也上场了。比如说看足球，全场一起加油，特别过瘾（cheer and shout）。"
           },
-          "keywords": [
-            "a shared experience",
-            "sports events",
-            "support a team"
+          "structure": "PREC",
+          "chunkPhrases": [
+            "the atmosphere is amazing",
+            "cheer and shout"
           ],
-          "structure": "PREC"
+          "chunks": [
+            "C23"
+          ]
         },
         {
           "question": "Where do people normally watch sports events?",
@@ -8710,14 +9066,17 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "人们通常在哪里观看体育赛事？",
-            "answer": "很多人在家通过电视或手机观看，也有人去体育场。线上观看更方便，现场观看则有更强的气氛。"
+            "answer": "我觉得大多数人都在家里看，忙完一天正好放松（relax after a long day）。也有人去现场看，感觉特别真实（it feels so real）。"
           },
-          "keywords": [
-            "more convenient",
-            "sports events",
-            "support a team"
+          "structure": "直接回答",
+          "chunkPhrases": [
+            "relax after a long day",
+            "it feels so real"
           ],
-          "structure": "直接回答"
+          "chunks": [
+            "C20",
+            "C23"
+          ]
         },
         {
           "question": "What are the advantages of watching sports events online?",
@@ -8725,14 +9084,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "在线观看体育赛事有什么优点？",
-            "answer": "人们可以在任何地方观看，还能暂停、回放或查看比赛信息。它通常比去现场省钱，也能节省交通时间。"
+            "answer": "我觉得在线看很方便，不用出门，还能看重播。看喜欢的比赛，心情也会变好（it puts me in a better mood）。"
           },
-          "keywords": [
-            "sports events",
-            "support a team",
-            "watch online"
+          "structure": "直接回答",
+          "chunkPhrases": [
+            "it puts me in a better mood"
           ],
-          "structure": "直接回答"
+          "chunks": [
+            "C20"
+          ]
         },
         {
           "question": "What sports matches are suitable for children to attend?",
@@ -8740,14 +9100,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "哪些体育比赛适合孩子到现场观看？",
-            "answer": "安全、时间不太长并且规则容易理解的比赛更合适，例如篮球或羽毛球。最好由成年人陪同，并选择不会太拥挤的场次。"
+            "answer": "我觉得少年组的比赛最适合孩子看，节奏慢，也不吵。孩子们会特别兴奋，跟着一起喊加油（everyone is excited）。"
           },
-          "keywords": [
-            "keep people safe",
-            "follow the rules",
-            "sports events"
+          "structure": "直接回答",
+          "chunkPhrases": [
+            "everyone is excited"
           ],
-          "structure": "直接回答"
+          "chunks": [
+            "C23"
+          ]
         },
         {
           "question": "Why do some people spend a lot going to other countries to watch sports events?",
@@ -8755,14 +9116,16 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "为什么有些人花很多钱去其他国家观看体育赛事？",
-            "answer": "一些人花很多钱出国看比赛，是因为他们想亲眼看到重要赛事并支持喜欢的队伍。比如，球迷可能专门去另一个国家观看世界杯比赛。这样的旅行能创造特别回忆，不过花费应该符合个人预算。"
+            "answer": "我觉得是因为现场看的感觉完全不一样（a completely different feeling）。大家在一起又喊又叫，能感受到那种气氛（feel the energy）。比如说有人专门飞去国外看足球，花很多钱也觉得值。"
           },
-          "keywords": [
-            "fit the budget",
-            "create special memories",
-            "sports events"
+          "structure": "PREC",
+          "chunkPhrases": [
+            "a completely different feeling",
+            "feel the energy"
           ],
-          "structure": "PREC"
+          "chunks": [
+            "C23"
+          ]
         },
         {
           "question": "What sports games are popular in your country?",
@@ -8770,14 +9133,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "在你的国家，哪些体育比赛比较受欢迎？",
-            "answer": "篮球、足球、乒乓球和羽毛球都比较受欢迎。这些运动容易观看，也有很多学校和社区参与。"
+            "answer": "我觉得最受欢迎的是篮球和乒乓球，大人小孩都喜欢。大家平时经常打，看完还会一起聊（talk about it with friends afterwards）。"
           },
-          "keywords": [
-            "stay active",
-            "sports events",
-            "support a team"
+          "structure": "直接回答",
+          "chunkPhrases": [
+            "talk about it with friends afterwards"
           ],
-          "structure": "直接回答"
+          "chunks": [
+            "C20"
+          ]
         }
       ]
     },
@@ -8795,14 +9159,16 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "学生在学校应该遵守哪些规则？",
-            "answer": "学生应该准时、完成作业、尊重他人并且不能作弊。他们还要遵守安全规定，让所有人都能正常学习。"
+            "answer": "我觉得学生应该遵守学校的规则，比如上课不迟到、按时交作业（stick to the rules）。大家都守规矩，学校才会更安全（keep people safe）。"
           },
-          "keywords": [
-            "keep people safe",
-            "follow the rules",
-            "respect others"
+          "structure": "直接回答",
+          "chunkPhrases": [
+            "stick to the rules",
+            "keep people safe"
           ],
-          "structure": "直接回答"
+          "chunks": [
+            "C19"
+          ]
         },
         {
           "question": "Do people in your country usually obey the law?",
@@ -8810,14 +9176,16 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "你们国家的人通常会遵守法律吗？",
-            "answer": "大多数人会遵守重要法律，因为他们知道违法会有后果。不过一些小规定可能被忽视，所以教育和公平执法都很重要。"
+            "answer": "我觉得大部分人都会遵守法律，因为不守法会有麻烦（stick to the rules）。像交通规则，有摄像头的地方，大家会更重视（people take it more seriously when…）。"
           },
-          "keywords": [
-            "fairness",
-            "understand the consequences",
-            "obey the law"
+          "structure": "直接回答",
+          "chunkPhrases": [
+            "stick to the rules",
+            "people take it more seriously when…"
           ],
-          "structure": "直接回答"
+          "chunks": [
+            "C19"
+          ]
         },
         {
           "question": "What kinds of behavior are considered as good behavior?",
@@ -8825,14 +9193,17 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "哪些行为会被认为是良好行为？",
-            "answer": "诚实、尊重他人、遵守规则和主动帮助别人都属于良好行为。一个人是否负责，通常可以从日常小事看出来。"
+            "answer": "我觉得有礼貌、主动帮忙都是好行为（it teaches you to think about others）。比如给老人让座，能帮到别人，自己也很开心（make a difference to other people）。"
           },
-          "keywords": [
-            "follow the rules",
-            "respect others",
-            "obey the law"
+          "structure": "直接回答",
+          "chunkPhrases": [
+            "it teaches you to think about others",
+            "make a difference to other people"
           ],
-          "structure": "直接回答"
+          "chunks": [
+            "C30",
+            "C04"
+          ]
         },
         {
           "question": "Do you think children can learn about the law outside of school?",
@@ -8840,14 +9211,16 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "你认为孩子能在校外学习法律知识吗？",
-            "answer": "孩子可以在校外学习法律。因为父母、新闻和社区活动都能提供真实例子。例如，父母可以讲交通规则或网络安全。不过学校仍然适合系统讲解基本权利和责任。"
+            "answer": "我觉得可以，孩子在校外也能学到法律知识。因为家长可以随时教，比如过马路时解释为什么要看红绿灯（explain the reasons behind it）。这样孩子记得更牢，也更愿意遵守（stick to the rules）。"
           },
-          "keywords": [
-            "obey the law",
-            "follow the rules",
-            "keep people safe"
+          "structure": "PREC",
+          "chunkPhrases": [
+            "explain the reasons behind it",
+            "stick to the rules"
           ],
-          "structure": "PREC"
+          "chunks": [
+            "C19"
+          ]
         },
         {
           "question": "What are the benefits for people to obey rules?",
@@ -8855,14 +9228,17 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "人们遵守规则有什么好处？",
-            "answer": "遵守规则能保护安全和公平，也能减少冲突。当大家知道别人会按相同规则行动时，社会信任会更强。"
+            "answer": "我觉得遵守规则的好处是大家更安全、更有秩序（keep people safe）。如果每个人都做好自己那份，事情就会顺利很多（everyone does their part）。"
           },
-          "keywords": [
+          "structure": "直接回答",
+          "chunkPhrases": [
             "keep people safe",
-            "fairness",
-            "follow the rules"
+            "everyone does their part"
           ],
-          "structure": "直接回答"
+          "chunks": [
+            "C19",
+            "C03"
+          ]
         },
         {
           "question": "How can parents teach children to obey rules?",
@@ -8870,14 +9246,16 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "父母怎样教孩子遵守规则？",
-            "answer": "父母应该先树立榜样，再用简单语言解释规则的原因。规则需要保持一致，同时也要让孩子理解行为的后果。"
+            "answer": "我觉得父母要先解释规则的原因（explain the reasons behind it）。同时自己也要遵守，孩子就会跟着学（stick to the rules）。"
           },
-          "keywords": [
-            "follow the rules",
-            "understand the consequences",
-            "obey the law"
+          "structure": "直接回答",
+          "chunkPhrases": [
+            "explain the reasons behind it",
+            "stick to the rules"
           ],
-          "structure": "直接回答"
+          "chunks": [
+            "C19"
+          ]
         }
       ]
     },
@@ -8895,14 +9273,16 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "你们国家的人喜欢看什么样的视频？",
-            "answer": "很多人喜欢娱乐短视频、旅行、美食和教学视频。人们通常选择容易观看、能帮助放松或提供实用信息的内容。"
+            "answer": "我觉得大家最喜欢看短视频，比如搞笑的、做饭的（easy to follow）。上了一天班，看了能暂时忘掉烦恼（it takes my mind off…）。"
           },
-          "keywords": [
-            "help people relax",
-            "watch videos",
-            "learn useful skills"
+          "structure": "直接回答",
+          "chunkPhrases": [
+            "easy to follow",
+            "it takes my mind off…"
           ],
-          "structure": "直接回答"
+          "chunks": [
+            "C20"
+          ]
         },
         {
           "question": "Which is more helpful, watching videos or reading books?",
@@ -8910,14 +9290,17 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "看视频和读书，哪一种更有帮助？",
-            "answer": "视频和书哪种更有帮助取决于学习内容，因为它们适合不同任务。比如，学习动作步骤时视频更清楚，深入理解一个话题时书籍更合适。因此，把两种方式结合起来通常效果最好。"
+            "answer": "我觉得读书更有帮助，因为书里讲得更深（learn step by step）。看视频是快，但是内容太浅（get the information quickly）。需要认真学的东西，我宁愿慢慢看书。"
           },
-          "keywords": [
-            "watch videos",
-            "learn useful skills",
-            "easy to share"
+          "structure": "PREC + 对比",
+          "chunkPhrases": [
+            "learn step by step",
+            "get the information quickly"
           ],
-          "structure": "PREC + 对比"
+          "chunks": [
+            "C12",
+            "C25"
+          ]
         },
         {
           "question": "What skills can people learn from watching videos?",
@@ -8925,14 +9308,16 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "人们能从视频中学到哪些技能？",
-            "answer": "人们可以学习做饭、运动、语言和简单维修。清楚的示范很方便，但学习者仍然需要自己练习。"
+            "answer": "很多人看视频学做饭、修东西（watch online tutorials）。也有人跟着视频学语言，每天练（practise again and again）。"
           },
-          "keywords": [
-            "stay active",
-            "more convenient",
-            "watch videos"
+          "structure": "直接回答",
+          "chunkPhrases": [
+            "watch online tutorials",
+            "practise again and again"
           ],
-          "structure": "直接回答"
+          "chunks": [
+            "C12"
+          ]
         },
         {
           "question": "Are there any differences between the videos that young people and old people like to watch?",
@@ -8940,14 +9325,17 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "年轻人和老年人喜欢的视频有什么区别？",
-            "answer": "两类人喜欢的视频可能不同。因为他们的生活需要和兴趣不完全一样。例如，年轻人可能喜欢游戏和音乐，老年人可能更多观看新闻和健康内容。不过实际选择仍然因人而异。"
+            "answer": "年轻人喜欢搞笑和游戏的短视频，不用动脑子（you don't have to think too hard）。老人更喜欢新闻和做饭类的，能学点东西（learn step by step）。年轻人图好玩，老人图实用。"
           },
-          "keywords": [
-            "keep traditions alive",
-            "watch videos",
-            "learn useful skills"
+          "structure": "直接回答 + 对比",
+          "chunkPhrases": [
+            "you don't have to think too hard",
+            "learn step by step"
           ],
-          "structure": "直接回答 + 对比"
+          "chunks": [
+            "C20",
+            "C12"
+          ]
         },
         {
           "question": "Are there any differences between the videos that young men and young women like to watch?",
@@ -8955,14 +9343,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "年轻男性和年轻女性喜欢的视频有什么区别？",
-            "answer": "年轻男女喜欢的视频可能有一些差异，但不应该只根据性别判断。比如，男性和女性都可能喜欢科技、运动、美食或时尚内容。个人兴趣通常比性别更能决定一个人观看什么。"
+            "answer": "年轻男生喜欢体育和游戏的视频，女生喜欢做饭和穿搭的（cook something simple at home）。我觉得是因为从小兴趣就不一样，男生爱动，女生爱美。不过现在差别没那么大了，大家看得越来越接近。"
           },
-          "keywords": [
-            "stay active",
-            "watch videos",
-            "learn useful skills"
+          "structure": "PREC + 对比",
+          "chunkPhrases": [
+            "cook something simple at home"
           ],
-          "structure": "PREC + 对比"
+          "chunks": [
+            "C31"
+          ]
         },
         {
           "question": "What makes a video go viral online?",
@@ -8970,14 +9359,17 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "什么能让一个视频在网上迅速走红？",
-            "answer": "视频需要在开头快速吸引注意，并带来情绪、实用信息或新鲜感。如果内容容易理解和分享，它传播得会更快。"
+            "answer": "我觉得要短、要搞笑，还要有点意外（it catches your attention）。再加上大家看完会和朋友聊（talk about it with friends afterwards）。"
           },
-          "keywords": [
-            "watch videos",
-            "learn useful skills",
-            "easy to share"
+          "structure": "直接回答",
+          "chunkPhrases": [
+            "it catches your attention",
+            "talk about it with friends afterwards"
           ],
-          "structure": "直接回答"
+          "chunks": [
+            "C25",
+            "C20"
+          ]
         }
       ]
     },
@@ -8995,14 +9387,17 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "中国和其他国家的特殊食物有什么区别？",
-            "answer": "中国的特殊食物常和节日及家庭传统有关，例如饺子和月饼；其他国家也有蛋糕或火鸡等象征性食物。形式不同，但都能让人团聚。"
+            "answer": "中国的特殊食物跟节日团圆有关，比如中秋吃月饼（a special day）。其他国家也有自己的特殊食物。两边都是和家人一起分享（share a meal together），只是吃的东西不同。"
           },
-          "keywords": [
-            "keep traditions alive",
-            "special food",
-            "family traditions"
+          "structure": "直接回答 + 对比",
+          "chunkPhrases": [
+            "a special day",
+            "share a meal together"
           ],
-          "structure": "直接回答 + 对比"
+          "chunks": [
+            "C27",
+            "C31"
+          ]
         },
         {
           "question": "Is there any food in your country that is eaten at special times or on special occasions?",
@@ -9010,14 +9405,17 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "你的国家有没有在特殊时间或场合吃的食物？",
-            "answer": "有。春节会吃饺子，一些地方在中秋节吃月饼，生日通常会准备蛋糕。这些食物能让场合更有仪式感。"
+            "answer": "有，比如中秋节吃月饼、春节吃饺子，都是特别的日子（a special day）。这些时候我们会跟家人一起庆祝（celebrate with the family），平时不太吃。"
           },
-          "keywords": [
-            "special food",
-            "family traditions",
-            "face-to-face communication"
+          "structure": "直接回答",
+          "chunkPhrases": [
+            "a special day",
+            "celebrate with the family"
           ],
-          "structure": "直接回答"
+          "chunks": [
+            "C27",
+            "C27"
+          ]
         },
         {
           "question": "Why are some people willing to spend a lot of money on meals on special days?",
@@ -9025,14 +9423,17 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "为什么有些人愿意在特殊日子花很多钱吃饭？",
-            "answer": "一些人愿意在特别日子花很多钱吃饭，因为他们想表达重视并创造共同回忆。比如，家人可能在生日时预订一家特别的餐厅一起庆祝。适当花费可以理解，但没有必要为了面子而超出预算。"
+            "answer": "我觉得可以理解，因为特别的日子一年就几次，大家都想认真过（a special day）。多花点钱，吃得好一点，整个气氛都不一样。比如说生日或结婚纪念日，花这个钱我觉得值得（worth the money）。"
           },
-          "keywords": [
-            "fit the budget",
-            "create special memories",
-            "special food"
+          "structure": "PREC",
+          "chunkPhrases": [
+            "a special day",
+            "worth the money"
           ],
-          "structure": "PREC"
+          "chunks": [
+            "C27",
+            "C22"
+          ]
         },
         {
           "question": "Do you think it's good to communicate when eating with your family?",
@@ -9040,14 +9441,17 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "你认为和家人吃饭时交流好吗？",
-            "answer": "和家人吃饭时交流是好事，因为大家可以了解彼此最近的生活。比如，家人可以在晚餐时谈论当天的工作、学习或有趣经历。这样能拉近关系，不过用餐时应该避免一直看手机。"
+            "answer": "我觉得很好，因为平时大家都忙，吃饭是难得一起待着的时间（spend time together）。吃饭时聊聊天，能知道家里人最近都在忙什么。像我家吃饭时都会聊，气氛很轻松，还能一起分享饭菜（share a meal together）。"
           },
-          "keywords": [
-            "talk during meals",
-            "closer relationships",
-            "avoid using phones"
+          "structure": "PREC",
+          "chunkPhrases": [
+            "spend time together",
+            "share a meal together"
           ],
-          "structure": "PREC"
+          "chunks": [
+            "C29",
+            "C31"
+          ]
         },
         {
           "question": "In your country, do people nowadays cook at home as frequently as people did in the past?",
@@ -9055,14 +9459,17 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "现在的人像过去一样经常在家做饭吗？",
-            "answer": "可能没有过去频繁，因为工作忙，外卖也很方便。不过很多人周末仍会做饭，因为这样更健康，也适合家人相处。"
+            "answer": "我觉得现在没以前那么经常在家做饭了。以前父母那辈都是在家自己做（cook something simple at home）。现在选择多了（there's a lot more choice now），年轻人更爱出去吃或点外卖。"
           },
-          "keywords": [
-            "more convenient",
-            "special food",
-            "family traditions"
+          "structure": "直接回答 + 对比",
+          "chunkPhrases": [
+            "cook something simple at home",
+            "there's a lot more choice now"
           ],
-          "structure": "直接回答 + 对比"
+          "chunks": [
+            "C31",
+            "C31"
+          ]
         },
         {
           "question": "What do you think of people using their mobile phones during a meal?",
@@ -9070,14 +9477,17 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "你怎样看待人们吃饭时使用手机？",
-            "answer": "用餐时一直使用手机不太好，因为它会让人分心，也会减少面对面交流。比如，如果一个人吃饭时不停看视频，其他家人可能会觉得自己被忽视。紧急事情可以处理，但之后最好把手机放到一边。"
+            "answer": "我觉得不太好，吃饭本来是大家交流的时间。如果一直刷手机（stop checking it all the time），就没人聊天，气氛会很冷。所以我家吃饭时都会把手机收起来（put my phone away），专心跟家人说话。"
           },
-          "keywords": [
-            "cause distraction",
-            "face-to-face communication",
-            "put the phone aside"
+          "structure": "PREC",
+          "chunkPhrases": [
+            "stop checking it all the time",
+            "put my phone away"
           ],
-          "structure": "PREC"
+          "chunks": [
+            "C24",
+            "C24"
+          ]
         }
       ]
     },
@@ -9095,14 +9505,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "你居住的地方有人读报纸吗？",
-            "answer": "有人读，但纸质报纸的读者减少了。很多人现在通过新闻应用或当地公众号了解信息，因为这样更方便。"
+            "answer": "我觉得现在很少有人读报纸了。大家一般是在手机上看到新闻（I usually see… on my phone）。"
           },
-          "keywords": [
-            "read news online",
-            "more convenient",
-            "local news"
+          "structure": "直接回答",
+          "chunkPhrases": [
+            "I usually see… on my phone"
           ],
-          "structure": "直接回答"
+          "chunks": [
+            "C25"
+          ]
         },
         {
           "question": "Do people prefer local or international news?",
@@ -9110,14 +9521,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "人们更喜欢当地新闻还是国际新闻？",
-            "answer": "当地新闻和国际新闻都有价值，因为它们满足不同的信息需求。比如，当地新闻能提供交通和社区活动信息，国际新闻能帮助人们了解更广的世界。因此，大多数人可以根据需要阅读两种新闻。"
+            "answer": "我觉得大部分人会先看当地新闻。因为当地的事跟生活关系更大，比如哪里堵车、哪里修路。国际新闻也会看，但只是大概了解一下，很快就能得到信息（get the information quickly）。"
           },
-          "keywords": [
-            "local news",
-            "international news",
-            "daily information needs"
+          "structure": "PREC + 对比",
+          "chunkPhrases": [
+            "get the information quickly"
           ],
-          "structure": "PREC + 对比"
+          "chunks": [
+            "C25"
+          ]
         },
         {
           "question": "Do you think it's important to have a national identity?",
@@ -9125,14 +9537,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "你认为拥有国家认同感重要吗？",
-            "answer": "国家认同很重要。因为共同的历史和文化能带来归属感。例如，人们可以学习历史并参加传统节日。不过健康的国家认同也应该尊重其他文化。"
+            "answer": "我觉得挺重要的。因为国家认同感让人有归属感，知道大家是同一个国家的人，会更团结。比如国家发生大事时，新闻很抓人眼球，大家会一起关注（it catches your attention）。"
           },
-          "keywords": [
-            "local news",
-            "international news",
-            "national identity"
+          "structure": "PREC",
+          "chunkPhrases": [
+            "it catches your attention"
           ],
-          "structure": "PREC"
+          "chunks": [
+            "C25"
+          ]
         },
         {
           "question": "How can people develop their national identity?",
@@ -9140,14 +9553,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "人们怎样培养国家认同感？",
-            "answer": "人们可以学习历史、参加传统节日并了解不同地区的生活。学校教育、博物馆和真实的社区活动都能提供帮助。"
+            "answer": "我觉得可以多了解自己国家的历史和传统。先核实事实，再参加本地的节日活动，慢慢就有归属感了（check the facts first）。"
           },
-          "keywords": [
-            "keep traditions alive",
-            "local news",
-            "international news"
+          "structure": "直接回答",
+          "chunkPhrases": [
+            "check the facts first"
           ],
-          "structure": "直接回答"
+          "chunks": [
+            "C25"
+          ]
         }
       ]
     },
@@ -9165,14 +9579,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "科技怎样影响法律？",
-            "answer": "科技能帮助发现违法行为、保存证据并快速发布法律信息。不过网络安全和人工智能也带来新问题，所以法律需要不断更新。"
+            "answer": "我觉得科技让法律要一直更新，因为新技术会带来新问题，法律就要跟着定新规定（make a new rule）。比如说网上骗钱多了，国家就要出新的法律来管。"
           },
-          "keywords": [
-            "online safety",
-            "keep people safe",
-            "artificial intelligence"
+          "structure": "直接回答",
+          "chunkPhrases": [
+            "make a new rule"
           ],
-          "structure": "直接回答"
+          "chunks": [
+            "C19"
+          ]
         },
         {
           "question": "What kinds of rules do schools in China have?",
@@ -9180,14 +9595,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "中国的学校有哪些规定？",
-            "answer": "学校通常要求学生准时、完成作业、尊重他人并遵守安全规则。有些学校也会管理校服和手机使用。"
+            "answer": "学校的规定主要是纪律方面的，比如按时到校、穿校服、上课不能玩手机。学生都要遵守这些规则（stick to the rules），不然老师会批评我们。"
           },
-          "keywords": [
-            "keep people safe",
-            "follow the rules",
-            "respect others"
+          "structure": "直接回答",
+          "chunkPhrases": [
+            "stick to the rules"
           ],
-          "structure": "直接回答"
+          "chunks": [
+            "C19"
+          ]
         },
         {
           "question": "Will there be a law that is universally accepted?",
@@ -9195,14 +9611,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "未来会有一部被全世界接受的法律吗？",
-            "answer": "很难有一部法律被所有国家接受。因为各国的文化、经济和法律传统不同。例如，保护生命和反对暴力等原则可能被广泛接受。但具体法律规定仍然会有差别。"
+            "answer": "我觉得很难有一部全世界都接受的法律，因为每个国家的想法和情况都不一样。比如说环保法律，有的国家想发展经济，就不太愿意定太严的规则。所以我觉得每个国家自己定法律更现实（make a new rule）。"
           },
-          "keywords": [
-            "keep traditions alive",
-            "environmental laws",
-            "follow the rules"
+          "structure": "PREC",
+          "chunkPhrases": [
+            "make a new rule"
           ],
-          "structure": "PREC"
+          "chunks": [
+            "C19"
+          ]
         },
         {
           "question": "What environmental laws does your country already have?",
@@ -9210,14 +9627,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "你的国家已经有哪些环境法律？",
-            "answer": "常见规定涉及垃圾处理、空气和水污染、野生动物保护以及企业排放。关键不仅是制定法律，还要稳定执行。"
+            "answer": "我们国家已经有一些环保规定，比如垃圾分类、工厂不能乱排污水。这些都是为了保护环境（protect the environment），大家都要遵守。"
           },
-          "keywords": [
-            "environmental laws",
-            "follow the rules",
+          "structure": "直接回答",
+          "chunkPhrases": [
             "protect the environment"
           ],
-          "structure": "直接回答"
+          "chunks": [
+            "C18"
+          ]
         },
         {
           "question": "What are the rules people should obey at work?",
@@ -9225,14 +9643,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "人们在工作中应该遵守哪些规定？",
-            "answer": "员工应该准时、尊重同事并遵守安全和保密要求。这些规定能减少错误，也能建立团队信任。"
+            "answer": "工作中要守规矩，把自己负责的那部分做好（be responsible for one part of…）。还有要和同事好好配合，别拖大家后腿。"
           },
-          "keywords": [
-            "keep people safe",
-            "environmental laws",
-            "follow the rules"
+          "structure": "直接回答",
+          "chunkPhrases": [
+            "be responsible for one part of…"
           ],
-          "structure": "直接回答"
+          "chunks": [
+            "C03"
+          ]
         },
         {
           "question": "What is the purpose of punishment?",
@@ -9240,14 +9659,16 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "惩罚的目的是什么？",
-            "answer": "惩罚应该阻止错误行为再次发生，并让人理解后果。重点应该是教育、保护安全和维护公平。"
+            "answer": "我觉得惩罚主要是保护大家的安全，让人知道做错事有后果（keep people safe）。所以不管是谁，都应该守规则（stick to the rules）。"
           },
-          "keywords": [
+          "structure": "直接回答",
+          "chunkPhrases": [
             "keep people safe",
-            "fairness",
-            "understand the consequences"
+            "stick to the rules"
           ],
-          "structure": "直接回答"
+          "chunks": [
+            "C19"
+          ]
         }
       ]
     },
@@ -9265,14 +9686,17 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "我们怎样解决交通拥堵问题？",
-            "answer": "城市可以改善公共交通、优化交通信号并限制乱停车。公司采用弹性上班时间，也能减少所有人在同一时间出行。"
+            "answer": "我觉得先要把地铁修好，方便大家坐，路上开车的人就少了（take the subway instead）。政府也可以定些新规矩，比如错峰上下班，避开最堵的时候（make a new rule）。"
           },
-          "keywords": [
-            "public transport",
-            "reduce traffic jams",
-            "real-time traffic information"
+          "structure": "直接回答",
+          "chunkPhrases": [
+            "take the subway instead",
+            "make a new rule"
           ],
-          "structure": "直接回答"
+          "chunks": [
+            "C15",
+            "C19"
+          ]
         },
         {
           "question": "Do you think developing public transport can solve traffic jam problems?",
@@ -9280,14 +9704,16 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "你认为发展公共交通能解决交通拥堵吗？",
-            "answer": "发展公共交通能明显改善堵车，因为可靠的公交和地铁可以减少私家车数量。比如，如果通勤者能准时乘坐地铁，很多人就不必自己开车。不过公共交通不能单独解决问题，城市还要管理停车和道路使用。"
+            "answer": "我觉得能，发展公共交通真的有用。因为坐公交和地铁的人多了，开车的人就少了（take the subway instead）。比如我高峰时段上班，改坐地铁就不会堵在路上（at rush hour）。"
           },
-          "keywords": [
-            "keep people safe",
-            "public transport",
-            "reduce traffic jams"
+          "structure": "PREC",
+          "chunkPhrases": [
+            "take the subway instead",
+            "at rush hour"
           ],
-          "structure": "PREC"
+          "chunks": [
+            "C15"
+          ]
         },
         {
           "question": "Do you think highways will help reduce traffic jams?",
@@ -9295,14 +9721,16 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "你认为高速公路能帮助减少交通拥堵吗？",
-            "answer": "高速公路在部分路线能减少堵车，因为它可以分散车辆并提高长途出行效率。比如，绕城高速可以让过路车辆不必进入市中心。不过新道路也可能吸引更多汽车，所以仍然需要发展公共交通。"
+            "answer": "我觉得有一点用，高速能帮车避开最堵的路（avoid the busiest roads）。因为高速路宽，能分担很多车流，车走得快。比如高峰时段，高速上也会堵，车流移动得非常慢（the traffic moves very slowly）。"
           },
-          "keywords": [
-            "public transport",
-            "reduce traffic jams",
-            "real-time traffic information"
+          "structure": "PREC",
+          "chunkPhrases": [
+            "avoid the busiest roads",
+            "the traffic moves very slowly"
           ],
-          "structure": "PREC"
+          "chunks": [
+            "C15"
+          ]
         },
         {
           "question": "What are good ways to manage traffic?",
@@ -9310,14 +9738,17 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "管理交通有哪些好方法？",
-            "answer": "可以使用实时交通信息、合理的信号灯和严格的停车规定。鼓励拼车、错峰出行和公共交通也很实用。"
+            "answer": "我觉得可以定新规矩，比如错峰上下班，大家不用都挤在一个时间（make a new rule）。还有把公共交通做好，高峰时段多开几趟车，堵在路上的人就少了（get stuck in traffic）。"
           },
-          "keywords": [
-            "public transport",
-            "reduce traffic jams",
-            "real-time traffic information"
+          "structure": "直接回答",
+          "chunkPhrases": [
+            "make a new rule",
+            "get stuck in traffic"
           ],
-          "structure": "直接回答"
+          "chunks": [
+            "C19",
+            "C15"
+          ]
         },
         {
           "question": "Do you like to use public transport?",
@@ -9325,14 +9756,16 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "你喜欢使用公共交通吗？",
-            "answer": "我愿意使用，因为它通常更省钱，也不用自己停车。不过在高峰期过于拥挤或等待很久时，体验会变差。"
+            "answer": "我喜欢，因为坐地铁很方便，还不用堵在路上（get stuck in traffic）。高峰时段坐公交和地铁，比自己开车快多了（at rush hour）。"
           },
-          "keywords": [
-            "public transport",
-            "reduce traffic jams",
-            "real-time traffic information"
+          "structure": "直接回答",
+          "chunkPhrases": [
+            "get stuck in traffic",
+            "at rush hour"
           ],
-          "structure": "直接回答"
+          "chunks": [
+            "C15"
+          ]
         },
         {
           "question": "Would you rather be in a car or a bus in a traffic jam?",
@@ -9340,14 +9773,16 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "堵车时你更愿意坐汽车还是公交车？",
-            "answer": "堵车时我更愿意坐公交车，因为我不必一直注意驾驶，也能减少路上的车辆。比如，我可以在车上休息或阅读，而不用反复踩刹车。不过如果公交车非常拥挤，私家车可能会更舒适。"
+            "answer": "堵车的时候，我宁愿坐公交车（get stuck in traffic）。因为我在车上可以看手机、休息一下，时间不浪费。而开车的人只能干等着，所以我宁愿坐公交，特别是高峰时段（at rush hour）。"
           },
-          "keywords": [
-            "take the bus",
-            "avoid driving",
-            "feel more comfortable"
+          "structure": "PREC + 对比",
+          "chunkPhrases": [
+            "get stuck in traffic",
+            "at rush hour"
           ],
-          "structure": "PREC + 对比"
+          "chunks": [
+            "C15"
+          ]
         }
       ]
     },
@@ -9365,14 +9800,17 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "父母怎样帮助孩子变得有条理？",
-            "answer": "父母可以教孩子使用简单清单，并把玩具和学习用品放回固定位置。给孩子一些小任务，也能培养责任感。"
+            "answer": "父母可以帮孩子把大目标拆成小步骤，孩子就不会觉得太难（break it down into small steps）。再让他们坚持固定作息，慢慢孩子就会自己安排时间了（stick to a routine）。"
           },
-          "keywords": [
-            "take responsibility",
-            "prepare in advance",
-            "make a checklist"
+          "structure": "直接回答",
+          "chunkPhrases": [
+            "break it down into small steps",
+            "stick to a routine"
           ],
-          "structure": "直接回答"
+          "chunks": [
+            "C06",
+            "C10"
+          ]
         },
         {
           "question": "On what occasions do people need to be organized?",
@@ -9380,14 +9818,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "人们在什么场合需要有条理？",
-            "answer": "考试、旅行、工作项目和大型聚会都需要安排。提前整理任务和时间能减少压力，也能避免遗漏重要事情。"
+            "answer": "我觉得工作、学习这种时间紧的场合最需要有条理。出门旅行或者办聚会也要提前计划好（plan it ahead），不然到时候会手忙脚乱。"
           },
-          "keywords": [
-            "release pressure",
-            "prepare in advance",
-            "make a checklist"
+          "structure": "直接回答",
+          "chunkPhrases": [
+            "plan it ahead"
           ],
-          "structure": "直接回答"
+          "chunks": [
+            "C28"
+          ]
         },
         {
           "question": "Does everything need to be well prepared?",
@@ -9395,14 +9834,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "所有事情都需要充分准备吗？",
-            "answer": "并不是所有事情都要充分准备，因为普通活动需要保留一些灵活性。比如，考试或长途旅行应该列清单，而一次简单散步可以临时决定。过度准备反而会浪费时间，所以要根据事情的重要程度安排。"
+            "answer": "我觉得不是所有事都要充分准备，那样太费精力了。比如和朋友吃顿饭，随便一点反而更开心。再说事情往往不会按计划发展（things often don't go as planned），准备太多也没用。"
           },
-          "keywords": [
-            "take risks",
-            "prepare in advance",
-            "make a checklist"
+          "structure": "PREC",
+          "chunkPhrases": [
+            "things often don't go as planned"
           ],
-          "structure": "PREC"
+          "chunks": [
+            "C07"
+          ]
         },
         {
           "question": "Do people need others' help when organizing things?",
@@ -9410,14 +9850,17 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "人们组织事情时需要别人的帮助吗？",
-            "answer": "组织大型活动时通常需要别人帮助，因为一个人很难同时处理所有任务。比如，准备聚会时可以让不同的人负责场地、时间和食物。合理分工能节省时间，也能减少一个人的压力。"
+            "answer": "我觉得有时候很需要别人帮忙，一个人包办所有事太难了。比如组织一个活动（organise an event），一个人肯定忙不过来。大家一起分工，每个人都做好自己那份（everyone does their part），又快又轻松。"
           },
-          "keywords": [
-            "save time",
-            "work as a team",
-            "prepare in advance"
+          "structure": "PREC",
+          "chunkPhrases": [
+            "organise an event",
+            "everyone does their part"
           ],
-          "structure": "PREC"
+          "chunks": [
+            "C28",
+            "C03"
+          ]
         },
         {
           "question": "How would you feel when you were not well prepared for something?",
@@ -9425,14 +9868,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "如果没有为一件事做好准备，你会有什么感受？",
-            "answer": "我可能会紧张，因为担心遗漏重要内容。我会先处理最重要的任务，并在需要时向别人求助。"
+            "answer": "我会觉得很紧张，担心自己出问题，心里很没底。不过我会尽量保持冷静，告诉自己从容应对（take it in my stride）。"
           },
-          "keywords": [
-            "prepare in advance",
-            "make a checklist",
-            "work as a team"
+          "structure": "直接回答",
+          "chunkPhrases": [
+            "take it in my stride"
           ],
-          "structure": "直接回答"
+          "chunks": [
+            "C07"
+          ]
         },
         {
           "question": "Do you prefer to prepare and organize an activity or just take part in an activity?",
@@ -9440,14 +9884,17 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "你更喜欢准备和组织活动，还是只参加活动？",
-            "answer": "我更喜欢参与活动准备，因为这样能了解整个过程并学习实用技能。比如，我可以帮助确定时间、地点和所需物品。不过任务太多时，我会和别人分工，而不是自己完成所有事情。"
+            "answer": "我更喜欢只参加活动，因为不用操心，玩起来更放松。我的朋友喜欢组织活动（organise an event），觉得那是实实在在的成就感（a real sense of achievement）。但对我来说，参加比组织更快乐，轻松点更适合我。"
           },
-          "keywords": [
-            "learn useful skills",
-            "work as a team",
-            "prepare in advance"
+          "structure": "PREC + 对比",
+          "chunkPhrases": [
+            "organise an event",
+            "a real sense of achievement"
           ],
-          "structure": "PREC + 对比"
+          "chunks": [
+            "C28",
+            "C04"
+          ]
         }
       ]
     },
@@ -9465,14 +9912,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "人们什么时候会花很长时间回复别人的信息？",
-            "answer": "当他们工作很忙、需要查资料，或者不知道怎样回答时，回复会比较慢。重要信息通常也需要更多时间思考。"
+            "answer": "我觉得大家在忙的时候会很久才回，比如上班或者上课的时候。因为那时候顾不上手机，谁都有忙的时候（everyone gets busy sometimes）。"
           },
-          "keywords": [
-            "reply to messages",
-            "send a polite reminder",
-            "make a phone call"
+          "structure": "直接回答",
+          "chunkPhrases": [
+            "everyone gets busy sometimes"
           ],
-          "structure": "直接回答"
+          "chunks": [
+            "C02"
+          ]
         },
         {
           "question": "In what situations do people not respond to messages right away?",
@@ -9480,14 +9928,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "人们在什么情况下不会马上回复信息？",
-            "answer": "开会、开车、睡觉或处理紧急工作时，人们不会马上回复。有时他们也会先冷静下来，再回答容易引起争议的信息。"
+            "answer": "一般在忙工作或者开会的时候不会马上回。还有就是暂时没空回，通常都有说得过去的原因（there's usually a good reason for it）。"
           },
-          "keywords": [
-            "reply to messages",
-            "send a polite reminder",
-            "make a phone call"
+          "structure": "直接回答",
+          "chunkPhrases": [
+            "there's usually a good reason for it"
           ],
-          "structure": "直接回答"
+          "chunks": [
+            "C02"
+          ]
         },
         {
           "question": "What would you do if you haven't received a reply after sending out a message?",
@@ -9495,14 +9944,16 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "发出信息后一直没有收到回复，你会怎么做？",
-            "answer": "我会先等待一段合理时间，再礼貌地发送提醒。如果事情很紧急，我会直接打电话，而不是连续发送很多信息。"
+            "answer": "我会先等一等，尽量不去多想（I try not to worry about it）。如果真的很重要，过一会儿再提醒一次（remind… again later）。"
           },
-          "keywords": [
-            "reply to messages",
-            "make a phone call",
-            "send a polite reminder"
+          "structure": "直接回答",
+          "chunkPhrases": [
+            "I try not to worry about it",
+            "remind… again later"
           ],
-          "structure": "直接回答"
+          "chunks": [
+            "C02"
+          ]
         },
         {
           "question": "Why do some people prefer sending a message instead of making a call?",
@@ -9510,14 +9961,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "为什么有些人喜欢发信息而不是打电话？",
-            "answer": "有些人更喜欢发信息。因为这样不会突然打断别人，也有时间整理语言。例如，地址和时间等具体内容可以保存在聊天记录里。所以发信息更适合不紧急的事情。"
+            "answer": "我觉得发信息更轻松，因为不用马上接。打电话的时候必须立刻回应，有时候会很尴尬。发信息的话，对方可以有空再回（get back to… as soon as I can）。"
           },
-          "keywords": [
-            "make a phone call",
-            "more convenient",
-            "reply to messages"
+          "structure": "PREC",
+          "chunkPhrases": [
+            "get back to… as soon as I can"
           ],
-          "structure": "PREC"
+          "chunks": [
+            "C02"
+          ]
         },
         {
           "question": "How do you show your respect in your message?",
@@ -9525,14 +9977,16 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "你怎样在信息中表达尊重？",
-            "answer": "我会先礼貌问候，清楚说明事情，并在结尾表示感谢。我也会避免全用大写字母或使用不友好的语气。"
+            "answer": "我觉得尊重就是尽快回复，不让对方一直等（get back to… as soon as I can）。如果暂时没空，我也会简单说一声，让对方知道情况（let… know what's happening）。"
           },
-          "keywords": [
-            "reply to messages",
-            "send a polite reminder",
-            "make a phone call"
+          "structure": "直接回答",
+          "chunkPhrases": [
+            "get back to… as soon as I can",
+            "let… know what's happening"
           ],
-          "structure": "直接回答"
+          "chunks": [
+            "C02"
+          ]
         },
         {
           "question": "Why do some people feel angry when others don't reply to their message?",
@@ -9540,14 +9994,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "为什么别人不回复信息时，有些人会生气？",
-            "answer": "有些人收不到回复时会生气，因为他们可能觉得自己被忽视，或者担心紧急事情无法解决。比如，关于工作截止时间的信息一直没有回应，会让发送者很着急。不过对方也许只是忙，所以最好先了解原因。"
+            "answer": "我觉得是因为他们觉得对方不重视自己。比如等了很久都没回应，就会开始担心，甚至会生气。其实谁都有忙的时候，不用太放在心上（everyone gets busy sometimes）。"
           },
-          "keywords": [
-            "feel ignored",
-            "urgent messages",
-            "understand the reason"
+          "structure": "PREC",
+          "chunkPhrases": [
+            "everyone gets busy sometimes"
           ],
-          "structure": "PREC"
+          "chunks": [
+            "C02"
+          ]
         }
       ]
     },
@@ -9565,14 +10020,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "你们国家的人喜欢在外面度过休闲时间吗？",
-            "answer": "很多人喜欢，尤其是在天气好的时候。他们会去公园、商场、餐厅或运动场所，以便放松并和朋友相处。"
+            "answer": "我觉得大部分人都喜欢出去，尤其周末。大家出去就是散散步、吃个饭，因为这样能换个环境放松一下（have fun without spending too much）。"
           },
-          "keywords": [
-            "help people relax",
-            "stay active",
-            "leisure time"
+          "structure": "直接回答",
+          "chunkPhrases": [
+            "have fun without spending too much"
           ],
-          "structure": "直接回答"
+          "chunks": [
+            "C21"
+          ]
         },
         {
           "question": "How do people spend their leisure time in your country?",
@@ -9580,14 +10036,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "你们国家的人怎样度过休闲时间？",
-            "answer": "常见方式包括散步、运动、购物、看电影和与朋友吃饭。也有很多人在家看视频或玩游戏。"
+            "answer": "很多人休息时会出门走走，比如晚饭后去公园散步（go for a walk after dinner）。也有人喜欢在家看视频、刷手机，各有各的放松方式。"
           },
-          "keywords": [
-            "stay active",
-            "leisure time",
-            "outdoor activities"
+          "structure": "直接回答",
+          "chunkPhrases": [
+            "go for a walk after dinner"
           ],
-          "structure": "直接回答"
+          "chunks": [
+            "C32"
+          ]
         },
         {
           "question": "How does technology affect the way people spend their leisure time?",
@@ -9595,14 +10052,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "科技怎样影响人们度过休闲时间的方式？",
-            "answer": "科技让电影、游戏和社交活动随时可以使用，也方便人们查找附近活动。不过屏幕使用过多会减少户外活动。"
+            "answer": "我觉得科技让休闲变简单了，现在用手机就能看视频、打游戏。不过很多人休息时也玩手机太多，反而更累（be on my phone too much）。"
           },
-          "keywords": [
-            "outdoor activities",
-            "more convenient",
-            "leisure time"
+          "structure": "直接回答",
+          "chunkPhrases": [
+            "be on my phone too much"
           ],
-          "structure": "直接回答"
+          "chunks": [
+            "C24"
+          ]
         },
         {
           "question": "Do you think only old people have time for leisure?",
@@ -9610,14 +10068,17 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "你认为只有老年人才有休闲时间吗？",
-            "answer": "不只是老年人才有休闲时间，因为年轻人也需要在工作或学习后休息。比如，年轻人可能在晚上运动，老年人可能在白天散步。两类人都有休闲需要，只是时间和活动方式不同。"
+            "answer": "我觉得不是，年轻人也有自己的休闲时间。因为平时上班压力很大，年轻人也累，也需要放松（work under a lot of pressure）。只是老人家生活节奏更慢，看上去时间多得多（a slower pace of life）。"
           },
-          "keywords": [
-            "leisure time",
-            "outdoor activities",
-            "release pressure"
+          "structure": "PREC",
+          "chunkPhrases": [
+            "work under a lot of pressure",
+            "a slower pace of life"
           ],
-          "structure": "PREC"
+          "chunks": [
+            "C04",
+            "C14"
+          ]
         },
         {
           "question": "Why do people like to have days off?",
@@ -9625,14 +10086,17 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "为什么人们喜欢休息日？",
-            "answer": "人们喜欢休息日。因为休息能帮助他们释放压力并恢复精力。例如，他们可以陪伴家人和朋友。适当休息通常还能提高之后的工作效率。"
+            "answer": "我觉得是因为工作太累了，人需要喘口气。平时上班压力很大（work under a lot of pressure），休息日才能缓过来。比如说我休息日会睡懒觉，出去走走，简单的事也能让我很开心（simple things can be enjoyable）。"
           },
-          "keywords": [
-            "release pressure",
-            "provide companionship",
-            "improve efficiency"
+          "structure": "PREC",
+          "chunkPhrases": [
+            "work under a lot of pressure",
+            "simple things can be enjoyable"
           ],
-          "structure": "PREC"
+          "chunks": [
+            "C04",
+            "C21"
+          ]
         },
         {
           "question": "Going out to have holidays is tiring. Why do people still want to do it?",
@@ -9640,14 +10104,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "外出度假很累，为什么人们仍然想去？",
-            "answer": "即使旅行很累，人们仍然愿意出门。因为他们想暂时离开日常生活并看看新地方。例如，一次旅行可以创造特别回忆。所以新的体验和开阔眼界通常值得这份疲劳。"
+            "answer": "因为出门玩虽然累，但心情完全不一样。我们可以离开熟悉的地方，一天透透气（get away from… for a day）。看看不一样的风景，就算累，大家也觉得值。"
           },
-          "keywords": [
-            "broaden their horizons",
-            "create special memories",
-            "leisure time"
+          "structure": "PREC",
+          "chunkPhrases": [
+            "get away from… for a day"
           ],
-          "structure": "PREC"
+          "chunks": [
+            "C13"
+          ]
         }
       ]
     },
@@ -9665,14 +10130,16 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "学校帮助孩子变得更聪明有多重要？",
-            "answer": "学校帮助孩子变得更聪明非常重要，因为学校不仅提供知识，也训练思考和合作能力。比如，孩子可以在小组项目中寻找信息、讨论问题并一起完成任务。这样的学习能让他们掌握考试之外的实用技能。"
+            "answer": "我觉得非常重要。因为学校不光教知识，还教孩子怎么学习（learn step by step）。比如说，老师把知识拆成小步骤，孩子一步步学，就会取得很大进步（make a lot of progress）。"
           },
-          "keywords": [
-            "learn useful skills",
-            "solve problems",
-            "work with others"
+          "structure": "PREC",
+          "chunkPhrases": [
+            "learn step by step",
+            "make a lot of progress"
           ],
-          "structure": "PREC"
+          "chunks": [
+            "C12"
+          ]
         }
       ]
     },
@@ -9690,14 +10157,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "人们学习语言时会遇到哪些困难？",
-            "answer": "常见困难包括记不住词汇、发音不准确以及没有机会练习。有些人还害怕犯错，所以不敢开口。"
+            "answer": "我觉得最难的是开口说，很多人怕说错就不敢练。另外，背过的单词过几天就忘了，需要反复练习（practise again and again）。"
           },
-          "keywords": [
-            "learn from mistakes",
-            "language learning",
-            "practise every day"
+          "structure": "直接回答",
+          "chunkPhrases": [
+            "practise again and again"
           ],
-          "structure": "直接回答"
+          "chunks": [
+            "C12"
+          ]
         },
         {
           "question": "Do you think language learning is important? Why?",
@@ -9705,14 +10173,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "你认为语言学习重要吗？为什么？",
-            "answer": "语言学习很重要，因为它能帮助工作、旅行和了解其他文化。比如，会外语的人可以直接和外国客户交流，也能在旅行时自己解决问题。因此，学习语言既实用，也能开阔眼界。"
+            "answer": "我觉得很重要，因为现在出门在外经常要用到外语。比如说找工作的时候，会英语的人机会明显更多。而且学会了它，你能和更多外国朋友聊天（speak with native speakers）。"
           },
-          "keywords": [
-            "broaden their horizons",
-            "understand other cultures",
-            "language skills"
+          "structure": "PREC",
+          "chunkPhrases": [
+            "speak with native speakers"
           ],
-          "structure": "PREC"
+          "chunks": [
+            "C11"
+          ]
         },
         {
           "question": "Which is better, to study a language alone or to study it in a group? Why?",
@@ -9720,14 +10189,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "独自学习语言和小组学习，哪一种更好？为什么？",
-            "answer": "独自学习还是小组学习更好取决于学习任务，因为两种方式各有优势。比如，一个人学习适合记词汇，小组学习适合练习真实对话并获得反馈。把两种方法结合起来通常效果最好。"
+            "answer": "我觉得小组学更好，因为语言是用来交流的，一个人闷头学进步慢。在小组里大家可以互相练口语，还能互相交流想法（share ideas with each other）。一个人学虽然安静，但容易放弃。"
           },
-          "keywords": [
-            "listen to feedback",
-            "language learning",
-            "practise every day"
+          "structure": "PREC + 对比",
+          "chunkPhrases": [
+            "share ideas with each other"
           ],
-          "structure": "PREC + 对比"
+          "chunks": [
+            "C03"
+          ]
         },
         {
           "question": "What's the best way to learn a language?",
@@ -9735,14 +10205,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "学习语言最好的方法是什么？",
-            "answer": "学习语言最好的方法是每天使用，因为规律练习比偶尔学习更容易形成习惯。比如，学习者可以听简单播客、读短文，再和别人说几句话。只要不害怕犯错，语言能力就会逐渐提高。"
+            "answer": "我觉得最好的方法是多说多用，把它当成日常的一部分。比如说每天跟人用英语聊天，就算说得不好也没关系。犯错不要紧，从错误里学得最快（make mistakes and learn from them）。"
           },
-          "keywords": [
-            "learn from mistakes",
-            "language learning",
-            "practise every day"
+          "structure": "PREC",
+          "chunkPhrases": [
+            "make mistakes and learn from them"
           ],
-          "structure": "PREC"
+          "chunks": [
+            "C11"
+          ]
         },
         {
           "question": "What are the advantages and disadvantages of learning a language?",
@@ -9750,14 +10221,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "学习语言有哪些优点和缺点？",
-            "answer": "优点是能增加工作机会、方便旅行并了解其他文化。缺点是需要很多时间和练习，有些课程也比较贵。"
+            "answer": "好处是机会更多，找工作、交朋友都方便。坏处是太花时间，而且要一直坚持，不然很快就忘了。我觉得值得，年轻的时候学得快，年纪大了就要靠坚持（stay motivated）。"
           },
-          "keywords": [
-            "job opportunities",
-            "understand other cultures",
-            "more convenient"
+          "structure": "直接回答 + 对比",
+          "chunkPhrases": [
+            "stay motivated"
           ],
-          "structure": "直接回答 + 对比"
+          "chunks": [
+            "C06"
+          ]
         },
         {
           "question": "Some people think that technology has made it unnecessary to learn languages. What do you think?",
@@ -9765,14 +10237,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "有人认为科技让学习语言变得没有必要。你怎么看？",
-            "answer": "我不同意科技让语言学习变得没有必要，因为翻译工具可能出错，也不能完全表达语气和文化。比如，在正式工作交流中，一个错误翻译可能造成误解。因此，掌握基础语言仍然能让沟通更准确自然。"
+            "answer": "我觉得不对，翻译软件只能应急，代替不了真正的交流。比如说你出国跟人聊天，总不能一直举着手机翻译。会一点外语，交流起来才自然（learn from real conversations）。"
           },
-          "keywords": [
-            "more convenient",
-            "language learning",
-            "practise every day"
+          "structure": "PREC",
+          "chunkPhrases": [
+            "learn from real conversations"
           ],
-          "structure": "PREC"
+          "chunks": [
+            "C11"
+          ]
         }
       ]
     },
@@ -9790,14 +10263,17 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "为什么人们热衷于购买新的电子设备？",
-            "answer": "人们喜欢购买新电子设备，因为新产品通常速度更快，也有更方便的功能。比如，有人会为了更好的相机或电池更换手机，即使旧手机还能使用。不过广告和潮流会制造不必要的需求，所以购买前最好先等待并认真考虑。"
+            "answer": "我觉得主要是因为新手机功能更多，看起来也更好。广告也一直推新的，很容易吸引人（it catches your attention）。比如说新手机拍照更清楚，大家都觉得值得买（worth the money）。"
           },
-          "keywords": [
-            "advertising",
-            "electronic devices",
-            "more convenient"
+          "structure": "PREC",
+          "chunkPhrases": [
+            "it catches your attention",
+            "worth the money"
           ],
-          "structure": "PREC"
+          "chunks": [
+            "C26",
+            "C22"
+          ]
         },
         {
           "question": "What impact do electronic devices have on people?",
@@ -9805,14 +10281,17 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "电子设备对人们有什么影响？",
-            "answer": "它们能节省时间、帮助学习并让人保持联系，但使用过多会造成分心、依赖和健康问题。保持平衡最重要。"
+            "answer": "我觉得有好也有坏。好处是查信息、联系朋友都很快（get the information quickly）。坏处是手机用得太多了，年轻人更明显，老人反而喜欢当面聊（be on my phone too much）。"
           },
-          "keywords": [
-            "stay connected",
-            "save time",
-            "health problems"
+          "structure": "直接回答 + 对比",
+          "chunkPhrases": [
+            "get the information quickly",
+            "be on my phone too much"
           ],
-          "structure": "直接回答 + 对比"
+          "chunks": [
+            "C25",
+            "C24"
+          ]
         }
       ]
     },
@@ -9830,14 +10309,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "你认为孩子有时需要作出重要决定吗？",
-            "answer": "孩子有时需要作出重要决定，因为这能培养独立性和责任感。比如，他们可以自己选择兴趣活动，或者决定怎样使用零花钱。不过成年人仍然应该提供信息和安全指导。"
+            "answer": "我觉得有时候会的。比如选兴趣班或者要不要参加学校的比赛，孩子也要自己做决定（make a big decision）。不过这些不算很大的决定，家长会在旁边帮忙。"
           },
-          "keywords": [
-            "take responsibility",
-            "keep people safe",
-            "make important decisions"
+          "structure": "PREC",
+          "chunkPhrases": [
+            "make a big decision"
           ],
-          "structure": "PREC"
+          "chunks": [
+            "C09"
+          ]
         },
         {
           "question": "What important decisions do teenagers need to  make after graduation?",
@@ -9845,14 +10325,17 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "青少年毕业后需要作出哪些重要决定？",
-            "answer": "他们需要决定继续学习、选择专业还是开始工作。有些人还要考虑去哪个城市生活，因此需要了解自己的兴趣和实际条件。"
+            "answer": "我觉得最主要的是选大学和专业，因为这决定以后做什么工作（make a big decision）。还有就是先工作还是继续读书，很多人要考虑收入的问题（a stable income）。"
           },
-          "keywords": [
-            "make important decisions",
-            "check the information",
-            "ask for advice"
+          "structure": "直接回答",
+          "chunkPhrases": [
+            "make a big decision",
+            "a stable income"
           ],
-          "structure": "直接回答"
+          "chunks": [
+            "C09",
+            "C04"
+          ]
         },
         {
           "question": "Who can children turn to for help when making a decision?",
@@ -9860,14 +10343,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "孩子作决定时可以向谁求助？",
-            "answer": "他们可以向父母、老师或值得信任的成年人求助。不同的人能提供生活经验、专业信息和另一种观点。"
+            "answer": "我觉得一般是先问父母，因为他们最了解孩子（turn to… for help）。如果有些事不方便说，也可以找老师或者信任的朋友聊聊。"
           },
-          "keywords": [
-            "make important decisions",
-            "check the information",
-            "ask for advice"
+          "structure": "直接回答",
+          "chunkPhrases": [
+            "turn to… for help"
           ],
-          "structure": "直接回答"
+          "chunks": [
+            "C01"
+          ]
         },
         {
           "question": "Do you think advertisements can influence our decisions when shopping?",
@@ -9875,14 +10359,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "你认为广告会影响我们的购物决定吗？",
-            "answer": "广告会影响购物决定。因为重复信息、折扣和漂亮画面会制造紧迫感。例如，有些人会因此购买并不需要的东西。所以购物前最好先确认自己的真实需要。"
+            "answer": "我觉得会的。因为广告经常用明星和好看的画面，很抓人眼球（it catches your attention）。我有时候逛超市看到广告里的东西，就会想试试看。"
           },
-          "keywords": [
-            "create false needs",
-            "advertising",
-            "make important decisions"
+          "structure": "PREC",
+          "chunkPhrases": [
+            "it catches your attention"
           ],
-          "structure": "PREC"
+          "chunks": [
+            "C26"
+          ]
         },
         {
           "question": "Do you think the influence of advertising is good?",
@@ -9890,14 +10375,17 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "你认为广告的影响是好的吗？",
-            "answer": "广告的影响有好有坏，因为它既能提供产品信息，也可能夸大效果。比如，真实广告能帮助顾客比较商品，而虚假折扣可能让人购买不需要的东西。所以消费者应该核对信息，再作出决定。"
+            "answer": "我觉得有好有坏。好处是广告能让我们知道新产品，省得自己到处找。不过有些广告并不诚实（some ads are not honest），会夸大效果，买之前要先看真实质量（check the real quality first）。"
           },
-          "keywords": [
-            "check the information",
-            "advertising",
-            "make important decisions"
+          "structure": "PREC",
+          "chunkPhrases": [
+            "some ads are not honest",
+            "check the real quality first"
           ],
-          "structure": "PREC"
+          "chunks": [
+            "C26",
+            "C26"
+          ]
         },
         {
           "question": "How do people usually make important decisions?",
@@ -9905,14 +10393,17 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "人们通常怎样作出重要决定？",
-            "answer": "他们通常会收集信息、比较选择并询问可信的人。考虑长期结果并给自己一点时间，也能减少冲动决定。"
+            "answer": "我觉得大多数人会先想清楚，把好处和坏处都列出来（weigh up the pros and cons）。然后再和我信任的人商量一下，最后自己做决定（talk to someone I trust）。"
           },
-          "keywords": [
-            "make important decisions",
-            "check the information",
-            "ask for advice"
+          "structure": "直接回答",
+          "chunkPhrases": [
+            "weigh up the pros and cons",
+            "talk to someone I trust"
           ],
-          "structure": "直接回答"
+          "chunks": [
+            "C09",
+            "C09"
+          ]
         }
       ]
     },
@@ -9930,14 +10421,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "为什么有些人喜欢独自工作？",
-            "answer": "一些人喜欢独自工作，因为安静的环境能让他们按照自己的速度完成任务。比如，写报告或分析资料时，高度专注往往比频繁协调更有效率。不过复杂项目通常仍然需要和别人合作。"
+            "answer": "我觉得有些人喜欢自己一个人做事情。因为他们可以自己安排时间，不用等别人，有问题先自己想办法解决（sort it out on my own first）。比如说写报告的时候，想什么时候做就什么时候做，效率高很多。"
           },
-          "keywords": [
-            "work alone",
-            "focus on a task",
-            "work more efficiently"
+          "structure": "PREC",
+          "chunkPhrases": [
+            "sort it out on my own first"
           ],
-          "structure": "PREC"
+          "chunks": [
+            "C01"
+          ]
         },
         {
           "question": "What should a leader do to make team members want to follow him or her?",
@@ -9945,15 +10437,16 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "领导应该怎样做，才能让团队成员愿意跟随？",
-            "answer": "优秀的领导者应该具备良好的沟通能力，并把目标解释清楚，因为团队成员需要知道自己该做什么。例如，当成员遇到问题时，领导者应该认真倾听并提供实际帮助。这样，成员会感到受到尊重，也会更愿意跟随领导者。"
+            "answer": "我觉得好领导要经常和大家交流想法，互相同步进度（keep each other updated）。因为成员觉得自己被重视，才会愿意跟着干。比如说开会时先听大家的意见，再一起做决定（share ideas with each other）。"
           },
-          "keywords": [
-            "good communication skills",
-            "understand their goals",
-            "offer practical help",
-            "feel respected"
+          "structure": "PREC",
+          "chunkPhrases": [
+            "keep each other updated",
+            "share ideas with each other"
           ],
-          "structure": "PREC"
+          "chunks": [
+            "C03"
+          ]
         },
         {
           "question": "Should students learn to do group work?",
@@ -9961,14 +10454,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "学生应该学习小组合作吗？",
-            "answer": "学生应该学习小组合作，因为这能训练沟通、分工和解决问题。比如，在科学项目中，不同学生可以分别查资料、做实验和进行展示。这样的经历能帮助他们建立信任并承担责任。"
+            "answer": "我觉得学生应该学小组合作。因为以后工作基本都要和别人一起做，这是很重要的能力。比如说做小组作业时大家分工，各自做自己擅长的（each do what we're good at），效率会高很多。"
           },
-          "keywords": [
-            "work as a team",
-            "teamwork",
-            "set clear goals"
+          "structure": "PREC",
+          "chunkPhrases": [
+            "each do what we're good at"
           ],
-          "structure": "PREC"
+          "chunks": [
+            "C03"
+          ]
         },
         {
           "question": "What group tasks are there in schools?",
@@ -9976,14 +10470,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "学校里有哪些小组任务？",
-            "answer": "常见任务包括课堂项目、科学实验、体育活动和小组展示。这些任务让学生一起计划并完成共同目标。"
+            "answer": "学校里的小组任务挺多的。比如说科学课一起做实验，每个人负责其中一部分（be responsible for one part of…），还有英语课小组排短剧、做海报。"
           },
-          "keywords": [
-            "make a plan",
-            "teamwork",
-            "set clear goals"
+          "structure": "直接回答",
+          "chunkPhrases": [
+            "be responsible for one part of…"
           ],
-          "structure": "直接回答"
+          "chunks": [
+            "C03"
+          ]
         },
         {
           "question": "What advantages are there for students experiencing teamwork at school?",
@@ -9991,14 +10486,16 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "学生在学校体验团队合作有什么好处？",
-            "answer": "他们能学习沟通、建立信任并承担自己的责任。团队合作也能让学生看到不同方法，提升解决问题的能力。"
+            "answer": "我觉得团队合作能让学生学到很多。大家互相交流想法（share ideas with each other），做得也比一个人多得多（get much more done than…），以后工作也用得上。"
           },
-          "keywords": [
-            "build trust",
-            "work as a team",
-            "teamwork"
+          "structure": "直接回答",
+          "chunkPhrases": [
+            "share ideas with each other",
+            "get much more done than…"
           ],
-          "structure": "直接回答"
+          "chunks": [
+            "C03"
+          ]
         },
         {
           "question": "How can you tell if a person is a good leader?",
@@ -10006,14 +10503,17 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "怎样判断一个人是不是好领导？",
-            "answer": "好领导会倾听成员、作出公平决定并在问题出现时承担责任。团队能完成目标，而且成员愿意表达意见，也是重要表现。"
+            "answer": "我觉得好领导要看两点。他是不是让每个人都做好自己那份（everyone does their part），还有他遇到问题时会不会先自己解决（sort it out on my own first）。"
           },
-          "keywords": [
-            "take responsibility",
-            "fairness",
-            "listen carefully"
+          "structure": "直接回答",
+          "chunkPhrases": [
+            "everyone does their part",
+            "sort it out on my own first"
           ],
-          "structure": "直接回答"
+          "chunks": [
+            "C03",
+            "C01"
+          ]
         }
       ]
     },
@@ -10031,14 +10531,16 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "人们经常改变计划吗？",
-            "answer": "会，因为天气、时间、费用或其他人的安排可能突然变化。好的计划应该有方向，也要保留调整空间。"
+            "answer": "我觉得人们经常改计划。因为生活里意外太多，约好的事临时变卦很常见（things often don't go as planned），所以得想个备用方案（come up with a backup plan）。"
           },
-          "keywords": [
-            "make a plan",
-            "keep the plan flexible",
-            "save time"
+          "structure": "直接回答",
+          "chunkPhrases": [
+            "things often don't go as planned",
+            "come up with a backup plan"
           ],
-          "structure": "直接回答"
+          "chunks": [
+            "C07"
+          ]
         },
         {
           "question": "Would you tell others if you change your plan?",
@@ -10046,14 +10548,16 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "如果你改变计划，会告诉别人吗？",
-            "answer": "如果计划变化会影响别人，我会尽早告诉他们，因为他们也需要调整安排。比如，会议时间改变后，应该立即通知所有参加者并提供新的时间。清楚说明原因能够减少误解，也表现出对别人的尊重。"
+            "answer": "我会告诉别人。因为不说会让朋友白等（leave… waiting for hours）。比如要改时间，我就马上发消息，让对方知道情况（let… know what's happening）。"
           },
-          "keywords": [
-            "make a plan",
-            "reduce misunderstandings",
-            "keep the plan flexible"
+          "structure": "PREC",
+          "chunkPhrases": [
+            "leave… waiting for hours",
+            "let… know what's happening"
           ],
-          "structure": "PREC"
+          "chunks": [
+            "C02"
+          ]
         },
         {
           "question": "Why do you think parents still make plans for their children nowadays?",
@@ -10061,14 +10565,16 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "为什么现在父母仍然为孩子制定计划？",
-            "answer": "父母仍然为孩子制订计划，是因为他们担心孩子的安全和未来，也拥有更多生活经验。比如，他们可能帮助安排学习时间或选择课外活动。不过父母应该听取孩子的意见，让计划保持灵活。"
+            "answer": "我觉得是因为父母担心孩子走弯路。他们喜欢把孩子的目标拆成一个个小步骤（break it down into small steps），觉得这样更稳。比如学英语，每天背一点，孩子能看到实实在在的进步（see real progress）。"
           },
-          "keywords": [
-            "keep people safe",
-            "make a plan",
-            "keep the plan flexible"
+          "structure": "PREC",
+          "chunkPhrases": [
+            "break it down into small steps",
+            "see real progress"
           ],
-          "structure": "PREC"
+          "chunks": [
+            "C06"
+          ]
         },
         {
           "question": "How does technology help people make plans?",
@@ -10076,14 +10582,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "科技怎样帮助人们制定计划？",
-            "answer": "日历、地图和订票应用能整理时间、比较路线并提供提醒。这些工具可以节省时间，也能减少遗漏。"
+            "answer": "科技让做计划方便多了。比如想知道周末天气和路况，在手机上查一下，很快就能得到信息（get the information quickly），安排起来特别省事。"
           },
-          "keywords": [
-            "save time",
-            "make a plan",
-            "keep the plan flexible"
+          "structure": "直接回答",
+          "chunkPhrases": [
+            "get the information quickly"
           ],
-          "structure": "直接回答"
+          "chunks": [
+            "C25"
+          ]
         },
         {
           "question": "What kind of plans do people often make?",
@@ -10091,14 +10598,16 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "人们经常制定什么计划？",
-            "answer": "常见的有学习、工作、旅行、财务和健康计划。计划越重要，越需要明确步骤和时间。"
+            "answer": "我觉得分短期和长期两种。短期是周末去哪儿、晚饭吃什么；长期是学英语、减肥，给自己定个明确的目标（set myself a clear goal），再拆成小步骤（break it down into small steps）。"
           },
-          "keywords": [
-            "make a plan",
-            "keep the plan flexible",
-            "save time"
+          "structure": "直接回答",
+          "chunkPhrases": [
+            "set myself a clear goal",
+            "break it down into small steps"
           ],
-          "structure": "直接回答"
+          "chunks": [
+            "C06"
+          ]
         },
         {
           "question": "Do you think people like the process of making plans more, or the moment of carrying them out?",
@@ -10106,14 +10615,16 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "人们更喜欢制定计划的过程，还是执行计划的时刻？",
-            "answer": "人们更喜欢制订计划还是执行计划取决于个人性格，因为两种过程带来的满足感不同。比如，有些人喜欢安排行程带来的控制感，另一些人更享受真正到达目的地。两种过程都有价值，但计划最终还是需要付诸行动。"
+            "answer": "我觉得多数人更喜欢真正做的那一刻。因为计划写下来没用，看到实际进展才开心（see real progress）。年轻人可能享受定计划的新鲜感，老人更看重做完的成就感（a sense of achievement）。"
           },
-          "keywords": [
-            "enjoy making plans",
-            "carry out a plan",
-            "see real results"
+          "structure": "PREC + 对比",
+          "chunkPhrases": [
+            "see real progress",
+            "a sense of achievement"
           ],
-          "structure": "PREC + 对比"
+          "chunks": [
+            "C06"
+          ]
         }
       ]
     },
@@ -10131,14 +10642,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "你认识喜欢早起的人吗？",
-            "answer": "认识。有些家人和同事喜欢早起运动或安静地安排一天，因为早上通常干扰更少。"
+            "answer": "认识，我妈就是。她每天固定时间起床，已经坚持好多年了（get up at a fixed time）。"
           },
-          "keywords": [
-            "stay active",
-            "get up early",
-            "arrive early"
+          "structure": "直接回答",
+          "chunkPhrases": [
+            "get up at a fixed time"
           ],
-          "structure": "直接回答"
+          "chunks": [
+            "C10"
+          ]
         },
         {
           "question": "Why do people get up early?",
@@ -10146,14 +10658,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "人们为什么早起？",
-            "answer": "人们早起通常是为了工作、上学或赶早班交通。因为他们需要留出足够的准备和出行时间。例如，有些人也会在忙碌前先运动。这样一天的安排会更从容。"
+            "answer": "我觉得早起是为了把时间利用好。早上安静，没人来打扰，能完成更多的事（get more done in the morning）。比如我有个邻居，天天六点起床先跑步，然后精神满满去上班。"
           },
-          "keywords": [
-            "stay active",
-            "get up early",
-            "arrive early"
+          "structure": "PREC",
+          "chunkPhrases": [
+            "get more done in the morning"
           ],
-          "structure": "PREC"
+          "chunks": [
+            "C10"
+          ]
         },
         {
           "question": "What kinds of occasions do people need to arrive early?",
@@ -10161,14 +10674,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "人们在什么场合需要提前到达？",
-            "answer": "求职面试、考试、航班、看医生和正式活动都应该提前到达。这样能留出准备时间，也能避免意外延误。"
+            "answer": "我觉得面试、考试，还有赶飞机火车，都得提前到。因为一到高峰时段就堵车，晚出门肯定来不及（at rush hour）。"
           },
-          "keywords": [
-            "arrive early",
-            "get up early",
-            "prepare in advance"
+          "structure": "直接回答",
+          "chunkPhrases": [
+            "at rush hour"
           ],
-          "structure": "直接回答"
+          "chunks": [
+            "C15"
+          ]
         },
         {
           "question": "Why do some people like to stay up late?",
@@ -10176,14 +10690,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "为什么有些人喜欢熬夜？",
-            "answer": "一些人喜欢熬夜，因为他们可能需要工作，也可能觉得夜晚更安静。比如，有人会在深夜看视频、玩游戏或使用社交媒体。不过长期熬夜会影响睡眠和健康，所以应该保持平衡。"
+            "answer": "我觉得是因为晚上才有自己的时间。白天忙工作忙学习，只有晚上没人打扰，能放松一下。所以有些人就舍不得睡，刷手机刷到很晚（be on my phone too much）。"
           },
-          "keywords": [
-            "stay up late",
-            "social media",
-            "a quiet night"
+          "structure": "PREC",
+          "chunkPhrases": [
+            "be on my phone too much"
           ],
-          "structure": "PREC"
+          "chunks": [
+            "C24"
+          ]
         },
         {
           "question": "Is it good to arrive early in any situation?",
@@ -10191,14 +10706,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "任何情况下提前到达都好吗？",
-            "answer": "不是任何情况都适合早到，因为不同场合对时间的要求不同。比如，面试提前十分钟很有帮助，但参加普通晚餐时到得太早可能让主人不方便。所以人们应该先考虑具体情况。"
+            "answer": "我觉得不一定，早到要看场合。朋友聚会去太早反而尴尬，别人还在准备，你只能干等。但像赶飞机、考试就不一样，万一堵在路上就麻烦了（get stuck in traffic）。"
           },
-          "keywords": [
-            "arrive early",
-            "formal situations",
-            "inconvenient for the host"
+          "structure": "PREC",
+          "chunkPhrases": [
+            "get stuck in traffic"
           ],
-          "structure": "PREC"
+          "chunks": [
+            "C15"
+          ]
         },
         {
           "question": "What kind of people like getting up early?",
@@ -10206,14 +10722,16 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "什么样的人喜欢早起？",
-            "answer": "生活规律、自律或早上有固定任务的人更容易早起。也有人只是喜欢清晨安静的环境。"
+            "answer": "我觉得是那种自律、有事做的人，比如上班族、学生，还有爱运动的人（be a morning person）。他们习惯固定时间起床，坚持固定的作息（stick to a routine）。"
           },
-          "keywords": [
-            "get up early",
-            "daily routine",
-            "arrive early"
+          "structure": "直接回答",
+          "chunkPhrases": [
+            "be a morning person",
+            "stick to a routine"
           ],
-          "structure": "直接回答"
+          "chunks": [
+            "C10"
+          ]
         }
       ]
     },
@@ -10231,14 +10749,16 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "大多数孩子什么时候开始拥有自己的观点？",
-            "answer": "很多孩子在小学阶段开始表达清楚的喜好和判断。随着经验增加，他们的观点会更独立，也可能经常变化。"
+            "answer": "我觉得大多数孩子五六岁、上小学前后就开始有自己的观点了。因为他们听得多、看得多，会慢慢发现自己以前的想法变了（I used to think… now I think…）。"
           },
-          "keywords": [
-            "have their own opinions",
-            "ask for advice",
-            "share ideas"
+          "structure": "直接回答",
+          "chunkPhrases": [
+            "I used to think…",
+            "now I think…"
           ],
-          "structure": "直接回答"
+          "chunks": [
+            "C08"
+          ]
         },
         {
           "question": "Do children communicate more with teachers or with parents?",
@@ -10246,14 +10766,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "孩子更多和老师还是父母交流？",
-            "answer": "这取决于谈论的话题。因为老师更了解学习，父母更了解孩子的生活。例如，学习问题可以找老师，个人感受可以告诉父母。所以两种沟通都很重要。"
+            "answer": "我觉得孩子跟父母交流更多。因为他们每天放学回家都能见到父母，会跟父母说说学校的事（let… know what's happening）。跟老师交流的时间短，一般只在课堂或家长会上，说不到心里话。"
           },
-          "keywords": [
-            "talk to teachers",
-            "talk to parents",
-            "depend on the topic"
+          "structure": "PREC + 对比",
+          "chunkPhrases": [
+            "let… know what's happening"
           ],
-          "structure": "PREC + 对比"
+          "chunks": [
+            "C02"
+          ]
         },
         {
           "question": "Whose opinions are more important to children, their parents' or teachers'?",
@@ -10261,14 +10782,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "父母和老师的观点，哪一个对孩子更重要？",
-            "answer": "父母和老师的意见对孩子都很重要，因为他们了解孩子的不同方面。比如，选择学习科目时老师的建议更专业，处理个人问题时父母可能更了解孩子。面对重要决定时，最好听取双方意见。"
+            "answer": "我觉得父母的观点更重要。因为孩子天天跟父母在一起，遇到问题会先找父母商量（talk to someone I trust）。老师的观点虽然也重要，但只在课堂上影响孩子，不像父母一直陪在身边。"
           },
-          "keywords": [
-            "make important decisions",
-            "have their own opinions",
-            "ask for advice"
+          "structure": "PREC + 对比",
+          "chunkPhrases": [
+            "talk to someone I trust"
           ],
-          "structure": "PREC + 对比"
+          "chunks": [
+            "C09"
+          ]
         },
         {
           "question": "Who do most young people like to share opinions with?",
@@ -10276,14 +10798,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "大多数年轻人喜欢和谁分享观点？",
-            "answer": "他们通常和亲近朋友、父母或同学分享，也会在网上表达。不过涉及重要问题时，可信的人比大量陌生评论更有帮助。"
+            "answer": "我觉得大多数年轻人喜欢跟朋友分享观点。因为同龄人想法相近，聊起来没有压力，一聊就能聊很久（catch up with…）。"
           },
-          "keywords": [
-            "have their own opinions",
-            "ask for advice",
-            "share ideas"
+          "structure": "直接回答",
+          "chunkPhrases": [
+            "catch up with…"
           ],
-          "structure": "直接回答"
+          "chunks": [
+            "C29"
+          ]
         }
       ]
     },
@@ -10301,14 +10824,16 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "你认为改变日常习惯好吗？",
-            "answer": "适当改变日常习惯是好事，因为新的习惯可能改善健康或效率。比如，一个人可以把晚饭后看手机改成散步。改变应该一步一步进行，这样更容易长期坚持。"
+            "answer": "我觉得偶尔改变一下日常习惯是好事，因为事情往往不会完全按计划走（things often don't go as planned）。比如周末我会比平时晚起，把时间留给家人。这让我觉得更放松，也更能适应变化（stay flexible）。"
           },
-          "keywords": [
-            "a healthy lifestyle",
-            "practise regularly",
-            "daily routine"
+          "structure": "PREC",
+          "chunkPhrases": [
+            "things often don't go as planned",
+            "stay flexible"
           ],
-          "structure": "PREC"
+          "chunks": [
+            "C07"
+          ]
         },
         {
           "question": "Do you think it is good to change jobs?",
@@ -10316,14 +10841,16 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "你认为换工作好吗？",
-            "answer": "如果有清楚的理由，换工作可以是好选择。因为新工作可能带来成长、合理收入或更好的环境。例如，人们可以先比较新工作的机会和稳定性。不过作决定前也要考虑家庭责任。"
+            "answer": "我觉得换工作有好有坏，关键要想清楚再做决定（make a big decision）。因为换一份工作要重新适应，还要从头学起。所以换之前我会先权衡一下利弊，问问我信任的人（weigh up the pros and cons）。"
           },
-          "keywords": [
-            "change jobs",
-            "personal growth",
-            "job stability"
+          "structure": "PREC",
+          "chunkPhrases": [
+            "make a big decision",
+            "weigh up the pros and cons"
           ],
-          "structure": "PREC"
+          "chunks": [
+            "C09"
+          ]
         },
         {
           "question": "Is it good for people to get a job promotion?",
@@ -10331,14 +10858,16 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "升职对人们来说是好事吗？",
-            "answer": "升职通常是好事，因为它能带来更高收入和成长机会。比如，员工成为团队负责人后，可以学习管理和沟通技能。不过责任和压力也会增加，所以要考虑自己是否准备好。"
+            "answer": "我觉得升职对大多数人来说是好事，因为能承担更多责任（take on more responsibility）。当然压力也会变大，可能要工作更久（work under a lot of pressure）。不过做好了会有成就感，收入也更高，还是值得的。"
           },
-          "keywords": [
-            "earn more money",
-            "change a routine",
-            "personal growth"
+          "structure": "PREC",
+          "chunkPhrases": [
+            "take on more responsibility",
+            "work under a lot of pressure"
           ],
-          "structure": "PREC"
+          "chunks": [
+            "C04"
+          ]
         },
         {
           "question": "Do people often make plans around their regular routines?",
@@ -10346,14 +10875,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "人们经常围绕固定生活习惯制定计划吗？",
-            "answer": "人们经常围绕固定习惯制定计划。因为工作、吃饭和休息时间提供了基本安排。例如，他们可以把其他任务放进空闲时段。不过计划也应该能应对临时变化。"
+            "answer": "我觉得很多人会这样做，因为固定习惯让安排更省心（stick to a routine）。比如先定好起床和吃饭的时间，再安排一天的事。"
           },
-          "keywords": [
-            "regular routines",
-            "make a plan",
-            "deal with changes"
+          "structure": "直接回答",
+          "chunkPhrases": [
+            "stick to a routine"
           ],
-          "structure": "直接回答"
+          "chunks": [
+            "C10"
+          ]
         },
         {
           "question": "Who tend to change their daily routine more, young people or old people?",
@@ -10361,14 +10891,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "年轻人和老年人，谁更容易改变日常习惯？",
-            "answer": "年轻人可能更愿意尝试新事物，也通常有较少固定责任。老年人也能改变，只是可能需要更多时间和清楚的理由。"
+            "answer": "我觉得年轻人更容易改变日常习惯，因为他们喜欢尝试新东西。比如朋友临时约我出去玩，我马上就能调整安排。而老人一般坚持固定的作息，不太愿意变（stick to a routine）。"
           },
-          "keywords": [
-            "change a daily routine",
-            "young people",
-            "need more time"
+          "structure": "直接回答 + 对比",
+          "chunkPhrases": [
+            "stick to a routine"
           ],
-          "structure": "直接回答 + 对比"
+          "chunks": [
+            "C10"
+          ]
         }
       ]
     },
@@ -10386,14 +10917,16 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "河流和湖泊对一个国家重要吗？",
-            "answer": "河流和湖泊对国家非常重要。因为它们能提供水并支持农业和生态环境。例如，有些河流还用于交通、发电和休闲活动。所以它们能同时改善生活并支持经济。"
+            "answer": "我觉得非常重要，人离不开水。而且河和湖是放松的好地方（a great place to relax）。比如说我们周末经常去河边走走（walk along the river）。"
           },
-          "keywords": [
-            "rivers and lakes",
-            "protect the natural environment",
-            "local tourism"
+          "structure": "PREC",
+          "chunkPhrases": [
+            "a great place to relax",
+            "walk along the river"
           ],
-          "structure": "PREC"
+          "chunks": [
+            "C17"
+          ]
         },
         {
           "question": "What are the popular water sports in your country?",
@@ -10401,14 +10934,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "在你的国家，哪些水上运动比较受欢迎？",
-            "answer": "游泳、划船、皮划艇和龙舟比较常见。不同地区的选择取决于气候、水质和当地设施。"
+            "answer": "我觉得最受欢迎的是游泳和划船，夏天人特别多。比如说公园的湖，是很受欢迎的玩水地方（a popular place for…）。"
           },
-          "keywords": [
-            "popular water sports",
-            "water quality",
-            "local facilities"
+          "structure": "直接回答",
+          "chunkPhrases": [
+            "a popular place for…"
           ],
-          "structure": "直接回答"
+          "chunks": [
+            "C17"
+          ]
         },
         {
           "question": "Are rivers and lakes good for transport? Why?",
@@ -10416,14 +10950,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "河流和湖泊适合交通运输吗？为什么？",
-            "answer": "如果水道足够深并且稳定，河流和湖泊很适合运输，因为船可以运送大量货物。比如，建筑材料可以通过水路一次运到较远的地方，而且费用可能低于公路运输。不过水运速度较慢，也容易受到天气影响。"
+            "answer": "我觉得适合，尤其运货很划算。因为船一次装得多，比卡车便宜。比如说河运比较稳，不会堵在路上（get stuck in traffic）。"
           },
-          "keywords": [
-            "water transport",
-            "carry large goods",
-            "affected by weather"
+          "structure": "PREC",
+          "chunkPhrases": [
+            "get stuck in traffic"
           ],
-          "structure": "PREC"
+          "chunks": [
+            "C15"
+          ]
         },
         {
           "question": "How do rivers and lakes affect local tourism?",
@@ -10431,14 +10966,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "河流和湖泊怎样影响当地旅游业？",
-            "answer": "它们能提供美丽景色、游船和水上活动，从而吸引游客。游客增加后，当地餐馆、酒店和工作机会也会增加。"
+            "answer": "我觉得影响很大，很多人专门去湖边度假。有河有湖的地方，可看可玩的东西很多（there's a lot to see and do）。"
           },
-          "keywords": [
-            "job opportunities",
-            "rivers and lakes",
-            "local tourism"
+          "structure": "直接回答",
+          "chunkPhrases": [
+            "there's a lot to see and do"
           ],
-          "structure": "直接回答"
+          "chunks": [
+            "C13"
+          ]
         },
         {
           "question": "Do you think rivers and lakes attract tourists?",
@@ -10446,14 +10982,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "你认为河流和湖泊会吸引游客吗？",
-            "answer": "河流和湖泊能够吸引游客，因为自然景色和水上活动很有吸引力。比如，人们可以在那里散步、拍照、划船或参加水上运动。不过当地必须保持水域干净安全，游客才愿意前往。"
+            "answer": "我觉得会，很多人就是冲着河和湖去的。因为风景好看，是个放松的好地方（a great place to relax）。比如说我家乡的湖，夏天全是来玩的人。"
           },
-          "keywords": [
-            "keep people safe",
-            "rivers and lakes",
-            "local tourism"
+          "structure": "PREC",
+          "chunkPhrases": [
+            "a great place to relax"
           ],
-          "structure": "PREC"
+          "chunks": [
+            "C17"
+          ]
         },
         {
           "question": "How can rivers and lakes benefit local people?",
@@ -10461,14 +10998,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "河流和湖泊怎样使当地人受益？",
-            "answer": "它们能提供水、农业灌溉、食物和部分交通服务，也创造旅游工作。当地人还可以在那里运动和放松。"
+            "answer": "好处很多，当地人能钓鱼、锻炼，还能靠游客挣钱。比如说很多人喜欢去河边散步锻炼（people go there to exercise）。"
           },
-          "keywords": [
-            "help people relax",
-            "stay active",
-            "rivers and lakes"
+          "structure": "直接回答",
+          "chunkPhrases": [
+            "people go there to exercise"
           ],
-          "structure": "直接回答"
+          "chunks": [
+            "C17"
+          ]
         }
       ]
     },
@@ -10486,14 +11024,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "你们国家的人经常去哪里度假？",
-            "answer": "很多人会去海边、历史城市、山区或大型主题公园。选择通常取决于距离、预算和家庭成员。"
+            "answer": "我们国家的人度假常去海边或者山上的一些风景区，离城市不远。大家就是想离开城市透透气（get away from… for a day）。"
           },
-          "keywords": [
-            "fit the budget",
-            "beaches and mountains",
-            "plan a holiday"
+          "structure": "直接回答",
+          "chunkPhrases": [
+            "get away from… for a day"
           ],
-          "structure": "直接回答"
+          "chunks": [
+            "C13"
+          ]
         },
         {
           "question": "Where do young people in your country often go for holidays?",
@@ -10501,14 +11040,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "你们国家的年轻人经常去哪里度假？",
-            "answer": "年轻人可能更喜欢有美食、娱乐和户外活动的城市或自然景点。不过兴趣和预算比年龄更能决定选择。"
+            "answer": "年轻人喜欢去热闹的大城市，吃喝玩乐的地方多。他们还会去网上很火的地方拍照打卡（lively and busy）。"
           },
-          "keywords": [
-            "fit the budget",
-            "outdoor activities",
-            "plan a holiday"
+          "structure": "直接回答",
+          "chunkPhrases": [
+            "lively and busy"
           ],
-          "structure": "直接回答"
+          "chunks": [
+            "C14"
+          ]
         },
         {
           "question": "What is the ideal length for a holiday?",
@@ -10516,14 +11056,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "理想的假期长度是多少？",
-            "answer": "三天到一周通常是比较理想的假期长度，因为这段时间足够放松，又不会花费太多。比如，附近城市可能适合三天旅行，出国旅行则可能需要一周。具体长度仍然取决于距离、预算和工作安排。"
+            "answer": "我觉得七天左右最合适，不长也不短。因为太短的话还没放松就结束了，太长又容易花太多钱。比如说请一周假连上周末，玩几天再留两天休息，这样钱也花得值（worth the money）。"
           },
-          "keywords": [
-            "three days to a week",
-            "help people relax",
-            "travel costs"
+          "structure": "PREC",
+          "chunkPhrases": [
+            "worth the money"
           ],
-          "structure": "PREC"
+          "chunks": [
+            "C22"
+          ]
         },
         {
           "question": "How do people usually plan holidays?",
@@ -10531,14 +11072,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "人们通常怎样计划假期？",
-            "answer": "他们会先确定预算和时间，再比较交通、酒店和活动。提前查看天气和当地规定也能减少问题。"
+            "answer": "大家一般用手机订机票和酒店，再按别人的评价挑地方。出发前把路线和住宿都安排好（arrange everything in advance）。"
           },
-          "keywords": [
-            "fit the budget",
-            "make a plan",
-            "plan a holiday"
+          "structure": "直接回答",
+          "chunkPhrases": [
+            "arrange everything in advance"
           ],
-          "structure": "直接回答"
+          "chunks": [
+            "C28"
+          ]
         },
         {
           "question": "Is it important to plan a holiday ahead?",
@@ -10546,14 +11088,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "提前计划假期重要吗？",
-            "answer": "提前计划假期很重要，因为早些预订通常更省钱，也能避免没有房间或车票。比如，人们可以先确定预算，再预订交通和酒店。不过计划中应该保留一些自由时间。"
+            "answer": "我觉得提前计划挺重要的。因为不提前订的话，车票和酒店都会贵很多，热门地方还可能订不到。提前安排好，假期会顺利得多（plan it ahead）。"
           },
-          "keywords": [
-            "plan ahead",
-            "make a plan",
-            "plan a holiday"
+          "structure": "PREC",
+          "chunkPhrases": [
+            "plan it ahead"
           ],
-          "structure": "PREC"
+          "chunks": [
+            "C28"
+          ]
         },
         {
           "question": "How do people decide when to travel?",
@@ -10561,14 +11104,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "人们怎样决定什么时候旅行？",
-            "answer": "他们会考虑工作假期、天气、费用和景点是否拥挤。有孩子的家庭还需要根据学校假期安排。"
+            "answer": "大家一般选在长假和周末出门，因为那时候全家人都有空。也有人专门挑淡季去，路上人少车也少（there are fewer cars on the road）。"
           },
-          "keywords": [
-            "work schedules",
-            "check the weather",
-            "avoid crowds"
+          "structure": "直接回答",
+          "chunkPhrases": [
+            "there are fewer cars on the road"
           ],
-          "structure": "直接回答"
+          "chunks": [
+            "C15"
+          ]
         }
       ]
     },
@@ -10586,14 +11130,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "中国人喜欢拜访别人家吗？",
-            "answer": "喜欢，尤其是在节日、周末或朋友搬新家时。到家里见面比较私人，也适合长时间聊天。"
+            "answer": "我觉得大部分中国人是喜欢的。大家有空的时候喜欢去亲戚朋友家坐坐，一起聊聊天（catch up with…）。"
           },
-          "keywords": [
-            "talk with friends",
-            "visit other people's homes",
-            "bring a small gift"
+          "structure": "直接回答",
+          "chunkPhrases": [
+            "catch up with…"
           ],
-          "structure": "直接回答"
+          "chunks": [
+            "C29"
+          ]
         },
         {
           "question": "What do Chinese people do when they visit others?",
@@ -10601,14 +11146,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "中国人拜访别人时会做什么？",
-            "answer": "他们通常会聊天、喝茶或一起吃饭。有些人也会看看新家，或者帮助主人准备食物。"
+            "answer": "一般就是聊聊天，喝点茶，有时候一起吃顿饭。大家主要就是聚在一起，聊聊近况，好好待一待（spend time together）。"
           },
-          "keywords": [
-            "talk with the host",
-            "have a meal together",
-            "help prepare food"
+          "structure": "直接回答",
+          "chunkPhrases": [
+            "spend time together"
           ],
-          "structure": "直接回答"
+          "chunks": [
+            "C29"
+          ]
         },
         {
           "question": "What kind of place do people in your country like to live in?",
@@ -10616,14 +11162,16 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "你们国家的人喜欢住在什么样的地方？",
-            "answer": "大多数人希望住所安全、舒适、交通方便并且靠近日常服务。有孩子的家庭可能还需要更多空间和好的学校。"
+            "answer": "我觉得很多人喜欢住在城市里，因为交通方便，工作机会也多（many more job opportunities）。年纪大一点的人会喜欢安静一些的地方，生活节奏更慢（a slower pace of life）。"
           },
-          "keywords": [
-            "a safe and comfortable home",
-            "convenient transport",
-            "daily services"
+          "structure": "直接回答",
+          "chunkPhrases": [
+            "many more job opportunities",
+            "a slower pace of life"
           ],
-          "structure": "直接回答"
+          "chunks": [
+            "C14"
+          ]
         },
         {
           "question": "What's the difference between homes in cities and those in the countryside?",
@@ -10631,14 +11179,16 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "城市住宅和乡村住宅有什么区别？",
-            "answer": "城市住宅通常空间较小，但靠近工作和公共服务；乡村住宅可能更大、更安静，不过交通和设施较少。"
+            "answer": "城市里的房子一般更小，但交通方便，周围也热闹（lively and busy）。乡村的房子大一些，环境安静，生活节奏也更慢（a slower pace of life）。我更喜欢乡村那种安静的感觉。"
           },
-          "keywords": [
-            "city homes",
-            "countryside homes",
-            "public services"
+          "structure": "直接回答 + 对比",
+          "chunkPhrases": [
+            "lively and busy",
+            "a slower pace of life"
           ],
-          "structure": "直接回答 + 对比"
+          "chunks": [
+            "C14"
+          ]
         },
         {
           "question": "What kind of gifts do people bring when they visit others?",
@@ -10646,14 +11196,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "人们拜访别人时会带什么礼物？",
-            "answer": "水果、食物、饮料或小型生活用品都很常见。礼物不需要昂贵，实用并表达心意更重要。"
+            "answer": "一般会带水果、茶或者牛奶这些实用的东西。礼物不一定要贵，心意最重要，挑对方真正用得上的就好（pick something they'll actually use）。"
           },
-          "keywords": [
-            "bring a small gift",
-            "practical gifts",
-            "show that you care"
+          "structure": "直接回答",
+          "chunkPhrases": [
+            "pick something they'll actually use"
           ],
-          "structure": "直接回答"
+          "chunks": [
+            "C33"
+          ]
         },
         {
           "question": "How often do you visit your relatives of friends?",
@@ -10661,14 +11212,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "你多久拜访一次亲戚或朋友？",
-            "answer": "通常在周末或节假日拜访，但没有固定频率。现在大家都比较忙，所以也会先通过信息约时间。"
+            "answer": "我大概每个月拜访一次亲戚或者朋友。大家住得不太远，想见的时候就能约一下，一起聚一聚（get together with…）。"
           },
-          "keywords": [
-            "visit relatives and friends",
-            "weekends and holidays",
-            "arrange a time first"
+          "structure": "直接回答",
+          "chunkPhrases": [
+            "get together with…"
           ],
-          "structure": "直接回答"
+          "chunks": [
+            "C29"
+          ]
         }
       ]
     },
@@ -10686,14 +11238,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "为什么大多数孩子觉得教育很无聊？",
-            "answer": "一些孩子觉得教育无聊，是因为课程可能太难、重复，或者和真实生活没有联系。比如，如果课堂只是让学生背课本，他们很容易失去兴趣。加入图片、活动和实际例子能让学习更有意义。"
+            "answer": "我觉得孩子觉得教育无聊，是因为每天上课都一样，很快就没什么可做的了（you run out of things to do）。他们得一直坐着听，不能随便动，时间一长就烦了。比如说一天好几节课，讲的都是课本上的内容，孩子很快就没耐心了。"
           },
-          "keywords": [
-            "feel bored",
-            "real-life examples",
-            "make learning meaningful"
+          "structure": "PREC",
+          "chunkPhrases": [
+            "you run out of things to do"
           ],
-          "structure": "PREC"
+          "chunks": [
+            "C14"
+          ]
         },
         {
           "question": "Why aren't young people willing to listen to the experiences of older people?",
@@ -10701,14 +11254,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "为什么年轻人不愿意听老年人的经历？",
-            "answer": "一些年轻人不愿听老年人的经验，是因为他们觉得过去的方法不适合现在。比如，以前的求职经验可能无法完全解决今天的网络求职问题。不过老年人仍能提供生活经验，双方需要找到共同话题。"
+            "answer": "我觉得年轻人不愿意听，是因为老人的经历离他们的生活太远。老人讲事情又慢又长，年轻人听着听着就烦了（a slower pace of life）。而且年轻人喜欢新鲜快一点的东西，和老人的节奏不一样，所以聊不到一起。"
           },
-          "keywords": [
-            "feel bored",
-            "real-life examples",
-            "find common interests"
+          "structure": "PREC + 对比",
+          "chunkPhrases": [
+            "a slower pace of life"
           ],
-          "structure": "PREC + 对比"
+          "chunks": [
+            "C14"
+          ]
         },
         {
           "question": "What can people do when they feel bored?",
@@ -10716,14 +11270,17 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "人们感到无聊时可以做什么？",
-            "answer": "他们可以散步、运动、和朋友聊天或学习一个小技能。手机能短暂娱乐，但一直刷视频可能浪费时间。"
+            "answer": "我觉得无聊的时候可以出去走走，透透气（get some fresh air）。或者在家看个轻松的视频，不用动太多脑子（you don't have to think too hard）。"
           },
-          "keywords": [
-            "go for a walk",
-            "learn a small skill",
-            "waste time online"
+          "structure": "直接回答",
+          "chunkPhrases": [
+            "get some fresh air",
+            "you don't have to think too hard"
           ],
-          "structure": "直接回答"
+          "chunks": [
+            "C32",
+            "C20"
+          ]
         },
         {
           "question": "Why are some teachers' class boring? Are there any solutions?",
@@ -10731,14 +11288,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "为什么有些老师的课很无聊？有什么解决办法？",
-            "answer": "有些老师的课很无聊，是因为他们只讲课本，缺少互动和真实例子。比如，整节课只有老师说话，学生很难保持注意力。加入讨论、图片和简单活动能让学生更主动参与。"
+            "answer": "我觉得课无聊，是因为老师一直讲，学生只能听，没什么互动（there's not much going on）。而且讲的都是课本上的内容，学生早就知道了，自然觉得没意思。比如说老师可以多提问，让学生参与进来，课堂就会热闹很多。"
           },
-          "keywords": [
-            "classroom interaction",
-            "real-life examples",
-            "take part actively"
+          "structure": "PREC",
+          "chunkPhrases": [
+            "there's not much going on"
           ],
-          "structure": "PREC"
+          "chunks": [
+            "C14"
+          ]
         },
         {
           "question": "Why do some young people feel bored when talking with old people?",
@@ -10746,14 +11304,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "为什么有些年轻人和老年人聊天时觉得无聊？",
-            "answer": "一些年轻人和老年人聊天时感到无聊，是因为他们的兴趣和生活经历不同。比如，年轻人可能想谈科技，老年人可能更喜欢家庭或过去的故事。如果双方认真倾听并寻找共同话题，交流会更自然。"
+            "answer": "我觉得是因为老人讲的事情离年轻人太远，听着听着就走神了。比如说老人爱讲以前的事，说以前去哪儿都是走着去（we used to walk everywhere）。年轻人喜欢聊新鲜、好玩的事，和老人讲的内容对不上，自然觉得无聊。"
           },
-          "keywords": [
-            "different life experiences",
-            "listen carefully",
-            "find common interests"
+          "structure": "PREC + 对比",
+          "chunkPhrases": [
+            "we used to walk everywhere"
           ],
-          "structure": "PREC + 对比"
+          "chunks": [
+            "C32"
+          ]
         },
         {
           "question": "Do most people think news about celebrities is boring?",
@@ -10761,14 +11320,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "大多数人觉得名人新闻无聊吗？",
-            "answer": "不一定。有些人觉得内容重复或侵犯隐私，另一些人把它当作轻松娱乐。兴趣因人而异。"
+            "answer": "我觉得不一定，名人新闻很能吸引人，年轻人都爱看（it catches your attention）。但老人一般不太关心，觉得这些新闻没什么意思。"
           },
-          "keywords": [
-            "celebrity news",
-            "protect privacy",
-            "light entertainment"
+          "structure": "直接回答 + 对比",
+          "chunkPhrases": [
+            "it catches your attention"
           ],
-          "structure": "直接回答 + 对比"
+          "chunks": [
+            "C26"
+          ]
         }
       ]
     },
@@ -10786,14 +11346,16 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "城市生活和乡村生活，哪一个更适合年轻人，哪一个更适合老年人？",
-            "answer": "城市可能更适合部分年轻人，而乡村可能更适合部分老年人，因为两地提供的生活条件不同。比如，刚毕业的人可能需要城市的工作机会，退休的人可能喜欢乡村安静的环境。不过健康、家庭和个人需要比年龄更重要。"
+            "answer": "我觉得年轻人更适合城市生活，老年人更适合乡村生活。因为城市里机会多、节奏快，年轻人能闯一闯（many more job opportunities）。老人图清静，乡村生活节奏慢，住着更舒服（a slower pace of life）。"
           },
-          "keywords": [
-            "job opportunities",
-            "a quiet environment",
-            "personal needs"
+          "structure": "PREC + 对比",
+          "chunkPhrases": [
+            "many more job opportunities",
+            "a slower pace of life"
           ],
-          "structure": "PREC + 对比"
+          "chunks": [
+            "C14"
+          ]
         },
         {
           "question": "How do people choose a city to travel to?",
@@ -10801,14 +11363,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "人们怎样选择要去旅行的城市？",
-            "answer": "他们会考虑景点、美食、交通、安全和费用。朋友推荐和网上评价也能提供信息，但最好查看多个来源。"
+            "answer": "我觉得大家一般先看网上的评价和照片，评分高的城市会先被记住。最后会选可看可玩的东西多的城市，热闹好玩才值得去（there's a lot to see and do）。"
           },
-          "keywords": [
-            "keep people safe",
-            "check the information",
-            "urban and rural life"
+          "structure": "直接回答",
+          "chunkPhrases": [
+            "there's a lot to see and do"
           ],
-          "structure": "直接回答"
+          "chunks": [
+            "C13"
+          ]
         },
         {
           "question": "Do you think a tourist city is also a good place to live? Why?",
@@ -10816,14 +11379,16 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "你认为旅游城市也是适合居住的地方吗？为什么？",
-            "answer": "旅游城市不一定适合长期生活，因为良好服务和工作机会常常伴随着较高成本和拥挤。比如，热门景点附近的房租和交通压力可能很大。所以是否适合居住，应该根据个人的日常需要判断。"
+            "answer": "我觉得旅游城市也挺适合住的。因为那里公共交通很方便，出去玩和上班都方便（public transport is convenient）。就是周末人会多，有点挤，其他时候住着很舒服（it gets very crowded at weekends）。"
           },
-          "keywords": [
-            "job opportunities",
-            "urban and rural life",
-            "travel costs"
+          "structure": "PREC",
+          "chunkPhrases": [
+            "public transport is convenient",
+            "it gets very crowded at weekends"
           ],
-          "structure": "PREC"
+          "chunks": [
+            "C14"
+          ]
         },
         {
           "question": "Do most people prefer to travel in a modern city or a historical city?",
@@ -10831,14 +11396,17 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "大多数人更喜欢去现代城市还是历史城市旅行？",
-            "answer": "人们喜欢现代城市还是历史城市取决于旅行目的，因为两类城市提供不同体验。比如，想购物和娱乐的人可能选择现代城市，想了解当地文化的人可能选择历史城市。很多人其实两种都喜欢。"
+            "answer": "我觉得大多数人更喜欢去历史城市旅行。因为那里有老建筑、老故事，走一走就像回到过去（just enjoy the atmosphere）。现代城市虽然交通方便，但高楼都差不多，看久了没意思（public transport is convenient）。"
           },
-          "keywords": [
-            "understand local culture",
-            "keep traditions alive",
-            "more convenient"
+          "structure": "PREC + 对比",
+          "chunkPhrases": [
+            "just enjoy the atmosphere",
+            "public transport is convenient"
           ],
-          "structure": "PREC + 对比"
+          "chunks": [
+            "C13",
+            "C14"
+          ]
         }
       ]
     },
@@ -10856,14 +11424,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "你的国家有很多高层建筑吗？",
-            "answer": "大城市里有很多，因为人口多、土地有限。小城市和乡村通常较少，也更常见低层住宅。"
+            "answer": "我觉得我们国家的高楼挺多的，大城市里到处都是。它们让城市看起来很现代，也更有活力（lively and busy）。"
           },
-          "keywords": [
-            "urban and rural areas",
-            "tall buildings",
-            "save land"
+          "structure": "直接回答",
+          "chunkPhrases": [
+            "lively and busy"
           ],
-          "structure": "直接回答"
+          "chunks": [
+            "C14"
+          ]
         },
         {
           "question": "What are the differences between those tall buildings in your country?",
@@ -10871,14 +11440,17 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "你们国家的高层建筑有什么区别？",
-            "answer": "它们在高度、外观和用途上不同，有些是住宅，有些是办公室或酒店。建筑质量和周围交通也会影响使用体验。"
+            "answer": "主要看城市还是乡村。城市里高楼又高又密，从高处看景色特别好（the view from the top is amazing）。乡村高楼很少，都是矮房子，生活节奏更慢（a slower pace of life）。"
           },
-          "keywords": [
-            "different heights and designs",
-            "building use",
-            "building quality"
+          "structure": "直接回答 + 对比",
+          "chunkPhrases": [
+            "the view from the top is amazing",
+            "a slower pace of life"
           ],
-          "structure": "直接回答 + 对比"
+          "chunks": [
+            "C13",
+            "C14"
+          ]
         },
         {
           "question": "Why are different places laid out and designed differently?",
@@ -10886,14 +11458,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "为什么不同地方的布局和设计不同？",
-            "answer": "不同地方的布局和设计会不同。因为气候、土地、人口、文化和生活需求不一样。例如，人口密集的城市通常更需要高层建筑。好的设计应该先满足安全和实际使用，再考虑外观。"
+            "answer": "我觉得是因为每个地方的条件和需求不一样。大城市人多地方挤，设计就得紧凑实用。旅游城市就不一样，会留很多地方给游客逛，可看可玩的东西多（there's a lot to see and do）。"
           },
-          "keywords": [
-            "keep people safe",
-            "tall buildings",
-            "save land"
+          "structure": "PREC",
+          "chunkPhrases": [
+            "there's a lot to see and do"
           ],
-          "structure": "PREC"
+          "chunks": [
+            "C13"
+          ]
         },
         {
           "question": "What are the advantages of living in tall buildings?",
@@ -10901,14 +11474,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "住在高层建筑里有什么优点？",
-            "answer": "高层建筑能节省土地，部分住宅还有良好景色和方便设施。不过电梯等待和人员拥挤也可能带来问题。"
+            "answer": "我觉得住在高层最大的好处就是风景特别好（the view from the top is amazing）。而且高层比较安静，离地面远，晚上睡得更踏实。"
           },
-          "keywords": [
-            "tall buildings",
-            "more convenient",
-            "save land"
+          "structure": "直接回答",
+          "chunkPhrases": [
+            "the view from the top is amazing"
           ],
-          "structure": "直接回答"
+          "chunks": [
+            "C13"
+          ]
         },
         {
           "question": "Why do some people like to remodel and decorate their homes themselves?",
@@ -10916,14 +11490,17 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "为什么有些人喜欢自己改造和装饰房屋？",
-            "answer": "一些人喜欢自己改造和装饰房屋，因为这样能满足个人需要，也可能节省人工费用。比如，他们可以自己粉刷房间或组装简单家具。自己完成会带来成就感，但复杂工作仍然需要专业人员。"
+            "answer": "我觉得是因为自己动手省钱，还能按自己的喜好来。不会做的地方就自己学，看教程，慢慢就会了（learn it by myself）。做完之后特别有成就感，看着成果心里很满足（feel a real sense of achievement）。"
           },
-          "keywords": [
-            "meet personal needs",
-            "save labour costs",
-            "a sense of achievement"
+          "structure": "PREC",
+          "chunkPhrases": [
+            "learn it by myself",
+            "feel a real sense of achievement"
           ],
-          "structure": "PREC"
+          "chunks": [
+            "C12",
+            "C12"
+          ]
         },
         {
           "question": "What kind of interior design style do most people like?",
@@ -10931,14 +11508,15 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "大多数人喜欢什么样的室内设计风格？",
-            "answer": "很多人喜欢简单、明亮并且实用的设计，因为容易清洁，也适合日常生活。不过风格最终取决于个人兴趣和预算。"
+            "answer": "我觉得大多数人喜欢简单干净、住着舒服的风格。回到家就能放松下来，毕竟忙了一天，家里舒服很重要（relax after a long day）。"
           },
-          "keywords": [
-            "interior design",
-            "simple and practical",
-            "fit the budget"
+          "structure": "直接回答",
+          "chunkPhrases": [
+            "relax after a long day"
           ],
-          "structure": "直接回答"
+          "chunks": [
+            "C20"
+          ]
         }
       ]
     },
@@ -10956,14 +11534,16 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "为什么有些人选择不出国旅行？",
-            "answer": "有些人会选择不出国旅行。主要原因是费用、时间、语言和安全担忧。例如，他们可能需要照顾家人，或者觉得国内旅行更方便。所以在国内休息和旅行也可以是好选择。"
+            "answer": "我觉得主要是因为钱的问题。出国旅行很贵，机票和酒店都要花很多钱，很多人怕花得比计划多（spend more than I planned）。比如我叔叔，他觉得花几万块玩几天不值这个钱（worth the money）。"
           },
-          "keywords": [
-            "keep people safe",
-            "more convenient",
-            "travel abroad"
+          "structure": "PREC",
+          "chunkPhrases": [
+            "spend more than I planned",
+            "worth the money"
           ],
-          "structure": "PREC"
+          "chunks": [
+            "C22"
+          ]
         },
         {
           "question": "Do you think a gap period in life is important?",
@@ -10971,14 +11551,17 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "你认为人生中的间隔期重要吗？",
-            "answer": "人生中的间隔期对部分人有帮助，因为他们可以休息、旅行或学习新技能。比如，学生可以在工作前参加短期课程或志愿活动。不过间隔期需要清楚计划并符合预算，并不是每个人都必须经历。"
+            "answer": "我觉得挺重要的。因为一直忙的话人很累，需要退一步想想（take a step back）。比如我毕业后休息了半年，给自己定了一个明确的目标（set myself a clear goal）。"
           },
-          "keywords": [
-            "take a break",
-            "learn useful skills",
-            "fit the budget"
+          "structure": "PREC",
+          "chunkPhrases": [
+            "take a step back",
+            "set myself a clear goal"
           ],
-          "structure": "PREC"
+          "chunks": [
+            "C08",
+            "C06"
+          ]
         }
       ]
     }

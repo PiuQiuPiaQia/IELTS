@@ -10,8 +10,8 @@ const PART2_MATERIAL_ORDER = [
   "alex",
   "shanghai",
   "gardening-grandma",
-  "movie-night",
   "phone-detox",
+  "movie-night",
   "standalone-topics"
 ];
 const PART2_PRIMARY_MATERIALS = new Set(["alex", "shanghai", "gardening-grandma", "movie-night"]);
@@ -131,7 +131,7 @@ function highlight(text, phrases = []) {
     .filter((phrase) => text.toLowerCase().includes(phrase.toLowerCase()))
     .sort((a, b) => b.length - a.length);
   if (!matches.length) return safeText;
-  const pattern = new RegExp(`(${matches.map(escapeRegExp).join("|")})`, "gi");
+  const pattern = new RegExp(`(${matches.map((phrase) => escapeRegExp(escapeHtml(phrase))).join("|")})`, "gi");
   return safeText.replace(pattern, "<mark>$1</mark>");
 }
 
@@ -141,10 +141,26 @@ function partThreeHighlightPhrases(item) {
   return phrases;
 }
 
-function partThreeAnswerHtml(item) {
+// answers-p3.js 里的重写版答案优先于 data.js 的原答案（键是 题组id||英文题目原文）。
+// 该文件若加载失败或语法出错，window.P3_ANSWERS 就是 undefined，这里自动退回原答案，页面不会白屏。
+function p3Override(groupId, question) {
+  const table = typeof window !== "undefined" && window.P3_ANSWERS;
+  if (!table || !groupId) return null;
+  return table[groupId + "||" + question] || null;
+}
+
+function partThreeAnswerHtml(item, groupId) {
   if (item.answerLanguage === "zh") {
-    const keywords = item.keywords?.length ? `<div class="answer-keywords"><span>英文关键词</span>${item.keywords.map((keyword) => `<code>${escapeHtml(keyword)}</code>`).join("")}</div>` : "";
-    return `<div class="answer chinese-only-answer"><strong>中文答案：</strong><p class="plain-chinese-answer">${escapeHtml(item.translation?.answer || "答案整理中")}</p>${keywords}</div>`;
+    const override = p3Override(groupId, item.question);
+    const answerText = (override && override.a) || item.translation?.answer || "";
+    const phrases = override && override.p?.length ? override.p : (item.chunkPhrases?.length ? item.chunkPhrases : []);
+    const answerHtml = phrases.length
+      ? highlight(answerText, phrases)
+      : escapeHtml(answerText || "答案整理中");
+    const chunks = phrases.length
+      ? `<div class="answer-keywords"><span>核心词块</span>${phrases.map((phrase) => `<code>${escapeHtml(phrase)}</code>`).join("")}</div>`
+      : "";
+    return `<div class="answer chinese-only-answer"><strong>中文答案：</strong><p class="plain-chinese-answer">${answerHtml}</p>${chunks}</div>`;
   }
   if (item.answer) {
     return `<div class="answer">${highlight(item.answer, partThreeHighlightPhrases(item))}</div>${item.translation?.answer ? `<p class="translation"><strong>翻译：</strong>${escapeHtml(item.translation.answer)}</p>` : ""}`;
@@ -495,9 +511,10 @@ function partTwoTipsHtml(tips, universalMaterials = []) {
           <p class="question">${escapeHtml(item.question)}</p>
           ${item.draftCues?.length ? `<p class="simple-master-cues"><strong>核心草稿：</strong>${item.draftCues.map(escapeHtml).join(" · ")}</p>` : ""}
           ${item.body?.text ? `<p class="topic-guide-body"><strong>前面主体：</strong>${highlight(item.body.text, item.body.highlights)}</p>` : ""}
+          ${item.memoryChain?.story ? `<p class="memory-chain story-memory-chain"><strong>故事中文链</strong>${escapeHtml(item.memoryChain.story)}</p>` : ""}
           <p class="reason-label"><strong>${escapeHtml(item.pointsLabel || "最后一问 3 点")}：</strong></p>
           <ol class="numbered-list topic-reason-list">
-            ${item.reasons.map((reason) => `<li>${highlight(reason.text, reason.highlights)}</li>`).join("")}
+            ${item.reasons.map((reason, reasonIndex) => `<li>${highlight(reason.text, reason.highlights)}${item.memoryChain?.reasons?.[reasonIndex] ? `<span class="memory-chain reason-memory-chain"><strong>理由中文链</strong>${escapeHtml(item.memoryChain.reasons[reasonIndex])}</span>` : ""}</li>`).join("")}
           </ol>
         </section>
       </article>`).join("")}
@@ -573,9 +590,8 @@ function partTwoTopicHtml(topic, { showFramework = true } = {}) {
     ${topic.cuePoints?.length ? `<ul class="numbered-list">${topic.cuePoints.map((point) => `<li>${escapeHtml(point)}</li>`).join("")}</ul>` : ""}
     ${topic.draftCues?.length ? `<div class="draft-cues"><strong>一分钟草稿</strong>${topic.draftCues.map((cue) => `<span>${escapeHtml(cue)}</span>`).join("")}</div>` : ""}
     ${topic.fit ? `<span class="badge">${escapeHtml(topic.fit)}</span>` : ""}
-    ${(topic.focus || topic.modules || topic.omit) ? `<div class="meta-grid">
+    ${(topic.focus || topic.omit) ? `<div class="meta-grid">
       ${topic.focus ? `<div class="meta-box"><span>扣题重点</span><strong>${escapeHtml(topic.focus)}</strong></div>` : ""}
-      ${topic.modules ? `<div class="meta-box"><span>模块顺序</span><strong>${escapeHtml(topic.modules)}</strong></div>` : ""}
       ${topic.omit ? `<div class="meta-box"><span>可以省略</span><strong>${escapeHtml(topic.omit)}</strong></div>` : ""}
     </div>` : ""}
     ${showFramework && topic.framework?.length ? `<h3>答题框架</h3><ol class="numbered-list">${topic.framework.map((line) => `<li>${escapeHtml(line)}</li>`).join("")}</ol>` : ""}
@@ -599,7 +615,7 @@ function renderPartThree() {
           ${item.translation?.question ? `<p class="translation"><strong>题目：</strong>${escapeHtml(item.translation.question)}</p>` : ""}
           ${item.answerLanguage === "zh" ? (item.structure ? `<div class="chip-row"><span class="chip structure">结构 · ${escapeHtml(item.structure)}</span></div>` : "") : ((item.structure || item.materials?.length) ? `<div class="chip-row">${item.structure ? `<span class="chip structure">结构 · ${escapeHtml(item.structure)}</span>` : ""}${item.materials?.map((code) => `<span class="chip">${escapeHtml(toolkitMaterialLabel(code))}</span>`).join("") || ""}</div>` : "")}
           ${item.comparison ? `<p class="note"><strong>高频对比：</strong>${escapeHtml(item.comparison)}</p>` : ""}
-          ${partThreeAnswerHtml(item)}
+          ${partThreeAnswerHtml(item, selected.id)}
         </article>`).join("")}</div>
       </section>
     </div>`;
@@ -612,7 +628,7 @@ function chunkLibrary() {
   return state.data.chunks || { structures: [], functionChunks: [], families: [] };
 }
 
-// 考前 2-3 小时速记版：每条链只渲染 3 个词块，连接词块只渲染 12 个，Set 里一共 69 个（12 连接 + 19 链 × 3）。
+// 考前 2-3 小时速记版：每条链只渲染 3 个词块（C05 例外，4 个），连接词块只渲染 12 个，Set 里一共 73 个（12 连接 + 19 链 × 3 + C05 的 4 个）。
 // 挑选标准：短、不绑死在某一个具体故事上、中文一看就懂。data.js 里 7 个一条的完整链全部保留。
 // 想看回完整版，把下面这行改成 const CHUNK_KEEP = null; 即可，数据一行都不用动。
 const CHUNK_KEEP = new Set([
@@ -629,6 +645,8 @@ const CHUNK_KEEP = new Set([
   "be responsible for one part of…", "each do what we're good at", "it's much faster than working alone",
   // C04 职业与压力
   "a stable income", "a real sense of achievement", "make a difference to other people",
+  // C05 经营生意（补 P3 最大的缺口：创业、公司成败、顾客、政府拨款，共 14 道题。唯一一条留 4 个的链）
+  "run my own business", "listen to what customers say", "keep the costs down", "the government should support…",
   // C06 定目标与执行
   "set myself a clear goal", "break it down into small steps", "see real progress",
   // C08 改变想法
@@ -677,12 +695,13 @@ function chunkStructureHtml(structure) {
     </article>`;
 }
 
-// 每条链的「串句」：把这条链的 3 个词块串成一句能直接说出口的话。
-// 背的时候背这一句，不要背 3 个碎片——19 句 = 57 个内容词块，而且每句本身就是现成的 P1 答案。
+// 每条链的「串句」：把这条链的词块串成一句能直接说出口的话。
+// 背的时候背这一句，不要背 3 个碎片——20 句 = 61 个内容词块，而且每句本身就是现成的 P1 答案。
 const CHAIN_SENTENCES = {
   C01: "Something went wrong with my laptop, so I turned to a friend for help, and it was just a small problem.",
   C03: "We each do what we're good at, and I'm responsible for one part of the project, so it's much faster than working alone.",
   C04: "It gives you a stable income and a real sense of achievement, and you can make a difference to other people.",
+  C05: "If you run your own business, you have to listen to what customers say and keep the costs down — and I think the government should support small companies too.",
   C06: "I set myself a clear goal, break it down into small steps, and then I can see real progress.",
   C08: "I used to think money mattered most, but now I think health does — you have to keep an open mind.",
   C10: "I'm a morning person — I work best before lunch, so I stick to a routine.",
@@ -701,17 +720,17 @@ const CHAIN_SENTENCES = {
   C25: "I usually see the news on my phone. It saves me a lot of time, but I don't believe everything I read."
 };
 
-// 三轮背诵顺序。第一轮是覆盖题目最多的 8 条，第二轮是话题绑得死、抽到才用得上的 11 条。
+// 三轮背诵顺序。第一轮是覆盖题目最多的 8 条，第二轮是话题绑得死、抽到才用得上的 12 条。
 const REVIEW_ROUNDS = [
   {
     title: "第一轮 · 60 分钟",
-    lead: "先花 15 分钟把第一部分的 PREC 骨架和第二部分的 12 个连接词块念熟（当一个四句模板背，不要当 12 个词背），再按下面的顺序背 8 条链，每条 5 分钟。背完 Part 3 一半以上的题能开口。",
+    lead: "先花 15 分钟把第一部分的 PREC 骨架和第二部分的 12 个连接词块念熟（当一个四句模板背，不要当 12 个词背），再回到上面第三节，按 1 到 8 的顺序背，每条 5 分钟。背完 Part 3 一半以上的题能开口。",
     chains: ["定目标与执行", "职业与压力", "改变想法", "城市好与无聊", "值得去的地方", "在家放松", "团队协作", "系统出故障"]
   },
   {
-    title: "第二轮 · 70 分钟",
-    lead: "这 11 条频率低一些，但话题绑得死——抽到守规矩、广告、送礼这类题，没有它就是空的，一条都别跳。每条 6 分钟。",
-    chains: ["作息与效率", "堵车通勤", "吃饭与做饭", "走路与户外", "送礼与人情", "养宠物", "保护环境", "法律与规定", "广告与代言", "联系与回应", "新闻与 AI"]
+    title: "第二轮 · 75 分钟",
+    lead: "接着背第三节的 9 到 20。这 12 条频率低一些，但话题绑得死——抽到守规矩、广告、送礼这类题，没有它就是空的，一条都别跳。每条 6 分钟。第 9 条「经营生意」是实测下来缺口最大的一条，商业和政府拨款类的题全指望它，别放到最后背。",
+    chains: ["经营生意", "作息与效率", "堵车通勤", "吃饭与做饭", "走路与户外", "送礼与人情", "养宠物", "保护环境", "法律与规定", "广告与代言", "联系与回应", "新闻与 AI"]
   },
   {
     title: "第三轮 · 50 分钟",
@@ -720,29 +739,28 @@ const REVIEW_ROUNDS = [
   }
 ];
 
-function chunkChainHtml(chain) {
+function chunkChainHtml(chain, index) {
   if (!chain) return "";
   const sentence = CHAIN_SENTENCES[chain.code];
   return `
     <article class="card chunk-card">
-      <h3 class="chunk-head">${escapeHtml(chain.title)}</h3>
+      <h3 class="chunk-head"><b>${index + 1}</b>${escapeHtml(chain.title)}</h3>
       ${chunkItemsHtml(chain.chunks)}
       ${sentence ? `<p class="chunk-sentence">${escapeHtml(sentence)}</p>` : ""}
     </article>`;
 }
 
-// 考前精简版：只渲染这 19 条链，每条 3 个词块（由 CHUNK_KEEP 控制），共 57 个内容词块。
+// 第三节的链顺序 = 第四节三轮背诵顺序，两处必须一模一样，改了一处就要改另一处。
+// 分组不再按话题，而是按背诵轮次：第一轮 8 条是覆盖题目最多的，第二轮 12 条是话题绑得死、抽到才用得上的。
+// 每条链渲染 3 个词块（由 CHUNK_KEEP 控制，C05 是唯一留 4 个的），共 61 个内容词块。
 // 选链标准是 Part 1 的 16 个话题组 + Part 3 的 41 道新题组，Part 2 有自己的母版页，不在这里管。
 // C31/C32/C33 是为 Part 1 的食物、步行、礼物三组新写的，原来的 30 条链都是从 Part 2 母版长出来的，接不住这几组。
-// 最后一组 C19/C26/C02/C25 是为补 Part 3 的法律规则、广告商业、人际沟通、媒体新闻四个缺口加回来的。
+// C19/C26/C02/C25 是为补 Part 3 的法律规则、广告商业、人际沟通、媒体新闻四个缺口加回来的。
+// C05 是 2026-09-01 逐题实测 213 道 P3 题后加的：创业、公司成败、顾客、政府拨款一共 14 道题原来一条链都挂不上。
 // data.js 里 33 条链全部保留，把某条链的编号加回下面即可恢复。
 const CORE_CHAIN_GROUPS = [
-  { title: "工作与协作", codes: ["C01", "C03", "C04"] },
-  { title: "目标 · 作息 · 改变", codes: ["C06", "C08", "C10"] },
-  { title: "城市与出行", codes: ["C13", "C14", "C15"] },
-  { title: "吃饭 · 走路 · 放松", codes: ["C31", "C32", "C20"] },
-  { title: "送礼 · 宠物 · 环保", codes: ["C33", "C30", "C18"] },
-  { title: "规则 · 广告 · 沟通 · 信息", codes: ["C19", "C26", "C02", "C25"] }
+  { title: "第一轮 · 8 条最高频链", codes: ["C06", "C04", "C08", "C14", "C13", "C20", "C03", "C01"] },
+  { title: "第二轮 · 12 条话题链", codes: ["C05", "C10", "C15", "C31", "C32", "C33", "C30", "C18", "C19", "C26", "C02", "C25"] }
 ];
 
 function coreChainGroups(families) {
@@ -756,6 +774,20 @@ function coreChainGroups(families) {
 function renderChunks() {
   const library = chunkLibrary();
   const chainGroups = coreChainGroups(library.families);
+  // 第三节和第四节都用同一套 1–20 连续编号，两处的第 N 条必须是同一条链。
+  let chainNo = 0;
+  const chainGroupsHtml = chainGroups.map((group) => `
+          <div class="chunk-family">
+            <div class="group-title"><div><h3>${escapeHtml(group.title)}</h3></div></div>
+            <div class="card-list">${group.chains.map((chain) => chunkChainHtml(chain, chainNo++)).join("")}</div>
+          </div>`).join("");
+  let roundNo = 0;
+  const roundsHtml = REVIEW_ROUNDS.map((round) => `
+          <article class="card chunk-card">
+            <h3 class="chunk-head">${escapeHtml(round.title)}</h3>
+            <p class="round-lead">${escapeHtml(round.lead)}</p>
+            ${round.chains.length ? `<div class="round-chains">${round.chains.map((name) => `<span><b>${++roundNo}</b>${escapeHtml(name)}</span>`).join("")}</div>` : ""}
+          </article>`).join("");
   main.innerHTML = `
     <section class="panel">
       <header class="panel-header"><span class="eyebrow">CORE CHUNKS</span><h2>核心词块库</h2></header>
@@ -770,21 +802,13 @@ function renderChunks() {
         </section>
         <section class="group-section">
           <div class="group-title"><div><span class="eyebrow">CHAINS</span><h2>三、内容词块链</h2></div></div>
-          ${chainGroups.map((group) => `
-          <div class="chunk-family">
-            <div class="group-title"><div><h3>${escapeHtml(group.title)}</h3></div></div>
-            <div class="card-list">${group.chains.map(chunkChainHtml).join("")}</div>
-          </div>`).join("")}
+          <p class="note">排列顺序就是背诵顺序，从上往下背到底即可，不用跳。每条链下面那句<strong>串句</strong>才是要背的东西，词块列表只是拆开给你看的。</p>
+          ${chainGroupsHtml}
         </section>
         <section class="group-section">
           <div class="group-title"><div><span class="eyebrow">PLAN</span><h2>四、三轮背诵顺序</h2></div></div>
-          <p class="note">不要一条一条背词块，背每条链下面那句串句——19 句就是 57 个内容词块，而且每句本身就是能直接说出口的 Part 1 答案。</p>
-          <div class="card-list">${REVIEW_ROUNDS.map((round) => `
-          <article class="card chunk-card">
-            <h3 class="chunk-head">${escapeHtml(round.title)}</h3>
-            <p class="round-lead">${escapeHtml(round.lead)}</p>
-            ${round.chains.length ? `<div class="round-chains">${round.chains.map((name, index) => `<span><b>${index + 1}</b>${escapeHtml(name)}</span>`).join("")}</div>` : ""}
-          </article>`).join("")}</div>
+          <p class="note">不要一条一条背词块，背每条链下面那句串句——20 句就是 61 个内容词块，而且每句本身就是能直接说出口的 Part 1 答案。下面的编号和第三节一一对应。</p>
+          <div class="card-list">${roundsHtml}</div>
         </section>
       </div>
     </section>`;
