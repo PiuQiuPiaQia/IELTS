@@ -6,17 +6,17 @@
 // app.js 有兜底：本文件若加载失败或语法出错，页面自动退回 data.js 的原答案，不会白屏。
 window.P3_ANSWERS = {
   "new-language-speaker||Are there many people who can speak foreign languages in your country?": {
-    "a": "是的（Yes, definitely.），现在会外语的人比以前多很多[more people can speak a foreign language now than before]。主要是因为（mainly because…）会外语的人有更多的工作机会（many more job opportunities），他们的工资也更高[and they also get a higher salary]。比如（For example,…）很多年轻人晚上用手机学英语，因为他们想换一份工资更高的工作[because they want to change to a job with a higher salary]。所以（So…）我觉得将来会外语的人会更多。而且很多人学外语，因为他们想交外国朋友[because they want to make foreign friends]。",
+    "a": "是的（Yes, definitely.），现在会外语的人比以前多很多[more people can speak a foreign language now than before]。主要是因为（mainly because…）会外语的人有更多的工作机会（many more job opportunities），他们的工资也更高[and they also get a higher salary]。比如（For example,…）很多年轻人晚上用手机学英语[a lot of young people learn English on their phones at night]，因为他们想换一份工资更高的工作[because they want to change to a job with a higher salary]。所以（So…）我觉得将来会外语的人会更多[I think more people will speak a foreign language in the future]。而且很多人学外语[a lot of people learn a foreign language]，因为他们想交外国朋友[because they want to make foreign friends]。",
     "g": "钱",
     "p": ["Yes, definitely.", "mainly because…", "many more job opportunities", "For example,…", "So…"]
   },
   "new-language-speaker||Does speaking other languages help at work?": {
-    "a": "是的（Yes, definitely.），外语对工作很有帮助[speaking a foreign language helps a lot at work]。主要是因为（mainly because…）会外语的人有更多的工作机会（many more job opportunities），他们也更容易拿到稳定的收入（a stable income）。比如（For example,…）很多公司给会外语的员工更高的工资[a lot of companies pay more money to staff who can speak a foreign language]，因为这些员工可以和外国客户谈生意[because these staff can do business with foreign customers]。所以（As a result,…）这些员工在公司里很受欢迎。而且他们的同事也常常找他们帮忙[and their colleagues often ask them for help]。",
+    "a": "是的（Yes, definitely.），外语对工作很有帮助[speaking a foreign language helps a lot at work]。主要是因为（mainly because…）会外语的人有更多的工作机会（many more job opportunities），他们也更容易拿到稳定的收入（a stable income）。比如（For example,…）很多公司给会外语的员工更高的工资[a lot of companies pay more money to staff who can speak a foreign language]，因为这些员工可以和外国客户谈生意[because these staff can do business with foreign customers]。所以（As a result,…）这些员工在公司里很受欢迎[these staff are very popular in the company]。而且他们的同事也常常找他们帮忙[and their workmates often ask them for help]。",
     "g": "钱",
     "p": ["Yes, definitely.", "mainly because…", "many more job opportunities", "a stable income", "For example,…", "As a result,…"]
   },
   "new-language-speaker||Do people learn any languages other than English?": {
-    "a": "是的（Yes, definitely.），很多人也学日语和韩语。主要是因为（mainly because…）他们觉得日剧和韩剧很有意思[they think Japanese and Korean TV shows are very interesting]，所以他们也想听懂里面的话[so they want to understand what the actors say]。比如（For example,…）很多上班的人晚上学韩语，因为他们想放松一下（relax after a long day）。所以（So…）我觉得将来学别的语言的人会更多。而且他们学会以后会很开心[and they feel very happy after they learn it]。",
+    "a": "是的（Yes, definitely.），很多人也学日语和韩语[a lot of people also learn Japanese and Korean]。主要是因为（mainly because…）他们觉得日剧和韩剧很有意思[they think Japanese and Korean TV shows are very interesting]，所以他们也想听懂里面的话[so they want to understand what the actors say]。比如（For example,…）很多上班的人晚上学韩语[a lot of working people learn Korean in the evening]，因为他们想放松一下（relax after a long day）。所以（So…）我觉得将来学别的语言的人会更多[I think more people will learn other languages in the future]。而且他们学会以后会很开心[and they feel very happy after they learn it]。",
     "g": "情绪",
     "p": ["Yes, definitely.", "mainly because…", "For example,…", "relax after a long day", "So…"]
   },
@@ -26,7 +26,7 @@ window.P3_ANSWERS = {
     "p": ["mainly because…", "keep an open mind", "For example,…", "So…", "see real progress"]
   },
   "new-language-speaker||How do people learn new things?": {
-    "a": "这个看情况（It depends, but usually…），不过现在大部分人在网上自己学。主要是因为（mainly because…）网上有很多免费的视频，所以他们不用花钱去上课[there are a lot of free videos online, so they do not need to pay for a class]。比如（For example,…）很多人想学做饭，他们先看免费的视频，然后他们在家做一些简单的菜（cook something simple at home）。所以（As a result,…）大部分人省下了很多钱[most people save a lot of money]。而且他们在家学也更放松[and they also feel more relaxed when they learn at home]。",
+    "a": "这个看情况（It depends, but usually…），不过现在大部分人在网上自己学[but now most people learn by themselves online]。主要是因为（mainly because…）网上有很多免费的视频，所以他们不用花钱去上课[there are a lot of free videos online, so they do not need to pay for a class]。比如（For example,…）很多人想学做饭[a lot of people want to learn cooking]，他们先看免费的视频[they watch the free videos first]，然后他们在家做一些简单的菜（cook something simple at home）。所以（As a result,…）大部分人省下了很多钱[most people save a lot of money]。而且他们在家学也更放松[and they also feel more relaxed when they learn at home]。",
     "g": "钱",
     "p": ["It depends, but usually…", "mainly because…", "For example,…", "cook something simple at home", "As a result,…"]
   },
@@ -36,62 +36,62 @@ window.P3_ANSWERS = {
     "p": ["stick to a routine", "The main reason is that…", "set myself a clear goal", "For example,…", "see real progress"]
   },
   "new-successful-businessperson||Why do some people start their own business?": {
-    "a": "我觉得很多人想自己做决定[I think a lot of people want to make their own decisions]。最主要的原因是（The main reason is that…）他们想自己开一家店（run my own business），因为他们成功以后会很有成就感（a real sense of achievement）。比如（For example,…）现在很多年轻人开小咖啡店，他们每天很忙，但是他们很开心[they are busy every day, but they are very happy]。所以（So…）有些人愿意辛苦一点，因为他们想自己当老板[some people would rather work harder, because they want to be their own boss]。而且他们自己开店可以赚更多的钱[and they can make more money if they run their own shop]。",
+    "a": "我觉得很多人想自己做决定[I think a lot of people want to make their own decisions]。最主要的原因是（The main reason is that…）他们想自己开一家店（run my own business），因为他们成功以后会很有成就感（a real sense of achievement）。比如（For example,…）现在很多年轻人开小咖啡店[now a lot of young people open small coffee shops]，他们每天很忙，但是他们很开心[they are busy every day, but they are very happy]。所以（So…）有些人愿意辛苦一点，因为他们想自己当老板[some people would rather work harder, because they want to be their own boss]。而且他们自己开店可以赚更多的钱[and they can make more money if they run their own shop]。",
     "g": "情绪",
     "p": ["The main reason is that…", "run my own business", "a real sense of achievement", "For example,…", "So…"]
   },
   "new-successful-businessperson||Should governments provide financial support to start-ups?": {
-    "a": "我觉得政府应该帮助小公司（the government should support…）。主要是因为（mainly because…）小公司刚开始要花很多钱[small companies have to spend a lot of money at the beginning]，政府给钱可以帮他们减少成本（keep the costs down）。比如（For example,…）很多小饭馆开门的时候拿过政府的补贴[a lot of small restaurants got money from the government when they opened]，所以他们付得起房租[so they could pay the rent]。所以（As a result,…）这些店活了下来，而且它们给了大家更多的工作机会（many more job opportunities）。",
+    "a": "我觉得政府应该帮助小公司（the government should support…）。主要是因为（mainly because…）小公司刚开始要花很多钱[small companies have to spend a lot of money at the beginning]，政府给钱可以帮他们减少成本（save money）。比如（For example,…）很多小饭馆开门的时候拿过政府的补贴[a lot of small restaurants got money from the government when they opened]，所以他们付得起房租[so they could pay the rent]。所以（As a result,…）这些店活了下来[these shops stayed open]，而且它们给了大家更多的工作机会（many more job opportunities）。",
     "g": "钱",
-    "p": ["the government should support…", "mainly because…", "keep the costs down", "For example,…", "As a result,…", "many more job opportunities"]
+    "p": ["the government should support…", "mainly because…", "save money", "For example,…", "As a result,…", "many more job opportunities"]
   },
   "new-successful-businessperson||Do most people prefer shopping at big stores or small stores?": {
-    "a": "这个看情况（It depends, but usually…），不过大部分人喜欢去大超市。最主要的原因是（The main reason is that…）大超市的东西很便宜，所以顾客可以省钱（keep the costs down），而且他们可以选的东西更多（there's a lot more choice now）。比如（For example,…）很多家庭一个星期去一次大超市，因为大超市的菜比小店便宜[because the vegetables in a big supermarket are cheaper than in a small shop]。所以（So…）我觉得大超市更受欢迎[I think big supermarkets are more popular]。而且很多人喜欢跟家人一起去大超市[and many people like going to a big supermarket with their family]。",
+    "a": "这个看情况（It depends, but usually…），不过大部分人喜欢去大超市[but most people like going to big supermarkets]。最主要的原因是（The main reason is that…）大超市的东西很便宜[things in big supermarkets are very cheap]，所以顾客可以省钱（save money），而且他们可以选的东西更多（there's a lot more choice now）。比如（For example,…）很多家庭一个星期去一次大超市[a lot of families go to a big supermarket once a week]，因为大超市的菜比小店便宜[because the vegetables in a big supermarket are cheaper than in a small shop]。所以（So…）我觉得大超市更受欢迎[I think big supermarkets are more popular]。而且很多人喜欢跟家人一起去大超市[and many people like going to a big supermarket with their family]。",
     "g": "钱",
-    "p": ["It depends, but usually…", "The main reason is that…", "keep the costs down", "there's a lot more choice now", "For example,…", "So…"]
+    "p": ["It depends, but usually…", "The main reason is that…", "save money", "there's a lot more choice now", "For example,…", "So…"]
   },
   "new-successful-businessperson||What makes a business successful?": {
-    "a": "我觉得最重要的是听顾客的意见（listen to what customers say）。主要是因为（mainly because…）顾客满意以后他们会再来，而且他们会带朋友一起来[customers will come back if they are happy, and they will bring their friends]。比如（For example,…）很多小饭馆的老板会问客人菜好不好吃，他们也记得住老顾客的名字[and they remember the names of their regular customers]。所以（As a result,…）这些店一直有很多客人[these restaurants always have a lot of customers]。而且这些店也能赚到更多的钱[and these restaurants can also make more money]。",
+    "a": "我觉得最重要的是听顾客的意见（listen to what customers say）。主要是因为（mainly because…）顾客满意以后他们会再来，而且他们会带朋友一起来[customers will come back if they are happy, and they will bring their friends]。比如（For example,…）很多小饭馆的老板会问客人菜好不好吃[a lot of small restaurant owners ask customers if the food is nice]，他们也记得住老顾客的名字[and they remember the names of their regular customers]。所以（As a result,…）这些店一直有很多客人[these restaurants always have a lot of customers]。而且这些店也能赚到更多的钱[and these restaurants can also make more money]。",
     "g": "关系",
     "p": ["listen to what customers say", "mainly because…", "For example,…", "As a result,…"]
   },
   "new-successful-businessperson||What makes a business fail?": {
-    "a": "我觉得很多店关门是因为钱的问题[I think a lot of shops close because of money problems]。最主要的原因是（The main reason is that…）房租和工资都很贵，所以老板很难减少成本（keep the costs down）。比如（For example,…）有些小饭馆的东西卖得很贵，所以客人只去一次，然后他们不再回来[so customers only go once, and then they do not come back]。所以（As a result,…）如果老板不听顾客的意见（listen to what customers say），他的生意就做不好[his business will not do well]。",
+    "a": "我觉得很多店关门是因为钱的问题[I think a lot of shops close because of money problems]。最主要的原因是（The main reason is that…）房租和工资都很贵[the rent and wages are both very high]，所以老板很难减少成本（save money）。比如（For example,…）有些小饭馆的东西卖得很贵[some small restaurants sell their food at high prices]，所以客人只去一次，然后他们不再回来[so customers only go once, and then they do not come back]。所以（As a result,…）如果老板不听顾客的意见（listen to what customers say），他的生意就做不好[his business will not do well]。",
     "g": "钱",
-    "p": ["The main reason is that…", "keep the costs down", "For example,…", "As a result,…", "listen to what customers say"]
+    "p": ["The main reason is that…", "save money", "For example,…", "As a result,…", "listen to what customers say"]
   },
   "new-successful-businessperson||Is it easy to set up a new business in your country?": {
-    "a": "我觉得不太容易（Not really.）。主要是因为（mainly because…）房租很贵，而且请人也要花很多钱[the rent is very high, and hiring people also costs a lot of money]，所以新老板很难减少成本（keep the costs down）。比如（For example,…）很多年轻人想开一家小店，但是他们看到房租以后就放弃了[a lot of young people want to open a small shop, but they give up when they see the rent]。所以（As a result,…）他们中的大部分人没有开自己的店（run my own business）。而且他们的家人也不支持他们[and their families do not support them either]。",
+    "a": "我觉得不太容易（Not really.）。主要是因为（mainly because…）房租很贵，而且请人也要花很多钱[the rent is very high, and hiring people also costs a lot of money]，所以新老板很难减少成本（save money）。比如（For example,…）很多年轻人想开一家小店，但是他们看到房租以后就放弃了[a lot of young people want to open a small shop, but they give up when they see the rent]。所以（As a result,…）他们中的大部分人没有开自己的店（run my own business）。而且他们的家人也不支持他们[and their families do not support them either]。",
     "g": "钱",
-    "p": ["Not really.", "mainly because…", "keep the costs down", "For example,…", "As a result,…", "run my own business"]
+    "p": ["Not really.", "mainly because…", "save money", "For example,…", "As a result,…", "run my own business"]
   },
   "new-successful-company-worker||Do you think governments should provide financial support to companies?": {
-    "a": "我觉得政府应该帮助公司（the government should support…）。主要是因为（mainly because…）小公司赚钱不多[small companies do not make much money]，它们很难减少成本（keep the costs down）。比如（For example,…）很多小店拿到了政府的补贴，所以它们没有关门[a lot of small shops got money from the government, so they did not close down]。所以（As a result,…）店里的员工也保住了稳定的收入（a stable income）。而且他们的家人也不用担心[and their families do not need to worry either]。",
+    "a": "我觉得政府应该帮助公司（the government should support…）。主要是因为（mainly because…）小公司赚钱不多[small companies do not make much money]，它们很难减少成本（save money）。比如（For example,…）很多小店拿到了政府的补贴，所以它们没有关门[a lot of small shops got money from the government, so they did not close down]。所以（As a result,…）店里的员工也保住了稳定的收入（a stable income）。而且他们的家人也不用担心[and their families do not need to worry either]。",
     "g": "钱",
-    "p": ["the government should support…", "mainly because…", "keep the costs down", "For example,…", "As a result,…", "a stable income"]
+    "p": ["the government should support…", "mainly because…", "save money", "For example,…", "As a result,…", "a stable income"]
   },
   "new-successful-company-worker||Do you think companies should donate money to help society?": {
-    "a": "我觉得公司应该捐钱（Yes, definitely.）。最主要的原因是（The main reason is that…）公司捐一点钱就能帮助别人（make a difference to other people），因为很多人真的需要这些帮助[because a lot of people really need this help]。比如（For example,…）很多大公司给山区的学校捐书和电脑[a lot of big companies give books and computers to schools in poor areas]，然后这些孩子就有课本用了[and then these children have books to use]。所以（So…）每家公司出一点钱，这些小事加起来就能帮很多人（small changes add up）。而且大家也会更喜欢这样的公司[and people will like these companies more]。",
+    "a": "我觉得公司应该捐钱（Yes, definitely.）。最主要的原因是（The main reason is that…）公司捐一点钱就能帮助别人（make a difference to other people），因为很多人真的需要这些帮助[because a lot of people really need this help]。比如（For example,…）很多大公司给山区的学校捐书和电脑[a lot of big companies give books and computers to schools in poor areas]，然后这些孩子就有课本用了[and then these children have books to use]。所以（So…）每家公司出一点钱[if every company gives a little money]，这些小事加起来就能帮很多人（small changes add up）。而且大家也会更喜欢这样的公司[and people will like these companies more]。",
     "g": "关系",
     "p": ["Yes, definitely.", "The main reason is that…", "make a difference to other people", "For example,…", "So…", "small changes add up"]
   },
   "new-successful-company-worker||Do you think customer satisfaction is important for a company?": {
-    "a": "我觉得这件事很重要（Yes, definitely.）。主要是因为（mainly because…）顾客满意以后他们会再来，所以公司要听顾客的意见（listen to what customers say）。比如（For example,…）很多奶茶店的店员会问客人要不要少放糖[a lot of milk tea shop staff ask customers if they want less sugar]，然后客人会把这家店推荐给朋友[and then customers recommend this shop to their friends]。所以（So…）这些店有很多老顾客[these shops have a lot of regular customers]。而且这些店每个月也能多赚一些钱[and these shops also make more money every month]。",
+    "a": "我觉得这件事很重要（Yes, definitely.）。主要是因为（mainly because…）顾客满意以后他们会再来[customers will come back if they are happy]，所以公司要听顾客的意见（listen to what customers say）。比如（For example,…）很多奶茶店的店员会问客人要不要少放糖[a lot of milk tea shop staff ask customers if they want less sugar]，然后客人会把这家店推荐给朋友[and then customers recommend this shop to their friends]。所以（So…）这些店有很多老顾客[these shops have a lot of regular customers]。而且这些店每个月也能多赚一些钱[and these shops also make more money every month]。",
     "g": "关系",
     "p": ["Yes, definitely.", "mainly because…", "listen to what customers say", "For example,…", "So…"]
   },
   "new-medical-career||Do you think being a doctor is easy or difficult?": {
-    "a": "我觉得当医生很难[I think it is hard to be a doctor]。最主要的原因是（The main reason is that…）医生每天要照顾病人的生命，所以他们的压力很大[doctors look after people's lives every day, so they are under a lot of pressure]，这也是很大的责任（it's a big responsibility）。比如（For example,…）很多医生每天工作十几个小时，他们下班的时候非常累[a lot of doctors work more than ten hours a day, and they are very tired when they finish work]。所以（So…）我觉得这份工作不轻松，但是医生也很有成就感（a real sense of achievement）。而且医生的收入比很多工作高[and doctors earn more money than people in many other jobs]。",
+    "a": "我觉得当医生很难[I think it is hard to be a doctor]。最主要的原因是（The main reason is that…）医生每天要照顾病人的生命，所以他们的压力很大[doctors look after people's lives every day, so they are under a lot of pressure]，这也是很大的责任（it's a big responsibility）。比如（For example,…）很多医生每天工作十几个小时，他们下班的时候非常累[a lot of doctors work more than ten hours a day, and they are very tired when they finish work]。所以（So…）我觉得这份工作不轻松[I think this job is not easy]，但是医生也很有成就感（a real sense of achievement）。而且医生的收入比很多工作高[and doctors earn more money than people in many other jobs]。",
     "g": "情绪",
     "p": ["The main reason is that…", "it's a big responsibility", "For example,…", "So…", "a real sense of achievement"]
   },
   "new-medical-career||Do you think learning biology is interesting for children?": {
-    "a": "我觉得孩子会喜欢生物课（Yes, definitely.）。主要是因为（mainly because…）这门课讲小动物和植物，所以孩子觉得很有意思[so children think it is very interesting]，而且老师讲的东西也很好懂（easy to follow）。比如（For example,…）很多小学生在家种一颗豆子，他们看到豆子长出来的时候很开心[they are very happy when they see the bean come up]。所以（So…）我觉得孩子都喜欢这样的课[I think children like this kind of lesson]。而且他们可以跟同学一起做这件事[and they can do it together with their classmates]。",
+    "a": "我觉得孩子会喜欢生物课（Yes, definitely.）。主要是因为（mainly because…）这门课讲小动物和植物[this subject is about small animals and plants]，所以孩子觉得很有意思[so children think it is very interesting]，而且老师讲的东西也很好懂（easy to follow）。比如（For example,…）很多小学生在家种一颗豆子[a lot of primary school students grow a bean at home]，他们看到豆子长出来的时候很开心[they are very happy when they see the bean come up]。所以（So…）我觉得孩子都喜欢这样的课[I think children like this kind of lesson]。而且他们可以跟同学一起做这件事[and they can do it together with their classmates]。",
     "g": "情绪",
     "p": ["Yes, definitely.", "mainly because…", "easy to follow", "For example,…", "So…"]
   },
   "new-medical-career||Why do you some children want to become doctors?": {
-    "a": "我觉得有些孩子想当医生，因为他们想帮助别人[I think some children want to be doctors, because they want to help other people]。最主要的原因是（The main reason is that…）孩子觉得医生可以真的帮到别人（make a difference to other people）。比如（For example,…）很多孩子生病的时候看过医生，医生很耐心地照顾他们[the doctors looked after them very kindly]，几天以后他们就好了[and they got better a few days later]。所以（So…）这些孩子从那以后就想当医生，因为这份工作教他们关心别人（it teaches you to think about others）。而且当医生的收入也不错[and doctors also earn quite good money]。",
+    "a": "我觉得有些孩子想当医生，因为他们想帮助别人[I think some children want to be doctors, because they want to help other people]。最主要的原因是（The main reason is that…）孩子觉得医生可以真的帮到别人（make a difference to other people）。比如（For example,…）很多孩子生病的时候看过医生[a lot of children saw a doctor when they were ill]，医生很耐心地照顾他们[the doctors looked after them very kindly]，几天以后他们就好了[and they got better a few days later]。所以（So…）这些孩子从那以后就想当医生[these children have wanted to be doctors since then]，因为这份工作教他们关心别人（it teaches you to think about others）。而且当医生的收入也不错[and doctors also earn quite good money]。",
     "g": "关系",
     "p": ["The main reason is that…", "make a difference to other people", "For example,…", "So…", "it teaches you to think about others"]
   },
@@ -101,72 +101,72 @@ window.P3_ANSWERS = {
     "p": ["the government should support…", "The main reason is that…", "make a difference to other people", "For example,…", "So…"]
   },
   "new-childhood-friend||Do you still keep in touch with your friends from childhood? Why or why not?": {
-    "a": "是的（Yes, definitely.），我和小时候的朋友还有联系。主要是因为（mainly because…）我们一起长大[we grew up together]，所以他们给我发消息的时候，我会尽快回复（get back to… as soon as I can）。比如（For example,…）现在很多人和老朋友一起出去吃饭（eat out with friends），他们一个月见一次[they meet once a month]。所以（So…）我们的关系一直很好[we still have a good friendship]。而且我们见面以后都很开心[and we are all very happy after we meet]。",
+    "a": "是的（Yes, definitely.），我和小时候的朋友还有联系[I still keep in touch with my childhood friends]。主要是因为（mainly because…）我们一起长大[we grew up together]，所以他们给我发消息的时候[when they send me a message]，我会尽快回复（get back to… as soon as I can）。比如（For example,…）现在很多人和老朋友一起出去吃饭（eat out with friends），他们一个月见一次[they meet once a month]。所以（So…）我们的关系一直很好[we still have a good friendship]。而且我们见面以后都很开心[and we are all very happy after we meet]。",
     "g": "关系",
     "p": ["Yes, definitely.", "mainly because…", "get back to… as soon as I can", "For example,…", "eat out with friends", "So…"]
   },
   "new-childhood-friend||How important is childhood friendship to children?": {
-    "a": "我觉得小时候的朋友很重要。最主要的原因是（The main reason is that…）孩子和朋友一起玩的时候，他们学会关心别人（it teaches you to think about others）。比如（For example,…）很多小孩子有好吃的东西，他们会分给自己的朋友一半[a lot of small children share their snacks with their friends]。所以（So…）我觉得每个孩子都需要几个好朋友[I think every child needs a few good friends]。而且孩子和朋友在一起的时候很开心[and children are very happy when they are with their friends]。",
+    "a": "我觉得小时候的朋友很重要[I think childhood friends are very important]。最主要的原因是（The main reason is that…）孩子和朋友一起玩的时候[when children play with their friends]，他们学会关心别人（it teaches you to think about others）。比如（For example,…）很多小孩子有好吃的东西[a lot of small children have some nice snacks]，他们会分给自己的朋友一半[a lot of small children share their snacks with their friends]。所以（So…）我觉得每个孩子都需要几个好朋友[I think every child needs a few good friends]。而且孩子和朋友在一起的时候很开心[and children are very happy when they are with their friends]。",
     "g": "关系",
     "p": ["The main reason is that…", "it teaches you to think about others", "For example,…", "So…"]
   },
   "new-childhood-friend||What do you think of communicating via social media?": {
-    "a": "我觉得这件事有好的一面，也有不好的一面（it has both good and bad sides）。主要是因为（mainly because…）发消息很方便，但是每个人有时候都很忙（everyone gets busy sometimes），所以他们回消息很慢[so they reply very slowly]。比如（For example,…）很多人给朋友发消息，可是他们的朋友第二天才回复[but their friends only reply the next day]。所以（So…）如果我有急事，我会直接打电话[if something is urgent, I will call them]。而且我等回复的时候也会有点着急[and I also feel a bit worried when I wait for a reply]。",
+    "a": "我觉得这件事有好的一面，也有不好的一面（it has both good and bad sides）。主要是因为（mainly because…）发消息很方便[sending messages is very easy]，但是每个人有时候都很忙（everyone gets busy sometimes），所以他们回消息很慢[so they reply very slowly]。比如（For example,…）很多人给朋友发消息[a lot of people send their friends a message]，可是他们的朋友第二天才回复[but their friends only reply the next day]。所以（So…）如果我有急事，我会直接打电话[if something is urgent, I will call them]。而且我等回复的时候也会有点着急[and I also feel a bit worried when I wait for a reply]。",
     "g": "关系",
     "p": ["it has both good and bad sides", "mainly because…", "everyone gets busy sometimes", "For example,…", "So…"]
   },
   "new-childhood-friend||Do you think online communication through social media will replace face-to-face communication?": {
-    "a": "我觉得网上聊天不能代替见面（Not really.）。最主要的原因是（The main reason is that…）发消息帮我省了很多时间（it saves me a lot of time, but…），但是我看不出对方的语气[I cannot tell how the other person feels]。比如（For example,…）很多人周末和朋友一起出去吃饭（eat out with friends），他们可以聊两三个小时[they can talk for two or three hours]。所以（So…）我觉得见面还是最好的方式。而且我们见面的时候更开心[and we are happier when we meet face to face]。",
+    "a": "我觉得网上聊天不能代替见面（Not really.）。最主要的原因是（The main reason is that…）发消息帮我省了很多时间（it saves me a lot of time, but…），但是我看不出对方的语气[I cannot tell how the other person feels]。比如（For example,…）很多人周末和朋友一起出去吃饭（eat out with friends），他们可以聊两三个小时[they can talk for two or three hours]。所以（So…）我觉得见面还是最好的方式[I think meeting face to face is still the best way]。而且我们见面的时候更开心[and we are happier when we meet face to face]。",
     "g": "关系",
     "p": ["Not really.", "The main reason is that…", "it saves me a lot of time, but…", "For example,…", "eat out with friends", "So…"]
   },
   "new-childhood-friend||What's the difference between having younger friends and older friends?": {
-    "a": "我觉得区别是我们聊的话题不一样[I think the difference is that we talk about different topics]。最主要的原因是（The main reason is that…）年纪大的朋友经历多[older friends have more experience]，所以我有问题的时候会找他们帮忙（turn to… for help）。比如（For example,…）很多年轻人和同龄的朋友一起打球，他们和年长的同事聊工作[a lot of young people play ball games with friends of the same age, and they talk about work with older colleagues]。所以（So…）我想交这两种朋友，因为我可以听到不同的想法（keep an open mind）。而且我和同龄的朋友在一起更放松[and I feel more relaxed when I am with friends of my own age]。",
+    "a": "我觉得区别是我们聊的话题不一样[I think the difference is that we talk about different topics]。最主要的原因是（The main reason is that…）年纪大的朋友经历多[older friends have more experience]，所以我有问题的时候会找他们帮忙（turn to… for help）。比如（For example,…）很多年轻人和同龄的朋友一起打球，他们和年长的同事聊工作[a lot of young people play ball games with friends of the same age, and they talk about work with older workmates]。所以（So…）我想交这两种朋友[I want to make both kinds of friends]，因为我可以听到不同的想法（keep an open mind）。而且我和同龄的朋友在一起更放松[and I feel more relaxed when I am with friends of my own age]。",
     "g": "关系",
     "p": ["The main reason is that…", "turn to… for help", "For example,…", "So…", "keep an open mind"]
   },
   "new-childhood-friend||Has technology changed people's friendships? How?": {
-    "a": "我觉得变化很大（Yes, definitely.）。主要是因为（mainly because…）发消息帮我们省了很多时间（it saves me a lot of time, but…），但是我们见面的次数变少了[but we meet each other less often]。比如（For example,…）很多人和朋友一起出去吃饭（eat out with friends），可是他们坐下以后一直看手机[but they look at their phones after they sit down]。所以（As a result,…）我们联系更方便了，可是我们的感情不一定更好[our friendships are not always closer]。而且很多人看手机的时候会觉得有点孤单[and many people feel a bit lonely when they look at their phones]。",
+    "a": "我觉得变化很大（Yes, definitely.）。主要是因为（mainly because…）发消息帮我们省了很多时间（it saves me a lot of time, but…），但是我们见面的次数变少了[but we meet each other less often]。比如（For example,…）很多人和朋友一起出去吃饭（eat out with friends），可是他们坐下以后一直看手机[but they look at their phones after they sit down]。所以（As a result,…）我们联系更方便了[it is easier for us to keep in touch]，可是我们的感情不一定更好[our friendships are not always closer]。而且很多人看手机的时候会觉得有点孤单[and many people feel a bit lonely when they look at their phones]。",
     "g": "关系",
     "p": ["Yes, definitely.", "mainly because…", "it saves me a lot of time, but…", "For example,…", "eat out with friends", "As a result,…"]
   },
   "new-home-gardener||What are the advantages of growing vegetables or flowers at home?": {
-    "a": "我觉得最大的好处是我们可以放松（relax after a long day）。最主要的原因是（The main reason is that…）我们浇水的时候不用想别的事[we do not need to think about anything else when we water the plants]，所以这可以让我忘掉工作（it helps me forget about…）。比如（For example,…）很多人下班以后给阳台上的小番茄浇水，他们浇完以后觉得很放松[they feel very relaxed after they finish]。所以（So…）我觉得在家种点东西很好。而且他们也可以省下买菜的钱[and they can also save the money they spend on vegetables]。",
+    "a": "我觉得最大的好处是我们可以放松（relax after a long day）。最主要的原因是（The main reason is that…）我们浇水的时候不用想别的事[we do not need to think about anything else when we water the plants]，所以这可以让我忘掉工作（it helps me forget about…）。比如（For example,…）很多人下班以后给阳台上的小番茄浇水[a lot of people water the small tomatoes on their balcony after work]，他们浇完以后觉得很放松[they feel very relaxed after they finish]。所以（So…）我觉得在家种点东西很好[I think growing something at home is really nice]。而且他们也可以省下买菜的钱[and they can also save the money they spend on vegetables]。",
     "g": "情绪",
     "p": ["relax after a long day", "The main reason is that…", "it helps me forget about…", "For example,…", "So…"]
   },
   "new-home-gardener||Do many people grow vegetables or flowers at home in your country?": {
-    "a": "是的（Yes, definitely.），我们这里很多人在家种花和种菜。主要是因为（mainly because…）这件事不用花很多钱，所以他们可以减少开销（keep the costs down）。比如（For example,…）很多老人在阳台上种小葱和青菜，所以他们买菜的时候可以少花一点钱[so they spend less money when they buy food]。所以（As a result,…）这几年种花种菜的人变多了[more and more people grow plants at home now]。而且他们照顾这些植物的时候也很开心[and they are also very happy when they look after these plants]。",
+    "a": "是的（Yes, definitely.），我们这里很多人在家种花和种菜[a lot of people here grow flowers and vegetables at home]。主要是因为（mainly because…）这件事不用花很多钱[this does not cost much money]，所以他们可以减少开销（save money）。比如（For example,…）很多老人在阳台上种小葱和青菜[a lot of old people grow spring onions and greens on their balcony]，所以他们买菜的时候可以少花一点钱[so they spend less money when they buy food]。所以（As a result,…）这几年种花种菜的人变多了[more and more people grow plants at home now]。而且他们照顾这些植物的时候也很开心[and they are also very happy when they look after these plants]。",
     "g": "钱",
-    "p": ["Yes, definitely.", "mainly because…", "keep the costs down", "For example,…", "As a result,…"]
+    "p": ["Yes, definitely.", "mainly because…", "save money", "For example,…", "As a result,…"]
   },
   "new-home-gardener||Is it easy to grow plants at home?": {
-    "a": "这个看情况（It depends, but usually…），不过常见的花草不难养[common plants are not hard to grow]。主要是因为（mainly because…）这些花草很便宜，所以人们不用花很多钱[these plants are very cheap, so people do not need to spend much money]，而且网上的教程也很好懂（easy to follow）。比如（For example,…）很多人在花市花十块钱买一盆绿萝，然后他们养了两三年[a lot of people buy a plant for ten yuan at the flower market, and then they keep it for two or three years]。所以（So…）我觉得在家种花很容易。而且他们看到植物长大的时候很开心[and they are very happy when they see the plants grow]。",
+    "a": "这个看情况（It depends, but usually…），不过常见的花草不难养[common plants are not hard to grow]。主要是因为（mainly because…）这些花草很便宜，所以人们不用花很多钱[these plants are very cheap, so people do not need to spend much money]，而且网上的教程也很好懂（easy to follow）。比如（For example,…）很多人在花市花十块钱买一盆绿萝，然后他们养了两三年[a lot of people buy a plant for ten yuan at the flower market, and then they keep it for two or three years]。所以（So…）我觉得在家种花很容易[I think growing flowers at home is very easy]。而且他们看到植物长大的时候很开心[and they are very happy when they see the plants grow]。",
     "g": "钱",
     "p": ["It depends, but usually…", "mainly because…", "easy to follow", "For example,…", "So…"]
   },
   "new-home-gardener||Why do some people like to grow plants?": {
-    "a": "我觉得很多人种花是想放松（relax after a long day）。最主要的原因是（The main reason is that…）他们上班很累[they get very tired at work]，他们照顾植物的时候可以呼吸新鲜空气（get some fresh air）。比如（For example,…）很多人回家以后先给阳台上的花浇水，然后他们觉得舒服多了[and then they feel much better]。所以（So…）现在喜欢种花的人很多。而且他们也可以省一点买菜的钱[and they can also save a little money on vegetables]。",
+    "a": "我觉得很多人种花是想放松（relax after a long day）。最主要的原因是（The main reason is that…）他们上班很累[they get very tired at work]，他们照顾植物的时候可以呼吸新鲜空气（get some fresh air）。比如（For example,…）很多人回家以后先给阳台上的花浇水[a lot of people water the flowers on their balcony first after they get home]，然后他们觉得舒服多了[and then they feel much better]。所以（So…）现在喜欢种花的人很多[a lot of people like growing flowers now]。而且他们也可以省一点买菜的钱[and they can also save a little money on vegetables]。",
     "g": "情绪",
     "p": ["relax after a long day", "The main reason is that…", "get some fresh air", "For example,…", "So…"]
   },
   "new-home-gardener||Why do some people prefer to grow their own fruits and vegetables instead of buying them from the market?": {
-    "a": "我觉得很多人想省钱[I think a lot of people want to save money]。最主要的原因是（The main reason is that…）他们自己种菜不用花很多钱，所以他们可以减少开销（keep the costs down）。比如（For example,…）很多家庭在阳台上种西红柿，所以他们一个夏天都不用买西红柿[so they do not need to buy tomatoes for the whole summer]。所以（So…）有阳台的人都想自己种。而且他们吃自己种的菜很有成就感（a real sense of achievement）。",
+    "a": "我觉得很多人想省钱[I think a lot of people want to save money]。最主要的原因是（The main reason is that…）他们自己种菜不用花很多钱[growing their own vegetables does not cost them much]，所以他们可以减少开销（save money）。比如（For example,…）很多家庭在阳台上种西红柿[a lot of families grow tomatoes on their balcony]，所以他们一个夏天都不用买西红柿[so they do not need to buy tomatoes for the whole summer]。所以（So…）有阳台的人都想自己种[people with a balcony all want to grow their own]。而且他们吃自己种的菜很有成就感（a real sense of achievement）。",
     "g": "钱",
-    "p": ["The main reason is that…", "keep the costs down", "For example,…", "So…", "a real sense of achievement"]
+    "p": ["The main reason is that…", "save money", "For example,…", "So…", "a real sense of achievement"]
   },
   "new-home-gardener||Do you think students should learn to grow plant?": {
-    "a": "我觉得学生应该学着种植物（Yes, definitely.），因为这也是一种责任（it's a big responsibility）。主要是因为（mainly because…）植物需要每天浇水，所以学生照顾植物的时候会学着关心别人（it teaches you to think about others）。比如（For example,…）很多学校在教室门口放几盆花，学生每天轮流浇水[students take turns to water them every day]，他们也一起决定谁管哪一盆[and they decide together who looks after which plant]。所以（So…）我觉得学校可以多做这样的活动[I think schools can do more activities like this]。而且学生照顾植物的时候也很放松[and students feel relaxed when they look after plants]。",
+    "a": "我觉得学生应该学着种植物（Yes, definitely.），因为这也是一种责任（it's a big responsibility）。主要是因为（mainly because…）植物需要每天浇水[plants need watering every day]，所以学生照顾植物的时候会学着关心别人（it teaches you to think about others）。比如（For example,…）很多学校在教室门口放几盆花[a lot of schools put a few pots of flowers by the classroom door]，学生每天轮流浇水[students take turns to water them every day]，他们也一起决定谁管哪一盆[and they decide together who looks after which plant]。所以（So…）我觉得学校可以多做这样的活动[I think schools can do more activities like this]。而且学生照顾植物的时候也很放松[and students feel relaxed when they look after plants]。",
     "g": "关系",
     "p": ["Yes, definitely.", "it's a big responsibility", "mainly because…", "it teaches you to think about others", "For example,…", "So…"]
   },
   "new-success-after-difficulty||In your country, what industry is it easier to be successful in?": {
-    "a": "我觉得和手机有关的行业更容易成功[I think it is easier to succeed in jobs about mobile phones]。最主要的原因是（The main reason is that…）大家买东西和看视频都用手机[everyone uses a phone to shop and to watch videos]，所以这个行业有更多的工作机会（many more job opportunities）。比如（For example,…）现在很多年轻人做短视频，他们每个月有稳定的收入（a stable income）。所以（So…）很多年轻人想做这一行。而且他们的家人也支持他们[and their families support them too]。",
+    "a": "我觉得和手机有关的行业更容易成功[I think it is easier to succeed in jobs about mobile phones]。最主要的原因是（The main reason is that…）大家买东西和看视频都用手机[everyone uses a phone to shop and to watch videos]，所以这个行业有更多的工作机会（many more job opportunities）。比如（For example,…）现在很多年轻人做短视频[now a lot of young people make short videos]，他们每个月有稳定的收入（a stable income）。所以（So…）很多年轻人想做这一行[a lot of young people want to work in this field]。而且他们的家人也支持他们[and their families support them too]。",
     "g": "钱",
     "p": ["The main reason is that…", "many more job opportunities", "For example,…", "a stable income", "So…"]
   },
   "new-success-after-difficulty||What's the difference between ordinary people and successful people?": {
-    "a": "我觉得区别是能不能坚持[I think the difference is whether they can keep going]。最主要的原因是（The main reason is that…）成功的人先给自己定一个清楚的目标（set myself a clear goal），然后他们分解这个目标（break it down into small steps）。比如（For example,…）很多学生准备考试，他们每天只背五十个单词[they learn only fifty new words every day]，一年以后他们通过了考试[and they passed the exam one year later]。所以（As a result,…）能坚持的人可以看到真的进步（see real progress）。而且他们后来也更容易赚到钱[and they also find it easier to make money later]。",
+    "a": "我觉得区别是能不能坚持[I think the difference is whether they can keep going]。最主要的原因是（The main reason is that…）成功的人先给自己定一个清楚的目标（set myself a clear goal），然后他们分解这个目标（break it down into small steps）。比如（For example,…）很多学生准备考试[a lot of students get ready for an exam]，他们每天只背五十个单词[they learn only fifty new words every day]，一年以后他们通过了考试[and they passed the exam one year later]。所以（As a result,…）能坚持的人可以看到真的进步（see real progress）。而且他们后来也更容易赚到钱[and they also find it easier to make money later]。",
     "g": "目标",
     "p": ["The main reason is that…", "set myself a clear goal", "break it down into small steps", "For example,…", "As a result,…", "see real progress"]
   },
@@ -176,647 +176,647 @@ window.P3_ANSWERS = {
     "p": ["mainly because…", "set myself a clear goal", "For example,…", "stick to a routine", "As a result,…", "see real progress"]
   },
   "new-long-term-goal||What goals should a society have?": {
-    "a": "我觉得社会应该让大家生活得安心[I think a society should help people feel safe]。最主要的原因是（The main reason is that…）普通人最在乎工作和收入[ordinary people care most about their jobs and their money]，他们也想要稳定的收入（a stable income）。比如（For example,…）我们这里这两年开了很多新公司，这些公司给了大家更多的工作机会（many more job opportunities）。所以（So…）我觉得政府应该先做好这件事。而且社会也应该让大家过得开心[and a society should also help people live happily]。",
+    "a": "我觉得社会应该让大家生活得安心[I think a society should help people feel safe]。最主要的原因是（The main reason is that…）普通人最在乎工作和收入[ordinary people care most about their jobs and their money]，他们也想要稳定的收入（a stable income）。比如（For example,…）我们这里这两年开了很多新公司[a lot of new companies have opened here in the last two years]，这些公司给了大家更多的工作机会（many more job opportunities）。所以（So…）我觉得政府应该先做好这件事[I think the government should do this well first]。而且社会也应该让大家过得开心[and a society should also help people live happily]。",
     "g": "钱",
     "p": ["The main reason is that…", "a stable income", "For example,…", "many more job opportunities", "So…"]
   },
   "new-long-term-goal||Do people need to have goals?": {
-    "a": "是的（Yes, definitely.），我觉得每个人都需要目标[I think everyone needs a goal]。主要是因为（mainly because…）如果我们定了一个清楚的目标（set myself a clear goal），我们每天就知道该做什么[then we know what to do every day]。比如（For example,…）很多学生考试以前每天早上背单词，他们从来不间断（stick to a routine）。所以他们一个月以后就能看到真的进步（see real progress）。而且有目标的人也更容易找到好工作[and people with a goal also find it easier to get a good job]。",
+    "a": "是的（Yes, definitely.），我觉得每个人都需要目标[I think everyone needs a goal]。主要是因为（mainly because…）如果我们定了一个清楚的目标（set myself a clear goal），我们每天就知道该做什么[then we know what to do every day]。比如（For example,…）很多学生考试以前每天早上背单词[a lot of students learn new words every morning before an exam]，他们从来不间断（stick to a routine）。所以他们一个月以后就能看到真的进步（see real progress）。而且有目标的人也更容易找到好工作[and people with a goal also find it easier to get a good job]。",
     "g": "目标",
     "p": ["Yes, definitely.", "mainly because…", "set myself a clear goal", "For example,…", "stick to a routine", "see real progress"]
   },
   "new-long-term-goal||What goals do people at your age have?": {
-    "a": "我这个年纪的人最想要稳定的收入（a stable income）。主要是因为（mainly because…）我们要自己付房租和饭钱[we have to pay the rent and buy our own food]，而且养家也是很大的责任（it's a big responsibility）。比如（For example,…）现在很多年轻人在找可以长期做的工作，因为这样的工作每个月都发工资[because this kind of job pays them every month]。所以（So…）我觉得大家的目标都差不多。而且我们也想有时间陪家人[and we also want time to spend with our family]。",
+    "a": "我这个年纪的人最想要稳定的收入（a stable income）。主要是因为（mainly because…）我们要自己付房租和饭钱[we have to pay the rent and buy our own food]，而且养家也是很大的责任（it's a big responsibility）。比如（For example,…）现在很多年轻人在找可以长期做的工作[now a lot of young people look for a job they can do for a long time]，因为这样的工作每个月都发工资[because this kind of job pays them every month]。所以（So…）我觉得大家的目标都差不多[I think most people have similar goals]。而且我们也想有时间陪家人[and we also want time to spend with our family]。",
     "g": "钱",
     "p": ["a stable income", "mainly because…", "it's a big responsibility", "For example,…", "So…"]
   },
   "new-long-term-goal||Is it necessary to give advice to children?": {
-    "a": "我觉得有必要（Yes, definitely.）。最主要的原因是（The main reason is that…）孩子的经历少[children do not have much experience]，所以他们遇到困难的时候会找大人帮忙（turn to… for help）。比如（For example,…）学生选学校的时候，他们的父母可以讲讲自己的经历[their parents can talk about their own experience]。所以（So…）父母应该给孩子建议，但是他们也要听孩子的想法（keep an open mind）。而且孩子听了建议以后没有那么紧张[and children feel less nervous after they listen to the advice]。",
+    "a": "我觉得有必要（Yes, definitely.）。最主要的原因是（The main reason is that…）孩子的经历少[children do not have much experience]，所以他们遇到困难的时候会找大人帮忙（turn to… for help）。比如（For example,…）学生选学校的时候[when students choose a school]，他们的父母可以讲讲自己的经历[their parents can talk about their own experience]。所以（So…）父母应该给孩子建议[parents should give children advice]，但是他们也要听孩子的想法（keep an open mind）。而且孩子听了建议以后没有那么紧张[and children feel less nervous after they listen to the advice]。",
     "g": "关系",
     "p": ["Yes, definitely.", "The main reason is that…", "turn to… for help", "For example,…", "So…", "keep an open mind"]
   },
   "new-long-term-goal||What goals do young people usually have?": {
-    "a": "我觉得年轻人最想做好自己的工作[I think young people mainly want to do well at work]。主要是因为（mainly because…）他们刚毕业的时候有很多工作机会（many more job opportunities），所以他们想找一份工资高的工作[so they want to find a job with a good salary]。比如（For example,…）现在很多大学生想进大公司，因为大公司给的工资更高[because big companies pay more money]，还有一些人想自己开店（run my own business）。所以（So…）他们的目标大多和钱有关。而且他们也想让父母放心[and they also want their parents to stop worrying]。",
+    "a": "我觉得年轻人最想做好自己的工作[I think young people mainly want to do well at work]。主要是因为（mainly because…）他们刚毕业的时候有很多工作机会（many more job opportunities），所以他们想找一份工资高的工作[so they want to find a job with a good salary]。比如（For example,…）现在很多大学生想进大公司[a lot of university students want to join big companies]，因为大公司给的工资更高[because big companies pay more money]，还有一些人想自己开店（run my own business）。所以（So…）他们的目标大多和钱有关[most of their goals are about money]。而且他们也想让父母放心[and they also want their parents to stop worrying]。",
     "g": "钱",
     "p": ["mainly because…", "many more job opportunities", "For example,…", "run my own business", "So…"]
   },
   "new-long-term-goal||What should people do to achieve their goals?": {
-    "a": "我觉得最重要的是分解大目标（break it down into small steps）。最主要的原因是（The main reason is that…）目标太大的时候很多人会害怕[a lot of people feel scared when the goal is too big]，但是如果他们每天做一点，这件事就不难[but if they do a little every day, it is not hard]。比如（For example,…）很多学生每天早上背二十个单词，他们每天都这样做（stick to a routine）。所以他们半年以后可以看到真的进步（see real progress）。而且他们可以找朋友一起做这件事[and they can do it together with a friend]。",
+    "a": "我觉得最重要的是分解大目标（break it down into small steps）。最主要的原因是（The main reason is that…）目标太大的时候很多人会害怕[a lot of people feel scared when the goal is too big]，但是如果他们每天做一点，这件事就不难[but if they do a little every day, it is not hard]。比如（For example,…）很多学生每天早上背二十个单词[a lot of students learn twenty words every morning]，他们每天都这样做（stick to a routine）。所以他们半年以后可以看到真的进步（see real progress）。而且他们可以找朋友一起做这件事[and they can do it together with a friend]。",
     "g": "目标",
     "p": ["break it down into small steps", "The main reason is that…", "For example,…", "stick to a routine", "see real progress"]
   },
   "new-long-held-ambition||What kinds of ambitions do people have?": {
-    "a": "我觉得志向有两种，一种是为了工作，另一种是为了生活[I think there are two kinds of ambition, one is for work and the other is for life]。最主要的原因是（The main reason is that…）大部分人先想找一份好工作，因为他们想要稳定的收入（a stable income）。比如（For example,…）现在很多年轻人想开一家小咖啡店（run my own business），因为他们想赚更多的钱[because they want to make more money]。所以（So…）大家的想法不一样，但是他们都想过好一点的生活[they all want a better life]。而且有些人的志向是多陪家人[and some people's ambition is to spend more time with their family]。",
+    "a": "我觉得志向有两种，一种是为了工作，另一种是为了生活[I think there are two kinds of ambition, one is for work and the other is for life]。最主要的原因是（The main reason is that…）大部分人先想找一份好工作[most people want to find a good job first]，因为他们想要稳定的收入（a stable income）。比如（For example,…）现在很多年轻人想开一家小咖啡店（run my own business），因为他们想赚更多的钱[because they want to make more money]。所以（So…）大家的想法不一样[people have different ideas]，但是他们都想过好一点的生活[they all want a better life]。而且有些人的志向是多陪家人[and some people's ambition is to spend more time with their family]。",
     "g": "钱",
     "p": ["The main reason is that…", "a stable income", "For example,…", "run my own business", "So…"]
   },
   "new-long-held-ambition||What's the importance of having ambition?": {
-    "a": "我觉得有志向很重要[I think it is important to have an ambition]。最主要的原因是（The main reason is that…）有志向的人会给自己定一个清楚的目标（set myself a clear goal），所以他们每天都知道该做什么[so they know what to do every day]。比如（For example,…）很多年轻人想去国外读书，所以他们每天都学英语[a lot of young people want to study abroad, so they study English every day]。所以（So…）有志向的人可以坚持很久，他们也更容易看到真的进步（see real progress）。而且他们做事的时候更开心[and they are happier when they work]。",
+    "a": "我觉得有志向很重要[I think it is important to have an ambition]。最主要的原因是（The main reason is that…）有志向的人会给自己定一个清楚的目标（set myself a clear goal），所以他们每天都知道该做什么[so they know what to do every day]。比如（For example,…）很多年轻人想去国外读书，所以他们每天都学英语[a lot of young people want to study abroad, so they study English every day]。所以（So…）有志向的人可以坚持很久[people with ambition can keep going for a long time]，他们也更容易看到真的进步（see real progress）。而且他们做事的时候更开心[and they are happier when they work]。",
     "g": "目标",
     "p": ["The main reason is that…", "set myself a clear goal", "For example,…", "So…", "see real progress"]
   },
   "new-long-held-ambition||What are the advantages of feeling ambitious towards your work?": {
-    "a": "我觉得对工作有志向有很多好处[I think there are a lot of advantages if you are ambitious at work]。主要是因为（mainly because…）这样的人愿意多做一点，所以他们做完以后很有成就感（a real sense of achievement）。比如（For example,…）很多员工接了很难的工作，他们忙了三个月，但是他们最后很开心[a lot of workers take a hard job, and they are busy for three months, but they are happy in the end]。所以（As a result,…）他们后来有更多的工作机会（many more job opportunities）。而且他们的同事也更喜欢和他们一起工作[and their colleagues also like working with them more]。",
+    "a": "我觉得对工作有志向有很多好处[I think there are a lot of advantages if you are ambitious at work]。主要是因为（mainly because…）这样的人愿意多做一点[these people are willing to do a bit more]，所以他们做完以后很有成就感（a real sense of achievement）。比如（For example,…）很多员工接了很难的工作，他们忙了三个月，但是他们最后很开心[a lot of workers take a hard job, and they are busy for three months, but they are happy in the end]。所以（As a result,…）他们后来有更多的工作机会（many more job opportunities）。而且他们的同事也更喜欢和他们一起工作[and their workmates also like working with them more]。",
     "g": "情绪",
     "p": ["mainly because…", "a real sense of achievement", "For example,…", "As a result,…", "many more job opportunities"]
   },
   "new-long-held-ambition||Do you think children should have ambitions?": {
-    "a": "我觉得孩子应该有自己的志向（Yes, definitely.）。最主要的原因是（The main reason is that…）如果孩子从小定一个清楚的目标（set myself a clear goal），他们长大以后做事更有方向[they will know what they want when they grow up]。比如（For example,…）很多小学生想学好英语，所以他们每天早上都读课文[a lot of primary school students want to learn English well, so they read their textbook every morning]。所以（So…）我觉得这是好事，父母也可以帮孩子分解目标（break it down into small steps）。而且孩子做到的时候会很开心[and children are very happy when they do it]。",
+    "a": "我觉得孩子应该有自己的志向（Yes, definitely.）。最主要的原因是（The main reason is that…）如果孩子从小定一个清楚的目标（set myself a clear goal），他们长大以后做事更有方向[they will know what they want when they grow up]。比如（For example,…）很多小学生想学好英语，所以他们每天早上都读课文[a lot of primary school students want to learn English well, so they read their textbook every morning]。所以（So…）我觉得这是好事[I think this is a good thing]，父母也可以帮孩子分解目标（break it down into small steps）。而且孩子做到的时候会很开心[and children are very happy when they do it]。",
     "g": "目标",
     "p": ["Yes, definitely.", "The main reason is that…", "set myself a clear goal", "For example,…", "So…", "break it down into small steps"]
   },
   "new-long-held-ambition||Why should parents encourage children to have ambitions?": {
-    "a": "我觉得父母的鼓励对孩子很重要[I think support from parents is very important for children]。主要是因为（mainly because…）孩子还小，所以他们遇到问题的时候会先找父母帮忙（turn to… for help）。比如（For example,…）很多孩子想学画画，他们的父母每个星期送他们去上课[a lot of children want to learn drawing, and their parents take them to a class every week]。所以（As a result,…）有人支持的孩子可以坚持更久，他们也能看到真的进步（see real progress）。而且孩子知道父母支持他们的时候会很开心[and children are very happy when they know their parents support them]。",
+    "a": "我觉得父母的鼓励对孩子很重要[I think support from parents is very important for children]。主要是因为（mainly because…）孩子还小[children are still young]，所以他们遇到问题的时候会先找父母帮忙（turn to… for help）。比如（For example,…）很多孩子想学画画，他们的父母每个星期送他们去上课[a lot of children want to learn drawing, and their parents take them to a class every week]。所以（As a result,…）有人支持的孩子可以坚持更久[children with support can keep going longer]，他们也能看到真的进步（see real progress）。而且孩子知道父母支持他们的时候会很开心[and children are very happy when they know their parents support them]。",
     "g": "关系",
     "p": ["mainly because…", "turn to… for help", "For example,…", "As a result,…", "see real progress"]
   },
   "new-long-held-ambition||Do you think parents should stop children from thinking too big?": {
-    "a": "我觉得父母不应该直接拦着孩子（Not really.）。最主要的原因是（The main reason is that…）孩子有大的梦想不是坏事[it is not a bad thing if children have big dreams]，父母可以帮他们分解目标（break it down into small steps）。比如（For example,…）如果孩子说他想当科学家，他的父母可以先让他学好这学期的数学[his parents can ask him to do well in maths this term]。所以（So…）父母不用马上说这件事不可能，因为孩子慢慢做也能看到真的进步（see real progress）。而且父母鼓励孩子的时候，孩子会更开心[and children are happier when their parents encourage them]。",
+    "a": "我觉得父母不应该直接拦着孩子（Not really.）。最主要的原因是（The main reason is that…）孩子有大的梦想不是坏事[it is not a bad thing if children have big dreams]，父母可以帮他们分解目标（break it down into small steps）。比如（For example,…）如果孩子说他想当科学家[if a child says he wants to be a scientist]，他的父母可以先让他学好这学期的数学[his parents can ask him to do well in maths this term]。所以（So…）父母不用马上说这件事不可能[parents do not need to say it is impossible right away]，因为孩子慢慢做也能看到真的进步（see real progress）。而且父母鼓励孩子的时候，孩子会更开心[and children are happier when their parents encourage them]。",
     "g": "目标",
     "p": ["Not really.", "The main reason is that…", "break it down into small steps", "For example,…", "So…", "see real progress"]
   },
   "new-environmental-law-story||What kinds of rules do schools in China have?": {
-    "a": "中国的学校有很多规定，学生都要遵守这些规定（stick to the rules）。最主要的原因是（The main reason is that…）学校里的人很多[there are a lot of people in a school]，所以规定可以保证大家的安全（keep people safe）。比如（For example,…）很多学校不让学生在教室里用手机，也不让他们在楼道里跑[a lot of schools do not let students use their phones in the classroom, and they do not let them run in the corridor]。所以（So…）我觉得这些规定很有必要。而且学生遵守规定的时候，同学之间也更少吵架[and students argue with each other less when they follow the rules]。",
+    "a": "我觉得中国学校的规矩主要是管纪律的[I think school rules in China are mainly about good behaviour]。最主要的原因是（The main reason is that…）学校里人很多[there are a lot of people at school]，得有统一的规矩[so there have to be the same rules for everyone]，大家才不会乱[so things don't get messy]。比如（For example,…）学生要穿校服、按时到校，上课不能玩手机[wear a uniform, arrive on time, no phones in class]。所以（So…）这些规矩听起来严[these rules sound strict]，但它们能保证大家安全（keep people safe）。",
     "g": "规矩",
-    "p": ["stick to the rules", "The main reason is that…", "keep people safe", "For example,…", "So…"]
+    "p": ["The main reason is that…", "For example,…", "So…", "keep people safe"]
   },
   "new-environmental-law-story||Do you think school rules are important?": {
-    "a": "我觉得校规很重要（Yes, definitely.）。主要是因为（mainly because…）如果学校有规定，学生就知道什么可以做[if a school has rules, students know what they can do]，而且学校里也更安全（keep people safe）。比如（For example,…）很多班级有值日表，每个学生管一天，所以教室一直很干净[every student cleans the classroom for one day, so the classroom is always clean]。所以（So…）我觉得学校不是随便定这些规矩的[schools do not make these rules for no reason]，每一条都有它的道理（it's there for a reason）。",
+    "a": "我觉得校规很重要（Yes, definitely.）。主要是因为（mainly because…）如果学校有规定，学生就知道什么可以做[if a school has rules, students know what they can do]，而且学校里也更安全（keep people safe）。比如（For example,…）很多班级有值日表[a lot of classes have a cleaning schedule]，每个学生管一天，所以教室一直很干净[every student cleans the classroom for one day, so the classroom is always clean]。所以（So…）我觉得学校不是随便定这些规矩的[schools do not make these rules for no reason]，每一条都有它的道理（it's there for a reason）。",
     "g": "规矩",
     "p": ["Yes, definitely.", "mainly because…", "keep people safe", "For example,…", "So…", "it's there for a reason"]
   },
   "new-environmental-law-story||Are children unhappy with the school rules?": {
-    "a": "这个看情况（It depends, but usually…），不过大部分孩子一开始会不高兴。主要是因为（mainly because…）学校不让他们用手机，所以他们觉得很不开心[so they feel very unhappy]，他们也觉得自己不自由[and they feel they are not free]。比如（For example,…）很多初中生刚入学的时候天天抱怨，可是过一段时间他们就习惯了[a lot of students complain when they start middle school, but they get used to it after a while]。所以（So…）他们长大以后就明白了，因为学校的规定都有原因（it's there for a reason）。而且他们看到同学都遵守规定，所以他们也不生气了[and they see their classmates follow the rules too, so they are not angry any more]。",
+    "a": "这个看情况（It depends, but usually…），不过大部分孩子一开始会不高兴[but most children are unhappy at first]。主要是因为（mainly because…）学校不让他们用手机[the school does not let them use their phones]，所以他们觉得很不开心[so they feel very unhappy]，他们也觉得自己不自由[and they feel they are not free]。比如（For example,…）很多初中生刚入学的时候天天抱怨，可是过一段时间他们就习惯了[a lot of students complain when they start middle school, but they get used to it after a while]。所以（So…）他们长大以后就明白了[they understand it when they grow up]，因为学校的规定都有原因（it's there for a reason）。而且他们看到同学都遵守规定，所以他们也不生气了[and they see their classmates follow the rules too, so they are not angry any more]。",
     "g": "情绪",
     "p": ["It depends, but usually…", "mainly because…", "For example,…", "So…", "it's there for a reason"]
   },
   "new-environmental-law-story||What are the rules people should obey at work?": {
-    "a": "我觉得上班最重要的是守时，而且每个人要负责自己的那部分（be responsible for one part of…）。最主要的原因是（The main reason is that…）公司定这些规定都有原因（it's there for a reason），所以我们照着做，事情会更顺利[so things go more smoothly if we follow them]。比如（For example,…）很多团队开始工作以前先说清楚谁管哪一块[a lot of teams decide who does which part before they start]，每个人做自己擅长的事（each do what we're good at）。所以这样比一个人做快很多（it's much faster than working alone）。",
+    "a": "我觉得上班最重要的是守时和守规矩（stick to the rules）。最主要的原因是（The main reason is that…）大家守一样的规矩[when everyone follows the same rules]，活儿才能顺顺利利[so the work goes smoothly]。比如（For example,…）大部分公司上班时间不让玩手机[most companies don't allow phones during work hours]，因为一分心就容易出错[they make mistakes if they lose focus]。所以（So…）这些规矩看着烦[these rules seem annoying]，其实是帮大家少出错、把事做好[they help everyone make fewer mistakes]。",
     "g": "规矩",
-    "p": ["be responsible for one part of…", "The main reason is that…", "it's there for a reason", "For example,…", "each do what we're good at", "it's much faster than working alone"]
+    "p": ["stick to the rules", "The main reason is that…", "For example,…", "So…"]
   },
   "new-environmental-law-story||What is the purpose of punishment?": {
-    "a": "我觉得惩罚是为了让人记住自己的错误[I think punishment helps people remember their mistakes]。最主要的原因是（The main reason is that…）如果没有惩罚，很多人不会认真遵守规定（stick to the rules）。比如（For example,…）司机闯红灯以后要交罚款，所以大家都会等绿灯[drivers have to pay a fine if they run a red light, so everyone waits for the green light]。所以（As a result,…）马路上和学校里都更安全（keep people safe）。而且大家也不用担心自己的家人[and people do not need to worry about their families]。",
+    "a": "我觉得惩罚是为了让大家把规矩当回事[so people take the rules seriously]。最主要的原因是（The main reason is that…）如果做错了没有任何后果[if nothing happens when you do wrong]，就没人会在意规矩[nobody cares about the rules]。比如（For example,…）在学校上课玩手机[if you play on your phone in class at school]，老师会把手机收走[the teacher takes the phone away]；开车闯红灯要罚款[you get a fine for running a red light]。所以（So…）惩罚不是为了吓人[punishment is not to scare people]，而是为了保护大家的安全（keep people safe）。",
     "g": "规矩",
-    "p": ["The main reason is that…", "stick to the rules", "For example,…", "As a result,…", "keep people safe"]
+    "p": ["The main reason is that…", "For example,…", "So…", "keep people safe"]
   },
   "new-environmental-law-story||How can parents and teachers help children understand and follow rules?": {
-    "a": "我觉得父母应该先给孩子讲清楚道理[explain the reason first]。主要是因为（mainly because…）孩子理解了这个原因以后，他们就愿意去做，而且他们知道每条规矩都有原因（it's there for a reason）。比如（For example,…）大部分父母会告诉孩子，为什么他们不可以在马路上跑[why they cannot run on the road]。所以（So…）我觉得大人应该先自己做到[adults should follow the rules first]，然后孩子会慢慢守规矩（stick to the rules）。",
+    "a": "我觉得父母应该先给孩子讲清楚道理[explain the reason first]。主要是因为（mainly because…）孩子理解了这个原因以后[after children understand the reason]，他们就愿意去做[they are willing to do it]，而且他们知道每条规矩都有原因（it's there for a reason）。比如（For example,…）大部分父母会告诉孩子[most parents tell their children]，为什么他们不可以在马路上跑[why they cannot run on the road]。所以（So…）我觉得大人应该先自己做到[adults should follow the rules first]，然后孩子会慢慢守规矩（stick to the rules）。",
     "g": "规矩",
     "p": ["mainly because…", "it's there for a reason", "For example,…", "So…", "stick to the rules"]
   },
   "new-animal-story||Should schools teach children about animals?": {
-    "a": "我觉得学校应该教孩子一些动物的知识（Yes, definitely.）。主要是因为（mainly because…）这样的课教你为别人着想（it teaches you to think about others），孩子会学着关心别的生命[children learn to care about other lives]。比如（For example,…）很多小学老师让学生一起照顾班里的小动物[look after a small animal together in class]，然后学生学会了跟别人合作[students learn to work with other people]。所以（So…）我觉得学校应该开这样的课，而且孩子上这种课的时候很开心[children are happy in this kind of lesson]。",
+    "a": "我觉得学校应该教孩子一些动物的知识（Yes, definitely.）。主要是因为（mainly because…）这样的课教你为别人着想（it teaches you to think about others），孩子会学着关心别的生命[children learn to care about other lives]。比如（For example,…）很多小学老师让学生一起照顾班里的小动物[look after a small animal together in class]，然后学生学会了跟别人合作[students learn to work with other people]。所以（So…）我觉得学校应该开这样的课[I think schools should offer this kind of lesson]，而且孩子上这种课的时候很开心[children are happy in this kind of lesson]。",
     "g": "关系",
     "p": ["Yes, definitely.", "mainly because…", "it teaches you to think about others", "For example,…", "So…"]
   },
   "new-animal-story||Some people think pets should not be kept in cities. What do you think?": {
-    "a": "我不太同意这个说法（Not really.）。主要是因为（mainly because…）宠物给主人很多陪伴[a pet gives the owner a lot of company]，而且养宠物是很大的责任（it's a big responsibility）。比如（For example,…）我们这里很多老人一个人住，他们的猫每天陪着他们[their cat keeps them company every day]。所以（So…）我觉得城里的人可以养宠物，很多人把宠物当成家里人（treat them as part of the family）。",
+    "a": "我不太同意这个说法（Not really.）。主要是因为（mainly because…）宠物给主人很多陪伴[a pet gives the owner a lot of company]，而且养宠物是很大的责任（it's a big responsibility）。比如（For example,…）我们这里很多老人一个人住[a lot of old people here live alone]，他们的猫每天陪着他们[their cat keeps them company every day]。所以（So…）我觉得城里的人可以养宠物[I think people in cities can keep pets]，很多人把宠物当成家里人（treat them as part of the family）。",
     "g": "关系",
     "p": ["Not really.", "mainly because…", "it's a big responsibility", "For example,…", "So…", "treat them as part of the family"]
   },
   "new-animal-story||Many people regard pets as members of their family. What do you think?": {
-    "a": "我同意，很多人把宠物当成家里人（treat them as part of the family）。主要是因为（mainly because…）他们每天喂宠物，也每天带宠物出门，所以他们对宠物有感情[they have a strong feeling for the pet]。比如（For example,…）我们这里很多人晚饭以后带狗出去走走（go for a walk after dinner），一家人一起走[the whole family walks together]。所以（So…）我觉得叫宠物家人很正常[it is normal to call a pet a family member]。而且宠物让家里人心情很好[the pet makes the family feel good]。",
+    "a": "我同意[I agree]，很多人把宠物当成家里人（treat them as part of the family）。主要是因为（mainly because…）他们每天喂宠物[they feed the pet every day]，也每天带宠物出门[and take it out every day]，所以他们对宠物有感情[they have a strong feeling for the pet]。比如（For example,…）我们这里很多人晚饭以后带狗出去走走（go for a walk after dinner），一家人一起走[the whole family walks together]。所以（So…）我觉得叫宠物家人很正常[it is normal to call a pet a family member]。而且宠物让家里人心情很好[the pet makes the family feel good]。",
     "g": "关系",
     "p": ["treat them as part of the family", "mainly because…", "For example,…", "go for a walk after dinner", "So…"]
   },
   "new-animal-story||Do many people keep pets in your country?": {
-    "a": "是的，我们国家养宠物的人很多（Yes, definitely.）。主要是因为（mainly because…）现在很多人一个人住[a lot of people live alone now]，他们回到家以后可以跟宠物一起放松（relax after a long day）。比如（For example,…）很多年轻人下班以后觉得很累，但是他们看到自己的狗就很开心[they feel happy when they see their dog]。所以（So…）我觉得现在养宠物很普遍[keeping pets is very common now]。而且宠物让很多人不觉得孤单[pets stop many people feeling lonely]。",
+    "a": "是的，我们国家养宠物的人很多（Yes, definitely.）。主要是因为（mainly because…）现在很多人一个人住[a lot of people live alone now]，他们回到家以后可以跟宠物一起放松（relax after a long day）。比如（For example,…）很多年轻人下班以后觉得很累[a lot of young people feel tired after work]，但是他们看到自己的狗就很开心[they feel happy when they see their dog]。所以（So…）我觉得现在养宠物很普遍[keeping pets is very common now]。而且宠物让很多人不觉得孤单[pets stop many people feeling lonely]。",
     "g": "情绪",
     "p": ["Yes, definitely.", "mainly because…", "relax after a long day", "For example,…", "So…"]
   },
   "new-animal-story||What are the advantages of keeping a pet?": {
-    "a": "我觉得最大的好处是宠物让人放松（relax after a long day）。主要是因为（mainly because…）很多人白天工作压力很大[they have a lot of stress at work]，他们回家以后需要一个东西陪着他们[they need something to keep them company]。比如（For example,…）很多人下班以后摸摸自己的猫，然后他们心情马上好一点。所以（So…）我觉得养宠物对心情很有帮助[it really helps your mood]。而且养宠物也教你为别人着想（it teaches you to think about others）。",
+    "a": "我觉得最大的好处是宠物让人放松（relax after a long day）。主要是因为（mainly because…）很多人白天工作压力很大[they have a lot of stress at work]，他们回家以后需要一个东西陪着他们[they need something to keep them company]。比如（For example,…）很多人下班以后摸摸自己的猫[a lot of people pat their cat after work]，然后他们心情马上好一点[then they feel better right away]。所以（So…）我觉得养宠物对心情很有帮助[it really helps your mood]。而且养宠物也教你为别人着想（it teaches you to think about others）。",
     "g": "情绪",
     "p": ["relax after a long day", "mainly because…", "For example,…", "So…", "it teaches you to think about others"]
   },
   "new-animal-story||Why do people always tell children stories with animals?": {
-    "a": "我觉得动物的故事对孩子来说很好懂（easy to follow）。主要是因为（mainly because…）孩子觉得大道理很无聊[children find big ideas boring]，但是他们很喜欢听小动物的故事。比如（For example,…）大部分父母会给孩子讲兔子和乌龟的故事[the story about the rabbit and the turtle]，然后孩子听得很开心[the children really enjoy it]。所以（So…）孩子更愿意听这样的故事。而且这样的故事教孩子为别人着想（it teaches you to think about others）。",
+    "a": "我觉得动物的故事对孩子来说很好懂（easy to follow）。主要是因为（mainly because…）孩子觉得大道理很无聊[children find big ideas boring]，但是他们很喜欢听小动物的故事[but they love listening to stories about small animals]。比如（For example,…）大部分父母会给孩子讲兔子和乌龟的故事[the story about the rabbit and the turtle]，然后孩子听得很开心[the children really enjoy it]。所以（So…）孩子更愿意听这样的故事[children are more willing to listen to this kind of story]。而且这样的故事教孩子为别人着想（it teaches you to think about others）。",
     "g": "情绪",
     "p": ["easy to follow", "mainly because…", "For example,…", "So…", "it teaches you to think about others"]
   },
   "new-ai-problem||What are the advantages and disadvantages of AI?": {
-    "a": "我觉得 AI 有好的一面，也有不好的一面（it has both good and bad sides）。最主要的原因是（The main reason is that…）AI 可以帮公司省钱（keep the costs down），但是公司花在 AI 上的钱也不少[companies also pay a lot for AI]。比如（For example,…）现在很多公司用 AI 写广告[many companies use AI to write their adverts]，然后他们一年省下很多钱[they save a lot of money in a year]。所以（As a result,…）我会用 AI，但是我不会相信我看到的每一句话（I don't believe everything I read）。",
+    "a": "我觉得 AI 有好的一面，也有不好的一面（it has both good and bad sides）。最主要的原因是（The main reason is that…）AI 可以帮公司省钱（save money），但是公司花在 AI 上的钱也不少[companies also pay a lot for AI]。比如（For example,…）现在很多公司用 AI 写广告[many companies use AI to write their adverts]，然后他们一年省下很多钱[they save a lot of money in a year]。所以（As a result,…）我会用 AI[I will use AI]，但是我不会全信 AI 说的话（I don't believe everything I read），我会自己查一查是不是真的（check if it's true）。",
     "g": "钱",
-    "p": ["it has both good and bad sides", "The main reason is that…", "keep the costs down", "For example,…", "As a result,…", "I don't believe everything I read"]
+    "p": ["it has both good and bad sides","The main reason is that…","save money","For example,…","As a result,…","I don't believe everything I read","check if it's true"]
   },
   "new-ai-problem||Do you think people today should learn about AI technology?": {
-    "a": "我觉得现在的人应该学一学 AI（Yes, definitely.）。最主要的原因是（The main reason is that…）会用 AI 的人有多得多的工作机会（many more job opportunities）。比如（For example,…）现在很多公司只招会用这些新工具的人[companies only hire people who can use these new tools]，而且他们给这样的员工更高的工资[they pay these workers more]。所以（As a result,…）我觉得我们应该早一点学会 AI，然后我们找工作会容易一点[it will be easier for us to find a job]。",
+    "a": "我觉得现在的人应该学一学 AI（Yes, definitely.）。最主要的原因是（The main reason is that…）会用 AI 的人有多得多的工作机会（many more job opportunities）。比如（For example,…）现在很多公司只招会用这些新工具的人[companies only hire people who can use these new tools]，而且他们给这样的员工更高的工资[they pay these workers more]。所以（As a result,…）我觉得我们应该早一点学会 AI[I think we should learn AI a bit earlier]，然后我们找工作会容易一点[it will be easier for us to find a job]。",
     "g": "钱",
     "p": ["Yes, definitely.", "The main reason is that…", "many more job opportunities", "For example,…", "As a result,…"]
   },
   "new-ai-problem||Should children learn to use AI?": {
-    "a": "这个要看情况（It depends, but usually…），我觉得孩子可以学，但是大人要在旁边看着。主要是因为（mainly because…）孩子自己控制不了时间[children cannot control their own time]，所以父母要在旁边帮他们[parents need to help them]。比如（For example,…）很多父母跟孩子一起用 AI 查东西[parents look things up with their children]，然后他们一起看这个答案对不对[they check the answer together]。所以（So…）我觉得孩子可以学 AI，但是大人要陪着他们，而且孩子应该少用一点（cut down on…）。",
+    "a": "这个要看情况（It depends, but usually…），我觉得孩子可以学[I think children can learn it]，但是大人要在旁边看着[but adults should watch them]。主要是因为（mainly because…）孩子自己控制不了时间[children cannot control their own time]，所以父母要在旁边帮他们[parents need to help them]。比如（For example,…）很多父母跟孩子一起用 AI 查东西[parents look things up with their children]，然后他们一起看这个答案对不对[they check the answer together]。所以（So…）我觉得孩子可以学 AI，但是大人要陪着他们[but adults should be with them]，一起查一查 AI 说的是不是真的（check if it's true）。",
     "g": "关系",
-    "p": ["It depends, but usually…", "mainly because…", "cut down on…", "For example,…", "So…"]
+    "p": ["It depends, but usually…","mainly because…","For example,…","So…","check if it's true"]
   },
   "new-ai-problem||How can AI help in our lives?": {
-    "a": "我觉得 AI 最有用的地方是它帮我们省钱[it saves us money]。最主要的原因是（The main reason is that…）以前我们要花钱请别人做事，但是现在 AI 几秒钟就做完了[AI finishes it in a few seconds]，这样我们可以省钱（keep the costs down）。比如（For example,…）现在很多人用 AI 写英文邮件[many people write English emails with AI]，然后他们不用花钱请别人翻译[they do not pay anyone to translate it]。所以（As a result,…）AI 帮我省了很多时间，但是我还会再检查一次答案（it saves me a lot of time, but…）。",
+    "a": "我觉得 AI 最有用的地方是它帮我们省钱[it saves us money]。最主要的原因是（The main reason is that…）以前我们要花钱请别人做事[in the past we had to pay others to do things]，但是现在 AI 几秒钟就做完了[AI finishes it in a few seconds]，这样我们可以省钱（save money）。比如（For example,…）现在很多人用 AI 写英文邮件[many people write English emails with AI]，然后他们不用花钱请别人翻译[they do not pay anyone to translate it]。所以（As a result,…）AI 帮我省了很多时间[AI saves me a lot of time]，但是它有时也会说错[but sometimes it is wrong]，所以我会自己查一查是不是真的（check if it's true）。",
     "g": "钱",
-    "p": ["The main reason is that…", "keep the costs down", "For example,…", "As a result,…", "it saves me a lot of time, but…"]
+    "p": ["The main reason is that…","save money","For example,…","As a result,…","check if it's true"]
   },
   "new-ai-problem||Do you think students are overly reliant on AI?": {
-    "a": "我觉得学生确实用得太多了（Yes, definitely.）。最主要的原因是（The main reason is that…）很多学生离开 AI 以后会很不安[many students feel uneasy without AI]，他们对自己没有信心[they have no confidence in themselves]。比如（For example,…）大部分学生考试的时候不能用手机，然后他们很紧张[then they get very nervous]。所以（As a result,…）我觉得学生应该少用一点（cut down on…），先自己想一想。",
+    "a": "我觉得学生确实用得太多了（Yes, definitely.）。最主要的原因是（The main reason is that…）很多学生离开 AI 以后会很不安[many students feel worried without AI]，他们对自己没有信心[they have no confidence in themselves]。比如（For example,…）大部分学生考试的时候不能用手机[most students cannot use phones during exams]，然后他们很紧张[then they get very nervous]。所以（As a result,…）我觉得学生应该少用一点（cut down on…），先自己想一想[and think for themselves first]，也要查一查 AI 说的是不是真的（check if it's true）。",
     "g": "情绪",
-    "p": ["Yes, definitely.", "The main reason is that…", "For example,…", "As a result,…", "cut down on…"]
+    "p": ["Yes, definitely.","The main reason is that…","For example,…","As a result,…","cut down on…","check if it's true"]
   },
   "new-ai-problem||What can teachers do to stop students relying too much on AI?": {
-    "a": "我觉得老师可以要求学生少用一点（cut down on…）。最主要的原因是（The main reason is that…）学生跟老师和同学在一起的时候，他们不好意思偷偷用 AI[they feel embarrassed to use AI quietly]。比如（For example,…）很多老师让学生先自己写十分钟，然后大家一起讨论这个题[then everyone discusses the question together]。所以（So…）老师可以把作业分成一小步一小步（break it down into small steps），而且老师可以让学生两个人一组做作业[students can work in pairs]。",
+    "a": "我觉得老师可以要求学生少用一点（cut down on…）。最主要的原因是（The main reason is that…）学生跟老师和同学在一起的时候[when students are together with teachers and classmates]，他们不好意思偷偷用 AI[they feel embarrassed to use AI quietly]。比如（For example,…）很多老师让学生先自己写十分钟[a lot of teachers let students write on their own for ten minutes first]，然后大家一起讨论这个题[then everyone discusses the question together]。所以（So…）老师可以把作业分成一小步一小步（break it down into small steps），而且老师可以让学生两个人一组做作业[students can work in pairs]。",
     "g": "关系",
     "p": ["cut down on…", "The main reason is that…", "For example,…", "So…", "break it down into small steps"]
   },
   "new-celebrity-advertisement||What are the advantages and disadvantages of advertisements?": {
-    "a": "我觉得广告有好的一面，也有不好的一面（it has both good and bad sides）。最主要的原因是（The main reason is that…）好的广告告诉你哪里的东西便宜，而且你很容易记住它（you remember it easily）。比如（For example,…）很多人在手机上看到超市打折的广告[an advert about a supermarket sale]，然后第二天他们去这家超市买东西，这样他们省了钱[they save money]。但是有些广告不太老实（some ads are not honest），所以（As a result,…）我看广告的时候会小心一点[I am careful when I watch ads]。",
+    "a": "我觉得广告有好的一面，也有不好的一面（it has both good and bad sides）。最主要的原因是（The main reason is that…）好的广告告诉你哪里的东西便宜[a good advert tells you where things are cheap]，而且你很容易记住它（you remember it easily）。比如（For example,…）很多人在手机上看到超市打折的广告[an advert about a supermarket sale]，然后第二天他们去这家超市买东西[the next day they go to this supermarket to buy things]，这样他们省了钱[they save money]。但是有些广告不太老实（some ads are not honest），所以（As a result,…）我看广告的时候会小心一点[I am careful when I watch ads]。",
     "g": "钱",
     "p": ["it has both good and bad sides", "The main reason is that…", "you remember it easily", "For example,…", "some ads are not honest", "As a result,…"]
   },
   "new-celebrity-advertisement||Why are many advertisements endorsed by celebrities? How useful are they?": {
-    "a": "我觉得名人出现的时候，广告很容易抓住你的注意力（it catches your attention）。最主要的原因是（The main reason is that…）公司想卖更多东西，而且明星让你很容易记住这个广告（you remember it easily）。比如（For example,…）现在很多年轻人很喜欢一个歌手，然后他们愿意多花钱买他广告里的饮料[they pay more for the drink in his advert]。所以（So…）这种广告很有用，公司可以卖出更多东西[the company can sell a lot more]，但是有些广告不太老实（some ads are not honest）。",
+    "a": "我觉得名人出现的时候[when a celebrity appears]，广告很容易抓住你的注意力（it catches your attention）。最主要的原因是（The main reason is that…）公司想卖更多东西[companies want to sell more]，而且明星让你很容易记住这个广告（you remember it easily）。比如（For example,…）现在很多年轻人很喜欢一个歌手[a lot of young people really like a singer]，然后他们愿意多花钱买他广告里的饮料[they pay more for the drink in his advert]。所以（So…）这种广告很有用[this kind of advert is very useful]，公司可以卖出更多东西[the company can sell a lot more]，但是有些广告不太老实（some ads are not honest）。",
     "g": "钱",
     "p": ["it catches your attention", "The main reason is that…", "you remember it easily", "For example,…", "So…", "some ads are not honest"]
   },
   "new-celebrity-advertisement||What is the most important factor in an advertisement?": {
-    "a": "我觉得最重要的是广告要抓住人的注意力（it catches your attention）。最主要的原因是（The main reason is that…）大家看手机的速度很快，如果广告很无聊，他们马上划走了[they scroll away at once]。比如（For example,…）很多人看到一个很好笑的开头，然后他们会看完整个广告[they watch the whole advert]。所以（So…）好的广告让你很容易记住这个牌子（you remember it easily）。而且好的广告可以帮公司卖出更多东西[the company can sell a lot more]。",
+    "a": "我觉得最重要的是广告要抓住人的注意力（it catches your attention）。最主要的原因是（The main reason is that…）大家看手机的速度很快[people scroll through their phones very fast]，如果广告很无聊[if an advert is boring]，他们马上划走了[they scroll away at once]。比如（For example,…）很多人看到一个很好笑的开头[a lot of people see a very funny opening]，然后他们会看完整个广告[they watch the whole advert]。所以（So…）好的广告让你很容易记住这个牌子（you remember it easily）。而且好的广告可以帮公司卖出更多东西[the company can sell a lot more]。",
     "g": "情绪",
     "p": ["it catches your attention", "The main reason is that…", "For example,…", "So…", "you remember it easily"]
   },
   "new-celebrity-advertisement||Why are some advertisements boring?": {
-    "a": "我觉得有些广告很无聊。最主要的原因是（The main reason is that…）它们每次都说一样的话[they say the same thing every time]，所以大家看的时候觉得很烦[people feel annoyed]，它们不能抓住你的注意力（it catches your attention）。比如（For example,…）很多人在电视上看到卖保健品的广告，然后他们觉得很烦，他们马上换台[they change the channel at once]。所以（As a result,…）大部分人不喜欢这样的广告，而且有些广告不太老实（some ads are not honest）。",
+    "a": "我觉得有些广告很无聊[I think some adverts are very boring]。最主要的原因是（The main reason is that…）它们每次都说一样的话[they say the same thing every time]，所以大家看的时候觉得很烦[people feel annoyed]，它们不能抓住你的注意力（it catches your attention）。比如（For example,…）很多人在电视上看到卖保健品的广告[a lot of people see adverts for health products on TV]，然后他们觉得很烦[then they feel annoyed]，他们马上换台[they change the channel at once]。所以（As a result,…）大部分人不喜欢这样的广告[most people do not like this kind of advert]，而且有些广告不太老实（some ads are not honest）。",
     "g": "情绪",
     "p": ["it catches your attention", "The main reason is that…", "For example,…", "As a result,…", "some ads are not honest"]
   },
   "new-celebrity-advertisement||Is advertising important for a company? Why?": {
-    "a": "我觉得广告对一个公司很重要（Yes, definitely.）。最主要的原因是（The main reason is that…）如果没有人知道这个产品，公司就赚不到钱[the company cannot make money]，而且我一般也在手机上看到新的牌子（I usually see… on my phone）。比如（For example,…）很多人先在手机上看到广告，然后他们去商店买这个东西[then they buy it in the shop]，这样公司就赚到钱了[the company makes money]。所以（So…）我觉得公司应该花钱做广告，因为好广告会抓住人的注意力（it catches your attention）。",
+    "a": "我觉得广告对一个公司很重要（Yes, definitely.）。最主要的原因是（The main reason is that…）如果没有人知道这个产品[if nobody knows about the product]，公司就赚不到钱[the company cannot make money]，而且我一般也在手机上看到新的牌子（I usually see… on my phone）。比如（For example,…）很多人先在手机上看到广告[a lot of people see the advert on their phone first]，然后他们去商店买这个东西[then they buy it in the shop]，这样公司就赚到钱了[the company makes money]。所以（So…）我觉得公司应该花钱做广告[I think companies should spend money on ads]，因为好广告会抓住人的注意力（it catches your attention）。",
     "g": "钱",
     "p": ["Yes, definitely.", "The main reason is that…", "For example,…", "I usually see… on my phone", "So…", "it catches your attention"]
   },
   "new-celebrity-advertisement||Which is more effective, online advertising or offline advertising?": {
-    "a": "跟路边的大广告牌比（Compared with…），我觉得手机上的广告更有用。最主要的原因是（The main reason is that…）在手机上做广告更便宜，公司可以省钱（keep the costs down），而且看到的人更多。比如（For example,…）现在很多小公司只花很少的钱在手机上做广告[they spend very little money on phone adverts]，然后很多人看到了这些广告[a lot of people see them]。所以（So…）我觉得线上广告更好，我一般也在手机上看到广告（I usually see… on my phone）。",
+    "a": "跟路边的大广告牌比（Compared with…），我觉得手机上的广告更有用[I think adverts on the phone are more useful]。最主要的原因是（The main reason is that…）在手机上做广告更便宜[advertising on the phone is cheaper]，公司可以省钱（save money），而且看到的人更多[and more people see it]。比如（For example,…）现在很多小公司只花很少的钱在手机上做广告[they spend very little money on phone adverts]，然后很多人看到了这些广告[a lot of people see them]。所以（So…）我觉得线上广告更好[I think online ads are better]，我一般也在手机上看到广告（I usually see… on my phone）。",
     "g": "钱",
-    "p": ["Compared with…", "The main reason is that…", "keep the costs down", "For example,…", "I usually see… on my phone", "So…"]
+    "p": ["Compared with…", "The main reason is that…", "save money", "For example,…", "I usually see… on my phone", "So…"]
   },
   "new-recent-program||What are the differences between the TV programs young people like to watch and those old people like to watch?": {
-    "a": "年轻人喜欢看好笑的节目。老人正好相反（By contrast,…），他们喜欢看慢一点的节目。最主要的原因是（The main reason is that…）年轻人上一天班以后很累，他们只想放松一下（relax after a long day）。比如（For example,…）现在很多年轻人晚上看好笑的短视频，然后他们心情好一点[they feel better]。大部分老人看慢一点的新闻节目，因为这样他们觉得很安心[they feel calm]。所以（So…）两代人看的节目很不一样[the two groups watch different programmes]。",
+    "a": "年轻人喜欢看好笑的节目[young people like watching funny programmes]。老人正好相反（By contrast,…），他们喜欢看慢一点的节目[they like watching slower programmes]。最主要的原因是（The main reason is that…）年轻人上一天班以后很累[young people are tired after a day at work]，他们只想放松一下（relax after a long day）。比如（For example,…）现在很多年轻人晚上看好笑的短视频[a lot of young people watch funny short videos at night]，然后他们心情好一点[they feel better]。大部分老人看慢一点的新闻节目[most old people watch slower news programmes]，因为这样他们觉得很安心[they feel calm]。所以（So…）两代人看的节目很不一样[the two groups watch different programmes]。",
     "g": "情绪",
     "p": ["By contrast,…", "The main reason is that…", "relax after a long day", "For example,…", "So…"]
   },
   "new-recent-program||What makes a popular TV or online program?": {
-    "a": "我觉得受欢迎的节目要轻松，也要好懂（easy to follow）。最主要的原因是（The main reason is that…）大家打开电视的时候，他们只想放松一下（relax after a long day）。比如（For example,…）现在很多人喜欢看做饭的节目，因为他们看的时候觉得很轻松[they feel relaxed when they watch it]。所以（So…）好的节目帮我忘掉工作上的事（it helps me forget about…），这样的节目最容易火[this kind of programme becomes popular easily]。",
+    "a": "我觉得受欢迎的节目要轻松[a popular programme should be relaxing]，也要好懂（easy to follow）。最主要的原因是（The main reason is that…）大家打开电视的时候[when people turn on the TV]，他们只想放松一下（relax after a long day）。比如（For example,…）现在很多人喜欢看做饭的节目[a lot of people like watching cooking programmes]，因为他们看的时候觉得很轻松[they feel relaxed when they watch it]。所以（So…）好的节目帮我忘掉工作上的事（it helps me forget about…），这样的节目最容易火[this kind of programme becomes popular easily]。",
     "g": "情绪",
     "p": ["easy to follow", "The main reason is that…", "relax after a long day", "For example,…", "it helps me forget about…", "So…"]
   },
   "new-recent-program||What kinds of TV or online programs are popular in your country?": {
-    "a": "现在最火的是短视频，我一般在手机上看这些视频（I usually see… on my phone）。最主要的原因是（The main reason is that…）大家上一天班以后很累，他们看短视频的时候觉得很轻松[they feel relaxed when they watch them]，而且这种节目很好懂（easy to follow）。比如（For example,…）很多人坐地铁的时候看几分钟短视频，然后他们心情好一点[they feel better]，下班以后他们也可以放松一下（relax after a long day）。所以（So…）我觉得这类节目在我们这里最受欢迎。",
+    "a": "现在最火的是短视频[short videos are the most popular now]，我一般在手机上看这些视频（I usually see… on my phone）。最主要的原因是（The main reason is that…）大家上一天班以后很累[people are tired after a day at work]，他们看短视频的时候觉得很轻松[they feel relaxed when they watch them]，而且这种节目很好懂（easy to follow）。比如（For example,…）很多人坐地铁的时候看几分钟短视频[a lot of people watch short videos for a few minutes on the subway]，然后他们心情好一点[they feel better]，下班以后他们也可以放松一下（relax after a long day）。所以（So…）我觉得这类节目在我们这里最受欢迎[I think this kind of programme is the most popular here]。",
     "g": "情绪",
     "p": ["I usually see… on my phone", "The main reason is that…", "easy to follow", "For example,…", "relax after a long day", "So…"]
   },
   "new-special-occasion-food||Why are there special foods on special occasions or events?": {
-    "a": "我觉得节日有特别的食物，因为大家想让那一天跟平时不一样[different from other days]。最主要的原因是（The main reason is that…）平时大家在家做点简单的东西（cook something simple at home），但是过节的时候全家想一起吃好一点。比如（For example,…）大部分中国家庭过年的时候做很多菜[they cook a lot of dishes at Chinese New Year]，然后全家人一起吃。所以（So…）吃什么不重要，重要的是那份心意（it's the thought that counts）。",
+    "a": "我觉得节日有特别的食物[festivals have special food]，因为大家想让那一天跟平时不一样[different from other days]。最主要的原因是（The main reason is that…）平时大家在家做点简单的东西（cook something simple at home），但是过节的时候全家想一起吃好一点[but on festival days the whole family wants to eat a bit better together]。比如（For example,…）大部分中国家庭过年的时候做很多菜[they cook a lot of dishes at Chinese New Year]，然后全家人一起吃[then the whole family eats together]。所以（So…）吃什么不重要[what you eat is not important]，重要的是那份心意（it's the thought that counts）。",
     "g": "关系",
     "p": ["The main reason is that…", "cook something simple at home", "For example,…", "So…", "it's the thought that counts"]
   },
   "new-special-occasion-food||What are the differences between everyday food and festival food?": {
-    "a": "我觉得平时大家吃得很简单，很多人在家做点简单的东西（cook something simple at home）。最主要的原因是（The main reason is that…）平时大家上班很忙，只有过节的时候他们有时间跟家人坐下来[they have time to sit down with their family]。比如（For example,…）很多上班的人中午跟朋友在外面吃饭（eat out with friends），他们吃得很快。所以（So…）区别不在食物，区别在时间[the difference is the time]。",
+    "a": "我觉得平时大家吃得很简单[I think people usually eat quite simply]，很多人在家做点简单的东西（cook something simple at home）。最主要的原因是（The main reason is that…）平时大家上班很忙[people are usually busy at work]，只有过节的时候他们有时间跟家人坐下来[they have time to sit down with their family]。比如（For example,…）很多上班的人中午跟朋友在外面吃饭（eat out with friends），他们吃得很快[they eat very quickly]。所以（So…）区别不在食物[the difference is not the food]，区别在时间[the difference is the time]。",
     "g": "关系",
     "p": ["cook something simple at home", "The main reason is that…", "For example,…", "eat out with friends", "So…"]
   },
   "new-special-occasion-food||Are there any differences between the food people eat today and the food people ate in the past?": {
-    "a": "跟过去比（Compared with…），我觉得现在的选择多得多（there's a lot more choice now）。最主要的原因是（The main reason is that…）现在超市里什么都有，而且价钱也不贵。比如（For example,…）以前很多家庭冬天只吃白菜和土豆，因为水果太贵了[fruit was too expensive]。但是现在水果很便宜，所以大部分家庭冬天也买得起[they can afford it in winter]。所以（So…）我觉得现在的人吃得比以前好很多。",
+    "a": "跟过去比（Compared with…），我觉得现在的选择多得多（there's a lot more choice now）。最主要的原因是（The main reason is that…）现在超市里什么都有[supermarkets have everything now]，而且价钱也不贵[and it is not expensive]。比如（For example,…）以前很多家庭冬天只吃白菜和土豆[in the past many families only ate cabbage and potatoes in winter]，因为水果太贵了[fruit was too expensive]。但是现在水果很便宜[but now fruit is very cheap]，所以大部分家庭冬天也买得起[they can afford it in winter]。所以（So…）我觉得现在的人吃得比以前好很多[I think people eat much better now than in the past]。",
     "g": "钱",
     "p": ["Compared with…", "there's a lot more choice now", "The main reason is that…", "For example,…", "So…"]
   },
   "new-special-occasion-food||Do people today prefer eating at home or in a restaurant?": {
-    "a": "这个要看情况（It depends, but usually…），不过我觉得大部分人更喜欢出去吃。最主要的原因是（The main reason is that…）他们下班以后很累，不想做饭，而且他们喜欢跟朋友在外面吃饭（eat out with friends）。比如（For example,…）很多年轻人下班以后跟同事一起去外面吃饭，然后他们一起聊很久[they chat together for a long time]。所以（So…）现在很多人不做饭了，以前他们常常在家做点简单的东西（cook something simple at home）。而且在外面吃饭的时候，他们可以跟朋友多聊几句[they can chat more with their friends]。",
+    "a": "这个要看情况（It depends, but usually…），不过我觉得大部分人更喜欢出去吃[but I think most people prefer to eat out]。最主要的原因是（The main reason is that…）他们下班以后很累[they are tired after work]，不想做饭[they don't want to cook]，而且他们喜欢跟朋友在外面吃饭（eat out with friends）。比如（For example,…）很多年轻人下班以后跟同事一起去外面吃饭[many young people go out to eat with workmates after work]，然后他们一起聊很久[they chat together for a long time]。所以（So…）现在很多人不做饭了[now a lot of people don't cook anymore]，以前他们常常在家做点简单的东西（cook something simple at home）。而且在外面吃饭的时候，他们可以跟朋友多聊几句[they can chat more with their friends]。",
     "g": "关系",
     "p": ["It depends, but usually…", "The main reason is that…", "eat out with friends", "For example,…", "So…", "cook something simple at home"]
   },
   "new-live-sports-event||Why do some people like to watch sports events?": {
-    "a": "很多人喜欢看比赛，因为看比赛的时候他们可以忘掉不开心的事[they forget unhappy things]。最主要的原因是（The main reason is that…）大家平时压力很大，他们看一场球可以放松一下（relax after a long day）。比如（For example,…）很多人周末跟朋友一起看球赛[they watch a match with friends at the weekend]，然后他们心情很好。所以（So…）看比赛帮我忘掉工作上的事（it helps me forget about…）。",
+    "a": "很多人喜欢看比赛[a lot of people like watching matches]，因为看比赛的时候他们可以忘掉不开心的事[they forget unhappy things]。最主要的原因是（The main reason is that…）大家平时压力很大[people are usually under a lot of pressure]，他们看一场球可以放松一下（relax after a long day）。比如（For example,…）很多人周末跟朋友一起看球赛[they watch a match with friends at the weekend]，然后他们心情很好[and they feel good]。所以（So…）看比赛帮我忘掉工作上的事（it helps me forget about…）。",
     "g": "情绪",
     "p": ["it helps me forget about…", "The main reason is that…", "relax after a long day", "For example,…", "So…"]
   },
   "new-live-sports-event||Where do people normally watch sports events?": {
-    "a": "我觉得大部分人在家里看比赛，我一般在手机上看（I usually see… on my phone）。最主要的原因是（The main reason is that…）去现场很贵，也很花时间，在家看可以省钱（keep the costs down）。比如（For example,…）很多人看一场现场比赛要花好几百块钱[a few hundred yuan for one match]，而且他们开车去的时候还会堵在路上（get stuck in traffic）。所以（So…）我觉得在家看比赛的人更多，因为在家看很便宜，也很方便[it is cheap and easy at home]。",
+    "a": "我觉得大部分人在家里看比赛[I think most people watch matches at home]，我一般在手机上看（I usually see… on my phone）。最主要的原因是（The main reason is that…）去现场很贵[going to the stadium is expensive]，也很花时间[and it takes a lot of time]，在家看可以省钱（save money）。比如（For example,…）很多人看一场现场比赛要花好几百块钱[a few hundred yuan for one match]，而且他们开车去的时候还会堵在路上（get stuck in traffic）。所以（So…）我觉得在家看比赛的人更多[I think more people watch matches at home]，因为在家看很便宜，也很方便[it is cheap and easy at home]。",
     "g": "钱",
-    "p": ["I usually see… on my phone", "The main reason is that…", "keep the costs down", "For example,…", "get stuck in traffic", "So…"]
+    "p": ["I usually see… on my phone", "The main reason is that…", "save money", "For example,…", "get stuck in traffic", "So…"]
   },
   "new-live-sports-event||What are the advantages of watching sports events online?": {
-    "a": "我觉得网上看最方便，我一般在手机上看比赛（I usually see… on my phone）。最主要的原因是（The main reason is that…）我们不用出门，也不用买票，这样可以省钱（keep the costs down）。比如（For example,…）很多人在手机上免费看完一场球[they watch a whole match for free]，但是现场的票要好几百块[the ticket costs a few hundred yuan]。所以（As a result,…）网上看比赛帮我省了很多时间，但是气氛差一点（it saves me a lot of time, but…）。",
+    "a": "我觉得网上看最方便[I think watching online is the easiest]，我一般在手机上看比赛（I usually see… on my phone）。最主要的原因是（The main reason is that…）我们不用出门[we don't have to go out]，也不用买票[and we don't have to buy tickets]，这样可以省钱（save money）。比如（For example,…）很多人在手机上免费看完一场球[they watch a whole match for free]，但是现场的票要好几百块[the ticket costs a few hundred yuan]。所以（As a result,…）网上看比赛帮我省了很多时间，但是气氛差一点（it saves me a lot of time, but…）。",
     "g": "钱",
-    "p": ["I usually see… on my phone", "The main reason is that…", "keep the costs down", "For example,…", "As a result,…", "it saves me a lot of time, but…"]
+    "p": ["I usually see… on my phone", "The main reason is that…", "save money", "For example,…", "As a result,…", "it saves me a lot of time, but…"]
   },
   "new-live-sports-event||What sports matches are suitable for children to attend?": {
-    "a": "我觉得学校里的小比赛最适合孩子看。最主要的原因是（The main reason is that…）这种比赛人不多，孩子不会觉得害怕[children do not feel scared]，而且他们看得懂（easy to follow）。比如（For example,…）很多父母带孩子去看学校的运动会[the school sports day]，然后孩子看得很开心。所以（So…）孩子可以先看小比赛，而且他们还可以出去呼吸新鲜空气（get some fresh air）。",
+    "a": "我觉得学校里的小比赛最适合孩子看[I think small matches at school suit children best]。最主要的原因是（The main reason is that…）这种比赛人不多[there are not many people at these matches]，孩子不会觉得害怕[children do not feel scared]，而且他们看得懂（easy to follow）。比如（For example,…）很多父母带孩子去看学校的运动会[the school sports day]，然后孩子看得很开心[and the children enjoy it a lot]。所以（So…）孩子可以先看小比赛[children can start with small matches]，而且他们还可以出去呼吸新鲜空气（get some fresh air）。",
     "g": "情绪",
     "p": ["The main reason is that…", "easy to follow", "For example,…", "So…", "get some fresh air"]
   },
   "new-live-sports-event||Why do some people spend a lot going to other countries to watch sports events?": {
-    "a": "他们愿意花这个钱，因为现场跟手机上完全不一样，我一般在手机上看比赛（I usually see… on my phone）。最主要的原因是（The main reason is that…）他们平时工作很累，出去一次可以好好放松（relax after a long day）。比如（For example,…）很多球迷坐几个小时的车去别的城市看球[they travel for hours to another city]，然后他们在现场特别兴奋[they feel really excited at the ground]。所以（So…）看现场比赛帮我忘掉工作上的事（it helps me forget about…）。而且很多人觉得这个钱花得值[it is worth the money]。",
+    "a": "他们愿意花这个钱[they are willing to spend this money]，因为现场跟手机上完全不一样[watching live is completely different from watching on a phone]，我一般在手机上看比赛（I usually see… on my phone）。最主要的原因是（The main reason is that…）他们平时工作很累[they are usually tired from work]，出去一次可以好好放松（relax after a long day）。比如（For example,…）很多球迷坐几个小时的车去别的城市看球[they travel for hours to another city]，然后他们在现场特别兴奋[they feel really excited at the ground]。所以（So…）看现场比赛帮我忘掉工作上的事（it helps me forget about…）。而且很多人觉得这个钱花得值[it is worth the money]。",
     "g": "情绪",
     "p": ["I usually see… on my phone", "The main reason is that…", "relax after a long day", "For example,…", "it helps me forget about…", "So…"]
   },
   "new-live-sports-event||What sports games are popular in your country?": {
-    "a": "我们这里最受欢迎的是篮球和乒乓球，大人和孩子都喜欢打。最主要的原因是（The main reason is that…）这两种运动花钱很少（keep the costs down），你只要买一个球拍[you only need to buy a bat]。比如（For example,…）很多人晚饭以后出去走一走（go for a walk after dinner），然后他们在公园里免费打球[they play for free in the park]。所以（So…）我觉得这两种运动最普及[these two sports are the most common]。",
+    "a": "我们这里最受欢迎的是篮球和乒乓球[the most popular sports here are basketball and table tennis]，大人和孩子都喜欢打[both adults and children like playing them]。最主要的原因是（The main reason is that…）这两种运动花钱很少（save money），你只要买一个球拍[you only need to buy a bat]。比如（For example,…）很多人晚饭以后出去走一走（go for a walk after dinner），然后他们在公园里免费打球[they play for free in the park]。所以（So…）我觉得这两种运动最普及[these two sports are the most common]。",
     "g": "钱",
-    "p": ["The main reason is that…", "keep the costs down", "For example,…", "go for a walk after dinner", "So…"]
+    "p": ["The main reason is that…", "save money", "For example,…", "go for a walk after dinner", "So…"]
   },
   "new-general-law||What rules should students follow at school?": {
-    "a": "我觉得学生应该按时上课，也应该按时交作业，这就是守规矩（stick to the rules）。主要是因为（mainly because…）学校里人很多，一样的规矩可以保证大家安全（keep people safe）。比如（For example,…）大部分学校晚上有门禁[most schools have a curfew at night]，学生一开始觉得很烦[at first the students think it is annoying]。所以（So…）我觉得学校的每条规矩都有它的原因（it's there for a reason）。",
+    "a": "我觉得学生应该按时上课[I think students should go to class on time]，也应该按时交作业[and hand in their homework on time]，这就是守规矩（stick to the rules）。主要是因为（mainly because…）学校里人很多[there are a lot of people at school]，一样的规矩可以保证大家安全（keep people safe）。比如（For example,…）大部分学校晚上有门禁[most schools have a set time to be back at night]，学生一开始觉得很烦[at first the students think it is annoying]。所以（So…）我觉得学校的每条规矩都有它的原因（it's there for a reason）。",
     "g": "规矩",
     "p": ["stick to the rules", "mainly because…", "keep people safe", "For example,…", "So…", "it's there for a reason"]
   },
   "new-general-law||Do people in your country usually obey the law?": {
-    "a": "我觉得我们国家大部分人都守法（Yes, definitely.）。最主要的原因是（The main reason is that…）大家知道这些规定可以保证大家安全（keep people safe），而且不守法的人要罚钱[they have to pay a fine]。比如（For example,…）很多人晚上过马路的时候，路上没有车，他们也会等红灯[they still wait for the green light]。所以（So…）我觉得大部分人愿意守规矩（stick to the rules）。",
+    "a": "我觉得我们国家大部分人都守法（Yes, definitely.）。最主要的原因是（The main reason is that…）大家知道这些规定可以保证大家安全（keep people safe），而且不守法的人要罚钱[they have to pay a fine]。比如（For example,…）很多人晚上过马路的时候[when a lot of people cross the road at night]，路上没有车[there are no cars on the road]，他们也会等红灯[they still wait for the green light]。所以（So…）我觉得大部分人愿意守规矩（stick to the rules）。",
     "g": "规矩",
     "p": ["Yes, definitely.", "The main reason is that…", "keep people safe", "For example,…", "So…", "stick to the rules"]
   },
   "new-general-law||What kinds of behavior are considered as good behavior?": {
-    "a": "我觉得对别人有礼貌，还有愿意帮别人，这就是好行为。最主要的原因是（The main reason is that…）一件很小的事情就可以给别人带来改变（make a difference to other people）。比如（For example,…）很多年轻人在地铁上给老人让座[they give their seat to an old person]，然后老人一天心情都很好。所以（So…）我们应该多想想别人，这是每个人的责任（it's everyone's responsibility）。",
+    "a": "我觉得对别人有礼貌[I think being polite to others]，还有愿意帮别人[and being willing to help others]，这就是好行为[this is good behaviour]。最主要的原因是（The main reason is that…）一件很小的事情就可以给别人带来改变（make a difference to other people）。比如（For example,…）很多年轻人在地铁上给老人让座[they give their seat to an old person]，然后老人一天心情都很好[and the old person feels happy all day]。所以（So…）我们应该多想想别人[we should think about others more]，这是每个人的责任（it's everyone's responsibility）。",
     "g": "关系",
     "p": ["The main reason is that…", "make a difference to other people", "For example,…", "So…", "it's everyone's responsibility"]
   },
   "new-general-law||Do you think children can learn about the law outside of school?": {
-    "a": "我觉得孩子在学校外面也可以学到法律（Yes, definitely.）。最主要的原因是（The main reason is that…）生活里到处都有规矩，每一条都有它的原因（it's there for a reason）。比如（For example,…）大部分父母过马路的时候会告诉孩子，我们要等绿灯[we have to wait for the green light]。所以（So…）孩子这样学，他们记得更清楚，长大以后也愿意守规矩（stick to the rules）。",
+    "a": "我觉得孩子在学校外面也可以学到法律（Yes, definitely.）。最主要的原因是（The main reason is that…）生活里到处都有规矩[there are rules everywhere in life]，每一条都有它的原因（it's there for a reason）。比如（For example,…）大部分父母过马路的时候会告诉孩子[most parents tell their children when they cross the road]，我们要等绿灯[we have to wait for the green light]。所以（So…）孩子这样学[when children learn this way]，他们记得更清楚[they remember it better]，长大以后也愿意守规矩（stick to the rules）。",
     "g": "规矩",
     "p": ["Yes, definitely.", "The main reason is that…", "it's there for a reason", "For example,…", "So…", "stick to the rules"]
   },
   "new-general-law||What are the benefits for people to obey rules?": {
-    "a": "我觉得最大的好处是规矩可以保证大家安全（keep people safe）。最主要的原因是（The main reason is that…）如果每个人都守规矩（stick to the rules），事情就不会乱[things do not get messy]。比如（For example,…）早上很多人坐地铁的时候排队上车，然后大家上车更快[everyone gets on faster]。所以（So…）守规矩看起来很麻烦，但是这是每个人的责任（it's everyone's responsibility）。",
+    "a": "我觉得最大的好处是规矩可以保证大家安全（keep people safe）。最主要的原因是（The main reason is that…）如果每个人都守规矩（stick to the rules），事情就不会乱[things do not get messy]。比如（For example,…）早上很多人坐地铁的时候排队上车[in the morning a lot of people queue to get on the metro]，然后大家上车更快[everyone gets on faster]。所以（So…）守规矩看起来很麻烦[following the rules seems like a lot of trouble]，但是这是每个人的责任（it's everyone's responsibility）。",
     "g": "规矩",
     "p": ["keep people safe", "The main reason is that…", "stick to the rules", "For example,…", "So…", "it's everyone's responsibility"]
   },
   "new-general-law||How can parents teach children to obey rules?": {
-    "a": "我觉得父母应该先告诉孩子，这条规矩有它的原因（it's there for a reason）。最主要的原因是（The main reason is that…）孩子知道这条规矩可以保证他安全（keep people safe），然后他就愿意听。比如（For example,…）大部分父母会告诉孩子，马路上的车开得很快[the cars on the road go very fast]，然后孩子会站着等。所以（So…）讲道理比骂孩子有用，孩子长大以后也愿意守规矩（stick to the rules）。",
+    "a": "我觉得父母应该先告诉孩子[I think parents should tell their children first]，这条规矩有它的原因（it's there for a reason）。最主要的原因是（The main reason is that…）孩子知道这条规矩可以保证他安全（keep people safe），然后他就愿意听[and then they are willing to listen]。比如（For example,…）大部分父母会告诉孩子[most parents tell their children]，马路上的车开得很快[the cars on the road go very fast]，然后孩子会站着等[and the child will stand and wait]。所以（So…）讲道理比骂孩子有用[explaining works better than shouting at them]，孩子长大以后也愿意守规矩（stick to the rules）。",
     "g": "规矩",
     "p": ["it's there for a reason", "The main reason is that…", "keep people safe", "For example,…", "So…", "stick to the rules"]
   },
   "new-interesting-video||What kind of videos do people in your country like to watch?": {
-    "a": "大家最喜欢看短视频，我一般也在手机上看（I usually see… on my phone）。最主要的原因是（The main reason is that…）大家上一天班以后很累，他们看这种视频的时候很放松[they feel relaxed when they watch them]，而且谁都看得懂（easy to follow）。比如（For example,…）很多人晚上躺在床上看半个小时好笑的短视频[funny short videos for half an hour]，然后他们心情好很多[they feel much better]。所以（So…）短视频在我们这里最受欢迎，因为看视频帮我忘掉白天的烦心事（it helps me forget about…）。",
+    "a": "大家最喜欢看短视频[people like watching short videos the most]，我一般也在手机上看（I usually see… on my phone）。最主要的原因是（The main reason is that…）大家上一天班以后很累[people are tired after a day at work]，他们看这种视频的时候很放松[they feel relaxed when they watch them]，而且谁都看得懂（easy to follow）。比如（For example,…）很多人晚上躺在床上看半个小时好笑的短视频[funny short videos for half an hour]，然后他们心情好很多[they feel much better]。所以（So…）短视频在我们这里最受欢迎[short videos are the most popular here]，因为看视频帮我忘掉白天的烦心事（it helps me forget about…）。",
     "g": "情绪",
     "p": ["I usually see… on my phone", "The main reason is that…", "easy to follow", "For example,…", "it helps me forget about…", "So…"]
   },
   "new-interesting-video||Which is more helpful, watching videos or reading books?": {
-    "a": "跟看书比（Compared with…），我觉得看视频更有帮助。最主要的原因是（The main reason is that…）视频能把一个很难的东西讲得很简单，它可以把一个问题分成一小步一小步（break it down into small steps）。比如（For example,…）很多学生看书学语法觉得很难，看不懂[they can't follow it]，但是看视频有人一步一步教，他们很快就懂了[they get it quickly]。所以（So…）我觉得学生多看视频可以看到真正的进步（see real progress）。",
+    "a": "跟看书比（Compared with…），我觉得看视频更有帮助[I think watching videos is more helpful]。最主要的原因是（The main reason is that…）视频能把一个很难的东西讲得很简单[videos can explain something difficult very simply]，它可以把一个问题分成一小步一小步（break it down into small steps）。比如（For example,…）很多学生看书学语法觉得很难[many students find grammar hard when they learn it from books]，看不懂[they can't follow it]，但是看视频有人一步一步教[but with videos someone teaches step by step]，他们很快就懂了[they get it quickly]。所以（So…）我觉得学生多看视频可以看到真正的进步（see real progress）。",
     "g": "目标",
     "p": ["Compared with…", "The main reason is that…", "break it down into small steps", "For example,…", "So…", "see real progress"]
   },
   "new-interesting-video||What skills can people learn from watching videos?": {
-    "a": "我觉得看视频可以学到很多动手的技能[practical skills]，做饭和修东西都可以学。最主要的原因是（The main reason is that…）视频一步一步演给你看，所以很好懂（easy to follow）。比如（For example,…）很多年轻人跟着视频学做菜，然后他们几个星期以后可以在家做点简单的东西（cook something simple at home），这就是真的进步[that is real progress]。所以（So…）视频把一件事分成一小步一小步（break it down into small steps），这样学技能最合适。",
+    "a": "我觉得看视频可以学到很多动手的技能[practical skills]，做饭和修东西都可以学[you can learn cooking and fixing things]。最主要的原因是（The main reason is that…）视频一步一步演给你看[videos show you step by step]，所以很好懂（easy to follow）。比如（For example,…）很多年轻人跟着视频学做菜[many young people learn to cook by following videos]，然后他们几个星期以后可以在家做点简单的东西（cook something simple at home），这就是真的进步[that is real progress]。所以（So…）视频把一件事分成一小步一小步（break it down into small steps），这样学技能最合适[this is the best way to learn a skill]。",
     "g": "目标",
     "p": ["The main reason is that…", "easy to follow", "For example,…", "cook something simple at home", "So…", "break it down into small steps"]
   },
   "new-interesting-video||Are there any differences between the videos that young people and old people like to watch?": {
-    "a": "年轻人喜欢看好笑的短视频。老人正好相反（By contrast,…），他们喜欢看新闻。最主要的原因是（The main reason is that…）年轻人上一天班以后很累，他们只想放松一下（relax after a long day）。比如（For example,…）现在很多年轻人晚上看好笑的视频，然后他们心情好一点[they feel better]。大部分老人晚上看电视新闻，因为这样的节目让他们觉得很安心[it makes them feel calm]。所以（So…）两代人看的东西很不一样。",
+    "a": "年轻人喜欢看好笑的短视频[young people like watching funny short videos]。老人正好相反（By contrast,…），他们喜欢看新闻[they like watching the news]。最主要的原因是（The main reason is that…）年轻人上一天班以后很累[young people are tired after a day at work]，他们只想放松一下（relax after a long day）。比如（For example,…）现在很多年轻人晚上看好笑的视频[many young people watch funny videos at night]，然后他们心情好一点[they feel better]。大部分老人晚上看电视新闻[most old people watch the news on TV in the evening]，因为这样的节目让他们觉得很安心[it makes them feel calm]。所以（So…）两代人看的东西很不一样[the two age groups watch very different things]。",
     "g": "情绪",
     "p": ["By contrast,…", "The main reason is that…", "relax after a long day", "For example,…", "So…"]
   },
   "new-interesting-video||Are there any differences between the videos that young men and young women like to watch?": {
-    "a": "男生比较喜欢看球赛。女生正好相反（By contrast,…），她们喜欢看做饭和穿衣服的视频。最主要的原因是（The main reason is that…）他们从小的兴趣就不一样，大家都看自己喜欢的东西[everyone watches what they like]。比如（For example,…）很多男生看球赛视频的时候特别激动[they get really excited]，很多女生看视频学做菜，然后她们在家做点简单的东西（cook something simple at home），她们做的时候很开心[they feel happy when they cook]。所以（So…）他们看的视频有区别，不过现在这个区别比以前小了。",
+    "a": "男生比较喜欢看球赛[boys prefer watching sports matches]。女生正好相反（By contrast,…），她们喜欢看做饭和穿衣服的视频[they like watching videos about cooking and clothes]。最主要的原因是（The main reason is that…）他们从小的兴趣就不一样[their interests have been different since they were small]，大家都看自己喜欢的东西[everyone watches what they like]。比如（For example,…）很多男生看球赛视频的时候特别激动[they get really excited]，很多女生看视频学做菜[many girls learn to cook from videos]，然后她们在家做点简单的东西（cook something simple at home），她们做的时候很开心[they feel happy when they cook]。所以（So…）他们看的视频有区别[the videos they watch are different]，不过现在这个区别比以前小了[but this difference is smaller now than before]。",
     "g": "情绪",
     "p": ["By contrast,…", "The main reason is that…", "For example,…", "cook something simple at home", "So…"]
   },
   "new-interesting-video||What makes a video go viral online?": {
-    "a": "我觉得一个视频要火，开头就要抓住你的注意力（it catches your attention）。最主要的原因是（The main reason is that…）大家看手机的速度很快，如果前几秒很无聊，他们马上划走了[they scroll away at once]。比如（For example,…）很多人看到一个几秒钟的好笑视频，然后他们发给自己的朋友[they send it to their friends]。所以（So…）视频要短，也要好懂（easy to follow）。",
+    "a": "我觉得一个视频要火[I think if a video wants to go viral]，开头就要抓住你的注意力（it catches your attention）。最主要的原因是（The main reason is that…）大家看手机的速度很快[people scroll through their phones very fast]，如果前几秒很无聊[if the first few seconds are boring]，他们马上划走了[they scroll away at once]。比如（For example,…）很多人看到一个几秒钟的好笑视频[many people see a funny video of a few seconds]，然后他们发给自己的朋友[they send it to their friends]。所以（So…）视频要短[a video needs to be short]，也要好懂（easy to follow）。",
     "g": "情绪",
     "p": ["it catches your attention", "The main reason is that…", "For example,…", "So…", "easy to follow"]
   },
   "new-special-cake||What are the differences between special food in China and other countries?": {
-    "a": "跟别的国家比（Compared with…），中国人过节的时候更希望全家坐在一起。最主要的原因是（The main reason is that…）在哪个国家都一样，吃什么不重要，重要的是那份心意（it's the thought that counts）。比如（For example,…）中国人中秋节跟家里人一起吃月饼，很多外国人过生日的时候跟朋友一起吃蛋糕[eat a cake with their friends]。所以（So…）区别只在食物，大家的心意是一样的[the feeling is the same for everyone]。",
+    "a": "跟别的国家比（Compared with…），中国人过节的时候更希望全家坐在一起[Chinese people hope the whole family can sit together at festivals]。最主要的原因是（The main reason is that…）在哪个国家都一样[it is the same in every country]，吃什么不重要[what you eat is not important]，重要的是那份心意（it's the thought that counts）。比如（For example,…）中国人中秋节跟家里人一起吃月饼[Chinese people eat mooncakes with family at Mid-Autumn Festival]，很多外国人过生日的时候跟朋友一起吃蛋糕[eat a cake with their friends]。所以（So…）区别只在食物[the only difference is the food]，大家的心意是一样的[the feeling is the same for everyone]。",
     "g": "关系",
     "p": ["Compared with…", "The main reason is that…", "it's the thought that counts", "For example,…", "So…"]
   },
   "new-special-cake||Is there any food in your country that is eaten at special times or on special occasions?": {
-    "a": "有的（Yes, definitely.），中秋节我们吃月饼，过年我们吃饺子。最主要的原因是（The main reason is that…）这些日子一年只有一次，所以全家人都想坐在一起。比如（For example,…）很多家庭除夕那天一起包饺子[they make dumplings together]，平时他们只在家做点简单的东西（cook something simple at home）。所以（So…）吃什么不重要，重要的是那份心意（it's the thought that counts）。",
+    "a": "有的（Yes, definitely.），中秋节我们吃月饼[we eat mooncakes at Mid-Autumn Festival]，过年我们吃饺子[and dumplings at New Year]。最主要的原因是（The main reason is that…）这些日子一年只有一次[these days only come once a year]，所以全家人都想坐在一起[so the whole family wants to sit together]。比如（For example,…）很多家庭除夕那天一起包饺子[they make dumplings together]，平时他们只在家做点简单的东西（cook something simple at home）。所以（So…）吃什么不重要[what you eat is not important]，重要的是那份心意（it's the thought that counts）。",
     "g": "关系",
     "p": ["Yes, definitely.", "The main reason is that…", "For example,…", "cook something simple at home", "So…", "it's the thought that counts"]
   },
   "new-special-cake||Why are some people willing to spend a lot of money on meals on special days?": {
-    "a": "我觉得这个钱花得值，因为特别的日子一年只有几次。最主要的原因是（The main reason is that…）大家平时吃饭都很省，他们想少花一点钱（keep the costs down）。比如（For example,…）很多人生日那天跟朋友出去吃一顿好的（eat out with friends），他们那天愿意多花几百块钱[a few hundred yuan more]。所以（So…）我觉得大家偶尔花这个钱完全没问题[it is completely fine]。而且这样的钱他们一年只花几次[they only spend it a few times a year]。",
+    "a": "我觉得这个钱花得值[I think this money is worth spending]，因为特别的日子一年只有几次[because special days only come a few times a year]。最主要的原因是（The main reason is that…）大家平时吃饭都很省[people usually try to save on food]，他们想少花一点钱（save money）。比如（For example,…）很多人生日那天跟朋友出去吃一顿好的（eat out with friends），他们那天愿意多花几百块钱[a few hundred yuan more]。所以（So…）我觉得大家偶尔花这个钱完全没问题[it is completely fine]。而且这样的钱他们一年只花几次[they only spend it a few times a year]。",
     "g": "钱",
-    "p": ["The main reason is that…", "keep the costs down", "For example,…", "eat out with friends", "So…"]
+    "p": ["The main reason is that…", "save money", "For example,…", "eat out with friends", "So…"]
   },
   "new-special-cake||Do you think it's good to communicate when eating with your family?": {
-    "a": "我觉得吃饭的时候聊天很重要（Yes, definitely.）。最主要的原因是（The main reason is that…）现在每个人有时候都很忙（everyone gets busy sometimes），一天里只有吃饭的时候全家可以坐在一起。比如（For example,…）很多父母吃晚饭的时候会问孩子今天学校怎么样[how school was today]。所以（So…）多聊几句可以给家里人带来改变（make a difference to other people）。",
+    "a": "我觉得吃饭的时候聊天很重要（Yes, definitely.）。最主要的原因是（The main reason is that…）现在每个人有时候都很忙（everyone gets busy sometimes），一天里只有吃饭的时候全家可以坐在一起[mealtimes are the only time the whole family can sit together]。比如（For example,…）很多父母吃晚饭的时候会问孩子今天学校怎么样[how school was today]。所以（So…）多聊几句可以给家里人带来改变（make a difference to other people）。",
     "g": "关系",
     "p": ["Yes, definitely.", "The main reason is that…", "everyone gets busy sometimes", "For example,…", "So…", "make a difference to other people"]
   },
   "new-special-cake||In your country, do people nowadays cook at home as frequently as people did in the past?": {
-    "a": "我觉得现在没有以前那么经常了（Not really.）。最主要的原因是（The main reason is that…）现在外卖到处都是，价钱也不贵，我们的选择多得多（there's a lot more choice now）。比如（For example,…）现在很多年轻人点一份外卖只要二十块钱[only twenty yuan for a takeaway]，然后他们一个星期只在家做点简单的东西（cook something simple at home）。所以（So…）我觉得在家做饭的人比过去少了，因为在外面吃也不贵[eating out is not expensive either]。",
+    "a": "我觉得现在没有以前那么经常了（Not really.）。最主要的原因是（The main reason is that…）现在外卖到处都是[takeaways are everywhere now]，价钱也不贵[and they are not expensive]，我们的选择多得多（there's a lot more choice now）。比如（For example,…）现在很多年轻人点一份外卖只要二十块钱[only twenty yuan for a takeaway]，然后他们一个星期只在家做点简单的东西（cook something simple at home）。所以（So…）我觉得在家做饭的人比过去少了[I think fewer people cook at home than before]，因为在外面吃也不贵[eating out is not expensive either]。",
     "g": "钱",
     "p": ["Not really.", "The main reason is that…", "there's a lot more choice now", "For example,…", "cook something simple at home", "So…"]
   },
   "new-special-cake||What do you think of people using their mobile phones during a meal?": {
-    "a": "我觉得吃饭的时候一直看手机不太好。最主要的原因是（The main reason is that…）现在每个人有时候都很忙（everyone gets busy sometimes），吃饭的时候大家正好可以说说话。比如（For example,…）很多家庭吃饭的时候都低头看手机，然后一顿饭没有人说话[nobody speaks during the meal]。所以（So…）我觉得大家吃饭的时候应该少看手机（cut down on…）。",
+    "a": "我觉得吃饭的时候一直看手机不太好[I think it's not good to keep looking at your phone during a meal]。最主要的原因是（The main reason is that…）现在每个人有时候都很忙（everyone gets busy sometimes），吃饭的时候大家正好可以说说话[mealtimes are a good chance for everyone to talk]。比如（For example,…）很多家庭吃饭的时候都低头看手机[many families look down at their phones during meals]，然后一顿饭没有人说话[nobody speaks during the meal]。所以（So…）我觉得大家吃饭的时候应该少看手机（cut down on…）。",
     "g": "关系",
     "p": ["The main reason is that…", "everyone gets busy sometimes", "For example,…", "So…", "cut down on…"]
   },
   "new-local-news||Do people read the newspaper where you live?": {
-    "a": "现在看报纸的人很少了（Not really.）。最主要的原因是（The main reason is that…）在手机上看新闻很快，也不用花钱（keep the costs down）。比如（For example,…）现在很多人在手机上免费看新闻[they read the news for free]，但是一份报纸要两三块钱[a newspaper costs two or three yuan]。我一般也在手机上看新闻（I usually see… on my phone），所以（So…）我觉得以后看报纸的人会更少。",
+    "a": "现在看报纸的人很少了（Not really.）。最主要的原因是（The main reason is that…）在手机上看新闻很快[reading the news on your phone is fast]，也不用花钱（save money）。比如（For example,…）现在很多人在手机上免费看新闻[they read the news for free]，但是一份报纸要两三块钱[a newspaper costs two or three yuan]。我一般也在手机上看新闻（I usually see… on my phone），所以（So…）我觉得以后看报纸的人会更少[I think even fewer people will read newspapers in the future]。",
     "g": "钱",
-    "p": ["Not really.", "The main reason is that…", "keep the costs down", "For example,…", "I usually see… on my phone", "So…"]
+    "p": ["Not really.", "The main reason is that…", "save money", "For example,…", "I usually see… on my phone", "So…"]
   },
   "new-local-news||Do people prefer local or international news?": {
-    "a": "这个要看情况，不过一般来说（It depends, but usually…）大部分人先看本地新闻。最主要的原因是（The main reason is that…）本地新闻讲的是他们身边的人[the news is about the people around them]，所以他们可以跟家人聊这些新闻[they can talk about it with their family]。比如（For example,…）很多人晚上看本地新闻，然后他们在饭桌上跟家人聊这些事[they talk about it at dinner]。所以（So…）我觉得本地新闻更受欢迎，因为它让邻居之间也有话聊[it gives neighbours something to talk about]。",
+    "a": "这个要看情况，不过一般来说（It depends, but usually…）大部分人先看本地新闻[most people read local news first]。最主要的原因是（The main reason is that…）本地新闻讲的是他们身边的人[the news is about the people around them]，所以他们可以跟家人聊这些新闻[they can talk about it with their family]。比如（For example,…）很多人晚上看本地新闻[a lot of people watch local news in the evening]，然后他们在饭桌上跟家人聊这些事[they talk about it at dinner]。所以（So…）我觉得本地新闻更受欢迎[I think local news is more popular]，因为它让邻居之间也有话聊[it gives neighbours something to talk about]。",
     "g": "关系",
     "p": ["It depends, but usually…", "The main reason is that…", "For example,…", "So…"]
   },
   "new-local-news||Do you think it's important to have a national identity?": {
-    "a": "是的，我觉得很重要（Yes, definitely.）。最主要的原因是（The main reason is that…）如果人们有这种感觉，他们就愿意一起做事[they are willing to work together]，因为这是每个人的责任（it's everyone's responsibility）。比如（For example,…）当有人在路上摔倒的时候，很多人会过去帮他[many people will go and help him]。所以（So…）这种感觉可以让人们帮助别人（make a difference to other people）。",
+    "a": "是的，我觉得很重要（Yes, definitely.）。最主要的原因是（The main reason is that…）如果人们有这种感觉[if people have this feeling]，他们就愿意一起做事[they are willing to work together]，因为这是每个人的责任（it's everyone's responsibility）。比如（For example,…）当有人在路上摔倒的时候[when someone falls over on the street]，很多人会过去帮他[many people will go and help him]。所以（So…）这种感觉可以让人们帮助别人（make a difference to other people）。",
     "g": "关系",
     "p": ["Yes, definitely.", "The main reason is that…", "it's everyone's responsibility", "For example,…", "So…", "make a difference to other people"]
   },
   "new-local-news||How can people develop their national identity?": {
-    "a": "我觉得人们可以多了解自己国家的历史，也可以多参加本地的活动[join local activities]。最主要的原因是（The main reason is that…）当人们跟身边的人多来往的时候，他们才会觉得这是自己的地方[this place belongs to them]。比如（For example,…）很多人会去参加本地的节日活动，他们在那里认识新的邻居。所以（So…）小的改变加起来会很有用（small changes add up），而且这是每个人的责任（it's everyone's responsibility）。",
+    "a": "我觉得人们可以多了解自己国家的历史[I think people can learn more about their country's history]，也可以多参加本地的活动[join local activities]。最主要的原因是（The main reason is that…）当人们跟身边的人多来往的时候[when people spend more time with those around them]，他们才会觉得这是自己的地方[this place belongs to them]。比如（For example,…）很多人会去参加本地的节日活动[a lot of people go to local festival events]，他们在那里认识新的邻居[and they meet new neighbours there]。所以（So…）小的改变加起来会很有用（small changes add up），而且这是每个人的责任（it's everyone's responsibility）。",
     "g": "关系",
     "p": ["The main reason is that…", "For example,…", "So…", "small changes add up", "it's everyone's responsibility"]
   },
   "new-environmental-law-proposal||How does technology affect the law?": {
-    "a": "我觉得当科技变化的时候，法律也要跟着变化。这主要是因为（mainly because…）旧的规定管不了新的问题[the old rules cannot deal with new problems]，所以国家要定新的规定来保护大家（keep people safe）。比如（For example,…）现在很多人在手机上买东西，可是有一些广告不老实（some ads are not honest），后来国家定了新的规定来管网上的广告[the country made new rules for online ads]。所以（So…）我觉得国家定新的规定是有道理的（it's there for a reason）。而且新的规定也可以帮大家省钱[the new rules also help people save money]。",
+    "a": "我觉得科技一变[I think once technology changes]，法律就得跟着变[the law has to change with it]。最主要的原因是（The main reason is that…）新东西会带来新问题[new things bring new problems]，旧规定管不了[the old rules can't deal with them]。比如（For example,…）现在很多人在手机上买东西[many people buy things on their phones now]，有些广告不老实（some ads are not honest），后来国家就定了新规定来管网上的广告[new rules for online ads]。所以（So…）法律跟着科技走[the law follows technology]，这也是有原因的（it's there for a reason）。",
     "g": "规矩",
-    "p": ["mainly because…", "keep people safe", "For example,…", "some ads are not honest", "So…", "it's there for a reason"]
+    "p": ["The main reason is that…", "For example,…", "some ads are not honest", "So…", "it's there for a reason"]
   },
   "new-environmental-law-proposal||What kinds of rules do schools in China have?": {
-    "a": "中国学校的规矩大部分是关于纪律的，学生都要守规矩（stick to the rules）。这主要是因为（mainly because…）学校里的人很多，所以大家要守一样的规矩[everyone has to follow the same rules]。比如（For example,…）大部分学生要按时到学校，他们也要穿校服，上课的时候他们不能玩手机。所以（So…）这些规矩听起来很严格[these rules sound very strict]，但是它们可以保护学生的安全（keep people safe）。",
+    "a": "我觉得中国学校的规矩主要是管纪律的[I think school rules in China are mainly about keeping order]。最主要的原因是（The main reason is that…）学校里人很多[there are a lot of people at school]，得有统一的规矩[so there have to be the same rules for everyone]，大家才不会乱[so things don't get messy]。比如（For example,…）学生要穿校服、按时到校，上课不能玩手机[wear a uniform, arrive on time, no phones in class]。所以（So…）这些规矩听起来严[these rules sound strict]，但它们能保证大家安全（keep people safe）。",
     "g": "规矩",
-    "p": ["stick to the rules", "mainly because…", "For example,…", "So…", "keep people safe"]
+    "p": ["The main reason is that…", "For example,…", "So…", "keep people safe"]
   },
   "new-environmental-law-proposal||Will there be a law that is universally accepted?": {
-    "a": "我觉得不太可能（Not really.）。这主要是因为（mainly because…）每个国家的规矩都不一样，所以很难把它们变成一样的[it is hard to make them the same]。比如（For example,…）在有一些国家，警察管过马路管得很严格。在别的国家，没有人管这件事[nobody checks this]。所以（So…）我觉得每个国家自己定规矩就可以了，每一条规矩都有它的原因（it's there for a reason）。",
+    "a": "我觉得不太可能（Not really.）。最主要的原因是（The main reason is that…）每个国家情况不一样[every country is different]，很难定一条全世界都一样的法律[it's hard to make one law the same everywhere]。比如（For example,…）有的国家管闯红灯管得很严，有的国家根本没人管[some countries are strict about crossing on a red light, others don't check at all]。所以（So…）我觉得每个国家自己定规矩就行[I think each country can just set its own rules]，每条规矩都有它的原因（it's there for a reason）。",
     "g": "规矩",
-    "p": ["Not really.", "mainly because…", "For example,…", "So…", "it's there for a reason"]
+    "p": ["Not really.", "The main reason is that…", "For example,…", "So…", "it's there for a reason"]
   },
   "new-environmental-law-proposal||What environmental laws does your country already have?": {
-    "a": "我们国家已经有一些保护环境的规定了。这主要是因为（mainly because…）保护环境是每个人的责任（it's everyone's responsibility），所以我们需要一些规定来管这件事[we need some rules to control it]。比如（For example,…）现在大部分商店不给免费的塑料袋，如果人们想要塑料袋，他们要自己花钱买。所以（As a result,…）现在用塑料袋的人变少了[fewer people use plastic bags now]，我觉得小的改变加起来也很有用（small changes add up）。",
+    "a": "我们国家有一些保护环境的规定[my country has some rules to protect the environment]，最好记的就是塑料袋要收费[shops now charge for plastic bags]。最主要的原因是（The main reason is that…）保护环境是每个人的责任（it's everyone's responsibility）。比如（For example,…）以前超市免费给袋子[supermarkets used to give bags for free]，现在你想要就得自己花钱买[now you have to pay if you want one]。所以（So…）用袋子的人少多了[far fewer people use bags now]，这种小改变加起来也很有用（small changes add up）。",
     "g": "规矩",
-    "p": ["mainly because…", "it's everyone's responsibility", "For example,…", "As a result,…", "small changes add up"]
+    "p": ["The main reason is that…", "it's everyone's responsibility", "For example,…", "So…", "small changes add up"]
   },
   "new-environmental-law-proposal||What are the rules people should obey at work?": {
-    "a": "我觉得上班的时候最重要的事情是守规矩（stick to the rules），而且大家要按时到公司。这主要是因为（mainly because…）公司的规矩可以保护大家的安全（keep people safe），也可以让工作更顺利[it also makes the work go well]。比如（For example,…）大部分公司不让员工在上班的时候玩手机，因为这样他们会犯错[they will make mistakes]。所以（So…）我觉得每一条规矩都有它的原因（it's there for a reason）。",
+    "a": "我觉得上班最重要的是守时和守规矩（stick to the rules）。最主要的原因是（The main reason is that…）大家守一样的规矩[when everyone follows the same rules]，活儿才能顺顺利利[so the work goes smoothly]。比如（For example,…）大部分公司上班时间不让玩手机[most companies don't allow phones during work hours]，因为一分心就容易出错[they make mistakes if they lose focus]。所以（So…）这些规矩看着烦[these rules seem annoying]，其实是帮大家少出错、把事做好[they help everyone make fewer mistakes]。",
     "g": "规矩",
-    "p": ["stick to the rules", "mainly because…", "keep people safe", "For example,…", "So…", "it's there for a reason"]
+    "p": ["stick to the rules", "The main reason is that…", "For example,…", "So…"]
   },
   "new-environmental-law-proposal||What is the purpose of punishment?": {
-    "a": "我觉得惩罚的目的是让大家守规矩（stick to the rules）。这主要是因为（mainly because…）如果人们做错了事，但是没有任何结果，他们就不会在意规矩[they will not care about the rules]。比如（For example,…）在学校里，如果学生上课玩手机，老师会把手机收走[the teacher will take the phone away]。所以（So…）我觉得惩罚不是为了吓人，它是为了保护大家的安全（keep people safe）。",
+    "a": "我觉得惩罚是为了让大家把规矩当回事[so people take the rules seriously]。最主要的原因是（The main reason is that…）如果做错了没有任何后果[if nothing happens when you do wrong]，就没人会在意规矩[nobody cares about the rules]。比如（For example,…）在学校上课玩手机[if you play on your phone in class at school]，老师会把手机收走[the teacher takes the phone away]；开车闯红灯要罚款[you get a fine for running a red light]。所以（So…）惩罚不是为了吓人[punishment is not to scare people]，而是为了保护大家的安全（keep people safe）。",
     "g": "规矩",
-    "p": ["stick to the rules", "mainly because…", "For example,…", "So…", "keep people safe"]
+    "p": ["The main reason is that…", "For example,…", "So…", "keep people safe"]
   },
   "new-traffic-jam||How can we solve the traffic jam problem?": {
-    "a": "我觉得最有用的办法是让更多人改坐地铁（take the subway instead）。这主要是因为（mainly because…）在早晚高峰的时候（at rush hour），很多人堵在路上（get stuck in traffic），所以他们心里很烦[they feel annoyed]。比如（For example,…）很多人开车上班要等一个小时，他们到公司的时候已经很累了[they are already tired when they get to the office]。所以（So…）如果他们改坐地铁，他们的心情会好很多[they will feel much better]。而且坐地铁也比开车便宜[the subway is also cheaper than driving]。",
+    "a": "我觉得最有用的办法是让更多人改坐地铁（take the subway instead）。这主要是因为（mainly because…）在早晚高峰的时候（at rush hour），很多人堵在路上（get stuck in traffic），所以他们心里很烦[they feel annoyed]。比如（For example,…）很多人开车上班要等一个小时[a lot of people spend an hour driving to work]，他们到公司的时候已经很累了[they are already tired when they get to the office]。所以（So…）如果他们改坐地铁[if they take the subway instead]，他们的心情会好很多[they will feel much better]。而且坐地铁也比开车便宜[the subway is also cheaper than driving]。",
     "g": "情绪",
     "p": ["take the subway instead", "mainly because…", "at rush hour", "For example,…", "get stuck in traffic", "So…"]
   },
   "new-traffic-jam||Do you think developing public transport can solve traffic jam problems?": {
-    "a": "是的，我觉得肯定可以（Yes, definitely.）。最主要的原因是（The main reason is that…）坐地铁比开车便宜，所以人们可以省下油钱（keep the costs down）。比如（For example,…）很多人以前开车上班，他们每个月要花好几百块钱买油[they spend hundreds of yuan on petrol every month]，可是现在地铁票只要几块钱[a subway ticket only costs a few yuan]。所以（As a result,…）如果公共交通很方便（public transport is convenient），开车的人就会变少[fewer people will drive]。",
+    "a": "是的，我觉得肯定可以（Yes, definitely.）。最主要的原因是（The main reason is that…）坐地铁比开车便宜[the subway is cheaper than driving]，所以人们可以省下油钱（save money）。比如（For example,…）很多人以前开车上班[a lot of people used to drive to work]，他们每个月要花好几百块钱买油[they spend hundreds of yuan on petrol every month]，可是现在地铁票只要几块钱[a subway ticket only costs a few yuan]。所以（As a result,…）如果公共交通很方便（public transport is easy to use），开车的人就会变少[fewer people will drive]。",
     "g": "钱",
-    "p": ["Yes, definitely.", "The main reason is that…", "keep the costs down", "For example,…", "As a result,…", "public transport is convenient"]
+    "p": ["Yes, definitely.", "The main reason is that…", "save money", "For example,…", "As a result,…", "public transport is easy to use"]
   },
   "new-traffic-jam||Do you think highways will help reduce traffic jams?": {
-    "a": "我觉得帮助不大（Not really.）。这主要是因为（mainly because…）修新的路要花很多钱[building new roads costs a lot of money]，但是路上的车还是一样多。比如（For example,…）很多城市花了很多钱修新的高速路，可是在假期的时候，大家还是堵在路上（get stuck in traffic）。所以（So…）我觉得更好的办法是让人们改坐地铁（take the subway instead），因为这样花的钱少多了[this way costs much less money]。",
+    "a": "我觉得帮助不大（Not really.）。这主要是因为（mainly because…）修新的路要花很多钱[building new roads costs a lot of money]，但是路上的车还是一样多[but there are still just as many cars on the road]。比如（For example,…）很多城市花了很多钱修新的高速路[a lot of cities spend a lot of money building new highways]，可是在假期的时候[but during the holidays]，大家还是堵在路上（get stuck in traffic）。所以（So…）我觉得更好的办法是让人们改坐地铁（take the subway instead），因为这样花的钱少多了[this way costs much less money]。",
     "g": "钱",
     "p": ["Not really.", "mainly because…", "For example,…", "get stuck in traffic", "So…", "take the subway instead"]
   },
   "new-traffic-jam||What are good ways to manage traffic?": {
-    "a": "我觉得最好的办法是让司机守交通规则（stick to the rules）。这主要是因为（mainly because…）如果有人乱停车[if someone parks in the wrong place]，别的车就会堵在路上（get stuck in traffic）。比如（For example,…）我们这里很多人把车停在路边，所以早上大家要多等十分钟[everyone has to wait ten more minutes]。所以（So…）我觉得管得严格一点是好事，因为这样可以保护大家的安全（keep people safe）。",
+    "a": "我觉得最好的办法是让司机守交通规则（stick to the rules）。这主要是因为（mainly because…）如果有人乱停车[if someone parks in the wrong place]，别的车就会堵在路上（get stuck in traffic）。比如（For example,…）我们这里很多人把车停在路边[a lot of people here park at the side of the road]，所以早上大家要多等十分钟[everyone has to wait ten more minutes]。所以（So…）我觉得管得严格一点是好事[stricter rules are a good thing]，因为这样可以保护大家的安全（keep people safe）。",
     "g": "规矩",
     "p": ["stick to the rules", "mainly because…", "get stuck in traffic", "For example,…", "So…", "keep people safe"]
   },
   "new-traffic-jam||Do you like to use public transport?": {
-    "a": "是的，我很喜欢（Yes, definitely.），我每天都坐地铁。这主要是因为（mainly because…）我不用自己开车，所以我在路上很轻松[I feel relaxed on the way]。比如（For example,…）现在很多人在地铁上看视频或者听歌，所以他们到公司的时候心情很好[they feel good when they get to the office]。所以（So…）我觉得公共交通又快又方便（public transport is convenient），我坐地铁的时候一点也不累[I do not feel tired at all]。",
+    "a": "是的，我很喜欢（Yes, definitely.），我每天都坐地铁[I take the subway every day]。这主要是因为（mainly because…）我不用自己开车[I do not have to drive myself]，所以我在路上很轻松[I feel relaxed on the way]。比如（For example,…）现在很多人在地铁上看视频或者听歌[a lot of people watch videos or listen to music on the subway]，所以他们到公司的时候心情很好[they feel good when they get to the office]。所以（So…）我觉得公共交通又快又方便（public transport is easy to use），我坐地铁的时候一点也不累[I do not feel tired at all]。",
     "g": "情绪",
-    "p": ["Yes, definitely.", "mainly because…", "For example,…", "So…", "public transport is convenient"]
+    "p": ["Yes, definitely.", "mainly because…", "For example,…", "So…", "public transport is easy to use"]
   },
   "new-traffic-jam||Would you rather be in a car or a bus in a traffic jam?": {
-    "a": "如果路上堵车，我更愿意坐公交车，我不想自己开车。这主要是因为（mainly because…）我坐公交车的时候不用看路，所以我心里没有那么烦[I do not feel so annoyed]。比如（For example,…）在早晚高峰的时候（at rush hour），很多人堵在路上（get stuck in traffic），可是公交车上的人可以看视频，他们没有那么着急[they are not in such a hurry]。所以（So…）我觉得自己开车的人心里更累[people who drive feel more tired]，我还是选公交车。",
+    "a": "如果路上堵车[if there is a traffic jam]，我更愿意坐公交车[I would rather take the bus]，我不想自己开车[I do not want to drive myself]。这主要是因为（mainly because…）我坐公交车的时候不用看路[I do not have to watch the road when I take the bus]，所以我心里没有那么烦[I do not feel so annoyed]。比如（For example,…）在早晚高峰的时候（at rush hour），很多人堵在路上（get stuck in traffic），可是公交车上的人可以看视频[but people on the bus can watch videos]，他们没有那么着急[they are not in such a hurry]。所以（So…）我觉得自己开车的人心里更累[people who drive feel more tired]，我还是选公交车[I would still choose the bus]。",
     "g": "情绪",
     "p": ["mainly because…", "For example,…", "at rush hour", "get stuck in traffic", "So…"]
   },
   "new-happy-event||How can parents help children to be organized?": {
-    "a": "我觉得父母可以帮孩子把事情拆成小步骤（break it down into small steps）。这主要是因为（mainly because…）父母可以先帮孩子定一个清楚的目标（set myself a clear goal），然后孩子就知道先做哪一件事[they know which thing to do first]。比如（For example,…）现在很多父母让孩子每天背十个单词，他们不会一次给孩子太多任务[they do not give the child too many tasks]。所以（As a result,…）孩子每天都可以看到自己的进步（see real progress）。",
+    "a": "我觉得父母可以帮孩子把事情拆成小步骤（break it down into small steps）。这主要是因为（mainly because…）父母可以先帮孩子定一个清楚的目标（set myself a clear goal），然后孩子就知道先做哪一件事[they know which thing to do first]。比如（For example,…）现在很多父母让孩子每天背十个单词[a lot of parents get their kids to learn ten words a day]，他们不会一次给孩子太多任务[they do not give the child too many tasks]。所以（As a result,…）孩子每天都可以看到自己的进步（see real progress）。",
     "g": "目标",
     "p": ["break it down into small steps", "mainly because…", "For example,…", "set myself a clear goal", "As a result,…", "see real progress"]
   },
   "new-happy-event||On what occasions do people need to be organized?": {
-    "a": "我觉得人们在考试以前和工作很忙的时候最需要有安排。这主要是因为（mainly because…）如果事情很多，但是他们没有清楚的目标，他们就不知道先做哪一件[they do not know which one to do first]。比如（For example,…）很多学生准备雅思考试的时候，他们每天都有一个学习计划[they have a study plan every day]。所以（So…）我觉得人在很忙的时候应该先定一个清楚的目标（set myself a clear goal），然后把它拆成小任务（break it down into small steps），也要有固定的作息（stick to a routine）。",
+    "a": "我觉得人们在考试以前和工作很忙的时候最需要有安排[people need to be organized most before exams and when work is busy]。这主要是因为（mainly because…）如果事情很多[if there are a lot of things to do]，但是他们没有清楚的目标[but they do not have a clear goal]，他们就不知道先做哪一件[they do not know which one to do first]。比如（For example,…）很多学生准备雅思考试的时候[when a lot of students prepare for the IELTS exam]，他们每天都有一个学习计划[they have a study plan every day]。所以（So…）我觉得人在很忙的时候应该先定一个清楚的目标（set myself a clear goal），然后把它拆成小任务（break it down into small steps），也要有固定的作息（stick to a routine）。",
     "g": "目标",
     "p": ["mainly because…", "For example,…", "set myself a clear goal", "break it down into small steps", "So…", "stick to a routine"]
   },
   "new-happy-event||Does everything need to be well prepared?": {
-    "a": "我觉得不用（Not really.），小的事情随便一点更好。这主要是因为（mainly because…）如果人们准备每一件事，他们会很累，也会很紧张[they will feel tired and nervous]。比如（For example,…）很多人跟朋友出去吃饭（eat out with friends），他们不会提前订位子，可是他们还是玩得很开心[they still have a good time]。所以（So…）我觉得只有重要的事情才值得花时间准备。而且随便一点的时候，大家跟朋友在一起更放松[people feel more relaxed with their friends]。",
+    "a": "我觉得不用（Not really.），小的事情随便一点更好[it is better to be more relaxed about small things]。这主要是因为（mainly because…）如果人们准备每一件事[if people prepare for everything]，他们会很累，也会很紧张[they will feel tired and nervous]。比如（For example,…）很多人跟朋友出去吃饭（eat out with friends），他们不会提前订位子[they do not book a table in advance]，可是他们还是玩得很开心[they still have a good time]。所以（So…）我觉得只有重要的事情才值得花时间准备[only important things are worth spending time preparing for]。而且随便一点的时候[and when things are more relaxed]，大家跟朋友在一起更放松[people feel more relaxed with their friends]。",
     "g": "情绪",
     "p": ["Not really.", "mainly because…", "For example,…", "eat out with friends", "So…"]
   },
   "new-happy-event||Do people need others' help when organizing things?": {
-    "a": "是的，我觉得很需要（Yes, definitely.），一个人真的做不完[one person cannot finish it alone]。这主要是因为（mainly because…）如果几个人分工，每个人负责一部分（be responsible for one part of…），事情就快多了。比如（For example,…）大部分学生办活动的时候，有一个人去买东西，另一个人去找场地。所以（As a result,…）大家做自己擅长的事（each do what we're good at），事情就办得又快又好[the work is done quickly and well]。",
+    "a": "是的，我觉得很需要（Yes, definitely.），一个人真的做不完[one person cannot finish it alone]。这主要是因为（mainly because…）如果几个人分工[if a few people divide the work]，每个人负责一部分（be responsible for one part of…），事情就快多了[things get done much faster]。比如（For example,…）大部分学生办活动的时候[when most students organize an activity]，有一个人去买东西[one person goes to buy things]，另一个人去找场地[another person looks for a place]。所以（As a result,…）大家做自己擅长的事（each do what we're good at），事情就办得又快又好[the work is done quickly and well]。",
     "g": "关系",
     "p": ["Yes, definitely.", "mainly because…", "be responsible for one part of…", "For example,…", "As a result,…", "each do what we're good at"]
   },
   "new-happy-event||How would you feel when you were not well prepared for something?": {
-    "a": "我会觉得很紧张，我心里一点信心都没有[I have no confidence at all]。这主要是因为（mainly because…）如果我没有准备好，我就一直担心事情会出问题（something went wrong with…）。比如（For example,…）很多学生考试以前没有复习，他们坐在教室里的时候手会发抖[their hands shake]。所以（So…）我现在都会提前定一个清楚的目标（set myself a clear goal），然后慢慢准备。",
+    "a": "我会觉得很紧张[I would feel very nervous]，我心里一点信心都没有[I have no confidence at all]。这主要是因为（mainly because…）如果我没有准备好[if I am not well prepared]，我就一直担心事情会出问题（something went wrong with…）。比如（For example,…）很多学生考试以前没有复习[a lot of students do not study before the exam]，他们坐在教室里的时候手会发抖[their hands shake]。所以（So…）我现在都会提前定一个清楚的目标（set myself a clear goal），然后慢慢准备[and then prepare bit by bit]。",
     "g": "情绪",
     "p": ["mainly because…", "something went wrong with…", "For example,…", "So…", "set myself a clear goal"]
   },
   "new-happy-event||Do you prefer to prepare and organize an activity or just take part in an activity?": {
-    "a": "我更喜欢只参加活动，我不想自己组织。这主要是因为（mainly because…）组织一个活动是很大的责任（it's a big responsibility），所以我的压力会很大[I will feel a lot of pressure]。比如（For example,…）很多人办聚会的时候要花一个下午订位子和买东西，所以他们在活动开始以前就已经很累了[they are already tired before the party starts]。跟组织比起来（Compared with…），参加活动轻松多了，所以（So…）我选择只参加。",
+    "a": "我更喜欢只参加活动[I prefer to just take part in activities]，我不想自己组织[I do not want to organize them myself]。这主要是因为（mainly because…）组织一个活动是很大的责任（it's a big responsibility），所以我的压力会很大[I will feel a lot of pressure]。比如（For example,…）很多人办聚会的时候要花一个下午订位子和买东西[a lot of people spend a whole afternoon booking a place and buying things for a party]，所以他们在活动开始以前就已经很累了[they are already tired before the party starts]。跟组织比起来（Compared with…），参加活动轻松多了[taking part is much more relaxing]，所以（So…）我选择只参加[I choose to just take part]。",
     "g": "情绪",
     "p": ["mainly because…", "it's a big responsibility", "For example,…", "Compared with…", "So…"]
   },
   "new-delayed-reply||When do people spend a long time responding to others' messages?": {
-    "a": "我觉得人们工作或者学习很忙的时候，常常会过很久才回消息。最主要的原因是（The main reason is that…）他们要先把手上的事做完，没时间看手机[they have no time to check their phone]。比如（For example,…）很多人上班的时候一直在开会，或者学生在上课，他们根本没办法马上回复[they just can't reply right away]。所以（So…）他们常常等忙完了，才慢慢回这些消息（get back to…）。",
+    "a": "我觉得人们工作或者学习很忙的时候[when people are busy with work or study]，常常会过很久才回消息[they often take a long time to reply to messages]。最主要的原因是（The main reason is that…）他们要先把手上的事做完[they have to finish what they are doing first]，没时间看手机[they have no time to check their phone]。比如（For example,…）很多人上班的时候一直在开会[a lot of people are in meetings all the time at work]，或者学生在上课[or students are in class]，他们根本没办法马上回复[they just can't reply right away]。所以（So…）他们常常等忙完了[they often wait until they are free]，才慢慢回这些消息（get back to…）。",
     "g": "目标",
     "p": ["The main reason is that…", "For example,…", "So…", "get back to…"]
   },
   "new-delayed-reply||In what situations do people not respond to messages right away?": {
-    "a": "我觉得人们开会或者上课的时候不能马上回消息。这主要是因为（mainly because…）每个人有时候都会很忙（everyone gets busy sometimes），而且他们那个时候要听别人说话[they have to listen to other people then]。比如（For example,…）很多人在开会的时候不看手机，因为他们不想让别人觉得他们不认真[they do not want others to think they are not serious]。所以（So…）如果一个人回复得很慢，一般都有原因（there's usually a good reason for it）。",
+    "a": "我觉得人们开会或者上课的时候不能马上回消息[people cannot reply to messages right away when they are in a meeting or in class]。这主要是因为（mainly because…）每个人有时候都会很忙（everyone gets busy sometimes），而且他们那个时候要听别人说话[they have to listen to other people then]。比如（For example,…）很多人在开会的时候不看手机[a lot of people do not look at their phone in meetings]，因为他们不想让别人觉得他们不认真[they do not want others to think they are not serious]。所以（So…）如果一个人回复得很慢[if someone replies slowly]，一般都有原因（there's usually a good reason for it）。",
     "g": "关系",
     "p": ["mainly because…", "everyone gets busy sometimes", "For example,…", "So…", "there's usually a good reason for it"]
   },
   "new-delayed-reply||What would you do if you haven't received a reply after sending out a message?": {
-    "a": "我一般会先等一等，我不会马上再发一条消息催他[I will not send another message to push him]。这主要是因为（mainly because…）如果我一直催他，他会觉得我不尊重他[he will think I do not respect him]，而且每个人有时候都会很忙（everyone gets busy sometimes）。比如（For example,…）很多人在开会的时候收到朋友的消息，所以他们晚上才回复，可是他们的朋友也不会生气[their friends do not get angry]。所以（So…）我不会想太多，我觉得一般都有原因（there's usually a good reason for it）。",
+    "a": "我一般会先等一等[I usually wait a bit first]，我不会马上再发一条消息催他[I will not send another message to push him]。这主要是因为（mainly because…）如果我一直催他[if I keep pushing him]，他会觉得我不尊重他[he will think I do not respect him]，而且每个人有时候都会很忙（everyone gets busy sometimes）。比如（For example,…）很多人在开会的时候收到朋友的消息[a lot of people get a message from a friend during a meeting]，所以他们晚上才回复[so they only reply in the evening]，可是他们的朋友也不会生气[their friends do not get angry]。所以（So…）我不会想太多[I do not overthink it]，我觉得一般都有原因（there's usually a good reason for it）。",
     "g": "关系",
     "p": ["mainly because…", "everyone gets busy sometimes", "For example,…", "So…", "there's usually a good reason for it"]
   },
   "new-delayed-reply||Why do some people prefer sending a message instead of making a call?": {
-    "a": "我觉得发消息更轻松，因为人们不用马上回答[they do not have to answer at once]。这主要是因为（mainly because…）如果有人打电话，你必须马上接，可是你正在忙的时候会觉得很尴尬[you feel embarrassed]。比如（For example,…）很多人在开会的时候接到电话，他们只能马上挂掉，所以他们心里很紧张[they feel nervous]。所以（So…）大部分人更喜欢发消息，因为发消息的时候他们没有压力，他们有空以后再尽快回复（get back to… as soon as I can）。",
+    "a": "我觉得发消息更轻松[I think texting is more relaxed]，因为人们不用马上回答[they do not have to answer at once]。这主要是因为（mainly because…）如果有人打电话[if someone calls you]，你必须马上接[you have to answer right away]，可是你正在忙的时候会觉得很尴尬[you feel embarrassed]。比如（For example,…）很多人在开会的时候接到电话[a lot of people get a call during a meeting]，他们只能马上挂掉[they have to hang up right away]，所以他们心里很紧张[they feel nervous]。所以（So…）大部分人更喜欢发消息[most people prefer to text]，因为发消息的时候他们没有压力[because they feel no pressure when texting]，他们有空以后再尽快回复（get back to… as soon as I can）。",
     "g": "情绪",
     "p": ["mainly because…", "For example,…", "So…", "get back to… as soon as I can"]
   },
   "new-delayed-reply||How do you show your respect in your message?": {
-    "a": "我觉得最基本的尊重就是尽快回复（get back to… as soon as I can）。这主要是因为（mainly because…）如果你让别人一直等，他会觉得你不在乎他[he will think you do not care about him]。比如（For example,…）很多人收到老师或者老板的消息，他们就算在忙也会先回一句[they still send a short reply]。所以（As a result,…）如果你先告诉别人你在忙，他也可以理解你，因为每个人有时候都会很忙（everyone gets busy sometimes）。",
+    "a": "我觉得最基本的尊重就是尽快回复（get back to… as soon as I can）。这主要是因为（mainly because…）如果你让别人一直等[if you keep someone waiting]，他会觉得你不在乎他[he will think you do not care about him]。比如（For example,…）很多人收到老师或者老板的消息[a lot of people get a message from a teacher or a boss]，他们就算在忙也会先回一句[they still send a short reply]。所以（As a result,…）如果你先告诉别人你在忙[if you tell people you are busy first]，他也可以理解你[they can understand you]，因为每个人有时候都会很忙（everyone gets busy sometimes）。",
     "g": "关系",
     "p": ["get back to… as soon as I can", "mainly because…", "For example,…", "As a result,…", "everyone gets busy sometimes"]
   },
   "new-delayed-reply||Why do some people feel angry when others don't reply to their message?": {
-    "a": "我觉得他们生气是因为他们觉得别人不重视他们[they feel other people ignore them]。这主要是因为（mainly because…）如果他们等的时间很长，他们心里就会很难受[they feel upset]。比如（For example,…）很多人发消息以后半天没有收到回复，他们就以为出事了（something went wrong with…），然后他们开始生气。所以（So…）我觉得每个人有时候都会很忙（everyone gets busy sometimes），我们不用太在意。",
+    "a": "我觉得他们生气是因为他们觉得别人不重视他们[they feel other people ignore them]。这主要是因为（mainly because…）如果他们等的时间很长[if they wait a long time]，他们心里就会很难受[they feel upset]。比如（For example,…）很多人发消息以后半天没有收到回复[a lot of people get no reply for a long time after sending a message]，他们就以为出事了（something went wrong with…），然后他们开始生气[and then they start to get angry]。所以（So…）我觉得每个人有时候都会很忙（everyone gets busy sometimes），我们不用太在意[we do not need to worry too much]。",
     "g": "情绪",
     "p": ["mainly because…", "For example,…", "something went wrong with…", "So…", "everyone gets busy sometimes"]
   },
   "new-low-cost-day-out||Do people like to spend their leisure time out in your country?": {
-    "a": "是的，我觉得大部分人喜欢出去（Yes, definitely.），特别是在周末。这主要是因为（mainly because…）如果他们在家待很久，他们会觉得很无聊[they feel bored at home]。比如（For example,…）我们这里很多人晚饭以后去楼下散步（go for a walk after dinner），他们走完以后心情很好[they feel good after the walk]。所以（As a result,…）如果他们出去呼吸新鲜空气（get some fresh air），他们就不会觉得那么累了。而且他们在楼下还可以跟邻居聊天[they can also chat with their neighbours]。",
+    "a": "是的，我觉得大部分人喜欢出去（Yes, definitely.），特别是在周末[especially at weekends]。这主要是因为（mainly because…）如果他们在家待很久[if they stay at home for a long time]，他们会觉得很无聊[they feel bored at home]。比如（For example,…）我们这里很多人晚饭以后去楼下散步（go for a walk after dinner），他们走完以后心情很好[they feel good after the walk]。所以（As a result,…）如果他们出去呼吸新鲜空气（get some fresh air），他们就不会觉得那么累了[they do not feel so tired]。而且他们在楼下还可以跟邻居聊天[they can also chat with their neighbours]。",
     "g": "情绪",
     "p": ["Yes, definitely.", "mainly because…", "For example,…", "go for a walk after dinner", "As a result,…", "get some fresh air"]
   },
   "new-low-cost-day-out||How do people spend their leisure time in your country?": {
-    "a": "我觉得我们这里的人休息的时候一般不花很多钱。这主要是因为（mainly because…）出去旅游要花很多钱，但是在家附近玩可以省钱（keep the costs down）。比如（For example,…）很多老人晚饭以后去楼下散步（go for a walk after dinner），他们一分钱都不用花[they do not spend any money]。所以（As a result,…）现在的选择比以前多多了（there's a lot more choice now），而且人们不用花很多钱也可以玩得很开心[they can have fun without spending much]。",
+    "a": "我觉得我们这里的人休息的时候一般不花很多钱[people here usually do not spend much money in their free time]。这主要是因为（mainly because…）出去旅游要花很多钱[travelling costs a lot of money]，但是在家附近玩可以省钱（save money）。比如（For example,…）很多老人晚饭以后去楼下散步（go for a walk after dinner），他们一分钱都不用花[they do not spend any money]。所以（As a result,…）现在的选择比以前多多了（there's a lot more choice now），而且人们不用花很多钱也可以玩得很开心[they can have fun without spending much]。",
     "g": "钱",
-    "p": ["mainly because…", "keep the costs down", "For example,…", "go for a walk after dinner", "As a result,…", "there's a lot more choice now"]
+    "p": ["mainly because…", "save money", "For example,…", "go for a walk after dinner", "As a result,…", "there's a lot more choice now"]
   },
   "new-low-cost-day-out||How does technology affect the way people spend their leisure time?": {
-    "a": "我觉得科技让休息变得很方便，但是它也让人变懒了[it also makes people lazy]。这主要是因为（mainly because…）看手机可以省很多时间，但是人看太久以后会更累（it saves me a lot of time, but…）。比如（For example,…）现在很多年轻人周末躺在床上看视频，可是他们放下手机以后觉得很无聊[they feel bored after they put the phone down]。所以（So…）我觉得科技有好的一面也有坏的一面（it has both good and bad sides），人们最好出去呼吸新鲜空气（get some fresh air）。",
+    "a": "我觉得科技让休息变得很方便[technology makes leisure very easy]，但是它也让人变懒了[it also makes people lazy]。这主要是因为（mainly because…）看手机可以省很多时间，但是人看太久以后会更累（it saves me a lot of time, but…）。比如（For example,…）现在很多年轻人周末躺在床上看视频[a lot of young people lie in bed watching videos at weekends]，可是他们放下手机以后觉得很无聊[they feel bored after they put the phone down]。所以（So…）我觉得科技有好的一面也有坏的一面（it has both good and bad sides），人们最好出去呼吸新鲜空气（get some fresh air）。",
     "g": "情绪",
     "p": ["mainly because…", "it saves me a lot of time, but…", "For example,…", "So…", "it has both good and bad sides", "get some fresh air"]
   },
   "new-low-cost-day-out||Do you think only old people have time for leisure?": {
-    "a": "我觉得不是这样（Not really.），年轻人也有休息的时间。这主要是因为（mainly because…）年轻人上班很累，所以他们更需要在下班以后放松（relax after a long day）。比如（For example,…）现在很多年轻人周末也很忙，可是他们还是会抽半天出去走走，因为他们想让自己开心一点[they want to feel happier]。所以（So…）不是只有老人有空[old people are not the only ones with free time]，只是老人的生活节奏比较慢（a slower pace of life）。",
+    "a": "我觉得不是这样（Not really.），年轻人也有休息的时间[young people also have leisure time]。这主要是因为（mainly because…）年轻人上班很累[young people are tired from work]，所以他们更需要在下班以后放松（relax after a long day）。比如（For example,…）现在很多年轻人周末也很忙[a lot of young people are busy at weekends too]，可是他们还是会抽半天出去走走[but they still make half a day to go out]，因为他们想让自己开心一点[they want to feel happier]。所以（So…）不是只有老人有空[old people are not the only ones with free time]，只是老人的生活节奏比较慢（a slower pace of life）。",
     "g": "情绪",
     "p": ["Not really.", "mainly because…", "relax after a long day", "For example,…", "So…", "a slower pace of life"]
   },
   "new-low-cost-day-out||Why do people like to have days off?": {
-    "a": "我觉得大家都喜欢休息日，他们在周末的时候很开心。这主要是因为（mainly because…）人们平时上班很累，所以他们需要在下班以后好好放松（relax after a long day）。比如（For example,…）很多人在休息日睡到中午，然后他们下午出去晒太阳（get some fresh air），他们觉得很舒服[they feel very comfortable]。所以（As a result,…）他们不用花很多钱（keep the costs down）也可以让自己变好[they can feel better again]。",
+    "a": "我觉得大家都喜欢休息日[everyone likes days off]，他们在周末的时候很开心[they feel happy at weekends]。这主要是因为（mainly because…）人们平时上班很累[people are usually tired from work]，所以他们需要在下班以后好好放松（relax after a long day）。比如（For example,…）很多人在休息日睡到中午[a lot of people sleep until noon on their day off]，然后他们下午出去晒太阳（get some fresh air），他们觉得很舒服[they feel very comfortable]。所以（As a result,…）他们不用花很多钱（save money）也可以让自己变好[they can feel better again]。",
     "g": "情绪",
-    "p": ["mainly because…", "relax after a long day", "For example,…", "get some fresh air", "As a result,…", "keep the costs down"]
+    "p": ["mainly because…", "relax after a long day", "For example,…", "get some fresh air", "As a result,…", "save money"]
   },
   "new-low-cost-day-out||Going out to have holidays is tiring. Why do people still want to do it?": {
-    "a": "我觉得虽然出去玩很累，但是大家还是愿意去。这主要是因为（mainly because…）如果人们换一个地方，他们的心情就完全不一样[they feel completely different]。比如（For example,…）现在很多人假期去爬山，他们很累，可是他们可以呼吸新鲜空气（get some fresh air）。所以（As a result,…）他们回家以后反而觉得更放松（relax after a long day），他们上班的时候也更有精神[they have more energy at work]。而且他们出去玩的时候可以跟家人在一起[they can be with their family]。",
+    "a": "我觉得虽然出去玩很累[even though going out is tiring]，但是大家还是愿意去[people still want to go]。这主要是因为（mainly because…）如果人们换一个地方[if people go somewhere different]，他们的心情就完全不一样[they feel completely different]。比如（For example,…）现在很多人假期去爬山[a lot of people go hiking on holiday]，他们很累[they feel tired]，可是他们可以呼吸新鲜空气（get some fresh air）。所以（As a result,…）他们回家以后反而觉得更放松（relax after a long day），他们上班的时候也更有精神[they have more energy at work]。而且他们出去玩的时候可以跟家人在一起[they can be with their family]。",
     "g": "情绪",
     "p": ["mainly because…", "For example,…", "get some fresh air", "As a result,…", "relax after a long day"]
   },
   "new-help-solve-problem||How important is it for schools to help children become smarter?": {
-    "a": "我觉得这非常重要（Yes, definitely.），学校的作用很大。这主要是因为（mainly because…）学校教孩子怎么学习，不只是教课本上的知识[not only the knowledge in the books]。比如（For example,…）大部分老师会把很难的内容拆成小步骤（break it down into small steps），然后一步一步讲给学生听。所以（As a result,…）孩子可以看到自己的进步（see real progress），他们学习的时候也更有动力[they feel more motivated]。",
+    "a": "我觉得这非常重要（Yes, definitely.），学校的作用很大[schools play a big role]。这主要是因为（mainly because…）学校教孩子怎么学习[schools teach children how to learn]，不只是教课本上的知识[not only the knowledge in the books]。比如（For example,…）大部分老师会把很难的内容拆成小步骤（break it down into small steps），然后一步一步讲给学生听[and then explain it to students step by step]。所以（As a result,…）孩子可以看到自己的进步（see real progress），他们学习的时候也更有动力[they feel more motivated]。",
     "g": "目标",
     "p": ["Yes, definitely.", "mainly because…", "For example,…", "break it down into small steps", "As a result,…", "see real progress"]
   },
   "new-language-learning||What difficulties do people face when learning a language?": {
-    "a": "我觉得最难的部分是开口说英语，背单词其实比较容易[remembering new words is easier]。这主要是因为（mainly because…）很多人害怕说错话，他们也害怕别人笑他们，所以他们不敢练习[they do not dare to practise]。比如（For example,…）很多学生背了很多单词，可是他们见到外国人的时候太紧张了，所以他们一句话也说不出来[they cannot say a single word]。所以（So…）我觉得人们每天要逼自己说几句英语，然后他们可以看到真的进步（see real progress）。",
+    "a": "我觉得最难的部分是开口说英语[the hardest part is speaking English out loud]，背单词其实比较容易[remembering new words is easier]。这主要是因为（mainly because…）很多人害怕说错话[a lot of people are afraid of saying something wrong]，他们也害怕别人笑他们[they are also afraid others will laugh at them]，所以他们不敢练习[they do not dare to practise]。比如（For example,…）很多学生背了很多单词[a lot of students remember many words]，可是他们见到外国人的时候太紧张了[but they get too nervous when they meet a foreigner]，所以他们一句话也说不出来[they cannot say a single word]。所以（So…）我觉得人们每天要逼自己说几句英语[people should make themselves say a few sentences of English every day]，然后他们可以看到真的进步（see real progress）。",
     "g": "情绪",
     "p": ["mainly because…", "For example,…", "So…", "see real progress"]
   },
   "new-language-learning||Do you think language learning is important? Why?": {
-    "a": "是的，我觉得很重要（Yes, definitely.），特别是英语。这主要是因为（mainly because…）如果一个人会英语，他就有多得多的工作机会（many more job opportunities）。比如（For example,…）很多英语好的学生毕业以后进了外企，他们有稳定的收入（a stable income），他们的工资也比较高[their salary is also higher]。所以（As a result,…）我觉得花时间学一门外语非常值得[it is really worth it]。而且会英语的人跟外国人说话的时候也更有信心[they feel more confident]。",
+    "a": "是的，我觉得很重要（Yes, definitely.），特别是英语[especially English]。这主要是因为（mainly because…）如果一个人会英语[if someone can speak English]，他就有多得多的工作机会（many more job opportunities）。比如（For example,…）很多英语好的学生毕业以后进了外企[a lot of students with good English join foreign companies after graduation]，他们有稳定的收入（a stable income），他们的工资也比较高[their salary is also higher]。所以（As a result,…）我觉得花时间学一门外语非常值得[it is really worth it]。而且会英语的人跟外国人说话的时候也更有信心[they feel more confident]。",
     "g": "钱",
     "p": ["Yes, definitely.", "mainly because…", "many more job opportunities", "For example,…", "a stable income", "As a result,…"]
   },
   "new-language-learning||Which is better, to study a language alone or to study it in a group? Why?": {
-    "a": "我觉得跟小组一起学更好。这主要是因为（mainly because…）说话需要另一个人，所以一个人在家没有办法练习[you cannot practise alone at home]。比如（For example,…）现在很多学生去英语角，他们在那里跟别人说英语，也互相纠正发音[they speak English with other people there and correct each other's pronunciation]。所以（So…）我觉得跟别人一起练快多了（it's much faster than working alone），因为大家可以互相帮忙[because they can help each other]。",
+    "a": "我觉得跟小组一起学更好[studying in a group is better]。这主要是因为（mainly because…）说话需要另一个人[speaking needs another person]，所以一个人在家没有办法练习[you cannot practise alone at home]。比如（For example,…）现在很多学生去英语角[a lot of students go to English corner]，他们在那里跟别人说英语，也互相纠正发音[they speak English with other people there and correct each other's pronunciation]。所以（So…）我觉得跟别人一起练快多了（it's much faster than working alone），因为大家可以互相帮忙[because they can help each other]。",
     "g": "关系",
     "p": ["mainly because…", "For example,…", "So…", "it's much faster than working alone"]
   },
   "new-language-learning||What's the best way to learn a language?": {
-    "a": "我觉得最好的办法是每天使用这门语言，不要只背单词。这主要是因为（mainly because…）如果人们很久不用这门语言，他们就会忘记，所以他们需要一个每天的小计划[they need a small plan for every day]。比如（For example,…）很多学生每天早上读十分钟英语，他们一天也不停[they do not stop for even one day]。所以（As a result,…）如果你养成固定的习惯（stick to a routine），你就可以看到真的进步（see real progress）。",
+    "a": "我觉得最好的办法是每天使用这门语言[the best way is to use the language every day]，不要只背单词[not just remember words]。这主要是因为（mainly because…）如果人们很久不用这门语言[if people do not use the language for a long time]，他们就会忘记[they will forget it]，所以他们需要一个每天的小计划[they need a small plan for every day]。比如（For example,…）很多学生每天早上读十分钟英语[a lot of students read English for ten minutes every morning]，他们一天也不停[they do not stop for even one day]。所以（As a result,…）如果你养成固定的习惯（stick to a routine），你就可以看到真的进步（see real progress）。",
     "g": "目标",
     "p": ["mainly because…", "For example,…", "As a result,…", "stick to a routine", "see real progress"]
   },
   "new-language-learning||What are the advantages and disadvantages of learning a language?": {
-    "a": "我觉得学一门语言有好的一面也有坏的一面（it has both good and bad sides）。这主要是因为（mainly because…）好处是你可以得到多得多的工作机会（many more job opportunities），坏处是你要花很多钱和时间。比如（For example,…）很多学生为了考雅思要报一个班，他们要花好几千块钱[they pay several thousand yuan for it]。所以（So…）我觉得好处比坏处多，因为好的工作可以把这些钱赚回来[a good job can earn the money back]。",
+    "a": "我觉得学一门语言有好的一面也有坏的一面（it has both good and bad sides）。这主要是因为（mainly because…）好处是你可以得到多得多的工作机会（many more job opportunities），坏处是你要花很多钱和时间[the bad side is you spend a lot of money and time]。比如（For example,…）很多学生为了考雅思要报一个班[a lot of students sign up for a class to take IELTS]，他们要花好几千块钱[they pay several thousand yuan for it]。所以（So…）我觉得好处比坏处多[the good points are more important than the bad ones]，因为好的工作可以把这些钱赚回来[a good job can earn the money back]。",
     "g": "钱",
     "p": ["it has both good and bad sides", "mainly because…", "many more job opportunities", "For example,…", "So…"]
   },
   "new-language-learning||Some people think that technology has made it unnecessary to learn languages. What do you think?": {
-    "a": "我觉得不对（Not really.），翻译软件不能代替自己会说[software cannot replace real speaking]。这主要是因为（mainly because…）如果你举着手机跟别人聊天，你们两个人都会觉得很别扭[both of you feel awkward]。比如（For example,…）很多人用手机翻译跟外国人说话，可是他们没有办法跟对方交朋友[they cannot make friends with the other person]。所以（So…）我觉得软件很省时间，但是语言还是要自己学（it saves me a lot of time, but…）。",
+    "a": "我觉得不对（Not really.），翻译软件不能代替自己会说[software cannot replace real speaking]。这主要是因为（mainly because…）如果你举着手机跟别人聊天[if you hold up your phone to chat with someone]，你们两个人都会觉得很别扭[both of you feel awkward]。比如（For example,…）很多人用手机翻译跟外国人说话[a lot of people use phone translation to talk with foreigners]，可是他们没有办法跟对方交朋友[they cannot make friends with the other person]。所以（So…）我觉得软件很省时间，但是语言还是要自己学（it saves me a lot of time, but…）。",
     "g": "关系",
     "p": ["Not really.", "mainly because…", "For example,…", "So…", "it saves me a lot of time, but…"]
   },
   "new-electronic-device-problem||Why are people keen on buying new electronic  devices?": {
-    "a": "我觉得很多人买新手机是因为广告影响了他们[the ads influence them]。这主要是因为（mainly because…）广告很吸引人（it catches your attention），所以人们看了以后心里很想要[they really want it]。比如（For example,…）现在很多年轻人看到新手机的广告，他们当天就去店里买，因为他们拿到新手机的时候很开心[they feel happy when they get a new phone]。所以（So…）我觉得人们买以前要多想一想，因为有一些广告不老实（some ads are not honest）。而且新手机很贵，很多人买完以后没有钱了[many people have no money left]。",
+    "a": "我觉得很多人买新手机是因为广告影响了他们[the ads influence them]。这主要是因为（mainly because…）广告很吸引人（it catches your attention），所以人们看了以后心里很想要[they really want it]。比如（For example,…）现在很多年轻人看到新手机的广告[a lot of young people see ads for new phones]，他们当天就去店里买[they go to the shop and buy one that day]，因为他们拿到新手机的时候很开心[they feel happy when they get a new phone]。所以（So…）我觉得人们买以前要多想一想[people should think more before they buy]，因为有一些广告不老实（some ads are not honest）。而且新手机很贵[and new phones are expensive]，很多人买完以后没有钱了[many people have no money left]。",
     "g": "情绪",
     "p": ["mainly because…", "it catches your attention", "For example,…", "So…", "some ads are not honest"]
   },
   "new-electronic-device-problem||What impact do electronic devices have on people?": {
-    "a": "我觉得电子产品有好的一面也有坏的一面（it has both good and bad sides）。这主要是因为（mainly because…）用手机查东西很省时间，但是看太久人会觉得很烦（it saves me a lot of time, but…）。比如（For example,…）很多人本来只想查一个东西，可是他们刷了一个小时手机，然后他们觉得很后悔[they feel sorry about it]。所以（So…）我觉得人们晚饭以后应该放下手机[people should put down their phones]，出去散步（go for a walk after dinner）。",
+    "a": "我觉得电子产品有好的一面也有坏的一面（it has both good and bad sides）。这主要是因为（mainly because…）用手机查东西很省时间，但是看太久人会觉得很烦（it saves me a lot of time, but…）。比如（For example,…）很多人本来只想查一个东西[a lot of people only want to look up one thing]，可是他们刷了一个小时手机[but they scroll on their phone for an hour]，然后他们觉得很后悔[they feel sorry about it]。所以（So…）我觉得人们晚饭以后应该放下手机[people should put down their phones]，出去散步（go for a walk after dinner）。",
     "g": "情绪",
     "p": ["it has both good and bad sides", "mainly because…", "it saves me a lot of time, but…", "For example,…", "So…", "go for a walk after dinner"]
   },
   "new-important-decision||Do you think children sometimes have to make important decisions?": {
-    "a": "我觉得孩子有时候也要自己做决定。这主要是因为（mainly because…）只有孩子自己知道他喜欢什么，父母不能替他决定[parents cannot decide for him]。比如（For example,…）现在很多父母让孩子自己选兴趣班，他们只给孩子一些建议[they only give the child some advice]。所以（As a result,…）我觉得孩子应该先自己想一想，如果他不懂，他可以找父母帮忙（turn to… for help）。",
+    "a": "我觉得孩子有时候也要自己做决定[children sometimes have to make decisions themselves]。这主要是因为（mainly because…）只有孩子自己知道他喜欢什么[only the child knows what he likes]，父母不能替他决定[parents cannot decide for him]。比如（For example,…）现在很多父母让孩子自己选兴趣班[a lot of parents let their kids choose their own hobby classes]，他们只给孩子一些建议[they only give the child some advice]。所以（As a result,…）我觉得孩子应该先自己想一想[children should think for themselves first]，如果他不懂[if they do not understand]，他可以找父母帮忙（turn to… for help）。",
     "g": "关系",
     "p": ["mainly because…", "For example,…", "As a result,…", "turn to… for help"]
   },
   "new-important-decision||What important decisions do teenagers need to  make after graduation?": {
-    "a": "我觉得最重要的决定是选专业和选工作。这主要是因为（mainly because…）这两件事会影响他们以后有没有稳定的收入（a stable income）。比如（For example,…）很多学生毕业的时候先比一比几个公司给的工资[they compare the salaries from a few companies]，然后他们选钱多的那个[they choose the one that pays more]。所以（So…）我觉得他们应该先定一个清楚的目标（set myself a clear goal），然后把它拆成小步骤（break it down into small steps）。",
+    "a": "我觉得最重要的决定是选专业和选工作[the most important decisions are choosing a major and a job]。这主要是因为（mainly because…）这两件事会影响他们以后有没有稳定的收入（a stable income）。比如（For example,…）很多学生毕业的时候先比一比几个公司给的工资[they compare the salaries from a few companies]，然后他们选钱多的那个[they choose the one that pays more]。所以（So…）我觉得他们应该先定一个清楚的目标（set myself a clear goal），然后把它拆成小步骤（break it down into small steps）。",
     "g": "钱",
     "p": ["mainly because…", "a stable income", "For example,…", "So…", "set myself a clear goal", "break it down into small steps"]
   },
   "new-important-decision||Who can children turn to for help when making a decision?": {
-    "a": "我觉得孩子一般先找父母帮忙（turn to… for help）。这主要是因为（mainly because…）父母最了解他们，父母也最愿意听他们说话[parents are willing to listen to them]。比如（For example,…）很多高中生要选文科还是理科，他们会跟妈妈聊很久[they talk with their mother for a long time]。所以（So…）我觉得孩子应该先跟家里人商量，如果他们还是不能决定，他们可以去问老师。",
+    "a": "我觉得孩子一般先找父母帮忙（turn to… for help）。这主要是因为（mainly because…）父母最了解他们[parents understand them best]，父母也最愿意听他们说话[parents are willing to listen to them]。比如（For example,…）很多高中生要选文科还是理科[a lot of high school students have to choose arts or science]，他们会跟妈妈聊很久[they talk with their mother for a long time]。所以（So…）我觉得孩子应该先跟家里人商量[children should talk with their family first]，如果他们还是不能决定[if they still cannot decide]，他们可以去问老师[they can ask their teacher]。",
     "g": "关系",
     "p": ["turn to… for help", "mainly because…", "For example,…", "So…"]
   },
   "new-important-decision||Do you think advertisements can influence our decisions when shopping?": {
-    "a": "是的，我觉得广告肯定会影响我们（Yes, definitely.），好的广告马上就抓住你的注意力（it catches your attention）。这主要是因为（mainly because…）广告总是说这个东西很便宜，所以人们忍不住花钱[people cannot stop themselves from spending money]。比如（For example,…）很多人在超市看到广告上的饮料，他们就顺手买了一瓶[they just pick up a bottle]，所以他们每个月多花了很多钱[they spend a lot more money every month]。所以（So…）我觉得我们买以前要多想一想，我不会相信我看到的每一句话（I don't believe everything I read）。",
+    "a": "是的，我觉得广告肯定会影响我们（Yes, definitely.），好的广告马上就抓住你的注意力（it catches your attention）。这主要是因为（mainly because…）广告总是说这个东西很便宜[ads always say the thing is cheap]，所以人们忍不住花钱[people cannot stop themselves from spending money]。比如（For example,…）很多人在超市看到广告上的饮料[a lot of people see a drink from an ad in the supermarket]，他们就顺手买了一瓶[they just pick up a bottle]，所以他们每个月多花了很多钱[they spend a lot more money every month]。所以（So…）我觉得我们买以前要多想一想[we should think more before we buy]，我不会相信我看到的每一句话（I don't believe everything I read）。",
     "g": "钱",
     "p": ["Yes, definitely.", "it catches your attention", "mainly because…", "For example,…", "So…", "I don't believe everything I read"]
   },
   "new-important-decision||Do you think the influence of advertising is good?": {
-    "a": "我觉得广告有好的一面也有坏的一面（it has both good and bad sides）。这主要是因为（mainly because…）广告可以告诉我们哪里在打折，所以我们可以省钱（keep the costs down）。比如（For example,…）很多人买耳机以前先看广告，他们知道了哪个牌子在打折[they learn which brand is on sale]，所以他们少花了一些钱[they spend less money]。可是有一些广告不老实（some ads are not honest），所以（So…）我觉得人们买以前应该先看看别人的评价[read the reviews from other people]。",
+    "a": "我觉得广告有好的一面也有坏的一面（it has both good and bad sides）。这主要是因为（mainly because…）广告可以告诉我们哪里在打折[ads can tell us where the discounts are]，所以我们可以省钱（save money）。比如（For example,…）很多人买耳机以前先看广告[a lot of people look at ads before buying headphones]，他们知道了哪个牌子在打折[they learn which brand is on sale]，所以他们少花了一些钱[they spend less money]。可是有一些广告不老实（some ads are not honest），所以（So…）我觉得人们买以前应该先看看别人的评价[read the reviews from other people]。",
     "g": "钱",
-    "p": ["it has both good and bad sides", "mainly because…", "keep the costs down", "For example,…", "some ads are not honest", "So…"]
+    "p": ["it has both good and bad sides", "mainly because…", "save money", "For example,…", "some ads are not honest", "So…"]
   },
   "new-important-decision||How do people usually make important decisions?": {
-    "a": "我觉得大部分人会先想清楚好处和坏处，然后再做决定。这主要是因为（mainly because…）重要的决定都跟钱有关，人们最看重稳定的收入（a stable income）。比如（For example,…）很多人换工作以前先算一算新公司给多少钱[how much the new company pays]。所以（As a result,…）他们想清楚以后，很多人还会去找别人帮忙（turn to… for help），因为他们想听听别人的意见[they want to hear other opinions]。",
+    "a": "我觉得大部分人会先想清楚好处和坏处，然后再做决定[most people think about the good and bad points first, and then they decide]。这主要是因为（mainly because…）重要的决定都跟钱有关[important decisions are all about money]，人们最看重稳定的收入（a stable income）。比如（For example,…）很多人换工作以前先算一算新公司给多少钱[how much the new company pays]。所以（As a result,…）他们想清楚以后，很多人还会去找别人帮忙（turn to… for help），因为他们想听听别人的意见[they want to hear other opinions]。",
     "g": "钱",
     "p": ["mainly because…", "a stable income", "For example,…", "As a result,…", "turn to… for help"]
   },
   "new-teamwork||Why do some people prefer to work by themselves?": {
-    "a": "我觉得有一些人习惯一个人做事情。这主要是因为（mainly because…）他们不用等别人，所以他们心里更自在[they feel more free]。比如（For example,…）很多学生喜欢自己写作业，因为他们可以自己决定什么时候写，所以他们没有压力[they feel no pressure]。所以（So…）我觉得小的事情自己做就可以，如果他们真的做不完，他们再去找别人帮忙（turn to… for help）。",
+    "a": "我觉得有一些人习惯一个人做事情[some people are used to doing things on their own]。这主要是因为（mainly because…）他们不用等别人[they do not have to wait for others]，所以他们心里更自在[they feel more free]。比如（For example,…）很多学生喜欢自己写作业[a lot of students like to do their homework on their own]，因为他们可以自己决定什么时候写[they can decide when to do it themselves]，所以他们没有压力[they feel no pressure]。所以（So…）我觉得小的事情自己做就可以[we can do the small things ourselves]，如果他们真的做不完，他们再去找别人帮忙（turn to… for help）。",
     "g": "情绪",
     "p": ["mainly because…", "For example,…", "So…", "turn to… for help"]
   },
   "new-teamwork||What should a leader do to make team members want to follow him or her?": {
-    "a": "我觉得好的领导最重要的事情是多听大家的想法。这主要是因为（mainly because…）如果队员觉得领导重视他们，他们就愿意跟着他做事[they are willing to follow him]。比如（For example,…）很多组长开会的时候先问每个人的意见，然后大家一起分工[then they divide the work together]。所以（As a result,…）如果每个人做自己擅长的事（each do what we're good at），团队就比一个人做快多了（it's much faster than working alone）。",
+    "a": "我觉得好的领导最重要的事情是多听大家的想法[the most important thing for a good leader is to listen to everyone's ideas]。这主要是因为（mainly because…）如果队员觉得领导重视他们[if the team members feel the leader cares about them]，他们就愿意跟着他做事[they are willing to follow him]。比如（For example,…）很多组长开会的时候先问每个人的意见[a lot of team leaders ask for everyone's opinion in the meeting first]，然后大家一起分工[then they divide the work together]。所以（As a result,…）如果每个人做自己擅长的事（each do what we're good at），团队就比一个人做快多了（it's much faster than working alone）。",
     "g": "关系",
     "p": ["mainly because…", "For example,…", "As a result,…", "each do what we're good at", "it's much faster than working alone"]
   },
   "new-teamwork||Should students learn to do group work?": {
-    "a": "是的，我觉得学生一定要学（Yes, definitely.），他们以后一直用得到这个能力[they will use this skill in the future]。这主要是因为（mainly because…）他们以后工作的时候要跟别人合作[they have to work with other people]。比如（For example,…）很多学生做小组作业的时候，每个人负责一部分（be responsible for one part of…）。所以（As a result,…）大家一起做比一个人做快多了（it's much faster than working alone）。",
+    "a": "是的，我觉得学生一定要学（Yes, definitely.），他们以后一直用得到这个能力[they will use this skill in the future]。这主要是因为（mainly because…）他们以后工作的时候要跟别人合作[they have to work with other people]。比如（For example,…）很多学生做小组作业的时候[when a lot of students do group homework]，每个人负责一部分（be responsible for one part of…）。所以（As a result,…）大家一起做比一个人做快多了（it's much faster than working alone）。",
     "g": "关系",
     "p": ["Yes, definitely.", "mainly because…", "For example,…", "be responsible for one part of…", "As a result,…", "it's much faster than working alone"]
   },
   "new-teamwork||What group tasks are there in schools?": {
-    "a": "我觉得学校里的小组任务很多。主要是因为（mainly because…）老师想让学生早一点学会跟别人合作[teachers want students to learn to work with others early]。比如（For example,…）很多英语老师让学生一起排一个短剧[many English teachers ask students to put on a short play together]，每个学生负责一个部分（be responsible for one part of…）。所以（As a result,…）每个学生做自己擅长的事（each do what we're good at），他们完成得更快[they finish the task faster]。",
+    "a": "我觉得学校里的小组任务很多[there are a lot of group tasks in school]。主要是因为（mainly because…）老师想让学生早一点学会跟别人合作[teachers want students to learn to work with others early]。比如（For example,…）很多英语老师让学生一起排一个短剧[many English teachers ask students to do a short play together]，每个学生负责一个部分（be responsible for one part of…）。所以（As a result,…）每个学生做自己擅长的事（each do what we're good at），他们完成得更快[they finish the task faster]。",
     "g": "关系",
     "p": ["mainly because…", "For example,…", "be responsible for one part of…", "As a result,…", "each do what we're good at"]
   },
   "new-teamwork||What advantages are there for students experiencing teamwork at school?": {
-    "a": "我觉得学生在学校学会合作有很多好处[students get a lot of benefits from teamwork at school]。主要是因为（mainly because…）几个学生一起做事的时候，他们比一个人做快得多（it's much faster than working alone）。比如（For example,…）很多学生一起做一张海报，一个学生画画，另一个学生写字[one student draws and another student writes]。所以（As a result,…）学生也学会替别人着想（it teaches you to think about others），这对他们以后很有用[this is useful for them in the future]。",
+    "a": "我觉得学生在学校学会合作有很多好处[students get a lot of benefits from teamwork at school]。主要是因为（mainly because…）几个学生一起做事的时候[when a few students do things together]，他们比一个人做快得多（it's much faster than working alone）。比如（For example,…）很多学生一起做一张海报[a lot of students make a poster together]，一个学生画画，另一个学生写字[one student draws and another student writes]。所以（As a result,…）学生也学会替别人着想（it teaches you to think about others），这对他们以后很有用[this is useful for them in the future]。",
     "g": "关系",
     "p": ["mainly because…", "it's much faster than working alone", "For example,…", "As a result,…", "it teaches you to think about others"]
   },
   "new-teamwork||How can you tell if a person is a good leader?": {
-    "a": "我觉得我们主要看他会不会分配工作[I mainly look at whether he can share out the work]。主要是因为（mainly because…）好的领导知道每个人擅长什么，他会让每个人做自己擅长的事（each do what we're good at）。比如（For example,…）很多小组的组长做项目的时候，他先问每个人想做什么[he first asks everyone what they want to do]，然后他让每个人负责一个部分（be responsible for one part of…）。所以（As a result,…）整个小组做得比一个人快得多（it's much faster than working alone），大家也不会太累[and nobody gets too tired]。",
+    "a": "我觉得我们主要看他会不会分配工作[I mainly look at whether he can share out the work]。主要是因为（mainly because…）好的领导知道每个人擅长什么[a good leader knows what everyone is good at]，他会让每个人做自己擅长的事（each do what we're good at）。比如（For example,…）很多小组的组长做项目的时候[when a team leader does a project]，他先问每个人想做什么[he first asks everyone what they want to do]，然后他让每个人负责一个部分（be responsible for one part of…）。所以（As a result,…）整个小组做得比一个人快得多（it's much faster than working alone），大家也不会太累[and nobody gets too tired]。",
     "g": "关系",
     "p": ["mainly because…", "each do what we're good at", "For example,…", "be responsible for one part of…", "As a result,…", "it's much faster than working alone"]
   },
   "new-changed-plan||Do people often change their plans?": {
-    "a": "我觉得很多人经常改计划，这件事很正常[I think this is quite normal]。主要是因为（mainly because…）很多计划要跟别人一起做，但是每个人有时候都很忙（everyone gets busy sometimes）。比如（For example,…）很多人约好周末跟朋友去爬山，但是他们朋友的车出了问题（something went wrong with…），最后他们只能待在家里[in the end they have to stay at home]。所以（So…）我定计划的时候，我会先问一下别人的时间[I ask other people about their time first]。",
+    "a": "我觉得很多人经常改计划[a lot of people often change their plans]，这件事很正常[I think this is quite normal]。主要是因为（mainly because…）很多计划要跟别人一起做[a lot of plans have to be done with other people]，但是每个人有时候都很忙（everyone gets busy sometimes）。比如（For example,…）很多人约好周末跟朋友去爬山[a lot of people arrange to go hiking with friends at the weekend]，但是他们朋友的车出了问题（something went wrong with…），最后他们只能待在家里[in the end they have to stay at home]。所以（So…）我定计划的时候[when I make a plan]，我会先问一下别人的时间[I ask other people about their time first]。",
     "g": "关系",
     "p": ["mainly because…", "everyone gets busy sometimes", "For example,…", "something went wrong with…", "So…"]
   },
   "new-changed-plan||Would you tell others if you change your plan?": {
-    "a": "我一定会马上告诉别人（Yes, definitely.）。主要是因为（mainly because…）如果我不说，我的朋友可能在外面等很久[if I do not tell him, my friend may wait outside for a long time]。比如（For example,…）很多人改了吃饭的时间，他们会马上给朋友发一条消息[they send their friends a message right away]。所以（So…）如果我的计划变了，我会尽快回复对方（get back to… as soon as I can）。",
+    "a": "我一定会马上告诉别人（Yes, definitely.）。主要是因为（mainly because…）如果我不说，我的朋友可能在外面等很久[if I do not tell him, my friend may wait outside for a long time]。比如（For example,…）很多人改了吃饭的时间[a lot of people change the time for a meal]，他们会马上给朋友发一条消息[they send their friends a message right away]。所以（So…）如果我的计划变了[if my plan changes]，我会尽快回复对方（get back to… as soon as I can）。",
     "g": "关系",
     "p": ["Yes, definitely.", "mainly because…", "For example,…", "So…", "get back to… as soon as I can"]
   },
   "new-changed-plan||Why do you think parents still make plans for their children nowadays?": {
-    "a": "我觉得现在很多父母还是喜欢帮孩子做计划。主要是因为（mainly because…）他们担心孩子没有方向，他们怕孩子浪费时间[they are afraid their children will waste time]。比如（For example,…）很多父母帮孩子定一个明确的目标（set myself a clear goal），然后他们把目标拆成很多小步骤（break it down into small steps）。所以（As a result,…）孩子每天能看到一点进步（see real progress），父母也就放心了[so the parents feel relieved]。而且父母也想多陪孩子做一些事情[parents also want to do more things with their children]。",
+    "a": "我觉得现在很多父母还是喜欢帮孩子做计划[a lot of parents still like to make plans for their children]。主要是因为（mainly because…）他们担心孩子没有方向[they worry their children have no direction]，他们怕孩子浪费时间[they are afraid their children will waste time]。比如（For example,…）很多父母帮孩子定一个明确的目标（set myself a clear goal），然后他们把目标拆成很多小步骤（break it down into small steps）。所以（As a result,…）孩子每天能看到一点进步（see real progress），父母也就放心了[so the parents stop worrying]。而且父母也想多陪孩子做一些事情[parents also want to do more things with their children]。",
     "g": "目标",
     "p": ["mainly because…", "For example,…", "set myself a clear goal", "break it down into small steps", "As a result,…", "see real progress"]
   },
   "new-changed-plan||How does technology help people make plans?": {
-    "a": "我觉得科技让大家一起做计划方便多了。最主要的原因是（The main reason is that…）我们可以在手机上跟朋友商量，很快就把时间和地点定下来[we can quickly decide the time and place]。比如（For example,…）很多人想一起出去玩，就在群里聊一聊，大家说好几点在哪见面，还能把地图发给每个人[they can send the map to everyone]。所以（So…）大家不用打很多电话，这省了很多时间（saves us a lot of time）。",
+    "a": "我觉得科技让大家一起做计划方便多了[technology makes it much easier for people to make plans together]。最主要的原因是（The main reason is that…）我们可以在手机上跟朋友商量[we can talk it over with friends on the phone]，很快就把时间和地点定下来[we can quickly decide the time and place]。比如（For example,…）很多人想一起出去玩[a lot of people want to go out together]，就在群里聊一聊[they just chat in the group]，大家说好几点在哪见面[they agree on what time and where to meet]，还能把地图发给每个人[they can send the map to everyone]。所以（So…）大家不用打很多电话[people do not have to make a lot of phone calls]，这省了很多时间（saves us a lot of time）。",
     "g": "关系",
     "p": ["The main reason is that…", "For example,…", "So…", "saves us a lot of time"]
   },
   "new-changed-plan||What kind of plans do people often make?": {
-    "a": "我觉得大部分人常做的是学习计划和旅行计划[study plans and travel plans]。主要是因为（mainly because…）很多人想给自己定一个明确的目标（set myself a clear goal）。比如（For example,…）很多学生想考雅思，他们把这个目标拆成很多小步骤（break it down into small steps），他们每天背几个词块[they learn a few phrases every day]。所以（So…）过了一段时间以后，他们可以看到真的有进步（see real progress）。而且很多人也喜欢跟朋友一起定计划[many people also like to make plans with their friends]。",
+    "a": "我觉得大部分人常做的是学习计划和旅行计划[study plans and travel plans]。主要是因为（mainly because…）很多人想给自己定一个明确的目标（set myself a clear goal）。比如（For example,…）很多学生想考雅思[a lot of students want to take IELTS]，他们把这个目标拆成很多小步骤（break it down into small steps），他们每天背几个词块[they learn a few phrases every day]。所以（So…）过了一段时间以后[after a while]，他们可以看到真的有进步（see real progress）。而且很多人也喜欢跟朋友一起定计划[many people also like to make plans with their friends]。",
     "g": "目标",
     "p": ["mainly because…", "set myself a clear goal", "For example,…", "break it down into small steps", "So…", "see real progress"]
   },
   "new-changed-plan||Do you think people like the process of making plans more, or the moment of carrying them out?": {
-    "a": "我觉得大部分人更喜欢真正做成的那一刻[the moment when they really finish it]。主要是因为（mainly because…）他们做完以后会有成就感（a real sense of achievement），但是他们写计划的时候没有这种感觉[they do not feel that when they are writing the plan]。比如（For example,…）很多人每天晚饭以后出去走走（go for a walk after dinner），几个月以后他们看到真的有变化（see real progress），那一天他们特别开心[they are really happy on that day]。所以（So…）我觉得做成一件事情的时候，大家最开心。",
+    "a": "我觉得大部分人更喜欢真正做成的那一刻[the moment when they really finish it]。主要是因为（mainly because…）他们做完以后会有成就感（a real sense of achievement），但是他们写计划的时候没有这种感觉[they do not feel that when they are writing the plan]。比如（For example,…）很多人每天晚饭以后出去走走（go for a walk after dinner），几个月以后他们看到真的有变化（see real progress），那一天他们特别开心[they are really happy on that day]。所以（So…）我觉得做成一件事情的时候，大家最开心[people are happiest when they finish something]。",
     "g": "情绪",
     "p": ["mainly because…", "a real sense of achievement", "For example,…", "go for a walk after dinner", "see real progress", "So…"]
   },
   "new-early-morning||Do you know anyone who likes to get up early?": {
-    "a": "认识（Yes, definitely.），我妈妈就是一个早起的人（be a morning person）。主要是因为（mainly because…）她觉得早上很安静，她的心情也很好。比如（For example,…）很多早起的人五点半起床做早饭[a lot of early risers get up at half past five and cook breakfast]，他们觉得早上很舒服[they feel very comfortable in the morning]。所以（So…）他们很多年一直保持同样的作息（stick to a routine）。",
+    "a": "认识（Yes, definitely.），我妈妈就是一个早起的人（be a morning person）。主要是因为（mainly because…）她觉得早上很安静[she feels the morning is quiet]，她的心情也很好[she is in a good mood]。比如（For example,…）很多早起的人五点半起床做早饭[a lot of early risers get up at half past five and cook breakfast]，他们觉得早上很舒服[they feel very comfortable in the morning]。所以（So…）他们很多年一直保持同样的作息（stick to a routine）。",
     "g": "情绪",
     "p": ["Yes, definitely.", "be a morning person", "mainly because…", "For example,…", "So…", "stick to a routine"]
   },
@@ -826,204 +826,204 @@ window.P3_ANSWERS = {
     "p": ["mainly because…", "I work best before…", "a real sense of achievement", "For example,…", "So…", "stick to a routine"]
   },
   "new-early-morning||What kinds of occasions do people need to arrive early?": {
-    "a": "我觉得考试、面试和坐火车坐飞机的时候，大家都要早到。主要是因为（mainly because…）路上很容易堵车（get stuck in traffic），如果他们迟到，他们会很紧张[if they are late, they will be very nervous]。比如（For example,…）很多人早上去坐高铁，他们正好碰上早高峰（at rush hour），他们在路上很着急[they get very worried on the road]。所以（So…）大部分人遇到这种事情，都会提前一点出门[they leave home a bit earlier]。",
+    "a": "我觉得考试、面试和坐火车坐飞机的时候，大家都要早到[people need to arrive early for exams, interviews and catching trains or planes]。主要是因为（mainly because…）路上很容易堵车（get stuck in traffic），如果他们迟到，他们会很紧张[if they are late, they will be very nervous]。比如（For example,…）很多人早上去坐高铁[a lot of people go to catch the high-speed train in the morning]，他们正好碰上早高峰（at rush hour），他们在路上很着急[they get very worried on the road]。所以（So…）大部分人遇到这种事情[most people in this kind of situation]，都会提前一点出门[they leave home a bit earlier]。",
     "g": "情绪",
     "p": ["mainly because…", "get stuck in traffic", "For example,…", "at rush hour", "So…"]
   },
   "new-early-morning||Why do some people like to stay up late?": {
-    "a": "我觉得有些人熬夜，是因为只有晚上的时间属于他们自己[the evening is the only time that belongs to them]。主要是因为（mainly because…）他们白天要上班，只有晚上可以放松一下（relax after a long day），晚上也可以让他们忘掉工作（it helps me forget about…）。比如（For example,…）现在很多年轻人晚上十二点还在手机上看视频[a lot of young people are still watching videos on their phones at midnight]，他们觉得那个时候最轻松[they feel most relaxed at that time]。所以（So…）他们晚上不想睡觉，早上也起不来[and they cannot get up in the morning]。",
+    "a": "我觉得有些人熬夜[some people stay up late]，是因为只有晚上的时间属于他们自己[the evening is the only time that belongs to them]。主要是因为（mainly because…）他们白天要上班[they have to work during the day]，只有晚上可以放松一下（relax after a long day），晚上也可以让他们忘掉工作（it helps me forget about…）。比如（For example,…）现在很多年轻人晚上十二点还在手机上看视频[a lot of young people are still watching videos on their phones at midnight]，他们觉得那个时候最轻松[they feel most relaxed at that time]。所以（So…）他们晚上不想睡觉[they do not want to sleep at night]，早上也起不来[and they cannot get up in the morning]。",
     "g": "情绪",
     "p": ["mainly because…", "relax after a long day", "it helps me forget about…", "For example,…", "So…"]
   },
   "new-early-morning||Is it good to arrive early in any situation?": {
-    "a": "不一定（Not really.），如果我们去朋友家太早，这样不太好[it is not very polite]。主要是因为（mainly because…）对方可能还没有准备好，你去太早会给别人添麻烦[you may cause them trouble]。比如（For example,…）很多人去别人家吃饭早到了一个小时，主人还在做饭，他们只能坐在那里等[the host is still cooking and they just have to sit there and wait]。所以（So…）我觉得只有考试和坐车的时候我们才要早到，因为路上可能堵车（get stuck in traffic）。",
+    "a": "不一定（Not really.），如果我们去朋友家太早[if we go to a friend's house too early]，这样不太好[it is not very polite]。主要是因为（mainly because…）对方可能还没有准备好[they may not be ready yet]，你去太早会给别人添麻烦[you may cause them trouble]。比如（For example,…）很多人去别人家吃饭早到了一个小时[a lot of people arrive an hour early for a meal at someone's house]，主人还在做饭，他们只能坐在那里等[the host is still cooking and they just have to sit there and wait]。所以（So…）我觉得只有考试和坐车的时候我们才要早到[we only need to arrive early for exams and catching transport]，因为路上可能堵车（get stuck in traffic）。",
     "g": "关系",
     "p": ["Not really.", "mainly because…", "For example,…", "So…", "get stuck in traffic"]
   },
   "new-early-morning||What kind of people like getting up early?": {
-    "a": "我觉得每天有事情要做的人，一般都是早起的人（be a morning person）。主要是因为（mainly because…）他们给自己定了明确的目标（set myself a clear goal），他们需要早一点开始[they need to start early]。比如（For example,…）很多学生每天六点起床背单词，他们从来不睡懒觉[they never sleep in]。所以（So…）过了一段时间，早起就变成了他们固定的作息（stick to a routine）。而且他们做完事情以后，心情也很好[they also feel good after they finish their work]。",
+    "a": "我觉得每天有事情要做的人，一般都是早起的人（be a morning person）。主要是因为（mainly because…）他们给自己定了明确的目标（set myself a clear goal），他们需要早一点开始[they need to start early]。比如（For example,…）很多学生每天六点起床背单词[a lot of students get up at six every day to learn new words]，他们从来不睡懒觉[they never sleep in]。所以（So…）过了一段时间[after a while]，早起就变成了他们固定的作息（stick to a routine）。而且他们做完事情以后，心情也很好[they also feel good after they finish their work]。",
     "g": "目标",
     "p": ["be a morning person", "mainly because…", "set myself a clear goal", "For example,…", "So…", "stick to a routine"]
   },
   "new-changed-opinion||When do most children begin to have their own opinions?": {
-    "a": "我觉得孩子上小学以后就有自己的想法了。主要是因为（mainly because…）他们在学校跟同学和老师说的话变多了[they talk more with their classmates and teachers at school]。比如（For example,…）很多三年级的孩子会跟妈妈争论谁洗碗[a lot of children in grade three argue with their mother about who washes the dishes]。所以（So…）我以前觉得（I used to think…）孩子什么都不懂，现在我觉得（now I think…）他们很早就有自己的想法。",
+    "a": "我觉得孩子上小学以后就有自己的想法了[children have their own ideas after they start primary school]。主要是因为（mainly because…）他们在学校跟同学和老师说的话变多了[they talk more with their classmates and teachers at school]。比如（For example,…）很多三年级的孩子会跟妈妈争论谁洗碗[a lot of children in grade three argue with their mother about who washes the dishes]。所以（So…）我以前觉得（I used to think…）孩子什么都不懂[children do not understand anything]，现在我觉得（now I think…）他们很早就有自己的想法[they have their own ideas at an early age]。",
     "g": "关系",
     "p": ["mainly because…", "For example,…", "So…", "I used to think…", "now I think…"]
   },
   "new-changed-opinion||Do children communicate more with teachers or with parents?": {
-    "a": "我觉得孩子跟父母说的话更多。主要是因为（mainly because…）孩子每天回家都能看到父母，他们说话也很轻松[they can talk in a relaxed way]。比如（For example,…）很多小孩回到家以后，马上跟妈妈讲学校里的事情[a lot of children tell their mother about school right after they get home]。所以（So…）孩子不开心的时候，他们一般也先跟父母说，因为在家里他们最放松[they feel most relaxed at home]。",
+    "a": "我觉得孩子跟父母说的话更多[children talk more with their parents]。主要是因为（mainly because…）孩子每天回家都能看到父母[children see their parents every day when they get home]，他们说话也很轻松[they can talk in a relaxed way]。比如（For example,…）很多小孩回到家以后，马上跟妈妈讲学校里的事情[a lot of children tell their mother about school right after they get home]。所以（So…）孩子不开心的时候[when children are unhappy]，他们一般也先跟父母说[they usually talk to their parents first]，因为在家里他们最放松[they feel most relaxed at home]。",
     "g": "关系",
     "p": ["mainly because…", "For example,…", "So…"]
   },
   "new-changed-opinion||Whose opinions are more important to children, their parents' or teachers'?": {
-    "a": "我觉得父母的话对孩子更重要。主要是因为（mainly because…）孩子跟父母在一起的时间最长，他们也最相信父母说的话[they trust what their parents say most]。比如（For example,…）很多孩子想学画画，如果爸爸说他支持，这个孩子就会一直学下去[the child will keep learning it]。所以（So…）父母的一句话真的可以改变孩子（make a difference to other people）。",
+    "a": "我觉得父母的话对孩子更重要[what parents say is more important to children]。主要是因为（mainly because…）孩子跟父母在一起的时间最长[children spend the most time with their parents]，他们也最相信父母说的话[they trust what their parents say most]。比如（For example,…）很多孩子想学画画[a lot of children want to learn to draw]，如果爸爸说他支持[if their father says he supports it]，这个孩子就会一直学下去[the child will keep learning it]。所以（So…）父母的一句话真的可以改变孩子（make a difference to other people）。",
     "g": "关系",
     "p": ["mainly because…", "For example,…", "So…", "make a difference to other people"]
   },
   "new-changed-opinion||Who do most young people like to share opinions with?": {
-    "a": "我觉得年轻人更愿意跟同年龄的朋友说自己的想法。主要是因为（mainly because…）朋友的年龄差不多，他们说话没有压力，也不怕别人笑话他们[they are not afraid that others will laugh at them]。比如（For example,…）现在很多年轻人有事情的时候，先在手机上跟朋友聊天[a lot of young people chat with their friends on their phones first]。所以（So…）年轻人遇到麻烦的时候，他们会先找朋友帮忙（turn to… for help）。",
+    "a": "我觉得年轻人更愿意跟同年龄的朋友说自己的想法[young people prefer to share their ideas with friends of the same age]。主要是因为（mainly because…）朋友的年龄差不多[their friends are around the same age]，他们说话没有压力[they feel no pressure when they talk]，也不怕别人笑话他们[they are not afraid that others will laugh at them]。比如（For example,…）现在很多年轻人有事情的时候[when young people have something going on]，先在手机上跟朋友聊天[a lot of young people chat with their friends on their phones first]。所以（So…）年轻人遇到麻烦的时候[when young people have problems]，他们会先找朋友帮忙（turn to… for help）。",
     "g": "关系",
     "p": ["mainly because…", "For example,…", "So…", "turn to… for help"]
   },
   "new-recent-change||Do you think it is good to change one's daily routine?": {
-    "a": "我觉得偶尔改一改是好事（Yes, definitely.）。主要是因为（mainly because…）如果每天都一样，人会觉得很无聊，如果他们换一下，心情会更好[people feel better if they change something]。比如（For example,…）很多人晚上不再看手机，他们改成晚饭以后出去走走（go for a walk after dinner），他们觉得轻松多了[they feel much more relaxed]。结果（As a result,…）他们睡得更好，小的改变慢慢也会有效果（small changes add up）。",
+    "a": "我觉得偶尔改一改是好事（Yes, definitely.）。主要是因为（mainly because…）如果每天都一样[if every day is the same]，人会觉得很无聊[people feel bored]，如果他们换一下，心情会更好[people feel better if they change something]。比如（For example,…）很多人晚上不再看手机[a lot of people stop looking at their phones at night]，他们改成晚饭以后出去走走（go for a walk after dinner），他们觉得轻松多了[they feel much more relaxed]。结果（As a result,…）他们睡得更好[they sleep better]，小的改变慢慢也会有效果（small changes add up）。",
     "g": "情绪",
     "p": ["Yes, definitely.", "mainly because…", "For example,…", "go for a walk after dinner", "As a result,…", "small changes add up"]
   },
   "new-recent-change||Do you think it is good to change jobs?": {
-    "a": "我觉得这个要看情况，不过大部分时候是好事（It depends, but usually…）。主要是因为（mainly because…）换工作以后，很多人可以拿到更高的工资[they can get a higher salary]，机会也更多（many more job opportunities）。比如（For example,…）很多年轻人去年换了工作，他们现在有了稳定的收入（a stable income）。所以（So…）如果一个人想清楚了再换工作，这一般是一件好事[this is usually a good thing]。",
+    "a": "我觉得这个要看情况，不过大部分时候是好事（It depends, but usually…）。主要是因为（mainly because…）换工作以后[after changing jobs]，很多人可以拿到更高的工资[they can get a higher salary]，机会也更多（many more job opportunities）。比如（For example,…）很多年轻人去年换了工作[a lot of young people changed jobs last year]，他们现在有了稳定的收入（a stable income）。所以（So…）如果一个人想清楚了再换工作[if someone thinks it over before changing jobs]，这一般是一件好事[this is usually a good thing]。",
     "g": "钱",
     "p": ["It depends, but usually…", "mainly because…", "many more job opportunities", "For example,…", "a stable income", "So…"]
   },
   "new-recent-change||Is it good for people to get a job promotion?": {
-    "a": "我觉得升职对大部分人是好事（Yes, definitely.）。主要是因为（mainly because…）升职以后，他们有更稳定的收入（a stable income），他们家里花钱也更轻松[their family can spend money more easily]。比如（For example,…）很多人去年升职了，他们每个月多拿两千块[they get two thousand yuan more every month]，他们也很有成就感（a real sense of achievement）。所以（So…）就算工作累一点，大部分人还是想升职[most people still want a promotion]。",
+    "a": "我觉得升职对大部分人是好事（Yes, definitely.）。主要是因为（mainly because…）升职以后[after a promotion]，他们有更稳定的收入（a stable income），他们家里花钱也更轻松[their family can spend money more easily]。比如（For example,…）很多人去年升职了[a lot of people got promoted last year]，他们每个月多拿两千块[they get two thousand yuan more every month]，他们也很有成就感（a real sense of achievement）。所以（So…）就算工作累一点[even if the work is a bit tiring]，大部分人还是想升职[most people still want a promotion]。",
     "g": "钱",
     "p": ["Yes, definitely.", "mainly because…", "a stable income", "For example,…", "a real sense of achievement", "So…"]
   },
   "new-recent-change||Do people often make plans around their regular routines?": {
-    "a": "我觉得很多人是这样（Yes, definitely.），他们会按照自己的作息安排事情（stick to a routine）。主要是因为（mainly because…）家里人每天要在一起吃饭，所以他们把别的事情放在吃饭的前面或者后面[so they put other things before or after the meal]。比如（For example,…）大部分家庭每天六点做晚饭，家里每个人都按这个时间回家[everyone in the family comes home at that time]。所以（So…）家里其他人跟着做就行了，这样的安排很好照着来（easy to follow）。",
+    "a": "我觉得很多人是这样（Yes, definitely.），他们会按照自己的作息安排事情（stick to a routine）。主要是因为（mainly because…）家里人每天要在一起吃饭[the family has to eat together every day]，所以他们把别的事情放在吃饭的前面或者后面[so they put other things before or after the meal]。比如（For example,…）大部分家庭每天六点做晚饭[most families make dinner at six every day]，家里每个人都按这个时间回家[everyone in the family comes home at that time]。所以（So…）家里其他人跟着做就行了[everyone else in the family just follows along]，这样的安排很好照着来（easy to follow）。",
     "g": "关系",
     "p": ["Yes, definitely.", "stick to a routine", "mainly because…", "For example,…", "So…", "easy to follow"]
   },
   "new-recent-change||Who tend to change their daily routine more, young people or old people?": {
-    "a": "我觉得年轻人改得更多。主要是因为（mainly because…）如果朋友约他们，他们马上就出去了[if their friends invite them, they go out right away]，年轻人也愿意试新的东西（keep an open mind）。比如（For example,…）很多年轻人周末跟朋友吃饭，他们会把别的事情往后放[they put other things off until later]。所以（So…）老人一般不改，他们还是按照原来的作息生活（stick to a routine）。",
+    "a": "我觉得年轻人改得更多[young people change more]。主要是因为（mainly because…）如果朋友约他们，他们马上就出去了[if their friends invite them, they go out right away]，年轻人也愿意试新的东西（keep an open mind）。比如（For example,…）很多年轻人周末跟朋友吃饭[a lot of young people eat with friends at the weekend]，他们会把别的事情往后放[they put other things off until later]。所以（So…）老人一般不改[old people usually do not change]，他们还是按照原来的作息生活（stick to a routine）。",
     "g": "关系",
     "p": ["mainly because…", "keep an open mind", "For example,…", "So…", "stick to a routine"]
   },
   "new-important-river-lake||Are rivers and lakes important to a country?": {
-    "a": "我觉得非常重要（Yes, definitely.）。主要是因为（mainly because…）河边的游客很多，附近开店的人有稳定的收入（a stable income）。比如（For example,…）很多人在河边开小饭馆和小商店，夏天的时候他们能挣不少钱[they can make quite a lot of money in summer]。所以（So…）保护这些河是每个人的责任（it's everyone's responsibility），我们不能往河里扔垃圾[we should not throw rubbish into the river]。",
+    "a": "我觉得非常重要（Yes, definitely.）。主要是因为（mainly because…）河边的游客很多[there are a lot of tourists by the river]，附近开店的人有稳定的收入（a stable income）。比如（For example,…）很多人在河边开小饭馆和小商店[a lot of people run small restaurants and shops by the river]，夏天的时候他们能挣不少钱[they can make quite a lot of money in summer]。所以（So…）保护这些河是每个人的责任（it's everyone's responsibility），我们不能往河里扔垃圾[we should not throw rubbish into the river]。",
     "g": "钱",
     "p": ["Yes, definitely.", "mainly because…", "a stable income", "For example,…", "So…", "it's everyone's responsibility"]
   },
   "new-important-river-lake||What are the popular water sports in your country?": {
-    "a": "我觉得最多人玩的是游泳和划船，这两个运动的动作很好照着做（easy to follow）。主要是因为（mainly because…）夏天很热，大家在水里觉得很凉快，他们也玩得很开心[they feel cool in the water and they have a lot of fun]。比如（For example,…）很多人夏天去公园的湖上划船，他们在那里玩一个下午[they spend a whole afternoon there]，他们觉得很轻松[they feel very relaxed]。所以（So…）夏天大家喜欢去水边，因为他们想放松一下（relax after a long day）。",
+    "a": "我觉得最多人玩的是游泳和划船[the most popular ones are swimming and boating]，这两个运动的动作很好照着做（easy to follow）。主要是因为（mainly because…）夏天很热[summer is very hot]，大家在水里觉得很凉快，他们也玩得很开心[they feel cool in the water and they have a lot of fun]。比如（For example,…）很多人夏天去公园的湖上划船[a lot of people go boating on the park lake in summer]，他们在那里玩一个下午[they spend a whole afternoon there]，他们觉得很轻松[they feel very relaxed]。所以（So…）夏天大家喜欢去水边[people like to go near the water in summer]，因为他们想放松一下（relax after a long day）。",
     "g": "情绪",
     "p": ["easy to follow", "mainly because…", "For example,…", "So…", "relax after a long day"]
   },
   "new-important-river-lake||Are rivers and lakes good for transport? Why?": {
-    "a": "我觉得挺好的（Yes, definitely.），特别是运东西的时候。主要是因为（mainly because…）一条船一次可以装很多东西，走水路比走公路省钱（keep the costs down）。比如（For example,…）在我们这里，很多沙子和煤都是用船运的，因为用船比用车便宜很多[because a boat is much cheaper than a lorry]。而且船在水上不会堵车（get stuck in traffic），所以（So…）公司也很容易算好时间[companies can work out the time easily]。",
+    "a": "我觉得挺好的（Yes, definitely.），特别是运东西的时候[especially when moving things]。主要是因为（mainly because…）一条船一次可以装很多东西[one boat can carry a lot of things at once]，走水路比走公路省钱（save money）。比如（For example,…）在我们这里[where I live]，很多沙子和煤都是用船运的[a lot of sand and coal are moved by boat]，因为用船比用车便宜很多[because a boat is much cheaper than a lorry]。而且船在水上不会堵车（get stuck in traffic），所以（So…）公司也很容易算好时间[companies can work out the time easily]。",
     "g": "钱",
-    "p": ["Yes, definitely.", "mainly because…", "keep the costs down", "For example,…", "get stuck in traffic", "So…"]
+    "p": ["Yes, definitely.", "mainly because…", "save money", "For example,…", "get stuck in traffic", "So…"]
   },
   "new-important-river-lake||How do rivers and lakes affect local tourism?": {
-    "a": "我觉得影响很大，有水的地方游客明显更多。主要是因为（mainly because…）游客在水边觉得很放松，而且那里可以看的和可以玩的也很多（there's a lot to see and do）。比如（For example,…）夏天的时候，很多游客坐在我们这里的湖边看风景，他们觉得很舒服[they feel very comfortable]，他们也不想走了[and they do not want to leave]。所以（So…）我会把这种地方推荐给喜欢安静的人（I'd recommend it to anyone who…）。",
+    "a": "我觉得影响很大[it has a big effect]，有水的地方游客明显更多[places with water clearly have more tourists]。主要是因为（mainly because…）游客在水边觉得很放松[tourists feel relaxed by the water]，而且那里可以看的和可以玩的也很多（there's a lot to see and do）。比如（For example,…）夏天的时候[in summer]，很多游客坐在我们这里的湖边看风景[a lot of tourists sit by our lake and enjoy the view]，他们觉得很舒服[they feel very comfortable]，他们也不想走了[and they do not want to leave]。所以（So…）我会把这种地方推荐给喜欢安静的人（I'd recommend it to anyone who…）。",
     "g": "情绪",
     "p": ["mainly because…", "there's a lot to see and do", "For example,…", "So…", "I'd recommend it to anyone who…"]
   },
   "new-important-river-lake||Do you think rivers and lakes attract tourists?": {
-    "a": "我觉得会（Yes, definitely.），很多人出去玩的时候会选择水边的地方[they choose places near the water]。主要是因为（mainly because…）他们平时住在城市里，他们很想出去呼吸新鲜空气（get some fresh air）。比如（For example,…）很多人周末去湖边，他们只是坐在那里看水，他们觉得很安静，心情也很好[they feel quiet and they are in a good mood]。所以（So…）我觉得有河有湖的地方都很值得去（really worth visiting）。",
+    "a": "我觉得会（Yes, definitely.），很多人出去玩的时候会选择水边的地方[they choose places near the water]。主要是因为（mainly because…）他们平时住在城市里[they usually live in the city]，他们很想出去呼吸新鲜空气（get some fresh air）。比如（For example,…）很多人周末去湖边[a lot of people go to the lake at the weekend]，他们只是坐在那里看水[they just sit there and look at the water]，他们觉得很安静，心情也很好[they feel quiet and they are in a good mood]。所以（So…）我觉得有河有湖的地方都很值得去（really worth visiting）。",
     "g": "情绪",
     "p": ["Yes, definitely.", "mainly because…", "get some fresh air", "For example,…", "So…", "really worth visiting"]
   },
   "new-important-river-lake||How can rivers and lakes benefit local people?": {
-    "a": "我觉得好处很多，当地人可以钓鱼和锻炼，也可以挣游客的钱[they can make money from tourists]。主要是因为（mainly because…）游客变多以后，附近开店的人有稳定的收入（a stable income）。比如（For example,…）很多人在湖边开小饭馆（run my own business），夏天的时候他们的生意最好[their business is best in summer]。所以（So…）他们会认真听客人的意见（listen to what customers say），然后一直做下去。",
+    "a": "我觉得好处很多[there are a lot of benefits]，当地人可以钓鱼和锻炼[local people can fish and exercise]，也可以挣游客的钱[they can make money from tourists]。主要是因为（mainly because…）游客变多以后[after more tourists come]，附近开店的人有稳定的收入（a stable income）。比如（For example,…）很多人在湖边开小饭馆（run my own business），夏天的时候他们的生意最好[their business is best in summer]。所以（So…）他们会认真听客人的意见（listen to what customers say），然后一直做下去[and keep it going]。",
     "g": "钱",
     "p": ["mainly because…", "a stable income", "For example,…", "run my own business", "So…", "listen to what customers say"]
   },
   "new-recommended-place||Where do people in your country often go for holidays?": {
-    "a": "我们这里的人放假一般去海边，或者去附近的山里。主要是因为（mainly because…）去远的地方机票很贵[flights to faraway places are expensive]，大家想省一点钱（keep the costs down）。比如（For example,…）很多家庭五一假期开车去附近的水库，他们不用买机票，这样他们省了很多钱[they do not have to buy flight tickets and they save a lot of money]。所以（So…）近一点的地方最受欢迎，因为那里可以看的和可以玩的也很多（there's a lot to see and do）。",
+    "a": "我们这里的人放假一般去海边[people where I live usually go to the seaside on holiday]，或者去附近的山里[or go to the mountains nearby]。主要是因为（mainly because…）去远的地方机票很贵[flights to faraway places are expensive]，大家想省一点钱（save money）。比如（For example,…）很多家庭五一假期开车去附近的水库[a lot of families drive to a nearby lake on the May holiday]，他们不用买机票，这样他们省了很多钱[they do not have to buy flight tickets and they save a lot of money]。所以（So…）近一点的地方最受欢迎[places closer to home are the most popular]，因为那里可以看的和可以玩的也很多（there's a lot to see and do）。",
     "g": "钱",
-    "p": ["mainly because…", "keep the costs down", "For example,…", "So…", "there's a lot to see and do"]
+    "p": ["mainly because…", "save money", "For example,…", "So…", "there's a lot to see and do"]
   },
   "new-recommended-place||Where do young people in your country often go for holidays?": {
-    "a": "我觉得年轻人更喜欢去人多的大城市[young people prefer big cities with a lot of people]。主要是因为（mainly because…）年轻人放假想跟朋友一起出去玩，大城市里可以一起做的事情多了很多（there's a lot more choice now）。比如（For example,…）很多年轻人放假去成都，晚上他们跟朋友一起出去吃饭（eat out with friends），然后他们聊到很晚[then they talk until late]。所以（So…）年轻人度假的时候，还是喜欢去大城市[young people still like to go to big cities on holiday]。",
+    "a": "我觉得年轻人更喜欢去人多的大城市[young people prefer big cities with a lot of people]。主要是因为（mainly because…）年轻人放假想跟朋友一起出去玩[young people want to go out with friends on holiday]，大城市里可以一起做的事情多了很多（there's a lot more choice now）。比如（For example,…）很多年轻人放假去成都[a lot of young people go to Chengdu on holiday]，晚上他们跟朋友一起出去吃饭（eat out with friends），然后他们聊到很晚[then they talk until late]。所以（So…）年轻人度假的时候，还是喜欢去大城市[young people still like to go to big cities on holiday]。",
     "g": "关系",
     "p": ["mainly because…", "there's a lot more choice now", "For example,…", "eat out with friends", "So…"]
   },
   "new-recommended-place||What is the ideal length for a holiday?": {
-    "a": "我觉得一个星期最合适。主要是因为（mainly because…）如果假期太短，人没有时间放松一下（relax after a long day）。如果假期太长，我们会觉得很累，回去上班也很难[we feel tired and it is hard to go back to work]。比如（For example,…）很多人请一个星期的假，他们出去玩四天，然后在家休息三天[they travel for four days and then rest at home for three days]，他们一点也不累[and they are not tired at all]。结果（As a result,…）他们回去上班的时候，感觉真的放松了[they feel really relaxed]。",
+    "a": "我觉得一个星期最合适[I think one week is just right]。主要是因为（mainly because…）如果假期太短，人没有时间放松一下（relax after a long day）。如果假期太长，我们会觉得很累，回去上班也很难[we feel tired and it is hard to go back to work]。比如（For example,…）很多人请一个星期的假[many people take a week off]，他们出去玩四天，然后在家休息三天[they travel for four days and then rest at home for three days]，他们一点也不累[and they are not tired at all]。结果（As a result,…）他们回去上班的时候，感觉真的放松了[they feel really relaxed]。",
     "g": "情绪",
     "p": ["mainly because…", "relax after a long day", "For example,…", "As a result,…"]
   },
   "new-recommended-place||How do people usually plan holidays?": {
-    "a": "我觉得大部分人现在用手机订票和订酒店，这样省了很多时间，不过（it saves me a lot of time, but…）网上的信息不一定都对[the information online is not always right]。主要是因为（mainly because…）他们在手机上可以比一比价格，大家都想少花一点钱[everyone wants to spend less money]。比如（For example,…）很多人出去玩以前，先在几个网站上看酒店的价格，然后他们订最便宜的那一家[then they book the cheapest one]。所以（So…）我不会相信网上写的每一句话（I don't believe everything I read），我会多看几家再决定[I check a few websites before I decide]。",
+    "a": "我觉得大部分人现在用手机订票和订酒店[I think most people now book tickets and hotels on their phones]，这样省了很多时间，不过（it saves me a lot of time, but…）网上的信息不一定都对[the information online is not always right]。主要是因为（mainly because…）他们在手机上可以比一比价格[they can compare prices on their phones]，大家都想少花一点钱[everyone wants to spend less money]。比如（For example,…）很多人出去玩以前，先在几个网站上看酒店的价格[they first check hotel prices on a few websites]，然后他们订最便宜的那一家[then they book the cheapest one]。所以（So…）我不会相信网上写的每一句话（I don't believe everything I read），我会多看几家再决定[I check a few websites before I decide]。",
     "g": "钱",
     "p": ["it saves me a lot of time, but…", "mainly because…", "For example,…", "So…", "I don't believe everything I read"]
   },
   "new-recommended-place||Is it important to plan a holiday ahead?": {
-    "a": "我觉得提前安排很重要（Yes, definitely.）。主要是因为（mainly because…）大家的假期都在同一个时间，如果我们订晚了，价格会很贵[if we book late, the price will be very high]。比如（For example,…）很多人国庆前一个星期才订酒店，最后他们付了两倍的钱[in the end they pay twice as much]。所以（So…）我觉得早一点订可以省很多钱（keep the costs down）。",
+    "a": "我觉得提前安排很重要（Yes, definitely.）。主要是因为（mainly because…）大家的假期都在同一个时间[everyone has their holiday at the same time]，如果我们订晚了，价格会很贵[if we book late, the price will be very high]。比如（For example,…）很多人国庆前一个星期才订酒店[many people only book a hotel a week before National Day]，最后他们付了两倍的钱[in the end they pay twice as much]。所以（So…）我觉得早一点订可以省很多钱（save money）。",
     "g": "钱",
-    "p": ["Yes, definitely.", "mainly because…", "For example,…", "So…", "keep the costs down"]
+    "p": ["Yes, definitely.", "mainly because…", "For example,…", "So…", "save money"]
   },
   "new-recommended-place||How do people decide when to travel?": {
-    "a": "我觉得大家看假期和家里人的时间来决定。主要是因为（mainly because…）只有放长假的时候，一家人才有时间在一起[only in a long holiday does the whole family have time together]。比如（For example,…）很多家庭等爸爸休年假，然后他们一起出去玩[a lot of families wait until the father takes his annual leave]。所以（So…）大家也想避开最忙的时间出门，因为他们不想在路上堵车（get stuck in traffic）。",
+    "a": "我觉得大家看假期和家里人的时间来决定[I think people decide based on their holidays and when their family is free]。主要是因为（mainly because…）只有放长假的时候，一家人才有时间在一起[only in a long holiday does the whole family have time together]。比如（For example,…）很多家庭等爸爸休年假，然后他们一起出去玩[a lot of families wait until the father takes his time off work]。所以（So…）大家也想避开最忙的时间出门[people also want to avoid going out at the busiest times]，因为他们不想在路上堵车（get stuck in traffic）。",
     "g": "关系",
     "p": ["mainly because…", "For example,…", "So…", "get stuck in traffic"]
   },
   "new-visit-home||Do Chinese people like to visit others' homes?": {
-    "a": "我觉得大部分中国人还是喜欢去别人家做客（Yes, definitely.）。最主要的原因是（The main reason is that…）见面可以让大家的关系更近[visiting each other keeps people close]，打电话没有这种感觉[a phone call doesn't feel the same]。比如（For example,…）过年的时候，很多家庭会去亲戚家看看，一起吃个饭[they visit their relatives and have a meal together]。所以（So…）就算大家平时都很忙（everyone gets busy sometimes），一年也会见几次面。",
+    "a": "我觉得大部分中国人还是喜欢去别人家做客（Yes, definitely.）。最主要的原因是（The main reason is that…）见面可以让大家的关系更近[visiting each other keeps people close]，打电话没有这种感觉[a phone call doesn't feel the same]。比如（For example,…）过年的时候，很多家庭会去亲戚家看看，一起吃个饭[they visit their relatives and have a meal together]。所以（So…）就算大家平时都很忙（everyone gets busy sometimes），一年也会见几次面[they still meet a few times a year]。",
     "g": "关系",
     "p": ["Yes, definitely.", "The main reason is that…", "For example,…", "So…", "everyone gets busy sometimes"]
   },
   "new-visit-home||What do Chinese people do when they visit others?": {
-    "a": "我觉得他们一般会喝茶、聊天，主人也会留客人吃顿饭[the host also asks the guest to stay for a meal]。最主要的原因是（The main reason is that…）大家来就是想聚在一起，好好说说话[they come together just to talk and catch up]。比如（For example,…）很多人去亲戚家的时候会带点水果，主人会在家里做几个简单的菜（cook something simple at home）。所以（So…）大家一边吃一边聊，关系也越来越好[they get closer as they eat and chat]。",
+    "a": "我觉得他们一般会喝茶、聊天[I think they usually drink tea and chat]，主人也会留客人吃顿饭[the host also asks the guest to stay for a meal]。最主要的原因是（The main reason is that…）大家来就是想聚在一起，好好说说话[they come together just to talk and catch up]。比如（For example,…）很多人去亲戚家的时候会带点水果[many people bring some fruit when they visit relatives]，主人会在家里做几个简单的菜（cook something simple at home）。所以（So…）大家一边吃一边聊，关系也越来越好[they get closer as they eat and chat]。",
     "g": "关系",
     "p": ["The main reason is that…", "For example,…", "cook something simple at home", "So…"]
   },
   "new-visit-home||What kind of place do people in your country like to live in?": {
-    "a": "我觉得大部分人还是喜欢住在城市里。主要是因为（mainly because…）城市里的工作机会更多（many more job opportunities），他们也更容易挣到钱[it is easier for them to make money]。比如（For example,…）很多人以前住在小县城，后来他们搬到了市里，因为他们在市里可以找到工资更高的工作[they can find a job with a higher salary in the city]。所以（So…）城市里的公共交通也很方便（public transport is convenient），大家都愿意留在城市。",
+    "a": "我觉得大部分人还是喜欢住在城市里[I think most people still prefer living in the city]。主要是因为（mainly because…）城市里的工作机会更多（many more job opportunities），他们也更容易挣到钱[it is easier for them to make money]。比如（For example,…）很多人以前住在小县城[many people used to live in a small town]，后来他们搬到了市里[later they moved to the city]，因为他们在市里可以找到工资更高的工作[they can find a job with a higher salary in the city]。所以（So…）城市里的公共交通也很方便（public transport is easy to use），大家都愿意留在城市[everyone is willing to stay in the city]。",
     "g": "钱",
-    "p": ["mainly because…", "many more job opportunities", "For example,…", "So…", "public transport is convenient"]
+    "p": ["mainly because…", "many more job opportunities", "For example,…", "So…", "public transport is easy to use"]
   },
   "new-visit-home||What's the difference between homes in cities and those in the countryside?": {
-    "a": "我觉得城市里的房子比较小，但是很方便；乡下的房子比较大，也很安静。主要是因为（mainly because…）城市里人很多，土地很少，房子也很贵[flats in the city are very expensive]。比如（For example,…）在乡下，很多人用很少的钱可以盖一个大房子，但是在城市里，同样的钱只能买一个小房间[the same money only buys a small room in the city]。所以（So…）城市的好处是公共交通很方便（public transport is convenient），大家出门就有地铁[there is a subway right outside]。而且住在乡下的人晚饭以后可以出去走走（go for a walk after dinner）。",
+    "a": "我觉得城市里的房子比较小，但是很方便；乡下的房子比较大，也很安静[city homes are smaller but easier for daily life, while country homes are bigger and quieter]。主要是因为（mainly because…）城市里人很多，土地很少[there are a lot of people and little land in the city]，房子也很贵[flats in the city are very expensive]。比如（For example,…）在乡下，很多人用很少的钱可以盖一个大房子[in the countryside people can build a big house with very little money]，但是在城市里，同样的钱只能买一个小房间[the same money only buys a small room in the city]。所以（So…）城市的好处是公共交通很方便（public transport is easy to use），大家出门就有地铁[there is a subway right outside]。而且住在乡下的人晚饭以后可以出去走走（go for a walk after dinner）。",
     "g": "钱",
-    "p": ["mainly because…", "For example,…", "So…", "public transport is convenient", "go for a walk after dinner"]
+    "p": ["mainly because…", "For example,…", "So…", "public transport is easy to use", "go for a walk after dinner"]
   },
   "new-visit-home||What kind of gifts do people bring when they visit others?": {
-    "a": "我觉得大家一般带水果、茶叶或者牛奶。主要是因为（mainly because…）他们会先想一想对方需要什么[they think about what the other person needs]，然后他们挑一个别人真的会用的东西（pick something they'll actually use）。比如（For example,…）很多人去看老人的时候，会买一箱老人爱喝的牛奶[they buy a box of the milk that the old person likes]。所以（So…）礼物不用很贵，重要的是这份心意（it's the thought that counts）。",
+    "a": "我觉得大家一般带水果、茶叶或者牛奶[I think people usually bring fruit, tea or milk]。主要是因为（mainly because…）他们会先想一想对方需要什么[they think about what the other person needs]，然后他们挑一个别人真的会用的东西（pick something they'll actually use）。比如（For example,…）很多人去看老人的时候，会买一箱老人爱喝的牛奶[they buy a box of the milk that the old person likes]。所以（So…）礼物不用很贵[the gift doesn't need to be expensive]，重要的是这份心意（it's the thought that counts）。",
     "g": "关系",
     "p": ["mainly because…", "pick something they'll actually use", "For example,…", "So…", "it's the thought that counts"]
   },
   "new-visit-home||How often do you visit your relatives of friends?": {
-    "a": "我大概一个月去看一次亲戚或者朋友。主要是因为（mainly because…）大家平时都要上班，每个人有时候都很忙（everyone gets busy sometimes），我们只有周末才能见面[we can only meet at the weekend]。比如（For example,…）很多人周末去朋友家，中午他们一起吃饭，然后他们聊到很晚[then they talk until late]。所以（So…）我们见面的次数不多，但是每次都聊很久。",
+    "a": "我大概一个月去看一次亲戚或者朋友[I visit my relatives or friends about once a month]。主要是因为（mainly because…）大家平时都要上班[everyone has to work during the week]，每个人有时候都很忙（everyone gets busy sometimes），我们只有周末才能见面[we can only meet at the weekend]。比如（For example,…）很多人周末去朋友家[many people go to a friend's home at the weekend]，中午他们一起吃饭[they have lunch together]，然后他们聊到很晚[then they talk until late]。所以（So…）我们见面的次数不多，但是每次都聊很久[we don't meet often, but each time we talk for a long time]。",
     "g": "关系",
     "p": ["mainly because…", "everyone gets busy sometimes", "For example,…", "So…"]
   },
   "new-boring-place||Why do most children think education is boring?": {
-    "a": "我觉得孩子确实容易觉得上课很无聊。主要是因为（mainly because…）每天的课都差不多，他们只能坐着听老师讲[they can only sit and listen to the teacher]。比如（For example,…）一节课有四十分钟，很多学生在后面二十分钟开始不专心，他们觉得很累，也很无聊[they feel tired and bored]。所以（So…）如果老师把内容拆成小的部分（break it down into small steps），学生会觉得好很多[students will feel much better]。",
+    "a": "我觉得孩子确实容易觉得上课很无聊[I think children really do find lessons boring]。主要是因为（mainly because…）每天的课都差不多[the lessons are similar every day]，他们只能坐着听老师讲[they can only sit and listen to the teacher]。比如（For example,…）一节课有四十分钟[a lesson lasts forty minutes]，很多学生在后面二十分钟开始不专心[many students lose focus in the last twenty minutes]，他们觉得很累，也很无聊[they feel tired and bored]。所以（So…）如果老师把内容拆成小的部分（break it down into small steps），学生会觉得好很多[students will feel much better]。",
     "g": "情绪",
     "p": ["mainly because…", "For example,…", "So…", "break it down into small steps"]
   },
   "new-boring-place||Why aren't young people willing to listen to the experiences of older people?": {
-    "a": "我觉得年轻人确实不太喜欢听老人讲他们的经验。主要是因为（mainly because…）老人的生活节奏比较慢（a slower pace of life），他们讲一件小事要讲很久[they take a long time to tell a small story]。比如（For example,…）很多老人常常说，他们年轻的时候去哪里都走路（we used to walk everywhere），年轻人听了几分钟以后就觉得很无聊[young people feel bored after a few minutes]。所以（So…）年轻人还是尊重老人的，但是他们说话的节奏不一样[but they talk at a different speed]。",
+    "a": "我觉得年轻人确实不太喜欢听老人讲他们的经验[I think young people really don't like listening to older people's experiences]。主要是因为（mainly because…）老人的生活节奏比较慢（a slower pace of life），他们讲一件小事要讲很久[they take a long time to tell a small story]。比如（For example,…）很多老人常常说[many older people often say]，他们年轻的时候去哪里都走路（we used to walk everywhere），年轻人听了几分钟以后就觉得很无聊[young people feel bored after a few minutes]。所以（So…）年轻人还是尊重老人的[young people still respect the elderly]，但是他们说话的节奏不一样[but they talk at a different speed]。",
     "g": "情绪",
     "p": ["mainly because…", "a slower pace of life", "For example,…", "we used to walk everywhere", "So…"]
   },
   "new-boring-place||What can people do when they feel bored?": {
-    "a": "我觉得人们无聊的时候最好出去走走。主要是因为（mainly because…）如果他们在屋子里待很久，他们的心情会更差[they will feel worse]，出去呼吸新鲜空气会好很多（get some fresh air）。比如（For example,…）很多人晚饭以后出去走一圈（go for a walk after dinner），他们也会跟家人聊聊天，他们的心情马上就好了[they feel better right away]。结果（As a result,…）他们走回来的时候，就不再想那些让他们不开心的事情了（it helps me forget about…）。",
+    "a": "我觉得人们无聊的时候最好出去走走[I think when people feel bored, it's best to go out for a walk]。主要是因为（mainly because…）如果他们在屋子里待很久，他们的心情会更差[they will feel worse]，出去呼吸新鲜空气会好很多（get some fresh air）。比如（For example,…）很多人晚饭以后出去走一圈（go for a walk after dinner），他们也会跟家人聊聊天[they also chat with their family]，他们的心情马上就好了[they feel better right away]。结果（As a result,…）他们走回来的时候，就不再想那些让他们不开心的事情了（it helps me forget about…）。",
     "g": "情绪",
     "p": ["mainly because…", "get some fresh air", "For example,…", "go for a walk after dinner", "As a result,…", "it helps me forget about…"]
   },
   "new-boring-place||Why are some teachers' class boring? Are there any solutions?": {
-    "a": "我觉得有些老师的课确实很无聊。主要是因为（mainly because…）老师一个人讲到下课，学生只能坐着听，他们很容易困[they get sleepy easily]。比如（For example,…）有些老师上课只念课本，全班学生都在打瞌睡[the whole class falls asleep]。所以（So…）老师可以多提问，也可以把内容拆成小的部分（break it down into small steps），这样课会好很多[then the class will be much better]。",
+    "a": "我觉得有些老师的课确实很无聊[I think some teachers' classes really are boring]。主要是因为（mainly because…）老师一个人讲到下课[the teacher talks alone until class ends]，学生只能坐着听[students can only sit and listen]，他们很容易困[they get sleepy easily]。比如（For example,…）有些老师上课只念课本[some teachers just read from the textbook]，全班学生都在打瞌睡[the whole class falls asleep]。所以（So…）老师可以多提问[teachers can ask more questions]，也可以把内容拆成小的部分（break it down into small steps），这样课会好很多[then the class will be much better]。",
     "g": "情绪",
     "p": ["mainly because…", "For example,…", "So…", "break it down into small steps"]
   },
   "new-boring-place||Why do some young people feel bored when talking with old people?": {
-    "a": "我觉得他们两边喜欢的话题不一样。主要是因为（mainly because…）老人喜欢说以前的事情，但是年轻人不太爱听，他们很快就觉得无聊[young people are not keen on it and they soon feel bored]。比如（For example,…）很多老人说，以前买东西没有几个牌子可以选，但是现在我们的选择多了很多（there's a lot more choice now），年轻人听到这里就想去看手机了[young people want to look at their phones then]。所以（So…）年轻人听了一会儿就不专心了[young people lose focus after a while]，但是他们并不讨厌老人。",
+    "a": "我觉得他们两边喜欢的话题不一样[I think the two sides like different topics]。主要是因为（mainly because…）老人喜欢说以前的事情[older people like to talk about the past]，但是年轻人不太爱听，他们很快就觉得无聊[young people don't really like it and they soon feel bored]。比如（For example,…）很多老人说[many older people say]，以前买东西没有几个牌子可以选[in the past there were only a few brands to choose from]，但是现在我们的选择多了很多（there's a lot more choice now），年轻人听到这里就想去看手机了[young people want to look at their phones then]。所以（So…）年轻人听了一会儿就不专心了[young people lose focus after a while]，但是他们并不讨厌老人[but they don't dislike older people]。",
     "g": "情绪",
     "p": ["mainly because…", "For example,…", "there's a lot more choice now", "So…"]
   },
   "new-boring-place||Do most people think news about celebrities is boring?": {
-    "a": "我觉得不一定（Not really.），很多人很喜欢看名人的新闻。主要是因为（mainly because…）这种新闻的标题很吸引人（it catches your attention），他们看到以后就想点开看看[they want to click on it]。比如（For example,…）很多人在手机上看到明星的消息，他们会停下来看两眼，他们觉得很有意思[they find it interesting]。不过这种新闻有很多是假的，所以（So…）我不会相信我看到的每一条消息（I don't believe everything I read）。",
+    "a": "我觉得不一定（Not really.），很多人很喜欢看名人的新闻[a lot of people really like reading celebrity news]。主要是因为（mainly because…）这种新闻的标题很吸引人（it catches your attention），他们看到以后就想点开看看[they want to click on it]。比如（For example,…）很多人在手机上看到明星的消息[many people see celebrity news on their phones]，他们会停下来看两眼[they stop to take a look]，他们觉得很有意思[they find it interesting]。不过这种新闻有很多是假的[but a lot of this news is fake]，所以（So…）我不会相信我看到的每一条消息（I don't believe everything I read）。",
     "g": "情绪",
     "p": ["Not really.", "mainly because…", "it catches your attention", "For example,…", "So…", "I don't believe everything I read"]
   },
   "new-favourite-city||Which is more suitable for young people, urban life or rural life, and which is more suitable for old people?": {
-    "a": "我觉得年轻人适合住在城市，老人适合住在乡下。主要是因为（mainly because…）城市里的工作机会更多（many more job opportunities），年轻人可以多挣几年钱[young people can earn money for a few more years]。比如（For example,…）现在很多大学生毕业以后去广州工作，他们在几年里换了三份工作，每次换完以后他们的工资都更高[their salary is higher after each change]。所以（So…）老人不用这么辛苦，乡下比较慢的生活更适合他们（a slower pace of life）。",
+    "a": "我觉得年轻人适合住在城市，老人适合住在乡下[I think young people are suited to the city and older people to the countryside]。主要是因为（mainly because…）城市里的工作机会更多（many more job opportunities），年轻人可以多挣几年钱[young people can earn money for a few more years]。比如（For example,…）现在很多大学生毕业以后去广州工作[these days many graduates go to Guangzhou to work]，他们在几年里换了三份工作[they change jobs three times in a few years]，每次换完以后他们的工资都更高[their salary is higher after each change]。所以（So…）老人不用这么辛苦[older people don't need to work so hard]，乡下比较慢的生活更适合他们（a slower pace of life）。",
     "g": "钱",
     "p": ["mainly because…", "many more job opportunities", "For example,…", "So…", "a slower pace of life"]
   },
   "new-favourite-city||How do people choose a city to travel to?": {
-    "a": "我觉得大部分人主要看这个地方贵不贵[most people look at how expensive the place is]。主要是因为（mainly because…）出去旅游要花很多钱，大部分人想省一点[travelling costs a lot of money, and most people want to save some]。比如（For example,…）很多人先比一比机票和酒店的价格，然后他们选便宜的那个城市[then they choose the cheaper city]。所以（So…）价格是最重要的原因，而且现在可以选的城市多了很多（there's a lot more choice now）。很多人也想跟朋友一起去一个热闹的城市，因为那里可以看的和可以玩的很多（there's a lot to see and do）。",
+    "a": "我觉得大部分人主要看这个地方贵不贵[most people look at how expensive the place is]。主要是因为（mainly because…）出去旅游要花很多钱，大部分人想省一点[travelling costs a lot of money, and most people want to save some]。比如（For example,…）很多人先比一比机票和酒店的价格[many people first compare flight and hotel prices]，然后他们选便宜的那个城市[then they choose the cheaper city]。所以（So…）价格是最重要的原因[price is the most important reason]，而且现在可以选的城市多了很多（there's a lot more choice now）。很多人也想跟朋友一起去一个热闹的城市[many people also want to go to a lively city with friends]，因为那里可以看的和可以玩的很多（there's a lot to see and do）。",
     "g": "钱",
     "p": ["mainly because…", "For example,…", "So…", "there's a lot more choice now", "there's a lot to see and do"]
   },
   "new-favourite-city||Do you think a tourist city is also a good place to live? Why?": {
-    "a": "我觉得旅游城市住起来也很舒服。主要是因为（mainly because…）这种城市的公共交通很方便（public transport is convenient），住在那里的人不用买车，他们也可以省钱[they do not need to buy a car and they can save money]。比如（For example,…）在厦门，很多人出门不开车，他们改成坐地铁（take the subway instead），这样他们每个月能省不少钱[they save quite a lot of money every month]。不过周末路上很容易堵车（get stuck in traffic），所以（So…）大家会选别的时间出门[people choose another time to go out]。",
+    "a": "我觉得旅游城市住起来也很舒服[I think a tourist city is also comfortable to live in]。主要是因为（mainly because…）这种城市的公共交通很方便（public transport is easy to use），住在那里的人不用买车，他们也可以省钱[they do not need to buy a car and they can save money]。比如（For example,…）在厦门，很多人出门不开车[in Xiamen many people don't drive when they go out]，他们改成坐地铁（take the subway instead），这样他们每个月能省不少钱[they save quite a lot of money every month]。不过周末路上很容易堵车（get stuck in traffic），所以（So…）大家会选别的时间出门[people choose another time to go out]。",
     "g": "钱",
-    "p": ["mainly because…", "public transport is convenient", "For example,…", "take the subway instead", "get stuck in traffic", "So…"]
+    "p": ["mainly because…", "public transport is easy to use", "For example,…", "take the subway instead", "get stuck in traffic", "So…"]
   },
   "new-favourite-city||Do most people prefer to travel in a modern city or a historical city?": {
     "a": "我觉得大部分人更喜欢去老的城市[most people prefer old cities]。主要是因为（mainly because…）老城里有很多东西可以看（there's a lot to see and do），所以游客觉得很开心[so the tourists feel very happy]。比如（For example,…）很多游客在老街上慢慢走的时候，他们觉得很放松[they feel very relaxed]。所以（So…）我觉得老城市很值得去一次（really worth visiting）。而且很多人喜欢跟朋友一起去[many people like to go with their friends]。",
@@ -1031,243 +1031,573 @@ window.P3_ANSWERS = {
     "p": ["mainly because…", "there's a lot to see and do", "For example,…", "So…", "really worth visiting"]
   },
   "new-tall-building||Are there many tall buildings in your country?": {
-    "a": "是的（Yes, definitely.），我们国家有很多高楼。主要是因为（mainly because…）城市里的土地很贵，但是人们盖高楼可以省钱（keep the costs down）。比如（For example,…）在大城市里，很多人买不起大房子[many people cannot afford a big house]，所以他们住在高楼里的小房子[so they live in a small flat in a tall building]。所以（So…）高楼可以让房子便宜一点。而且很多人在高峰期（at rush hour）坐地铁上班，因为地铁很便宜[the underground is cheap]。",
+    "a": "是的（Yes, definitely.），我们国家有很多高楼[there are many tall buildings in my country]。主要是因为（mainly because…）城市里的土地很贵[land in the city is very expensive]，但是人们盖高楼可以省钱（save money）。比如（For example,…）在大城市里，很多人买不起大房子[many people cannot afford a big house]，所以他们住在高楼里的小房子[so they live in a small flat in a tall building]。所以（So…）高楼可以让房子便宜一点[tall buildings make housing a bit cheaper]。而且很多人在高峰期（at rush hour）坐地铁上班[many people take the subway to work]，因为地铁很便宜[the underground is cheap]。",
     "g": "钱",
-    "p": ["Yes, definitely.", "mainly because…", "keep the costs down", "For example,…", "So…", "at rush hour"]
+    "p": ["Yes, definitely.", "mainly because…", "save money", "For example,…", "So…", "at rush hour"]
   },
   "new-tall-building||What are the differences between those tall buildings in your country?": {
-    "a": "我觉得城市里的楼和农村的楼很不一样。主要是因为（mainly because…）城市里的土地很贵，所以人们盖很高的楼[so people build very tall buildings]。比如（For example,…）在很多小县城里，土地很便宜[the land is cheap]，所以那里的楼只有十几层。所以（So…）农村的房子便宜很多[houses in the countryside are much cheaper]，那里的生活也比较慢（a slower pace of life）。而且很多人可以跟家人住在一起[many people can live with their family]。",
+    "a": "我觉得城市里的楼和农村的楼很不一样[I think city buildings and rural buildings are very different]。主要是因为（mainly because…）城市里的土地很贵[land in the city is very expensive]，所以人们盖很高的楼[so people build very tall buildings]。比如（For example,…）在很多小县城里，土地很便宜[the land is cheap]，所以那里的楼只有十几层[so the buildings there are only about ten floors]。所以（So…）农村的房子便宜很多[houses in the countryside are much cheaper]，那里的生活也比较慢（a slower pace of life）。而且很多人可以跟家人住在一起[many people can live with their family]。",
     "g": "钱",
     "p": ["mainly because…", "For example,…", "So…", "a slower pace of life"]
   },
   "new-tall-building||Why are different places laid out and designed differently?": {
-    "a": "我觉得每个地方的情况不一样[the situation is different in every place]，所以设计也不一样。主要是因为（mainly because…）大城市的土地很贵，人们设计的时候要省钱（keep the costs down）。比如（For example,…）市中心的土地最贵，所以那里有很多高楼[so there are many tall buildings there]。郊区的土地便宜，所以那里的楼比较矮。所以（So…）钱是最主要的原因[money is the main reason]。而且旅游城市会留下更多地方，让游客有很多东西可以看（there's a lot to see and do）。",
+    "a": "我觉得每个地方的情况不一样[the situation is different in every place]，所以设计也不一样[so the designs are different too]。主要是因为（mainly because…）大城市的土地很贵[land in big cities is very expensive]，人们设计的时候要省钱（save money）。比如（For example,…）市中心的土地最贵[land in the city centre is the most expensive]，所以那里有很多高楼[so there are many tall buildings there]。郊区的土地便宜[land in the suburbs is cheap]，所以那里的楼比较矮[so the buildings there are lower]。所以（So…）钱是最主要的原因[money is the main reason]。而且旅游城市会留下更多地方[tourist cities also leave more open space]，让游客有很多东西可以看（there's a lot to see and do）。",
     "g": "钱",
-    "p": ["mainly because…", "keep the costs down", "For example,…", "So…", "there's a lot to see and do"]
+    "p": ["mainly because…", "save money", "For example,…", "So…", "there's a lot to see and do"]
   },
   "new-tall-building||What are the advantages of living in tall buildings?": {
-    "a": "我觉得住在高楼里最大的好处是很安静。主要是因为（mainly because…）楼层很高，所以他们听不到汽车的声音[they cannot hear the noise from the cars]，住在上面的人觉得很放松[they feel very relaxed]。比如（For example,…）很多人住在十八楼，他们晚上打开窗户的时候，也觉得很舒服[they feel very comfortable]。所以（So…）他们下班以后可以好好休息（relax after a long day）。而且高楼里的小房子比大房子省钱[a small flat is cheaper than a big house]。",
+    "a": "我觉得住在高楼里最大的好处是很安静[I think the biggest advantage of a tall building is that it's quiet]。主要是因为（mainly because…）楼层很高[the flat is high up]，所以他们听不到汽车的声音[they cannot hear the noise from the cars]，住在上面的人觉得很放松[they feel very relaxed]。比如（For example,…）很多人住在十八楼[many people live on the eighteenth floor]，他们晚上打开窗户的时候，也觉得很舒服[they feel very comfortable]。所以（So…）他们下班以后可以好好休息（relax after a long day）。而且高楼里的小房子比大房子省钱[a small flat is cheaper than a big house]。",
     "g": "情绪",
     "p": ["mainly because…", "For example,…", "So…", "relax after a long day"]
   },
   "new-tall-building||Why do some people like to remodel and decorate their homes themselves?": {
-    "a": "我觉得很多人自己装修房子，因为他们想省钱。主要是因为（mainly because…）请工人装修要花很多钱[it costs a lot to hire workers]，但是自己做可以省下成本（keep the costs down）。比如（For example,…）很多人自己刷墙，也自己装灯，所以他们可以省很多钱[they can save a lot of money]。他们把这件事分成很多小步（break it down into small steps）。结果（As a result,…）他们花的钱少了一半[they spend half as much money]。而且他们做完以后很有成就感（a real sense of achievement）。",
+    "a": "我觉得很多人自己装修房子[I think many people decorate their homes themselves]，因为他们想省钱[because they want to save money]。主要是因为（mainly because…）请工人装修要花很多钱[it costs a lot to hire workers]，但是自己做可以省下成本（save money）。比如（For example,…）很多人自己刷墙，也自己装灯[many people paint the walls and put up lights themselves]，所以他们可以省很多钱[they can save a lot of money]。他们把这件事分成很多小步（break it down into small steps）。结果（As a result,…）他们花的钱少了一半[they spend half as much money]。而且他们做完以后很有成就感（a real sense of achievement）。",
     "g": "钱",
-    "p": ["mainly because…", "keep the costs down", "For example,…", "break it down into small steps", "As a result,…", "a real sense of achievement"]
+    "p": ["mainly because…", "save money", "For example,…", "break it down into small steps", "As a result,…", "a real sense of achievement"]
   },
   "new-tall-building||What kind of interior design style do most people like?": {
-    "a": "我觉得大部分人喜欢简单干净的风格。主要是因为（mainly because…）他们上了一天班，回家以后想好好休息（relax after a long day）。比如（For example,…）很多人家里的东西很少[there are only a few things in their homes]。他们坐在沙发上，他们打开灯，然后他们就觉得很放松[they feel very relaxed]。所以（So…）他们会减少多余的东西（cut down on…）。而且简单的风格也可以省钱[a simple style can also save money]。",
+    "a": "我觉得大部分人喜欢简单干净的风格[I think most people like a simple, clean style]。主要是因为（mainly because…）他们上了一天班[they've worked all day]，回家以后想好好休息（relax after a long day）。比如（For example,…）很多人家里的东西很少[there are only a few things in their homes]。他们坐在沙发上[they sit on the sofa]，他们打开灯[they turn on the light]，然后他们就觉得很放松[they feel very relaxed]。所以（So…）他们会减少多余的东西（cut down on…）。而且简单的风格也可以省钱[a simple style can also save money]。",
     "g": "情绪",
     "p": ["mainly because…", "relax after a long day", "For example,…", "So…", "cut down on…"]
   },
   "new-free-time-travel-place||Why do you think some people choose not to travel abroad?": {
-    "a": "我觉得主要的原因是钱。主要是因为（mainly because…）出国的机票和酒店都很贵，很多人不想花这么多钱[many people do not want to spend so much money]。比如（For example,…）大部分人觉得，几万块钱只玩一个星期太贵了[it is too expensive to travel for only one week]。所以（So…）他们会去国内近一点的地方，因为这样可以省钱（keep the costs down）。而且他们也可以跟家人一起去[they can also go with their family]。",
+    "a": "我觉得主要的原因是钱[I think the main reason is money]。主要是因为（mainly because…）出国的机票和酒店都很贵[flights and hotels abroad are very expensive]，很多人不想花这么多钱[many people do not want to spend so much money]。比如（For example,…）大部分人觉得，几万块钱只玩一个星期太贵了[it is too expensive to travel for only one week]。所以（So…）他们会去国内近一点的地方[they go somewhere closer at home]，因为这样可以省钱（save money）。而且他们也可以跟家人一起去[they can also go with their family]。",
     "g": "钱",
-    "p": ["mainly because…", "For example,…", "So…", "keep the costs down"]
+    "p": ["mainly because…", "For example,…", "So…", "save money"]
   },
   "new-free-time-travel-place||Do you think a gap period in life is important?": {
-    "a": "是的（Yes, definitely.），我觉得中间休息一段时间很重要。主要是因为（mainly because…）如果一个人一直工作，他没有时间想自己以后的目标[he has no time to think about his future goals]。比如（For example,…）很多年轻人毕业以后休息几个月，他们在这段时间里想清楚要做什么工作[they work out what job they want to do]。结果（As a result,…）他们回去工作以后更清楚自己的方向[they are clearer about their direction]。如果我有这样的机会，我会给自己定一个明确的目标（set myself a clear goal），然后我可以看到自己真的有进步（see real progress）。",
+    "a": "是的（Yes, definitely.），我觉得中间休息一段时间很重要[I think it's important to take a break in between]。主要是因为（mainly because…）如果一个人一直工作，他没有时间想自己以后的目标[he has no time to think about his future goals]。比如（For example,…）很多年轻人毕业以后休息几个月[many young people take a few months off after graduating]，他们在这段时间里想清楚要做什么工作[they work out what job they want to do]。结果（As a result,…）他们回去工作以后更清楚自己的方向[they are clearer about their direction]。如果我有这样的机会[if I had a chance like this]，我会给自己定一个明确的目标（set myself a clear goal），然后我可以看到自己真的有进步（see real progress）。",
     "g": "目标",
     "p": ["Yes, definitely.", "mainly because…", "For example,…", "set myself a clear goal", "As a result,…", "see real progress"]
   },
   "new-met-once-person||What can we do to leave a good impression on people we meet for the first time?": {
-    "a": "我觉得最重要的是有礼貌，我们也要认真听别人说话。主要是因为（mainly because…）认真听别人说话，可以让我们学会为别人着想（it teaches you to think about others）。比如（For example,…）很多人第一次见面的时候不看手机[they do not look at their phones]，他们只看着对方[they only look at the other person]。结果（As a result,…）他们很快就成了朋友。而且对方也会觉得很舒服[the other person also feels comfortable]。",
+    "a": "我觉得最重要的是有礼貌[I think the most important thing is to be polite]，我们也要认真听别人说话[we should also listen carefully to others]。主要是因为（mainly because…）认真听别人说话，可以让我们学会为别人着想（it teaches you to think about others）。比如（For example,…）很多人第一次见面的时候不看手机[they do not look at their phones]，他们只看着对方[they only look at the other person]。结果（As a result,…）他们很快就成了朋友[they quickly become friends]。而且对方也会觉得很舒服[the other person also feels comfortable]。",
     "g": "关系",
     "p": ["mainly because…", "it teaches you to think about others", "For example,…", "As a result,…"]
   },
   "new-met-once-person||What should we not talk about when we meet a person for the first time?": {
-    "a": "我觉得第一次见面的时候，我们不应该问收入，也不应该问家里的事。主要是因为（mainly because…）这些问题太私人了，对方会觉得不舒服[the other person will feel uncomfortable]。比如（For example,…）很多人和新朋友一起出去吃饭（eat out with friends）的时候，他们只聊吃的和电影[they only talk about food and movies]。所以（So…）我觉得先聊轻松的话题比较安全。而且这样大家都觉得很开心[everyone feels happy in this way]。",
+    "a": "我觉得第一次见面的时候，我们不应该问收入，也不应该问家里的事[I think when we first meet, we shouldn't ask about income or family matters]。主要是因为（mainly because…）这些问题太私人了[these questions are too personal]，对方会觉得不舒服[the other person will feel uncomfortable]。比如（For example,…）很多人和新朋友一起出去吃饭（eat out with friends）的时候，他们只聊吃的和电影[they only talk about food and movies]。所以（So…）我觉得先聊轻松的话题比较安全[I think it's safer to talk about light topics first]。而且这样大家都觉得很开心[everyone feels happy in this way]。",
     "g": "关系",
     "p": ["mainly because…", "For example,…", "eat out with friends", "So…"]
   },
   "new-met-once-person||How do people make friends in China?": {
-    "a": "我觉得大部分人在学校里交朋友，也在公司里交朋友[they also make friends at work]。主要是因为（mainly because…）他们每天见面，有很多共同的话题[they see each other every day and have a lot to talk about]，而且他们遇到问题的时候会互相帮忙（turn to… for help）。比如（For example,…）很多人下班以后和同事一起出去吃饭（eat out with friends）。结果（As a result,…）他们慢慢就成了朋友[they slowly become friends]。而且他们在一起的时候都很开心[they are happy together]。",
+    "a": "我觉得大部分人在学校里交朋友[I think most people make friends at school]，也在公司里交朋友[they also make friends at work]。主要是因为（mainly because…）他们每天见面，有很多共同的话题[they see each other every day and have a lot to talk about]，而且他们遇到问题的时候会互相帮忙（turn to… for help）。比如（For example,…）很多人下班以后和同事一起出去吃饭（eat out with friends）。结果（As a result,…）他们慢慢就成了朋友[they slowly become friends]。而且他们在一起的时候都很开心[they are happy together]。",
     "g": "关系",
     "p": ["mainly because…", "turn to… for help", "For example,…", "eat out with friends", "As a result,…"]
   },
   "new-met-once-person||On what occasions do people like to make friends?": {
-    "a": "我觉得人们到了一个新地方的时候，最想交朋友。主要是因为（mainly because…）在新地方他们不认识别人，所以他们想找人说话[they want to find someone to talk to]。比如（For example,…）很多人晚饭以后和邻居一起去散步（go for a walk after dinner），他们就这样聊起来了[they start talking in this way]。所以（So…）我觉得一起做事的时候最容易交到朋友。而且一个人在新地方会觉得很孤单[a person feels very lonely in a new place]。",
+    "a": "我觉得人们到了一个新地方的时候，最想交朋友[I think people most want to make friends when they arrive somewhere new]。主要是因为（mainly because…）在新地方他们不认识别人[in a new place they don't know anyone]，所以他们想找人说话[they want to find someone to talk to]。比如（For example,…）很多人晚饭以后和邻居一起去散步（go for a walk after dinner），他们就这样聊起来了[they start talking in this way]。所以（So…）我觉得一起做事的时候最容易交到朋友[I think it's easiest to make friends when doing things together]。而且一个人在新地方会觉得很孤单[a person feels very lonely in a new place]。",
     "g": "关系",
     "p": ["mainly because…", "For example,…", "go for a walk after dinner", "So…"]
   },
   "new-met-once-person||Is it important to have the same hobbies and interests when making friends?": {
-    "a": "我觉得一样的爱好有帮助，但是这个不是必须的[it is not necessary]。主要是因为（mainly because…）如果两个人的爱好一样，他们在一起的时候很开心，也可以好好休息（relax after a long day）。比如（For example,…）很多朋友一起出去吃饭（eat out with friends）的时候聊球赛，他们聊得很开心[they talk very happily]。所以我觉得这件事有好的一面，也有坏的一面（it has both good and bad sides）。而且爱好不一样的朋友也可以互相帮忙[friends with different hobbies can also help each other]。",
+    "a": "我觉得一样的爱好有帮助[I think having the same hobbies helps]，但是这个不是必须的[it is not necessary]。主要是因为（mainly because…）如果两个人的爱好一样，他们在一起的时候很开心[if two people share the same hobbies, they're happy together]，也可以好好休息（relax after a long day）。比如（For example,…）很多朋友一起出去吃饭（eat out with friends）的时候聊球赛[they chat about football matches]，他们聊得很开心[they talk very happily]。所以我觉得这件事有好的一面，也有坏的一面（it has both good and bad sides）。而且爱好不一样的朋友也可以互相帮忙[friends with different hobbies can also help each other]。",
     "g": "情绪",
     "p": ["mainly because…", "relax after a long day", "For example,…", "eat out with friends", "it has both good and bad sides"]
   },
   "new-met-once-person||What qualities make true friends?": {
-    "a": "我觉得真正的朋友应该诚实[a true friend should be honest]，我们也可以相信他[we can trust him]。主要是因为（mainly because…）好朋友会想到别人的感受，这也让我们学会为别人着想（it teaches you to think about others）。比如（For example,…）很多人的电脑出了问题（something went wrong with…）的时候，他们会找朋友帮忙（turn to… for help）。所以（So…）我觉得可靠是最重要的。而且这样的朋友也让我们觉得很放松[this kind of friend makes us feel relaxed]。",
+    "a": "我觉得真正的朋友应该诚实[a true friend should be honest]，我们也可以相信他[we can trust him]。主要是因为（mainly because…）好朋友会想到别人的感受[good friends think about how others feel]，这也让我们学会为别人着想（it teaches you to think about others）。比如（For example,…）很多人的电脑出了问题（something went wrong with…）的时候，他们会找朋友帮忙（turn to… for help）。所以（So…）我觉得可靠是最重要的[I think being someone you can count on is the most important thing]。而且这样的朋友也让我们觉得很放松[this kind of friend makes us feel relaxed]。",
     "g": "关系",
     "p": ["mainly because…", "it teaches you to think about others", "For example,…", "something went wrong with…", "turn to… for help", "So…"]
   },
   "new-impressive-course||What do people need to remember in their daily lives?": {
-    "a": "这个看情况（It depends, but usually…），大部分人要记住上班时间和吃药这样的小事。主要是因为（mainly because…）如果他们忘了，他们会很着急，一天的安排也乱了[their plan for the day does not work]。比如（For example,…）很多人每天按固定的时间做事（stick to a routine），所以他们不着急[so they do not worry]。结果（As a result,…）他们很少忘记事情。而且他们也不会让别人等他们[they do not make other people wait]。",
+    "a": "这个看情况（It depends, but usually…），大部分人要记住上班时间和吃药这样的小事[most people need to remember small things like work times and taking medicine]。主要是因为（mainly because…）如果他们忘了，他们会很着急[if they forget, they get worried]，一天的安排也乱了[their plan for the day does not work]。比如（For example,…）很多人每天按固定的时间做事（stick to a routine），所以他们不着急[so they do not worry]。结果（As a result,…）他们很少忘记事情[they rarely forget things]。而且他们也不会让别人等他们[they do not make other people wait]。",
     "g": "情绪",
     "p": ["It depends, but usually…", "mainly because…", "For example,…", "stick to a routine", "As a result,…"]
   },
   "new-impressive-course||What can we learn from history?": {
-    "a": "我觉得我们可以学到以前的人怎么生活[how people lived in the past]。主要是因为（mainly because…）如果我们知道的事情多，我们遇到问题的时候就不会着急，我们也可以想得开一点（keep an open mind）。比如（For example,…）很多人读了很多历史书，所以他们遇到问题的时候不太害怕[they are not very afraid when they have problems]。所以（So…）我觉得多了解过去很有用。我以前觉得（I used to think…）钱最重要，现在我觉得（now I think…）身体更重要。",
+    "a": "我觉得我们可以学到以前的人怎么生活[how people lived in the past]。主要是因为（mainly because…）如果我们知道的事情多，我们遇到问题的时候就不会着急[if we know a lot, we won't worry so much when problems come up]，我们也可以想得开一点（keep an open mind）。比如（For example,…）很多人读了很多历史书[many people have read a lot of history books]，所以他们遇到问题的时候不太害怕[they are not very afraid when they have problems]。所以（So…）我觉得多了解过去很有用[I think it's useful to understand the past]。我以前觉得（I used to think…）钱最重要[money was the most important thing]，现在我觉得（now I think…）身体更重要[health is more important]。",
     "g": "情绪",
     "p": ["mainly because…", "keep an open mind", "For example,…", "I used to think…", "now I think…", "So…"]
   },
   "new-impressive-course||Why do some people have a better memory than others?": {
-    "a": "我觉得他们对那件事更感兴趣。主要是因为（mainly because…）如果一个人喜欢一样东西，他记的时候会觉得很容易（easy to follow）。比如（For example,…）很多学生喜欢历史课，所以他们记得很快[so they remember it quickly]。他们不喜欢数学课，所以他们记得很慢[so they remember it slowly]。我上午的状态最好（I work best before…），所以（So…）我早上背东西。而且很多人和朋友一起背东西，他们记得更牢[they remember better]。",
+    "a": "我觉得他们对那件事更感兴趣[I think they're more interested in that thing]。主要是因为（mainly because…）如果一个人喜欢一样东西[if someone likes something]，他记的时候会觉得很容易（easy to follow）。比如（For example,…）很多学生喜欢历史课[many students like history lessons]，所以他们记得很快[so they remember it quickly]。他们不喜欢数学课[they don't like maths lessons]，所以他们记得很慢[so they remember it slowly]。我上午的状态最好（I work best before…），所以（So…）我早上背东西[I memorise things in the morning]。而且很多人和朋友一起背东西[many people memorise things with friends]，他们记得更牢[they remember better]。",
     "g": "情绪",
     "p": ["mainly because…", "easy to follow", "For example,…", "I work best before…", "So…"]
   },
   "new-impressive-course||Do people like things of memorial significance?": {
-    "a": "是的（Yes, definitely.），很多人喜欢留着老照片和旧礼物。主要是因为（mainly because…）他们看到这些东西的时候，就会想起那个人，心意才是最重要的（it's the thought that counts）。比如（For example,…）很多人用朋友送的杯子用了好几年[they use it for several years]。所以（So…）这些东西不贵，但是他们不想扔掉[they do not want to throw them away]。而且他们看到这些东西的时候会很开心[they feel happy when they see these things]。",
+    "a": "是的（Yes, definitely.），很多人喜欢留着老照片和旧礼物[a lot of people like to keep old photos and old gifts]。主要是因为（mainly because…）他们看到这些东西的时候，就会想起那个人[when they see these things, they think of that person]，心意才是最重要的（it's the thought that counts）。比如（For example,…）很多人用朋友送的杯子用了好几年[they use it for several years]。所以（So…）这些东西不贵[these things are not expensive]，但是他们不想扔掉[they do not want to throw them away]。而且他们看到这些东西的时候会很开心[they feel happy when they see these things]。",
     "g": "关系",
     "p": ["Yes, definitely.", "mainly because…", "it's the thought that counts", "For example,…", "So…"]
   },
   "new-impressive-course||Which can help people remember things better, words or photos?": {
-    "a": "我觉得照片更有用。主要是因为（mainly because…）人们看照片的时候会想起当时的心情[they remember how they felt at that time]，照片也很容易懂（easy to follow）。比如（For example,…）很多人晚饭以后出去散步（go for a walk after dinner）的时候会拍照片[they take photos]。他们几年以后看这些照片，心里还是很开心[they still feel happy]。跟文字比起来（Compared with…），照片让人记得更牢，所以我更喜欢拍照片。",
+    "a": "我觉得照片更有用[I think photos are more useful]。主要是因为（mainly because…）人们看照片的时候会想起当时的心情[they remember how they felt at that time]，照片也很容易懂（easy to follow）。比如（For example,…）很多人晚饭以后出去散步（go for a walk after dinner）的时候会拍照片[they take photos]。他们几年以后看这些照片[when they look at these photos a few years later]，心里还是很开心[they still feel happy]。跟文字比起来（Compared with…），照片让人记得更牢[photos help people remember things better]，所以我更喜欢拍照片[so I prefer taking photos]。",
     "g": "情绪",
     "p": ["mainly because…", "easy to follow", "For example,…", "go for a walk after dinner", "Compared with…"]
   },
   "new-impressive-course||Can technology help people remember things better? How?": {
-    "a": "是的（Yes, definitely.），我觉得手机可以帮人记事。主要是因为（mainly because…）手机上的软件都是免费的[the apps on the phone are free]，它帮我省了很多时间，但是（it saves me a lot of time, but…）我们不能完全靠它[we cannot depend on it completely]。比如（For example,…）很多人用手机定闹钟，他们不用买本子和笔[they do not have to buy notebooks and pens]，他们也按固定的时间做事（stick to a routine）。结果（As a result,…）他们很少忘记事情，他们也省了不少钱[they also save some money]。",
+    "a": "是的（Yes, definitely.），我觉得手机可以帮人记事[I think phones can help people remember things]。主要是因为（mainly because…）手机上的软件都是免费的[the apps on the phone are free]，它帮我省了很多时间，但是（it saves me a lot of time, but…）我们不能完全靠它[we cannot depend on it completely]。比如（For example,…）很多人用手机定闹钟[a lot of people set alarms on their phones]，他们不用买本子和笔[they do not have to buy notebooks and pens]，他们也按固定的时间做事（stick to a routine）。结果（As a result,…）他们很少忘记事情[they rarely forget things]，他们也省了不少钱[they also save some money]。",
     "g": "钱",
     "p": ["Yes, definitely.", "mainly because…", "it saves me a lot of time, but…", "For example,…", "stick to a routine", "As a result,…"]
   },
   "new-friend-gift||When do people normally send gifts to others?": {
-    "a": "我觉得人们一般在生日、节日，还有去别人家做客的时候送礼物。主要是因为（mainly because…）他们送礼物是想让对方知道，他们很关心这个人[they care about this person]，心意才是最重要的（it's the thought that counts）。比如（For example,…）很多人去朋友家吃饭的时候，他们会带一些水果[they bring some fruit]。所以（So…）场合不一样，人们送的东西也不一样。而且送礼物不用花很多钱[people do not have to spend a lot of money on gifts]。",
+    "a": "我觉得人们一般在生日、节日，还有去别人家做客的时候送礼物[I think people usually give gifts on birthdays, festivals, and when they visit others' homes]。主要是因为（mainly because…）他们送礼物是想让对方知道[they give gifts to let the other person know]，他们很关心这个人[they care about this person]，心意才是最重要的（it's the thought that counts）。比如（For example,…）很多人去朋友家吃饭的时候[when a lot of people eat at a friend's home]，他们会带一些水果[they bring some fruit]。所以（So…）场合不一样，人们送的东西也不一样[the occasion is different, so what people give is also different]。而且送礼物不用花很多钱[people do not have to spend a lot of money on gifts]。",
     "g": "关系",
     "p": ["mainly because…", "it's the thought that counts", "For example,…", "So…"]
   },
   "new-friend-gift||Is it hard to choose a gift?": {
-    "a": "这个看情况（It depends, but usually…），给熟人挑礼物不难。主要是因为（mainly because…）我们知道他喜欢什么，所以我们可以挑他真的会用的东西（pick something they'll actually use）。比如（For example,…）很多人给同事挑礼物的时候觉得很难[they find it very hard]，他们担心同事不会用这个礼物[they are afraid he will not use it]。所以（So…）如果我们不太熟，我们可以送简单实用的东西。而且这样我们也不用花很多钱[we also do not have to spend much money]。",
+    "a": "这个看情况（It depends, but usually…），给熟人挑礼物不难[it is not hard to choose a gift for someone you know well]。主要是因为（mainly because…）我们知道他喜欢什么[we know what he likes]，所以我们可以挑他真的会用的东西（pick something they'll actually use）。比如（For example,…）很多人给同事挑礼物的时候觉得很难[they find it very hard]，他们担心同事不会用这个礼物[they are afraid he will not use it]。所以（So…）如果我们不太熟，我们可以送简单实用的东西[if we don't know them well, we can give something simple and useful]。而且这样我们也不用花很多钱[we also do not have to spend much money]。",
     "g": "关系",
     "p": ["It depends, but usually…", "mainly because…", "pick something they'll actually use", "For example,…", "So…"]
   },
   "new-friend-gift||Will people feel happy when receiving an expensive gift?": {
-    "a": "不一定（Not really.），我觉得贵的礼物不一定让人开心。主要是因为（mainly because…）如果礼物太贵，对方会有压力，他会觉得他也要送一个贵的礼物[he also has to give an expensive gift]。比如（For example,…）很多人收到很贵的礼物的时候，他们心里不太舒服[they do not feel comfortable]。但是他们收到一个小杯子的时候很开心，因为这是他们真的会用的东西（pick something they'll actually use）。所以我觉得心意才是最重要的（it's the thought that counts）。而且送贵的礼物也很浪费钱[giving expensive gifts also wastes money]。",
+    "a": "不一定（Not really.），我觉得贵的礼物不一定让人开心[I think expensive gifts do not always make people happy]。主要是因为（mainly because…）如果礼物太贵，对方会有压力[if a gift is too expensive, the other person feels pressure]，他会觉得他也要送一个贵的礼物[he also has to give an expensive gift]。比如（For example,…）很多人收到很贵的礼物的时候[when a lot of people receive a very expensive gift]，他们心里不太舒服[they do not feel comfortable]。但是他们收到一个小杯子的时候很开心[but they are happy when they receive a small cup]，因为这是他们真的会用的东西（pick something they'll actually use）。所以我觉得心意才是最重要的（it's the thought that counts）。而且送贵的礼物也很浪费钱[giving expensive gifts also wastes money]。",
     "g": "情绪",
     "p": ["Not really.", "mainly because…", "For example,…", "pick something they'll actually use", "it's the thought that counts"]
   },
   "new-friend-gift||Which do people give on traditional festivals, red envelopes or other kinds of gifts?": {
-    "a": "我觉得两种都有，这个要看是什么节日[it depends on the festival]。主要是因为（mainly because…）红包很方便，收到的人可以自己买真的会用的东西（pick something they'll actually use）。比如（For example,…）过年的时候，大部分大人给小孩红包，里面有几百块钱[there are a few hundred yuan inside]。中秋节的时候，他们送吃的东西，因为这些东西不太贵[these things are not very expensive]。所以（So…）节日不一样，送礼的方法也不一样。而且很多人也想让家里人开心[many people also want to make their family happy]。",
+    "a": "我觉得两种都有[I think both happen]，这个要看是什么节日[it depends on the festival]。主要是因为（mainly because…）红包很方便[red envelopes are very easy]，收到的人可以自己买真的会用的东西（pick something they'll actually use）。比如（For example,…）过年的时候，大部分大人给小孩红包[during Spring Festival, most adults give children red envelopes]，里面有几百块钱[there are a few hundred yuan inside]。中秋节的时候，他们送吃的东西[during the Mid-Autumn Festival, they give food]，因为这些东西不太贵[these things are not very expensive]。所以（So…）节日不一样，送礼的方法也不一样[festivals are different, so the way of giving gifts is also different]。而且很多人也想让家里人开心[many people also want to make their family happy]。",
     "g": "钱",
     "p": ["mainly because…", "pick something they'll actually use", "For example,…", "So…"]
   },
   "new-friend-gift||What do people usually consider when buying gifts?": {
-    "a": "我觉得人们主要看对方需要什么，他们也看自己可以花多少钱。主要是因为（mainly because…）大部分人想少花一点钱（keep the costs down），但是礼物也要合适[the gift also has to be suitable]。比如（For example,…）很多人先看自己可以花多少钱[how much they can spend]，然后他们挑一个便宜的东西，这也是对方真的会用的东西（pick something they'll actually use）。所以（So…）我觉得合适的礼物比贵的礼物好[a suitable gift is better than an expensive one]。而且这样对方也不会有压力[the other person will not feel stressed]。",
+    "a": "我觉得人们主要看对方需要什么[I think people mainly look at what the other person needs]，他们也看自己可以花多少钱[they also look at how much they can spend]。主要是因为（mainly because…）大部分人想少花一点钱（save money），但是礼物也要合适[the gift also has to be suitable]。比如（For example,…）很多人先看自己可以花多少钱[how much they can spend]，然后他们挑一个便宜的东西[then they choose something cheap]，这也是对方真的会用的东西（pick something they'll actually use）。所以（So…）我觉得合适的礼物比贵的礼物好[a suitable gift is better than an expensive one]。而且这样对方也不会有压力[the other person will not feel stressed]。",
     "g": "钱",
-    "p": ["mainly because…", "keep the costs down", "For example,…", "pick something they'll actually use", "So…"]
+    "p": ["mainly because…", "save money", "For example,…", "pick something they'll actually use", "So…"]
   },
   "new-friend-gift||Are there any unlucky things that people should not buy as gifts in your country?": {
-    "a": "是的，我们这里的人不送钟，也不送伞。主要是因为（mainly because…）如果我们送这些东西，收到的人会很不高兴[the person will be very unhappy]，这个老规矩也有它的道理（it's there for a reason）。比如（For example,…）很多人给长辈送茶叶，因为长辈真的会喝，这是他们会用的东西（pick something they'll actually use）。所以（So…）很多人送礼以前会先问问家里人[they ask their family first]。而且这样对方也会很开心[the other person will also be happy]。",
+    "a": "是的，我们这里的人不送钟，也不送伞[people here don't give clocks or umbrellas]。主要是因为（mainly because…）如果我们送这些东西[if we give these things]，收到的人会很不高兴[the person will be very unhappy]，这个老规矩也有它的道理（it's there for a reason）。比如（For example,…）很多人给长辈送茶叶[a lot of people give tea to their elders]，因为长辈真的会喝[because the elders really drink it]，这是他们会用的东西（pick something they'll actually use）。所以（So…）很多人送礼以前会先问问家里人[they ask their family first]。而且这样对方也会很开心[the other person will also be happy]。",
     "g": "关系",
     "p": ["mainly because…", "it's there for a reason", "For example,…", "pick something they'll actually use", "So…"]
   },
   "new-organized-person||Why is it important for people to be organized?": {
-    "a": "我觉得这很重要，因为做事有条理的人会轻松很多[life is much easier for them]。主要是因为（mainly because…）他们先安排好事情，所以他们不会着急，他们的压力也比较小。比如（For example,…）很多人每天按固定的时间做事（stick to a routine），所以他们上班的时候不紧张[they are not nervous at work]。结果（As a result,…）他们下班以后可以好好休息（relax after a long day）。而且他们也有时间跟家人在一起[they also have time to be with their family]。",
+    "a": "我觉得这很重要[I think this is very important]，因为做事有条理的人会轻松很多[life is much easier for them]。主要是因为（mainly because…）他们先安排好事情[they plan things first]，所以他们不会着急[so they do not get worried]，他们的压力也比较小[they also have less stress]。比如（For example,…）很多人每天按固定的时间做事（stick to a routine），所以他们上班的时候不紧张[they are not nervous at work]。结果（As a result,…）他们下班以后可以好好休息（relax after a long day）。而且他们也有时间跟家人在一起[they also have time to be with their family]。",
     "g": "情绪",
     "p": ["mainly because…", "For example,…", "stick to a routine", "As a result,…", "relax after a long day"]
   },
   "new-organized-person||Do you think children should learn to be organized from a young age?": {
-    "a": "是的（Yes, definitely.），我觉得孩子小的时候就应该学。主要是因为（mainly because…）如果孩子自己会收拾东西，父母也会轻松一点[the parents will have less to do]。比如（For example,…）很多孩子每天自己收拾书包，他们也按固定的时间做事（stick to a routine），所以他们的父母很少骂他们[their parents seldom shout at them]。结果（As a result,…）父母不用每天叫他们了[the parents do not have to remind them every day]。而且一家人的关系也更好[the relationship in the family is also better]。",
+    "a": "是的（Yes, definitely.），我觉得孩子小的时候就应该学[I think children should learn when they are young]。主要是因为（mainly because…）如果孩子自己会收拾东西[if children can tidy up their own things]，父母也会轻松一点[the parents will have less to do]。比如（For example,…）很多孩子每天自己收拾书包[a lot of children pack their own school bags every day]，他们也按固定的时间做事（stick to a routine），所以他们的父母很少骂他们[their parents rarely shout at them]。结果（As a result,…）父母不用每天叫他们了[the parents do not have to remind them every day]。而且一家人的关系也更好[the relationship in the family is also better]。",
     "g": "关系",
     "p": ["Yes, definitely.", "mainly because…", "For example,…", "stick to a routine", "As a result,…"]
   },
   "new-organized-person||Are organized people more likely to be successful at work or in their studies?": {
-    "a": "是的（Yes, definitely.），我觉得有条理的人一般做得更好[they usually do better]。主要是因为（mainly because…）他们做大事的时候，会分成很多小步（break it down into small steps）。比如（For example,…）很多学生学英语的时候，他们先学单词，然后再学句子[then they learn sentences]。他们每天都有一个小目标[they have a small goal every day]。结果（As a result,…）他们的成绩比别人好[their results are better]。我学英语的时候，我也给自己定一个明确的目标（set myself a clear goal），所以我可以看到自己真的有进步（see real progress）。",
+    "a": "是的（Yes, definitely.），我觉得有条理的人一般做得更好[they usually do better]。主要是因为（mainly because…）他们做大事的时候[when they do big things]，会分成很多小步（break it down into small steps）。比如（For example,…）很多学生学英语的时候[when a lot of students learn English]，他们先学单词[they learn words first]，然后再学句子[then they learn sentences]。他们每天都有一个小目标[they have a small goal every day]。结果（As a result,…）他们的成绩比别人好[their results are better]。我学英语的时候[when I learn English]，我也给自己定一个明确的目标（set myself a clear goal），所以我可以看到自己真的有进步（see real progress）。",
     "g": "目标",
     "p": ["Yes, definitely.", "mainly because…", "break it down into small steps", "For example,…", "set myself a clear goal", "As a result,…", "see real progress"]
   },
   "new-organized-person||What can people do to become more organized?": {
-    "a": "我觉得我们可以先写一个单子[we can make a list first]，写下今天要做的事。主要是因为（mainly because…）我先给自己定一个明确的目标（set myself a clear goal），然后我把事情分成很多小步（break it down into small steps），事情就不乱了。比如（For example,…）很多人早上先写下今天最重要的三件事[the three most important things for today]，然后他们先做最难的那件事[they do the hardest one first]。我上午的状态最好（I work best before…），所以（So…）我也在上午做难的事情。",
+    "a": "我觉得我们可以先写一个单子[we can make a list first]，写下今天要做的事[and write down the things to do today]。主要是因为（mainly because…）我先给自己定一个明确的目标（set myself a clear goal），然后我把事情分成很多小步（break it down into small steps），事情就不乱了[and things won't be so messy]。比如（For example,…）很多人早上先写下今天最重要的三件事[the three most important things for today]，然后他们先做最难的那件事[they do the hardest one first]。我上午的状态最好（I work best before…），所以（So…）我也在上午做难的事情[so I also do the hard things in the morning]。",
     "g": "目标",
     "p": ["mainly because…", "set myself a clear goal", "break it down into small steps", "For example,…", "I work best before…", "So…"]
   },
   "new-organized-person||Should parents teach their children to be organized?": {
-    "a": "我觉得应该，父母在家里就要教孩子。主要是因为（mainly because…）孩子每天和父母在一起，他们看着父母做事，所以他们学得最快[they learn fastest in this way]。比如（For example,…）很多父母让孩子先收好书包，然后一家人一起吃饭[then the whole family has dinner together]。所以（So…）这些孩子长大以后，也会按固定的时间做事（stick to a routine）。而且他们和父母的关系也很好[their relationship with their parents is also good]。",
+    "a": "我觉得应该，父母在家里就要教孩子[parents should teach their children at home]。主要是因为（mainly because…）孩子每天和父母在一起[children are with their parents every day]，他们看着父母做事[they watch their parents do things]，所以他们学得最快[they learn fastest in this way]。比如（For example,…）很多父母让孩子先收好书包[a lot of parents ask their children to pack their bags first]，然后一家人一起吃饭[then the whole family has dinner together]。所以（So…）这些孩子长大以后，也会按固定的时间做事（stick to a routine）。而且他们和父母的关系也很好[their relationship with their parents is also good]。",
     "g": "关系",
     "p": ["mainly because…", "For example,…", "So…", "stick to a routine"]
   },
   "new-organized-person||Do you think it is important for managers to be well organized?": {
-    "a": "是的（Yes, definitely.），我觉得管理别人的人更要有条理。主要是因为（mainly because…）如果领导很乱，全组的人也会做很多没用的事[the whole team will waste a lot of time]。比如（For example,…）在很多公司里，每个人做自己擅长的事（each do what we're good at），每个人负责一个部分（be responsible for one part of…）。结果（As a result,…）这样比一个人做快很多[this is much faster than working alone]。而且大家一起做的时候，压力也比较小[everyone has less stress]。",
+    "a": "是的（Yes, definitely.），我觉得管理别人的人更要有条理[I think people who manage others need to be more organized]。主要是因为（mainly because…）如果领导很乱[if the leader is not organized]，全组的人也会做很多没用的事[the whole team will waste a lot of time]。比如（For example,…）在很多公司里，每个人做自己擅长的事（each do what we're good at），每个人负责一个部分（be responsible for one part of…）。结果（As a result,…）这样比一个人做快很多[this is much faster than working alone]。而且大家一起做的时候，压力也比较小[everyone has less stress]。",
     "g": "关系",
     "p": ["Yes, definitely.", "mainly because…", "For example,…", "each do what we're good at", "be responsible for one part of…", "As a result,…"]
   },
   "new-famous-interview||What kinds of people are usually interviewed?": {
-    "a": "这个看情况（It depends, but usually…），大部分是有名的人和找工作的人。主要是因为（mainly because…）公司想听顾客说什么（listen to what customers say），记者也想知道别人的想法[reporters want to know what other people think]。比如（For example,…）很多年轻人找工作的时候，公司会先跟他们聊一次[the company talks with them first]，然后公司看他们会不会和别人一起做事[whether they can work with other people]。结果（As a result,…）被采访的人大部分是这两种。而且很多人被采访以后，可以得到更多工作机会[they can get more job chances]。",
+    "a": "这个看情况（It depends, but usually…），大部分是有名的人和找工作的人[most of them are famous people and people looking for a job]。主要是因为（mainly because…）公司想听顾客说什么（listen to what customers say），记者也想知道别人的想法[reporters want to know what other people think]。比如（For example,…）很多年轻人找工作的时候[when a lot of young people look for a job]，公司会先跟他们聊一次[the company talks with them first]，然后公司看他们会不会和别人一起做事[whether they can work with other people]。结果（As a result,…）被采访的人大部分是这两种[most of the people who get interviewed are these two kinds]。而且很多人被采访以后，可以得到更多工作机会[they can get more job chances]。",
     "g": "关系",
     "p": ["It depends, but usually…", "mainly because…", "listen to what customers say", "For example,…", "As a result,…"]
   },
   "new-famous-interview||Why do some people dislike being interviewed?": {
-    "a": "我觉得很多人不喜欢被采访。主要是因为（mainly because…）别人看着他们的时候，他们会很紧张，也很难放松下来（relax after a long day）。比如（For example,…）很多人在面试以前的那个晚上睡不好觉[they cannot sleep well the night before]。所以（So…）有些人尽量不接受采访[they try not to accept interviews]。而且他们也担心别人怎么看他们[they worry about what other people think of them]。",
+    "a": "我觉得很多人不喜欢被采访[I think a lot of people don't like being interviewed]。主要是因为（mainly because…）别人看着他们的时候[when other people are watching them]，他们会很紧张[they get very nervous]，也很难放松下来（relax after a long day）。比如（For example,…）很多人在面试以前的那个晚上睡不好觉[they cannot sleep well the night before]。所以（So…）有些人尽量不接受采访[they try not to accept interviews]。而且他们也担心别人怎么看他们[they worry about what other people think of them]。",
     "g": "情绪",
     "p": ["mainly because…", "relax after a long day", "For example,…", "So…"]
   },
   "new-famous-interview||Why do some people think interviews are a waste of time?": {
-    "a": "我觉得有些面试真的是在浪费时间。主要是因为（mainly because…）很多人面试了好几次，还是没找到工作，他们没有稳定的收入（a stable income）。比如（For example,…）很多年轻人去面试要花路费和时间[they spend money on travel and time]，但是公司最后不给他们工作[the company does not give them a job in the end]。所以（So…）他们觉得去打工更好，因为打工可以马上挣到钱[they can earn money at once]。",
+    "a": "我觉得有些面试真的是在浪费时间[I think some interviews are really a waste of time]。主要是因为（mainly because…）很多人面试了好几次[a lot of people have interviews several times]，还是没找到工作[but still cannot find a job]，他们没有稳定的收入（a stable income）。比如（For example,…）很多年轻人去面试要花路费和时间[they spend money on travel and time]，但是公司最后不给他们工作[the company does not give them a job in the end]。所以（So…）他们觉得去打工更好[they think it's better to just go and work]，因为打工可以马上挣到钱[they can earn money at once]。",
     "g": "钱",
     "p": ["mainly because…", "a stable income", "For example,…", "So…"]
   },
   "new-famous-interview||What should people do to prepare for a job interview?": {
-    "a": "我觉得提前准备最重要。主要是因为（mainly because…）我们先要知道自己想做什么工作，所以我会给自己定一个明确的目标（set myself a clear goal），然后我把准备分成很多小步（break it down into small steps）。比如（For example,…）很多人面试以前会先看看这家公司[they read about the company first]，他们也每天练习几个常见的问题[they practise a few common questions every day]。结果（As a result,…）他们准备好了以后，更容易拿到这个工作[it is easier for them to get the job]。而且他们说话的时候也不那么紧张[they are also not so nervous]。",
+    "a": "我觉得提前准备最重要[I think preparing in advance is the most important]。主要是因为（mainly because…）我们先要知道自己想做什么工作[we first need to know what job we want]，所以我会给自己定一个明确的目标（set myself a clear goal），然后我把准备分成很多小步（break it down into small steps）。比如（For example,…）很多人面试以前会先看看这家公司[they read about the company first]，他们也每天练习几个常见的问题[they practise a few common questions every day]。结果（As a result,…）他们准备好了以后[after they are well prepared]，更容易拿到这个工作[it is easier for them to get the job]。而且他们说话的时候也不那么紧张[they are also not so nervous]。",
     "g": "目标",
     "p": ["mainly because…", "set myself a clear goal", "break it down into small steps", "For example,…", "As a result,…"]
   },
   "new-happy-person||Should teachers know what children are doing all the time?": {
-    "a": "不用（Not really.），我觉得老师不用每分钟都知道。主要是因为（mainly because…）如果老师管得太紧，孩子会害怕，他们有问题的时候也不敢找老师帮忙（turn to… for help）。比如（For example,…）很多老师给学生一些自由的时间[some free time of their own]，然后学生有问题的时候会主动去找老师[the students go to the teacher on their own]。所以（So…）我觉得给孩子一点空间更好。而且这样孩子的压力也比较小[the children also have less stress]。",
+    "a": "不用（Not really.），我觉得老师不用每分钟都知道[I think teachers don't need to know every minute]。主要是因为（mainly because…）如果老师管得太紧[if teachers control them too strictly]，孩子会害怕[children will be afraid]，他们有问题的时候也不敢找老师帮忙（turn to… for help）。比如（For example,…）很多老师给学生一些自由的时间[some free time of their own]，然后学生有问题的时候会主动去找老师[the students go to the teacher on their own]。所以（So…）我觉得给孩子一点空间更好[I think it's better to give children some space]。而且这样孩子的压力也比较小[the children also have less stress]。",
     "g": "关系",
     "p": ["Not really.", "mainly because…", "turn to… for help", "For example,…", "So…"]
   },
   "new-happy-person||Do you think teachers are able to spot the unhappy children?": {
-    "a": "这个看情况（It depends, but usually…），大部分老师可以看出来。主要是因为（mainly because…）孩子不开心的时候会变得很安静，老师每天都见到他们。比如（For example,…）很多学生上课的时候突然不说话了[they suddenly stop talking in class]，然后老师会找他们聊一聊[the teacher talks with them]。结果（As a result,…）老师的几句话可以帮到这些学生（make a difference to other people）。而且学生也愿意告诉老师自己的问题[students are willing to tell the teacher about their problems]。",
+    "a": "这个看情况（It depends, but usually…），大部分老师可以看出来[most teachers can tell]。主要是因为（mainly because…）孩子不开心的时候会变得很安静[when children are unhappy they become very quiet]，老师每天都见到他们[and teachers see them every day]。比如（For example,…）很多学生上课的时候突然不说话了[they suddenly stop talking in class]，然后老师会找他们聊一聊[the teacher talks with them]。结果（As a result,…）老师的几句话可以帮到这些学生（make a difference to other people）。而且学生也愿意告诉老师自己的问题[students are willing to tell the teacher about their problems]。",
     "g": "情绪",
     "p": ["It depends, but usually…", "mainly because…", "For example,…", "As a result,…", "make a difference to other people"]
   },
   "new-happy-person||How can the arts spread positive emotions in society?": {
-    "a": "我觉得艺术可以让大家的关系更近[art brings people closer]。最主要的原因是（The main reason is that…）大家一起看电影、一起听歌的时候，他们有了共同的话题，一个人的好心情就会传给身边的人[one person's good mood passes to the people around them]。比如（For example,…）很多人看到一首好听的歌或者一个好笑的视频，他们会马上发给朋友[they send it to their friends right away]，然后朋友看了也很开心。所以（So…）好心情就这样一点一点传开，小小的分享加起来也很有用（small changes add up）。而且很多人一起聊这些作品的时候，他们也更愿意为别人着想（it teaches you to think about others）。",
+    "a": "我觉得艺术可以让大家的关系更近[art brings people closer]。最主要的原因是（The main reason is that…）大家一起看电影、一起听歌的时候[when people watch films and listen to songs together]，他们有了共同的话题[they have common topics]，一个人的好心情就会传给身边的人[one person's good mood passes to the people around them]。比如（For example,…）很多人看到一首好听的歌或者一个好笑的视频[when a lot of people see a nice song or a funny video]，他们会马上发给朋友[they send it to their friends right away]，然后朋友看了也很开心[and their friends are happy after seeing it]。所以（So…）好心情就这样一点一点传开[the good mood spreads little by little]，小小的分享加起来也很有用（small changes add up）。而且很多人一起聊这些作品的时候[when a lot of people talk about these works together]，他们也更愿意为别人着想（it teaches you to think about others）。",
     "g": "关系",
     "p": ["The main reason is that…", "For example,…", "So…", "small changes add up", "it teaches you to think about others"]
   },
   "new-happy-person||When do you think people are happiest?": {
-    "a": "我觉得人们和家人朋友在一起的时候最开心。主要是因为（mainly because…）他们和家人朋友在一起的时候很放松，他们可以说心里的话[they can say what they really think]。比如（For example,…）很多人周末和朋友一起出去吃饭（eat out with friends），他们聊得很开心[they talk very happily]。吃完以后他们一起去散步（go for a walk after dinner）。所以（So…）我觉得这种时候人最开心[this is the happiest time for them]。而且他们做成一件事的时候，也会很有成就感（a real sense of achievement）。",
+    "a": "我觉得人们和家人朋友在一起的时候最开心[I think people are happiest when they are with family and friends]。主要是因为（mainly because…）他们和家人朋友在一起的时候很放松[they feel relaxed when they are with family and friends]，他们可以说心里的话[they can say what they really think]。比如（For example,…）很多人周末和朋友一起出去吃饭（eat out with friends），他们聊得很开心[they talk very happily]。吃完以后他们一起去散步（go for a walk after dinner）。所以（So…）我觉得这种时候人最开心[this is the happiest time for them]。而且他们做成一件事的时候[when they finish something]，也会很有成就感（a real sense of achievement）。",
     "g": "情绪",
     "p": ["mainly because…", "a real sense of achievement", "For example,…", "eat out with friends", "go for a walk after dinner", "So…"]
   },
   "new-local-famous-person||Is it always good to be a popular student at school?": {
-    "a": "不一定（Not really.），我觉得这件事有好的一面，也有坏的一面（it has both good and bad sides）。主要是因为（mainly because…）如果一个学生的朋友很多，他要照顾很多人[he has to look after a lot of people]，他的压力也很大。比如（For example,…）很多受欢迎的学生每天都有人找他们玩[other students ask them to play every day]，所以他们觉得很累[so they feel very tired]。所以（So…）我觉得有几个真正的朋友就够了。而且真正的朋友在我们有问题的时候会帮我们[real friends help us when we have problems]。",
+    "a": "不一定（Not really.），我觉得这件事有好的一面，也有坏的一面（it has both good and bad sides）。主要是因为（mainly because…）如果一个学生的朋友很多[if a student has a lot of friends]，他要照顾很多人[he has to look after a lot of people]，他的压力也很大[he also has a lot of stress]。比如（For example,…）很多受欢迎的学生每天都有人找他们玩[other students ask them to play every day]，所以他们觉得很累[so they feel very tired]。所以（So…）我觉得有几个真正的朋友就够了[I think having a few real friends is enough]。而且真正的朋友在我们有问题的时候会帮我们[real friends help us when we have problems]。",
     "g": "情绪",
     "p": ["Not really.", "it has both good and bad sides", "mainly because…", "For example,…", "So…"]
   },
   "new-local-famous-person||Why are some students popular?": {
-    "a": "我觉得他们对别人很好[they are kind to other people]。主要是因为（mainly because…）他们真的可以帮到别人（make a difference to other people）。比如（For example,…）很多学生会帮同学看作业里的问题[they help with the problems in the homework]，所以别的同学都很喜欢他们[so the other students all like them]。所以（So…）我们和这样的人在一起，也可以学会为别人着想（it teaches you to think about others）。而且和他们在一起的时候，我们也觉得很开心[we also feel very happy]。",
+    "a": "我觉得他们对别人很好[they are kind to other people]。主要是因为（mainly because…）他们真的可以帮到别人（make a difference to other people）。比如（For example,…）很多学生会帮同学看作业里的问题[they help with the problems in the homework]，所以别的同学都很喜欢他们[so the other students all like them]。所以（So…）我们和这样的人在一起[when we are with people like this]，也可以学会为别人着想（it teaches you to think about others）。而且和他们在一起的时候，我们也觉得很开心[we also feel very happy]。",
     "g": "关系",
     "p": ["mainly because…", "make a difference to other people", "For example,…", "So…", "it teaches you to think about others"]
   },
   "new-happy-important-decision||How can we tell the difference between an important and an easy decision?": {
-    "a": "我觉得我们要看这个决定花多少钱[how much money the decision costs]。主要是因为（mainly because…）重要的决定跟钱和工作有关系，它也影响我们有没有稳定的收入（a stable income）。比如（For example,…）今天晚上吃什么只要几十块钱[it only costs a few dozen yuan]，但是买房子要花几十万[buying a house costs a lot more]。所以（So…）花钱多的决定就是重要的决定。而且这些决定也影响我们的家人[these decisions also affect our family]。",
+    "a": "我觉得我们要看这个决定花多少钱[how much money the decision costs]。主要是因为（mainly because…）重要的决定跟钱和工作有关系[important decisions are about money and work]，它也影响我们有没有稳定的收入（a stable income）。比如（For example,…）今天晚上吃什么只要几十块钱[it only costs a few dozen yuan]，但是买房子要花几十万[buying a house costs a lot more]。所以（So…）花钱多的决定就是重要的决定[decisions that cost more money are the important ones]。而且这些决定也影响我们的家人[these decisions also affect our family]。",
     "g": "钱",
     "p": ["mainly because…", "a stable income", "For example,…", "So…"]
   },
   "new-happy-important-decision||Do you think it is a good idea to make a small decision every day?": {
-    "a": "是的（Yes, definitely.），我觉得每天做一些小决定很好。主要是因为（mainly because…）我们可以分成很多小步（break it down into small steps），然后我们慢慢做完大事[then we finish the big thing slowly]。比如（For example,…）很多人每天早上先定三件要做的事[they choose three things to do]，然后他们晚上检查做完了没有[then they check in the evening]。结果（As a result,…）一个月以后，他们可以看到真的有进步（see real progress）。而且他们每天都觉得很有成就感[they feel a sense of achievement every day]。",
+    "a": "是的（Yes, definitely.），我觉得每天做一些小决定很好[I think it's good to make some small decisions every day]。主要是因为（mainly because…）我们可以分成很多小步（break it down into small steps），然后我们慢慢做完大事[then we finish the big thing slowly]。比如（For example,…）很多人每天早上先定三件要做的事[they choose three things to do]，然后他们晚上检查做完了没有[then they check in the evening]。结果（As a result,…）一个月以后[after a month]，他们可以看到真的有进步（see real progress）。而且他们每天都觉得很有成就感[they feel a sense of achievement every day]。",
     "g": "目标",
     "p": ["Yes, definitely.", "mainly because…", "break it down into small steps", "For example,…", "As a result,…", "see real progress"]
   },
   "new-happy-important-decision||What little decisions do people make every day?": {
-    "a": "我觉得大部分是吃什么、怎么去上班[how to get to work]这样的小事。主要是因为（mainly because…）大家都想少花一点钱（keep the costs down），他们也想省一点时间[they also want to save time]。比如（For example,…）很多人每天在家做一点简单的东西（cook something simple at home），因为这样比较便宜[because this is cheaper]。他们周末才和朋友出去吃（eat out with friends）。所以（So…）人们每天都要做这些小决定。而且和朋友一起吃饭的时候，他们也很开心[they are also very happy]。",
+    "a": "我觉得大部分是吃什么、怎么去上班[how to get to work]这样的小事。主要是因为（mainly because…）大家都想少花一点钱（save money），他们也想省一点时间[they also want to save time]。比如（For example,…）很多人每天在家做一点简单的东西（cook something simple at home），因为这样比较便宜[because this is cheaper]。他们周末才和朋友出去吃（eat out with friends）。所以（So…）人们每天都要做这些小决定[people make these small decisions every day]。而且和朋友一起吃饭的时候，他们也很开心[they are also very happy]。",
     "g": "钱",
-    "p": ["mainly because…", "keep the costs down", "For example,…", "cook something simple at home", "eat out with friends", "So…"]
+    "p": ["mainly because…", "save money", "For example,…", "cook something simple at home", "eat out with friends", "So…"]
   },
   "new-happy-important-decision||What if people in a group have different opinions on a decision?": {
-    "a": "我觉得我们应该先听每个人说完[we should listen to everyone first]。主要是因为（mainly because…）每个人负责一个部分（be responsible for one part of…），所以大家的想法不一样，这很正常。比如（For example,…）在很多公司里，每个人做自己擅长的事（each do what we're good at），他们开会的时候会一起投票[they vote together in the meeting]。结果（As a result,…）大家一起决定比一个人决定快很多（it's much faster than working alone）。而且每个人的压力也小一点[everyone has less stress]。",
+    "a": "我觉得我们应该先听每个人说完[we should listen to everyone first]。主要是因为（mainly because…）每个人负责一个部分（be responsible for one part of…），所以大家的想法不一样[so people have different ideas]，这很正常[and this is normal]。比如（For example,…）在很多公司里，每个人做自己擅长的事（each do what we're good at），他们开会的时候会一起投票[they vote together in the meeting]。结果（As a result,…）大家一起决定比一个人决定快很多（it's much faster than working alone）。而且每个人的压力也小一点[everyone has less stress]。",
     "g": "关系",
     "p": ["mainly because…", "be responsible for one part of…", "For example,…", "each do what we're good at", "As a result,…", "it's much faster than working alone"]
   },
   "new-happy-important-decision||Do you think most of people’s decisions are made in their 20s?": {
-    "a": "不一定（Not really.），我觉得后面还有很多大决定。主要是因为（mainly because…）人们以后还要换工作，也要买房子，这些事都要花很多钱[these things all cost a lot of money]。比如（For example,…）很多人三十多岁的时候才决定去哪个城市工作[they decide which city to work in]，因为大城市的工资更高[the pay in big cities is higher]。我以前觉得（I used to think…）在老家上班很好，现在我觉得（now I think…）去大城市更好。所以（So…）人一辈子都在做决定[people make decisions all their life]。",
+    "a": "不一定（Not really.），我觉得后面还有很多大决定[I think there are still a lot of big decisions later]。主要是因为（mainly because…）人们以后还要换工作[people will change jobs later]，也要买房子[and buy a house]，这些事都要花很多钱[these things all cost a lot of money]。比如（For example,…）很多人三十多岁的时候才决定去哪个城市工作[they decide which city to work in]，因为大城市的工资更高[the pay in big cities is higher]。我以前觉得（I used to think…）在老家上班很好[working in my hometown is good]，现在我觉得（now I think…）去大城市更好[going to a big city is better]。所以（So…）人一辈子都在做决定[people make decisions all their life]。",
     "g": "钱",
     "p": ["Not really.", "mainly because…", "For example,…", "I used to think…", "now I think…", "So…"]
   },
   "new-happy-important-decision||Which is better, to make a decision quickly or slowly?": {
-    "a": "这个看情况（It depends, but usually…），小事我们可以很快决定。主要是因为（mainly because…）我们遇到大事的时候不能太快，我会先给自己定一个明确的目标（set myself a clear goal），然后我把这件事分成很多小步（break it down into small steps）。比如（For example,…）很多人很快就决定晚上吃什么[they decide what to eat very quickly]，但是他们换工作以前会想几个月，因为这跟他们以后的目标有关系[because this is about their future goals]。所以（So…）事情不一样，决定的速度也不一样。而且大事也要跟家里人商量[we also need to talk with our family about big things]。",
+    "a": "这个看情况（It depends, but usually…），小事我们可以很快决定[we can decide small things quickly]。主要是因为（mainly because…）我们遇到大事的时候不能太快[we can't be too quick with big things]，我会先给自己定一个明确的目标（set myself a clear goal），然后我把这件事分成很多小步（break it down into small steps）。比如（For example,…）很多人很快就决定晚上吃什么[they decide what to eat very quickly]，但是他们换工作以前会想几个月[but they think for a few months before changing jobs]，因为这跟他们以后的目标有关系[because this is about their future goals]。所以（So…）事情不一样，决定的速度也不一样[different things need different decision speeds]。而且大事也要跟家里人商量[we also need to talk with our family about big things]。",
     "g": "目标",
     "p": ["It depends, but usually…", "mainly because…", "set myself a clear goal", "break it down into small steps", "For example,…", "So…"]
+  },
+  "retained-helpful-person||Should children help their parents with household chores?": {
+    "a": "我觉得应该（Yes, I think so.）。主要是因为（mainly because…）孩子做一点家务能减少父母的工作[children can do a little housework to help their parents]，也能让全家关系更亲近（make the family closer）。比如（For example,…）很多孩子会洗碗或者倒垃圾[a lot of kids wash the dishes or take out the rubbish]。所以（As a result,…）父母不会那么累[parents don't feel so tired]，而且孩子也能学会负责（learn to be responsible）。",
+    "g": "关系",
+    "p": ["Yes, I think so.","mainly because…","make the family closer","For example,…","As a result,…","learn to be responsible"]
+  },
+  "retained-helpful-person||What kind of help do people need when looking for a new job?": {
+    "a": "我觉得他们需要很多帮助（they need a lot of help）。最主要的原因是（The main reason is that…）找工作很难，一个人做不好[looking for a job is hard, and it is not easy to do it alone]，别人可以帮忙看简历（check their CV）。比如（For example,…）很多年轻人第一次找工作的时候，会请朋友帮忙分享招聘信息[a lot of young people ask friends to share job news when they look for their first job]。所以（As a result,…）他们能更快找到工作[they can find a job faster]，也能有稳定的收入（a stable income）。",
+    "g": "钱",
+    "p": ["they need a lot of help","The main reason is that…","check their CV","For example,…","As a result,…","a stable income"]
+  },
+  "retained-helpful-person||Who should people ask for help, colleagues or family members?": {
+    "a": "我觉得这要看问题（It depends, but usually…）。主要是因为（mainly because…）同事更懂工作上的事，家人更懂生活上的事[workmates know more about work things, and family know more about life things]，所以找对人很重要（ask the right person）。比如（For example,…）很多人工作上有问题就问同事，家里有问题就问家人[a lot of people ask workmates about work and ask family about home]。所以（So…）他们能更快解决问题[they can solve the problem faster]，也能省很多时间（save a lot of time）。",
+    "g": "关系",
+    "p": ["It depends, but usually…","mainly because…","ask the right person","For example,…","So…","save a lot of time"]
+  },
+  "retained-helpful-person||Why do you think some people are more willing to help others than some?": {
+    "a": "我觉得（I think…）有些人天生更喜欢帮人。主要是因为（mainly because…）他们以前也遇到过同样的难处，所以更懂别人的感受[they had the same trouble before, so they understand others' feelings]。比如（For example,…）很多有经验的同事很喜欢帮新人[a lot of workmates with experience like to help new people]。所以（As a result,…）他们更愿意伸手帮忙[they are more ready to help others]，而且帮到人以后自己也觉得很开心、很有用（feel happy and useful）。",
+    "g": "情绪",
+    "p": ["I think…","mainly because…","For example,…","As a result,…","feel happy and useful"]
+  },
+  "retained-helpful-person||Do you think it is important for neighbors to help each other? Why?": {
+    "a": "我觉得很重要（Yes, definitely.）。最主要的原因是（The main reason is that…）遇到急事的时候，邻居常常是离我们最近的人[when there is an emergency, neighbors are often the closest people to us]。比如（For example,…）很多家庭会请邻居帮忙收快递或者照看孩子[a lot of families ask neighbors to take their parcels or look after their kids]。所以（As a result,…）大家慢慢就有了信任（build trust between neighbors），而且住起来也更安心（feel safe）。",
+    "g": "关系",
+    "p": ["Yes, definitely.","The main reason is that…","For example,…","As a result,…","build trust between neighbors","feel safe"]
+  },
+  "retained-helpful-person||How can helping others benefit the person who offers the help?": {
+    "a": "我觉得好处很多（There are many benefits.）。主要是因为（mainly because…）帮别人的时候，自己会觉得很有用，心情也会变好（feel useful and happy）。比如（For example,…）很多人帮了别人以后，会交到更多朋友[a lot of people make more friends after they help others]。所以（As a result,…）以后他们自己有困难的时候，也会得到别人的帮助[when they have trouble later, others will help them too]，而且友谊也会越来越深（closer friendships）。",
+    "g": "情绪",
+    "p": ["There are many benefits.","mainly because…","feel useful and happy","For example,…","As a result,…","closer friendships"]
+  },
+  "retained-smart-problem-solver||Do you think children are born smart or they learn to become smart?": {
+    "a": "我觉得两方面都有（I think both matter.）。主要是因为（mainly because…）就算不是天生聪明，孩子也能靠练习变聪明很多[even if they are not born smart, children can become much smarter by practising]。比如（For example,…）很多孩子在父母和老师的支持下，变得更有信心（feel confident）。所以（As a result,…）他们不那么怕犯错[they are not so afraid of making mistakes]，也更愿意再试一次（try again）。",
+    "g": "情绪",
+    "p": ["I think both matter.","mainly because…","For example,…","feel confident","As a result,…","try again"]
+  },
+  "retained-smart-problem-solver||How do children become smart at school?": {
+    "a": "我觉得主要靠练习和提问（by practising and asking questions）。主要是因为（mainly because…）孩子只有多问、多做，才能真正学会[children can really learn only by asking and doing more]。比如（For example,…）很多好老师会一步一步讲解难点[a lot of good teachers explain the hard parts step by step]，孩子就更容易听懂[so kids can understand more easily]。所以（As a result,…）他们对学习越来越有信心（feel more confident），学得也越来越好[and they learn better and better]。",
+    "g": "情绪",
+    "p": ["by practising and asking questions","mainly because…","For example,…","As a result,…","feel more confident"]
+  },
+  "retained-smart-problem-solver||Why are some people well-rounded and others only good at one thing?": {
+    "a": "我觉得这要看兴趣和时间（It depends, but usually…）。主要是因为（mainly because…）有些人喜欢尝试很多东西，有些人只想专注一项技能[some people like to try many things, and some only want to focus on one skill]。比如（For example,…）很多年轻人会花很多时间练好一门技能，因为它能帮他们找到好工作[a lot of young people spend a lot of time on one skill because it helps them get a good job]。所以（As a result,…）他们在这方面变得很强[they become very strong in this area]，而且一项很强的技能常常能带来更高的工资（a better salary）。",
+    "g": "钱",
+    "p": ["It depends, but usually…","mainly because…","For example,…","As a result,…","a better salary"]
+  },
+  "retained-smart-problem-solver||Why does modern society need talents of all kinds?": {
+    "a": "我觉得肯定需要（Yes, definitely.）。主要是因为（mainly because…）现在的问题太复杂，一种人解决不了[today's problems are too hard, and one kind of person cannot solve them]。比如（For example,…）医生、老师和工程师会解决不同的问题[doctors, teachers and engineers solve different problems]。所以（As a result,…）当不同技能的人一起合作的时候（work together），社会才能运转得更好[society can run better]，而且大家的生活也会更方便（an easier life）。",
+    "g": "关系",
+    "p": ["Yes, definitely.","mainly because…","For example,…","As a result,…","work together","an easier life"]
+  },
+  "retained-smart-problem-solver||In your opinion, what is more important in solving problems, intelligence or experience?": {
+    "a": "我觉得经验通常更重要（I think experience is usually more important.）。主要是因为（mainly because…）有经验的人遇到问题会更冷静，也知道先做什么[people with experience know what to do first when there is a problem]，他们能保持冷静（stay calm）。比如（For example,…）很多老员工遇到麻烦不会慌，会一步一步解决[a lot of old workers don't panic when there is trouble, they solve it step by step]。所以（So…）如果一个团队既有经验又有聪明的想法，结果就最好（the best result）。",
+    "g": "情绪",
+    "p": ["I think experience is usually more important.","mainly because…","stay calm","For example,…","So…","the best result"]
+  },
+  "retained-smart-problem-solver||Can you give an example of how technology helps people solve problems in a smart way today?": {
+    "a": "我觉得科技帮了很大的忙（Yes, definitely.）。主要是因为（mainly because…）科技可以又快又准地处理很多信息[technology can deal with a lot of information quickly and correctly]。比如（For example,…）很多人开车的时候用导航软件，它会比较不同的路，给出更快的路线[a lot of people use map apps when they drive, and the app compares roads and gives a faster way]。所以（As a result,…）大家能省下时间和油钱（save time and fuel），而且开车也变得更轻松（easier）。",
+    "g": "钱",
+    "p": ["Yes, definitely.","mainly because…","For example,…","As a result,…","save time and fuel","easier"]
+  },
+  "retained-famous-person-to-meet||What are the advantages and disadvantages of being a famous child?": {
+    "a": "我觉得有好处也有坏处（I think there are good and bad sides.）。主要是因为（mainly because…）有名的孩子可以更早赚钱，也能得到特别的机会[a famous child can make money early and get special chances]，但是他们也会有很大压力（feel a lot of pressure）。比如（For example,…）很多小明星每天被很多人看着[a lot of child stars are watched by many people every day]，所以他们没有自己的时间[so they have no time for themselves]。所以（As a result,…）他们过得不轻松[their life is not easy]，而且大人应该保护他们正常的生活[and adults should protect their normal life]。",
+    "g": "情绪",
+    "p": ["I think there are good and bad sides.","mainly because…","feel a lot of pressure","For example,…","As a result,…"]
+  },
+  "retained-famous-person-to-meet||What can today's children do to become famous?": {
+    "a": "我觉得（I think…）孩子应该先练好一项真正的技能。主要是因为（mainly because…）唱歌、运动或画画这样的技能可以让别人记住他们[skills like singing, sport or drawing can help people remember them]，所以他们要经常练习（practise regularly）。比如（For example,…）很多年轻人每天拍视频放到网上[a lot of young people film videos every day and put them online]，所以慢慢有很多人看[so more and more people watch them]。所以（As a result,…）他们可能会红起来[they may become famous]，而且父母也要看好孩子的学习[and parents should also look after the children's study]。",
+    "g": "情绪",
+    "p": ["I think…","mainly because…","practise regularly","For example,…","As a result,…"]
+  },
+  "retained-famous-person-to-meet||What can children do with their fame?": {
+    "a": "我觉得他们可以用名气去帮助别人（use their fame to help others）。主要是因为（mainly because…）很多人会听他们说话[many people will listen to them]，所以他们说的话很有用[so their words are useful]。比如（For example,…）很多小明星请粉丝给需要的孩子捐书[a lot of child stars ask fans to give books to children in need]，所以更多孩子有书读[so more children have books to read]。所以（As a result,…）他们的名气真的帮到了别人[their fame really helps people]，而且这也让他们更受喜欢（help other people）。",
+    "g": "关系",
+    "p": ["use their fame to help others","mainly because…","For example,…","As a result,…","help other people"]
+  },
+  "retained-famous-person-to-meet||Do people become famous because of their talent?": {
+    "a": "我觉得不完全是（Not really.）。主要是因为（mainly because…）才华很重要，但钱和运气也很重要[talent is important, but money and luck are also important]，好的宣传可以让人得到更多关注（get more attention）。比如（For example,…）很多歌手有公司花钱帮他们打广告[a lot of singers have companies that spend money on ads for them]，所以更多人认识他们[so more people know them]。所以（As a result,…）才华不是唯一的原因[talent is not the only reason]，而且有才华的人通常红得更久[but talented people usually stay famous longer]。",
+    "g": "钱",
+    "p": ["Not really.","mainly because…","get more attention","For example,…","As a result,…"]
+  },
+  "retained-famous-person-to-meet||Why are some people more interested in the private lives of celebrities?": {
+    "a": "我觉得主要是为了好玩和聊天（I think it's mainly for fun and chatting.）。主要是因为（mainly because…）名人新闻很简单，也能给大家一个聊天的话题（something to talk about with friends）。比如（For example,…）很多人喜欢和朋友聊明星的生活[a lot of people like to talk about stars' lives with friends]，所以他们觉得很放松[so they feel relaxed]。所以（As a result,…）他们越来越喜欢看这些新闻[they like reading this news more and more]，而且有时候这对名人不太公平[and sometimes this is not fair to the stars]。",
+    "g": "关系",
+    "p": ["I think it's mainly for fun and chatting.","mainly because…","something to talk about with friends","For example,…","As a result,…"]
+  },
+  "retained-famous-person-to-meet||Do you think the definition of “fame” has changed in the age of social media? How?": {
+    "a": "我觉得是的，变了（Yes, it has changed.）。主要是因为（mainly because…）以前名人大多是演员或歌手，现在普通人也能在网上出名（become famous online）。比如（For example,…）很多年轻人因为一个热门视频突然被很多人认识[a lot of young people suddenly become known because of one popular video]，所以出名变得更快[so becoming famous is faster now]。所以（As a result,…）现在名气的意思不一样了[the meaning of fame is different now]，而且网上的名气有时候消失得也很快[but online fame sometimes goes away very fast too]。",
+    "g": "情绪",
+    "p": ["Yes, it has changed.","mainly because…","become famous online","For example,…","As a result,…"]
+  },
+  "retained-proud-family-member||What would children do to make their parents proud?": {
+    "a": "我觉得孩子可以努力学习，也对别人友善（work hard and be kind to others）。主要是因为（mainly because…）父母看到孩子真的进步时就会很骄傲[parents feel proud when they see their children really improve]，所以孩子要一步一步做好[so children should do things step by step]。比如（For example,…）很多孩子在家帮忙做家务，也帮助同学[a lot of children help with housework at home and help their classmates]，所以父母很开心[so their parents are very happy]。所以（As a result,…）父母会为他们骄傲[the parents feel proud of them]，而且孩子也会更有责任心（become more responsible）。",
+    "g": "关系",
+    "p": ["work hard and be kind to others","mainly because…","For example,…","As a result,…","become more responsible"]
+  },
+  "retained-proud-family-member||What did you do to make your parents proud when you were young?": {
+    "a": "我小时候很努力学习（I studied hard when I was young.）。主要是因为（mainly because…）我想让父母开心，也想做好自己的事[I wanted to make my parents happy and do my own things well]，所以我很认真（work hard）。比如（For example,…）有一次英语考试我考得很好，我也常常在家帮忙做家务[once I got a good mark in an English test, and I often helped with housework at home]，所以父母很高兴[so my parents were very happy]。所以（As a result,…）他们为我骄傲[they felt proud of me]，而且我也变得更有责任心（become more responsible）。",
+    "g": "关系",
+    "p": ["I studied hard when I was young.","mainly because…","work hard","For example,…","As a result,…","become more responsible"]
+  },
+  "retained-proud-family-member||What advantages of yours make you proud?": {
+    "a": "我觉得我最大的优点是有耐心，也很负责（I'm patient and responsible.）。主要是因为（mainly because…）出问题的时候我可以保持冷静（stay calm），所以我不会慌[so I don't panic]。比如（For example,…）很多时候工作出小问题，我会先冷静下来再帮团队[many times when there is a small problem at work, I stay calm first and then help the team]，所以我不会去责怪别人[so I don't blame others]。所以（As a result,…）大家觉得我很有用[people think I'm useful]，而且这也给了我信心（give me confidence）。",
+    "g": "情绪",
+    "p": ["I'm patient and responsible.","mainly because…","stay calm","For example,…","As a result,…","give me confidence"]
+  },
+  "retained-proud-family-member||When was the last time that you felt proud of yourself?": {
+    "a": "我记得是上个月（I think it was last month.）。主要是因为（mainly because…）我的团队解决了一个重要的工作问题，我出了力[my team solved an important problem at work, and I helped]，所以我很有成就感（a real sense of achievement）。比如（For example,…）我保持冷静，一步一步检查，还把方法分享给同事[I stayed calm, checked step by step, and shared the way with my workmates]，所以我们按时完成了工作[so we finished the work on time]。所以（As a result,…）我为自己骄傲[I felt proud of myself]，而且我也更相信自己了[and I also trust myself more now]。",
+    "g": "情绪",
+    "p": ["I think it was last month.","mainly because…","a real sense of achievement","For example,…","As a result,…"]
+  },
+  "retained-proud-family-member||Should parents reward children? Why and how?": {
+    "a": "我觉得应该，但奖励要小一点（Yes, but the reward should be small.）。主要是因为（mainly because…）奖励可以让孩子更想努力，但太贵的礼物不好[a reward can make children try harder, but very expensive gifts are not good]，所以最好和努力有关（linked to their effort）。比如（For example,…）很多父母会用表扬、多一点玩的时间，或一次家庭活动来奖励孩子[a lot of parents use praise, more play time, or a family activity to reward their children]，所以孩子很开心[so the children are happy]。所以（As a result,…）孩子学会重视进步，而不是钱（value progress instead of money）。",
+    "g": "钱",
+    "p": ["Yes, but the reward should be small.","mainly because…","linked to their effort","For example,…","As a result,…","value progress instead of money"]
+  },
+  "retained-proud-family-member||On what occasions would adults be proud of themselves?": {
+    "a": "我觉得成年人做成难事的时候会为自己骄傲（I think adults feel proud when they finish hard things.）。主要是因为（mainly because…）完成困难的任务或帮助家人不容易[finishing a hard task or helping the family is not easy]，所以做到了会很开心[so they are happy when they do it]。比如（For example,…）很多人努力工作、改善健康，或者照顾家人[a lot of people work hard, get healthier, or take care of their family]，所以他们觉得自己很棒[so they feel great about themselves]。所以（As a result,…）他们会为自己骄傲[they feel proud of themselves]，而且这也说明他们的努力真的有用（make a real difference）。",
+    "g": "情绪",
+    "p": ["I think adults feel proud when they finish hard things.","mainly because…","For example,…","As a result,…","make a real difference"]
+  },
+  "retained-family-keepsake||What things do families keep for a long time?": {
+    "a": "我觉得很多家庭会保留一些老东西（I think…）。主要是因为（mainly because…）这些东西能让人想起以前的美好时光[these things remind people of good old days]。比如（For example,…）很多家庭一直留着老照片、旧信件和爷爷奶奶给的小首饰[a lot of families keep old photos, letters and jewelry from their grandparents]。所以（So…）这些东西虽然不贵，但能让不同年代的人感到有联系（feel connected）。而且它们能把家里的回忆传下去（pass memories down）。",
+    "g": "关系",
+    "p": ["I think…","mainly because…","For example,…","So…","feel connected","pass memories down"]
+  },
+  "retained-family-keepsake||What's the difference between things valued by people in the past and today?": {
+    "a": "我觉得有挺大不同（I think…）。主要是因为（mainly because…）以前东西很难换新，所以人们珍惜结实又贵的物品[in the past things were hard to replace, so people valued strong and expensive things]。比如（For example,…）很多年轻人现在更珍惜照片、消息和小礼物[many young people today value photos, messages and small gifts more]。所以（So…）现在回忆比价钱更重要（memories matter more）。而且很多东西现在都存在手机里[a lot of things are kept on the phone now]。",
+    "g": "情绪",
+    "p": ["I think…","mainly because…","For example,…","So…","memories matter more"]
+  },
+  "retained-family-keepsake||What kinds of things are kept in museums?": {
+    "a": "我觉得博物馆里放着很多老东西（I think…）。主要是因为（mainly because…）这些东西能展示过去的人怎么生活[these things show how people lived in the past]。比如（For example,…）很多博物馆保存着老工具、旧衣服、画和名人用过的东西[a lot of museums keep old tools, clothes, paintings and things used by famous people]。所以（So…）很多家庭和学生可以一起学历史（learn history together）。而且看这些真东西比看书更有意思（more fun than books）。",
+    "g": "关系",
+    "p": ["I think…","mainly because…","For example,…","So…","learn history together","more fun than books"]
+  },
+  "retained-family-keepsake||What's the influence of technology on museums?": {
+    "a": "我觉得科技对博物馆帮助很大（I think…）。主要是因为（mainly because…）科技让博物馆更容易参观，也更容易看懂[technology makes museums easier to visit and understand]。比如（For example,…）很多博物馆用屏幕来讲解展品，很多人还能在家网上参观[a lot of museums use screens to explain things, and people can visit online at home]。所以（So…）这样能省下路上的时间和钱（save travel time and money）。而且这对学生特别有用（very useful for students）。",
+    "g": "钱",
+    "p": ["I think…","mainly because…","For example,…","So…","save travel time and money","very useful for students"]
+  },
+  "retained-family-keepsake||Why is it important for people (especially children) to learn about family history?": {
+    "a": "我觉得挺重要的（I think…）。主要是因为（mainly because…）了解家族历史能让孩子知道自己从哪里来，也知道长辈经历过什么[family history helps children know where they come from and what older people went through]。比如（For example,…）很多孩子喜欢问爷爷奶奶以前的事[many children like to ask their grandparents about the past]，这样就能和老人多相处（spend time together）。所以（So…）这能让家里的关系更牢固（make family relationships stronger）。",
+    "g": "关系",
+    "p": ["I think…","mainly because…","For example,…","spend time together","So…","make family relationships stronger"]
+  },
+  "retained-family-keepsake||Do you think people will keep fewer physical objects in the future as memories? Why?": {
+    "a": "会的，我觉得会（I think so.）。主要是因为（mainly because…）照片和消息可以存在网上，不占家里的地方[photos and messages can be kept online and don't take up space at home]。比如（For example,…）很多年轻人现在把回忆都放在手机里[many young people keep their memories on the phone now]。所以（So…）以后人们会少留一些实体东西，但还是会留几样特别的，比如戒指或者手写的信[but people will still keep a few special things, like a ring or a handwritten letter]。而且真东西比文件更能装下感情（carry stronger feelings）。",
+    "g": "情绪",
+    "p": ["I think so.","mainly because…","For example,…","So…","carry stronger feelings"]
+  },
+  "retained-app||What are the differences between old and young people when using apps?": {
+    "a": "我觉得他们有明显的不同（I think…）。主要是因为（mainly because…）年轻人从小就用手机长大[young people grew up with phones]。比如（For example,…）很多年轻人用很多应用来学习、玩和聊天，老年人一般只用几个基础的[young people use many apps to study, play and chat, but old people usually use only a few basic ones]。所以（So…）这种不同主要来自习惯和经验（habit and experience）。而且老年人更喜欢简单好用的应用（simple and easy apps）。",
+    "g": "关系",
+    "p": ["I think…","mainly because…","For example,…","So…","habit and experience","simple and easy apps"]
+  },
+  "retained-app||Why do some people not like using apps?": {
+    "a": "我觉得有些人真的不喜欢用应用（I think…）。主要是因为（mainly because…）有些应用很难用，还要太多个人信息[some apps are hard to use and ask for too much personal information]。比如（For example,…）很多人收到太多通知的时候会觉得紧张又分心[many people feel stressed and distracted when they get too many notifications]。所以（So…）他们更喜欢简单的网站，或者和真人面对面办事[so they prefer simple websites or talking to a real person]。而且少用应用能让人更放松（feel more relaxed）。",
+    "g": "情绪",
+    "p": ["I think…","mainly because…","For example,…","So…","feel more relaxed"]
+  },
+  "retained-app||What kinds of apps are most popular among young people in your country?": {
+    "a": "我觉得社交媒体和短视频应用最受欢迎（I think…）。主要是因为（mainly because…）年轻人用它们来放松，也用来和朋友保持联系（stay in touch with friends）。比如（For example,…）很多年轻人每天都刷短视频、听音乐、和同学聊天[many young people watch short videos, listen to music and chat with friends every day]。所以（So…）这种免费的应用用的人越来越多[so free apps like these get more and more users]。而且学习类的应用也挺受欢迎（study apps are also popular）。",
+    "g": "关系",
+    "p": ["I think…","mainly because…","stay in touch with friends","For example,…","So…","study apps are also popular"]
+  },
+  "retained-app||Do you think mobile apps have made our lives easier or more complicated?": {
+    "a": "我觉得应用让生活更简单了（I think…）。主要是因为（mainly because…）人们可以很快付款、订票和发消息[people can pay, book tickets and send messages quickly]。比如（For example,…）很多人现在用手机付款，不用带现金[many people pay with their phone instead of cash now]。不过太多应用和通知也会造成压力（create stress）。所以（So…）只有人们能管好自己怎么用，应用才真的有帮助[so apps really help only when people control their own use]。",
+    "g": "情绪",
+    "p": ["I think…","mainly because…","For example,…","create stress","So…"]
+  },
+  "retained-app||What should people pay attention to when downloading a new app?": {
+    "a": "我觉得下载新应用的时候要小心一点（I think…）。主要是因为（mainly because…）有些应用要太多信息，还有些有隐藏的费用（hidden costs）。比如（For example,…）很多人下载前会先看用户评价和权限[many people check user reviews and permissions before they download]，而且只从官方商店下载[and only download from the official store]。所以（So…）这样能同时保护个人信息和钱[so this protects both their data and their money]。",
+    "g": "钱",
+    "p": ["I think…","mainly because…","hidden costs","For example,…","So…"]
+  },
+  "retained-app||Do you think we will use more or fewer apps in the future? Why?": {
+    "a": "我觉得以后我们会用更少的应用（I think…）。主要是因为（mainly because…）一个应用就能同时做付款、购物、出行和发消息[one app can do payment, shopping, travel and messages together]。比如（For example,…）很多人现在已经用一个大应用来处理很多事[many people already use one big app for many things]。所以（So…）这样能省时间，也能省手机空间（save time and phone space）。而且遇到新需求还是会出现一些新应用[but new needs will still bring some new apps]。",
+    "g": "钱",
+    "p": ["I think…","mainly because…","For example,…","So…","save time and phone space"]
+  },
+  "retained-perfect-job||What jobs do children want to do when they grow up?": {
+    "a": "我觉得孩子想做各种各样的工作（I think…）。主要是因为（mainly because…）他们的想法来自身边的人[their ideas come from the people around them]。比如（For example,…）很多孩子想当医生、老师或者运动员[many children want to be doctors, teachers or sports players]，因为他们在学校或者网上看到这些人[they see these people at school or online]。所以（So…）他们通常选看起来有趣或者能帮助别人的工作[they usually choose jobs that look fun or can help others]。而且这些想法很多来自家庭和学校（come from family and school）。",
+    "g": "关系",
+    "p": ["I think…","mainly because…","For example,…","So…","come from family and school"]
+  },
+  "retained-perfect-job||What should people consider when choosing jobs?": {
+    "a": "我觉得要考虑很多东西（I think…）。最主要的原因是（The main reason is that…）工作要能付日常开销（cover daily costs），这样生活才安心[so life feels safe]。比如（For example,…）很多人会看工资、工作时间和地点[many people look at the salary, the working hours and the place]，还看自己喜不喜欢[and whether they like the job]。所以（So…）他们应该选一份能赚钱又有个人时间的工作[they should choose a job that makes money and still leaves free time]。而且以后的发展也很重要[and future growth is also important]。",
+    "g": "钱",
+    "p": ["I think…","The main reason is that…","cover daily costs","For example,…","So…"]
+  },
+  "retained-perfect-job||Is salary the main reason people choose a certain job?": {
+    "a": "我觉得看情况，但一般来说（It depends, but usually…）工资是一个大原因，但不是唯一的[salary is a big reason, but not the only one]。主要是因为（mainly because…）人们也需要稳定的收入（a stable income），也在乎工作时间和同事[they also care about the hours and their workmates]。比如（For example,…）很多人工资很高，但加班太多或者老板不好，他们还是不开心[many people have a high salary but work too much or have a bad boss, so they are still not happy]。所以（So…）工资是主要原因之一，但不是全部[salary is one main reason, but not everything]。",
+    "g": "钱",
+    "p": ["It depends, but usually…","mainly because…","a stable income","For example,…","So…"]
+  },
+  "retained-perfect-job||How have people’s opinions about the “perfect job” changed compared to the past?": {
+    "a": "我觉得变化很大（I think…）。主要是因为（mainly because…）过去人们主要想要稳定和工资[in the past people mainly wanted a stable job and money]，现在他们还想要好心情[now they also want to feel good]。比如（For example,…）很多年轻人现在想要灵活的时间和成长[many young people now want flexible hours and personal growth]，也想要更好的工作生活平衡（a better work-life balance）。所以（So…）人们越来越在乎工作带来的感受[people care more and more about how a job makes them feel]。",
+    "g": "情绪",
+    "p": ["I think…","mainly because…","For example,…","a better work-life balance","So…"]
+  },
+  "retained-perfect-job||Do you think it’s easy for people to find their ideal job? Why or why not?": {
+    "a": "我觉得不太容易（Not really.）。最主要的原因是（The main reason is that…）好工作会吸引很多人，而且常常要求经验[good jobs attract many people and often need experience]。比如（For example,…）很多人为了得到理想工作，得先提升技能，或者一开始接受低工资（accept a lower salary at first）。所以（So…）找到理想工作通常需要很多时间[finding an ideal job usually takes a lot of time]。而且你得一直努力[and you have to keep trying]。",
+    "g": "钱",
+    "p": ["Not really.","The main reason is that…","For example,…","accept a lower salary at first","So…"]
+  },
+  "retained-perfect-job||What is more important for job satisfaction: a high salary or good relationships with colleagues?": {
+    "a": "我觉得两个都重要，但好的同事关系更重要（I think…）。最主要的原因是（The main reason is that…）好的同事能帮你减少压力（reduce stress），让难做的工作变简单[good workmates make hard work easier]。比如（For example,…）很多人工资很高，但同事关系不好，每天都很累[many people have a high salary but bad workmates, so they feel tired every day]。所以（So…）高工资能付账单，但好的关系让每天更开心[a high salary pays the bills, but good relationships make every day happier]。",
+    "g": "关系",
+    "p": ["I think…","The main reason is that…","reduce stress","For example,…","So…"]
+  },
+  "retained-self-taught-friend||Is it necessary to keep learning after graduating from school?": {
+    "a": "我觉得很有必要（Yes, definitely.）。最主要的原因是（The main reason is that…）工作和科技一直在变[jobs and technology keep changing]。比如（For example,…）很多人学新技能以后，有更多工作选择，也能拿到更稳定的收入（a more stable income）。所以（So…）继续学习让人在工作中更有信心[keeping learning makes people more confident at work]。而且他们不容易被淘汰[and they are less likely to be left behind]。",
+    "g": "钱",
+    "p": ["Yes, definitely.","The main reason is that…","For example,…","a more stable income","So…"]
+  },
+  "retained-self-taught-friend||Should teachers make learning in their classes fun?": {
+    "a": "我觉得应该（Yes, definitely.）。主要是因为（mainly because…）有趣的课能让学生放松[a fun class helps students relax]。比如（For example,…）很多老师用游戏、故事和小组活动[many teachers use games, stories and group activities]，在有趣的课堂上（an enjoyable class）学生不那么怕犯错[students are less afraid of making mistakes]。所以（So…）学生更愿意开口，也学得更好[students are more willing to speak and learn better]。",
+    "g": "情绪",
+    "p": ["Yes, definitely.","mainly because…","For example,…","an enjoyable class","So…"]
+  },
+  "retained-self-taught-friend||Do you think there are too many subjects for students to learn?": {
+    "a": "我觉得在一些学校确实太多了（I think…）。最主要的原因是（The main reason is that…）科目太多会让学生很累（make students tired）。比如（For example,…）很多学生每天有很多作业，几乎没时间睡觉或者玩爱好[many students have a lot of homework every day and have almost no time to sleep or do hobbies]。所以（So…）学校应该保留基础科目，同时给学生一些选择[schools should keep the basic subjects and give students some choices]。",
+    "g": "情绪",
+    "p": ["I think…","The main reason is that…","make students tired","For example,…","So…"]
+  },
+  "retained-self-taught-friend||Is it better to focus on a few subjects or to learn many subjects?": {
+    "a": "我觉得看年龄（It depends, but usually…）小孩子应该学很多科目的基础[young children should learn the basics of many subjects]。最主要的原因是（The main reason is that…）基础知识能给他们常识[basic knowledge gives them common sense]。比如（For example,…）很多学生长大以后可以专注于自己喜欢或工作需要的实用科目（focus on useful subjects）。所以（So…）先学广再学专，既有常识又不会压力太大[learn widely first, then focus, so they have common sense without too much stress]。",
+    "g": "情绪",
+    "p": ["It depends, but usually…","The main reason is that…","For example,…","focus on useful subjects","So…"]
+  },
+  "retained-self-taught-friend||Do you think enterprises should provide training for their employees?": {
+    "a": "我觉得应该（Yes, definitely.）。最主要的原因是（The main reason is that…）受过培训的员工犯错更少，工作也更快[trained workers make fewer mistakes and work faster]。比如（For example,…）很多公司一开始花一些培训费，但以后能省钱（save money later），员工也学到实用技能[workers also learn useful skills]。所以（So…）培训对公司和员工都好[training is good for both the company and the workers]。",
+    "g": "钱",
+    "p": ["Yes, definitely.","The main reason is that…","For example,…","save money later","So…"]
+  },
+  "retained-self-taught-friend||Do you think it is good for older adults to continue learning?": {
+    "a": "我觉得是好事（Yes, definitely.）。主要是因为（mainly because…）学习能让他们头脑保持活跃，也能认识新朋友[learning keeps their mind active and helps them meet new friends]。比如（For example,…）很多老人上手机课以后，能和家人保持联系（stay in touch with their family），也不那么孤单[and they feel less lonely]。所以（So…）继续学习让他们的生活更开心、更充实[keeping learning makes their life happier and fuller]。",
+    "g": "关系",
+    "p": ["Yes, definitely.","mainly because…","For example,…","stay in touch with their family","So…"]
+  },
+  "retained-gave-advice||Should people prepare before giving advice?": {
+    "a": "我觉得应该准备（I think…）。主要是因为（mainly because…）如果不了解情况，建议可能是错的[if you don't know the facts, the advice may be wrong]，所以我们先要核实事实（check the facts）。比如（For example,…）很多人会先多问几个问题[a lot of people ask a few questions first]，然后再给建议[and then give advice]，所以（So…）他们的建议更有用[so their advice is more useful]，而且对方也更信任他们[and the other person trusts them more]。",
+    "g": "关系",
+    "p": ["I think…","mainly because…","check the facts","For example,…","So…"]
+  },
+  "retained-gave-advice||Is it good to ask advice from strangers online?": {
+    "a": "这个看情况（It depends, but usually…）。主要是因为（mainly because…）网上人很多，你能听到不同的看法[there are many people online, so you can hear different ideas]，但有时他们说的也是错的[but sometimes they are wrong]。比如（For example,…）很多人问一些小问题是可以的[a lot of people ask small questions, and that is fine]，但重要的钱或健康问题，最好问专业的人（check with a professional）。所以（So…）网上的建议只能参考[so online advice is just for reference]，我们自己也要分辨真假，先查一查是不是真的（check if it's true）。",
+    "g": "钱",
+    "p": ["It depends, but usually…","mainly because…","For example,…","check with a professional","So…","check if it's true"]
+  },
+  "retained-gave-advice||What are the personalities of people whose job is to give advice to others?": {
+    "a": "我觉得他们要有耐心（I think…）。主要是因为（mainly because…）他们每天要听很多人的问题[they listen to many people's problems every day]，所以要冷静，也要会倾听[so they need to stay calm and listen well]。比如（For example,…）很多好的顾问会诚实地说真话[a lot of good advisers tell the truth honestly]，而不是只说客户想听的话[not just what the client wants to hear]，所以（So…）他们能和别人建立信任（build trust with people）。而且这样别人也更愿意听他们的[and people are happier to follow them]。",
+    "g": "关系",
+    "p": ["I think…","mainly because…","For example,…","So…","build trust with people"]
+  },
+  "retained-gave-advice||What are the problems if you ask too many people for advice?": {
+    "a": "我觉得问题不少（I think…）。主要是因为（mainly because…）不同的人会给相反的建议[different people give opposite advice]，所以你会感到困惑和有压力（feel confused and stressed）。比如（For example,…）很多人问了十个人以后[a lot of people ask ten people]，反而更不知道怎么选[and then they don't know how to choose]，所以（So…）通常问两三个信任的人就够了[so asking two or three people you trust is enough]。而且这样也能省时间[and it also saves time]。",
+    "g": "情绪",
+    "p": ["I think…","mainly because…","feel confused and stressed","For example,…","So…"]
+  },
+  "retained-gave-advice||When is it not appropriate to give advice to others?": {
+    "a": "我觉得有些时候不适合（I think…）。主要是因为（mainly because…）如果你不了解情况，或者事情很私密[if you don't know the facts, or the thing is very private]，建议可能会伤害别人[the advice may hurt the person]。比如（For example,…）很多时候对方只是想说说自己的感受[a lot of the time the other person just wants to share their feelings]，所以（So…）这时候倾听比给不想要的建议（unwanted advice）更好[listening is better than giving advice they don't want]。而且这样对方会觉得被理解[and they feel understood]。",
+    "g": "关系",
+    "p": ["I think…","mainly because…","For example,…","So…","unwanted advice"]
+  },
+  "retained-gave-advice||Which do you think is more helpful: advice from older people or advice from friends of the same age? Why?": {
+    "a": "这个看情况（It depends, but usually…）。主要是因为（mainly because…）长辈有更多人生经验（more life experience），所以他们能帮我们做重大选择[so they can help us make big choices]。比如（For example,…）很多年轻人问同龄朋友日常的小问题[a lot of young people ask same-age friends about small daily problems]，因为朋友懂现在的压力[because friends understand today's stress]，所以（So…）两种建议都有用[so both kinds of advice are useful]。",
+    "g": "关系",
+    "p": ["It depends, but usually…","mainly because…","more life experience","For example,…","So…"]
+  },
+  "retained-shopping-mall||Why do people buy things they don't need?": {
+    "a": "我觉得原因有几个（I think…）。主要是因为（mainly because…）打折和广告让人觉得自己在省钱（save money）[discounts and ads make people feel they are saving money]，所以他们就买了[so they buy it]。比如（For example,…）很多人有压力的时候会去购物[a lot of people go shopping when they feel stressed]，因为买东西能带来短暂的快乐[because buying things brings short happiness]，所以（As a result,…）他们常常后悔这种没必要的花钱[they often regret this unnecessary spending]。",
+    "g": "钱",
+    "p": ["I think…","mainly because…","save money","For example,…","As a result,…"]
+  },
+  "retained-shopping-mall||Do you think shopping malls are popular in your country? Why?": {
+    "a": "当然受欢迎（Yes, definitely.）。主要是因为（mainly because…）人们可以在一个地方（in one place）购物、吃饭和看电影[people can shop, eat and watch films in one place]，所以商场对家人和朋友很方便[so malls are easy for families and friends]。比如（For example,…）很多家庭周末去商场一起玩[a lot of families go to the mall together at weekends]，所以（So…）商场很受欢迎[so malls are very popular]，而且天气不好时商场也很舒服[and malls are comfortable when the weather is bad]。",
+    "g": "关系",
+    "p": ["Yes, definitely.","mainly because…","in one place","For example,…","So…"]
+  },
+  "retained-shopping-mall||What are the advantages of shopping in a mall compared to shopping online?": {
+    "a": "我觉得商场有一些好处（I think…）。主要是因为（mainly because…）付款前你可以看到、摸到、试用商品[before you pay, you can see, touch and try the things]，所以你能选到合适的尺寸[so you can choose the right size]。比如（For example,…）很多人买衣服喜欢先试穿[a lot of people like to try clothes on first]，还能马上带回家[and take it home right away]，所以（As a result,…）他们能省钱，也能少退货（avoid return costs）[they save money and return fewer things]。",
+    "g": "钱",
+    "p": ["I think…","mainly because…","For example,…","As a result,…","avoid return costs"]
+  },
+  "retained-shopping-mall||Do young people and old people like to go to the same kind of malls? Why?": {
+    "a": "我觉得不太一样（Not really.）。主要是因为（mainly because…）年轻人和老人有不同的需求（different needs）[young people and old people have different needs]，所以他们喜欢不同的商场[so they like different malls]。比如（For example,…）很多年轻人喜欢服装店、电影院和游戏区[a lot of young people like clothes shops, cinemas and game areas]，而老人更在意超市、座位和方便的交通[but old people care more about the supermarket, seats and easy transport]，所以（So…）他们常去不同的地方[so they often go to different places]。",
+    "g": "关系",
+    "p": ["Not really.","mainly because…","different needs","For example,…","So…"]
+  },
+  "retained-shopping-mall||How can a shopping mall attract more customers?": {
+    "a": "我觉得有几个办法（I think…）。主要是因为（mainly because…）人们喜欢价格合理、环境干净的商场[people like malls with fair prices and a clean place]，所以商场要做好这些[so malls should do these well]。比如（For example,…）很多商场提供免费停车和亲子活动[a lot of malls offer free parking and activities for kids]，还有好餐厅[and good restaurants]，所以（As a result,…）顾客体验好就会再来（come back again）[if the experience is good, customers come back again]，而且他们也会告诉朋友[and they also tell their friends]。",
+    "g": "钱",
+    "p": ["I think…","mainly because…","For example,…","As a result,…","come back again"]
+  },
+  "retained-shopping-mall||Do you think having many malls in a city is a good thing?": {
+    "a": "这个有好也有坏（It depends, but usually…）。主要是因为（mainly because…）更多商场能创造工作，也给人们更多选择[more malls can create jobs and give people more choices]，甚至可能带来更低的价格（lower prices）[and even lower prices]。比如（For example,…）很多城市有很多商场，但也带来了交通问题[a lot of cities have many malls, but they also bring traffic problems]，所以（As a result,…）我觉得数量合适最好[so I think the right number is best]。",
+    "g": "钱",
+    "p": ["It depends, but usually…","mainly because…","lower prices","For example,…","As a result,…"]
+  },
+  "retained-recent-movie||What kinds of movies do you think are successful in your country?": {
+    "a": "我觉得喜剧和动作片在我们国家最成功（I think…）。主要是因为（mainly because…）这些电影很容易看懂[these films are easy to understand]，所以大家下班以后可以好好放松（relax after work）。比如（For example,…）很多人周末去看一部搞笑的电影[a lot of people watch a funny film at weekends]，然后笑一笑心情就好了[they laugh and feel happy]。所以（As a result,…）这种电影总是很卖座[films like this always do well]，而且家人也可以一起看[and families can watch them together too]。",
+    "g": "情绪",
+    "p": ["I think…","mainly because…","relax after work","For example,…","As a result,…"]
+  },
+  "retained-recent-movie||What are the factors that make a successful movie?": {
+    "a": "我觉得一部好电影最需要一个清楚又好看的故事（I think…）。主要是因为（mainly because…）如果故事无聊，大家很快就不想看了[if the story is boring, people stop watching]，所以好的故事和好的表演可以让观众更投入（feel more involved）。比如（For example,…）很多人喜欢有一个好结局（a happy ending）的电影[a lot of people like a film with a happy ending]，看完还会推荐给朋友[they tell their friends about it]。所以（So…）故事、演员和音乐一起做好，电影才会成功[the film only works when the story, actors and music are all good]。",
+    "g": "情绪",
+    "p": ["I think…","mainly because…","feel more involved","For example,…","a happy ending","So…"]
+  },
+  "retained-recent-movie||Do Chinese people prefer to watch domestic movies or foreign movies?": {
+    "a": "我觉得这要看观众，不过很多人更喜欢国产电影（It depends, but usually…）。最主要的原因是（The main reason is that…）国产电影用我们熟悉的语言，也讲我们身边的生活[our own films use a familiar language and show our daily life]，所以大家更容易有共鸣（easier to relate to）。比如（For example,…）很多家庭喜欢看讲中国家庭故事的电影[a lot of families like films about Chinese family life]。所以（So…）国产电影常常很受欢迎[our own films are often very popular]，而且外国电影也能带来不一样的故事[and foreign films bring different stories too].",
+    "g": "关系",
+    "p": ["It depends, but usually…","The main reason is that…","easier to relate to","For example,…","So…"]
+  },
+  "retained-recent-movie||Do you think only well-known directors can create the best movies?": {
+    "a": "不完全是这样（Not really.）。最主要的原因是（The main reason is that…）新导演也会有新鲜的想法，还可以和一个很强的团队合作（work with a strong team），所以他们也能拍出好电影。比如（For example,…）很多年轻导演拍出了大家都很喜欢的电影[a lot of young directors have made films that people really love]。所以（So…）名气大不代表每部电影都好看[being famous does not mean every film is good]，重要的是想法和努力[what matters is the idea and the hard work].",
+    "g": "关系",
+    "p": ["Not really.","The main reason is that…","work with a strong team","For example,…","So…"]
+  },
+  "retained-recent-movie||Do you think successful movies should have well-known actors or actresses in leading roles?": {
+    "a": "我觉得不一定需要（Not really.）。主要是因为（mainly because…）名气大的演员可以帮电影赚钱（help a film make money），但是他们不一定适合每个角色。最主要的原因是（The main reason is that…）观众最想看的还是好故事和好表演[what people want most is a good story and good acting]。比如（For example,…）很多没有名气的演员也演得很好[a lot of unknown actors act really well]。所以（So…）演员合适、故事好看更重要[it is more important that the actor fits and the story is good].",
+    "g": "钱",
+    "p": ["Not really.","mainly because…","help a film make money","The main reason is that…","For example,…","So…"]
+  },
+  "retained-recent-movie||Why do people prefer to watch movies in the cinema?": {
+    "a": "我觉得大家喜欢去电影院，是因为感觉更好（I think…）。主要是因为（mainly because…）大屏幕和很响的声音让电影更刺激[the big screen and loud sound make the film more exciting]，所以看起来更过瘾。而且去电影院也是一种社交活动，可以和家人朋友一起度过美好时光（spend quality time together）。比如（For example,…）很多年轻人周末约朋友一起看电影[a lot of young people go to the cinema with friends at weekends]。所以（As a result,…）去电影院不只是看电影，也是一起开心[going to the cinema is not just about the film, it is about having fun together].",
+    "g": "关系",
+    "p": ["I think…","mainly because…","spend quality time together","For example,…","As a result,…"]
   },
 };

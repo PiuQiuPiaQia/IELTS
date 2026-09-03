@@ -2,8 +2,573 @@
 // 页面脚本从 window.IELTS_DATA 获取数据，不依赖 fetch 或本地服务器。
 
 window.IELTS_DATA = {
-  "version": "p3-v29-categorized-p2",
+  "reviewGuide": {
+    "source": "9月雅思口语保留题复习顺序（保留题）",
+    "part2": [
+      { "order": 1, "frequency": "超高频", "targetMaterialId": "object-tips", "question": "Describe a gift you would like to buy for your friend" },
+      { "order": 2, "frequency": "超高频", "targetMaterialId": "people-tips", "question": "Describe a time when you felt proud of a family member" },
+      { "order": 3, "frequency": "超高频", "targetMaterialId": "object-tips", "question": "Describe a long-term goal/ambition you would like to achieve" },
+      { "order": 3, "frequency": "超高频", "targetMaterialId": "object-tips", "question": "Describe a long-term goal you would like to achieve" },
+      { "order": 3, "frequency": "超高频", "targetMaterialId": "object-tips", "question": "Describe an ambition that you have had for a long time" },
+      { "order": 4, "frequency": "超高频", "targetMaterialId": "object-tips", "question": "Describe a story/book with animals in it" },
+      { "order": 5, "frequency": "超高频", "targetMaterialId": "event-tips", "question": "Describe a time when you sent a message or an email to someone but received no reply for a long time" },
+      { "order": 6, "frequency": "高频", "targetMaterialId": "place-tips", "question": "Describe an important river/lake in your country" },
+      { "order": 7, "frequency": "高频", "targetMaterialId": "people-tips", "question": "Describe a person who is good at learning and speaking new languages" },
+      { "order": 8, "frequency": "高频", "targetMaterialId": "object-tips", "question": "Describe something important that has been kept in your family for a long time." },
+      { "order": 9, "frequency": "高频", "targetMaterialId": "event-tips", "question": "Describe a challenging technological problem you faced" },
+      { "order": 11, "frequency": "高频", "targetMaterialId": "people-tips", "question": "Describe a person who solved a problem in a smart way." },
+      { "order": 12, "frequency": "高频", "targetMaterialId": "event-tips", "question": "Describe a time when you organized a happy event successfully" },
+      { "order": 13, "frequency": "高频", "targetMaterialId": "place-tips", "question": "Describe a quiet place you like to go to." },
+      { "order": 14, "frequency": "高频", "targetMaterialId": "event-tips", "question": "Describe a time when you were stuck in a traffic jam for a very long time" },
+      { "order": 15, "frequency": "高频", "targetMaterialId": "people-tips", "question": "Describe a friend from your childhood" },
+      { "order": 16, "frequency": "高频", "targetMaterialId": "object-tips", "question": "Describe an interesting video" },
+      { "order": 17, "frequency": "高频", "targetMaterialId": "object-tips", "question": "Describe an important decision that you made" },
+      { "order": 18, "frequency": "中高频", "targetMaterialId": "people-tips", "question": "Describe a famous person you would like to meet" },
+      { "order": 19, "frequency": "中高频", "targetMaterialId": "object-tips", "question": "Describe a movie you watched and enjoyed recently." },
+      { "order": 20, "frequency": "中高频", "targetMaterialId": "place-tips", "question": "Describe a shopping mall you like." },
+      { "order": 21, "frequency": "中高频", "targetMaterialId": "place-tips", "question": "Describe your favorite city that you have visited" },
+      { "order": 22, "frequency": "中高频", "targetMaterialId": "event-tips", "question": "Describe a plan that you had to change recently" },
+      { "order": 23, "frequency": "中高频", "targetMaterialId": "object-tips", "question": "Describe a program or app on your computer or phone." },
+      { "order": 24, "frequency": "中高频", "targetMaterialId": "object-tips", "question": "Describe a piece of technology (not a phone) that you would like to own" },
+      { "order": 25, "frequency": "中高频", "targetMaterialId": "object-tips", "question": "Describe your perfect job." },
+      { "order": 26, "frequency": "中高频", "targetMaterialId": "people-tips", "question": "Describe one of your friends who learned something without a teacher." },
+      { "order": 27, "frequency": "中高频", "targetMaterialId": "people-tips", "question": "Describe a person who often helps others." },
+      { "order": 28, "frequency": "中高频", "targetMaterialId": "event-tips", "question": "Describe a time when you gave someone useful advice." }
+    ],
+    "part3": [
+      { "order": 1, "frequency": "超高频", "groupId": "new-friend-gift" },
+      { "order": 2, "frequency": "超高频", "groupId": "retained-proud-family-member" },
+      { "order": 3, "frequency": "超高频", "groupId": "new-long-term-goal" },
+      { "order": 3, "frequency": "超高频", "groupId": "new-long-held-ambition" },
+      { "order": 4, "frequency": "超高频", "groupId": "new-animal-story" },
+      { "order": 5, "frequency": "超高频", "groupId": "new-delayed-reply" },
+      { "order": 6, "frequency": "高频", "groupId": "new-important-river-lake" },
+      { "order": 7, "frequency": "高频", "groupId": "new-language-speaker" },
+      { "order": 8, "frequency": "高频", "groupId": "retained-family-keepsake" },
+      { "order": 9, "frequency": "高频", "groupId": "new-ai-problem" },
+      { "order": 11, "frequency": "高频", "groupId": "retained-smart-problem-solver" },
+      { "order": 12, "frequency": "高频", "groupId": "new-happy-event" },
+      { "order": 14, "frequency": "高频", "groupId": "new-traffic-jam" },
+      { "order": 15, "frequency": "高频", "groupId": "new-childhood-friend" },
+      { "order": 16, "frequency": "高频", "groupId": "new-interesting-video" },
+      { "order": 17, "frequency": "高频", "groupId": "new-important-decision" },
+      { "order": 18, "frequency": "中高频", "groupId": "retained-famous-person-to-meet" },
+      { "order": 19, "frequency": "中高频", "groupId": "retained-recent-movie" },
+      { "order": 20, "frequency": "中高频", "groupId": "retained-shopping-mall" },
+      { "order": 21, "frequency": "中高频", "groupId": "new-favourite-city" },
+      { "order": 22, "frequency": "中高频", "groupId": "new-changed-plan" },
+      { "order": 23, "frequency": "中高频", "groupId": "retained-app" },
+      { "order": 25, "frequency": "中高频", "groupId": "retained-perfect-job" },
+      { "order": 26, "frequency": "中高频", "groupId": "retained-self-taught-friend" },
+      { "order": 27, "frequency": "中高频", "groupId": "retained-helpful-person" },
+      { "order": 28, "frequency": "中高频", "groupId": "retained-gave-advice" }
+    ],
+    "unmatched": [],
+    "notes": [
+      "文档第 7 项和第 10 项均为“擅长学习和说语言的人”，网页按首次出现的位置合并排序。"
+    ]
+  },
+  "version": "p1-september-v2",
   "part1": [
+    {
+      "id": "september-names",
+      "tab": "名字",
+      "title": "Names",
+      "description": "9 月 Part 1 新题：记名字和被记住的感受。",
+      "isNew": true,
+      "newOrder": 1,
+      "items": [
+        {
+          "question": "Is it easy to remember people's names?",
+          "answer": "Not really. I sometimes find it difficult, especially when I meet several new people at once. I usually need to hear a name two or three times before I remember it.",
+          "translation": "不太容易。有时我会觉得记名字很难，尤其是一次见到好几个新人的时候。通常一个名字需要听两三遍，我才能记住。"
+        },
+        {
+          "question": "How do you remember people's names?",
+          "answer": "I usually repeat the person's name during our conversation. I may also save it with a short note on my phone. This helps me connect the name with the person and remember it more easily.",
+          "translation": "交谈时，我通常会重复对方的名字。我也可能在手机里把名字和一条简短备注保存下来。这样能让我把名字和本人联系起来，更容易记住。"
+        },
+        {
+          "question": "How do you feel when people can't remember your name?",
+          "answer": "I do not mind too much, especially if we have only met once. I may feel a little awkward at first, but I will simply introduce myself again.",
+          "translation": "我不会太介意，特别是我们只见过一次的情况下。一开始我可能会觉得有点尴尬，但我会简单地再介绍一下自己。"
+        },
+        {
+          "question": "Do you often forget people's names?",
+          "answer": "Yes, sometimes, especially after a large meeting with many new people. I usually remember faces more easily than names, so I try to make a short note afterwards.",
+          "translation": "有时会，尤其是在参加有很多新人的大型会议之后。相比名字，我通常更容易记住长相，所以之后会尽量做个简短记录。"
+        }
+      ],
+      "keyPhrases": [
+        "several new people at once",
+        "repeat the person's name",
+        "a short note on my phone",
+        "introduce myself again",
+        "remember faces more easily than names"
+      ]
+    },
+    {
+      "id": "september-computers-tablets",
+      "tab": "电脑与平板",
+      "title": "Computers and tablets",
+      "description": "9 月 Part 1 新题：电脑和平板的选择与使用。",
+      "isNew": true,
+      "newOrder": 11,
+      "items": [
+        {
+          "question": "Would you like to use a computer or tablet?",
+          "answer": "I prefer using a computer because I need it for my work as a software engineer. It has a larger screen and a keyboard, so it is more convenient for writing code and joining online meetings.",
+          "translation": "我更喜欢使用电脑，因为作为软件工程师，工作中需要用到它。电脑屏幕更大，而且有键盘，所以写代码和参加线上会议都更方便。"
+        },
+        {
+          "question": "In what conditions would you use a computer or tablet?",
+          "answer": "I usually use a computer when I work or study at home. I use it to search for information, attend online meetings and finish my work more efficiently.",
+          "translation": "我通常在家工作或学习时使用电脑。我会用它查找信息、参加线上会议，并更高效地完成工作。"
+        },
+        {
+          "question": "When was the first time you used a computer or tablet?",
+          "answer": "I cannot remember exactly, but I think I first used a computer in primary school. We had computer classes, and my teacher showed us how to type and use some simple programs.",
+          "translation": "我记不清具体时间了，但我想第一次使用电脑是在小学。我们有电脑课，老师教我们打字和使用一些简单的程序。"
+        },
+        {
+          "question": "What would your life be like without computers or tablets?",
+          "answer": "My life would be much less convenient because I use a computer every day for work. It would take me longer to find information, communicate with my colleagues and solve problems.",
+          "translation": "如果没有电脑或平板，我的生活会不方便很多，因为我每天工作都要使用电脑。查找信息、与同事沟通和解决问题都会花更长时间。"
+        },
+        {
+          "question": "In what conditions would it be difficult for you to use a computer or tablet?",
+          "answer": "It would be difficult to use a computer when I am standing on a crowded bus or subway. There may not be enough space, and I cannot focus well in a noisy environment.",
+          "translation": "当我站在拥挤的公交车或地铁上时，使用电脑会很困难。那里可能没有足够的空间，而且在嘈杂的环境中我无法很好地集中注意力。"
+        }
+      ],
+      "keyPhrases": [
+        "a larger screen and a keyboard",
+        "more convenient",
+        "work or study at home",
+        "first used a computer in primary school",
+        "much less convenient",
+        "a crowded bus or subway"
+      ]
+    },
+    {
+      "id": "september-collecting-things",
+      "tab": "收藏与旧物",
+      "title": "Collecting and keeping things",
+      "description": "9 月 Part 1 新题：收藏、童年物品和物品收纳。",
+      "isNew": true,
+      "newOrder": 12,
+      "items": [
+        {
+          "question": "Do you collect things?",
+          "answer": "Not really. I do not collect anything on purpose, but I keep some books and photos that are important to me. They remind me of different times in my life.",
+          "translation": "不太会。我不会特意收藏东西，但会保留一些对我很重要的书和照片。它们能让我想起人生中的不同时期。"
+        },
+        {
+          "question": "Are there any things you have kept from your childhood?",
+          "answer": "Yes, I have kept a few childhood photos and an old school notebook. They bring back good memories and remind me of my school days.",
+          "translation": "有，我保留了几张童年照片和一本旧的学校笔记本。它们会带回美好的回忆，让我想起学生时代。"
+        },
+        {
+          "question": "Would you keep old things for a long time? Why?",
+          "answer": "I would only keep old things that are useful or meaningful to me. If something has a special memory, I do not want to throw it away, but I also try to keep my home tidy.",
+          "translation": "我只会长期保留对我有用或有意义的旧物。如果某件东西承载着特别的回忆，我不想把它扔掉，但我也会尽量保持家里整洁。"
+        },
+        {
+          "question": "Where do you usually keep things you need?",
+          "answer": "I usually keep the things I use every day on my desk or in a drawer. I put them back after using them, so I can find them easily and keep my room tidy.",
+          "translation": "我通常把每天使用的东西放在书桌上或抽屉里。用完后我会把它们放回去，这样既容易找到，也能保持房间整洁。"
+        }
+      ],
+      "keyPhrases": [
+        "important to me",
+        "bring back good memories",
+        "useful or meaningful",
+        "put them back after using them",
+        "keep my room tidy"
+      ]
+    },
+    {
+      "id": "september-lost-items",
+      "tab": "遗失物品",
+      "title": "Lost and found",
+      "description": "9 月 Part 1 新题：捡到和丢失物品。",
+      "isNew": true,
+      "newOrder": 10,
+      "items": [
+        {
+          "question": "What will you do if you find something lost by others?",
+          "answer": "I will try to find the owner first. If I find it in a shopping mall or on public transport, I will give it to a staff member so the owner can get it back.",
+          "translation": "我会先设法找到失主。如果是在商场或公共交通上捡到的，我会交给工作人员，让失主能够取回。"
+        },
+        {
+          "question": "Do you report to the police when finding something lost by others? Why?",
+          "answer": "It depends on what I find. If it is something important, such as a wallet or an identity card, I will report it to the police because they can find the owner more easily.",
+          "translation": "这取决于我捡到什么。如果是钱包或身份证之类的重要物品，我会交给警察，因为他们更容易找到失主。"
+        },
+        {
+          "question": "Have you ever lost things?",
+          "answer": "Yes, I have. I once left an umbrella on a bus because I was in a hurry. Since then, I always check my belongings before I get off.",
+          "translation": "有。我曾经因为赶时间把一把雨伞落在公交车上。从那以后，我下车前总会检查自己的随身物品。"
+        },
+        {
+          "question": "Will you post on social media if you lose your item?",
+          "answer": "Yes, I will, especially if the item is important. Social media can help me reach more people quickly, so there is a better chance of getting it back.",
+          "translation": "会，特别是在物品很重要的情况下。社交媒体能让我快速联系到更多人，所以找回物品的机会会更大。"
+        }
+      ],
+      "keyPhrases": [
+        "find the owner",
+        "It depends on what I find",
+        "check my belongings",
+        "reach more people quickly"
+      ]
+    },
+    {
+      "id": "september-secondary-school",
+      "tab": "中学生活",
+      "title": "Secondary school",
+      "description": "9 月 Part 1 新题：中学第一天、学科和回忆。",
+      "isNew": true,
+      "newOrder": 2,
+      "items": [
+        {
+          "question": "Do you remember your first day at secondary school?",
+          "answer": "Not really. It was a long time ago, so I cannot remember it very clearly. I only remember feeling a little nervous because everything was new to me.",
+          "translation": "不太记得了。那已经是很久以前的事了，所以我记得不太清楚。我只记得当时有点紧张，因为一切对我来说都很陌生。"
+        },
+        {
+          "question": "Were there any subjects that you found difficult at secondary school?",
+          "answer": "Yes, I found English a little difficult because I had to remember a lot of new words. However, I kept practising, and my teachers often helped me when I had questions.",
+          "translation": "有，我觉得英语有点难，因为需要记很多新单词。不过我一直练习，有问题时老师也经常帮助我。"
+        },
+        {
+          "question": "What was your favorite subject at secondary school?",
+          "answer": "My favourite subject was computer science because I was curious about how programs worked. It later encouraged me to become a software engineer and solve problems with code.",
+          "translation": "我最喜欢的科目是计算机科学，因为我很好奇程序是如何运行的。它后来鼓励我成为软件工程师，并用代码解决问题。"
+        },
+        {
+          "question": "Is there anything you miss about your secondary school?",
+          "answer": "I mostly miss the time I spent with my classmates. We studied and played sports together, and life was simpler because we did not have many responsibilities.",
+          "translation": "我最怀念的是和同学们一起度过的时光。我们一起学习、一起运动，那时没有太多责任，生活也更简单。"
+        }
+      ],
+      "keyPhrases": [
+        "felt a little nervous",
+        "remember a lot of new words",
+        "curious about how programs worked",
+        "solve problems with code",
+        "did not have many responsibilities"
+      ]
+    },
+    {
+      "id": "september-paper-letters",
+      "tab": "纸张与书信",
+      "title": "Paper and letters",
+      "description": "9 月 Part 1 新题：纸艺、手写信和随身文具。",
+      "isNew": true,
+      "newOrder": 4,
+      "items": [
+        {
+          "question": "Have you made any crafts with paper?",
+          "answer": "Yes, I have. When I was a child, I made paper planes and simple paper animals in class. It was fun and helped me spend time with my classmates.",
+          "translation": "做过。小时候我在课堂上做过纸飞机和简单的纸动物。这很有趣，也让我有机会和同学们一起度过时间。"
+        },
+        {
+          "question": "Do you still write physical letters?",
+          "answer": "No, not really. I usually send messages on my phone because it is faster and more convenient. I only write cards for special occasions.",
+          "translation": "不太写了。我通常用手机发消息，因为这样更快、更方便。只有在特殊场合我才会写卡片。"
+        },
+        {
+          "question": "Do people still keep handwritten letters today?",
+          "answer": "Yes, some people do because handwritten letters feel personal and meaningful. They may keep them as special memories, especially when the letters are from family or close friends.",
+          "translation": "有些人仍然会保留，因为手写信让人觉得更私人、更有意义。特别是家人或亲密朋友写的信，人们可能会把它们当作特别的回忆保存下来。"
+        },
+        {
+          "question": "Do you carry paper and pens with you when you go out?",
+          "answer": "I usually carry a pen, but I rarely take any paper with me. I normally write notes on my phone because it is more convenient and easy to carry.",
+          "translation": "我通常会带一支笔，但很少随身带纸。我一般在手机上记笔记，因为这样更方便，也便于携带。"
+        },
+        {
+          "question": "What did you like to do with paper as a child?",
+          "answer": "I liked making paper planes when I was a child. My friends and I often flew them in the classroom and tried to see whose plane could travel the farthest.",
+          "translation": "小时候我喜欢折纸飞机。我和朋友们经常在教室里放飞它们，看看谁的飞机能飞得最远。"
+        }
+      ],
+      "keyPhrases": [
+        "paper planes",
+        "faster and more convenient",
+        "personal and meaningful",
+        "write notes on my phone",
+        "travel the farthest"
+      ]
+    },
+    {
+      "id": "september-fruit-vegetables",
+      "tab": "水果与蔬菜",
+      "title": "Fruit and vegetables",
+      "description": "9 月 Part 1 新题：食用频率、购买地点和口味。",
+      "isNew": true,
+      "newOrder": 3,
+      "items": [
+        {
+          "question": "How often do you eat fruit and vegetables?",
+          "answer": "I eat fruit and vegetables almost every day. They are good for my health, so I usually have some vegetables with dinner and eat fruit after a meal.",
+          "translation": "我几乎每天都吃水果和蔬菜。它们对健康有益，所以晚餐时我通常会吃些蔬菜，饭后也会吃水果。"
+        },
+        {
+          "question": "Where do you usually buy fruit and vegetables?",
+          "answer": "I usually buy them from a supermarket near my home. It is convenient, and there are many different kinds of fresh fruit and vegetables to choose from.",
+          "translation": "我通常在家附近的超市购买。那里很方便，而且有许多不同种类的新鲜水果和蔬菜可供选择。"
+        },
+        {
+          "question": "What kind of fruits and vegetables do you dislike?",
+          "answer": "I do not really like durian or bitter melon because they have very strong tastes. However, I may eat a little if they are good for my health.",
+          "translation": "我不太喜欢榴莲和苦瓜，因为它们的味道很重。不过，如果它们对健康有好处，我也可能会吃一点。"
+        },
+        {
+          "question": "Were there any kinds of fruits and vegetables you disliked as a child?",
+          "answer": "Yes, I disliked carrots when I was a child because I did not like their taste. My parents often asked me to eat them, and now I do not mind them as much.",
+          "translation": "有，小时候我不喜欢胡萝卜，因为不喜欢它的味道。父母经常让我吃，现在我已经没有那么介意了。"
+        }
+      ],
+      "keyPhrases": [
+        "almost every day",
+        "good for my health",
+        "near my home",
+        "strong tastes",
+        "do not mind them as much"
+      ]
+    },
+    {
+      "id": "september-politeness",
+      "tab": "礼貌",
+      "title": "Being polite",
+      "description": "9 月 Part 1 新题：礼貌习惯的学习和重要性。",
+      "isNew": true,
+      "newOrder": 9,
+      "items": [
+        {
+          "question": "How did you learn to be polite as a child?",
+          "answer": "I learned to be polite mainly from my parents and teachers. They taught me to say please and thank you, listen to other people and show respect to older people.",
+          "translation": "我主要从父母和老师那里学习礼貌。他们教我说“请”和“谢谢”、认真听别人说话，并尊重长辈。"
+        },
+        {
+          "question": "Do you think being polite is very important?",
+          "answer": "Yes, I do. Being polite shows care and respect, and it helps people communicate better. It can also make our relationships closer and warmer.",
+          "translation": "我认为很重要。礼貌体现关心和尊重，也能帮助人们更好地沟通，还可以让我们的关系更亲近、更温暖。"
+        }
+      ],
+      "keyPhrases": [
+        "parents and teachers",
+        "show respect",
+        "shows care and respect",
+        "communicate better",
+        "closer and warmer"
+      ]
+    },
+    {
+      "id": "september-tiredness",
+      "tab": "疲劳",
+      "title": "Feeling tired",
+      "description": "9 月 Part 1 新题：疲劳的频率、原因和应对方法。",
+      "isNew": true,
+      "newOrder": 8,
+      "items": [
+        {
+          "question": "Do you often feel tired?",
+          "answer": "Yes, sometimes, especially when I have a busy day at work. I spend a lot of time looking at a computer screen, so my eyes and mind can feel tired in the evening.",
+          "translation": "有时会，特别是工作很忙的时候。我长时间看电脑屏幕，所以到了晚上，眼睛和精神都会感到疲惫。"
+        },
+        {
+          "question": "When would you feel tired?",
+          "answer": "I usually feel tired after working for a long time or attending several meetings in one day. I also feel tired when I do not get enough sleep the night before.",
+          "translation": "长时间工作或一天参加好几场会议后，我通常会感到疲惫。如果前一天晚上睡眠不足，我也会觉得累。"
+        },
+        {
+          "question": "What do you do when you feel tired?",
+          "answer": "When I feel tired, I usually take a short break and listen to some pop music. Sometimes I play computer games or take a walk because these activities help me relax and clear my mind.",
+          "translation": "感到疲惫时，我通常会短暂休息一下，听一些流行音乐。有时我也会玩电脑游戏或散步，因为这些活动能让我放松并清醒头脑。"
+        }
+      ],
+      "keyPhrases": [
+        "a busy day at work",
+        "looking at a computer screen",
+        "do not get enough sleep",
+        "take a short break",
+        "relax and clear my mind"
+      ]
+    },
+    {
+      "id": "september-rubbish-recycling",
+      "tab": "垃圾与回收",
+      "title": "Rubbish and recycling",
+      "description": "9 月 Part 1 新题：街道垃圾和日常回收。",
+      "isNew": true,
+      "newOrder": 7,
+      "items": [
+        {
+          "question": "What do you do when you see rubbish on the street?",
+          "answer": "If it is safe and there is a bin nearby, I will pick it up and throw it away. I think keeping the street clean makes the area more comfortable for everyone.",
+          "translation": "如果安全而且附近有垃圾桶，我会把垃圾捡起来扔掉。我认为保持街道清洁能让大家生活得更舒适。"
+        },
+        {
+          "question": "How do you recycle things like paper and plastic?",
+          "answer": "I separate paper and plastic from other rubbish at home and put them into the correct recycling bins. I also reuse shopping bags when possible, which helps reduce waste.",
+          "translation": "我会在家把纸张和塑料与其他垃圾分开，再投入正确的回收箱。我也会尽可能重复使用购物袋，这有助于减少浪费。"
+        }
+      ],
+      "keyPhrases": [
+        "pick it up and throw it away",
+        "keeping the street clean",
+        "separate paper and plastic",
+        "recycling bins",
+        "reduce waste"
+      ]
+    },
+    {
+      "id": "september-journeys",
+      "tab": "旅途",
+      "title": "Travelling",
+      "description": "9 月 Part 1 新题：旅途座位和童年长途旅行。",
+      "isNew": true,
+      "newOrder": 14,
+      "items": [
+        {
+          "question": "Do you prefer to sit by the window when travelling?",
+          "answer": "Yes, I do. I like looking out of the window at the scenery because it helps me relax. If I see something beautiful, I may take a photo and keep it as a memory.",
+          "translation": "喜欢。我喜欢看窗外的风景，因为这能让我放松。如果看到美丽的景色，我可能会拍照留作纪念。"
+        },
+        {
+          "question": "Did you have a long journey with your family as a child?",
+          "answer": "Yes, I did, but I cannot remember many details because it was a long time ago. I remember taking a train with my family to another city, and I enjoyed looking out of the window during the journey.",
+          "translation": "有过，但因为时间很久了，我记不清很多细节。我记得曾和家人坐火车去另一个城市，旅途中我很喜欢看窗外。"
+        }
+      ],
+      "keyPhrases": [
+        "looking out of the window",
+        "helps me relax",
+        "keep it as a memory",
+        "cannot remember many details",
+        "taking a train with my family"
+      ]
+    },
+    {
+      "id": "september-advertisements",
+      "tab": "广告",
+      "title": "Advertisements",
+      "description": "9 月 Part 1 新题：网络、交通和童年广告。",
+      "isNew": true,
+      "newOrder": 5,
+      "items": [
+        {
+          "question": "Do you like advertisements?",
+          "answer": "Not really. Useful advertisements can help me learn about new products, but many of them are repetitive and distract me when I am using my phone.",
+          "translation": "不太喜欢。有用的广告能让我了解新产品，但很多广告内容重复，而且会在我使用手机时让我分心。"
+        },
+        {
+          "question": "Do you often see advertisements when you are on your phone or computer?",
+          "answer": "Yes, I see advertisements almost every time I use social media or visit a website. Some of them are useful, but too many ads can distract me from my work or study.",
+          "translation": "会，我几乎每次使用社交媒体或浏览网站时都会看到广告。有些广告很有用，但广告太多会让我在工作或学习时分心。"
+        },
+        {
+          "question": "Do you see a lot of advertising on trains or other transport?",
+          "answer": "Yes, there are many advertisements on subways and buses. I often see ads for mobile apps, online shopping and local restaurants while I am travelling to work.",
+          "translation": "会，地铁和公交车上有很多广告。我上班途中经常看到手机应用、网购和本地餐厅的广告。"
+        },
+        {
+          "question": "Is there an advertisement that made an impression on you when you were a child?",
+          "answer": "Yes, I remember a colourful advertisement for a soft drink. It had cheerful music and cartoon characters, so it was easy for children to remember.",
+          "translation": "有，我记得一则色彩鲜艳的饮料广告。它有欢快的音乐和卡通人物，所以孩子们很容易记住。"
+        },
+        {
+          "question": "What kind of advertising do you like?",
+          "answer": "I prefer short and practical advertisements that clearly explain a product. I also like ads with a little humour because they are more interesting and easier to remember.",
+          "translation": "我更喜欢简短、实用，并且能清楚介绍产品的广告。我也喜欢带一点幽默的广告，因为它们更有趣，也更容易记住。"
+        }
+      ],
+      "keyPhrases": [
+        "distract me from my work or study",
+        "cheerful music and cartoon characters",
+        "while I am travelling to work",
+        "repetitive",
+        "short and practical advertisements"
+      ]
+    },
+    {
+      "id": "september-shoes",
+      "tab": "鞋子",
+      "title": "Shoes",
+      "description": "9 月 Part 1 新题：买鞋、网购、价格和选择。",
+      "isNew": true,
+      "newOrder": 6,
+      "items": [
+        {
+          "question": "Do you like buying shoes? How often?",
+          "answer": "I do not buy shoes very often because I only replace them when necessary. I probably buy two or three pairs a year, usually for work or exercise.",
+          "translation": "我不经常买鞋，因为通常只有需要更换时才会购买。我一年大概买两三双，通常是工作或运动时穿的。"
+        },
+        {
+          "question": "Have you ever bought shoes online?",
+          "answer": "Yes, I have bought shoes online several times because it is convenient and easy to compare prices. However, I always check the size carefully, and I return them if they do not fit me.",
+          "translation": "有，我在网上买过几次鞋，因为这样很方便，也容易比较价格。不过我总会仔细核对尺码，如果不合脚就会退货。"
+        },
+        {
+          "question": "How much money do you usually spend on shoes?",
+          "answer": "I usually spend around three to five hundred yuan on a pair of shoes. I do not need an expensive brand, but I care about good quality and comfort.",
+          "translation": "我买一双鞋通常会花三百到五百元。我不需要昂贵的品牌，但会关注质量和舒适度。"
+        },
+        {
+          "question": "Which do you prefer, fashionable shoes or comfortable shoes?",
+          "answer": "I definitely prefer comfortable shoes because I sometimes walk or stand for a long time. Fashion is important too, but comfort is more practical in my daily life.",
+          "translation": "我肯定更喜欢舒适的鞋，因为有时需要长时间走路或站立。时尚也很重要，但在日常生活中，舒适更实用。"
+        }
+      ],
+      "keyPhrases": [
+        "when necessary",
+        "compare prices",
+        "do not fit me",
+        "good quality and comfort",
+        "more practical in my daily life"
+      ]
+    },
+    {
+      "id": "september-street-market",
+      "tab": "街头市场",
+      "title": "Street Market",
+      "description": "9 月 Part 1 新题：街头市场的商品、购物选择和经历。",
+      "isNew": true,
+      "newOrder": 13,
+      "items": [
+        {
+          "question": "What do people usually buy on the street market?",
+          "answer": "People usually buy fresh fruit, vegetables, snacks and small daily items at street markets. These things are often affordable, and people can choose from many different products.",
+          "translation": "人们通常会在街头市场购买新鲜水果、蔬菜、零食和日常小物品。这些东西通常价格实惠，而且有很多不同的商品可供选择。"
+        },
+        {
+          "question": "Do you prefer to go shopping in the shopping mall or on the street market?",
+          "answer": "I prefer shopping in a shopping mall because it is cleaner and more comfortable. There are more shops to choose from, and I can ask customer service for help if I need it.",
+          "translation": "我更喜欢在购物中心购物，因为那里更干净、更舒适。可以选择的店铺更多，需要帮助时我也可以咨询客服人员。"
+        },
+        {
+          "question": "When was the last time you went to a street market?",
+          "answer": "The last time I went to a street market was last weekend. My wife and I bought some fruit and snacks there. It was lively, and the prices were reasonable.",
+          "translation": "我上次去街头市场是在上周末。我和妻子在那里买了一些水果和零食。那里很热闹，而且价格也很合理。"
+        },
+        {
+          "question": "Are there many street markets in China?",
+          "answer": "Yes, there are many street markets in China, especially near residential areas and in smaller cities. They are convenient because people can buy fresh food and daily items at reasonable prices.",
+          "translation": "有，中国有很多街头市场，特别是在居民区附近和较小的城市里。它们很方便，因为人们可以用合理的价格买到新鲜食物和日常用品。"
+        }
+      ],
+      "keyPhrases": [
+        "fresh fruit and vegetables",
+        "affordable",
+        "cleaner and more comfortable",
+        "customer service",
+        "the prices were reasonable",
+        "near residential areas"
+      ]
+    },
     {
       "id": "crowded",
       "tab": "拥挤场所",
@@ -2236,6 +2801,64 @@ window.IELTS_DATA = {
                     ]
                   }
                 ]
+              },
+              {
+                "question": "Describe a time when you felt proud of a family member",
+                "storyTitle": "为家人骄傲｜表弟李华自学法语",
+                "isNew": true,
+                "sourceOrder": 7,
+                "focus": "说清一次具体的骄傲时刻（在法国餐厅他帮全家点餐），再解释为什么骄傲。",
+                "omit": "不用编复杂比赛或证书，重点是他靠自学坚持并成功。",
+                "memoryChain": {
+                  "story": "表弟李华想去法国 → 自学法语一年（书＋视频＋单词本） → 从只会几个词到坚持不放弃 → 去年全家去法国 → 餐厅里他帮全家点餐、和服务员聊天 → 我为他骄傲",
+                  "reasons": [
+                    "全靠自学没有老师 → 一年努力终于有结果",
+                    "不只为自己学 → 关键时刻用法语帮全家",
+                    "他的成功也鼓励我 → 坚持每天练也能成功"
+                  ]
+                },
+                "body": {
+                  "text": "I'd like to talk about a time when I felt proud of my cousin Li Hua. He taught himself French because he wanted to travel to France one day. For about a year, he read simple books after school, watched French videos at weekends and kept new words in a small notebook. At the beginning, he could only say a few basic words, but he never gave up. Last summer, our whole family went to France for a holiday. In a small restaurant, none of us could speak French, so Li Hua ordered all the food for us and even chatted with the waiter. Everyone looked at him with surprise, and at that moment I felt really proud of him.",
+                  "highlights": [
+                    "my cousin Li Hua",
+                    "taught himself French",
+                    "kept new words in a small notebook",
+                    "ordered all the food for us",
+                    "felt really proud"
+                  ]
+                },
+                "draftCues": [
+                  "cousin Li Hua",
+                  "taught himself French",
+                  "small notebook",
+                  "France holiday",
+                  "ordered food",
+                  "felt proud"
+                ],
+                "pointsLabel": "Why I felt proud · 3 原因",
+                "reasons": [
+                  {
+                    "text": "First of all, he learned the language completely by himself, without any teacher or class. His hard work over a whole year finally showed a real result in front of the family.",
+                    "highlights": [
+                      "completely by himself",
+                      "a real result"
+                    ]
+                  },
+                  {
+                    "text": "Secondly, he did not only learn for himself. When the family needed help in France, he used his French to solve a real problem for all of us.",
+                    "highlights": [
+                      "did not only learn for himself",
+                      "solve a real problem"
+                    ]
+                  },
+                  {
+                    "text": "What's more, his success also encouraged me. It showed me that if I keep practising a little every day, I can also reach a difficult goal.",
+                    "highlights": [
+                      "his success also encouraged me",
+                      "reach a difficult goal"
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -3239,54 +3862,60 @@ window.IELTS_DATA = {
               {
                 "question": "Describe an important river/lake in your country",
                 "sourceOrder": 5,
+                "storyTitle": "凉水河｜飞龙地图、家庭出游、地点三美",
+                "focus": "故事用三部曲：地理课看飞龙地图 → 和家人去河边 → 明白它为什么重要；最后一问直接用“景美、人美、食物美”。",
+                "omit": "不用专业地理知识；只记三幅画面：地图像飞龙、当地人帮拍照、河边吃烤鱼。",
                 "memoryChain": {
-                  "story": "地理课知道凉水河 → 约两千公里＋地图像龙 → 流经很多城市 → 河边建公园 → 和家人散步看船 → 当地人运动野餐",
+                  "story": "第一部 At first：地理老师说凉水河约两千公里，地图上像飞龙 → 第二部 When I visited：和家人去河边，看花草小船、请当地人拍照、吃烤鱼 → 第三部 In the end：景色和食物吸引游客，友好的人让大家愿意再来，帮助当地生意",
                   "reasons": [
-                    "处理后可饮用＋可洗衣 → 很少缺水 → 方便居民生活",
-                    "河景吸引游客 → 坐船购物吃饭 → 带动当地经济",
-                    "给农民提供水 → 种菜和其他作物 → 保住收入"
+                    "1 · 景美：河水、花草和小船 → 适合散步拍照 → 吸引游客",
+                    "2 · 人美：当地人主动帮全家拍照 → 还推荐安静观景点 → 让人感到欢迎",
+                    "3 · 食物美：河边吃到香辣烤鱼 → 价格合理 → 帮助附近小餐馆的生意"
                   ]
                 },
                 "body": {
-                  "text": "I'd like to talk about the Liangshui River in my country. It is about 2,000 kilometres long and looks like a flying dragon on the map. It crosses many cities, and local governments have built parks and gardens along its banks. I first learned about it in a geography class, and later I visited one part of it with my family. We walked beside the water, saw small boats and rested under the trees. The river view is beautiful, so local people often walk there and take photos. In the morning, some older people exercise nearby, while families often come for a picnic at weekends.",
+                  "text": "I'd like to talk about the Liangshui River in my country. At first, I learned about it in a geography class. My teacher said it was about 2,000 kilometres long and looked like a flying dragon on the map. That picture stayed in my mind. Last spring, I visited one part of the river with my family. The water, flowers and small boats looked beautiful. A friendly local man offered to take a family photo for us and showed us a quiet place with a good view. Later, we ate spicy grilled fish in a small restaurant beside the river. In the end, I understood why the river was important. Its scenery and food attract visitors, and the friendly people make them want to return. This also supports small local businesses. I felt happy and proud, and I would like to visit it again.",
                   "highlights": [
                     "Liangshui River",
+                    "At first",
                     "2,000 kilometres",
-                    "flying dragon",
-                    "many cities",
-                    "parks and gardens",
-                    "take photos"
+                    "a flying dragon",
+                    "Last spring",
+                    "water, flowers and small boats",
+                    "A friendly local man",
+                    "spicy grilled fish",
+                    "In the end",
+                    "attract visitors",
+                    "small local businesses"
                   ]
                 },
                 "draftCues": [
-                  "Liangshui River",
-                  "2,000 km",
-                  "dragon-map",
-                  "many cities",
-                  "parks",
-                  "photos"
+                  "1 At first: geography-dragon-map",
+                  "2 When I visited: scenery-local man-grilled fish",
+                  "3 In the end: visitors-return-local business"
                 ],
-                "pointsLabel": "Why it is important · 3 原因",
+                "pointsLabel": "地点类三美｜景美 → 人美 → 食物美",
                 "reasons": [
                   {
-                    "text": "First of all, it provides drinking water after factory treatment. People can also use the water to wash clothes, so the area rarely faces a water shortage. This makes daily life easier for many families along the river.",
+                    "text": "First of all, the scenery is beautiful because the river, flowers and small boats create a peaceful view. It is a good place to walk and take photos.",
                     "highlights": [
-                      "drinking water",
-                      "water shortage"
+                      "the scenery is beautiful",
+                      "walk and take photos"
                     ]
                   },
                   {
-                    "text": "Secondly, its beautiful river view attracts tourists and helps the local economy. Visitors buy food, take boat trips and spend money in small local shops.",
+                    "text": "Secondly, the local people are friendly. One man helped us take a family photo and showed us a quiet place with a good view.",
                     "highlights": [
-                      "attracts tourists",
-                      "local economy"
+                      "the local people are friendly",
+                      "helped us take a family photo"
                     ]
                   },
                   {
-                    "text": "What's more, it provides enough water for farmers to grow vegetables and other plants. Without the river, their crops could become dry, and their income would be lower.",
+                    "text": "What's more, the food near the river is delicious. The spicy grilled fish was fresh and affordable, and visitors like us support small local restaurants.",
                     "highlights": [
-                      "water for farmers",
-                      "grow vegetables"
+                      "the food near the river is delicious",
+                      "fresh and affordable",
+                      "small local restaurants"
                     ]
                   }
                 ]
@@ -5548,41 +6177,36 @@ window.IELTS_DATA = {
                 ],
                 "draftCues": [
                   "primary-school English",
-                  "foreign teacher",
-                  "sing a song",
-                  "watch a movie",
-                  "English became fun"
+                  "Mr Brown",
+                  "fast English song",
+                  "short lines and actions",
+                  "whole class sang"
                 ],
                 "fit": "用户经历独立答案",
-                "focus": "固定为小学英语课，重点说外教、唱歌和看电影让英语第一次变得有趣。",
-                "modules": "小学英语课 → 外国老师 → 唱歌 → 看动画片 → 对英语产生兴趣",
-                "omit": "不需要记外教的国籍或电影的具体名字。",
-                "answerNote": "题干用 course，答案中用 a special lesson in my primary-school English course 保留用户的真实经历。",
+                "focus": "与“教你新技能的人”“小时候学到的新技能”共用外教英文歌：本题强调这节课为什么让我印象深刻。",
+                "modules": "小学英语课 → Mr Brown 教英文歌 → 语速快而紧张 → 拆短句、动作和分组练习 → 全班唱完，更敢说英语",
+                "omit": "不再记动画片或歌曲名字；只记“快 → 拆 → 唱成”。",
+                "answerNote": "三道题共用同一段外教英文歌故事；课程题只在下方理由切到“为什么印象深刻”。",
                 "answer": [
                   {
                     "kind": "课程",
-                    "text": "The course that impressed me most was my English course in primary school, especially one lesson when I was about ten years old. It was about basic spoken English, simple songs and everyday words.",
-                    "translation": "最让我印象深刻的课程是小学时的英语课，尤其是我大约十岁时的一节课。那节课主要讲基础口语、简单歌曲和日常单词。"
+                    "text": "The course that impressed me most was my English course in primary school, especially one lesson when I was about ten years old. A foreign teacher called Mr Brown taught us a simple English song.",
+                    "translation": "最让我印象深刻的是小学英语课，尤其是我十岁左右的一节课。一位叫 Mr Brown 的外教教我们唱一首简单的英文歌。"
                   },
                   {
                     "kind": "地点",
-                    "text": "I took it in my usual classroom at primary school. However, our regular teacher did not teach that lesson. A foreign teacher came to our school, so everyone felt excited before the class even started.",
-                    "translation": "我在小学平时上课的教室里上了这节课。不过，那节课不是我们平时的老师来上。一位外国老师来到了学校，所以课还没开始，大家就很兴奋。"
+                    "text": "I took it in my usual classroom at primary school. At first, the words sounded fast and unfamiliar, so I felt a little nervous.",
+                    "translation": "我在小学平时的教室里上这节课。一开始，歌词听起来很快也很陌生，所以我有一点紧张。"
                   },
                   {
                     "kind": "活动",
-                    "text": "First, the teacher taught us a simple English song and asked us to sing it together. Then we watched part of an animated movie in English. He paused it at several places, taught us a few useful lines and invited us to repeat them in groups.",
-                    "translation": "首先，老师教了我们一首简单的英文歌，让大家一起唱。然后，我们看了一段英文动画电影。他在几个地方按下暂停，教了我们几句实用台词，还让我们分组跟读。"
-                  },
-                  {
-                    "kind": "变化",
-                    "text": "Before that lesson, I thought English mainly meant copying words and remembering grammar rules. I was often afraid of making mistakes. During this class, nobody worried about perfect grammar because we were busy singing, watching and speaking.",
-                    "translation": "在那节课之前，我觉得英语主要就是抄单词和背语法规则。我经常害怕犯错。但在这节课上，大家都忙着唱、看和说，没有人担心语法是不是完美。"
+                    "text": "However, Mr Brown played the song several times, divided it into short lines and used simple actions to explain the meaning. We practised in small groups and he corrected our pronunciation patiently.",
+                    "translation": "不过，Mr Brown 把歌曲放了好几遍，拆成短句，再用简单动作解释意思。我们分组练习，他耐心纠正发音。"
                   },
                   {
                     "kind": "印象",
-                    "text": "It impressed me because it was the first time I realised that English could be lively and enjoyable. The lesson made me more willing to speak in class and gave me a real interest in the language. Even now, I can still remember the whole class singing together.",
-                    "translation": "这节课让我印象深刻，因为我第一次意识到英语可以很生动、很有趣。它让我更愿意在课堂上开口，也让我真正对这门语言产生了兴趣。即使到现在，我仍然记得全班一起唱歌的样子。"
+                    "text": "In the end, the whole class sang the song together. I felt excited and more confident about speaking English, so that lesson impressed me a lot.",
+                    "translation": "最后，全班一起把歌唱完了。我感到很兴奋，也更有信心开口说英语，所以这节课让我印象很深。"
                   }
                 ]
               },
@@ -16066,3 +16690,4167 @@ window.IELTS_DATA = {
     ]
   }
 };
+
+// 8 月保留题补充：保留原题，答案控制在易开口的 Band 6 左右。
+(() => {
+  const item = (question, questionZh, answer, answerZh, angle, chunkPhrases) => ({
+    question,
+    answerLanguage: "zh",
+    materials: [],
+    answer,
+    angle,
+    translation: { question: questionZh, answer: answerZh },
+    structure: "PREC",
+    chunkPhrases
+  });
+
+  window.IELTS_DATA.part3.push(
+    {
+      id: "retained-helpful-person",
+      category: "人物类",
+      title: "乐于助人的人",
+      partTwo: "乐于助人的人",
+      partTwoQuestion: "Describe a person who often helps others",
+      isNew: true,
+      items: [
+        item(
+          "Should children help their parents with household chores?",
+          "孩子应该帮父母做家务吗？",
+          "Yes, children should do simple chores because this reduces their parents' work and teaches responsibility. For example, they can wash the dishes or take out the rubbish. This can make family relationships closer.",
+          "应该。孩子做简单家务，可以减少父母的工作，也能学会负责。比如，他们可以洗碗或倒垃圾。这能让家人的关系更亲近（make family relationships closer）。",
+          "关系",
+          ["make family relationships closer"]
+        ),
+        item(
+          "What kind of help do people need when looking for a new job?",
+          "人们找新工作时需要什么帮助？",
+          "They need clear job information and help with their CV. Friends can share job openings, while family members can encourage them after a rejection. This can help them find work faster and get a stable income.",
+          "他们需要清楚的招聘信息，也需要别人帮忙看简历。朋友可以分享工作机会，家人可以在他们被拒绝后鼓励他们。这能让他们更快找到工作，并获得稳定收入（get a stable income）。",
+          "钱",
+          ["get a stable income"]
+        ),
+        item(
+          "Who should people ask for help, colleagues or family members?",
+          "人们应该向同事还是家人求助？",
+          "It depends on the problem. Colleagues understand work problems better, while family members are usually better for personal problems. Asking the right person can save time and avoid misunderstandings.",
+          "这要看是什么问题。同事更了解工作上的问题，家人通常更适合帮忙解决生活问题。找对人求助（ask the right person）可以节省时间，也能避免误会。",
+          "关系",
+          ["ask the right person"]
+        ),
+        item(
+          "Why do you think some people are more willing to help others than some?",
+          "为什么有些人比其他人更愿意帮助别人？",
+          "Some people understand other people's difficulties because they have had similar problems before. They also feel useful and happy when their help works. For example, an experienced colleague may enjoy helping a new worker.",
+          "有些人以前遇到过类似问题，所以更能理解别人的困难。当他们真的帮到人时，也会觉得自己有用、很开心（feel useful and happy）。比如，有经验的同事可能很愿意帮新人。",
+          "情绪",
+          ["feel useful and happy"]
+        ),
+        item(
+          "Do you think it is important for neighbors to help each other? Why?",
+          "你认为邻居互相帮助很重要吗？为什么？",
+          "Yes, because neighbors are often the closest people when there is an emergency. They can collect a parcel, look after a child or help an older person. Small acts like these build trust between neighbors.",
+          "很重要，因为遇到紧急情况时，邻居往往是离我们最近的人。他们可以帮忙收快递、照看孩子，或帮助老人。这些小事能在邻居之间建立信任（build trust between neighbors）。",
+          "关系",
+          ["build trust between neighbors"]
+        ),
+        item(
+          "How can helping others benefit the person who offers the help?",
+          "帮助别人对提供帮助的人有什么好处？",
+          "Helping others can make people feel useful and improve their mood. It can also create stronger friendships because people remember kindness. As a result, the helper may receive support when they have a problem later.",
+          "帮助别人会让人觉得自己有用，也能改善心情（improve their mood）。它还能让友谊更深，因为人们会记住别人的好意。所以，帮助者以后遇到问题时，也可能得到支持。",
+          "情绪",
+          ["improve their mood"]
+        )
+      ]
+    },
+    {
+      id: "retained-smart-problem-solver",
+      category: "人物类",
+      title: "机智解决问题的人",
+      partTwo: "机智解决问题的人",
+      partTwoQuestion: "Describe a person who solved a problem in a smart way",
+      isNew: true,
+      items: [
+        item(
+          "Do you think children are born smart or they learn to become smart?",
+          "你认为孩子是天生聪明，还是后天变聪明的？",
+          "I think both are important, but children can become much smarter through practice. Supportive parents and teachers make them less afraid of mistakes. When children feel confident, they are more willing to try again.",
+          "我认为两方面都很重要，但孩子可以通过练习变得聪明很多。父母和老师的支持会让他们不那么怕犯错。当孩子有信心时（feel confident），他们会更愿意再试一次。",
+          "情绪",
+          ["feel confident"]
+        ),
+        item(
+          "How do children become smart at school?",
+          "孩子如何在学校变得聪明？",
+          "They become smarter by asking questions, practising and working with classmates. A good teacher explains difficult ideas step by step. This helps children understand the lesson and feel confident about learning.",
+          "他们通过提问、练习和与同学合作变得更聪明。好老师会一步一步讲解难点（explain it step by step）。这能帮孩子理解课程，也让他们对学习更有信心。",
+          "情绪",
+          ["explain it step by step"]
+        ),
+        item(
+          "Why are some people well-rounded and others only good at one thing?",
+          "为什么有些人很全面，而有些人只擅长一件事？",
+          "People have different interests and different amounts of time. Some enjoy trying many activities, while others focus on one skill because it can help their career. A strong special skill may also lead to a better salary.",
+          "人们的兴趣不同，可用的时间也不同。有些人喜欢尝试很多活动，另一些人会专注一项技能，因为它能帮助职业发展。一项很强的技能也可能带来更高的工资（lead to a better salary）。",
+          "钱",
+          ["lead to a better salary"]
+        ),
+        item(
+          "Why does modern society need talents of all kinds?",
+          "为什么现代社会需要各种各样的人才？",
+          "Modern problems are too complex for one kind of worker. Doctors, engineers, teachers and artists all solve different problems. When people with different skills work together, society can run better.",
+          "现代问题太复杂，只靠一种工作者解决不了。医生、工程师、老师和艺术家会解决不同的问题。当不同技能的人一起工作时（work together），社会会运转得更好。",
+          "关系",
+          ["work together"]
+        ),
+        item(
+          "In your opinion, what is more important in solving problems, intelligence or experience?",
+          "你认为解决问题时，智力和经验哪个更重要？",
+          "Experience is usually more important for real-life problems because experienced people stay calm and know what to check first. Intelligence helps people think of new ideas. The best result comes when a team has both.",
+          "解决现实问题时，经验通常更重要，因为有经验的人能保持冷静（stay calm），也知道先检查什么。智力能帮人想出新方法。如果团队两者都有，结果最好。",
+          "情绪",
+          ["stay calm"]
+        ),
+        item(
+          "Can you give an example of how technology helps people solve problems in a smart way today?",
+          "你能举例说明如今科技如何帮助人们聪明地解决问题吗？",
+          "Navigation apps are a simple example. They compare different roads and show drivers a faster route, so people save time and fuel. This is a smart solution because the app uses live information.",
+          "导航应用就是一个简单例子。它会比较不同道路，并给司机更快的路线，所以人们能节省时间和油钱（save time and fuel）。这是一个聪明的方法，因为应用使用了实时信息。",
+          "钱",
+          ["save time and fuel"]
+        )
+      ]
+    },
+    {
+      id: "retained-famous-person-to-meet",
+      category: "人物类",
+      title: "想见的名人",
+      partTwo: "想见的名人",
+      partTwoQuestion: "Describe a famous person you would like to meet",
+      isNew: true,
+      items: [
+        item(
+          "What are the advantages and disadvantages of being a famous child?",
+          "成为有名的孩子有什么优点和缺点？",
+          "A famous child may get special opportunities and earn money early. However, they may lose privacy and feel pressure because many people watch them. Adults should protect their normal school life and mental health.",
+          "有名的孩子可能得到特别的机会，也可能很早就赚钱。但是，他们可能失去隐私，还会因为被很多人关注而感到压力（feel pressure）。大人应该保护他们正常的学校生活和心理健康。",
+          "情绪",
+          ["feel pressure"]
+        ),
+        item(
+          "What can today's children do to become famous?",
+          "现在的孩子可以做什么来出名？",
+          "They can develop a real skill, such as singing, sport or drawing, and share it online. Regular practice is more important than one lucky video. Parents should also make sure fame does not harm the child's education.",
+          "他们可以培养一项真正的技能，比如唱歌、运动或绘画，再把它分享到网上。持续练习（practise regularly）比一次幸运的爆款视频更重要。父母也应该确保名气不会影响孩子的学习。",
+          "情绪",
+          ["practise regularly"]
+        ),
+        item(
+          "What can children do with their fame?",
+          "孩子可以如何利用自己的名气？",
+          "They can use their fame to share positive messages or support a charity. For example, they can ask followers to donate books to children in need. This can make their influence useful to other people.",
+          "他们可以用自己的名气传递积极信息，或支持公益活动。比如，他们可以请粉丝给有需要的孩子捐书。这能让他们的影响力真正帮到别人（help other people）。",
+          "关系",
+          ["help other people"]
+        ),
+        item(
+          "Do people become famous because of their talent?",
+          "人们会因为才华而出名吗？",
+          "Talent is important, but it is not the only reason. Good marketing, money and luck can give someone more attention. Talent usually helps a person stay famous for longer.",
+          "才华很重要，但它不是唯一原因。好的宣传、资金和运气都能让一个人得到更多关注（get more attention）。不过，才华通常能帮一个人红得更久。",
+          "钱",
+          ["get more attention"]
+        ),
+        item(
+          "Why are some people more interested in the private lives of celebrities?",
+          "为什么有些人更关心名人的私生活？",
+          "Celebrity news is easy entertainment and gives people something to discuss with friends. Some people also compare their own lives with famous people's lives. This can be relaxing, but too much attention is unfair to celebrities.",
+          "名人新闻是一种简单的娱乐，也能给人们提供和朋友聊天的话题（something to discuss with friends）。有些人还会把自己的生活和名人比较。这可能让人放松，但过度关注对名人不公平。",
+          "关系",
+          ["something to discuss with friends"]
+        ),
+        item(
+          "Do you think the definition of “fame” has changed in the age of social media? How?",
+          "你认为在社交媒体时代，“名气”的定义发生变化了吗？如何变化？",
+          "Yes. In the past, famous people were usually actors, singers or athletes, but now an ordinary person can become famous through one popular video. Online fame can come quickly, but it may also disappear quickly.",
+          "是的。过去，名人通常是演员、歌手或运动员；但现在，普通人也可能因为一个热门视频突然出名（become famous online）。网络名气来得很快，但也可能很快消失。",
+          "情绪",
+          ["become famous online"]
+        )
+      ]
+    },
+    {
+      id: "retained-proud-family-member",
+      category: "人物类",
+      title: "为家人骄傲",
+      partTwo: "为家人骄傲",
+      partTwoQuestion: "Describe a time when you felt proud of a family member",
+      isNew: true,
+      items: [
+        item(
+          "What would children do to make their parents proud?",
+          "孩子会做什么让父母感到骄傲？",
+          "Children can work hard at school, behave kindly and take responsibility at home. Parents are often proud when they see real progress, not only perfect results. Helping other people can also make a family proud.",
+          "孩子可以努力学习、友善待人，并在家里承担责任。父母看到真正的进步时（see real progress）往往就会骄傲，并不是只看完美结果。帮助别人也能让家人感到骄傲。",
+          "关系",
+          ["see real progress"]
+        ),
+        item(
+          "What did you do to make your parents proud when you were young?",
+          "你小时候做过什么让父母骄傲？",
+          "I studied hard and once got a good result in an English test. I also helped with simple chores without being asked. My parents were happy because they saw that I was becoming responsible.",
+          "我小时候认真学习，有一次英语考试取得了好成绩。我也会主动做一些简单家务。父母很开心，因为他们看到我变得更有责任心（become more responsible）。",
+          "关系",
+          ["become more responsible"]
+        ),
+        item(
+          "What advantages of yours make you proud?",
+          "你的哪些优点让你感到骄傲？",
+          "I am patient and responsible at work. When a problem happens, I stay calm and try to help my team instead of blaming someone. This makes me feel useful and gives me confidence.",
+          "我在工作中很有耐心，也很负责。发生问题时，我会保持冷静（stay calm），并尝试帮助团队，而不是责怪某个人。这让我觉得自己有用，也给了我信心。",
+          "情绪",
+          ["stay calm"]
+        ),
+        item(
+          "When was the last time that you felt proud of yourself?",
+          "你最近一次为自己感到骄傲是什么时候？",
+          "I felt proud last month when my team fixed an important problem at work. I stayed calm, checked the problem step by step and shared the solution with my colleagues. We finished on time, so I felt a real sense of achievement.",
+          "上个月，我的团队解决了一个重要的工作问题，我当时很骄傲。我保持冷静，一步一步检查，还把解决方法分享给同事。我们按时完成了工作，所以我很有成就感（a real sense of achievement）。",
+          "情绪",
+          ["a real sense of achievement"]
+        ),
+        item(
+          "Should parents reward children? Why and how?",
+          "父母应该奖励孩子吗？为什么？应该怎样奖励？",
+          "Yes, but rewards should be small and connected to effort. Praise, extra play time or a family activity is often better than an expensive gift. This teaches children to value progress instead of money.",
+          "应该，但奖励应该小一点，并且要和努力有关。表扬、多一点玩的时间，或一次家庭活动，通常比昂贵礼物更好。这会教孩子重视进步而不是金钱（value progress instead of money）。",
+          "钱",
+          ["value progress instead of money"]
+        ),
+        item(
+          "On what occasions would adults be proud of themselves?",
+          "成年人会在什么情况下为自己感到骄傲？",
+          "Adults may feel proud when they finish a difficult task, improve their health or support their family. They can also feel proud after helping another person. These moments show that their effort has made a real difference.",
+          "成年人完成困难任务、改善健康，或支持家人时，可能会为自己骄傲。他们帮助了别人以后，也会有这种感觉。这些时刻说明他们的努力真的带来了改变（make a real difference）。",
+          "情绪",
+          ["make a real difference"]
+        )
+      ]
+    }
+  );
+})();
+
+// 飞书 2026 年 9–12 月题库：本轮新增 Part 3（人物类与地点类）。
+// 文档中的“[小问待补充]”不自行造题；每道已给原题都补齐英文答案和双语翻译。
+(() => {
+  const p3 = (question, questionZh, answer, answerZh, structure = "观点 → 原因 → 例子/结果") => ({
+    question,
+    answerLanguage: "en",
+    materials: [],
+    answer,
+    translation: { question: questionZh, answer: answerZh },
+    structure
+  });
+  const group = (id, category, title, partTwo, partTwoQuestion, items) => ({
+    id,
+    category,
+    title,
+    partTwo,
+    partTwoQuestion,
+    isNew: true,
+    isLatest: true,
+    items
+  });
+
+  for (const oldGroup of window.IELTS_DATA.part3) oldGroup.isLatest = false;
+
+  const groups = [
+    group(
+      "feishu-taught-new-skill",
+      "人物类",
+      "新技能的学习与教学",
+      "教你新技能的人",
+      "Describe a person who taught you a new skill",
+      [
+        p3(
+          "Why should children learn new skills?",
+          "为什么孩子应该学习新技能？",
+          "Children should learn new skills because this makes them more independent and confident. For example, learning to cook a simple meal or use a computer can help them solve daily problems by themselves. These skills may also give them more choices when they grow up.",
+          "孩子应该学习新技能，因为这会让他们更独立、更自信。比如，学会做一顿简单的饭或使用电脑，可以帮助他们自己解决日常问题。这些技能长大后也可能给他们更多选择。"
+        ),
+        p3(
+          "Where can children learn new skills?",
+          "孩子可以在哪里学习新技能？",
+          "Children can learn skills at home, at school, in clubs and through simple online videos. Parents can teach daily skills, while teachers and coaches can give more structured practice. For anything difficult or risky, children should learn with an adult nearby.",
+          "孩子可以在家里、学校、兴趣班以及简单的网络视频中学习技能。父母可以教生活技能，老师和教练则能提供更有安排的练习。对于困难或有风险的事情，孩子应该在成年人陪同下学习。",
+          "场所 → 分工 → 限定"
+        ),
+        p3(
+          "How can parents and teachers teach children new skills?",
+          "父母和老师可以怎样教孩子新技能？",
+          "They should show the skill step by step and then let the child try it. Clear praise and short feedback help children understand what they did well and what to change. It is also important to make practice enjoyable, so children are willing to continue.",
+          "他们应该一步一步示范技能，然后让孩子自己尝试。清楚的表扬和简短反馈能帮助孩子明白哪里做得好、哪里需要改变。练习过程也要有趣，这样孩子才愿意继续。",
+          "方法 → 反馈 → 结果"
+        ),
+        p3(
+          "How do adults learn a new skill?",
+          "成年人怎样学习一项新技能？",
+          "Adults often learn from online videos, evening classes or experienced colleagues. They usually have less free time, so a clear goal and a regular short practice are useful. For example, someone can practise English for twenty minutes after work each day.",
+          "成年人经常通过网络视频、夜校课程或有经验的同事学习。他们通常空闲时间较少，所以明确的目标和规律的短时间练习很有用。比如，一个人可以每天下班后练二十分钟英语。",
+          "方式 → 困难 → 例子"
+        ),
+        p3(
+          "What are the differences between learning from a teacher and learning by oneself?",
+          "跟老师学习和自学有什么区别？",
+          "A teacher can give a clear plan, correct mistakes and answer questions immediately. Self-study is usually cheaper and more flexible because people can learn at their own speed. In my view, using a teacher for difficult points and practising alone afterwards works best.",
+          "老师可以提供清楚的计划、纠正错误，并立即回答问题。自学通常更便宜、更灵活，因为人们可以按自己的速度学习。我认为，难点跟老师学，之后自己练习，效果最好。",
+          "老师 → 自学 → 结论"
+        ),
+        p3(
+          "Why is self-discipline important when learning a new skill?",
+          "学习新技能时，为什么自律很重要？",
+          "Self-discipline is important because progress needs regular practice, even when nobody is watching. Without a routine, people may stop as soon as the skill becomes difficult. A small daily target helps them continue and see real progress.",
+          "自律很重要，因为进步需要规律练习，即使没有人监督也是如此。如果没有固定习惯，人们一遇到困难就可能停下来。一个小的每日目标能帮助他们坚持并看到真正的进步。",
+          "原因 → 风险 → 方法"
+        )
+      ]
+    ),
+    group(
+      "feishu-history-lover",
+      "人物类",
+      "历史学习",
+      "学习并喜欢历史的人",
+      "Describe a person who learns history and loves history",
+      [
+        p3(
+          "Do you think children should begin learning history from an early age?",
+          "你认为孩子应该从小开始学习历史吗？",
+          "Yes, but the content should be simple and interesting. Stories about family life, old buildings and local traditions can help children understand where they come from. Young children do not need to memorise many dates.",
+          "应该，但内容要简单有趣。关于家庭生活、老建筑和当地传统的故事，可以帮助孩子理解自己的文化来源。年幼的孩子不需要背很多日期。",
+          "观点 → 例子 → 限定"
+        ),
+        p3(
+          "At what age do you think people should begin to learn history?",
+          "你认为人们应该从几岁开始学习历史？",
+          "I think primary-school age, around six or seven, is a good time to begin. At that age, children can understand short stories and compare the past with their own life. More complex events can be introduced when they are older.",
+          "我认为小学阶段，大约六七岁，是开始学习历史的好时间。这个年龄的孩子能理解短故事，也能把过去和自己的生活进行比较。更复杂的事件可以等他们长大一些再学习。",
+          "年龄 → 原因 → 递进"
+        ),
+        p3(
+          "How do children learn history before they attend school?",
+          "孩子上学前怎样学习历史？",
+          "They mainly learn it through family stories, picture books, museums and traditional festivals. For example, grandparents may explain what life was like when they were young. Children may not call this history, but they are already learning about the past.",
+          "他们主要通过家庭故事、绘本、博物馆和传统节日学习历史。比如，祖父母可能会讲自己年轻时的生活。孩子也许不会把这些称为历史，但他们已经在了解过去。",
+          "方式 → 例子 → 结论"
+        ),
+        p3(
+          "Is it important to learn how people in the past lived their lives?",
+          "了解过去的人怎样生活重要吗？",
+          "Yes, everyday life shows how society, technology and family relationships have changed. It can also help young people understand why older people have different habits or opinions. Learning only about wars and leaders gives an incomplete picture of history.",
+          "重要。日常生活能展示社会、科技和家庭关系怎样发生变化，也能帮助年轻人理解老年人为什么有不同习惯或观点。如果只学习战争和领导人，我们看到的历史并不完整。",
+          "观点 → 作用 → 对比"
+        ),
+        p3(
+          "Do you think people should learn ancient history before learning modern history?",
+          "你认为人们应该先学古代史，再学现代史吗？",
+          "Basic ancient history is useful because it explains the beginning of many cultures and systems. However, people do not have to study everything in a strict order. Connecting an ancient topic with a modern example can make both easier to understand.",
+          "基础的古代史很有用，因为它能解释许多文化和制度的起源。不过，人们不必严格按照顺序学习所有内容。把一个古代主题和现代例子联系起来，能让两者都更容易理解。",
+          "好处 → 限定 → 方法"
+        ),
+        p3(
+          "Besides big historical events, what else is important when learning history?",
+          "除了重大历史事件，学习历史时还有什么重要？",
+          "Ordinary people's lives, local stories, inventions, art and changes in work are also important. They show how a historical period affected real families instead of only powerful leaders. Personal letters and old photographs can make this side of history easier to remember.",
+          "普通人的生活、当地故事、发明、艺术以及工作方式的变化也很重要。它们能展示一个历史时期怎样影响真实家庭，而不只是有权力的领导人。私人信件和老照片能让这一面的历史更容易记住。",
+          "列举 → 原因 → 例子"
+        )
+      ]
+    ),
+    group(
+      "feishu-older-admired",
+      "人物类",
+      "年轻人与老年人",
+      "尊敬的年长者",
+      "Describe someone who is older than you that you admire",
+      [
+        p3(
+          "What can young and old people learn from each other?",
+          "年轻人和老年人可以互相学习什么？",
+          "Older people can share life experience, patience and practical ways to deal with problems. Young people can help with technology and introduce new ideas. When both sides listen with respect, the relationship becomes closer and both benefit.",
+          "老年人可以分享生活经验、耐心以及解决问题的实际方法。年轻人可以帮助使用科技，并介绍新想法。当双方都尊重地倾听时，关系会更亲近，两边都会受益。",
+          "老人贡献 → 年轻人贡献 → 结果"
+        ),
+        p3(
+          "How old people's life quality improved when compared to the past?",
+          "与过去相比，老年人的生活质量怎样改善了？",
+          "Healthcare, pensions and public transport are better in many places than before. Smartphones also help older people stay in touch with family and use useful services at home. However, these improvements are not equal everywhere, especially in poorer rural areas.",
+          "许多地方的医疗、养老金和公共交通都比过去更好。智能手机也帮助老年人与家人保持联系，并在家使用实用服务。不过，这些改善并不是各地都一样，尤其是在较贫困的农村地区。",
+          "改善 → 科技 → 限定"
+        ),
+        p3(
+          "Why is there a generation gap between the young and the old?",
+          "年轻人与老年人之间为什么有代沟？",
+          "They grew up with different technology, social rules and ideas about work and family. Because of this, the same behaviour may look normal to one generation but rude or wasteful to another. Regular conversation and shared activities can reduce the gap.",
+          "他们成长时使用的科技、社会规则以及对工作和家庭的看法都不同。因此，同一种行为在一代人看来很正常，在另一代人看来却可能无礼或浪费。经常交流和一起活动可以缩小代沟。",
+          "原因 → 结果 → 方法"
+        ),
+        p3(
+          "What do old people usually do in their daily life?",
+          "老年人在日常生活中通常做什么？",
+          "Many older people exercise, do housework, look after grandchildren or meet friends. Some enjoy gardening, reading, travelling or learning how to use new technology. Their routines depend greatly on their health, income and family situation.",
+          "很多老年人会锻炼、做家务、照顾孙辈或与朋友见面。有些人喜欢种花、阅读、旅行，或者学习使用新科技。他们的日常安排很大程度取决于健康、收入和家庭情况。",
+          "列举 → 补充 → 限定"
+        )
+      ]
+    ),
+    group(
+      "feishu-photo-lover",
+      "人物类",
+      "拍照习惯",
+      "喜欢拍照的人",
+      "Describe a person you know who really likes taking photos",
+      [
+        p3(
+          "Why are some people keen on taking photos?",
+          "为什么有些人热衷于拍照？",
+          "Photos help people keep memories and share important moments with family or friends. Some people also enjoy the creative side, such as choosing light and finding an interesting angle. A phone camera makes this hobby easy and inexpensive.",
+          "照片能帮助人们保存回忆，并与家人朋友分享重要时刻。有些人也喜欢其中的创意，比如选择光线和寻找有趣角度。手机相机让这个爱好变得容易而且不贵。",
+          "原因一 → 原因二 → 科技"
+        ),
+        p3(
+          "What kind of photos do people often take?",
+          "人们经常拍什么样的照片？",
+          "People often photograph family gatherings, friends, food, pets and travel scenery. They also take practical pictures of documents, products or information they want to remember. Younger people may share more daily photos online, while older people may keep more family pictures.",
+          "人们经常拍家庭聚会、朋友、食物、宠物和旅行风景。他们也会拍文件、商品或需要记住的信息等实用照片。年轻人可能在网上分享更多日常照片，老年人则可能保存更多家庭照片。",
+          "常见照片 → 实用照片 → 对比"
+        ),
+        p3(
+          "Do you think it's OK to take photos everywhere?",
+          "你认为在任何地方拍照都可以吗？",
+          "No, people should respect privacy, safety and local rules. Taking photos may be inappropriate in hospitals, private homes or places with security restrictions. Even in public, it is polite to ask before taking a clear photo of a stranger.",
+          "不可以。人们应该尊重隐私、安全和当地规定。在医院、私人住宅或有安全限制的地方拍照可能不合适。即使在公共场所，清楚拍摄陌生人之前先询问也更有礼貌。",
+          "观点 → 场所 → 礼貌"
+        ),
+        p3(
+          "Why do tourists like taking photos while they are travelling?",
+          "为什么游客旅行时喜欢拍照？",
+          "They want to remember the place and show family or friends what they saw. Photos also help them record details that may be forgotten later, such as food or a beautiful view. However, taking too many pictures can stop people from enjoying the real moment.",
+          "他们想记住那个地方，也想向家人朋友展示自己看到的东西。照片还能记录之后可能忘记的细节，比如食物或美丽风景。不过，拍太多照片可能会让人无法享受真实的当下。",
+          "原因 → 细节 → 限定"
+        ),
+        p3(
+          "Some people don't mind others walking into their shot when they're taking photos. What do you think?",
+          "有些人拍照时不介意别人走进画面，你怎么看？",
+          "I think this is a practical attitude in a busy public place. It is often impossible to keep a popular street or attraction completely empty. People can wait for a moment or ask politely, but they should not blame strangers who are simply walking past.",
+          "我认为在人多的公共场所，这是一种实际的态度。想让热门街道或景点完全没人往往不可能。人们可以等一会儿或礼貌询问，但不应该责怪只是正常经过的陌生人。",
+          "观点 → 原因 → 做法"
+        )
+      ]
+    ),
+    group(
+      "feishu-handcraft-person",
+      "人物类",
+      "手工与艺术",
+      "擅长做手工的人",
+      "Describe a person who is good at making things by hand",
+      [
+        p3(
+          "Do you think art classes are important for children?",
+          "你认为美术课对孩子重要吗？",
+          "Yes, art classes help children develop creativity, patience and a way to express feelings. They also give children who are not strongest in academic subjects another chance to succeed. Schools should value art, although basic language and maths still need enough time.",
+          "重要。美术课能帮助孩子培养创造力、耐心，也提供表达情绪的方式。它还会让不擅长学术科目的孩子获得另一种成功机会。学校应该重视艺术，但基础语言和数学仍需要足够时间。",
+          "观点 → 好处 → 限定"
+        ),
+        p3(
+          "Why do some children enjoy making things by hand?",
+          "为什么有些孩子喜欢亲手做东西？",
+          "They can touch the materials and see a clear result at the end, which gives them a sense of achievement. Handwork also feels like play and allows them to use their imagination. Making a card or small gift for someone adds a warm personal meaning.",
+          "他们能触摸材料，并在最后看到清楚的成果，这会带来成就感。手工也像玩耍一样，让他们可以发挥想象力。为别人制作卡片或小礼物，还会增加温暖的个人意义。",
+          "原因 → 感受 → 例子"
+        ),
+        p3(
+          "Do children these days still like doing arts and crafts?",
+          "现在的孩子仍然喜欢做艺术和手工吗？",
+          "Yes, many children still enjoy drawing, building models and making simple decorations. Schools, craft kits and short online videos give them many ideas. Screens compete for their attention, so adults may need to provide materials and time for hands-on activities.",
+          "喜欢。许多孩子仍然爱画画、搭模型和制作简单装饰。学校、手工材料包和短视频给了他们很多想法。不过屏幕会争夺注意力，所以成年人可能需要提供材料和动手活动的时间。",
+          "观点 → 渠道 → 限定"
+        ),
+        p3(
+          "What impact can artistic buildings have on society?",
+          "有艺术感的建筑会给社会带来什么影响？",
+          "They can give a city a clear identity, improve people's mood and attract visitors. A beautiful library or station may become a place that local people feel proud of, and tourism can support nearby businesses. However, the building must still be safe, useful and affordable to maintain.",
+          "它们能给城市带来鲜明特色、改善人们心情并吸引游客。一座美丽的图书馆或车站可能成为当地人的骄傲，旅游也能支持附近商家。不过，建筑仍然必须安全、实用，而且维护费用合理。",
+          "影响 → 例子 → 限定"
+        )
+      ]
+    ),
+    group(
+      "feishu-difficult-success-person",
+      "人物类",
+      "成功、商业与金钱",
+      "做困难事情并成功的人",
+      "Describe a person you know who did something difficult and was successful",
+      [
+        p3(
+          "Is it difficult to do business in today's world?",
+          "如今做生意困难吗？",
+          "Yes, competition is strong and costs such as rent, wages and advertising can be high. Customer needs also change quickly, so a business must keep learning and listening to feedback. Online tools make it easier to reach buyers, but they also create more competitors.",
+          "困难。竞争很强，租金、工资和广告等成本也可能很高。顾客需求变化很快，所以企业必须不断学习并听取反馈。网络工具让接触顾客更容易，但也带来了更多竞争者。",
+          "困难 → 应对 → 限定"
+        ),
+        p3(
+          "How can companies help protect the environment?",
+          "公司可以怎样帮助保护环境？",
+          "Companies can reduce packaging, save energy and recycle useful materials. They can also choose suppliers that follow clear environmental rules and design products that last longer. These changes may cost money at first, but they can reduce waste and improve the company's reputation.",
+          "公司可以减少包装、节约能源并回收有用材料。它们也可以选择遵守明确环保规定的供应商，并设计更耐用的产品。这些改变一开始可能花钱，但能减少浪费并改善公司声誉。",
+          "措施 → 补充 → 结果"
+        ),
+        p3(
+          "Does money equal success?",
+          "金钱等于成功吗？",
+          "No, money can provide comfort and security, but it is only one part of success. Good health, close relationships and meaningful work also matter. Someone with a high salary may still feel unhappy if there is no time for family or rest.",
+          "不等于。金钱能带来舒适和安全，但它只是成功的一部分。健康、亲密关系和有意义的工作也很重要。如果一个高收入的人没有时间陪家人或休息，他仍然可能不快乐。",
+          "观点 → 补充标准 → 例子"
+        )
+      ]
+    ),
+    group(
+      "feishu-crowded-place",
+      "地点类",
+      "拥挤城市",
+      "去过的拥挤地方",
+      "Describe a crowded place you went to",
+      [
+        p3(
+          "Do you think it is a good trend to have more big cities?",
+          "出现更多大城市是好趋势吗？",
+          "It has both advantages and problems. Big cities can offer more jobs, hospitals and education, but they may also bring expensive housing, traffic and pollution. The trend is positive only if cities plan transport, homes and public spaces well.",
+          "这既有优点也有问题。大城市能提供更多工作、医院和教育，但也可能带来昂贵住房、交通和污染。只有城市把交通、住房和公共空间规划好，这个趋势才是积极的。",
+          "两面 → 优点 → 条件"
+        ),
+        p3(
+          "Do you think there are some people who enjoy crowded places?",
+          "你认为有些人喜欢拥挤的地方吗？",
+          "Yes, some people enjoy the energy, activities and chances to meet others in a crowd. Extroverted people may like busy markets, concerts or festivals because the atmosphere feels exciting. Others prefer quiet places, so it depends on personality and purpose.",
+          "有。有些人喜欢人群中的活力、活动以及认识别人的机会。外向的人可能喜欢热闹市场、演唱会或节日，因为气氛很兴奋。另一些人喜欢安静，所以这取决于性格和目的。",
+          "观点 → 人群 → 限定"
+        ),
+        p3(
+          "Which cities are crowded in your country?",
+          "你们国家哪些城市比较拥挤？",
+          "Large cities such as Beijing, Shanghai and Shenzhen can be very crowded. They attract workers, students and tourists because they offer many opportunities and services. The busiest places are usually transport stations, business areas and famous attractions.",
+          "北京、上海和深圳这样的大城市可能非常拥挤。它们提供许多机会和服务，所以会吸引上班族、学生和游客。最拥挤的地方通常是交通站点、商业区和著名景点。",
+          "列举 → 原因 → 地点"
+        ),
+        p3(
+          "Why do people go to crowded places?",
+          "人们为什么去拥挤的地方？",
+          "They often go there for work, study, shopping, transport or special events. A place becomes crowded because it offers something many people need at the same time. People accept the discomfort when the job, service or experience feels worthwhile.",
+          "他们经常因为工作、学习、购物、交通或特别活动去那里。一个地方会拥挤，是因为它同时提供了很多人需要的东西。当工作、服务或体验值得时，人们会接受这种不舒服。",
+          "原因 → 解释 → 结果"
+        ),
+        p3(
+          "Will people use bikes more or less in cities in the future?",
+          "未来城市里的人骑自行车会更多还是更少？",
+          "People may use bikes more if cities build safe lanes and connect them with public transport. Shared bikes are cheap and convenient for short trips, and they reduce traffic and pollution. Without safe roads and parking, however, many people will still choose cars or the underground.",
+          "如果城市建设安全车道，并把自行车与公共交通连接起来，人们将来可能骑得更多。共享单车对短途出行便宜方便，也能减少交通和污染。不过，如果没有安全道路和停车位置，很多人仍会选择汽车或地铁。",
+          "预测 → 条件 → 限定"
+        ),
+        p3(
+          "Will there be more or less green space in cities in the future?",
+          "未来城市中的绿地会更多还是更少？",
+          "Land pressure may reduce green space in some fast-growing cities. However, governments increasingly understand that parks, river paths and trees improve health and reduce heat. I hope cities protect existing parks and add small gardens or green roofs where land is limited.",
+          "在一些快速发展的城市，土地压力可能会减少绿地。不过，政府越来越明白，公园、河边步道和树木能改善健康并降低炎热。我希望城市保护现有公园，并在土地有限时增加小花园或绿色屋顶。",
+          "风险 → 转折 → 建议"
+        )
+      ]
+    ),
+    group(
+      "feishu-noisy-place",
+      "地点类",
+      "噪音与公共空间",
+      "去过的嘈杂地方",
+      "Describe a noisy place you have been to",
+      [
+        p3(
+          "Do you think it is good for children to make noise?",
+          "你认为孩子制造噪音是好事吗？",
+          "Some noise is natural and healthy when children play, sing or express excitement. It helps them communicate and enjoy activities. However, adults should teach them to lower their voice in places such as libraries, hospitals and public transport.",
+          "孩子玩耍、唱歌或表达兴奋时，发出一些声音是自然且健康的。这有助于他们交流并享受活动。不过，成年人应该教他们在图书馆、医院和公共交通等场所降低音量。",
+          "观点 → 好处 → 规则"
+        ),
+        p3(
+          "How can people consider others' feelings when chatting in public?",
+          "人们在公共场所聊天时怎样照顾他人的感受？",
+          "They can speak at a moderate volume and avoid using the phone speaker. If the topic is private or the conversation becomes excited, they can move to a less crowded place. Watching other people's reactions also helps them notice when they are being too loud.",
+          "他们可以用适中的音量说话，并避免使用手机外放。如果话题私密或谈话变得激动，可以走到人少的地方。观察周围人的反应，也能帮助他们发现自己是否太吵。",
+          "做法 → 场景 → 观察"
+        ),
+        p3(
+          "How would people usually respond to noises in your country?",
+          "你们国家的人通常怎样应对噪音？",
+          "Most people tolerate short or unavoidable noise, especially during the daytime. If it continues, they may close a window, use earphones or ask the person politely to be quieter. Serious repeated noise may be reported to building staff or local authorities.",
+          "大多数人会容忍短暂或无法避免的噪音，尤其是在白天。如果噪音持续，他们可能关窗、戴耳机，或礼貌地请对方小声一些。严重而反复的噪音可能会被报告给物业或当地管理部门。",
+          "一般反应 → 沟通 → 升级"
+        ),
+        p3(
+          "Should children not be allowed to make noise under any circumstances?",
+          "孩子在任何情况下都不应该制造噪音吗？",
+          "No, that rule would be too strict because children need to play, ask questions and show emotion. The important point is whether the time and place are suitable. Quiet rules make sense in a hospital or during a lesson, but not in a playground.",
+          "不应该，这样的规定太严格，因为孩子需要玩耍、提问和表达情绪。重要的是时间和地点是否合适。医院或课堂上需要安静规定，但操场上不需要。",
+          "观点 → 原因 → 对比"
+        ),
+        p3(
+          "What kinds of noises are there in our lives?",
+          "我们的生活中有哪些噪音？",
+          "Common noises come from traffic, construction, factories, neighbours and electronic devices. At home, people may hear loud music, children playing or machines being used. Some sounds are temporary, while traffic noise can continue every day.",
+          "常见噪音来自交通、施工、工厂、邻居和电子设备。在家里，人们可能听到大声音乐、孩子玩耍或机器运转。有些声音是暂时的，而交通噪音可能每天持续。",
+          "列举 → 场景 → 对比"
+        ),
+        p3(
+          "Which area is exposed to noise more, the city or the countryside?",
+          "城市和乡村哪个地区接触的噪音更多？",
+          "Cities are usually noisier because they have more traffic, construction and people at all hours. The countryside is generally quieter, although farm machines or festivals can create strong noise for a short time. City noise is more continuous, which often makes it more stressful.",
+          "城市通常更吵，因为全天都有更多交通、施工和人群。乡村一般更安静，不过农用机器或节日活动也可能在短时间内产生很大噪音。城市噪音更持续，因此常常更让人有压力。",
+          "结论 → 限定 → 结果"
+        )
+      ]
+    ),
+    group(
+      "feishu-city-natural-place",
+      "地点类",
+      "城市里的自然",
+      "喜欢的城市自然之地",
+      "Describe a natural place in your city that you enjoy visiting",
+      [
+        p3(
+          "Do you think there should be many natural places in cities?",
+          "你认为城市里应该有很多自然场所吗？",
+          "Yes, parks, rivers and trees give people space to exercise, relax and meet others. They also cool the city, reduce some pollution and provide homes for birds and insects. Even where land is expensive, small natural areas can make daily life healthier.",
+          "应该。公园、河流和树木给人们提供锻炼、放松和见面的空间。它们还能给城市降温、减少一些污染，并为鸟和昆虫提供栖息地。即使土地昂贵，小型自然区域也能让日常生活更健康。",
+          "观点 → 多重作用 → 限定"
+        ),
+        p3(
+          "Do you think staying in a natural place would help change people's mood?",
+          "待在自然环境中能帮助改变人的心情吗？",
+          "Yes, green views, fresh air and a quieter environment can reduce stress. Walking beside a river or sitting under a tree also gives people a break from screens and work. The effect may be small, but even twenty minutes can help someone feel calmer.",
+          "可以。绿色景色、新鲜空气和更安静的环境能够减轻压力。沿河散步或坐在树下，也让人暂时离开屏幕和工作。效果也许不大，但即使二十分钟也能让人更平静。",
+          "观点 → 原因 → 限定"
+        )
+      ]
+    ),
+    group(
+      "feishu-revisit-city",
+      "地点类",
+      "城市与乡村",
+      "想再去一次的城市",
+      "Describe a city that you have been to and would like to visit again.",
+      [
+        p3(
+          "What's the difference between the city and the countryside?",
+          "城市和乡村有什么区别？",
+          "Cities usually offer more jobs, schools, hospitals and public transport, but life is faster and more expensive. The countryside has more space, nature and a quieter pace, although some services are farther away. The better place depends on a person's work and lifestyle.",
+          "城市通常提供更多工作、学校、医院和公共交通，但生活更快也更贵。乡村有更多空间、自然环境和更安静的节奏，不过有些服务距离较远。哪个地方更好取决于一个人的工作和生活方式。",
+          "城市 → 乡村 → 结论"
+        ),
+        p3(
+          "Some people say large cities are suitable for old people. What do you think?",
+          "有人说大城市适合老年人，你怎么看？",
+          "Large cities can suit older people because hospitals, public transport and daily services are easy to reach. However, noise, crowds and high living costs may be difficult for them. A quiet neighbourhood with lifts, parks and nearby clinics matters more than the size of the city itself.",
+          "大城市可能适合老年人，因为医院、公共交通和日常服务容易到达。不过，噪音、人群和高生活成本可能让他们不舒服。比起城市大小，一个有电梯、公园和附近诊所的安静社区更加重要。",
+          "好处 → 问题 → 结论"
+        ),
+        p3(
+          "Do you think it is possible that all of the population move to cities?",
+          "你认为所有人口都可能搬到城市吗？",
+          "No, cities cannot provide affordable homes and services for everyone. Society also needs people to produce food and manage land in rural areas, and some people simply prefer a quieter life. Remote work may even allow more workers to live outside large cities.",
+          "不可能。城市无法为所有人提供负担得起的住房和服务。社会也需要有人在农村生产食物、管理土地，而且有些人就是喜欢安静生活。远程工作甚至可能让更多上班族住在大城市以外。",
+          "观点 → 社会需要 → 趋势"
+        ),
+        p3(
+          "Do you think people in the countryside are friendlier than people in the city?",
+          "你认为乡村的人比城市的人更友好吗？",
+          "They may seem friendlier because communities are smaller and neighbours meet each other more often. City residents are usually busier and may avoid talking to strangers, but this does not mean they are unkind. Personality matters more than where a person lives.",
+          "乡村的人可能显得更友好，因为社区更小，邻居见面更频繁。城市居民通常更忙，也可能避免和陌生人交谈，但这并不代表他们不善良。性格比居住地点更重要。",
+          "可能原因 → 限定 → 结论"
+        ),
+        p3(
+          "Are there any changes in your city?",
+          "你的城市发生了什么变化吗？",
+          "Yes, my city has added new underground lines, parks and digital public services. Travel is more convenient, and some old areas have become cleaner and more attractive. At the same time, housing and traffic have become bigger concerns as more people arrive.",
+          "有。我的城市增加了新的地铁线路、公园和数字公共服务。出行更方便，一些旧区域也变得更干净、更好看。与此同时，随着更多人到来，住房和交通成了更大的问题。",
+          "变化 → 好处 → 问题"
+        ),
+        p3(
+          "What should the government do to improve",
+          "政府应该做什么来改善城市？",
+          "The government should improve public transport, provide affordable housing and protect green space. It should also make schools, clinics and services easy to reach in every neighbourhood. Listening to residents before starting large projects can prevent waste and solve the problems people actually face.",
+          "政府应该改善公共交通、提供负担得起的住房并保护绿地。它还应该让每个社区都容易到达学校、诊所和公共服务。在开始大型项目之前听取居民意见，可以防止浪费并解决人们真正面对的问题。",
+          "措施 → 公平 → 方法"
+        )
+      ]
+    )
+  ];
+
+  window.IELTS_DATA.part3.unshift(...groups);
+})();
+
+// “安静的地方”与早起看日出共用同一个小山故事，只切换题目重点。
+(() => {
+  const quietPlaceQuestion = "Describe a quiet place you like to go to.";
+  const eventMaterial = window.IELTS_DATA.part2.find((material) => material.id === "event-tips");
+  const sunriseStory = eventMaterial?.tips?.mergedStories?.find((story) => story.title === "早起去看日出");
+  const quietPlaceReview = window.IELTS_DATA.reviewGuide?.part2?.find((item) => item.question === quietPlaceQuestion);
+  if (!sunriseStory || !quietPlaceReview) return;
+
+  // 放进事件类的共用卡，避免在地点类再重复展示一张独立卡。
+  quietPlaceReview.targetMaterialId = "event-tips";
+  if (!sunriseStory.questions.some((entry) =>
+    (typeof entry === "string" ? entry : entry.question) === quietPlaceQuestion
+  )) {
+    sunriseStory.questions.push({
+      question: quietPlaceQuestion,
+      special: "地点题：开头明确 a small hill near my home；重点说清晨人少、没有汽车、山顶安静，花费和组织过程简短带过。"
+    });
+  }
+
+  sunriseStory.title = "安静山顶看日出｜五题共用";
+  sunriseStory.focus = "共用“凌晨和朋友步行去附近小山看日出”；地点题重点讲安静环境，事件题重点讲早起、组织或花费。";
+  sunriseStory.omit = "安静的地方不必详讲购物清单；早起和省钱题不必长时间描述景色。";
+  sunriseStory.draftCues = ["nearby hill", "4:30", "quiet-no cars", "60 yuan", "sunrise-breakfast"];
+  sunriseStory.memoryChain = {
+    story: "附近小山很安静 → 查天气和路线后约三位朋友 → 凌晨四点半步行出发 → 路上只花六十元买早餐 → 山顶没有车且几乎没人 → 聊天、吃早餐并看日出",
+    reasons: [
+      "汽车不能上山＋大多数人还在睡觉 → 几乎没有噪音 → 环境很安静",
+      "新鲜空气＋慢慢变亮的天空 → 暂时忘掉工作 → 心情平静",
+      "步行、聊天和分享早餐 → 一起有完整的时间 → 朋友关系更近",
+      "小山免费＋不花交通费 → 六十元够四人吃 → 便宜却难忘",
+      "提前查天气和路线 → 大家准时到达 → 日出前登顶、计划成功"
+    ]
+  };
+  sunriseStory.body = {
+    text: "I'd like to talk about a small hill near my home, where I watched the sunrise with three close friends last weekend. I chose it because it is free, close to our homes and usually very quiet early in the morning. Before the trip, I checked the weather and the walking route and asked everyone to bring one useful thing. We met at 4:30 and walked there, so we paid nothing for transport. On the way, we spent about 60 yuan on bread, fruit and water. There is no road for cars near the top, and most people were still asleep, so the hill was almost silent. We reached the top before sunrise, shared breakfast, chatted and watched the sky turn orange. I only go there every few months, but the fresh air and peaceful view always help me relax.",
+    highlights: ["a small hill near my home", "three close friends", "very quiet", "at 4:30", "about 60 yuan", "no road for cars", "almost silent", "every few months"]
+  };
+  sunriseStory.pointsLabel = "根据题目选用的结尾点";
+  sunriseStory.reasons = [
+    {
+      text: "First of all, the hill is quiet because cars cannot reach the top and very few people visit it so early. I can hear the wind and birds instead of traffic.",
+      highlights: ["cars cannot reach the top", "very few people", "instead of traffic"],
+      memory: "汽车不能上山＋清晨人少 → 只听到风声和鸟叫 → 非常安静"
+    },
+    {
+      text: "Secondly, the fresh air and the slowly changing sky helped me forget about work. I felt calm and relaxed while I waited for the sunrise.",
+      highlights: ["forget about work", "calm and relaxed"],
+      memory: "新鲜空气＋天空变亮 → 忘掉工作 → 心情平静"
+    },
+    {
+      text: "What's more, walking, talking and sharing breakfast gave my friends and me quality time together. The simple trip brought us closer.",
+      highlights: ["quality time together", "brought us closer"],
+      memory: "步行聊天＋分享早餐 → 有完整相处时间 → 感情更近"
+    },
+    {
+      text: "The hill and the view were free, and walking there saved the transport cost. About 60 yuan bought enough breakfast for four people, so the day was special without being expensive.",
+      highlights: ["were free", "saved the transport cost", "60 yuan"],
+      memory: "景色和步行免费＋六十元早餐 → 花费很少 → 依然很特别"
+    },
+    {
+      text: "Finally, checking the weather and route helped everyone arrive on time. We reached the top before sunrise, so I felt proud that the plan worked well.",
+      highlights: ["checking the weather and route", "before sunrise", "felt proud"],
+      memory: "提前查天气和路线 → 全员准时 → 日出前登顶、计划成功"
+    }
+  ];
+})();
+
+(() => {
+  const videoQuestion = "Describe an interesting video";
+  const movieQuestion = "Describe a movie you watched and enjoyed recently.";
+  const objectMaterial = window.IELTS_DATA.part2.find((material) => material.id === "object-tips");
+  if (!objectMaterial?.tips) return;
+
+  for (const story of objectMaterial.tips.mergedStories || []) {
+    story.questions = (story.questions || []).filter((entry) =>
+      (typeof entry === "string" ? entry : entry.question) !== videoQuestion
+    );
+  }
+
+  const sharedStory = {
+    title: "《Grandma's Garden》｜有趣视频＋近期电影",
+    sourceOrder: 7,
+    baseQuestion: videoQuestion,
+    questions: [
+      {
+        question: videoQuestion,
+        special: "直接说先在网上刷到一段电影短片；重点讲短片内容，以及为什么觉得温暖、有趣。"
+      },
+      {
+        question: movieQuestion,
+        special: "开头改成完整电影，并把网上看到短片说成选这部电影的原因；补上周末在家和女朋友一起看。"
+      }
+    ],
+    draftCues: [
+      "online movie clip",
+      "Grandma's Garden",
+      "vegetables and carrot cake",
+      "sent it to my girlfriend",
+      "full movie at home"
+    ],
+    memoryChain: {
+      story: "网上刷到电影短片 → 奶奶种菜、送菜、做胡萝卜蛋糕 → 发给女朋友 → 周末在家一起看完整电影 → 看完聊喜欢的画面",
+      reasons: [
+        "大袋蔬菜和胡萝卜蛋糕 → 画面简单又有点好笑 → 短片很有趣",
+        "奶奶用种菜照顾家人 → 亲情自然温暖 → 想起自己的奶奶",
+        "把短片分享给女朋友 → 一起看完电影 → 放松并增进感情"
+      ]
+    },
+    body: {
+      text: "I'd like to talk about a short movie clip I found online last weekend. It came from a family film called Grandma's Garden. The clip showed an energetic Chinese grandma growing tomatoes, cucumbers and carrots behind her house. She gave her family a huge bag of vegetables and made a carrot cake for her granddaughter's birthday. I found these scenes warm and a little funny, so I sent the clip to my girlfriend. That evening, we found the full movie and watched it together at home with some snacks. The film showed that gardening was the grandma's way of caring for her family. After it ended, we talked about our favourite scenes.",
+      highlights: [
+        "a short movie clip",
+        "Grandma's Garden",
+        "a huge bag of vegetables",
+        "a carrot cake",
+        "sent the clip to my girlfriend",
+        "watched it together at home"
+      ]
+    },
+    pointsLabel: "Why it was interesting and enjoyable · 3 原因",
+    reasons: [
+      {
+        text: "First of all, the scenes were simple but interesting. The huge bag of vegetables and the carrot cake made both of us smile.",
+        highlights: ["simple but interesting", "made both of us smile"],
+        memory: "大袋蔬菜＋胡萝卜蛋糕 → 简单有趣 → 两个人都笑了"
+      },
+      {
+        text: "Secondly, the grandma cared for her family in a warm and natural way. She reminded me of my own grandma, so the story stayed in my mind.",
+        highlights: ["cared for her family", "reminded me of my own grandma"],
+        memory: "用种菜关心家人 → 想起自己的奶奶 → 故事容易记住"
+      },
+      {
+        text: "What's more, I could share the clip and the full movie with my girlfriend. Watching it at home helped us relax and spend enjoyable time together.",
+        highlights: ["share the clip", "helped us relax", "time together"],
+        memory: "分享短片和电影 → 在家一起看 → 放松并增进感情"
+      }
+    ]
+  };
+
+  const existingIndex = (objectMaterial.tips.mergedStories || []).findIndex((story) =>
+    story.baseQuestion === videoQuestion || story.title === sharedStory.title
+  );
+  if (existingIndex >= 0) {
+    objectMaterial.tips.mergedStories[existingIndex] = sharedStory;
+  } else {
+    objectMaterial.tips.mergedStories.push(sharedStory);
+  }
+})();
+
+(() => {
+  const item = (question, questionZh, answer, answerZh, angle, chunkPhrases) => ({
+    question,
+    answerLanguage: "zh",
+    materials: [],
+    answer,
+    angle,
+    translation: { question: questionZh, answer: answerZh },
+    structure: "PREC",
+    chunkPhrases
+  });
+
+  window.IELTS_DATA.part3.push(
+    {
+      id: "retained-family-keepsake",
+      category: "事物类",
+      title: "对家庭重要的东西",
+      partTwo: "对家庭重要的东西",
+      partTwoQuestion: "Describe something important that has been kept in your family for a long time",
+      isNew: true,
+      items: [
+        item(
+          "What things do families keep for a long time?",
+          "家庭会长期保留哪些东西？",
+          "Families often keep old photos, letters, jewellery and small gifts. These things may not cost much, but they remind people of important family moments. They help different generations feel connected.",
+          "家庭经常保留老照片、信件、首饰和小礼物。这些东西可能不贵，但能让人想起重要的家庭时刻。它们能让不同一代的人感到有联系（feel connected）。",
+          "关系",
+          ["feel connected"]
+        ),
+        item(
+          "What's the difference between things valued by people in the past and today?",
+          "过去和现在的人所珍视的东西有什么不同？",
+          "In the past, people often valued practical and expensive items because goods were harder to replace. Today, many people value photos, messages and personal gifts because memories matter more. Digital items have also become important.",
+          "过去，人们往往珍视实用而且昂贵的物品，因为东西很难更换。现在，很多人珍视照片、消息和个人礼物，因为回忆变得更重要（memories matter more）。数字物品也变得重要了。",
+          "情绪",
+          ["memories matter more"]
+        ),
+        item(
+          "What kinds of things are kept in museums?",
+          "博物馆里会保存哪些东西？",
+          "Museums keep old tools, clothes, paintings, documents and objects used by famous people. These items show how people lived in the past. They give families and students a clear way to learn history together.",
+          "博物馆会保存老工具、衣服、画作、文件和名人使用过的物品。这些物品展示了过去的人如何生活。它们让家庭和学生能够一起学习历史（learn history together）。",
+          "关系",
+          ["learn history together"]
+        ),
+        item(
+          "What's the influence of technology on museums?",
+          "科技对博物馆有什么影响？",
+          "Technology makes museums easier to visit and understand. Digital screens can explain an object, and online tours let people visit from home. This saves travel time and money, especially for students.",
+          "科技让博物馆更容易参观，也更容易理解。数字屏幕可以解释展品，网上参观还能让人在家看博物馆。这可以节省旅行时间和金钱（save travel time and money），对学生尤其有用。",
+          "钱",
+          ["save travel time and money"]
+        ),
+        item(
+          "Why is it important for people (especially children) to learn about family history?",
+          "为什么人们，尤其是孩子，了解家族历史很重要？",
+          "Family history helps children understand where they come from and what older relatives experienced. Talking about it gives children a reason to spend time with grandparents. This can make family relationships stronger.",
+          "家族历史能帮孩子了解自己来自哪里，也能了解长辈经历过什么。聊这些事会让孩子有理由和祖父母多相处。这能让家庭关系更牢固（make family relationships stronger）。",
+          "关系",
+          ["make family relationships stronger"]
+        ),
+        item(
+          "Do you think people will keep fewer physical objects in the future as memories? Why?",
+          "你认为未来人们会不会少保留一些实体物品作为纪念？为什么？",
+          "Yes, because photos and messages can be stored online without taking up space. However, people will still keep a few special objects, such as a ring or handwritten letter. Physical objects can carry stronger feelings than a file.",
+          "会，因为照片和消息可以存在网上，不占家里的空间。但人们仍然会保留少数特别的物品，比如戒指或手写信。实体物品比文件更能承载感情（carry stronger feelings）。",
+          "情绪",
+          ["carry stronger feelings"]
+        )
+      ]
+    },
+    {
+      id: "retained-app",
+      category: "事物类",
+      title: "App／程序",
+      partTwo: "App／程序",
+      partTwoQuestion: "Describe a program or app on your computer or phone",
+      isNew: true,
+      items: [
+        item(
+          "What are the differences between old and young people when using apps?",
+          "老年人和年轻人使用应用程序时有什么不同？",
+          "Young people usually use more apps for study, entertainment and social life. Older people often use a few basic apps for messages, maps and payment. The difference mainly comes from habit and experience.",
+          "年轻人通常使用更多应用来学习、娱乐和社交。老年人往往只用几个基础应用来发消息、看地图和付款。这种不同主要来自习惯和经验（habit and experience）。",
+          "关系",
+          ["habit and experience"]
+        ),
+        item(
+          "Why do some people not like using apps?",
+          "为什么有些人不喜欢使用应用程序？",
+          "Some apps are difficult to use and ask for too much personal information. Frequent notifications also make people feel stressed or distracted. These users may prefer a simple website or face-to-face service.",
+          "有些应用很难使用，还会索要太多个人信息。频繁的通知也会让人感到紧张或分心（feel stressed or distracted）。这些用户可能更喜欢简单网站或面对面服务。",
+          "情绪",
+          ["feel stressed or distracted"]
+        ),
+        item(
+          "What kinds of apps are most popular among young people in your country?",
+          "在你的国家，哪些应用程序最受年轻人欢迎？",
+          "Social media, short-video, music and study apps are very popular. Young people use them to relax, learn and stay in touch with friends. Free apps usually attract more users.",
+          "社交媒体、短视频、音乐和学习应用都很受欢迎。年轻人用它们放松、学习，以及和朋友保持联系（stay in touch with friends）。免费应用通常会吸引更多用户。",
+          "关系",
+          ["stay in touch with friends"]
+        ),
+        item(
+          "Do you think mobile apps have made our lives easier or more complicated?",
+          "你认为手机应用让生活更简单了，还是更复杂了？",
+          "They have made many tasks easier because people can pay, book tickets and send messages quickly. However, too many apps and notifications can create stress. Apps are helpful when people control how they use them.",
+          "它们让很多事情变简单了，因为人们可以快速付款、订票和发消息。但是，太多应用和通知会造成压力（create stress）。当人们能控制自己的使用方式时，应用才真的有帮助。",
+          "情绪",
+          ["create stress"]
+        ),
+        item(
+          "What should people pay attention to when downloading a new app?",
+          "人们下载新应用时应该注意什么？",
+          "They should read reviews, check permissions and look for hidden costs. An app should come from an official store and should not ask for information it does not need. This protects both personal data and money.",
+          "他们应该看用户评价、检查权限，并留意隐藏费用（look for hidden costs）。应用应该来自官方商店，也不应索要不需要的信息。这能同时保护个人数据和金钱。",
+          "钱",
+          ["look for hidden costs"]
+        ),
+        item(
+          "Do you think we will use more or fewer apps in the future? Why?",
+          "你认为未来我们会使用更多还是更少的应用？为什么？",
+          "We may use fewer separate apps because one app can provide payment, shopping, travel and messages together. This saves time and phone space. However, new needs will still create some new apps.",
+          "我们可能会使用更少的独立应用，因为一个应用可以同时提供付款、购物、出行和消息功能。这能节省时间和手机空间（save time and phone space）。但新需求仍然会带来一些新应用。",
+          "钱",
+          ["save time and phone space"]
+        )
+      ]
+    },
+    {
+      id: "retained-perfect-job",
+      category: "事物类",
+      title: "完美工作",
+      partTwo: "完美工作",
+      partTwoQuestion: "Describe your perfect job",
+      isNew: true,
+      items: [
+        item(
+          "What jobs do children want to do when they grow up?",
+          "孩子长大后想做什么工作？",
+          "Many children want to be doctors, teachers, athletes or online creators. Their ideas often come from family members, school and people they see online. They usually choose jobs that look interesting or helpful.",
+          "很多孩子想成为医生、老师、运动员或网络创作者。他们的想法往往来自家人、学校和网上看到的人（come from family and school）。他们通常会选看起来有趣或能帮助别人的工作。",
+          "关系",
+          ["come from family and school"]
+        ),
+        item(
+          "What should people consider when choosing jobs?",
+          "人们选择工作时应该考虑什么？",
+          "They should consider salary, working hours, location and whether they enjoy the work. A good job should cover daily costs and leave some personal time. Career growth is also important.",
+          "他们应该考虑工资、工作时间、地点，以及自己是否喜欢这份工作。好工作应该能够支付日常开销（cover daily costs），也要留下一些个人时间。职业发展也很重要。",
+          "钱",
+          ["cover daily costs"]
+        ),
+        item(
+          "Is salary the main reason people choose a certain job?",
+          "工资是人们选择某份工作的主要原因吗？",
+          "Salary is important because people need a stable income, but it is not the only reason. Long hours or a bad manager can make a well-paid job stressful. Good relationships at work also affect daily happiness.",
+          "工资很重要，因为人们需要稳定收入（a stable income），但它不是唯一原因。工作时间太长或管理者不好，会让高薪工作也变得有压力。好的职场关系也会影响每天的心情。",
+          "钱",
+          ["a stable income"]
+        ),
+        item(
+          "How have people’s opinions about the “perfect job” changed compared to the past?",
+          "与过去相比，人们对“完美工作”的看法发生了什么变化？",
+          "In the past, many people mainly wanted a stable job and regular pay. Today, more people also want flexible hours, personal growth and a better work-life balance. They care more about how work makes them feel.",
+          "过去，很多人主要想要稳定工作和固定工资。现在，更多人还想要灵活时间、个人成长和更好的工作生活平衡（a better work-life balance）。他们更在意工作带来的感受。",
+          "情绪",
+          ["a better work-life balance"]
+        ),
+        item(
+          "Do you think it’s easy for people to find their ideal job? Why or why not?",
+          "你认为人们容易找到理想工作吗？为什么？",
+          "No, because good jobs attract many applicants and often require experience. People may need to improve their skills or accept a lower salary at first. Finding an ideal job usually takes time.",
+          "不容易，因为好工作会吸引很多求职者，而且往往要求经验。人们可能需要提升技能，或在一开始接受较低工资（accept a lower salary at first）。找到理想工作通常需要时间。",
+          "钱",
+          ["accept a lower salary at first"]
+        ),
+        item(
+          "What is more important for job satisfaction: a high salary or good relationships with colleagues?",
+          "对工作满意度来说，高工资和良好的同事关系哪个更重要？",
+          "Both matter, but good relationships are more important in daily life. Supportive colleagues reduce stress and make difficult work easier. A high salary pays the bills, but it cannot fix a hostile workplace.",
+          "两者都重要，但在日常工作中，良好关系更重要。支持你的同事能减少压力（reduce stress），让困难的工作更容易。高工资能付账单，但无法修复充满敌意的工作环境。",
+          "关系",
+          ["reduce stress"]
+        )
+      ]
+    }
+  );
+})();
+
+(() => {
+  const item = (question, questionZh, answer, answerZh, angle, chunkPhrases) => ({
+    question,
+    answerLanguage: "zh",
+    materials: [],
+    answer,
+    angle,
+    translation: { question: questionZh, answer: answerZh },
+    structure: "PREC",
+    chunkPhrases
+  });
+
+  window.IELTS_DATA.part3.push(
+    {
+      id: "retained-self-taught-friend",
+      category: "人物类",
+      title: "朋友自学",
+      partTwo: "朋友自学",
+      partTwoQuestion: "Describe one of your friends who learned something without a teacher",
+      isNew: true,
+      items: [
+        item(
+          "Is it necessary to keep learning after graduating from school?",
+          "毕业后有必要继续学习吗？",
+          "Yes, because jobs and technology keep changing. Learning a new skill can give people more job choices and a more stable income. It also makes them feel more confident at work.",
+          "有必要，因为工作和科技一直在变化。学习新技能能让人有更多工作选择，也能获得更稳定的收入（a more stable income）。这也会让他们在工作中更有信心。",
+          "钱",
+          ["a more stable income"]
+        ),
+        item(
+          "Should teachers make learning in their classes fun?",
+          "老师应该让课堂学习变得有趣吗？",
+          "Yes. Teachers can use games, stories and group activities to help students relax. In an enjoyable class, students are less afraid of making mistakes, so they are more willing to speak and learn.",
+          "应该。老师可以用游戏、故事和小组活动帮助学生放松。在有趣的课堂上（an enjoyable class），学生不那么害怕犯错，因此更愿意开口和学习。",
+          "情绪",
+          ["an enjoyable class"]
+        ),
+        item(
+          "Do you think there are too many subjects for students to learn?",
+          "你认为学生要学的科目太多了吗？",
+          "In some schools, yes. Too many subjects can make students tired and leave little time for sleep or hobbies. Schools should keep the basic subjects but also give students some choice.",
+          "在一些学校里确实如此。科目太多会让学生疲惫（make students tired），也会让他们几乎没有时间睡觉或发展爱好。学校应该保留基础科目，同时给学生一些选择。",
+          "情绪",
+          ["make students tired"]
+        ),
+        item(
+          "Is it better to focus on a few subjects or to learn many subjects?",
+          "专注少数科目和学习很多科目，哪一种更好？",
+          "Young students should learn the basics of many subjects. Later, they can focus on useful subjects that they enjoy or need for work. This gives them general knowledge without too much pressure.",
+          "年纪小的学生应该学习多门科目的基础知识。之后，他们可以专注于自己喜欢或工作需要的实用科目（focus on useful subjects）。这样既有常识，也不会有太大压力。",
+          "情绪",
+          ["focus on useful subjects"]
+        ),
+        item(
+          "Do you think enterprises should provide training for their employees?",
+          "你认为企业应该为员工提供培训吗？",
+          "Yes. Trained employees make fewer mistakes and work more efficiently. A company may spend some money on training at first, but it can save money later and help staff gain useful skills.",
+          "应该。受过培训的员工犯错更少，工作效率也更高。公司一开始可能要花一些培训费，但以后能够省钱（save money later），员工也能学到实用技能。",
+          "钱",
+          ["save money later"]
+        ),
+        item(
+          "Do you think it is good for older adults to continue learning?",
+          "你认为老年人继续学习是好事吗？",
+          "Yes. Learning keeps their minds active and gives them chances to meet people. For example, a phone class can help them stay in touch with their family and feel less lonely.",
+          "是的。学习能让他们保持头脑活跃，也能给他们认识人的机会。例如，手机课能帮助他们与家人保持联系（stay in touch with their family），也不会那么孤独。",
+          "关系",
+          ["stay in touch with their family"]
+        )
+      ]
+    },
+    {
+      id: "retained-gave-advice",
+      category: "事件类",
+      title: "给别人建议",
+      partTwo: "给别人建议",
+      partTwoQuestion: "Describe a time when you gave advice to others",
+      isNew: true,
+      items: [
+        item(
+          "Should people prepare before giving advice?",
+          "人们给建议前应该做准备吗？",
+          "Yes. They should first understand the situation and check the facts. Advice without enough information may waste another person's time or damage trust, even when the intention is good.",
+          "应该。他们首先要了解情况并核实事实（check the facts）。即使出发点是好的，信息不足的建议也可能浪费别人的时间，甚至伤害信任。",
+          "关系",
+          ["check the facts"]
+        ),
+        item(
+          "Is it good to ask advice from strangers online?",
+          "向网上的陌生人寻求建议好吗？",
+          "It can be useful for general questions because people can hear different views. However, online advice may be wrong. For serious money or health decisions, people should check with a professional.",
+          "对于一般问题，这可能有用，因为人们可以听到不同观点。但网上的建议也可能是错的。涉及重要的金钱或健康决定时，应该咨询专业人士（check with a professional）。",
+          "钱",
+          ["check with a professional"]
+        ),
+        item(
+          "What are the personalities of people whose job is to give advice to others?",
+          "以给别人建议为工作的人通常有什么性格？",
+          "They should be patient, calm and good at listening. They also need to be honest instead of only saying what clients want to hear. These qualities help them build trust with people.",
+          "他们应该有耐心、冷静，而且善于倾听。他们也需要诚实，而不是只说客户想听的话。这些品质能帮助他们与人建立信任（build trust with people）。",
+          "关系",
+          ["build trust with people"]
+        ),
+        item(
+          "What are the problems if you ask too many people for advice?",
+          "如果向太多人寻求建议，会有什么问题？",
+          "Different people may give opposite advice, so you can feel confused and stressed. Comparing every opinion also takes too much time. It is usually better to ask two or three people you trust.",
+          "不同的人可能给出相反的建议，因此你会感到困惑和压力（feel confused and stressed）。比较每一种看法也会花太多时间。通常问两三个信任的人就够了。",
+          "情绪",
+          ["feel confused and stressed"]
+        ),
+        item(
+          "When is it not appropriate to give advice to others?",
+          "什么时候不适合给别人建议？",
+          "It is not appropriate when you do not understand the situation or when the matter is very private. Sometimes a person only wants to share feelings. In that case, listening is better than giving unwanted advice.",
+          "不了解情况，或者事情非常私密时，就不适合给建议。有时对方只是想表达感受。这种情况下，倾听比给出别人不想要的建议（unwanted advice）更好。",
+          "关系",
+          ["unwanted advice"]
+        ),
+        item(
+          "Which do you think is more helpful: advice from older people or advice from friends of the same age? Why?",
+          "你认为长辈的建议和同龄朋友的建议，哪一种更有帮助？为什么？",
+          "It depends on the problem. Older people have more life experience, so they can help with major choices. Friends of the same age understand current daily pressure, so their advice may be more practical.",
+          "这取决于问题。长辈有更多人生经验（more life experience），所以能帮助我们做重大选择。同龄朋友了解现在的日常压力，因此他们的建议可能更实际。",
+          "关系",
+          ["more life experience"]
+        )
+      ]
+    },
+    {
+      id: "retained-shopping-mall",
+      category: "地点类",
+      title: "商场",
+      partTwo: "喜欢的购物中心",
+      partTwoQuestion: "Describe a shopping mall",
+      isNew: true,
+      items: [
+        item(
+          "Why do people buy things they don't need?",
+          "为什么人们会购买自己不需要的东西？",
+          "Discounts and advertisements can make people feel that they are saving money. Some people also shop when they feel stressed because buying something brings short happiness. Later, they may regret this unnecessary spending.",
+          "折扣和广告会让人觉得自己在省钱。有些人有压力时也会购物，因为买东西能带来短暂的快乐。之后，他们可能会后悔这种不必要的消费（unnecessary spending）。",
+          "钱",
+          ["unnecessary spending"]
+        ),
+        item(
+          "Do you think shopping malls are popular in your country? Why?",
+          "你认为购物中心在你的国家受欢迎吗？为什么？",
+          "Yes, especially in cities. People can shop, eat and watch a film in one place, so malls are convenient for families and friends. They are also comfortable when the weather is bad.",
+          "受欢迎，尤其是在城市里。人们可以在一个地方购物、吃饭和看电影，所以商场对家人和朋友来说很方便（convenient for families and friends）。天气不好时，商场也很舒适。",
+          "关系",
+          ["convenient for families and friends"]
+        ),
+        item(
+          "What are the advantages of shopping in a mall compared to shopping online?",
+          "与网上购物相比，在商场购物有什么优点？",
+          "People can see, touch and try products before paying. They can also take an item home immediately. This helps them choose the right size and avoid return costs.",
+          "人们付款前可以看到、触摸和试用商品，也能马上把商品带回家。这有助于选到合适的尺寸，并避免退货成本（avoid return costs）。",
+          "钱",
+          ["avoid return costs"]
+        ),
+        item(
+          "Do young people and old people like to go to the same kind of malls? Why?",
+          "年轻人和老年人喜欢去同一种商场吗？为什么？",
+          "Not always, because they have different needs. Young people may prefer fashion shops, cinemas and game areas. Older people often care more about supermarkets, seats and convenient transport.",
+          "不一定，因为他们有不同的需求（different needs）。年轻人可能更喜欢服装店、电影院和游戏区。老年人通常更在意超市、座位和便利的交通。",
+          "关系",
+          ["different needs"]
+        ),
+        item(
+          "How can a shopping mall attract more customers?",
+          "购物中心怎样才能吸引更多顾客？",
+          "It should offer fair prices, a clean environment and useful services such as free parking. Family activities and good restaurants can also make people stay longer. If customers have a good experience, they will come back again.",
+          "商场应该提供合理价格、干净环境，以及免费停车等实用服务。亲子活动和好餐厅也能让人停留更久。如果顾客体验好，他们就会再次光顾（come back again）。",
+          "钱",
+          ["come back again"]
+        ),
+        item(
+          "Do you think having many malls in a city is a good thing?",
+          "你认为一座城市有很多商场是好事吗？",
+          "It has both good and bad sides. More malls create jobs, give shoppers more choice and may lead to lower prices. However, too many malls can cause traffic and leave some buildings empty.",
+          "这有好也有坏。更多商场能创造工作、给消费者更多选择，也可能带来更低的价格（lower prices）。但是商场太多会造成交通问题，也可能让一些建筑空置。",
+          "钱",
+          ["lower prices"]
+        )
+      ]
+    },
+    {
+      id: "retained-recent-movie",
+      category: "事物类",
+      title: "近期观影",
+      partTwo: "近期看过且喜欢的电影",
+      partTwoQuestion: "Describe a movie you watched and enjoyed recently",
+      isNew: true,
+      items: [
+        item(
+          "What kinds of movies do you think are successful in your country?",
+          "你认为哪些类型的电影在你的国家比较成功？",
+          "Comedies, action films and family movies are often successful. They are easy to understand and help people relax after work. Families and friends can also enjoy them together.",
+          "喜剧、动作片和家庭电影通常比较成功。它们容易理解，也能帮助人们下班后放松（relax after work）。家人和朋友还可以一起欣赏。",
+          "情绪",
+          ["relax after work"]
+        ),
+        item(
+          "What are the factors that make a successful movie?",
+          "哪些因素能让一部电影成功？",
+          "A successful movie needs a clear story and believable characters. Good acting and music help viewers feel more involved. Marketing can attract people at first, but they will not recommend a boring film.",
+          "成功的电影需要清晰的故事和可信的角色。好的表演和音乐能让观众更投入（feel more involved）。宣传可以先吸引人，但大家不会推荐无聊的电影。",
+          "情绪",
+          ["feel more involved"]
+        ),
+        item(
+          "Do Chinese people prefer to watch domestic movies or foreign movies?",
+          "中国人更喜欢看国产电影还是外国电影？",
+          "It depends on the viewer. Domestic movies are easier to relate to because they use familiar language and show local family life. Foreign movies can offer different stories and cultures.",
+          "这取决于观众。国产电影更容易让人产生共鸣（easier to relate to），因为它们使用熟悉的语言，也会展示本地家庭生活。外国电影则能带来不同的故事和文化。",
+          "关系",
+          ["easier to relate to"]
+        ),
+        item(
+          "Do you think only well-known directors can create the best movies?",
+          "你认为只有知名导演才能拍出最好的电影吗？",
+          "No. A new director can have fresh ideas and work with a strong team. Famous directors have more experience and money, but their names do not guarantee that every movie will be good.",
+          "不是。新导演也可以有新鲜想法，并与优秀的团队合作（work with a strong team）。知名导演经验和资金更多，但名气不能保证每部电影都好看。",
+          "关系",
+          ["work with a strong team"]
+        ),
+        item(
+          "Do you think successful movies should have well-known actors or actresses in leading roles?",
+          "你认为成功的电影应该由知名演员担任主角吗？",
+          "Famous actors can attract attention and help a film make money. However, they still need to suit the role, and the story must be good. An unknown actor can also give a strong performance.",
+          "知名演员能吸引注意，也能帮助电影赚钱（help a film make money）。但是，演员仍然要适合角色，故事也必须好。没有名气的演员同样可能有精彩表现。",
+          "钱",
+          ["help a film make money"]
+        ),
+        item(
+          "Why do people prefer to watch movies in the cinema?",
+          "为什么人们更喜欢在电影院看电影？",
+          "The large screen and strong sound make a movie more exciting. Going to the cinema is also a social activity for families and friends. It gives them a chance to spend quality time together.",
+          "大屏幕和震撼的声音会让电影更刺激。去电影院也是家人和朋友的社交活动，让他们有机会共度美好时光（spend quality time together）。",
+          "关系",
+          ["spend quality time together"]
+        )
+      ]
+    }
+  );
+})();
+
+// 将本次新增的 Part 2 题统一为四类 Tab 的标准素材卡：
+// 核心草稿 → 扣题重点 → 英文故事 → 中文故事链 → 最后一问三条理由。
+(() => {
+  const standardCards = [
+    {
+      question: "Describe a person you only met once recently and want to know more about",
+      memoryChain: {
+        story: "上月科技活动 → 陈先生做分享 → 只聊了十分钟 → 他耐心给建议 → 对他印象很好",
+        reasons: [
+          "管理过大项目 → 能学计划和决策 → 帮助职业发展",
+          "沟通清楚又冷静 → 想学处理分歧 → 工作合作更顺",
+          "只见一次却很友好 → 让我放松又好奇 → 希望再次见面"
+        ]
+      },
+      body: {
+        text: "I'd like to talk about Mr Chen, a product manager at another software company. I met him only once at a small technology event last month. He gave a short talk about communication between teams. After the talk, I introduced myself, and we spoke for about ten minutes. I told him that I sometimes found it hard to explain technical problems to other teams. He listened carefully and suggested using simple examples instead of technical words. Although our conversation was short, he seemed calm, patient and friendly.",
+        highlights: [
+          "Mr Chen",
+          "only once",
+          "technology event",
+          "ten minutes",
+          "simple examples",
+          "calm, patient and friendly"
+        ]
+      },
+      pointsLabel: "Why I want to know more about him · 3 原因",
+      reasons: [
+        {
+          text: "First of all, he has managed several large projects, so I would like to learn how he plans his work and makes difficult decisions. His experience could help me grow in my career.",
+          highlights: ["managed several large projects", "grow in my career"]
+        },
+        {
+          text: "Secondly, he explains difficult ideas in a simple and calm way. Learning this skill could help me work better with other teams and avoid unnecessary disagreements.",
+          highlights: ["simple and calm way", "work better with other teams"]
+        },
+        {
+          text: "What's more, he was patient and friendly, so I felt comfortable talking to him. I am curious about his life and hope we can have a longer conversation next time.",
+          highlights: ["patient and friendly", "a longer conversation"]
+        }
+      ]
+    },
+    {
+      question: "Describe a person you know who is very organized",
+      memoryChain: {
+        story: "同事 Alex → 每天列三件要事 → 日历加截止时间 → 上线前做检查表 → 团队按时完成",
+        reasons: [
+          "计划清楚 → 节省时间 → 减少可以避免的错误",
+          "每人知道任务 → 压力更小 → 团队合作更顺",
+          "经常按时交付 → 同事更信任他 → 适合带项目"
+        ]
+      },
+      body: {
+        text: "I'd like to talk about my colleague Alex, who is one of the most organized people I know. We have worked in the same software team for about six years. Every morning, he writes down his three most important tasks. He puts meetings and deadlines in his calendar and takes short notes after each discussion. Before we release new software, he also prepares a simple checklist. I noticed this quality clearly during an important release last year. Alex divided the work, gave each person a clear responsibility and checked our progress at fixed times. We found a small problem early and finished on time.",
+        highlights: [
+          "my colleague Alex",
+          "three most important tasks",
+          "meetings and deadlines",
+          "a simple checklist",
+          "a clear responsibility",
+          "finished on time"
+        ]
+      },
+      pointsLabel: "Why being organized is important to him · 3 原因",
+      reasons: [
+        {
+          text: "First of all, a clear plan saves time and helps him avoid small mistakes. He does not need to remember everything in his head because it is written down.",
+          highlights: ["saves time", "avoid small mistakes"]
+        },
+        {
+          text: "Secondly, his plan reduces pressure for the whole team. Everyone knows what to do and when to finish it, so people can work together more easily.",
+          highlights: ["reduces pressure", "work together more easily"]
+        },
+        {
+          text: "What's more, being organized makes other people trust him. This is especially important because he often leads projects and his decisions affect the whole team.",
+          highlights: ["makes other people trust him", "leads projects"]
+        }
+      ]
+    },
+    {
+      question: "Describe a happy person you know",
+      memoryChain: {
+        story: "快乐的人是奶奶 → 住安静社区 → 喜欢种菜 → 微笑哼歌并分享蔬菜 → 遇到坏天气也很积极",
+        reasons: [
+          "享受种菜和健康 → 珍惜简单生活 → 每天有满足感",
+          "常和家人分享 → 一起吃饭聊天 → 关系亲近",
+          "遇到问题不抱怨 → 重新开始 → 积极态度影响我"
+        ]
+      },
+      body: {
+        text: "The happy person I would like to talk about is my grandmother. She lives in a quiet neighbourhood and has a small garden beside her home. She is kind, calm and patient, and she rarely complains. She shows her happiness in small ways. She smiles when she works in the garden, sometimes hums an old song and gets excited when new vegetables begin to grow. When relatives visit, she gives them fresh vegetables and enjoys seeing everyone eat together. Last spring, heavy rain damaged some plants, but she simply cleared them away, planted new seeds and laughed about the bad weather.",
+        highlights: [
+          "my grandmother",
+          "small garden",
+          "rarely complains",
+          "hums an old song",
+          "fresh vegetables",
+          "planted new seeds"
+        ]
+      },
+      pointsLabel: "Why I think she is a happy person · 3 原因",
+      reasons: [
+        {
+          text: "First of all, she enjoys simple things such as good health and working in her garden. These small activities give her a sense of achievement every day.",
+          highlights: ["enjoys simple things", "a sense of achievement"]
+        },
+        {
+          text: "Secondly, she has a close relationship with our family. She likes sharing food, talking with us and spending time together, so she does not feel lonely.",
+          highlights: ["a close relationship", "spending time together"]
+        },
+        {
+          text: "What's more, she stays positive when a small problem happens. Her attitude makes her own life easier and usually makes me feel calmer as well.",
+          highlights: ["stays positive", "makes me feel calmer"]
+        }
+      ]
+    },
+    {
+      question: "Describe a famous person in your local area",
+      memoryChain: {
+        story: "当地名人于东来 → 创办胖东来 → 重视服务和员工 → 外地人来参观 → 提升当地知名度",
+        reasons: [
+          "商场干净、标识清楚 → 解决顾客小问题 → 服务口碑好",
+          "重视员工体验 → 员工更愿意帮助顾客 → 建立信任",
+          "吸引外地游客 → 当地更有名 → 我尊重他的实用理念"
+        ]
+      },
+      body: {
+        text: "A famous person in my local area is Yu Donglai, the founder of Pang Dong Lai. It is a supermarket company that is very well known where I live. He developed it from a local business into a strong local brand. Its stores pay close attention to the shopping environment, product information, customer service and the working experience of staff. The stores are usually clean, the signs are clear and staff members are willing to help. People from other cities sometimes come to visit a Pang Dong Lai store, and local businesses discuss what they can learn from its service.",
+        highlights: [
+          "Yu Donglai",
+          "Pang Dong Lai",
+          "a strong local brand",
+          "customer service",
+          "willing to help",
+          "People from other cities"
+        ]
+      },
+      pointsLabel: "Why he is popular and how I feel · 3 原因",
+      reasons: [
+        {
+          text: "First of all, local people like the careful service in his stores. The company pays attention to ordinary problems, so shopping there feels easy and comfortable.",
+          highlights: ["careful service", "easy and comfortable"]
+        },
+        {
+          text: "Secondly, the company cares about both customers and staff. When workers feel respected, they are more willing to help customers, and this builds trust.",
+          highlights: ["customers and staff", "builds trust"]
+        },
+        {
+          text: "What's more, the business has made our local area better known and attracted visitors. I respect him because his practical ideas have had a positive local influence.",
+          highlights: ["better known", "a positive local influence"]
+        }
+      ]
+    },
+    {
+      question: "Describe a gift you would like to buy for your friend",
+      memoryChain: {
+        story: "朋友 Alex → 同公司认识六年 → 想送智能手表 → 比较评价和兼容性 → 工作提醒加健康监测",
+        reasons: [
+          "会议和消息提醒 → 少看手机 → 工作更方便",
+          "记录步数心率睡眠 → 了解健康 → 养成好习惯",
+          "他送过我无线耳机 → 回应他的心意 → 礼物实用又公平"
+        ]
+      },
+      body: {
+        text: "The friend I would like to buy a gift for is Alex. I met him on my first day at my current company, and I have known him for about six years. I would choose a practical smart watch in a simple colour. Before buying it, I would check that it worked with his phone, read user reviews and compare a few models. I would choose a reliable mid-range watch instead of the most expensive one. It could show meeting reminders and important messages at work. It could also count his steps, measure his heart rate and help him understand his sleep.",
+        highlights: [
+          "Alex",
+          "about six years",
+          "a practical smart watch",
+          "read user reviews",
+          "meeting reminders",
+          "heart rate"
+        ]
+      },
+      pointsLabel: "Why I would choose this gift · 3 原因",
+      reasons: [
+        {
+          text: "First of all, the watch would make his work more convenient. He could see meeting reminders and important messages without checking his phone all the time.",
+          highlights: ["make his work more convenient", "without checking his phone"]
+        },
+        {
+          text: "Secondly, it could help him look after his health by recording his steps, heart rate and sleep. These simple records might encourage better daily habits.",
+          highlights: ["look after his health", "better daily habits"]
+        },
+        {
+          text: "What's more, Alex once gave me wireless headphones that I use almost every day. A similar practical gift would return his kindness and show that I understand his needs.",
+          highlights: ["gave me wireless headphones", "return his kindness"]
+        }
+      ]
+    },
+    {
+      question: "Describe a course that impressed you a lot",
+      memoryChain: {
+        story: "第一部 At first：十岁左右的小学英语课，Mr Brown 教英文歌，歌词很快让我紧张 → 第二部 However：他把歌拆成短句、用动作解释，再带我们分组练习 → 第三部 In the end：全班唱完整首歌，我更敢开口说英语",
+        reasons: [
+          "老师很耐心 → 犯错也继续教和纠正 → 我不怕开口",
+          "遇到难句不放弃 → 反复练习很多遍 → 最后全班唱好",
+          "歌曲简单好记 → 现在仍记得 → 这节课一直很特别"
+        ]
+      },
+      body: {
+        text: "The course that impressed me most was an English course in primary school, especially one lesson when I was about ten. A foreign teacher called Mr Brown taught us a simple English song in our usual classroom. At first, the words sounded fast and unfamiliar, so I felt a little nervous. However, he played the song several times, divided it into short lines and used simple actions to explain the meaning. We practised in small groups, and he corrected our pronunciation patiently. In the end, the whole class sang the song together. I felt excited and more confident about speaking English.",
+        highlights: [
+          "English course in primary school",
+          "Mr Brown",
+          "At first",
+          "fast and unfamiliar",
+          "However",
+          "short lines",
+          "small groups",
+          "In the end",
+          "more confident"
+        ]
+      },
+      pointsLabel: "Why the course impressed me · 3 原因",
+      reasons: [
+        {
+          text: "First of all, Mr Brown was very patient. No matter what mistakes we made, he kept teaching us and corrected us kindly.",
+          highlights: ["very patient", "corrected us kindly"]
+        },
+        {
+          text: "Secondly, we did not give up when the song was difficult. We practised it many times, and in the end, we sang it well together.",
+          highlights: ["did not give up", "many times", "sang it well"]
+        },
+        {
+          text: "What's more, the song was simple and easy to remember. Even now, I can still remember it, so the lesson is still special to me.",
+          highlights: ["easy to remember", "still remember it"]
+        }
+      ]
+    },
+    {
+      question: "Describe a time when you interviewed a famous person",
+      memoryChain: {
+        story: "去年公司科技活动 → 采访知名科技博主王先生 → 安静会议室聊十五分钟 → 谈学习和压力 → 从紧张到放松",
+        reasons: [
+          "第一次采访知名人物 → 完成后很自豪 → 增加自信",
+          "提前准备问题 → 交谈更顺 → 学会自然追问",
+          "得到学习和减压建议 → 对工作有帮助 → 保留通讯作纪念"
+        ]
+      },
+      body: {
+        text: "I'd like to talk about a short interview I had with Mr Wang, a well-known technology blogger in China. It happened after a technology event held by my company last year. My manager asked me to interview him for our internal newsletter. We sat in a quiet meeting room and talked for about fifteen minutes. I asked how he started making videos, how he chose useful topics and how technology workers could keep learning. We also talked about work pressure. At first, I was nervous and spoke too quickly, but he smiled and gave clear answers, so I gradually relaxed and asked a natural follow-up question.",
+        highlights: [
+          "Mr Wang",
+          "technology blogger",
+          "last year",
+          "internal newsletter",
+          "fifteen minutes",
+          "gradually relaxed"
+        ]
+      },
+      pointsLabel: "How I felt about the experience · 3 原因",
+      reasons: [
+        {
+          text: "First of all, I felt proud because it was my first time interviewing a well-known person. Finishing the conversation successfully gave me more confidence.",
+          highlights: ["felt proud", "gave me more confidence"]
+        },
+        {
+          text: "Secondly, I learned that good preparation makes an interview much easier. My prepared questions helped me keep the conversation clear and natural.",
+          highlights: ["good preparation", "clear and natural"]
+        },
+        {
+          text: "What's more, his advice about learning and pressure was useful for my work. I still keep the final newsletter because it reminds me of that special day.",
+          highlights: ["useful for my work", "keep the final newsletter"]
+        }
+      ]
+    },
+    {
+      question: "Describe a time you made an important decision and were happy with the result",
+      memoryChain: {
+        story: "一年前上线新功能 → 系统变慢、订单失败 → 决定暂停功能 → 通知客服并修复 → 测试后重新上线",
+        reasons: [
+          "及时暂停 → 避免更多失败订单 → 防止更大损失",
+          "找到错误设置 → 修复并认真测试 → 用户恢复下单",
+          "团队认可决定 → 更信任我的判断 → 我更有信心"
+        ]
+      },
+      body: {
+        text: "I'd like to talk about an important decision I made at work about a year ago. My team had just released a new feature for an online shopping system, but the system soon became slow and some customers could not complete their orders. I had to decide whether to keep the feature online or pause it. After checking the error messages and speaking with Alex, I decided to pause it, tell the customer service team what had happened and fix the problem before releasing it again. The choice was difficult because the team had worked hard, but protecting customers was more important than saving a few hours.",
+        highlights: [
+          "about a year ago",
+          "customers could not complete their orders",
+          "keep the feature online or pause it",
+          "decided to pause it",
+          "customer service team",
+          "protecting customers"
+        ]
+      },
+      pointsLabel: "Why I was happy with the result · 3 原因",
+      reasons: [
+        {
+          text: "First of all, pausing the feature prevented more failed orders and avoided a bigger loss for the company and its customers. It was the safer choice.",
+          highlights: ["prevented more failed orders", "avoided a bigger loss"]
+        },
+        {
+          text: "Secondly, Alex and I found one wrong setting, corrected it and tested the system carefully. A few hours later, customers could place orders normally again.",
+          highlights: ["one wrong setting", "place orders normally again"]
+        },
+        {
+          text: "What's more, the team trusted my judgement afterwards. I felt relieved and more confident because a difficult decision had produced a good result.",
+          highlights: ["trusted my judgement", "relieved and more confident"]
+        }
+      ]
+    }
+  ];
+
+  const firstFourMaterials = window.IELTS_DATA.part2.slice(0, 4);
+  for (const standardCard of standardCards) {
+    const item = firstFourMaterials
+      .flatMap((material) => material.tips?.topicGroups || [])
+      .flatMap((group) => group.items || [])
+      .find((candidate) => candidate.question === standardCard.question);
+    if (item) Object.assign(item, standardCard);
+  }
+})();
+
+// PDF 复习清单中从其他素材 Tab 调入的题目，也使用同一套标准素材卡。
+(() => {
+  const standardCards = [
+    {
+      question: "Describe something important that has been kept in your family for a long time.",
+      focus: "用“过去 → 现在 → 未来”三部曲讲奶奶的旧故事书，按时间顺序自然说完。",
+      omit: "删掉具体年份、书名、干燥抽屉和扫描书页等难记细节。",
+      draftCues: ["past-grandma", "read it to me", "now-parents keep it", "family memories", "future-next generation"],
+      memoryChain: {
+        story: "过去：奶奶小时候收到书，我小时候她读给我听 → 现在：父母保管，全家偶尔一起看 → 未来：留给下一代",
+        reasons: [
+          "想起奶奶读故事 → 回忆她的陪伴 → 感觉亲近",
+          "记录奶奶的童年 → 了解家庭过去 → 连接不同代人",
+          "书本不贵 → 但回忆无法买到 → 值得留给下一代"
+        ]
+      },
+      body: {
+        text: "I'd like to talk about an old storybook in my family. At first, it belonged to my grandma. Her parents gave it to her when she was a child, so our family has kept it for many years. Years later, when I was little, my grandma often read it to me before bed. Now my parents keep the book at home, and we sometimes look at it together. It is not expensive, but it means a lot to us because it brings back happy family memories. In the future, I hope we can keep it for the next generation.",
+        highlights: ["old storybook", "At first", "Years later", "read it to me", "Now", "happy family memories", "In the future", "next generation"]
+      },
+      pointsLabel: "Why it is important to my family · 3 个不同原因",
+      reasons: [
+        {
+          text: "First of all, it reminds me of the happy time I spent with my grandma. When I see the book, I remember her reading to me before bed.",
+          highlights: ["happy time", "reading to me"]
+        },
+        {
+          text: "Secondly, it is part of our family history. It helps younger family members learn about my grandma's childhood and our family's past.",
+          highlights: ["family history", "our family's past"]
+        },
+        {
+          text: "Finally, the book cannot be replaced, even though it is not expensive. We cannot buy another book with the same memories, so we want to keep it for the next generation.",
+          highlights: ["cannot be replaced", "same memories", "next generation"]
+        }
+      ]
+    },
+    {
+      question: "Describe a person who solved a problem in a smart way.",
+      draftCues: ["Alex", "system became slow", "error messages", "check step by step", "small change"],
+      memoryChain: {
+        story: "同事 Alex → 新功能上线后系统变慢 → 先看错误信息 → 按顺序检查 → 找到请求过多的位置 → 小改动后恢复",
+        reasons: [
+          "先缩小问题范围 → 不乱改系统 → 很快找到原因",
+          "只做一个小改动再测试 → 避免新问题 → 方法安全",
+          "全程冷静并分工 → 团队压力更小 → 用户很快恢复下单"
+        ]
+      },
+      body: {
+        text: "I'd like to talk about my colleague Alex, a senior software engineer on my team. About a year ago, we released a new feature, but the system soon became slow and some users could not complete their orders. Instead of changing many things at once, Alex first read the error messages. He then checked each part of the system in a clear order and asked us to repeat the problem. We found that one part was receiving too many requests. Alex made one small change, tested it carefully and checked the orders again. In the end, the system worked normally.",
+        highlights: ["my colleague Alex", "system soon became slow", "error messages", "a clear order", "one small change", "worked normally"]
+      },
+      pointsLabel: "Why I think he solved it in a smart way · 3 原因",
+      reasons: [
+        {
+          text: "First of all, he reduced the number of possible causes before changing anything. This saved time and stopped us from making random changes.",
+          highlights: ["reduced the number of possible causes", "saved time"]
+        },
+        {
+          text: "Secondly, he made only one small change and tested it carefully. This was safer because it did not create a second problem in the system.",
+          highlights: ["one small change", "did not create a second problem"]
+        },
+        {
+          text: "What's more, he stayed calm and gave everyone a clear task. His method reduced the team's stress and helped users place orders again quickly.",
+          highlights: ["stayed calm", "a clear task"]
+        }
+      ]
+    },
+    {
+      question: "Describe a quiet place you like to go to.",
+      draftCues: ["living room", "after work", "soft light", "phone on silent", "music or movie"],
+      memoryChain: {
+        story: "安静地点是家里客厅 → 下班后去 → 沙发和柔和灯光 → 听音乐或看电影 → 手机静音 → 心情平静",
+        reasons: [
+          "背对主路加厚窗帘 → 外面噪音少 → 可以安静休息",
+          "下班后听音乐 → 暂时忘掉工作 → 减轻压力",
+          "不用出门或花钱 → 也能陪女朋友看电影 → 方便又温暖"
+        ]
+      },
+      body: {
+        text: "The quiet place I like to go to is the living room in my own home. It is not large, but it has a comfortable sofa, a television and soft lighting, so it feels warm and peaceful. I normally go there after work or whenever I need a break from my computer. When I am alone, I turn on a small lamp, sit on the sofa and listen to quiet music. At weekends, my girlfriend and I sometimes watch a movie there. The room faces away from the main road, and the curtains block some outside noise. I also put my phone on silent.",
+        highlights: ["living room", "comfortable sofa", "soft lighting", "after work", "quiet music", "phone on silent"]
+      },
+      pointsLabel: "Why I like this quiet place · 3 原因",
+      reasons: [
+        {
+          text: "First of all, the room is away from the main road, so there is not much traffic noise. With the curtains closed, it feels very peaceful.",
+          highlights: ["away from the main road", "very peaceful"]
+        },
+        {
+          text: "Secondly, sitting there helps me forget about work and clear my mind. After twenty or thirty minutes, I usually feel calmer and more relaxed.",
+          highlights: ["forget about work", "calmer and more relaxed"]
+        },
+        {
+          text: "What's more, I do not need to travel or spend money to enjoy it. I can also watch a film with my girlfriend and spend quiet time together.",
+          highlights: ["do not need to travel or spend money", "quiet time together"]
+        }
+      ]
+    },
+    {
+      question: "Describe a famous person you would like to meet",
+      memoryChain: {
+        story: "想见雷军 → 从新闻和产品视频认识 → 上海科技活动后见面 → 聊团队难题和职业发展",
+        reasons: [
+          "管理大型科技公司 → 有产品和团队经验 → 能给职业建议",
+          "想问遇到严重问题如何决策 → 学习保持冷静 → 改进工作方法",
+          "创业多年仍有动力 → 能给我方向和信心 → 鼓励继续成长"
+        ]
+      },
+      body: {
+        text: "The famous person I would like to meet is Lei Jun, the founder of Xiaomi and a well-known technology leader in China. I first learned about him through online news and product videos. Later, I watched some of his speeches and interviews because I liked the clear way he explained technology and business. I would like to meet him after a small technology event in Shanghai. A short conversation after his speech would feel more natural than meeting him in a crowded public place. I would tell him that I am a software engineer and ask him a few questions about products, teamwork and difficult decisions.",
+        highlights: ["Lei Jun", "founder of Xiaomi", "online news and product videos", "technology event in Shanghai", "software engineer", "difficult decisions"]
+      },
+      pointsLabel: "Why I would like to meet him · 3 原因",
+      reasons: [
+        {
+          text: "First of all, he has a lot of experience in technology and business. I would like to learn how he develops useful products and manages a large team.",
+          highlights: ["experience in technology and business", "manages a large team"]
+        },
+        {
+          text: "Secondly, I want to ask how he makes decisions when a serious problem appears. His answer could help me stay calm and work more clearly.",
+          highlights: ["makes decisions", "stay calm"]
+        },
+        {
+          text: "What's more, I would like to know how he stays motivated after working for many years. Meeting him could give me useful career advice and more confidence.",
+          highlights: ["stays motivated", "useful career advice"]
+        }
+      ]
+    },
+    {
+      question: "Describe a movie you watched and enjoyed recently.",
+      focus: "使用《Grandma's Garden》这部家庭电影，覆盖观看时间地点、同伴、内容以及喜欢它的原因。",
+      omit: "不需要讲完整剧情，只记奶奶种菜、分享蔬菜和做胡萝卜蛋糕三个画面。",
+      draftCues: ["last weekend", "at home", "girlfriend", "Grandma's Garden", "warm family story"],
+      memoryChain: {
+        story: "上周末在家 → 和女朋友一起看 → 《奶奶的花园》 → 奶奶种菜照顾家人 → 看完聊喜欢的画面",
+        reasons: [
+          "我和女朋友都喜欢家庭电影 → 故事简单好懂 → 适合一起看",
+          "奶奶用蔬菜表达关心 → 故事温暖 → 让我想起自己的奶奶",
+          "在家看电影很放松 → 暂时忘记工作 → 和女朋友共度时间"
+        ]
+      },
+      body: {
+        text: "I'd like to talk about a family movie called Grandma's Garden, which I watched at home last weekend. My girlfriend watched it with me, and we prepared some snacks and drinks before it started. The film is about an energetic Chinese grandma who grows tomatoes, cucumbers and carrots behind her house. She often gives her family a large bag of vegetables, and she even makes a carrot cake for her granddaughter's birthday. The story shows that growing food is her way of caring for the people she loves. After the film, my girlfriend and I talked about our favourite scenes.",
+        highlights: ["Grandma's Garden", "at home last weekend", "My girlfriend", "grows tomatoes", "a carrot cake", "caring for the people she loves"]
+      },
+      pointsLabel: "Why I watched and enjoyed this movie · 3 原因",
+      reasons: [
+        {
+          text: "First of all, my girlfriend and I both enjoy simple family films. The story was easy to follow, so we could relax without thinking too much.",
+          highlights: ["simple family films", "easy to follow"]
+        },
+        {
+          text: "Secondly, the grandma's way of caring for her family was warm and natural. It reminded me of my own grandma and stayed in my mind.",
+          highlights: ["warm and natural", "reminded me of my own grandma"]
+        },
+        {
+          text: "What's more, watching it at home helped me forget about work and spend relaxing time with my girlfriend. It made an ordinary weekend feel special.",
+          highlights: ["forget about work", "time with my girlfriend"]
+        }
+      ]
+    },
+    {
+      question: "Describe a shopping mall you like.",
+      focus: "用上海陆家嘴的商场回答，覆盖位置、环境、在里面做什么以及喜欢它的原因。",
+      omit: "不需要记商场的真实名称或门店数量，保留交通、餐饮和避雨即可。",
+      draftCues: ["Lujiazui", "Shanghai trip", "underground", "dinner and shops", "rainy evening"],
+      memoryChain: {
+        story: "去年秋天去上海 → 陆家嘴大型商场 → 地铁方便 → 吃晚饭、逛商店 → 外面下雨所以待了两小时",
+        reasons: [
+          "靠近地铁和景点 → 标识清楚 → 很容易到达和找路",
+          "餐厅选择很多 → 中餐日料西餐都有 → 两个人都能选到喜欢的",
+          "环境干净舒适 → 下雨时可以休息 → 下次去上海还想再去"
+        ]
+      },
+      body: {
+        text: "I'd like to talk about a large shopping mall in Lujiazui that I visited during a trip to Shanghai last autumn. I went there with my girlfriend. The mall was near several famous buildings and was easy to reach by underground. It looked modern, bright and clean. There were many clothing shops, restaurants, cafés and a cinema. After walking around the city for most of the day, we went there to have dinner and look around the shops. It started raining outside, so we stayed for about two hours. We ate in the restaurant area and rested before returning to our hotel.",
+        highlights: ["Lujiazui", "Shanghai last autumn", "by underground", "modern, bright and clean", "have dinner", "stayed for about two hours"]
+      },
+      pointsLabel: "Why I like this shopping mall · 3 原因",
+      reasons: [
+        {
+          text: "First of all, the mall is convenient to reach and its signs are clear. Even first-time visitors can find the shops, restaurants and underground station easily.",
+          highlights: ["convenient to reach", "signs are clear"]
+        },
+        {
+          text: "Secondly, there is a wide choice of food, including Chinese, Japanese and Western dishes. It was easy for both of us to choose something we liked.",
+          highlights: ["a wide choice of food", "easy for both of us"]
+        },
+        {
+          text: "What's more, it gave us a clean and comfortable place to rest when the weather became rainy. I would happily return there on another trip.",
+          highlights: ["comfortable place to rest", "happily return"]
+        }
+      ]
+    },
+    {
+      question: "Describe a plan that you had to change recently",
+      focus: "使用周末野餐因下雨改成在家做饭看电影的简单经历，清楚覆盖原计划、原因、新计划和感受。",
+      omit: "不需要复杂的旅行取消或经济损失，重点放在如何灵活调整。",
+      draftCues: ["last Saturday", "park picnic", "heavy rain", "cook at home", "movie with girlfriend"],
+      memoryChain: {
+        story: "上周六计划去公园野餐 → 早上开始下大雨 → 天气预报说会下一天 → 改成在家做饭看电影 → 最后仍然很开心",
+        reasons: [
+          "刚开始失望 → 已经准备食物 → 不能去公园",
+          "新计划简单方便 → 不会淋雨也不用花很多钱 → 很快放松下来",
+          "仍和女朋友共度时间 → 晚餐电影都很愉快 → 学会灵活调整"
+        ]
+      },
+      body: {
+        text: "I'd like to talk about a plan I changed last Saturday. My girlfriend and I planned to have a picnic in a park near my home. We had already bought some fruit, bread and drinks. However, it began to rain heavily that morning, and the weather app said the rain would continue all day. We decided not to wait for the weather to improve. Instead, she came to my home, and we used the picnic food to make a simple lunch. In the afternoon, we sat in the living room and watched a comedy. It was different from our original plan, but we still had a pleasant day.",
+        highlights: ["last Saturday", "a picnic", "rain heavily", "weather app", "a simple lunch", "watched a comedy"]
+      },
+      pointsLabel: "How I felt about changing the plan · 3 原因",
+      reasons: [
+        {
+          text: "At first, I felt disappointed because we had prepared the food and wanted to spend time outdoors. The heavy rain made the change unavoidable.",
+          highlights: ["felt disappointed", "change unavoidable"]
+        },
+        {
+          text: "After a while, I felt relaxed because the new plan was simple and convenient. We stayed dry and did not need to spend extra money.",
+          highlights: ["simple and convenient", "did not need to spend extra money"]
+        },
+        {
+          text: "In the end, I was happy because I still spent quality time with my girlfriend. The experience reminded me that a changed plan can still work well.",
+          highlights: ["spent quality time", "still work well"]
+        }
+      ]
+    }
+  ];
+
+  const allItems = window.IELTS_DATA.part2.flatMap((material) => [
+    ...(material.topics || []),
+    ...(material.tips?.topicGroups || []).flatMap((group) => group.items || [])
+  ]);
+  for (const standardCard of standardCards) {
+    const item = allItems.find((candidate) => candidate.question === standardCard.question);
+    if (item) Object.assign(item, standardCard);
+  }
+})();
+
+// “快乐的人”直接复用种菜的奶奶；结尾用 money、emotion、relationship 三个角度扣题。
+(() => {
+  const happyQuestion = "Describe a happy person you know";
+  const vegetableQuestion = "Describe a person who loves to grow vegetables at home or in the garden";
+  const peopleMaterial = window.IELTS_DATA.part2.find((material) => material.id === "people-tips");
+  if (!peopleMaterial?.tips) return;
+
+  const allItems = (peopleMaterial.tips.topicGroups || []).flatMap((group) => group.items || []);
+  const happyItem = allItems.find((item) => item.question === happyQuestion);
+  const grandmaStory = (peopleMaterial.tips.mergedStories || []).find((story) =>
+    story.baseQuestion === vegetableQuestion
+  );
+  if (!happyItem || !grandmaStory) return;
+
+  const memoryChain = {
+    story: "第一部 At first：奶奶退休后有点无聊 → 在家旁开了小菜园 → 每天浇水除草，常常微笑哼歌 → 第二部 However：去年春天大雨损坏了一些菜 → 她没抱怨 → 清理后重新播种 → 第三部 In the end：收获新鲜蔬菜 → 少去商店买菜、节省生活费 → 分给家人邻居、一起做饭 → 心情平静又有成就感，关系也更亲近",
+    reasons: [
+      "Money：自己种菜＋厨余做肥料 → 少从商店买 → 节省生活费",
+      "Emotion：每天有事做＋看到蔬菜长大 → 感到平静和自豪 → 遇到坏天气也不抱怨",
+      "Relationship：蔬菜分给家人和邻居＋一起做饭聊天 → 不孤独 → 关系更亲近"
+    ]
+  };
+  const body = {
+    text: "I'd like to talk about my grandma, who lives in the countryside and has a small vegetable garden beside her house. After she retired, she sometimes felt bored, so she started growing tomatoes, cabbages and green beans. At first, she watered them and removed weeds every morning. She often smiled and hummed a song while she worked. However, heavy rain damaged some plants last spring. She did not complain. She cleared the broken plants and planted new seeds. In the end, the vegetables grew well. She spent less money at shops and shared the extra vegetables with our family and neighbours. When I visit, we pick vegetables and cook lunch together. Gardening makes her feel calm, useful and proud, while sharing the food keeps her close to other people. That is why I think she is genuinely happy.",
+    highlights: ["my grandma", "small vegetable garden", "After she retired", "At first", "smiled and hummed a song", "However", "did not complain", "In the end", "spent less money", "shared", "calm, useful and proud", "close to other people"]
+  };
+  const reasons = [
+    {
+      text: "First, growing vegetables saves money because she buys less food from shops and makes simple plant food from kitchen waste. The saving is small each week, but it is useful over time.",
+      highlights: ["saves money", "buys less food", "useful over time"],
+      memory: "1 · Money：自己种菜＋厨余做肥料 → 少从商店买 → 节省生活费"
+    },
+    {
+      text: "Second, gardening gives her useful work and gentle exercise. Watching the plants grow makes her feel calm and proud, and she stays positive when the weather causes a problem.",
+      highlights: ["useful work", "calm and proud", "stays positive"],
+      memory: "2 · Emotion：每天有事做＋看到蔬菜长大 → 平静自豪 → 遇到问题也积极"
+    },
+    {
+      text: "Finally, she shares vegetables with relatives and neighbours, and our family often cooks with her. These simple activities give people time to talk, so she feels connected rather than lonely.",
+      highlights: ["shares vegetables", "cooks with her", "connected rather than lonely"],
+      memory: "3 · Relationship：分蔬菜＋一起做饭聊天 → 不孤独 → 关系更亲近"
+    }
+  ];
+
+  Object.assign(happyItem, {
+    storyTitle: "种菜的奶奶｜快乐的人",
+    draftCues: ["grandma-retired", "small garden", "rain-replant", "save money", "share-relaxed"],
+    focus: "主体全部复用种菜的奶奶；先用微笑、哼歌和雨后重种表现快乐，再用 money、emotion、relationship 三个角度解释原因。",
+    omit: "不说她永远没有烦恼；不扩展复杂种植技术，只保留浇水、除草和重新播种。",
+    memoryChain,
+    body,
+    pointsLabel: "Why she is happy · Money / Emotion / Relationship",
+    reasonHint: false,
+    reasons
+  });
+
+  if (!grandmaStory.questions.some((entry) => (entry.question || entry) === happyQuestion)) {
+    grandmaStory.questions.push({
+      question: happyQuestion,
+      special: "重点说她怎样表现快乐：种菜时微笑哼歌，坏天气后也不抱怨；结尾用 money、emotion、relationship。"
+    });
+  }
+  grandmaStory.title = "种菜的奶奶｜种菜与快乐三题共用";
+  grandmaStory.focus = "三题共用同一个退休后种菜的奶奶；种植题突出做什么，快乐题突出微笑、积极和与他人的连接。";
+  grandmaStory.omit = "不讲复杂的园艺知识；每题只选最相关的内容和观点。";
+  grandmaStory.draftCues = ["retired-bored", "garden-water-weed", "rain-replant", "money-emotion-relationship"];
+  grandmaStory.memoryChain = memoryChain;
+  grandmaStory.body = body;
+  grandmaStory.pointsLabel = "三道题的对应观点｜Money / Emotion / Relationship";
+  grandmaStory.reasonHint = false;
+  grandmaStory.reasons = reasons;
+})();
+
+// 七道题共用“学生软件延期＋Alex 建议分步发布”的主线，只切换题目视角。
+(() => {
+  const questions = {
+    tech: "Describe a challenging technological problem you faced",
+    smart: "Describe a person who solved a problem in a smart way.",
+    decision: "Describe an important decision that you made",
+    plan: "Describe a plan that you had to change recently",
+    job: "Describe your perfect job.",
+    helper: "Describe a person who often helps others.",
+    advice: "Describe a time when you gave someone useful advice."
+  };
+  const allItems = window.IELTS_DATA.part2.flatMap((material) => [
+    ...(material.topics || []),
+    ...(material.tips?.topicGroups || []).flatMap((group) => group.items || [])
+  ]);
+  const findItem = (question) => allItems.find((item) => item.question === question);
+  const eventMaterial = window.IELTS_DATA.part2.find((material) => material.id === "event-tips");
+  const alexStory = eventMaterial?.tips?.mergedStories?.find((story) => story.title === "Alex 与系统故障");
+  const originalTechItem = findItem(questions.tech);
+
+  // 科技问题改为独立的学生软件卡；旧的 Alex 共用卡继续保留原故事，避免影响它覆盖的其他题目。
+  if (alexStory && originalTechItem) {
+    alexStory.questions = alexStory.questions.filter((entry) =>
+      (typeof entry === "string" ? entry : entry.question) !== questions.tech
+    );
+    alexStory.memoryChain = originalTechItem.memoryChain;
+    alexStory.body = originalTechItem.body;
+    alexStory.draftCues = originalTechItem.draftCues;
+    alexStory.focus = "根据具体题目切换发消息、团队合作、Alex 帮忙或电子设备问题；共用的是网购系统故障。";
+    alexStory.omit = "这张旧素材卡不再回答“遇到的科技问题”，也不带入学生软件延期的故事。";
+  }
+
+  const standardCards = [
+    {
+      question: questions.tech,
+      storyTitle: "学生软件延期｜遇到的科技问题",
+      focus: "重点讲学生软件在最终测试时变慢、课程打不开，以及 Alex 建议先向小范围学生发布。",
+      omit: "不需要技术术语；只说检查问题、开会、分步发布和最终结果。",
+      draftCues: ["last September", "student app", "slow-lessons failed", "Alex's advice", "small group first"],
+      memoryChain: {
+        story: "去年九月准备发布学生软件 → 最终测试时变慢、课程打不开 → 自己检查仍不放心 → 开会讨论 → Alex 建议先小范围发布 → 修复后十月全面上线",
+        reasons: [
+          "先重复问题并记录 → 确认不是偶然 → 让会议更清楚",
+          "Alex 建议拆成几步 → 先给少量学生使用 → 降低风险",
+          "收集反馈后修复 → 十月全面发布 → 软件运行稳定"
+        ]
+      },
+      body: {
+        text: "I'd like to talk about a technical problem I faced at work last September. My team planned to release a learning app to all students at the end of the month. During the final test, the app became very slow, and several lessons could not open. I checked the error messages and repeated the test, but I could not find a safe way to release it on time. We held a meeting with Alex, a senior engineer on my team. He stayed calm and suggested that we release it to a small group first. We followed his advice, collected feedback, fixed the remaining problems and released the full version in October.",
+        highlights: ["last September", "learning app", "became very slow", "lessons could not open", "release it to a small group first", "in October"]
+      },
+      pointsLabel: "How we solved the technological problem · 3 步",
+      reasons: [
+        {
+          text: "First, I repeated the test and wrote down the problems clearly. This helped the team understand that the errors were serious and not random.",
+          highlights: ["repeated the test", "wrote down the problems"]
+        },
+        {
+          text: "Then Alex suggested that we release the app to a small group first. This gave us real feedback without affecting every student.",
+          highlights: ["a small group first", "real feedback"]
+        },
+        {
+          text: "Finally, we fixed the remaining problems and released the full version in October. The app worked smoothly, so I felt relieved and grateful.",
+          highlights: ["released the full version", "relieved and grateful"]
+        }
+      ]
+    },
+    {
+      question: questions.decision,
+      storyTitle: "学生软件延期｜重要决定",
+      focus: "重要决定是取消九月全面上线，改成先小范围发布、十月再全面上线。",
+      omit: "不要把 Alex 说成最终决策者；他提出建议，我负责作出并说明决定。",
+      draftCues: ["September release", "serious problems", "team meeting", "small group first", "full launch in October"],
+      memoryChain: {
+        story: "原定九月全面上线 → 测试发现卡顿和课程打不开 → Alex 建议分步发布 → 我决定先小范围测试 → 十月全面上线",
+        reasons: [
+          "直接全面发布会影响很多学生 → 先小范围更安全 → 保护用户",
+          "延期给团队修复时间 → 避免更大损失 → 对项目负责",
+          "小范围测试成功 → 十月稳定上线 → 证明决定正确"
+        ]
+      },
+      body: {
+        text: "I'd like to talk about an important decision I made at work last September. My team planned to release a new learning app to all students by the end of the month. However, during the final test, the app became slow and some lessons could not open. We held a meeting to decide whether to release it on time or delay it. Alex suggested breaking the release into smaller steps. After listening to him and the rest of the team, I decided to release it to a small group first and move the full release to October. I explained the decision to the project manager and made a new testing plan.",
+        highlights: ["important decision", "last September", "some lessons could not open", "breaking the release into smaller steps", "a small group first", "full release to October"]
+      },
+      pointsLabel: "Why it was an important decision · 3 原因",
+      reasons: [
+        {
+          text: "First of all, releasing the app to everyone could have affected many students. Starting with a small group was a safer way to protect users.",
+          highlights: ["affected many students", "protect users"]
+        },
+        {
+          text: "Secondly, the delay gave us enough time to fix the problems and test the app carefully. It helped us avoid a larger loss later.",
+          highlights: ["enough time", "avoid a larger loss"]
+        },
+        {
+          text: "What's more, the small release went well and the full version worked smoothly in October. This result showed that the decision was responsible.",
+          highlights: ["worked smoothly in October", "responsible"]
+        }
+      ]
+    },
+    {
+      question: questions.plan,
+      storyTitle: "学生软件延期｜近期改变的计划",
+      focus: "清楚对比原计划和新计划：九月面向全部学生发布，改成九月小范围测试、十月全面发布。",
+      omit: "不需要增加学生开学忙等第二条支线，集中讲软件问题和分步发布。",
+      draftCues: ["last September", "all students", "app problems", "small test group", "October release"],
+      memoryChain: {
+        story: "去年九月原计划全面发布 → 测试发现软件变慢、课程打不开 → Alex 建议分步发布 → 新计划是先小范围测试 → 十月再全面上线",
+        reasons: [
+          "准备很久却要改计划 → 刚开始失望 → 担心影响进度",
+          "Alex 的方案简单安全 → 有时间收集反馈 → 慢慢理解改变",
+          "十月稳定上线 → 学生正常使用 → 最后放心并认可新计划"
+        ]
+      },
+      body: {
+        text: "I'd like to talk about a plan I had to change at work last September. My team's original plan was to release a learning app to all students at the end of that month. However, during the final test, the app became slow and some lessons could not open. We held a meeting, and Alex suggested that we release it in stages. Our new plan was to let a small group of students use it first, collect their feedback and fix the problems. We then planned to release the full version in October. At first, I was disappointed about the delay, but the small test went well and the final version worked smoothly.",
+        highlights: ["original plan", "all students", "became slow", "release it in stages", "small group of students", "in October"]
+      },
+      pointsLabel: "How I felt about changing the plan · 3 原因",
+      reasons: [
+        {
+          text: "At first, I felt disappointed because the team had prepared for the September release for a long time. I worried that the delay would affect our progress.",
+          highlights: ["felt disappointed", "affect our progress"]
+        },
+        {
+          text: "After the meeting, I understood that Alex's plan was safer. A small release gave us time to collect feedback and fix the app properly.",
+          highlights: ["plan was safer", "collect feedback"]
+        },
+        {
+          text: "In the end, I felt relieved because the October release worked smoothly and students could use the lessons normally. The change was clearly worthwhile.",
+          highlights: ["felt relieved", "clearly worthwhile"]
+        }
+      ]
+    },
+    {
+      question: questions.helper,
+      storyTitle: "学生软件延期｜乐于助人的 Alex",
+      focus: "先说明 Alex 经常帮助同事，再用学生软件延期和分步发布作为具体例子。",
+      omit: "人物题的主角必须是 Alex；软件问题只是证明他乐于助人的事件。",
+      draftCues: ["Alex", "often helps", "student app", "release in stages", "stable result"],
+      memoryChain: {
+        story: "同事 Alex 经常帮人 → 学生软件上线前出问题 → 他检查情况并参加会议 → 建议先小范围发布 → 帮团队列步骤和测试 → 十月稳定上线",
+        reasons: [
+          "有经验也愿意分享 → 同事遇到问题会找他 → 团队合作更顺",
+          "面对压力保持冷静 → 给出简单可行的分步方案 → 真正解决问题",
+          "一直帮忙到全面上线 → 大家信任他 → 我尊重并想向他学习"
+        ]
+      },
+      body: {
+        text: "I'd like to talk about my colleague Alex, a senior software engineer who often helps other people on my team. He answers questions from new workers and explains problems in a patient way. Last September, we were preparing to release a learning app to all students, but the app became slow and some lessons could not open. Alex checked the information with us and joined the team meeting. He suggested that we release the app to a small group first, collect feedback and fix the remaining problems. He also helped us make a simple checklist for each step. With his help, we released a stable full version in October.",
+        highlights: ["my colleague Alex", "often helps", "learning app", "joined the team meeting", "a small group first", "stable full version"]
+      },
+      pointsLabel: "Why he helps others and how I feel · 3 原因",
+      reasons: [
+        {
+          text: "First of all, Alex has more experience and likes sharing it with other people. He believes that the whole team becomes stronger when colleagues help one another.",
+          highlights: ["sharing it", "help one another"]
+        },
+        {
+          text: "Secondly, he stays calm and gives practical advice when people feel stressed. His step-by-step idea made a difficult problem much easier to handle.",
+          highlights: ["practical advice", "step-by-step idea"]
+        },
+        {
+          text: "What's more, he continued helping us until the full release was successful. I trust and respect him, and I hope to become a colleague like him.",
+          highlights: ["continued helping us", "trust and respect him"]
+        }
+      ]
+    },
+    {
+      question: questions.advice,
+      storyTitle: "学生软件延期｜给项目负责人的建议",
+      focus: "Alex 先提出分步思路；我在正式会议里建议项目负责人采纳，确保原题仍然是“我给建议”。",
+      omit: "不能只说 Alex 给了建议；必须明确说 I advised the project manager。",
+      draftCues: ["student app", "September problems", "talked with Alex", "advised the manager", "small group first"],
+      memoryChain: {
+        story: "学生软件原定九月发布 → 测试出现卡顿和课程打不开 → 会前和 Alex 讨论 → 他提出分步思路 → 我建议项目负责人先小范围发布 → 十月全面上线成功",
+        reasons: [
+          "全面上线风险太大 → 很多学生可能受影响 → 必须提出更安全方案",
+          "Alex 的想法清楚可行 → 我整理后在会议中提出 → 项目负责人采纳",
+          "小范围测试找到剩余问题 → 最终上线稳定 → 建议真正有用"
+        ]
+      },
+      body: {
+        text: "I'd like to talk about some useful advice I gave our project manager last September. Our team planned to release a learning app to all students, but the final test showed that the app was slow and some lessons could not open. Before the main meeting, I discussed the problem with Alex. He suggested breaking the release into smaller steps. During the meeting, I advised the project manager not to release the app to everyone at once. I said we should release it to a small group first, collect feedback, fix the remaining problems and move the full release to October. The manager accepted my advice, and the plan worked well.",
+        highlights: ["useful advice", "project manager", "discussed the problem with Alex", "I advised", "a small group first", "accepted my advice"]
+      },
+      pointsLabel: "Why I gave the advice and why it was useful · 3 原因",
+      reasons: [
+        {
+          text: "First of all, releasing the app to everyone was too risky because many students could lose access to their lessons. I wanted to protect the users.",
+          highlights: ["too risky", "protect the users"]
+        },
+        {
+          text: "Secondly, Alex's idea was simple and practical, so I explained it clearly to the project manager. It gave the team enough time to improve the app.",
+          highlights: ["simple and practical", "enough time"]
+        },
+        {
+          text: "What's more, the small test helped us find the remaining problems, and the full October release was stable. I felt pleased that the advice had worked.",
+          highlights: ["remaining problems", "advice had worked"]
+        }
+      ]
+    }
+  ];
+
+  for (const standardCard of standardCards) {
+    const item = findItem(standardCard.question);
+    if (item) Object.assign(item, standardCard);
+  }
+
+  const sharedQuestions = new Set(Object.values(questions));
+  const sharedItems = [...sharedQuestions].map(findItem).filter(Boolean);
+
+  // 把七道题收到事件类的同一张素材卡，不再在其他 Tab 重复展示。
+  for (const material of window.IELTS_DATA.part2) {
+    if (Array.isArray(material.topics)) {
+      material.topics = material.topics.filter((item) => !sharedQuestions.has(item.question));
+    }
+    for (const group of material.tips?.topicGroups || []) {
+      group.items = (group.items || []).filter((item) => !sharedQuestions.has(item.question));
+    }
+  }
+  if (eventMaterial?.tips?.topicGroups && sharedItems.length === sharedQuestions.size) {
+    eventMaterial.tips.topicGroups.unshift({
+      title: "学生软件延期｜七题共用",
+      items: sharedItems
+    });
+  }
+  for (const review of window.IELTS_DATA.reviewGuide?.part2 || []) {
+    if (sharedQuestions.has(review.question)) review.targetMaterialId = "event-tips";
+  }
+
+  const studentStory = eventMaterial?.tips?.mergedStories?.find((story) =>
+    story.baseQuestion === questions.plan
+  );
+  if (studentStory) {
+    studentStory.title = "学生软件延期｜七题共用";
+    studentStory.questions = [
+      {
+        question: questions.tech,
+        special: "重点讲最终测试出现卡顿和课程打不开，以及团队怎样分步解决。"
+      },
+      {
+        question: questions.smart,
+        special: "主角是 Alex；机智之处是他没有一次性硬上线，而是把发布拆成小范围测试和全面发布。"
+      },
+      {
+        question: questions.decision,
+        special: "明确最终决定由我作出：取消九月全面发布，先小范围测试。"
+      },
+      {
+        question: questions.plan,
+        special: "对比原计划和新计划：九月全面上线 → 九月小范围测试，十月全面上线。"
+      },
+      {
+        question: questions.job,
+        special: "开头说理想工作是在友好的团队里开发学习软件；用这次发布经历说明自己为什么喜欢它。"
+      },
+      {
+        question: questions.helper,
+        special: "人物主角是 Alex；先说他平时就常帮助同事，再用这次延期作为例子。"
+      },
+      {
+        question: questions.advice,
+        special: "Alex 先提出分步思路；我整理后在会议中建议项目负责人采纳。"
+      }
+    ];
+    studentStory.focus = "七题共用同一段发布经过；用 At first → However → In the end 三部曲记住主线，再按当前题目切换视角。";
+    studentStory.omit = "不讲品牌、编程术语或复杂故障；每次只选当前题目下的观点。";
+    studentStory.draftCues = ["1 At first: app problems", "2 However: Alex-stage release", "3 In the end: stable in October"];
+    studentStory.memoryChain = {
+      story: "第一部 At first：九月准备发布，却发现软件卡顿、课程打不开 → 第二部 However：Alex 建议拆成小范围测试和全面发布，我建议负责人采纳 → 第三部 In the end：根据反馈修复问题，十月稳定上线"
+    };
+    studentStory.body = {
+      text: "At first, my team planned to release a learning app to all students at the end of last September. Alex, a senior engineer who often helps his colleagues, was working on the project with me. During the final test, the app became very slow and some lessons could not open. However, Alex stayed calm during our meeting. Instead of trying to release everything at once, he suggested that we release it in stages. I agreed with his smart idea and advised the project manager to let a small group of students use it first and move the full release to October. The manager accepted my advice, and Alex helped us make a checklist, collect feedback and fix the remaining problems. In the end, we released a stable full version in October. I felt relieved and grateful because his simple idea solved the problem without putting every student at risk.",
+      highlights: ["At first", "learning app", "often helps his colleagues", "became very slow", "However", "Instead of", "release it in stages", "smart idea", "I advised the project manager", "a small group", "In the end"]
+    };
+    studentStory.pointsLabel = "七道题的对应观点";
+    studentStory.reasonHint = false;
+    studentStory.reasons = [
+      {
+        text: "The problem was challenging because we did not know the exact cause at first. The staged release helped us get real feedback without affecting every student.",
+        highlights: ["did not know the exact cause", "real feedback", "without affecting every student"],
+        memory: "1 · 科技问题：开始找不到原因 → 分步发布获取真实反馈 → 不影响全部学生"
+      },
+      {
+        text: "I think Alex solved the problem in a smart way because he did not try to change everything at once. He divided the release into smaller steps, which reduced the risk and gave us useful feedback.",
+        highlights: ["in a smart way", "did not try to change everything at once", "smaller steps"],
+        memory: "2 · 机智解决问题：不一次性乱改 → 把发布拆成几步 → 降低风险并获得反馈"
+      },
+      {
+        text: "It was an important decision because a bad full release could damage the students' trust. I was happy with it because the October version worked smoothly.",
+        highlights: ["important decision", "damage the students' trust", "worked smoothly"],
+        memory: "3 · 重要决定：全面上线风险大 → 可能失去学生信任 → 十月稳定上线证明决定正确"
+      },
+      {
+        text: "At first, I felt disappointed about changing the plan because we had prepared for September for a long time. Later, I felt relieved because we had enough time to improve the app.",
+        highlights: ["felt disappointed", "felt relieved", "improve the app"],
+        memory: "4 · 改变计划：准备很久却延期 → 开始失望 → 有时间提高质量后放心"
+      },
+      {
+        text: "My perfect job would be developing useful learning software in a friendly team. It would let me use my technical skills, help students and keep learning from experienced colleagues like Alex.",
+        highlights: ["developing useful learning software", "use my technical skills", "help students", "experienced colleagues like Alex"],
+        memory: "5 · 理想工作：开发学习软件 → 发挥技术能力并帮助学生 → 和 Alex 这样的同事合作且继续成长"
+      },
+      {
+        text: "I think Alex is truly helpful because he shares his experience patiently and stays calm under pressure. He continued helping until the release was successful, so I trust and respect him.",
+        highlights: ["truly helpful", "stays calm under pressure", "trust and respect him"],
+        memory: "6 · 乐于助人：Alex 耐心分享经验 → 压力下仍冷静 → 一直帮到发布成功"
+      },
+      {
+        text: "The advice was useful because the small test protected students and helped us find the remaining problems. The project manager continued using this method later.",
+        highlights: ["advice was useful", "protected students", "continued using this method"],
+        memory: "7 · 给别人建议：小范围测试保护学生 → 找到剩余问题 → 负责人之后继续使用"
+      }
+    ];
+  }
+})();
+
+(() => {
+  const standardCards = [
+    {
+      question: "Describe a program or app on your computer or phone.",
+      storyTitle: "智能手表共用素材｜健康 App",
+      fit: "与想拥有的科技产品共用健康 App＋智能手表素材",
+      focus: "用手机里的健康 App 回答，并明确它会连接我已有的智能手表；覆盖开始使用、健康监测、事件提醒和使用感受。",
+      modules: "健康 App → 连接已有智能手表 → 自动同步健康数据 → 查看步数心率睡眠 → 提醒会议和重要事件",
+      omit: "不讲品牌、复杂设置或专业医疗数据，只保留同步手表、查看健康信息和提醒事件三个功能。",
+      draftCues: ["health app", "smart watch", "steps / heart rate / sleep", "event reminders", "weekly report"],
+      memoryChain: {
+        story: "手机里的健康 App → 设置智能手表时开始使用 → 自动同步数据 → 查看步数心率睡眠 → 提醒会议和重要事件 → 每周看报告",
+        reasons: [
+          "手表自动同步 → 不用手动记录 → 所有信息集中在一个地方",
+          "看到步数和睡眠 → 提醒自己多活动早休息 → 更关注身体健康",
+          "会议和事件同步到手表 → 手机不在手边也能看到 → 不容易忘事"
+        ]
+      },
+      body: {
+        text: "I'd like to talk about a health app on my phone. I started using it when I set up my smart watch about a year ago. The app connects to the watch and collects information automatically. I open it once or twice a day to check my steps, heart rate and sleep. It shows the information in simple charts, so I can quickly see whether I have exercised enough or slept well. I also use it to set reminders for meetings and other important events. The reminders appear on both my phone and my watch, so I can notice them even when my phone is in my bag. At the end of each week, I read the report and try to improve one small habit.",
+        highlights: ["a health app", "my smart watch", "collects information automatically", "steps, heart rate and sleep", "important events", "each week"]
+      },
+      pointsLabel: "How I feel about this app · 3 原因",
+      reasons: [
+        {
+          text: "First of all, it is very convenient because the watch sends the information to the app automatically. I do not need to record everything by hand, and all my health information is in one place.",
+          highlights: ["very convenient", "automatically", "in one place"]
+        },
+        {
+          text: "Secondly, it helps me pay more attention to my health. If my step count is low, I take a short walk, and if I have slept badly, I try to go to bed earlier.",
+          highlights: ["pay more attention to my health", "take a short walk", "go to bed earlier"]
+        },
+        {
+          text: "What's more, the event reminders are useful for my work and daily life. I can see them on my watch when my phone is not nearby, so I am less likely to miss a meeting or forget an important plan.",
+          highlights: ["event reminders", "less likely to miss a meeting", "important plan"]
+        }
+      ]
+    },
+    {
+      question: "Describe a piece of technology (not a phone) that you would like to own",
+      name: "想拥有的新智能手表",
+      storyTitle: "智能手表共用素材｜想拥有的科技产品",
+      fit: "与健康 App 共用智能手表素材",
+      focus: "明确自己已有一块基础款智能手表，但想升级到功能更稳定的新款；用途继续复用健康监测和事件提醒。",
+      modules: "已有基础款 → 想升级新智能手表 → 约两千元 → 连接健康 App → 健康监测与事件提醒",
+      omit: "不讲品牌、专业参数或复杂医疗功能；不说自己完全没有智能手表。",
+      answerNote: "按内容分成 5 段；先说明已有基础款，再用 would 介绍想升级的新款和用途。",
+      draftCues: ["new smart watch", "about 2,000 yuan", "health app", "health monitoring", "event reminders"],
+      memoryChain: {
+        story: "已有基础款智能手表 → 想升级到更可靠的新款 → 价格约两千元 → 连接同一个健康 App → 监测健康并提醒事件",
+        reasons: [
+          "更稳定地记录健康数据 → 了解步数心率睡眠 → 调整生活习惯",
+          "在手腕上看到会议和事件 → 不用一直看手机 → 工作生活更方便",
+          "继续使用熟悉的健康 App → 数据保留在一起 → 升级简单实用"
+        ]
+      },
+      body: {
+        text: "The piece of technology I would like to own is a newer smart watch. I already have a basic one, so I am not buying this kind of product for the first time. However, I would like to upgrade to a more reliable model with a longer battery life and a clearer screen. It would cost about two thousand yuan, so I would save some money and choose a practical mid-range model. I would connect it to the same health app on my phone. I could use it to check my steps, heart rate and sleep. It could also remind me about meetings and other important events, which would be useful when my phone is in my bag.",
+        highlights: ["a newer smart watch", "a basic one", "upgrade", "about two thousand yuan", "the same health app", "steps, heart rate and sleep", "important events"]
+      },
+      pointsLabel: "Why I would like to own it · 3 原因",
+      reasons: [
+        {
+          text: "First of all, it would help me understand my health better. More reliable information about my steps, heart rate and sleep could encourage me to exercise more and rest earlier.",
+          highlights: ["understand my health better", "exercise more", "rest earlier"]
+        },
+        {
+          text: "Secondly, its reminders would make my work and daily life more convenient. I could check a meeting or an important event on my wrist instead of taking out my phone all the time.",
+          highlights: ["more convenient", "on my wrist", "instead of taking out my phone"]
+        },
+        {
+          text: "What's more, I could keep using the health app I already know, so all my old and new information would stay in one place. That would make the upgrade simple and worthwhile.",
+          highlights: ["the health app I already know", "in one place", "simple and worthwhile"]
+        }
+      ]
+    },
+    {
+      question: "Describe your perfect job.",
+      draftCues: ["software engineer", "international project", "Alex told me", "English and communication", "growth and balance"],
+      memoryChain: {
+        story: "理想工作是国际软件项目 → Alex 告诉我这种工作 → 和不同国家同事合作 → 需要技术、沟通和英语 → 希望成长且少加班",
+        reasons: [
+          "已有六年软件经验 → 喜欢解决问题 → 能发挥已有能力",
+          "接触不同国家同事 → 学习新想法 → 职业继续成长",
+          "友好团队加合理工时 → 压力较小 → 能长期做下去"
+        ]
+      },
+      body: {
+        text: "My perfect job would be working as a software engineer on an international project. I first heard about this kind of work from my colleague Alex. He told me about engineers who work with teammates from several countries to develop useful software, solve problems and discuss new ideas. To get this job, I would need strong technical skills and clear communication. I would also need to improve my English because many meetings and documents would be in English. I would prefer a friendly company that gives engineers enough time to test their work and does not expect them to work overtime every day.",
+        highlights: ["software engineer", "international project", "my colleague Alex", "several countries", "improve my English", "friendly company"]
+      },
+      pointsLabel: "Why I think it is my perfect job · 3 原因",
+      reasons: [
+        {
+          text: "First of all, I have worked as a software engineer for about six years and enjoy solving problems. The job would let me use the skills I already have.",
+          highlights: ["about six years", "skills I already have"]
+        },
+        {
+          text: "Secondly, working with people from different countries would help me learn new ideas and improve my English. It would give me useful career growth.",
+          highlights: ["different countries", "career growth"]
+        },
+        {
+          text: "What's more, I want reasonable working hours and a supportive team. A job that is interesting but balanced would be easier to do for many years.",
+          highlights: ["reasonable working hours", "interesting but balanced"]
+        }
+      ]
+    },
+    {
+      question: "Describe one of your friends who learned something without a teacher.",
+      focus: "用朋友 Sara 自学控制手机使用回答，强调看书、查文章、记录时间并自己试方法。",
+      omit: "不把控制手机说成正式课程；最后直接比较老师指导和按自己节奏学习。",
+      draftCues: ["Sara", "control phone use", "book and articles", "screen-time limits", "own speed"],
+      memoryChain: {
+        story: "朋友 Sara 手机用太久 → 影响睡眠和专注 → 自己看书查文章 → 删除 App、设置限制 → 一个月后更平静",
+        reasons: [
+          "老师能给清楚计划 → 少走弯路 → 学习可能更快",
+          "但自学免费又灵活 → 能按自己的速度试 → 更适合个人习惯",
+          "她记录并比较方法 → 找到真正有效的办法 → 没有老师也成功"
+        ]
+      },
+      body: {
+        text: "I'd like to talk about my friend Sara, who taught herself how to control her phone use. She wanted to learn this because too much screen time was affecting her sleep and concentration. She started by reading a book about phone habits. It suggested deleting unnecessary apps, keeping the phone away from the bed and setting daily limits. When one idea was difficult to understand, she read simple articles online. She also recorded her screen time and tried the methods one by one. After about a month, she used her phone less and became calmer and more focused.",
+        highlights: ["my friend Sara", "control her phone use", "sleep and concentration", "reading a book", "daily limits", "calmer and more focused"]
+      },
+      pointsLabel: "Whether learning from a teacher would be easier · 3 点",
+      reasons: [
+        {
+          text: "First of all, a teacher could give her a clear plan and answer questions, so she might learn faster and avoid some mistakes.",
+          highlights: ["a clear plan", "learn faster"]
+        },
+        {
+          text: "However, self-study was free and flexible. Sara could test each idea at her own speed and change the plan to fit her daily life.",
+          highlights: ["free and flexible", "at her own speed"]
+        },
+        {
+          text: "In the end, I do not think a teacher was necessary for this simple personal skill. Her records showed what worked, and she successfully changed her habit.",
+          highlights: ["a teacher was necessary", "successfully changed her habit"]
+        }
+      ]
+    },
+    {
+      question: "Describe a person who often helps others.",
+      draftCues: ["Alex", "senior engineer", "helps new staff", "system problem", "patient and calm"],
+      memoryChain: {
+        story: "同事 Alex → 经常帮助新人 → 分享经验、解释系统 → 去年帮我解决故障 → 一步一步检查 → 用户恢复下单",
+        reasons: [
+          "喜欢分享经验 → 团队一起进步 → 工作更顺",
+          "不只给答案还讲方法 → 下次能自己解决 → 真正帮助别人",
+          "忙时也愿意听 → 让同事信任他 → 我很尊重并想学习"
+        ]
+      },
+      body: {
+        text: "I'd like to talk about my colleague Alex, a senior software engineer on my team. He is patient, calm and always willing to help when someone has a problem at work. He often gives useful advice and helps new team members understand our system. About a year ago, our team released a new feature, but the system became slow and some users could not complete their orders. Alex stayed calm, checked the error messages with me step by step and helped us find the cause. We made a small change, tested it carefully and got the system working normally again.",
+        highlights: ["my colleague Alex", "patient, calm", "new team members", "system became slow", "step by step", "working normally again"]
+      },
+      pointsLabel: "Why he helps others and how I feel · 3 原因",
+      reasons: [
+        {
+          text: "First of all, he enjoys sharing his experience and believes the whole team becomes stronger when people support one another.",
+          highlights: ["sharing his experience", "support one another"]
+        },
+        {
+          text: "Secondly, he does not simply give people the answer. He explains his method so that they can solve a similar problem by themselves next time.",
+          highlights: ["explains his method", "by themselves next time"]
+        },
+        {
+          text: "What's more, he finds time to listen even when he is busy. I respect him, trust him and hope I can become a helpful colleague like him.",
+          highlights: ["finds time to listen", "respect him"]
+        }
+      ]
+    },
+    {
+      question: "Describe a time when you gave someone useful advice.",
+      draftCues: ["new colleague", "first release", "worried", "checklist and review", "successful result"],
+      memoryChain: {
+        story: "新同事第一次重要上线 → 担心犯错、想最后独自检查 → 我分享过去故障经验 → 建议做清单、提前测试并找同事复查 → 上线成功",
+        reasons: [
+          "我以前遇过类似问题 → 知道风险 → 想避免他重复错误",
+          "清单加同事复查 → 减少遗漏 → 也让他压力更小",
+          "他采纳后顺利上线 → 继续使用方法 → 我的经验真正帮到人"
+        ]
+      },
+      body: {
+        text: "I'd like to talk about some useful advice I gave a new colleague before his first important software release. He was worried about making a mistake and planned to check everything alone at the last minute. I told him about a system problem I had experienced before and explained that waiting too long to ask for help could make things worse. I advised him to prepare a short checklist, test the most important actions twice and ask another teammate to review his work. I also told him to leave enough time for testing instead of changing things just before the release.",
+        highlights: ["a new colleague", "first important software release", "check everything alone", "short checklist", "test", "review his work"]
+      },
+      pointsLabel: "Why I gave the advice and why it was useful · 3 原因",
+      reasons: [
+        {
+          text: "First of all, I had made a similar mistake before, so I understood the risk. I wanted him to learn from my experience instead of repeating the same problem.",
+          highlights: ["a similar mistake", "learn from my experience"]
+        },
+        {
+          text: "Secondly, the checklist and team review could reduce small mistakes and make him feel calmer. Asking for help is safer than checking everything alone.",
+          highlights: ["reduce small mistakes", "feel calmer"]
+        },
+        {
+          text: "What's more, he followed the advice and released the feature without a serious problem. He continued using the method, so I felt pleased that my advice truly helped.",
+          highlights: ["without a serious problem", "my advice truly helped"]
+        }
+      ]
+    }
+  ];
+
+  const allItems = window.IELTS_DATA.part2.flatMap((material) => [
+    ...(material.topics || []),
+    ...(material.tips?.topicGroups || []).flatMap((group) => group.items || [])
+  ]);
+  const sharedReleaseQuestions = new Set([
+    "Describe a person who often helps others.",
+    "Describe a time when you gave someone useful advice."
+  ]);
+  for (const standardCard of standardCards) {
+    if (sharedReleaseQuestions.has(standardCard.question)) continue;
+    const item = allItems.find((candidate) => candidate.question === standardCard.question);
+    if (item) Object.assign(item, standardCard);
+  }
+
+  const appQuestion = "Describe a program or app on your computer or phone.";
+  const technologyQuestion = "Describe a piece of technology (not a phone) that you would like to own";
+  const objectMaterial = window.IELTS_DATA.part2.find((material) => material.id === "object-tips");
+  const sharedSmartWatchStory = {
+    title: "健康 App＋智能手表｜两题共用",
+    sourceOrder: 23,
+    baseQuestion: appQuestion,
+    questions: [
+      {
+        question: appQuestion,
+        special: "开头保留 a health app；三部曲重点展开 At first 和 Now，In the future 的升级手表可以简短带过。"
+      },
+      {
+        question: technologyQuestion,
+        special: "开头改成 a newer smart watch；At first 只用旧手表做背景，重点展开 In the future 里的价格、功能和升级原因。"
+      }
+    ],
+    focus: "固定按 At first → Now → In the future 记三部曲；根据题目只切换开头和展开重点。",
+    omit: "App 题不必展开价格；科技产品题不必详细介绍 App 图表，也不讲品牌和专业医疗参数。",
+    draftCues: ["At first-old watch / app", "Now-health data", "Now-reminders", "In the future-upgrade", "2,000 yuan / same app"],
+    memoryChain: {
+      story: "At first：买基础款手表＋开始用健康 App → Now：同步步数心率睡眠＋提醒会议和事件 → In the future：花约两千元升级新手表＋继续连接同一个 App",
+      reasons: [
+        "手表和 App 自动同步 → 不用手动记录 → 所有信息放在一起",
+        "查看步数心率睡眠 → 调整运动和休息 → 更关注健康",
+        "手腕收到事件提醒 → 手机放包里也能看到 → 工作生活更方便"
+      ]
+    },
+    body: {
+      text: "I'd like to talk about a health app on my phone, which I use together with a basic smart watch. At first, I started using the app when I bought the watch about a year ago. The two devices connected easily, and the watch began sending information to the app automatically. Now, I check my steps, heart rate and sleep once or twice a day. I also use the app to set reminders for meetings and other important events, and they appear on my wrist when my phone is in my bag. In the future, I would like to upgrade to a newer watch with a clearer screen and longer battery life. It would cost about two thousand yuan, and I would connect it to the same health app.",
+      highlights: ["a health app", "a basic smart watch", "At first", "automatically", "Now", "steps, heart rate and sleep", "important events", "In the future", "upgrade", "about two thousand yuan", "the same health app"]
+    },
+    pointsLabel: "How I feel / why I want the upgrade · 3 原因",
+    reasons: [
+      {
+        text: "First of all, the system is convenient because the watch sends information to the app automatically. I do not need to record everything by hand, and all the information stays in one place.",
+        highlights: ["convenient", "automatically", "in one place"],
+        memory: "手表自动同步 → 不用手动记录 → 信息集中在一个地方"
+      },
+      {
+        text: "Secondly, it helps me pay more attention to my health. If my step count is low, I take a short walk, and if I have slept badly, I try to rest earlier.",
+        highlights: ["pay more attention to my health", "take a short walk", "rest earlier"],
+        memory: "步数低就散步＋睡眠差就早休息 → 改善健康习惯"
+      },
+      {
+        text: "What's more, the reminders make my work and daily life easier. I can see a meeting or an important event on my wrist even when my phone is not nearby.",
+        highlights: ["make my work and daily life easier", "on my wrist", "phone is not nearby"],
+        memory: "提醒显示在手腕上 → 手机不在旁边也能看到 → 不容易忘事"
+      }
+    ]
+  };
+
+  if (objectMaterial?.tips?.mergedStories) {
+    objectMaterial.tips.mergedStories.push(sharedSmartWatchStory);
+  }
+})();
+
+// 用之前练过的上海旅行，共用“喜欢的城市”和“购物中心”两道题。
+(() => {
+  const cityQuestion = "Describe your favorite city that you have visited";
+  const mallQuestion = "Describe a shopping mall you like.";
+  const placeMaterial = window.IELTS_DATA.part2.find((material) => material.id === "place-tips");
+  if (!placeMaterial?.tips?.mergedStories) return;
+
+  const shanghaiMaterial = window.IELTS_DATA.part2.find((material) => material.id === "shanghai");
+  const cityItem = (placeMaterial.tips.topicGroups || [])
+    .flatMap((group) => group.items || [])
+    .find((item) => item.question === cityQuestion);
+  const mallItem = (shanghaiMaterial?.topics || []).find((item) => item.question === mallQuestion);
+  if (cityItem && mallItem) {
+    for (const group of placeMaterial.tips.topicGroups || []) {
+      group.items = (group.items || []).filter((item) => ![cityQuestion, mallQuestion].includes(item.question));
+    }
+    shanghaiMaterial.topics = shanghaiMaterial.topics.filter((item) => item.question !== mallQuestion);
+    placeMaterial.tips.topicGroups.unshift({
+      title: "上海旅行＋陆家嘴商场｜两题共用",
+      items: [mallItem, cityItem]
+    });
+  }
+
+  const cityStory = placeMaterial.tips.mergedStories.find((story) => story.title === "上海城市旅行");
+  if (cityStory) {
+    cityStory.title = "上海旅行｜推荐与想去";
+    cityStory.questions = (cityStory.questions || []).filter((entry) =>
+      (typeof entry === "string" ? entry : entry.question) !== cityQuestion
+    );
+  }
+
+  placeMaterial.tips.mergedStories.push({
+    title: "上海旅行＋陆家嘴商场｜两题共用",
+    sourceOrder: 20,
+    baseQuestion: cityQuestion,
+    questions: [
+      {
+        question: mallQuestion,
+        special: "开头主体改成 a large shopping mall in Lujiazui；重点讲位置、环境、吃饭逛店和下雨时休息。"
+      },
+      {
+        question: cityQuestion,
+        special: "开头主体是 Shanghai；重点讲城市景色、交通、食物和为什么想再去。"
+      }
+    ],
+    focus: "共用一次和女朋友去上海的三日旅行；城市题讲整体，商场题只把镜头拉近到陆家嘴商场。",
+    omit: "城市题不详讲商场楼层和店铺；商场题不大段介绍外滩和高楼。",
+    draftCues: ["Shanghai-GF", "three-day trip", "Bund-Lujiazui", "mall-dinner", "rain-two hours", "visit again"],
+    memoryChain: {
+      story: "去年秋天和女朋友去上海三天 → 坐高铁住市中心 → 外滩、高楼和老街 → 去陆家嘴商场吃饭逛店 → 外面下雨待了两小时 → 旅行很开心、想再去"
+    },
+    body: {
+      text: "I'd like to talk about Shanghai, which I visited with my girlfriend last autumn. We travelled there by high-speed train and spent three days in the city. We stayed near the city centre and visited the Bund, where modern buildings, older streets and the river were close together. On the second day, we went to Lujiazui and visited a large shopping mall after walking around for several hours. The mall was close to the underground station and looked modern, bright and clean. There were many shops, restaurants, cafes and a cinema. We had dinner, bought coffee and looked around a few shops. It started raining outside, so we stayed there for about two hours before returning to our hotel. The trip was convenient and enjoyable, and I would happily visit Shanghai and the mall again.",
+      highlights: ["Shanghai", "with my girlfriend last autumn", "high-speed train", "three days", "the Bund", "Lujiazui", "a large shopping mall", "modern, bright and clean", "started raining", "visit Shanghai and the mall again"]
+    },
+    pointsLabel: "两道题的对应观点",
+    reasonHint: false,
+    reasons: [
+      {
+        text: "Shanghai is my favourite city because modern buildings, older streets and the river are close together. I could enjoy several different views in one day.",
+        highlights: ["my favourite city", "several different views"],
+        memory: "1 · 城市：高楼＋老街＋河景 → 一天看到多种景色"
+      },
+      {
+        text: "The underground was convenient, and I enjoyed trying local food and spending time with my girlfriend. These memories make me want to visit Shanghai again.",
+        highlights: ["underground was convenient", "visit Shanghai again"],
+        memory: "2 · 城市：地铁方便＋当地食物＋女朋友 → 留下回忆、想再去"
+      },
+      {
+        text: "I like the mall because it is close to the underground and several famous buildings. Its clear signs made it easy for first-time visitors to find everything.",
+        highlights: ["close to the underground", "clear signs"],
+        memory: "3 · 商场：靠近地铁和景点＋指示清楚 → 容易到达和找路"
+      },
+      {
+        text: "There was a wide choice of shops and food, so my girlfriend and I could both find something we liked. We could have dinner and relax in the same place.",
+        highlights: ["a wide choice", "dinner and relax"],
+        memory: "4 · 商场：商店和餐厅选择多 → 两个人都能找到喜欢的"
+      },
+      {
+        text: "The mall gave us a clean and comfortable place to rest when it rained. That useful experience is another reason why I would return there.",
+        highlights: ["comfortable place to rest", "return there"],
+        memory: "5 · 商场：外面下雨 → 在干净舒服的环境休息 → 下次还想去"
+      }
+    ]
+  });
+})();
+
+// 上海相关题只保留一张共用素材卡，题目差异放在“只改”和理由列表中。
+(() => {
+  const recommendQuestion = "Describe a place you have travelled to that you would like to recommend to others";
+  const freeTimeQuestion = "Describe a place you would like to visit in your free time";
+  const mallQuestion = "Describe a shopping mall you like.";
+  const cityQuestion = "Describe your favorite city that you have visited";
+  const placeMaterial = window.IELTS_DATA.part2.find((material) => material.id === "place-tips");
+  if (!placeMaterial?.tips?.mergedStories) return;
+
+  const recommendStory = placeMaterial.tips.mergedStories.find((story) => story.title === "上海旅行｜推荐与想去");
+  const cityMallStory = placeMaterial.tips.mergedStories.find((story) => story.title === "上海旅行＋陆家嘴商场｜两题共用");
+  if (!recommendStory || !cityMallStory) return;
+
+  cityMallStory.title = "上海旅行｜城市、推荐、想去与商场共用";
+  cityMallStory.sourceOrder = 1;
+  cityMallStory.questions = [
+    {
+      question: recommendQuestion,
+      special: "开头说去年去过上海；结尾明确说 I would really recommend it to others。"
+    },
+    {
+      question: freeTimeQuestion,
+      special: "开头改成 I would like to visit Shanghai again in my next holiday；之前的旅行作为想再去的原因。"
+    },
+    {
+      question: mallQuestion,
+      special: "开头主体改成 Shanghai IFC Mall；故事按 At first（逛陆家嘴）→ However（下雨进商场）→ In the end（吃饭、购物后回酒店）；再补 once a year 和常买的三类东西。"
+    },
+    {
+      question: cityQuestion,
+      special: "开头主体是 Shanghai；重点讲城市景色、交通、食物和为什么想再去。"
+    }
+  ];
+  cityMallStory.focus = "四题共用同一次上海三日旅行；城市和地点题可用景美 → 人美 → 食物美，商场题则用 At first → However → In the end 讲陆家嘴的小故事。";
+  cityMallStory.omit = "每次只选与当前题目有关的理由；城市题不详讲商场，商场题不大段介绍整座城市。";
+  cityMallStory.draftCues = ["Shanghai-GF", "At first-Lujiazui", "However-rain-mall", "In the end-dinner-shopping", "once a year", "visit again"];
+  cityMallStory.memoryChain = {
+    story: "At first：去年秋天和女朋友去上海，逛外滩和陆家嘴 → However：走了几小时后突然下雨，进陆家嘴商场休息 → In the end：吃饭、买咖啡和小礼物，雨小后回酒店"
+  };
+  cityMallStory.body = {
+    text: "I'd like to talk about a three-day trip I took to Shanghai with my girlfriend last autumn. We travelled there by high-speed train and stayed near the city centre. At first, we visited the Bund and Lujiazui, where modern buildings, older streets and the river were close together. The underground was convenient, and we also tried some delicious xiaolongbao. However, after walking around Lujiazui for several hours, it suddenly started raining, so we entered Shanghai IFC Mall to take a break. It was close to the underground and looked modern, bright and clean. A staff member helped us find the restaurant area. In the end, we had dinner, bought some coffee and a small gift, and stayed there for about two hours before returning to our hotel. Since I do not live in Shanghai, I only visit the mall when I travel there, probably about once a year. The whole trip was easy and enjoyable, so I would happily visit Shanghai and the mall again.",
+    highlights: ["three-day trip", "Shanghai", "with my girlfriend", "At first", "the Bund and Lujiazui", "However", "started raining", "Shanghai IFC Mall", "modern, bright and clean", "In the end", "bought some coffee and a small gift", "about once a year", "visit Shanghai and the mall again"]
+  };
+  cityMallStory.pointsLabel = "地点通用观点＋商场题购买内容";
+  cityMallStory.reasonHint = false;
+  cityMallStory.reasons = [
+    {
+      text: "First of all, the place looks attractive. Shanghai has modern buildings, older streets and a river view, while the mall itself is modern, bright and clean.",
+      highlights: ["looks attractive", "modern buildings", "modern, bright and clean"],
+      memory: "1 · 景美：城市有高楼＋老街＋河景；商场现代＋明亮＋干净"
+    },
+    {
+      text: "Secondly, people there are friendly and helpful. A local man showed us the station, and a mall staff member helped us find the restaurant area.",
+      highlights: ["friendly and helpful", "showed us the station", "helped us find"],
+      memory: "2 · 人美：当地人帮忙指路＋商场员工帮忙找餐厅"
+    },
+    {
+      text: "What's more, the food is delicious. Shanghai is famous for xiaolongbao, and the mall has many restaurants, so both of us could find something we liked.",
+      highlights: ["food is delicious", "xiaolongbao", "many restaurants"],
+      memory: "3 · 食物美：城市有小笼包＋商场餐厅选择多 → 两个人都喜欢"
+    },
+    {
+      text: "Public transport is convenient, so we could travel between different places without wasting much time. The underground signs were also clear.",
+      highlights: ["Public transport is convenient", "without wasting much time"],
+      memory: "4 · 交通：地铁方便＋指示清楚 → 景点之间移动快"
+    },
+    {
+      text: "The trip gave my girlfriend and me a relaxing break from work. That lovely memory makes me want to visit Shanghai again and recommend it to others.",
+      highlights: ["a relaxing break from work", "visit Shanghai again", "recommend it"],
+      memory: "5 · 回忆：放松＋陪女朋友 → 想再去也愿意推荐"
+    },
+    {
+      text: "I like the mall because it is close to the underground and several famous buildings. Its clear signs made it easy to find the shops and restaurants.",
+      highlights: ["close to the underground", "clear signs"],
+      memory: "6 · 商场位置：靠近地铁和景点＋指示清楚 → 容易找路"
+    },
+    {
+      text: "There was a wide choice of activities because the mall had shops, cafes and a cinema. We could eat, look around and relax in one place.",
+      highlights: ["a wide choice of activities", "relax in one place"],
+      memory: "7 · 商场功能：商店＋咖啡馆＋电影院 → 吃饭、逛店和休息都方便"
+    },
+    {
+      text: "The mall gave us a clean and comfortable place to rest when it rained. This practical experience is another reason why I would return there.",
+      highlights: ["comfortable place to rest", "return there"],
+      memory: "8 · 商场休息：外面下雨 → 里面干净舒服 → 下次还想去"
+    },
+    {
+      text: "As for shopping, I normally buy coffee and snacks, small gifts for my family or friends, and sometimes a T-shirt if there is a sale.",
+      highlights: ["coffee and snacks", "small gifts", "a T-shirt if there is a sale"],
+      memory: "9 · 商场购买：咖啡零食＋小礼物＋打折 T 恤"
+    }
+  ];
+
+  placeMaterial.tips.mergedStories = placeMaterial.tips.mergedStories.filter((story) => story !== recommendStory);
+})();
+
+// 飞书 2026 年 9–12 月题库：补入本轮 17 道 Part 2 新题。
+// 题目保留原文；答案继续沿用四类 Tab 的“公共草稿 → 故事 → 中文链 → 对应观点”格式。
+(() => {
+  const materials = Object.fromEntries(
+    window.IELTS_DATA.part2.slice(0, 4).map((material) => [material.id, material])
+  );
+  const people = materials["people-tips"];
+  const place = materials["place-tips"];
+  const object = materials["object-tips"];
+  const event = materials["event-tips"];
+  if (![people, place, object, event].every((material) => material?.tips?.topicGroups)) return;
+
+  const reason = (text, memory, highlights = []) => ({ text, memory, highlights });
+  const card = (config) => ({
+    isNew: true,
+    isLatest: true,
+    fit: "本季新题",
+    answerNote: "先按公共故事讲清经过，再从下面选择最贴题的观点。",
+    ...config
+  });
+  const addGroup = (material, title, items) => {
+    const existing = new Set(
+      (material.tips.topicGroups || []).flatMap((group) => group.items || []).map((item) => item.question)
+    );
+    const freshItems = items.filter((item) => !existing.has(item.question));
+    if (freshItems.length) material.tips.topicGroups.unshift({ title, items: freshItems });
+  };
+
+  const questions = {
+    taughtSkill: "Describe a person who taught you a new skill",
+    historyLover: "Describe a person who learns history and loves history",
+    olderAdmired: "Describe someone who is older than you that you admire",
+    photoLover: "Describe a person you know who really likes taking photos",
+    handcraft: "Describe a person who is good at making things by hand",
+    difficultSuccess: "Describe a person you know who did something difficult and was successful",
+    crowdedPlace: "Describe a crowded place you went to",
+    noisyPlace: "Describe a noisy place you have been to",
+    naturalPlace: "Describe a natural place in your city that you enjoy visiting",
+    revisitCity: "Describe a city that you have been to and would like to visit again.",
+    childhoodSkill: "Describe a new skill you learned when you were a child",
+    wasteTime: "Describe an activity you do regularly that you think is a waste of time",
+    goodService: "Describe a time when you received good service in a shop/store",
+    savedMoney: "Describe a time when you saved money to buy something you wanted",
+    keptListening: "Describe a time when someone talked about something you were not interested in but you kept listening",
+    enjoyableEvening: "Describe an enjoyable evening you had with your friends",
+    changedDecision: "Describe a time when you changed an important decision of yours"
+  };
+
+  const englishTeacherStory = {
+    text: "I'd like to talk about Mr Brown, a foreign English teacher who taught me how to sing an English song when I was in primary school. At first, I was nervous because the words sounded fast and unfamiliar. However, he played the song several times, divided it into short lines and asked us to practise in small groups. He corrected our pronunciation patiently and used simple actions to explain the meaning. In the end, our class sang the whole song together. I felt excited and more confident about speaking English.",
+    highlights: ["Mr Brown", "primary school", "At first", "divided it into short lines", "small groups", "In the end", "more confident"]
+  };
+  const englishTeacherMemory = {
+    story: "第一部 At first：小学外教教英文歌，我觉得语速快、很紧张 → 第二部 However：他把歌曲分成短句，带我们分组练习并纠正发音 → 第三部 In the end：全班完整唱完，我更敢开口说英语",
+    reasons: [
+      "老师耐心拆步骤 → 我能跟上 → 学习压力更小",
+      "唱歌加动作 → 课堂有趣 → 新技能更容易记住",
+      "最后完整唱出来 → 看到进步 → 对英语更有信心"
+    ]
+  };
+  const childhoodSkillStory = {
+    text: "I'd like to talk about a new skill I learned when I was a child. The skill was singing a simple English song, and I learned it in primary school when I was about ten. A foreign teacher called Mr Brown taught us. At first, the words sounded fast and unfamiliar, so I felt a little nervous. However, he played the song several times, divided it into short lines and used simple actions to explain the meaning. We practised in small groups, and he corrected our pronunciation patiently. In the end, the whole class sang the song together. I felt excited and more confident about speaking English.",
+    highlights: ["a new skill", "singing a simple English song", "Mr Brown", "At first", "short lines", "In the end", "more confident"]
+  };
+  const childhoodSkillMemory = {
+    story: englishTeacherMemory.story,
+    reasons: [
+      "歌曲拆成短句 → 小孩子也能跟上 → 学会新技能不害怕",
+      "旋律加动作 → 新单词和发音更好记 → 回家也能继续练",
+      "和全班唱完整首歌 → 感到自己有进步 → 更愿意开口说英语"
+    ]
+  };
+
+  const taughtSkill = card({
+    id: "p2-feishu-taught-new-skill",
+    code: "N01",
+    name: "教你新技能的人",
+    sourceOrder: 101,
+    question: questions.taughtSkill,
+    cuePoints: ["Who this person was", "What the skill was", "How you learned it", "And explain how you feel about this person"],
+    draftCues: ["Mr Brown", "primary school", "English song", "short lines", "confident"],
+    focus: "人物是小学外教；技能是唱一首英文歌，重点讲他怎样一步一步教我。",
+    omit: "不讲复杂音乐知识，也不用记歌曲名字。",
+    body: englishTeacherStory,
+    memoryChain: englishTeacherMemory,
+    pointsLabel: "How I feel about him · 3 个观点",
+    reasons: [
+      reason("First, he was patient and broke the song into small steps, so I never felt lost in class.", englishTeacherMemory.reasons[0], ["patient", "small steps"]),
+      reason("Second, he used music and simple actions, which made the lesson enjoyable and easy to remember.", englishTeacherMemory.reasons[1], ["enjoyable", "easy to remember"]),
+      reason("Finally, he helped me sing the whole song and become more confident about using English.", englishTeacherMemory.reasons[2], ["more confident", "using English"])
+    ]
+  });
+
+  const liHuaHistoryStory = {
+    text: "I'd like to talk about my high-school classmate Li Hua. He has always loved history, especially stories about old European cities. At first, he learned from simple history books, documentaries and visits to the local museum. He often shared interesting stories with me, so the past felt easy to understand. Later, he decided to learn French because he wanted to visit France and understand more of its history. However, French pronunciation was difficult and he had little free time. He watched short videos, kept new words in a notebook and practised every day. In the end, he could speak French well and visited France last month. He ordered food in French and joined a museum tour, so he felt very proud.",
+    highlights: ["Li Hua", "loved history", "history books", "documentaries", "local museum", "learn French", "However", "practised every day", "In the end", "a museum tour"]
+  };
+  const liHuaHistoryMemory = {
+    story: "第一部 At first：高中认识李华 → 喜欢历史 → 看书、纪录片、逛博物馆 → 第二部 However：为了去法国了解历史学法语 → 发音难、时间少 → 每天看视频、记单词、练习 → 第三部 In the end：能说法语 → 去法国参加博物馆导览 → 历史和语言都学得更好",
+    reasons: [
+      "书籍、纪录片和博物馆 → 学习方式多 → 历史不枯燥",
+      "喜欢老城市和普通人的生活 → 想知道过去 → 一直保持好奇",
+      "为了了解法国历史学法语 → 有清楚目标 → 遇到困难也坚持",
+      "旅行时真正用上法语 → 参加博物馆导览 → 努力有了结果"
+    ]
+  };
+  const liHuaHistoryReasons = [
+    reason("Li Hua learns history in several simple ways. He reads books, watches documentaries and visits museums, so the subject never feels boring to him.", liHuaHistoryMemory.reasons[0], ["several simple ways", "never feels boring"]),
+    reason("He is curious about old cities and the daily lives of ordinary people. History helps him understand why places and cultures are different today.", liHuaHistoryMemory.reasons[1], ["old cities", "ordinary people", "cultures are different"]),
+    reason("His interest in French history gave him a clear reason to learn French. This goal helped him continue even when pronunciation was difficult.", liHuaHistoryMemory.reasons[2], ["a clear reason", "continue", "pronunciation was difficult"]),
+    reason("Finally, he used French during his trip and joined a museum tour. I felt proud of him because his daily practice had a real result.", liHuaHistoryMemory.reasons[3], ["a museum tour", "daily practice", "a real result"])
+  ];
+  const historyLover = card({
+    id: "p2-feishu-history-lover",
+    code: "N02",
+    name: "学习并喜欢历史的人",
+    sourceOrder: 102,
+    question: questions.historyLover,
+    cuePoints: ["Who this person is", "How he/she learns history", "Why he/she loves history", "And explain how you feel about him/her"],
+    draftCues: ["Li Hua", "history books", "documentaries", "museum", "French history"],
+    focus: "人物统一为李华；重点说他通过书、纪录片和博物馆学历史，并因喜欢法国历史开始学法语。",
+    omit: "不用背年份、王朝或重大事件；保留书、纪录片和博物馆三种方式。",
+    body: liHuaHistoryStory,
+    memoryChain: liHuaHistoryMemory,
+    pointsLabel: "Why he loves history / how I feel · 对应观点",
+    reasons: liHuaHistoryReasons
+  });
+  const olderAdmired = card({
+    id: "p2-feishu-older-admired",
+    code: "N03",
+    name: "尊敬的年长者",
+    sourceOrder: 103,
+    question: questions.olderAdmired,
+    cuePoints: ["Who this person is", "How you knew this person", "What kinds of things you like to do together", "And explain how you feel about this person"],
+    draftCues: ["six years ago", "mentor Alex", "eight years older", "staged release", "stable in October"],
+    focus: "人物是六年前入职时认识的导师 Alex；用学生软件分步发布的事件说明为什么更加敬佩他。",
+    omit: "不讲编程术语或复杂故障；只保留入职相识、一起工作、分步发布和稳定上线。",
+    memoryChain: {
+      story: "第一部 At first：六年前入职 → 认识年长八岁的导师 Alex → 一起开发、测试软件 → 第二部 However：学生软件上线前出问题 → Alex 建议分步发布 → 先让少量学生使用 → 第三部 In the end：收集反馈并修复 → 十月稳定上线 → 更加敬佩他",
+      reasons: [
+        "入职时耐心带我 → 帮我适应团队 → 是可靠的导师",
+        "软件出问题时保持冷静 → 不盲目上线 → 处理问题很稳",
+        "建议分步发布 → 先收集真实反馈 → 方法简单实用",
+        "一直帮到十月稳定上线 → 对团队和学生负责 → 我更加敬佩他"
+      ]
+    },
+    body: {
+      text: "At first, I met Alex six years ago when I started my first job as a software engineer. He was my mentor and was eight years older than me. We developed and tested software together, and he patiently taught me how our team worked. However, last September, just before we released a learning app for students, it became very slow and some lessons could not open. During a meeting, Alex suggested releasing it in stages. We first let a small group of students use it instead of releasing it to everyone. In the end, we collected their feedback, fixed the remaining problems and released a stable version in October. I admired him even more because he stayed calm and found a simple and safe solution.",
+      highlights: ["At first", "six years ago", "my mentor", "eight years older", "However", "releasing it in stages", "a small group of students", "In the end", "a stable version in October", "admired him even more"]
+    },
+    pointsLabel: "Why I admire him · 4 个观点",
+    reasons: [
+      reason("First, Alex was a patient mentor when I was new. He helped me understand the team and become more confident at work.", "1 · 耐心带我 → 帮我适应团队 → 是可靠的导师", ["a patient mentor", "more confident at work"]),
+      reason("Second, he stayed calm when the app had problems. He focused on a safe solution instead of rushing the release.", "2 · 问题前保持冷静 → 不盲目上线 → 处理得很稳", ["stayed calm", "a safe solution"]),
+      reason("Third, his staged-release idea was simple and practical. It gave us real feedback while protecting most students from the problem.", "3 · 分步发布 → 获得真实反馈 → 保护大多数学生", ["simple and practical", "real feedback"]),
+      reason("Finally, he supported the team until the stable version was released in October. This sense of responsibility made me admire him even more.", "4 · 帮到稳定上线 → 对团队和学生负责 → 更加敬佩他", ["supported the team", "sense of responsibility"])
+    ]
+  });
+  const handcraft = card({
+    id: "p2-feishu-handcraft-person",
+    code: "N05",
+    name: "擅长做手工的人",
+    sourceOrder: 105,
+    question: questions.handcraft,
+    cuePoints: ["Who this person is", "What he/she makes", "Why you think this person is good at making things by hand", "And explain how you feel about the person"],
+    draftCues: ["Li Hua", "small cardboard house", "measure-cut-glue", "roof fell off", "tried again"],
+    focus: "人物是李华；直接说他平时喜欢做小模型，用纸板小房子展开“量、剪、粘”和失败后重做。",
+    omit: "不讲上色、小灯、夹子或专业工具；不需要记太多操作动词。",
+    body: {
+      text: "I'd like to talk about my high-school classmate Li Hua, who is good at making things by hand. He often makes small models at home. Last month, he made a small house from cardboard. At first, the task looked difficult to me, but he broke it into three simple steps: measuring, cutting and gluing. However, the roof fell off because one piece was too short. He did not give up. He measured it again, cut a new piece and glued it more carefully. In the end, the house looked neat and strong, and he put it on his desk. I admire his patience. This useful skill can also save him money because he can make simple toys by himself instead of buying them.",
+      highlights: ["Li Hua", "a small house from cardboard", "looked difficult", "three simple steps", "measuring, cutting and gluing", "However", "the roof fell off", "did not give up", "In the end", "save him money", "make simple toys by himself"]
+    },
+    memoryChain: {
+      story: "第一部 At first：李华平时喜欢做小模型 → 用纸板做小房子 → 用直尺量、剪刀剪、胶水粘 → 第二部 However：一块纸板太短 → 屋顶掉了 → 他没放弃，重新量、剪、粘 → 第三部 In the end：小房子整齐又牢固 → 放在书桌上 → 我佩服他做事仔细又有耐心",
+      reasons: [
+        "我觉得任务很难 → 他拆成量、剪、粘三步 → 最终完成",
+        "屋顶掉了 → 他没有放弃、重新做 → 最终成功",
+        "会做手工很省钱 → 可以自己做简单玩具 → 不用全部购买"
+      ]
+    },
+    pointsLabel: "Why he is good at it / how I feel · 3 个观点",
+    reasons: [
+      reason("First, I thought the task was difficult, but Li Hua broke it into three simple steps: measuring, cutting and gluing. This made the work manageable, and he completed it successfully.", "1 · 我觉得任务很难 → 他拆成三步 → 最终完成", ["the task was difficult", "three simple steps", "completed it successfully"]),
+      reason("Second, when the roof fell off, he did not give up. He tried again and finally made the house strong.", "2 · 屋顶掉了 → 没有放弃、再试一次 → 最终成功", ["the roof fell off", "did not give up", "finally"]),
+      reason("Finally, being good at handcrafts can save money. Li Hua can make simple toys by himself instead of buying them.", "3 · 会做手工很省钱 → 可以自己做玩具", ["save money", "make simple toys by himself"])
+    ]
+  });
+
+  const photoLover = card({
+    id: "p2-feishu-photo-lover",
+    code: "N04",
+    name: "喜欢拍照的人",
+    sourceOrder: 104,
+    question: questions.photoLover,
+    cuePoints: ["Who the person is", "When and how you got to know him/her", "Where he/she takes photos", "And explain how you feel about him/her"],
+    draftCues: ["girlfriend", "university", "phone camera", "trips and food", "keeps memories"],
+    focus: "人物是女朋友；说清在大学认识，她旅行、吃饭和散步时都会拍照。",
+    omit: "不讲相机参数或修图软件。",
+    memoryChain: {
+      story: "大学认识女朋友 → 她一直喜欢用手机拍照 → 上海旅行拍外滩、食物和我们的合照 → 她会挑几张分享给家人 → 我觉得她帮我们保存了回忆",
+      reasons: [
+        "记录旅行和日常 → 以后能回想 → 回忆更清楚",
+        "会注意小细节 → 普通地方也好看 → 让我看到不同角度",
+        "主动给家人分享 → 大家有共同话题 → 关系更亲近"
+      ]
+    },
+    body: {
+      text: "The person I know who really likes taking photos is my girlfriend. We met at university, and she has enjoyed photography for years. She normally uses her phone because it is light and convenient. She takes photos when we travel, walk in a park or try interesting food. During our trip to Shanghai, she photographed the river, the tall buildings and our dinner, and she asked a friendly visitor to take a photo of us together. Later, she chose a few pictures and shared them with our families. I like this habit because her photos help us keep clear memories of ordinary days and special trips.",
+      highlights: ["my girlfriend", "at university", "her phone", "travel", "Shanghai", "shared them with our families", "keep clear memories"]
+    },
+    pointsLabel: "How I feel about her habit · 3 个观点",
+    reasons: [
+      reason("First, her photos help us remember trips and ordinary days long after they happen.", "记录旅行和日常 → 以后能回想 → 回忆更清楚", ["remember trips", "ordinary days"]),
+      reason("Second, she notices small details and often makes a normal place look interesting.", "注意小细节 → 普通地方也好看 → 看到不同角度", ["small details", "look interesting"]),
+      reason("Finally, sharing the pictures gives our families something pleasant to talk about and keeps us close.", "给家人分享 → 增加共同话题 → 关系更亲近", ["sharing the pictures", "keeps us close"])
+    ]
+  });
+
+  const difficultSuccess = card({
+    id: "p2-feishu-difficult-success",
+    code: "N06",
+    name: "做困难的事情并成功的人",
+    sourceOrder: 106,
+    question: questions.difficultSuccess,
+    cuePoints: ["Who this person is", "What difficult thing this person did", "Why this person was successful", "And explain how you feel about this person"],
+    draftCues: ["Li Hua", "learn French", "little free time", "daily practice", "succeeded"],
+    focus: "沿用李华学法语：困难是发音和时间少；成功原因是每天练习、不放弃并主动纠错。",
+    omit: "不用新增第二个成功故事。",
+    memoryChain: {
+      story: "李华想学法语 → 发音难、作业多、时间少 → 每天看短视频并练习 → 说错就重来 → 旅行时能点餐问路",
+      reasons: ["目标清楚 → 每天练习 → 没有轻易放弃", "主动改错 → 找老师帮助 → 一步步进步", "旅行中真正用上 → 获得成就感 → 我很佩服"]
+    }
+  });
+
+  addGroup(people, "飞书 9 月新题｜人物", [taughtSkill, historyLover, photoLover, handcraft, difficultSuccess]);
+  const liHuaStory = people.tips.mergedStories.find((story) =>
+    story.baseQuestion === "Describe a person who is good at learning and speaking new languages"
+  );
+  if (liHuaStory) {
+    const additions = [
+      {
+        question: questions.historyLover,
+        special: "人物仍是李华；重点讲历史书、纪录片和博物馆，以及历史兴趣怎样促使他学法语。"
+      },
+      {
+        question: questions.difficultSuccess,
+        special: "人物仍是李华；强调法语发音难、时间少，以及每天练习后成功。"
+      }
+    ];
+    for (const addition of additions) {
+      if (!liHuaStory.questions.some((entry) => (entry.question || entry) === addition.question)) {
+        liHuaStory.questions.push(addition);
+      }
+    }
+    liHuaStory.title = "李华｜法语、历史与克服困难四题共用";
+    liHuaStory.focus = "四题统一使用高中同学李华；历史是兴趣和学法语的动机，法语是他遇到困难后取得成功的主线。";
+    liHuaStory.omit = "不背历史年份或法语句子；只记书、纪录片、博物馆和每日语言练习。";
+    liHuaStory.draftCues = ["Li Hua", "history books-documentaries-museum", "French for France", "daily practice", "museum tour"];
+    liHuaStory.memoryChain = liHuaHistoryMemory;
+    liHuaStory.body = liHuaHistoryStory;
+    liHuaStory.pointsLabel = "四道题的对应观点";
+    liHuaStory.reasonHint = false;
+    liHuaStory.reasons = liHuaHistoryReasons;
+  }
+
+  const crowdedPlace = card({
+    id: "p2-feishu-crowded-place",
+    code: "N07",
+    name: "拥挤的地方",
+    sourceOrder: 107,
+    question: questions.crowdedPlace,
+    cuePoints: ["When you went there", "Who you went there with", "Why you went there", "And how you felt about it"],
+    draftCues: ["Shanghai", "food festival", "girlfriend", "crowds", "excited then tired"],
+    focus: "地点是上海河边的周末美食节；重点突出人多、走路慢和排队。",
+    omit: "不用记游客人数或节日正式名称。",
+    memoryChain: {
+      story: "去年秋天和女朋友去上海 → 河边碰到周末美食节 → 想尝小吃所以进去 → 人很多、走得慢、买食物要排队 → 先兴奋后疲惫，最后去安静咖啡馆休息",
+      reasons: ["摊位和游客很多 → 路变窄 → 走路很慢", "大家排队买食物 → 等了很久 → 感到疲惫", "和女朋友一起尝小吃 → 气氛热闹 → 仍留下好回忆"]
+    },
+    body: {
+      text: "I'd like to talk about a crowded food festival beside the river in Shanghai. I went there with my girlfriend during a trip last autumn. We saw the festival while walking near the river and decided to enter because we wanted to try some local snacks. At first, the music and colourful stalls felt exciting. However, there were people everywhere, the paths were narrow and we had to wait a long time for food. It was sometimes difficult to move or hear each other. In the end, we bought two snacks and found a quiet café nearby. I enjoyed the lively atmosphere, but I also felt tired and relieved when we left.",
+      highlights: ["food festival", "Shanghai", "my girlfriend", "At first", "people everywhere", "wait a long time", "In the end", "tired"]
+    },
+    pointsLabel: "Why it was crowded / how I felt · 对应观点",
+    reasons: [
+      reason("There were many stalls and visitors, so the narrow paths became difficult to walk through.", "摊位和游客多 → 路窄 → 走路很慢", ["many stalls and visitors", "narrow paths"]),
+      reason("We waited a long time for food and could hardly hear each other, which made me tired.", "排队久＋听不清 → 感到疲惫", ["waited a long time", "made me tired"]),
+      reason("Still, trying local snacks with my girlfriend made the visit lively and memorable.", "一起尝小吃 → 气氛热闹 → 留下回忆", ["local snacks", "lively and memorable"])
+    ]
+  });
+  const noisyPlace = card({
+    id: "p2-feishu-noisy-place",
+    code: "N08",
+    name: "嘈杂的地方",
+    sourceOrder: 108,
+    question: questions.noisyPlace,
+    cuePoints: ["Where it is", "When you went there", "What you did there", "And explain why you feel it's a noisy place"],
+    draftCues: ["Shanghai", "food festival", "music", "sellers and visitors", "could not hear"],
+    focus: "沿用上海美食节，重点切到音乐、叫卖声和人群说话声。",
+    omit: "拥挤感简短带过，不需要再编新地点。",
+    memoryChain: crowdedPlace.memoryChain,
+    body: crowdedPlace.body,
+    pointsLabel: "Why it was noisy · 对应观点",
+    reasons: crowdedPlace.reasons
+  });
+
+  const naturalPlace = card({
+    id: "p2-feishu-city-natural-place",
+    code: "N09",
+    name: "喜欢的城市自然之地",
+    sourceOrder: 109,
+    question: questions.naturalPlace,
+    cuePoints: ["Where it was", "What it is like", "How often you go there", "Who you often go there with", "And explain why you enjoy visiting there"],
+    draftCues: ["Liangshui River", "near home", "flowers and boats", "twice a month", "girlfriend"],
+    focus: "沿用凉水河，补清楚它在城市附近、每月去一两次，通常和女朋友一起。",
+    omit: "地图长度和地理课只作背景；本题重点是自然环境与日常放松。",
+    memoryChain: {
+      story: "城市附近的凉水河 → 河水、花草和小船很好看 → 每月和女朋友去一两次 → 散步拍照后吃烤鱼 → 景美、人友好、食物好吃",
+      reasons: ["景美：河水花草小船 → 适合散步拍照 → 心情放松", "人美：当地人帮忙拍照指路 → 感到欢迎 → 愿意再来", "食物美：河边烤鱼简单好吃 → 旅行更完整 → 留下回忆"]
+    },
+    body: {
+      text: "The natural place I enjoy visiting is a riverside park along the Liangshui River near my city. The water, flowers and small boats make it look peaceful and attractive. I first visited it with my family last spring, and a friendly local man helped us take a photo and showed us a quiet viewpoint. Now I go there once or twice a month, usually with my girlfriend. We walk beside the river, take a few photos and sometimes eat grilled fish in a small restaurant nearby. I enjoy the place because the scenery is beautiful, the people are friendly and the food is good.",
+      highlights: ["Liangshui River", "near my city", "peaceful", "once or twice a month", "my girlfriend", "beautiful", "friendly", "good"]
+    },
+    pointsLabel: "Why I enjoy it · 景美、人美、食物美",
+    reasons: [
+      reason("First, the river, flowers and small boats create a beautiful view, so walking there helps me relax.", "景美：河水花草小船 → 散步拍照 → 心情放松", ["beautiful view", "helps me relax"]),
+      reason("Second, local people are friendly. One man helped my family take a photo and showed us a quiet viewpoint.", "人美：帮忙拍照指路 → 感到欢迎", ["friendly", "helped my family"]),
+      reason("Finally, the grilled fish beside the river is simple but delicious, so the visit also gives us a good meal together.", "食物美：河边烤鱼 → 一起吃饭 → 留下回忆", ["grilled fish", "delicious"])
+    ]
+  });
+  const revisitCity = card({
+    id: "p2-feishu-revisit-city",
+    code: "N10",
+    name: "想再去一次的城市",
+    sourceOrder: 110,
+    question: questions.revisitCity,
+    cuePoints: ["When you visited it", "What you did there", "What it was like", "And explain why you would like to visit it again"],
+    draftCues: ["Shanghai", "last autumn", "girlfriend", "Bund and Lujiazui", "visit again"],
+    focus: "沿用上海三日旅行；结尾明确 I would like to visit it again。",
+    omit: "商场细节只需一句，重点仍是整座城市。",
+    memoryChain: {
+      story: "去年秋天和女朋友去上海三天 → 外滩看河景和高楼 → 陆家嘴商场避雨吃饭 → 地铁方便、当地人友好、小笼包好吃 → 还有地方没看完，所以想再去",
+      reasons: ["景美：高楼、老街和河景在一起", "人美：当地人和店员都愿意帮忙", "食物美：小笼包和商场餐厅选择多"]
+    }
+  });
+
+  addGroup(place, "飞书 9 月新题｜地点", [crowdedPlace, noisyPlace, naturalPlace, revisitCity]);
+  const riverQuestion = "Describe an important river/lake in your country";
+  place.tips.mergedStories.push({
+    title: "凉水河｜重要河流与城市自然之地共用",
+    sourceOrder: 6,
+    baseQuestion: riverQuestion,
+    questions: [
+      { question: riverQuestion, special: "保留地理课飞龙地图和它对当地旅游、生意的重要性。" },
+      { question: questions.naturalPlace, special: "补每月去一两次、通常和女朋友一起，重点用景美、人美、食物美。" }
+    ],
+    body: naturalPlace.body,
+    memoryChain: naturalPlace.memoryChain,
+    reasons: naturalPlace.reasons,
+    pointsLabel: naturalPlace.pointsLabel,
+    reasonHint: false
+  });
+  const shanghaiStory = place.tips.mergedStories.find((story) =>
+    story.baseQuestion === "Describe your favorite city that you have visited"
+  );
+  if (shanghaiStory) {
+    const additions = [
+      {
+        question: questions.crowdedPlace,
+        special: "上海旅行中的河边美食节；重点讲游客和摊主同时制造噪音、听不清彼此后去商场找安静处，以及食物贵又不好吃。"
+      },
+      {
+        question: questions.noisyPlace,
+        special: "同一个上海美食节；同样讲游客和摊主同时制造噪音、听不清彼此后去商场找安静处，以及食物贵又不好吃。"
+      },
+      {
+        question: questions.revisitCity,
+        special: "说去年秋天已经去过；最后明确因为景色、友好的人和食物想再次游览。"
+      }
+    ];
+    for (const addition of additions) {
+      if (!shanghaiStory.questions.some((entry) => (entry.question || entry) === addition.question)) {
+        shanghaiStory.questions.push(addition);
+      }
+    }
+    shanghaiStory.title = "上海旅行｜城市、商场、拥挤与嘈杂七题共用";
+    shanghaiStory.focus = "七题都使用去年秋天和女朋友的上海旅行；地点题用景美、人美、食物美，拥挤和嘈杂题只放大美食节部分。";
+    shanghaiStory.omit = "不记真实节日名称、人数或商场楼层；只记外滩、美食节和陆家嘴商场三个地点。";
+    shanghaiStory.draftCues = [
+      "1 At first: Shanghai-Bund-Lujiazui",
+      "2 However: visitors-sellers-noise-tired-expensive food",
+      "3 In the end: leave festival-quiet mall-dinner-gift"
+    ];
+    shanghaiStory.memoryChain = {
+      story: "第一部 At first：去年秋天和女朋友去上海 → 外滩、陆家嘴看河景高楼老街 → 当地人帮拍照＋吃小笼包 → 第二部 However：河边美食节 → 游客和摊主很多，同时制造噪音 → 听不清彼此、很疲惫 → 食物又贵又不好吃 → 第三部 In the end：离开美食节 → 去附近 IFC 商场找安静处 → 吃饭、买咖啡和礼物 → 还会去上海，但不会再去那个美食节"
+    };
+    shanghaiStory.body = {
+      text: "I'd like to talk about a trip to Shanghai with my girlfriend last autumn. At first, we visited the Bund and Lujiazui. The river, tall buildings and old streets were beautiful. A local person took our photo, and we ate xiaolongbao. However, we found a food festival beside the river. There were many visitors and sellers, and they all made noise at the same time. We could hardly hear each other and soon felt tired. The food was also expensive and not delicious. In the end, we left and went to the nearby Shanghai IFC Mall. It was bright, clean and quiet. We had a tasty, affordable dinner, bought coffee and a gift, and returned to our hotel. I would visit Shanghai again, but not that food festival.",
+      highlights: ["Shanghai", "my girlfriend", "last autumn", "At first", "the Bund and Lujiazui", "beautiful", "However", "a food festival", "many visitors and sellers", "made noise at the same time", "could hardly hear each other", "felt tired", "expensive and not delicious", "In the end", "Shanghai IFC Mall", "bright, clean and quiet", "visit Shanghai again", "not that food festival"]
+    };
+    shanghaiStory.pointsLabel = "七道题的对应观点｜每题最多选 3 条，重复理由只列一次";
+    shanghaiStory.reasonHint = false;
+    shanghaiStory.reasons = [
+      reason("The river, tall buildings and old streets looked beautiful, so Shanghai was a great place for walking and taking photos.", "城市题 / 地点题 / Emotion｜景美：河景＋高楼＋老街 → 好看、适合散步拍照", ["looked beautiful", "walking and taking photos"]),
+      reason("A local person helped us take a photo, and travelling with my girlfriend gave us happy memories.", "城市题 / 地点题 / Relationship｜人美：当地人帮拍照＋和女朋友旅行 → 感到欢迎、关系更近", ["helped us", "happy memories"]),
+      reason("The xiaolongbao and our dinner in the mall were tasty and affordable, so we ate well without spending too much.", "城市题 / 商场题 / Money｜食物美：小笼包和商场晚餐好吃不贵 → 吃得开心又省钱", ["tasty and affordable", "without spending too much"]),
+      reason("The metro was cheap and easy to use, and the mall was beside it with restaurants and shops, so travelling and shopping were convenient.", "城市题 / 商场题 / Money｜方便：地铁便宜好用＋商场就在旁边＋吃饭购物都方便", ["cheap and easy to use", "travelling and shopping were convenient"]),
+      reason("The mall was bright, clean and comfortable, and it gave us a quiet place after the noisy festival.", "商场题 / Emotion｜环境：明亮干净＋离开嘈杂的美食节后能安静休息 → 感到舒服", ["bright, clean and comfortable", "a quiet place"]),
+      reason("There were many visitors and sellers, and they were all making noise at the same time, so the festival felt crowded and noisy.", "拥挤 / 嘈杂地点 1：游客和摊主很多＋同时制造声音 → 又挤又吵", ["many visitors and sellers", "making noise at the same time", "crowded and noisy"]),
+      reason("My girlfriend and I could hardly hear each other, so we felt tired and finally went to a nearby shopping mall to find a quiet place.", "拥挤 / 嘈杂地点 2 / Relationship / Emotion：听不清彼此 → 感到疲惫 → 去附近商场找安静处", ["could hardly hear each other", "felt tired", "find a quiet place"]),
+      reason("The food at the festival was expensive and did not taste good, so I would not visit that food festival again, although I would still return to Shanghai.", "拥挤 / 嘈杂地点 3 / Money：美食节食物太贵又不好吃 → 钱花得不值 → 不再去这个美食节，但还会去上海", ["expensive", "did not taste good", "not visit that food festival again"])
+    ];
+    const reasonChoices = new Map([
+      ["Describe a place you have travelled to that you would like to recommend to others", "1、2、3"],
+      ["Describe a place you would like to visit in your free time", "1、2、3"],
+      ["Describe a shopping mall you like.", "3、4、5"],
+      ["Describe your favorite city that you have visited", "1、3、4"],
+      ["Describe a crowded place you went to", "6、7、8"],
+      ["Describe a noisy place you have been to", "6、7、8"],
+      ["Describe a city that you have been to and would like to visit again.", "1、2、3"]
+    ]);
+    for (const entry of shanghaiStory.questions) {
+      if (typeof entry === "string") continue;
+      const choices = reasonChoices.get(entry.question);
+      if (!choices) continue;
+      const special = String(entry.special || "").replace(/[。；\s]+$/, "");
+      entry.special = `${special}；观点选第 ${choices} 条。`;
+    }
+  }
+
+  const childhoodSkill = card({
+    id: "p2-feishu-childhood-skill",
+    code: "N11",
+    name: "小时候学到的新技能",
+    sourceOrder: 111,
+    question: questions.childhoodSkill,
+    cuePoints: ["What the skill was", "Who taught you this skill", "How you learned it", "And explain how you felt about learning the skill"],
+    draftCues: ["English song", "Mr Brown", "primary school", "short lines", "excited"],
+    focus: "技能是小时候学会唱一首英文歌；人物、课堂和学习过程与外教素材一致。",
+    omit: "不展开整门课程，也不讲歌曲的专业细节。",
+    body: childhoodSkillStory,
+    memoryChain: childhoodSkillMemory,
+    pointsLabel: "How I felt about learning it · 3 个观点",
+    reasons: [
+      reason("First, Mr Brown divided the song into short lines, so the skill was simple enough for a child like me to learn.", childhoodSkillMemory.reasons[0], ["short lines", "simple enough"]),
+      reason("Secondly, the tune and simple actions made the new English words and pronunciation easier to remember. I could practise the song again at home.", childhoodSkillMemory.reasons[1], ["easier to remember", "practise the song"]),
+      reason("Finally, singing the whole song with my classmates gave me confidence. After that, I was more willing to speak English in class.", childhoodSkillMemory.reasons[2], ["gave me confidence", "speak English in class"])
+    ]
+  });
+
+  const movieEveningBody = {
+    text: "At first, last Saturday I found a short online clip from a family film called Grandma's Garden. It showed a funny grandma growing vegetables and making a carrot cake. I sent it to my girlfriend and two friends, and that evening they came to my home. We watched the full movie with snacks and laughed a lot. However, after they left, the TV suggested another movie. I often watch films after work to relax, so I kept watching alone and forgot the time. In the end, I went to bed after midnight and felt tired the next day. Watching one movie at home cost little, helped me relax and brought us closer, but the extra movie was a waste of time.",
+    highlights: ["At first", "last Saturday", "a short online clip", "Grandma's Garden", "my girlfriend and two friends", "the full movie", "However", "another movie", "forgot the time", "In the end", "after midnight", "a waste of time"]
+  };
+  const movieEveningMemory = {
+    story: "第一部 At first：周六刷到《Grandma's Garden》短片 → 奶奶种菜、做胡萝卜蛋糕 → 发给女朋友和两位朋友 → 晚上来我家吃零食、看完整电影 → 第二部 However：朋友走后电视自动推荐下一部 → 我为了放松又看一部 → 忘了时间 → 第三部 In the end：午夜后才睡、第二天很累 → 和朋友看一部省钱、放松、关系近 → 独自多看一部就是浪费时间"
+  };
+
+  const wasteTime = card({
+    id: "p2-feishu-waste-time",
+    code: "N12",
+    name: "浪费时间的活动",
+    sourceOrder: 112,
+    question: questions.wasteTime,
+    cuePoints: ["What it is", "When you usually do it", "Why you do it", "And explain why you think it is a wast of time"],
+    draftCues: ["movies at night", "after work", "automatic suggestion", "one more movie", "sleep late"],
+    focus: "活动统一为晚上看电影；重点讲朋友离开后自己又继续看，并说这是常见的下班放松习惯。",
+    omit: "不讲平台、算法或多部电影情节；只记自动推荐、继续看和睡得太晚。",
+    memoryChain: movieEveningMemory,
+    body: movieEveningBody,
+    pointsLabel: "Why watching too many movies wastes time · 4 个观点",
+    reasons: [
+      reason("The television suggests another film automatically, so it is easy to keep watching and lose track of time.", "1 · 自动推荐下一部 → 容易继续看 → 忘记时间", ["another film automatically", "lose track of time"]),
+      reason("Movies help me forget about work for a short time, but watching a second one usually adds little value.", "2 · 短暂忘掉工作 → 第二部没多少新价值 → 之后后悔", ["forget about work", "adds little value"]),
+      reason("I often go to bed after midnight and feel tired at work the next day, so the habit affects more than one evening.", "3 · 午夜后睡 → 第二天工作疲惫 → 影响不只一晚", ["after midnight", "tired at work"]),
+      reason("One planned movie can be relaxing, but continuing without a clear stopping time turns it into wasted time.", "4 · 按计划看一部能放松 → 没有停止时间就过度 → 变成浪费", ["one planned movie", "a clear stopping time"])
+    ]
+  });
+
+  const goodService = card({
+    id: "p2-feishu-good-shop-service",
+    code: "N13",
+    name: "购物时的优质服务",
+    sourceOrder: 113,
+    question: questions.goodService,
+    cuePoints: ["Where the shop is", "When you went to the shop", "What service you received from the staff", "And explain how you felt about the service"],
+    draftCues: ["electronics shop", "last month", "smart watch gift", "compare two models", "set up health app"],
+    focus: "沿用送朋友智能手表：店员帮我比较型号、解释健康功能并连接 App。",
+    omit: "不讲品牌和复杂参数。",
+    memoryChain: {
+      story: "上月去家附近电子商店 → 想给朋友买智能手表但不会选 → 店员先问预算和需求 → 比较两款、解释工作提醒和健康监测 → 还帮忙连接 App，我买得放心",
+      reasons: ["先听需求 → 没有强推贵的 → 感到被尊重", "把功能讲得简单 → 很快做决定 → 节省时间", "主动帮忙设置 → 礼物拿到就能用 → 服务很完整"]
+    },
+    body: {
+      text: "I'd like to talk about the good service I received at an electronics shop near my home last month. I went there to buy a smart watch for a friend, but I was not sure which one to choose. A staff member first asked about my budget and my friend's needs. He compared two models in simple language and showed me how the watch could display work reminders and check steps, heart rate and sleep. He did not push me to buy the most expensive one. After I chose, he also helped connect the watch to its health app. I felt respected and relieved because the service saved time and made the gift ready to use.",
+      highlights: ["electronics shop", "last month", "smart watch", "budget", "work reminders", "health app", "respected and relieved"]
+    },
+    pointsLabel: "Why the service was good / how I felt · 3 个观点",
+    reasons: [
+      reason("First, the staff member listened to my needs and did not push the most expensive product.", "先听需求 → 不强推贵的 → 感到被尊重", ["listened to my needs", "did not push"]),
+      reason("Second, he explained the main functions simply, so I could compare the watches and decide quickly.", "功能讲得简单 → 容易比较 → 节省时间", ["explained", "decide quickly"]),
+      reason("Finally, he helped set up the health app, which made the gift ready for my friend to use.", "帮助设置 App → 礼物可以直接用 → 服务完整", ["set up", "ready"])
+    ]
+  });
+
+  const savedMoney = card({
+    id: "p2-feishu-saved-money",
+    code: "N14",
+    name: "攒钱买想要的物品",
+    sourceOrder: 114,
+    question: questions.savedMoney,
+    cuePoints: ["What you wanted to buy", "Why you wanted to buy it", "How you saved money for it", "And explain how you felt after buying it"],
+    draftCues: ["smart watch", "health and reminders", "four months", "less takeaway coffee", "proud"],
+    focus: "物品是升级版智能手表；说清每月存钱并减少外卖和咖啡。",
+    omit: "不用记精确型号或工资数字。",
+    memoryChain: {
+      story: "想买约两千元智能手表 → 需要健康监测和工作提醒 → 连续四个月每月存一部分钱 → 少点外卖、少买咖啡 → 终于买到并一直使用，很有成就感",
+      reasons: ["目标价格清楚 → 每月固定存 → 容易坚持", "减少小额消费 → 没影响基本生活 → 慢慢攒够", "买后每天都用 → 钱花得值得 → 对自己更有信心"]
+    },
+    body: {
+      text: "I'd like to talk about a smart watch I saved money to buy. I wanted it because it could show work reminders and help me check my steps, heart rate and sleep. It cost about two thousand yuan, so I decided not to buy it immediately. At first, I set aside part of my salary each month. I also ordered less takeaway food and bought coffee outside less often. I followed this plan for about four months. In the end, I had enough money and bought the watch without borrowing from anyone. I felt proud because I had reached a clear goal, and the watch has been useful every day.",
+      highlights: ["smart watch", "work reminders", "two thousand yuan", "set aside", "four months", "without borrowing", "felt proud"]
+    },
+    pointsLabel: "How I saved / how I felt · 3 个观点",
+    reasons: [
+      reason("I knew the price and saved a fixed amount each month, so the goal felt clear and manageable.", "价格清楚 → 每月固定存 → 目标容易管理", ["fixed amount", "manageable"]),
+      reason("I reduced small costs such as takeaway food and coffee without changing my basic life.", "减少外卖咖啡 → 不影响生活 → 慢慢攒够", ["reduced small costs", "basic life"]),
+      reason("After buying it, I used it every day, so I felt proud and believed the money was well spent.", "每天都用 → 钱花得值得 → 感到自豪", ["every day", "well spent"])
+    ]
+  });
+
+  const keptListening = card({
+    id: "p2-feishu-kept-listening",
+    code: "N15",
+    name: "听不感兴趣的话",
+    sourceOrder: 115,
+    question: questions.keptListening,
+    cuePoints: ["Who the person was", "What he/she talked about", "Why you kept listening", "And explain how you felt about the experience"],
+    draftCues: ["colleague", "football match", "lunch break", "important to him", "respect"],
+    focus: "同事午休时一直讲足球比赛；我不懂足球，但因为这件事对他很重要而认真听。",
+    omit: "不用记球队、球员或比分。",
+    memoryChain: {
+      story: "午休和同事 Alex 吃饭 → 他兴奋地讲昨晚足球比赛 → 我不看足球、开始有点无聊 → 仍然点头并问简单问题，因为他很开心 → 他后来也认真听我的工作烦恼",
+      reasons: ["话题对他重要 → 认真听表示尊重 → 关系更好", "不用懂足球 → 问简单问题即可 → 对方感到被重视", "我耐心听他 → 后来他也听我 → 交流是双向的"]
+    },
+    body: {
+      text: "I'd like to talk about a lunch break when my colleague Alex told me about a football match. He had watched it the night before and was very excited about it. I do not usually follow football, so at first I found the details a little boring. However, I kept listening because the match clearly meant a lot to him and I did not want to be rude. I looked at him, nodded and asked a few simple questions about why the result was important. He enjoyed explaining it. Later, when I mentioned a work problem, he listened carefully to me as well. I felt patient and positive because the conversation strengthened our relationship.",
+      highlights: ["lunch break", "Alex", "football match", "a little boring", "kept listening", "simple questions", "strengthened our relationship"]
+    },
+    pointsLabel: "Why I kept listening / how I felt · 3 个观点",
+    reasons: [
+      reason("The topic was important to Alex, so listening carefully was a simple way to show respect.", "对他重要 → 认真听 → 表示尊重", ["important to Alex", "show respect"]),
+      reason("I could ask simple questions even without knowing much about football, and this made him feel valued.", "不懂也能问简单问题 → 对方感到被重视", ["simple questions", "feel valued"]),
+      reason("He later listened to my problem too, so the experience reminded me that good communication works both ways.", "后来他也听我 → 交流双向 → 关系更好", ["listened to my problem", "both ways"])
+    ]
+  });
+
+  const enjoyableEvening = card({
+    id: "p2-feishu-enjoyable-evening",
+    code: "N16",
+    name: "和朋友度过的愉快夜晚",
+    sourceOrder: 116,
+    question: questions.enjoyableEvening,
+    cuePoints: ["When and where it was", "What you did", "Who you spent the evening with", "And explain why it was enjoyable"],
+    draftCues: ["last Saturday evening", "girlfriend-two friends", "living room", "Grandma's Garden", "snacks-laughter"],
+    focus: "直接套用家里看《Grandma's Garden》的晚上；明确女朋友和两位老朋友都在，重点讲零食、笑声和聊天。",
+    omit: "本题只讲朋友们一起看第一部电影的愉快部分；不用展开朋友离开后继续看的浪费时间部分。",
+    memoryChain: movieEveningMemory,
+    body: movieEveningBody,
+    pointsLabel: "Why the movie evening was enjoyable · 4 个观点",
+    reasons: [
+      reason("We had not met for a while, so watching the movie gave us time to talk and feel close again.", "1 · 有段时间没见 → 一起看电影聊天 → 关系更近", ["time to talk", "feel close again"]),
+      reason("The short clip gave everyone the same simple topic, so choosing a film was quick and nobody argued.", "2 · 先分享同一段短片 → 选电影很快 → 没人争论", ["the same simple topic", "choosing a film was quick"]),
+      reason("The funny scenes, snacks and laughter made the living room feel relaxed and friendly.", "3 · 有趣画面＋零食＋笑声 → 客厅气氛轻松", ["snacks and laughter", "relaxed and friendly"]),
+      reason("The story reminded us of our own families, so we had a warm conversation after the movie.", "4 · 想起自己的家人 → 看完继续聊天 → 晚上更有意义", ["our own families", "a warm conversation"])
+    ]
+  });
+
+  const changedDecision = card({
+    id: "p2-feishu-changed-decision",
+    code: "N17",
+    name: "改变重要决定",
+    sourceOrder: 117,
+    question: questions.changedDecision,
+    cuePoints: ["When you changed the decision", "What the original decision was", "Why you changed it", "And explain how you felt about the experience"],
+    draftCues: ["student app", "September", "full release", "problems", "staged release in October"],
+    focus: "并入学生软件延期：原决定是九月全面发布，发现问题后改成小范围测试、十月全面发布。",
+    omit: "不要改成普通计划题；必须明确 original decision 和 changed decision。",
+    memoryChain: {
+      story: "第一部 At first：决定九月向所有学生发布 → 第二部 However：测试发现卡顿和课程打不开，Alex 建议分步发布 → 第三部 In the end：改成九月小范围测试、十月全面发布，最终稳定上线",
+      reasons: ["原决定风险变大 → 可能影响所有学生 → 必须改变", "分步发布先收反馈 → 有时间修复 → 新决定更安全", "十月稳定上线 → 结果证明正确 → 感到安心和自信"]
+    }
+  });
+
+  addGroup(object, "飞书 9 月新题｜童年技能与电影之夜", [childhoodSkill, wasteTime, enjoyableEvening]);
+  const movieStory = object.tips.mergedStories.find((story) =>
+    story.baseQuestion === "Describe an interesting video"
+  );
+  if (movieStory) {
+    const additions = [
+      {
+        question: questions.enjoyableEvening,
+        special: "只展开女朋友和两位老朋友在客厅吃零食、看电影、说笑的愉快部分。"
+      },
+      {
+        question: questions.wasteTime,
+        special: "重点从朋友离开后开始：自动推荐下一部、自己继续看、午夜后才睡；结尾原因选第 4、5、6 条。"
+      }
+    ];
+    for (const addition of additions) {
+      if (!movieStory.questions.some((entry) => (entry.question || entry) === addition.question)) {
+        movieStory.questions.push(addition);
+      }
+    }
+    movieStory.title = "《Grandma's Garden》晚上看电影｜四题共用";
+    movieStory.focus = "四题共用同一个周六电影之夜；有趣视频题讲网上短片，近期电影和愉快夜晚讲朋友们一起看完，浪费时间题讲朋友离开后自己继续看。";
+    movieStory.omit = "不背演员、导演或复杂剧情；只记奶奶种菜、朋友们一起看和自己多看一部三个部分。";
+    movieStory.draftCues = [
+      "1 At first: clip-friends-full movie",
+      "2 However: friends left-one more movie",
+      "3 In the end: after midnight-tired"
+    ];
+    movieStory.memoryChain = movieEveningMemory;
+    movieStory.body = movieEveningBody;
+    movieStory.pointsLabel = "四道题的对应观点｜每题最多选 3 条，重复理由只列一次";
+    movieStory.reasonHint = false;
+    movieStory.reasons = [
+      reason("The clip and the film were interesting because the grandma grew vegetables and made a carrot cake. The idea was simple, funny and easy to remember.", "视频题 / 电影题｜内容：奶奶种菜＋做胡萝卜蛋糕 → 简单有趣、容易记", ["simple, funny", "easy to remember"]),
+      reason("The family story was warm and reminded us of our own families, so I enjoyed the film and felt relaxed.", "视频题 / 电影题 / Emotion：温暖的家庭故事 → 想起自己的家人 → 喜欢并放松", ["reminded us of our own families", "felt relaxed"]),
+      reason("Watching at home cost less than going to the cinema, and we could prepare our own snacks.", "电影题 / 愉快夜晚 / Money：在家看＋自备零食 → 比电影院省钱", ["cost less", "our own snacks"]),
+      reason("Watching one movie with my girlfriend and friends made us closer, but watching alone for too long would leave less time for them.", "电影题 / 愉快夜晚 / 浪费时间题 / Relationship：一起看一部 → 关系更近；独自看太久 → 少陪伴、影响关系", ["made us closer", "leave less time for them"]),
+      reason("The TV suggested another movie automatically, so I kept watching and forgot the time.", "浪费时间题：自动推荐下一部 → 继续看 → 忘记时间", ["another movie automatically", "forgot the time"]),
+      reason("I went to bed after midnight and felt tired at work the next day, so the extra movie was not worth the time.", "浪费时间题：午夜后睡 → 第二天工作累 → 多看一部得不偿失", ["after midnight", "tired at work", "not worth the time"])
+    ];
+  }
+
+  addGroup(event, "飞书 9 月新题｜事件", [olderAdmired, goodService, savedMoney, keptListening, changedDecision]);
+
+  // “印象深刻的课程”和“小时候学到的新技能”只背一条外教英文歌故事，集中到事件类展示。
+  const courseQuestion = "Describe a course that impressed you a lot";
+  const findTopicInGroups = (material, question) => (material.tips?.topicGroups || [])
+    .flatMap((group) => group.items || [])
+    .find((item) => item.question === question);
+  const impressiveCourse = findTopicInGroups(event, courseQuestion);
+  if (impressiveCourse) {
+    for (const material of [event, object]) {
+      for (const group of material.tips.topicGroups || []) {
+        group.items = (group.items || []).filter((item) =>
+          item.question !== courseQuestion && item.question !== questions.childhoodSkill
+        );
+      }
+      material.tips.topicGroups = material.tips.topicGroups.filter((group) => group.items?.length);
+    }
+
+    event.tips.topicGroups.unshift({
+      title: "飞书 9 月新题｜外教英文歌共用",
+      items: [impressiveCourse, childhoodSkill]
+    });
+
+    let englishSongStory = (event.tips.mergedStories || []).find((story) =>
+      story.title === "外教英文歌｜课程与童年技能共用"
+    );
+    if (!englishSongStory) {
+      englishSongStory = {};
+      event.tips.mergedStories.push(englishSongStory);
+    }
+    Object.assign(englishSongStory, {
+      title: "外教英文歌｜课程与童年技能共用",
+      sourceOrder: 7,
+      baseQuestion: courseQuestion,
+      questions: [
+        {
+          question: courseQuestion,
+          special: "开头保留小学英语课；最后用“这节课为什么让我印象深刻”收束。"
+        },
+        {
+          question: questions.childhoodSkill,
+          special: "开头只改成 I learned to sing a simple English song；其余经过完全不变。"
+        }
+      ],
+      draftCues: [
+        "1 At first: age ten-Mr Brown-fast song",
+        "2 However: short lines-actions-group practice",
+        "3 In the end: class sang-confident"
+      ],
+      focus: "两道题只背“快 → 拆 → 唱成”这一条三部曲：课程题强调课堂印象，技能题强调学会英文歌。",
+      omit: "不用记动画片、歌曲名字或第二个故事。",
+      body: impressiveCourse.body,
+      memoryChain: impressiveCourse.memoryChain,
+      pointsLabel: "两题通用 · 3 个观点",
+      reasonHint: false,
+      reasons: impressiveCourse.reasons
+    });
+  }
+
+  const studentStory = event.tips.mergedStories.find((story) =>
+    story.baseQuestion === "Describe a plan that you had to change recently"
+  );
+  if (studentStory) {
+    const additions = [
+      {
+        question: questions.olderAdmired,
+        special: "开头说六年前入职时认识年长八岁的导师 Alex；结尾强调这件事让我更加敬佩他。"
+      },
+      {
+        question: questions.changedDecision,
+        special: "原决定是九月全面发布；新决定是先小范围测试，十月再全面发布。"
+      }
+    ];
+    for (const addition of additions) {
+      if (!studentStory.questions.some((entry) => (entry.question || entry) === addition.question)) {
+        studentStory.questions.push(addition);
+      }
+    }
+    studentStory.title = "学生软件延期｜九题共用";
+    studentStory.focus = "九题共用同一段学生软件故事；用 At first → However → In the end 三部曲记住主线，再按当前题目选择下方观点。";
+    studentStory.draftCues = [
+      "1 At first: joined-six years-mentor Alex",
+      "2 However: app problems-staged release",
+      "3 In the end: feedback-fixed-October"
+    ];
+    studentStory.memoryChain = {
+      story: "第一部 At first：六年前入职 → 认识年长八岁的导师 Alex → 一起开发、测试软件 → 第二部 However：学生软件上线前出问题 → Alex 建议分步发布 → 先让少量学生使用 → 第三部 In the end：收集反馈并修复 → 十月稳定上线 → 更加敬佩他"
+    };
+    studentStory.body = {
+      text: "At first, I met Alex six years ago when I started my first job as a software engineer. He became my mentor, and he is eight years older than me. Since then, we have developed and tested software together. Last September, our team planned to release a learning app to all students. However, just before the release, the app became very slow and some lessons could not open. During a meeting, Alex stayed calm and suggested releasing it in stages. We first let a small group of students use it instead of releasing it to everyone. In the end, we collected their feedback, fixed the remaining problems and released a stable version in October. I felt relieved, and I admired Alex even more because his simple idea protected the students and helped our team succeed.",
+      highlights: ["At first", "six years ago", "my mentor", "eight years older", "developed and tested software", "However", "releasing it in stages", "a small group of students", "In the end", "a stable version in October", "admired Alex even more"]
+    };
+    studentStory.pointsLabel = "九道题的对应观点";
+    const admireReasons = [
+      reason(
+        "I admire Alex because he was patient when I first joined the company. As my mentor, he explained our work clearly and helped me become more confident.",
+        "8 · 尊敬导师：入职时耐心带我 → 帮我适应团队 → 工作更有信心",
+        ["patient", "my mentor", "more confident"]
+      ),
+      reason(
+        "I also admire the way he stays calm under pressure. When the app had problems, he focused on a safe plan instead of blaming anyone or rushing the release.",
+        "9 · 处理问题：压力下保持冷静 → 不责怪别人 → 专注安全方案",
+        ["stays calm under pressure", "a safe plan", "instead of blaming anyone"]
+      ),
+      reason(
+        "Most importantly, his staged-release idea was simple but effective. It protected the students, gave us useful feedback and helped the team release a stable app.",
+        "10 · 分步方案：方法简单有效 → 保护学生并收集反馈 → 十月稳定上线",
+        ["simple but effective", "protected the students", "a stable app"]
+      )
+    ];
+    for (const admireReason of admireReasons) {
+      if (!studentStory.reasons.some((item) => item.memory === admireReason.memory)) {
+        studentStory.reasons.push(admireReason);
+      }
+    }
+  }
+})();
+
+// 飞书 2026 年 9–12 月题库：本轮新增 Part 3（事物类与事件类）。
+(() => {
+  const p3 = (question, questionZh, answer, answerZh, structure = "观点 → 原因 → 例子/结果") => ({
+    question,
+    answerLanguage: "en",
+    materials: [],
+    answer,
+    translation: { question: questionZh, answer: answerZh },
+    structure
+  });
+  const group = (id, category, title, partTwo, partTwoQuestion, items) => ({
+    id,
+    category,
+    title,
+    partTwo,
+    partTwoQuestion,
+    isNew: true,
+    isLatest: true,
+    items
+  });
+
+  const groups = [
+    group(
+      "feishu-childhood-skill",
+      "事物类",
+      "儿童学习新技能",
+      "小时候学到的新技能",
+      "Describe a new skill you learned when you were a child",
+      [
+        p3(
+          "What skills should children learn before they go to school?",
+          "孩子上学前应该学习哪些技能？",
+          "Children should learn how to communicate, share and follow simple safety rules. Basic skills such as dressing, washing their hands and putting toys away also make them more independent. They do not need academic pressure, but they should be able to manage simple daily tasks.",
+          "孩子应该学习怎样交流、分享，以及遵守简单的安全规则。穿衣、洗手和收拾玩具等基础技能，也能让他们更独立。他们不需要承受学术压力，但应该能处理简单的日常任务。",
+          "社交 → 生活 → 限定"
+        ),
+        p3(
+          "What are the differences between learning in a group and learning by yourself?",
+          "小组学习和自己学习有什么区别？",
+          "Group learning gives people discussion, feedback and chances to practise with others. Learning alone is quieter and lets someone move at their own speed. A group is useful for communication skills, while self-study is often better for focused review.",
+          "小组学习能带来讨论、反馈以及和别人练习的机会。独自学习更安静，也让人按自己的速度前进。小组适合练沟通技能，自学则通常更适合专心复习。",
+          "小组 → 自学 → 适用场景"
+        ),
+        p3(
+          "What are the differences between the way adults earn and the way children learn?",
+          "成年人和孩子的学习方式有什么区别？",
+          "Adults usually learn with a clear goal, such as improving work or solving a practical problem. Children have more time and often learn through games, repetition and curiosity. Adults bring more experience, but children are usually less afraid of making mistakes.",
+          "成年人通常带着明确目标学习，比如改善工作或解决实际问题。孩子时间更多，也常通过游戏、重复和好奇心学习。成年人经验更丰富，但孩子通常更不怕犯错。",
+          "成人 → 儿童 → 对比"
+        ),
+        p3(
+          "Do you think it is easier for children to learn new skills than for adults?",
+          "你认为孩子比成年人更容易学习新技能吗？",
+          "Children may learn languages and physical skills faster because they have more practice time and less fear of mistakes. Adults, however, can use clear goals, experience and self-discipline. The easier learner depends on the skill and the amount of regular practice.",
+          "孩子学习语言和动作技能可能更快，因为他们练习时间更多，也不太怕犯错。不过，成年人可以利用明确目标、经验和自律。谁学得更容易取决于技能类型和规律练习的多少。",
+          "孩子优势 → 成人优势 → 结论"
+        ),
+        p3(
+          "Can a child learn skills from another child?",
+          "孩子能向另一个孩子学习技能吗？",
+          "Yes, children often copy games, drawing methods and social skills from friends or siblings. Another child may explain an idea in very simple language, which makes it easy to follow. Adults should still supervise activities that involve safety or complicated information.",
+          "可以。孩子经常从朋友或兄弟姐妹那里模仿游戏、画画方法和社交技能。另一个孩子可能用非常简单的语言解释，因此更容易跟着做。不过，涉及安全或复杂信息的活动仍然需要成年人监督。",
+          "观点 → 优点 → 限定"
+        ),
+        p3(
+          "Is it important for everyone to have a specialized skill?",
+          "每个人拥有一项专门技能重要吗？",
+          "It is helpful because a strong skill can give someone confidence and better work opportunities. However, not everyone needs to become an expert in one narrow area. People first need basic communication and daily-life skills, and then they can develop one strength that suits them.",
+          "这很有帮助，因为一项强技能可以带来自信和更好的工作机会。不过，并不是每个人都要成为某个狭窄领域的专家。人们首先需要基本沟通和生活技能，然后再发展一项适合自己的长处。",
+          "好处 → 限定 → 建议"
+        )
+      ]
+    ),
+    group(
+      "feishu-waste-time",
+      "事件类",
+      "时间、压力与规则",
+      "浪费时间的活动",
+      "Describe an activity you do regularly that you think is a waste of time",
+      [
+        p3(
+          "How do you balance life and work?",
+          "你怎样平衡生活和工作？",
+          "I plan the most important work first and try to finish at a fixed time. After work, I exercise, eat with my family or do something away from a screen. Sometimes an urgent problem changes the plan, but I avoid making overtime a daily habit.",
+          "我会先安排最重要的工作，并尽量在固定时间结束。下班后，我会锻炼、和家人吃饭，或做一些离开屏幕的事情。有时紧急问题会改变计划，但我会避免把加班变成每天的习惯。",
+          "方法 → 生活安排 → 限定"
+        ),
+        p3(
+          "Will you continue doing something when you are aware that it's a waste of time?",
+          "当你知道某件事浪费时间时，还会继续做吗？",
+          "I may continue for a short time if it helps me relax, because not every free-time activity needs to be productive. However, I would set a limit, such as a twenty-minute timer. If it starts affecting sleep, work or relationships, I should stop or change the habit.",
+          "如果它能让我放松，我可能会短时间继续，因为并不是每项休闲活动都必须有产出。不过，我会设置限制，比如二十分钟的计时器。如果它开始影响睡眠、工作或关系，我就应该停止或改变习惯。",
+          "观点 → 限制 → 条件"
+        ),
+        p3(
+          "What kinds of things make people feel pressured?",
+          "哪些事情会让人感到有压力？",
+          "Money problems, work deadlines, exams and uncertain relationships are common sources of pressure. People also feel stressed when they have too many duties but little control or time. Clear plans and support from others can make these situations easier to manage.",
+          "金钱问题、工作截止日期、考试和不确定的人际关系都是常见压力来源。当责任太多、但自己没有多少控制或时间时，人们也会有压力。清楚的计划和他人的支持能让这些情况更容易处理。",
+          "列举 → 原因 → 方法"
+        ),
+        p3(
+          "Why do some people refuse to abide by rules?",
+          "为什么有些人拒绝遵守规则？",
+          "Some people think a rule is unfair, inconvenient or poorly explained. Others copy people who break it without facing any result. Authorities should explain the purpose clearly and apply the rule fairly, because people are more willing to cooperate when they trust the system.",
+          "有些人认为规则不公平、不方便，或者解释不清。另一些人会模仿那些违规却没有承担后果的人。管理者应该清楚解释目的并公平执行，因为人们信任制度时更愿意合作。",
+          "原因 → 影响 → 建议"
+        )
+      ]
+    ),
+    group(
+      "feishu-good-shop-service",
+      "事件类",
+      "购物服务与消费",
+      "购物时获得的优质服务",
+      "Describe a time when you received good service in a shop/store",
+      [
+        p3(
+          "Can consumption drive economic growth?",
+          "消费能推动经济增长吗？",
+          "Yes, consumer spending creates demand, supports jobs and gives businesses income to grow. For example, when families buy local food or services, money moves through shops, workers and suppliers. However, growth based on wasteful spending or heavy debt is not healthy in the long term.",
+          "能。消费会创造需求、支持就业，并给企业带来发展收入。比如，家庭购买本地食物或服务时，金钱会流向商店、员工和供应商。不过，建立在浪费消费或大量债务上的增长长期来看并不健康。",
+          "观点 → 例子 → 限定"
+        ),
+        p3(
+          "What are the advantages and disadvantages of shopping in small shops?",
+          "在小商店购物有什么优点和缺点？",
+          "Small shops are convenient, personal and often support the local community. Staff may know regular customers and give quick advice. On the other hand, these shops may have fewer choices, shorter opening hours and slightly higher prices.",
+          "小商店方便、有人情味，也常常支持当地社区。店员可能认识老顾客，并快速提供建议。另一方面，这些商店选择较少、营业时间较短，价格也可能稍高。",
+          "优点 → 例子 → 缺点"
+        ),
+        p3(
+          "What are the advantages and disadvantages of shopping online?",
+          "网上购物有什么优点和缺点？",
+          "Online shopping offers more choice, easy price comparison and home delivery, so it saves time. However, customers cannot touch or try the product, and pictures may be misleading. Returns, scams and unnecessary buying are also possible problems.",
+          "网上购物选择更多、比价方便，还能送货到家，所以节省时间。不过，顾客无法触摸或试用商品，图片也可能具有误导性。退货、诈骗和不必要消费也是可能的问题。",
+          "优点 → 缺点 → 补充"
+        ),
+        p3(
+          "What are the differences between online shopping and in-store shopping?",
+          "网上购物和到店购物有什么区别？",
+          "Online shopping is available at any time and usually offers wider choice and easier comparison. In-store shopping lets people see, touch or try the item and receive help immediately. Online buying suits standard products, while a shop is often better for clothes or expensive items.",
+          "网上购物随时可用，通常选择更广、比较更容易。到店购物让人们看到、触摸或试用商品，并立即得到帮助。网购适合标准化商品，实体店通常更适合买衣服或昂贵物品。",
+          "网购 → 到店 → 适用场景"
+        ),
+        p3(
+          "Why are shopping malls so popular in China?",
+          "为什么购物中心在中国很受欢迎？",
+          "Malls put shops, restaurants, cinemas and children's activities in one place. They are often connected to public transport and provide a comfortable indoor space in hot, cold or rainy weather. This makes them convenient meeting places for families and friends.",
+          "商场把商店、餐厅、电影院和儿童活动集中在一个地方。它们通常连接公共交通，并在炎热、寒冷或下雨天气提供舒适的室内空间。因此，它们成为家人朋友见面的方便场所。",
+          "功能 → 环境 → 关系"
+        ),
+        p3(
+          "Why do some people not like shopping in small shops?",
+          "为什么有些人不喜欢在小商店购物？",
+          "They may worry about limited choice, unclear prices or difficult returns. Some customers also feel uncomfortable when the owner watches them closely or expects them to buy something. Large stores can feel easier because prices and policies are usually clearly displayed.",
+          "他们可能担心选择有限、价格不清楚或退货困难。有些顾客在店主一直看着自己或期待自己购买时也会不舒服。大型商店可能更轻松，因为价格和规定通常清楚展示。",
+          "原因 → 感受 → 对比"
+        )
+      ]
+    ),
+    group(
+      "feishu-saved-money",
+      "事件类",
+      "存钱与金钱管理",
+      "攒钱买想要的物品",
+      "Describe a time when you saved money to buy something you wanted",
+      [
+        p3(
+          "Should schools teach children how to manage money from a young age?",
+          "学校应该从小教孩子怎样管理钱吗？",
+          "Yes, money management is a practical life skill. Schools can teach simple budgeting, saving and the difference between needs and wants through small classroom activities. This may help children avoid debt and make calmer choices when they become adults.",
+          "应该，金钱管理是一项实用生活技能。学校可以通过小型课堂活动，教授简单预算、储蓄以及需要和想要之间的区别。这可能帮助孩子成年后避免债务，并更冷静地作出选择。",
+          "观点 → 内容 → 结果"
+        ),
+        p3(
+          "Should parents teach their children to spend money freely or to save money?",
+          "父母应该教孩子自由花钱还是存钱？",
+          "Parents should teach a balance rather than only one side. A child can save part of an allowance for a goal and spend a smaller part on something enjoyable. This gives them freedom while also building a useful saving habit.",
+          "父母应该教孩子取得平衡，而不是只选一边。孩子可以把部分零花钱为目标存起来，再花较小一部分买喜欢的东西。这样既有自由，也能建立有用的储蓄习惯。",
+          "观点 → 方法 → 结果"
+        ),
+        p3(
+          "Do you think it is easier to teach teenagers how to manage money when they are around 16 or 17 years old?",
+          "你认为在十六七岁左右教青少年管理钱更容易吗？",
+          "Yes, teenagers at that age understand prices and may already use digital payments or earn a little money. Real decisions make lessons about budgets and saving more meaningful. Still, basic habits should begin earlier with small amounts of pocket money.",
+          "是的，这个年龄的青少年理解价格，也可能已经使用电子支付或赚一点钱。真实决定会让预算和储蓄课程更有意义。不过，基础习惯应该更早从少量零花钱开始。",
+          "观点 → 原因 → 限定"
+        ),
+        p3(
+          "Is it easier to spend money or save money?",
+          "花钱和存钱哪一个更容易？",
+          "Spending is usually easier because advertising, discounts and phone payments make buying almost immediate. Saving needs a clear goal and the ability to wait. Automatic transfers after receiving a salary can make saving much easier.",
+          "花钱通常更容易，因为广告、折扣和手机支付让购买几乎立刻完成。存钱需要明确目标和等待的能力。收到工资后自动转存，可以让储蓄容易很多。",
+          "结论 → 原因 → 方法"
+        ),
+        p3(
+          "What kind of things do people usually save money for?",
+          "人们通常为什么事情存钱？",
+          "People save for a home, education, travel, a wedding or an expensive product. They also need an emergency fund for illness, job loss or an unexpected repair. Long-term goals are important, but emergency savings often give people the greatest sense of security.",
+          "人们会为住房、教育、旅行、婚礼或昂贵商品存钱。他们也需要应急资金来应对生病、失业或意外维修。长期目标很重要，但应急储蓄往往最能带来安全感。",
+          "列举 → 应急 → 结论"
+        )
+      ]
+    ),
+    group(
+      "feishu-kept-listening",
+      "事件类",
+      "倾听与聊天话题",
+      "听不感兴趣的话",
+      "Describe a time when someone talked about something you were not interested in but you kept listening",
+      [
+        p3(
+          "What kind of topics do young people like to talk about today?",
+          "现在年轻人喜欢谈论什么话题？",
+          "They often talk about study, work, relationships, entertainment, technology and travel. Online trends and popular videos also give friends quick topics to share. The exact choice depends on age and interests, but daily pressure and future plans are common subjects.",
+          "他们经常谈学习、工作、关系、娱乐、科技和旅行。网络趋势和热门视频也会快速给朋友提供话题。具体选择取决于年龄和兴趣，但日常压力与未来计划是常见主题。",
+          "列举 → 网络 → 限定"
+        ),
+        p3(
+          "What would happen if the listener didn't listen carefully?",
+          "如果听者没有认真听，会发生什么？",
+          "The listener may miss important information and create a misunderstanding or mistake. The speaker may also feel ignored or disrespected, which can damage the relationship. At work, poor listening can waste time because instructions have to be repeated.",
+          "听者可能错过重要信息，造成误会或错误。说话者也可能感到被忽视或不受尊重，从而伤害关系。在工作中，听得不认真还会浪费时间，因为指示需要重复。",
+          "信息 → 关系 → 工作结果"
+        ),
+        p3(
+          "How can we tell if a listener is listening carefully?",
+          "我们怎样判断听者是否在认真听？",
+          "A careful listener looks at the speaker, avoids interrupting and gives relevant responses. They may ask a useful follow-up question or repeat an important point to confirm it. Remembering details later is an even clearer sign that they truly listened.",
+          "认真倾听的人会看着说话者、不随便打断，并给出相关回应。他们可能追问一个有用的问题，或重复一个重点进行确认。之后还记得细节，是他们真正听过的更清楚信号。",
+          "行为 → 互动 → 结果"
+        )
+      ]
+    ),
+    group(
+      "feishu-enjoyable-evening",
+      "事件类",
+      "大家庭相处",
+      "和朋友度过的愉快夜晚",
+      "Describe an enjoyable evening you had with your friends",
+      [
+        p3(
+          "How do people get along in a big family?",
+          "大家庭中的人怎样和睦相处？",
+          "They need clear communication, shared duties and respect for different habits. Regular meals or family activities give people time to talk, while personal space prevents small disagreements. When a problem appears, discussing it calmly is better than asking other relatives to take sides.",
+          "他们需要清楚沟通、分担责任，并尊重不同习惯。固定一起吃饭或参加家庭活动能提供交流时间，而个人空间可以防止小矛盾。出现问题时，冷静讨论比让其他亲戚选边站更好。",
+          "原则 → 日常做法 → 冲突处理"
+        )
+      ]
+    ),
+    group(
+      "feishu-changed-decision",
+      "事件类",
+      "儿童作决定",
+      "改变重要决定",
+      "Describe a time when you changed an important decision of yours",
+      [
+        p3(
+          "When do most children begin to make their own decisions?",
+          "大多数孩子什么时候开始自己作决定？",
+          "Children begin with small choices at preschool age, such as choosing clothes, food or a game. As they enter school, they can decide how to use pocket money or organise homework with guidance. Parents should increase freedom gradually as the child shows responsibility.",
+          "孩子从学龄前就会开始作出小选择，比如选择衣服、食物或游戏。上学后，他们可以在指导下决定怎样使用零花钱或安排作业。随着孩子表现出责任感，父母应该逐渐增加自由。",
+          "早期选择 → 成长 → 家长做法"
+        )
+      ]
+    )
+  ];
+
+  const insertAt = window.IELTS_DATA.part3.findIndex((item) => !item.isLatest);
+  window.IELTS_DATA.part3.splice(insertAt < 0 ? window.IELTS_DATA.part3.length : insertAt, 0, ...groups);
+})();
+
+// 前四类 Part 2 新题：给每张最终展示的素材卡补充 Money / Emotion / Relationship 三个可选原因角度。
+// 保留原有扣题观点；这里只把三方面自然接入具体故事，方便临场没有思路时继续展开。
+(() => {
+  const materials = window.IELTS_DATA.part2.slice(0, 4);
+  const angles = (money, emotion, relationship) => [
+    { label: "Money", text: money[0], memory: money[1], highlights: money[2] || [] },
+    { label: "Emotion", text: emotion[0], memory: emotion[1], highlights: emotion[2] || [] },
+    { label: "Relationship", text: relationship[0], memory: relationship[1], highlights: relationship[2] || [] }
+  ];
+  const hasAngle = (reasons, label) => reasons.some((item) =>
+    typeof item?.memory === "string" && item.memory.includes(`${label}：`)
+  );
+  const addAngles = (target, entries) => {
+    if (!target || !entries?.length) return;
+    target.reasons = Array.isArray(target.reasons) ? target.reasons : [];
+    for (const entry of entries) {
+      if (!hasAngle(target.reasons, entry.label)) {
+        target.reasons.push({
+          text: entry.text,
+          memory: `${entry.label}：${entry.memory}`,
+          highlights: entry.highlights
+        });
+      }
+    }
+    if (!String(target.pointsLabel || "").includes("Money / Emotion / Relationship")) {
+      const baseLabel = String(target.pointsLabel || "可选理由 / 结尾点")
+        .replace(/\s*[·｜]\s*3\s*(?:个观点|原因|个角度)/g, "");
+      target.pointsLabel = `${baseLabel}＋Money / Emotion / Relationship`;
+    }
+  };
+
+  const englishClassAngles = angles(
+    [
+      "The lesson was part of my normal school day, so I learned a useful skill without paying for a private class or expensive materials.",
+      "校内正常上课＋不用报昂贵私教 → 低成本学到有用技能",
+      ["without paying", "expensive materials"]
+    ],
+    [
+      "I was nervous at first, but singing the whole song made me excited and much more confident about speaking English.",
+      "开始紧张 → 完整唱出来 → 兴奋并更敢开口",
+      ["nervous at first", "more confident"]
+    ],
+    [
+      "Practising in small groups helped my classmates support one another, and it also made us feel closer to the teacher.",
+      "小组练习互相帮助 → 同学合作＋更信任老师",
+      ["support one another", "closer to the teacher"]
+    ]
+  );
+
+  const standaloneAngles = new Map([
+    ["Describe a person who taught you a new skill", englishClassAngles],
+    ["Describe a new skill you learned when you were a child", englishClassAngles],
+    ["Describe a person you know who really likes taking photos", angles(
+      [
+        "She normally uses her phone instead of buying an expensive camera, and she shares the pictures online without paying to print them.",
+        "用手机拍＋线上分享 → 不买昂贵相机、不花打印费",
+        ["uses her phone", "without paying"]
+      ],
+      [
+        "Looking back at her photos makes us happy because they bring back clear memories of ordinary days and special trips.",
+        "回看照片 → 想起日常和旅行 → 心情开心",
+        ["makes us happy", "bring back clear memories"]
+      ],
+      [
+        "She shares a few pictures with our families, which gives everyone something pleasant to discuss and helps us stay close.",
+        "给双方家人分享 → 增加共同话题 → 关系更亲近",
+        ["shares", "helps us stay close"]
+      ]
+    )],
+    ["Describe a time when you felt proud of a family member", angles(
+      [
+        "Li Hua mainly used simple books and free videos, so he learned French without spending a lot on private lessons.",
+        "简单书籍＋免费视频自学 → 不花很多私教费",
+        ["free videos", "without spending a lot"]
+      ],
+      [
+        "When he ordered the food successfully, the whole family felt proud, and he became more confident about using French.",
+        "成功帮全家点餐 → 全家骄傲＋他更有自信",
+        ["felt proud", "more confident"]
+      ],
+      [
+        "He used the skill to help everyone in the restaurant, so the experience gave our family a warm memory to share.",
+        "关键时刻帮助全家 → 一起留下温暖回忆 → 家庭更亲近",
+        ["help everyone", "a warm memory"]
+      ]
+    )],
+    ["Describe a person you only met once recently and want to know more about", angles(
+      [
+        "His project experience could teach me how to avoid costly mistakes and make better choices in my future work.",
+        "向有经验的人学习 → 少走弯路、避免昂贵错误 → 工作更好",
+        ["avoid costly mistakes", "future work"]
+      ],
+      [
+        "He explained difficult ideas calmly, so I felt comfortable during our first conversation and more confident afterwards.",
+        "表达简单冷静 → 初次聊天不紧张 → 之后更有信心",
+        ["felt comfortable", "more confident"]
+      ],
+      [
+        "I hope a longer conversation could turn this first meeting into a useful professional friendship.",
+        "想继续交流 → 从一面之缘变成职业朋友 → 扩大人际关系",
+        ["a longer conversation", "professional friendship"]
+      ]
+    )],
+    ["Describe a person you know who is very organized", angles(
+      [
+        "Alex's clear plans reduce repeated work and small mistakes, which can save both time and money for the team.",
+        "计划清楚 → 少返工少出错 → 团队省时间和成本",
+        ["reduce repeated work", "save both time and money"]
+      ],
+      [
+        "His lists make a busy project feel manageable, so he stays calm and the whole team feels less stressed.",
+        "列清单拆任务 → 项目可控 → 自己冷静、团队少压力",
+        ["stays calm", "less stressed"]
+      ],
+      [
+        "When everyone knows the plan and the deadline, people cooperate more easily and trust him as a leader.",
+        "任务和截止时间透明 → 合作更顺 → 同事更信任他",
+        ["cooperate more easily", "trust him"]
+      ]
+    )],
+    ["Describe a famous person in your local area", angles(
+      [
+        "His business offers useful products at fair prices, creates local jobs and brings more visitors to the area.",
+        "价格合理＋创造岗位＋吸引游客 → 带动当地收入",
+        ["fair prices", "creates local jobs"]
+      ],
+      [
+        "Good service makes customers feel relaxed, while his success gives many local people a sense of pride.",
+        "服务让顾客舒服＋本地企业成功 → 大家有自豪感",
+        ["feel relaxed", "a sense of pride"]
+      ],
+      [
+        "He treats staff and customers with respect, so the company has built strong trust in the local community.",
+        "尊重员工和顾客 → 建立信任 → 社区关系更好",
+        ["with respect", "strong trust"]
+      ]
+    )],
+    ["Describe a time when someone talked about something you were not interested in but you kept listening", angles(
+      [
+        "At work, careful listening can prevent mistakes that waste time and money, so it is a useful habit to practise even in casual conversations.",
+        "平时练习认真听 → 工作少误解少返工 → 节省时间和成本",
+        ["prevent mistakes", "waste time and money"]
+      ],
+      [
+        "My attention made Alex feel valued, and I also felt positive because I had been patient instead of rude.",
+        "认真回应 → Alex 感到被重视 → 我也因保持耐心而开心",
+        ["feel valued", "felt positive"]
+      ],
+      [
+        "I listened to his football story, and he later listened to my work problem, so our relationship became more balanced and supportive.",
+        "我听他讲足球＋他听我讲工作 → 双向支持 → 关系更好",
+        ["listened to my work problem", "more balanced and supportive"]
+      ]
+    )],
+    ["Describe a course that impressed you a lot", englishClassAngles],
+    ["Describe a time when you interviewed a famous person", angles(
+      [
+        "His career advice could help me work more efficiently, avoid bad choices and improve my future job opportunities.",
+        "获得职业建议 → 少走弯路、提高效率 → 未来工作机会更好",
+        ["avoid bad choices", "job opportunities"]
+      ],
+      [
+        "I was nervous at first, but completing the interview made me proud and much more confident.",
+        "开始紧张 → 顺利完成采访 → 自豪并更有信心",
+        ["nervous at first", "proud and much more confident"]
+      ],
+      [
+        "He listened patiently and I asked respectful questions, so we built a friendly professional connection in only fifteen minutes.",
+        "对方耐心听＋我礼貌提问 → 短时间建立职业联系",
+        ["listened patiently", "professional connection"]
+      ]
+    )],
+    ["Describe a time you made an important decision and were happy with the result", angles(
+      [
+        "Pausing the feature prevented more failed orders and avoided a much larger loss for both the company and its customers.",
+        "暂停故障功能 → 避免更多失败订单 → 公司和顾客少损失",
+        ["prevented more failed orders", "a much larger loss"]
+      ],
+      [
+        "I felt relieved when the system worked again, and the good result made me more confident about difficult decisions.",
+        "系统恢复正常 → 松了一口气 → 对重要决定更有信心",
+        ["felt relieved", "more confident"]
+      ],
+      [
+        "Explaining the problem honestly and fixing it quickly protected the customers' trust and made my team trust my judgement.",
+        "坦诚说明＋及时修复 → 保住顾客信任＋团队更信任我",
+        ["customers' trust", "team trust my judgement"]
+      ]
+    )]
+  ]);
+
+  const sharedAngles = new Map([
+    ["李华｜法语、历史与克服困难四题共用", angles(
+      [
+        "Li Hua uses library books, documentaries and free short videos, so he can learn history and French without paying for expensive classes.",
+        "图书馆书籍＋纪录片＋免费视频 → 不报昂贵课程也能学习",
+        ["free short videos", "without paying"]
+      ],
+      [
+        "Learning about the past satisfies his curiosity, while finally using French in France gives him pride and confidence.",
+        "历史满足好奇心＋法国真正用上法语 → 自豪有信心",
+        ["satisfies his curiosity", "pride and confidence"]
+      ],
+      [
+        "He shares historical stories with me and uses French to help other people on trips, so his interests also bring people closer.",
+        "给我分享历史＋旅行时帮助别人 → 兴趣让关系更近",
+        ["shares historical stories", "bring people closer"]
+      ]
+    )],
+    ["凉水河｜重要河流与城市自然之地共用", angles(
+      [
+        "The riverside is free to visit, so it is an inexpensive place for a walk, while visitors can also support small local food stalls.",
+        "免费散步拍照＋顺便买河边小吃 → 出游省钱也照顾小生意",
+        ["free to visit", "support small local food stalls"]
+      ],
+      [
+        "The water, flowers and open space help me slow down, forget about work and feel peaceful.",
+        "河水花草＋开阔空间 → 忘掉工作压力 → 平静放松",
+        ["forget about work", "feel peaceful"]
+      ],
+      [
+        "I can walk there with my girlfriend or family, take photos and eat together, so an ordinary visit becomes shared time.",
+        "和女朋友或家人散步拍照吃饭 → 增加相处时间 → 留下共同回忆",
+        ["with my girlfriend or family", "shared time"]
+      ]
+    )],
+    ["学生软件延期｜九题共用", angles(
+      [
+        "Releasing the app in stages prevented an expensive failure, reduced repeated work and protected the company's future income.",
+        "分步发布 → 避免全面故障和大量返工 → 减少损失、保护收入",
+        ["prevented an expensive failure", "protected the company's future income"]
+      ],
+      [
+        "I felt worried when the app failed, but Alex's calm plan reduced my stress and made me feel relieved and confident in the end.",
+        "软件出问题时担心 → Alex 冷静给方案 → 最后安心有信心",
+        ["reduced my stress", "relieved and confident"]
+      ],
+      [
+        "Alex supported me instead of blaming me, and our honest teamwork protected the students' trust and made our team closer.",
+        "Alex 不责怪、一起解决 → 保住学生信任 → 团队关系更牢",
+        ["supported me instead of blaming me", "made our team closer"]
+      ]
+    )]
+  ]);
+
+  for (const material of materials) {
+    const mergedQuestions = new Set();
+    for (const story of material.tips?.mergedStories || []) {
+      for (const entry of story.questions || []) mergedQuestions.add(entry.question || entry);
+      addAngles(story, sharedAngles.get(story.title));
+    }
+    for (const group of material.tips?.topicGroups || []) {
+      for (const item of group.items || []) {
+        if (item.isNew && !mergedQuestions.has(item.question)) {
+          addAngles(item, standaloneAngles.get(item.question));
+        }
+      }
+    }
+  }
+
+  // 这张卡的三个既有观点正好能承担三方面，只补标签和一个关系观点，避免重复故事。
+  const handcraft = materials
+    .flatMap((material) => material.tips?.topicGroups || [])
+    .flatMap((group) => group.items || [])
+    .find((item) => item.question === "Describe a person who is good at making things by hand");
+  if (handcraft?.reasons?.length >= 3) {
+    handcraft.reasons[1].memory = "Emotion：屋顶掉了 → 没有放弃、耐心再试 → 成功后自豪";
+    handcraft.reasons[2].memory = "Money：会做手工很省钱 → 可以自己做简单玩具";
+    addAngles(handcraft, [
+      {
+        label: "Relationship",
+        text: "He can make a simple toy as a personal gift, and making or sharing it with a friend can bring them closer.",
+        memory: "亲手做玩具当礼物或一起制作 → 更有心意 → 朋友关系更近",
+        highlights: ["a personal gift", "bring them closer"]
+      }
+    ]);
+  }
+})();
+
+// 礼物与购物服务共用智能手表；攒钱题改为自己攒钱买手表，避免把送礼和个人储蓄混在一起。
+(() => {
+  const objectMaterial = window.IELTS_DATA.part2.find((material) => material.id === "object-tips");
+  const eventMaterial = window.IELTS_DATA.part2.find((material) => material.id === "event-tips");
+  if (!objectMaterial?.tips || !eventMaterial?.tips) return;
+
+  const questions = {
+    gift: "Describe a gift you would like to buy for your friend",
+    saved: "Describe a time when you saved money to buy something you wanted",
+    service: "Describe a time when you received good service in a shop/store"
+  };
+  const findItem = (material, question) => (material.tips.topicGroups || [])
+    .flatMap((group) => group.items || [])
+    .find((item) => item.question === question);
+  const giftItem = findItem(objectMaterial, questions.gift);
+  const savedItem = findItem(eventMaterial, questions.saved);
+  const serviceItem = findItem(eventMaterial, questions.service);
+  if (!giftItem || !savedItem || !serviceItem) return;
+
+  // 只有购物服务与送礼共用一条故事；攒钱题留在事件类，讲自己买想要的东西。
+  for (const group of eventMaterial.tips.topicGroups || []) {
+    group.items = (group.items || []).filter((item) =>
+      item.question !== questions.service
+    );
+  }
+  eventMaterial.tips.topicGroups = eventMaterial.tips.topicGroups.filter((group) => group.items.length);
+
+  const watchGroup = objectMaterial.tips.topicGroups.find((group) =>
+    (group.items || []).some((item) => item.question === questions.gift)
+  );
+  if (!watchGroup) return;
+  watchGroup.title = "智能手表两题共用｜礼物与购物服务";
+  for (const item of [serviceItem]) {
+    if (!watchGroup.items.some((current) => current.question === item.question)) watchGroup.items.push(item);
+  }
+
+  const body = {
+    text: "I'd like to talk about a smart watch I bought for Alex. We met at work six years ago, and he once gave me headphones. At first, I wanted to return his kindness, so I planned to buy him a practical watch. However, I did not know which one to choose. Last month, a shop assistant asked about my budget, compared two watches, explained the main functions and set up the app. He did not push the expensive one. In the end, I bought a watch at a reasonable price. Alex liked it because it showed work reminders and checked his health. I felt proud, and our friendship became stronger.",
+    highlights: [
+      "for Alex",
+      "met at work six years ago",
+      "headphones",
+      "At first",
+      "However",
+      "asked about my budget",
+      "set up the app",
+      "did not push the expensive one",
+      "In the end",
+      "reasonable price",
+      "friendship became stronger"
+    ]
+  };
+  const memoryChain = {
+    story: "第一部 At first：工作中认识 Alex 六年 → 他送过我耳机 → 我想回送实用的智能手表 → 第二部 However：我不会选 → 店员问预算、比较两块、讲功能、设置 App → 不推贵款 → 第三部 In the end：用合理价格买到 → 工作提醒＋健康监测 → Alex 喜欢，我自豪，友谊更近"
+  };
+  const pointsLabel = "两道题的对应观点｜每题最多选 3 条，重复理由只列一次";
+  const reasons = [
+    {
+      text: "The watch was practical because it could show work reminders and help Alex check his health.",
+      memory: "礼物题｜实用：工作提醒＋健康监测 → Alex 每天都能用",
+      highlights: ["work reminders", "check his health"]
+    },
+    {
+      text: "Alex had given me wireless headphones before, so the watch returned his kindness and made our friendship stronger.",
+      memory: "礼物题 / Relationship：他以前送我耳机 → 我回赠实用手表 → 友谊更牢",
+      highlights: ["returned his kindness", "friendship stronger"]
+    },
+    {
+      text: "The shop assistant asked about my budget and did not push the expensive watch, so I felt respected.",
+      memory: "服务题 / Money：先问预算＋不强推贵款 → 钱花得合适、感到被尊重",
+      highlights: ["asked about my budget", "felt respected"]
+    },
+    {
+      text: "He compared two watches, explained the functions simply and helped me set up the app, so choosing the gift was easy.",
+      memory: "服务题：比较两块＋简单讲功能＋设置 App → 很快选好礼物",
+      highlights: ["compared two watches", "set up the app", "easy"]
+    },
+    {
+      text: "I received useful help in the shop and saw that Alex liked the gift, so I felt proud and relieved.",
+      memory: "两题共用 / Emotion：店员帮忙＋Alex 喜欢 → 自豪又安心",
+      highlights: ["received useful help", "proud and relieved"]
+    }
+  ];
+
+  for (const item of [giftItem, serviceItem]) {
+    item.body = body;
+    item.memoryChain = memoryChain;
+    item.pointsLabel = pointsLabel;
+    item.reasons = reasons;
+  }
+
+  const savedMoneyBody = {
+    text: "I'd like to talk about a smart watch I bought for myself last year. At first, I wanted one because it could show meeting reminders and help me keep track of my steps and sleep. However, it cost about two thousand yuan, so I decided to save a fixed amount every month. For four months, I bought less takeaway food and coffee and put the extra money aside. Sometimes I wanted to spend it on small things, but I reminded myself of my goal. In the end, I had enough saved money to buy the watch. I felt proud of myself because I had set a clear goal at the beginning and finally achieved it.",
+    highlights: ["for myself", "At first", "meeting reminders", "two thousand yuan", "However", "a fixed amount", "four months", "put the extra money aside", "In the end", "enough saved money", "felt proud"]
+  };
+  const savedMoneyMemory = {
+    story: "第一部 At first：我想给自己买智能手表，用来提醒会议、记录步数和睡眠 → 第二部 However：两千元有点贵 → 每月固定存钱，少买外卖和咖啡，连续四个月 → 第三部 In the end：攒够钱买到手表 → 一开始定下目标，最后实现它，为自己自豪"
+  };
+  const savedMoneyReasons = [
+    {
+      text: "The watch was worth saving for because it could help me with work reminders and simple health records every day.",
+      memory: "实用：会议提醒＋健康记录 → 每天都能用",
+      highlights: ["worth saving for", "work reminders", "health records"]
+    },
+    {
+      text: "Saving a fixed amount and buying less takeaway food and coffee made the goal realistic and helped me control small daily spending.",
+      memory: "方法：每月固定存＋少外卖咖啡 → 目标可做到，也控制日常花钱",
+      highlights: ["a fixed amount", "small daily spending"]
+    },
+    {
+      text: "Because I bought the watch with money I had saved myself, I value it more and use it carefully every day.",
+      memory: "自己一点点攒钱买 → 更珍惜手表 → 每天认真使用",
+      highlights: ["saved myself", "value it more", "every day"]
+    }
+  ];
+  Object.assign(savedItem, {
+    storyTitle: "自己攒钱买智能手表",
+    draftCues: ["1 At first: smart watch for myself-work and health", "2 However: 2,000 yuan-save monthly-less takeaway and coffee", "3 In the end: four months-enough money-proud"],
+    focus: "只讲给自己买想要的智能手表；重点是固定存钱、减少小开支和达到目标。",
+    omit: "不提 Alex、送礼、店员或借钱。",
+    body: savedMoneyBody,
+    memoryChain: savedMoneyMemory,
+    pointsLabel: "Why saving money was worthwhile · 3 个观点",
+    reasons: savedMoneyReasons
+  });
+
+  const storyQuestions = [
+    {
+      question: questions.gift,
+      special: "强调 Alex 以前送过我无线耳机；手表能帮助工作、监测健康，也能回应他的心意。"
+    },
+    {
+      question: questions.service,
+      special: "重点讲店员先问预算、比较两款、不强推最贵的，并帮忙设置健康 App。"
+    }
+  ];
+  let watchStory = (objectMaterial.tips.mergedStories || []).find((story) =>
+    story.baseQuestion === questions.gift || story.title === "智能手表｜礼物、攒钱、购物服务三题共用"
+  );
+  if (!watchStory) {
+    watchStory = {};
+    objectMaterial.tips.mergedStories.push(watchStory);
+  }
+  Object.assign(watchStory, {
+    title: "智能手表｜礼物与购物服务两题共用",
+    baseQuestion: questions.gift,
+    questions: storyQuestions,
+    draftCues: [
+      "1 At first: Alex-six years-headphones-practical watch",
+      "2 However: could not choose-budget-two watches",
+      "3 In the end: reasonable price-Alex happy"
+    ],
+    focus: "两题只背这一条买智能手表的三部曲；根据当前题目，分别加重礼物或店员服务。",
+    omit: "不用记品牌和复杂参数；功能只保留工作提醒、步数、心率和睡眠。",
+    body,
+    memoryChain,
+    pointsLabel,
+    reasonHint: false,
+    reasons
+  });
+})();

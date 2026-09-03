@@ -167,7 +167,9 @@ function partThreeAnswerHtml(item, groupId) {
       ? `<div class="answer-keywords"><span>核心词块</span>${phrases.map((phrase) => `<code>${escapeHtml(phrase)}</code>`).join("")}</div>`
       : "";
     // g = 这道题该挑的角度（钱 / 关系 / 情绪 / 规矩 / 目标）。覆盖表里没有这个字段就不渲染，不报错。
-    const angle = override && typeof override.g === "string" ? override.g : "";
+    const angle = override && typeof override.g === "string"
+      ? override.g
+      : (typeof item.angle === "string" ? item.angle : "");
     const angleTag = angle
       ? `<span class="answer-angle" data-angle="${escapeHtml(angle)}">角度 · ${escapeHtml(angle)}</span>`
       : "";
@@ -379,7 +381,10 @@ function setPage(page, { saveCurrent = true } = {}) {
 }
 
 function renderPartOne() {
-  const groups = state.data.part1;
+  const groups = [...state.data.part1].sort((a, b) => {
+    if (Boolean(a.isNew) !== Boolean(b.isNew)) return a.isNew ? -1 : 1;
+    return (a.newOrder ?? Number.POSITIVE_INFINITY) - (b.newOrder ?? Number.POSITIVE_INFINITY);
+  });
   const query = state.part1Query.trim().toLowerCase();
   const visibleGroups = groups
     .map((group) => ({ ...group, items: group.items.filter((item) => JSON.stringify(item).toLowerCase().includes(query)) }))
@@ -410,7 +415,7 @@ function renderPartOne() {
 function partOneGroupsHtml(groups) {
   return groups.map((group) => `
     <section class="group-section">
-      <div class="group-title"><div><span class="eyebrow">${escapeHtml(group.tab)}</span><h2>${escapeHtml(group.title)}</h2></div><span class="badge">${group.items.length} 题</span></div>
+      <div class="group-title"><div><span class="eyebrow">${escapeHtml(group.tab)}</span><h2>${escapeHtml(group.title)}${group.isNew ? '<span class="new-tag">新题</span>' : ""}</h2></div><span class="badge">${group.items.length} 题</span></div>
       <div class="card-list">
         ${group.items.map((item, index) => `
           <article class="card">
@@ -426,6 +431,31 @@ function partOneGroupsHtml(groups) {
 
 function materialLabel(material) {
   return material.tab || material.title || material.id;
+}
+
+function reviewFrequencyClass(frequency) {
+  if (frequency === "超高频") return "frequency-ultra";
+  if (frequency === "高频") return "frequency-high";
+  if (frequency === "中高频") return "frequency-medium";
+  return "frequency-unlisted";
+}
+
+function reviewFrequencyTag(meta, { showUnlisted = false } = {}) {
+  if (!meta && !showUnlisted) return "";
+  const frequency = meta?.frequency || "PDF 未收录";
+  return `<span class="review-frequency-tag ${reviewFrequencyClass(meta?.frequency)}">${escapeHtml(frequency)}</span>`;
+}
+
+function reviewOrder(meta) {
+  return Number.isFinite(meta?.order) ? meta.order : Number.POSITIVE_INFINITY;
+}
+
+function compareReviewEntries(aMeta, bMeta, aFallback = 0, bFallback = 0) {
+  return reviewOrder(aMeta) - reviewOrder(bMeta) || aFallback - bFallback;
+}
+
+function partThreeReviewMeta(groupId) {
+  return (state.data.reviewGuide?.part3 || []).find((item) => item.groupId === groupId) || null;
 }
 
 function partTwoMaterialHasNewTopics(material) {
@@ -460,7 +490,7 @@ function renderPartTwo() {
         </header>
         <div class="panel-body">
           ${material.tips
-            ? partTwoTipsHtml(material.tips, state.data.toolkit?.find((item) => item.type === "materials")?.items || [])
+            ? partTwoTipsHtml(material.tips, state.data.toolkit?.find((item) => item.type === "materials")?.items || [], material.id)
             : material.standalone
             ? `<div class="standalone-topic-list">${material.topics.map((item) => `<section class="standalone-topic-block">${partTwoTopicHtml(item, { showFramework: false })}</section>`).join("")}</div>`
             : `${partTwoMasterHtml(material)}
@@ -486,14 +516,48 @@ function renderPartTwo() {
   }));
 }
 
-function partTwoTipsHtml(tips, universalMaterials = []) {
+function partTwoAnswerAsStoryHtml(item) {
+  const lines = (item.answer || [])
+    .map((line) => typeof line === "string" ? { text: line } : line)
+    .filter((line) => line?.text);
+  if (!lines.length) return "";
+  const english = lines.map((line) => line.text).join(" ");
+  const translation = lines.map((line) => line.translation).filter(Boolean).join("");
+  return `
+    ${item.answerNote ? `<p class="translation">${escapeHtml(item.answerNote)}</p>` : ""}
+    <p class="topic-guide-body"><strong>这个素材的故事：</strong>${highlight(english, item.keys || [])}</p>
+    ${translation ? `<p class="memory-chain story-memory-chain"><strong>中文参考</strong>${escapeHtml(translation)}</p>` : ""}`;
+}
+
+function partTwoTipsHtml(tips, universalMaterials = [], materialId = "") {
   const section = tips.section;
-  const topicGuideItems = (tips.topicGroups || [])
+  const reviewEntries = state.data.reviewGuide?.part2 || [];
+  const reviewByQuestion = new Map(reviewEntries.map((item) => [item.question, item]));
+  const nativeTopicGuideItems = (tips.topicGroups || [])
     .flatMap((group, groupIndex) => group.items.map((item, itemIndex) => ({
       group,
       item,
-      order: Number.isFinite(item.sourceOrder) ? item.sourceOrder : groupIndex * 100 + itemIndex
+      order: Number.isFinite(item.sourceOrder) ? item.sourceOrder : groupIndex * 100 + itemIndex,
+      review: reviewByQuestion.get(item.question) || null
     })));
+  const nativeQuestions = new Set(nativeTopicGuideItems.map(({ item }) => item.question));
+  const supplementalTopicItems = reviewEntries
+    .filter((entry) => entry.targetMaterialId === materialId && !nativeQuestions.has(entry.question))
+    .map((review, index) => {
+      const sourceMaterial = state.data.part2.find((candidate) =>
+        candidate.topics?.some((topic) => topic.question === review.question)
+      );
+      const item = sourceMaterial?.topics.find((topic) => topic.question === review.question);
+      if (!item) return null;
+      return {
+        group: { title: `复习顺序补充｜${materialLabel(sourceMaterial)}` },
+        item,
+        order: 10000 + index,
+        review
+      };
+    })
+    .filter(Boolean);
+  const topicGuideItems = [...nativeTopicGuideItems, ...supplementalTopicItems];
   const topicGuideItemMap = new Map(topicGuideItems.map((entry) => [entry.item.question, entry]));
   const mergedQuestionSet = new Set();
   const mergedStoryCards = (tips.mergedStories || []).map((story) => {
@@ -503,38 +567,70 @@ function partTwoTipsHtml(tips, universalMaterials = []) {
       if (!entry) return null;
       mergedQuestionSet.add(entry.item.question);
       return { entry, questionMeta };
-    }).filter(Boolean);
+    }).filter(Boolean).sort((a, b) => {
+      if (Boolean(a.entry.item.isLatest) !== Boolean(b.entry.item.isLatest)) {
+        return a.entry.item.isLatest ? -1 : 1;
+      }
+      return compareReviewEntries(a.entry.review, b.entry.review, a.entry.order, b.entry.order);
+    });
     if (!questionEntries.length) return null;
     const baseEntry = topicGuideItemMap.get(story.baseQuestion) || questionEntries[0].entry;
+    const latestEntries = questionEntries.filter(({ entry }) => entry.item.isLatest);
     return {
       order: Number.isFinite(story.sourceOrder) ? story.sourceOrder : baseEntry.order,
+      reviewOrder: Math.min(...questionEntries.map(({ entry }) => reviewOrder(entry.review))),
+      isLatest: latestEntries.length > 0,
+      latestOrder: latestEntries.length
+        ? Math.min(...latestEntries.map(({ entry }) => entry.order))
+        : Number.POSITIVE_INFINITY,
       title: story.title || baseEntry.group.title,
       questions: questionEntries.map(({ entry, questionMeta }) => ({
         text: entry.item.question,
         special: questionMeta.special || "",
-        isNew: Boolean(entry.item.isNew)
+        isNew: Boolean(entry.item.isNew),
+        isLatest: Boolean(entry.item.isLatest),
+        review: entry.review
       })),
       item: {
         ...baseEntry.item,
         draftCues: story.draftCues || baseEntry.item.draftCues,
+        focus: story.focus || baseEntry.item.focus,
+        omit: story.omit || baseEntry.item.omit,
         body: story.body || baseEntry.item.body,
         memoryChain: story.memoryChain || baseEntry.item.memoryChain,
         reasons: story.reasons || baseEntry.item.reasons,
-        pointsLabel: story.pointsLabel || "可选理由 / 结尾点"
+        pointsLabel: story.pointsLabel || "可选理由 / 结尾点",
+        reasonHint: story.reasonHint ?? baseEntry.item.reasonHint
       },
       merged: true
     };
   }).filter(Boolean);
   const singleStoryCards = topicGuideItems
     .filter(({ item }) => !mergedQuestionSet.has(item.question))
-    .map(({ group, item, order }) => ({
+    .map(({ group, item, order, review }) => ({
       order,
+      reviewOrder: reviewOrder(review),
+      isLatest: Boolean(item.isLatest),
+      latestOrder: item.isLatest ? order : Number.POSITIVE_INFINITY,
       title: item.storyTitle || item.name || group.title,
-      questions: [{ text: item.question, special: "", isNew: Boolean(item.isNew) }],
+      questions: [{
+        text: item.question,
+        special: "",
+        isNew: Boolean(item.isNew),
+        isLatest: Boolean(item.isLatest),
+        review
+      }],
       item,
       merged: false
     }));
-  const storyCards = [...mergedStoryCards, ...singleStoryCards].sort((a, b) => a.order - b.order);
+  const storyCards = [...mergedStoryCards, ...singleStoryCards].sort((a, b) => {
+    if (Boolean(a.isLatest) !== Boolean(b.isLatest)) return a.isLatest ? -1 : 1;
+    if (a.isLatest && b.isLatest) return a.latestOrder - b.latestOrder;
+    return a.reviewOrder - b.reviewOrder || a.order - b.order;
+  });
+  const reviewGuideHtml = reviewEntries.some((item) => item.targetMaterialId === materialId) ? `<div class="note review-guide-note">
+    <strong>${escapeHtml(state.data.reviewGuide.source)}：</strong>素材卡原则上按文档题目顺序排列；共用或强关联素材的题目会相邻展示，其他“PDF 未收录”题目接在后面。
+  </div>` : "";
   const techniqueHtml = tips.techniques?.length ? `<div class="note">
     <strong>Part 2 · 最后一问技巧</strong><br>
     前面先正常覆盖题卡信息；最后一问用 <strong>As for...</strong> 扣题，再按问法选择一种：<br>
@@ -568,7 +664,7 @@ function partTwoTipsHtml(tips, universalMaterials = []) {
         <h3>${escapeHtml(title)}</h3>
         <p class="story-card-label">这些题目可以用这个素材</p>
         <ol class="story-question-list">
-          ${questions.map((question) => `<li><span class="story-question-text">${escapeHtml(question.text)}${question.isNew ? '<span class="new-tag">新题</span>' : ""}</span>${question.special ? `<span class="story-question-special"><strong>只改：</strong>${escapeHtml(question.special)}</span>` : ""}</li>`).join("")}
+          ${questions.map((question) => `<li><span class="story-question-text">${escapeHtml(question.text)}${reviewFrequencyTag(question.review, { showUnlisted: true })}${question.isNew ? '<span class="new-tag">新题</span>' : ""}</span>${question.special ? `<span class="story-question-special"><strong>只改：</strong>${escapeHtml(question.special)}</span>` : ""}</li>`).join("")}
         </ol>
         <section class="simple-master-section topic-guide-item">
           ${item.cuePoints?.length ? `<ul class="numbered-list">${item.cuePoints.map((point) => `<li>${escapeHtml(point)}</li>`).join("")}</ul>` : ""}
@@ -577,21 +673,17 @@ function partTwoTipsHtml(tips, universalMaterials = []) {
             ${item.focus ? `<div class="meta-box"><span>扣题重点</span><strong>${escapeHtml(item.focus)}</strong></div>` : ""}
             ${item.omit ? `<div class="meta-box"><span>可以省略</span><strong>${escapeHtml(item.omit)}</strong></div>` : ""}
           </div>` : ""}
-          ${item.answer?.length ? `
-            <p class="story-card-label">完整参考答案</p>
-            ${item.answerNote ? `<p class="translation">${escapeHtml(item.answerNote)}</p>` : ""}
-            <div class="answer-list">${item.answer.map((line) => `<div class="answer-line"><span class="badge ${line.kind === "特殊" ? "warm" : ""}">${escapeHtml(line.kind)}</span>${escapeHtml(line.text)}${line.translation ? `<p class="translation"><strong>中文：</strong>${escapeHtml(line.translation)}</p>` : ""}</div>`).join("")}</div>
-          ` : `
-            ${item.body?.text ? `<p class="topic-guide-body"><strong>这个素材的故事：</strong>${highlight(item.body.text, item.body.highlights)}</p>` : ""}
+          ${item.body?.text ? `
+            <p class="topic-guide-body"><strong>这个素材的故事：</strong>${highlight(item.body.text, item.body.highlights)}</p>
             ${item.memoryChain?.story ? `<p class="memory-chain story-memory-chain"><strong>故事中文链</strong>${escapeHtml(item.memoryChain.story)}</p>` : ""}
-            ${item.reasons?.length ? `<p class="reason-label"><strong>${escapeHtml(item.pointsLabel || "可选理由 / 结尾点")}${merged ? "（按题目选 3 条）" : ""}：</strong></p>
+            ${item.reasons?.length ? `<p class="reason-label"><strong>${escapeHtml(item.pointsLabel || "可选理由 / 结尾点")}${merged && item.reasonHint !== false ? "（按题目选 3 条）" : ""}：</strong></p>
               <ol class="numbered-list topic-reason-list">
                 ${item.reasons.map((reason, reasonIndex) => {
                   const reasonMemory = reason.memory || item.memoryChain?.reasons?.[reasonIndex];
                   return `<li>${highlight(reason.text, reason.highlights)}${reasonMemory ? `<span class="memory-chain reason-memory-chain"><strong>理由中文链</strong>${escapeHtml(reasonMemory)}</span>` : ""}</li>`;
                 }).join("")}
               </ol>` : ""}
-          `}
+          ` : (item.answer?.length ? partTwoAnswerAsStoryHtml(item) : "")}
         </section>
       </article>`).join("")}
     </div>` : "";
@@ -616,6 +708,7 @@ function partTwoTipsHtml(tips, universalMaterials = []) {
     </article>` : "";
   return `
     <div class="card-list">
+      ${reviewGuideHtml}
       ${techniqueHtml}
       ${sectionHtml}
       ${topicGroupsHtml}
@@ -671,8 +764,20 @@ function partTwoTopicHtml(topic, { showFramework = true } = {}) {
       ${topic.omit ? `<div class="meta-box"><span>可以省略</span><strong>${escapeHtml(topic.omit)}</strong></div>` : ""}
     </div>` : ""}
     ${showFramework && topic.framework?.length ? `<h3>答题框架</h3><ol class="numbered-list">${topic.framework.map((line) => `<li>${escapeHtml(line)}</li>`).join("")}</ol>` : ""}
+    ${topic.body?.text ? `
+    <div class="group-title section-heading"><div><h2>完整参考答案</h2><p>先背整段故事，再用「故事中文链」恢复；结尾理由按题目选 3 条即可。</p></div></div>
+    <p class="topic-guide-body">${highlight(topic.body.text, topic.body.highlights)}</p>
+    ${topic.memoryChain?.story ? `<p class="memory-chain story-memory-chain"><strong>故事中文链</strong>${escapeHtml(topic.memoryChain.story)}</p>` : ""}
+    ${topic.reasons?.length ? `<p class="reason-label"><strong>${escapeHtml(topic.pointsLabel || "可选理由 / 结尾点")}：</strong></p>
+      <ol class="numbered-list topic-reason-list">
+        ${topic.reasons.map((reason, reasonIndex) => {
+          const reasonMemory = reason.memory || topic.memoryChain?.reasons?.[reasonIndex];
+          return `<li>${highlight(reason.text, reason.highlights)}${reasonMemory ? `<span class="memory-chain reason-memory-chain"><strong>理由中文链</strong>${escapeHtml(reasonMemory)}</span>` : ""}</li>`;
+        }).join("")}
+      </ol>` : ""}
+    ` : `
     <div class="group-title section-heading"><div><h2>完整参考答案</h2><p>${escapeHtml(topic.answerNote || "“特殊”句负责贴合当前题目，其余句可重复使用。")}</p></div><button class="copy-button" type="button" data-copy-answer="${escapeHtml(topic.id || "")}">复制答案</button></div>
-    <div class="answer-list">${(topic.answer || []).map((line) => `<div class="answer-line"><span class="badge ${line.kind === "特殊" ? "warm" : ""}">${escapeHtml(line.kind)}</span>${escapeHtml(line.text)}${line.translation ? `<p class="translation"><strong>中文：</strong>${escapeHtml(line.translation)}</p>` : ""}</div>`).join("") || '<p class="empty-state">这道题暂时没有完整答案。</p>'}</div>
+    <div class="answer-list">${(topic.answer || []).map((line) => `<div class="answer-line"><span class="badge ${line.kind === "特殊" ? "warm" : ""}">${escapeHtml(line.kind)}</span>${escapeHtml(line.text)}${line.translation ? `<p class="translation"><strong>中文：</strong>${escapeHtml(line.translation)}</p>` : ""}</div>`).join("") || '<p class="empty-state">这道题暂时没有完整答案。</p>'}</div>`}
     ${topic.keys?.length ? `<h3>关键英文句</h3><div class="key-list">${topic.keys.map((line) => `<code>${escapeHtml(line)}</code>`).join("")}</div>` : ""}`;
 }
 
@@ -686,7 +791,7 @@ function partThreeViewTabsHtml(questionCount) {
 function partThreeQuestionPreviewHtml(group, item) {
   if (!group || !item) return '<p class="empty-state">暂无可预览的答案。</p>';
   return `<div class="p3-answer-preview-heading">
-      <span class="badge">${escapeHtml(group.title)}</span>
+      <div class="p3-preview-topic-tags"><span class="badge">${escapeHtml(group.title)}</span>${reviewFrequencyTag(partThreeReviewMeta(group.id), { showUnlisted: true })}</div>
       <span>悬浮左侧题目可切换</span>
     </div>
     <p class="question">${escapeHtml(item.question)}</p>
@@ -702,13 +807,13 @@ function partThreeQuestionListHtml(groups) {
     <header class="panel-header">
       <span class="eyebrow">PART 3 · NEW QUESTIONS</span>
       <h2>本季新题清单</h2>
-      <p>汇总文档本季新题和本次新增题，共 ${groups.length} 个话题、${questionCount} 道题。新增题优先显示，其余按文档原顺序排列。</p>
+      <p>共 ${groups.length} 个话题、${questionCount} 道题。PDF 收录题组按 9 月复习顺序排列，其余题组接在后面。</p>
     </header>
     <div class="panel-body p3-index-layout">
       <div class="p3-index-list">
         ${groups.map((group, groupIndex) => `<section class="p3-index-topic group-section">
           <div class="p3-index-topic-header">
-            <div><span class="badge warm">${String(groupIndex + 1).padStart(2, "0")}</span><h3>${escapeHtml(group.title)}${group.isLatest ? '<span class="new-tag">本次新增</span>' : ""}</h3></div>
+            <div><span class="badge warm">${String(groupIndex + 1).padStart(2, "0")}</span><h3>${escapeHtml(group.title)}${reviewFrequencyTag(partThreeReviewMeta(group.id), { showUnlisted: true })}${group.isLatest ? '<span class="new-tag">本次新增</span>' : ""}</h3></div>
             <span class="p3-index-topic-meta">${escapeHtml(group.category)} · ${group.items.length} 题</span>
           </div>
           <ol class="p3-index-questions">
@@ -728,8 +833,17 @@ function partThreeQuestionListHtml(groups) {
 
 function renderPartThree() {
   const newGroups = state.data.part3.filter((group) => group.isNew);
+  const sourceOrder = new Map(state.data.part3.map((group, index) => [group.id, index]));
   const groups = [...newGroups]
-    .sort((a, b) => Number(Boolean(b.isLatest)) - Number(Boolean(a.isLatest)));
+    .sort((a, b) => {
+      if (Boolean(a.isLatest) !== Boolean(b.isLatest)) return a.isLatest ? -1 : 1;
+      return compareReviewEntries(
+        partThreeReviewMeta(a.id),
+        partThreeReviewMeta(b.id),
+        sourceOrder.get(a.id),
+        sourceOrder.get(b.id)
+      );
+    });
   const listGroups = groups;
   const listQuestionCount = listGroups.reduce((total, group) => total + group.items.length, 0);
   const selected = groups.find((group) => group.id === state.part3GroupId) || groups[0];
@@ -738,9 +852,9 @@ function renderPartThree() {
   main.innerHTML = `
     ${partThreeViewTabsHtml(listQuestionCount)}
     ${state.part3View === "list" ? partThreeQuestionListHtml(listGroups) : `<div class="content-grid">
-      <aside class="sidebar" aria-label="观点分类"><span class="sidebar-label">选择主题</span>${groups.map((group) => `<button class="sidebar-button ${group.id === selected.id ? "active" : ""}" type="button" data-part3-id="${escapeHtml(group.id)}"><strong>${escapeHtml(group.title)}${group.isNew ? `<span class="new-tag">${group.isLatest ? "本次新增" : "新题"}</span>` : ""}</strong><small>${escapeHtml(group.category)} · ${group.items.length} 题</small></button>`).join("")}</aside>
+      <aside class="sidebar" aria-label="观点分类"><span class="sidebar-label">选择主题</span>${groups.map((group) => `<button class="sidebar-button ${group.id === selected.id ? "active" : ""}" type="button" data-part3-id="${escapeHtml(group.id)}"><strong>${escapeHtml(group.title)}${reviewFrequencyTag(partThreeReviewMeta(group.id), { showUnlisted: true })}${group.isNew ? `<span class="new-tag">${group.isLatest ? "本次新增" : "新题"}</span>` : ""}</strong><small>${escapeHtml(group.category)} · ${group.items.length} 题</small></button>`).join("")}</aside>
       <section class="panel">
-        <header class="panel-header"><span class="eyebrow">${selected.isNew ? `${selected.isLatest ? "本次新增" : "新题"} · ${answerModeLabel} · ` : ""}${escapeHtml(selected.category)} · 对应 Part 2：${escapeHtml(selected.partTwo)}</span><h2>${escapeHtml(selected.title)}</h2></header>
+        <header class="panel-header"><span class="eyebrow">${selected.isNew ? `${selected.isLatest ? "本次新增" : "新题"} · ${answerModeLabel} · ` : ""}${escapeHtml(selected.category)} · 对应 Part 2：${escapeHtml(selected.partTwo)}</span><h2>${escapeHtml(selected.title)}${reviewFrequencyTag(partThreeReviewMeta(selected.id), { showUnlisted: true })}</h2></header>
         <div class="panel-body card-list">${selected.items.map((item, index) => `<article class="card">
           <span class="badge warm">${String(index + 1).padStart(2, "0")}</span>
           <p class="question">${escapeHtml(item.question)}</p>
