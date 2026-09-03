@@ -3151,7 +3151,7 @@ window.IELTS_DATA = {
           },
           {
             "title": "本次新题｜人物经历与性格",
-            "note": "四道人物题分别使用陈先生、Alex、奶奶和于东来素材，保留完整题卡与中英答案。",
+            "note": "四道人物题分别使用雷军、Alex、奶奶和于东来素材，保留完整题卡与中英答案。",
             "items": [
               {
                 "id": "p2-met-once-person",
@@ -6161,7 +6161,7 @@ window.IELTS_DATA = {
           },
           {
             "title": "本次新题｜课程、采访与重要决定",
-            "note": "三道经历题分别准备：小学外教英语课、采访科技博主、暂停故障功能的重要决定。",
+            "note": "三道经历题分别准备：小学外教英语课、采访雷军、暂停故障功能的重要决定。",
             "items": [
               {
                 "id": "p2-impressive-course",
@@ -16940,6 +16940,129 @@ window.IELTS_DATA = {
   );
 })();
 
+// “只见过一次”和“采访名人”共用同一次雷军采访；两个分类 Tab 都展示同一张素材卡。
+(() => {
+  const questions = {
+    metOnce: "Describe a person you only met once recently and want to know more about",
+    interview: "Describe a time when you interviewed a famous person"
+  };
+  const peopleMaterial = window.IELTS_DATA.part2.find((material) => material.id === "people-tips");
+  const eventMaterial = window.IELTS_DATA.part2.find((material) => material.id === "event-tips");
+  if (!peopleMaterial?.tips || !eventMaterial?.tips) return;
+
+  const findItem = (material, question) => (material.tips.topicGroups || [])
+    .flatMap((group) => group.items || [])
+    .find((item) => item.question === question);
+  const metOnceItem = findItem(peopleMaterial, questions.metOnce);
+  const interviewItem = findItem(eventMaterial, questions.interview);
+  if (!metOnceItem || !interviewItem) return;
+
+  const title = "采访雷军｜只见一次与采访名人两题共用";
+  const draftCues = [
+    "1 At first: last month-Shanghai-tech event-interview Lei Jun",
+    "2 However: nervous-products-teamwork-problems-advice",
+    "3 In the end: relaxed-career question-proud-want to know more"
+  ];
+  const focus = "两题只背同一次采访：只见一次题强调 only once 和为什么想继续了解；采访题强调采访内容与紧张到放松。";
+  const omit = "不讲雷军的复杂履历或小米产品参数；只记科技活动、十五分钟采访和三个简单问题。";
+  const memoryChain = {
+    story: "第一部 At first：上个月公司在上海办科技活动 → 经理让我采访雷军 → 演讲后在安静会议室聊十五分钟 → 第二部 However：开始紧张、说得太快 → 问产品、团队合作和突发问题 → 他微笑倾听，建议一次解决一个问题并听团队意见 → 第三部 In the end：我放松下来，再问职业经历 → 感到自豪兴奋 → 觉得他冷静耐心又友好，所以想进一步了解"
+  };
+  const body = {
+    text: "I'd like to talk about Lei Jun, the founder of Xiaomi and a well-known technology leader in China. I had watched some of his product videos online, but I met him only once, at a technology event held by my company in Shanghai last month. At first, my manager asked me to interview him for our internal newsletter after his speech. We sat in a quiet meeting room and had about fifteen minutes. However, I was nervous and spoke too quickly. I asked him about useful products, teamwork and unexpected problems. He smiled, listened carefully and said a leader should focus on one problem at a time and ask the team for ideas. In the end, I relaxed and asked another question about his career. I felt proud and excited. He seemed calm, patient and friendly, so I would like to know more about him.",
+    highlights: ["Lei Jun", "founder of Xiaomi", "met him only once", "last month", "At first", "interview him", "fifteen minutes", "However", "useful products, teamwork and unexpected problems", "listened carefully", "In the end", "proud and excited", "calm, patient and friendly", "know more about him"]
+  };
+  const reasons = [
+    {
+      text: "He has a lot of experience in technology and business, so I want to learn how he turns a simple idea into a useful product that people use every day.",
+      memory: "1 · 经验：懂科技和商业 → 把简单想法做成实用产品 → 想学习他的做法",
+      highlights: ["experience in technology and business", "a useful product"]
+    },
+    {
+      text: "I also want to know how he stays calm and makes decisions when an unexpected problem appears. His method could help me solve problems more patiently at work.",
+      memory: "2 · 工作 / Emotion：突发问题时仍冷静决策 → 学习耐心解决问题 → 工作更稳",
+      highlights: ["stays calm", "an unexpected problem", "more patiently"]
+    },
+    {
+      text: "His career advice could help me avoid costly mistakes, improve my skills and find better job opportunities in the future.",
+      memory: "3 · Money：听职业建议 → 少走弯路、提高技能 → 未来有更好的工作机会",
+      highlights: ["avoid costly mistakes", "better job opportunities"]
+    },
+    {
+      text: "Completing my first interview with a famous person made me feel proud and more confident. It showed me that good preparation can make a difficult conversation easier.",
+      memory: "4 · 采访题 / Emotion：第一次采访名人 → 顺利完成 → 自豪、更有信心",
+      highlights: ["feel proud and more confident", "good preparation"]
+    },
+    {
+      text: "Although we spoke for only fifteen minutes, he listened carefully and treated me in a friendly way. I hope we can stay in touch and become friends in the technology field.",
+      memory: "5 · Relationship：只聊十五分钟但他认真又友好 → 希望保持联系 → 成为科技行业的朋友",
+      highlights: ["listened carefully", "stay in touch", "become friends"]
+    }
+  ];
+  const pointsLabel = "两道题的对应观点｜按题目选 3–4 条，重复理由只列一次";
+
+  Object.assign(metOnceItem, {
+    name: "只见过一次并想深入了解的雷军",
+    storyTitle: title,
+    draftCues,
+    fit: "雷军采访素材直接适配",
+    focus,
+    omit,
+    body,
+    memoryChain,
+    pointsLabel,
+    reasonHint: false,
+    reasons
+  });
+  Object.assign(interviewItem, {
+    name: "采访雷军的经历",
+    storyTitle: title,
+    draftCues,
+    fit: "雷军采访素材直接适配",
+    focus,
+    omit,
+    body,
+    memoryChain,
+    pointsLabel,
+    reasonHint: false,
+    reasons
+  });
+
+  const storyQuestions = [
+    {
+      question: questions.metOnce,
+      special: "强调 last month、met him only once；为什么想深入了解选第 1、2、3、5 条。"
+    },
+    {
+      question: questions.interview,
+      special: "强调经理请我采访、三个聊天内容和紧张到放松；感受选第 2、4、5 条。"
+    }
+  ];
+  for (const [material, baseQuestion] of [
+    [peopleMaterial, questions.metOnce],
+    [eventMaterial, questions.interview]
+  ]) {
+    let story = (material.tips.mergedStories || []).find((entry) => entry.title === title);
+    if (!story) {
+      story = {};
+      material.tips.mergedStories.push(story);
+    }
+    Object.assign(story, {
+      title,
+      baseQuestion,
+      questions: storyQuestions,
+      draftCues,
+      focus,
+      omit,
+      body,
+      memoryChain,
+      pointsLabel,
+      reasonHint: false,
+      reasons
+    });
+  }
+})();
+
 // 飞书 2026 年 9–12 月题库：本轮新增 Part 3（人物类与地点类）。
 // 文档中的“[小问待补充]”不自行造题；每道已给原题都补齐英文答案和双语翻译。
 (() => {
@@ -20853,4 +20976,80 @@ window.IELTS_DATA = {
     reasonHint: false,
     reasons
   });
+})();
+
+// 上面的通用卡片整理会重写单题字段；最后再让两道题与雷军共用素材保持一致。
+(() => {
+  const title = "采访雷军｜只见一次与采访名人两题共用";
+  const targets = [
+    ["people-tips", "Describe a person you only met once recently and want to know more about", "只见过一次并想深入了解的雷军"],
+    ["event-tips", "Describe a time when you interviewed a famous person", "采访雷军的经历"]
+  ];
+  for (const [materialId, question, name] of targets) {
+    const material = window.IELTS_DATA.part2.find((entry) => entry.id === materialId);
+    const story = material?.tips?.mergedStories?.find((entry) => entry.title === title);
+    const item = (material?.tips?.topicGroups || [])
+      .flatMap((group) => group.items || [])
+      .find((entry) => entry.question === question);
+    if (!story || !item) continue;
+    Object.assign(item, {
+      name,
+      storyTitle: title,
+      draftCues: story.draftCues,
+      fit: "雷军采访素材直接适配",
+      focus: story.focus,
+      omit: story.omit,
+      body: story.body,
+      memoryChain: story.memoryChain,
+      pointsLabel: story.pointsLabel,
+      reasonHint: false,
+      reasons: story.reasons
+    });
+  }
+})();
+
+// 飞书 2026 年 9–12 月 Part 2&3 新题：25 个题组按文档目录统一置顶。
+// 其中 8 组曾由用户先行提供，id 没有 feishu- 前缀，也必须算入同一批新题。
+(() => {
+  const latestGroupIds = [
+    "feishu-taught-new-skill",
+    "feishu-history-lover",
+    "feishu-older-admired",
+    "new-organized-person",
+    "feishu-photo-lover",
+    "feishu-handcraft-person",
+    "new-happy-person",
+    "new-local-famous-person",
+    "new-met-once-person",
+    "feishu-difficult-success-person",
+    "feishu-crowded-place",
+    "feishu-noisy-place",
+    "feishu-city-natural-place",
+    "feishu-revisit-city",
+    "feishu-childhood-skill",
+    "new-impressive-course",
+    "new-friend-gift",
+    "feishu-waste-time",
+    "feishu-good-shop-service",
+    "feishu-saved-money",
+    "feishu-kept-listening",
+    "feishu-enjoyable-evening",
+    "new-famous-interview",
+    "new-happy-important-decision",
+    "feishu-changed-decision"
+  ];
+  const groupById = new Map(window.IELTS_DATA.part3.map((group) => [group.id, group]));
+  const latestGroups = latestGroupIds.map((id, index) => {
+    const group = groupById.get(id);
+    if (!group) return null;
+    Object.assign(group, {
+      isNew: true,
+      isLatest: true,
+      latestOrder: index + 1
+    });
+    return group;
+  }).filter(Boolean);
+  const latestIdSet = new Set(latestGroupIds);
+  const remainingGroups = window.IELTS_DATA.part3.filter((group) => !latestIdSet.has(group.id));
+  window.IELTS_DATA.part3 = [...latestGroups, ...remainingGroups];
 })();

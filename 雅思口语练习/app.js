@@ -541,18 +541,43 @@ function partTwoTipsHtml(tips, universalMaterials = [], materialId = "") {
       review: reviewByQuestion.get(item.question) || null
     })));
   const nativeQuestions = new Set(nativeTopicGuideItems.map(({ item }) => item.question));
-  const supplementalTopicItems = reviewEntries
-    .filter((entry) => entry.targetMaterialId === materialId && !nativeQuestions.has(entry.question))
-    .map((review, index) => {
-      const sourceMaterial = state.data.part2.find((candidate) =>
-        candidate.topics?.some((topic) => topic.question === review.question)
-      );
-      const item = sourceMaterial?.topics.find((topic) => topic.question === review.question);
-      if (!item) return null;
+  const referencedQuestions = (tips.mergedStories || []).flatMap((story) =>
+    (story.questions || []).map((entry) => typeof entry === "string" ? entry : entry.question)
+  );
+  const seenSupplementalQuestions = new Set();
+  const supplementalRequests = [
+    ...reviewEntries
+      .filter((entry) => entry.targetMaterialId === materialId)
+      .map((review) => ({ question: review.question, review })),
+    ...referencedQuestions.map((question) => ({
+      question,
+      review: reviewByQuestion.get(question) || null
+    }))
+  ].filter(({ question }) => {
+    if (!question || nativeQuestions.has(question) || seenSupplementalQuestions.has(question)) return false;
+    seenSupplementalQuestions.add(question);
+    return true;
+  });
+  const supplementalTopicItems = supplementalRequests
+    .map(({ question, review }, index) => {
+      let sourceMaterial = null;
+      let item = null;
+      for (const candidate of state.data.part2) {
+        const candidateItems = [
+          ...(candidate.topics || []),
+          ...((candidate.tips?.topicGroups || []).flatMap((group) => group.items || []))
+        ];
+        const match = candidateItems.find((candidateItem) => candidateItem.question === question);
+        if (!match) continue;
+        sourceMaterial = candidate;
+        item = match;
+        break;
+      }
+      if (!sourceMaterial || !item) return null;
       return {
         group: { title: `复习顺序补充｜${materialLabel(sourceMaterial)}` },
         item,
-        order: 10000 + index,
+        order: Number.isFinite(item.sourceOrder) ? item.sourceOrder : 10000 + index,
         review
       };
     })
@@ -837,6 +862,11 @@ function renderPartThree() {
   const groups = [...newGroups]
     .sort((a, b) => {
       if (Boolean(a.isLatest) !== Boolean(b.isLatest)) return a.isLatest ? -1 : 1;
+      if (a.isLatest && b.isLatest) {
+        const latestOrderA = Number.isFinite(a.latestOrder) ? a.latestOrder : Number.POSITIVE_INFINITY;
+        const latestOrderB = Number.isFinite(b.latestOrder) ? b.latestOrder : Number.POSITIVE_INFINITY;
+        if (latestOrderA !== latestOrderB) return latestOrderA - latestOrderB;
+      }
       return compareReviewEntries(
         partThreeReviewMeta(a.id),
         partThreeReviewMeta(b.id),

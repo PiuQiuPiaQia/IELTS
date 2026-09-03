@@ -114,6 +114,13 @@ main { width: min(1420px, calc(100% - 32px)); min-height: calc(100vh - 72px); ma
 .template-block { white-space: pre-wrap; }
 .essay-pair { display: grid; gap: 8px; }
 .essay-paragraph { padding: 16px 18px; border-radius: 13px; background: #f6f8fa; font-family: Georgia,serif; font-size: 16px; line-height: 1.85; }
+.paragraph-label { display: inline-block; margin: 0 10px 4px 0; padding: 2px 8px; border: 1px solid #d9dee3; border-radius: 999px; background: #fff; color: var(--muted); font-family: system-ui,sans-serif; font-size: 11px; font-weight: 700; line-height: 1.6; vertical-align: 1px; }
+.memory-card { display: grid; gap: 0; overflow: hidden; border: 1px solid #ead8aa; border-radius: 14px; background: #fffdf7; }
+.memory-line { display: grid; grid-template-columns: 30px 1fr; gap: 12px; align-items: start; padding: 13px 16px; border-bottom: 1px solid #f0e5c8; }
+.memory-line:last-child { border-bottom: 0; }
+.memory-line strong { display: block; margin-bottom: 4px; color: #745b22; font-size: 12px; }
+.memory-line p { margin: 0; font-family: Georgia,serif; line-height: 1.75; }
+.memory-number { display: grid; width: 28px; height: 28px; place-items: center; border-radius: 50%; background: #e7c76e; color: #382d13; font-weight: 800; }
 .essay-translation { display: grid; grid-template-columns: auto 1fr; gap: 10px; align-items: start; padding: 13px 18px; border-left: 3px solid #d7b35d; border-radius: 0 11px 11px 0; background: #fffaf0; color: #59636c; font-size: 14px; line-height: 1.8; }
 .translation-label { margin-top: 3px; padding: 1px 7px; border-radius: 999px; background: #f0e2bd; color: #745b22; font-size: 11px; font-weight: 700; line-height: 1.6; white-space: nowrap; }
 mark { padding: 0 .15em; border-radius: 3px; background: #f6dca6; color: inherit; }

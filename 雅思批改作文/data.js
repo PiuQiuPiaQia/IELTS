@@ -1409,17 +1409,37 @@ window.IELTS_DATA = {
           "includes": "覆盖：同意不同意 · 个人观点 · 正负发展",
           "prompt": "Do you agree or disagree? / What is your opinion? / Is this a positive or negative development?",
           "goal": "明确选择一个立场，再用两个不同理由支持它。",
+          "identify": {
+            "keywords": "To what extent do you agree or disagree? / Is it a positive or negative development? / Do you think … should be changed?",
+            "tell": "题目只让你表一个态,不写反方。本周最高频(42 题里约 24 道),尤其 “To what extent do you agree or disagree?” → 一个立场撑到底。"
+          },
           "targetWords": "完成填空后约 250—275 词",
           "relationship": "两个主体段是同向关系，共同支持一个立场。",
           "taskA": "支持立场的理由 1",
           "taskB": "支持同一立场的理由 2",
-          "opinionRule": "5.5 分备考直接选择 agree 或 disagree；引言、两个主体段和结论保持同一立场。",
+          "opinionRule": "Band 5 备考直接选择 agree 或 disagree；引言、两个主体段和结论保持同一立场。",
           "intro": "People have different views about whether [题干核心观点]. I [agree / disagree] with this view because [理由 1 的概括] and [理由 2 的概括].",
           "bodyOneLead": "The first reason why I hold this view is that [理由 1]",
           "bodyOneClose": "说明这一结果怎样支持你的立场",
           "bodyTwoLead": "Another important reason is that [理由 2]",
           "bodyTwoClose": "再次支持你的立场",
           "conclusion": "In conclusion, I [agree / disagree] that [题干核心观点]. This is because [理由 1 的简短概括] and [理由 2 的简短概括] can [总体结果].",
+          "judgement": {
+            "label": "表态句",
+            "rule": "agree / disagree 题引言模板里已经有了;这里是正负发展题用的说法。",
+            "intro": [
+              "I consider this to be a [positive / negative] development."
+            ],
+            "conclusion": [
+              "Overall, I believe this is a [positive / negative] development for most people."
+            ],
+            "swaps": [
+              "mostly positive",
+              "more positive than negative",
+              "mostly negative",
+              "more negative than positive"
+            ]
+          },
           "variants": [
             {
               "name": "正负发展",
@@ -1438,6 +1458,10 @@ window.IELTS_DATA = {
           "includes": "覆盖：讨论双方 · 普通利弊 · advantages outweigh disadvantages",
           "prompt": "Discuss both views. / What are the advantages and disadvantages? / Do the advantages outweigh the disadvantages?",
           "goal": "分别解释题目的两个方面，再根据题目要求给出个人判断。",
+          "identify": {
+            "keywords": "Discuss both views and give your opinion. / Do the advantages outweigh the disadvantages?",
+            "tell": "只要出现 both views 或 outweigh 就是它(本周约 12 道) → 两边都要写,少写一边就丢分。"
+          },
           "targetWords": "完成填空后约 255—280 词",
           "relationship": "两个主体段是对立或对照关系，必须公平解释两面。",
           "taskA": "观点 A 或主要好处",
@@ -1449,6 +1473,25 @@ window.IELTS_DATA = {
           "bodyTwoLead": "The other side is that [完整写出观点 B / 主要坏处]",
           "bodyTwoClose": "按题目要求写个人判断和最关键理由",
           "conclusion": "In conclusion, [第一面的简短概括], while [第二面的简短概括]. Overall, I believe [再次写题目要求的个人判断] because [最关键的比较理由].",
+          "judgement": {
+            "label": "表态句",
+            "rule": "先选一个方向,三处都写同一个方向,不能中途改边。",
+            "intro": [
+              "In my opinion, [主体] has both good and bad sides, but I think the [good / bad] sides are far more important."
+            ],
+            "bodyTwo": [
+              "However, these [problems / benefits] are much less important than the points above."
+            ],
+            "conclusion": [
+              "Overall, I believe the [advantages / disadvantages] of [主体] outweigh the [disadvantages / advantages]."
+            ],
+            "swaps": [
+              "are far more than",
+              "brings much more good than bad",
+              "outweigh",
+              "does more good than harm"
+            ]
+          },
           "variants": [
             {
               "name": "讨论双方",
@@ -1484,6 +1527,10 @@ window.IELTS_DATA = {
           "includes": "覆盖：问题解决 · 原因影响 · 任意两个直接问题",
           "prompt": "What are the causes/problems and solutions? / Why...? What...? / 两个直接问题",
           "goal": "按照题目顺序，一个主体段完整回答一个问题。",
+          "identify": {
+            "keywords": "How can these problems be solved? / What can be done to …? / Why …? What …?",
+            "tell": "问 how / what can be done 这类办法,或题目有两个分开的问号 → 一段答一个,按题目顺序。"
+          },
           "targetWords": "完成填空后约 250—275 词",
           "relationship": "两个主体段是并列回答关系，必须严格按题目顺序书写。",
           "taskA": "第一问的直接答案",
@@ -1495,6 +1542,24 @@ window.IELTS_DATA = {
           "bodyTwoLead": "As for the second question, [第二问的直接答案]",
           "bodyTwoClose": "用一句话回扣第二问",
           "conclusion": "In conclusion, [第一问答案的简短概括]. At the same time, [第二问答案的简短概括]. These two points directly address [题干背景中的核心问题].",
+          "judgement": {
+            "label": "表态句",
+            "rule": "只有 To what extent / How important / Do you think 这类问才需要;纯 what / why 问不用写。",
+            "intro": [
+              "To what extent 问：I agree with this to a large extent.",
+              "How important 问：I think this is very important.",
+              "Do you think 问：I think this is a good idea."
+            ],
+            "conclusion": [
+              "Overall, I still believe [那一问的判断]."
+            ],
+            "swaps": [
+              "to a large extent",
+              "only to some extent",
+              "very important",
+              "not very important"
+            ]
+          },
           "variants": [
             {
               "name": "原因 + 解决办法",
@@ -3020,7 +3085,7 @@ window.IELTS_DATA = {
             "Human activity has seriously damaged many plant and animal species. Some people believe the damage has already gone too far, while others think effective action is still possible. I agree with the second view because many habitats and populations can recover when harmful activity is stopped early enough.",
             "The first view is that some environmental damage cannot be repaired. Once a species becomes extinct, it cannot return, and forests or coral areas may need many years to recover. Climate change also affects very large areas. For example, habitat loss and illegal trade can reduce a small animal population so quickly that later action cannot protect biodiversity or prevent permanent loss. People may therefore think money should be spent on human needs. However, protecting remaining species can still keep ecosystems useful.",
             "The second view is that action can still protect remaining species. Governments can protect habitats, stop hunting and require companies to repair environmental damage. Local people can receive support for farming or tourism that does not destroy wildlife. For example, nature reserves give animals safe areas to feed and reproduce, while stronger laws can stop businesses and hunters from causing further losses. In my view, these measures are worthwhile because every recovered population makes the wider ecosystem more stable and prevents another permanent extinction.",
-            "In conclusion, although some losses are permanent and full recovery may be impossible, I believe effective action is still worthwhile because it can prevent further extinction and restore many damaged ecosystems for future generations around the world."
+            "In conclusion, some damage cannot be repaired. However, I believe action is still useful because it can stop more species from dying out and help damaged natural areas recover. This will protect nature for future generations around the world."
           ],
           "introPhrases": [
             {
@@ -3357,8 +3422,8 @@ window.IELTS_DATA = {
           ],
           "paragraphs": [
             "In many schools and universities, girls often choose arts subjects while boys choose science subjects. This happens mainly because boys and girls receive different messages from childhood. I believe this tendency should be changed so that students can choose subjects according to interest and ability.",
-            "Regarding the first question, boys and girls receive different messages from childhood. Parents, teachers and the media may present reading and languages as suitable for girls, while science and technology are shown as male subjects. Children can accept these ideas before they understand their own abilities. For example, girls may be encouraged to read and communicate, while boys may be given science toys and told that technical subjects suit boys; as a result, girls can become less confident in science. Therefore, later choices may follow early expectations rather than real interest or talent.",
-            "As for the second question, students should choose subjects according to interest and ability. The current tendency should change because fixed gender expectations can stop capable students from entering a suitable subject or future career. Schools should give every student the same experience and clear advice. For example, all students should receive the same course information, try both arts and science subjects, explore different career choices and make a free and informed choice. The goal is not to force equal numbers in every class. It is to make sure that gender does not decide a student's education.",
+            "Regarding the first question, boys and girls receive different messages from childhood. Parents, teachers and the media may present reading and languages as suitable for girls, while science and technology are shown as male subjects. Children can accept these ideas before they understand their own abilities. For example, adults may give science toys to boys but not to girls. They may also say that technical subjects are for boys. As a result, girls can lose confidence in science. Therefore, later choices may follow early expectations rather than real interest or talent.",
+            "As for the second question, students should choose subjects according to interest and ability. The current tendency should change because fixed gender expectations can stop capable students from entering a suitable subject or future career. Schools should give every student the same experience and clear advice. For example, all students should receive the same course information. They should try both arts and science subjects before making a free choice. The goal is not to force equal numbers in every class. It is to make sure that gender does not decide a student's education.",
             "In conclusion, different messages from adults and the media help create gendered subject choices. This tendency should change so that every student can follow personal interests and abilities instead of gender expectations."
           ],
           "introPhrases": [
@@ -3521,8 +3586,8 @@ window.IELTS_DATA = {
           ],
           "paragraphs": [
             "A growing number of animal and plant species are at risk of extinction. The main causes are the destruction of natural habitats and the excessive use of wildlife and other resources. This problem can be addressed through protected areas, stronger law enforcement and support for sustainable local livelihoods.",
-            "Regarding the first question, habitat loss and overhunting reduce animal populations. Forests and wetlands are cleared for housing, roads and farming, leaving species without enough food or space. Hunting and fishing also continue when local people need income. For example, habitat loss and illegal trade can make a small population fall quickly, while careful laws are needed to prevent overuse and illegal extraction of animals, plants and other resources. As a result, breeding groups become too small to recover and the wider food chain is damaged.",
-            "As for the second question, nature reserves and stronger laws can protect species. Rangers can enforce hunting and fishing laws, while businesses should control pollution and repair damaged land. For example, nature reserves give threatened species safe places to feed and reproduce, and responsible tourism can provide income while helping to protect endangered animals and plants. International cooperation is also necessary for traded and migratory species. Therefore, protection, enforcement and sustainable local work can reduce the main pressures before more species disappear.",
+            "Regarding the first question, habitat loss and overhunting reduce animal populations. Forests and wetlands are cleared for housing, roads and farming, leaving species without enough food or space. Hunting and fishing also continue when local people need income. For example, habitat loss and illegal trade can quickly reduce a small group of animals. Plants and other resources may also be taken from nature too quickly in many places today. As a result, breeding groups become too small to recover and the wider food chain is damaged.",
+            "As for the second question, nature reserves and stronger laws can protect species. Rangers can enforce hunting and fishing laws, while businesses should control pollution and repair damaged land. For example, nature reserves give threatened species safe places to feed and reproduce. Responsible tourism can also provide local income and help protect wild animals and plants. International cooperation is also necessary for traded and migratory species. Therefore, protection, enforcement and sustainable local work can reduce the main pressures before more species disappear.",
             "In conclusion, extinction is mainly driven by habitat destruction and unsustainable use. Effective protection, firm enforcement and alternative sources of income can reduce these pressures and give threatened species a realistic chance to recover."
           ],
           "introPhrases": [
@@ -5014,7 +5079,7 @@ window.IELTS_DATA = {
 ]
 };
 
-// 帅付老师写作站 2026-08-26—09-01 期重点题；运行时前置到三类 Task 2 范文列表。
+// 帅付老师写作站 2026-08-26—09-01 期重点题；按每道题的实际主题筛选适合 G 类练习的范文。
 (() => {
   const sourcePeriod = "8月26日-9月1日";
   const prioritySpecs = {
@@ -5557,7 +5622,7 @@ window.IELTS_DATA = {
           ]
         ],
         "paragraphs": [
-          "Cheaper flights and simpler travel arrangements mean that international travel is more widely available than before. I consider this a mainly positive development because it can improve cultural understanding and support jobs, although popular destinations need to control environmental and social pressure.",
+          "Cheaper flights and simpler travel arrangements mean that international travel is more widely available than before. I consider this a mainly positive development. It can improve cultural understanding and support jobs. However, popular destinations must control environmental and social pressure.",
           "The first benefit is that travel can improve cultural understanding. Visitors can experience another culture directly, hear a different language and learn how local people live. This is often more memorable than reading a short description online. For example, a student who stays with a host family may understand local food, customs and daily routines. Direct contact can reduce simple stereotypes and make people more comfortable with those from other countries. Travel can also encourage people to learn languages and become more independent.",
           "The second benefit is that tourism can support local economies. Visitors spend money in local hotels and restaurants, use transport and buy products from small businesses. This can create jobs in places with few other industries. Tourism income can also support museums, public spaces and the protection of historic sites. There are real problems, including overcrowding and pollution, especially when travel grows too quickly. However, governments can limit visitor numbers in fragile areas, improve waste systems and charge environmental fees. Travellers can also choose local services and follow rules, making responsible tourism more common.",
           "In conclusion, easier and cheaper international travel brings important cultural and economic benefits. Its negative effects should be managed carefully, but they do not outweigh the opportunities for learning, employment and international understanding."
@@ -6035,7 +6100,7 @@ window.IELTS_DATA = {
         "paragraphs": [
           "Tourism always has some impact because visitors use transport, accommodation and local resources. However, responsible travel is still possible. Tourists cannot remove every effect, but they can make choices that protect the environment and show respect for local communities.",
           "The first reason is that tourists can reduce environmental damage. They can use public transport, carry reusable bottles, avoid single-use plastic and stay on marked paths. They should also follow rules in protected areas and avoid activities that disturb animals. For example, a visitor to a small island can choose a certified boat company and take all waste away. Choosing accommodation that saves water and energy provides another practical improvement. One tourist makes only a small difference, but common responsible behaviour can reduce pressure on water, wildlife and public spaces.",
-          "The second reason is that visitors can respect culture and support local people. They can learn basic customs, dress appropriately, ask before taking photographs and buy from locally owned businesses. This keeps more tourism income in the community and avoids treating local traditions as entertainment. Governments and travel companies must also provide clear information and control harmful activities. Being responsible does not mean creating no impact at all; it means understanding the effects of a trip and taking realistic steps to reduce unnecessary harm.",
+          "The second reason is that visitors can respect culture and support local people. They can learn basic customs, dress appropriately, ask before taking photographs and buy from locally owned businesses. This keeps more tourism income in the community and avoids treating local traditions as entertainment. Governments and travel companies must also provide clear information and control harmful activities. Responsible tourism cannot remove every impact. It means understanding the effects of a trip and taking practical steps to reduce harm.",
           "In conclusion, although perfect tourism may not exist, responsible tourism is both possible and worthwhile. Careful choices by visitors, together with sensible local rules, can protect cultural and natural places while allowing people to enjoy them for many years."
         ]
       },
@@ -6305,10 +6370,10 @@ window.IELTS_DATA = {
           ]
         ],
         "paragraphs": [
-          "Detailed media stories about violent crime can frighten the public and sometimes give offenders attention. Even so, I disagree with a total ban. Violent crime reporting can cause harm, but a complete ban would be unnecessary because accurate news has public value and better rules can limit irresponsible coverage.",
+          "Detailed media stories about violent crime can frighten the public and sometimes give offenders attention. Even so, I disagree with a total ban. Violent crime reporting can cause harm, but a complete ban is not needed. Accurate news has public value, and better rules can limit bad reporting.",
           "The first reason is that the public needs accurate information about serious crime. News can warn residents about a real danger, help witnesses contact the police and explain whether crime is increasing or falling. Journalists can also investigate failures and hold authorities responsible. Families need reliable facts when deciding how to protect themselves. If newspapers and television cannot report violent offences at all, rumours may spread online without reliable facts. A ban could also hide important problems such as unsafe streets, weak policing or violence against vulnerable groups.",
           "The second reason is that responsible rules can reduce harmful coverage. Media organisations should avoid sensational details, repeated violent images and language that makes an offender appear famous. They should not identify victims without permission or publish instructions that make copying a criminal method easier. Reports should give context, including actual crime statistics and advice about safety, so that people do not believe every area is dangerous. Independent regulators can act when coverage ignores privacy or public interest.",
-          "In conclusion, violent crime should be reported carefully rather than banned. Accurate information can protect the public and support accountability, while firm professional rules can reduce unnecessary fear and the risk of encouraging offenders without hiding serious events."
+          "In conclusion, violent crime should be reported carefully rather than banned. Accurate information can protect the public and make officials answer for their work. Clear media rules can also reduce fear and avoid giving offenders attention. Serious events can still be reported."
         ]
       }
     ],
@@ -6378,7 +6443,7 @@ window.IELTS_DATA = {
           "Food is now transported over very long distances before reaching consumers. In my view, locally produced food offers clear benefits for communities and the environment, although a completely local diet is unrealistic. With a balanced approach, the advantages can outweigh the disadvantages.",
           "The main advantage is that local food can support farmers and reduce some transport. Shorter supply chains allow more money to remain with local farms and food businesses, which can protect jobs in rural areas. Food may also reach shops more quickly and require less packaging or cold storage. For example, buying vegetables from a nearby farm can reduce the need for long road journeys and large storage centres. Consumers may also learn where their food comes from and develop greater trust in producers.",
           "However, limited choice and higher prices are real disadvantages. Many regions cannot grow every type of food because of climate, land or water conditions. Relying only on seasonal products could create shortages and make a healthy diet difficult, especially in winter. Small local farms may also have higher production costs. A balanced approach is therefore better: people should buy suitable local food when possible while importing products that cannot be produced efficiently nearby. Governments can also improve clean transport for necessary imports.",
-          "In conclusion, although eating only local food would reduce choice and sometimes increase prices, the economic and environmental benefits of buying more local products still outweigh the disadvantages. Local food should be encouraged without completely ending useful international trade for consumers, farmers and local communities."
+          "In conclusion, local food can reduce choice and sometimes cost more. However, I believe its economic and environmental benefits are greater. Local food should be encouraged, but useful international trade should continue."
         ]
       },
       {
@@ -6919,7 +6984,7 @@ window.IELTS_DATA = {
           ]
         ],
         "paragraphs": [
-          "English is increasingly used in education, business, travel and online communication. I agree that English provides a common means of communication and that its advantages will continue to be greater than its disadvantages, provided that other languages are actively protected.",
+          "English is increasingly used in education, business, travel and online communication. English gives people a common way to communicate. This is very useful in modern daily life. I believe its advantages are greater than its disadvantages if other languages are protected.",
           "The main benefit is that a shared language supports study and international work. Students can access research and online courses from many countries, while workers can cooperate with overseas colleagues. Travellers and emergency services can also communicate across borders more easily. For example, a scientist can share results with a wide international audience without translating the work into many different languages. A common language does not remove every misunderstanding, but it makes first contact and the exchange of information much faster.",
           "The main concern is that the spread of English can weaken smaller languages. Young people may use English for school and work and lose vocabulary and traditions from their home language. This is particularly serious when only a small number of older speakers remain. However, governments can support bilingual education, local media and literature so that people learn English without abandoning their first language. Families and schools can protect cultural identity while still giving children access to an international language. These policies reduce the main disadvantage without losing the practical benefits.",
           "In conclusion, although the global use of English may place pressure on smaller languages, its educational, economic and communication benefits still outweigh its disadvantages. The sensible response is to teach English while investing in local languages and cultures."
@@ -7619,7 +7684,7 @@ window.IELTS_DATA = {
     sourceNumber: spec.number,
     sourceTag: spec.tag,
     sourcePeriod,
-    targetBand: "5.5",
+    targetBand: "5",
     title: spec.title,
     prompt: spec.prompt,
     position: spec.position,
@@ -7654,58 +7719,59 @@ window.IELTS_DATA = {
       sourceNumber: spec.number,
       sourceTag: spec.tag,
       sourcePeriod,
-      targetBand: "5.5",
+      targetBand: "5",
     });
   });
 
-  const gtPriority = {
+  // 三种结构都可能出现在 G 类。这里逐题判断话题是否贴近日常生活与一般社会议题，
+  // 不再使用容易被误解为官方分类的“贴近度分数”。
+  const gtEssayKeysByType = {
     stance: [
-      ["T2-0438", 7],
-      ["T2-0451", 6],
-      ["T2-0575", 6],
-      ["T2-0430", 6],
-      ["T2-0464", 6],
-      ["T2-0784", 6],
-      ["T2-0532", 6],
-      ["T2-0432", 6],
-      ["T2-0439", 5],
-      ["T2-0790", 5],
-      ["T2-0440", 5],
-      ["T2-0780", 4],
-      ["T2-0481", 4],
-      ["T2-0444", 4],
-      ["T2-0431", 4],
-      ["T2-0467", 4],
-      ["T2-0487", 3],
-      ["T2-0505", 3],
-      ["T2-0737", 1],
-      ["T2-0740", 0],
+      "T2-0438",
+      "T2-0451",
+      "T2-0575",
+      "T2-0430",
+      "T2-0464",
+      "T2-0784",
+      "T2-0532",
+      "T2-0432",
+      "T2-0439",
+      "T2-0440",
+      "T2-0780",
+      "T2-0467",
+      "T2-0505",
+      "remote-work",
+      "salary-gap",
+      "leader-intelligence",
+      "punish-parents",
+      "life-without-work",
+      "computer-literacy",
+      "company-facilities",
+      "congestion-tax",
+      "extreme-sports",
     ],
     comparison: [
-      ["T2-1166", 7],
-      ["T2-0598", 6],
-      ["T2-0573", 6],
-      ["T2-0480", 6],
-      ["T2-0511", 6],
-      ["T2-0425", 4],
-      ["T2-0742", 4],
-      ["T2-0617", 4],
-      ["T2-0882", 4],
-      ["T2-0423", 3],
-      ["T2-0555", 1],
-      ["T2-0478", 0],
+      "T2-1166",
+      "T2-0598",
+      "T2-0573",
+      "T2-0480",
+      "T2-0511",
+      "T2-0742",
+      "T2-0617",
+      "T2-0882",
+      "T2-0423",
+      "advertising-effects",
+      "technology-crime",
     ],
     "two-question": [
-      ["T2-0540", 6],
-      ["T2-0433", 6],
-      ["T2-0522", 6],
-      ["T2-1148", 5],
-      ["T2-0855", 5],
-      ["T2-0488", 5],
-      ["T2-0758", 4],
-      ["T2-0518", 3],
-      ["T2-0733", 1],
-      ["T2-0513", 1],
+      "T2-0540",
+      "T2-0433",
+      "T2-0522",
+      "T2-0855",
+      "T2-0488",
+      "T2-0758",
+      "T2-0518",
+      "repeat-offending",
     ],
   };
 
@@ -7741,7 +7807,7 @@ window.IELTS_DATA = {
       "总之，儿童应从小获得越来越多的自由，来做适合自己年龄的决定。在清晰的限制和支持他们的成年人帮助下，这种经历会培养自信、实际判断力和个人责任感。",
     ],
     "T2-0784": [
-      "更便宜的航班和更简单的旅行安排，意味着国际旅行更加普及。我认为这是总体积极的发展，因为它能增进文化理解并支持就业，尽管热门目的地需要控制环境和社会压力。",
+      "更便宜的航班和更简单的旅行安排，意味着国际旅行更加普及。我认为这总体上是积极的发展。它能增进文化理解并支持就业。但是，热门目的地必须控制环境和社会压力。",
       "第一个好处是，旅行能够增进文化理解。游客可以直接体验另一种文化、听到不同的语言，并了解当地人的生活。这通常比在网上阅读一段简短介绍更难忘。例如，住在寄宿家庭的学生可能会理解当地食物、习俗和日常作息。直接接触可以减少简单的刻板印象，并让人们与其他国家的人相处时更自在。旅行还能鼓励人们学习语言并变得更独立。",
       "第二个好处是，旅游业能够支持当地经济。游客在当地酒店和餐馆消费、使用交通并从小企业购买产品。这可以在其他产业较少的地区创造就业。旅游收入还可以支持博物馆、公共空间和历史遗址保护。实际问题确实存在，包括过度拥挤和污染，尤其是旅游增长过快时。但政府可以限制脆弱地区的游客数量、改善废物系统并收取环保费。旅行者也可选择当地服务并遵守规则，让负责任的旅游更加普遍。",
       "总之，更容易、更便宜的国际旅行带来重要的文化和经济收益。它的负面影响应得到谨慎管理，但这些影响并不超过它为学习、就业和国际理解带来的机会。",
@@ -7755,7 +7821,7 @@ window.IELTS_DATA = {
     "T2-0432": [
       "旅游总会产生一些影响，因为游客会使用交通、住宿和当地资源。但是，负责任的旅行仍然可行。游客无法消除每一项影响，但可以做出保护环境并尊重当地社区的选择。",
       "第一个理由是，游客能够减少环境破坏。他们可以使用公共交通、携带可重复使用的水瓶、避免使用一次性塑料，并留在有标记的小路上。他们还应遵守保护区规定，避免打扰动物的活动。例如，前往小岛的游客可选择有认证的船务公司，并带走所有垃圾。选择节水节能的住宿地点也是另一项实际改进。一名游客的作用很小，但普遍负责任的行为可以减轻水资源、野生动物和公共空间的压力。",
-      "第二个理由是，游客能够尊重文化并支持当地居民。他们可以学习基本习俗、着装得体、拍照前先征得同意，并在当地人经营的企业消费。这会让更多旅游收入留在社区，也能避免把当地传统当成娱乐。政府和旅行公司也必须提供清晰信息并管控有害活动。负责任并不意味着完全不造成影响，而是要理解旅程的后果，并采取现实措施减少不必要的伤害。",
+      "第二个理由是，游客能够尊重文化并支持当地居民。他们可以学习基本习俗、着装得体、拍照前先征得同意，并在当地人经营的企业消费。这会让更多旅游收入留在社区，也能避免把当地传统当成娱乐。政府和旅行公司也必须提供清晰信息并管控有害活动。负责任的旅游无法消除每一种影响。它意味着理解旅程的影响，并采取实际措施减少伤害。",
       "总之，尽管完美无影响的旅游可能不存在，负责任的旅游既可行又值得。游客的谨慎选择与合理的当地规则相结合，可在人们长期欣赏文化和自然场所的同时保护它们。",
     ],
     "T2-0439": [
@@ -7801,10 +7867,10 @@ window.IELTS_DATA = {
       "总之，公民不应留下自己的全部收入，因为社会依赖共享服务和支持。公平且管理良好的税制会按照人们的能力要求他们作出贡献，并长期造福整个人群。",
     ],
     "T2-0467": [
-      "媒体对暴力犯罪的详细报道可能使公众感到害怕，有时还会让犯罪者获得关注。即便如此，我也不同意全面禁止。暴力犯罪报道可能造成伤害，但全面禁止没有必要，因为准确新闻具有公共价值，更好的规则也能限制不负责任的报道。",
+      "媒体对暴力犯罪的详细报道可能使公众感到害怕，有时还会让犯罪者获得关注。即便如此，我也不同意全面禁止。暴力犯罪报道可能造成伤害，但不需要全面禁止。准确新闻具有公共价值，而更好的规则能限制不良报道。",
       "第一个理由是，公众需要了解严重犯罪的准确信息。新闻可以提醒居民真实危险、帮助目击者联系警方，并解释犯罪是在上升还是下降。记者还能调查失职问题，并督促有关部门承担责任。家庭在决定如何保护自己时需要可靠事实。如果报纸和电视完全不能报道暴力犯罪，谣言可能会在网上传播，却没有可靠事实。禁令还可能隐瞒不安全的街道、警务不力或针对弱势群体的暴力等重要问题。",
       "第二个理由是，负责任的规则能够减少有害报道。媒体机构应避免耸动细节、重复的暴力画面，以及让犯罪者看起来很有名的语言。它们不应未经同意识别受害者，也不应发布使人更容易模仿犯罪手法的指导。报道应提供背景，包括真实犯罪统计和安全建议，以免人们以为每个地区都很危险。当报道无视隐私或公共利益时，独立监管机构可以采取行动。",
-      "总之，暴力犯罪应被谨慎报道，而不是被禁止。准确信息可以保护公众并促进问责，严格的职业规则则能在不隐瞒严重事件的情况下，减少不必要的恐惧和鼓励犯罪者的风险。",
+      "总之，暴力犯罪应被谨慎报道，而不是被禁止。准确信息可以保护公众，并让官员对工作负责。明确的媒体规则还能减少恐惧，避免给犯罪者过多关注。严重事件仍然可以得到报道。",
     ],
     "T2-0487": [
       "大学教育应被广泛提供给有能力的学生，但大学并非每个人的最佳道路。我在很大程度上同意，让非常高比例的年轻人进入大学，可能既不实际也没有用。国家需要多种教育形式，以匹配不同能力和工作。",
@@ -7840,7 +7906,7 @@ window.IELTS_DATA = {
       "食物如今往往要经过非常长的运输距离才能到达消费者手中。在我看来，本地生产的食物有明显好处，可以惠及社区和环境，尽管完全本地化的饮食并不现实。采用平衡的做法，整体就会利大于弊。",
       "主要好处是，本地食物能支持农民并减少部分运输。更短的供应链让更多资金留在当地农场和食品企业，从而保护农村就业。食物还可能更快抵达商店，并减少包装或冷藏需求。例如，从附近农场购买蔬菜，可减少长途公路运输和大型仓储中心的需要。消费者还可了解食物的来源，并更加信任生产者。",
       "但是，选择有限和价格较高是真实缺点。由于气候、土地或水源条件，许多地区无法种植所有种类的食物。只依赖季节性产品可能造成短缺，也可能让健康饮食变得困难，尤其在冬季。小型本地农场的生产成本也可能更高。因此，平衡的做法更好：人们应在可能时购买合适的本地食物，同时进口附近无法高效生产的产品。政府还可为必要进口改善清洁运输。",
-      "总之，尽管只吃本地食物会减少选择，有时还会提高价格，但增加购买本地产品带来的经济和环境利益仍然利大于弊。应鼓励本地食物，却不应完全终止对消费者、农民和当地社区都有用的国际贸易。",
+      "总之，本地食物会减少选择，而且有时价格更高。但是，我认为它带来的经济和环境利益更大。应该鼓励本地食物，但有用的国际贸易仍应继续。",
     ],
     "T2-0573": [
       "人们对班级规模是否影响口语技能学习存在分歧。教学质量非常重要，熟练的教师可在多种环境中组织有用的练习。尽管如此，我认为小班通常更有效，因为学生能获得更多练习和反馈。",
@@ -7870,7 +7936,7 @@ window.IELTS_DATA = {
       "人类活动已严重损害许多动植物物种。有些人认为损害已经太过严重，而其他人认为有效行动仍然可行。我同意后一种观点，因为当有害活动足够早地停止时，许多栖息地和种群可以恢复。",
       "第一种观点是，某些环境损害无法修复。一个物种一旦灭绝就无法回归，森林或珊瑚区域也可能需要多年才能恢复。气候变化还会影响非常广阔的地区。例如，栖息地丧失和非法贸易可迅速减少数量很少的动物种群，以至于后续行动无法保护生物多样性或防止永久性损失。人们因此可能认为资金应用于人类需求。但是，保护现存物种仍能使生态系统发挥作用。",
       "第二种观点是，行动仍然可以保护剩余物种。政府可以保护栖息地、禁止捕猎，并要求公司修复环境损害。当地人可获得支持，从事不破坏野生动物的农业或旅游。例如，自然保护区为动物提供安全的觅食和繁殖区域，而更严格的法律可阻止企业和猎人造成进一步损失。在我看来，这些措施值得采取，因为每一个恢复的种群都会让更广泛的生态系统更稳定，并防止另一次永久灭绝。",
-      "总之，尽管某些损失是永久的，完全恢复也可能无法实现，但我仍认为有效行动值得采取，因为它能防止进一步灭绝，并为全世界后代修复许多受损生态系统。",
+      "总之，有些破坏无法修复。但是，我认为采取行动仍然有用，因为它能阻止更多物种灭绝，并帮助受损的自然区域恢复。这将为全世界的后代保护自然。",
     ],
     "T2-0617": [
       "各国经常竞争举办奥运会或足球锦标赛等赛事。大型赛事涉及高额成本，但我认为，当支出得到控制，新设施也有实用的未来用途时，其好处可以大于弊端。",
@@ -7885,7 +7951,7 @@ window.IELTS_DATA = {
       "总之，尽管艺术资助不应优先于基本服务，但它的社会和文化优势大于谨慎挑选的项目所需的有限成本。透明的公共支持能长期造福整个社区，而无需直接资助每一位艺术家。",
     ],
     "T2-0423": [
-      "英语在教育、商业、旅行和网络沟通中的使用越来越广泛。我同意英语提供共同的交流方式，而且只要其他语言得到积极保护，其优势将继续更加显著。",
+      "英语在教育、商业、旅行和网络沟通中的使用越来越广泛。英语给人们提供共同的交流方式。这在现代日常生活中非常有用。我认为，只要其他语言得到保护，它的优点就大于缺点。",
       "主要好处是，共同语言支持学习和国际工作。学生可以从多个国家获取研究和在线课程，员工则能与海外同事合作。旅行者和紧急服务人员也能更轻松地跨境交流。例如，科学家无需把研究翻译成许多不同语言，就能向广泛的国际受众分享结果。共同语言无法消除每一个误解，但它能大幅加快初次接触和信息交换。",
       "主要担忧是，英语传播可能削弱较小语种。年轻人可能在学校和工作中使用英语，并在母语方面失去词汇和传统。当只有少数年长者仍会说这种语言时，情况尤其严重。但是，政府可支持双语教育、当地媒体和文学，让人们学习英语的同时不放弃第一语言。家庭和学校可以在为儿童提供国际语言的同时保护文化身份。这些政策能在不失去实用好处的情况下，减少主要缺点。",
       "总之，尽管英语的全球使用可能给较小语种带来压力，它在教育、经济和沟通方面的好处仍然利大于弊。明智的应对方式是教授英语，同时投资当地语言和文化。",
@@ -7934,14 +8000,14 @@ window.IELTS_DATA = {
     ],
     "T2-0488": [
       "在许多学校和大学里，女生经常选择文科，男生则选择理科。这主要是因为男生和女生从小接收到不同的信息。我认为这种趋势应该改变，让学生可以根据兴趣和能力选择科目。",
-      "关于第一个问题，男生和女生从小接收到不同的信息。家长、教师和媒体可能把阅读和语言描述为适合女生的内容，而把科学和技术展示为男性科目。儿童可能在了解自己的能力前就接受这些想法。例如，女生可能被鼓励阅读和交流，男生则可能得到科学玩具，并被告知技术类科目适合男生；结果，女生可能对理科变得不自信。因此，日后的选择可能遵循早期期望，而不是真正的兴趣或才能。",
-      "关于第二个问题，学生应根据兴趣和能力选择科目。当前趋势应该改变，因为固定的性别期待可能阻止有能力的学生进入适合的学科或未来职业。学校应给每个学生相同的经验和清晰建议。例如，所有学生都应获得相同的课程信息、尝试文科和理科科目、了解不同的职业选择，并作出自由且知情的选择。目标不是强迫每个班级的男女人数相等，而是确保性别不会决定学生的教育。",
+      "关于第一个问题，男生和女生从小接收到不同的信息。家长、教师和媒体可能把阅读和语言描述为适合女生的内容，而把科学和技术展示为男性科目。儿童可能在了解自己的能力前就接受这些想法。例如，成年人可能给男生科学玩具，却不给女生。他们还可能说技术类科目适合男生。结果，女生可能失去学习理科的信心。因此，日后的选择可能遵循早期期望，而不是真正的兴趣或才能。",
+      "关于第二个问题，学生应根据兴趣和能力选择科目。当前趋势应该改变，因为固定的性别期待可能阻止有能力的学生进入适合的学科或未来职业。学校应给每个学生相同的经验和清晰建议。例如，所有学生都应获得相同的课程信息。他们应该先尝试文科和理科科目，再自由作出选择。目标不是强迫每个班级的男女人数相等，而是确保性别不会决定学生的教育。",
       "总之，来自成年人和媒体的不同信息，促成了带有性别特征的科目选择。这种趋势应该改变，让每个学生都可根据个人兴趣和能力前进，而不是受性别期待限制。",
     ],
     "T2-0758": [
       "越来越多的动植物物种面临灭绝风险。主要原因是自然栖息地破坏，以及过度利用野生动植物和其他资源。这个问题可通过保护区、更强的执法和对可持续谋生方式的支持来解决。",
-      "关于第一个问题，栖息地破坏和过度捕猎会减少动物种群。森林和湿地被清除用于住房、道路和农业，使物种失去足够的食物或空间。当当地人需要收入时，打猎和捕鱼也会继续。例如，栖息地丧失和非法贸易可让数量很少的种群迅速下降，而且需要谨慎的法律来防止过度使用和非法开采动植物及其他资源。结果，繁殖群体会变得太小而无法恢复，更广泛的食物链也会受损。",
-      "关于第二个问题，保护区和更严格的法律可以保护物种。巡护员可执行打猎和捕鱼法规，企业则应控制污染并修复受损土地。例如，自然保护区为受威胁物种提供安全的觅食和繁殖场所，负责任的旅游业则能在帮助保护濒危动植物的同时带来收入。对于被交易或会迁徙的物种，国际合作也很必要。因此，保护、执法和可持续的当地工作，可在更多物种消失前减少主要压力。",
+      "关于第一个问题，栖息地破坏和过度捕猎会减少动物种群。森林和湿地被清除用于住房、道路和农业，使物种失去足够的食物或空间。当当地人需要收入时，打猎和捕鱼也会继续。例如，栖息地丧失和非法贸易会迅速减少一小群动物。如今，许多地方还可能过快地从自然中获取植物和其他资源。结果，繁殖群体会变得太小而无法恢复，更广泛的食物链也会受损。",
+      "关于第二个问题，保护区和更严格的法律可以保护物种。巡护员可执行打猎和捕鱼法规，企业则应控制污染并修复受损土地。例如，自然保护区为受威胁物种提供安全的觅食和繁殖场所。负责任的旅游业还能给当地带来收入，并帮助保护野生动植物。对于被交易或会迁徙的物种，国际合作也很必要。因此，保护、执法和可持续的当地工作，可在更多物种消失前减少主要压力。",
       "总之，灭绝主要由栖息地破坏和不可持续的利用导致。有效保护、严格执法和替代收入来源能减少这些压力，并给受威胁物种一个恢复的现实机会。",
     ],
     "T2-0518": [
@@ -7964,35 +8030,813 @@ window.IELTS_DATA = {
     ],
   };
 
-  Object.entries(gtPriority).forEach(([type, rankedItems]) => {
-    const metadataByGid = new Map(
-      rankedItems.map(([gid, score], index) => [gid, {
-        gtFitRank: index + 1,
-        gtFitScore: score,
-        gtTier: score >= 6 ? "G类优先" : score >= 4 ? "G类常见" : "拓展补充",
-      }]),
-    );
-    const essays = priorityByType[type];
-    if (metadataByGid.size !== essays.length) {
-      throw new Error("Incomplete General Training ranking for Task 2 type: " + type);
-    }
+  const bandFiveRewrites = {
+    "T2-0438": {
+      position: "同意：遵从当地习俗能让生活更顺利，也有助于建立关系",
+      frameworkPoints: [
+        { label: "第一点原因", text: "当地习俗能让日常生活更顺利。" },
+        { label: "第二点原因", text: "遵从习俗有助于建立良好关系。" },
+      ],
+      keyPhrases: [
+        { text: "understand local expectations", translation: "了解当地社会预期" },
+        { text: "avoid unnecessary offence", translation: "避免不必要的冒犯" },
+        { text: "build trust with neighbours", translation: "与邻居建立信任" },
+        { text: "language, food and festivals", translation: "语言、食物和节日" },
+      ],
+      introPhrases: [
+        { text: "newcomers should follow local customs", translation: "新居民应该遵从当地习俗" },
+        { text: "make daily life easier and help people build good relationships", translation: "让日常生活更顺利，并帮助人们建立良好关系" },
+      ],
+      reasonPhrases: [
+        { text: "local customs make daily life easier", translation: "当地习俗能让日常生活更顺利" },
+        { text: "following local customs helps people build good relationships", translation: "遵从当地习俗有助于人们建立良好关系" },
+      ],
+      paragraphs: [
+        "People have different views about whether newcomers should follow local customs after moving to another country. I agree that newcomers should follow local customs because these customs make daily life easier and help people build good relationships.",
+        "The first reason why I hold this view is that local customs make daily life easier. Newcomers need to understand local expectations about public behaviour, time and communication. When they follow these basic rules, they can avoid unnecessary offence at work, school and in shared places. This is especially important when the rules are different from those in their home country. For example, knowing local rules about noise can prevent problems with neighbours. Learning simple greetings and polite behaviour can also make daily conversations easier. Therefore, following local customs helps new residents settle into the country more smoothly.",
+        "Another important reason is that following local customs helps people build good relationships. Local people usually feel respected when newcomers try to understand their way of life. As a result, they may be more willing to offer help and friendship. For example, taking part in a local event can help a new resident build trust with neighbours and learn about the community. People can still enjoy their own language, food and festivals at home. It can also reduce misunderstandings between people from different backgrounds. Therefore, respecting local customs does not mean losing one's culture.",
+        "In conclusion, I agree that newcomers should follow local customs. This is because doing so can make everyday life easier and help them form better relationships in their new country.",
+      ],
+      paragraphTranslations: [
+        "对于移居其他国家的人是否应遵从当地习俗，人们看法不同。我同意新居民应该遵从当地习俗，因为这些习俗能让日常生活更顺利，并帮助人们建立良好关系。",
+        "我持这一观点的第一个原因是，当地习俗能让日常生活更顺利。新居民需要了解当地社会预期，例如公共行为、时间观念和沟通方式。遵守这些基本规则，可以让他们在工作、学校和公共场所避免不必要的冒犯。当新旧国家的规则不同时，这一点尤其重要。例如，了解当地有关噪声的规则可以防止邻里问题。学习简单问候和礼貌行为，也能让日常交流更容易。因此，遵从当地习俗能帮助新居民更顺利地适应新国家。",
+        "另一个重要原因是，遵从当地习俗有助于人们建立良好关系。当新居民努力了解当地生活方式时，当地人通常会感到受到尊重。因此，他们可能更愿意提供帮助和友谊。例如，参加当地活动能帮助新居民与邻居建立信任，并了解社区。人们仍然可以在家保留自己的语言、食物和节日。这也能减少不同背景人群之间的误解。因此，尊重当地习俗并不意味着失去自己的文化。",
+        "总之，我同意新居民应该遵从当地习俗，因为这样能让日常生活更顺利，也能帮助他们在新的国家建立更好的关系。",
+      ],
+    },
+    "T2-0451": {
+      position: "不同意：看电视过多影响健康，而且学习方式过于被动",
+      frameworkPoints: [
+        { label: "第一点原因", text: "过多的屏幕时间会影响儿童健康。" },
+        { label: "第二点原因", text: "看电视通常是一种被动的学习方式。" },
+      ],
+      introPhrases: [
+        { text: "children should be encouraged to watch television", translation: "应该鼓励儿童看电视" },
+        { text: "harm their health and provide passive learning", translation: "损害他们的健康，并造成被动学习" },
+      ],
+      reasonPhrases: [
+        { text: "too much screen time can harm children's health", translation: "过多的屏幕时间会影响儿童健康" },
+        { text: "watching television is often a passive way to learn", translation: "看电视通常是一种被动的学习方式" },
+      ],
+      paragraphs: [
+        "People have different views about whether children should be encouraged to watch television at home and at school. I disagree with this view because too much television can harm their health and provide passive learning.",
+        "The first reason why I hold this view is that too much screen time can harm children's health. Children who sit in front of a television for many hours have less time for exercise, sleep and face-to-face communication. As a result, they may become tired in class or gain too much weight. For example, a child who watches television every evening may stop playing outside with friends. Carefully selected programmes can be useful for a short time, but children should not be encouraged to watch them freely. Therefore, television needs clear limits at home and at school.",
+        "Another important reason is that watching television is often a passive way to learn. Children learn better when they read, write and discuss ideas because they must think and answer questions. A programme may use clear pictures and simple examples, but a child can watch without understanding them. For example, a teacher can show a short video about a difficult scientific process and then ask students to complete an activity. In this case, television is a limited teaching tool, not the main lesson. Therefore, active study should come first.",
+        "In conclusion, I disagree that children should be widely encouraged to watch television. This is because too much screen time can harm their health and does not provide enough active learning.",
+      ],
+      paragraphTranslations: [
+        "对于是否应该鼓励儿童在家里和学校看电视，人们看法不同。我不同意这一观点，因为看电视过多会损害他们的健康，并造成被动学习。",
+        "我持这一观点的第一个原因是，过多的屏幕时间会影响儿童健康。长时间坐在电视前的儿童，用于运动、睡眠和面对面交流的时间会更少。因此，他们可能在课堂上感到疲倦，或者体重增加。例如，每天晚上看电视的孩子可能不再和朋友到户外玩。经过认真挑选的节目可以短时间使用，但不应鼓励儿童随意观看。因此，在家里和学校都需要对电视时间作出明确限制。",
+        "另一个重要原因是，看电视通常是一种被动的学习方式。儿童在阅读、写作和讨论观点时学得更好，因为他们必须思考和回答问题。节目可能会使用清晰的画面和简单的例子，但儿童也可能看了却没有理解。例如，教师可以播放一段介绍复杂科学过程的短视频，然后让学生完成一项活动。在这种情况下，电视只是有限使用的教学工具，而不是主要课程。因此，应优先采用主动学习。",
+        "总之，我不同意普遍鼓励儿童看电视，因为过多的屏幕时间会影响健康，而且不能提供足够的主动学习。",
+      ],
+    },
+    "T2-0430": {
+      position: "很大程度上没有实现：科技增加工作要求，也占用了省下的时间",
+      frameworkPoints: [
+        { label: "第一点原因", text: "科技增加了工作方面的要求。" },
+        { label: "第二点原因", text: "许多人把省下的时间花在网上。" },
+      ],
+      introPhrases: [
+        { text: "technology has given people much more free time", translation: "科技给人们带来了更多空闲时间" },
+        { text: "has not come true to a large extent", translation: "在很大程度上并没有实现" },
+      ],
+      reasonPhrases: [
+        { text: "technology has increased work demands", translation: "科技增加了工作方面的要求" },
+        { text: "many people spend their saved time online", translation: "许多人把省下的时间花在网上" },
+      ],
+      paragraphs: [
+        "People have different views about whether technology has given people much more free time. I do not believe this prediction has fully come true today. Technology has increased work demands, and many people spend their saved time online.",
+        "The first reason why I hold this view is that technology has increased work demands. Employees can receive emails anywhere and are often expected to reply quickly outside normal working hours. Companies also use faster systems to give staff more tasks instead of making the working day shorter. For example, a worker may leave the office at six but continue answering messages at home for another hour. This means that digital tools can move work into family time. Therefore, technology does not always give workers more real leisure.",
+        "Another important reason is that many people spend their saved time online. Household machines and online banking and shopping help people finish routine jobs faster. However, many people then use the extra time on social media, games or videos. These activities can be enjoyable, but several hours of screen use may not give proper rest. For example, someone may save thirty minutes by shopping online but spend two hours watching short videos. People must protect their free time if they want to benefit from technology. Therefore, saved time does not automatically become leisure.",
+        "In conclusion, I believe the prediction has not come true to a large extent. This is because technology can increase work demands and people often use their saved time on online activities.",
+      ],
+      paragraphTranslations: [
+        "对于科技是否给人们带来了更多空闲时间，人们看法不同。我不认为这一预测如今已经完全实现。科技增加了工作要求，而且许多人把省下的时间花在网上。",
+        "我持这一观点的第一个原因是，科技增加了工作方面的要求。员工可以在任何地方收到邮件，并经常被要求在正常工作时间之外迅速回复。公司还会利用更快的系统增加员工任务，而不是缩短工作日。例如，一名员工可能六点离开办公室，却仍要在家再回复一小时消息。这意味着数字工具会让工作进入家庭时间。因此，科技并不总能给员工带来更多真正的休闲时间。",
+        "另一个重要原因是，许多人把省下的时间花在网上。家用机器以及网上银行和购物能帮助人们更快完成日常事务。不过，很多人随后会把额外时间用在社交媒体、游戏或视频上。这些活动可能很有趣，但几个小时的屏幕使用未必能让人真正休息。例如，有人可能通过网上购物节省三十分钟，却又花两小时看短视频。如果想从科技中受益，人们必须保护自己的闲暇时间。因此，省下时间并不会自动变成休闲时间。",
+        "总之，我认为这一预测在很大程度上并没有实现，因为科技会增加工作要求，而人们也经常把省下的时间用于网络活动。",
+      ],
+    },
+    "T2-0790": {
+      position: "不同意：文字资料更详细，而影像可能简化或改变事实",
+      frameworkPoints: [
+        { label: "第一点原因", text: "文字记录能提供详细的历史证据。" },
+        { label: "第二点原因", text: "电影可能简化或改变历史事实。" },
+      ],
+      introPhrases: [
+        { text: "films are better than written documents for learning history", translation: "电影比文字资料更适合学习历史" },
+        { text: "written sources are more detailed and films may change facts", translation: "文字资料更详细，而电影可能改变事实" },
+      ],
+      reasonPhrases: [
+        { text: "written records provide detailed historical evidence", translation: "文字记录能提供详细的历史证据" },
+        { text: "films may simplify or change historical facts", translation: "电影可能简化或改变历史事实" },
+      ],
+      paragraphs: [
+        "People have different views about whether films are better than written documents for learning history. I disagree with this view because written sources are more detailed and films may change facts.",
+        "The first reason why I hold this view is that written records provide detailed historical evidence. Letters, diaries, laws and newspaper reports can show exact dates and personal accounts from a particular period. Students can check the original words and compare what different people said. Written sources also allow learners to return to a passage and study it slowly. For example, a student can read both a worker's letter and a newspaper report about the same event. This makes it easier to notice different opinions. Therefore, written records usually give more complete information than a film.",
+        "Another important reason is that films may simplify or change historical facts. A film has limited time, so it may simplify a complex event, leave out details and show only one opinion. Directors may also create conversations that never happened to make the story more exciting. For example, a film about factory life may show visual details but ignore workers' letters and government reports. Students should compare different sources and check the original words before accepting the film as true. This gives them a fuller picture of the past. Therefore, films should support written records, not replace them.",
+        "In conclusion, I disagree that films are the better way to learn history. This is because written records provide fuller information, while films may simplify or change important facts.",
+      ],
+      paragraphTranslations: [
+        "对于电影是否比文字资料更适合学习历史，人们看法不同。我不同意这一观点，因为文字资料更详细，而电影可能改变事实。",
+        "我持这一观点的第一个原因是，文字记录能提供详细的历史证据。信件、日记、法律和报纸报道可以展示某个时期的确切日期和个人记述。学生能够核对原始文字，并比较不同人的说法。文字资料还让学习者可以重新阅读一段内容并慢慢研究。例如，学生可以阅读一名工人的信件和一篇关于同一事件的报纸报道，从而更容易发现不同观点。因此，文字记录通常比电影提供更完整的信息。",
+        "另一个重要原因是，电影可能简化或改变历史事实。电影时间有限，所以可能简化复杂事件、省略细节并只展示一种观点。导演也可能为了让故事更精彩而创造从未发生的对话。例如，一部关于工厂生活的电影可能展示视觉细节，却忽略工人的信件和政府报告。学生在相信电影内容之前，应比较不同资料来源并核对原始文字。这样能让他们对过去有更完整的认识。因此，电影应该辅助文字记录，而不是取代它们。",
+        "总之，我不同意电影是学习历史的更好方式，因为文字记录能提供更完整的信息，而电影可能简化或改变重要事实。",
+      ],
+    },
+    "T2-0444": {
+      position: "不同意：住房是基本需求，而且住房与树木可以同时规划",
+      frameworkPoints: [
+        { label: "第一点原因", text: "城市需要提供足够的可负担住房。" },
+        { label: "第二点原因", text: "住房和树木可以同时规划。" },
+      ],
+      introPhrases: [
+        { text: "planting trees is more important than building homes", translation: "种树比建造住房更重要" },
+        { text: "housing is a basic need and both homes and trees can be planned together", translation: "住房是基本需求，而且住房与树木可以同时规划" },
+      ],
+      reasonPhrases: [
+        { text: "cities need to provide enough affordable homes", translation: "城市需要提供足够的可负担住房" },
+        { text: "housing and trees can be provided together", translation: "住房和树木可以同时规划" },
+      ],
+      paragraphs: [
+        "People have different views about whether planting trees is more important than building homes in cities. I disagree with this view because housing is a basic need and both homes and trees can be planned together.",
+        "The first reason why I hold this view is that cities need to provide enough affordable homes. When there is a serious housing shortage, rents may rise and families may live in crowded rooms or far from their jobs. This makes daily life expensive and tiring. For example, a low-income family may spend a large part of its salary on rent because very few homes are available. Trees are valuable, but housing is a basic need that cannot be ignored. Therefore, some open land should be used to build homes where the shortage is serious.",
+        "Another important reason is that housing and trees can be provided together. Well-planned housing can include shared green areas, small parks and trees beside roads. Taller buildings can provide more homes while leaving some land open. Trees in these spaces can reduce heat and air pollution and give children a safe green space. For example, a new apartment area can place a small park in the middle of several buildings. Therefore, cities do not always have to choose only trees or only homes, and balanced planning is more useful.",
+        "In conclusion, I disagree that planting trees should always be more important than building homes. This is because cities need affordable housing and good planning can also provide useful green spaces.",
+      ],
+      paragraphTranslations: [
+        "对于在城市中种树是否比建造住房更重要，人们看法不同。我不同意这一观点，因为住房是基本需求，而且住房与树木可以同时规划。",
+        "我持这一观点的第一个原因是，城市需要提供足够的可负担住房。当存在严重的住房短缺时，租金可能上涨，家庭可能住在拥挤的房间里，或者住得离工作地点很远。这会让日常生活既昂贵又疲惫。例如，由于可用住房很少，一个低收入家庭可能要把工资的大部分用于房租。树木很有价值，但住房是不能忽视的基本需求。因此，在住房严重不足的地方，一些开放土地应该用于建房。",
+        "另一个重要原因是，住房和树木可以同时规划。规划良好的住房可以包含共享绿地、小公园和道路旁的树木。较高的建筑能提供更多住房，同时保留一些开放土地。这些空间中的树木可以降低高温和空气污染，并给儿童提供安全的绿色空间。例如，一个新的公寓区可以在几栋楼中间设置小公园。因此，城市并不总要在树木和住房之间二选一，平衡规划会更加实用。",
+        "总之，我不同意种树应该总比建房更重要，因为城市需要可负担住房，而良好规划也能同时提供实用的绿色空间。",
+      ],
+    },
+  };
+
+  const replaceFirstSentence = (paragraph, sentence, punctuation) => {
+    const sentenceEnd = paragraph.indexOf(punctuation);
+    if (sentenceEnd === -1) return sentence;
+    const remainder = paragraph.slice(sentenceEnd + punctuation.length).trimStart();
+    return remainder ? `${sentence} ${remainder}` : sentence;
+  };
+
+  const bodyLeadFactories = {
+    stance: [
+      (reason) => `The first reason why I hold this view is that ${reason.text}.`,
+      (reason) => `Another important reason is that ${reason.text}.`,
+    ],
+    comparison: [
+      (reason) => `The first side is that ${reason.text}.`,
+      (reason) => `The other side is that ${reason.text}.`,
+    ],
+    "two-question": [
+      (reason) => `Regarding the first question, ${reason.text}.`,
+      (reason) => `As for the second question, ${reason.text}.`,
+    ],
+  };
+
+  const bodyTranslationLeadFactories = {
+    stance: [
+      (reason) => `我持这一观点的第一个原因是，${reason.translation}。`,
+      (reason) => `另一个重要原因是，${reason.translation}。`,
+    ],
+    comparison: [
+      (reason) => `第一方面是，${reason.translation}。`,
+      (reason) => `另一方面是，${reason.translation}。`,
+    ],
+    "two-question": [
+      (reason) => `关于第一个问题，${reason.translation}。`,
+      (reason) => `关于第二个问题，${reason.translation}。`,
+    ],
+  };
+
+  const weakerSideFirstIds = new Set(["T2-0598"]);
+
+  Object.entries(priorityByType).forEach(([type, essays]) => {
     essays.forEach((essay) => {
-      const metadata = metadataByGid.get(essay.sourceGid);
-      if (!metadata) throw new Error("Missing General Training ranking: " + essay.sourceGid);
       const paragraphTranslations = priorityParagraphTranslations[essay.sourceGid];
       if (!paragraphTranslations || paragraphTranslations.length !== essay.paragraphs.length) {
         throw new Error("Missing Task 2 paragraph translations: " + essay.sourceGid);
       }
-      Object.assign(essay, metadata, { paragraphTranslations });
+      Object.assign(essay, { paragraphTranslations, targetBand: "5" });
+      const rewrite = bandFiveRewrites[essay.sourceGid];
+      if (rewrite) Object.assign(essay, rewrite);
+
+      if (weakerSideFirstIds.has(essay.sourceGid)) {
+        [essay.reasonPhrases[0], essay.reasonPhrases[1]] = [essay.reasonPhrases[1], essay.reasonPhrases[0]];
+        [essay.frameworkPoints[0], essay.frameworkPoints[1]] = [essay.frameworkPoints[1], essay.frameworkPoints[0]];
+        [essay.paragraphs[1], essay.paragraphs[2]] = [essay.paragraphs[2], essay.paragraphs[1]];
+        [essay.paragraphTranslations[1], essay.paragraphTranslations[2]] = [
+          essay.paragraphTranslations[2],
+          essay.paragraphTranslations[1],
+        ];
+        essay.paragraphs[2] += " Overall, these benefits are more important because they support local jobs and can reduce transport for many years.";
+        essay.paragraphTranslations[2] += " 总体而言，这些好处更加重要，因为它们能够支持当地就业，并长期减少部分运输。";
+      }
+
+      const bodyLeads = bodyLeadFactories[type];
+      const bodyTranslationLeads = bodyTranslationLeadFactories[type];
+      if (!bodyLeads || !bodyTranslationLeads || essay.reasonPhrases.length < 2) {
+        throw new Error("Missing Band 5 body frame for Task 2 essay: " + essay.sourceGid);
+      }
+      [0, 1].forEach((reasonIndex) => {
+        const paragraphIndex = reasonIndex + 1;
+        const reason = essay.reasonPhrases[reasonIndex];
+        essay.paragraphs[paragraphIndex] = replaceFirstSentence(
+          essay.paragraphs[paragraphIndex],
+          bodyLeads[reasonIndex](reason),
+          ".",
+        );
+        essay.paragraphTranslations[paragraphIndex] = replaceFirstSentence(
+          essay.paragraphTranslations[paragraphIndex],
+          bodyTranslationLeads[reasonIndex](reason),
+          "。",
+        );
+      });
+      essay.frameworkPoints = essay.frameworkPoints.map((point, index) => ({
+        ...point,
+        text: `${essay.reasonPhrases[index].translation}。`,
+      }));
     });
   });
 
+  const makeCambridgeGtEssay = (book, test, essay) => ({
+    ...essay,
+    id: `cambridge-${book}-gt-test-${test}`,
+    sourceGid: `C${book}-GT-T${test}`,
+    sourceNumber: test,
+    sourceTag: "剑雅真题·题意改写",
+    sourcePeriod: `Cambridge ${book} GT · Test ${test}`,
+    targetBand: "5",
+    gtFitRank: 0,
+    gtFitScore: 9,
+    gtTier: "G类真题",
+  });
+
+  const cambridgeGtEssays = {
+    stance: [
+      makeCambridgeGtEssay(20, 1, {
+        title: "剑20 GT Test 1｜每个年龄段都应有爱好",
+        prompt: "People of every age group, including children, workers and retired people, should have at least one hobby. What is your opinion?",
+        position: "同意：爱好有益健康，也能帮助人们学习和交友",
+        materials: ["兴趣爱好和休闲", "健康和社会关系"],
+        frameworkPoints: [
+          { label: "第一点原因", text: "爱好能改善身心健康。" },
+          { label: "第二点原因", text: "爱好能帮助人们学习技能和结交朋友。" },
+        ],
+        keyPhrases: [
+          { text: "reduce stress", translation: "减轻压力" },
+          { text: "stay physically active", translation: "保持身体活跃" },
+          { text: "learn useful skills", translation: "学习实用技能" },
+          { text: "feel less lonely", translation: "减少孤独感" },
+        ],
+        introPhrases: [
+          { text: "people of every age should have a hobby", translation: "每个年龄段的人都应该有一项爱好" },
+          { text: "improve health and help people learn and connect", translation: "改善健康，并帮助人们学习和交流" },
+        ],
+        reasonPhrases: [
+          { text: "hobbies can improve physical and mental health", translation: "爱好能改善身心健康" },
+          { text: "hobbies help people learn useful skills and meet others", translation: "爱好能帮助人们学习实用技能和结交朋友" },
+        ],
+        paragraphs: [
+          "People have different views about whether people of every age should have a hobby. I agree with this view because hobbies can improve health and help people learn and connect with others.",
+          "The first reason why I hold this view is that hobbies can improve physical and mental health. Many people spend long hours studying, working or looking after their families, so they need a simple way to relax. Activities such as walking, gardening or playing football help people stay physically active and reduce stress. For example, an office worker can go for a short bike ride after work instead of sitting in front of a screen all evening. Older people can also stay active by gardening or dancing. Therefore, a regular hobby can make daily life healthier and more enjoyable.",
+          "Another important reason is that hobbies help people learn useful skills and meet others. A child who paints can become more creative, while an adult in a cooking class can prepare better meals. Group hobbies also give people a reason to talk and make friends. For example, a retired person who joins a local walking group may feel less lonely and become part of the community. These benefits are useful at every age, although the type of hobby may change. Therefore, everyone can gain something useful from having a hobby.",
+          "In conclusion, I agree that everyone should have at least one hobby. This is because hobbies support good health, useful learning and stronger relationships at every stage of life.",
+        ],
+        paragraphTranslations: [
+          "人们对“每个年龄段的人都应该有一项爱好”这一观点看法不同。我同意这一观点，因为爱好能改善健康，并帮助人们学习和交流。",
+          "我持这一观点的第一个原因是，爱好能改善身心健康。许多人长时间学习、工作或照顾家庭，所以需要一种简单的放松方式。散步、园艺或踢足球等活动能帮助人们保持身体活跃并减轻压力。例如，上班族下班后可以短时间骑车，而不是整晚坐在屏幕前。老年人也能通过园艺或跳舞保持活跃。因此，固定的爱好可以让日常生活更加健康和愉快。",
+          "另一个重要原因是，爱好能帮助人们学习实用技能和结交朋友。画画的孩子可以变得更有创造力，参加烹饪课的成年人则能做出更好的饭菜。集体爱好也给人们提供了交谈和交友的机会。例如，参加当地徒步小组的退休人员可能减少孤独感，并成为社区的一员。虽然爱好类型可能随年龄变化，但这些益处适用于每个年龄段。因此，每个人都能从爱好中获得有用的东西。",
+          "总之，我同意每个人都应该至少有一项爱好，因为爱好能在各个人生阶段促进健康、学习和良好的人际关系。",
+        ],
+      }),
+      makeCambridgeGtEssay(20, 3, {
+        title: "剑20 GT Test 3｜让自己显得更年轻",
+        prompt: "People can now buy products or pay for treatments that make them look younger. Is this a good thing or a bad thing?",
+        position: "总体消极：制造外貌压力，也可能浪费金钱或损害健康",
+        materials: ["外貌和年龄", "消费与健康"],
+        frameworkPoints: [
+          { label: "第一点原因", text: "这些产品会制造保持年轻的压力。" },
+          { label: "第二点原因", text: "部分疗程浪费金钱并可能损害健康。" },
+        ],
+        keyPhrases: [
+          { text: "normal ageing", translation: "正常衰老" },
+          { text: "unrealistic images", translation: "不现实的形象" },
+          { text: "false advertising", translation: "虚假广告" },
+          { text: "medical advice", translation: "医疗建议" },
+        ],
+        introPhrases: [
+          { text: "products and treatments that make people look younger", translation: "让人显得更年轻的产品和疗程" },
+          { text: "a negative development", translation: "一种消极现象" },
+        ],
+        reasonPhrases: [
+          { text: "these products create pressure to look young", translation: "这些产品会制造保持年轻的压力" },
+          { text: "some treatments waste money and may harm health", translation: "部分疗程浪费金钱并可能损害健康" },
+        ],
+        paragraphs: [
+          "People have different views about products and treatments that make people look younger. I consider this to be a negative development because they create pressure about appearance and may waste money or harm health.",
+          "The first reason why I hold this view is that these products create pressure to look young. Advertising often shows unrealistic images and suggests that normal ageing is a problem. When people see these messages every day, they may feel unhappy about their face or body. For example, a middle-aged person may buy several expensive creams because an advertisement promises a much younger appearance. The product may make little difference, but the person may still feel that something is wrong with them. Therefore, this industry can reduce confidence instead of making people happier.",
+          "Another important reason is that some treatments waste money and may harm health. Beauty companies sometimes use false advertising and do not clearly explain the risks. People may pay large sums for pills, injections or other treatments without getting medical advice. For example, an unsafe treatment bought online may cause skin problems or make a person ill. Even when a treatment is safe, its results may last only a short time. Basic skin care can be harmless, but serious treatments should only be given by trained professionals. Therefore, trying to look younger can create financial and health problems.",
+          "In conclusion, I believe this is a negative development. This is because pressure about normal ageing can damage confidence, while costly or unsafe treatments may waste money and harm people's health.",
+        ],
+        paragraphTranslations: [
+          "对于让人显得更年轻的产品和疗程，人们看法不同。我认为这是一种消极现象，因为它们会制造外貌压力，并可能浪费金钱或损害健康。",
+          "我持这一观点的第一个原因是，这些产品会制造保持年轻的压力。广告经常展示不现实的形象，并暗示正常衰老是一种问题。人们每天看到这些信息时，可能会对自己的脸或身体感到不满。例如，中年人可能因为广告承诺带来年轻很多的外表，而购买几种昂贵的面霜。产品可能几乎没有效果，但这个人仍会觉得自己存在问题。因此，这个行业可能降低自信，而不是让人更快乐。",
+          "另一个重要原因是，部分疗程浪费金钱并可能损害健康。美容公司有时使用虚假广告，而且没有清楚说明风险。人们可能在没有获得医疗建议的情况下，为药片、注射或其他治疗支付大笔金钱。例如，从网上购买的不安全疗程可能造成皮肤问题，或者让人生病。即使疗程是安全的，效果也可能只维持很短时间。基本护肤可以是无害的，但严重疗程只能由受过训练的专业人员提供。因此，试图显得年轻可能造成经济和健康问题。",
+          "总之，我认为这是一种消极现象，因为对正常衰老的压力会损害自信，而昂贵或不安全的疗程可能浪费金钱并损害健康。",
+        ],
+      }),
+      makeCambridgeGtEssay(21, 1, {
+        title: "剑21 GT Test 1｜年龄增长与个人改变",
+        prompt: "People commonly change their habits and opinions as they grow older. Do you agree or disagree?",
+        position: "同意：生活责任会改变习惯，经历也会改变观点",
+        materials: ["年龄与人生阶段", "习惯和观点"],
+        frameworkPoints: [
+          { label: "第一点原因", text: "生活责任会改变日常习惯。" },
+          { label: "第二点原因", text: "新的经历会改变人们的观点。" },
+        ],
+        keyPhrases: [
+          { text: "family responsibilities", translation: "家庭责任" },
+          { text: "health needs", translation: "健康需要" },
+          { text: "learn from experience", translation: "从经历中学习" },
+          { text: "see the issue differently", translation: "以不同方式看待问题" },
+        ],
+        introPhrases: [
+          { text: "change their habits and opinions as they grow older", translation: "随着年龄增长改变习惯和观点" },
+          { text: "changes in daily life and new experiences", translation: "日常生活的变化和新的经历" },
+        ],
+        reasonPhrases: [
+          { text: "life responsibilities change daily habits", translation: "生活责任会改变日常习惯" },
+          { text: "new experiences can change people's opinions", translation: "新的经历会改变人们的观点" },
+        ],
+        paragraphs: [
+          "People have different views about whether people change their habits and opinions as they grow older. I agree with this view because changes in daily life and new experiences naturally affect the way people behave and think.",
+          "The first reason why I hold this view is that life responsibilities change daily habits. Young adults may spend a lot of time with friends, but work and family responsibilities often make their days busier. They may start planning their time, cooking at home and going to bed earlier. Health needs can also become more important with age. For example, a person who rarely exercised at university may begin walking every morning after becoming a parent or having a health problem. Therefore, people's habits often change because their situation and needs are different.",
+          "Another important reason is that new experiences can change people's opinions. People learn from experience at work, in relationships and while travelling. They may discover that an earlier belief was too simple or unfair. For example, a young person may think older workers dislike technology, but after working with an experienced colleague, they may see the issue differently. People also receive new information from others and from the news. As a result, they may become more open or more careful about certain subjects. Therefore, opinions commonly develop as people gain experience.",
+          "In conclusion, I agree that people often change as they become older. This is because new responsibilities affect their habits, while greater experience can change the way they understand different issues.",
+        ],
+        paragraphTranslations: [
+          "对于人们是否会随着年龄增长改变习惯和观点，人们看法不同。我同意这一观点，因为日常生活的变化和新的经历自然会影响人的行为和想法。",
+          "我持这一观点的第一个原因是，生活责任会改变日常习惯。年轻人可能花很多时间与朋友相处，但工作和家庭责任通常会让生活变得更忙。他们可能开始规划时间、在家做饭并更早睡觉。随着年龄增长，健康需要也会变得更重要。例如，一个上大学时很少运动的人，在成为父母或遇到健康问题后，可能开始每天早晨散步。因此，人们的处境和需要发生变化时，习惯通常也会改变。",
+          "另一个重要原因是，新的经历会改变人们的观点。人们会从经历中学习，特别是在工作、感情和旅行中。他们可能发现自己以前的看法过于简单或不公平。例如，年轻人可能认为年长员工不喜欢科技，但和一位有经验的同事共事后，他可能会以不同方式看待问题。人们还会从其他人和新闻中获得新信息。因此，他们可能对某些问题变得更加开放或谨慎。所以，随着经历增加，观点通常也会发展。",
+          "总之，我同意人们经常会随着年龄增长而改变，因为新的责任会影响习惯，而更多经历会改变他们理解不同问题的方式。",
+        ],
+      }),
+    ],
+    comparison: [
+      makeCambridgeGtEssay(20, 2, {
+        title: "剑20 GT Test 2｜家族企业的利弊",
+        prompt: "In many countries, relatives work together in a family business. Do the advantages of this arrangement outweigh the disadvantages?",
+        position: "利大于弊：虽然可能发生家庭矛盾，但信任和共同目标更重要",
+        materials: ["家庭关系", "企业和工作"],
+        frameworkPoints: [
+          { label: "较弱一面｜缺点", text: "家族企业可能造成私人矛盾。" },
+          { label: "较强一面｜优点", text: "亲属通常互相信任并拥有共同目标。" },
+        ],
+        keyPhrases: [
+          { text: "personal conflict", translation: "私人矛盾" },
+          { text: "choose the best person", translation: "选择最合适的人" },
+          { text: "trust one another", translation: "互相信任" },
+          { text: "share the same goals", translation: "拥有共同目标" },
+        ],
+        introPhrases: [
+          { text: "working with relatives has both advantages and disadvantages", translation: "与亲属共事既有优点也有缺点" },
+          { text: "the advantages are more important", translation: "优点更加重要" },
+        ],
+        reasonPhrases: [
+          { text: "family businesses can create personal conflict", translation: "家族企业可能造成私人矛盾" },
+          { text: "relatives often trust one another and share the same goals", translation: "亲属通常互相信任并拥有共同目标" },
+        ],
+        paragraphs: [
+          "People have different views about family members running a business together. Working with relatives has both advantages and disadvantages. I believe the advantages are more important. Trust and shared goals can make the business stronger.",
+          "The first side is that family businesses can create personal conflict. A disagreement about money or work may continue at home and damage family relationships. Managers may also give important jobs to relatives instead of trying to choose the best person. For example, an owner may make an untrained son the manager while a more experienced worker is ignored. This can make other employees feel that the company is unfair. These problems are serious, but clear job descriptions and open discussions can reduce them. Therefore, family companies need professional rules as well as close relationships.",
+          "The other side is that relatives often trust one another and share the same goals. Family members usually know each other's strengths, and they may be willing to work harder during a difficult period. Decisions can also be made quickly because the owners communicate often. For example, relatives may accept shorter hours or lower pay for a few months to help the business survive. A successful company can later provide stable work for several generations. In my opinion, these long-term benefits are more important than the disadvantages when the family uses fair rules.",
+          "In conclusion, family businesses may cause conflict or unfair decisions, while trust and shared goals can make them stable and flexible. Overall, I believe their advantages outweigh their disadvantages when relatives work professionally.",
+        ],
+        paragraphTranslations: [
+          "对于家庭成员共同经营企业，人们看法不同。与亲属共事既有优点也有缺点。我认为优点更加重要。信任和共同目标能让企业更强。",
+          "第一方面是，家族企业可能造成私人矛盾。有关金钱或工作的争执可能延续到家中，并损害家庭关系。管理者还可能把重要职位给亲属，而不是努力选择最合适的人。例如，老板可能让没有接受培训的儿子担任经理，却忽视更有经验的员工。这会让其他员工觉得公司不公平。这些问题很严重，但明确的工作职责和公开讨论可以减少问题。因此，家族企业既需要亲密关系，也需要专业规则。",
+          "另一方面是，亲属通常互相信任并拥有共同目标。家庭成员通常了解彼此的优点，而且可能愿意在困难时期更加努力。由于经营者经常沟通，决定也能更快作出。例如，为帮助企业生存，亲属可能在几个月内接受更短工时或较低工资。成功的企业随后可以为几代人提供稳定工作。在我看来，如果家庭采用公平规则，这些长期益处会比缺点更加重要。",
+          "总之，家族企业可能造成矛盾或不公平的决定，而信任和共同目标能让企业更加稳定灵活。总体而言，只要亲属以专业方式工作，家族企业就会利大于弊。",
+        ],
+      }),
+      makeCambridgeGtEssay(21, 2, {
+        title: "剑21 GT Test 2｜国际体育赛事与国家关系",
+        prompt: "Some people think international sports events bring countries together, while others believe they create competition rather than friendship. Discuss both views and give your opinion.",
+        position: "促进团结的一面更重要，但赛事需要公平组织",
+        materials: ["体育赛事", "国家关系和文化交流"],
+        frameworkPoints: [
+          { label: "第一个观点", text: "大型赛事可能增加竞争和公共开支。" },
+          { label: "第二个观点与判断", text: "国际体育能通过共同经历拉近各国距离。" },
+        ],
+        keyPhrases: [
+          { text: "public money", translation: "公共资金" },
+          { text: "national pride", translation: "国家自豪感" },
+          { text: "meet visitors", translation: "接触外国游客" },
+          { text: "a shared experience", translation: "共同经历" },
+        ],
+        introPhrases: [
+          { text: "create competition between countries", translation: "在国家之间制造竞争" },
+          { text: "bring people from different nations closer", translation: "拉近不同国家人民的距离" },
+        ],
+        reasonPhrases: [
+          { text: "major events can increase competition and public costs", translation: "大型赛事可能增加竞争和公共开支" },
+          { text: "international sport can bring countries together through shared experiences", translation: "国际体育能通过共同经历拉近各国距离" },
+        ],
+        paragraphs: [
+          "People have different views about international sports events. Some believe they create competition between countries, while others think they bring people from different nations closer. I support the second view when events are organised fairly.",
+          "The first side is that major events can increase competition and public costs. Fans sometimes care so strongly about winning that national pride becomes anger towards another country. Bad behaviour online or inside a stadium can then create arguments instead of friendship. Host countries may also spend too much public money on large stadiums that are rarely used later. For example, local people may oppose an event if hospitals and transport still need money. Therefore, international competitions can cause problems when winning and image become more important than people.",
+          "The other side is that international sport can bring countries together through shared experiences. Athletes follow the same rules and often show respect after a match. Fans can meet visitors, learn about other cultures and enjoy a shared experience. For example, families watching the Olympics may support an excellent athlete from another country, not only someone from their own nation. International events also give countries a peaceful place to communicate. In my view, these cultural and personal connections are more important than short-term competition, provided that organisers control costs and encourage fair behaviour.",
+          "In conclusion, international sport can create strong competition and high costs, while it can also build understanding through a shared experience. Overall, I believe well-managed events bring countries together more than they divide them.",
+        ],
+        paragraphTranslations: [
+          "对于国际体育赛事，人们看法不同。一些人认为它们在国家之间制造竞争，另一些人则认为它们能拉近不同国家人民的距离。如果赛事得到公平组织，我支持第二种观点。",
+          "第一方面是，大型赛事可能增加竞争和公共开支。球迷有时过度重视胜利，导致国家自豪感变成对另一个国家的愤怒。网络上或体育场中的不良行为可能造成争执，而不是友谊。主办国还可能在以后很少使用的大型场馆上花费过多公共资金。例如，如果医院和交通仍然需要资金，当地人可能反对举办赛事。因此，当胜利和国家形象比普通人更重要时，国际竞赛就会造成问题。",
+          "另一方面是，国际体育能通过共同经历拉近各国距离。运动员遵守相同规则，而且经常在赛后相互尊重。球迷能够接触外国游客、了解其他文化并享受共同经历。例如，观看奥运会的家庭可能支持来自其他国家的优秀运动员，而不仅仅支持本国选手。国际赛事还为各国提供了和平交流的场所。在我看来，只要主办方控制费用并鼓励公平行为，这些文化和个人联系就比短期竞争更加重要。",
+          "总之，国际体育会带来激烈竞争和高额费用，但也能通过共同经历建立理解。总体而言，我认为管理良好的赛事会让各国更加团结，而不是分裂。",
+        ],
+      }),
+    ],
+    "two-question": [
+      makeCambridgeGtEssay(20, 4, {
+        title: "剑20 GT Test 4｜购买过多衣服",
+        prompt: "In some places, people buy far more clothes than they need. Why does this happen, and how can they be encouraged to buy fewer clothes?",
+        position: "低价和广告促使过度购买；教育与重复使用可以减少消费",
+        materials: ["服装消费", "广告和环境"],
+        frameworkPoints: [
+          { label: "第一问｜原因", text: "廉价时尚和广告鼓励人们购买过多衣服。" },
+          { label: "第二问｜办法", text: "教育和实用的重复使用方法可以减少购买。" },
+        ],
+        keyPhrases: [
+          { text: "cheap fashion", translation: "廉价时尚" },
+          { text: "social media", translation: "社交媒体" },
+          { text: "clothing swaps", translation: "衣物交换活动" },
+          { text: "buy better-quality clothes", translation: "购买质量更好的衣服" },
+        ],
+        introPhrases: [
+          { text: "buy more clothes than they need", translation: "购买超过需要的衣服" },
+          { text: "low prices and strong advertising", translation: "低价和强势广告" },
+        ],
+        reasonPhrases: [
+          { text: "cheap fashion and advertising encourage people to overbuy", translation: "廉价时尚和广告鼓励人们过度购买" },
+          { text: "education and practical ways to reuse clothes can reduce buying", translation: "教育和实用的衣物重复使用方法可以减少购买" },
+        ],
+        paragraphs: [
+          "Buying clothes has become a common leisure activity in some places. Regarding the first question, low prices and strong advertising make people buy more clothes than they need. As for the second question, education and practical ways to reuse clothes can reduce this behaviour.",
+          "Regarding the first question, cheap fashion and advertising encourage people to overbuy. Many shops offer new styles every week at very low prices, so customers feel that buying another item is not a serious cost. Social media also shows people wearing different clothes in every photograph. This can make users believe that repeating an outfit is embarrassing. For example, a teenager may buy a new shirt for one party even though several suitable shirts are already at home. Therefore, low prices and pressure about appearance lead people to purchase unnecessary clothes.",
+          "As for the second question, education and practical ways to reuse clothes can reduce buying. Schools and public campaigns should explain how clothing production uses water and creates waste. Shops can collect old items for reuse, while communities can organise clothing swaps. People should also plan what they need and buy better-quality clothes that last longer. For example, friends can exchange clothes for a special event instead of each buying something new. These actions save money and make reuse easy. Therefore, clear information and convenient alternatives can persuade people to buy less.",
+          "In conclusion, cheap fashion and advertising cause people to buy unnecessary clothes. At the same time, education, better-quality products and clothing swaps can help reduce this wasteful habit.",
+        ],
+        paragraphTranslations: [
+          "在一些地方，买衣服已经成为常见的休闲活动。关于第一个问题，低价和强势广告使人们购买超过需要的衣服。关于第二个问题，教育和实用的衣物重复使用方法可以减少这种行为。",
+          "关于第一个问题，廉价时尚和广告鼓励人们过度购买。许多商店每周都以很低的价格推出新款式，所以顾客觉得再买一件衣服不是什么大开支。社交媒体还会展示人们在每张照片中穿不同的衣服。这可能让用户觉得重复穿一套衣服很尴尬。例如，青少年即使家中已经有几件合适的衬衫，也可能为一次聚会再买一件。因此，低价和外貌压力会促使人们购买不需要的衣服。",
+          "关于第二个问题，教育和实用的衣物重复使用方法可以减少购买。学校和公益宣传应该解释服装生产如何使用水资源并制造垃圾。商店可以回收旧衣服，社区则可以举办衣物交换活动。人们还应该先计划自己的需要，并购买质量更好的衣服，让它们使用更长时间。例如，朋友参加特殊活动时可以交换衣服，而不必每个人都买新衣。这些行动既省钱，也让重复使用变得容易。因此，清楚的信息和方便的替代办法能说服人们少买衣服。",
+          "总之，廉价时尚和广告导致人们购买不需要的衣服。同时，教育、更高质量的产品和衣物交换活动能帮助减少这种浪费习惯。",
+        ],
+      }),
+      makeCambridgeGtEssay(21, 3, {
+        title: "剑21 GT Test 3｜员工到国外工作",
+        prompt: "International companies sometimes allow staff to live and work abroad for a period. Why is this good for employees, and what advantages does it offer companies?",
+        position: "员工能发展职业能力；公司能培养国际化团队并分享经验",
+        materials: ["职业发展", "跨国公司和海外工作"],
+        frameworkPoints: [
+          { label: "第一问｜员工", text: "海外工作能帮助员工获得技能和职业经验。" },
+          { label: "第二问｜公司", text: "公司能建立更有能力且更国际化的团队。" },
+        ],
+        keyPhrases: [
+          { text: "career experience", translation: "职业经验" },
+          { text: "solve problems independently", translation: "独立解决问题" },
+          { text: "share useful knowledge", translation: "分享有用知识" },
+          { text: "work across different countries", translation: "在不同国家之间协作" },
+        ],
+        introPhrases: [
+          { text: "living and working in another country", translation: "在另一个国家生活和工作" },
+          { text: "benefit both employees and companies", translation: "同时使员工和公司受益" },
+        ],
+        reasonPhrases: [
+          { text: "overseas work helps employees gain skills and career experience", translation: "海外工作能帮助员工获得技能和职业经验" },
+          { text: "companies can build a more capable international team", translation: "公司能建立更有能力且更国际化的团队" },
+        ],
+        paragraphs: [
+          "Living and working in another country has become possible for more staff in large international businesses. This can benefit both employees and companies. Regarding the first question, overseas work gives employees skills and career experience. As for the second question, it helps companies build a capable international team.",
+          "Regarding the first question, overseas work helps employees gain skills and career experience. Staff must use another language, understand a different culture and learn new working methods. They also become more confident because they have to solve problems independently. For example, an employee sent to a foreign office may learn how that team serves local customers and manages a different market. After returning home, this person can use the new knowledge in a better position. Therefore, living and working abroad can improve an employee's future career.",
+          "As for the second question, companies can build a more capable international team. Employees returning from another office can share useful knowledge with their colleagues. They may also understand foreign customers better and help teams work across different countries. For example, a worker who spent a year in Japan could explain local customer needs to a product team in Europe. This can prevent mistakes and make communication faster. Overseas placements can also prepare staff for management roles. Therefore, companies gain stronger workers and better cooperation between their offices.",
+          "In conclusion, overseas work gives employees useful skills, confidence and career experience. At the same time, companies gain knowledgeable staff who can improve communication and cooperation across international offices.",
+        ],
+        paragraphTranslations: [
+          "在大型跨国企业中，越来越多员工有机会在另一个国家生活和工作。这能同时使员工和公司受益。关于第一个问题，海外工作能帮助员工获得技能和职业经验。关于第二个问题，它能帮助公司建立有能力的国际化团队。",
+          "关于第一个问题，海外工作能帮助员工获得技能和职业经验。员工必须使用另一种语言、理解不同文化并学习新的工作方法。由于必须独立解决问题，他们也会变得更加自信。例如，被派到国外办公室的员工可能学习该团队如何服务当地顾客和管理不同市场。回国以后，这个人可以在更好的职位上使用新知识。因此，在国外生活和工作可以改善员工未来的职业发展。",
+          "关于第二个问题，公司能建立更有能力且更国际化的团队。从其他办公室回来的员工可以和同事分享有用知识。他们还可能更了解外国顾客，并帮助团队在不同国家之间协作。例如，在日本工作过一年的员工可以向欧洲的产品团队解释当地顾客的需要。这能防止错误并加快沟通。海外派驻还可以帮助员工为管理岗位作准备。因此，公司能获得能力更强的员工，并改善不同办公室之间的合作。",
+          "总之，海外工作给员工带来实用技能、自信和职业经验。同时，公司能获得知识更丰富的员工，从而改善国际办公室之间的沟通与合作。",
+        ],
+      }),
+      makeCambridgeGtEssay(21, 4, {
+        title: "剑21 GT Test 4｜维生素片与健康饮食",
+        prompt: "Although a healthy diet can provide the vitamins people need, some still spend large sums on vitamin pills. Why do they do this, and how can they be encouraged to improve their diet instead?",
+        position: "方便和广告推动购买；清楚建议与方便健康的食物能改变行为",
+        materials: ["健康饮食", "维生素片和消费"],
+        frameworkPoints: [
+          { label: "第一问｜原因", text: "人们认为维生素片方便，而且相信广告。" },
+          { label: "第二问｜办法", text: "清楚的健康建议和方便的健康食物能改善饮食。" },
+        ],
+        keyPhrases: [
+          { text: "a quick solution", translation: "快速解决办法" },
+          { text: "strong advertising", translation: "强势广告" },
+          { text: "simple meal plans", translation: "简单的饮食计划" },
+          { text: "affordable healthy food", translation: "价格合理的健康食物" },
+        ],
+        introPhrases: [
+          { text: "spend a lot of money on vitamin pills", translation: "花很多钱购买维生素片" },
+          { text: "convenience and advertising", translation: "便利性和广告" },
+        ],
+        reasonPhrases: [
+          { text: "people see vitamin pills as convenient and trust advertising", translation: "人们认为维生素片方便，而且相信广告" },
+          { text: "clear advice and easy access to healthy food can improve diets", translation: "清楚建议与方便获得健康食物能改善饮食" },
+        ],
+        paragraphs: [
+          "Some people spend a lot of money on vitamin pills even though food can provide the vitamins they need. Regarding the first question, convenience and advertising encourage this choice. As for the second question, clear advice and easy access to healthy food can improve diets.",
+          "Regarding the first question, people see vitamin pills as convenient and trust advertising. Busy workers may not plan meals, so taking one pill appears to be a quick solution. Strong advertising also promises more energy, better health or protection from illness. For example, a tired office worker may buy an expensive bottle after seeing a famous person recommend it online. The customer may not understand that sleep and balanced meals are more important. Therefore, convenience and marketing can make pills seem more useful than they really are.",
+          "As for the second question, clear advice and easy access to healthy food can improve diets. Doctors should explain which foods provide common vitamins and give patients simple meal plans. Schools and public campaigns can teach people how to prepare quick, balanced meals. Shops and workplaces should also offer affordable healthy food, such as fruit, vegetables and simple lunches. For example, an office can replace some sweets with fruit and provide a fridge for home-made meals. These practical changes make healthy choices easier. Therefore, people are more likely to improve their diet when advice is clear and good food is convenient.",
+          "In conclusion, convenience and strong advertising lead some people to buy costly vitamin pills. At the same time, simple guidance and affordable healthy food can persuade them to improve their diet instead.",
+        ],
+        paragraphTranslations: [
+          "虽然食物能够提供人体需要的维生素，但一些人仍花很多钱购买维生素片。关于第一个问题，便利性和广告鼓励了这种选择。关于第二个问题，清楚建议与方便获得健康食物能改善饮食。",
+          "关于第一个问题，人们认为维生素片方便，而且相信广告。忙碌的上班族可能不会规划饮食，所以吃一片药似乎是快速解决办法。强势广告还会承诺带来更多精力、更好健康或疾病防护。例如，疲倦的办公室员工看到名人在网上推荐后，可能会购买一瓶昂贵的产品。顾客可能不明白，睡眠和均衡饮食更加重要。因此，便利性和营销会让维生素片显得比实际更加有用。",
+          "关于第二个问题，清楚建议与方便获得健康食物能改善饮食。医生应该解释哪些食物能够提供常见维生素，并给患者提供简单的饮食计划。学校和公益宣传可以教人们如何快速准备均衡的饭菜。商店和工作场所还应提供价格合理的健康食物，例如水果、蔬菜和简单午餐。例如，办公室可以用水果替代部分糖果，并提供冰箱存放自带饭菜。这些实际改变让健康选择变得更容易。因此，当建议清楚而健康食物又方便获得时，人们更可能改善饮食。",
+          "总之，便利性和强势广告使一些人购买昂贵的维生素片。同时，简单指导和价格合理的健康食物能说服他们改进饮食。",
+        ],
+      }),
+    ],
+  };
+
+  // These G-class topics were retained from the original library. Their first
+  // versions used too many one-off phrases, so the answers below deliberately
+  // repeat the same Band 5 sentence pattern and use common words.
+  const easyBandFiveRewrites = {
+    "remote-work": {
+      keyPhrases: toPhrases([
+        ["save company money", "为公司省钱"],
+        ["less office space", "更少的办公空间"],
+        ["find and keep workers", "找到并留住员工"],
+        ["a stable team", "稳定的团队"],
+      ]),
+      paragraphs: [
+        "Today, many employees can work from home with computers and the internet. Some people think this change only helps workers. I disagree because working from home can save company money and help businesses find and keep good employees.",
+        "The first reason why I hold this view is that remote work can reduce company costs. A business needs less office space when fewer workers come in every day. It can also spend less on electricity, water, cleaning and office equipment. For example, a small company may rent one meeting room instead of a large office. Staff can share files online and meet by video, so the company also pays for fewer business trips. The saved money can be used for training or better computers. Therefore, employers can clearly benefit from lower costs.",
+        "Another important reason is that remote work helps companies find and keep workers. A company can employ people who live far away, so it has more people to choose from. Working from home can also help parents and people with long journeys stay in their jobs. For example, an experienced employee may continue working after moving to another city. The company does not need to find and train a new person. Clear work targets and regular online meetings can reduce communication problems. Therefore, remote work can give a company a larger and more stable team.",
+        "In conclusion, I disagree that remote work only benefits employees. It also helps employers because they can spend less money and build a larger, more stable team.",
+      ],
+      paragraphTranslations: [
+        "如今，许多员工可以利用电脑和互联网在家工作。有些人认为这种变化只对员工有帮助。我不同意，因为在家工作能为公司省钱，也能帮助企业找到并留住优秀员工。",
+        "我持这一观点的第一个原因是，远程工作可以降低公司成本。当每天到办公室的人更少时，企业需要的办公空间也更小。公司还可以减少电费、水费、清洁费和办公设备支出。例如，一家小公司可以只租一间会议室，而不必租一间大办公室。员工可以在线共享文件并通过视频开会，因此公司还可减少商务出行。省下的钱可以用于培训或购买更好的电脑。因此，较低的成本显然也能让雇主受益。",
+        "另一个重要原因是，远程工作能帮助公司找到并留住员工。公司可以雇用住得很远的人，因此可选择的人更多。在家工作也能帮助家长以及通勤时间很长的人继续工作。例如，一位有经验的员工搬到另一座城市后，仍然可以继续任职。公司就不必重新寻找并培训新人。明确的工作目标和定期的线上会议可以减少沟通问题。因此，远程工作能让公司拥有更大、更稳定的团队。",
+        "总之，我不同意远程工作只对员工有利。它也能帮助雇主，因为公司可以减少支出，并建立更大、更稳定的团队。",
+      ],
+    },
+    "salary-gap": {
+      keyPhrases: toPhrases([
+        ["a very large pay gap", "很大的工资差距"],
+        ["lose motivation", "失去工作动力"],
+        ["fair pay", "公平的工资"],
+        ["help more workers", "帮助更多员工"],
+      ]),
+      paragraphs: [
+        "Some senior managers earn much more money than other workers in the same company. Some people think this is a good thing. I disagree because a very large pay gap can reduce worker motivation and company money can be used to help more employees.",
+        "The first reason why I hold this view is that a large pay gap can reduce worker motivation. Ordinary employees do much of the daily work, but they may earn very little compared with senior managers. For example, a shop worker may work long hours while the manager earns ten times more. The worker may then stop trying to give good service or may look for another job. Managers can earn more, but the difference should be reasonable. Therefore, fairer pay can help a company keep active workers.",
+        "Another important reason is that company money can benefit more workers. Instead of giving a very large bonus to one manager, a business can improve pay, training or safety for the whole team. For example, the same money could pay for a useful course for fifty employees. These workers may learn new skills and do their jobs better. Better pay can also reduce the number of people who leave, so the company spends less on finding new staff. Therefore, sharing money more fairly can help the whole business.",
+        "In conclusion, I disagree that extremely high salaries for senior managers are a good thing. A smaller pay gap can improve worker motivation and allow company money to help more people.",
+      ],
+      paragraphTranslations: [
+        "同一家公司里，一些高级管理者的收入远高于其他员工。有些人认为这是好事。我不同意，因为很大的工资差距会降低员工动力，而公司的钱也可以用来帮助更多员工。",
+        "我持这一观点的第一个原因是，过大的工资差距会降低员工动力。普通员工承担许多日常工作，但与高级管理者相比，他们的收入可能很低。例如，一名商店员工可能长时间工作，而经理的收入却是他的十倍。员工之后可能不再努力提供良好服务，或者会寻找另一份工作。管理者可以获得更多工资，但差距应当合理。因此，更公平的工资能帮助公司留住积极工作的员工。",
+        "另一个重要原因是，公司的钱可以使更多员工受益。企业可以为整个团队提高工资、提供培训或改善安全，而不是给一位经理发放巨额奖金。例如，同样的钱可以为五十名员工支付一门实用课程的费用。这些员工可能学到新技能，并把工作做得更好。更好的工资也能减少离职人数，使公司少花钱招聘新人。因此，更公平地分配资金能帮助整个企业。",
+        "总之，我不同意给高级管理者极高工资是好事。较小的工资差距可以提高员工动力，并使公司的钱帮助更多人。",
+      ],
+    },
+    "leader-intelligence": {
+      keyPhrases: toPhrases([
+        ["clear instructions", "清楚的指示"],
+        ["listen to workers", "听取员工意见"],
+        ["make fair decisions", "作出公平决定"],
+        ["trust their leader", "信任他们的领导"],
+      ]),
+      paragraphs: [
+        "Intelligence is useful for a leader, but some people say it is the most important quality of a leader. I disagree because workers also need clear instructions and they need to trust the person who leads them.",
+        "The first reason why I hold this view is that workers need clear instructions. A clever leader may have good ideas, but these ideas are not useful if nobody understands them. A leader must explain the job, set simple targets and listen when workers have questions. For example, before a busy sales week, a good manager can tell each employee what to do and when to finish it. The manager can also check that everyone has the right information. This reduces mistakes and saves time. Therefore, the ability to speak and listen clearly can be more useful than high intelligence alone.",
+        "Another important reason is that employees need to trust their leader. A leader should be fair, calm and ready to accept responsibility when a problem happens. If a manager takes all the praise but blames workers for every mistake, the team will lose respect for that person. For example, a trusted manager listens to both sides of a disagreement before making a decision. Workers are then more willing to follow the decision, even if they do not fully like it. Therefore, honesty and fair treatment are necessary for a strong team, while intelligence by itself is not enough.",
+        "In conclusion, I disagree that intelligence is the most important factor for a leader. Clear communication, fair decisions and trust are at least as important for leading people well.",
+      ],
+      paragraphTranslations: [
+        "聪明对管理者有用，但有些人说它是领导者最重要的品质。我不同意，因为员工还需要清楚的指示，也需要信任带领他们的人。",
+        "我持这一观点的第一个原因是，员工需要清楚的指示。一位聪明的领导可能有好想法，但如果没有人理解，这些想法就没有用。领导必须说明工作、设定简单目标，并在员工有疑问时听取意见。例如，在繁忙的销售周开始前，一位好经理可以告诉每名员工要做什么以及何时完成。经理还可以确认每个人都获得了正确的信息。这会减少错误并节省时间。因此，清楚表达和倾听的能力可能比单纯的高智力更实用。",
+        "另一个重要原因是，员工需要信任他们的领导。领导者应该公平、冷静，并在出现问题时愿意承担责任。如果经理把所有功劳都留给自己，却把每个错误都归咎于员工，团队就会失去对他的尊重。例如，一位值得信任的经理会在作决定前听取争议双方的意见。这样，即使员工并不完全喜欢这个决定，也更愿意遵从。因此，诚实和公平对待是强大团队所必需的，而仅仅聪明并不足够。",
+        "总之，我不同意智力是领导者最重要的因素。要很好地带领他人，清楚的沟通、公平的决定和信任至少同样重要。",
+      ],
+    },
+    "punish-parents": {
+      keyPhrases: toPhrases([
+        ["not the only influence", "不是唯一的影响"],
+        ["friends and the internet", "朋友和互联网"],
+        ["automatic punishment", "自动惩罚"],
+        ["judge each case", "判断每一个具体情况"],
+      ]),
+      paragraphs: [
+        "Some people believe that parents should be punished when their children break the law because parents are responsible for them. I disagree because parents are not the only influence on a child and automatic punishment would often be unfair.",
+        "The first reason why I hold this view is that parents are not the only influence on a child. Young people also learn from friends, school, social media and the area where they live. Even careful parents cannot watch an older child every minute. For example, a teenager may join friends in stealing something after school, although the parents have taught that stealing is wrong. Therefore, the police and the school should first find out why the child acted in this way.",
+        "Another important reason is that automatic punishment would be unfair. Some parents give their children clear rules and ask for help as soon as they notice a problem. Other parents may truly encourage crime or fail to provide basic care. These two groups should not receive the same treatment. For example, a court could punish a parent who knowingly helps a child sell stolen goods. However, it should not punish a parent simply because the child hid bad behaviour from the family. Each case needs to be judged using clear evidence. Therefore, responsibility should depend on what the parent actually did.",
+        "In conclusion, I disagree that parents should always be punished for their children's crimes. Children face many outside influences, and parents should only be punished when there is clear proof that they helped or ignored serious wrongdoing.",
+      ],
+      paragraphTranslations: [
+        "有些人认为，孩子违法时父母应该受罚，因为父母要对孩子负责。我不同意，因为父母不是影响孩子的唯一因素，而且自动惩罚父母通常并不公平。",
+        "我持这一观点的第一个原因是，父母不是影响孩子的唯一因素。年轻人还会受到朋友、学校、社交媒体和居住环境的影响。即使是认真负责的父母，也无法每分钟都看着年龄较大的孩子。例如，一名青少年可能放学后跟朋友一起偷东西，尽管父母教过他偷窃是错误的。因此，警方和学校应该先查明孩子为什么这样做。",
+        "另一个重要原因是，自动惩罚会不公平。有些父母给孩子制定了明确规则，并在发现问题后马上求助。另一些父母可能确实鼓励犯罪，或者没有提供基本照顾。这两类人不应受到相同处理。例如，如果父母明知而帮助孩子出售赃物，法院可以处罚他们。但是，如果孩子向家人隐瞒了不良行为，就不应仅因此处罚父母。每个案件都需要根据清楚的证据来判断。因此，父母是否负责应该取决于他们实际做了什么。",
+        "总之，我不同意父母总应为孩子的犯罪受罚。孩子会受到许多外部因素影响，只有在有明确证据证明父母帮助或无视严重违法行为时，才应处罚他们。",
+      ],
+    },
+    "life-without-work": {
+      keyPhrases: toPhrases([
+        ["a regular income", "稳定收入"],
+        ["pay for basic needs", "支付基本生活需要"],
+        ["a daily purpose", "日常生活目标"],
+        ["social contact", "社交联系"],
+      ]),
+      paragraphs: [
+        "Some people say that most people would choose a life without work if they had a choice. I disagree because work gives people a regular income and it can also provide a daily purpose and social contact.",
+        "The first reason why I hold this view is that work provides a regular income. Most adults need money for rent, food, transport and family costs. Without a job, they may need to depend on relatives or the government. For example, a parent who works can pay school costs and plan for an emergency. Some people may stop working if they already have enough money, but this is not true for most families. Therefore, work gives people an important form of safety and choice.",
+        "Another important reason is that work gives people purpose and social contact. A job creates a daily plan and lets people feel that they are doing something useful. It also gives them a chance to meet others and be part of a team. For example, a nurse may feel tired after a long day, but helping a patient can still give the work meaning. A person who never works may become bored or lonely after the first few months. Of course, nobody wants to spend almost all their time at work. Therefore, the better choice is reasonable working hours, not a life with no work at all.",
+        "In conclusion, I disagree that most people would choose never to work. Work is needed for income, and it also gives many people purpose, contact with others and a clear daily routine.",
+      ],
+      paragraphTranslations: [
+        "有人说，如果可以选择，大多数人都会选择不工作的生活。我不同意，因为工作给人们带来稳定收入，也能提供日常目标和社交联系。",
+        "我持这一观点的第一个原因是，工作能提供稳定收入。大多数成年人需要钱来支付房租、食物、交通和家庭开支。没有工作，他们可能必须依靠亲属或政府。例如，有工作的家长可以支付上学费用，并为突发情况作准备。如果已经有足够的钱，有些人可能停止工作，但大多数家庭并非如此。因此，工作给人们带来重要的安全感和选择权。",
+        "另一个重要原因是，工作给人们带来生活目标和社交联系。一份工作会形成每日安排，并让人觉得自己在做有用的事情。它也让人有机会认识别人并成为团队的一员。例如，一名护士在漫长的一天后可能很累，但帮助病人仍会让工作有意义。一个从不工作的人在最初几个月后可能会无聊或孤独。当然，没有人想把几乎所有时间都花在工作上。因此，更好的选择是合理的工作时间，而不是完全不工作的生活。",
+        "总之，我不同意大多数人会选择永远不工作。收入需要工作，而且工作也给许多人带来目标、与他人的联系和清楚的日常安排。",
+      ],
+    },
+    "computer-literacy": {
+      keyPhrases: toPhrases([
+        ["short online content", "网络短内容"],
+        ["read a long text", "阅读长篇文章"],
+        ["automatic correction", "自动纠错"],
+        ["write without help", "不借助工具写作"],
+      ]),
+      paragraphs: [
+        "Computers and mobile phones are now a normal part of young people's lives. I agree that their growing use can harm reading and writing skills because short online content reduces reading practice and automatic correction reduces writing practice.",
+        "The first reason why I hold this view is that short online content can reduce long reading practice. Many young people spend hours looking at short messages, pictures and videos. They may then find it difficult to stay focused on a book or a long article. For example, a student who only reads short posts may stop after one page of a school text because it feels slow. Digital books can still be useful, but students need regular time for careful reading. Therefore, schools and parents should set time for longer texts.",
+        "Another important reason is that automatic correction can reduce independent writing practice. Phones and computers can fix spelling or suggest a whole sentence before the user thinks about it. This is convenient, but young people may not remember the correct form themselves. For example, a student may write a good message with help from a phone but make many simple spelling mistakes in an exam. Teachers can ask students to write some work without these tools and then check it by hand. Therefore, technology should support writing, but it should not do all the work for the learner.",
+        "In conclusion, I agree that too much computer and phone use can weaken young people's reading and writing. They need more practice with long texts and more chances to write without automatic help.",
+      ],
+      paragraphTranslations: [
+        "电脑和手机如今是年轻人生活中的正常部分。我同意，越来越多地使用它们可能损害读写能力，因为网络短内容会减少长篇阅读练习，而自动纠错会减少写作练习。",
+        "我持这一观点的第一个原因是，网络短内容会减少长篇阅读练习。许多年轻人花几个小时浏览短消息、图片和视频。之后，他们可能很难继续专心阅读一本书或一篇长文章。例如，一个只读短帖子的学生可能读了一页课文就停下，因为他觉得内容很慢。电子书仍然可以有用，但学生需要固定时间进行认真阅读。因此，学校和家长应该安排阅读较长文章的时间。",
+        "另一个重要原因是，自动纠错会减少独立写作练习。手机和电脑可以改正拼写，甚至在用户思考前就建议完整句子。这很方便，但年轻人自己可能记不住正确形式。例如，一名学生在手机帮助下能写出不错的信息，却可能在考试中犯许多简单的拼写错误。教师可以要求学生在没有这些工具的情况下完成一部分写作，然后手工检查。因此，科技应该帮助写作，但不应替学习者完成所有工作。",
+        "总之，我同意过多使用电脑和手机会削弱年轻人的读写能力。他们需要更多长篇阅读练习，也需要更多不借助自动工具进行写作的机会。",
+      ],
+    },
+    "company-facilities": {
+      keyPhrases: toPhrases([
+        ["cost a lot of money", "花费很多钱"],
+        ["look after the facilities", "维护这些设施"],
+        ["local government", "地方政府"],
+        ["available to everyone", "向所有人开放"],
+      ]),
+      paragraphs: [
+        "Some people think every large company should provide sports and social facilities for people in the local area. I disagree because these facilities cost a lot of money and local government should normally provide public services.",
+        "The first reason why I hold this view is that sports and social facilities are expensive to build and maintain. A company would need to buy land, build rooms and employ people to keep them safe and clean. Not every business has enough money for this. For example, a large factory may already spend a lot on worker safety and new machines. If it must also build a sports centre, it may raise prices or employ fewer people. Therefore, this duty could hurt some businesses.",
+        "Another important reason is that public facilities should be provided by local government. The government collects tax and can find out what the whole area needs. It can also choose a place that is easy for everyone to reach. For example, a public sports centre in the town centre can serve older people, children and workers from many companies. A company facility may only be close to one workplace and may close if the business moves. Local government can plan the service for many years and make sure that it is available to everyone. Therefore, public money and public planning are usually fairer.",
+        "In conclusion, I disagree that all large companies must provide sports and social facilities. The cost may harm some businesses, while local government can provide fairer services for the whole community.",
+      ],
+      paragraphTranslations: [
+        "有些人认为，每一家大公司都应该为当地居民提供运动和社交设施。我不同意，因为这些设施花费很高，而且公共服务通常应该由地方政府提供。",
+        "我持这一观点的第一个原因是，运动和社交设施的建设与维护费用很高。公司需要购买土地、建造场所并雇人保持安全和清洁。并非每家企业都有足够资金。例如，一家大型工厂可能已经在员工安全和新机器上投入很多钱。如果它还必须建造体育中心，可能就会提高价格或减少用工。因此，这项责任可能会损害一些企业。",
+        "另一个重要原因是，公共设施应该由地方政府提供。政府征收税款，也能了解整个地区需要什么。它还可以选择一个大家都方便到达的位置。例如，市中心的公共体育中心可以服务老人、儿童以及来自许多公司的员工。公司的设施可能只靠近一个工作场所，而且企业搬走后还可能关闭。地方政府可以长期规划服务，并确保所有人都能使用。因此，公共资金和公共规划通常更加公平。",
+        "总之，我不同意所有大公司都必须提供运动和社交设施。这项费用可能损害一些企业，而地方政府能为整个社区提供更加公平的服务。",
+      ],
+    },
+    "congestion-tax": {
+      keyPhrases: toPhrases([
+        ["rush-hour traffic", "高峰期交通"],
+        ["leave the car at home", "把汽车留在家里"],
+        ["fewer vehicles", "更少的车辆"],
+        ["better public transport", "更好的公共交通"],
+      ]),
+      paragraphs: [
+        "Some cities charge drivers an extra tax when they enter busy areas at rush hour. I think this is a positive development because the tax can reduce traffic and the money can pay for better public transport.",
+        "The first reason why I hold this view is that the tax can reduce rush-hour traffic. When driving at the busiest time costs more, some people will travel earlier, share a car or leave the car at home. This means fewer vehicles are using the same roads. For example, an office worker may take a bus if driving into the city costs an extra ten dollars each day. The rule should allow help for disabled people and others who truly need a car. Therefore, a fair tax can make busy roads easier to use.",
+        "Another important reason is that the tax can pay for better public transport. A city can use the money for more buses, cleaner trains and safer walking routes. These changes give drivers a real choice instead of only asking them to pay more. For example, a new bus route from a housing area to the city centre may help hundreds of workers stop driving. The government should clearly show how the tax money is spent, so the public can see the result. Therefore, the tax can improve travel for the whole city.",
+        "In conclusion, I believe a rush-hour traffic tax is a positive development. It can reduce the number of cars on busy roads and provide money for better public transport.",
+      ],
+      paragraphTranslations: [
+        "一些城市在高峰期向进入繁忙地区的司机征收额外税费。我认为这是一项积极的发展，因为这项税可以减少交通，而且所得资金能用于改善公共交通。",
+        "我持这一观点的第一个原因是，这项税可以减少高峰期交通。当最繁忙时段开车的成本上升，一些人会提早出行、拼车，或者把汽车留在家里。这意味着同一条道路上的车辆更少。例如，如果每天开车进城要多付十美元，一名办公室员工可能改乘公交车。这项规定应该帮助残障人士和其他确实需要开车的人。因此，一项公平的税收能让繁忙道路更好用。",
+        "另一个重要原因是，这项税收可以支付更好的公共交通。城市可以用这笔钱增加公交车、改善列车并建设更安全的步行路线。这些变化给司机提供真正的选择，而不是只要求他们多付钱。例如，从住宅区通往市中心的新公交线路可能帮助数百名员工停止开车。政府应该清楚说明税款如何使用，让公众看到结果。因此，这项税收能改善整座城市的出行。",
+        "总之，我认为高峰期拥堵税是一项积极的发展。它能减少繁忙道路上的汽车数量，并为改善公共交通提供资金。",
+      ],
+    },
+    "extreme-sports": {
+      keyPhrases: toPhrases([
+        ["choose their own activities", "选择自己的活动"],
+        ["understand the danger", "了解危险"],
+        ["clear safety rules", "明确的安全规定"],
+        ["trained staff", "受过训练的工作人员"],
+      ]),
+      paragraphs: [
+        "Extreme sports such as skydiving and skiing can be dangerous, so some people think they should be banned. I disagree because adults should be free to choose their activities and clear safety rules can reduce the risks.",
+        "The first reason why I hold this view is that adults should be free to choose their activities. Many normal activities, including driving and swimming, also have some danger. People should be allowed to decide how much risk they accept if they understand it and do not harm others. For example, an adult may choose to go skydiving after learning about the danger and buying the right insurance. A complete ban would also close sports businesses and remove jobs. Therefore, the government should give clear information, but it should not make every personal choice for adults.",
+        "Another important reason is that safety rules can reduce the risks. Sports companies can check equipment, employ trained staff and stop an activity during bad weather. Customers can also be required to take a lesson before doing a difficult sport. For example, a skiing area can close an unsafe path and ask beginners to stay on easier paths. These steps cannot remove every accident, but they make serious problems less likely. The government should inspect companies and punish those that break the rules. Therefore, strong safety control is a better answer than banning an activity for everyone.",
+        "In conclusion, I disagree that dangerous sports should be banned. Adults should be able to make informed choices, and good equipment, trained staff and clear rules can make these sports safer.",
+      ],
+      paragraphTranslations: [
+        "跳伞和滑雪等极限运动可能有危险，因此有人认为应该禁止它们。我不同意，因为成年人应该自由选择自己的活动，而明确的安全规定能够降低风险。",
+        "我持这一观点的第一个原因是，成年人应该自由选择自己的活动。许多普通活动，包括开车和游泳，也存在一定危险。如果人们了解风险并且不伤害他人，就应允许他们决定自己愿意承担多少风险。例如，一名成年人了解危险并购买合适保险后，可以选择跳伞。全面禁止还会使运动企业关闭并减少工作岗位。因此，政府应该提供清楚的信息，但不应替成年人作出所有个人选择。",
+        "另一个重要原因是，安全规定能够降低风险。运动公司可以检查设备、雇用受过训练的员工，并在天气恶劣时停止活动。顾客在参加高难度运动前，也可以被要求先上课。例如，滑雪场可以关闭不安全的雪道，并要求初学者留在较容易的雪道。这些措施无法消除每一起事故，但能降低严重问题发生的可能。政府应该检查公司，并处罚违反规定的企业。因此，严格的安全管理比对所有人禁止活动更合适。",
+        "总之，我不同意禁止危险运动。成年人应该能够在了解情况后作出选择，而良好设备、受过训练的工作人员和明确规定能让这些运动更安全。",
+      ],
+    },
+    "advertising-effects": {
+      keyPhrases: toPhrases([
+        ["sell more products", "销售更多产品"],
+        ["create more jobs", "创造更多工作"],
+        ["buy things they do not need", "购买不需要的东西"],
+        ["feel unhappy", "感到不满"],
+      ]),
+      paragraphs: [
+        "People have different views about advertising. Some think it is good for the economy, while others think it causes social problems. I believe its negative social effects are more serious because it can make people waste money and feel unhappy with their lives.",
+        "The first side is that advertising helps companies sell more products. An advertisement tells people about a new shop, service or product. If more customers buy it, the business may grow and employ more workers. For example, a small local restaurant can put a simple advertisement online. More people may visit the restaurant, so it may need another cook and another waiter. Therefore, supporters say advertising is useful because it increases sales and creates jobs.",
+        "The other side is that advertising can make people buy things they do not need. Many advertisements show perfect homes, bodies and families. Ordinary people may then feel that their own lives are not good enough. For example, a teenager may ask for an expensive new phone only because a famous person uses it in an advertisement. The family may waste money even though the old phone still works. Children are especially easy to influence because they do not always understand that advertisements are made to sell things. In my view, this harm is more serious because it affects both family money and personal confidence.",
+        "In conclusion, advertising can help businesses sell products and create jobs. However, I believe its social harm is greater because it encourages unnecessary spending and can make people unhappy with what they already have.",
+      ],
+      paragraphTranslations: [
+        "人们对广告有不同看法。有些人认为广告对经济有利，而另一些人认为它会造成社会问题。我认为它的负面社会影响更严重，因为它会让人浪费金钱，并对自己的生活感到不满。",
+        "第一方面是，广告能帮助公司销售更多产品。广告会告诉人们一家新商店、一项服务或一种产品。如果更多顾客购买，企业就可能发展并雇用更多员工。例如，一家当地小餐馆可以在网上发布简单广告。更多人可能前来用餐，所以餐馆可能需要再聘请一名厨师和一名服务员。因此，支持者认为广告很有用，因为它能提高销量并创造工作。",
+        "另一方面是，广告会让人购买并不需要的东西。许多广告展示完美的住宅、身材和家庭。普通人之后可能觉得自己的生活不够好。例如，一名青少年可能仅仅因为名人在广告中使用某款新手机，就要求购买这部昂贵手机。即使旧手机还能用，家庭也可能浪费金钱。儿童尤其容易受到影响，因为他们并不总能明白广告的目的就是卖东西。在我看来，这种伤害更严重，因为它同时影响家庭资金和个人自信。",
+        "总之，广告能帮助企业销售产品并创造工作。然而，我认为它的社会危害更大，因为它鼓励不必要的消费，还可能让人对已经拥有的东西感到不满。",
+      ],
+    },
+    "technology-crime": {
+      position: "科技总体能减少犯罪，但需要法律和网络安全",
+      keyPhrases: toPhrases([
+        ["prevent and solve crime", "预防和侦破犯罪"],
+        ["cameras and bank systems", "摄像头和银行系统"],
+        ["online crime", "网络犯罪"],
+        ["strong laws and safe systems", "严格法律和安全系统"],
+      ]),
+      paragraphs: [
+        "People have different views about whether technology reduces crime or encourages it. Both views have good reasons. However, I believe technology can reduce more crime than it creates when there are strong laws and safe online systems.",
+        "The first side is that technology can help prevent and solve crime. Cameras can record what happens in shops, streets and train stations. Banks can also stop a payment when it looks unusual. For example, a camera may record a person stealing a bag and help the police find that person. The clear evidence may also stop other people from taking the same risk. Electronic locks make homes and offices harder to enter without permission. Therefore, technology can prevent some crimes and give the police useful information after a crime happens.",
+        "The other side is that the internet creates new opportunities for criminals. A criminal can send false messages to thousands of people or steal personal information without meeting the victim. Older people and new internet users may be easy targets. For example, a false bank message may ask a person to enter a password on an unsafe website. However, banks can block the website, and schools can teach people not to open strange links. In my view, technology still brings more safety when companies protect personal data and the police have clear powers to deal with online crime.",
+        "In conclusion, technology can create new forms of crime, but it can also prevent crime and help the police. I believe the overall effect is positive when laws, safe systems and public education develop with it.",
+      ],
+      paragraphTranslations: [
+        "对于科技是减少犯罪还是助长犯罪，人们看法不同。两种观点都有合理之处。不过，我认为在有严格法律和安全网络系统的情况下，科技减少的犯罪会多于它带来的犯罪。",
+        "第一方面是，科技可以帮助预防和侦破犯罪。摄像头可以记录商店、街道和火车站中发生的事情。银行也可以在付款看起来异常时将其拦截。例如，摄像头可能拍下一名偷包的人，并帮助警方找到他。清楚的证据还可能阻止其他人冒同样的风险。电子锁让人更难在未经允许的情况下进入住宅和办公室。因此，科技能够预防一些犯罪，也能在犯罪发生后为警方提供有用信息。",
+        "另一方面是，互联网给犯罪者创造了新机会。犯罪者无需见到受害者，就能向几千人发送虚假消息或窃取个人信息。老人和刚开始上网的人可能容易成为目标。例如，一条虚假银行信息可能要求人们在不安全的网站上输入密码。不过，银行可以封锁网站，学校也可以教人们不要打开陌生链接。在我看来，如果公司保护个人数据，警方也有明确权力处理网络犯罪，科技带来的安全仍然更多。",
+        "总之，科技会带来新的犯罪形式，但也能预防犯罪并帮助警方。我认为，只要法律、安全系统和公众教育与科技同步发展，它的整体影响就是积极的。",
+      ],
+    },
+    "repeat-offending": {
+      keyPhrases: toPhrases([
+        ["find a job and a home", "找到工作和住处"],
+        ["return to crime", "再次犯罪"],
+        ["job training", "职业培训"],
+        ["support after prison", "出狱后的帮助"],
+      ]),
+      paragraphs: [
+        "Many people commit another crime after they finish their first punishment. Regarding the first question, this often happens because they cannot find work or support. As for the second question, job training and continued help can reduce the problem.",
+        "Regarding the first question, a lack of work and support can cause reoffending. A person leaving prison may find it hard to get a job or rent a home. Without money and a safe place to live, returning to normal life becomes very difficult. For example, an employer may refuse a former prisoner even when that person wants to work. The person may then meet old criminal friends and return to crime to get money. Therefore, punishment alone does not always solve the problems that first led the person to crime.",
+        "As for the second question, training and continued support can reduce reoffending. Prisons should teach basic reading, work skills and ways to control harmful behaviour. Help must also continue after a person leaves prison. For example, a trained worker can help the person apply for jobs, find a room and make a weekly plan. Local companies can offer a first work placement with clear rules. A probation officer should meet the person often and act quickly if a new problem appears. Therefore, practical help together with firm control can give former prisoners a real chance to build a normal life.",
+        "In conclusion, many former prisoners return to crime because they have no job, home or support. Job training, housing help, regular checks and a fair chance to work can reduce this problem.",
+      ],
+      paragraphTranslations: [
+        "许多人在完成第一次处罚后又再次犯罪。关于第一个问题，这通常是因为他们找不到工作或得不到帮助。关于第二个问题，职业培训和持续帮助可以减少这一问题。",
+        "关于第一个问题，缺少工作和支持会导致再次犯罪。一个刚离开监狱的人可能很难找到工作或租到住处。没有钱和安全的居所，重新过正常生活就会非常困难。例如，即使前囚犯想工作，雇主也可能拒绝他。这个人之后可能重新联系以前的犯罪同伴，并通过再次犯罪获得金钱。因此，单靠处罚并不总能解决最初使人犯罪的问题。",
+        "关于第二个问题，培训和持续帮助可以减少再次犯罪。监狱应该教授基本阅读、工作技能以及控制有害行为的方法。一个人离开监狱后，帮助也必须继续。例如，受过训练的工作人员可以帮助他申请工作、寻找住处并制定每周计划。当地公司可以提供有明确规则的第一份实习工作。监督人员应该经常与他见面，并在出现新问题时迅速采取行动。因此，实际帮助与严格管理相结合，能让前囚犯真正有机会建立正常生活。",
+        "总之，许多前囚犯因为没有工作、住处或帮助而再次犯罪。职业培训、住房帮助、定期检查以及公平的工作机会能够减少这一问题。",
+      ],
+    },
+  };
+
   window.IELTS_DATA.essays.forEach((category) => {
     const priority = priorityByType[category.id] || [];
-    priority.sort((left, right) => left.gtFitRank - right.gtFitRank);
-    category.essays = [
+    const candidates = [
       ...priority,
       ...category.essays.filter((essay) => !reusedIds.has(essay.id)),
     ];
+    const candidateByKey = new Map(
+      candidates.map((essay) => [essay.sourceGid || essay.id, essay]),
+    );
+    const curatedEssays = (gtEssayKeysByType[category.id] || []).map((key) => {
+      const essay = candidateByKey.get(key);
+      if (!essay) throw new Error("Missing curated General Training essay: " + key);
+      return essay;
+    });
+    category.essays = [...(cambridgeGtEssays[category.id] || []), ...curatedEssays];
+    category.essays.forEach((essay) => {
+      const easyRewrite = easyBandFiveRewrites[essay.id];
+      if (easyRewrite) Object.assign(essay, easyRewrite);
+      essay.targetBand = "5";
+    });
   });
 })();

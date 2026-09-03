@@ -57,15 +57,48 @@ function highlight(text, phrases = []) {
 function taskTwoHighlights(essay) {
   const seen = new Set();
   return [
-    ...(essay.keyPhrases || []),
-    ...(essay.introPhrases || []),
-    ...(essay.reasonPhrases || []),
+    ...(essay.reasonPhrases || []).slice(0, 2),
+    ...(essay.introPhrases || []).slice(0, 2),
+    ...(essay.keyPhrases || []).slice(0, 4),
   ].filter((phrase) => {
     const key = phrase.text.trim().toLowerCase();
     if (!key || seen.has(key)) return false;
     seen.add(key);
     return true;
   });
+}
+
+function taskTwoSentences(paragraph = "") {
+  return paragraph
+    .match(/[^.!?]+(?:[.!?]+|$)/g)
+    ?.map((sentence) => sentence.trim())
+    .filter(Boolean) || [];
+}
+
+function taskTwoMemoryLines(essay) {
+  const [intro = "", bodyOne = "", bodyTwo = "", conclusion = ""] = essay.paragraphs;
+  const introSentences = taskTwoSentences(intro);
+  const conclusionSentences = taskTwoSentences(conclusion);
+  const directAnswerPattern = /\b(I (?:do not )?(?:agree|disagree|believe|think|consider)|In my view|Regarding the first question|As for the second question)\b/i;
+  const directAnswer = introSentences.filter((sentence) => directAnswerPattern.test(sentence)).join(" ")
+    || introSentences[introSentences.length - 1]
+    || intro;
+  const pickSupport = (paragraph, number) => {
+    const sentences = taskTwoSentences(paragraph);
+    const example = sentences.find((sentence) => /^For example\b/i.test(sentence));
+    return {
+      label: example ? `例子 ${number}` : `展开 ${number}`,
+      text: example || sentences[1] || sentences[0] || "",
+    };
+  };
+  return [
+    { label: "立场 / 答案", text: directAnswer },
+    { label: "主体 1", text: taskTwoSentences(bodyOne)[0] || bodyOne },
+    pickSupport(bodyOne, 1),
+    { label: "主体 2", text: taskTwoSentences(bodyTwo)[0] || bodyTwo },
+    pickSupport(bodyTwo, 2),
+    { label: "结论", text: conclusionSentences[conclusionSentences.length - 1] || conclusion },
+  ].filter((line) => line.text);
 }
 
 function taskTwoTranslationHighlights(paragraph, phrases) {
@@ -530,23 +563,32 @@ function renderTaskTwo() {
   const essay = category.essays.find((item) => item.id === state.essayId) || category.essays[0];
   state.essayId = essay.id;
   const focusPhrases = taskTwoHighlights(essay);
+  const memoryLines = taskTwoMemoryLines(essay);
   main.innerHTML = `
     <section class="panel">
-      <header class="panel-header"><span class="eyebrow">STRUCTURE FIRST</span><h2>三类主体结构</h2><p>不追求复杂句式，优先保证立场、原因、例子和结果完整。</p></header>
-      <div class="panel-body two-column">${framework.modes.map((mode) => `<article class="card"><span class="badge">${escapeHtml(mode.includes)}</span><h3>${escapeHtml(mode.name)}</h3><p>${escapeHtml(mode.goal)}</p><div class="answer">${escapeHtml(mode.intro)}</div><p class="translation">${escapeHtml(mode.opinionRule || mode.relationship)}</p></article>`).join("")}</div>
+      <header class="panel-header"><span class="eyebrow">STRUCTURE FIRST · BAND 5</span><h2>三类主体结构</h2><p>先看题目让你做几件事：<strong>撑一个立场</strong>→同侧论证；<strong>比较两面</strong>→双面比较；<strong>回答两个问题</strong>→两问回答。下方范文全部使用对应的四段框架，以答全、简单和清楚为目标。</p></header>
+      <div class="panel-body two-column">${framework.modes.map((mode) => {
+        const judgement = mode.judgement;
+        const judgementLine = (items) => items?.length ? `<div class="note"><strong>${escapeHtml(judgement.label)}</strong><ul class="numbered-list">${items.map((text) => `<li>${escapeHtml(text)}</li>`).join("")}</ul></div>` : "";
+        const bodies = [[mode.bodyOneLead, judgement?.bodyOne], [mode.bodyTwoLead, judgement?.bodyTwo]];
+        const identify = mode.identify ? `<div class="note"><strong>看到这些题就选它</strong><p style="margin:6px 0 0" lang="en">${escapeHtml(mode.identify.keywords)}</p><p style="margin:6px 0 0">${escapeHtml(mode.identify.tell)}</p></div>` : "";
+        return `<article class="card"><span class="badge">${escapeHtml(mode.includes)}</span><h3>${escapeHtml(mode.name)}</h3><p>${escapeHtml(mode.goal)}</p>${identify}<div class="section-heading" style="margin-top:22px"><h2>引言</h2></div><div class="answer">${escapeHtml(mode.intro)}</div>${judgementLine(judgement?.intro)}<div class="section-heading" style="margin-top:22px"><h2>主体段 1 / 2(连接句)</h2></div><ul class="numbered-list">${bodies.map(([lead, note]) => `<li>${escapeHtml(lead)}${judgementLine(note)}</li>`).join("")}</ul><div class="section-heading" style="margin-top:22px"><h2>结论</h2></div><div class="answer">${escapeHtml(mode.conclusion)}</div>${judgementLine(judgement?.conclusion)}${judgement ? `<div class="chip-row">${judgement.swaps.map((swap) => `<span class="chip">${escapeHtml(swap)}</span>`).join("")}</div><p class="translation">${escapeHtml(judgement.rule)}</p>` : ""}<p class="translation">${escapeHtml(mode.opinionRule || mode.relationship)}</p></article>`;
+      }).join("")}</div>
     </section>
     <div class="content-grid" style="margin-top:24px">
-      <aside class="sidebar" aria-label="范文分类"><span class="sidebar-label">选择范文</span>${categories.map((item) => `<div><button class="sidebar-button ${item.id === category.id ? "active" : ""}" type="button" data-essay-category="${escapeHtml(item.id)}"><strong>${escapeHtml(item.name)}</strong><small>${item.essays.length} 篇</small></button>${item.id === category.id ? item.essays.map((entry) => `<button class="sidebar-button ${entry.id === essay.id ? "active" : ""}" type="button" data-essay-id="${escapeHtml(entry.id)}" style="padding-left:22px"><strong>${escapeHtml(entry.title)}</strong><small>${escapeHtml(entry.sourceTag ? `${entry.gtTier} ${entry.gtFitScore}/9 · ${entry.sourceTag} · ${entry.position}` : entry.position)}</small></button>`).join("") : ""}</div>`).join("")}</aside>
+      <aside class="sidebar" aria-label="G 类范文分类"><span class="sidebar-label">选择 G 类范文</span>${categories.map((item) => `<div><button class="sidebar-button ${item.id === category.id ? "active" : ""}" type="button" data-essay-category="${escapeHtml(item.id)}"><strong>${escapeHtml(item.name)}</strong><small>${item.essays.length} 篇</small></button>${item.id === category.id ? item.essays.map((entry) => `<button class="sidebar-button ${entry.id === essay.id ? "active" : ""}" type="button" data-essay-id="${escapeHtml(entry.id)}" style="padding-left:22px"><strong>${escapeHtml(entry.title)}</strong><small>${escapeHtml(entry.sourceTag ? `${entry.sourceTag} · ${entry.position}` : entry.position)}</small></button>`).join("") : ""}</div>`).join("")}</aside>
       <article class="panel">
-        <header class="panel-header"><span class="eyebrow">${escapeHtml(category.name)} · 立场：${escapeHtml(essay.position)}</span><h2>${escapeHtml(essay.title)}</h2><p>${escapeHtml(essay.prompt)}</p><div class="chip-row">${essay.sourceTag ? `<span class="badge gold">${escapeHtml(`${essay.gtTier} · G类贴近度 ${essay.gtFitScore}/9 · ${essay.sourceTag} · ${essay.sourceGid} · ${essay.sourcePeriod} · 目标 ${essay.targetBand} 分`)}</span>` : ""}${essay.materials.map((item) => `<span class="badge">${escapeHtml(item)}</span>`).join("")}</div></header>
+        <header class="panel-header"><span class="eyebrow">${escapeHtml(category.name)} · 立场：${escapeHtml(essay.position)}</span><h2>${escapeHtml(essay.title)}</h2><p>${escapeHtml(essay.prompt)}</p><div class="chip-row">${essay.sourceTag ? `<span class="badge gold">${escapeHtml(`${essay.sourceTag} · ${essay.sourceGid} · ${essay.sourcePeriod} · 目标 ${essay.targetBand} 分`)}</span>` : `<span class="badge gold">G 类相关题 · Band ${escapeHtml(essay.targetBand || "5")} 易记版</span>`}${essay.materials.map((item) => `<span class="badge">${escapeHtml(item)}</span>`).join("")}</div></header>
         <div class="panel-body">
           <div class="section-heading"><h2>快速框架</h2></div><div class="two-column">${essay.frameworkPoints.map((point) => `<article class="card"><span class="badge gold">${escapeHtml(point.label)}</span><p>${escapeHtml(point.text)}</p></article>`).join("")}</div>
-          <div class="section-heading"><h2>重点短语与核心句</h2></div><div class="chip-row">${focusPhrases.map((phrase) => `<span class="chip">${escapeHtml(phrase.text)}｜${escapeHtml(phrase.translation)}</span>`).join("")}</div>
-          <div class="section-heading"><h2>完整范文</h2></div><div class="stack">${essay.paragraphs.map((paragraph, index) => {
+          <div class="section-heading"><h2>先背这 6 个句块</h2><p>先记立场、两个原因、两个展开例子和一句结论；其余句子只负责补足解释。</p></div><div class="memory-card">${memoryLines.map((line, index) => `<div class="memory-line"><span class="memory-number">${index + 1}</span><div><strong>${escapeHtml(line.label)}</strong><p lang="en">${highlight(line.text, focusPhrases.map((phrase) => phrase.text))}</p></div></div>`).join("")}</div>
+          <div class="section-heading"><h2>只记这些表达</h2><p>每篇最多 8 个，优先重复使用，不另外追求难词。</p></div><div class="chip-row">${focusPhrases.map((phrase) => `<span class="chip">${escapeHtml(phrase.text)}｜${escapeHtml(phrase.translation)}</span>`).join("")}</div>
+          <div class="section-heading"><h2>Band 5 易记范文</h2><p>约 250 词；主体段按“观点—原因—展开 / 例子—结果”组织，不故意加入语法错误。</p></div><div class="stack">${essay.paragraphs.map((paragraph, index) => {
             const translation = essay.paragraphTranslations?.[index];
-            return `<div class="essay-pair"><div class="essay-paragraph" lang="en">${highlight(paragraph, focusPhrases.map((phrase) => phrase.text))}</div>${translation ? `<div class="essay-translation" lang="zh-CN"><span class="translation-label">中文</span><span>${highlight(translation, taskTwoTranslationHighlights(paragraph, focusPhrases))}</span></div>` : ""}</div>`;
+            const paragraphLabel = ["引言", "主体段 1", "主体段 2", "结论"][index] || `第 ${index + 1} 段`;
+            return `<div class="essay-pair"><div class="essay-paragraph" lang="en"><span class="paragraph-label">${paragraphLabel}</span>${highlight(paragraph, focusPhrases.map((phrase) => phrase.text))}</div>${translation ? `<div class="essay-translation" lang="zh-CN"><span class="translation-label">中文</span><span>${highlight(translation, taskTwoTranslationHighlights(paragraph, focusPhrases))}</span></div>` : ""}</div>`;
           }).join("")}</div>
-          <div class="action-row" style="margin-top:20px"><button class="button" type="button" data-copy-essay>复制完整范文</button></div>
+          <div class="action-row" style="margin-top:20px"><button class="button secondary" type="button" data-copy-memory>复制 6 个句块</button><button class="button" type="button" data-copy-essay>复制完整范文</button></div>
         </div>
       </article>
     </div>`;
@@ -559,6 +601,7 @@ function renderTaskTwo() {
   document.querySelectorAll("[data-essay-id]").forEach((button) => button.addEventListener("click", () => {
     changeView(() => { state.essayId = button.dataset.essayId; });
   }));
+  document.querySelector("[data-copy-memory]")?.addEventListener("click", () => copyText(memoryLines.map((line) => `${line.label}: ${line.text}`).join("\n")));
   document.querySelector("[data-copy-essay]")?.addEventListener("click", () => copyText(essay.paragraphs.join("\n\n")));
 }
 

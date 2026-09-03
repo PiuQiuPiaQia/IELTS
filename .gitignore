@@ -22,3 +22,6 @@ build/
 
 # Local research archive
 /调研资料/
+
+# Claude local editor config (contains machine-specific paths)
+.claude/
