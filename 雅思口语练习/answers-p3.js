@@ -1071,204 +1071,204 @@ window.P3_ANSWERS = {
     "p": ["Yes, definitely.", "mainly because…", "For example,…", "set myself a clear goal", "As a result,…", "see real progress"]
   },
   "new-met-once-person||What can we do to leave a good impression on people we meet for the first time?": {
-    "a": "我觉得最重要的是有礼貌[I think the most important thing is to be polite]，我们也要认真听别人说话[we should also listen carefully to others]。主要是因为（mainly because…）认真听别人说话，可以让我们学会为别人着想（it teaches you to think about others）。比如（For example,…）很多人第一次见面的时候不看手机[they do not look at their phones]，他们只看着对方[they only look at the other person]。结果（As a result,…）他们很快就成了朋友[they quickly become friends]。而且对方也会觉得很舒服[the other person also feels comfortable]。",
+    "a": "我觉得（I think…）最重要的是有礼貌[to be polite]，也要认真听别人说话[listen carefully]。因为（because…）认真听会让对方觉得受到尊重[the other person feels respected]。比如（For example,…）很多人第一次见面的时候不看手机，只看着对方[they only look at the other person]。而且（Also,…）见面的时候笑一笑，说话客气一点[smile and speak politely]。所以（So…）对方很快就会喜欢你[the other person soon likes you]。",
     "g": "关系",
-    "p": ["mainly because…", "it teaches you to think about others", "For example,…", "As a result,…"]
+    "p": ["I think…", "because…", "For example,…", "Also,…", "So…"]
   },
   "new-met-once-person||What should we not talk about when we meet a person for the first time?": {
-    "a": "我觉得第一次见面的时候，我们不应该问收入，也不应该问家里的事[I think when we first meet, we shouldn't ask about income or family matters]。主要是因为（mainly because…）这些问题太私人了[these questions are too personal]，对方会觉得不舒服[the other person will feel uncomfortable]。比如（For example,…）很多人和新朋友一起出去吃饭（eat out with friends）的时候，他们只聊吃的和电影[they only talk about food and movies]。所以（So…）我觉得先聊轻松的话题比较安全[I think it's safer to talk about light topics first]。而且这样大家都觉得很开心[everyone feels happy in this way]。",
+    "a": "我觉得（I think…）第一次见面不应该问收入和家里的事[income or family matters]。因为（because…）这些问题太私人了，对方会不舒服[the other person feels uncomfortable]。比如（For example,…）很多人和新朋友吃饭的时候，只聊吃的和电影[food and movies]。而且（Also,…）也别问别人多大年纪、结没结婚[age or marriage]。所以（So…）先聊轻松的话题比较安全[safer to talk about light topics]。",
     "g": "关系",
-    "p": ["mainly because…", "For example,…", "eat out with friends", "So…"]
+    "p": ["I think…", "because…", "For example,…", "Also,…", "So…"]
   },
   "new-met-once-person||How do people make friends in China?": {
-    "a": "我觉得大部分人在学校里交朋友[I think most people make friends at school]，也在公司里交朋友[they also make friends at work]。主要是因为（mainly because…）他们每天见面，有很多共同的话题[they see each other every day and have a lot to talk about]，而且他们遇到问题的时候会互相帮忙（turn to… for help）。比如（For example,…）很多人下班以后和同事一起出去吃饭（eat out with friends）。结果（As a result,…）他们慢慢就成了朋友[they slowly become friends]。而且他们在一起的时候都很开心[they are happy together]。",
+    "a": "我觉得（I think…）大部分人在学校和公司里交朋友[at school and at work]。因为（because…）他们每天见面，有很多共同的话题[a lot to talk about]。比如（For example,…）很多人下班以后和同事一起出去吃饭[eat out with workmates]。而且（Also,…）周末他们也会一起打球、看电影[play ball or watch films together]。所以（So…）他们慢慢就成了朋友[they slowly become friends]。",
     "g": "关系",
-    "p": ["mainly because…", "turn to… for help", "For example,…", "eat out with friends", "As a result,…"]
+    "p": ["I think…", "because…", "For example,…", "Also,…", "So…"]
   },
   "new-met-once-person||On what occasions do people like to make friends?": {
-    "a": "我觉得人们到了一个新地方的时候，最想交朋友[I think people most want to make friends when they arrive somewhere new]。主要是因为（mainly because…）在新地方他们不认识别人[in a new place they don't know anyone]，所以他们想找人说话[they want to find someone to talk to]。比如（For example,…）很多人晚饭以后和邻居一起去散步（go for a walk after dinner），他们就这样聊起来了[they start talking in this way]。所以（So…）我觉得一起做事的时候最容易交到朋友[I think it's easiest to make friends when doing things together]。而且一个人在新地方会觉得很孤单[a person feels very lonely in a new place]。",
+    "a": "我觉得（I think…）人们到了一个新地方的时候最想交朋友[when they arrive somewhere new]。因为（because…）在新地方他们谁都不认识，想找人说话[want someone to talk to]。比如（For example,…）很多人晚饭以后和邻居一起去散步（go for a walk after dinner），就这样聊了起来[they start chatting]。而且（Also,…）在新公司上班的时候，大家也会一起吃午饭[have lunch together]。所以（So…）一起做事的时候最容易交到朋友[easiest to make friends]。",
     "g": "关系",
-    "p": ["mainly because…", "For example,…", "go for a walk after dinner", "So…"]
+    "p": ["I think…", "because…", "For example,…", "go for a walk after dinner", "Also,…", "So…"]
   },
   "new-met-once-person||Is it important to have the same hobbies and interests when making friends?": {
-    "a": "我觉得一样的爱好有帮助[I think having the same hobbies helps]，但是这个不是必须的[it is not necessary]。主要是因为（mainly because…）如果两个人的爱好一样，他们在一起的时候很开心[if two people share the same hobbies, they're happy together]，也可以好好休息（relax after a long day）。比如（For example,…）很多朋友一起出去吃饭（eat out with friends）的时候聊球赛[they chat about football matches]，他们聊得很开心[they talk very happily]。所以我觉得这件事有好的一面，也有坏的一面（it has both good and bad sides）。而且爱好不一样的朋友也可以互相帮忙[friends with different hobbies can also help each other]。",
+    "a": "我觉得（I think…）一样的爱好有帮助，但不是必须的[helps, but not necessary]。因为（because…）爱好一样的人在一起会很开心，也能好好放松（relax after a long day）。比如（For example,…）很多朋友一起出去吃饭的时候聊球赛，聊得很开心[chat about football happily]。而且（Also,…）周末他们还会一起去打球、爬山[play ball or climb hills]。所以（So…）有一样的爱好会让朋友更亲近[brings friends closer]。",
     "g": "情绪",
-    "p": ["mainly because…", "relax after a long day", "For example,…", "eat out with friends", "it has both good and bad sides"]
+    "p": ["I think…", "because…", "relax after a long day", "For example,…", "Also,…", "So…"]
   },
   "new-met-once-person||What qualities make true friends?": {
-    "a": "我觉得真正的朋友应该诚实[a true friend should be honest]，我们也可以相信他[we can trust him]。主要是因为（mainly because…）好朋友会想到别人的感受[good friends think about how others feel]，这也让我们学会为别人着想（it teaches you to think about others）。比如（For example,…）很多人的电脑出了问题（something went wrong with…）的时候，他们会找朋友帮忙（turn to… for help）。所以（So…）我觉得可靠是最重要的[I think being someone you can count on is the most important thing]。而且这样的朋友也让我们觉得很放松[this kind of friend makes us feel relaxed]。",
+    "a": "我觉得（I think…）真正的朋友应该诚实，也让人放心[honest and reliable]。因为（because…）好朋友会想着别人的感受[think about how others feel]。比如（For example,…）很多人电脑出了问题的时候，会找朋友帮忙（turn to… for help）。而且（Also,…）你难过的时候，他会一直陪着你[stay with you]。所以（So…）可靠的人才是真正的朋友[someone you can count on]。",
     "g": "关系",
-    "p": ["mainly because…", "it teaches you to think about others", "For example,…", "something went wrong with…", "turn to… for help", "So…"]
+    "p": ["I think…", "because…", "For example,…", "turn to… for help", "Also,…", "So…"]
   },
   "new-impressive-course||What do people need to remember in their daily lives?": {
-    "a": "这个看情况（It depends, but usually…），大部分人要记住上班时间和吃药这样的小事[most people need to remember small things like work times and taking medicine]。主要是因为（mainly because…）如果他们忘了，他们会很着急[if they forget, they get worried]，一天的安排也乱了[their plan for the day does not work]。比如（For example,…）很多人每天按固定的时间做事（stick to a routine），所以他们不着急[so they do not worry]。结果（As a result,…）他们很少忘记事情[they rarely forget things]。而且他们也不会让别人等他们[they do not make other people wait]。",
+    "a": "这个看情况（It depends, but usually…），大部分人要记住上班时间和吃药这样的小事[work times and taking medicine]。因为（because…）要是忘了，他们一天的安排就乱了[their plan does not work]。比如（For example,…）很多人每天按固定的时间做事（stick to a routine），所以不着急[so they do not worry]。而且（Also,…）他们还会把要办的事写在手机上[write things on the phone]。所以（So…）他们很少忘记事情[they rarely forget things]。",
     "g": "情绪",
-    "p": ["It depends, but usually…", "mainly because…", "For example,…", "stick to a routine", "As a result,…"]
+    "p": ["It depends, but usually…", "because…", "For example,…", "stick to a routine", "Also,…", "So…"]
   },
   "new-impressive-course||What can we learn from history?": {
-    "a": "我觉得我们可以学到以前的人怎么生活[how people lived in the past]。主要是因为（mainly because…）如果我们知道的事情多，我们遇到问题的时候就不会着急[if we know a lot, we won't worry so much when problems come up]，我们也可以想得开一点（keep an open mind）。比如（For example,…）很多人读了很多历史书[many people have read a lot of history books]，所以他们遇到问题的时候不太害怕[they are not very afraid when they have problems]。所以（So…）我觉得多了解过去很有用[I think it's useful to understand the past]。我以前觉得（I used to think…）钱最重要[money was the most important thing]，现在我觉得（now I think…）身体更重要[health is more important]。",
+    "a": "我觉得（I think…）我们可以学到以前的人是怎么生活的[how people lived in the past]。因为（because…）读历史可以开阔眼界（broaden my horizons），遇到问题也不会那么慌[less panic]。比如（For example,…）很多人读了很多历史书，遇到问题的时候不太害怕[not very afraid]。而且（Also,…）我们也能从老故事里学到做人的道理[learn how to be a good person]。所以（So…）多了解过去对我们很有用[useful to understand the past]。",
     "g": "情绪",
-    "p": ["mainly because…", "keep an open mind", "For example,…", "I used to think…", "now I think…", "So…"]
+    "p": ["I think…", "because…", "broaden my horizons", "For example,…", "Also,…", "So…"]
   },
   "new-impressive-course||Why do some people have a better memory than others?": {
-    "a": "我觉得他们对那件事更感兴趣[I think they're more interested in that thing]。主要是因为（mainly because…）如果一个人喜欢一样东西[if someone likes something]，他记的时候会觉得很容易（easy to follow）。比如（For example,…）很多学生喜欢历史课[many students like history lessons]，所以他们记得很快[so they remember it quickly]。他们不喜欢数学课[they don't like maths lessons]，所以他们记得很慢[so they remember it slowly]。我上午的状态最好（I work best before…），所以（So…）我早上背东西[I memorise things in the morning]。而且很多人和朋友一起背东西[many people memorise things with friends]，他们记得更牢[they remember better]。",
+    "a": "我觉得（I think…）他们对那件事更感兴趣[more interested in it]。因为（because…）一个人喜欢一样东西，记起来就很容易（easy to follow）。比如（For example,…）很多学生喜欢历史课，所以记得又快又牢[remember it quickly]。而且（Also,…）他们还会和同学一起复习，互相提问[test each other]。所以（So…）有兴趣的东西大家都记得更好[remember better]。",
     "g": "情绪",
-    "p": ["mainly because…", "easy to follow", "For example,…", "I work best before…", "So…"]
+    "p": ["I think…", "because…", "easy to follow", "For example,…", "Also,…", "So…"]
   },
   "new-impressive-course||Do people like things of memorial significance?": {
-    "a": "是的（Yes, definitely.），很多人喜欢留着老照片和旧礼物[a lot of people like to keep old photos and old gifts]。主要是因为（mainly because…）他们看到这些东西的时候，就会想起那个人[when they see these things, they think of that person]，心意才是最重要的（it's the thought that counts）。比如（For example,…）很多人用朋友送的杯子用了好几年[they use it for several years]。所以（So…）这些东西不贵[these things are not expensive]，但是他们不想扔掉[they do not want to throw them away]。而且他们看到这些东西的时候会很开心[they feel happy when they see these things]。",
+    "a": "是的（Yes, definitely.），很多人喜欢留着老照片和旧礼物[old photos and old gifts]。因为（because…）看到这些东西就会想起那个人，心意才是最重要的（it's the thought that counts）。比如（For example,…）很多人用朋友送的杯子用了好几年[use it for several years]。而且（Also,…）他们还会把老照片挂在墙上[hang old photos on the wall]。所以（So…）这些东西不贵，但他们不想扔掉[do not want to throw them away]。",
     "g": "关系",
-    "p": ["Yes, definitely.", "mainly because…", "it's the thought that counts", "For example,…", "So…"]
+    "p": ["Yes, definitely.", "because…", "it's the thought that counts", "For example,…", "Also,…", "So…"]
   },
   "new-impressive-course||Which can help people remember things better, words or photos?": {
-    "a": "我觉得照片更有用[I think photos are more useful]。主要是因为（mainly because…）人们看照片的时候会想起当时的心情[they remember how they felt at that time]，照片也很容易懂（easy to follow）。比如（For example,…）很多人晚饭以后出去散步（go for a walk after dinner）的时候会拍照片[they take photos]。他们几年以后看这些照片[when they look at these photos a few years later]，心里还是很开心[they still feel happy]。跟文字比起来（Compared with…），照片让人记得更牢[photos help people remember things better]，所以我更喜欢拍照片[so I prefer taking photos]。",
+    "a": "我觉得（I think…）照片更有用[photos are more useful]。因为（because…）看照片能想起当时的心情，照片也很好懂（easy to follow）。比如（For example,…）很多人出去玩的时候会拍很多照片[take a lot of photos]。而且（Also,…）过几年再看这些照片，心里还是很开心[still feel happy]。所以（So…）照片能让人记得更牢[remember things better]。",
     "g": "情绪",
-    "p": ["mainly because…", "easy to follow", "For example,…", "go for a walk after dinner", "Compared with…"]
+    "p": ["I think…", "because…", "easy to follow", "For example,…", "Also,…", "So…"]
   },
   "new-impressive-course||Can technology help people remember things better? How?": {
-    "a": "是的（Yes, definitely.），我觉得手机可以帮人记事[I think phones can help people remember things]。主要是因为（mainly because…）手机上的软件都是免费的[the apps on the phone are free]，它帮我省了很多时间，但是（it saves me a lot of time, but…）我们不能完全靠它[we cannot depend on it completely]。比如（For example,…）很多人用手机定闹钟[a lot of people set alarms on their phones]，他们不用买本子和笔[they do not have to buy notebooks and pens]，他们也按固定的时间做事（stick to a routine）。结果（As a result,…）他们很少忘记事情[they rarely forget things]，他们也省了不少钱[they also save some money]。",
+    "a": "是的（Yes, definitely.），我觉得手机可以帮人记事[phones help people remember things]。因为（because…）手机上的软件都是免费的，很省时间又方便（time-saving and efficient）。比如（For example,…）很多人用手机定闹钟，不用再买本子和笔[no need for notebooks and pens]。而且（Also,…）他们也会把要办的事记在手机上[note things down on the phone]。所以（So…）他们很少忘记事情，还省了钱[rarely forget and save money]。",
     "g": "钱",
-    "p": ["Yes, definitely.", "mainly because…", "it saves me a lot of time, but…", "For example,…", "stick to a routine", "As a result,…"]
+    "p": ["Yes, definitely.", "because…", "time-saving and efficient", "For example,…", "Also,…", "So…"]
   },
   "new-friend-gift||When do people normally send gifts to others?": {
-    "a": "我觉得人们一般在生日、节日，还有去别人家做客的时候送礼物[I think people usually give gifts on birthdays, festivals, and when they visit others' homes]。主要是因为（mainly because…）他们送礼物是想让对方知道[they give gifts to let the other person know]，他们很关心这个人[they care about this person]，心意才是最重要的（it's the thought that counts）。比如（For example,…）很多人去朋友家吃饭的时候[when a lot of people eat at a friend's home]，他们会带一些水果[they bring some fruit]。所以（So…）场合不一样，人们送的东西也不一样[the occasion is different, so what people give is also different]。而且送礼物不用花很多钱[people do not have to spend a lot of money on gifts]。",
+    "a": "我觉得（I think…）人们一般在生日、节日和去别人家做客的时候送礼物[on birthdays, festivals and visits]。因为（because…）送礼物是想让对方知道你很在乎他，心意才是最重要的（it's the thought that counts）。比如（For example,…）很多人去朋友家吃饭的时候会带一些水果[bring some fruit]。而且（Also,…）过节的时候，他们也会给家里人买点东西[buy things for family]。所以（So…）不同的场合，人们送的东西也不一样[different gifts for different occasions]。",
     "g": "关系",
-    "p": ["mainly because…", "it's the thought that counts", "For example,…", "So…"]
+    "p": ["I think…", "because…", "it's the thought that counts", "For example,…", "Also,…", "So…"]
   },
   "new-friend-gift||Is it hard to choose a gift?": {
-    "a": "这个看情况（It depends, but usually…），给熟人挑礼物不难[it is not hard to choose a gift for someone you know well]。主要是因为（mainly because…）我们知道他喜欢什么[we know what he likes]，所以我们可以挑他真的会用的东西（pick something they'll actually use）。比如（For example,…）很多人给同事挑礼物的时候觉得很难[they find it very hard]，他们担心同事不会用这个礼物[they are afraid he will not use it]。所以（So…）如果我们不太熟，我们可以送简单实用的东西[if we don't know them well, we can give something simple and useful]。而且这样我们也不用花很多钱[we also do not have to spend much money]。",
+    "a": "这个看情况（It depends, but usually…），给熟人挑礼物不难[not hard for someone you know well]。因为（because…）我们知道他喜欢什么，可以挑他真的会用的东西（pick something they'll actually use）。比如（For example,…）很多人给同事挑礼物的时候就觉得很难，怕他用不上[afraid he will not use it]。而且（Also,…）不太熟的话，我们可以送简单实用的东西[something simple and useful]。所以（So…）了解一个人，挑礼物就不难[easy when you know them]。",
     "g": "关系",
-    "p": ["It depends, but usually…", "mainly because…", "pick something they'll actually use", "For example,…", "So…"]
+    "p": ["It depends, but usually…", "because…", "pick something they'll actually use", "For example,…", "Also,…", "So…"]
   },
   "new-friend-gift||Will people feel happy when receiving an expensive gift?": {
-    "a": "不一定（Not really.），我觉得贵的礼物不一定让人开心[I think expensive gifts do not always make people happy]。主要是因为（mainly because…）如果礼物太贵，对方会有压力[if a gift is too expensive, the other person feels pressure]，他会觉得他也要送一个贵的礼物[he also has to give an expensive gift]。比如（For example,…）很多人收到很贵的礼物的时候[when a lot of people receive a very expensive gift]，他们心里不太舒服[they do not feel comfortable]。但是他们收到一个小杯子的时候很开心[but they are happy when they receive a small cup]，因为这是他们真的会用的东西（pick something they'll actually use）。所以我觉得心意才是最重要的（it's the thought that counts）。而且送贵的礼物也很浪费钱[giving expensive gifts also wastes money]。",
+    "a": "不一定（Not really.），我觉得贵的礼物不一定让人开心[expensive gifts do not always make people happy]。因为（because…）礼物太贵，对方会有压力，觉得也要回一个贵的[feels pressure to give back]。比如（For example,…）很多人收到很贵的礼物时反而不太自在[do not feel comfortable]。而且（Also,…）他们收到一个小杯子却很开心，因为那是真的会用的东西（pick something they'll actually use）。所以（So…）心意才是最重要的（it's the thought that counts）。",
     "g": "情绪",
-    "p": ["Not really.", "mainly because…", "For example,…", "pick something they'll actually use", "it's the thought that counts"]
+    "p": ["Not really.", "because…", "For example,…", "Also,…", "pick something they'll actually use", "So…", "it's the thought that counts"]
   },
   "new-friend-gift||Which do people give on traditional festivals, red envelopes or other kinds of gifts?": {
-    "a": "我觉得两种都有[I think both happen]，这个要看是什么节日[it depends on the festival]。主要是因为（mainly because…）红包很方便[red envelopes are very easy]，收到的人可以自己买真的会用的东西（pick something they'll actually use）。比如（For example,…）过年的时候，大部分大人给小孩红包[during Spring Festival, most adults give children red envelopes]，里面有几百块钱[there are a few hundred yuan inside]。中秋节的时候，他们送吃的东西[during the Mid-Autumn Festival, they give food]，因为这些东西不太贵[these things are not very expensive]。所以（So…）节日不一样，送礼的方法也不一样[festivals are different, so the way of giving gifts is also different]。而且很多人也想让家里人开心[many people also want to make their family happy]。",
+    "a": "我觉得（I think…）两种都有，要看是什么节日[depends on the festival]。因为（because…）红包很方便，收到的人可以自己买真的会用的东西（pick something they'll actually use）。比如（For example,…）过年的时候，大人一般给小孩红包[adults give children red envelopes]。而且（Also,…）中秋节的时候，他们会送月饼和水果[give mooncakes and fruit]。所以（So…）不同的节日，送礼的方法也不一样[different ways for different festivals]。",
     "g": "钱",
-    "p": ["mainly because…", "pick something they'll actually use", "For example,…", "So…"]
+    "p": ["I think…", "because…", "pick something they'll actually use", "For example,…", "Also,…", "So…"]
   },
   "new-friend-gift||What do people usually consider when buying gifts?": {
-    "a": "我觉得人们主要看对方需要什么[I think people mainly look at what the other person needs]，他们也看自己可以花多少钱[they also look at how much they can spend]。主要是因为（mainly because…）大部分人想少花一点钱（save money），但是礼物也要合适[the gift also has to be suitable]。比如（For example,…）很多人先看自己可以花多少钱[how much they can spend]，然后他们挑一个便宜的东西[then they choose something cheap]，这也是对方真的会用的东西（pick something they'll actually use）。所以（So…）我觉得合适的礼物比贵的礼物好[a suitable gift is better than an expensive one]。而且这样对方也不会有压力[the other person will not feel stressed]。",
+    "a": "我觉得（I think…）人们主要看对方需要什么，也看自己能花多少钱[what they need and how much to spend]。因为（because…）大部分人想少花点钱（save money），但礼物也要合适[the gift must be suitable]。比如（For example,…）很多人先定好预算，再挑一个对方真的会用的东西（pick something they'll actually use）。而且（Also,…）他们也会想想对方平时喜欢什么[what the person likes]。所以（So…）合适的礼物比贵的礼物更好[a suitable gift is better]。",
     "g": "钱",
-    "p": ["mainly because…", "save money", "For example,…", "pick something they'll actually use", "So…"]
+    "p": ["I think…", "because…", "save money", "For example,…", "pick something they'll actually use", "Also,…", "So…"]
   },
   "new-friend-gift||Are there any unlucky things that people should not buy as gifts in your country?": {
-    "a": "是的，我们这里的人不送钟，也不送伞[people here don't give clocks or umbrellas]。主要是因为（mainly because…）如果我们送这些东西[if we give these things]，收到的人会很不高兴[the person will be very unhappy]，这个老规矩也有它的道理（it's there for a reason）。比如（For example,…）很多人给长辈送茶叶[a lot of people give tea to their elders]，因为长辈真的会喝[because the elders really drink it]，这是他们会用的东西（pick something they'll actually use）。所以（So…）很多人送礼以前会先问问家里人[they ask their family first]。而且这样对方也会很开心[the other person will also be happy]。",
+    "a": "是的（Yes, definitely.），我们这里的人不送钟，也不送伞[do not give clocks or umbrellas]。因为（because…）送这些东西，收到的人会不高兴，这个老规矩也有它的道理（it's there for a reason）。比如（For example,…）很多人给长辈送茶叶，因为长辈真的会喝[the elders really drink it]。而且（Also,…）他们也常送水果和点心[fruit and snacks]。所以（So…）送礼以前，很多人会先问问家里人[ask their family first]。",
     "g": "关系",
-    "p": ["mainly because…", "it's there for a reason", "For example,…", "pick something they'll actually use", "So…"]
+    "p": ["Yes, definitely.", "because…", "it's there for a reason", "For example,…", "Also,…", "So…"]
   },
   "new-organized-person||Why is it important for people to be organized?": {
-    "a": "我觉得这很重要[I think this is very important]，因为做事有条理的人会轻松很多[life is much easier for them]。主要是因为（mainly because…）他们先安排好事情[they plan things first]，所以他们不会着急[so they do not get worried]，他们的压力也比较小[they also have less stress]。比如（For example,…）很多人每天按固定的时间做事（stick to a routine），所以他们上班的时候不紧张[they are not nervous at work]。结果（As a result,…）他们下班以后可以好好休息（relax after a long day）。而且他们也有时间跟家人在一起[they also have time to be with their family]。",
+    "a": "我觉得（I think…）做事有条理很重要[being organized is important]。因为（because…）先安排好事情的人不会着急，压力也小[less worried and less stress]。比如（For example,…）很多人每天按固定的时间做事（stick to a routine），上班的时候不紧张[not nervous at work]。而且（Also,…）他们下班以后还能好好放松（relax after a long day）。所以（So…）有条理的人日子过得更轻松[life is much easier]。",
     "g": "情绪",
-    "p": ["mainly because…", "For example,…", "stick to a routine", "As a result,…", "relax after a long day"]
+    "p": ["I think…", "because…", "For example,…", "stick to a routine", "Also,…", "relax after a long day", "So…"]
   },
   "new-organized-person||Do you think children should learn to be organized from a young age?": {
-    "a": "是的（Yes, definitely.），我觉得孩子小的时候就应该学[I think children should learn when they are young]。主要是因为（mainly because…）如果孩子自己会收拾东西[if children can tidy up their own things]，父母也会轻松一点[the parents will have less to do]。比如（For example,…）很多孩子每天自己收拾书包[a lot of children pack their own school bags every day]，他们也按固定的时间做事（stick to a routine），所以他们的父母很少骂他们[their parents rarely shout at them]。结果（As a result,…）父母不用每天叫他们了[the parents do not have to remind them every day]。而且一家人的关系也更好[the relationship in the family is also better]。",
+    "a": "是的（Yes, definitely.），我觉得孩子小的时候就应该学[should learn when young]。因为（because…）孩子会自己收拾东西，父母就轻松多了[parents have less to do]。比如（For example,…）很多孩子每天自己收拾书包，按固定的时间做事（stick to a routine）。而且（Also,…）他们还会自己整理房间[tidy their own room]。所以（So…）父母不用每天提醒他们了[do not have to remind them]。",
     "g": "关系",
-    "p": ["Yes, definitely.", "mainly because…", "For example,…", "stick to a routine", "As a result,…"]
+    "p": ["Yes, definitely.", "because…", "For example,…", "stick to a routine", "Also,…", "So…"]
   },
   "new-organized-person||Are organized people more likely to be successful at work or in their studies?": {
-    "a": "是的（Yes, definitely.），我觉得有条理的人一般做得更好[they usually do better]。主要是因为（mainly because…）他们做大事的时候[when they do big things]，会分成很多小步（break it down into small steps）。比如（For example,…）很多学生学英语的时候[when a lot of students learn English]，他们先学单词[they learn words first]，然后再学句子[then they learn sentences]。他们每天都有一个小目标[they have a small goal every day]。结果（As a result,…）他们的成绩比别人好[their results are better]。我学英语的时候[when I learn English]，我也给自己定一个明确的目标（set myself a clear goal），所以我可以看到自己真的有进步（see real progress）。",
+    "a": "是的（Yes, definitely.），我觉得有条理的人一般做得更好[usually do better]。因为（because…）他们会把大事分成很多小步（break it down into small steps）。比如（For example,…）很多学生学英语，先背单词，再学句子[learn words first, then sentences]。而且（Also,…）他们每天都有一个小目标，从不拖到最后[a small goal every day]。所以（So…）他们能看到自己真的有进步（see real progress）。",
     "g": "目标",
-    "p": ["Yes, definitely.", "mainly because…", "break it down into small steps", "For example,…", "set myself a clear goal", "As a result,…", "see real progress"]
+    "p": ["Yes, definitely.", "because…", "break it down into small steps", "For example,…", "Also,…", "So…", "see real progress"]
   },
   "new-organized-person||What can people do to become more organized?": {
-    "a": "我觉得我们可以先写一个单子[we can make a list first]，写下今天要做的事[and write down the things to do today]。主要是因为（mainly because…）我先给自己定一个明确的目标（set myself a clear goal），然后我把事情分成很多小步（break it down into small steps），事情就不乱了[and things won't be so messy]。比如（For example,…）很多人早上先写下今天最重要的三件事[the three most important things for today]，然后他们先做最难的那件事[they do the hardest one first]。我上午的状态最好（I work best before…），所以（So…）我也在上午做难的事情[so I also do the hard things in the morning]。",
+    "a": "我觉得（I think…）我们可以先写一个单子，把今天要做的事写下来[write down things to do today]。因为（because…）先给自己定一个明确的目标（set myself a clear goal），事情就不乱了[things won't be messy]。比如（For example,…）很多人早上先写下今天最重要的三件事，然后先做最难的[do the hardest one first]。而且（Also,…）他们还会把大事分成很多小步（break it down into small steps）。所以（So…）这样做事又快又不慌[fast and calm]。",
     "g": "目标",
-    "p": ["mainly because…", "set myself a clear goal", "break it down into small steps", "For example,…", "I work best before…", "So…"]
+    "p": ["I think…", "because…", "set myself a clear goal", "For example,…", "Also,…", "break it down into small steps", "So…"]
   },
   "new-organized-person||Should parents teach their children to be organized?": {
-    "a": "我觉得应该，父母在家里就要教孩子[parents should teach their children at home]。主要是因为（mainly because…）孩子每天和父母在一起[children are with their parents every day]，他们看着父母做事[they watch their parents do things]，所以他们学得最快[they learn fastest in this way]。比如（For example,…）很多父母让孩子先收好书包[a lot of parents ask their children to pack their bags first]，然后一家人一起吃饭[then the whole family has dinner together]。所以（So…）这些孩子长大以后，也会按固定的时间做事（stick to a routine）。而且他们和父母的关系也很好[their relationship with their parents is also good]。",
+    "a": "我觉得（I think…）父母在家里就要教孩子[teach children at home]。因为（because…）孩子每天看着父母做事，学得最快[learn fastest]。比如（For example,…）很多父母让孩子先收好书包，再一起吃饭[pack the bag, then eat together]。而且（Also,…）他们也会让孩子自己整理房间[tidy their own room]。所以（So…）这些孩子长大以后也会按固定的时间做事（stick to a routine）。",
     "g": "关系",
-    "p": ["mainly because…", "For example,…", "So…", "stick to a routine"]
+    "p": ["I think…", "because…", "For example,…", "Also,…", "So…", "stick to a routine"]
   },
   "new-organized-person||Do you think it is important for managers to be well organized?": {
-    "a": "是的（Yes, definitely.），我觉得管理别人的人更要有条理[I think people who manage others need to be more organized]。主要是因为（mainly because…）如果领导很乱[if the leader is not organized]，全组的人也会做很多没用的事[the whole team will waste a lot of time]。比如（For example,…）在很多公司里，每个人做自己擅长的事（each do what we're good at），每个人负责一个部分（be responsible for one part of…）。结果（As a result,…）这样比一个人做快很多[this is much faster than working alone]。而且大家一起做的时候，压力也比较小[everyone has less stress]。",
+    "a": "是的（Yes, definitely.），我觉得管理别人的人更要有条理[managers need to be more organized]。因为（because…）领导要是很乱，全组的人都会跟着做很多没用的事[the whole team wastes time]。比如（For example,…）在很多公司里，每个人做自己擅长的事（each do what we're good at）。而且（Also,…）每个人只负责一个部分（be responsible for one part of…）。所以（So…）这样大家做事又快，压力又小[fast with less stress]。",
     "g": "关系",
-    "p": ["Yes, definitely.", "mainly because…", "For example,…", "each do what we're good at", "be responsible for one part of…", "As a result,…"]
+    "p": ["Yes, definitely.", "because…", "For example,…", "each do what we're good at", "Also,…", "be responsible for one part of…", "So…"]
   },
   "new-famous-interview||What kinds of people are usually interviewed?": {
-    "a": "这个看情况（It depends, but usually…），大部分是有名的人和找工作的人[most of them are famous people and people looking for a job]。主要是因为（mainly because…）公司想听顾客说什么（listen to what customers say），记者也想知道别人的想法[reporters want to know what other people think]。比如（For example,…）很多年轻人找工作的时候[when a lot of young people look for a job]，公司会先跟他们聊一次[the company talks with them first]，然后公司看他们会不会和别人一起做事[whether they can work with other people]。结果（As a result,…）被采访的人大部分是这两种[most of the people who get interviewed are these two kinds]。而且很多人被采访以后，可以得到更多工作机会[they can get more job chances]。",
+    "a": "这个看情况（It depends, but usually…），大部分是有名的人和找工作的人[famous people and job seekers]。因为（because…）公司想听听顾客怎么说（listen to what customers say），记者也想知道别人的想法[reporters want to know what others think]。比如（For example,…）很多年轻人找工作的时候，公司会先跟他们聊一次[the company talks with them first]。而且（Also,…）电视上也常采访演员和运动员[actors and athletes]。所以（So…）被采访的大部分是这两种人[mostly these two kinds]。",
     "g": "关系",
-    "p": ["It depends, but usually…", "mainly because…", "listen to what customers say", "For example,…", "As a result,…"]
+    "p": ["It depends, but usually…", "because…", "listen to what customers say", "For example,…", "Also,…", "So…"]
   },
   "new-famous-interview||Why do some people dislike being interviewed?": {
-    "a": "我觉得很多人不喜欢被采访[I think a lot of people don't like being interviewed]。主要是因为（mainly because…）别人看着他们的时候[when other people are watching them]，他们会很紧张[they get very nervous]，也很难放松下来（relax after a long day）。比如（For example,…）很多人在面试以前的那个晚上睡不好觉[they cannot sleep well the night before]。所以（So…）有些人尽量不接受采访[they try not to accept interviews]。而且他们也担心别人怎么看他们[they worry about what other people think of them]。",
+    "a": "我觉得（I think…）很多人不喜欢被采访[do not like being interviewed]。因为（because…）别人一直看着他们，他们会很紧张，很难放松（relax after a long day）。比如（For example,…）很多人在面试前一天晚上都睡不好[cannot sleep well the night before]。而且（Also,…）他们也担心别人怎么看自己[worry what others think]。所以（So…）有些人尽量不接受采访[try not to accept interviews]。",
     "g": "情绪",
-    "p": ["mainly because…", "relax after a long day", "For example,…", "So…"]
+    "p": ["I think…", "because…", "relax after a long day", "For example,…", "Also,…", "So…"]
   },
   "new-famous-interview||Why do some people think interviews are a waste of time?": {
-    "a": "我觉得有些面试真的是在浪费时间[I think some interviews are really a waste of time]。主要是因为（mainly because…）很多人面试了好几次[a lot of people have interviews several times]，还是没找到工作[but still cannot find a job]，他们没有稳定的收入（a stable income）。比如（For example,…）很多年轻人去面试要花路费和时间[they spend money on travel and time]，但是公司最后不给他们工作[the company does not give them a job in the end]。所以（So…）他们觉得去打工更好[they think it's better to just go and work]，因为打工可以马上挣到钱[they can earn money at once]。",
+    "a": "我觉得（I think…）有些面试真的是在浪费时间[a waste of time]。因为（because…）很多人面试了好几次还是没找到工作，也没有稳定的收入（a stable income）。比如（For example,…）很多年轻人去面试要花路费和时间，最后却没拿到工作[no job in the end]。而且（Also,…）来回跑好几趟，人也很累[tiring to travel back and forth]。所以（So…）他们觉得直接去打工更实在[better to just go and work]。",
     "g": "钱",
-    "p": ["mainly because…", "a stable income", "For example,…", "So…"]
+    "p": ["I think…", "because…", "a stable income", "For example,…", "Also,…", "So…"]
   },
   "new-famous-interview||What should people do to prepare for a job interview?": {
-    "a": "我觉得提前准备最重要[I think preparing in advance is the most important]。主要是因为（mainly because…）我们先要知道自己想做什么工作[we first need to know what job we want]，所以我会给自己定一个明确的目标（set myself a clear goal），然后我把准备分成很多小步（break it down into small steps）。比如（For example,…）很多人面试以前会先看看这家公司[they read about the company first]，他们也每天练习几个常见的问题[they practise a few common questions every day]。结果（As a result,…）他们准备好了以后[after they are well prepared]，更容易拿到这个工作[it is easier for them to get the job]。而且他们说话的时候也不那么紧张[they are also not so nervous]。",
+    "a": "我觉得（I think…）提前准备最重要[preparing in advance is most important]。因为（because…）我们先要知道自己想做什么工作，给自己定一个明确的目标（set myself a clear goal）。比如（For example,…）很多人面试前会先看看这家公司，每天练几个常见的问题[practise common questions]。而且（Also,…）他们还会把准备分成很多小步（break it down into small steps）。所以（So…）准备好了，说话就不那么紧张[less nervous]。",
     "g": "目标",
-    "p": ["mainly because…", "set myself a clear goal", "break it down into small steps", "For example,…", "As a result,…"]
+    "p": ["I think…", "because…", "set myself a clear goal", "For example,…", "Also,…", "break it down into small steps", "So…"]
   },
   "new-happy-person||Should teachers know what children are doing all the time?": {
-    "a": "不用（Not really.），我觉得老师不用每分钟都知道[I think teachers don't need to know every minute]。主要是因为（mainly because…）如果老师管得太紧[if teachers control them too strictly]，孩子会害怕[children will be afraid]，他们有问题的时候也不敢找老师帮忙（turn to… for help）。比如（For example,…）很多老师给学生一些自由的时间[some free time of their own]，然后学生有问题的时候会主动去找老师[the students go to the teacher on their own]。所以（So…）我觉得给孩子一点空间更好[I think it's better to give children some space]。而且这样孩子的压力也比较小[the children also have less stress]。",
+    "a": "不用（Not really.），我觉得老师不用每分钟都知道[do not need to know every minute]。因为（because…）管得太紧，孩子会害怕，有问题也不敢找老师帮忙（turn to… for help）。比如（For example,…）很多老师会给学生一点自由的时间[some free time]。而且（Also,…）孩子有问题的时候，反而会主动去找老师[go to the teacher on their own]。所以（So…）给孩子一点空间会更好[give children some space]。",
     "g": "关系",
-    "p": ["Not really.", "mainly because…", "turn to… for help", "For example,…", "So…"]
+    "p": ["Not really.", "because…", "turn to… for help", "For example,…", "Also,…", "So…"]
   },
   "new-happy-person||Do you think teachers are able to spot the unhappy children?": {
-    "a": "这个看情况（It depends, but usually…），大部分老师可以看出来[most teachers can tell]。主要是因为（mainly because…）孩子不开心的时候会变得很安静[when children are unhappy they become very quiet]，老师每天都见到他们[and teachers see them every day]。比如（For example,…）很多学生上课的时候突然不说话了[they suddenly stop talking in class]，然后老师会找他们聊一聊[the teacher talks with them]。结果（As a result,…）老师的几句话可以帮到这些学生（make a difference to other people）。而且学生也愿意告诉老师自己的问题[students are willing to tell the teacher about their problems]。",
+    "a": "这个看情况（It depends, but usually…），大部分老师都能看出来[most teachers can tell]。因为（because…）孩子不开心的时候会变得很安静[unhappy children become very quiet]。比如（For example,…）有的学生上课突然不说话了，老师会课后找他聊一聊[a student stops talking in class, and the teacher chats with him after class]。而且（Also,…）老师每天都见到这些孩子，很容易发现不一样的地方[also, teachers see these children every day and notice small changes]。所以（So…）老师一般都能发现不开心的孩子[so teachers can usually spot the unhappy children]。",
     "g": "情绪",
-    "p": ["It depends, but usually…", "mainly because…", "For example,…", "As a result,…", "make a difference to other people"]
+    "p": ["It depends, but usually…", "because…", "For example,…", "Also,…", "So…"]
   },
   "new-happy-person||How can the arts spread positive emotions in society?": {
-    "a": "我觉得艺术可以让大家的关系更近[art brings people closer]。最主要的原因是（The main reason is that…）大家一起看电影、一起听歌的时候[when people watch films and listen to songs together]，他们有了共同的话题[they have common topics]，一个人的好心情就会传给身边的人[one person's good mood passes to the people around them]。比如（For example,…）很多人看到一首好听的歌或者一个好笑的视频[when a lot of people see a nice song or a funny video]，他们会马上发给朋友[they send it to their friends right away]，然后朋友看了也很开心[and their friends are happy after seeing it]。所以（So…）好心情就这样一点一点传开[the good mood spreads little by little]，小小的分享加起来也很有用（small changes add up）。而且很多人一起聊这些作品的时候[when a lot of people talk about these works together]，他们也更愿意为别人着想（it teaches you to think about others）。",
+    "a": "我觉得（I think…）艺术可以让大家的心情变好[art can make people feel happier]。因为（because…）大家一起看电影、听歌的时候很开心[people feel happy when they watch films and listen to songs together]。比如（For example,…）很多人看到一首好听的歌，就会马上发给朋友[people hear a nice song and send it to their friends right away]。而且（Also,…）朋友们还会一起聊这些歌和电影[also, friends chat about these songs and films together]。所以（So…）好心情就这样传给了身边的人[so the good mood passes to the people around them]。",
     "g": "关系",
-    "p": ["The main reason is that…", "For example,…", "So…", "small changes add up", "it teaches you to think about others"]
+    "p": ["I think…", "because…", "For example,…", "Also,…", "So…"]
   },
   "new-happy-person||When do you think people are happiest?": {
-    "a": "我觉得人们和家人朋友在一起的时候最开心[I think people are happiest when they are with family and friends]。主要是因为（mainly because…）他们和家人朋友在一起的时候很放松[they feel relaxed when they are with family and friends]，他们可以说心里的话[they can say what they really think]。比如（For example,…）很多人周末和朋友一起出去吃饭（eat out with friends），他们聊得很开心[they talk very happily]。吃完以后他们一起去散步（go for a walk after dinner）。所以（So…）我觉得这种时候人最开心[this is the happiest time for them]。而且他们做成一件事的时候[when they finish something]，也会很有成就感（a real sense of achievement）。",
+    "a": "我觉得（I think…）人和家人朋友在一起的时候最开心[people are happiest when they are with family and friends]。因为（because…）和家人朋友在一起很放松[they feel relaxed with family and friends]。比如（For example,…）很多人周末和朋友一起出去吃饭（eat out with friends），吃完再一起散步[people eat out with friends at the weekend and go for a walk after]。而且（Also,…）他们在一起还能说说心里话[also, they can share what is on their mind]。所以（So…）这种时候大家最开心[so this is the happiest time for them]。",
     "g": "情绪",
-    "p": ["mainly because…", "a real sense of achievement", "For example,…", "eat out with friends", "go for a walk after dinner", "So…"]
+    "p": ["I think…", "because…", "For example,…", "eat out with friends", "Also,…", "So…"]
   },
   "new-local-famous-person||Is it always good to be a popular student at school?": {
-    "a": "不一定（Not really.），我觉得这件事有好的一面，也有坏的一面（it has both good and bad sides）。主要是因为（mainly because…）如果一个学生的朋友很多[if a student has a lot of friends]，他要照顾很多人[he has to look after a lot of people]，他的压力也很大[he also has a lot of stress]。比如（For example,…）很多受欢迎的学生每天都有人找他们玩[other students ask them to play every day]，所以他们觉得很累[so they feel very tired]。所以（So…）我觉得有几个真正的朋友就够了[I think having a few real friends is enough]。而且真正的朋友在我们有问题的时候会帮我们[real friends help us when we have problems]。",
+    "a": "不一定（Not really.），受欢迎有好的一面，也有累的一面[being popular has good and tiring sides]。因为（because…）朋友太多的时候要照顾很多人[when you have too many friends, you have to look after a lot of people]。比如（For example,…）很多受欢迎的学生每天都有人找他们玩，很少有自己的时间[popular students have people asking them to play every day and little time for themselves]。而且（Also,…）真正的朋友有几个就够了[also, a few real friends are enough]。所以（So…）受欢迎不一定总是好事[so being popular is not always a good thing]。",
     "g": "情绪",
-    "p": ["Not really.", "it has both good and bad sides", "mainly because…", "For example,…", "So…"]
+    "p": ["Not really.", "because…", "For example,…", "Also,…", "So…"]
   },
   "new-local-famous-person||Why are some students popular?": {
-    "a": "我觉得他们对别人很好[they are kind to other people]。主要是因为（mainly because…）他们真的可以帮到别人（make a difference to other people）。比如（For example,…）很多学生会帮同学看作业里的问题[they help with the problems in the homework]，所以别的同学都很喜欢他们[so the other students all like them]。所以（So…）我们和这样的人在一起[when we are with people like this]，也可以学会为别人着想（it teaches you to think about others）。而且和他们在一起的时候，我们也觉得很开心[we also feel very happy]。",
+    "a": "我觉得（I think…）受欢迎的学生一般对别人都很好[popular students are usually kind to others]。因为（because…）他们愿意帮助身边的同学[they are happy to help the classmates around them]。比如（For example,…）很多学生会帮同学看作业里的问题[students help classmates with problems in their homework]。而且（Also,…）他们平时也很爱笑、很好说话[also, they smile a lot and are easy to talk to]。所以（So…）大家都很喜欢和他们在一起[so everyone likes being with them]。",
     "g": "关系",
-    "p": ["mainly because…", "make a difference to other people", "For example,…", "So…", "it teaches you to think about others"]
+    "p": ["I think…", "because…", "For example,…", "Also,…", "So…"]
   },
   "new-happy-important-decision||How can we tell the difference between an important and an easy decision?": {
-    "a": "我觉得我们要看这个决定花多少钱[how much money the decision costs]。主要是因为（mainly because…）重要的决定跟钱和工作有关系[important decisions are about money and work]，它也影响我们有没有稳定的收入（a stable income）。比如（For example,…）今天晚上吃什么只要几十块钱[it only costs a few dozen yuan]，但是买房子要花几十万[buying a house costs a lot more]。所以（So…）花钱多的决定就是重要的决定[decisions that cost more money are the important ones]。而且这些决定也影响我们的家人[these decisions also affect our family]。",
+    "a": "我觉得（I think…）主要看这个决定花多少钱[it mainly depends on how much money the decision costs]。因为（because…）重要的决定一般和钱、工作有关系[important decisions are usually about money and work]。比如（For example,…）今天晚上吃什么只要几十块，但是买房子要花很多钱[what to eat tonight costs a little, but buying a house costs a lot]。而且（Also,…）大的决定也会影响我们的家人[also, big decisions affect our family]。所以（So…）花钱多的决定就是重要的决定[so decisions that cost more money are the important ones]。",
     "g": "钱",
-    "p": ["mainly because…", "a stable income", "For example,…", "So…"]
+    "p": ["I think…", "because…", "For example,…", "Also,…", "So…"]
   },
   "new-happy-important-decision||Do you think it is a good idea to make a small decision every day?": {
-    "a": "是的（Yes, definitely.），我觉得每天做一些小决定很好[I think it's good to make some small decisions every day]。主要是因为（mainly because…）我们可以分成很多小步（break it down into small steps），然后我们慢慢做完大事[then we finish the big thing slowly]。比如（For example,…）很多人每天早上先定三件要做的事[they choose three things to do]，然后他们晚上检查做完了没有[then they check in the evening]。结果（As a result,…）一个月以后[after a month]，他们可以看到真的有进步（see real progress）。而且他们每天都觉得很有成就感[they feel a sense of achievement every day]。",
+    "a": "是的（Yes, definitely.），每天做一些小决定很好[making some small decisions every day is good]。因为（because…）我们可以把大事分成很多小步（break it down into small steps）[we can break a big thing down into small steps]。比如（For example,…）很多人每天早上先定三件要做的事，晚上再检查[people choose three things to do in the morning and check in the evening]。而且（Also,…）这样每天都能有一点成就感[also, this gives a little sense of achievement every day]。所以（So…）一个月以后就能看到真的进步[so after a month they can see real progress]。",
     "g": "目标",
-    "p": ["Yes, definitely.", "mainly because…", "break it down into small steps", "For example,…", "As a result,…", "see real progress"]
+    "p": ["Yes, definitely.", "because…", "break it down into small steps", "For example,…", "Also,…", "So…"]
   },
   "new-happy-important-decision||What little decisions do people make every day?": {
-    "a": "我觉得大部分是吃什么、怎么去上班[how to get to work]这样的小事。主要是因为（mainly because…）大家都想少花一点钱（save money），他们也想省一点时间[they also want to save time]。比如（For example,…）很多人每天在家做一点简单的东西（cook something simple at home），因为这样比较便宜[because this is cheaper]。他们周末才和朋友出去吃（eat out with friends）。所以（So…）人们每天都要做这些小决定[people make these small decisions every day]。而且和朋友一起吃饭的时候，他们也很开心[they are also very happy]。",
+    "a": "我觉得（I think…）大部分是吃什么、怎么去上班这样的小事[most are small things like what to eat and how to get to work]。因为（because…）大家每天都想省一点钱（save money）[people want to save money every day]。比如（For example,…）很多人平时在家做点简单的饭[people cook something simple at home on weekdays]。而且（Also,…）他们周末才和朋友一起出去吃[also, they eat out with friends only at the weekend]。所以（So…）人们每天都要做很多这样的小决定[so people make a lot of these small decisions every day]。",
     "g": "钱",
-    "p": ["mainly because…", "save money", "For example,…", "cook something simple at home", "eat out with friends", "So…"]
+    "p": ["I think…", "because…", "save money", "For example,…", "Also,…", "So…"]
   },
   "new-happy-important-decision||What if people in a group have different opinions on a decision?": {
-    "a": "我觉得我们应该先听每个人说完[we should listen to everyone first]。主要是因为（mainly because…）每个人负责一个部分（be responsible for one part of…），所以大家的想法不一样[so people have different ideas]，这很正常[and this is normal]。比如（For example,…）在很多公司里，每个人做自己擅长的事（each do what we're good at），他们开会的时候会一起投票[they vote together in the meeting]。结果（As a result,…）大家一起决定比一个人决定快很多（it's much faster than working alone）。而且每个人的压力也小一点[everyone has less stress]。",
+    "a": "我觉得（I think…）大家应该先听每个人把话说完[people should listen to everyone first]。因为（because…）每个人负责的部分不一样，想法当然不同[people are in charge of different parts, so their ideas are different]。比如（For example,…）很多公司开会的时候会让大家一起投票[in company meetings, everyone votes together]。而且（Also,…）每个人可以做自己擅长的那部分（each do what we're good at）[also, each person can do what they are good at]。所以（So…）大家一起决定比一个人快很多[so deciding together is much faster than one person alone]。",
     "g": "关系",
-    "p": ["mainly because…", "be responsible for one part of…", "For example,…", "each do what we're good at", "As a result,…", "it's much faster than working alone"]
+    "p": ["I think…", "because…", "For example,…", "Also,…", "each do what we're good at", "So…"]
   },
   "new-happy-important-decision||Do you think most of people’s decisions are made in their 20s?": {
-    "a": "不一定（Not really.），我觉得后面还有很多大决定[I think there are still a lot of big decisions later]。主要是因为（mainly because…）人们以后还要换工作[people will change jobs later]，也要买房子[and buy a house]，这些事都要花很多钱[these things all cost a lot of money]。比如（For example,…）很多人三十多岁的时候才决定去哪个城市工作[they decide which city to work in]，因为大城市的工资更高[the pay in big cities is higher]。我以前觉得（I used to think…）在老家上班很好[working in my hometown is good]，现在我觉得（now I think…）去大城市更好[going to a big city is better]。所以（So…）人一辈子都在做决定[people make decisions all their life]。",
+    "a": "不一定（Not really.），后面还有很多大决定[there are still a lot of big decisions later]。因为（because…）人们以后还要换工作、买房子[people will change jobs and buy a house later]。比如（For example,…）很多人三十多岁才决定去哪个城市工作[a lot of people decide which city to work in only in their thirties]。而且（Also,…）这些决定都要花很多钱[also, these decisions all cost a lot of money]。所以（So…）人一辈子都在做决定[so people make decisions all their life]。",
     "g": "钱",
-    "p": ["Not really.", "mainly because…", "For example,…", "I used to think…", "now I think…", "So…"]
+    "p": ["Not really.", "because…", "For example,…", "Also,…", "So…"]
   },
   "new-happy-important-decision||Which is better, to make a decision quickly or slowly?": {
-    "a": "这个看情况（It depends, but usually…），小事我们可以很快决定[we can decide small things quickly]。主要是因为（mainly because…）我们遇到大事的时候不能太快[we can't be too quick with big things]，我会先给自己定一个明确的目标（set myself a clear goal），然后我把这件事分成很多小步（break it down into small steps）。比如（For example,…）很多人很快就决定晚上吃什么[they decide what to eat very quickly]，但是他们换工作以前会想几个月[but they think for a few months before changing jobs]，因为这跟他们以后的目标有关系[because this is about their future goals]。所以（So…）事情不一样，决定的速度也不一样[different things need different decision speeds]。而且大事也要跟家里人商量[we also need to talk with our family about big things]。",
+    "a": "这个看情况（It depends, but usually…），小事可以很快决定[small things can be decided quickly]。因为（because…）遇到大事的时候不能太急[we cannot rush when we meet big things]。比如（For example,…）很多人很快决定晚上吃什么，但是换工作要想几个月[people decide what to eat quickly but think for months before changing jobs]。而且（Also,…）大事最好先给自己定一个清楚的目标（set myself a clear goal）[also, for big things it is better to set myself a clear goal first]。所以（So…）事情不一样，决定的速度也不一样[so different things need different speeds]。",
     "g": "目标",
-    "p": ["It depends, but usually…", "mainly because…", "set myself a clear goal", "break it down into small steps", "For example,…", "So…"]
+    "p": ["It depends, but usually…", "because…", "For example,…", "Also,…", "set myself a clear goal", "So…"]
   },
   "retained-helpful-person||Should children help their parents with household chores?": {
     "a": "我觉得应该（Yes, I think so.）。主要是因为（mainly because…）孩子做一点家务能减少父母的工作[children can do a little housework to help their parents]，也能让全家关系更亲近（make the family closer）。比如（For example,…）很多孩子会洗碗或者倒垃圾[a lot of kids wash the dishes or take out the rubbish]。所以（As a result,…）父母不会那么累[parents don't feel so tired]，而且孩子也能学会负责（learn to be responsible）。",
@@ -1601,373 +1601,373 @@ window.P3_ANSWERS = {
     "p": ["I think…", "mainly because…", "spend quality time together", "For example,…", "As a result,…"]
   },
   "feishu-taught-new-skill||Why should children learn new skills?": {
-    "a": "我觉得（I think…）孩子应该（learn new skills）[children should learn new skills]。因为（because…）这让他们更独立[this makes them more independent]。比如（For example,…）很多孩子学会自己做饭[a lot of children learn to cook by themselves]。这样他们能自己做小事[so they can do small things by themselves]。所以（So…）长大后他们有更多选择[they have more choices when they grow up]。",
+    "a": "我觉得（I think…）孩子应该学一些新技能（learn new skills）[children should learn new skills]。因为（because…）这可以让他们更独立[this makes them more independent]。比如（For example,…）很多孩子学会自己做饭、自己收拾房间[a lot of children learn to cook and tidy their room]。而且（Also,…）学新东西的时候他们也很开心[also, they feel happy when they learn new things]。所以（So…）他们长大以后能照顾好自己[so they can take care of themselves when they grow up]。",
     "g": "目标",
-    "p": ["I think…", "learn new skills", "because…", "For example,…", "So…"]
+    "p": ["I think…", "learn new skills", "because…", "For example,…", "Also,…", "So…"]
   },
   "feishu-taught-new-skill||Where can children learn new skills?": {
-    "a": "我觉得（I think…）孩子在很多地方都能（learn new skills）[children can learn new skills in many places]。因为（because…）在家和在学校都能学[they can learn both at home and at school]。比如（For example,…）父母在家教做饭和打扫[parents teach cooking and cleaning at home]。老师在学校教更认真的练习[teachers teach more careful practice at school]。所以（So…）孩子在不同地方学不同的技能[so children learn different skills in different places]。",
+    "a": "我觉得（I think…）孩子在很多地方都能学新技能（learn new skills）[children can learn new skills in many places]。因为（because…）在家和在学校都能学到东西[they can learn both at home and at school]。比如（For example,…）父母在家教孩子做饭，老师在学校教他们画画[parents teach cooking at home and teachers teach drawing at school]。而且（Also,…）孩子还能从朋友那里学到很多[also, children can learn a lot from their friends]。所以（So…）他们在不同的地方学不同的技能[so they learn different skills in different places]。",
     "g": "关系",
-    "p": ["I think…", "learn new skills", "because…", "For example,…", "So…"]
+    "p": ["I think…", "learn new skills", "because…", "For example,…", "Also,…", "So…"]
   },
   "feishu-taught-new-skill||How can parents and teachers teach children new skills?": {
-    "a": "我觉得（I think…）最好一步一步教，再让孩子自己试[the best way is to teach step by step and let the child try]。因为（because…）表扬能让孩子开心[praise makes children happy]。比如（For example,…）很多老师先做一遍再让学生练[a lot of teachers do it once first and then let students practise]。他们也会说几句鼓励的话[and they say a few words to cheer them up]。所以（So…）孩子更愿意继续学[so children want to keep learning]。",
+    "a": "我觉得（I think…）最好先做给孩子看，再让他自己试[the best way is to show first and let the child try]。因为（because…）孩子看着学更容易[children learn more easily by watching]。比如（For example,…）很多老师先做一遍，再让学生跟着练[teachers do it once first and let students practise]。而且（Also,…）孩子做得好的时候要多夸夸他[also, we should praise the child when he does well]。所以（So…）孩子学得又快又开心[so children learn quickly and happily]。",
     "g": "情绪",
-    "p": ["I think…", "because…", "For example,…", "So…"]
+    "p": ["I think…", "because…", "For example,…", "Also,…", "So…"]
   },
   "feishu-taught-new-skill||How do adults learn a new skill?": {
-    "a": "我觉得（I think…）大人常常自己安排时间来（learn new skills）[adults often plan their own time to learn new skills]。因为（because…）他们空闲时间不多[they do not have much free time]。比如（For example,…）很多上班的人每天练二十分钟英语[a lot of working people practise English for twenty minutes every day]。他们也会看网上的视频学[they also learn from online videos]。所以（So…）他们每天进步一点点[so they get a little better every day]。",
+    "a": "我觉得（I think…）大人常常自己安排时间学新技能（learn new skills）[adults often plan their own time to learn new skills]。因为（because…）他们空闲时间不多[they do not have much free time]。比如（For example,…）很多上班的人每天练二十分钟英语[working people practise English for twenty minutes every day]。而且（Also,…）他们还常常看手机上的短视频学东西[also, they often learn from short videos on their phone]。所以（So…）他们每天都能进步一点点[so they get a little better every day]。",
     "g": "目标",
-    "p": ["I think…", "learn new skills", "because…", "For example,…", "So…"]
+    "p": ["I think…", "learn new skills", "because…", "For example,…", "Also,…", "So…"]
   },
   "feishu-taught-new-skill||What are the differences between learning from a teacher and learning by oneself?": {
-    "a": "我觉得（I think…）两种方法各有好处[both ways have good points]。因为（because…）老师能给清楚的计划，还能马上帮你改错[a teacher can give a clear plan and correct your mistakes at once]。但自己学更便宜（budget-friendly）[but learning alone is cheaper]。比如（For example,…）很多学生难的地方跟老师学，简单的地方自己练[a lot of students learn hard parts with a teacher and practise easy parts alone]。所以（So…）我觉得两种一起用最好[so I think using both together is best]。",
+    "a": "我觉得（I think…）这两种方法各有各的好处[both ways have their own good points]。因为（because…）自己学更省钱（budget-friendly）[learning alone is more budget-friendly]。比如（For example,…）很多学生难的地方跟老师学，简单的地方自己练[students learn hard parts with a teacher and practise easy parts alone]。而且（Also,…）跟着老师学问题能问得更快[also, with a teacher you can ask questions faster]。所以（So…）我觉得两种一起用最好[so I think using both together is best]。",
     "g": "钱",
-    "p": ["I think…", "because…", "budget-friendly", "For example,…", "So…"]
+    "p": ["I think…", "because…", "budget-friendly", "For example,…", "Also,…", "So…"]
   },
   "feishu-taught-new-skill||Why is self-discipline important when learning a new skill?": {
-    "a": "我觉得（I think…）学新技能的时候自律很重要[self-discipline is very important when you learn a new skill]。因为（because…）进步要天天练[progress needs practice every day]。比如（For example,…）很多人一遇到难的地方就想放弃[a lot of people want to give up when it gets hard]。但自律的人会坚持下去[but people with self-discipline keep going]。所以（So…）他们最后能学会[so they can learn it in the end]。",
+    "a": "我觉得（I think…）学新技能的时候自律很重要[self-discipline is very important when you learn a new skill]。因为（because…）进步需要每天坚持练[progress needs practice every day]。比如（For example,…）很多人在家练琴，没人管也一直练[people practise the piano at home even when no one watches]。而且（Also,…）自律的人不容易半路放弃[also, people with self-discipline do not give up halfway]。所以（So…）他们最后都能学会[so they can learn it in the end]。",
     "g": "目标",
-    "p": ["I think…", "because…", "For example,…", "So…"]
+    "p": ["I think…", "because…", "For example,…", "Also,…", "So…"]
   },
   "feishu-history-lover||Do you think children should begin learning history from an early age?": {
-    "a": "我觉得（I think…）孩子可以早点学历史，但要简单有趣[children can start history early, but it should be simple and fun]。因为（because…）有意思的故事能让孩子喜欢历史[interesting stories make children like history]。比如（For example,…）很多老师会讲老房子的故事[a lot of teachers tell stories about old buildings]。孩子听了很开心[and children feel happy to hear them]。所以（So…）小孩子不用背很多日期[so young children do not need to remember many dates]。",
+    "a": "我觉得（I think…）孩子可以早点学历史，但要简单有趣[children can start history early, but it should be simple and fun]。因为（because…）有意思的故事能让孩子喜欢历史[interesting stories make children like history]。比如（For example,…）很多老师会讲老房子和老照片的故事[teachers tell stories about old buildings and old photos]。而且（Also,…）小孩子不用一开始就背很多日期[also, young children do not need to remember many dates at first]。所以（So…）这样孩子会觉得历史很好玩[so children find history fun this way]。",
     "g": "情绪",
-    "p": ["I think…", "because…", "For example,…", "So…"]
+    "p": ["I think…", "because…", "For example,…", "Also,…", "So…"]
   },
   "feishu-history-lover||At what age do you think people should begin to learn history?": {
-    "a": "我觉得（I think…）六七岁上小学的时候开始比较好[around six or seven, when they start primary school, is good]。因为（because…）这个年龄的孩子能听懂短故事[at this age children can understand short stories]。比如（For example,…）很多孩子会问以前的人怎么生活[a lot of children ask how people lived in the past]。老师可以用简单的方式慢慢教[teachers can teach slowly in a simple way]。所以（So…）更难的历史可以等他们大一点再学[so harder history can wait until they are older]。",
+    "a": "我觉得（I think…）六七岁上小学的时候开始比较好[around six or seven, when they start primary school, is good]。因为（because…）这个年龄的孩子能听懂短故事[at this age children can understand short stories]。比如（For example,…）很多孩子会问以前的人怎么生活、吃什么[children ask how people lived and what they ate in the past]。而且（Also,…）更难的历史可以等他们大一点再学[also, harder history can wait until they are older]。所以（So…）早一点开始对孩子有好处[so starting a bit early is good for children]。",
     "g": "目标",
-    "p": ["I think…", "because…", "For example,…", "So…"]
+    "p": ["I think…", "because…", "For example,…", "Also,…", "So…"]
   },
   "feishu-history-lover||How do children learn history before they attend school?": {
-    "a": "我觉得（I think…）孩子上学前主要从家里人那里学历史[before school, children mainly learn history from their family]。因为（because…）家里人会讲以前的故事，孩子容易听懂[family tell stories about the past, and children understand them easily]。比如（For example,…）很多爷爷奶奶会讲自己小时候的事[a lot of grandparents talk about their childhood]。孩子也会看绘本、去博物馆[children also read picture books and go to museums]。所以（So…）孩子其实已经在了解过去了[so children are already learning about the past]。而且这样能让家人关系更近（relationships much closer and warmer）[and this makes family relationships closer and warmer]。",
+    "a": "我觉得（I think…）孩子上学前主要从家里人那里学历史[before school, children mainly learn history from their family]。因为（because…）家里人讲的老故事孩子容易懂[the old stories family tell are easy for children to understand]。比如（For example,…）很多爷爷奶奶会讲自己小时候的事[grandparents talk about their childhood]。而且（Also,…）一家人一起聊这些事，关系也更近（relationships much closer and warmer）[also, talking about these things makes relationships much closer and warmer]。所以（So…）孩子在上学前就懂了一点过去的事[so children learn a little about the past before school]。",
     "g": "关系",
-    "p": ["I think…", "because…", "For example,…", "So…", "relationships much closer and warmer"]
+    "p": ["I think…", "because…", "For example,…", "Also,…", "relationships much closer and warmer", "So…"]
   },
   "feishu-history-lover||Is it important to learn how people in the past lived their lives?": {
-    "a": "是的（Yes, definitely.），了解以前的人怎么生活很重要[it is important to learn how people lived in the past]。因为（because…）这能让我们看到生活是怎么变化的[this shows us how life has changed]。比如（For example,…）很多年轻人学了以后更懂老人的习惯[a lot of young people understand old people's habits better after they learn this]。家里也少一些矛盾[and there are fewer arguments at home]。所以（So…）只学打仗和领导人是不够的[so learning only about wars and leaders is not enough]。",
+    "a": "是的（Yes, definitely.），了解以前的人怎么生活很重要[it is important to learn how people lived in the past]。因为（because…）这能让我们看到生活是怎么一点点变好的[this shows us how life slowly got better]。比如（For example,…）很多年轻人了解以后，更懂爷爷奶奶的习惯[young people understand their grandparents' habits better after they learn this]。而且（Also,…）只学打仗和领导人是不够的[also, learning only about wars and leaders is not enough]。所以（So…）普通人的生活也很值得了解[so ordinary people's lives are also worth learning about]。",
     "g": "关系",
-    "p": ["Yes, definitely.", "because…", "For example,…", "So…"]
+    "p": ["Yes, definitely.", "because…", "For example,…", "Also,…", "So…"]
   },
   "feishu-history-lover||Do you think people should learn ancient history before learning modern history?": {
-    "a": "我觉得（I think…）先了解一点古代历史有好处，但不用严格按顺序[a little ancient history first is good, but you do not have to follow a strict order]。因为（because…）古代历史能解释很多东西是怎么开始的[ancient history explains how many things began]。比如（For example,…）很多老师会把古代和现代的例子一起讲[a lot of teachers teach ancient and modern examples together]。这样两个都更好懂[so both are easier to understand]。所以（So…）人们可以慢慢学，不用着急[so people can learn slowly and do not need to rush]。",
+    "a": "我觉得（I think…）先了解一点古代历史有好处，但不用严格按顺序[a little ancient history first is good, but you do not have to follow a strict order]。因为（because…）古代历史能解释很多东西是怎么开始的[ancient history explains how many things began]。比如（For example,…）很多老师会把古代和现代的例子放在一起讲[teachers teach ancient and modern examples together]。而且（Also,…）孩子对哪段感兴趣就可以先学哪段[also, children can start with the part they find interesting]。所以（So…）大家可以慢慢学，不用着急[so people can learn slowly and do not need to rush]。",
     "g": "目标",
-    "p": ["I think…", "because…", "For example,…", "So…"]
+    "p": ["I think…", "because…", "For example,…", "Also,…", "So…"]
   },
   "feishu-history-lover||Besides big historical events, what else is important when learning history?": {
-    "a": "我觉得（I think…）除了大事件，普通人的生活也很重要[besides big events, ordinary people's lives are also important]。因为（because…）这能让我们看到历史怎么影响普通家庭[this shows how history affected ordinary families]。比如（For example,…）很多人会看老照片和以前的信[a lot of people look at old photos and old letters]。他们也会了解当地的故事[they also learn about local stories]。所以（So…）历史会变得更好记、更有意思[so history becomes easier to remember and more interesting]。",
+    "a": "我觉得（I think…）除了大事件，普通人的生活也很重要[besides big events, ordinary people's lives are also important]。因为（because…）这能让我们看到历史怎么影响普通家庭[this shows how history affected ordinary families]。比如（For example,…）很多人会看老照片和以前的信[people look at old photos and old letters]。而且（Also,…）以前的饭菜和衣服也很有意思[also, the food and clothes of the past are interesting too]。所以（So…）历史会变得更好记、更有意思[so history becomes easier to remember and more interesting]。",
     "g": "关系",
-    "p": ["I think…", "because…", "For example,…", "So…"]
+    "p": ["I think…", "because…", "For example,…", "Also,…", "So…"]
   },
   "feishu-older-admired||What can young and old people learn from each other?": {
-    "a": "我觉得（I think…）年轻人和老人能互相学到很多[young and old people can learn a lot from each other]。因为（because…）老人有生活经验，年轻人懂新科技[old people have life experience, and young people know new technology]。比如（For example,…）很多老人教年轻人怎么解决生活问题[a lot of old people teach young people how to solve problems in life]。年轻人帮老人用手机[and young people help old people use phones]。所以（So…）两边都有收获，关系也更近（relationships much closer and warmer）[so both sides gain and the relationship becomes closer and warmer]。",
+    "a": "我觉得（I think…）年轻人和老人能互相学到很多[young and old people can learn a lot from each other]。因为（because…）老人有生活经验，年轻人懂新科技[old people have life experience, and young people know new technology]。比如（For example,…）年轻人帮老人用手机，老人教年轻人做饭[young people help old people use phones, and old people teach cooking]。而且（Also,…）他们在一起的时候，关系也更近（relationships much closer and warmer）[also, when they are together, relationships become closer and warmer]。所以（So…）两边都能有收获[so both sides gain something]。",
     "g": "关系",
-    "p": ["I think…", "because…", "For example,…", "So…", "relationships much closer and warmer"]
+    "p": ["I think…", "because…", "For example,…", "Also,…", "relationships much closer and warmer", "So…"]
   },
   "feishu-older-admired||How old people's life quality improved when compared to the past?": {
-    "a": "我觉得（I think…）现在老人的生活比以前好多了[old people's lives are much better now than before]。因为（because…）现在的医疗和养老金都更好[healthcare and pensions are both better now]。比如（For example,…）很多老人用智能手机和家人联系[a lot of old people use a smartphone to keep in touch with family]。他们在家也能用很多服务[and they can use many services at home]。所以（So…）他们的生活更方便、更安全[so their life is more convenient and safer]。",
+    "a": "我觉得（I think…）现在老人的生活比以前好多了[old people's lives are much better now than before]。因为（because…）现在的医疗和养老金都更好[healthcare and pensions are both better now]。比如（For example,…）很多老人用智能手机和家人视频聊天[old people use a smartphone to video call their family]。而且（Also,…）小区里也有公园和活动室给他们用[also, there are parks and activity rooms for them in the neighbourhood]。所以（So…）他们的生活更方便、更安全[so their life is more convenient and safer]。",
     "g": "钱",
-    "p": ["I think…", "because…", "For example,…", "So…"]
+    "p": ["I think…", "because…", "For example,…", "Also,…", "So…"]
   },
   "feishu-older-admired||Why is there a generation gap between the young and the old?": {
-    "a": "我觉得（I think…）年轻人和老人有代沟很正常[it is normal for young and old people to have a generation gap]。因为（because…）他们长大的时候，科技和想法都不一样[when they grew up, the technology and ideas were different]。比如（For example,…）同一件事，年轻人觉得正常，老人可能觉得没礼貌[for the same thing, young people think it is normal, but old people may think it is rude]。所以（So…）他们有时候很难互相理解[so sometimes it is hard for them to understand each other]。不过经常聊天能让代沟变小[but talking often can make the gap smaller]。",
+    "a": "我觉得（I think…）年轻人和老人有代沟很正常[it is normal for young and old people to have a generation gap]。因为（because…）他们长大的时候，科技和想法都不一样[when they grew up, the technology and ideas were different]。比如（For example,…）同一件事，年轻人觉得正常，老人可能觉得没礼貌[for the same thing, young people think it is normal but old people may think it is rude]。而且（Also,…）他们喜欢的音乐和电影也常常不一样[also, they often like different music and films]。所以（So…）他们有时候很难互相理解[so sometimes it is hard for them to understand each other]。",
     "g": "关系",
-    "p": ["I think…", "because…", "For example,…", "So…"]
+    "p": ["I think…", "because…", "For example,…", "Also,…", "So…"]
   },
   "feishu-older-admired||What do old people usually do in their daily life?": {
-    "a": "我觉得（I think…）老人每天的生活其实挺丰富的[old people's daily life is actually quite full]。因为（because…）他们有时间做自己喜欢的事[they have time to do what they like]。比如（For example,…）很多老人会锻炼、做家务或者照顾孙子[a lot of old people exercise, do housework or look after grandchildren]。有的还喜欢种花和看书[and some enjoy gardening and reading]。所以（So…）他们的生活可以很开心、很充实[so their life can be very happy and full]。",
+    "a": "我觉得（I think…）老人每天的生活其实挺丰富的[old people's daily life is actually quite full]。因为（because…）他们有时间做自己喜欢的事[they have time to do what they like]。比如（For example,…）很多老人早上去公园锻炼，下午照顾孙子[old people exercise in the park in the morning and look after grandchildren in the afternoon]。而且（Also,…）他们晚上还会和老朋友一起跳广场舞[also, in the evening they dance in the square with old friends]。所以（So…）他们的生活可以很开心、很充实[so their life can be very happy and full]。",
     "g": "情绪",
-    "p": ["I think…", "because…", "For example,…", "So…"]
+    "p": ["I think…", "because…", "For example,…", "Also,…", "So…"]
   },
   "feishu-photo-lover||Why are some people keen on taking photos?": {
-    "a": "我觉得（I think…）有些人特别喜欢拍照是有原因的[some people really like taking photos for a reason]。因为（because…）照片能帮他们留住回忆[photos help them keep memories]。比如（For example,…）很多人喜欢拍好看的风景和开心的时刻[a lot of people like to take photos of nice views and happy moments]。他们也会把照片分享给家人朋友[they also share the photos with family and friends]。所以（So…）拍照能让他们心情变好（lifts my mood）[so taking photos lifts their mood]。",
+    "a": "我觉得（I think…）有些人特别喜欢拍照是有原因的[some people really like taking photos for a reason]。因为（because…）照片能帮他们留住美好的回忆[photos help them keep good memories]。比如（For example,…）很多人喜欢拍好看的风景和开心的时刻[people like to take photos of nice views and happy moments]。而且（Also,…）以后再看这些照片，心情也会变好（lifts my mood）[also, looking at these photos later lifts my mood]。所以（So…）拍照对他们来说很有意义[so taking photos means a lot to them]。",
     "g": "情绪",
-    "p": ["I think…", "because…", "For example,…", "So…", "lifts my mood"]
+    "p": ["I think…", "because…", "For example,…", "Also,…", "lifts my mood", "So…"]
   },
   "feishu-photo-lover||What kind of photos do people often take?": {
-    "a": "我觉得（I think…）人们最常拍和家人朋友有关的照片[people most often take photos of their family and friends]。因为（because…）大家想记住和亲近的人在一起的时刻[people want to remember moments with people they are close to]。比如（For example,…）很多人喜欢拍家庭聚会和朋友[a lot of people like to take photos of family gatherings and friends]。他们也会拍食物和旅行的风景[they also take photos of food and travel views]。所以（So…）照片里大部分是他们在乎的人和事[so most photos are about the people and things they care about]。",
+    "a": "我觉得（I think…）人们最常拍和家人朋友有关的照片[people most often take photos of their family and friends]。因为（because…）大家想记住和亲近的人在一起的时刻[people want to remember moments with people they are close to]。比如（For example,…）很多人喜欢拍家庭聚会和朋友的合影[people like to take photos of family gatherings and group photos with friends]。而且（Also,…）出去旅游的时候也会拍很多风景照[also, when they travel, they take a lot of scenery photos]。所以（So…）照片里大部分是他们在乎的人和事[so most photos are about the people and things they care about]。",
     "g": "关系",
-    "p": ["I think…", "because…", "For example,…", "So…"]
+    "p": ["I think…", "because…", "For example,…", "Also,…", "So…"]
   },
   "feishu-photo-lover||Do you think it's OK to take photos everywhere?": {
-    "a": "不太行（Not really.），我觉得不是所有地方都能拍照[I don't think you can take photos everywhere]。因为（because…）我们要尊重别人的隐私[we should respect other people's privacy]。比如（For example,…）在医院或别人家里拍照就不合适[in hospitals or in other people's homes, taking photos is not suitable]。所以（So…）拍陌生人之前先问一下更有礼貌[so it is more polite to ask before taking a photo of a stranger]。而且有些地方有规矩，我们要遵守[and some places have rules, and we should follow them]。",
+    "a": "不太行（Not really.），我觉得不是所有地方都能拍照[I don't think you can take photos everywhere]。因为（because…）我们要尊重别人的隐私[we should respect other people's privacy]。比如（For example,…）在医院或别人家里拍照就不合适[in hospitals or in other people's homes, taking photos is not suitable]。而且（Also,…）有些博物馆里也不让拍照[also, some museums do not allow photos either]。所以（So…）拍陌生人之前先问一下更有礼貌[so it is more polite to ask before taking a photo of a stranger]。",
     "g": "规矩",
-    "p": ["Not really.", "because…", "For example,…", "So…"]
+    "p": ["Not really.", "because…", "For example,…", "Also,…", "So…"]
   },
   "feishu-photo-lover||Why do tourists like taking photos while they are travelling?": {
-    "a": "我觉得（I think…）游客旅行时很喜欢拍照[tourists love taking photos when they travel]。因为（because…）他们想记住那个地方[they want to remember the place]。比如（For example,…）很多游客会拍美食和风景[a lot of tourists take photos of food and views]。这样以后就不会忘[so they will not forget it later]。所以（So…）照片能帮他们留住开心的时刻[so photos keep the happy moments]。",
+    "a": "我觉得（I think…）游客旅行时很喜欢拍照[tourists love taking photos when they travel]。因为（because…）他们想记住那个地方[they want to remember the place]。比如（For example,…）很多游客会拍下自己吃的美食[a lot of tourists take photos of the food they eat]。而且（Also,…）他们也喜欢拍漂亮的风景和老建筑[also, they like taking photos of nice views and old buildings]。所以（So…）照片能帮他们留住开心的时刻[so photos keep the happy moments]。",
     "g": "情绪",
-    "p": ["I think…", "because…", "For example,…", "So…"]
+    "p": ["I think…", "because…", "For example,…", "Also,…", "So…"]
   },
   "feishu-photo-lover||Some people don't mind others walking into their shot when they're taking photos. What do you think?": {
-    "a": "我觉得（I think…）在人多的地方，这样想很实际[in a busy place, this is practical]。因为（because…）热门的街道很难没有人[popular streets are hard to keep empty]。比如（For example,…）很多人会等一下，或者礼貌地请别人让一让[a lot of people wait a moment or politely ask others to move]。所以（So…）我们不该怪只是路过的陌生人[so we should not blame strangers who just walk past]。",
+    "a": "我觉得（I think…）在人多的地方，这样想很实际[in a busy place, this is practical]。因为（because…）热门的街道很难没有人[popular streets are hard to keep empty]。比如（For example,…）很多人会等一下，或者礼貌地请别人让一让[a lot of people wait a moment or politely ask others to move]。而且（Also,…）有些人干脆把路人也拍进照片里[also, some people just leave the passers-by in the photo]。所以（So…）我们不该怪只是路过的陌生人[so we should not blame strangers who just walk past]。",
     "g": "规矩",
-    "p": ["I think…", "because…", "For example,…", "So…"]
+    "p": ["I think…", "because…", "For example,…", "Also,…", "So…"]
   },
   "feishu-handcraft-person||Do you think art classes are important for children?": {
-    "a": "是的（Yes, definitely.），美术课对孩子很重要[art classes are very important for children]。因为（because…）画画能让孩子说出心里的感受[drawing lets children show their feelings]。比如（For example,…）孩子在美术课上能学到新东西（learn new skills）[children learn new skills in art class]。这也让他们更自信[and this makes them more confident]。所以（So…）我觉得学校应该多开美术课[so I think schools should have more art classes]。",
+    "a": "是的（Yes, definitely.），美术课对孩子很重要[art classes are very important for children]。因为（because…）画画能让孩子说出心里的感受[drawing lets children show their feelings]。比如（For example,…）孩子在美术课上能学到新技能（learn new skills）[children learn new skills in art class]。而且（Also,…）他们也能在画画时放松一下[also, they can relax while they draw]。所以（So…）我觉得学校应该多开美术课[so I think schools should have more art classes]。",
     "g": "情绪",
-    "p": ["Yes, definitely.", "because…", "For example,…", "learn new skills", "So…"]
+    "p": ["Yes, definitely.", "because…", "For example,…", "learn new skills", "Also,…", "So…"]
   },
   "feishu-handcraft-person||Why do some children enjoy making things by hand?": {
-    "a": "我觉得（I think…）孩子很喜欢做手工[children really enjoy making things by hand]。因为（because…）用手做东西很好玩[making things by hand is a lot of fun]。比如（For example,…）很多孩子喜欢给爸爸妈妈做小卡片[a lot of children like making small cards for their parents]。这让礼物更特别[this makes the gift more special]。所以（So…）他们做手工时通常很开心[so they are usually happy when they do handwork]。",
+    "a": "我觉得（I think…）孩子很喜欢做手工[children really enjoy making things by hand]。因为（because…）用手做东西很好玩[making things by hand is a lot of fun]。比如（For example,…）很多孩子喜欢给爸爸妈妈做小卡片[a lot of children like making small cards for their parents]。而且（Also,…）他们也喜欢用彩纸做小动物[also, they like making little animals with coloured paper]。所以（So…）他们做手工时通常很开心[so they are usually happy when they do handwork]。",
     "g": "情绪",
-    "p": ["I think…", "because…", "For example,…", "So…"]
+    "p": ["I think…", "because…", "For example,…", "Also,…", "So…"]
   },
   "feishu-handcraft-person||Do children these days still like doing arts and crafts?": {
-    "a": "是的（Yes, definitely.），现在很多孩子还是喜欢画画和手工[many children today still like drawing and crafts]。因为（because…）手工很好玩[handwork is a lot of fun]。比如（For example,…）很多孩子喜欢用材料包做小装饰[a lot of children like making small decorations with craft kits]。做完他们很开心[and they are happy when they finish]。所以（So…）我觉得孩子还是很爱手工[so I think children still love handwork]。",
+    "a": "是的（Yes, definitely.），现在很多孩子还是喜欢画画和手工[many children today still like drawing and crafts]。因为（because…）手工很好玩[handwork is a lot of fun]。比如（For example,…）很多孩子喜欢用材料包做小装饰[a lot of children like making small decorations with craft kits]。而且（Also,…）学校也常常开手工课[also, schools often have craft lessons too]。所以（So…）我觉得孩子还是很爱手工[so I think children still love handwork]。",
     "g": "情绪",
-    "p": ["Yes, definitely.", "because…", "For example,…", "So…"]
+    "p": ["Yes, definitely.", "because…", "For example,…", "Also,…", "So…"]
   },
   "feishu-handcraft-person||What impact can artistic buildings have on society?": {
-    "a": "我觉得（I think…）漂亮的建筑对城市帮助很大[beautiful buildings help a city a lot]。因为（because…）它们能吸引游客[they attract visitors]。比如（For example,…）很多人专门去看漂亮的图书馆或车站[a lot of people go to see a beautiful library or station]。游客来了会花钱[and visitors spend money]。所以（As a result,…）附近的小店能赚更多钱[so the small shops nearby make more money]。",
+    "a": "我觉得（I think…）漂亮的建筑对城市帮助很大[beautiful buildings help a city a lot]。因为（because…）它们能吸引很多游客[they attract a lot of visitors]。比如（For example,…）很多人专门去看漂亮的图书馆或车站[a lot of people go to see a beautiful library or station]。而且（Also,…）这些建筑也让城市看起来更有特色[also, these buildings make the city look more special]。所以（So…）附近的小店能赚更多钱[so the small shops nearby make more money]。",
     "g": "钱",
-    "p": ["I think…", "because…", "For example,…", "As a result,…"]
+    "p": ["I think…", "because…", "For example,…", "Also,…", "So…"]
   },
   "feishu-difficult-success-person||Is it difficult to do business in today's world?": {
-    "a": "是的（Yes, definitely.），现在做生意很难[doing business is very hard today]。因为（because…）竞争很强[the competition is very strong]。比如（For example,…）很多小店老板要不停了解顾客想要什么[a lot of small shop owners keep learning what customers want]。租金和工资也很高[and rent and wages are also high]。所以（So…）做生意的人压力很大[so people in business are under a lot of pressure]。",
+    "a": "是的（Yes, definitely.），现在做生意很难[doing business is very hard today]。因为（because…）竞争很强[the competition is very strong]。比如（For example,…）很多小店老板要不停了解顾客想要什么[a lot of small shop owners keep learning what customers want]。而且（Also,…）房租和材料的价格也很高[also, rent and materials are also expensive]。所以（So…）做生意的人压力很大[so people in business are under a lot of pressure]。",
     "g": "钱",
-    "p": ["Yes, definitely.", "because…", "For example,…", "So…"]
+    "p": ["Yes, definitely.", "because…", "For example,…", "Also,…", "So…"]
   },
   "feishu-difficult-success-person||How can companies help protect the environment?": {
-    "a": "我觉得（I think…）公司能为环境做很多事[companies can do a lot for the environment]。因为（because…）它们可以少用包装、省电[they can use less packaging and save energy]。比如（For example,…）很多公司会回收有用的东西[a lot of companies recycle useful things]。也会做更耐用的产品[and make products that last longer]。所以（So…）这样能减少浪费[so this can reduce waste]。",
+    "a": "我觉得（I think…）公司能为环境做很多事[companies can do a lot for the environment]。因为（because…）它们可以少用包装、省电[they can use less packaging and save energy]。比如（For example,…）很多公司会回收有用的东西[a lot of companies recycle useful things]。而且（Also,…）有些公司也会用纸袋代替塑料袋[also, some companies use paper bags instead of plastic ones]。所以（So…）这样能减少浪费[so this can reduce waste]。",
     "g": "规矩",
-    "p": ["I think…", "because…", "For example,…", "So…"]
+    "p": ["I think…", "because…", "For example,…", "Also,…", "So…"]
   },
   "feishu-difficult-success-person||Does money equal success?": {
-    "a": "不（Not really.），钱不等于成功[money is not the same as success]。因为（because…）钱只是成功的一部分[money is only one part of success]。比如（For example,…）有些人工资很高，但没时间陪家人[some people earn a lot but have no time for family]。他们还是不开心[so they are still not happy]。所以（So…）能和家人（spend quality time）也是一种成功[so spending quality time with family is also success]。",
+    "a": "不（Not really.），钱不等于成功[money is not the same as success]。因为（because…）钱只是成功的一部分[money is only one part of success]。比如（For example,…）有些人工资很高，但没时间陪家人[some people earn a lot but have no time for family]。而且（Also,…）健康和开心也很重要[also, health and happiness are important too]。所以（So…）能和家人（spend quality time）也是一种成功[so spending quality time with family is also success]。",
     "g": "关系",
-    "p": ["Not really.", "because…", "For example,…", "So…", "spend quality time"]
+    "p": ["Not really.", "because…", "For example,…", "Also,…", "So…", "spend quality time"]
   },
   "feishu-crowded-place||Do you think it is a good trend to have more big cities?": {
-    "a": "我觉得（I think…）大城市变多有好也有坏[more big cities has good and bad sides]。因为（because…）大城市能给人们更多工作和学校[big cities give people more jobs and schools]。比如（For example,…）很多人去大城市找工作[a lot of people go to big cities to find work]。但住房很贵，交通也很堵[but housing is expensive and the traffic is bad]。所以（So…）只有城市规划好，这才是好事[so it is only good if cities plan well]。",
+    "a": "我觉得（I think…）大城市变多有好也有坏[more big cities has good and bad sides]。因为（because…）大城市能给人们更多工作和学校[big cities give people more jobs and schools]。比如（For example,…）很多人去大城市找工作[a lot of people go to big cities to find work]。而且（Also,…）大城市的医院和商场也更多[also, big cities also have more hospitals and shopping malls]。所以（So…）只有城市规划好，这才是好事[so it is only good if cities plan well]。",
     "g": "钱",
-    "p": ["I think…", "because…", "For example,…", "So…"]
+    "p": ["I think…", "because…", "For example,…", "Also,…", "So…"]
   },
   "feishu-crowded-place||Do you think there are some people who enjoy crowded places?": {
-    "a": "是的（Yes, definitely.），有些人很喜欢热闹的地方[some people really enjoy crowded places]。因为（because…）人多时气氛很有活力[when there are a lot of people, the atmosphere is lively]。比如（For example,…）很多外向的人喜欢热闹的市场和演唱会[a lot of outgoing people like busy markets and concerts]。这让他们很开心[and this makes them happy]。所以（So…）这主要看人的性格[so it mainly depends on the person]。",
+    "a": "是的（Yes, definitely.），有些人很喜欢热闹的地方[some people really enjoy crowded places]。因为（because…）人多时气氛很有活力[when there are a lot of people, the atmosphere is lively]。比如（For example,…）很多外向的人喜欢热闹的市场和演唱会[a lot of outgoing people like busy markets and concerts]。而且（Also,…）有些人也喜欢过节时热闹的街道[also, some people like the busy streets during festivals]。所以（So…）这主要看人的性格[so it mainly depends on the person]。",
     "g": "情绪",
-    "p": ["Yes, definitely.", "because…", "For example,…", "So…"]
+    "p": ["Yes, definitely.", "because…", "For example,…", "Also,…", "So…"]
   },
   "feishu-crowded-place||Which cities are crowded in your country?": {
-    "a": "我觉得（I think…）像北京、上海和深圳这样的大城市很挤[big cities like Beijing, Shanghai and Shenzhen are very crowded]。因为（because…）这些城市工作机会很多[these cities have a lot of jobs]。比如（For example,…）很多上班的人和学生都来这些城市[a lot of workers and students come to these cities]。所以（So…）最挤的地方通常是车站和景点[so the most crowded places are usually stations and attractions]。而且节假日人会更多[and there are even more people on holidays]。",
+    "a": "我觉得（I think…）像北京、上海和深圳这样的大城市很挤[big cities like Beijing, Shanghai and Shenzhen are very crowded]。因为（because…）这些城市工作机会很多[these cities have a lot of jobs]。比如（For example,…）很多上班的人和学生都来这些城市[a lot of workers and students come to these cities]。而且（Also,…）这些城市的地铁在早高峰特别挤[also, the underground in these cities is very packed in the morning]。所以（So…）最挤的地方通常是车站和景点[so the most crowded places are usually stations and attractions]。",
     "g": "钱",
-    "p": ["I think…", "because…", "For example,…", "So…"]
+    "p": ["I think…", "because…", "For example,…", "Also,…", "So…"]
   },
   "feishu-crowded-place||Why do people go to crowded places?": {
-    "a": "我觉得（I think…）人们去挤的地方通常有原因[people usually go to crowded places for a reason]。因为（because…）他们要上班或买东西[they need to work or shop]。比如（For example,…）很多人挤地铁去上班[a lot of people take the crowded underground to work]。因为这样最快[because this is the fastest way]。所以（So…）就算不舒服，值得的话他们还是会去[so even if it is uncomfortable, they still go if it is worth it]。",
+    "a": "我觉得（I think…）人们去挤的地方通常有原因[people usually go to crowded places for a reason]。因为（because…）他们要上班或买东西[they need to work or shop]。比如（For example,…）很多人挤地铁去上班[a lot of people take the crowded underground to work]。而且（Also,…）周末也有很多人去热闹的商场[also, a lot of people go to busy malls at the weekend]。所以（So…）就算不舒服，值得的话他们还是会去[so even if it is uncomfortable, they still go if it is worth it]。",
     "g": "目标",
-    "p": ["I think…", "because…", "For example,…", "So…"]
+    "p": ["I think…", "because…", "For example,…", "Also,…", "So…"]
   },
   "feishu-crowded-place||Will people use bikes more or less in cities in the future?": {
-    "a": "我觉得（It depends, but usually…）如果城市建好安全的车道，人们会骑得更多[if cities build safe bike lanes, people will ride more]。因为（because…）共享单车又便宜（affordable）又方便[shared bikes are affordable and convenient]。比如（For example,…）很多人骑共享单车去地铁站[a lot of people ride shared bikes to the underground station]。这样路上的车也会少一些[so there are fewer cars on the road]。所以（So…）安全的车道很重要[so safe bike lanes are important]。",
+    "a": "我觉得（It depends, but usually…）如果城市建好安全的车道，人们会骑得更多[if cities build safe bike lanes, people will ride more]。因为（because…）共享单车又便宜（affordable）又方便[shared bikes are affordable and convenient]。比如（For example,…）很多人骑共享单车去地铁站[a lot of people ride shared bikes to the underground station]。而且（Also,…）骑车也能让人锻炼身体[also, riding a bike is also good exercise]。所以（So…）安全的车道很重要[so safe bike lanes are important]。",
     "g": "规矩",
-    "p": ["It depends, but usually…", "because…", "affordable", "For example,…", "So…"]
+    "p": ["It depends, but usually…", "because…", "affordable", "For example,…", "Also,…", "So…"]
   },
   "feishu-crowded-place||Will there be more or less green space in cities in the future?": {
-    "a": "我觉得（It depends, but usually…）城市里的绿地是多是少，要看怎么规划[more or less green space depends on how cities plan]。因为（because…）有些城市发展太快，土地很紧张[some cities grow too fast and land is tight]。比如（For example,…）很多人喜欢在公园里散步[a lot of people like walking in the park]。这样能让他们（enjoy a peaceful moment）[so they can enjoy a peaceful moment]。所以（So…）我希望城市能保护好公园[so I hope cities protect their parks]。",
+    "a": "我觉得（It depends, but usually…）城市里的绿地是多是少，要看怎么规划[more or less green space depends on how cities plan]。因为（because…）有些城市发展太快，土地很紧张[some cities grow too fast and land is tight]。比如（For example,…）很多人喜欢在公园里散步，（enjoy a peaceful moment）[a lot of people like walking in the park and enjoy a peaceful moment]。而且（Also,…）孩子们也需要绿地玩耍[also, children also need green space to play]。所以（So…）我希望城市能保护好公园[so I hope cities protect their parks]。",
     "g": "情绪",
-    "p": ["It depends, but usually…", "because…", "For example,…", "enjoy a peaceful moment", "So…"]
+    "p": ["It depends, but usually…", "because…", "For example,…", "enjoy a peaceful moment", "Also,…", "So…"]
   },
   "feishu-noisy-place||Do you think it is good for children to make noise?": {
-    "a": "我觉得（It depends, but usually…）孩子发出一些声音很正常[it is quite normal for children to make some noise]。因为（because…）孩子玩和唱歌时会很兴奋[children get excited when they play and sing]。比如（For example,…）很多孩子在操场上又跑又叫[a lot of children run and shout on the playground]。这很自然也很健康[which is natural and healthy]。不过大人要教他们在图书馆里小声一点[but adults should teach them to be quiet in libraries]。",
+    "a": "我觉得（It depends, but usually…）孩子发出一些声音很正常[it is quite normal for children to make some noise]。因为（because…）孩子玩和唱歌时会很兴奋[children get excited when they play and sing]。比如（For example,…）孩子在操场上又跑又叫，很正常[children run and shout on the playground, which is normal]。而且（Also,…）在家里孩子玩游戏时也会很吵[also, children are also noisy when they play games at home]。所以（So…）但在图书馆里，大人要教他们小声一点[so in libraries, adults should teach them to be quiet]。",
     "g": "规矩",
-    "p": ["It depends, but usually…", "because…", "For example,…"]
+    "p": ["It depends, but usually…", "because…", "For example,…", "Also,…", "So…"]
   },
   "feishu-noisy-place||How can people consider others' feelings when chatting in public?": {
-    "a": "我觉得（I think…）在公共场所聊天要为别人着想[when chatting in public, we should think about others]。因为（because…）大声说话会打扰到别人[talking loudly can disturb other people]。比如（For example,…）很多人会小声说话[a lot of people talk in a quiet voice]。如果话题私密，就走到人少的地方[and if the topic is private, they move to a quieter place]。所以（So…）这样大家都会更舒服[so everyone feels more comfortable]。",
+    "a": "我觉得（I think…）最好的办法就是小声说话[the best way is to keep their voice down]。因为（because…）在公共场所大声聊天会吵到旁边的人[talking loudly in public can bother the people nearby]。比如（For example,…）在地铁或公交上，很多人都会小声聊，或者等下了车再打电话[on the bus or the underground, a lot of people chat quietly, or wait until they get off to make a call]。而且（Also,…）如果聊的是私人的事，最好别在人多的地方大声说[also, if it is something private, it is better not to say it out loud in a crowded place]。所以（So…）只要大家稍微注意一点，别人就会舒服很多[so if people are just a bit careful, others feel much more comfortable]。",
     "g": "规矩",
-    "p": ["I think…", "because…", "For example,…", "So…"]
+    "p": ["I think…", "because…", "For example,…", "Also,…", "So…"]
   },
   "feishu-noisy-place||How would people usually respond to noises in your country?": {
-    "a": "我觉得（It depends, but usually…）大多数人会先忍一忍短时间的噪音[most people put up with short noise first]。因为（because…）白天有点声音很正常[some noise in the daytime is normal]。比如（For example,…）如果噪音一直不停，很多人会关窗或戴耳机[if the noise keeps going, a lot of people close the window or use earphones]。或者礼貌地请对方小声一点[or politely ask the person to be quieter]。所以（So…）如果很严重，他们才会报告物业[so if it is very serious, they report it to the building staff]。",
+    "a": "我觉得（It depends, but usually…）大多数人会先忍一忍短时间的噪音[most people put up with short noise first]。因为（because…）白天有点声音很正常[some noise in the daytime is normal]。比如（For example,…）如果噪音一直不停，很多人会关窗或戴耳机[if the noise keeps going, a lot of people close the window or use earphones]。而且（Also,…）有些人会先客气地提醒邻居[also, some people politely remind their neighbours first]。所以（So…）如果很严重，他们才会报告物业[so if it is very serious, they report it to the building staff]。",
     "g": "规矩",
-    "p": ["It depends, but usually…", "because…", "For example,…", "So…"]
+    "p": ["It depends, but usually…", "because…", "For example,…", "Also,…", "So…"]
   },
   "feishu-noisy-place||Should children not be allowed to make noise under any circumstances?": {
-    "a": "不（Not really.），完全不让孩子出声太严格了[not letting children make any noise is too strict]。因为（because…）孩子需要玩和表达情绪[children need to play and show their feelings]。比如（For example,…）在操场上孩子可以大声玩[on the playground children can play loudly]。但在医院就要安静[but in a hospital they should be quiet]。所以（So…）重要的是看时间和地点合不合适[so the important thing is whether the time and place are right]。",
+    "a": "不（Not really.），完全不让孩子出声太严格了[not letting children make any noise is too strict]。因为（because…）孩子需要玩和表达情绪[children need to play and show their feelings]。比如（For example,…）在操场上孩子可以大声玩，在医院就要安静[on the playground children can play loudly, but in a hospital they should be quiet]。而且（Also,…）在电影院里孩子也要小声一点[also, in the cinema children should also be quiet]。所以（So…）重要的是看时间和地点合不合适[so the important thing is whether the time and place are right]。",
     "g": "规矩",
-    "p": ["Not really.", "because…", "For example,…", "So…"]
+    "p": ["Not really.", "because…", "For example,…", "Also,…", "So…"]
   },
   "feishu-noisy-place||What kinds of noises are there in our lives?": {
-    "a": "我觉得（I think…）我们生活里有很多种噪音[there are many kinds of noise in our lives]。因为（because…）车、施工和工厂都很吵[cars, construction and factories are all noisy]。家里的机器和音乐也会吵[machines and music at home can also be loud]。比如（For example,…）很多人白天听到车声[a lot of people hear cars in the daytime]。晚上又听到邻居的电视声[and the neighbour's TV at night]。所以（So…）太吵会让人有压力[so too much noise makes people stressed]。",
+    "a": "我觉得（I think…）我们生活里有很多种噪音[there are many kinds of noise in our lives]。因为（because…）车和机器都很吵[cars and machines are noisy]。比如（For example,…）我们白天常听到马路上的车声[we often hear cars on the road in the daytime]。而且（Also,…）晚上邻居装修的声音也很吵[also, the sound of neighbours' building work is noisy at night too]。所以（So…）太吵会让人有压力[so too much noise makes people stressed]。",
     "g": "情绪",
-    "p": ["I think…", "because…", "For example,…", "So…"]
+    "p": ["I think…", "because…", "For example,…", "Also,…", "So…"]
   },
   "feishu-noisy-place||Which area is exposed to noise more, the city or the countryside?": {
-    "a": "我觉得（I think…）城市一般比乡村更吵[cities are usually noisier than the countryside]。因为（because…）城市里车更多、人也更多[cities have more cars and more people]。而且几乎一整天都有声音[and there is noise almost all day]。比如（For example,…）很多住在市中心的人晚上还能听到车声[a lot of people in the city centre still hear cars at night]。但乡村一般很安静[but the countryside is usually quiet]。所以（So…）城市的噪音更让人有压力[so city noise makes people feel more stressed]。",
+    "a": "我觉得（I think…）城市一般比乡村更吵[cities are usually noisier than the countryside]。因为（because…）城市里车更多、人也更多[cities have more cars and more people]。比如（For example,…）很多住在市中心的人晚上还能听到车声[a lot of people in the city centre still hear cars at night]。而且（Also,…）城市里的工地和商场也很吵[also, building sites and malls in the city are noisy too]。所以（So…）城市的噪音更让人有压力[so city noise makes people feel more stressed]。",
     "g": "情绪",
-    "p": ["I think…", "because…", "For example,…", "So…"]
+    "p": ["I think…", "because…", "For example,…", "Also,…", "So…"]
   },
   "feishu-city-natural-place||Do you think there should be many natural places in cities?": {
-    "a": "是的（Yes, definitely.），城市里应该有很多自然的地方[cities should have a lot of natural places]。因为（because…）公园和树能让人放松[parks and trees help people relax]。也让人呼吸新鲜空气[and get some fresh air]。绿色的地方（calms my mind）[green places calm my mind]。比如（For example,…）很多人周末带孩子去公园[a lot of people take their children to the park at the weekend]。他们在那里跑步、玩，很开心[they run and play there, and feel happy]。所以（So…）自然的地方多了，生活会更健康[so life is healthier with more natural places]。",
+    "a": "是的（Yes, definitely.），城市里应该有很多自然的地方[cities should have a lot of natural places]。因为（because…）公园和树能让人放松、平静下来（calms my mind）[parks and trees calm my mind]。比如（For example,…）很多人周末带孩子去公园跑步玩耍[a lot of people take their children to the park at the weekend]。而且（Also,…）老人也喜欢在树下坐一坐[also, old people also like to sit under the trees]。所以（So…）自然的地方多了，生活会更健康[so life is healthier with more natural places]。",
     "g": "情绪",
-    "p": ["Yes, definitely.", "because…", "calms my mind", "For example,…", "So…"]
+    "p": ["Yes, definitely.", "because…", "calms my mind", "For example,…", "Also,…", "So…"]
   },
   "feishu-city-natural-place||Do you think staying in a natural place would help change people's mood?": {
-    "a": "是的（Yes, definitely.），待在自然的地方能让人心情变好[staying in a natural place can make people feel better]。因为（because…）绿色的景色和安静让人放松[green views and quiet help people relax]。到外面走走（lifts my mood）[going outside lifts my mood]。比如（For example,…）很多人周末去公园或海边[a lot of people go to the park or the seaside at the weekend]。回来以后他们没那么累了[and they feel less tired after that]。所以（So…）多接触自然对心情很好[so being close to nature is good for our mood]。",
+    "a": "是的（Yes, definitely.），待在自然的地方能让人心情变好[staying in a natural place can make people feel better]。因为（because…）到外面走走能让人放松心情（lifts my mood）[going outside lifts my mood]。比如（For example,…）很多人周末去公园或海边走一走[a lot of people go to the park or the seaside at the weekend]。而且（Also,…）在花园里晒晒太阳也很舒服[also, sitting in the sun in a garden feels nice too]。所以（So…）多接触自然对心情很好[so being close to nature is good for our mood]。",
     "g": "情绪",
-    "p": ["Yes, definitely.", "because…", "lifts my mood", "For example,…", "So…"]
+    "p": ["Yes, definitely.", "because…", "lifts my mood", "For example,…", "Also,…", "So…"]
   },
   "feishu-revisit-city||What's the difference between the city and the countryside?": {
-    "a": "我觉得（I think…）城市和乡村很不一样[cities and the countryside are very different]。因为（because…）城市有更多工作和学校[cities have more jobs and schools]。但城市生活更快也更贵[but city life is faster and more expensive]。比如（For example,…）很多人去大城市找工作[a lot of people go to big cities to find jobs]。而乡村的人有更多空间[while people in the countryside have more space]。所以（So…）哪个更好要看你想要什么生活[so which is better depends on the life you want]。",
+    "a": "我觉得（I think…）城市和乡村很不一样[cities and the countryside are very different]。因为（because…）城市有更多工作和学校[cities have more jobs and schools]。比如（For example,…）很多人去大城市找工作和上学[a lot of people go to big cities to find jobs and study]。而且（Also,…）乡村的空气更干净、生活更安静[also, the countryside has cleaner air and a quieter life]。所以（So…）哪个更好要看你想要什么生活[so which is better depends on the life you want]。",
     "g": "钱",
-    "p": ["I think…", "because…", "For example,…", "So…"]
+    "p": ["I think…", "because…", "For example,…", "Also,…", "So…"]
   },
   "feishu-revisit-city||Some people say large cities are suitable for old people. What do you think?": {
-    "a": "我觉得（I think…）大城市对老人有好也有坏[big cities have good and bad sides for old people]。因为（because…）城市里医院和公交很方便[hospitals and buses are easy to reach in cities]。老人看病、出门都容易[so it's easy for old people to see a doctor and go out]。但城市很吵，花钱也多[but cities are noisy and expensive]。比如（For example,…）很多老人喜欢住安静的小区[a lot of old people like to live in a quiet area]。所以（So…）小区好不好比城市大不大更重要[so a good neighbourhood matters more than a big city]。",
+    "a": "我觉得（I think…）大城市对老人其实挺方便[big cities are quite convenient for old people]。因为（because…）城市里医院和公交都很近[hospitals and buses are close in cities]。比如（For example,…）很多老人看病、坐公交出门都很容易[a lot of old people can see a doctor and take the bus easily]。而且（Also,…）城市里的公园和活动也很多[also, cities also have a lot of parks and activities]。所以（So…）大城市其实很适合老人[so big cities really suit old people]。",
     "g": "情绪",
-    "p": ["I think…", "because…", "For example,…", "So…"]
+    "p": ["I think…", "because…", "For example,…", "Also,…", "So…"]
   },
   "feishu-revisit-city||Do you think it is possible that all of the population move to cities?": {
-    "a": "不太可能（Not really.），我觉得不会所有人都搬到城市[I don't think everyone will move to cities]。因为（because…）城市没法给所有人便宜的房子[cities can't give everyone cheap homes]。而且农村也需要有人种粮食[and the countryside needs people to grow food]。比如（For example,…）很多人还是喜欢农村安静的生活[a lot of people still like the quiet life in the countryside]。现在有人在家上班，不用住大城市[and some people work from home now]。所以（So…）城市和农村都会一直有人住[so both cities and the countryside will always have people]。",
+    "a": "不太可能（Not really.），我觉得不会所有人都搬到城市[I don't think everyone will move to cities]。因为（because…）城市没法给所有人便宜的房子[cities can't give everyone cheap homes]。比如（For example,…）很多人还是喜欢农村安静又便宜的生活[a lot of people still like the quiet, cheap life in the countryside]。而且（Also,…）有些人的工作也在农村，比如种地[also, some people's jobs are in the countryside too, like farming]。所以（So…）城市和农村都会一直有人住[so both cities and the countryside will always have people]。",
     "g": "钱",
-    "p": ["Not really.", "because…", "For example,…", "So…"]
+    "p": ["Not really.", "because…", "For example,…", "Also,…", "So…"]
   },
   "feishu-revisit-city||Do you think people in the countryside are friendlier than people in the city?": {
-    "a": "要看情况（It depends, but usually…）农村的人常常更友好一些[people in the countryside are often a bit friendlier]。因为（because…）农村社区小，邻居见面更多[villages are small, so neighbours meet more often]。大家关系也更近更暖（relationships much closer and warmer）[their relationships are much closer and warmer]。比如（For example,…）在很多村子里大家都互相认识[in a lot of villages everyone knows each other]。有问题会互相帮忙[and they help each other with problems]。所以（So…）城市的人看起来没那么友好[so people in cities seem less friendly]。但这不代表他们不好[but it doesn't mean they are unkind]。",
+    "a": "要看情况（It depends, but usually…）农村的人常常更友好一些[people in the countryside are often a bit friendlier]。因为（because…）农村社区小，邻居见面多，关系更近更暖（relationships much closer and warmer）[villages are small, so their relationships are much closer and warmer]。比如（For example,…）在很多村子里大家都互相认识、互相帮忙[in a lot of villages everyone knows each other and helps out]。而且（Also,…）邻居也常常互相送点自己种的菜[also, neighbours often share vegetables they grow]。所以（So…）农村的人看起来比城市里更友好[so country people seem friendlier than city people]。",
     "g": "关系",
-    "p": ["It depends, but usually…", "because…", "relationships much closer and warmer", "For example,…", "So…"]
+    "p": ["It depends, but usually…", "because…", "relationships much closer and warmer", "For example,…", "Also,…", "So…"]
   },
   "feishu-revisit-city||Are there any changes in your city?": {
-    "a": "是的（Yes, definitely.），这几年我的城市变化很大[my city has changed a lot in recent years]。因为（because…）城市修了新地铁和公园[the city has built new metro lines and parks]。很多旧地方也更干净了[and many old areas are cleaner now]。比如（For example,…）现在很多人坐地铁上班[a lot of people take the metro to work now]。地铁又快又方便（time-saving and efficient）[it is time-saving and efficient]。所以（So…）大家出门方便多了[so it's much easier to go out]。不过人越来越多，交通也成了问题[but with more people, traffic is a problem too]。",
+    "a": "是的（Yes, definitely.），这几年我的城市变化很大[my city has changed a lot in recent years]。因为（because…）城市修了新地铁，出门又快又方便（time-saving and efficient）[the new metro is time-saving and efficient]。比如（For example,…）现在很多人坐地铁上班，不用堵车[a lot of people take the metro to work now instead of sitting in traffic]。而且（Also,…）城市里也建了很多新公园[also, the city has also built a lot of new parks]。所以（So…）大家出门方便多了[so it's much easier to go out now]。",
     "g": "钱",
-    "p": ["Yes, definitely.", "because…", "For example,…", "time-saving and efficient", "So…"]
+    "p": ["Yes, definitely.", "because…", "time-saving and efficient", "For example,…", "Also,…", "So…"]
   },
   "feishu-revisit-city||What should the government do to improve": {
-    "a": "我觉得（I think…）政府可以做很多事让城市更好[the government can do a lot to make the city better]。因为（because…）好的公交和便宜的房子能帮很多人[good buses and cheap homes help a lot of people]。让房子更便宜（affordable）也让生活更方便[making homes affordable makes life easier]。比如（For example,…）政府可以修更多地铁和公园[the government can build more metro lines and parks]。也让每个小区都有学校和诊所[and give every area schools and clinics]。所以（So…）大家的生活会更好也更公平[so people's life will be better and fairer]。",
+    "a": "我觉得（I think…）政府可以做很多事让城市更好[the government can do a lot to make the city better]。因为（because…）城市里最大的问题就是房子太贵[the biggest problem in the city is that homes are too expensive]。比如（For example,…）政府可以建更便宜、买得起的房子（affordable）[the government can build cheaper, affordable homes]。而且（Also,…）政府也可以修更多地铁，让大家出行方便[the government can also build more metro lines so people travel easily]。所以（So…）大家的生活会更好也更方便[so people's life will be better and easier]。",
     "g": "钱",
-    "p": ["I think…", "because…", "affordable", "For example,…", "So…"]
+    "p": ["I think…", "because…", "For example,…", "affordable", "Also,…", "So…"]
   },
   "feishu-childhood-skill||What skills should children learn before they go to school?": {
-    "a": "我觉得（I think…）孩子上学前应该学一些简单的技能[children should learn some simple skills before school]。因为（because…）他们要学会和别人交流、分享[they need to learn to talk and share with others]。也要懂一些安全的规矩[and know some safety rules]。比如（For example,…）很多孩子学着自己穿衣服、洗手[a lot of children learn to dress and wash their hands]。这样他们更独立[so they become more independent]。所以（So…）这些技能让他们上学后更好适应[so these skills help them fit in at school]。",
+    "a": "我觉得（I think…）孩子上学前应该学一些简单的技能[children should learn some simple skills before school]。因为（because…）这些技能能帮他们更好地和别人相处[these skills help them get on with others]。比如（For example,…）很多孩子学着自己穿衣服、洗手[a lot of children learn to dress and wash their hands]。而且（Also,…）他们也学着和小朋友一起分享玩具[they also learn to share toys with other children]。所以（So…）这些技能让他们上学后更好适应[so these skills help them fit in at school]。",
     "g": "规矩",
-    "p": ["I think…", "because…", "For example,…", "So…"]
+    "p": ["I think…", "because…", "For example,…", "Also,…", "So…"]
   },
   "feishu-childhood-skill||What are the differences between learning in a group and learning by yourself?": {
-    "a": "我觉得（I think…）小组学习和自己学很不一样[learning in a group and learning alone are quite different]。因为（because…）小组里你可以和别人讨论[in a group you can talk with others]。面对面交流（face-to-face communication）能得到帮助[face-to-face communication gives you help]。而自己学更安静，可以按自己速度[but learning alone is quieter and at your own speed]。比如（For example,…）很多学生一起练口语时会互相帮忙[a lot of students help each other when they practise speaking]。所以（So…）两种方法各有各的好[so both ways have their own good points]。",
+    "a": "我觉得（I think…）小组学习和自己学很不一样[learning in a group and learning alone are quite different]。因为（because…）在小组里你能和别人面对面交流（face-to-face communication）[in a group you get face-to-face communication]。比如（For example,…）很多学生一起练口语时会互相帮忙[a lot of students help each other when they practise speaking]。而且（Also,…）自己学的时候可以按自己的速度慢慢来[when learning alone you can go at your own pace]。所以（So…）两种方法各有各的好[so both ways have their own good points]。",
     "g": "关系",
-    "p": ["I think…", "because…", "face-to-face communication", "For example,…", "So…"]
+    "p": ["I think…", "because…", "face-to-face communication", "For example,…", "Also,…", "So…"]
   },
   "feishu-childhood-skill||What are the differences between the way adults earn and the way children learn?": {
-    "a": "我觉得（I think…）大人和小孩学东西的方法很不一样[adults and children learn in very different ways]。因为（because…）大人学东西常常有清楚的目标[adults usually learn with a clear goal]。像是为了工作[for example, for their job]。而小孩时间多，常常在玩里学[but children have more time and learn through play]。比如（For example,…）很多大人下班后学英语是为了更好的工作[a lot of adults learn English after work for a better job]。而小孩通过游戏很快学会[but children learn quickly through games]。所以（So…）大人经验多，但小孩更不怕犯错[so adults have more experience, but children fear mistakes less]。",
+    "a": "我觉得（I think…）大人和小孩学东西的方法很不一样[adults and children learn in very different ways]。因为（because…）大人学东西常常是为了工作，有清楚的目标[adults usually learn for their job, with a clear goal]。比如（For example,…）很多大人下班后学英语，是想找更好的工作[a lot of adults learn English after work for a better job]。而且（Also,…）小孩常常在玩游戏的时候就学会了新东西[children often learn new things while playing games]。所以（So…）大人更有目标，小孩更不怕犯错[so adults are more goal-focused, and children fear mistakes less]。",
     "g": "目标",
-    "p": ["I think…", "because…", "For example,…", "So…"]
+    "p": ["I think…", "because…", "For example,…", "Also,…", "So…"]
   },
   "feishu-childhood-skill||Do you think it is easier for children to learn new skills than for adults?": {
-    "a": "要看情况（It depends, but usually…）我觉得有些新技能（learn new skills）小孩学得更快[children learn some new skills faster]。因为（because…）小孩练习时间多，也不太怕犯错[children practise more and fear mistakes less]。所以学语言很快[so they learn languages quickly]。比如（For example,…）很多小孩学游泳或外语都很快[a lot of children learn swimming or a foreign language very quickly]。但大人可以定一个清楚的目标[but adults can set a clear goal]。所以（So…）谁学得更容易要看是什么技能[so who learns more easily depends on the skill]。而且经常练习最重要[and practising often is the most important]。",
+    "a": "要看情况（It depends, but usually…）有些新技能（learn new skills）小孩确实学得更快[children learn some new skills faster]。因为（because…）小孩练习的时间多，也不太怕犯错[children practise more and fear mistakes less]。比如（For example,…）很多小孩学游泳或外语都很快[a lot of children learn swimming or a foreign language very quickly]。而且（Also,…）大人常常太忙，没有那么多时间练[adults are often too busy and have less time to practise]。所以（So…）谁学得更容易，主要看是什么技能[so who learns more easily mainly depends on the skill]。",
     "g": "目标",
-    "p": ["It depends, but usually…", "learn new skills", "because…", "For example,…", "So…"]
+    "p": ["It depends, but usually…", "learn new skills", "because…", "For example,…", "Also,…", "So…"]
   },
   "feishu-childhood-skill||Can a child learn skills from another child?": {
-    "a": "是的（Yes, definitely.），孩子可以从别的孩子那里学到东西[a child can learn things from another child]。因为（because…）孩子常常模仿朋友玩游戏、画画[children often copy games and drawing from friends]。他们用很简单的话解释，容易懂[they explain in simple words, so it's easy to understand]。比如（For example,…）很多小孩看别人怎么玩就学会了[a lot of children learn by watching others play]。这样学也很开心[and they feel happy learning this way]。所以（So…）孩子之间互相学习很有用[so children learning from each other is very useful]。不过危险的活动，大人要在旁边保证安全[but for dangerous activities, adults should keep them safe]。",
+    "a": "是的（Yes, definitely.），孩子可以从别的孩子那里学到东西[a child can learn things from another child]。因为（because…）孩子常常模仿朋友玩游戏、画画[children often copy games and drawing from friends]。比如（For example,…）很多小孩看别人怎么玩，很快就学会了[a lot of children learn quickly by watching others play]。而且（Also,…）年纪大一点的孩子也会教弟弟妹妹[older children also teach their younger brothers and sisters]。所以（So…）孩子之间互相学习很有用[so children learning from each other is very useful]。",
     "g": "关系",
-    "p": ["Yes, definitely.", "because…", "For example,…", "So…"]
+    "p": ["Yes, definitely.", "because…", "For example,…", "Also,…", "So…"]
   },
   "feishu-childhood-skill||Is it important for everyone to have a specialized skill?": {
-    "a": "我觉得（I think…）有一项拿手的技能很有用[having one strong skill is useful]。但不是每个人都必须有[but not everyone must have one]。因为（because…）一项好技能能让人更自信[a good skill makes people more confident]。也能带来更多工作机会[and brings more job chances]。比如（For example,…）很多有手艺的人更容易找到工作[a lot of people with a skill find jobs more easily]。工资也更高[and get higher pay]。所以（So…）我觉得先学好基本的生活技能最重要[so I think learning basic life skills first is the most important]。",
+    "a": "我觉得（I think…）有一项拿手的技能很有用[having one strong skill is useful]。因为（because…）一项好技能能带来更多工作机会[a good skill brings more job chances]。比如（For example,…）很多有手艺的人更容易找到工作[a lot of people with a skill find jobs more easily]。而且（Also,…）有了拿手的技能，人也会更有自信[with a strong skill, people also feel more confident]。所以（So…）我觉得每个人最好都有一项拿手的技能[so I think everyone had better have one strong skill]。",
     "g": "钱",
-    "p": ["I think…", "because…", "For example,…", "So…"]
+    "p": ["I think…", "because…", "For example,…", "Also,…", "So…"]
   },
   "feishu-waste-time||How do you balance life and work?": {
-    "a": "我觉得（I think…）想平衡工作和生活，最好先做个计划[to balance work and life, it's best to make a plan]。因为（because…）先做最重要的工作，按时下班[do the important work first and leave on time]。这样就能留时间给生活[then you have time for life]。比如（For example,…）很多人下班后去锻炼、陪家人吃饭[a lot of people exercise or eat with family after work]。这样能让他们放松[and this helps them relax]。所以（So…）工作和生活分开，人会更开心[so keeping work and life apart makes people happier]。这样才是健康平衡的生活（balanced lifestyle）[this is a balanced lifestyle]。",
+    "a": "我觉得（I think…）想平衡工作和生活，最好先做个计划[to balance work and life, it's best to make a plan]。因为（because…）有了计划，就能按时下班，留时间给自己[with a plan, you can leave on time and keep time for yourself]。比如（For example,…）很多人下班后去锻炼或陪家人吃饭[a lot of people exercise or eat with family after work]。而且（Also,…）周末也可以放下手机，出去走走[at weekends you can also put down the phone and go out]。所以（So…）这样才是健康平衡的生活（balanced lifestyle）[so this is a healthy, balanced lifestyle]。",
     "g": "目标",
-    "p": ["I think…", "because…", "For example,…", "So…", "balanced lifestyle"]
+    "p": ["I think…", "because…", "For example,…", "Also,…", "So…", "balanced lifestyle"]
   },
   "feishu-waste-time||Will you continue doing something when you are aware that it's a waste of time?": {
-    "a": "要看情况（It depends, but usually…）如果那件事能让人放松，我可能会再做一会儿[if it helps people relax, I may do it a bit longer]。因为（because…）休闲时间不用每件事都有产出[free time doesn't need to be useful all the time]。放松一下很正常[relaxing a little is normal]。比如（For example,…）很多人累了会刷一会儿手机[a lot of people scroll on their phone when they are tired]。但他们会给自己定个时间[but they set themselves a time]。所以（So…）短时间放松没问题，但要有个限制[so relaxing for a short time is fine, but you need a limit]。最好用一种有节制的方式（moderate and rational way）[it's best to do it in a moderate and rational way]。",
+    "a": "要看情况（It depends, but usually…）如果那件事能让人放松，我可能会再做一会儿[if it helps people relax, I may do it a bit longer]。因为（because…）休闲时间不用每件事都有产出[free time doesn't need to be useful all the time]。比如（For example,…）很多人累了会刷一会儿手机[a lot of people scroll on their phone when tired]。而且（Also,…）他们常常会给自己定个时间，时间到就停[they often set themselves a time and stop when it is up]。所以（So…）最好用一种有节制的方式（moderate and rational way）去放松[so it's best to relax in a moderate and rational way]。",
     "g": "情绪",
-    "p": ["It depends, but usually…", "because…", "For example,…", "So…", "moderate and rational way"]
+    "p": ["It depends, but usually…", "because…", "For example,…", "Also,…", "So…", "moderate and rational way"]
   },
   "feishu-waste-time||What kinds of things make people feel pressured?": {
-    "a": "我觉得（I think…）很多事情都会让人有压力[a lot of things can make people feel stressed]。因为（because…）钱的问题和考试都让人紧张[money problems and exams make people nervous]。特别是事情太多、时间不够的时候[especially when there's too much to do and not enough time]。比如（For example,…）很多学生考试前会很紧张[a lot of students feel very nervous before exams]。很多上班的人也担心钱不够[and a lot of workers worry about money]。所以（So…）压力大的时候，把事情拆成小步来做会有帮助[so when stressed, doing things in small steps helps]。和家人聊聊也让人好受一些[and talking to family makes people feel better]。",
+    "a": "我觉得（I think…）很多事情都会让人有压力[a lot of things can make people feel stressed]。因为（because…）钱的问题和考试都让人紧张[money problems and exams make people nervous]。比如（For example,…）很多学生考试前会睡不好[a lot of students can't sleep well before exams]。而且（Also,…）很多上班的人也担心钱不够花[a lot of workers also worry about not having enough money]。所以（So…）压力大的时候，把事情拆成小步做会有帮助[so when stressed, doing things in small steps helps]。",
     "g": "情绪",
-    "p": ["I think…", "because…", "For example,…", "So…"]
+    "p": ["I think…", "because…", "For example,…", "Also,…", "So…"]
   },
   "feishu-waste-time||Why do some people refuse to abide by rules?": {
-    "a": "我觉得（I think…）有些人不愿意遵守规矩[some people don't follow the rules]。因为（because…）他们觉得这个规矩不公平[they think the rule is unfair]。比如（For example,…）很多人看到别人违规也没事[a lot of people see others break a rule with no result]。所以他们也跟着做[so they break it too]。所以（So…）管理者最好把原因讲清楚[so managers should explain the reasons clearly]。",
+    "a": "我觉得（I think…）有些人不愿意遵守规矩[some people don't follow the rules]。因为（because…）他们觉得这个规矩不公平[they think the rule is unfair]。比如（For example,…）排队太慢的时候，有人就想插队[when the queue is slow, some people want to cut in line]。而且（Also,…）有的人只是觉得没人管，就不当回事[some people just think no one is watching and ignore it]。所以（So…）管理者最好把原因讲清楚[so managers should explain the reasons clearly]。",
     "g": "规矩",
-    "p": ["I think…", "because…", "For example,…", "So…"]
+    "p": ["I think…", "because…", "For example,…", "Also,…", "So…"]
   },
   "feishu-good-shop-service||Can consumption drive economic growth?": {
-    "a": "是的（Yes, definitely.），花钱能帮助经济变好[spending money can help the economy grow]。因为（because…）人们买东西，商店就能赚钱[when people buy things, shops make money]。比如（For example,…）很多家庭买本地的食物[a lot of families buy local food]。所以钱会流到工人那里[so the money goes to workers]。所以（So…）大家花得越多，经济长得越快[the more people spend, the faster the economy grows]。",
+    "a": "是的（Yes, definitely.），花钱能帮助经济变好[spending helps the economy]。因为（because…）我们花的钱能让很多店铺有生意[the money we spend gives shops business]。比如（For example,…）我们去餐厅吃饭，这家店就赚到钱了[when we eat at a restaurant, the restaurant earns money]。而且（Also,…）我们坐地铁、看电影，也是在花钱[we also spend money when we take the metro or watch a film]。所以（So…）大家多花钱，经济就会更好[so when people spend more, the economy gets better]。",
     "g": "钱",
-    "p": ["Yes, definitely.", "because…", "For example,…", "So…"]
+    "p": ["Yes, definitely.", "because…", "For example,…", "Also,…", "So…"]
   },
   "feishu-good-shop-service||What are the advantages and disadvantages of shopping in small shops?": {
-    "a": "我觉得（I think…）小店有好处也有坏处[small shops have good and bad sides]。因为（because…）小店很方便，店员也认识老顾客[small shops are convenient, and staff know regular customers]。比如（For example,…）很多小店老板记得客人喜欢什么[a lot of shop owners remember what customers like]。所以（So…）顾客觉得很亲切，像面对面聊天（face-to-face communication）[so customers feel warm, like a face-to-face talk]。不过小店东西少，价格也贵一点[but small shops have fewer things and higher prices]。",
+    "a": "我觉得（I think…）小店有好处也有坏处[small shops have good and bad sides]。因为（because…）小店店员认识老顾客，能面对面聊天（face-to-face communication）[staff know regular customers and can talk face to face]。比如（For example,…）我们去楼下小店买东西，老板记得我们爱买什么[when we buy at the shop downstairs, the owner remembers what we like]。而且（Also,…）不过小店东西少，价格也贵一点[but small shops have fewer things and higher prices]。所以（So…）买东西方便，但选择没那么多[so it is convenient, but there is less choice]。",
     "g": "关系",
-    "p": ["I think…", "because…", "For example,…", "So…", "face-to-face communication"]
+    "p": ["I think…", "because…", "face-to-face communication", "For example,…", "Also,…", "So…"]
   },
   "feishu-good-shop-service||What are the advantages and disadvantages of shopping online?": {
-    "a": "我觉得（I think…）网上购物很方便，但也有问题[online shopping is convenient, but it has some problems]。因为（because…）网上买东西很方便，又省时间（time-saving and efficient）[it is easy and saves time]。比如（For example,…）很多人喜欢网上买东西，因为可以比价[a lot of people like buying online because they can compare prices]。所以（So…）网上购物越来越流行[so online shopping is more and more popular]。不过顾客不能摸到东西[but customers cannot touch the things]。",
+    "a": "我觉得（I think…）网上购物很方便，但也有问题[online shopping is convenient, but it has some problems]。因为（because…）网上买东西很方便，又省时间（time-saving and efficient）[it is easy and saves time]。比如（For example,…）我们在手机上点几下，东西就送到家[we tap a few times on the phone, and things come to our door]。而且（Also,…）不过买之前摸不到东西，有时会买错[but you cannot touch the things first, so sometimes you buy the wrong one]。所以（So…）网购很流行，但也要小心一点[so online shopping is popular, but we should be a bit careful]。",
     "g": "钱",
-    "p": ["I think…", "because…", "time-saving and efficient", "For example,…", "So…"]
+    "p": ["I think…", "because…", "time-saving and efficient", "For example,…", "Also,…", "So…"]
   },
   "feishu-good-shop-service||What are the differences between online shopping and in-store shopping?": {
-    "a": "看情况，不过一般来说（It depends, but usually…）两种买法各有好处[both ways have their own good points]。因为（because…）网购随时能买，很省时间（time-saving and efficient）[online shopping is open any time and saves time]。比如（For example,…）很多人买普通东西喜欢网购[a lot of people buy simple things online]。买衣服就去店里试[but they try clothes in the shop]。所以（So…）两种方式可以一起用[so people can use both ways together]。",
+    "a": "看情况，不过一般来说（It depends, but usually…）两种买法各有好处[both ways have their own good points]。因为（because…）网购随时能买，很省时间（time-saving and efficient）[online shopping is open any time and saves time]。比如（For example,…）我们买纸巾就网购，方便又快[we buy tissues online, which is fast and easy]。而且（Also,…）买衣服还是去店里试更好[for clothes it is better to try them in the shop]。所以（So…）两种方式可以一起用[so people can use both ways together]。",
     "g": "钱",
-    "p": ["It depends, but usually…", "because…", "time-saving and efficient", "For example,…", "So…"]
+    "p": ["It depends, but usually…", "because…", "time-saving and efficient", "For example,…", "Also,…", "So…"]
   },
   "feishu-good-shop-service||Why are shopping malls so popular in China?": {
-    "a": "我觉得（I think…）商场在中国很受欢迎[shopping malls are very popular in China]。因为（because…）商场把商店、餐厅和电影院放在一起[a mall puts shops, restaurants and cinemas together]。比如（For example,…）很多家人和朋友喜欢一起去商场（spend quality time）[a lot of families and friends like going to the mall together]。所以（So…）商场成了大家见面的好地方[so the mall becomes a good place to meet]。而且商场大多连着地铁，很方便[and most malls are next to the underground, so it is easy to get there]。",
+    "a": "我觉得（I think…）商场在中国很受欢迎[shopping malls are very popular in China]。因为（because…）商场把商店、餐厅和电影院放在一起[a mall puts shops, restaurants and cinemas together]。比如（For example,…）周末很多人去商场吃饭、看电影（spend quality time）[at weekends a lot of people go to the mall to eat and watch films]。而且（Also,…）夏天商场里有空调，很凉快[in summer the mall has air conditioning and is nice and cool]。所以（So…）商场成了大家见面的好地方[so the mall becomes a good place to meet]。",
     "g": "关系",
-    "p": ["I think…", "because…", "For example,…", "spend quality time", "So…"]
+    "p": ["I think…", "because…", "For example,…", "spend quality time", "Also,…", "So…"]
   },
   "feishu-good-shop-service||Why do some people not like shopping in small shops?": {
-    "a": "我觉得（I think…）有些人不喜欢在小店买东西[some people don't like shopping in small shops]。因为（because…）小店东西少，价格也不清楚[small shops have fewer things and unclear prices]。比如（For example,…）很多人不喜欢老板一直看着自己[a lot of people don't like the owner watching them]。所以他们觉得有压力[so they feel pressured]。所以（So…）这些人更喜欢去大商店[so these people prefer big shops]。",
+    "a": "我觉得（I think…）有些人不喜欢在小店买东西[some people don't like shopping in small shops]。因为（because…）小店东西少，价格也不清楚[small shops have fewer things and unclear prices]。比如（For example,…）我们想买的牌子，小店常常没有[the brand we want is often not in small shops]。而且（Also,…）小店也很少有打折[small shops also rarely have discounts]。所以（So…）这些人更喜欢去大商店[so these people prefer big shops]。",
     "g": "情绪",
-    "p": ["I think…", "because…", "For example,…", "So…"]
+    "p": ["I think…", "because…", "For example,…", "Also,…", "So…"]
   },
   "feishu-saved-money||Should schools teach children how to manage money from a young age?": {
-    "a": "是的（Yes, definitely.），学校应该早点教孩子管理钱[schools should teach children to manage money early]。因为（because…）这是很有用的生活技能（learn new skills）[this is a useful life skill]。比如（For example,…）很多学校用小活动教孩子做简单的预算[a lot of schools use small activities to teach a simple budget]。所以（So…）这些孩子长大后更会花钱[so these children spend money more wisely when they grow up]。而且做选择时也更冷静[and they stay calmer when they choose]。",
+    "a": "是的（Yes, definitely.），学校应该早点教孩子管理钱[schools should teach children to manage money early]。因为（because…）这是很有用的生活技能（learn new skills）[this is a useful life skill]。比如（For example,…）老师可以让孩子用零花钱做一个小预算[teachers can let children make a small budget with pocket money]。而且（Also,…）老师也可以教他们先存钱、再买想要的东西[teachers can also show them to save first and then buy what they want]。所以（So…）这些孩子长大后更会花钱[so these children spend money more wisely when they grow up]。",
     "g": "钱",
-    "p": ["Yes, definitely.", "because…", "learn new skills", "For example,…", "So…"]
+    "p": ["Yes, definitely.", "because…", "learn new skills", "For example,…", "Also,…", "So…"]
   },
   "feishu-saved-money||Should parents teach their children to spend money freely or to save money?": {
-    "a": "看情况，不过一般来说（It depends, but usually…）父母最好教孩子平衡，不要只选一边[parents should teach a balance, not just one side]。因为（because…）孩子可以存一部分钱，再花一小部分[a child can save part of the money and spend a small part]。比如（For example,…）很多父母让孩子为想要的东西存钱[a lot of parents let children save for something they want]。所以（So…）孩子既有自由，又学会存钱[so children have freedom and also learn to save]。而且长大后花钱更小心[and they spend more carefully when they grow up]。",
+    "a": "看情况，不过一般来说（It depends, but usually…）父母最好教孩子平衡，不要只选一边[parents should teach a balance, not just one side]。因为（because…）孩子可以存一部分钱，再花一小部分[a child can save part of the money and spend a small part]。比如（For example,…）孩子想买玩具，就自己先存几周的零花钱[when a child wants a toy, they save pocket money for a few weeks]。而且（Also,…）父母也可以让孩子自己决定买什么[parents can also let children decide what to buy]。所以（So…）孩子既有自由，又学会存钱[so children have freedom and also learn to save]。",
     "g": "钱",
-    "p": ["It depends, but usually…", "because…", "For example,…", "So…"]
+    "p": ["It depends, but usually…", "because…", "For example,…", "Also,…", "So…"]
   },
   "feishu-saved-money||Do you think it is easier to teach teenagers how to manage money when they are around 16 or 17 years old?": {
-    "a": "是的（Yes, definitely.），教这个年龄的孩子管理钱更容易[it is easier to teach teenagers of this age to manage money]。因为（because…）他们已经懂价格，也会用手机付钱[they already understand prices and can use phone payment]。比如（For example,…）很多这个年纪的学生会自己买东西[a lot of students of this age buy things by themselves]。所以（So…）教他们做预算和存钱更有用[so teaching them budgets and saving is more useful]。不过基础习惯应该更早开始[but basic habits should start earlier]。",
+    "a": "是的（Yes, definitely.），教这个年龄的孩子管理钱更容易[it is easier to teach teenagers of this age to manage money]。因为（because…）他们已经懂价格，也会用手机付钱[they already understand prices and can use phone payment]。比如（For example,…）他们自己去买奶茶、坐地铁，都要花钱[they buy milk tea and take the underground by themselves]。而且（Also,…）他们也开始有自己的零花钱要管[they also start to have their own pocket money to manage]。所以（So…）教他们做预算和存钱更有用[so teaching them budgets and saving is more useful]。",
     "g": "钱",
-    "p": ["Yes, definitely.", "because…", "For example,…", "So…"]
+    "p": ["Yes, definitely.", "because…", "For example,…", "Also,…", "So…"]
   },
   "feishu-saved-money||Is it easier to spend money or save money?": {
-    "a": "我觉得（I think…）花钱通常比存钱容易[spending money is usually easier than saving]。因为（because…）广告和手机支付让买东西很快[adverts and phone payment make buying very fast]。比如（For example,…）很多人一看到打折就想买[a lot of people want to buy as soon as they see a discount]。但存钱要慢慢等[but saving needs waiting]。所以（So…）大部分人觉得存钱更难[so most people think saving is harder]。",
+    "a": "我觉得（I think…）花钱通常比存钱容易[spending money is usually easier than saving]。因为（because…）广告和手机支付让买东西很快[adverts and phone payment make buying very fast]。比如（For example,…）我们一看到打折，点一下就买了[as soon as we see a discount, we tap once and buy]。而且（Also,…）存钱要一直忍着不花，比较难[saving means holding back all the time, which is harder]。所以（So…）大部分人觉得存钱更难[so most people think saving is harder]。",
     "g": "钱",
-    "p": ["I think…", "because…", "For example,…", "So…"]
+    "p": ["I think…", "because…", "For example,…", "Also,…", "So…"]
   },
   "feishu-saved-money||What kind of things do people usually save money for?": {
-    "a": "我觉得（I think…）人们存钱主要是为了以后的大花费[people mainly save for big costs in the future]。因为（because…）有些东西很贵，要慢慢存[some things are very expensive, so people save little by little]。比如（For example,…）很多人为买房、上学或旅行存钱[a lot of people save for a house, study or travel]。所以（So…）存钱让人心里更踏实[so saving makes people feel safer]。而且有应急的钱，遇到麻烦也不那么担心[and with emergency money, they worry less]。",
+    "a": "我觉得（I think…）人们存钱主要是为了以后的大花费[people mainly save for big costs in the future]。因为（because…）有些东西很贵，要慢慢存[some things are very expensive, so people save little by little]。比如（For example,…）很多人为买房或出去旅行存钱[a lot of people save for a house or a trip]。而且（Also,…）有些人也会存一点钱，以防生病或急用[some people also save a little for illness or an emergency]。所以（So…）存钱让人心里更踏实[so saving makes people feel safer]。",
     "g": "钱",
-    "p": ["I think…", "because…", "For example,…", "So…"]
+    "p": ["I think…", "because…", "For example,…", "Also,…", "So…"]
   },
   "feishu-kept-listening||What kind of topics do young people like to talk about today?": {
-    "a": "我觉得（I think…）年轻人喜欢聊很多不同的话题[young people like talking about many different topics]。因为（because…）他们常聊学习、工作和游戏[they often talk about study, work and games]。比如（For example,…）很多年轻人喜欢聊网上的热门视频[a lot of young people like talking about popular videos online]。所以（So…）聊天让他们和朋友更亲近（relationships much closer and warmer）[so chatting makes them closer to their friends]。而且他们也常聊未来的计划[and they also talk about future plans]。",
+    "a": "我觉得（I think…）年轻人喜欢聊很多不同的话题[young people like talking about many different topics]。因为（because…）他们常聊学习、工作和游戏[they often talk about study, work and games]。比如（For example,…）很多年轻人一起吃饭时聊网上的热门视频[a lot of young people talk about popular videos online when they eat together]。而且（Also,…）他们也喜欢聊喜欢的明星和运动[they also like to talk about their favourite stars and sports]。所以（So…）聊天让他们和朋友更亲近（relationships much closer and warmer）[so chatting makes them closer to their friends]。",
     "g": "关系",
-    "p": ["I think…", "because…", "For example,…", "So…", "relationships much closer and warmer"]
+    "p": ["I think…", "because…", "For example,…", "Also,…", "So…", "relationships much closer and warmer"]
   },
   "feishu-kept-listening||What would happen if the listener didn't listen carefully?": {
-    "a": "我觉得（I think…）如果听的人不认真，会有很多问题[if the listener doesn't listen carefully, there will be problems]。因为（because…）他可能听漏重要的信息，造成误会[they may miss important information and cause a misunderstanding]。比如（For example,…）很多时候说话的人会觉得被忽视[many times the speaker feels ignored]。所以这会伤害两个人的关系[so this can hurt their relationship]。所以（So…）在工作里还会浪费时间[so at work it also wastes time]。",
+    "a": "我觉得（I think…）如果听的人不认真，会有很多问题[if the listener doesn't listen carefully, there will be problems]。因为（because…）他可能听漏重要的信息[they may miss important information]。比如（For example,…）老师说明天要考试，他没听清就没准备[the teacher says there is a test tomorrow, but they miss it and don't prepare]。而且（Also,…）说话的人也会觉得不被尊重[the speaker also feels they are not respected]。所以（So…）这会造成误会，也浪费时间[so this causes a misunderstanding and wastes time]。",
     "g": "关系",
-    "p": ["I think…", "because…", "For example,…", "So…"]
+    "p": ["I think…", "because…", "For example,…", "Also,…", "So…"]
   },
   "feishu-kept-listening||How can we tell if a listener is listening carefully?": {
-    "a": "我觉得（I think…）从一些小动作就能看出来[you can tell from small signs]。因为（because…）认真听的人会看着你，不打断[a careful listener looks at you and does not interrupt]。比如（For example,…）很多人会问一个相关的问题，或者重复重点[a lot of people ask a relevant question or repeat the main point]。所以（So…）我们就知道他真的在听[so we know they are really listening]。而且如果他还记得细节，就更说明他很认真[and if they remember the details, it shows they listened carefully]。",
+    "a": "我觉得（I think…）从一些小动作就能看出来[you can tell from small signs]。因为（because…）认真听的人会看着你，不打断[a careful listener looks at you and does not interrupt]。比如（For example,…）我们说完，他会问一个相关的问题[after we finish, they ask a relevant question]。而且（Also,…）他也会点头，或者回应一两句[they also nod or say a few words back]。所以（So…）我们就知道他真的在听[so we know they are really listening]。",
     "g": "关系",
-    "p": ["I think…", "because…", "For example,…", "So…"]
+    "p": ["I think…", "because…", "For example,…", "Also,…", "So…"]
   },
   "feishu-enjoyable-evening||How do people get along in a big family?": {
-    "a": "我觉得（I think…）大家庭要相处好，最重要的是好好沟通[to get along in a big family, good communication is the most important]。因为（because…）家里人多，习惯不一样[there are many people with different habits]。比如（For example,…）很多大家庭常常一起吃饭或活动（spend quality time）[a lot of big families often eat or do activities together]。所以（So…）大家关系更近，家里更温暖[so people get closer and the family feels warmer]。而且有问题的时候，冷静地谈更好[and when there is a problem, talking calmly is better]。",
+    "a": "我觉得（I think…）大家庭要相处好，最重要的是好好沟通[to get along in a big family, good communication is the most important]。因为（because…）家里人多，习惯不一样[there are many people with different habits]。比如（For example,…）一大家人周末一起吃饭聊天（spend quality time）[the whole family eats and chats together at weekends]。而且（Also,…）遇到问题的时候，大家会坐下来商量[when there is a problem, everyone sits down and talks it over]。所以（So…）大家关系更近，家里更温暖[so people get closer and the family feels warmer]。",
     "g": "关系",
-    "p": ["I think…", "because…", "For example,…", "spend quality time", "So…"]
+    "p": ["I think…", "because…", "For example,…", "spend quality time", "Also,…", "So…"]
   },
   "feishu-changed-decision||When do most children begin to make their own decisions?": {
-    "a": "我觉得（I think…）大部分孩子很小就开始做小决定[most children begin to make small decisions when they are very young]。因为（because…）学龄前的孩子已经会选衣服和食物[preschool children can already choose clothes and food]。比如（For example,…）很多孩子上学后可以在大人帮助下安排作业[a lot of children can plan their homework with an adult's help after starting school]。所以（So…）孩子一步一步学会自己做主[so children learn to make their own choices step by step]。而且孩子越有责任感，父母就给越多自由[and the more responsible a child is, the more freedom parents give]。",
+    "a": "我觉得（I think…）大部分孩子很小就开始做小决定[most children begin to make small decisions when they are very young]。因为（because…）学龄前的孩子已经会选衣服和食物[preschool children can already choose clothes and food]。比如（For example,…）小孩每天早上自己选穿哪件衣服[every morning a small child chooses which clothes to wear]。而且（Also,…）他们也会自己决定先玩哪个玩具[they also decide which toy to play with first]。所以（So…）孩子一步一步学会自己做主[so children learn to make their own choices step by step]。",
     "g": "目标",
-    "p": ["I think…", "because…", "For example,…", "So…"]
+    "p": ["I think…", "because…", "For example,…", "Also,…", "So…"]
   }
 };

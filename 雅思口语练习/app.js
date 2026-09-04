@@ -190,7 +190,7 @@ function loadUiState() {
     if (typeof saved.part2MaterialId === "string") state.part2MaterialId = saved.part2MaterialId;
     if (typeof saved.part2TopicId === "string") state.part2TopicId = saved.part2TopicId;
     if (typeof saved.part3GroupId === "string") state.part3GroupId = saved.part3GroupId;
-    if (saved.part3View === "topics" || saved.part3View === "list") state.part3View = saved.part3View;
+    if (saved.part3View === "topics" || saved.part3View === "list" || saved.part3View === "library") state.part3View = saved.part3View;
     if (saved.readingPositions && typeof saved.readingPositions === "object" && !Array.isArray(saved.readingPositions)) readingPositions = saved.readingPositions;
   } catch (error) {
     console.warn("Unable to restore speaking UI state", error);
@@ -216,7 +216,11 @@ function persistUiState() {
 function currentViewKey() {
   if (state.page === "part1") return `part1:${encodeURIComponent(state.part1Query)}`;
   if (state.page === "part2") return `part2:${state.part2MaterialId}:${state.part2TopicId}`;
-  if (state.page === "part3") return state.part3View === "list" ? "part3:list" : `part3:topics:${state.part3GroupId}`;
+  if (state.page === "part3") {
+    if (state.part3View === "list") return "part3:list";
+    if (state.part3View === "library") return "part3:library";
+    return `part3:topics:${state.part3GroupId}`;
+  }
   return state.page;
 }
 
@@ -806,10 +810,11 @@ function partTwoTopicHtml(topic, { showFramework = true } = {}) {
     ${topic.keys?.length ? `<h3>关键英文句</h3><div class="key-list">${topic.keys.map((line) => `<code>${escapeHtml(line)}</code>`).join("")}</div>` : ""}`;
 }
 
-function partThreeViewTabsHtml(questionCount) {
+function partThreeViewTabsHtml(questionCount, libraryCount) {
   return `<div class="part3-view-tabs" role="tablist" aria-label="Part 3 查看方式">
     <button class="part3-view-tab ${state.part3View === "topics" ? "active" : ""}" type="button" role="tab" aria-selected="${state.part3View === "topics"}" data-part3-view="topics">分主题练习</button>
     <button class="part3-view-tab ${state.part3View === "list" ? "active" : ""}" type="button" role="tab" aria-selected="${state.part3View === "list"}" data-part3-view="list">本季新题清单 <span>${questionCount}</span></button>
+    <button class="part3-view-tab ${state.part3View === "library" ? "active" : ""}" type="button" role="tab" aria-selected="${state.part3View === "library"}" data-part3-view="library">理由 + 例子库 <span>${libraryCount}</span></button>
   </div>`;
 }
 
@@ -822,6 +827,56 @@ function partThreeQuestionPreviewHtml(group, item) {
     <p class="question">${escapeHtml(item.question)}</p>
     ${item.translation?.question ? `<p class="translation"><strong>题目：</strong>${escapeHtml(item.translation.question)}</p>` : ""}
     ${partThreeAnswerHtml(item, group.id)}`;
+}
+
+// 从「五句式」中文答案里抽出「理由」句（因为…）和「例子」句（比如…），拆成中文 + 英文提示。
+// 全角（）里是核心词块，半角[]里是顺口英文；这里把连接词滤掉，留下有信息量的英文。
+const P3_LIB_CONNECTORS = new Set(["I think…", "Yes, definitely.", "Not really.", "It depends, but usually…", "because…", "mainly because…", "For example,…", "Also,…", "So…"]);
+function p3ReasonExample(text) {
+  const sentences = String(text || "").split("。").filter(Boolean);
+  const pick = (kw) => sentences.find((s) => s.includes(kw)) || "";
+  const cnOf = (s) => s.replace(/（[^）]*）/g, "").replace(/\[[^\]]*\]/g, "").replace(/^\s*(主要是)?(因为|而且|比如|所以|我觉得)，?/, "").trim();
+  const enOf = (s) => {
+    const hints = [...s.matchAll(/\[([^\]]*)\]/g)].map((m) => m[1]);
+    const chunks = [...s.matchAll(/（([^）]*)）/g)].map((m) => m[1]).filter((c) => !P3_LIB_CONNECTORS.has(c));
+    let en = hints.join(" ").trim();
+    if (!en) en = chunks.join(", ").trim();
+    else if (chunks.length) en = `${chunks.join(", ")} — ${en}`;
+    return en;
+  };
+  const r = pick("因为");
+  const e = pick("比如");
+  return { reasonCn: cnOf(r), reasonEn: enOf(r), exCn: cnOf(e), exEn: enOf(e) };
+}
+
+function partThreeLibraryHtml(groups) {
+  const catOf = (category) => (category || "").replace(/类$/, "");
+  const sections = groups.filter((group) => group.isLatest).map((group) => {
+    const rows = group.items.map((item) => {
+      const override = p3Override(group.id, item.question);
+      const answer = (override && override.a) || item.translation?.answer || "";
+      const { reasonCn, reasonEn, exCn, exEn } = p3ReasonExample(answer);
+      if (!reasonCn && !exCn) return "";
+      return `<div class="p3-lib-qrow">
+        <p class="p3-lib-q">${escapeHtml(item.question)}</p>
+        <div class="p3-lib-pair"><span class="p3-lib-lbl reason">理由</span><div><p class="p3-lib-cn">${escapeHtml(reasonCn || "—")}</p>${reasonEn ? `<p class="p3-lib-en">${escapeHtml(reasonEn)}</p>` : ""}</div></div>
+        <div class="p3-lib-pair"><span class="p3-lib-lbl example">例子</span><div><p class="p3-lib-cn">${escapeHtml(exCn || "—")}</p>${exEn ? `<p class="p3-lib-en">${escapeHtml(exEn)}</p>` : ""}</div></div>
+      </div>`;
+    }).join("");
+    if (!rows) return "";
+    return `<section class="p3-lib-topic group-section">
+      <div class="p3-lib-topic-header"><span class="badge">${escapeHtml(catOf(group.category))}</span><h3>${escapeHtml(group.title)}</h3><span class="p3-lib-topic-meta">${group.items.length} 题</span></div>
+      ${rows}
+    </section>`;
+  }).join("");
+  return `<section class="panel p3-question-index">
+    <header class="panel-header">
+      <span class="eyebrow">PART 3 · REASONS &amp; EXAMPLES</span>
+      <h2>理由 + 例子库</h2>
+      <p>每道新题抽出它的<strong>理由</strong>和<strong>例子</strong>，中英对照。橙色是理由、蓝色是例子，下面浅色是要背的英文。</p>
+    </header>
+    <div class="panel-body p3-lib-body">${sections || '<p class="empty-state">暂无可展示的理由与例子。</p>'}</div>
+  </section>`;
 }
 
 function partThreeQuestionListHtml(groups) {
@@ -876,12 +931,13 @@ function renderPartThree() {
     });
   const listGroups = groups;
   const listQuestionCount = listGroups.reduce((total, group) => total + group.items.length, 0);
+  const libraryQuestionCount = listGroups.reduce((total, group) => total + (group.isLatest ? group.items.length : 0), 0);
   const selected = groups.find((group) => group.id === state.part3GroupId) || groups[0];
   const answerModeLabel = selected.items.some((item) => item.answerLanguage !== "zh") ? "中英答案" : "中文答案";
   state.part3GroupId = selected.id;
   main.innerHTML = `
-    ${partThreeViewTabsHtml(listQuestionCount)}
-    ${state.part3View === "list" ? partThreeQuestionListHtml(listGroups) : `<div class="content-grid">
+    ${partThreeViewTabsHtml(listQuestionCount, libraryQuestionCount)}
+    ${state.part3View === "list" ? partThreeQuestionListHtml(listGroups) : state.part3View === "library" ? partThreeLibraryHtml(listGroups) : `<div class="content-grid">
       <aside class="sidebar" aria-label="观点分类"><span class="sidebar-label">选择主题</span>${groups.map((group) => `<button class="sidebar-button ${group.id === selected.id ? "active" : ""}" type="button" data-part3-id="${escapeHtml(group.id)}"><strong>${escapeHtml(group.title)}${reviewFrequencyTag(partThreeReviewMeta(group.id), { showUnlisted: true })}${group.isNew ? `<span class="new-tag">${group.isLatest ? "本次新增" : "新题"}</span>` : ""}</strong><small>${escapeHtml(group.category)} · ${group.items.length} 题</small></button>`).join("")}</aside>
       <section class="panel">
         <header class="panel-header"><span class="eyebrow">${selected.isNew ? `${selected.isLatest ? "本次新增" : "新题"} · ${answerModeLabel} · ` : ""}${escapeHtml(selected.category)} · 对应 Part 2：${escapeHtml(selected.partTwo)}</span><h2>${escapeHtml(selected.title)}${reviewFrequencyTag(partThreeReviewMeta(selected.id), { showUnlisted: true })}</h2></header>
