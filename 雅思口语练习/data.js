@@ -5,7 +5,7 @@ window.IELTS_DATA = {
   "reviewGuide": {
     "source": "9月雅思口语保留题复习顺序（保留题）",
     "part2": [
-      { "order": 1, "frequency": "超高频", "targetMaterialId": "object-tips", "question": "Describe a gift you would like to buy for your friend" },
+      { "order": 1, "frequency": "超高频", "targetMaterialId": "object-tips", "question": "Describe a gift you would like to buy for yourfriend" },
       { "order": 2, "frequency": "超高频", "targetMaterialId": "people-tips", "question": "Describe a time when you felt proud of a family member" },
       { "order": 3, "frequency": "超高频", "targetMaterialId": "object-tips", "question": "Describe a long-term goal/ambition you would like to achieve" },
       { "order": 3, "frequency": "超高频", "targetMaterialId": "object-tips", "question": "Describe a long-term goal you would like to achieve" },
@@ -68,7 +68,7 @@ window.IELTS_DATA = {
       "文档第 7 项和第 10 项均为“擅长学习和说语言的人”，网页按首次出现的位置合并排序。"
     ]
   },
-  "version": "p1-september-v2",
+  "version": "speaking-feishu-2026-09-06",
   "part1": [
     {
       "id": "september-names",
@@ -110,7 +110,7 @@ window.IELTS_DATA = {
     {
       "id": "september-computers-tablets",
       "tab": "电脑与平板",
-      "title": "Computers and tablets",
+      "title": "Computers/Tablets",
       "description": "9 月 Part 1 新题：电脑和平板的选择与使用。",
       "isNew": true,
       "newOrder": 11,
@@ -153,7 +153,7 @@ window.IELTS_DATA = {
     {
       "id": "september-collecting-things",
       "tab": "收藏与旧物",
-      "title": "Collecting and keeping things",
+      "title": "Collecting things",
       "description": "9 月 Part 1 新题：收藏、童年物品和物品收纳。",
       "isNew": true,
       "newOrder": 12,
@@ -263,7 +263,7 @@ window.IELTS_DATA = {
     {
       "id": "september-paper-letters",
       "tab": "纸张与书信",
-      "title": "Paper and letters",
+      "title": "Paper",
       "description": "9 月 Part 1 新题：纸艺、手写信和随身文具。",
       "isNew": true,
       "newOrder": 4,
@@ -342,7 +342,7 @@ window.IELTS_DATA = {
     {
       "id": "september-politeness",
       "tab": "礼貌",
-      "title": "Being polite",
+      "title": "Politeness",
       "description": "9 月 Part 1 新题：礼貌习惯的学习和重要性。",
       "isNew": true,
       "newOrder": 9,
@@ -369,7 +369,7 @@ window.IELTS_DATA = {
     {
       "id": "september-tiredness",
       "tab": "疲劳",
-      "title": "Feeling tired",
+      "title": "Tiredness",
       "description": "9 月 Part 1 新题：疲劳的频率、原因和应对方法。",
       "isNew": true,
       "newOrder": 8,
@@ -455,7 +455,7 @@ window.IELTS_DATA = {
     {
       "id": "september-advertisements",
       "tab": "广告",
-      "title": "Advertisements",
+      "title": "Advertisement",
       "description": "9 月 Part 1 新题：网络、交通和童年广告。",
       "isNew": true,
       "newOrder": 5,
@@ -4968,7 +4968,7 @@ window.IELTS_DATA = {
                 "code": "S8",
                 "name": "想送给朋友的智能手表",
                 "isNew": true,
-                "question": "Describe a gift you would like to buy for your friend",
+                "question": "Describe a gift you would like to buy for yourfriend",
                 "cuePoints": [
                   "How you knew your friend",
                   "How long you have known him/her",
@@ -13888,7 +13888,7 @@ window.IELTS_DATA = {
       "category": "物品类",
       "title": "送礼与选礼",
       "partTwo": "想送给朋友的礼物",
-      "partTwoQuestion": "Describe a gift you would like to buy for your friend",
+      "partTwoQuestion": "Describe a gift you would like to buy for yourfriend",
       "isNew": true,
       "isLatest": true,
       "items": [
@@ -18258,7 +18258,7 @@ window.IELTS_DATA = {
       ]
     },
     {
-      question: "Describe a gift you would like to buy for your friend",
+      question: "Describe a gift you would like to buy for yourfriend",
       memoryChain: {
         story: "朋友 Alex → 同公司认识六年 → 想送智能手表 → 比较评价和兼容性 → 工作提醒加健康监测",
         reasons: [
@@ -20823,7 +20823,7 @@ window.IELTS_DATA = {
   if (!objectMaterial?.tips || !eventMaterial?.tips) return;
 
   const questions = {
-    gift: "Describe a gift you would like to buy for your friend",
+    gift: "Describe a gift you would like to buy for yourfriend",
     saved: "Describe a time when you saved money to buy something you wanted",
     service: "Describe a time when you received good service in a shop/store"
   };
@@ -21008,7 +21008,323 @@ window.IELTS_DATA = {
   }
 })();
 
-// 飞书 2026 年 9–12 月 Part 2&3 新题：25 个题组按文档目录统一置顶。
+// 飞书 9 月 4 日更新，9 月 6 日同步：题干按来源原文保留，答案为练习示例。
+(() => {
+  const data = window.IELTS_DATA;
+  const fruit = data.part1.find((topic) => topic.id === "september-fruit-vegetables");
+  fruit.items.push({
+    question: "Do people in your country like planting vegetables?",
+    answer: "Yes, quite a few people do, especially those with a garden. My grandma grows tomatoes and other vegetables, and she enjoys sharing them with our family. It gives her something relaxing to do every day.",
+    translation: "是的，不少人喜欢，尤其是家里有花园的人。我奶奶会种番茄和其他蔬菜，也喜欢把它们分给家人。这让她每天都有一件可以放松心情的事情做。"
+  });
+  fruit.keyPhrases.push("grows tomatoes and other vegetables", "sharing them with our family");
+  const rubbish = data.part1.find((topic) => topic.id === "september-rubbish-recycling");
+  rubbish.items.push(
+    {
+      question: "Is waste sorting common in your country?",
+      answer: "Yes, it is quite common in many cities. In my neighbourhood, there are different bins for food waste and things that can be recycled. However, some people are still unsure which bin to use.",
+      translation: "是的，在很多城市都挺常见。我住的小区里有不同的垃圾桶，分别放厨余垃圾和可回收物。不过，有些人仍然不太确定该用哪个垃圾桶。"
+    },
+    {
+      question: "Did you recycle when you were a kid?",
+      answer: "Yes, but in a simple way. My family collected old newspapers and plastic bottles and sold them for recycling. I sometimes helped, and it taught me that useful things should not just be thrown away.",
+      translation: "会，但方式很简单。我家会收集旧报纸和塑料瓶，卖给回收的人。我有时会帮忙，这让我懂得有用的东西不应该直接扔掉。"
+    }
+  );
+  rubbish.keyPhrases.push("different bins", "sold them for recycling");
+
+  const item = (question, questionZh, answer, answerZh, materials = []) => ({
+    question, answerLanguage: "en", materials, answer,
+    translation: { question: questionZh, answer: answerZh },
+    structure: "观点 → 原因 → 细节/例子 → 结果或限定"
+  });
+  const groupById = new Map(data.part3.map((group) => [group.id, group]));
+  groupById.get("new-impressive-course").category = "事物类";
+  groupById.get("new-friend-gift").category = "事物类";
+  groupById.get("feishu-handcraft-person").items.push(
+    item(
+      "Is it good to have creative people in a team?",
+      "团队里有富有创造力的人好吗？",
+      "Yes, because they can suggest a different way to solve a problem. For example, when a team struggles to explain an idea, a creative member may draw a simple picture that everyone understands. Other members can learn from this approach too. However, the team still needs to check whether the idea will work in practice.",
+      "好，因为他们能提出不同的解决问题的方法。比如，团队难以解释一个想法时，有创造力的成员可能会画一幅大家都看得懂的简单图画。其他成员也能从这种方法中学习。不过，团队仍然需要检查这个想法在实际中是否可行。",
+      ["M4"]
+    ),
+    item(
+      "Does art, like music or theater, have an impact on society?",
+      "音乐或戏剧等艺术会对社会产生影响吗？",
+      "Yes, art can improve people's mood and bring them together. For example, a local music show gives neighbours a chance to relax and enjoy something together. Traditional songs and plays can also teach younger people about local customs. So art can support both community relationships and the passing on of culture.",
+      "会，艺术能改善人们的心情，也能让大家聚在一起。比如，当地的音乐演出给邻居们提供了共同放松和欣赏表演的机会。传统歌曲和戏剧还能让年轻人了解当地习俗。因此，艺术既能促进社区关系，也能帮助文化传承。",
+      ["M1", "M8"]
+    )
+  );
+  groupById.get("feishu-difficult-success-person").items.push(
+    item(
+      "Other than making money, what is more important for a company?",
+      "除了赚钱，对一家公司来说还有什么更重要？",
+      "I think earning people's trust is more important than making a quick profit. A company should provide reliable products and treat its workers and customers fairly. For example, if a product has a problem, the company should explain it clearly and offer help. This gives customers a reason to return and supports the business in the long run.",
+      "我认为，赢得人们的信任比迅速赚钱更重要。公司应该提供可靠的产品，公平对待员工和顾客。比如，产品出现问题时，公司应该解释清楚并提供帮助。这会让顾客愿意再次购买，也有助于企业长期发展。"
+    ),
+    item(
+      "Is it easy to start up a company?",
+      "创办一家公司容易吗？",
+      "Not really. Even a small business needs money, planning and a clear idea of what customers want. For example, opening a cafe means paying rent before knowing how many people will come. Starting on a small scale can reduce the pressure, but the owner still needs patience and the ability to learn from mistakes.",
+      "不太容易。即使是一家小企业，也需要资金、计划，以及对顾客需求的清楚了解。比如，开咖啡馆意味着还不知道会有多少顾客，就得先交房租。从小规模开始可以减少压力，但经营者仍然需要耐心，也需要有从错误中学习的能力。"
+    ),
+    item(
+      "In which sectors are companies more likely to succeed in China?",
+      "在中国，哪些行业的公司更有可能取得成功？",
+      "I think businesses that make daily life easier have a good chance, such as delivery services and useful software. For example, an app that helps small shops manage orders can save workers time and reduce mistakes. However, being in a popular industry is not enough. A company still needs reliable service and a clear understanding of its customers.",
+      "我认为，让日常生活更方便的企业有不错的机会，比如配送服务和实用软件。比如，帮助小商店管理订单的应用可以节省员工的时间，也能减少错误。不过，身处热门行业还不够。公司仍然需要可靠的服务，以及对顾客的清楚了解。",
+      ["M2"]
+    )
+  );
+  groupById.get("feishu-saved-money").items.push(item(
+    "Should people spend time on charity, or just money?",
+    "人们应该花时间参与慈善，还是只捐钱就够了？",
+    "I think both can help, and people should choose according to their situation. Money can pay for food and equipment, while volunteers can offer practical help and company. For example, visiting an older person gives them someone to talk to. A busy person may donate money instead, but anyone with spare time can consider helping in person.",
+    "我认为两种方式都有帮助，人们应该根据自己的情况选择。钱可以用来购买食物和设备，志愿者则可以提供实际帮助和陪伴。比如，探望一位老人，能让他有个人可以聊天。忙碌的人可以选择捐钱，有空闲时间的人则可以考虑亲自提供帮助。"
+  ));
+  const interviewGroup = groupById.get("new-famous-interview");
+  interviewGroup.items.push(
+    item(
+      "Why do we need to attend interviews when applying for jobs?",
+      "申请工作时，我们为什么需要参加面试？",
+      "Interviews help both sides decide whether the job is a good match. An employer can ask how someone handled a real problem, which gives more detail than a CV. The applicant can also ask about the team and daily work. This can prevent misunderstandings, although an interview cannot show everything about a person.",
+      "面试能帮助双方判断这份工作是否合适。雇主可以问应聘者如何处理过一个真实问题，这比简历提供的信息更具体。应聘者也可以询问团队和日常工作。这能避免误解，不过面试无法展示一个人的全部情况。"
+    ),
+    item(
+      "What should people wear to a job interview?",
+      "人们参加工作面试时应该穿什么？",
+      "They should wear something clean, tidy and suitable for the job. For an office role, a plain shirt and smart trousers are often a sensible choice. The clothes do not have to be expensive, but they should show respect for the occasion. Feeling comfortable also helps people focus on the conversation instead of worrying about their appearance.",
+      "他们应该穿干净、整洁而且适合这份工作的衣服。面试办公室岗位时，素色衬衫和比较正式的长裤通常是合理的选择。衣服不一定要昂贵，但应该体现对场合的尊重。穿得舒服也能让人专注于交谈，而不是一直担心自己的外表。"
+    ),
+    item(
+      "What kind of things do famous people often say in interviews?",
+      "名人在采访中经常谈论什么？",
+      "They often talk about their work, future plans and the difficulties they have faced. For example, an actor may explain how they prepared for a role, while a business owner may describe an early mistake. These stories can teach listeners something useful. However, celebrities may avoid private questions or focus mainly on promoting a new project.",
+      "他们经常谈论自己的工作、未来计划以及遇到过的困难。比如，演员可能会解释自己怎样为一个角色做准备，企业经营者可能会讲述早期犯过的一个错误。这些故事能让听众学到有用的东西。不过，名人可能会回避私人问题，或主要关注新项目的宣传。",
+      ["M4"]
+    )
+  );
+
+  const movieQuestion = "Describe your least favorite movie";
+  const tripQuestion = "Describe a short trip you often take but do not like";
+  data.part3.push(
+    {
+      id: "feishu-least-favorite-movie", category: "事物类", title: "电影与观影方式",
+      partTwo: "最不喜欢的电影", partTwoQuestion: movieQuestion, isNew: true,
+      items: [
+        item(
+          "What kinds of movies are most popular in China?",
+          "在中国，哪些类型的电影最受欢迎？",
+          "I think comedies and action films are among the most popular. Comedies help people relax after a busy week, while action films offer exciting scenes that look good on a big screen. For example, a group of friends may choose a comedy because it is easy to enjoy together. Of course, people's tastes are different.",
+          "我认为喜剧片和动作片是最受欢迎的类型之一。喜剧能帮助人们在忙碌一周后放松，动作片则有适合大银幕观看的刺激场面。比如，一群朋友可能选择喜剧，因为大家容易一起看得开心。当然，每个人的喜好不同。",
+          ["M1"]
+        ),
+        item(
+          "What are the differences between watching movies at home and in a cinema?",
+          "在家看电影和在电影院看电影有什么区别？",
+          "Watching at home is usually cheaper and more flexible because people can pause the film and choose their own snacks. A cinema has a bigger screen and better sound, which can make an action film more exciting. For example, I would choose home for a quiet evening, but a cinema for a special outing with friends.",
+          "在家看电影通常更便宜、更灵活，因为可以暂停电影，也可以自己选择零食。电影院的屏幕更大、音效更好，能让动作片更刺激。比如，想安静地度过一个晚上时，我会在家看；想和朋友特别出去玩一次时，我会选择电影院。",
+          ["M3"]
+        ),
+        item(
+          "Are movies more likely to help people become more creative than books?",
+          "与书籍相比，电影更能帮助人们变得有创造力吗？",
+          "Not necessarily. Films can give people new ideas through images, music and unusual stories. However, books make readers imagine the characters and places for themselves, which also develops creativity. For example, two readers may picture the same room very differently. I think trying different books and films is more useful than saying one is always better.",
+          "不一定。电影能通过画面、音乐和特别的故事给人新想法。不过，书籍需要读者自己想象人物和场景，这也能培养创造力。比如，两位读者想象中的同一个房间可能完全不同。我认为，尝试不同的书和电影，比认定某一种总是更好更有用。",
+          ["M4"]
+        ),
+        item(
+          "Can movies help people better understand the cultural background of a country?",
+          "电影能帮助人们更好地理解一个国家的文化背景吗？",
+          "Yes, films can show everyday habits, family relationships and local traditions. For example, a film about a family festival may show how people prepare food and greet older relatives. These details make another culture easier to understand. However, a film is only one story, so viewers should not assume everyone in that country lives in the same way.",
+          "能，电影可以展示日常习惯、家庭关系和当地传统。比如，一部关于家庭节日的电影，可能会展示人们怎样准备食物、问候年长亲属。这些细节让另一种文化更容易理解。不过，一部电影只是一个故事，所以观众不应该认为那个国家的所有人都过着相同的生活。",
+          ["M8"]
+        )
+      ]
+    },
+    {
+      id: "feishu-disliked-short-trip", category: "事件类", title: "出国旅行与了解世界",
+      partTwo: "不喜欢的短途旅行", partTwoQuestion: tripQuestion, isNew: true,
+      items: [
+        item(
+          "Do Chinese people like travelling abroad?",
+          "中国人喜欢出国旅行吗？",
+          "Many do because they enjoy seeing unfamiliar places and trying different food. A trip abroad can also help people learn how others live. For example, visiting a local market gives a different experience from seeing pictures online. However, the cost, language and time needed mean that some people prefer travelling within China.",
+          "很多人喜欢，因为他们喜欢看陌生的地方、尝试不同的食物。出国旅行也能帮助人们了解别人的生活。比如，逛当地市场的体验就与在网上看照片不同。不过，考虑到费用、语言和所需时间，有些人更喜欢在国内旅行。",
+          ["M4"]
+        ),
+        item(
+          "Who prefers travelling abroad? The young or the old?",
+          "年轻人和老年人，谁更喜欢出国旅行？",
+          "I think younger people may be more willing to try unfamiliar places and plan a trip by themselves. Older people may prefer a slower pace and a tour group that handles transport and language problems. For example, young travellers might try several cities, while older visitors may stay longer in one place. Still, health, money and personal interests matter more than age alone.",
+          "我认为年轻人可能更愿意尝试陌生的地方，并自己安排旅行。老年人可能更喜欢较慢的节奏，以及能处理交通和语言问题的旅行团。比如，年轻游客可能会去几个城市，而年长游客可能在一个地方住得更久。不过，健康、金钱和个人兴趣比年龄本身更重要。",
+          ["C1"]
+        ),
+        item(
+          "How much time do you think people should spend on a trip abroad?",
+          "你认为人们出国旅行应该花多长时间？",
+          "For a first visit, I think about one or two weeks is reasonable if people can afford the time and cost. This gives them a few days to settle in and explore without rushing every morning. A nearby destination may only need a long weekend. The main thing is to leave enough time to rest instead of filling every hour with activities.",
+          "如果时间和费用允许，我认为第一次去某个国家，安排一两周比较合理。这样能有几天时间适应和游览，不必每天早上都赶路。距离近的目的地可能只需要一个长周末。关键是留出足够的休息时间，而不是把每个小时都塞满活动。",
+          ["M1"]
+        ),
+        item(
+          "Which is better for knowing more about a country? Travelling or reading books about it?",
+          "想更多地了解一个国家，去旅行和阅读相关书籍，哪种方式更好？",
+          "I would choose both because they provide different kinds of knowledge. Books can explain a country's history and customs, while travel lets people experience daily life directly. For example, reading about a local market is useful, but visiting it shows how people talk and shop. Reading before a trip can make the experience much more meaningful.",
+          "我会把两种方式结合起来，因为它们提供不同类型的知识。书籍可以解释一个国家的历史和习俗，旅行则让人直接体验日常生活。比如，阅读关于当地市场的介绍很有用，但亲自去逛能看到人们怎样交谈和购物。旅行前先阅读，可以让这段经历更有意义。",
+          ["M4", "M8"]
+        )
+      ]
+    }
+  );
+
+  const materials = new Map(data.part2.map((material) => [material.id, material]));
+  const findCard = (id) => data.part2.flatMap((material) =>
+    (material.tips?.topicGroups || []).flatMap((group) => group.items)
+  ).find((card) => card.id === id);
+  const reason = (text, memory) => ({ text, memory });
+  materials.get("object-tips").tips.topicGroups.unshift({
+    title: "最不喜欢的电影", items: [{
+      id: "p2-feishu-least-favorite-movie", name: "最不喜欢的电影", question: movieQuestion,
+      cuePoints: ["When you watched it", "Where you watched it", "What it was about", "And explain why it's your least favorite movie"],
+      cueTranslations: ["你什么时候看的", "你在哪里看的", "电影讲了什么", "解释为什么它是你最不喜欢的电影"],
+      draftCues: ["last month-at home-detective film", "missing painting-slow conversations", "unlikely ending-disappointed"],
+      focus: "按观看时间、地点、电影内容、不喜欢的原因展开；主线是节奏慢和结局不合理。",
+      body: {
+        text: "I'd like to talk about a detective film I watched at home last month. It was a Saturday evening, and my girlfriend and I wanted to relax after a busy week. We chose it on a video app because the short introduction looked exciting. The story was about a young detective looking for a missing painting. At first, we expected a clever story with interesting clues. However, most of the film was people sitting in dark rooms and having long conversations. After nearly an hour, very little had happened. We kept watching because we wanted to know who had taken the painting. In the end, a person who had hardly appeared before suddenly admitted taking it. I felt disappointed because the ending did not follow the earlier clues. The film was also much longer than it needed to be. Instead of feeling relaxed, I felt that we had wasted our evening. That is why it is my least favourite movie.",
+        translation: "我想讲一部上个月在家看的侦探电影。那是一个周六晚上，我和女朋友想在忙碌一周后放松一下。我们在视频应用上选了它，因为简介看起来很刺激。故事讲的是一位年轻侦探寻找一幅失踪的画。一开始，我们期待一个情节巧妙、线索有趣的故事。然而，电影的大部分内容都是人们坐在昏暗的房间里长时间交谈。将近一个小时过去了，情节却没有什么进展。我们继续看，是因为想知道谁拿走了那幅画。最后，一个之前几乎没出现过的人突然承认是自己拿的。我感到失望，因为这个结局和前面的线索对不上。电影也比实际需要的长得多。我们没有放松下来，反而觉得浪费了一个晚上。所以它是我最不喜欢的电影。",
+        highlights: ["At first", "However", "In the end", "felt disappointed", "wasted our evening"]
+      },
+      memoryChain: { story: "上个月周六在家和女朋友看侦探片 → 找失踪的画 → 期待精彩线索 → 长对话、情节慢 → 陌生人物突然认罪 → 结局不合理、浪费晚上" },
+      pointsLabel: "不喜欢的原因｜按需要选用",
+      reasons: [
+        reason("The story moved too slowly, so I found it hard to stay interested.", "情节进展慢 → 很难保持兴趣"),
+        reason("The ending did not fit the earlier clues, which made the whole story feel less believable.", "结局与线索不符 → 故事不可信"),
+        reason("I wanted to relax, but the film left me bored and disappointed.", "本来想放松 → 最后无聊又失望")
+      ]
+    }]
+  });
+  materials.get("event-tips").tips.topicGroups.unshift({
+    title: "不喜欢的短途旅行", items: [{
+      id: "p2-feishu-disliked-short-trip", name: "不喜欢的短途旅行", question: tripQuestion,
+      cuePoints: ["Where you go", "When you go there", "Why you go there", "And explain why you do not like the trip"],
+      cueTranslations: ["你去哪里", "你什么时候去", "你为什么去那里", "解释为什么你不喜欢这段行程"],
+      draftCues: ["home to office-bus-three mornings a week", "team meetings-rush hour-crowded", "twenty-five minutes to one hour-tired"],
+      focus: "讲经常重复的通勤短途行程；习惯用现在时，具体一次堵车用过去时。",
+      body: {
+        text: "I'd like to talk about the short bus trip from my home to my office. I take it three mornings a week, usually at about eight thirty. I work as a software engineer, and on those days I need to attend team meetings and work with my colleagues in person. The office is not very far away. When the roads are clear, the journey takes about twenty-five minutes. However, I usually travel during rush hour, so the bus is crowded and moves very slowly. Sometimes I have to stand for the whole journey. Last Monday, we were stuck near a busy crossing, and it took almost an hour to arrive. I felt tired before I had even started work. I dislike this trip mainly because it is uncomfortable and difficult to predict. I always leave extra time because I do not want to be late. Although the bus is affordable, I would enjoy my mornings much more if the journey were quieter and shorter.",
+        translation: "我想讲从家里坐公交去办公室的这段短途行程。我每周有三个早上会走这条路，通常八点半左右出发。我是软件工程师，那几天需要参加团队会议，与同事当面合作。办公室离家并不远，路况好的时候大约二十五分钟就能到。然而，我通常赶上早高峰，所以公交车很挤，行驶也很慢。有时我整段路都得站着。上周一，我们堵在一个繁忙路口附近，将近一个小时才到。我还没开始工作就已经累了。我不喜欢这段行程，主要是因为它不舒服，而且时间难以预估。我总会多留些时间，因为不想迟到。虽然公交车价格实惠，但如果路上能安静一些、时间短一些，我的早晨会愉快得多。",
+        highlights: ["three mornings a week", "team meetings", "However", "rush hour", "almost an hour", "difficult to predict"]
+      },
+      memoryChain: { story: "每周三个早上坐公交去办公室 → 开会和同事合作 → 通常二十五分钟 → 早高峰拥挤、一直站着 → 上周堵近一小时 → 没上班就累了 → 不舒服、时间难预估" },
+      pointsLabel: "不喜欢的原因｜按需要选用",
+      reasons: [
+        reason("Standing on a crowded bus makes me tired before the working day begins.", "拥挤公交上站一路 → 上班前就累了"),
+        reason("The journey time changes from day to day, so I worry about arriving late.", "每天耗时不同 → 担心迟到"),
+        reason("I have to leave earlier than necessary, which gives me less time for breakfast and rest.", "不得不提早出门 → 早餐和休息时间更少")
+      ]
+    }]
+  });
+
+  const saved = findCard("p2-feishu-saved-money");
+  saved.question = "Describe a time when you saved money to buy something special";
+  saved.name = "攒钱买特别物品";
+  saved.cuePoints[0] = "What the special thing was";
+  saved.cueTranslations = ["那件特别的物品是什么", "你为什么想买它", "你怎样攒钱买它", "解释买到它之后你的感受"];
+  saved.focus = "讲给自己买的智能手表；特别之处是第一次靠自己持续存钱买到较贵的物品。";
+  saved.draftCues = ["smart watch-first expensive thing saved for", "2,000 yuan-four months-less takeaway and coffee", "reached my goal-proud-value it more"];
+  saved.body = {
+    text: "I'd like to talk about a smart watch I saved money to buy last year. It was special to me because it was the first expensive thing I had bought entirely with money I had put aside myself. I wanted it for meeting reminders and to keep track of my steps and sleep. However, it cost about two thousand yuan, so buying it immediately would have used too much of my monthly budget. I decided to save a fixed amount each month instead. For four months, I ordered less takeaway food, made coffee at home and moved the extra money into a separate account. Sometimes I wanted to spend it on small things, but checking my progress helped me continue. In the end, I had enough to buy the watch without borrowing any money. I felt proud and excited when I put it on. It reminded me that small, regular efforts could help me reach a goal. I still use it every day and value it more because I saved for it myself.",
+    translation: "我想讲一块去年攒钱买的智能手表。它对我很特别，因为这是我第一次完全靠自己一点点存下的钱买到一件较贵的物品。我想用它接收会议提醒，记录步数和睡眠。不过，它大约要两千元，马上购买会占掉太多当月预算。所以我决定每月固定存一笔钱。连续四个月，我少点外卖，在家做咖啡，把省下的钱转进一个单独的账户。有时我想拿这些钱买些小东西，但看看自己的存钱进度，又能继续坚持。最后，我不用借钱就攒够了买手表的钱。戴上它时，我感到自豪又兴奋。它提醒我，持续做一点小小的努力，也能帮助自己实现目标。我现在仍然每天使用它，也因为是自己攒钱买的而更加珍惜它。",
+    highlights: ["special to me", "a fixed amount", "For four months", "checking my progress", "In the end", "proud and excited"]
+  };
+  saved.memoryChain.story = "想买智能手表 → 第一次完全靠自己存钱买较贵物品，很特别 → 两千元，连续四个月少外卖、在家做咖啡 → 看存钱进度坚持 → 攒够买到 → 自豪、每天用、更加珍惜";
+  saved.reasons[2] = reason("It was the first expensive thing I had saved for myself, so it represented my patience and made me feel proud.", "第一次靠自己攒钱买较贵物品 → 代表耐心和坚持 → 特别且自豪");
+  Object.assign(groupById.get("feishu-saved-money"), { partTwo: saved.name, partTwoQuestion: saved.question });
+
+  // 观看采访和亲自见面使用不同经历；保留人物题原来的见面故事。
+  const oldInterviewQuestion = "Describe a time when you interviewed a famous person";
+  const metOnceQuestion = "Describe a person you only met once recently and want to know more about";
+  for (const material of data.part2) {
+    if (!material.tips?.mergedStories) continue;
+    material.tips.mergedStories = material.tips.mergedStories.filter((story) => story.baseQuestion !== oldInterviewQuestion);
+    for (const story of material.tips.mergedStories) {
+      if (!(story.questions || []).some((entry) => (typeof entry === "string" ? entry : entry.question) === oldInterviewQuestion)) continue;
+      story.questions = story.questions.filter((entry) => (typeof entry === "string" ? entry : entry.question) !== oldInterviewQuestion);
+      for (const entry of story.questions) {
+        if (typeof entry !== "string" && entry.question === metOnceQuestion) entry.special = "强调上个月只见过一次；结尾选择最贴题的原因，说明为什么想继续了解他。";
+      }
+      story.title = "只见过一次的雷军｜想进一步了解的人";
+      story.focus = "讲清只见过一次的时间、地点和交流内容；结尾说明为什么想进一步了解他。";
+      story.pointsLabel = "想进一步了解他的原因｜按需要选用";
+      story.reasons = story.reasons.filter((entry) => !entry.memory?.includes("采访题"));
+      const person = (material.tips.topicGroups || []).flatMap((group) => group.items).find((entry) => entry.question === metOnceQuestion);
+      if (person) Object.assign(person, { storyTitle: story.title, focus: story.focus, pointsLabel: story.pointsLabel, reasons: story.reasons });
+    }
+  }
+  const interview = findCard("p2-famous-interview");
+  Object.assign(interview, {
+    question: "Describe a time  watched a famous person being interviewed",
+    name: "看过的名人采访", storyTitle: "在家看雷军的访谈",
+    cuePoints: ["Who the famous person was", "What the interview was about", "When and where you watched the interview", "And explain how you felt about the interview"],
+    cueTranslations: ["那位名人是谁", "采访谈论了什么", "你何时何地看了这次采访", "解释你对这次采访的感受"],
+    draftCues: ["last month-at home-online interview-Lei Jun", "early work-mistakes-teamwork", "calm explanation-useful for my work"],
+    focus: "明确是自己在家观看主持人采访雷军；说明采访内容和看完后的感受。题干保留飞书原文的缺词。",
+    omit: "无需记公司数据或产品参数；可按实际看过的采访替换时间和内容。",
+    fit: "本季新题 · 观看采访", modules: "雷军 → 在家看访谈 → 工作、困难与团队合作 → 学到经验",
+    answerNote: "示范经历：观看采访，用过去时叙述；可按自己实际看过的内容调整。",
+    body: {
+      text: "I'd like to talk about an online interview with Lei Jun, a well-known business owner in China. I watched it at home one evening last month after finishing work. I was sitting on the sofa and found the video while looking for something interesting to watch. The interviewer asked him about his early working life, the mistakes he had made and how he worked with his team. At first, I expected a long discussion about products, so I was not sure I would finish it. However, he used simple examples and spoke openly about difficult moments. One part I found useful was about listening to other people before making an important decision. As a software engineer, I sometimes get stuck on a problem and forget to ask my colleagues for ideas. His explanation reminded me to be more patient and open to suggestions. In the end, I felt encouraged because the interview showed the effort behind success. I shared the video with a colleague, and we talked about it the next day.",
+      translation: "我想讲一次在网上看的雷军访谈，他是中国一位知名企业经营者。上个月的一个晚上，下班后我在家看了这段采访。当时我坐在沙发上，想找点有趣的内容，就发现了这个视频。主持人问了他早期的工作经历、犯过的错误，以及怎样和团队合作。一开始，我以为会是一大段产品讨论，所以不确定自己会不会看完。不过，他用了简单的例子，也坦诚地谈到了困难的时候。有一部分我觉得很有用，讲的是做重要决定前先听别人的意见。作为软件工程师，我有时会卡在一个问题上，却忘记向同事询问想法。他的解释提醒我要更有耐心，也要更愿意接受建议。最后，我感到受到鼓舞，因为采访展示了成功背后的努力。我把视频分享给一位同事，第二天我们还聊到了它。",
+      highlights: ["watched it at home", "The interviewer asked", "At first", "However", "listening to other people", "In the end", "felt encouraged"]
+    },
+    memoryChain: { story: "上个月下班后在家看雷军访谈 → 主持人问早期工作、错误和团队合作 → 本来怕只讲产品 → 简单例子、坦诚谈困难 → 学到决定前听别人意见 → 受到鼓舞、分享给同事" },
+    pointsLabel: "观看采访的感受｜按需要选用", reasonHint: false,
+    reasons: [
+      reason("Hearing about his early mistakes made success feel more realistic and encouraged me to keep learning.", "听到早期错误 → 成功更真实 → 鼓励自己继续学习"),
+      reason("His simple examples gave me ideas I could use when working with my colleagues.", "简单例子 → 学到可用于同事合作的方法"),
+      reason("Sharing the interview gave my colleague and me a useful topic to discuss.", "分享采访 → 和同事有了有用的讨论话题")
+    ]
+  });
+  delete interview.answer;
+  Object.assign(interviewGroup, { title: "名人采访与求职面试", partTwo: interview.name, partTwoQuestion: interview.question });
+
+  // 与本次网页对齐小问措辞及顺序，沿用已有答案。
+  const renameQuestion = (groupId, before, after) => {
+    groupById.get(groupId).items.find((entry) => entry.question === before).question = after;
+  };
+  rubbish.items[0].question = "What do you do when youu see rubbish on the street?";
+  renameQuestion("new-happy-person", "Do you think teachers are able to spot the unhappy children?", "Do you think teachers are able to spot unhappy children?");
+  renameQuestion("new-happy-person", "How can the arts spread positive emotions in society?", "How can arts spread positive emotions in society?");
+  groupById.get("new-happy-person").items = groupById.get("new-happy-person").items.filter((entry) => entry.question !== "When do you think people are happiest?");
+  renameQuestion("new-famous-interview", "Why do some people think interviews are a waste of time?", "Why do some people think interviews are waste of time?");
+  renameQuestion("new-happy-important-decision", "Do you think most of people’s decisions are made in their 20s?", "Do you think most people's decisions are made in their 20s?");
+  const reorder = (groupId, questions) => {
+    const group = groupById.get(groupId);
+    const byQuestion = new Map(group.items.map((entry) => [entry.question, entry]));
+    group.items = questions.map((question) => byQuestion.get(question));
+  };
+  reorder("new-met-once-person", [
+    "How do people make friends in China?",
+    "Is it important to have the same hobbies and interests when making friends?",
+    "On what occasions do people like to make friends?",
+    "What can we do to leave a good impression on people we meet for the first time?",
+    "What qualities make true friends?",
+    "What should we not talk about when we meet a person for the first time?"
+  ]);
+  reorder("new-impressive-course", [
+    "Can technology help people remember things better? How?",
+    "Do people like things of memorial significance?",
+    "What can we learn from history?",
+    "What do people need to remember in their daily lives?",
+    "Which can help people remember things better, words or photos?",
+    "Why do some people have a better memory than others?"
+  ]);
+})();
+
+// 飞书 2026 年 9–12 月 Part 2&3 新题：27 个题组按文档目录统一置顶。
 // 其中 8 组曾由用户先行提供，id 没有 feishu- 前缀，也必须算入同一批新题。
 (() => {
   const latestGroupIds = [
@@ -21026,9 +21342,11 @@ window.IELTS_DATA = {
     "feishu-noisy-place",
     "feishu-city-natural-place",
     "feishu-revisit-city",
+    "feishu-least-favorite-movie",
     "feishu-childhood-skill",
     "new-impressive-course",
     "new-friend-gift",
+    "feishu-disliked-short-trip",
     "feishu-waste-time",
     "feishu-good-shop-service",
     "feishu-saved-money",
@@ -21052,4 +21370,13 @@ window.IELTS_DATA = {
   const latestIdSet = new Set(latestGroupIds);
   const remainingGroups = window.IELTS_DATA.part3.filter((group) => !latestIdSet.has(group.id));
   window.IELTS_DATA.part3 = [...latestGroups, ...remainingGroups];
+  const latestByQuestion = new Map(latestGroups.map((group) => [group.partTwoQuestion, group]));
+  for (const material of window.IELTS_DATA.part2) {
+    for (const group of material.tips?.topicGroups || []) {
+      for (const card of group.items) {
+        const latest = latestByQuestion.get(card.question);
+        if (latest) Object.assign(card, { isNew: true, isLatest: true, sourceOrder: latest.latestOrder });
+      }
+    }
+  }
 })();

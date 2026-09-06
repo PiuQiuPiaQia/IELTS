@@ -1,4 +1,5 @@
 // Part 3 答案覆盖表（2026-09-01 第五版）。
+// 2026-09-06：同步飞书新题小问和索引；新增答案的中英句子与 data.js 一一对应。
 // 键 = 题组 id + "||" + 英文题目原文；a = 中文答案（PREC 四句）；g = 该题该挑的角度；p = 用到的词块。
 // 中文一律按英文语序写：每个小句都有主语和动词，连词写出来，不用中文流水句，方便逐句直译。
 // 全角括号（）里是要背的核心词块；半角方括号[]里是普通英文提示，不用背，只为知道那句中文怎么说。
@@ -1200,7 +1201,7 @@ window.P3_ANSWERS = {
     "g": "情绪",
     "p": ["I think…", "because…", "relax after a long day", "For example,…", "Also,…", "So…"]
   },
-  "new-famous-interview||Why do some people think interviews are a waste of time?": {
+  "new-famous-interview||Why do some people think interviews are waste of time?": {
     "a": "我觉得（I think…）有些面试真的是在浪费时间[a waste of time]。因为（because…）很多人面试了好几次还是没找到工作，也没有稳定的收入（a stable income）。比如（For example,…）很多年轻人去面试要花路费和时间，最后却没拿到工作[no job in the end]。而且（Also,…）来回跑好几趟，人也很累[tiring to travel back and forth]。所以（So…）他们觉得直接去打工更实在[better to just go and work]。",
     "g": "钱",
     "p": ["I think…", "because…", "a stable income", "For example,…", "Also,…", "So…"]
@@ -1215,20 +1216,15 @@ window.P3_ANSWERS = {
     "g": "关系",
     "p": ["Not really.", "because…", "turn to… for help", "For example,…", "Also,…", "So…"]
   },
-  "new-happy-person||Do you think teachers are able to spot the unhappy children?": {
+  "new-happy-person||Do you think teachers are able to spot unhappy children?": {
     "a": "这个看情况（It depends, but usually…），大部分老师都能看出来[most teachers can tell]。因为（because…）孩子不开心的时候会变得很安静[unhappy children become very quiet]。比如（For example,…）有的学生上课突然不说话了，老师会课后找他聊一聊[a student stops talking in class, and the teacher chats with him after class]。而且（Also,…）老师每天都见到这些孩子，很容易发现不一样的地方[also, teachers see these children every day and notice small changes]。所以（So…）老师一般都能发现不开心的孩子[so teachers can usually spot the unhappy children]。",
     "g": "情绪",
     "p": ["It depends, but usually…", "because…", "For example,…", "Also,…", "So…"]
   },
-  "new-happy-person||How can the arts spread positive emotions in society?": {
+  "new-happy-person||How can arts spread positive emotions in society?": {
     "a": "我觉得（I think…）艺术可以让大家的心情变好[art can make people feel happier]。因为（because…）大家一起看电影、听歌的时候很开心[people feel happy when they watch films and listen to songs together]。比如（For example,…）很多人看到一首好听的歌，就会马上发给朋友[people hear a nice song and send it to their friends right away]。而且（Also,…）朋友们还会一起聊这些歌和电影[also, friends chat about these songs and films together]。所以（So…）好心情就这样传给了身边的人[so the good mood passes to the people around them]。",
     "g": "关系",
     "p": ["I think…", "because…", "For example,…", "Also,…", "So…"]
-  },
-  "new-happy-person||When do you think people are happiest?": {
-    "a": "我觉得（I think…）人和家人朋友在一起的时候最开心[people are happiest when they are with family and friends]。因为（because…）和家人朋友在一起很放松[they feel relaxed with family and friends]。比如（For example,…）很多人周末和朋友一起出去吃饭（eat out with friends），吃完再一起散步[people eat out with friends at the weekend and go for a walk after]。而且（Also,…）他们在一起还能说说心里话[also, they can share what is on their mind]。所以（So…）这种时候大家最开心[so this is the happiest time for them]。",
-    "g": "情绪",
-    "p": ["I think…", "because…", "For example,…", "eat out with friends", "Also,…", "So…"]
   },
   "new-local-famous-person||Is it always good to be a popular student at school?": {
     "a": "不一定（Not really.），受欢迎有好的一面，也有累的一面[being popular has good and tiring sides]。因为（because…）朋友太多的时候要照顾很多人[when you have too many friends, you have to look after a lot of people]。比如（For example,…）很多受欢迎的学生每天都有人找他们玩，很少有自己的时间[popular students have people asking them to play every day and little time for themselves]。而且（Also,…）真正的朋友有几个就够了[also, a few real friends are enough]。所以（So…）受欢迎不一定总是好事[so being popular is not always a good thing]。",
@@ -1260,7 +1256,7 @@ window.P3_ANSWERS = {
     "g": "关系",
     "p": ["I think…", "because…", "For example,…", "Also,…", "each do what we're good at", "So…"]
   },
-  "new-happy-important-decision||Do you think most of people’s decisions are made in their 20s?": {
+  "new-happy-important-decision||Do you think most people's decisions are made in their 20s?": {
     "a": "不一定（Not really.），后面还有很多大决定[there are still a lot of big decisions later]。因为（because…）人们以后还要换工作、买房子[people will change jobs and buy a house later]。比如（For example,…）很多人三十多岁才决定去哪个城市工作[a lot of people decide which city to work in only in their thirties]。而且（Also,…）这些决定都要花很多钱[also, these decisions all cost a lot of money]。所以（So…）人一辈子都在做决定[so people make decisions all their life]。",
     "g": "钱",
     "p": ["Not really.", "because…", "For example,…", "Also,…", "So…"]
@@ -1969,5 +1965,243 @@ window.P3_ANSWERS = {
     "a": "我觉得（I think…）大部分孩子很小就开始做小决定[most children begin to make small decisions when they are very young]。因为（because…）学龄前的孩子已经会选衣服和食物[preschool children can already choose clothes and food]。比如（For example,…）小孩每天早上自己选穿哪件衣服[every morning a small child chooses which clothes to wear]。而且（Also,…）他们也会自己决定先玩哪个玩具[they also decide which toy to play with first]。所以（So…）孩子一步一步学会自己做主[so children learn to make their own choices step by step]。",
     "g": "目标",
     "p": ["I think…", "because…", "For example,…", "Also,…", "So…"]
+  },
+  "feishu-handcraft-person||Is it good to have creative people in a team?": {
+    "a": "好，因为他们能提出不同的解决问题的方法[Yes, because they can suggest a different way to solve a problem.]。比如，团队难以解释一个想法时，有创造力的成员可能会画一幅大家都看得懂的简单图画[For example, when a team struggles to explain an idea, a creative member may draw a simple picture that everyone understands.]。其他成员也能从这种方法中学习[Other members can learn from this approach too.]。不过，团队仍然需要检查这个想法在实际中是否可行[However, the team still needs to check whether the idea will work in practice.]。",
+    "g": "目标",
+    "p": [
+      "a different way",
+      "learn from this approach"
+    ],
+    "reasonExample": {
+      "reasonCn": "好，因为他们能提出不同的解决问题的方法",
+      "reasonEn": "Yes, because they can suggest a different way to solve a problem.",
+      "exCn": "比如，团队难以解释一个想法时，有创造力的成员可能会画一幅大家都看得懂的简单图画",
+      "exEn": "For example, when a team struggles to explain an idea, a creative member may draw a simple picture that everyone understands."
+    }
+  },
+  "feishu-handcraft-person||Does art, like music or theater, have an impact on society?": {
+    "a": "会，艺术能改善人们的心情，也能让大家聚在一起[Yes, art can improve people's mood and bring them together.]。比如，当地的音乐演出给邻居们提供了共同放松和欣赏表演的机会[For example, a local music show gives neighbours a chance to relax and enjoy something together.]。传统歌曲和戏剧还能让年轻人了解当地习俗[Traditional songs and plays can also teach younger people about local customs.]。因此，艺术既能促进社区关系，也能帮助文化传承[So art can support both community relationships and the passing on of culture.]。",
+    "g": "情绪",
+    "p": [
+      "improve people's mood",
+      "local customs"
+    ],
+    "reasonExample": {
+      "reasonCn": "会，艺术能改善人们的心情，也能让大家聚在一起",
+      "reasonEn": "Yes, art can improve people's mood and bring them together.",
+      "exCn": "比如，当地的音乐演出给邻居们提供了共同放松和欣赏表演的机会",
+      "exEn": "For example, a local music show gives neighbours a chance to relax and enjoy something together."
+    }
+  },
+  "feishu-difficult-success-person||Other than making money, what is more important for a company?": {
+    "a": "我认为，赢得人们的信任比迅速赚钱更重要[I think earning people's trust is more important than making a quick profit.]。公司应该提供可靠的产品，公平对待员工和顾客[A company should provide reliable products and treat its workers and customers fairly.]。比如，产品出现问题时，公司应该解释清楚并提供帮助[For example, if a product has a problem, the company should explain it clearly and offer help.]。这会让顾客愿意再次购买，也有助于企业长期发展[This gives customers a reason to return and supports the business in the long run.]。",
+    "g": "关系",
+    "p": [
+      "earning people's trust",
+      "in the long run"
+    ],
+    "reasonExample": {
+      "reasonCn": "我认为，赢得人们的信任比迅速赚钱更重要",
+      "reasonEn": "I think earning people's trust is more important than making a quick profit.",
+      "exCn": "比如，产品出现问题时，公司应该解释清楚并提供帮助",
+      "exEn": "For example, if a product has a problem, the company should explain it clearly and offer help."
+    }
+  },
+  "feishu-difficult-success-person||Is it easy to start up a company?": {
+    "a": "不太容易[Not really.]。即使是一家小企业，也需要资金、计划，以及对顾客需求的清楚了解[Even a small business needs money, planning and a clear idea of what customers want.]。比如，开咖啡馆意味着还不知道会有多少顾客，就得先交房租[For example, opening a cafe means paying rent before knowing how many people will come.]。从小规模开始可以减少压力，但经营者仍然需要耐心，也需要有从错误中学习的能力[Starting on a small scale can reduce the pressure, but the owner still needs patience and the ability to learn from mistakes.]。",
+    "g": "钱",
+    "p": [
+      "money, planning",
+      "learn from mistakes"
+    ],
+    "reasonExample": {
+      "reasonCn": "即使是一家小企业，也需要资金、计划，以及对顾客需求的清楚了解",
+      "reasonEn": "Even a small business needs money, planning and a clear idea of what customers want.",
+      "exCn": "比如，开咖啡馆意味着还不知道会有多少顾客，就得先交房租",
+      "exEn": "For example, opening a cafe means paying rent before knowing how many people will come."
+    }
+  },
+  "feishu-difficult-success-person||In which sectors are companies more likely to succeed in China?": {
+    "a": "我认为，让日常生活更方便的企业有不错的机会，比如配送服务和实用软件[I think businesses that make daily life easier have a good chance, such as delivery services and useful software.]。比如，帮助小商店管理订单的应用可以节省员工的时间，也能减少错误[For example, an app that helps small shops manage orders can save workers time and reduce mistakes.]。不过，身处热门行业还不够[However, being in a popular industry is not enough.]。公司仍然需要可靠的服务，以及对顾客的清楚了解[A company still needs reliable service and a clear understanding of its customers.]。",
+    "g": "目标",
+    "p": [
+      "make daily life easier",
+      "reduce mistakes"
+    ],
+    "reasonExample": {
+      "reasonCn": "我认为，让日常生活更方便的企业有不错的机会，比如配送服务和实用软件",
+      "reasonEn": "I think businesses that make daily life easier have a good chance, such as delivery services and useful software.",
+      "exCn": "比如，帮助小商店管理订单的应用可以节省员工的时间，也能减少错误",
+      "exEn": "For example, an app that helps small shops manage orders can save workers time and reduce mistakes."
+    }
+  },
+  "feishu-least-favorite-movie||What kinds of movies are most popular in China?": {
+    "a": "我认为喜剧片和动作片是最受欢迎的类型之一[I think comedies and action films are among the most popular.]。喜剧能帮助人们在忙碌一周后放松，动作片则有适合大银幕观看的刺激场面[Comedies help people relax after a busy week, while action films offer exciting scenes that look good on a big screen.]。比如，一群朋友可能选择喜剧，因为大家容易一起看得开心[For example, a group of friends may choose a comedy because it is easy to enjoy together.]。当然，每个人的喜好不同[Of course, people's tastes are different.]。",
+    "g": "情绪",
+    "p": [
+      "relax after a busy week",
+      "enjoy together"
+    ],
+    "reasonExample": {
+      "reasonCn": "喜剧能帮助人们在忙碌一周后放松，动作片则有适合大银幕观看的刺激场面",
+      "reasonEn": "Comedies help people relax after a busy week, while action films offer exciting scenes that look good on a big screen.",
+      "exCn": "比如，一群朋友可能选择喜剧，因为大家容易一起看得开心",
+      "exEn": "For example, a group of friends may choose a comedy because it is easy to enjoy together."
+    }
+  },
+  "feishu-least-favorite-movie||What are the differences between watching movies at home and in a cinema?": {
+    "a": "在家看电影通常更便宜、更灵活，因为可以暂停电影，也可以自己选择零食[Watching at home is usually cheaper and more flexible because people can pause the film and choose their own snacks.]。电影院的屏幕更大、音效更好，能让动作片更刺激[A cinema has a bigger screen and better sound, which can make an action film more exciting.]。比如，想安静地度过一个晚上时，我会在家看；想和朋友特别出去玩一次时，我会选择电影院[For example, I would choose home for a quiet evening, but a cinema for a special outing with friends.]。",
+    "g": "钱",
+    "p": [
+      "cheaper and more flexible",
+      "a bigger screen"
+    ],
+    "reasonExample": {
+      "reasonCn": "在家看电影通常更便宜、更灵活，因为可以暂停电影，也可以自己选择零食",
+      "reasonEn": "Watching at home is usually cheaper and more flexible because people can pause the film and choose their own snacks.",
+      "exCn": "比如，想安静地度过一个晚上时，我会在家看；想和朋友特别出去玩一次时，我会选择电影院",
+      "exEn": "For example, I would choose home for a quiet evening, but a cinema for a special outing with friends."
+    }
+  },
+  "feishu-least-favorite-movie||Are movies more likely to help people become more creative than books?": {
+    "a": "不一定[Not necessarily.]。电影能通过画面、音乐和特别的故事给人新想法[Films can give people new ideas through images, music and unusual stories.]。不过，书籍需要读者自己想象人物和场景，这也能培养创造力[However, books make readers imagine the characters and places for themselves, which also develops creativity.]。比如，两位读者想象中的同一个房间可能完全不同[For example, two readers may picture the same room very differently.]。我认为，尝试不同的书和电影，比认定某一种总是更好更有用[I think trying different books and films is more useful than saying one is always better.]。",
+    "g": "目标",
+    "p": [
+      "new ideas",
+      "develops creativity"
+    ],
+    "reasonExample": {
+      "reasonCn": "不过，书籍需要读者自己想象人物和场景，这也能培养创造力",
+      "reasonEn": "However, books make readers imagine the characters and places for themselves, which also develops creativity.",
+      "exCn": "比如，两位读者想象中的同一个房间可能完全不同",
+      "exEn": "For example, two readers may picture the same room very differently."
+    }
+  },
+  "feishu-least-favorite-movie||Can movies help people better understand the cultural background of a country?": {
+    "a": "能，电影可以展示日常习惯、家庭关系和当地传统[Yes, films can show everyday habits, family relationships and local traditions.]。比如，一部关于家庭节日的电影，可能会展示人们怎样准备食物、问候年长亲属[For example, a film about a family festival may show how people prepare food and greet older relatives.]。这些细节让另一种文化更容易理解[These details make another culture easier to understand.]。不过，一部电影只是一个故事，所以观众不应该认为那个国家的所有人都过着相同的生活[However, a film is only one story, so viewers should not assume everyone in that country lives in the same way.]。",
+    "g": "关系",
+    "p": [
+      "local traditions",
+      "another culture"
+    ],
+    "reasonExample": {
+      "reasonCn": "能，电影可以展示日常习惯、家庭关系和当地传统",
+      "reasonEn": "Yes, films can show everyday habits, family relationships and local traditions.",
+      "exCn": "比如，一部关于家庭节日的电影，可能会展示人们怎样准备食物、问候年长亲属",
+      "exEn": "For example, a film about a family festival may show how people prepare food and greet older relatives."
+    }
+  },
+  "feishu-disliked-short-trip||Do Chinese people like travelling abroad?": {
+    "a": "很多人喜欢，因为他们喜欢看陌生的地方、尝试不同的食物[Many do because they enjoy seeing unfamiliar places and trying different food.]。出国旅行也能帮助人们了解别人的生活[A trip abroad can also help people learn how others live.]。比如，逛当地市场的体验就与在网上看照片不同[For example, visiting a local market gives a different experience from seeing pictures online.]。不过，考虑到费用、语言和所需时间，有些人更喜欢在国内旅行[However, the cost, language and time needed mean that some people prefer travelling within China.]。",
+    "g": "目标",
+    "p": [
+      "learn how others live",
+      "trying different food"
+    ],
+    "reasonExample": {
+      "reasonCn": "出国旅行也能帮助人们了解别人的生活",
+      "reasonEn": "A trip abroad can also help people learn how others live.",
+      "exCn": "比如，逛当地市场的体验就与在网上看照片不同",
+      "exEn": "For example, visiting a local market gives a different experience from seeing pictures online."
+    }
+  },
+  "feishu-disliked-short-trip||Who prefers travelling abroad? The young or the old?": {
+    "a": "我认为年轻人可能更愿意尝试陌生的地方，并自己安排旅行[I think younger people may be more willing to try unfamiliar places and plan a trip by themselves.]。老年人可能更喜欢较慢的节奏，以及能处理交通和语言问题的旅行团[Older people may prefer a slower pace and a tour group that handles transport and language problems.]。比如，年轻游客可能会去几个城市，而年长游客可能在一个地方住得更久[For example, young travellers might try several cities, while older visitors may stay longer in one place.]。不过，健康、金钱和个人兴趣比年龄本身更重要[Still, health, money and personal interests matter more than age alone.]。",
+    "g": "情绪",
+    "p": [
+      "try unfamiliar places",
+      "a slower pace"
+    ],
+    "reasonExample": {
+      "reasonCn": "我认为年轻人可能更愿意尝试陌生的地方，并自己安排旅行",
+      "reasonEn": "I think younger people may be more willing to try unfamiliar places and plan a trip by themselves.",
+      "exCn": "比如，年轻游客可能会去几个城市，而年长游客可能在一个地方住得更久",
+      "exEn": "For example, young travellers might try several cities, while older visitors may stay longer in one place."
+    }
+  },
+  "feishu-disliked-short-trip||How much time do you think people should spend on a trip abroad?": {
+    "a": "如果时间和费用允许，我认为第一次去某个国家，安排一两周比较合理[For a first visit, I think about one or two weeks is reasonable if people can afford the time and cost.]。这样能有几天时间适应和游览，不必每天早上都赶路[This gives them a few days to settle in and explore without rushing every morning.]。距离近的目的地可能只需要一个长周末[A nearby destination may only need a long weekend.]。关键是留出足够的休息时间，而不是把每个小时都塞满活动[The main thing is to leave enough time to rest instead of filling every hour with activities.]。",
+    "g": "情绪",
+    "p": [
+      "without rushing",
+      "enough time to rest"
+    ],
+    "reasonExample": {
+      "reasonCn": "这样能有几天时间适应和游览，不必每天早上都赶路",
+      "reasonEn": "This gives them a few days to settle in and explore without rushing every morning.",
+      "exCn": "距离近的目的地可能只需要一个长周末",
+      "exEn": "A nearby destination may only need a long weekend."
+    }
+  },
+  "feishu-disliked-short-trip||Which is better for knowing more about a country? Travelling or reading books about it?": {
+    "a": "我会把两种方式结合起来，因为它们提供不同类型的知识[I would choose both because they provide different kinds of knowledge.]。书籍可以解释一个国家的历史和习俗，旅行则让人直接体验日常生活[Books can explain a country's history and customs, while travel lets people experience daily life directly.]。比如，阅读关于当地市场的介绍很有用，但亲自去逛能看到人们怎样交谈和购物[For example, reading about a local market is useful, but visiting it shows how people talk and shop.]。旅行前先阅读，可以让这段经历更有意义[Reading before a trip can make the experience much more meaningful.]。",
+    "g": "目标",
+    "p": [
+      "history and customs",
+      "experience daily life directly"
+    ],
+    "reasonExample": {
+      "reasonCn": "书籍可以解释一个国家的历史和习俗，旅行则让人直接体验日常生活",
+      "reasonEn": "Books can explain a country's history and customs, while travel lets people experience daily life directly.",
+      "exCn": "比如，阅读关于当地市场的介绍很有用，但亲自去逛能看到人们怎样交谈和购物",
+      "exEn": "For example, reading about a local market is useful, but visiting it shows how people talk and shop."
+    }
+  },
+  "feishu-saved-money||Should people spend time on charity, or just money?": {
+    "a": "我认为两种方式都有帮助，人们应该根据自己的情况选择[I think both can help, and people should choose according to their situation.]。钱可以用来购买食物和设备，志愿者则可以提供实际帮助和陪伴[Money can pay for food and equipment, while volunteers can offer practical help and company.]。比如，探望一位老人，能让他有个人可以聊天[For example, visiting an older person gives them someone to talk to.]。忙碌的人可以选择捐钱，有空闲时间的人则可以考虑亲自提供帮助[A busy person may donate money instead, but anyone with spare time can consider helping in person.]。",
+    "g": "关系",
+    "p": [
+      "practical help and company",
+      "helping in person"
+    ],
+    "reasonExample": {
+      "reasonCn": "钱可以用来购买食物和设备，志愿者则可以提供实际帮助和陪伴",
+      "reasonEn": "Money can pay for food and equipment, while volunteers can offer practical help and company.",
+      "exCn": "比如，探望一位老人，能让他有个人可以聊天",
+      "exEn": "For example, visiting an older person gives them someone to talk to."
+    }
+  },
+  "new-famous-interview||Why do we need to attend interviews when applying for jobs?": {
+    "a": "面试能帮助双方判断这份工作是否合适[Interviews help both sides decide whether the job is a good match.]。雇主可以问应聘者如何处理过一个真实问题，这比简历提供的信息更具体[An employer can ask how someone handled a real problem, which gives more detail than a CV.]。应聘者也可以询问团队和日常工作[The applicant can also ask about the team and daily work.]。这能避免误解，不过面试无法展示一个人的全部情况[This can prevent misunderstandings, although an interview cannot show everything about a person.]。",
+    "g": "目标",
+    "p": [
+      "a good match",
+      "prevent misunderstandings"
+    ],
+    "reasonExample": {
+      "reasonCn": "面试能帮助双方判断这份工作是否合适",
+      "reasonEn": "Interviews help both sides decide whether the job is a good match.",
+      "exCn": "雇主可以问应聘者如何处理过一个真实问题，这比简历提供的信息更具体",
+      "exEn": "An employer can ask how someone handled a real problem, which gives more detail than a CV."
+    }
+  },
+  "new-famous-interview||What should people wear to a job interview?": {
+    "a": "他们应该穿干净、整洁而且适合这份工作的衣服[They should wear something clean, tidy and suitable for the job.]。面试办公室岗位时，素色衬衫和比较正式的长裤通常是合理的选择[For an office role, a plain shirt and smart trousers are often a sensible choice.]。衣服不一定要昂贵，但应该体现对场合的尊重[The clothes do not have to be expensive, but they should show respect for the occasion.]。穿得舒服也能让人专注于交谈，而不是一直担心自己的外表[Feeling comfortable also helps people focus on the conversation instead of worrying about their appearance.]。",
+    "g": "规矩",
+    "p": [
+      "clean, tidy",
+      "show respect"
+    ],
+    "reasonExample": {
+      "reasonCn": "衣服不一定要昂贵，但应该体现对场合的尊重",
+      "reasonEn": "The clothes do not have to be expensive, but they should show respect for the occasion.",
+      "exCn": "面试办公室岗位时，素色衬衫和比较正式的长裤通常是合理的选择",
+      "exEn": "For an office role, a plain shirt and smart trousers are often a sensible choice."
+    }
+  },
+  "new-famous-interview||What kind of things do famous people often say in interviews?": {
+    "a": "他们经常谈论自己的工作、未来计划以及遇到过的困难[They often talk about their work, future plans and the difficulties they have faced.]。比如，演员可能会解释自己怎样为一个角色做准备，企业经营者可能会讲述早期犯过的一个错误[For example, an actor may explain how they prepared for a role, while a business owner may describe an early mistake.]。这些故事能让听众学到有用的东西[These stories can teach listeners something useful.]。不过，名人可能会回避私人问题，或主要关注新项目的宣传[However, celebrities may avoid private questions or focus mainly on promoting a new project.]。",
+    "g": "目标",
+    "p": [
+      "difficulties they have faced",
+      "something useful"
+    ],
+    "reasonExample": {
+      "reasonCn": "这些故事能让听众学到有用的东西",
+      "reasonEn": "These stories can teach listeners something useful.",
+      "exCn": "比如，演员可能会解释自己怎样为一个角色做准备，企业经营者可能会讲述早期犯过的一个错误",
+      "exEn": "For example, an actor may explain how they prepared for a role, while a business owner may describe an early mistake."
+    }
   }
 };

@@ -696,7 +696,7 @@ function partTwoTipsHtml(tips, universalMaterials = [], materialId = "") {
           ${questions.map((question) => `<li><span class="story-question-text">${escapeHtml(question.text)}${reviewFrequencyTag(question.review, { showUnlisted: true })}${question.isNew ? '<span class="new-tag">新题</span>' : ""}</span>${question.special ? `<span class="story-question-special"><strong>只改：</strong>${escapeHtml(question.special)}</span>` : ""}</li>`).join("")}
         </ol>
         <section class="simple-master-section topic-guide-item">
-          ${item.cuePoints?.length ? `<ul class="numbered-list">${item.cuePoints.map((point) => `<li>${escapeHtml(point)}</li>`).join("")}</ul>` : ""}
+          ${item.cuePoints?.length ? `<ul class="numbered-list">${item.cuePoints.map((point, index) => `<li>${escapeHtml(point)}${item.cueTranslations?.[index] ? `<span class="memory-chain">${escapeHtml(item.cueTranslations[index])}</span>` : ""}</li>`).join("")}</ul>` : ""}
           ${item.draftCues?.length ? `<p class="simple-master-cues"><strong>${merged ? "公共草稿" : "核心草稿"}：</strong>${item.draftCues.map(escapeHtml).join(" · ")}</p>` : ""}
           ${(item.focus || item.omit) ? `<div class="meta-grid">
             ${item.focus ? `<div class="meta-box"><span>扣题重点</span><strong>${escapeHtml(item.focus)}</strong></div>` : ""}
@@ -704,6 +704,7 @@ function partTwoTipsHtml(tips, universalMaterials = [], materialId = "") {
           </div>` : ""}
           ${item.body?.text ? `
             <p class="topic-guide-body"><strong>这个素材的故事：</strong>${highlight(item.body.text, item.body.highlights)}</p>
+            ${item.body.translation ? `<p class="translation"><strong>中文：</strong>${escapeHtml(item.body.translation)}</p>` : ""}
             ${item.memoryChain?.story ? `<p class="memory-chain story-memory-chain"><strong>故事中文链</strong>${escapeHtml(item.memoryChain.story)}</p>` : ""}
             ${item.reasons?.length ? `<p class="reason-label"><strong>${escapeHtml(item.pointsLabel || "可选理由 / 结尾点")}${merged && item.reasonHint !== false ? "（按题目选 3 条）" : ""}：</strong></p>
               <ol class="numbered-list topic-reason-list">
@@ -785,7 +786,7 @@ function partTwoMasterAnswerHtml(material) {
 function partTwoTopicHtml(topic, { showFramework = true } = {}) {
   return `
     <div class="section-heading"><h2>${escapeHtml(topic.name || "参考答案")}${topic.isNew ? '<span class="new-tag">新题</span>' : ""}</h2><p class="question">${escapeHtml(topic.question)}</p></div>
-    ${topic.cuePoints?.length ? `<ul class="numbered-list">${topic.cuePoints.map((point) => `<li>${escapeHtml(point)}</li>`).join("")}</ul>` : ""}
+    ${topic.cuePoints?.length ? `<ul class="numbered-list">${topic.cuePoints.map((point, index) => `<li>${escapeHtml(point)}${topic.cueTranslations?.[index] ? `<span class="memory-chain">${escapeHtml(topic.cueTranslations[index])}</span>` : ""}</li>`).join("")}</ul>` : ""}
     ${topic.draftCues?.length ? `<div class="draft-cues"><strong>一分钟草稿</strong>${topic.draftCues.map((cue) => `<span>${escapeHtml(cue)}</span>`).join("")}</div>` : ""}
     ${topic.fit ? `<span class="badge">${escapeHtml(topic.fit)}</span>` : ""}
     ${(topic.focus || topic.omit) ? `<div class="meta-grid">
@@ -796,6 +797,7 @@ function partTwoTopicHtml(topic, { showFramework = true } = {}) {
     ${topic.body?.text ? `
     <div class="group-title section-heading"><div><h2>完整参考答案</h2><p>先背整段故事，再用「故事中文链」恢复；结尾理由按题目选 3 条即可。</p></div></div>
     <p class="topic-guide-body">${highlight(topic.body.text, topic.body.highlights)}</p>
+    ${topic.body.translation ? `<p class="translation"><strong>中文：</strong>${escapeHtml(topic.body.translation)}</p>` : ""}
     ${topic.memoryChain?.story ? `<p class="memory-chain story-memory-chain"><strong>故事中文链</strong>${escapeHtml(topic.memoryChain.story)}</p>` : ""}
     ${topic.reasons?.length ? `<p class="reason-label"><strong>${escapeHtml(topic.pointsLabel || "可选理由 / 结尾点")}：</strong></p>
       <ol class="numbered-list topic-reason-list">
@@ -855,7 +857,7 @@ function partThreeLibraryHtml(groups) {
     const rows = group.items.map((item) => {
       const override = p3Override(group.id, item.question);
       const answer = (override && override.a) || item.translation?.answer || "";
-      const { reasonCn, reasonEn, exCn, exEn } = p3ReasonExample(answer);
+      const { reasonCn, reasonEn, exCn, exEn } = override?.reasonExample || p3ReasonExample(answer);
       if (!reasonCn && !exCn) return "";
       return `<div class="p3-lib-qrow">
         <p class="p3-lib-q">${escapeHtml(item.question)}</p>
