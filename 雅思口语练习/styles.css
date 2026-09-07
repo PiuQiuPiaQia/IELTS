@@ -221,6 +221,16 @@ mark { padding: 0 .15em; background: #ccebdc; color: inherit; border-radius: 3px
 .chunk-step code { color: var(--accent-strong); font-family: inherit; font-size: 15px; font-weight: 700; }
 .chunk-step span { color: var(--muted); font-size: 12px; }
 
+/* 杨帅词块页：句型 + 中文 + 例句，例句比句型弱一档，方便只扫句型。 */
+.ys-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 14px 24px; margin-top: 10px; }
+.ys-item { padding: 8px 0 8px 11px; border-left: 3px solid var(--line); line-height: 1.5; }
+.ys-item.star { border-left-color: var(--accent-strong); }
+.ys-item code { display: block; color: #35443f; font-family: inherit; font-size: 15px; font-weight: 700; }
+.ys-item.star code { color: var(--accent-strong); }
+.ys-item .ys-zh { display: block; margin-top: 1px; color: var(--muted); font-size: 12px; }
+.ys-item .ys-eg { margin: 5px 0 0; color: var(--ink); font-size: 13px; opacity: .82; }
+.ys-card .group-title { align-items: center; }
+
 .copy-button { padding: 9px 13px; border: 0; border-radius: 10px; background: var(--accent); color: #fff; cursor: pointer; font-weight: 800; }
 .copy-button:hover, .copy-button:focus-visible { background: var(--accent-strong); }
 .loading-state, .error-state, .empty-state { display: grid; place-items: center; min-height: 44vh; text-align: center; color: var(--muted); }
@@ -252,6 +262,7 @@ mark { padding: 0 .15em; background: #ccebdc; color: inherit; border-radius: 3px
   .panel-header, .panel-body { padding: 20px; }
   .meta-grid, .comparison-grid { grid-template-columns: 1fr; }
   .chunk-list { grid-template-columns: 1fr; }
+  .ys-list { grid-template-columns: 1fr; }
   .chunk-step strong { flex-basis: 100%; }
   .part3-view-tabs { display: flex; }
   .part3-view-tab { flex: 1; }

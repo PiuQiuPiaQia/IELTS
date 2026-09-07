@@ -8818,6 +8818,11 @@ window.IELTS_DATA = {
     },
   };
 
+  const cambridgeEssayLibrary = Object.values(cambridgeGtEssays).flat();
+  window.IELTS_DATA.cambridgeEssays = cambridgeEssayLibrary.sort((left, right) => (
+    left.sourceGid.localeCompare(right.sourceGid, "en", { numeric: true })
+  ));
+
   window.IELTS_DATA.essays.forEach((category) => {
     const priority = priorityByType[category.id] || [];
     const candidates = [
@@ -8832,11 +8837,13 @@ window.IELTS_DATA = {
       if (!essay) throw new Error("Missing curated General Training essay: " + key);
       return essay;
     });
-    category.essays = [...(cambridgeGtEssays[category.id] || []), ...curatedEssays];
+    category.essays = curatedEssays;
     category.essays.forEach((essay) => {
       const easyRewrite = easyBandFiveRewrites[essay.id];
       if (easyRewrite) Object.assign(essay, easyRewrite);
       essay.targetBand = "5";
     });
   });
+
+  window.IELTS_DATA.cambridgeEssays.forEach((essay) => { essay.targetBand = "5"; });
 })();

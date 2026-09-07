@@ -1,6 +1,6 @@
 "use strict";
 
-const PAGES = new Set(["part1", "part2", "part3", "chunks", "toolkit"]);
+const PAGES = new Set(["part1", "part2", "part3", "chunks", "yangshuai", "toolkit"]);
 const UI_STORAGE_KEY = "ielts-speaking-ui-state-v1";
 const PART2_MATERIAL_ORDER = [
   "people-tips",
@@ -1040,6 +1040,66 @@ function renderChunks() {
     </section>`;
 }
 
+// yangshuai.js 若加载失败或语法出错，这里返回 null，页面显示提示而不是白屏。
+function yangshuaiLibrary() {
+  const lib = typeof window !== "undefined" && window.YANGSHUAI_CHUNKS;
+  return lib && Array.isArray(lib.groups) ? lib : null;
+}
+
+function yangshuaiItemHtml(item) {
+  return `
+    <div class="ys-item${item.star ? " star" : ""}">
+      <code>${escapeHtml(item.en)}</code>
+      <span class="ys-zh">${escapeHtml(item.zh)}</span>
+      ${item.eg ? `<p class="ys-eg">${escapeHtml(item.eg)}</p>` : ""}
+    </div>`;
+}
+
+function yangshuaiGroupHtml(group) {
+  const starCount = (group.items || []).filter((item) => item.star).length;
+  return `
+    <article class="card ys-card">
+      <div class="group-title"><div><span class="eyebrow">${escapeHtml(group.eyebrow || group.code || "")}</span><h3>${escapeHtml(group.title)}</h3></div><span class="badge">${(group.items || []).length} 条 · ★${starCount}</span></div>
+      ${group.note ? `<p class="note">${escapeHtml(group.note)}</p>` : ""}
+      <div class="ys-list">${(group.items || []).map(yangshuaiItemHtml).join("")}</div>
+    </article>`;
+}
+
+function renderYangshuai() {
+  const library = yangshuaiLibrary();
+  if (!library) {
+    main.innerHTML = `
+      <section class="panel">
+        <header class="panel-header"><span class="eyebrow">YANG SHUAI 99</span><h2>杨帅词块</h2></header>
+        <div class="panel-body"><p class="empty-state">词块数据没有加载成功，请检查 yangshuai.js。</p></div>
+      </section>`;
+    return;
+  }
+  const total = library.groups.reduce((sum, group) => sum + (group.items || []).length, 0);
+  const starTotal = library.groups.reduce((sum, group) => sum + (group.items || []).filter((item) => item.star).length, 0);
+  main.innerHTML = `
+    <section class="panel">
+      <header class="panel-header">
+        <span class="eyebrow">YANG SHUAI 99</span>
+        <h2>杨帅词块 · 按 5.5 分筛过</h2>
+        <p>${escapeHtml(library.intro || "")}</p>
+      </header>
+      <div class="panel-body stack">
+        <section class="group-section">
+          <div class="group-title"><div><h2>怎么用</h2></div><span class="badge">${total} 条 · 优先背 ★${starTotal} 条</span></div>
+          <article class="card">
+            <ol class="numbered-list">${(library.usage || []).map((line) => `<li>${escapeHtml(line)}</li>`).join("")}</ol>
+            ${library.audioNote ? `<p class="note"><strong>配套音频：</strong>${escapeHtml(library.audioNote)}</p>` : ""}
+          </article>
+        </section>
+        <section class="group-section">
+          <div class="group-title"><div><span class="eyebrow">PATTERNS</span><h2>句型分组</h2></div></div>
+          <div class="card-list">${library.groups.map(yangshuaiGroupHtml).join("")}</div>
+        </section>
+      </div>
+    </section>`;
+}
+
 function toolkitMaterialLabel(code) {
   for (const block of state.data.toolkit) {
     const item = block.items.find((entry) => entry.code === code);
@@ -1065,11 +1125,13 @@ function renderToolkit() {
 }
 
 function render({ revealActive = true } = {}) {
-  if (!state.data[state.page]) return;
+  // 杨帅词块页的数据来自 yangshuai.js 的独立全局，不在 state.data 里，所以跳过这层校验。
+  if (state.page !== "yangshuai" && !state.data[state.page]) return;
   if (state.page === "part1") renderPartOne();
   if (state.page === "part2") renderPartTwo();
   if (state.page === "part3") renderPartThree();
   if (state.page === "chunks") renderChunks();
+  if (state.page === "yangshuai") renderYangshuai();
   if (state.page === "toolkit") renderToolkit();
   markReadingAnchors();
   if (revealActive) revealActiveTabs();

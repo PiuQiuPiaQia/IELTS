@@ -4,6 +4,7 @@ const STORAGE_KEY = "ielts-writing-static-reviews-v1";
 const REVIEW_DATA_VERSION_KEY = "ielts-writing-static-reviews-data-version";
 const UI_STORAGE_KEY = "ielts-writing-ui-state-v1";
 const PAGES = new Set(["reviews", "letters", "task2", "materials"]);
+const TASK_TWO_TABS = new Set(["general", "cambridge"]);
 const state = {
   page: PAGES.has(location.hash.slice(1)) ? location.hash.slice(1) : "reviews",
   data: {},
@@ -11,6 +12,7 @@ const state = {
   selectedReviewId: "",
   reviewMode: "review",
   letterId: "",
+  taskTwoTab: "general",
   essayCategoryId: "",
   essayId: "",
   materialCategoryId: "",
@@ -123,6 +125,7 @@ function loadUiState() {
     if (typeof saved.selectedReviewId === "string") state.selectedReviewId = saved.selectedReviewId;
     if (["review", "clean"].includes(saved.reviewMode)) state.reviewMode = saved.reviewMode;
     if (typeof saved.letterId === "string") state.letterId = saved.letterId;
+    if (TASK_TWO_TABS.has(saved.taskTwoTab)) state.taskTwoTab = saved.taskTwoTab;
     if (typeof saved.essayCategoryId === "string") state.essayCategoryId = saved.essayCategoryId;
     if (typeof saved.essayId === "string") state.essayId = saved.essayId;
     if (typeof saved.materialCategoryId === "string") state.materialCategoryId = saved.materialCategoryId;
@@ -139,6 +142,7 @@ function persistUiState() {
       selectedReviewId: state.selectedReviewId,
       reviewMode: state.reviewMode,
       letterId: state.letterId,
+      taskTwoTab: state.taskTwoTab,
       essayCategoryId: state.essayCategoryId,
       essayId: state.essayId,
       materialCategoryId: state.materialCategoryId,
@@ -152,7 +156,7 @@ function persistUiState() {
 function currentViewKey() {
   if (state.page === "reviews") return `reviews:${state.selectedReviewId}:${state.reviewMode}`;
   if (state.page === "letters") return `letters:${state.letterId}`;
-  if (state.page === "task2") return `task2:${state.essayCategoryId}:${state.essayId}`;
+  if (state.page === "task2") return `task2:${state.taskTwoTab}:${state.essayCategoryId}:${state.essayId}`;
   if (state.page === "materials") return `materials:${state.materialCategoryId}`;
   return state.page;
 }
@@ -242,9 +246,8 @@ function restoreReadingPosition(fallbackY = 0) {
   }));
 }
 
-function changeView(update) {
+function changeView(update, fallbackY = window.scrollY) {
   saveReadingPosition();
-  const fallbackY = window.scrollY;
   update();
   render();
   restoreReadingPosition(fallbackY);
@@ -557,14 +560,32 @@ function renderLetters() {
 
 function renderTaskTwo() {
   const framework = state.data.frameworks[0];
-  const categories = state.data.essays;
+  const isCambridgeTab = state.taskTwoTab === "cambridge";
+  const generalCategories = state.data.essays;
+  const cambridgeEssayList = state.data.cambridgeEssays || [];
+  const categories = isCambridgeTab
+    ? [{ id: "cambridge-all", name: "剑雅 20–21 GT", essays: cambridgeEssayList }]
+    : generalCategories;
   const category = categories.find((item) => item.id === state.essayCategoryId) || categories[0];
+  if (!category?.essays?.length) {
+    main.innerHTML = '<div class="error-state"><div><h1>暂无可用范文</h1><p>请检查 Task 2 范文数据。</p></div></div>';
+    return;
+  }
   state.essayCategoryId = category.id;
   const essay = category.essays.find((item) => item.id === state.essayId) || category.essays[0];
   state.essayId = essay.id;
   const focusPhrases = taskTwoHighlights(essay);
   const memoryLines = taskTwoMemoryLines(essay);
-  main.innerHTML = `
+  const countEssays = (items) => items.reduce((total, item) => total + item.essays.length, 0);
+  const sidebarLabel = isCambridgeTab ? "选择剑雅真题" : "选择 G 类范文";
+  const entryMeta = (entry) => isCambridgeTab
+    ? `Test ${entry.sourceNumber} · ${entry.position}`
+    : (entry.sourceTag ? `${entry.sourceTag} · ${entry.position}` : entry.position);
+  const essayButton = (entry) => `<button class="sidebar-button ${entry.id === essay.id ? "active" : ""}" type="button" data-essay-id="${escapeHtml(entry.id)}" ${isCambridgeTab ? "" : 'style="padding-left:22px"'}><strong>${escapeHtml(entry.title)}</strong><small>${escapeHtml(entryMeta(entry))}</small></button>`;
+  const sidebarContents = isCambridgeTab
+    ? category.essays.map(essayButton).join("")
+    : categories.map((item) => `<div><button class="sidebar-button ${item.id === category.id ? "active" : ""}" type="button" data-essay-category="${escapeHtml(item.id)}"><strong>${escapeHtml(item.name)}</strong><small>${item.essays.length} 篇</small></button>${item.id === category.id ? item.essays.map(essayButton).join("") : ""}</div>`).join("");
+  const frameworkPanel = isCambridgeTab ? "" : `
     <section class="panel">
       <header class="panel-header"><span class="eyebrow">STRUCTURE FIRST · BAND 5</span><h2>三类主体结构</h2><p>先看题目让你做几件事：<strong>撑一个立场</strong>→同侧论证；<strong>比较两面</strong>→双面比较；<strong>回答两个问题</strong>→两问回答。下方范文全部使用对应的四段框架，以答全、简单和清楚为目标。</p></header>
       <div class="panel-body two-column">${framework.modes.map((mode) => {
@@ -574,9 +595,15 @@ function renderTaskTwo() {
         const identify = mode.identify ? `<div class="note"><strong>看到这些题就选它</strong><p style="margin:6px 0 0" lang="en">${escapeHtml(mode.identify.keywords)}</p><p style="margin:6px 0 0">${escapeHtml(mode.identify.tell)}</p></div>` : "";
         return `<article class="card"><span class="badge">${escapeHtml(mode.includes)}</span><h3>${escapeHtml(mode.name)}</h3><p>${escapeHtml(mode.goal)}</p>${identify}<div class="section-heading" style="margin-top:22px"><h2>引言</h2></div><div class="answer">${escapeHtml(mode.intro)}</div>${judgementLine(judgement?.intro)}<div class="section-heading" style="margin-top:22px"><h2>主体段 1 / 2(连接句)</h2></div><ul class="numbered-list">${bodies.map(([lead, note]) => `<li>${escapeHtml(lead)}${judgementLine(note)}</li>`).join("")}</ul><div class="section-heading" style="margin-top:22px"><h2>结论</h2></div><div class="answer">${escapeHtml(mode.conclusion)}</div>${judgementLine(judgement?.conclusion)}${judgement ? `<div class="chip-row">${judgement.swaps.map((swap) => `<span class="chip">${escapeHtml(swap)}</span>`).join("")}</div><p class="translation">${escapeHtml(judgement.rule)}</p>` : ""}<p class="translation">${escapeHtml(mode.opinionRule || mode.relationship)}</p></article>`;
       }).join("")}</div>
-    </section>
-    <div class="content-grid" style="margin-top:24px">
-      <aside class="sidebar" aria-label="G 类范文分类"><span class="sidebar-label">选择 G 类范文</span>${categories.map((item) => `<div><button class="sidebar-button ${item.id === category.id ? "active" : ""}" type="button" data-essay-category="${escapeHtml(item.id)}"><strong>${escapeHtml(item.name)}</strong><small>${item.essays.length} 篇</small></button>${item.id === category.id ? item.essays.map((entry) => `<button class="sidebar-button ${entry.id === essay.id ? "active" : ""}" type="button" data-essay-id="${escapeHtml(entry.id)}" style="padding-left:22px"><strong>${escapeHtml(entry.title)}</strong><small>${escapeHtml(entry.sourceTag ? `${entry.sourceTag} · ${entry.position}` : entry.position)}</small></button>`).join("") : ""}</div>`).join("")}</aside>
+    </section>`;
+  main.innerHTML = `
+    <nav class="task2-tabs" aria-label="Task 2 范文库" role="tablist">
+      <button class="task2-tab ${isCambridgeTab ? "" : "active"}" type="button" role="tab" aria-controls="task2-library" aria-selected="${isCambridgeTab ? "false" : "true"}" data-task2-tab="general"><span>G 类易记范文</span><small>${countEssays(generalCategories)} 篇</small></button>
+      <button class="task2-tab ${isCambridgeTab ? "active" : ""}" type="button" role="tab" aria-controls="task2-library" aria-selected="${isCambridgeTab ? "true" : "false"}" data-task2-tab="cambridge"><span>剑雅 20–21 GT</span><small>${cambridgeEssayList.length} 篇</small></button>
+    </nav>
+    ${frameworkPanel}
+    <div class="content-grid" id="task2-library" role="tabpanel" style="margin-top:${isCambridgeTab ? 0 : 24}px">
+      <aside class="sidebar" aria-label="${escapeHtml(sidebarLabel)}"><span class="sidebar-label">${escapeHtml(sidebarLabel)}</span>${sidebarContents}</aside>
       <article class="panel">
         <header class="panel-header"><span class="eyebrow">${escapeHtml(category.name)} · 立场：${escapeHtml(essay.position)}</span><h2>${escapeHtml(essay.title)}</h2><p>${escapeHtml(essay.prompt)}</p><div class="chip-row">${essay.sourceTag ? `<span class="badge gold">${escapeHtml(`${essay.sourceTag} · ${essay.sourceGid} · ${essay.sourcePeriod} · 目标 ${essay.targetBand} 分`)}</span>` : `<span class="badge gold">G 类相关题 · Band ${escapeHtml(essay.targetBand || "5")} 易记版</span>`}${essay.materials.map((item) => `<span class="badge">${escapeHtml(item)}</span>`).join("")}</div></header>
         <div class="panel-body">
@@ -592,6 +619,14 @@ function renderTaskTwo() {
         </div>
       </article>
     </div>`;
+  document.querySelectorAll("[data-task2-tab]").forEach((button) => button.addEventListener("click", () => {
+    if (button.dataset.task2Tab === state.taskTwoTab) return;
+    changeView(() => {
+      state.taskTwoTab = button.dataset.task2Tab;
+      state.essayCategoryId = "";
+      state.essayId = "";
+    }, 0);
+  }));
   document.querySelectorAll("[data-essay-category]").forEach((button) => button.addEventListener("click", () => {
     changeView(() => {
       state.essayCategoryId = button.dataset.essayCategory;

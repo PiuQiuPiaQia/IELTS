@@ -41,6 +41,12 @@ a { color: inherit; }
 main { width: min(1420px, calc(100% - 32px)); min-height: calc(100vh - 72px); margin: 0 auto; padding: 40px 0 72px; }
 .eyebrow { display: block; margin-bottom: 9px; color: #bfd2e4; font-size: 12px; font-weight: 850; letter-spacing: .13em; text-transform: uppercase; }
 
+.task2-tabs { display: flex; width: fit-content; max-width: 100%; gap: 6px; margin-bottom: 24px; padding: 6px; border: 1px solid var(--line); border-radius: 15px; background: rgba(255,255,255,.82); box-shadow: 0 8px 24px rgba(31,45,59,.05); }
+.task2-tab { display: flex; align-items: center; gap: 12px; min-height: 44px; padding: 9px 15px; border: 0; border-radius: 10px; background: transparent; color: var(--muted); cursor: pointer; font-size: 14px; font-weight: 800; }
+.task2-tab small { padding: 2px 7px; border-radius: 999px; background: var(--soft); color: var(--muted); font-size: 12px; }
+.task2-tab:hover,.task2-tab:focus-visible { background: var(--soft); color: var(--accent); }
+.task2-tab.active { background: var(--accent); color: #fff; }
+.task2-tab.active small { background: rgba(255,255,255,.18); color: #fff; }
 .content-grid { display: grid; grid-template-columns: 300px minmax(0,1fr); gap: 24px; align-items: start; }
 .sidebar { position: sticky; top: 94px; max-height: calc(100vh - 118px); overflow: auto; padding: 10px; border: 1px solid var(--line); border-radius: 18px; background: rgba(255,255,255,.8); }
 .sidebar-label { display: block; padding: 9px 10px 5px; color: var(--muted); font-size: 11px; font-weight: 850; letter-spacing: .1em; text-transform: uppercase; }
@@ -148,6 +154,8 @@ mark { padding: 0 .15em; border-radius: 3px; background: #f6dca6; color: inherit
   .main-nav { justify-content: start; }
   .main-nav button { flex: 0 0 auto; padding-inline: 11px; }
   main { width: min(100% - 20px,1420px); }
+  .task2-tabs { width: 100%; overflow-x: auto; }
+  .task2-tab { flex: 1 0 max-content; justify-content: center; }
   .panel-header,.panel-body { padding: 20px; }
   .criteria-grid,.two-column { grid-template-columns: 1fr; }
   .review-title { display: block; }
