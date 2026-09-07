@@ -6,24 +6,16 @@ const PART2_MATERIAL_ORDER = [
   "people-tips",
   "place-tips",
   "object-tips",
-  "event-tips",
-  "alex",
-  "shanghai",
-  "gardening-grandma",
-  "phone-detox",
-  "movie-night",
-  "standalone-topics"
+  "event-tips"
 ];
-const PART2_PRIMARY_MATERIALS = new Set(["alex", "shanghai", "gardening-grandma", "movie-night"]);
 
 const state = {
   page: PAGES.has(location.hash.slice(1)) ? location.hash.slice(1) : "part2",
   data: {},
   part1Query: "",
-  part2MaterialId: "alex",
-  part2TopicId: "helpful-person",
-  part3GroupId: "",
-  part3View: "topics",
+  part2MaterialId: "people-tips",
+  part2TopicId: "",
+  part3View: "list",
 };
 
 let readingPositions = {};
@@ -189,8 +181,7 @@ function loadUiState() {
     if (typeof saved.part1Query === "string") state.part1Query = saved.part1Query;
     if (typeof saved.part2MaterialId === "string") state.part2MaterialId = saved.part2MaterialId;
     if (typeof saved.part2TopicId === "string") state.part2TopicId = saved.part2TopicId;
-    if (typeof saved.part3GroupId === "string") state.part3GroupId = saved.part3GroupId;
-    if (saved.part3View === "topics" || saved.part3View === "list" || saved.part3View === "library") state.part3View = saved.part3View;
+    state.part3View = saved.part3View === "library" ? "library" : "list";
     if (saved.readingPositions && typeof saved.readingPositions === "object" && !Array.isArray(saved.readingPositions)) readingPositions = saved.readingPositions;
   } catch (error) {
     console.warn("Unable to restore speaking UI state", error);
@@ -204,7 +195,6 @@ function persistUiState() {
       part1Query: state.part1Query,
       part2MaterialId: state.part2MaterialId,
       part2TopicId: state.part2TopicId,
-      part3GroupId: state.part3GroupId,
       part3View: state.part3View,
       readingPositions,
     }));
@@ -216,11 +206,7 @@ function persistUiState() {
 function currentViewKey() {
   if (state.page === "part1") return `part1:${encodeURIComponent(state.part1Query)}`;
   if (state.page === "part2") return `part2:${state.part2MaterialId}:${state.part2TopicId}`;
-  if (state.page === "part3") {
-    if (state.part3View === "list") return "part3:list";
-    if (state.part3View === "library") return "part3:library";
-    return `part3:topics:${state.part3GroupId}`;
-  }
+  if (state.page === "part3") return `part3:${state.part3View}`;
   return state.page;
 }
 
@@ -385,10 +371,7 @@ function setPage(page, { saveCurrent = true } = {}) {
 }
 
 function renderPartOne() {
-  const groups = [...state.data.part1].sort((a, b) => {
-    if (Boolean(a.isNew) !== Boolean(b.isNew)) return a.isNew ? -1 : 1;
-    return (a.newOrder ?? Number.POSITIVE_INFINITY) - (b.newOrder ?? Number.POSITIVE_INFINITY);
-  });
+  const groups = [...state.data.part1].sort(compareQuestionBankEntries);
   const query = state.part1Query.trim().toLowerCase();
   const visibleGroups = groups
     .map((group) => ({ ...group, items: group.items.filter((item) => JSON.stringify(item).toLowerCase().includes(query)) }))
@@ -399,6 +382,7 @@ function renderPartOne() {
       <label class="search"><span aria-hidden="true">⌕</span><input id="part1-search" type="search" value="${escapeHtml(state.part1Query)}" placeholder="搜索题目、答案或中文…" autocomplete="off"></label>
       <span class="count" id="part1-count">显示 ${visibleTotal} 题</span>
     </div>
+    <p class="note">参考答案按 5.5 分目标准备：先直接回答，再补原因或细节，建议说 2–3 句。个人经历和时长请按实际情况调整。</p>
     <div id="part1-results">${visibleGroups.length ? partOneGroupsHtml(visibleGroups) : '<div class="empty-state">没有找到匹配的题目。</div>'}</div>`;
   document.querySelector("#part1-search").addEventListener("input", (event) => {
     state.part1Query = event.target.value;
@@ -419,7 +403,7 @@ function renderPartOne() {
 function partOneGroupsHtml(groups) {
   return groups.map((group) => `
     <section class="group-section">
-      <div class="group-title"><div><span class="eyebrow">${escapeHtml(group.tab)}</span><h2>${escapeHtml(group.title)}${group.isNew ? '<span class="new-tag">新题</span>' : ""}</h2></div><span class="badge">${group.items.length} 题</span></div>
+      <div class="group-title"><div><span class="eyebrow">${escapeHtml(group.tab)}</span><h2>${escapeHtml(group.title)}${questionStatusTag(group)}</h2></div><span class="badge">${group.items.length} 题</span></div>
       <div class="card-list">
         ${group.items.map((item, index) => `
           <article class="card">
@@ -437,41 +421,24 @@ function materialLabel(material) {
   return material.tab || material.title || material.id;
 }
 
-function reviewFrequencyClass(frequency) {
-  if (frequency === "超高频") return "frequency-ultra";
-  if (frequency === "高频") return "frequency-high";
-  if (frequency === "中高频") return "frequency-medium";
-  return "frequency-unlisted";
+function questionStatusTag(item) {
+  return `<span class="question-status-tag ${item.isNew ? "status-new" : "status-retained"}">${item.isNew ? "新题" : "保留题"}</span>`;
 }
 
-function reviewFrequencyTag(meta, { showUnlisted = false } = {}) {
-  if (!meta && !showUnlisted) return "";
-  const frequency = meta?.frequency || "PDF 未收录";
-  return `<span class="review-frequency-tag ${reviewFrequencyClass(meta?.frequency)}">${escapeHtml(frequency)}</span>`;
+function compareQuestionBankEntries(a, b) {
+  return Number(Boolean(b.isNew)) - Number(Boolean(a.isNew)) ||
+    (a.sourceOrder ?? Number.POSITIVE_INFINITY) - (b.sourceOrder ?? Number.POSITIVE_INFINITY);
 }
 
-function reviewOrder(meta) {
-  return Number.isFinite(meta?.order) ? meta.order : Number.POSITIVE_INFINITY;
-}
-
-function compareReviewEntries(aMeta, bMeta, aFallback = 0, bFallback = 0) {
-  return reviewOrder(aMeta) - reviewOrder(bMeta) || aFallback - bFallback;
-}
-
-function partThreeReviewMeta(groupId) {
-  return (state.data.reviewGuide?.part3 || []).find((item) => item.groupId === groupId) || null;
-}
-
-function partTwoMaterialHasNewTopics(material) {
-  return Boolean(
-    material.topics?.some((topic) => topic.isNew) ||
-    material.tips?.topicGroups?.some((group) => group.items?.some((item) => item.isNew))
-  );
+function partTwoMaterialStatuses(material) {
+  const items = [...(material.topics || []), ...(material.tips?.topicGroups || []).flatMap((group) => group.items)];
+  return [true, false].filter((isNew) => items.some((item) => item.isNew === isNew));
 }
 
 function renderPartTwo() {
   const materialOrder = new Map(PART2_MATERIAL_ORDER.map((id, index) => [id, index]));
   const materials = [...state.data.part2].sort((a, b) =>
+    Number(partTwoMaterialStatuses(b).includes(true)) - Number(partTwoMaterialStatuses(a).includes(true)) ||
     (materialOrder.get(a.id) ?? PART2_MATERIAL_ORDER.length) -
     (materialOrder.get(b.id) ?? PART2_MATERIAL_ORDER.length)
   );
@@ -484,7 +451,7 @@ function renderPartTwo() {
     <div class="content-grid">
       <aside class="sidebar" aria-label="通用素材">
         <span class="sidebar-label">选择素材</span>
-        ${materials.map((item) => `<button class="sidebar-button ${item.id === material.id ? "active" : ""}" type="button" data-material-id="${escapeHtml(item.id)}"><strong>${escapeHtml(materialLabel(item))}${partTwoMaterialHasNewTopics(item) ? '<span class="new-tag">新题</span>' : ""}</strong><small>${item.tips ? escapeHtml(item.tipLabel || "通用框架") : `${PART2_PRIMARY_MATERIALS.has(item.id) ? "首要素材 · " : ""}${item.topics.length} 道${item.standalone ? "独立题" : "适配题"}`}</small></button>`).join("")}
+        ${materials.map((item) => `<button class="sidebar-button ${item.id === material.id ? "active" : ""}" type="button" data-material-id="${escapeHtml(item.id)}"><strong>${escapeHtml(materialLabel(item))}${partTwoMaterialStatuses(item).map((isNew) => questionStatusTag({ isNew })).join("")}</strong><small>${escapeHtml(item.tipLabel || "通用框架")}</small></button>`).join("")}
       </aside>
       <section class="panel">
         <header class="panel-header">
@@ -494,12 +461,12 @@ function renderPartTwo() {
         </header>
         <div class="panel-body">
           ${material.tips
-            ? partTwoTipsHtml(material.tips, state.data.toolkit?.find((item) => item.type === "materials")?.items || [], material.id)
+            ? partTwoTipsHtml(material.tips, state.data.toolkit?.find((item) => item.type === "materials")?.items || [])
             : material.standalone
             ? `<div class="standalone-topic-list">${material.topics.map((item) => `<section class="standalone-topic-block">${partTwoTopicHtml(item, { showFramework: false })}</section>`).join("")}</div>`
             : `${partTwoMasterHtml(material)}
               <div class="section-heading"><h2>选择原题</h2><p>切换题目后，下方答案与扣题重点会同步更新。</p></div>
-              <div class="chip-row">${material.topics.map((item) => `<button class="chip ${item.id === topic.id ? "active" : ""}" type="button" data-topic-id="${escapeHtml(item.id)}">${escapeHtml(item.code || "")} ${escapeHtml(item.name || item.question)}</button>`).join("")}</div>
+              <div class="chip-row">${material.topics.map((item) => `<button class="chip ${item.id === topic.id ? "active" : ""}" type="button" data-topic-id="${escapeHtml(item.id)}">${escapeHtml(item.code || "")} ${escapeHtml(item.name || item.question)}${questionStatusTag(item)}</button>`).join("")}</div>
               ${partTwoTopicHtml(topic)}
               ${material.rules?.length ? `<div class="section-heading"><h2>使用提醒</h2></div><ul class="numbered-list">${material.rules.map((rule) => `<li>${escapeHtml(rule)}</li>`).join("")}</ul>` : ""}`}
         </div>
@@ -533,133 +500,66 @@ function partTwoAnswerAsStoryHtml(item) {
     ${translation ? `<p class="memory-chain story-memory-chain"><strong>中文参考</strong>${escapeHtml(translation)}</p>` : ""}`;
 }
 
-function partTwoTipsHtml(tips, universalMaterials = [], materialId = "") {
+function partTwoTipsHtml(tips, universalMaterials = []) {
   const section = tips.section;
-  const reviewEntries = state.data.reviewGuide?.part2 || [];
-  const reviewByQuestion = new Map(reviewEntries.map((item) => [item.question, item]));
-  const nativeTopicGuideItems = (tips.topicGroups || [])
-    .flatMap((group, groupIndex) => group.items.map((item, itemIndex) => ({
-      group,
-      item,
-      order: Number.isFinite(item.sourceOrder) ? item.sourceOrder : groupIndex * 100 + itemIndex,
-      review: reviewByQuestion.get(item.question) || null
-    })));
-  const nativeQuestions = new Set(nativeTopicGuideItems.map(({ item }) => item.question));
-  const referencedQuestions = (tips.mergedStories || []).flatMap((story) =>
-    (story.questions || []).map((entry) => typeof entry === "string" ? entry : entry.question)
+  const nativeItems = (tips.topicGroups || []).flatMap((group) =>
+    group.items.map((item) => ({ group, item }))
   );
-  const seenSupplementalQuestions = new Set();
-  const supplementalRequests = [
-    ...reviewEntries
-      .filter((entry) => entry.targetMaterialId === materialId)
-      .map((review) => ({ question: review.question, review })),
-    ...referencedQuestions.map((question) => ({
-      question,
-      review: reviewByQuestion.get(question) || null
-    }))
-  ].filter(({ question }) => {
-    if (!question || nativeQuestions.has(question) || seenSupplementalQuestions.has(question)) return false;
-    seenSupplementalQuestions.add(question);
-    return true;
-  });
-  const supplementalTopicItems = supplementalRequests
-    .map(({ question, review }, index) => {
-      let sourceMaterial = null;
-      let item = null;
-      for (const candidate of state.data.part2) {
-        const candidateItems = [
-          ...(candidate.topics || []),
-          ...((candidate.tips?.topicGroups || []).flatMap((group) => group.items || []))
-        ];
-        const match = candidateItems.find((candidateItem) => candidateItem.question === question);
-        if (!match) continue;
-        sourceMaterial = candidate;
-        item = match;
-        break;
-      }
-      if (!sourceMaterial || !item) return null;
-      return {
-        group: { title: `复习顺序补充｜${materialLabel(sourceMaterial)}` },
-        item,
-        order: Number.isFinite(item.sourceOrder) ? item.sourceOrder : 10000 + index,
-        review
-      };
-    })
-    .filter(Boolean);
-  const topicGuideItems = [...nativeTopicGuideItems, ...supplementalTopicItems];
-  const topicGuideItemMap = new Map(topicGuideItems.map((entry) => [entry.item.question, entry]));
-  const mergedQuestionSet = new Set();
-  const mergedStoryCards = (tips.mergedStories || []).map((story) => {
-    const questionEntries = (story.questions || []).map((questionEntry) => {
-      const questionMeta = typeof questionEntry === "string" ? { question: questionEntry } : questionEntry;
-      const entry = topicGuideItemMap.get(questionMeta.question);
-      if (!entry) return null;
-      mergedQuestionSet.add(entry.item.question);
-      return { entry, questionMeta };
-    }).filter(Boolean).sort((a, b) => {
-      if (Boolean(a.entry.item.isLatest) !== Boolean(b.entry.item.isLatest)) {
-        return a.entry.item.isLatest ? -1 : 1;
-      }
-      return compareReviewEntries(a.entry.review, b.entry.review, a.entry.order, b.entry.order);
+  const itemByQuestion = new Map(nativeItems.map((entry) => [entry.item.question, entry]));
+  // 共用素材可以引用其他素材目录中的原题。
+  for (const material of state.data.part2) {
+    const entries = [
+      ...(material.topics || []).map((item) => ({ group: { title: materialLabel(material) }, item })),
+      ...(material.tips?.topicGroups || []).flatMap((group) => group.items.map((item) => ({ group, item })))
+    ];
+    for (const entry of entries) {
+      if (!itemByQuestion.has(entry.item.question)) itemByQuestion.set(entry.item.question, entry);
+    }
+  }
+  const mergedQuestions = new Set();
+  const mergedStoryCards = (tips.mergedStories || []).flatMap((story) => {
+    const questions = (story.questions || []).map((value) => {
+      const meta = typeof value === "string" ? { question: value } : value;
+      const entry = itemByQuestion.get(meta.question);
+      return entry ? { ...entry.item, special: meta.special || "" } : null;
+    }).filter(Boolean).sort(compareQuestionBankEntries);
+    if (!questions.length) return [];
+    questions.forEach((item) => mergedQuestions.add(item.question));
+    const baseEntry = itemByQuestion.get(story.baseQuestion) || itemByQuestion.get(questions[0].question);
+    // 同一故事的两类题分开列出，保证所有新题先于保留题。
+    return [true, false].flatMap((isNew) => {
+      const matching = questions.filter((item) => item.isNew === isNew);
+      if (!matching.length) return [];
+      return [{
+        isNew,
+        sourceOrder: matching[0].sourceOrder,
+        title: story.title || baseEntry.group.title,
+        questions: matching.map((item) => ({ text: item.question, special: item.special, isNew })),
+        item: {
+          ...baseEntry.item,
+          draftCues: story.draftCues || baseEntry.item.draftCues,
+          focus: story.focus || baseEntry.item.focus,
+          omit: story.omit || baseEntry.item.omit,
+          body: story.body || baseEntry.item.body,
+          memoryChain: story.memoryChain || baseEntry.item.memoryChain,
+          reasons: story.reasons || baseEntry.item.reasons,
+          pointsLabel: story.pointsLabel || "可选理由 / 结尾点",
+          reasonHint: story.reasonHint ?? baseEntry.item.reasonHint
+        },
+        merged: true
+      }];
     });
-    if (!questionEntries.length) return null;
-    const baseEntry = topicGuideItemMap.get(story.baseQuestion) || questionEntries[0].entry;
-    const latestEntries = questionEntries.filter(({ entry }) => entry.item.isLatest);
-    return {
-      order: Number.isFinite(story.sourceOrder) ? story.sourceOrder : baseEntry.order,
-      reviewOrder: Math.min(...questionEntries.map(({ entry }) => reviewOrder(entry.review))),
-      isLatest: latestEntries.length > 0,
-      latestOrder: latestEntries.length
-        ? Math.min(...latestEntries.map(({ entry }) => entry.order))
-        : Number.POSITIVE_INFINITY,
-      title: story.title || baseEntry.group.title,
-      questions: questionEntries.map(({ entry, questionMeta }) => ({
-        text: entry.item.question,
-        special: questionMeta.special || "",
-        isNew: Boolean(entry.item.isNew),
-        isLatest: Boolean(entry.item.isLatest),
-        review: entry.review
-      })),
-      item: {
-        ...baseEntry.item,
-        draftCues: story.draftCues || baseEntry.item.draftCues,
-        focus: story.focus || baseEntry.item.focus,
-        omit: story.omit || baseEntry.item.omit,
-        body: story.body || baseEntry.item.body,
-        memoryChain: story.memoryChain || baseEntry.item.memoryChain,
-        reasons: story.reasons || baseEntry.item.reasons,
-        pointsLabel: story.pointsLabel || "可选理由 / 结尾点",
-        reasonHint: story.reasonHint ?? baseEntry.item.reasonHint
-      },
-      merged: true
-    };
-  }).filter(Boolean);
-  const singleStoryCards = topicGuideItems
-    .filter(({ item }) => !mergedQuestionSet.has(item.question))
-    .map(({ group, item, order, review }) => ({
-      order,
-      reviewOrder: reviewOrder(review),
-      isLatest: Boolean(item.isLatest),
-      latestOrder: item.isLatest ? order : Number.POSITIVE_INFINITY,
+  });
+  const singleStoryCards = nativeItems.filter(({ item }) => !mergedQuestions.has(item.question))
+    .map(({ group, item }) => ({
+      isNew: item.isNew,
+      sourceOrder: item.sourceOrder,
       title: item.storyTitle || item.name || group.title,
-      questions: [{
-        text: item.question,
-        special: "",
-        isNew: Boolean(item.isNew),
-        isLatest: Boolean(item.isLatest),
-        review
-      }],
+      questions: [{ text: item.question, special: "", isNew: item.isNew }],
       item,
       merged: false
     }));
-  const storyCards = [...mergedStoryCards, ...singleStoryCards].sort((a, b) => {
-    if (Boolean(a.isLatest) !== Boolean(b.isLatest)) return a.isLatest ? -1 : 1;
-    if (a.isLatest && b.isLatest) return a.latestOrder - b.latestOrder;
-    return a.reviewOrder - b.reviewOrder || a.order - b.order;
-  });
-  const reviewGuideHtml = reviewEntries.some((item) => item.targetMaterialId === materialId) ? `<div class="note review-guide-note">
-    <strong>${escapeHtml(state.data.reviewGuide.source)}：</strong>素材卡原则上按文档题目顺序排列；共用或强关联素材的题目会相邻展示，其他“PDF 未收录”题目接在后面。
-  </div>` : "";
+  const storyCards = [...mergedStoryCards, ...singleStoryCards].sort(compareQuestionBankEntries);
   const techniqueHtml = tips.techniques?.length ? `<div class="note">
     <strong>Part 2 · 最后一问技巧</strong><br>
     前面先正常覆盖题卡信息；最后一问用 <strong>As for...</strong> 扣题，再按问法选择一种：<br>
@@ -693,7 +593,7 @@ function partTwoTipsHtml(tips, universalMaterials = [], materialId = "") {
         <h3>${escapeHtml(title)}</h3>
         <p class="story-card-label">这些题目可以用这个素材</p>
         <ol class="story-question-list">
-          ${questions.map((question) => `<li><span class="story-question-text">${escapeHtml(question.text)}${reviewFrequencyTag(question.review, { showUnlisted: true })}${question.isNew ? '<span class="new-tag">新题</span>' : ""}</span>${question.special ? `<span class="story-question-special"><strong>只改：</strong>${escapeHtml(question.special)}</span>` : ""}</li>`).join("")}
+          ${questions.map((question) => `<li><span class="story-question-text">${escapeHtml(question.text)}${questionStatusTag(question)}</span>${question.special ? `<span class="story-question-special"><strong>只改：</strong>${escapeHtml(question.special)}</span>` : ""}</li>`).join("")}
         </ol>
         <section class="simple-master-section topic-guide-item">
           ${item.cuePoints?.length ? `<ul class="numbered-list">${item.cuePoints.map((point, index) => `<li>${escapeHtml(point)}${item.cueTranslations?.[index] ? `<span class="memory-chain">${escapeHtml(item.cueTranslations[index])}</span>` : ""}</li>`).join("")}</ul>` : ""}
@@ -738,7 +638,6 @@ function partTwoTipsHtml(tips, universalMaterials = [], materialId = "") {
     </article>` : "";
   return `
     <div class="card-list">
-      ${reviewGuideHtml}
       ${techniqueHtml}
       ${sectionHtml}
       ${topicGroupsHtml}
@@ -785,7 +684,7 @@ function partTwoMasterAnswerHtml(material) {
 
 function partTwoTopicHtml(topic, { showFramework = true } = {}) {
   return `
-    <div class="section-heading"><h2>${escapeHtml(topic.name || "参考答案")}${topic.isNew ? '<span class="new-tag">新题</span>' : ""}</h2><p class="question">${escapeHtml(topic.question)}</p></div>
+    <div class="section-heading"><h2>${escapeHtml(topic.name || "参考答案")}${questionStatusTag(topic)}</h2><p class="question">${escapeHtml(topic.question)}</p></div>
     ${topic.cuePoints?.length ? `<ul class="numbered-list">${topic.cuePoints.map((point, index) => `<li>${escapeHtml(point)}${topic.cueTranslations?.[index] ? `<span class="memory-chain">${escapeHtml(topic.cueTranslations[index])}</span>` : ""}</li>`).join("")}</ul>` : ""}
     ${topic.draftCues?.length ? `<div class="draft-cues"><strong>一分钟草稿</strong>${topic.draftCues.map((cue) => `<span>${escapeHtml(cue)}</span>`).join("")}</div>` : ""}
     ${topic.fit ? `<span class="badge">${escapeHtml(topic.fit)}</span>` : ""}
@@ -814,8 +713,7 @@ function partTwoTopicHtml(topic, { showFramework = true } = {}) {
 
 function partThreeViewTabsHtml(questionCount, libraryCount) {
   return `<div class="part3-view-tabs" role="tablist" aria-label="Part 3 查看方式">
-    <button class="part3-view-tab ${state.part3View === "topics" ? "active" : ""}" type="button" role="tab" aria-selected="${state.part3View === "topics"}" data-part3-view="topics">分主题练习</button>
-    <button class="part3-view-tab ${state.part3View === "list" ? "active" : ""}" type="button" role="tab" aria-selected="${state.part3View === "list"}" data-part3-view="list">本季新题清单 <span>${questionCount}</span></button>
+    <button class="part3-view-tab ${state.part3View === "list" ? "active" : ""}" type="button" role="tab" aria-selected="${state.part3View === "list"}" data-part3-view="list">本季题目清单 <span>${questionCount}</span></button>
     <button class="part3-view-tab ${state.part3View === "library" ? "active" : ""}" type="button" role="tab" aria-selected="${state.part3View === "library"}" data-part3-view="library">理由 + 例子库 <span>${libraryCount}</span></button>
   </div>`;
 }
@@ -823,7 +721,7 @@ function partThreeViewTabsHtml(questionCount, libraryCount) {
 function partThreeQuestionPreviewHtml(group, item) {
   if (!group || !item) return '<p class="empty-state">暂无可预览的答案。</p>';
   return `<div class="p3-answer-preview-heading">
-      <div class="p3-preview-topic-tags"><span class="badge">${escapeHtml(group.title)}</span>${reviewFrequencyTag(partThreeReviewMeta(group.id), { showUnlisted: true })}</div>
+      <div class="p3-preview-topic-tags"><span class="badge">${escapeHtml(group.title)}</span>${questionStatusTag(group)}</div>
       <span>悬浮左侧题目可切换</span>
     </div>
     <p class="question">${escapeHtml(item.question)}</p>
@@ -853,7 +751,7 @@ function p3ReasonExample(text) {
 
 function partThreeLibraryHtml(groups) {
   const catOf = (category) => (category || "").replace(/类$/, "");
-  const sections = groups.filter((group) => group.isLatest).map((group) => {
+  const sections = groups.map((group) => {
     const rows = group.items.map((item) => {
       const override = p3Override(group.id, item.question);
       const answer = (override && override.a) || item.translation?.answer || "";
@@ -867,7 +765,7 @@ function partThreeLibraryHtml(groups) {
     }).join("");
     if (!rows) return "";
     return `<section class="p3-lib-topic group-section">
-      <div class="p3-lib-topic-header"><span class="badge">${escapeHtml(catOf(group.category))}</span><h3>${escapeHtml(group.title)}</h3><span class="p3-lib-topic-meta">${group.items.length} 题</span></div>
+      <div class="p3-lib-topic-header"><span class="badge">${escapeHtml(catOf(group.category))}</span><h3>${escapeHtml(group.title)}${questionStatusTag(group)}</h3><span class="p3-lib-topic-meta">${group.items.length} 题</span></div>
       ${rows}
     </section>`;
   }).join("");
@@ -875,7 +773,7 @@ function partThreeLibraryHtml(groups) {
     <header class="panel-header">
       <span class="eyebrow">PART 3 · REASONS &amp; EXAMPLES</span>
       <h2>理由 + 例子库</h2>
-      <p>每道新题抽出它的<strong>理由</strong>和<strong>例子</strong>，中英对照。橙色是理由、蓝色是例子，下面浅色是要背的英文。</p>
+      <p>从题目答案中提取<strong>理由</strong>和<strong>例子</strong>，按新题、保留题顺序排列，中英对照。橙色是理由、蓝色是例子，下面浅色是要背的英文。</p>
     </header>
     <div class="panel-body p3-lib-body">${sections || '<p class="empty-state">暂无可展示的理由与例子。</p>'}</div>
   </section>`;
@@ -887,15 +785,15 @@ function partThreeQuestionListHtml(groups) {
   const firstItem = firstGroup?.items[0];
   return `<section class="panel p3-question-index">
     <header class="panel-header">
-      <span class="eyebrow">PART 3 · NEW QUESTIONS</span>
-      <h2>本季新题清单</h2>
-      <p>共 ${groups.length} 个话题、${questionCount} 道题。PDF 收录题组按 9 月复习顺序排列，其余题组接在后面。</p>
+      <span class="eyebrow">PART 3 · QUESTION BANK</span>
+      <h2>本季题目清单</h2>
+      <p>共 ${groups.length} 个话题、${questionCount} 道题。新题排在保留题前面，各类按飞书题库顺序排列。</p>
     </header>
     <div class="panel-body p3-index-layout">
       <div class="p3-index-list">
         ${groups.map((group, groupIndex) => `<section class="p3-index-topic group-section">
           <div class="p3-index-topic-header">
-            <div><span class="badge warm">${String(groupIndex + 1).padStart(2, "0")}</span><h3>${escapeHtml(group.title)}${reviewFrequencyTag(partThreeReviewMeta(group.id), { showUnlisted: true })}${group.isLatest ? '<span class="new-tag">本次新增</span>' : ""}</h3></div>
+            <div><span class="badge warm">${String(groupIndex + 1).padStart(2, "0")}</span><h3>${escapeHtml(group.title)}${questionStatusTag(group)}</h3></div>
             <span class="p3-index-topic-meta">${escapeHtml(group.category)} · ${group.items.length} 题</span>
           </div>
           <ol class="p3-index-questions">
@@ -914,54 +812,27 @@ function partThreeQuestionListHtml(groups) {
 }
 
 function renderPartThree() {
-  const newGroups = state.data.part3.filter((group) => group.isNew);
-  const sourceOrder = new Map(state.data.part3.map((group, index) => [group.id, index]));
-  const groups = [...newGroups]
-    .sort((a, b) => {
-      if (Boolean(a.isLatest) !== Boolean(b.isLatest)) return a.isLatest ? -1 : 1;
-      if (a.isLatest && b.isLatest) {
-        const latestOrderA = Number.isFinite(a.latestOrder) ? a.latestOrder : Number.POSITIVE_INFINITY;
-        const latestOrderB = Number.isFinite(b.latestOrder) ? b.latestOrder : Number.POSITIVE_INFINITY;
-        if (latestOrderA !== latestOrderB) return latestOrderA - latestOrderB;
-      }
-      return compareReviewEntries(
-        partThreeReviewMeta(a.id),
-        partThreeReviewMeta(b.id),
-        sourceOrder.get(a.id),
-        sourceOrder.get(b.id)
-      );
-    });
+  const groups = [...state.data.part3].sort(compareQuestionBankEntries);
   const listGroups = groups;
-  const listQuestionCount = listGroups.reduce((total, group) => total + group.items.length, 0);
-  const libraryQuestionCount = listGroups.reduce((total, group) => total + (group.isLatest ? group.items.length : 0), 0);
-  const selected = groups.find((group) => group.id === state.part3GroupId) || groups[0];
-  const answerModeLabel = selected.items.some((item) => item.answerLanguage !== "zh") ? "中英答案" : "中文答案";
-  state.part3GroupId = selected.id;
+  const listQuestionCount = groups.reduce((total, group) => total + group.items.length, 0);
+  const libraryGroups = groups.map((group) => ({
+    ...group,
+    items: group.items.filter((item) => {
+      const override = p3Override(group.id, item.question);
+      const parts = override?.reasonExample || p3ReasonExample(override?.a || item.translation?.answer || "");
+      return parts.reasonCn || parts.exCn;
+    })
+  })).filter((group) => group.items.length);
+  const libraryQuestionCount = libraryGroups.reduce((total, group) => total + group.items.length, 0);
   main.innerHTML = `
     ${partThreeViewTabsHtml(listQuestionCount, libraryQuestionCount)}
-    ${state.part3View === "list" ? partThreeQuestionListHtml(listGroups) : state.part3View === "library" ? partThreeLibraryHtml(listGroups) : `<div class="content-grid">
-      <aside class="sidebar" aria-label="观点分类"><span class="sidebar-label">选择主题</span>${groups.map((group) => `<button class="sidebar-button ${group.id === selected.id ? "active" : ""}" type="button" data-part3-id="${escapeHtml(group.id)}"><strong>${escapeHtml(group.title)}${reviewFrequencyTag(partThreeReviewMeta(group.id), { showUnlisted: true })}${group.isNew ? `<span class="new-tag">${group.isLatest ? "本次新增" : "新题"}</span>` : ""}</strong><small>${escapeHtml(group.category)} · ${group.items.length} 题</small></button>`).join("")}</aside>
-      <section class="panel">
-        <header class="panel-header"><span class="eyebrow">${selected.isNew ? `${selected.isLatest ? "本次新增" : "新题"} · ${answerModeLabel} · ` : ""}${escapeHtml(selected.category)} · 对应 Part 2：${escapeHtml(selected.partTwo)}</span><h2>${escapeHtml(selected.title)}${reviewFrequencyTag(partThreeReviewMeta(selected.id), { showUnlisted: true })}</h2></header>
-        <div class="panel-body card-list">${selected.items.map((item, index) => `<article class="card">
-          <span class="badge warm">${String(index + 1).padStart(2, "0")}</span>
-          <p class="question">${escapeHtml(item.question)}</p>
-          ${item.translation?.question ? `<p class="translation"><strong>题目：</strong>${escapeHtml(item.translation.question)}</p>` : ""}
-          ${item.answerLanguage === "zh" ? (item.structure ? `<div class="chip-row"><span class="chip structure">结构 · ${escapeHtml(item.structure)}</span></div>` : "") : ((item.structure || item.materials?.length) ? `<div class="chip-row">${item.structure ? `<span class="chip structure">结构 · ${escapeHtml(item.structure)}</span>` : ""}${item.materials?.map((code) => `<span class="chip">${escapeHtml(toolkitMaterialLabel(code))}</span>`).join("") || ""}</div>` : "")}
-          ${item.comparison ? `<p class="note"><strong>高频对比：</strong>${escapeHtml(item.comparison)}</p>` : ""}
-          ${partThreeAnswerHtml(item, selected.id)}
-        </article>`).join("")}</div>
-      </section>
-    </div>`}`;
+    ${state.part3View === "library" ? partThreeLibraryHtml(libraryGroups) : partThreeQuestionListHtml(listGroups)}`;
   document.querySelectorAll("[data-part3-view]").forEach((button) => button.addEventListener("click", () => {
     if (button.dataset.part3View === state.part3View) return;
     saveReadingPosition();
     state.part3View = button.dataset.part3View;
     render();
     restoreReadingPosition(0);
-  }));
-  document.querySelectorAll("[data-part3-id]").forEach((button) => button.addEventListener("click", () => {
-    changeSidebarView(() => { state.part3GroupId = button.dataset.part3Id; });
   }));
   const answerPreview = document.querySelector("[data-p3-answer-preview]");
   const previewItems = [...document.querySelectorAll("[data-p3-preview-group]")];
