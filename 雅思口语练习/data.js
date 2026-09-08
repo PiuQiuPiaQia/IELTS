@@ -1,9 +1,9 @@
-// 飞书 2026 年 9–12 月题库，核对日期：2026-09-07。
+// 飞书 2026 年 9–12 月题库，核对日期：2026-09-08。
 // 按飞书题库维护原题；isNew 区分新题与保留题，sourceOrder 为题库顺序。
 // 素材通过普通 script 标签载入，无需 fetch、构建步骤或本地服务器。
 
 window.IELTS_DATA = {
-  "version": "speaking-feishu-2026-09-07-p1-complete",
+  "version": "speaking-feishu-2026-09-08-synced",
   "part1": [
     {
       "id": "september-friends",
@@ -14,28 +14,28 @@ window.IELTS_DATA = {
       "items": [
         {
           "question": "Do you have a friend you have known for a long time?",
-          "answer": "Yes, I have a friend from secondary school, and we still keep in touch. We don't meet very often now, but we can talk comfortably whenever we see each other.",
-          "translation": "有，我有一位中学时认识的朋友，我们现在仍保持联系。虽然现在见面不多，但每次见面都能聊得很自在。"
+          "answer": "Yes, I have a friend from secondary school. We still keep in touch. We don't see each other very often, but sometimes we play computer games or badminton together.",
+          "translation": "有，我有一位中学时认识的朋友。我们现在仍保持联系。我们见面不是很频繁，但有时会一起玩电脑游戏或打羽毛球。"
         },
         {
           "question": "Do you often go out with your friends?",
-          "answer": "Not very often, because we're usually busy with work. We sometimes meet for a meal at the weekend, which gives us a chance to catch up and relax.",
-          "translation": "不算经常，因为我们平时工作都比较忙。周末我们有时会约着吃饭，这让我们有机会聊聊近况、放松一下。"
+          "answer": "Not really. We're pretty busy now, so we don't go out very often. Sometimes we just have a meal on weekends, which is a nice chance to relax.",
+          "translation": "不太经常。我们现在都很忙，所以不怎么出去。周末我们有时只是一起吃顿饭，这是一个不错的放松机会。"
         },
         {
           "question": "Do you prefer to spend time with one friend or with a group of friends?",
-          "answer": "I usually prefer spending time with one friend. It's easier to have a proper conversation, and we don't have to find a time and place that suits a large group.",
-          "translation": "我通常更喜欢和一个朋友一起相处。这样更容易好好聊天，也不用找一个能满足一大群人的时间和地点。"
+          "answer": "I do prefer spending time with one friend because it's easier to have a proper conversation. We also don't need to spend much time finding a time and place that suits a large group.",
+          "translation": "我确实更喜欢和一个朋友一起相处，因为这样更容易好好聊天。我们也不需要花太多时间去找适合一大群人的时间和地点。"
         },
         {
           "question": "How important are friends to you?",
-          "answer": "Friends are very important to me because I can share both good news and worries with them. Even a short conversation with a close friend can make a difficult day feel much better.",
-          "translation": "朋友对我很重要，因为我可以和他们分享好消息，也可以说说烦恼。即使只是和好朋友简单聊几句，也能让难熬的一天好过很多。"
+          "answer": "Friends are very important to me because I can share both good news and bad news with them. Even a short conversation with a close friend can make a difficult day feel much better.",
+          "translation": "朋友对我很重要，因为我可以和他们分享好消息和坏消息。即使只是和好朋友简单聊几句，也能让难熬的一天好过很多。"
         },
         {
           "question": "Is there a difference between where you meet friends now and where you used to meet them in the past?",
-          "answer": "Yes, when I was a student, I mainly met my friends at school. Now we usually meet in a restaurant or a quiet cafe because we work in different places.",
-          "translation": "有区别。学生时期，我主要在学校见朋友。现在我们通常在餐厅或安静的咖啡馆见面，因为我们在不同的地方工作。"
+          "answer": "Yes, definitely. When I was a student, we always met at school. Now we usually meet in a restaurant or a quiet cafe because we work in different places.",
+          "translation": "当然有区别。学生时期，我们总是在学校见面。现在我们通常在餐厅或安静的咖啡馆见面，因为我们在不同的地方工作。"
         },
         {
           "question": "What do you usually do with your friends?",
@@ -44,8 +44,8 @@ window.IELTS_DATA = {
         },
         {
           "question": "Where do you often meet each other?",
-          "answer": "We often meet at a restaurant near a subway station. It's convenient for everyone to get there, and we can sit down and talk over a meal.",
-          "translation": "我们经常在地铁站附近的餐厅见面。大家过去都很方便，还可以坐下来边吃边聊。"
+          "answer": "We often meet at a restaurant near a subway station. It's easy for everyone to get there, and we can sit down and have a meal.",
+          "translation": "我们经常在地铁站附近的餐厅见面。大家都很容易到那里，我们也可以坐下来一起吃顿饭。"
         },
         {
           "question": "Why are some places suitable for meeting while others are not?",
@@ -54,20 +54,20 @@ window.IELTS_DATA = {
         },
         {
           "question": "Would you invite friends to your home?",
-          "answer": "Yes, I'd be happy to invite close friends over when we all have time. We could order some food and watch a film, which would feel relaxed and comfortable.",
-          "translation": "会的，大家都有空时，我很愿意邀请好朋友来家里。我们可以点些吃的、看部电影，这样会很放松、很自在。"
+          "answer": "Yes, definitely. If we have free time, I'd be happy to invite close friends to my home. We can order some snacks and watch a film together. It's a good chance to relax.",
+          "translation": "当然会。如果我们有空，我很乐意邀请好朋友来我家。我们可以点一些零食，一起看部电影。这是一个不错的放松机会。"
         }
       ],
       "keyPhrases": [
         "keep in touch",
-        "catch up",
+        "play badminton or computer games together",
         "have a proper conversation",
-        "share both good news and worries",
+        "share both good news and bad news",
         "work in different places",
         "go for a walk afterwards",
-        "talk over a meal",
+        "sit down and have a meal",
         "easy to reach",
-        "invite close friends over"
+        "feel relaxed and comfortable"
       ],
       "sourceOrder": 1
     },
@@ -158,22 +158,23 @@ window.IELTS_DATA = {
         },
         {
           "question": "Were there any subjects that you found difficult at secondary school?",
-          "answer": "Yes, I found English a little difficult because I had to remember a lot of new words. However, I kept practising, and my teachers often helped me when I had questions.",
-          "translation": "有，我觉得英语有点难，因为需要记很多新单词。不过我一直练习，有问题时老师也经常帮助我。"
+          "answer": "Yes. I would say physics was probably my weakest subject because I found the concepts difficult to understand. I also had trouble remembering formulas about force and motion.",
+          "translation": "有。我觉得物理可能是我最弱的科目，因为我觉得里面的概念很难理解。我也不太容易记住和力与运动有关的公式。"
         },
         {
           "question": "What was your favorite subject at secondary school?",
-          "answer": "My favourite subject was computer science because I was curious about how programs worked. It later encouraged me to become a software engineer and solve problems with code.",
+          "answer": "My favourite subject was computer science because I was curious about how programs worked. It also encouraged me to become a software engineer and solve problems with code.",
           "translation": "我最喜欢的科目是计算机科学，因为我很好奇程序是如何运行的。它后来鼓励我成为软件工程师，并用代码解决问题。"
         },
         {
           "question": "Is there anything you miss about your secondary school?",
-          "answer": "I mostly miss the time I spent with my classmates. We studied and played sports together, and life was simpler because we did not have many responsibilities.",
-          "translation": "我最怀念的是和同学们一起度过的时光。我们一起学习、一起运动，那时没有太多责任，生活也更简单。"
+          "answer": "I mostly miss the time I spent at school with my classmates. We studied and played sports together, and life was simpler because we didn't have many responsibilities.",
+          "translation": "我最怀念的是在学校和同学们一起度过的时光。我们一起学习、一起运动，那时没有太多责任，生活也更简单。"
         }
       ],
       "keyPhrases": [
-        "remember a lot of new words",
+        "my weakest subject",
+        "formulas about force and motion",
         "curious about how programs worked",
         "solve problems with code",
         "did not have many responsibilities"
@@ -297,6 +298,11 @@ window.IELTS_DATA = {
           "question": "What kind of advertising do you like?",
           "answer": "I prefer short and practical advertisements that clearly explain a product. I also like ads with a little humour because they are more interesting and easier to remember.",
           "translation": "我更喜欢简短、实用，并且能清楚介绍产品的广告。我也喜欢带一点幽默的广告，因为它们更有趣，也更容易记住。"
+        },
+        {
+          "question": "Have you ever bought something because of an advertisement?",
+          "answer": "Yes, I once bought a pair of wireless earphones after seeing an online advert. I checked some reviews first, and they turned out to be useful for English listening practice.",
+          "translation": "买过。有一次我看了网上的广告后，买了一副无线耳机。我先查了一些评价，后来发现它们很适合用来练英语听力。"
         }
       ],
       "keyPhrases": [
@@ -304,7 +310,8 @@ window.IELTS_DATA = {
         "cheerful music and cartoon characters",
         "while I am travelling to work",
         "repetitive",
-        "short and practical advertisements"
+        "short and practical advertisements",
+        "checked some reviews"
       ],
       "sourceOrder": 7
     },
@@ -405,6 +412,11 @@ window.IELTS_DATA = {
           "question": "What do you do when you feel tired?",
           "answer": "When I feel tired, I usually take a short break and listen to some pop music. Sometimes I play computer games or take a walk because these activities help me relax and clear my mind.",
           "translation": "感到疲惫时，我通常会短暂休息一下，听一些流行音乐。有时我也会玩电脑游戏或散步，因为这些活动能让我放松并清醒头脑。"
+        },
+        {
+          "question": "When you feel tired, do you still go out with your friends?",
+          "answer": "It depends on how tired I am. If I've just had a busy day, a quiet meal with friends can help me relax, but if I'm exhausted, I'd rather stay home and rest.",
+          "translation": "这取决于我有多累。如果只是忙了一天，和朋友安静地吃顿饭能让我放松；但如果累得不行，我更愿意待在家里休息。"
         }
       ],
       "keyPhrases": [
@@ -412,7 +424,8 @@ window.IELTS_DATA = {
         "looking at a computer screen",
         "do not get enough sleep",
         "take a short break",
-        "relax and clear my mind"
+        "relax and clear my mind",
+        "stay home and rest"
       ],
       "sourceOrder": 10
     },
@@ -432,6 +445,16 @@ window.IELTS_DATA = {
           "question": "Do you think being polite is very important?",
           "answer": "Yes, I do. Being polite shows care and respect, and it helps people communicate better. It can also make our relationships closer and warmer.",
           "translation": "我认为很重要。礼貌体现关心和尊重，也能帮助人们更好地沟通，还可以让我们的关系更亲近、更温暖。"
+        },
+        {
+          "question": "On what occasions should we be polite?",
+          "answer": "I think we should be polite in everyday situations, especially when asking for help or speaking to strangers. Saying please and listening without interrupting can make a simple conversation more pleasant.",
+          "translation": "我觉得日常生活中都应该讲礼貌，特别是请人帮忙或和陌生人说话时。说一声“请”、认真听而不打断，都能让简单的交流更愉快。"
+        },
+        {
+          "question": "What did you do to show your politeness as a child?",
+          "answer": "As a child, I greeted my teachers and said thank you when someone helped me. My parents also reminded me to wait for my turn instead of interrupting other people.",
+          "translation": "小时候，我会和老师打招呼，别人帮忙时会说谢谢。父母还会提醒我等轮到自己再说话，不要打断别人。"
         }
       ],
       "keyPhrases": [
@@ -439,7 +462,9 @@ window.IELTS_DATA = {
         "show respect",
         "shows care and respect",
         "communicate better",
-        "closer and warmer"
+        "closer and warmer",
+        "without interrupting",
+        "wait for my turn"
       ],
       "sourceOrder": 11
     },
@@ -2494,13 +2519,141 @@ window.IELTS_DATA = {
             "title": "飞书 9 月新题｜人物",
             "items": [
               {
+                "id": "p2-feishu-helped-health",
+                "code": "N01",
+                "name": "帮别人提升健康",
+                "question": "Describe a person whose health and fitness you have helped to improve",
+                "isNew": true,
+                "fit": "新题",
+                "answerNote": "5.5 分目标参考答案；先记住故事顺序，人物、时间和经历可按实际情况调整。",
+                "cuePoints": [
+                  "Who this person was",
+                  "Why you helped him/her",
+                  "How you helped him/her",
+                  "And explain whether it was easy or difficult"
+                ],
+                "cueTranslations": [
+                  "这个人是谁",
+                  "你为什么帮助他/她",
+                  "你如何帮助他/她",
+                  "并解释这件事容易还是困难"
+                ],
+                "storyTitle": "帮李华养成饭后散步的习惯",
+                "draftCues": [
+                  "Li Hua",
+                  "office work",
+                  "tired",
+                  "short walks",
+                  "rainy days",
+                  "more energy"
+                ],
+                "focus": "清楚交代我帮助李华改善了什么，以及为什么坚持下来并不容易。",
+                "body": {
+                  "text": "I'd like to talk about my colleague Li Hua, whose fitness I helped to improve. This happened a few months ago, when we were working on a busy project. We spent most of the day sitting at our computers, and he often said he felt tired after work. I wanted to help because he was a good friend, and I also needed to move more. I suggested taking a short walk after lunch instead of looking at our phones. At first, we walked for about ten minutes near the office. Later, we chose a longer route and reminded each other to take a break from our desks. The difficult part was keeping the habit on busy or rainy days. Sometimes he wanted to skip it, so we kept the walk short rather than giving up completely. After a few weeks, he told me he felt more energetic and enjoyed going outside. I was pleased because we had made a useful change together without spending much money.",
+                  "translation": "我想讲的是同事李华，我帮助他改善了体能。事情发生在几个月前，当时我们正在忙一个项目。我们一天大部分时间都坐在电脑前，他经常说下班后很累。我想帮他，因为他是我的好朋友，而且我自己也需要多活动。我提议午饭后散一小会儿步，不要一直看手机。最初，我们在办公室附近走十分钟左右。后来，我们选了更长的路线，也会互相提醒离开座位休息一下。难的是在忙碌或下雨的日子里继续坚持。有时他想跳过，我们就缩短散步时间，而不是完全放弃。几周后，他告诉我自己更有精神了，也喜欢出去走走。我很开心，因为我们没花很多钱，就一起做出了有用的改变。",
+                  "highlights": [
+                    "At first",
+                    "reminded each other",
+                    "keeping the habit",
+                    "more energetic",
+                    "without spending much money"
+                  ]
+                },
+                "sourceOrder": 1
+              },
+              {
+                "id": "p2-feishu-popular-person",
+                "code": "N02",
+                "name": "受欢迎的人",
+                "question": "Describe a popular person",
+                "isNew": true,
+                "fit": "新题",
+                "answerNote": "5.5 分目标参考答案；先记住故事顺序，人物、时间和经历可按实际情况调整。",
+                "cuePoints": [
+                  "Who this person is",
+                  "What kind of person he or she is",
+                  "When you see him/her normally",
+                  "And explain why you think this person is popular"
+                ],
+                "cueTranslations": [
+                  "这个人是谁",
+                  "他/她是什么样的人",
+                  "你通常什么时候见到他/她",
+                  "并解释你为什么认为这个人受欢迎"
+                ],
+                "storyTitle": "办公室里乐于助人的 Alex",
+                "draftCues": [
+                  "Alex",
+                  "colleague",
+                  "patient",
+                  "daily meetings",
+                  "new staff",
+                  "trust"
+                ],
+                "focus": "围绕受欢迎的原因展开，用帮助同事的具体经历支撑。",
+                "body": {
+                  "text": "I'd like to talk about Alex, a colleague who is popular in our team. I normally see him at work, especially during our morning meetings and lunch breaks. He is friendly and calm, and he listens carefully when someone is speaking. What I like most is that he is willing to help without making other people feel uncomfortable. For example, when I had trouble with a work task, he sat beside me and asked me to explain what had happened. He helped me check the problem step by step instead of simply taking over. Afterwards, he made sure I understood the solution. He is also kind to new staff. He invites them to lunch and explains things they may feel embarrassed to ask about. I think he is popular because people feel respected and supported around him. He is not the loudest person in the room, but everyone knows they can ask him for help. That kind of trust matters more than just being funny.",
+                  "translation": "我想讲的是同事 Alex，他在团队里很受欢迎。我通常在工作时见到他，尤其是晨会和午休时。他友好、沉稳，别人说话时会认真听。我最喜欢的一点是，他愿意帮忙，也不会让别人难堪。比如，我有一次工作任务遇到困难，他坐在旁边，让我说清楚发生了什么。他帮我一步一步检查问题，而不是直接接手。之后，他还确认我理解了解决办法。他对新同事也很友好，会邀请他们一起吃午饭，也会解释一些他们可能不好意思问的事情。我觉得他受欢迎，是因为人们和他相处时感到被尊重、被支持。他不是房间里声音最大的人，但大家都知道可以找他帮忙。这种信任比单纯会讲笑话更重要。",
+                  "highlights": [
+                    "step by step",
+                    "feel respected and supported",
+                    "ask him for help"
+                  ]
+                },
+                "sourceOrder": 2
+              },
+              {
+                "id": "p2-feishu-admired-sportsperson",
+                "code": "N03",
+                "name": "钦佩的运动员",
+                "question": "Describe a successful sportsperson you admire",
+                "isNew": true,
+                "fit": "新题",
+                "answerNote": "5.5 分目标参考答案；先记住故事顺序，人物、时间和经历可按实际情况调整。",
+                "cuePoints": [
+                  "Who he/she is",
+                  "What you know about him/her",
+                  "What he/she is like in real life",
+                  "What achievement he/she has made",
+                  "And explain why you admire him/her"
+                ],
+                "cueTranslations": [
+                  "他/她是谁",
+                  "你对他/她有什么了解",
+                  "他/她在现实生活中是什么样的人",
+                  "他/她取得了什么成就",
+                  "并解释你为什么钦佩他/她"
+                ],
+                "storyTitle": "我钦佩的篮球运动员姚明",
+                "draftCues": [
+                  "Yao Ming",
+                  "basketball",
+                  "NBA",
+                  "interviews",
+                  "teamwork",
+                  "keep practising"
+                ],
+                "focus": "交代运动成就、从采访中形成的印象，以及对自己的具体影响。",
+                "body": {
+                  "text": "I'd like to talk about Yao Ming, a former Chinese basketball player whom I admire. I first learned about him through basketball games on television. He played in the NBA and also represented China, so many people know him even if they do not follow basketball closely. I have never met him in person, so my impression comes from interviews. He seems calm and thoughtful, and he sometimes uses humour when answering questions. What impresses me is that he succeeded in a very competitive sport while working with teammates from different backgrounds. That must have required a lot of practice and good communication. I admire him mainly because his career reminds me that talent alone is not enough. Even a gifted player needs to keep learning and work well with others. I am not trying to become a professional athlete, but I can apply that idea to my own work and English study. When progress feels slow, thinking about the effort behind success helps me keep practising.",
+                  "translation": "我想讲的是我钦佩的一位前中国篮球运动员姚明。我最初通过电视上的篮球比赛了解他。他曾在 NBA 打球，也曾代表中国参赛，所以即使不太关注篮球，很多人也知道他。我没有亲自见过他，所以对他的印象来自采访。他看起来沉稳、善于思考，回答问题时有时也很幽默。让我印象深刻的是，他在竞争很激烈的运动中取得了成功，还和不同背景的队友一起合作。这一定需要大量练习和良好的沟通。我钦佩他，主要是因为他的职业经历提醒我，只有天赋还不够。即使有天赋，运动员也需要继续学习，并与别人合作。我并不想成为职业运动员，但可以把这个道理用到自己的工作和英语学习中。当进步很慢时，想到成功背后的努力，就能帮助我继续练习。",
+                  "highlights": [
+                    "working with teammates",
+                    "talent alone is not enough",
+                    "keep learning",
+                    "keep practising"
+                  ]
+                },
+                "sourceOrder": 3
+              },
+              {
                 "isNew": true,
                 "fit": "新题",
                 "answerNote": "先按公共故事讲清经过，再从下面选择最贴题的观点。",
                 "id": "p2-feishu-taught-new-skill",
-                "code": "N01",
+                "code": "N04",
                 "name": "教你新技能的人",
-                "sourceOrder": 1,
+                "sourceOrder": 4,
                 "question": "Describe a person who taught you a new skill",
                 "cuePoints": [
                   "Who this person was",
@@ -2594,9 +2747,9 @@ window.IELTS_DATA = {
                 "fit": "新题",
                 "answerNote": "先按公共故事讲清经过，再从下面选择最贴题的观点。",
                 "id": "p2-feishu-history-lover",
-                "code": "N02",
+                "code": "N05",
                 "name": "学习并喜欢历史的人",
-                "sourceOrder": 2,
+                "sourceOrder": 5,
                 "question": "Describe a person who learns history and loves history",
                 "cuePoints": [
                   "Who this person is",
@@ -2705,9 +2858,9 @@ window.IELTS_DATA = {
                 "fit": "新题",
                 "answerNote": "先按公共故事讲清经过，再从下面选择最贴题的观点。",
                 "id": "p2-feishu-photo-lover",
-                "code": "N04",
+                "code": "N08",
                 "name": "喜欢拍照的人",
-                "sourceOrder": 5,
+                "sourceOrder": 8,
                 "question": "Describe a person you know who really likes taking photos",
                 "cuePoints": [
                   "Who the person is",
@@ -2801,9 +2954,9 @@ window.IELTS_DATA = {
                 "fit": "新题",
                 "answerNote": "先按公共故事讲清经过，再从下面选择最贴题的观点。",
                 "id": "p2-feishu-handcraft-person",
-                "code": "N05",
+                "code": "N09",
                 "name": "擅长做手工的人",
-                "sourceOrder": 6,
+                "sourceOrder": 9,
                 "question": "Describe a person who is good at making things by hand",
                 "cuePoints": [
                   "Who this person is",
@@ -2887,9 +3040,9 @@ window.IELTS_DATA = {
                 "fit": "新题",
                 "answerNote": "先按公共故事讲清经过，再从下面选择最贴题的观点。",
                 "id": "p2-feishu-difficult-success",
-                "code": "N06",
+                "code": "N13",
                 "name": "做困难的事情并成功的人",
-                "sourceOrder": 10,
+                "sourceOrder": 13,
                 "question": "Describe a person you know who did something difficult and was successful",
                 "cuePoints": [
                   "Who this person is",
@@ -2923,7 +3076,7 @@ window.IELTS_DATA = {
             "items": [
               {
                 "question": "Describe a person who met difficulties but succeeded",
-                "sourceOrder": 28,
+                "sourceOrder": 35,
                 "memoryChain": {
                   "story": "高中认识李华 → 为去法国学法语 → 发音难＋作业多 → 单词本＋视频＋问老师 → 午休练习 → 去法国成功交流",
                   "reasons": [
@@ -2979,7 +3132,7 @@ window.IELTS_DATA = {
               },
               {
                 "question": "Describe a person who is good at learning and speaking new languages",
-                "sourceOrder": 29,
+                "sourceOrder": 36,
                 "memoryChain": {
                   "story": "高中第一天认识李华 → 为去法国学法语 → 书＋视频＋问老师 → 午休练习＋单词本 → 能用法语交流 → 去法国点餐",
                   "reasons": [
@@ -3035,7 +3188,7 @@ window.IELTS_DATA = {
               },
               {
                 "question": "Describe a person you know who would like to choose a career in the medical field (e.g. a doctor, a nurse)",
-                "sourceOrder": 32,
+                "sourceOrder": 39,
                 "memoryChain": {
                   "story": "高中第一天认识李华 → 想当医生救人 → 努力读书 → 去爸爸的医院观察 → 学急救 → 医学院＋明年毕业",
                   "reasons": [
@@ -3097,7 +3250,7 @@ window.IELTS_DATA = {
             "items": [
               {
                 "question": "Describe a person you know who has a successful business",
-                "sourceOrder": 30,
+                "sourceOrder": 37,
                 "memoryChain": {
                   "story": "李华六年前创业 → 小办公室＋没员工 → 白天写程序＋晚上回消息 → 逐个修问题 → 学校使用产品 → 公司出名",
                   "reasons": [
@@ -3153,7 +3306,7 @@ window.IELTS_DATA = {
               },
               {
                 "question": "Describe a person who works in a successful company",
-                "sourceOrder": 31,
+                "sourceOrder": 38,
                 "memoryChain": {
                   "story": "李华在软件公司六年 → 初级工程师 → 检查问题＋写程序 → 三年后升高级 → 学习软件进学校 → 现在带团队",
                   "reasons": [
@@ -3215,7 +3368,7 @@ window.IELTS_DATA = {
             "items": [
               {
                 "question": "Describe a friend from your childhood",
-                "sourceOrder": 33,
+                "sourceOrder": 40,
                 "memoryChain": {
                   "story": "小学第一天认识李华 → 坐我后面 → 一起写作业 → 公园野餐打球 → 雨天共伞送我回家 → 现在仍联系",
                   "reasons": [
@@ -3271,7 +3424,7 @@ window.IELTS_DATA = {
               },
               {
                 "question": "Describe a person who loves to grow plants (e.g. vegetables, flowers) at home or in the garden",
-                "sourceOrder": 34,
+                "sourceOrder": 41,
                 "memoryChain": {
                   "story": "奶奶住农村 → 家旁小花园 → 种菜种花 → 早起浇水除草 → 秋天收菜分享 → 我帮忙采摘做饭",
                   "reasons": [
@@ -3449,7 +3602,7 @@ window.IELTS_DATA = {
                     ]
                   }
                 ],
-                "sourceOrder": 4
+                "sourceOrder": 7
               },
               {
                 "id": "p2-happy-person",
@@ -3559,7 +3712,7 @@ window.IELTS_DATA = {
                 ],
                 "storyTitle": "种菜的奶奶｜快乐的人",
                 "reasonHint": false,
-                "sourceOrder": 7
+                "sourceOrder": 10
               },
               {
                 "id": "p2-local-famous-person",
@@ -3679,7 +3832,7 @@ window.IELTS_DATA = {
                     ]
                   }
                 ],
-                "sourceOrder": 8
+                "sourceOrder": 11
               },
               {
                 "id": "p2-met-once-person",
@@ -3791,7 +3944,7 @@ window.IELTS_DATA = {
                     ]
                   }
                 ],
-                "sourceOrder": 9
+                "sourceOrder": 12
               }
             ]
           }
@@ -4159,13 +4312,97 @@ window.IELTS_DATA = {
             "title": "飞书 9 月新题｜地点",
             "items": [
               {
+                "id": "p2-feishu-near-natural-place",
+                "code": "N14",
+                "name": "去过的靠近自然的地方",
+                "question": "Describe somewhere near a natural place that you have been to",
+                "isNew": true,
+                "fit": "新题",
+                "answerNote": "5.5 分目标参考答案；先记住故事顺序，人物、时间和经历可按实际情况调整。",
+                "cuePoints": [
+                  "Where this place is",
+                  "Who you went there with",
+                  "Why you went there",
+                  "And explain how you feel about the place"
+                ],
+                "cueTranslations": [
+                  "这个地方在哪里",
+                  "你和谁一起去的",
+                  "你为什么去那里",
+                  "并解释你对这个地方的感受"
+                ],
+                "storyTitle": "上海河边的一家小咖啡馆",
+                "draftCues": [
+                  "Shanghai",
+                  "riverside cafe",
+                  "wife",
+                  "rest",
+                  "window seat",
+                  "walk afterwards"
+                ],
+                "focus": "明确讲靠近自然景观的一个地方：河边咖啡馆，而不是泛泛讲整座城市。",
+                "body": {
+                  "text": "I'd like to talk about a small cafe near the Huangpu River in Shanghai. I went there with my wife during a short trip. We had spent the morning walking around the city, so we wanted somewhere to sit down and rest without going far from the river. The cafe was quite simple, with wooden tables and large windows. We chose a table by the window, ordered two drinks and watched boats moving along the river. It was a nice change from the busy streets and shops we had visited earlier. We talked about our trip and took a few photos, but most of the time we just enjoyed the view. Afterwards, we walked along the river for a while. I liked the place because we could enjoy a natural feature of the city while still being close to public transport and other facilities. I felt relaxed there, and the visit did not need much planning. If I went back to Shanghai, I would happily spend another quiet afternoon in that area.",
+                  "translation": "我想讲的是上海黄浦江附近的一家小咖啡馆。我和妻子短途旅行时去过那里。我们上午在城里走了很久，所以想找个能坐下休息、又不远离江边的地方。咖啡馆很简单，有木桌和大窗户。我们选了靠窗的桌子，点了两杯饮料，看船在江面上经过。和之前去过的繁忙街道、商店相比，这是很好的变化。我们聊了聊旅行，也拍了几张照片，但大部分时间只是在欣赏风景。之后，我们沿着江边走了一会儿。我喜欢那里，因为既能欣赏城市里的自然景观，又离公共交通和其他设施很近。我在那里觉得很放松，而且这次游览不需要做很多计划。如果再去上海，我很愿意在那一带再度过一个安静的下午。",
+                  "highlights": [
+                    "near the Huangpu River",
+                    "by the window",
+                    "enjoyed the view",
+                    "I felt relaxed"
+                  ]
+                },
+                "sourceOrder": 14
+              },
+              {
+                "id": "p2-feishu-building-enjoy",
+                "code": "N15",
+                "name": "喜欢的建筑",
+                "question": "Describe a building you enjoy visiting (e.g. a library, a shopping mall, etc.)",
+                "isNew": true,
+                "fit": "新题",
+                "answerNote": "5.5 分目标参考答案；先记住故事顺序，人物、时间和经历可按实际情况调整。",
+                "cuePoints": [
+                  "Where it is",
+                  "How you knew it",
+                  "What it looks like",
+                  "And explain why you enjoy visiting it"
+                ],
+                "cueTranslations": [
+                  "它在哪里",
+                  "你是怎么知道它的",
+                  "它看起来怎么样",
+                  "并解释你为什么喜欢去那里"
+                ],
+                "storyTitle": "上海陆家嘴的一家商场",
+                "draftCues": [
+                  "Lujiazui",
+                  "friend recommended",
+                  "glass entrance",
+                  "bright",
+                  "food",
+                  "rainy afternoon"
+                ],
+                "focus": "把重点放在建筑外观和在里面做的事，说明为什么喜欢去。",
+                "body": {
+                  "text": "I'd like to talk about a shopping mall in Lujiazui, Shanghai. A friend recommended it before my trip because it was easy to reach by underground and had plenty of places to eat. I went there with my wife while we were exploring that part of the city. The building looked modern, with a wide glass entrance and several floors around a bright central space. It was easy to find our way because there were clear signs. We did not plan to buy much. We mainly walked around, looked in a few shops and chose a restaurant for lunch. What I enjoyed most was how convenient and comfortable the place was. When it started raining outside, we could stay there, have a drink and talk instead of changing all our plans. There were also seats where we could rest after walking. For me, an enjoyable building does not have to be unusual or famous. It should meet people's everyday needs, and this mall did that very well.",
+                  "translation": "我想讲的是上海陆家嘴的一家商场。旅行前，一位朋友向我推荐了它，因为坐地铁很容易到，而且有很多吃饭的地方。我和妻子逛那片城区时去了那里。建筑看起来很现代，有宽大的玻璃入口，几层楼围绕着一个明亮的中央空间。指示牌很清楚，所以很容易找到路。我们没打算买很多东西，主要是走走看看，逛了几家店，选了一家餐厅吃午饭。我最喜欢的是它方便又舒服。外面开始下雨时，我们可以留在里面喝点东西、聊聊天，不用把所有计划都改掉。里面也有座位，走累了可以休息。对我来说，让人喜欢去的建筑不必特别奇特或有名，而应该满足日常需要，这家商场在这方面做得很好。",
+                  "highlights": [
+                    "easy to reach",
+                    "clear signs",
+                    "convenient and comfortable",
+                    "everyday needs"
+                  ]
+                },
+                "sourceOrder": 15
+              },
+              {
                 "isNew": true,
                 "fit": "新题",
                 "answerNote": "先按公共故事讲清经过，再从下面选择最贴题的观点。",
                 "id": "p2-feishu-crowded-place",
-                "code": "N07",
+                "code": "N16",
                 "name": "拥挤的地方",
-                "sourceOrder": 11,
+                "sourceOrder": 16,
                 "question": "Describe a crowded place you went to",
                 "cuePoints": [
                   "When you went there",
@@ -4236,9 +4473,9 @@ window.IELTS_DATA = {
                 "fit": "新题",
                 "answerNote": "先按公共故事讲清经过，再从下面选择最贴题的观点。",
                 "id": "p2-feishu-noisy-place",
-                "code": "N08",
+                "code": "N17",
                 "name": "嘈杂的地方",
-                "sourceOrder": 12,
+                "sourceOrder": 17,
                 "question": "Describe a noisy place you have been to",
                 "cuePoints": [
                   "Where it is",
@@ -4309,9 +4546,9 @@ window.IELTS_DATA = {
                 "fit": "新题",
                 "answerNote": "先按公共故事讲清经过，再从下面选择最贴题的观点。",
                 "id": "p2-feishu-city-natural-place",
-                "code": "N09",
+                "code": "N18",
                 "name": "喜欢的城市自然之地",
-                "sourceOrder": 13,
+                "sourceOrder": 18,
                 "question": "Describe a natural place in your city that you enjoy visiting",
                 "cuePoints": [
                   "Where it was",
@@ -4407,9 +4644,9 @@ window.IELTS_DATA = {
                 "fit": "新题",
                 "answerNote": "先按公共故事讲清经过，再从下面选择最贴题的观点。",
                 "id": "p2-feishu-revisit-city",
-                "code": "N10",
+                "code": "N19",
                 "name": "想再去一次的城市",
-                "sourceOrder": 14,
+                "sourceOrder": 19,
                 "question": "Describe a city that you have been to and would like to visit again.",
                 "cuePoints": [
                   "When you visited it",
@@ -4442,7 +4679,7 @@ window.IELTS_DATA = {
             "items": [
               {
                 "question": "Describe your favorite city that you have visited",
-                "sourceOrder": 66,
+                "sourceOrder": 73,
                 "memoryChain": {
                   "story": "上学时听说上海 → 朋友给我看旅行视频 → 去年和女友坐高铁 → 住七天 → 塔＋河边＋老街＋小笼包 → 最喜欢上海",
                   "reasons": [
@@ -4504,7 +4741,7 @@ window.IELTS_DATA = {
             "items": [
               {
                 "question": "Describe a place you have travelled to that you would like to recommend to others",
-                "sourceOrder": 63,
+                "sourceOrder": 70,
                 "memoryChain": {
                   "story": "去年和女友去上海 → 高铁＋七天 → 上海中心看全城 → 河边＋商场＋小笼包 → 夜景下聊天 → 想推荐给别人",
                   "reasons": [
@@ -4562,7 +4799,7 @@ window.IELTS_DATA = {
               },
               {
                 "question": "Describe a place you would like to visit in your free time",
-                "sourceOrder": 68,
+                "sourceOrder": 75,
                 "memoryChain": {
                   "story": "朋友给我看上海视频 → 想和女友坐高铁 → 计划住七天 → 上海中心＋河边＋商场 → 拍照看船 → 吃小笼包",
                   "reasons": [
@@ -4624,7 +4861,7 @@ window.IELTS_DATA = {
             "items": [
               {
                 "question": "Describe a boring place",
-                "sourceOrder": 65,
+                "sourceOrder": 72,
                 "memoryChain": {
                   "story": "去年和女友去上海三天 → 塔＋博物馆＋当地菜 → 原本期待很高 → 渐渐无聊 → 最后一天下午提前回酒店",
                   "reasons": [
@@ -4685,7 +4922,7 @@ window.IELTS_DATA = {
             "items": [
               {
                 "question": "Describe a home that you like to visit but do not want to live in",
-                "sourceOrder": 64,
+                "sourceOrder": 71,
                 "memoryChain": {
                   "story": "奶奶的农村平房 → 三间卧室＋大院＋菜园 → 假期去住 → 浇菜摘番茄＋喝茶聊天 → 夜晚看星星 → 住两三天就离开",
                   "reasons": [
@@ -4746,7 +4983,7 @@ window.IELTS_DATA = {
             "items": [
               {
                 "question": "Describe an important river/lake in your country",
-                "sourceOrder": 62,
+                "sourceOrder": 69,
                 "storyTitle": "凉水河｜飞龙地图、家庭出游、地点三美",
                 "focus": "故事用三部曲：地理课看飞龙地图 → 和家人去河边 → 明白它为什么重要；最后一问直接用“景美、人美、食物美”。",
                 "omit": "不用专业地理知识；只记三幅画面：地图像飞龙、当地人帮拍照、河边吃烤鱼。",
@@ -5274,7 +5511,7 @@ window.IELTS_DATA = {
                   }
                 ],
                 "isNew": true,
-                "sourceOrder": 15
+                "sourceOrder": 20
               }
             ]
           },
@@ -5286,9 +5523,9 @@ window.IELTS_DATA = {
                 "fit": "新题",
                 "answerNote": "先按公共故事讲清经过，再从下面选择最贴题的观点。",
                 "id": "p2-feishu-waste-time",
-                "code": "N12",
+                "code": "N27",
                 "name": "浪费时间的活动",
-                "sourceOrder": 20,
+                "sourceOrder": 27,
                 "question": "Describe an activity you do regularly that you think is a waste of time",
                 "cuePoints": [
                   "What it is",
@@ -5366,9 +5603,9 @@ window.IELTS_DATA = {
                 "fit": "新题",
                 "answerNote": "先按公共故事讲清经过，再从下面选择最贴题的观点。",
                 "id": "p2-feishu-enjoyable-evening",
-                "code": "N16",
+                "code": "N31",
                 "name": "和朋友度过的愉快夜晚",
-                "sourceOrder": 24,
+                "sourceOrder": 31,
                 "question": "Describe an enjoyable evening you had with your friends",
                 "cuePoints": [
                   "When and where it was",
@@ -5449,7 +5686,7 @@ window.IELTS_DATA = {
             "items": [
               {
                 "question": "Describe an environmental law you would like your country to introduce",
-                "sourceOrder": 36,
+                "sourceOrder": 43,
                 "memoryChain": {
                   "story": "想引入禁止乱扔垃圾法 → 违者罚两千 → 新加坡旅行得到想法 → 公共场所很干净 → 增加标牌和垃圾桶 → 大家习惯后会支持",
                   "reasons": [
@@ -5505,7 +5742,7 @@ window.IELTS_DATA = {
               },
               {
                 "question": "Describe a law on environmental protection",
-                "sourceOrder": 39,
+                "sourceOrder": 46,
                 "memoryChain": {
                   "story": "去香港旅行 → 听说禁止乱扔垃圾 → 违者罚两千 → 街上垃圾桶多 → 城市很干净 → 居民和清洁工受益",
                   "reasons": [
@@ -5561,7 +5798,7 @@ window.IELTS_DATA = {
               },
               {
                 "question": "Describe a new law you would like to introduce in your country",
-                "sourceOrder": 46,
+                "sourceOrder": 53,
                 "memoryChain": {
                   "story": "想立法禁止乱扔垃圾 → 违者罚两千 → 灵感来自新加坡 → 忙碌区域也干净 → 多设标牌和垃圾桶 → 居民与清洁工受益",
                   "reasons": [
@@ -5623,7 +5860,7 @@ window.IELTS_DATA = {
             "items": [
               {
                 "question": "Describe a long-term goal you would like to achieve",
-                "sourceOrder": 37,
+                "sourceOrder": 44,
                 "memoryChain": {
                   "story": "入职软件公司六年 → 长远目标当经理 → 从初级升到高级 → 加班＋向经理学习 → 帮新人＋带小项目 → 明年申请经理",
                   "reasons": [
@@ -5679,7 +5916,7 @@ window.IELTS_DATA = {
               },
               {
                 "question": "Describe an ambition that you have had for a long time",
-                "sourceOrder": 38,
+                "sourceOrder": 45,
                 "memoryChain": {
                   "story": "六年前入职就想当经理 → 努力工作＋偶尔加班 → 三次升职 → 向经理学＋帮新人 → 已能带小项目 → 希望明年实现",
                   "reasons": [
@@ -5740,7 +5977,7 @@ window.IELTS_DATA = {
             "items": [
               {
                 "question": "Describe a food that people eat on special occasions/events",
-                "sourceOrder": 44,
+                "sourceOrder": 51,
                 "memoryChain": {
                   "story": "春节吃饺子 → 水和面粉混合 → 得到面团 → 切成小块 → 放入肉和蔬菜 → 水煮后很好吃",
                   "reasons": [
@@ -5798,7 +6035,7 @@ window.IELTS_DATA = {
               },
               {
                 "question": "Describe a special cake you received from others",
-                "sourceOrder": 48,
+                "sourceOrder": 55,
                 "memoryChain": {
                   "story": "项目结束后李华邀我去家里 → 水果巧克力奶油蛋糕 → 亲手做三小时 → 看视频＋买水果＋写名字 → 一起吃蛋糕聊生活 → 很难忘",
                   "reasons": [
@@ -5861,7 +6098,7 @@ window.IELTS_DATA = {
             "items": [
               {
                 "question": "Describe a story/book with animals in it",
-                "sourceOrder": 40,
+                "sourceOrder": 47,
                 "memoryChain": {
                   "story": "小狮子想独自捕猎 → 妈妈教它安静等待 → 开始总失败 → 妈妈让它耐心 → 每天努力练习 → 最后捕到鹿并和妈妈分享",
                   "reasons": [
@@ -5917,7 +6154,7 @@ window.IELTS_DATA = {
               },
               {
                 "question": "Describe an advertisement with a famous person in it",
-                "sourceOrder": 42,
+                "sourceOrder": 49,
                 "memoryChain": {
                   "story": "电视上看到小米笔记本广告 → 张杰出镜 → 打开电脑唱歌做音乐 → 展示轻便 → 广告很短但歌好记 → 想买来工作娱乐",
                   "reasons": [
@@ -5973,7 +6210,7 @@ window.IELTS_DATA = {
               },
               {
                 "question": "Describe a TV show/online program you have watched recently",
-                "sourceOrder": 43,
+                "sourceOrder": 50,
                 "memoryChain": {
                   "story": "上周末晚饭后 → 视频软件里的每周才艺节目 → 普通年轻人唱歌跳舞讲笑话 → 现代舞转传统舞 → 自制音乐 → 每周看一次",
                   "reasons": [
@@ -6029,7 +6266,7 @@ window.IELTS_DATA = {
               },
               {
                 "question": "Describe an interesting video",
-                "sourceOrder": 47,
+                "sourceOrder": 54,
                 "memoryChain": {
                   "story": "晚饭后刷到视频 → 年轻人唱歌讲笑话 → 现代舞突然转传统舞 → 自制音乐＋喊声 → 我看了两遍 → 发给李华一起笑",
                   "reasons": [
@@ -6090,7 +6327,7 @@ window.IELTS_DATA = {
             "items": [
               {
                 "question": "Describe a tall building you like or dislike",
-                "sourceOrder": 67,
+                "sourceOrder": 74,
                 "memoryChain": {
                   "story": "和女友去上海 → 东方明珠在河边 → 圆球造型很明显 → 坐电梯上观景层 → 克服紧张踩玻璃地板 → 看全城河流和夜晚灯光",
                   "reasons": [
@@ -6264,16 +6501,16 @@ window.IELTS_DATA = {
                     ]
                   }
                 ],
-                "sourceOrder": 18
+                "sourceOrder": 23
               },
               {
                 "isNew": true,
                 "fit": "新题",
                 "answerNote": "先按公共故事讲清经过，再从下面选择最贴题的观点。",
                 "id": "p2-feishu-good-shop-service",
-                "code": "N13",
+                "code": "N28",
                 "name": "购物时的优质服务",
-                "sourceOrder": 21,
+                "sourceOrder": 28,
                 "question": "Describe a time when you received good service in a shop/store",
                 "cuePoints": [
                   "Where the shop is",
@@ -6886,7 +7123,7 @@ window.IELTS_DATA = {
                   }
                 ],
                 "isNew": true,
-                "sourceOrder": 19
+                "sourceOrder": 26
               }
             ]
           },
@@ -6898,9 +7135,9 @@ window.IELTS_DATA = {
                 "fit": "新题",
                 "answerNote": "先按公共故事讲清经过，再从下面选择最贴题的观点。",
                 "id": "p2-feishu-childhood-skill",
-                "code": "N11",
+                "code": "N21",
                 "name": "小时候学到的新技能",
-                "sourceOrder": 16,
+                "sourceOrder": 21,
                 "question": "Describe a new skill you learned when you were a child",
                 "cuePoints": [
                   "What the skill was",
@@ -7058,7 +7295,7 @@ window.IELTS_DATA = {
                     ]
                   }
                 ],
-                "sourceOrder": 17
+                "sourceOrder": 22
               }
             ]
           },
@@ -7070,9 +7307,9 @@ window.IELTS_DATA = {
                 "fit": "新题",
                 "answerNote": "先按公共故事讲清经过，再从下面选择最贴题的观点。",
                 "id": "p2-feishu-older-admired",
-                "code": "N03",
+                "code": "N06",
                 "name": "尊敬的年长者",
-                "sourceOrder": 3,
+                "sourceOrder": 6,
                 "question": "Describe someone who is older than you that you admire",
                 "cuePoints": [
                   "Who this person is",
@@ -7150,13 +7387,98 @@ window.IELTS_DATA = {
                 ]
               },
               {
+                "id": "p2-feishu-lost-in-public",
+                "code": "N24",
+                "name": "公共场所丢物品",
+                "question": "Describe an occasion when you lost something in public",
+                "isNew": true,
+                "fit": "新题",
+                "answerNote": "5.5 分目标参考答案；先记住故事顺序，人物、时间和经历可按实际情况调整。",
+                "cuePoints": [
+                  "What you lost",
+                  "When and where you lost it",
+                  "What you did to find it",
+                  "And explain how you felt about it"
+                ],
+                "cueTranslations": [
+                  "你丢了什么",
+                  "你什么时候、在哪里丢的",
+                  "你做了什么来寻找它",
+                  "并解释你对此的感受"
+                ],
+                "storyTitle": "在咖啡馆找回背包",
+                "draftCues": [
+                  "backpack",
+                  "cafe",
+                  "last month",
+                  "called staff",
+                  "describe bag",
+                  "relieved"
+                ],
+                "focus": "按丢失、寻找、找回、感受的顺序讲清楚，并说明物品对我为什么重要。",
+                "body": {
+                  "text": "I'd like to talk about a time when I left my backpack in a cafe. It happened last month, after I had been studying English there for about an hour. I was in a hurry to leave and picked up my phone, but I forgot the bag beside my chair. I noticed it was missing when I reached the underground station. My notes and earphones were inside, so I felt worried. At first, I checked the places I had just walked through. Then I remembered putting the bag under the table. I found the cafe's phone number and called the staff. I described the colour of the bag and what was inside it. Luckily, a member of staff had found it and kept it behind the counter. I went straight back, checked my things and thanked her. I felt very relieved because replacing the notes would have taken time. Since then, I have made a habit of checking my seat and the floor before leaving a public place.",
+                  "translation": "我想讲的是有一次把背包落在咖啡馆的经历。事情发生在上个月，我在那里学了大约一小时英语。离开时有点匆忙，拿起手机，却忘了椅子旁边的包。到了地铁站，我才发现包不见了。笔记和耳机都在里面，所以我很担心。最初，我沿着刚走过的地方找了一下。后来想起来，自己把包放在了桌子下面。我找到咖啡馆的电话号码，打给店员，描述了包的颜色和里面的东西。幸运的是，一位店员找到了包，把它放在柜台后面保管。我马上返回，检查物品，并向她道谢。我松了一口气，因为重新整理那些笔记会花很多时间。从那以后，我养成了离开公共场所前检查座位和地面的习惯。",
+                  "highlights": [
+                    "At first",
+                    "Then I remembered",
+                    "Luckily",
+                    "very relieved",
+                    "Since then"
+                  ]
+                },
+                "sourceOrder": 24
+              },
+              {
+                "id": "p2-feishu-impressive-party",
+                "code": "N25",
+                "name": "印象深刻的聚会",
+                "question": "Describe a party for a special event that impressed you a lot",
+                "isNew": true,
+                "fit": "新题",
+                "answerNote": "5.5 分目标参考答案；先记住故事顺序，人物、时间和经历可按实际情况调整。",
+                "cuePoints": [
+                  "When and where it was held",
+                  "What the party was held for",
+                  "How many people attended it",
+                  "And explain why it impressed you a lot"
+                ],
+                "cueTranslations": [
+                  "聚会何时、在哪里举办",
+                  "为什么举办这次聚会",
+                  "多少人参加",
+                  "并解释为什么让你印象深刻"
+                ],
+                "storyTitle": "为 Alex 晋升举办的小聚会",
+                "draftCues": [
+                  "last winter",
+                  "restaurant",
+                  "Alex promoted",
+                  "ten colleagues",
+                  "short speeches",
+                  "felt valued"
+                ],
+                "focus": "交代庆祝的特殊事件、参加人数，再用具体安排解释为什么难忘。",
+                "body": {
+                  "text": "I'd like to talk about a small party we held for my colleague Alex last winter. It took place in a restaurant near our office, and about ten people from our team attended. We wanted to celebrate his promotion and thank him for helping us during a difficult project. We booked a private room and ordered several dishes to share. The food was simple, but the atmosphere was warm. After dinner, each person said a few words about a time when Alex had helped them. I talked about how patiently he had helped me solve a work problem. Someone also gave him a card with messages from the whole team. What impressed me most was his reaction. He looked surprised and said he had not realised that those small acts of help meant so much to us. There was no expensive entertainment, but everyone had something personal to share. I left feeling closer to my colleagues. The party reminded me that a meaningful celebration is about making someone feel valued, rather than spending a lot of money.",
+                  "translation": "我想讲的是去年冬天为同事 Alex 举办的一次小聚会。地点在办公室附近的餐厅，团队大约十个人参加。我们想庆祝他晋升，也感谢他在一个困难项目中对大家的帮助。我们订了包间，点了几道菜一起吃。食物很简单，但气氛很温暖。饭后，每个人都说了几句，讲一次 Alex 帮助自己的经历。我讲了他如何耐心帮我解决工作问题。还有人送给他一张写着全组祝福的卡片。最让我印象深刻的是他的反应。他看起来很惊讶，说自己没有意识到那些小小的帮助对我们意义这么大。聚会没有昂贵的娱乐安排，但每个人都有亲身的事情可以分享。离开时，我觉得和同事更亲近了。这次聚会让我明白，有意义的庆祝在于让一个人感到被重视，而不是花很多钱。",
+                  "highlights": [
+                    "about ten people",
+                    "celebrate his promotion",
+                    "feel valued",
+                    "closer to my colleagues"
+                  ]
+                },
+                "sourceOrder": 25
+              },
+              {
                 "isNew": true,
                 "fit": "新题",
                 "answerNote": "先按公共故事讲清经过，再从下面选择最贴题的观点。",
                 "id": "p2-feishu-saved-money",
-                "code": "N14",
+                "code": "N29",
                 "name": "攒钱买特别物品",
-                "sourceOrder": 22,
+                "sourceOrder": 29,
                 "question": "Describe a time when you saved money to buy something special",
                 "cuePoints": [
                   "What the special thing was",
@@ -7223,9 +7545,9 @@ window.IELTS_DATA = {
                 "fit": "新题",
                 "answerNote": "先按公共故事讲清经过，再从下面选择最贴题的观点。",
                 "id": "p2-feishu-kept-listening",
-                "code": "N15",
+                "code": "N30",
                 "name": "听不感兴趣的话",
-                "sourceOrder": 23,
+                "sourceOrder": 30,
                 "question": "Describe a time when someone talked about something you were not interested in but you kept listening",
                 "cuePoints": [
                   "Who the person was",
@@ -7319,9 +7641,9 @@ window.IELTS_DATA = {
                 "fit": "新题",
                 "answerNote": "先按公共故事讲清经过，再从下面选择最贴题的观点。",
                 "id": "p2-feishu-changed-decision",
-                "code": "N17",
+                "code": "N34",
                 "name": "改变重要决定",
-                "sourceOrder": 27,
+                "sourceOrder": 34,
                 "question": "Describe a time when you changed an important decision of yours",
                 "cuePoints": [
                   "When you changed the decision",
@@ -7354,7 +7676,7 @@ window.IELTS_DATA = {
             "items": [
               {
                 "question": "Describe a challenging technological problem you faced",
-                "sourceOrder": 41,
+                "sourceOrder": 48,
                 "memoryChain": {
                   "story": "去年九月准备发布学生软件 → 最终测试时变慢、课程打不开 → 自己检查仍不放心 → 开会讨论 → Alex 建议先小范围发布 → 修复后十月全面上线",
                   "reasons": [
@@ -7412,7 +7734,7 @@ window.IELTS_DATA = {
               },
               {
                 "question": "Describe an important decision that you made",
-                "sourceOrder": 58,
+                "sourceOrder": 65,
                 "memoryChain": {
                   "story": "原定九月全面上线 → 测试发现卡顿和课程打不开 → Alex 建议分步发布 → 我决定先小范围测试 → 十月全面上线",
                   "reasons": [
@@ -7470,7 +7792,7 @@ window.IELTS_DATA = {
               },
               {
                 "question": "Describe a plan that you had to change recently",
-                "sourceOrder": 60,
+                "sourceOrder": 67,
                 "focus": "清楚对比原计划和新计划：九月面向全部学生发布，改成九月小范围测试、十月全面发布。",
                 "omit": "不需要增加学生开学忙等第二条支线，集中讲软件问题和分步发布。",
                 "draftCues": [
@@ -7533,7 +7855,7 @@ window.IELTS_DATA = {
             "items": [
               {
                 "question": "Describe a change that you made recently",
-                "sourceOrder": 49,
+                "sourceOrder": 56,
                 "memoryChain": {
                   "story": "一个月前仍坚持独自解决问题 → 系统变慢＋订单失败 → 自己查一小时无果 → 记录过程后找 Alex → 分工找到错误设置 → 现在二十分钟没进展就求助",
                   "reasons": [
@@ -7595,7 +7917,7 @@ window.IELTS_DATA = {
             "items": [
               {
                 "question": "Describe a time when you changed an important opinion of yours",
-                "sourceOrder": 50,
+                "sourceOrder": 57,
                 "isNew": false
               }
             ]
@@ -7606,7 +7928,7 @@ window.IELTS_DATA = {
             "items": [
               {
                 "question": "Describe a time when you received a message or email and it took you a long time to reply",
-                "sourceOrder": 53,
+                "sourceOrder": 60,
                 "memoryChain": {
                   "story": "Alex 发来系统报错＋截图 → 我在两小时会议且手机静音 → 会后看到多条消息 → 立刻解释并回办公室 → 一起检查错误设置 → 当天解决",
                   "reasons": [
@@ -7662,7 +7984,7 @@ window.IELTS_DATA = {
               },
               {
                 "question": "Describe a time when a person did something to help you solve a problem",
-                "sourceOrder": 55,
+                "sourceOrder": 62,
                 "memoryChain": {
                   "story": "新功能上线后系统变慢 → 订单失败＋客户投诉 → 自己查错误搜视频仍无果 → Alex 看我的记录 → 分工查设置和测试 → 找到错误并恢复",
                   "reasons": [
@@ -7718,7 +8040,7 @@ window.IELTS_DATA = {
               },
               {
                 "question": "Describe a time when you had a problem with using an electronic device",
-                "sourceOrder": 57,
+                "sourceOrder": 64,
                 "memoryChain": {
                   "story": "去年办公室准备会议报告 → 笔记本突然很慢＋打不开文件 → 重启关软件仍无效 → Alex 检查储存空间 → 移走旧视频＋删临时文件 → 重启后按时开会",
                   "reasons": [
@@ -7774,7 +8096,7 @@ window.IELTS_DATA = {
               },
               {
                 "question": "Describe a time when you worked in a group",
-                "sourceOrder": 59,
+                "sourceOrder": 66,
                 "memoryChain": {
                   "story": "系统故障 → 我和 Alex＋两位队友开会 → 先定简单计划 → 分工查错误／设置／测试订单 → 每十五分钟同步 → 找到错误设置并恢复",
                   "reasons": [
@@ -7836,7 +8158,7 @@ window.IELTS_DATA = {
             "items": [
               {
                 "question": "Describe a live sports event you watched and liked",
-                "sourceOrder": 45,
+                "sourceOrder": 52,
                 "memoryChain": {
                   "story": "上周末和女友在家看足球直播 → 准备饮料零食 → 两队实力接近 → 认识球员＋猜胜负 → 大部分时间平分 → 最后几分钟绝杀并起身欢呼",
                   "reasons": [
@@ -7898,7 +8220,7 @@ window.IELTS_DATA = {
             "items": [
               {
                 "question": "Describe a time when you organized a happy event successfully",
-                "sourceOrder": 52,
+                "sourceOrder": 59,
                 "memoryChain": {
                   "story": "群聊提出看日出 → 查天气＋选附近小山 → 凌晨四点半集合 → 六十元购物＋朋友分工 → 准时到达并照明爬山 → 山顶吃喝聊天看日出",
                   "reasons": [
@@ -7953,7 +8275,7 @@ window.IELTS_DATA = {
               },
               {
                 "question": "Describe a special day out that costs you little money/didn't cost you much",
-                "sourceOrder": 54,
+                "sourceOrder": 61,
                 "memoryChain": {
                   "story": "上周末和三位好友看日出 → 凌晨四点半步行去附近小山 → 交通门票零元 → 六十元买面包水果零食水 → 边爬边聊 → 山顶早餐＋日出拍照",
                   "reasons": [
@@ -8007,7 +8329,7 @@ window.IELTS_DATA = {
               },
               {
                 "question": "Describe a time when you got up early",
-                "sourceOrder": 61,
+                "sourceOrder": 68,
                 "memoryChain": {
                   "story": "凌晨四点闹钟响 → 洗脸穿衣出门 → 四点半和朋友集合 → 六十元买早餐 → 黑路上边聊边爬 → 山顶看天变橙＋日出拍照",
                   "reasons": [
@@ -8069,7 +8391,7 @@ window.IELTS_DATA = {
             "items": [
               {
                 "question": "Describe a time when you were stuck in a traffic jam for a very long time",
-                "sourceOrder": 51,
+                "sourceOrder": 58,
                 "memoryChain": {
                   "story": "上海旅行和好友坐出租车 → 去购物区遇堵车 → 两小时几乎不动 → 开始不开心＋反复看地图 → 一起玩手机游戏聊天 → 晚到商店关门＋非常累",
                   "reasons": [
@@ -8130,7 +8452,7 @@ window.IELTS_DATA = {
             "items": [
               {
                 "question": "Describe a thing you did to learn another language",
-                "sourceOrder": 56,
+                "sourceOrder": 63,
                 "memoryChain": {
                   "story": "为了旅行学法语 → 简单书＋短视频 → 每天五个词记在本上 → 跟读录音找错误 → 问老师＋周末和李华练 → 从自我介绍进步到聊旅行",
                   "reasons": [
@@ -8193,7 +8515,7 @@ window.IELTS_DATA = {
             "items": [
               {
                 "question": "Describe a piece of local news that people are interested in",
-                "sourceOrder": 35,
+                "sourceOrder": 42,
                 "memoryChain": {
                   "story": "本地电视看到新闻 → 邻里群继续转发 → 家附近要开胖东来 → 公布位置月份＋招聘本地员工 → 店内有休息区 → 家人邻居讨论要买什么",
                   "reasons": [
@@ -8314,7 +8636,7 @@ window.IELTS_DATA = {
                   "你何时何地看了这次采访",
                   "解释你对这次采访的感受"
                 ],
-                "sourceOrder": 25
+                "sourceOrder": 32
               },
               {
                 "id": "p2-happy-important-decision",
@@ -8434,7 +8756,7 @@ window.IELTS_DATA = {
                     ]
                   }
                 ],
-                "sourceOrder": 26
+                "sourceOrder": 33
               }
             ]
           }
@@ -8445,6 +8767,365 @@ window.IELTS_DATA = {
     }
   ],
   "part3": [
+    {
+      "id": "feishu-helped-health",
+      "category": "人物类",
+      "title": "帮别人提升健康",
+      "partTwo": "帮别人提升健康",
+      "partTwoQuestion": "Describe a person whose health and fitness you have helped to improve",
+      "isNew": true,
+      "items": [
+        {
+          "question": "Which group pays more attention to health, young people or old people?",
+          "answerLanguage": "en",
+          "answer": "I think older people often pay more attention to health. They may notice more physical problems, so staying healthy becomes part of their daily routine. For example, some older people take regular walks and try to get enough sleep. However, many young people also exercise regularly, so age is not the only factor.",
+          "translation": {
+            "question": "年轻人和老年人，哪一类人更关注健康？",
+            "answer": "我觉得老年人通常更关注健康。他们可能注意到更多身体问题，所以保持健康会成为日常生活的一部分。比如，一些老年人会规律散步，并尽量睡够。不过，很多年轻人也经常锻炼，所以年龄并不是唯一因素。"
+          },
+          "structure": "观点 → 原因 → 例子 → 结果或限定",
+          "materials": [
+            "M6"
+          ],
+          "chunkPhrases": [
+            "daily routine",
+            "staying healthy"
+          ],
+          "reasonExample": {
+            "reasonCn": "他们可能注意到更多身体问题，所以保持健康会成为日常生活的一部分。",
+            "reasonEn": "They may notice more physical problems, so staying healthy becomes part of their daily routine.",
+            "exCn": "比如，一些老年人会规律散步，并尽量睡够。",
+            "exEn": "For example, some older people take regular walks and try to get enough sleep."
+          }
+        },
+        {
+          "question": "What effect does stress have on health?",
+          "answerLanguage": "en",
+          "answer": "Too much stress can affect both physical and mental health. It can make it difficult to sleep and leave people feeling tired or worried. For example, someone facing constant pressure at work may lie awake thinking about unfinished tasks. That is why having time to rest and getting support from others can be helpful.",
+          "translation": {
+            "question": "压力会对健康产生什么影响？",
+            "answer": "过多的压力会影响身心健康。它可能让人难以入睡，也让人觉得疲倦或担忧。比如，一个一直承受工作压力的人，可能会躺着睡不着，想着没完成的任务。所以，留出休息时间、得到别人的支持会有帮助。"
+          },
+          "structure": "观点 → 原因 → 例子 → 结果或限定",
+          "materials": [
+            "M6",
+            "M1"
+          ],
+          "chunkPhrases": [
+            "physical and mental health",
+            "time to rest"
+          ],
+          "reasonExample": {
+            "reasonCn": "它可能让人难以入睡，也让人觉得疲倦或担忧。",
+            "reasonEn": "It can make it difficult to sleep and leave people feeling tired or worried.",
+            "exCn": "比如，一个一直承受工作压力的人，可能会躺着睡不着，想着没完成的任务。",
+            "exEn": "For example, someone facing constant pressure at work may lie awake thinking about unfinished tasks."
+          }
+        }
+      ],
+      "sourceOrder": 1
+    },
+    {
+      "id": "feishu-popular-person",
+      "category": "人物类",
+      "title": "受欢迎的人",
+      "partTwo": "受欢迎的人",
+      "partTwoQuestion": "Describe a popular person",
+      "isNew": true,
+      "items": [
+        {
+          "question": "Do you think good teachers are always popular among students?",
+          "answerLanguage": "en",
+          "answer": "Not always, because being a good teacher involves more than being liked. A teacher sometimes needs to set rules or give difficult feedback to help students improve. For example, students may dislike extra speaking practice at first but later realise that it helped them. Still, teachers should explain their decisions and treat students with respect.",
+          "translation": {
+            "question": "你认为好老师总是受学生欢迎吗？",
+            "answer": "不一定，因为当好老师不只是让学生喜欢。老师有时需要制定规则，或指出学生不愿听的问题，才能帮助他们进步。比如，学生起初可能不喜欢额外的口语练习，但后来意识到它有帮助。不过，老师应该解释自己的决定，并尊重学生。"
+          },
+          "structure": "观点 → 原因 → 例子 → 结果或限定",
+          "materials": [
+            "M4"
+          ],
+          "chunkPhrases": [
+            "help students improve",
+            "with respect"
+          ],
+          "reasonExample": {
+            "reasonCn": "老师有时需要制定规则，或指出学生不愿听的问题，才能帮助他们进步。",
+            "reasonEn": "A teacher sometimes needs to set rules or give difficult feedback to help students improve.",
+            "exCn": "比如，学生起初可能不喜欢额外的口语练习，但后来意识到它有帮助。",
+            "exEn": "For example, students may dislike extra speaking practice at first but later realise that it helped them."
+          }
+        },
+        {
+          "question": "Is it easier to become popular nowadays?",
+          "answerLanguage": "en",
+          "answer": "I think it is easier to attract attention nowadays. Social media allows people to share their ideas with a large audience very quickly. For example, a useful cooking video may be shared by thousands of viewers in a short time. However, keeping that popularity is harder because people can quickly lose interest.",
+          "translation": {
+            "question": "现在变得受欢迎更容易了吗？",
+            "answer": "我觉得现在更容易吸引关注。社交媒体让人们能很快向大量观众分享想法。比如，一段实用的烹饪视频可能在短时间内被成千上万的观众转发。不过，持续受欢迎更难，因为人们可能很快失去兴趣。"
+          },
+          "structure": "观点 → 原因 → 例子 → 结果或限定",
+          "materials": [
+            "M2"
+          ],
+          "chunkPhrases": [
+            "attract attention",
+            "in a short time"
+          ],
+          "reasonExample": {
+            "reasonCn": "社交媒体让人们能很快向大量观众分享想法。",
+            "reasonEn": "Social media allows people to share their ideas with a large audience very quickly.",
+            "exCn": "比如，一段实用的烹饪视频可能在短时间内被成千上万的观众转发。",
+            "exEn": "For example, a useful cooking video may be shared by thousands of viewers in a short time."
+          }
+        },
+        {
+          "question": "Is it important for a teacher to be popular?",
+          "answerLanguage": "en",
+          "answer": "It can help, but it should not be a teacher’s main goal. Students are often more willing to ask questions when they feel comfortable with their teacher. For example, a patient teacher can encourage a shy student to speak up during a lesson. The aim should be a trusting relationship that supports learning, not popularity alone.",
+          "translation": {
+            "question": "老师受欢迎重要吗？",
+            "answer": "这会有帮助，但不应该成为老师的主要目标。学生和老师相处自在时，通常更愿意提问。比如，有耐心的老师可以鼓励害羞的学生在课堂上开口。目标应该是建立有助于学习的信任关系，而不只是追求受欢迎。"
+          },
+          "structure": "观点 → 原因 → 例子 → 结果或限定",
+          "materials": [
+            "M5",
+            "M4"
+          ],
+          "chunkPhrases": [
+            "ask questions",
+            "a trusting relationship"
+          ],
+          "reasonExample": {
+            "reasonCn": "学生和老师相处自在时，通常更愿意提问。",
+            "reasonEn": "Students are often more willing to ask questions when they feel comfortable with their teacher.",
+            "exCn": "比如，有耐心的老师可以鼓励害羞的学生在课堂上开口。",
+            "exEn": "For example, a patient teacher can encourage a shy student to speak up during a lesson."
+          }
+        },
+        {
+          "question": "What are the qualities of being a good teacher?",
+          "answerLanguage": "en",
+          "answer": "A good teacher should be patient, clear and fair. Students learn at different speeds, so they need explanations they can understand and useful feedback. For example, a teacher can show a task step by step and let a struggling student try again. This helps students make progress without feeling afraid of mistakes.",
+          "translation": {
+            "question": "好老师应该具备哪些品质？",
+            "answer": "好老师应该有耐心，讲解清楚，待人公平。学生学习速度不同，所以需要听得懂的解释和有用的反馈。比如，老师可以一步一步示范任务，让遇到困难的学生再试一次。这样能帮助学生进步，也不会让他们害怕犯错。"
+          },
+          "structure": "观点 → 原因 → 例子 → 结果或限定",
+          "materials": [
+            "M4"
+          ],
+          "chunkPhrases": [
+            "step by step",
+            "make progress"
+          ],
+          "reasonExample": {
+            "reasonCn": "学生学习速度不同，所以需要听得懂的解释和有用的反馈。",
+            "reasonEn": "Students learn at different speeds, so they need explanations they can understand and useful feedback.",
+            "exCn": "比如，老师可以一步一步示范任务，让遇到困难的学生再试一次。",
+            "exEn": "For example, a teacher can show a task step by step and let a struggling student try again."
+          }
+        },
+        {
+          "question": "Why are some students popular in school?",
+          "answerLanguage": "en",
+          "answer": "Some students are popular because they are friendly and make others feel included. People usually enjoy spending time with someone who listens and is willing to help. For example, a student who invites a new classmate to join a game may quickly make friends. Being good at sport can attract attention too, but kindness helps friendships last.",
+          "translation": {
+            "question": "为什么有些学生在学校受欢迎？",
+            "answer": "有些学生受欢迎，是因为他们友好，也让别人有参与感。人们通常喜欢和愿意倾听、愿意帮忙的人相处。比如，一个邀请新同学一起玩游戏的学生，可能很快就能交到朋友。擅长运动也能吸引关注，但友善有助于友谊长久。"
+          },
+          "structure": "观点 → 原因 → 例子 → 结果或限定",
+          "materials": [
+            "M5"
+          ],
+          "chunkPhrases": [
+            "make friends",
+            "willing to help"
+          ],
+          "reasonExample": {
+            "reasonCn": "人们通常喜欢和愿意倾听、愿意帮忙的人相处。",
+            "reasonEn": "People usually enjoy spending time with someone who listens and is willing to help.",
+            "exCn": "比如，一个邀请新同学一起玩游戏的学生，可能很快就能交到朋友。",
+            "exEn": "For example, a student who invites a new classmate to join a game may quickly make friends."
+          }
+        },
+        {
+          "question": "Why do people want to be popular?",
+          "answerLanguage": "en",
+          "answer": "People often want to be popular because they want to feel accepted. Having friends and receiving positive attention can make them feel more confident. For example, a new student may join a club to meet people and feel part of the school. However, trying to please everyone can be tiring, so a few close friendships may matter more.",
+          "translation": {
+            "question": "为什么人们想要受欢迎？",
+            "answer": "人们想受欢迎，往往是希望得到接纳。有朋友、受到积极关注，会让他们更有信心。比如，新生可能会加入社团，认识别人，融入学校。不过，努力讨好所有人可能很累，所以几段亲密友谊也许更重要。"
+          },
+          "structure": "观点 → 原因 → 例子 → 结果或限定",
+          "materials": [
+            "M5",
+            "M1"
+          ],
+          "chunkPhrases": [
+            "feel accepted",
+            "close friendships"
+          ],
+          "reasonExample": {
+            "reasonCn": "有朋友、受到积极关注，会让他们更有信心。",
+            "reasonEn": "Having friends and receiving positive attention can make them feel more confident.",
+            "exCn": "比如，新生可能会加入社团，认识别人，融入学校。",
+            "exEn": "For example, a new student may join a club to meet people and feel part of the school."
+          }
+        }
+      ],
+      "sourceOrder": 2
+    },
+    {
+      "id": "feishu-admired-sportsperson",
+      "category": "人物类",
+      "title": "钦佩的运动员",
+      "partTwo": "钦佩的运动员",
+      "partTwoQuestion": "Describe a successful sportsperson you admire",
+      "isNew": true,
+      "items": [
+        {
+          "question": "Is it easy to identify children's talents?",
+          "answerLanguage": "en",
+          "answer": "Not always, because children develop at different speeds. They may need to try several activities before anyone notices what they enjoy and do well. For example, a quiet child might show a talent for drawing only after joining an art class. Adults should give children opportunities and encouragement rather than judge them too early.",
+          "translation": {
+            "question": "发现孩子的天赋容易吗？",
+            "answer": "不一定，因为孩子成长的速度不同。他们可能需要尝试几种活动，别人才会发现他们喜欢什么、擅长什么。比如，一个安静的孩子可能参加美术课后，才表现出绘画天赋。成年人应该提供机会和鼓励，而不是过早下判断。"
+          },
+          "structure": "观点 → 原因 → 例子 → 结果或限定",
+          "materials": [
+            "M4"
+          ],
+          "chunkPhrases": [
+            "try several activities",
+            "opportunities and encouragement"
+          ],
+          "reasonExample": {
+            "reasonCn": "他们可能需要尝试几种活动，别人才会发现他们喜欢什么、擅长什么。",
+            "reasonEn": "They may need to try several activities before anyone notices what they enjoy and do well.",
+            "exCn": "比如，一个安静的孩子可能参加美术课后，才表现出绘画天赋。",
+            "exEn": "For example, a quiet child might show a talent for drawing only after joining an art class."
+          }
+        },
+        {
+          "question": "Is talent important in sports?",
+          "answerLanguage": "en",
+          "answer": "Yes, talent can give someone a useful starting point. However, skills improve through regular practice, and talented people still need to learn from mistakes. For example, a naturally fast runner must practise their technique and work with a coach. I think talent and steady effort are both important for long-term success.",
+          "translation": {
+            "question": "运动中的天赋重要吗？",
+            "answer": "重要，天赋能让一个人有好的起点。不过，技能要通过规律练习提高，有天赋的人也需要从错误中学习。比如，一个天生跑得快的人也必须练习技术，接受教练指导。我觉得天赋和持续努力对长期成功都很重要。"
+          },
+          "structure": "观点 → 原因 → 例子 → 结果或限定",
+          "materials": [
+            "M4"
+          ],
+          "chunkPhrases": [
+            "regular practice",
+            "learn from mistakes"
+          ],
+          "reasonExample": {
+            "reasonCn": "不过，技能要通过规律练习提高，有天赋的人也需要从错误中学习。",
+            "reasonEn": "However, skills improve through regular practice, and talented people still need to learn from mistakes.",
+            "exCn": "比如，一个天生跑得快的人也必须练习技术，接受教练指导。",
+            "exEn": "For example, a naturally fast runner must practise their technique and work with a coach."
+          }
+        },
+        {
+          "question": "Should students have physical education and do sports at school?",
+          "answerLanguage": "en",
+          "answer": "Yes, I think sport should be a regular part of school life. It helps students stay active and take a break from sitting in classrooms. For example, a simple team game gives children exercise and a chance to cooperate with classmates. Schools should offer different activities so students of different abilities can take part.",
+          "translation": {
+            "question": "学生在学校应该上体育课、参加运动吗？",
+            "answer": "应该，我觉得运动应成为学校生活的固定部分。它能让学生保持活力，也让他们暂时离开教室里的座位。比如，简单的团队游戏能让孩子锻炼，也有机会和同学合作。学校应该提供不同活动，让能力不同的学生都能参与。"
+          },
+          "structure": "观点 → 原因 → 例子 → 结果或限定",
+          "materials": [
+            "M6",
+            "M5"
+          ],
+          "chunkPhrases": [
+            "stay active",
+            "take part"
+          ],
+          "reasonExample": {
+            "reasonCn": "它能让学生保持活力，也让他们暂时离开教室里的座位。",
+            "reasonEn": "It helps students stay active and take a break from sitting in classrooms.",
+            "exCn": "比如，简单的团队游戏能让孩子锻炼，也有机会和同学合作。",
+            "exEn": "For example, a simple team game gives children exercise and a chance to cooperate with classmates."
+          }
+        },
+        {
+          "question": "What is the most popular sport in your country?",
+          "answerLanguage": "en",
+          "answer": "I would say basketball is one of the most popular sports in China, especially among students. It is social and easy to play when a school or neighbourhood has a court. For example, groups of friends often play together after class or at weekends. Table tennis is also very popular, so the answer may depend on the age group.",
+          "translation": {
+            "question": "你们国家最受欢迎的运动是什么？",
+            "answer": "我会说篮球是中国最受欢迎的运动之一，尤其受到学生欢迎。它有社交性，而且学校或社区有球场的话，打起来很方便。比如，朋友们经常在放学后或周末一起打球。乒乓球也很受欢迎，所以答案可能取决于年龄群体。"
+          },
+          "structure": "观点 → 原因 → 例子 → 结果或限定",
+          "materials": [
+            "M5"
+          ],
+          "chunkPhrases": [
+            "play together",
+            "the age group"
+          ],
+          "reasonExample": {
+            "reasonCn": "它有社交性，而且学校或社区有球场的话，打起来很方便。",
+            "reasonEn": "It is social and easy to play when a school or neighbourhood has a court.",
+            "exCn": "比如，朋友们经常在放学后或周末一起打球。",
+            "exEn": "For example, groups of friends often play together after class or at weekends."
+          }
+        },
+        {
+          "question": "What qualities should an athlete have?",
+          "answerLanguage": "en",
+          "answer": "An athlete should be disciplined, patient and willing to work with others. Improvement takes time, and losing a competition can be disappointing. For example, a good player listens to feedback and keeps practising after a poor performance. These habits help athletes handle pressure and improve over time.",
+          "translation": {
+            "question": "运动员应该具备哪些品质？",
+            "answer": "运动员应该自律、有耐心，也愿意与别人合作。进步需要时间，输掉比赛也会令人失望。比如，好的运动员表现不佳后，会听取反馈并继续练习。这些习惯能帮助运动员应对压力，逐渐提高。"
+          },
+          "structure": "观点 → 原因 → 例子 → 结果或限定",
+          "materials": [
+            "M4"
+          ],
+          "chunkPhrases": [
+            "keeps practising",
+            "handle pressure"
+          ],
+          "reasonExample": {
+            "reasonCn": "进步需要时间，输掉比赛也会令人失望。",
+            "reasonEn": "Improvement takes time, and losing a competition can be disappointing.",
+            "exCn": "比如，好的运动员表现不佳后，会听取反馈并继续练习。",
+            "exEn": "For example, a good player listens to feedback and keeps practising after a poor performance."
+          }
+        },
+        {
+          "question": "Why are there so few top athletes?",
+          "answerLanguage": "en",
+          "answer": "There are few top athletes because reaching that level requires many things to come together. They need ability, years of training, good coaching and enough support to keep going. For example, a promising young player may struggle if their family cannot afford travel to competitions. Injuries and strong competition also mean that hard work does not always lead to the top.",
+          "translation": {
+            "question": "为什么顶尖运动员这么少？",
+            "answer": "顶尖运动员少，是因为达到那个水平需要很多条件同时具备。他们需要能力、多年训练、好的指导，也需要足够的支持才能坚持。比如，有潜力的年轻运动员，如果家里负担不起外出比赛的费用，就可能遇到困难。受伤和激烈竞争也意味着，努力并不总能让人达到顶尖水平。"
+          },
+          "structure": "观点 → 原因 → 例子 → 结果或限定",
+          "materials": [
+            "M4"
+          ],
+          "chunkPhrases": [
+            "years of training",
+            "keep going"
+          ],
+          "reasonExample": {
+            "reasonCn": "他们需要能力、多年训练、好的指导，也需要足够的支持才能坚持。",
+            "reasonEn": "They need ability, years of training, good coaching and enough support to keep going.",
+            "exCn": "比如，有潜力的年轻运动员，如果家里负担不起外出比赛的费用，就可能遇到困难。",
+            "exEn": "For example, a promising young player may struggle if their family cannot afford travel to competitions."
+          }
+        }
+      ],
+      "sourceOrder": 3
+    },
     {
       "id": "feishu-taught-new-skill",
       "category": "人物类",
@@ -8520,7 +9201,7 @@ window.IELTS_DATA = {
           "structure": "原因 → 风险 → 方法"
         }
       ],
-      "sourceOrder": 1
+      "sourceOrder": 4
     },
     {
       "id": "feishu-history-lover",
@@ -8597,7 +9278,7 @@ window.IELTS_DATA = {
           "structure": "列举 → 原因 → 例子"
         }
       ],
-      "sourceOrder": 2
+      "sourceOrder": 5
     },
     {
       "id": "feishu-older-admired",
@@ -8652,7 +9333,7 @@ window.IELTS_DATA = {
           "structure": "列举 → 补充 → 限定"
         }
       ],
-      "sourceOrder": 3
+      "sourceOrder": 6
     },
     {
       "id": "new-organized-person",
@@ -8729,7 +9410,7 @@ window.IELTS_DATA = {
           "structure": "观点 → 风险 → 例子 → 限定"
         }
       ],
-      "sourceOrder": 4
+      "sourceOrder": 7
     },
     {
       "id": "feishu-photo-lover",
@@ -8793,9 +9474,32 @@ window.IELTS_DATA = {
             "answer": "我认为在人多的公共场所，这是一种实际的态度。想让热门街道或景点完全没人往往不可能。人们可以等一会儿或礼貌询问，但不应该责怪只是正常经过的陌生人。"
           },
           "structure": "观点 → 原因 → 做法"
+        },
+        {
+          "question": "When do people like taking photos?",
+          "answerLanguage": "en",
+          "answer": "People often take photos when they want to remember a special moment. A picture helps them keep the details and share the experience with others later. For example, families may take photos during a holiday or at a birthday dinner. Some people also enjoy photographing ordinary things, such as a meal or a beautiful sunset.",
+          "translation": {
+            "question": "人们什么时候喜欢拍照？",
+            "answer": "人们想记住特别时刻时，往往喜欢拍照。照片可以帮他们留住细节，以后也能和别人分享经历。比如，家人可能在旅行中或生日晚餐时拍照。有些人也喜欢拍普通事物，比如一顿饭或美丽的日落。"
+          },
+          "structure": "观点 → 原因 → 例子 → 结果或限定",
+          "materials": [
+            "M5"
+          ],
+          "chunkPhrases": [
+            "a special moment",
+            "share the experience"
+          ],
+          "reasonExample": {
+            "reasonCn": "照片可以帮他们留住细节，以后也能和别人分享经历。",
+            "reasonEn": "A picture helps them keep the details and share the experience with others later.",
+            "exCn": "比如，家人可能在旅行中或生日晚餐时拍照。",
+            "exEn": "For example, families may take photos during a holiday or at a birthday dinner."
+          }
         }
       ],
-      "sourceOrder": 5
+      "sourceOrder": 8
     },
     {
       "id": "feishu-handcraft-person",
@@ -8877,7 +9581,7 @@ window.IELTS_DATA = {
           "structure": "观点 → 原因 → 细节/例子 → 结果或限定"
         }
       ],
-      "sourceOrder": 6
+      "sourceOrder": 9
     },
     {
       "id": "new-happy-person",
@@ -8919,9 +9623,81 @@ window.IELTS_DATA = {
             "answer": "音乐、电影、戏剧和公共艺术可以讲述充满希望的故事，让人们感觉自己的经历被他人理解。一首轻快的歌或一部温暖的电影，可能在艰难的一天后改善某个人的心情。社区演出还能让陌生人聚在一起，产生归属感。积极的艺术不需要忽视现实问题；它可以展示人们能够理解并克服这些问题。"
           },
           "structure": "方式 → 个人影响 → 社会影响 → 限定"
+        },
+        {
+          "question": "When do you think people are happiest?",
+          "answerLanguage": "en",
+          "answer": "I think people are often happiest when they feel connected to others and have little pressure. They can enjoy the moment instead of worrying about what they need to do next. For example, a relaxed meal with close friends after a busy week can bring a lot of happiness. Of course, some people feel happiest when they achieve a personal goal, so it varies.",
+          "translation": {
+            "question": "你认为人们什么时候最快乐？",
+            "answer": "我觉得人们和别人有联系、压力又小时，通常最快乐。他们可以享受当下，不用担心下一件必须做的事。比如，忙了一周后，和好友轻松吃顿饭，就能带来很多快乐。当然，有些人实现个人目标时最快乐，所以每个人不一样。"
+          },
+          "structure": "观点 → 原因 → 例子 → 结果或限定",
+          "materials": [
+            "M5",
+            "M1"
+          ],
+          "chunkPhrases": [
+            "enjoy the moment",
+            "close friends"
+          ],
+          "reasonExample": {
+            "reasonCn": "他们可以享受当下，不用担心下一件必须做的事。",
+            "reasonEn": "They can enjoy the moment instead of worrying about what they need to do next.",
+            "exCn": "比如，忙了一周后，和好友轻松吃顿饭，就能带来很多快乐。",
+            "exEn": "For example, a relaxed meal with close friends after a busy week can bring a lot of happiness."
+          }
+        },
+        {
+          "question": "What would make a student happy at school?",
+          "answerLanguage": "en",
+          "answer": "Supportive teachers, good friends and a sense of progress can make a student happy. Students enjoy school more when they feel safe and believe their efforts matter. For example, a teacher who notices a small improvement can encourage a child who finds a subject difficult. There should also be time for enjoyable activities, rather than only tests and homework.",
+          "translation": {
+            "question": "什么会让学生在学校感到快乐？",
+            "answer": "支持学生的老师、好朋友和进步感，都能让学生快乐。学生觉得安全，也相信努力有意义时，会更喜欢学校。比如，老师注意到一点小进步，就能鼓励一个觉得这门课很难的孩子。学校还应该留出有趣活动的时间，而不只有考试和作业。"
+          },
+          "structure": "观点 → 原因 → 例子 → 结果或限定",
+          "materials": [
+            "M4",
+            "M5"
+          ],
+          "chunkPhrases": [
+            "a sense of progress",
+            "small improvement"
+          ],
+          "reasonExample": {
+            "reasonCn": "学生觉得安全，也相信努力有意义时，会更喜欢学校。",
+            "reasonEn": "Students enjoy school more when they feel safe and believe their efforts matter.",
+            "exCn": "比如，老师注意到一点小进步，就能鼓励一个觉得这门课很难的孩子。",
+            "exEn": "For example, a teacher who notices a small improvement can encourage a child who finds a subject difficult."
+          }
+        },
+        {
+          "question": "Do you think doing a job that you like is more important than other things?",
+          "answerLanguage": "en",
+          "answer": "Enjoying a job is important, but I would not put it above everything else. People also need enough income, reasonable hours and a workplace that treats them fairly. For example, an interesting job may still make someone unhappy if they work late every night and rarely see their family. The best choice is usually a balance between enjoyment and practical needs.",
+          "translation": {
+            "question": "你认为做喜欢的工作比其他因素更重要吗？",
+            "answer": "喜欢一份工作很重要，但我不会把它放在所有事情之上。人们还需要足够的收入、合理的工时，以及公平对待员工的工作环境。比如，一份有趣的工作，如果每天都很晚下班，很少见家人，仍可能让人不快乐。最好的选择通常是在兴趣和实际需要之间取得平衡。"
+          },
+          "structure": "观点 → 原因 → 例子 → 结果或限定",
+          "materials": [
+            "M7",
+            "M5"
+          ],
+          "chunkPhrases": [
+            "reasonable hours",
+            "a balance"
+          ],
+          "reasonExample": {
+            "reasonCn": "人们还需要足够的收入、合理的工时，以及公平对待员工的工作环境。",
+            "reasonEn": "People also need enough income, reasonable hours and a workplace that treats them fairly.",
+            "exCn": "比如，一份有趣的工作，如果每天都很晚下班，很少见家人，仍可能让人不快乐。",
+            "exEn": "For example, an interesting job may still make someone unhappy if they work late every night and rarely see their family."
+          }
         }
       ],
-      "sourceOrder": 7
+      "sourceOrder": 10
     },
     {
       "id": "new-local-famous-person",
@@ -8954,7 +9730,7 @@ window.IELTS_DATA = {
           "structure": "原因 → 补充 → 例子 → 限定"
         }
       ],
-      "sourceOrder": 8
+      "sourceOrder": 11
     },
     {
       "id": "new-met-once-person",
@@ -9031,7 +9807,7 @@ window.IELTS_DATA = {
           "structure": "观点 → 原因 → 安全选择 → 限定"
         }
       ],
-      "sourceOrder": 9
+      "sourceOrder": 12
     },
     {
       "id": "feishu-difficult-success-person",
@@ -9110,7 +9886,145 @@ window.IELTS_DATA = {
           "structure": "观点 → 原因 → 细节/例子 → 结果或限定"
         }
       ],
-      "sourceOrder": 10
+      "sourceOrder": 13
+    },
+    {
+      "id": "feishu-near-natural-place",
+      "category": "地点类",
+      "title": "去过的靠近自然的地方",
+      "partTwo": "去过的靠近自然的地方",
+      "partTwoQuestion": "Describe somewhere near a natural place that you have been to",
+      "isNew": true,
+      "items": [
+        {
+          "question": "Are there any natural attractions that are great to visit?",
+          "answerLanguage": "en",
+          "answer": "Yes, I think places such as lakes, mountains and forests can be great to visit. They give people a break from busy streets and a chance to enjoy fresh air and exercise. For example, an easy walk beside a lake can be enjoyable for a family at the weekend. The best choice depends on the visitors’ interests and how easy the place is to reach.",
+          "translation": {
+            "question": "有没有很值得去的自然景点？",
+            "answer": "有，我觉得湖泊、山和森林都很值得去。它们让人暂时离开繁忙街道，有机会呼吸新鲜空气、活动身体。比如，周末一家人在湖边轻松散步，就可以很愉快。最好的选择取决于游客的兴趣，也取决于到达那里是否方便。"
+          },
+          "structure": "观点 → 原因 → 例子 → 结果或限定",
+          "materials": [
+            "M1",
+            "M6"
+          ],
+          "chunkPhrases": [
+            "a break from busy streets",
+            "fresh air"
+          ],
+          "reasonExample": {
+            "reasonCn": "它们让人暂时离开繁忙街道，有机会呼吸新鲜空气、活动身体。",
+            "reasonEn": "They give people a break from busy streets and a chance to enjoy fresh air and exercise.",
+            "exCn": "比如，周末一家人在湖边轻松散步，就可以很愉快。",
+            "exEn": "For example, an easy walk beside a lake can be enjoyable for a family at the weekend."
+          }
+        },
+        {
+          "question": "Do you think it is necessary to include natural spaces in a city?",
+          "answerLanguage": "en",
+          "answer": "Yes, natural spaces are an important part of a comfortable city. They give residents somewhere to exercise and relax without travelling far. For example, a small neighbourhood park allows office workers to take a walk after a long day. Even when land is limited, cities should try to keep some green areas open to everyone.",
+          "translation": {
+            "question": "你认为城市里有自然空间是必要的吗？",
+            "answer": "是的，自然空间是宜居城市的重要组成部分。它们让居民不用远行，就有地方运动和放松。比如，小型社区公园能让上班族忙了一天后散散步。即使土地有限，城市也应该尽量保留一些向所有人开放的绿地。"
+          },
+          "structure": "观点 → 原因 → 例子 → 结果或限定",
+          "materials": [
+            "M6",
+            "M1"
+          ],
+          "chunkPhrases": [
+            "exercise and relax",
+            "take a walk"
+          ],
+          "reasonExample": {
+            "reasonCn": "它们让居民不用远行，就有地方运动和放松。",
+            "reasonEn": "They give residents somewhere to exercise and relax without travelling far.",
+            "exCn": "比如，小型社区公园能让上班族忙了一天后散散步。",
+            "exEn": "For example, a small neighbourhood park allows office workers to take a walk after a long day."
+          }
+        },
+        {
+          "question": "Do you think people who live in a natural places are more likely to protect it?",
+          "answerLanguage": "en",
+          "answer": "They may be, because they experience the benefits of that environment every day. A clean river or forest can be important for their enjoyment and daily life. For example, residents who often walk beside a river may join a local clean-up. However, living nearby does not guarantee responsible behaviour, so clear rules still matter.",
+          "translation": {
+            "question": "你认为住在自然环境附近的人更可能保护那里吗？",
+            "answer": "可能是，因为他们每天都能感受到那种环境带来的好处。干净的河流或森林对他们的休闲和日常生活都可能很重要。比如，经常在河边散步的居民可能会参加当地的清洁活动。不过，住得近并不保证行为负责，所以明确的规则仍然重要。"
+          },
+          "structure": "观点 → 原因 → 例子 → 结果或限定",
+          "materials": [],
+          "chunkPhrases": [
+            "daily life",
+            "responsible behaviour"
+          ],
+          "reasonExample": {
+            "reasonCn": "干净的河流或森林对他们的休闲和日常生活都可能很重要。",
+            "reasonEn": "A clean river or forest can be important for their enjoyment and daily life.",
+            "exCn": "比如，经常在河边散步的居民可能会参加当地的清洁活动。",
+            "exEn": "For example, residents who often walk beside a river may join a local clean-up."
+          }
+        }
+      ],
+      "sourceOrder": 14
+    },
+    {
+      "id": "feishu-building-enjoy",
+      "category": "地点类",
+      "title": "喜欢的建筑",
+      "partTwo": "喜欢的建筑",
+      "partTwoQuestion": "Describe a building you enjoy visiting (e.g. a library, a shopping mall, etc.)",
+      "isNew": true,
+      "items": [
+        {
+          "question": "Do you think old buildings are valuable?",
+          "answerLanguage": "en",
+          "answer": "Yes, many old buildings have value beyond the price of the land. They show how people lived and help a place keep its local character. For example, an old house turned into a small museum can teach children about earlier generations. However, buildings need proper care if people are going to continue using them.",
+          "translation": {
+            "question": "你认为老建筑有价值吗？",
+            "answer": "有，很多老建筑的价值不只是土地价格。它们展示过去人们如何生活，也帮助一个地方保留本地特色。比如，把老房子改成小博物馆，可以让孩子了解前几代人的生活。不过，如果人们要继续使用这些建筑，就需要妥善维护。"
+          },
+          "structure": "观点 → 原因 → 例子 → 结果或限定",
+          "materials": [
+            "M8",
+            "M4"
+          ],
+          "chunkPhrases": [
+            "local character",
+            "earlier generations"
+          ],
+          "reasonExample": {
+            "reasonCn": "它们展示过去人们如何生活，也帮助一个地方保留本地特色。",
+            "reasonEn": "They show how people lived and help a place keep its local character.",
+            "exCn": "比如，把老房子改成小博物馆，可以让孩子了解前几代人的生活。",
+            "exEn": "For example, an old house turned into a small museum can teach children about earlier generations."
+          }
+        },
+        {
+          "question": "Do you think all old buildings should be demolished?",
+          "answerLanguage": "en",
+          "answer": "No, I think each building should be considered separately. Some are important to local history, and repairing them can give them a useful new purpose. For example, an old factory could become a library or a community centre. Buildings that are unsafe and cannot reasonably be repaired may need replacing, but age alone is not a good reason.",
+          "translation": {
+            "question": "你认为所有老建筑都应该拆除吗？",
+            "answer": "不应该，我觉得应该逐栋考虑。有些建筑对地方历史很重要，修缮后可以发挥新的作用。比如，旧工厂可以变成图书馆或社区中心。不安全、又无法合理修复的建筑可能需要重建，但仅仅因为年代久就拆除，并不是好理由。"
+          },
+          "structure": "观点 → 原因 → 例子 → 结果或限定",
+          "materials": [
+            "M8"
+          ],
+          "chunkPhrases": [
+            "local history",
+            "a useful new purpose"
+          ],
+          "reasonExample": {
+            "reasonCn": "有些建筑对地方历史很重要，修缮后可以发挥新的作用。",
+            "reasonEn": "Some are important to local history, and repairing them can give them a useful new purpose.",
+            "exCn": "比如，旧工厂可以变成图书馆或社区中心。",
+            "exEn": "For example, an old factory could become a library or a community centre."
+          }
+        }
+      ],
+      "sourceOrder": 15
     },
     {
       "id": "feishu-crowded-place",
@@ -9187,7 +10101,7 @@ window.IELTS_DATA = {
           "structure": "风险 → 转折 → 建议"
         }
       ],
-      "sourceOrder": 11
+      "sourceOrder": 16
     },
     {
       "id": "feishu-noisy-place",
@@ -9264,7 +10178,7 @@ window.IELTS_DATA = {
           "structure": "结论 → 限定 → 结果"
         }
       ],
-      "sourceOrder": 12
+      "sourceOrder": 17
     },
     {
       "id": "feishu-city-natural-place",
@@ -9297,7 +10211,7 @@ window.IELTS_DATA = {
           "structure": "观点 → 原因 → 限定"
         }
       ],
-      "sourceOrder": 13
+      "sourceOrder": 18
     },
     {
       "id": "feishu-revisit-city",
@@ -9374,7 +10288,7 @@ window.IELTS_DATA = {
           "structure": "措施 → 公平 → 方法"
         }
       ],
-      "sourceOrder": 14
+      "sourceOrder": 19
     },
     {
       "id": "feishu-least-favorite-movie",
@@ -9437,7 +10351,7 @@ window.IELTS_DATA = {
           "structure": "观点 → 原因 → 细节/例子 → 结果或限定"
         }
       ],
-      "sourceOrder": 15
+      "sourceOrder": 20
     },
     {
       "id": "feishu-childhood-skill",
@@ -9514,7 +10428,7 @@ window.IELTS_DATA = {
           "structure": "好处 → 限定 → 建议"
         }
       ],
-      "sourceOrder": 16
+      "sourceOrder": 21
     },
     {
       "id": "new-impressive-course",
@@ -9591,7 +10505,7 @@ window.IELTS_DATA = {
           "structure": "原因 → 解释 → 例子 → 限定"
         }
       ],
-      "sourceOrder": 17
+      "sourceOrder": 22
     },
     {
       "id": "new-friend-gift",
@@ -9668,7 +10582,255 @@ window.IELTS_DATA = {
           "structure": "观点 → 例子一 → 例子二 → 限定"
         }
       ],
-      "sourceOrder": 18
+      "sourceOrder": 23
+    },
+    {
+      "id": "feishu-lost-in-public",
+      "category": "事件类",
+      "title": "公共场所丢物品",
+      "partTwo": "公共场所丢物品",
+      "partTwoQuestion": "Describe an occasion when you lost something in public",
+      "isNew": true,
+      "items": [
+        {
+          "question": "What kinds of things do people usually lose?",
+          "answerLanguage": "en",
+          "answer": "People often lose small things they carry and use every day. Keys, phones and earphones are easy to put down somewhere and then forget. For example, someone may leave their phone on a cafe table while looking for their wallet. Keeping everyday items in a fixed place can make them easier to find.",
+          "translation": {
+            "question": "人们通常会丢什么东西？",
+            "answer": "人们经常丢每天携带和使用的小东西。钥匙、手机、耳机很容易随手放下，然后就忘了。比如，有人找钱包时，可能会把手机落在咖啡桌上。把日用品放在固定位置，会让它们更容易找到。"
+          },
+          "structure": "观点 → 原因 → 例子 → 结果或限定",
+          "materials": [
+            "M2"
+          ],
+          "chunkPhrases": [
+            "a fixed place",
+            "easier to find"
+          ],
+          "reasonExample": {
+            "reasonCn": "钥匙、手机、耳机很容易随手放下，然后就忘了。",
+            "reasonEn": "Keys, phones and earphones are easy to put down somewhere and then forget.",
+            "exCn": "比如，有人找钱包时，可能会把手机落在咖啡桌上。",
+            "exEn": "For example, someone may leave their phone on a cafe table while looking for their wallet."
+          }
+        },
+        {
+          "question": "What will people do when losing things?",
+          "answerLanguage": "en",
+          "answer": "Most people first check their bags and go back to the places they recently visited. Trying to remember their last actions can help narrow down the search. For example, someone who leaves a bag on a bus may contact the bus company’s lost property office. Staying calm usually makes it easier to explain the situation and get useful help.",
+          "translation": {
+            "question": "人们丢了东西会做什么？",
+            "answer": "大多数人会先检查包，再回到刚去过的地方。回忆最后做过的事情，有助于缩小寻找范围。比如，把包落在公交车上的人，可能会联系公交公司的失物招领处。保持冷静，通常更容易说清情况并获得有用的帮助。"
+          },
+          "structure": "观点 → 原因 → 例子 → 结果或限定",
+          "materials": [
+            "M2"
+          ],
+          "chunkPhrases": [
+            "narrow down the search",
+            "Staying calm"
+          ],
+          "reasonExample": {
+            "reasonCn": "回忆最后做过的事情，有助于缩小寻找范围。",
+            "reasonEn": "Trying to remember their last actions can help narrow down the search.",
+            "exCn": "比如，把包落在公交车上的人，可能会联系公交公司的失物招领处。",
+            "exEn": "For example, someone who leaves a bag on a bus may contact the bus company’s lost property office."
+          }
+        },
+        {
+          "question": "Is it effective to offer rewards to find lost things?",
+          "answerLanguage": "en",
+          "answer": "It can help in some cases, but it does not guarantee that an item will be found. A reward may encourage more people to notice a missing-item message and check what they have seen. For example, a clear notice with a small reward might help someone recover a lost bag. Still, an accurate description and a useful contact method are usually more important than a large reward.",
+          "translation": {
+            "question": "悬赏寻找失物有效吗？",
+            "answer": "有些情况下有帮助，但不能保证找得到。奖励可能让更多人注意寻物消息，并回想自己见过什么。比如，清楚的寻物启事加上一点奖励，可能帮助一个人找回丢失的包。不过，准确的描述和有效的联系方式，通常比高额奖励更重要。"
+          },
+          "structure": "观点 → 原因 → 例子 → 结果或限定",
+          "materials": [],
+          "chunkPhrases": [
+            "an accurate description",
+            "a small reward"
+          ],
+          "reasonExample": {
+            "reasonCn": "奖励可能让更多人注意寻物消息，并回想自己见过什么。",
+            "reasonEn": "A reward may encourage more people to notice a missing-item message and check what they have seen.",
+            "exCn": "比如，清楚的寻物启事加上一点奖励，可能帮助一个人找回丢失的包。",
+            "exEn": "For example, a clear notice with a small reward might help someone recover a lost bag."
+          }
+        },
+        {
+          "question": "What kinds of people may lose things often?",
+          "answerLanguage": "en",
+          "answer": "People who are distracted or in a hurry may lose things more often. When they are thinking about several tasks, they may not notice where they put something. For example, a busy parent may leave an umbrella in a shop while helping a child put on a coat. It can happen to anyone, so I would not connect it with just one age group.",
+          "translation": {
+            "question": "哪类人可能经常丢东西？",
+            "answer": "分心或匆忙的人可能更容易丢东西。同时想着几项任务时，他们可能注意不到把东西放在哪里了。比如，忙碌的家长给孩子穿外套时，可能会把雨伞落在商店。任何人都可能遇到，所以我不会把它只和一个年龄群体联系起来。"
+          },
+          "structure": "观点 → 原因 → 例子 → 结果或限定",
+          "materials": [],
+          "chunkPhrases": [
+            "in a hurry",
+            "several tasks"
+          ],
+          "reasonExample": {
+            "reasonCn": "同时想着几项任务时，他们可能注意不到把东西放在哪里了。",
+            "reasonEn": "When they are thinking about several tasks, they may not notice where they put something.",
+            "exCn": "比如，忙碌的家长给孩子穿外套时，可能会把雨伞落在商店。",
+            "exEn": "For example, a busy parent may leave an umbrella in a shop while helping a child put on a coat."
+          }
+        },
+        {
+          "question": "What can we do to reduce the possibility of losing things?",
+          "answerLanguage": "en",
+          "answer": "We can build a simple routine for checking important belongings. Keeping items in the same pocket or part of a bag makes them easier to notice. For example, before leaving a cafe, someone can quickly check their phone, keys and wallet. This only takes a moment and can prevent a much longer search later.",
+          "translation": {
+            "question": "我们可以怎样降低丢东西的可能性？",
+            "answer": "我们可以养成检查重要随身物品的简单习惯。把东西放在同一个口袋或包的固定位置，更容易留意到它们。比如，离开咖啡馆前，可以快速检查手机、钥匙和钱包。这只花一点时间，却能避免之后长时间寻找。"
+          },
+          "structure": "观点 → 原因 → 例子 → 结果或限定",
+          "materials": [
+            "M2"
+          ],
+          "chunkPhrases": [
+            "a simple routine",
+            "the same pocket"
+          ],
+          "reasonExample": {
+            "reasonCn": "把东西放在同一个口袋或包的固定位置，更容易留意到它们。",
+            "reasonEn": "Keeping items in the same pocket or part of a bag makes them easier to notice.",
+            "exCn": "比如，离开咖啡馆前，可以快速检查手机、钥匙和钱包。",
+            "exEn": "For example, before leaving a cafe, someone can quickly check their phone, keys and wallet."
+          }
+        },
+        {
+          "question": "What do people often feel after losing things?",
+          "answerLanguage": "en",
+          "answer": "People often feel worried, frustrated or annoyed with themselves. The feeling can be stronger if the item is expensive or has personal meaning. For example, losing a family photograph may be more upsetting than losing a cheap umbrella. If someone helps them find it, they usually feel relieved and grateful.",
+          "translation": {
+            "question": "丢东西后，人们通常有什么感受？",
+            "answer": "人们通常会担心、沮丧，或生自己的气。如果东西很贵，或者有个人意义，这种感受可能更强。比如，丢一张家庭照片可能比丢一把便宜的伞更令人难过。如果有人帮忙找回，他们通常会松一口气，也会很感激。"
+          },
+          "structure": "观点 → 原因 → 例子 → 结果或限定",
+          "materials": [],
+          "chunkPhrases": [
+            "personal meaning",
+            "relieved and grateful"
+          ],
+          "reasonExample": {
+            "reasonCn": "如果东西很贵，或者有个人意义，这种感受可能更强。",
+            "reasonEn": "The feeling can be stronger if the item is expensive or has personal meaning.",
+            "exCn": "比如，丢一张家庭照片可能比丢一把便宜的伞更令人难过。",
+            "exEn": "For example, losing a family photograph may be more upsetting than losing a cheap umbrella."
+          }
+        }
+      ],
+      "sourceOrder": 24
+    },
+    {
+      "id": "feishu-impressive-party",
+      "category": "事件类",
+      "title": "印象深刻的聚会",
+      "partTwo": "印象深刻的聚会",
+      "partTwoQuestion": "Describe a party for a special event that impressed you a lot",
+      "isNew": true,
+      "items": [
+        {
+          "question": "When do people like to hold a party?",
+          "answerLanguage": "en",
+          "answer": "People often hold parties when they have something special to celebrate. Sharing an achievement or a life change can make the occasion feel more meaningful. For example, a family may invite close friends to celebrate a birthday or graduation. The party does not need to be large; spending time together is often the most important part.",
+          "translation": {
+            "question": "人们喜欢在什么时候举办聚会？",
+            "answer": "人们通常在有特别事情要庆祝时举办聚会。分享成就或人生变化，会让这个时刻更有意义。比如，家人可能邀请好友一起庆祝生日或毕业。聚会不必很大，一起相处往往是最重要的部分。"
+          },
+          "structure": "观点 → 原因 → 例子 → 结果或限定",
+          "materials": [
+            "M5",
+            "M8"
+          ],
+          "chunkPhrases": [
+            "spending time together",
+            "something special"
+          ],
+          "reasonExample": {
+            "reasonCn": "分享成就或人生变化，会让这个时刻更有意义。",
+            "reasonEn": "Sharing an achievement or a life change can make the occasion feel more meaningful.",
+            "exCn": "比如，家人可能邀请好友一起庆祝生日或毕业。",
+            "exEn": "For example, a family may invite close friends to celebrate a birthday or graduation."
+          }
+        },
+        {
+          "question": "Do most people prefer to hold a party in a public place or a private place?",
+          "answerLanguage": "en",
+          "answer": "I think it depends on the size and purpose of the party. A private place offers more freedom and makes it easier for close friends to talk comfortably. For example, a small birthday dinner may work well at home, while a large company celebration needs a bigger venue. Convenience, cost and the needs of the guests usually guide the choice.",
+          "translation": {
+            "question": "大多数人更喜欢在公共场所还是私人场所举办聚会？",
+            "answer": "我觉得这取决于聚会的规模和目的。私人场所更自由，也让好友更容易自在地聊天。比如，小型生日晚餐适合在家办，大型公司庆典则需要更大的场地。人们通常根据便利程度、费用和客人的需求来选择。"
+          },
+          "structure": "观点 → 原因 → 例子 → 结果或限定",
+          "materials": [
+            "M5"
+          ],
+          "chunkPhrases": [
+            "talk comfortably",
+            "the needs of the guests"
+          ],
+          "reasonExample": {
+            "reasonCn": "私人场所更自由，也让好友更容易自在地聊天。",
+            "reasonEn": "A private place offers more freedom and makes it easier for close friends to talk comfortably.",
+            "exCn": "比如，小型生日晚餐适合在家办，大型公司庆典则需要更大的场地。",
+            "exEn": "For example, a small birthday dinner may work well at home, while a large company celebration needs a bigger venue."
+          }
+        },
+        {
+          "question": "Do most people prefer to hold a party in a restaurant or in a pub?",
+          "answerLanguage": "en",
+          "answer": "For a family celebration in China, I think a restaurant is often the easier choice. It offers a proper meal and can suit guests of different ages. For example, a birthday dinner may include grandparents and children, who might find a noisy pub uncomfortable. A group of adult friends may choose a pub instead, so the guests matter more than one general rule.",
+          "translation": {
+            "question": "大多数人更喜欢在餐厅还是酒吧举办聚会？",
+            "answer": "在中国办家庭庆祝活动，我觉得餐厅通常更容易选择。餐厅能提供正餐，也能适合不同年龄的客人。比如，生日晚餐可能有祖父母和孩子，他们可能不喜欢吵闹的酒吧。一群成年朋友则可能选酒吧，所以客人是谁，比一个笼统的规律更重要。"
+          },
+          "structure": "观点 → 原因 → 例子 → 结果或限定",
+          "materials": [
+            "M5"
+          ],
+          "chunkPhrases": [
+            "different ages",
+            "a family celebration"
+          ],
+          "reasonExample": {
+            "reasonCn": "餐厅能提供正餐，也能适合不同年龄的客人。",
+            "reasonEn": "It offers a proper meal and can suit guests of different ages.",
+            "exCn": "比如，生日晚餐可能有祖父母和孩子，他们可能不喜欢吵闹的酒吧。",
+            "exEn": "For example, a birthday dinner may include grandparents and children, who might find a noisy pub uncomfortable."
+          }
+        },
+        {
+          "question": "What special events are celebrated in your country?",
+          "answerLanguage": "en",
+          "answer": "In China, people celebrate traditional festivals as well as personal milestones. These occasions bring families together and help keep local customs alive. For example, during the Spring Festival, many families share a meal and visit relatives. Weddings, birthdays and graduations also give people reasons to celebrate with those close to them.",
+          "translation": {
+            "question": "你们国家会庆祝哪些特殊事件？",
+            "answer": "在中国，人们既庆祝传统节日，也庆祝个人生活中的重要时刻。这些场合让家人团聚，也帮助地方习俗延续。比如，春节期间，很多家庭会一起吃饭、走亲戚。婚礼、生日和毕业也给人们机会，和亲近的人一起庆祝。"
+          },
+          "structure": "观点 → 原因 → 例子 → 结果或限定",
+          "materials": [
+            "M8",
+            "M5"
+          ],
+          "chunkPhrases": [
+            "keep local customs alive",
+            "bring families together"
+          ],
+          "reasonExample": {
+            "reasonCn": "这些场合让家人团聚，也帮助地方习俗延续。",
+            "reasonEn": "These occasions bring families together and help keep local customs alive.",
+            "exCn": "比如，春节期间，很多家庭会一起吃饭、走亲戚。",
+            "exEn": "For example, during the Spring Festival, many families share a meal and visit relatives."
+          }
+        }
+      ],
+      "sourceOrder": 25
     },
     {
       "id": "feishu-disliked-short-trip",
@@ -9732,7 +10894,7 @@ window.IELTS_DATA = {
           "structure": "观点 → 原因 → 细节/例子 → 结果或限定"
         }
       ],
-      "sourceOrder": 19
+      "sourceOrder": 26
     },
     {
       "id": "feishu-waste-time",
@@ -9787,7 +10949,7 @@ window.IELTS_DATA = {
           "structure": "原因 → 影响 → 建议"
         }
       ],
-      "sourceOrder": 20
+      "sourceOrder": 27
     },
     {
       "id": "feishu-good-shop-service",
@@ -9864,7 +11026,7 @@ window.IELTS_DATA = {
           "structure": "原因 → 感受 → 对比"
         }
       ],
-      "sourceOrder": 21
+      "sourceOrder": 28
     },
     {
       "id": "feishu-saved-money",
@@ -9941,7 +11103,7 @@ window.IELTS_DATA = {
           "structure": "观点 → 原因 → 细节/例子 → 结果或限定"
         }
       ],
-      "sourceOrder": 22
+      "sourceOrder": 29
     },
     {
       "id": "feishu-kept-listening",
@@ -9985,7 +11147,7 @@ window.IELTS_DATA = {
           "structure": "行为 → 互动 → 结果"
         }
       ],
-      "sourceOrder": 23
+      "sourceOrder": 30
     },
     {
       "id": "feishu-enjoyable-evening",
@@ -10007,7 +11169,7 @@ window.IELTS_DATA = {
           "structure": "原则 → 日常做法 → 冲突处理"
         }
       ],
-      "sourceOrder": 24
+      "sourceOrder": 31
     },
     {
       "id": "new-famous-interview",
@@ -10097,7 +11259,7 @@ window.IELTS_DATA = {
           "structure": "观点 → 原因 → 细节/例子 → 结果或限定"
         }
       ],
-      "sourceOrder": 25
+      "sourceOrder": 32
     },
     {
       "id": "new-happy-important-decision",
@@ -10174,7 +11336,7 @@ window.IELTS_DATA = {
           "structure": "分情况 → 快速场景 → 慢速场景 → 限定"
         }
       ],
-      "sourceOrder": 26
+      "sourceOrder": 33
     },
     {
       "id": "feishu-changed-decision",
@@ -10196,7 +11358,7 @@ window.IELTS_DATA = {
           "structure": "早期选择 → 成长 → 家长做法"
         }
       ],
-      "sourceOrder": 27
+      "sourceOrder": 34
     },
     {
       "id": "new-success-after-difficulty",
@@ -10255,7 +11417,7 @@ window.IELTS_DATA = {
           ]
         }
       ],
-      "sourceOrder": 28
+      "sourceOrder": 35
     },
     {
       "id": "new-language-speaker",
@@ -10363,7 +11525,7 @@ window.IELTS_DATA = {
           ]
         }
       ],
-      "sourceOrder": 29
+      "sourceOrder": 36
     },
     {
       "id": "new-successful-businessperson",
@@ -10478,7 +11640,7 @@ window.IELTS_DATA = {
           ]
         }
       ],
-      "sourceOrder": 30
+      "sourceOrder": 37
     },
     {
       "id": "new-successful-company-worker",
@@ -10541,7 +11703,7 @@ window.IELTS_DATA = {
           ]
         }
       ],
-      "sourceOrder": 31
+      "sourceOrder": 38
     },
     {
       "id": "new-medical-career",
@@ -10617,7 +11779,7 @@ window.IELTS_DATA = {
           ]
         }
       ],
-      "sourceOrder": 32
+      "sourceOrder": 39
     },
     {
       "id": "new-childhood-friend",
@@ -10726,7 +11888,7 @@ window.IELTS_DATA = {
           ]
         }
       ],
-      "sourceOrder": 33
+      "sourceOrder": 40
     },
     {
       "id": "new-home-gardener",
@@ -10837,7 +11999,7 @@ window.IELTS_DATA = {
           ]
         }
       ],
-      "sourceOrder": 34
+      "sourceOrder": 41
     },
     {
       "id": "new-local-news",
@@ -10912,7 +12074,7 @@ window.IELTS_DATA = {
           ]
         }
       ],
-      "sourceOrder": 35
+      "sourceOrder": 42
     },
     {
       "id": "new-environmental-law-proposal",
@@ -11020,7 +12182,7 @@ window.IELTS_DATA = {
           ]
         }
       ],
-      "sourceOrder": 36
+      "sourceOrder": 43
     },
     {
       "id": "new-long-term-goal",
@@ -11139,7 +12301,7 @@ window.IELTS_DATA = {
           ]
         }
       ],
-      "sourceOrder": 37
+      "sourceOrder": 44
     },
     {
       "id": "new-long-held-ambition",
@@ -11251,7 +12413,7 @@ window.IELTS_DATA = {
           ]
         }
       ],
-      "sourceOrder": 38
+      "sourceOrder": 45
     },
     {
       "id": "new-environmental-law-story",
@@ -11358,7 +12520,7 @@ window.IELTS_DATA = {
           ]
         }
       ],
-      "sourceOrder": 39
+      "sourceOrder": 46
     },
     {
       "id": "new-animal-story",
@@ -11470,7 +12632,7 @@ window.IELTS_DATA = {
           ]
         }
       ],
-      "sourceOrder": 40
+      "sourceOrder": 47
     },
     {
       "id": "new-ai-problem",
@@ -11583,7 +12745,7 @@ window.IELTS_DATA = {
           ]
         }
       ],
-      "sourceOrder": 41
+      "sourceOrder": 48
     },
     {
       "id": "new-celebrity-advertisement",
@@ -11694,7 +12856,7 @@ window.IELTS_DATA = {
           ]
         }
       ],
-      "sourceOrder": 42
+      "sourceOrder": 49
     },
     {
       "id": "new-recent-program",
@@ -11757,7 +12919,7 @@ window.IELTS_DATA = {
           ]
         }
       ],
-      "sourceOrder": 43
+      "sourceOrder": 50
     },
     {
       "id": "new-special-occasion-food",
@@ -11835,7 +12997,7 @@ window.IELTS_DATA = {
           ]
         }
       ],
-      "sourceOrder": 44
+      "sourceOrder": 51
     },
     {
       "id": "new-live-sports-event",
@@ -11946,7 +13108,7 @@ window.IELTS_DATA = {
           ]
         }
       ],
-      "sourceOrder": 45
+      "sourceOrder": 52
     },
     {
       "id": "new-general-law",
@@ -12061,7 +13223,7 @@ window.IELTS_DATA = {
           ]
         }
       ],
-      "sourceOrder": 46
+      "sourceOrder": 53
     },
     {
       "id": "new-interesting-video",
@@ -12176,7 +13338,7 @@ window.IELTS_DATA = {
           ]
         }
       ],
-      "sourceOrder": 47
+      "sourceOrder": 54
     },
     {
       "id": "new-special-cake",
@@ -12295,7 +13457,7 @@ window.IELTS_DATA = {
           ]
         }
       ],
-      "sourceOrder": 48
+      "sourceOrder": 55
     },
     {
       "id": "new-recent-change",
@@ -12389,7 +13551,7 @@ window.IELTS_DATA = {
           ]
         }
       ],
-      "sourceOrder": 49
+      "sourceOrder": 56
     },
     {
       "id": "new-changed-opinion",
@@ -12465,7 +13627,7 @@ window.IELTS_DATA = {
           ]
         }
       ],
-      "sourceOrder": 50
+      "sourceOrder": 57
     },
     {
       "id": "new-traffic-jam",
@@ -12580,7 +13742,7 @@ window.IELTS_DATA = {
           ]
         }
       ],
-      "sourceOrder": 51
+      "sourceOrder": 58
     },
     {
       "id": "new-happy-event",
@@ -12693,7 +13855,7 @@ window.IELTS_DATA = {
           ]
         }
       ],
-      "sourceOrder": 52
+      "sourceOrder": 59
     },
     {
       "id": "new-delayed-reply",
@@ -12802,7 +13964,7 @@ window.IELTS_DATA = {
           ]
         }
       ],
-      "sourceOrder": 53
+      "sourceOrder": 60
     },
     {
       "id": "new-low-cost-day-out",
@@ -12913,7 +14075,7 @@ window.IELTS_DATA = {
           ]
         }
       ],
-      "sourceOrder": 54
+      "sourceOrder": 61
     },
     {
       "id": "new-help-solve-problem",
@@ -12941,7 +14103,7 @@ window.IELTS_DATA = {
           ]
         }
       ],
-      "sourceOrder": 55
+      "sourceOrder": 62
     },
     {
       "id": "new-language-learning",
@@ -13048,7 +14210,7 @@ window.IELTS_DATA = {
           ]
         }
       ],
-      "sourceOrder": 56
+      "sourceOrder": 63
     },
     {
       "id": "new-electronic-device-problem",
@@ -13095,7 +14257,7 @@ window.IELTS_DATA = {
           ]
         }
       ],
-      "sourceOrder": 57
+      "sourceOrder": 64
     },
     {
       "id": "new-important-decision",
@@ -13208,7 +14370,7 @@ window.IELTS_DATA = {
           ]
         }
       ],
-      "sourceOrder": 58
+      "sourceOrder": 65
     },
     {
       "id": "new-teamwork",
@@ -13319,7 +14481,7 @@ window.IELTS_DATA = {
           ]
         }
       ],
-      "sourceOrder": 59
+      "sourceOrder": 66
     },
     {
       "id": "new-changed-plan",
@@ -13431,7 +14593,7 @@ window.IELTS_DATA = {
           ]
         }
       ],
-      "sourceOrder": 60
+      "sourceOrder": 67
     },
     {
       "id": "new-early-morning",
@@ -13539,7 +14701,7 @@ window.IELTS_DATA = {
           ]
         }
       ],
-      "sourceOrder": 61
+      "sourceOrder": 68
     },
     {
       "id": "new-important-river-lake",
@@ -13647,7 +14809,7 @@ window.IELTS_DATA = {
           ]
         }
       ],
-      "sourceOrder": 62
+      "sourceOrder": 69
     },
     {
       "id": "new-recommended-place",
@@ -13754,7 +14916,7 @@ window.IELTS_DATA = {
           ]
         }
       ],
-      "sourceOrder": 63
+      "sourceOrder": 70
     },
     {
       "id": "new-visit-home",
@@ -13863,7 +15025,7 @@ window.IELTS_DATA = {
           ]
         }
       ],
-      "sourceOrder": 64
+      "sourceOrder": 71
     },
     {
       "id": "new-boring-place",
@@ -13972,7 +15134,7 @@ window.IELTS_DATA = {
           ]
         }
       ],
-      "sourceOrder": 65
+      "sourceOrder": 72
     },
     {
       "id": "new-favourite-city",
@@ -14051,7 +15213,7 @@ window.IELTS_DATA = {
           ]
         }
       ],
-      "sourceOrder": 66
+      "sourceOrder": 73
     },
     {
       "id": "new-tall-building",
@@ -14162,7 +15324,7 @@ window.IELTS_DATA = {
           ]
         }
       ],
-      "sourceOrder": 67
+      "sourceOrder": 74
     },
     {
       "id": "new-free-time-travel-place",
@@ -14208,7 +15370,7 @@ window.IELTS_DATA = {
           ]
         }
       ],
-      "sourceOrder": 68
+      "sourceOrder": 75
     }
   ],
   "toolkit": [
@@ -16645,6 +17807,2036 @@ window.IELTS_DATA = {
   "questionBank": {
     "title": "躺着学2026年9-12月口语题库",
     "url": "https://lh65breby7.feishu.cn/docx/CEZ3daDBVoy3aVx4C8DcOtxfnQc",
-    "checkedAt": "2026-09-07"
+    "checkedAt": "2026-09-08"
   }
+};
+// 腾讯文档 P1 全部主题：只从方括号外的基础答案提取通用表达。
+window.IELTS_DATA.part1Expressions = {
+  "title": "通用句式与短语",
+  "intro": "大陆地区 · 共 43 条，先练 ★ 19 条。",
+  "sourceTitle": "腾讯文档 · Part 1 · 大陆地区",
+  "sourceUrl": "https://docs.qq.com/aio/DUFh6UHBESWpra2Vu?p=FjrXlNxz16aafBTomYisHv",
+  "checkedAt": "2026-09-08",
+  "topicCount": 32,
+  "questionCount": 195,
+  "answerGroupCount": 184,
+  "scope": "仅限大陆地区的 9-12月新题、9-12月保留题、万年保留题；2026-09-08 重新逐页采集，只从方括号外的基础答案精选通用表达。",
+  "sources": [
+    {
+      "id": 40,
+      "title": "Fruit and vegetables-水果和蔬菜",
+      "region": "大陆地区",
+      "category": "9-12月新题",
+      "url": "https://docs.qq.com/aio/DUFh6UHBESWpra2Vu?_t=1788767082304&nlc=1&p=AtRbgzOu78H2RHd5JFsjn0"
+    },
+    {
+      "id": 41,
+      "title": "Paper-纸张",
+      "region": "大陆地区",
+      "category": "9-12月新题",
+      "url": "https://docs.qq.com/aio/DUFh6UHBESWpra2Vu?_t=1788767082304&nlc=1&p=v8ra9x0526jBPDBttoGFvE"
+    },
+    {
+      "id": 38,
+      "title": "Shoes-鞋子",
+      "region": "大陆地区",
+      "category": "9-12月新题",
+      "url": "https://docs.qq.com/aio/DUFh6UHBESWpra2Vu?_t=1788767082304&nlc=1&p=CXUqklHt9KWY9LwCL5pqRm"
+    },
+    {
+      "id": 36,
+      "title": "Rubbish and recycling-垃圾回收",
+      "region": "大陆地区",
+      "category": "9-12月新题",
+      "url": "https://docs.qq.com/aio/DUFh6UHBESWpra2Vu?_t=1788767082304&nlc=1&p=J2oj6YvpFIdynm2FIVtWBD"
+    },
+    {
+      "id": 42,
+      "title": "Scondary school-中学",
+      "region": "大陆地区",
+      "category": "9-12月新题",
+      "url": "https://docs.qq.com/aio/DUFh6UHBESWpra2Vu?_t=1788767082304&nlc=1&p=VlDR9MRjjug2ESAMdm3dHF"
+    },
+    {
+      "id": 30,
+      "title": "Travelling-旅行",
+      "region": "大陆地区",
+      "category": "9-12月新题",
+      "url": "https://docs.qq.com/aio/DUFh6UHBESWpra2Vu?_t=1788767082304&nlc=1&p=JRAOkAQn6gAtUPAq65JZAq"
+    },
+    {
+      "id": 44,
+      "title": "Feeling bored-感到无聊",
+      "region": "大陆地区",
+      "category": "9-12月新题",
+      "url": "https://docs.qq.com/aio/DUFh6UHBESWpra2Vu?_t=1788767082304&nlc=1&p=XgxFG9QD2eaayaqp6oFxVO"
+    },
+    {
+      "id": 34,
+      "title": "Politeness-礼貌",
+      "region": "大陆地区",
+      "category": "9-12月新题",
+      "url": "https://docs.qq.com/aio/DUFh6UHBESWpra2Vu?_t=1788767082304&nlc=1&p=chEVOH7g2PtTp0ZW48XVZj"
+    },
+    {
+      "id": 39,
+      "title": "Adertisement-广告",
+      "region": "大陆地区",
+      "category": "9-12月新题",
+      "url": "https://docs.qq.com/aio/DUFh6UHBESWpra2Vu?_t=1788767082304&nlc=1&p=Zj1aAfcUuQKtsRbQu6rtRg"
+    },
+    {
+      "id": 35,
+      "title": "Tiredness-疲惫",
+      "region": "大陆地区",
+      "category": "9-12月新题",
+      "url": "https://docs.qq.com/aio/DUFh6UHBESWpra2Vu?_t=1788767082304&nlc=1&p=yO7C7thu8UcGmX4hxLF8uK"
+    },
+    {
+      "id": 43,
+      "title": "Name-姓名",
+      "region": "大陆地区",
+      "category": "9-12月新题",
+      "url": "https://docs.qq.com/aio/DUFh6UHBESWpra2Vu?_t=1788767082304&nlc=1&p=t4pdlX0KJdTWKXWJjERGW2"
+    },
+    {
+      "id": 25,
+      "title": "Work or studies-工作/学习[必看]",
+      "region": "大陆地区",
+      "category": "万年保留题",
+      "url": "https://docs.qq.com/aio/DUFh6UHBESWpra2Vu?_t=1788767082304&nlc=1&p=GDIs1fuIXClygY5S85DoDS"
+    },
+    {
+      "id": 26,
+      "title": "The area you live in-居住地",
+      "region": "大陆地区",
+      "category": "万年保留题",
+      "url": "https://docs.qq.com/aio/DUFh6UHBESWpra2Vu?_t=1788767082304&nlc=1&p=90Vb1KM7wp8wylpF7AT7NM"
+    },
+    {
+      "id": 27,
+      "title": "Home & accommodation-家&居住",
+      "region": "大陆地区",
+      "category": "万年保留题",
+      "url": "https://docs.qq.com/aio/DUFh6UHBESWpra2Vu?_t=1788767082304&nlc=1&p=HvkAUMwpFXhQYt4HVizHeq"
+    },
+    {
+      "id": 28,
+      "title": "Hometown-家乡",
+      "region": "大陆地区",
+      "category": "万年保留题",
+      "url": "https://docs.qq.com/aio/DUFh6UHBESWpra2Vu?_t=1788767082304&nlc=1&p=zMOz8z9fH69bDaTPpf1mkY"
+    },
+    {
+      "id": 29,
+      "title": "The city you live in-居住的城市",
+      "region": "大陆地区",
+      "category": "万年保留题",
+      "url": "https://docs.qq.com/aio/DUFh6UHBESWpra2Vu?_t=1788767082304&nlc=1&p=ldbMFPmRmH27BBDUvr8PWx"
+    },
+    {
+      "id": 1,
+      "title": "Watch-表",
+      "region": "大陆地区",
+      "category": "9-12月保留题",
+      "url": "https://docs.qq.com/aio/DUFh6UHBESWpra2Vu?_t=1788767082304&nlc=1&p=jzLcXqnTOVaN5zQYTIa8Eg"
+    },
+    {
+      "id": 2,
+      "title": "Cars-汽车",
+      "region": "大陆地区",
+      "category": "9-12月保留题",
+      "url": "https://docs.qq.com/aio/DUFh6UHBESWpra2Vu?_t=1788767082304&nlc=1&p=EieJwdNk9eLG627rFKOMLY"
+    },
+    {
+      "id": 3,
+      "title": "Websites-网站",
+      "region": "大陆地区",
+      "category": "9-12月保留题",
+      "url": "https://docs.qq.com/aio/DUFh6UHBESWpra2Vu?_t=1788767082304&nlc=1&p=SQI3QyHogzlNMFbcsbeUZN"
+    },
+    {
+      "id": 4,
+      "title": "Teachers-老师",
+      "region": "大陆地区",
+      "category": "9-12月保留题",
+      "url": "https://docs.qq.com/aio/DUFh6UHBESWpra2Vu?_t=1788767082304&nlc=1&p=pLxqxjzfqDGM4I53DyBzgo"
+    },
+    {
+      "id": 5,
+      "title": "Public gardens and parks-公共花园或公园",
+      "region": "大陆地区",
+      "category": "9-12月保留题",
+      "url": "https://docs.qq.com/aio/DUFh6UHBESWpra2Vu?_t=1788767082304&nlc=1&p=1rnQgL5uMq2ihqdyo2YtUj"
+    },
+    {
+      "id": 6,
+      "title": "Mirrors-镜子",
+      "region": "大陆地区",
+      "category": "9-12月保留题",
+      "url": "https://docs.qq.com/aio/DUFh6UHBESWpra2Vu?_t=1788767082304&nlc=1&p=lSE8EQObPDNrtkg5Q9xGLG"
+    },
+    {
+      "id": 7,
+      "title": "Music-音乐",
+      "region": "大陆地区",
+      "category": "9-12月保留题",
+      "url": "https://docs.qq.com/aio/DUFh6UHBESWpra2Vu?_t=1788767082304&nlc=1&p=WELRJgnnNywpSyn41Ti6Fb"
+    },
+    {
+      "id": 8,
+      "title": "Shopping-购物",
+      "region": "大陆地区",
+      "category": "9-12月保留题",
+      "url": "https://docs.qq.com/aio/DUFh6UHBESWpra2Vu?_t=1788767082304&nlc=1&p=fmzPegq9Ud09nGeIt5RKlP"
+    },
+    {
+      "id": 9,
+      "title": "Clothing-衣服",
+      "region": "大陆地区",
+      "category": "9-12月保留题",
+      "url": "https://docs.qq.com/aio/DUFh6UHBESWpra2Vu?_t=1788767082304&nlc=1&p=B3v5ClsFVtfxThezT2ntIS"
+    },
+    {
+      "id": 10,
+      "title": "Tidiness-整洁",
+      "region": "大陆地区",
+      "category": "9-12月保留题",
+      "url": "https://docs.qq.com/aio/DUFh6UHBESWpra2Vu?_t=1788767082304&nlc=1&p=ZlKDfYLm3JbD4TuLtwQLoq"
+    },
+    {
+      "id": 11,
+      "title": "Headphones-耳机",
+      "region": "大陆地区",
+      "category": "9-12月保留题",
+      "url": "https://docs.qq.com/aio/DUFh6UHBESWpra2Vu?_t=1788767082304&nlc=1&p=qcCJrhEs1m7JikqRDoZEIB"
+    },
+    {
+      "id": 12,
+      "title": "Social media-社交媒体",
+      "region": "大陆地区",
+      "category": "9-12月保留题",
+      "url": "https://docs.qq.com/aio/DUFh6UHBESWpra2Vu?_t=1788767082304&nlc=1&p=UGt8NpcTN40ZdP40ZV5AuL"
+    },
+    {
+      "id": 13,
+      "title": "Singing-唱歌",
+      "region": "大陆地区",
+      "category": "9-12月保留题",
+      "url": "https://docs.qq.com/aio/DUFh6UHBESWpra2Vu?_t=1788767082304&nlc=1&p=xM6jrjIHjqVPF2H6Qfaapq"
+    },
+    {
+      "id": 14,
+      "title": "Science-科学",
+      "region": "大陆地区",
+      "category": "9-12月保留题",
+      "url": "https://docs.qq.com/aio/DUFh6UHBESWpra2Vu?_t=1788767082304&nlc=1&p=zj8WVymXySWsQCAlmpWGZz"
+    },
+    {
+      "id": 15,
+      "title": "Outer space and stars-外星球",
+      "region": "大陆地区",
+      "category": "9-12月保留题",
+      "url": "https://docs.qq.com/aio/DUFh6UHBESWpra2Vu?_t=1788767082304&nlc=1&p=3UQ0g4oICvVpxOzMr2GQnD"
+    },
+    {
+      "id": 16,
+      "title": "Jokes & Comedies-笑话和喜剧",
+      "region": "大陆地区",
+      "category": "9-12月保留题",
+      "url": "https://docs.qq.com/aio/DUFh6UHBESWpra2Vu?_t=1788767082304&nlc=1&p=sgDzW6YBLVghO61TmRFcr2"
+    }
+  ],
+  "groups": [
+    {
+      "id": "preference",
+      "title": "回答与喜好",
+      "items": [
+        {
+          "id": "p1-e03",
+          "en": "I'd say …",
+          "zh": "我觉得……／要我说……",
+          "usage": "后接完整句子，表达自己的看法。",
+          "priority": true,
+          "sources": [
+            {
+              "topicId": 38,
+              "questions": [
+                "1",
+                "3",
+                "4"
+              ],
+              "evidence": "I'd say"
+            },
+            {
+              "topicId": 39,
+              "questions": [
+                "5"
+              ],
+              "evidence": "I'd say"
+            },
+            {
+              "topicId": 41,
+              "questions": [
+                "3"
+              ],
+              "evidence": "I'd say"
+            },
+            {
+              "topicId": 42,
+              "questions": [
+                "2",
+                "3"
+              ],
+              "evidence": "I'd say"
+            },
+            {
+              "topicId": 44,
+              "questions": [
+                "2"
+              ],
+              "evidence": "I'd say"
+            },
+            {
+              "topicId": 2,
+              "questions": [
+                "1",
+                "4"
+              ],
+              "evidence": "I'd say"
+            },
+            {
+              "topicId": 3,
+              "questions": [
+                "1",
+                "4",
+                "6"
+              ],
+              "evidence": "I'd say"
+            },
+            {
+              "topicId": 4,
+              "questions": [
+                "1",
+                "6"
+              ],
+              "evidence": "I'd say"
+            },
+            {
+              "topicId": 5,
+              "questions": [
+                "5"
+              ],
+              "evidence": "I'd say"
+            },
+            {
+              "topicId": 6,
+              "questions": [
+                "1"
+              ],
+              "evidence": "I'd say"
+            },
+            {
+              "topicId": 7,
+              "questions": [
+                "1"
+              ],
+              "evidence": "I'd say"
+            },
+            {
+              "topicId": 10,
+              "questions": [
+                "4"
+              ],
+              "evidence": "I'd say"
+            },
+            {
+              "topicId": 12,
+              "questions": [
+                "4"
+              ],
+              "evidence": "I'd say"
+            },
+            {
+              "topicId": 14,
+              "questions": [
+                "3"
+              ],
+              "evidence": "I'd say"
+            },
+            {
+              "topicId": 16,
+              "questions": [
+                "1"
+              ],
+              "evidence": "I'd say"
+            },
+            {
+              "topicId": 29,
+              "questions": [
+                "8",
+                "9",
+                "10"
+              ],
+              "evidence": "I'd say"
+            }
+          ],
+          "number": 1
+        },
+        {
+          "id": "p1-e02",
+          "en": "Not really, to be honest.",
+          "zh": "说实话，不太是／不太会。",
+          "usage": "温和地否定；补一句自己的实际情况。",
+          "priority": true,
+          "sources": [
+            {
+              "topicId": 39,
+              "questions": [
+                "4"
+              ],
+              "evidence": "Not really, to be honest"
+            },
+            {
+              "topicId": 41,
+              "questions": [
+                "4"
+              ],
+              "evidence": "Not really"
+            },
+            {
+              "topicId": 42,
+              "questions": [
+                "1"
+              ],
+              "evidence": "not really"
+            },
+            {
+              "topicId": 44,
+              "questions": [
+                "1"
+              ],
+              "evidence": "Not really, to be honest"
+            },
+            {
+              "topicId": 1,
+              "questions": [
+                "1",
+                "2"
+              ],
+              "evidence": "not really"
+            },
+            {
+              "topicId": 2,
+              "questions": [
+                "1"
+              ],
+              "evidence": "Not really, to be honest"
+            },
+            {
+              "topicId": 3,
+              "questions": [
+                "2"
+              ],
+              "evidence": "Not really"
+            },
+            {
+              "topicId": 4,
+              "questions": [
+                "5"
+              ],
+              "evidence": "Not really"
+            },
+            {
+              "topicId": 6,
+              "questions": [
+                "1",
+                "3",
+                "4"
+              ],
+              "evidence": "Not really"
+            },
+            {
+              "topicId": 8,
+              "questions": [
+                "1",
+                "4"
+              ],
+              "evidence": "not really"
+            },
+            {
+              "topicId": 9,
+              "questions": [
+                "2",
+                "3",
+                "6"
+              ],
+              "evidence": "not really"
+            },
+            {
+              "topicId": 10,
+              "questions": [
+                "2"
+              ],
+              "evidence": "not really"
+            },
+            {
+              "topicId": 13,
+              "questions": [
+                "2"
+              ],
+              "evidence": "Not really, to be honest"
+            },
+            {
+              "topicId": 16,
+              "questions": [
+                "2",
+                "5"
+              ],
+              "evidence": "Not really"
+            },
+            {
+              "topicId": 26,
+              "questions": [
+                "6"
+              ],
+              "evidence": "not really"
+            },
+            {
+              "topicId": 28,
+              "questions": [
+                "11",
+                "12"
+              ],
+              "evidence": "not really"
+            }
+          ],
+          "number": 2
+        },
+        {
+          "id": "p1-e04",
+          "en": "It really depends on …",
+          "zh": "这主要取决于……",
+          "usage": "on 后接名词或 what / how 引导的内容。",
+          "priority": true,
+          "sources": [
+            {
+              "topicId": 44,
+              "questions": [
+                "4"
+              ],
+              "evidence": "it really depends on"
+            },
+            {
+              "topicId": 9,
+              "questions": [
+                "1"
+              ],
+              "evidence": "It really depends on"
+            },
+            {
+              "topicId": 11,
+              "questions": [
+                "1"
+              ],
+              "evidence": "it really depends on"
+            },
+            {
+              "topicId": 12,
+              "questions": [
+                "5"
+              ],
+              "evidence": "it really depends on"
+            }
+          ],
+          "number": 3
+        },
+        {
+          "id": "p1-e07",
+          "en": "I'm a big fan of …",
+          "zh": "我很喜欢……",
+          "usage": "of 后接名词或 doing，表达喜欢的事物或活动。",
+          "priority": true,
+          "sources": [
+            {
+              "topicId": 1,
+              "questions": [
+                "1"
+              ],
+              "evidence": "I'm a big fan of"
+            },
+            {
+              "topicId": 2,
+              "questions": [
+                "4"
+              ],
+              "evidence": "I'm a big fan of"
+            },
+            {
+              "topicId": 13,
+              "questions": [
+                "1"
+              ],
+              "evidence": "I'm a big fan of"
+            },
+            {
+              "topicId": 14,
+              "questions": [
+                "5"
+              ],
+              "evidence": "I'm a big fan of"
+            },
+            {
+              "topicId": 16,
+              "questions": [
+                "4"
+              ],
+              "evidence": "I'm a big fan of"
+            }
+          ],
+          "number": 4
+        },
+        {
+          "id": "p1-e08",
+          "en": "I'm really into … / I'm not really into …",
+          "zh": "我很喜欢……／我对……不太感兴趣。",
+          "usage": "into 后接名词或 doing；加 not 表达不太喜欢。",
+          "priority": true,
+          "sources": [
+            {
+              "topicId": 2,
+              "questions": [
+                "1",
+                "4"
+              ],
+              "evidence": "I'm really into"
+            },
+            {
+              "topicId": 25,
+              "questions": [
+                "1",
+                "2",
+                "3",
+                "4"
+              ],
+              "evidence": "I'm really into"
+            },
+            {
+              "topicId": 8,
+              "questions": [
+                "1"
+              ],
+              "evidence": "I'm not really into"
+            },
+            {
+              "topicId": 9,
+              "questions": [
+                "2",
+                "3"
+              ],
+              "evidence": "I'm not really into"
+            }
+          ],
+          "number": 5
+        },
+        {
+          "id": "p1-e10",
+          "en": "I prefer … because …",
+          "zh": "我更喜欢……，因为……",
+          "usage": "prefer 后接名词或 doing；because 后接完整句子。",
+          "priority": true,
+          "sources": [
+            {
+              "topicId": 2,
+              "questions": [
+                "2"
+              ],
+              "evidence": "I prefer darker colors like black or dark blue because"
+            },
+            {
+              "topicId": 8,
+              "questions": [
+                "2"
+              ],
+              "evidence": "I prefer online shopping because"
+            },
+            {
+              "topicId": 25,
+              "questions": [
+                "8",
+                "9"
+              ],
+              "evidence": "I prefer to study in the mornings because"
+            },
+            {
+              "topicId": 27,
+              "questions": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8"
+              ],
+              "evidence": "I prefer apartments because"
+            }
+          ],
+          "number": 6
+        },
+        {
+          "id": "p1-e87",
+          "en": "I find it … to …",
+          "zh": "我觉得做……很……",
+          "usage": "it 后接形容词，to 后接动词原形。",
+          "priority": false,
+          "sources": [
+            {
+              "topicId": 30,
+              "questions": [
+                "1"
+              ],
+              "evidence": "I just find it really relaxing to"
+            },
+            {
+              "topicId": 2,
+              "questions": [
+                "3"
+              ],
+              "evidence": "I always found it exciting to"
+            }
+          ],
+          "number": 7
+        }
+      ]
+    },
+    {
+      "id": "quantity",
+      "title": "数量与程度",
+      "items": [
+        {
+          "id": "p1-e61",
+          "en": "all kinds of …",
+          "zh": "各种各样的……",
+          "usage": "后接复数或不可数名词，表示种类很多。",
+          "priority": true,
+          "sources": [
+            {
+              "topicId": 3,
+              "questions": [
+                "3",
+                "4",
+                "5"
+              ],
+              "evidence": "all kinds of"
+            },
+            {
+              "topicId": 26,
+              "questions": [
+                "1",
+                "2",
+                "3"
+              ],
+              "evidence": "all kinds of"
+            }
+          ],
+          "number": 8
+        },
+        {
+          "id": "p1-e64",
+          "en": "quite a few …",
+          "zh": "相当多的……",
+          "usage": "后接可数名词复数，表示数量不少。",
+          "priority": true,
+          "sources": [
+            {
+              "topicId": 3,
+              "questions": [
+                "3"
+              ],
+              "evidence": "quite a few"
+            }
+          ],
+          "number": 9
+        },
+        {
+          "id": "p1-e66",
+          "en": "a bit / a bit of …",
+          "zh": "有点／一点……",
+          "usage": "a bit 后接形容词；a bit of 后接名词。",
+          "priority": false,
+          "sources": [
+            {
+              "topicId": 38,
+              "questions": [
+                "4"
+              ],
+              "evidence": "a bit of"
+            },
+            {
+              "topicId": 1,
+              "questions": [
+                "1"
+              ],
+              "evidence": "a bit"
+            },
+            {
+              "topicId": 7,
+              "questions": [
+                "1"
+              ],
+              "evidence": "a bit"
+            },
+            {
+              "topicId": 9,
+              "questions": [
+                "1",
+                "2"
+              ],
+              "evidence": "a bit"
+            },
+            {
+              "topicId": 13,
+              "questions": [
+                "3",
+                "4"
+              ],
+              "evidence": "a bit of"
+            },
+            {
+              "topicId": 15,
+              "questions": [
+                "1"
+              ],
+              "evidence": "a bit"
+            },
+            {
+              "topicId": 16,
+              "questions": [
+                "5"
+              ],
+              "evidence": "a bit"
+            },
+            {
+              "topicId": 26,
+              "questions": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5"
+              ],
+              "evidence": "a bit"
+            }
+          ],
+          "number": 10
+        },
+        {
+          "id": "p1-e48",
+          "en": "There are plenty of …",
+          "zh": "有很多……",
+          "usage": "后接可数名词复数，说明选择或设施很多。",
+          "priority": false,
+          "sources": [
+            {
+              "topicId": 26,
+              "questions": [
+                "7"
+              ],
+              "evidence": "has plenty of"
+            },
+            {
+              "topicId": 27,
+              "questions": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8"
+              ],
+              "evidence": "there are plenty of"
+            }
+          ],
+          "number": 11
+        }
+      ]
+    },
+    {
+      "id": "benefit",
+      "title": "原因与好处",
+      "items": [
+        {
+          "id": "p1-e16",
+          "en": "It's a great way to …",
+          "zh": "这是……的好方法。",
+          "usage": "to 后接动词原形，用来说明做这件事的好处。",
+          "priority": true,
+          "sources": [
+            {
+              "topicId": 5,
+              "questions": [
+                "2"
+              ],
+              "evidence": "it's a great way to"
+            },
+            {
+              "topicId": 8,
+              "questions": [
+                "4"
+              ],
+              "evidence": "It's a fun way to"
+            },
+            {
+              "topicId": 12,
+              "questions": [
+                "1"
+              ],
+              "evidence": "It's a good way to"
+            },
+            {
+              "topicId": 13,
+              "questions": [
+                "1",
+                "2",
+                "6"
+              ],
+              "evidence": "a great way to"
+            },
+            {
+              "topicId": 16,
+              "questions": [
+                "4"
+              ],
+              "evidence": "It's a great way to"
+            }
+          ],
+          "number": 12
+        },
+        {
+          "id": "p1-e17",
+          "en": "It helps me …",
+          "zh": "它能帮助我……",
+          "usage": "help me 后可直接接动词原形。",
+          "priority": true,
+          "sources": [
+            {
+              "topicId": 2,
+              "questions": [
+                "5"
+              ],
+              "evidence": "helps me"
+            },
+            {
+              "topicId": 3,
+              "questions": [
+                "7"
+              ],
+              "evidence": "helps me"
+            },
+            {
+              "topicId": 7,
+              "questions": [
+                "4"
+              ],
+              "evidence": "helps me"
+            },
+            {
+              "topicId": 10,
+              "questions": [
+                "1",
+                "3",
+                "4"
+              ],
+              "evidence": "helps me"
+            },
+            {
+              "topicId": 11,
+              "questions": [
+                "2"
+              ],
+              "evidence": "help me"
+            },
+            {
+              "topicId": 14,
+              "questions": [
+                "1"
+              ],
+              "evidence": "helps us"
+            },
+            {
+              "topicId": 16,
+              "questions": [
+                "4"
+              ],
+              "evidence": "help me"
+            },
+            {
+              "topicId": 25,
+              "questions": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5"
+              ],
+              "evidence": "helps me"
+            },
+            {
+              "topicId": 27,
+              "questions": [
+                "13",
+                "14",
+                "15",
+                "16",
+                "17"
+              ],
+              "evidence": "helps me"
+            }
+          ],
+          "number": 13
+        },
+        {
+          "id": "p1-e18",
+          "en": "It makes me feel …",
+          "zh": "它让我感到……",
+          "usage": "feel 后接形容词，说明自己的感受。",
+          "priority": true,
+          "sources": [
+            {
+              "topicId": 39,
+              "questions": [
+                "5"
+              ],
+              "evidence": "make me feel"
+            },
+            {
+              "topicId": 2,
+              "questions": [
+                "1"
+              ],
+              "evidence": "make me feel"
+            },
+            {
+              "topicId": 6,
+              "questions": [
+                "1"
+              ],
+              "evidence": "makes me feel"
+            },
+            {
+              "topicId": 7,
+              "questions": [
+                "2"
+              ],
+              "evidence": "makes me feel"
+            },
+            {
+              "topicId": 16,
+              "questions": [
+                "5"
+              ],
+              "evidence": "make me feel"
+            },
+            {
+              "topicId": 27,
+              "questions": [
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17"
+              ],
+              "evidence": "makes me feel"
+            }
+          ],
+          "number": 14
+        },
+        {
+          "id": "p1-e19",
+          "en": "put me in a good mood",
+          "zh": "让我心情变好",
+          "usage": "主语是 it 时用 puts；讲过去用 put。",
+          "priority": false,
+          "sources": [
+            {
+              "topicId": 7,
+              "questions": [
+                "1",
+                "2"
+              ],
+              "evidence": "puts me in a good mood"
+            }
+          ],
+          "number": 15
+        },
+        {
+          "id": "p1-e20",
+          "en": "stay focused",
+          "zh": "保持专注",
+          "usage": "可接在 help me 后，说明学习或工作更专注。",
+          "priority": true,
+          "sources": [
+            {
+              "topicId": 2,
+              "questions": [
+                "5"
+              ],
+              "evidence": "stay focused"
+            },
+            {
+              "topicId": 7,
+              "questions": [
+                "4"
+              ],
+              "evidence": "stay focused"
+            },
+            {
+              "topicId": 10,
+              "questions": [
+                "1",
+                "3"
+              ],
+              "evidence": "stay focused"
+            },
+            {
+              "topicId": 11,
+              "questions": [
+                "4"
+              ],
+              "evidence": "stay focused"
+            }
+          ],
+          "number": 16
+        },
+        {
+          "id": "p1-e23",
+          "en": "keep in touch with …",
+          "zh": "和……保持联系",
+          "usage": "with 后接人，用来说明联系、交流的好处。",
+          "priority": true,
+          "sources": [
+            {
+              "topicId": 12,
+              "questions": [
+                "1"
+              ],
+              "evidence": "keep in touch with"
+            }
+          ],
+          "number": 17
+        },
+        {
+          "id": "p1-e90",
+          "en": "take a break from …",
+          "zh": "暂时放下……，休息一下",
+          "usage": "from 后接名词或 doing。",
+          "priority": false,
+          "sources": [
+            {
+              "topicId": 5,
+              "questions": [
+                "7"
+              ],
+              "evidence": "take a break from"
+            }
+          ],
+          "number": 18
+        },
+        {
+          "id": "p1-e197",
+          "en": "pass the time",
+          "zh": "打发时间",
+          "usage": "常用于等车、排队、堵车时做的事情。",
+          "priority": false,
+          "sources": [
+            {
+              "topicId": 2,
+              "questions": [
+                "6"
+              ],
+              "evidence": "pass the time"
+            }
+          ],
+          "number": 19
+        },
+        {
+          "id": "p1-e47",
+          "en": "It's convenient for me to …",
+          "zh": "对我来说，……很方便。",
+          "usage": "to 后接动词原形，说明做某事很方便。",
+          "priority": false,
+          "sources": [
+            {
+              "topicId": 27,
+              "questions": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8"
+              ],
+              "evidence": "it's super convenient for me to"
+            }
+          ],
+          "number": 20
+        }
+      ]
+    },
+    {
+      "id": "habit",
+      "title": "习惯与时间",
+      "items": [
+        {
+          "id": "p1-e26",
+          "en": "most of the time",
+          "zh": "大多数时候",
+          "usage": "可放在句末，说明常见情况而非每一次。",
+          "priority": true,
+          "sources": [
+            {
+              "topicId": 7,
+              "questions": [
+                "1"
+              ],
+              "evidence": "most of the time"
+            },
+            {
+              "topicId": 9,
+              "questions": [
+                "3"
+              ],
+              "evidence": "most of the time"
+            },
+            {
+              "topicId": 11,
+              "questions": [
+                "3"
+              ],
+              "evidence": "most of the time"
+            }
+          ],
+          "number": 21
+        },
+        {
+          "id": "p1-e27",
+          "en": "once or twice a …",
+          "zh": "每……一两次",
+          "usage": "后接 day / week / month 等时间单位。",
+          "priority": true,
+          "sources": [
+            {
+              "topicId": 6,
+              "questions": [
+                "1"
+              ],
+              "evidence": "once or twice a"
+            },
+            {
+              "topicId": 8,
+              "questions": [
+                "1"
+              ],
+              "evidence": "once or twice a"
+            }
+          ],
+          "number": 22
+        },
+        {
+          "id": "p1-e105",
+          "en": "once in a while",
+          "zh": "偶尔／时不时",
+          "usage": "可放句首或句末，说明只是偶尔做。",
+          "priority": false,
+          "sources": [
+            {
+              "topicId": 40,
+              "questions": [
+                "2"
+              ],
+              "evidence": "Every once in a while"
+            }
+          ],
+          "number": 23
+        },
+        {
+          "id": "p1-e30",
+          "en": "When I have free time, …",
+          "zh": "有空的时候，我会……",
+          "usage": "后面用一般现在时，补具体活动。",
+          "priority": false,
+          "sources": [
+            {
+              "topicId": 26,
+              "questions": [
+                "1",
+                "2",
+                "3"
+              ],
+              "evidence": "When I have free time"
+            }
+          ],
+          "number": 24
+        },
+        {
+          "id": "p1-e29",
+          "en": "spend time doing … / spend time or money on …",
+          "zh": "花时间做……／在……上花时间或钱",
+          "usage": "做事用 doing；事物用 on + 名词。过去式是 spent。",
+          "priority": true,
+          "sources": [
+            {
+              "topicId": 2,
+              "questions": [
+                "1"
+              ],
+              "evidence": "spend my money on"
+            },
+            {
+              "topicId": 8,
+              "questions": [
+                "4"
+              ],
+              "evidence": "spend my time and money on"
+            },
+            {
+              "topicId": 9,
+              "questions": [
+                "6"
+              ],
+              "evidence": "spend my time on"
+            },
+            {
+              "topicId": 3,
+              "questions": [
+                "4"
+              ],
+              "evidence": "spend a lot of time there watching"
+            },
+            {
+              "topicId": 5,
+              "questions": [
+                "1"
+              ],
+              "evidence": "spend hours playing"
+            },
+            {
+              "topicId": 8,
+              "questions": [
+                "1"
+              ],
+              "evidence": "spend my time doing"
+            },
+            {
+              "topicId": 27,
+              "questions": [
+                "13",
+                "14"
+              ],
+              "evidence": "spend most of my time in the dorm studying"
+            }
+          ],
+          "number": 25
+        },
+        {
+          "id": "p1-e31",
+          "en": "On weekdays, … / On weekends, …",
+          "zh": "工作日……／周末……",
+          "usage": "分别说明工作日和周末的安排。",
+          "priority": false,
+          "sources": [
+            {
+              "topicId": 9,
+              "questions": [
+                "1"
+              ],
+              "evidence": "On weekdays"
+            },
+            {
+              "topicId": 13,
+              "questions": [
+                "1",
+                "2"
+              ],
+              "evidence": "on weekends"
+            }
+          ],
+          "number": 26
+        }
+      ]
+    },
+    {
+      "id": "actions",
+      "title": "常用动作",
+      "items": [
+        {
+          "id": "p1-e122",
+          "en": "make sure …",
+          "zh": "确保……",
+          "usage": "后接完整句子，说明自己会确保什么。",
+          "priority": false,
+          "sources": [
+            {
+              "topicId": 6,
+              "questions": [
+                "1"
+              ],
+              "evidence": "making sure"
+            },
+            {
+              "topicId": 10,
+              "questions": [
+                "3"
+              ],
+              "evidence": "make sure"
+            }
+          ],
+          "number": 27
+        },
+        {
+          "id": "p1-e124",
+          "en": "deal with …",
+          "zh": "处理／应对……",
+          "usage": "with 后接任务、问题或需要应付的人。",
+          "priority": false,
+          "sources": [
+            {
+              "topicId": 35,
+              "questions": [
+                "1"
+              ],
+              "evidence": "dealing with"
+            },
+            {
+              "topicId": 8,
+              "questions": [
+                "2"
+              ],
+              "evidence": "deal with"
+            },
+            {
+              "topicId": 11,
+              "questions": [
+                "3"
+              ],
+              "evidence": "deal with"
+            }
+          ],
+          "number": 28
+        },
+        {
+          "id": "p1-e125",
+          "en": "rely on …",
+          "zh": "依靠／依赖……",
+          "usage": "on 后接人或工具，也可接 someone to do。",
+          "priority": false,
+          "sources": [
+            {
+              "topicId": 43,
+              "questions": [
+                "2"
+              ],
+              "evidence": "relying on"
+            },
+            {
+              "topicId": 3,
+              "questions": [
+                "3"
+              ],
+              "evidence": "rely on"
+            }
+          ],
+          "number": 29
+        },
+        {
+          "id": "p1-e132",
+          "en": "hang out (with …)",
+          "zh": "闲逛／与……一起消磨时间",
+          "usage": "with 后接一起相处的人；hang out 也可单独用。",
+          "priority": false,
+          "sources": [
+            {
+              "topicId": 44,
+              "questions": [
+                "1"
+              ],
+              "evidence": "hanging out"
+            },
+            {
+              "topicId": 7,
+              "questions": [
+                "1",
+                "2"
+              ],
+              "evidence": "hanging out"
+            },
+            {
+              "topicId": 9,
+              "questions": [
+                "5"
+              ],
+              "evidence": "hanging out"
+            },
+            {
+              "topicId": 16,
+              "questions": [
+                "2"
+              ],
+              "evidence": "hanging out"
+            },
+            {
+              "topicId": 26,
+              "questions": [
+                "1",
+                "2",
+                "3"
+              ],
+              "evidence": "hanging out"
+            },
+            {
+              "topicId": 29,
+              "questions": [
+                "8",
+                "9",
+                "10"
+              ],
+              "evidence": "hang out"
+            }
+          ],
+          "number": 30
+        }
+      ]
+    },
+    {
+      "id": "past",
+      "title": "过去与未来",
+      "items": [
+        {
+          "id": "p1-e33",
+          "en": "When I was a kid, …",
+          "zh": "我小时候……",
+          "usage": "后面的主要动作使用过去时。",
+          "priority": true,
+          "sources": [
+            {
+              "topicId": 41,
+              "questions": [
+                "1"
+              ],
+              "evidence": "when I was a kid"
+            },
+            {
+              "topicId": 2,
+              "questions": [
+                "3"
+              ],
+              "evidence": "when I was a kid"
+            },
+            {
+              "topicId": 5,
+              "questions": [
+                "1",
+                "2"
+              ],
+              "evidence": "as a child"
+            },
+            {
+              "topicId": 10,
+              "questions": [
+                "2"
+              ],
+              "evidence": "As a child"
+            },
+            {
+              "topicId": 28,
+              "questions": [
+                "13",
+                "14",
+                "15"
+              ],
+              "evidence": "When I was a kid"
+            }
+          ],
+          "number": 31
+        },
+        {
+          "id": "p1-e34",
+          "en": "I used to …",
+          "zh": "我过去常常……",
+          "usage": "used to 后接动词原形，通常暗示现在不同了。",
+          "priority": true,
+          "sources": [
+            {
+              "topicId": 30,
+              "questions": [
+                "2"
+              ],
+              "evidence": "we used to"
+            },
+            {
+              "topicId": 40,
+              "questions": [
+                "4"
+              ],
+              "evidence": "I used to"
+            },
+            {
+              "topicId": 41,
+              "questions": [
+                "1",
+                "5"
+              ],
+              "evidence": "I used to"
+            },
+            {
+              "topicId": 3,
+              "questions": [
+                "3"
+              ],
+              "evidence": "I used to"
+            }
+          ],
+          "number": 32
+        },
+        {
+          "id": "p1-e35",
+          "en": "I remember doing …",
+          "zh": "我记得曾经……",
+          "usage": "remember 后接 doing，回忆已经做过的事。",
+          "priority": false,
+          "sources": [
+            {
+              "topicId": 30,
+              "questions": [
+                "2"
+              ],
+              "evidence": "I remember getting"
+            },
+            {
+              "topicId": 41,
+              "questions": [
+                "1"
+              ],
+              "evidence": "I remember competing"
+            },
+            {
+              "topicId": 12,
+              "questions": [
+                "2"
+              ],
+              "evidence": "I remember feeling"
+            }
+          ],
+          "number": 33
+        },
+        {
+          "id": "p1-e36",
+          "en": "a few years ago",
+          "zh": "几年前",
+          "usage": "用于过去经历，句子的动词通常用过去式。",
+          "priority": false,
+          "sources": [
+            {
+              "topicId": 6,
+              "questions": [
+                "2"
+              ],
+              "evidence": "a few years ago"
+            }
+          ],
+          "number": 34
+        },
+        {
+          "id": "p1-e40",
+          "en": "I'd love to …",
+          "zh": "我很想……",
+          "usage": "to 后接动词原形，表达愿望。",
+          "priority": true,
+          "sources": [
+            {
+              "topicId": 5,
+              "questions": [
+                "4"
+              ],
+              "evidence": "I'd love to"
+            },
+            {
+              "topicId": 13,
+              "questions": [
+                "5"
+              ],
+              "evidence": "I'd love to"
+            },
+            {
+              "topicId": 27,
+              "questions": [
+                "15",
+                "16",
+                "17"
+              ],
+              "evidence": "I'd love to"
+            }
+          ],
+          "number": 35
+        },
+        {
+          "id": "p1-e42",
+          "en": "I'm looking forward to …",
+          "zh": "我期待着……",
+          "usage": "to 后接名词或 doing，表达期待。",
+          "priority": false,
+          "sources": [
+            {
+              "topicId": 25,
+              "questions": [
+                "11"
+              ],
+              "evidence": "I'm looking forward to"
+            }
+          ],
+          "number": 36
+        }
+      ]
+    },
+    {
+      "id": "limit",
+      "title": "比较与补充",
+      "items": [
+        {
+          "id": "p1-e53",
+          "en": "Compared to …, …",
+          "zh": "与……相比，……",
+          "usage": "先说明比较对象，再用完整句子说差别。",
+          "priority": false,
+          "sources": [
+            {
+              "topicId": 2,
+              "questions": [
+                "4"
+              ],
+              "evidence": "compared to"
+            },
+            {
+              "topicId": 3,
+              "questions": [
+                "4"
+              ],
+              "evidence": "Compared to"
+            },
+            {
+              "topicId": 5,
+              "questions": [
+                "6"
+              ],
+              "evidence": "compared to"
+            }
+          ],
+          "number": 37
+        },
+        {
+          "id": "p1-e165",
+          "en": "instead / instead of …",
+          "zh": "改为／而不是……",
+          "usage": "instead 可放句末；instead of 后接名词或 doing。",
+          "priority": false,
+          "sources": [
+            {
+              "topicId": 39,
+              "questions": [
+                "3",
+                "5"
+              ],
+              "evidence": "instead of"
+            },
+            {
+              "topicId": 42,
+              "questions": [
+                "3"
+              ],
+              "evidence": "instead of"
+            },
+            {
+              "topicId": 1,
+              "questions": [
+                "2"
+              ],
+              "evidence": "instead"
+            },
+            {
+              "topicId": 3,
+              "questions": [
+                "4"
+              ],
+              "evidence": "instead of"
+            },
+            {
+              "topicId": 13,
+              "questions": [
+                "6"
+              ],
+              "evidence": "instead of"
+            }
+          ],
+          "number": 38
+        },
+        {
+          "id": "p1-e175",
+          "en": "for instance",
+          "zh": "例如",
+          "usage": "用来引出一个具体例子。",
+          "priority": false,
+          "sources": [
+            {
+              "topicId": 3,
+              "questions": [
+                "7"
+              ],
+              "evidence": "For instance"
+            },
+            {
+              "topicId": 26,
+              "questions": [
+                "4",
+                "5"
+              ],
+              "evidence": "For instance"
+            }
+          ],
+          "number": 39
+        },
+        {
+          "id": "p1-e178",
+          "en": "That's why …",
+          "zh": "所以才……／这就是为什么……",
+          "usage": "why 后接完整句子，总结前面原因带来的结果。",
+          "priority": false,
+          "sources": [
+            {
+              "topicId": 25,
+              "questions": [
+                "9",
+                "10"
+              ],
+              "evidence": "That's why"
+            },
+            {
+              "topicId": 27,
+              "questions": [
+                "15",
+                "16",
+                "17"
+              ],
+              "evidence": "That's why"
+            }
+          ],
+          "number": 40
+        },
+        {
+          "id": "p1-e46",
+          "en": "close to … / far from …",
+          "zh": "离……近／远",
+          "usage": "作描述时前面补 be；后面接地点。",
+          "priority": false,
+          "sources": [
+            {
+              "topicId": 26,
+              "questions": [
+                "1",
+                "2",
+                "3"
+              ],
+              "evidence": "far from"
+            },
+            {
+              "topicId": 29,
+              "questions": [
+                "11"
+              ],
+              "evidence": "close to"
+            }
+          ],
+          "number": 41
+        },
+        {
+          "id": "p1-e222",
+          "en": "Plus, … / Besides, …",
+          "zh": "而且／另外，……",
+          "usage": "后接完整句子，补充另一个理由。",
+          "priority": false,
+          "sources": [
+            {
+              "topicId": 1,
+              "questions": [
+                "1",
+                "4"
+              ],
+              "evidence": "Plus,"
+            },
+            {
+              "topicId": 2,
+              "questions": [
+                "4",
+                "5"
+              ],
+              "evidence": "Plus,"
+            },
+            {
+              "topicId": 3,
+              "questions": [
+                "1"
+              ],
+              "evidence": "Plus,"
+            },
+            {
+              "topicId": 4,
+              "questions": [
+                "2",
+                "4"
+              ],
+              "evidence": "Plus,"
+            },
+            {
+              "topicId": 5,
+              "questions": [
+                "3",
+                "5"
+              ],
+              "evidence": "Plus,"
+            },
+            {
+              "topicId": 6,
+              "questions": [
+                "4"
+              ],
+              "evidence": "Plus,"
+            },
+            {
+              "topicId": 8,
+              "questions": [
+                "2"
+              ],
+              "evidence": "Plus,"
+            },
+            {
+              "topicId": 10,
+              "questions": [
+                "4"
+              ],
+              "evidence": "Plus,"
+            },
+            {
+              "topicId": 11,
+              "questions": [
+                "3"
+              ],
+              "evidence": "Plus,"
+            },
+            {
+              "topicId": 13,
+              "questions": [
+                "6"
+              ],
+              "evidence": "Plus,"
+            },
+            {
+              "topicId": 25,
+              "questions": [
+                "1",
+                "2",
+                "3",
+                "4"
+              ],
+              "evidence": "Plus,"
+            },
+            {
+              "topicId": 28,
+              "questions": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10"
+              ],
+              "evidence": "Besides that,"
+            }
+          ],
+          "number": 42
+        },
+        {
+          "id": "p1-e56",
+          "en": "without doing …",
+          "zh": "不用……／在不……的情况下",
+          "usage": "without 后接 doing，说明省去的麻烦或避免的行为。",
+          "priority": false,
+          "sources": [
+            {
+              "topicId": 8,
+              "questions": [
+                "3"
+              ],
+              "evidence": "without paying"
+            },
+            {
+              "topicId": 11,
+              "questions": [
+                "2"
+              ],
+              "evidence": "without disturbing"
+            },
+            {
+              "topicId": 12,
+              "questions": [
+                "3"
+              ],
+              "evidence": "without even realizing"
+            },
+            {
+              "topicId": 16,
+              "questions": [
+                "4"
+              ],
+              "evidence": "without thinking"
+            }
+          ],
+          "number": 43
+        }
+      ]
+    }
+  ],
+  "audit": {
+    "checkedAt": "2026-09-08",
+    "region": "大陆地区",
+    "categories": [
+      "9-12月新题",
+      "9-12月保留题",
+      "万年保留题"
+    ],
+    "previousExpressionCount": 50,
+    "expressionCount": 43,
+    "priorityCount": 19,
+    "removedExpressionCount": 7,
+    "unansweredPublishedQuestions": 0,
+    "pendingVariants": [
+      "Shoes-鞋子",
+      "Tiredness-疲惫",
+      "Name-姓名"
+    ],
+    "selection": "按大陆地区与三个指定分类精确筛选，逐页重新抓取原文；删除没有范围内证据的条目及变体，保持精简清单。"
+  },
+  "curatedAt": "2026-09-08"
 };

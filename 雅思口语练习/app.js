@@ -12,7 +12,11 @@ const PART2_MATERIAL_ORDER = [
 const state = {
   page: PAGES.has(location.hash.slice(1)) ? location.hash.slice(1) : "part2",
   data: {},
+  part1View: "questions",
   part1Query: "",
+  part1ExpressionQuery: "",
+  part1ExpressionGroup: "all",
+  part1ExpressionPriority: false,
   part2MaterialId: "people-tips",
   part2TopicId: "",
   part3View: "list",
@@ -144,8 +148,8 @@ function p3Override(groupId, question) {
 
 function partThreeAnswerHtml(item, groupId) {
   const override = p3Override(groupId, item.question);
-  // 只要覆盖表里有这道题，就一律渲染中文 PREC 版，不管 data.js 原答案是中文还是英文。
-  // 新题组的英文原答案在 7 分上下，对 5.5 考生没用，所以不渲染（字段仍留在 data.js 里）。
+  // 已有题目的覆盖表继续使用中文 PREC 版。
+  // 没有覆盖项的新题在下方显示按 5.5 分目标准备的中英答案。
   if (override || item.answerLanguage === "zh") {
     const answerText = (override && override.a) || item.translation?.answer || "";
     const phrases = override && override.p?.length ? override.p : (item.chunkPhrases?.length ? item.chunkPhrases : []);
@@ -168,7 +172,11 @@ function partThreeAnswerHtml(item, groupId) {
     return `<div class="answer chinese-only-answer">${angleTag}<strong>中文答案：</strong><p class="plain-chinese-answer">${answerWithHints}</p>${chunks}</div>`;
   }
   if (item.answer) {
-    return `<div class="answer">${highlight(item.answer, partThreeHighlightPhrases(item))}</div>${item.translation?.answer ? `<p class="translation"><strong>翻译：</strong>${escapeHtml(item.translation.answer)}</p>` : ""}`;
+    const phrases = [...partThreeHighlightPhrases(item), ...(item.chunkPhrases || [])];
+    const materialTags = item.materials?.length
+      ? `<div class="chip-row">${item.materials.map((code) => `<span class="chip">${escapeHtml(toolkitMaterialLabel(code))}</span>`).join("")}</div>`
+      : "";
+    return `${materialTags}<div class="answer" lang="en">${highlight(item.answer, phrases)}</div>${item.translation?.answer ? `<p class="translation"><strong>翻译：</strong>${escapeHtml(item.translation.answer)}</p>` : ""}`;
   }
   return '<div class="note">这道题的答案暂时留空。</div>';
 }
@@ -179,6 +187,10 @@ function loadUiState() {
     if (!saved || typeof saved !== "object") return;
     if (!PAGES.has(location.hash.slice(1)) && PAGES.has(saved.page)) state.page = saved.page;
     if (typeof saved.part1Query === "string") state.part1Query = saved.part1Query;
+    state.part1View = saved.part1View === "expressions" ? "expressions" : "questions";
+    if (typeof saved.part1ExpressionQuery === "string") state.part1ExpressionQuery = saved.part1ExpressionQuery;
+    if (state.data.part1Expressions?.groups.some((group) => group.id === saved.part1ExpressionGroup)) state.part1ExpressionGroup = saved.part1ExpressionGroup;
+    state.part1ExpressionPriority = saved.part1ExpressionPriority === true;
     if (typeof saved.part2MaterialId === "string") state.part2MaterialId = saved.part2MaterialId;
     if (typeof saved.part2TopicId === "string") state.part2TopicId = saved.part2TopicId;
     state.part3View = saved.part3View === "library" ? "library" : "list";
@@ -193,6 +205,10 @@ function persistUiState() {
     localStorage.setItem(UI_STORAGE_KEY, JSON.stringify({
       page: state.page,
       part1Query: state.part1Query,
+      part1View: state.part1View,
+      part1ExpressionQuery: state.part1ExpressionQuery,
+      part1ExpressionGroup: state.part1ExpressionGroup,
+      part1ExpressionPriority: state.part1ExpressionPriority,
       part2MaterialId: state.part2MaterialId,
       part2TopicId: state.part2TopicId,
       part3View: state.part3View,
@@ -204,6 +220,7 @@ function persistUiState() {
 }
 
 function currentViewKey() {
+  if (state.page === "part1" && state.part1View === "expressions") return `part1:expressions:${state.part1ExpressionGroup}:${state.part1ExpressionPriority}:${encodeURIComponent(state.part1ExpressionQuery)}`;
   if (state.page === "part1") return `part1:${encodeURIComponent(state.part1Query)}`;
   if (state.page === "part2") return `part2:${state.part2MaterialId}:${state.part2TopicId}`;
   if (state.page === "part3") return `part3:${state.part3View}`;
@@ -212,7 +229,7 @@ function currentViewKey() {
 
 function markReadingAnchors() {
   main.querySelectorAll(".group-section, .card, .answer-line, .dimension, .essay-paragraph").forEach((element, index) => {
-    element.dataset.readingAnchor = `item-${index}`;
+    element.dataset.readingAnchor = element.dataset.expressionId || `item-${index}`;
   });
 }
 
@@ -370,7 +387,103 @@ function setPage(page, { saveCurrent = true } = {}) {
   restoreReadingPosition(0);
 }
 
+function partOneViewTabsHtml() {
+  const questionCount = state.data.part1.reduce((sum, group) => sum + group.items.length, 0);
+  const expressionCount = (state.data.part1Expressions?.groups || []).reduce((sum, group) => sum + group.items.length, 0);
+  return `<div class="part1-view-tabs" role="tablist" aria-label="Part 1 查看方式">
+    ${[["questions", "本季题目与答案", questionCount], ["expressions", "通用句式与短语", expressionCount]].map(([view, label, count]) => `<button id="part1-tab-${view}" class="part1-view-tab ${state.part1View === view ? "active" : ""}" type="button" role="tab" aria-selected="${state.part1View === view}" aria-controls="part1-view-panel" tabindex="${state.part1View === view ? 0 : -1}" data-part1-view="${view}">${label} <span>${count}</span></button>`).join("")}
+  </div>`;
+}
+
+function bindPartOneTabs() {
+  function selectTab(view) {
+    if (view === state.part1View) return;
+    saveReadingPosition();
+    state.part1View = view;
+    render();
+    restoreReadingPosition(0);
+    document.querySelector(`#part1-tab-${view}`).focus({ preventScroll: true });
+  }
+  main.querySelectorAll("[data-part1-view]").forEach((button) => {
+    button.addEventListener("click", () => selectTab(button.dataset.part1View));
+    button.addEventListener("keydown", (event) => {
+      if (!["ArrowLeft", "ArrowRight", "Home", "End"].includes(event.key)) return;
+      event.preventDefault();
+      const view = event.key === "Home" ? "questions" : event.key === "End" ? "expressions" : state.part1View === "questions" ? "expressions" : "questions";
+      selectTab(view);
+    });
+  });
+}
+
+function partOneExpressionGroups() {
+  const library = state.data.part1Expressions;
+  const query = state.part1ExpressionQuery.trim().toLowerCase().replace(/[’‘]/g, "'");
+  return library.groups.filter((group) => state.part1ExpressionGroup === "all" || group.id === state.part1ExpressionGroup)
+    .map((group) => ({ ...group, items: group.items.filter((item) => {
+      if (state.part1ExpressionPriority && !item.priority) return false;
+      const searchable = [group.title, item.en, item.zh, item.usage].join(" ").toLowerCase().replace(/[’‘]/g, "'");
+      return searchable.includes(query);
+    }) })).filter((group) => group.items.length);
+}
+
+function partOneExpressionGroupsHtml(groups) {
+  if (!groups.length) return '<div class="empty-state"><p>没有找到匹配的表达。试试其他关键词，或清除筛选。</p></div>';
+  return groups.map((group) => `<section class="group-section p1-expression-group">
+    <div class="group-title"><h2>${escapeHtml(group.title)}</h2><span class="count">${group.items.length} 条</span></div>
+    <div class="p1-expression-grid">${group.items.map((item) => `<article class="card p1-expression-card" data-expression-id="${escapeHtml(item.id)}">
+      <div class="p1-expression-heading"><span class="p1-expression-number">${escapeHtml(String(item.number).padStart(2, "0"))}</span><h3 lang="en">${escapeHtml(item.en)}</h3>${item.priority ? '<span class="p1-expression-star" aria-label="优先练">★</span>' : ""}</div>
+      <p class="p1-expression-meaning">${escapeHtml(item.zh)}</p>
+      <p class="p1-expression-usage">${escapeHtml(item.usage)}</p>
+    </article>`).join("")}</div>
+  </section>`).join("");
+}
+
+function renderPartOneExpressions() {
+  const library = state.data.part1Expressions;
+  main.innerHTML = `${partOneViewTabsHtml()}<section id="part1-view-panel" role="tabpanel" aria-labelledby="part1-tab-expressions">
+    ${library ? `<header class="p1-expression-intro"><h1>${escapeHtml(library.title)}</h1><p>${escapeHtml(library.intro)}</p></header>
+    <div class="toolbar p1-expression-toolbar"><label class="search"><span aria-hidden="true">⌕</span><input id="part1-expression-search" type="search" aria-label="搜索通用表达" value="${escapeHtml(state.part1ExpressionQuery)}" placeholder="搜英文、中文或用法…" autocomplete="off"></label><div class="p1-expression-actions"><button type="button" class="chip" id="part1-expression-priority" aria-pressed="${state.part1ExpressionPriority}">只看 ★ 优先练</button><button type="button" class="chip" id="part1-expression-clear">清除筛选</button><span class="count" id="part1-expression-count" role="status" aria-live="polite"></span></div></div>
+    <div class="chip-row p1-expression-filters" role="group" aria-label="表达用途"><button type="button" class="chip" data-expression-group="all">全部用途</button>${library.groups.map((group) => `<button type="button" class="chip" data-expression-group="${escapeHtml(group.id)}">${escapeHtml(group.title)}</button>`).join("")}</div>
+    <div id="part1-expression-results"></div>` : '<p class="empty-state">通用表达素材暂未载入。</p>'}
+  </section>`;
+  if (!library) return;
+  function updateResults() {
+    const groups = partOneExpressionGroups();
+    document.querySelector("#part1-expression-results").innerHTML = partOneExpressionGroupsHtml(groups);
+    document.querySelector("#part1-expression-count").textContent = `显示 ${groups.reduce((sum, group) => sum + group.items.length, 0)} 条`;
+    document.querySelector("#part1-expression-priority").setAttribute("aria-pressed", String(state.part1ExpressionPriority));
+    main.querySelectorAll("[data-expression-group]").forEach((button) => {
+      const active = button.dataset.expressionGroup === state.part1ExpressionGroup;
+      button.classList.toggle("active", active);
+      button.setAttribute("aria-pressed", String(active));
+    });
+    markReadingAnchors();
+  }
+  function changeFilter(update) {
+    saveReadingPosition();
+    update();
+    updateResults();
+    persistUiState();
+    restoreReadingPosition(0);
+  }
+  document.querySelector("#part1-expression-search").addEventListener("input", (event) => changeFilter(() => { state.part1ExpressionQuery = event.target.value; }));
+  document.querySelector("#part1-expression-priority").addEventListener("click", () => changeFilter(() => { state.part1ExpressionPriority = !state.part1ExpressionPriority; }));
+  document.querySelector("#part1-expression-clear").addEventListener("click", () => changeFilter(() => {
+    state.part1ExpressionQuery = "";
+    state.part1ExpressionGroup = "all";
+    state.part1ExpressionPriority = false;
+    document.querySelector("#part1-expression-search").value = "";
+  }));
+  main.querySelectorAll("[data-expression-group]").forEach((button) => button.addEventListener("click", () => changeFilter(() => { state.part1ExpressionGroup = button.dataset.expressionGroup; })));
+  updateResults();
+}
+
 function renderPartOne() {
+  if (state.part1View === "expressions") {
+    renderPartOneExpressions();
+    bindPartOneTabs();
+    return;
+  }
   const groups = [...state.data.part1].sort(compareQuestionBankEntries);
   const query = state.part1Query.trim().toLowerCase();
   const visibleGroups = groups
@@ -378,12 +491,16 @@ function renderPartOne() {
     .filter((group) => group.items.length);
   const visibleTotal = visibleGroups.reduce((sum, group) => sum + group.items.length, 0);
   main.innerHTML = `
+    ${partOneViewTabsHtml()}
+    <section id="part1-view-panel" role="tabpanel" aria-labelledby="part1-tab-questions">
     <div class="toolbar">
       <label class="search"><span aria-hidden="true">⌕</span><input id="part1-search" type="search" value="${escapeHtml(state.part1Query)}" placeholder="搜索题目、答案或中文…" autocomplete="off"></label>
       <span class="count" id="part1-count">显示 ${visibleTotal} 题</span>
     </div>
     <p class="note">参考答案按 5.5 分目标准备：先直接回答，再补原因或细节，建议说 2–3 句。个人经历和时长请按实际情况调整。</p>
-    <div id="part1-results">${visibleGroups.length ? partOneGroupsHtml(visibleGroups) : '<div class="empty-state">没有找到匹配的题目。</div>'}</div>`;
+    <div id="part1-results">${visibleGroups.length ? partOneGroupsHtml(visibleGroups) : '<div class="empty-state">没有找到匹配的题目。</div>'}</div>
+    </section>`;
+  bindPartOneTabs();
   document.querySelector("#part1-search").addEventListener("input", (event) => {
     state.part1Query = event.target.value;
     const query = state.part1Query.trim().toLowerCase();
@@ -586,7 +703,7 @@ function partTwoTipsHtml(tips, universalMaterials = []) {
   const topicGroupsHtml = storyCards.length ? `
     <div class="section-heading">
       <h2>素材卡片</h2>
-      <p>一张卡只背一条故事。先看可套题目和对应特殊点，再从理由库选择最贴题的 3 条，不需要全部讲。</p>
+      <p>一张卡只背一条故事。先覆盖题卡信息；有理由库时，再选择最贴题的理由，不需要全部讲。</p>
     </div>
     <div class="topic-guide-groups">
       ${storyCards.map(({ title, questions, item, merged }) => `<article class="card topic-guide-group story-material-card">
@@ -755,7 +872,7 @@ function partThreeLibraryHtml(groups) {
     const rows = group.items.map((item) => {
       const override = p3Override(group.id, item.question);
       const answer = (override && override.a) || item.translation?.answer || "";
-      const { reasonCn, reasonEn, exCn, exEn } = override?.reasonExample || p3ReasonExample(answer);
+      const { reasonCn, reasonEn, exCn, exEn } = override?.reasonExample || item.reasonExample || p3ReasonExample(answer);
       if (!reasonCn && !exCn) return "";
       return `<div class="p3-lib-qrow">
         <p class="p3-lib-q">${escapeHtml(item.question)}</p>
@@ -819,7 +936,7 @@ function renderPartThree() {
     ...group,
     items: group.items.filter((item) => {
       const override = p3Override(group.id, item.question);
-      const parts = override?.reasonExample || p3ReasonExample(override?.a || item.translation?.answer || "");
+      const parts = override?.reasonExample || item.reasonExample || p3ReasonExample(override?.a || item.translation?.answer || "");
       return parts.reasonCn || parts.exCn;
     })
   })).filter((group) => group.items.length);
