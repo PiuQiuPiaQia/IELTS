@@ -497,7 +497,7 @@ function renderPartOne() {
       <label class="search"><span aria-hidden="true">⌕</span><input id="part1-search" type="search" value="${escapeHtml(state.part1Query)}" placeholder="搜索题目、答案或中文…" autocomplete="off"></label>
       <span class="count" id="part1-count">显示 ${visibleTotal} 题</span>
     </div>
-    <p class="note">参考答案按 5.5 分目标准备：先直接回答，再补原因或细节，建议说 2–3 句。个人经历和时长请按实际情况调整。</p>
+    <p class="note">答案优先复用「通用句式与短语」里的熟悉表达：先直接回答，再补原因或细节。绿色记忆块按答案顺序串起复述骨架，练习时把它们说成完整句子。个人经历和时长请按实际情况调整。</p>
     <div id="part1-results">${visibleGroups.length ? partOneGroupsHtml(visibleGroups) : '<div class="empty-state">没有找到匹配的题目。</div>'}</div>
     </section>`;
   bindPartOneTabs();
@@ -518,6 +518,7 @@ function renderPartOne() {
 }
 
 function partOneGroupsHtml(groups) {
+  // 每题单独选取能串起答案主线的记忆块，不使用整组词表或自动词语匹配补充高亮。
   return groups.map((group) => `
     <section class="group-section">
       <div class="group-title"><div><span class="eyebrow">${escapeHtml(group.tab)}</span><h2>${escapeHtml(group.title)}${questionStatusTag(group)}</h2></div><span class="badge">${group.items.length} 题</span></div>
@@ -526,7 +527,7 @@ function partOneGroupsHtml(groups) {
           <article class="card">
             <span class="badge warm">${String(index + 1).padStart(2, "0")}</span>
             <p class="question">${escapeHtml(item.question)}</p>
-            <div class="answer">${highlight(item.answer, group.keyPhrases)}</div>
+            <div class="answer">${highlight(item.answer, item.memoryChunks)}</div>
             ${item.translation ? `<p class="translation">中文：${escapeHtml(item.translation)}</p>` : ""}
             ${item.note ? `<p class="note">提示：${escapeHtml(item.note)}</p>` : ""}
           </article>`).join("")}

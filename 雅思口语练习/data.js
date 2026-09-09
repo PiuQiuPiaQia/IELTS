@@ -14,60 +14,92 @@ window.IELTS_DATA = {
       "items": [
         {
           "question": "Do you have a friend you have known for a long time?",
-          "answer": "Yes, I have a friend from secondary school. We still keep in touch. We don't see each other very often, but sometimes we play computer games or badminton together.",
-          "translation": "有，我有一位中学时认识的朋友。我们现在仍保持联系。我们见面不是很频繁，但有时会一起玩电脑游戏或打羽毛球。"
+          "answer": "Yes, I have a friend from secondary school. We still keep in touch with each other. Once in a while, we play computer games or badminton together.",
+          "memoryChunks": [
+            "friend from secondary school",
+            "keep in touch with each other",
+            "computer games or badminton"
+          ],
+          "translation": "有，我有一位中学时认识的朋友。我们仍然保持联系，偶尔会一起玩电脑游戏或打羽毛球。"
         },
         {
           "question": "Do you often go out with your friends?",
           "answer": "Not really. We're pretty busy now, so we don't go out very often. Sometimes we just have a meal on weekends, which is a nice chance to relax.",
+          "memoryChunks": [
+            "pretty busy now",
+            "don't go out very often",
+            "have a meal on weekends"
+          ],
           "translation": "不太经常。我们现在都很忙，所以不怎么出去。周末我们有时只是一起吃顿饭，这是一个不错的放松机会。"
         },
         {
           "question": "Do you prefer to spend time with one friend or with a group of friends?",
-          "answer": "I do prefer spending time with one friend because it's easier to have a proper conversation. We also don't need to spend much time finding a time and place that suits a large group.",
-          "translation": "我确实更喜欢和一个朋友一起相处，因为这样更容易好好聊天。我们也不需要花太多时间去找适合一大群人的时间和地点。"
+          "answer": "I prefer spending time with one friend because it's easier to have a proper conversation. We can also choose a time and place more easily.",
+          "memoryChunks": [
+            "spending time with one friend",
+            "have a proper conversation"
+          ],
+          "translation": "我更喜欢和一个朋友相处，因为这样更容易好好聊天。我们也更容易选好见面的时间和地点。"
         },
         {
           "question": "How important are friends to you?",
-          "answer": "Friends are very important to me because I can share both good news and bad news with them. Even a short conversation with a close friend can make a difficult day feel much better.",
-          "translation": "朋友对我很重要，因为我可以和他们分享好消息和坏消息。即使只是和好朋友简单聊几句，也能让难熬的一天好过很多。"
+          "answer": "I'd say friends are very important to me. I can share both good news and bad news with them. It helps me feel better after a difficult day.",
+          "memoryChunks": [
+            "friends are very important",
+            "share both good news and bad news",
+            "helps me feel better"
+          ],
+          "translation": "我觉得朋友对我很重要。我可以和他们分享好消息和坏消息，这能让我在难熬的一天之后感觉好一些。"
         },
         {
           "question": "Is there a difference between where you meet friends now and where you used to meet them in the past?",
-          "answer": "Yes, definitely. When I was a student, we always met at school. Now we usually meet in a restaurant or a quiet cafe because we work in different places.",
-          "translation": "当然有区别。学生时期，我们总是在学校见面。现在我们通常在餐厅或安静的咖啡馆见面，因为我们在不同的地方工作。"
+          "answer": "I used to meet my friends at school. Now we usually meet in a restaurant or a quiet cafe because we work in different places.",
+          "memoryChunks": [
+            "at school",
+            "a restaurant or a quiet cafe",
+            "work in different places"
+          ],
+          "translation": "我过去常在学校见朋友。现在我们通常在餐厅或安静的咖啡馆见面，因为我们在不同的地方工作。"
         },
         {
           "question": "What do you usually do with your friends?",
           "answer": "We usually have a meal and talk about what's happening in our lives. Sometimes we go for a walk afterwards, so we can spend more time together without spending much money.",
+          "memoryChunks": [
+            "have a meal and talk",
+            "go for a walk afterwards",
+            "without spending much money"
+          ],
           "translation": "我们通常一起吃饭，聊聊生活中最近发生的事。有时饭后还会散步，这样不用花很多钱，也能多相处一会儿。"
         },
         {
           "question": "Where do you often meet each other?",
-          "answer": "We often meet at a restaurant near a subway station. It's easy for everyone to get there, and we can sit down and have a meal.",
-          "translation": "我们经常在地铁站附近的餐厅见面。大家都很容易到那里，我们也可以坐下来一起吃顿饭。"
+          "answer": "We usually meet at a restaurant close to a subway station. It's convenient for me to get there, and we can have a meal together.",
+          "memoryChunks": [
+            "close to a subway station",
+            "convenient for me to get there"
+          ],
+          "translation": "我们通常在地铁站附近的餐厅见面。我过去很方便，还能和朋友一起吃顿饭。"
         },
         {
           "question": "Why are some places suitable for meeting while others are not?",
-          "answer": "I think a good meeting place should be easy to reach and not too noisy. A quiet cafe works well, but a crowded bar can make it difficult to hear each other.",
-          "translation": "我觉得适合见面的地方应该交通方便，而且不能太吵。安静的咖啡馆就很好，但拥挤的酒吧可能让人听不清对方说话。"
+          "answer": "I'd say a good meeting place should be easy to reach and not too noisy. For instance, a quiet cafe is better for chatting than a crowded bar.",
+          "memoryChunks": [
+            "easy to reach",
+            "not too noisy",
+            "a quiet cafe is better for chatting"
+          ],
+          "translation": "我觉得适合见面的地方应该交通方便，而且不能太吵。比如，比起拥挤的酒吧，安静的咖啡馆更适合聊天。"
         },
         {
           "question": "Would you invite friends to your home?",
-          "answer": "Yes, definitely. If we have free time, I'd be happy to invite close friends to my home. We can order some snacks and watch a film together. It's a good chance to relax.",
-          "translation": "当然会。如果我们有空，我很乐意邀请好朋友来我家。我们可以点一些零食，一起看部电影。这是一个不错的放松机会。"
+          "answer": "Yes, I'd love to invite close friends to my home. We could order some snacks and watch a film together. It's a great way to relax.",
+          "memoryChunks": [
+            "invite close friends",
+            "snacks and watch a film",
+            "a great way to relax"
+          ],
+          "translation": "会，我很愿意邀请好朋友来家里。我们可以点些零食，一起看部电影，这是很好的放松方式。"
         }
-      ],
-      "keyPhrases": [
-        "keep in touch",
-        "play badminton or computer games together",
-        "have a proper conversation",
-        "share both good news and bad news",
-        "work in different places",
-        "go for a walk afterwards",
-        "sit down and have a meal",
-        "easy to reach",
-        "feel relaxed and comfortable"
       ],
       "sourceOrder": 1
     },
@@ -80,30 +112,43 @@ window.IELTS_DATA = {
       "items": [
         {
           "question": "Do you often feel bored?",
-          "answer": "Not very often, because work and English practice keep me busy. However, I sometimes feel bored when I have to wait for something and there's nothing useful to do.",
-          "translation": "不太经常，因为工作和英语练习让我很忙。不过，需要等事情、又没什么有用的事可做时，我有时会觉得无聊。"
+          "answer": "Not very often. Most of the time, work and English practice keep me busy. I sometimes feel bored when I'm waiting and have nothing to do.",
+          "memoryChunks": [
+            "work and English practice",
+            "keep me busy",
+            "waiting and have nothing to do"
+          ],
+          "translation": "不太经常。大多数时候，工作和英语练习让我很忙。有时等事情、又没什么可做时，我会觉得无聊。"
         },
         {
           "question": "Do you think childhood is boring or adulthood is boring?",
-          "answer": "For me, adult life can be more boring because I follow a similar routine every day. As a child, I had more time to play, and many ordinary things felt new and exciting.",
-          "translation": "对我来说，成年生活可能更无聊，因为每天的安排都差不多。小时候我有更多时间玩，许多普通的事情也会让我觉得新鲜、有趣。"
+          "answer": "I'd say adult life can be more boring because I follow a similar routine every day. When I was a kid, I had more time to play and try new things.",
+          "memoryChunks": [
+            "adult life can be more boring",
+            "a similar routine",
+            "more time to play"
+          ],
+          "translation": "我觉得成年生活可能更无聊，因为每天的安排都差不多。小时候，我有更多时间玩，也能尝试新鲜事物。"
         },
         {
           "question": "What do you do when you feel bored?",
-          "answer": "I usually take a short walk or listen to some music. If I stay on my phone for too long, I often feel even more bored, so a change of activity helps.",
-          "translation": "我通常会短暂散步，或者听听音乐。如果一直玩手机，我往往反而更无聊，所以换一件事做会有帮助。"
+          "answer": "I usually take a short walk or listen to music. It's a great way to pass the time. Staying on my phone for too long often makes me feel worse.",
+          "memoryChunks": [
+            "take a short walk",
+            "listen to music",
+            "pass the time"
+          ],
+          "translation": "我通常会短暂散步，或者听听音乐。这是很好的打发时间的方式。一直玩手机反而常让我感觉更糟。"
         },
         {
           "question": "When would you feel bored?",
-          "answer": "I tend to feel bored when a meeting goes on for a long time without a clear purpose. It's especially difficult when the discussion has little to do with my work.",
-          "translation": "会议开了很久却没有明确目的时，我容易感到无聊。尤其当讨论的内容和我的工作没什么关系时，就更难保持兴趣。"
+          "answer": "I feel bored when a meeting has no clear purpose. I find it hard to stay focused, especially when the discussion has little to do with my work.",
+          "memoryChunks": [
+            "a meeting has no clear purpose",
+            "hard to stay focused"
+          ],
+          "translation": "会议没有明确目的时，我会觉得无聊。我很难保持专注，尤其是讨论内容和我的工作没什么关系的时候。"
         }
-      ],
-      "keyPhrases": [
-        "keep me busy",
-        "follow a similar routine",
-        "a change of activity",
-        "a clear purpose"
       ],
       "sourceOrder": 2
     },
@@ -116,31 +161,43 @@ window.IELTS_DATA = {
       "items": [
         {
           "question": "Is it easy to remember people's names?",
-          "answer": "Not really. I sometimes find it difficult, especially when I meet several new people at once. I usually need to hear a name two or three times before I remember it.",
-          "translation": "不太容易。有时我会觉得记名字很难，尤其是一次见到好几个新人的时候。通常一个名字需要听两三遍，我才能记住。"
+          "answer": "Not really, to be honest. I find it difficult to remember several new names at once. I usually need to hear a name two or three times.",
+          "memoryChunks": [
+            "several new names at once",
+            "hear a name two or three times"
+          ],
+          "translation": "说实话，不太容易。我觉得一次记住好几个新名字很难，通常需要把一个名字听两三遍。"
         },
         {
           "question": "How do you remember people's names?",
-          "answer": "I usually repeat the person's name during our conversation. I may also save it with a short note on my phone. This helps me connect the name with the person and remember it more easily.",
-          "translation": "交谈时，我通常会重复对方的名字。我也可能在手机里把名字和一条简短备注保存下来。这样能让我把名字和本人联系起来，更容易记住。"
+          "answer": "I repeat the person's name during our conversation. I also make sure I save a short note on my phone. It helps me connect the name with the person.",
+          "memoryChunks": [
+            "repeat the person's name",
+            "save a short note",
+            "connect the name with the person"
+          ],
+          "translation": "交谈时，我会重复对方的名字。我也会确保在手机上留个简短备注，这样能把名字和本人联系起来。"
         },
         {
           "question": "How do you feel when people can't remember your name?",
-          "answer": "I do not mind too much, especially if we have only met once. I may feel a little awkward at first, but I will simply introduce myself again.",
-          "translation": "我不会太介意，特别是我们只见过一次的情况下。一开始我可能会觉得有点尴尬，但我会简单地再介绍一下自己。"
+          "answer": "I don't mind too much, especially if we've only met once. It makes me feel a bit awkward at first, but I just introduce myself again.",
+          "memoryChunks": [
+            "don't mind too much",
+            "a bit awkward",
+            "introduce myself again"
+          ],
+          "translation": "我不会太介意，特别是只见过一次的时候。一开始会有点尴尬，但我再介绍一下自己就好了。"
         },
         {
           "question": "Do you often forget people's names?",
-          "answer": "Yes, sometimes, especially after a large meeting with many new people. I usually remember faces more easily than names, so I try to make a short note afterwards.",
-          "translation": "有时会，尤其是在参加有很多新人的大型会议之后。相比名字，我通常更容易记住长相，所以之后会尽量做个简短记录。"
+          "answer": "Yes, especially after meeting quite a few new people. I remember faces more easily than names. That's why I try to make a short note afterwards.",
+          "memoryChunks": [
+            "quite a few new people",
+            "remember faces more easily than names",
+            "a short note"
+          ],
+          "translation": "会，特别是见过很多新人之后。相比名字，我更容易记住长相，所以事后我会尽量做个简短记录。"
         }
-      ],
-      "keyPhrases": [
-        "several new people at once",
-        "repeat the person's name",
-        "a short note on my phone",
-        "introduce myself again",
-        "remember faces more easily than names"
       ],
       "sourceOrder": 3
     },
@@ -153,31 +210,44 @@ window.IELTS_DATA = {
       "items": [
         {
           "question": "Do you remember your first day at secondary school?",
-          "answer": "Not really. It was a long time ago, so I cannot remember it very clearly. I only remember feeling a little nervous because everything was new to me.",
-          "translation": "不太记得了。那已经是很久以前的事了，所以我记得不太清楚。我只记得当时有点紧张，因为一切对我来说都很陌生。"
+          "answer": "Not really, to be honest. It was a long time ago. I only remember feeling a bit nervous because everything was new to me.",
+          "memoryChunks": [
+            "a long time ago",
+            "feeling a bit nervous",
+            "everything was new to me"
+          ],
+          "translation": "说实话，不太记得了。那已经是很久以前的事。我只记得当时有点紧张，因为一切都很陌生。"
         },
         {
           "question": "Were there any subjects that you found difficult at secondary school?",
-          "answer": "Yes. I would say physics was probably my weakest subject because I found the concepts difficult to understand. I also had trouble remembering formulas about force and motion.",
-          "translation": "有。我觉得物理可能是我最弱的科目，因为我觉得里面的概念很难理解。我也不太容易记住和力与运动有关的公式。"
+          "answer": "I'd say physics was my weakest subject. I found the ideas difficult to understand, especially formulas about force and motion.",
+          "memoryChunks": [
+            "physics was my weakest subject",
+            "difficult to understand",
+            "force and motion"
+          ],
+          "translation": "我觉得物理是我最弱的科目。我觉得那些概念很难理解，尤其是和力、运动有关的公式。"
         },
         {
           "question": "What was your favorite subject at secondary school?",
-          "answer": "My favourite subject was computer science because I was curious about how programs worked. It also encouraged me to become a software engineer and solve problems with code.",
-          "translation": "我最喜欢的科目是计算机科学，因为我很好奇程序是如何运行的。它后来鼓励我成为软件工程师，并用代码解决问题。"
+          "answer": "I was really into computer science because I wanted to know how programs worked. That's why I later became a software engineer.",
+          "memoryChunks": [
+            "really into computer science",
+            "how programs worked",
+            "became a software engineer"
+          ],
+          "translation": "我当时很喜欢计算机科学，因为我想知道程序是怎么运行的。所以我后来成为了软件工程师。"
         },
         {
           "question": "Is there anything you miss about your secondary school?",
-          "answer": "I mostly miss the time I spent at school with my classmates. We studied and played sports together, and life was simpler because we didn't have many responsibilities.",
-          "translation": "我最怀念的是在学校和同学们一起度过的时光。我们一起学习、一起运动，那时没有太多责任，生活也更简单。"
+          "answer": "I miss spending time with my classmates. When I was a kid, we studied and played sports together. Life was simpler because we had fewer responsibilities.",
+          "memoryChunks": [
+            "spending time with my classmates",
+            "studied and played sports together",
+            "had fewer responsibilities"
+          ],
+          "translation": "我怀念和同学相处的时光。小时候，我们一起学习、一起运动。那时责任少，生活也更简单。"
         }
-      ],
-      "keyPhrases": [
-        "my weakest subject",
-        "formulas about force and motion",
-        "curious about how programs worked",
-        "solve problems with code",
-        "did not have many responsibilities"
       ],
       "sourceOrder": 4
     },
@@ -190,38 +260,53 @@ window.IELTS_DATA = {
       "items": [
         {
           "question": "How often do you eat fruit and vegetables?",
-          "answer": "I eat fruit and vegetables almost every day. They are good for my health, so I usually have some vegetables with dinner and eat fruit after a meal.",
-          "translation": "我几乎每天都吃水果和蔬菜。它们对健康有益，所以晚餐时我通常会吃些蔬菜，饭后也会吃水果。"
+          "answer": "I eat fruit and vegetables almost every day. For instance, I have vegetables with dinner and fruit after a meal. It helps me keep a healthy diet.",
+          "memoryChunks": [
+            "almost every day",
+            "vegetables with dinner",
+            "fruit after a meal",
+            "keep a healthy diet"
+          ],
+          "translation": "我几乎每天都吃水果和蔬菜。比如，晚饭配些蔬菜，饭后吃点水果，这能帮助我保持健康饮食。"
         },
         {
           "question": "Where do you usually buy fruit and vegetables?",
-          "answer": "I usually buy them from a supermarket near my home. It is convenient, and there are many different kinds of fresh fruit and vegetables to choose from.",
-          "translation": "我通常在家附近的超市购买。那里很方便，而且有许多不同种类的新鲜水果和蔬菜可供选择。"
+          "answer": "I buy them from a supermarket close to my home. There are plenty of fresh options, so it's easy to get what I need.",
+          "memoryChunks": [
+            "close to my home",
+            "plenty of fresh options"
+          ],
+          "translation": "我在家附近的超市买。新鲜的选择很多，所以很容易买到需要的东西。"
         },
         {
           "question": "What kind of fruits and vegetables do you dislike?",
-          "answer": "I do not really like durian or bitter melon because they have very strong tastes. However, I may eat a little if they are good for my health.",
-          "translation": "我不太喜欢榴莲和苦瓜，因为它们的味道很重。不过，如果它们对健康有好处，我也可能会吃一点。"
+          "answer": "I'm not really into bitter melon because the taste is too strong for me. I may eat a little, but I wouldn't choose it myself.",
+          "memoryChunks": [
+            "not really into bitter melon",
+            "taste is too strong",
+            "wouldn't choose it myself"
+          ],
+          "translation": "我不太喜欢苦瓜，因为它的味道对我来说太重。我可能会吃一点，但不会主动选它。"
         },
         {
           "question": "Were there any kinds of fruits and vegetables you disliked as a child?",
-          "answer": "Yes, I disliked carrots when I was a child because I did not like their taste. My parents often asked me to eat them, and now I do not mind them as much.",
-          "translation": "有，小时候我不喜欢胡萝卜，因为不喜欢它的味道。父母经常让我吃，现在我已经没有那么介意了。"
+          "answer": "Yes, I used to hate carrots because of the taste. My parents always asked me to eat them, but now I don't mind them.",
+          "memoryChunks": [
+            "used to hate carrots",
+            "now I don't mind them"
+          ],
+          "translation": "有，我小时候因为胡萝卜的味道而很讨厌它们。父母总是让我吃，但现在我已经不介意了。"
         },
         {
           "question": "Do people in your country like planting vegetables?",
-          "answer": "Yes, quite a few people do, especially those with a garden. My grandma grows tomatoes and other vegetables, and she enjoys sharing them with our family. It gives her something relaxing to do every day.",
-          "translation": "是的，不少人喜欢，尤其是家里有花园的人。我奶奶会种番茄和其他蔬菜，也喜欢把它们分给家人。这让她每天都有一件可以放松心情的事情做。"
+          "answer": "Yes, quite a few people do, especially those who have a small garden. My grandma has a small garden where she grows tomatoes and other vegetables. She enjoys sharing them with our family.",
+          "memoryChunks": [
+            "have a small garden",
+            "grows tomatoes",
+            "sharing them with our family"
+          ],
+          "translation": "是的，不少人喜欢种菜，尤其是那些有小花园的人。我奶奶有一个小花园，她在里面种番茄和其他蔬菜。她喜欢把这些蔬菜分给我们家人。"
         }
-      ],
-      "keyPhrases": [
-        "almost every day",
-        "good for my health",
-        "near my home",
-        "strong tastes",
-        "do not mind them as much",
-        "grows tomatoes and other vegetables",
-        "sharing them with our family"
       ],
       "sourceOrder": 5
     },
@@ -234,36 +319,53 @@ window.IELTS_DATA = {
       "items": [
         {
           "question": "Have you made any crafts with paper?",
-          "answer": "Yes, I have. When I was a child, I made paper planes and simple paper animals in class. It was fun and helped me spend time with my classmates.",
-          "translation": "做过。小时候我在课堂上做过纸飞机和简单的纸动物。这很有趣，也让我有机会和同学们一起度过时间。"
+          "answer": "Yes, I have, but mostly when I was a child. I used to fold simple things such as paper planes. I can remember competing with my classmates to see whose plane flew the farthest.",
+          "memoryChunks": [
+            "when I was a child",
+            "paper planes",
+            "competing with my classmates"
+          ],
+          "translation": "做过，但主要是在我小时候。我过去会折一些简单的东西，比如纸飞机。我还记得曾和同学比赛，看谁的飞机飞得最远。"
         },
         {
           "question": "Do you still write physical letters?",
-          "answer": "No, not really. I usually send messages on my phone because it is faster and more convenient. I only write cards for special occasions.",
-          "translation": "不太写了。我通常用手机发消息，因为这样更快、更方便。只有在特殊场合我才会写卡片。"
+          "answer": "Not really, to be honest. I send messages on my phone instead because it's quicker. I only write cards for special occasions.",
+          "memoryChunks": [
+            "send messages on my phone",
+            "because it's quicker",
+            "special occasions"
+          ],
+          "translation": "说实话，现在不太写了。我会改用手机发消息，因为更快。只有在特别的场合才会写贺卡。"
         },
         {
           "question": "Do people still keep handwritten letters today?",
-          "answer": "Yes, some people do because handwritten letters feel personal and meaningful. They may keep them as special memories, especially when the letters are from family or close friends.",
-          "translation": "有些人仍然会保留，因为手写信让人觉得更私人、更有意义。特别是家人或亲密朋友写的信，人们可能会把它们当作特别的回忆保存下来。"
+          "answer": "Yes, I'd say some people still keep them. Letters can feel personal, especially those from family. It's a great way to keep special memories.",
+          "memoryChunks": [
+            "Letters can feel personal",
+            "those from family",
+            "keep special memories"
+          ],
+          "translation": "会，我觉得有些人仍会保留手写信。信让人觉得很亲切，尤其是家人写的信。这是保留特殊回忆的好方式。"
         },
         {
           "question": "Do you carry paper and pens with you when you go out?",
-          "answer": "I usually carry a pen, but I rarely take any paper with me. I normally write notes on my phone because it is more convenient and easy to carry.",
-          "translation": "我通常会带一支笔，但很少随身带纸。我一般在手机上记笔记，因为这样更方便，也便于携带。"
+          "answer": "Not really, to be honest. I write notes on my phone instead. It's easier to carry, and I don't need to look for a pen.",
+          "memoryChunks": [
+            "write notes on my phone instead",
+            "easier to carry"
+          ],
+          "translation": "说实话，不太会。我会改用手机记笔记。手机携带方便，也不用找笔。"
         },
         {
           "question": "What did you like to do with paper as a child?",
-          "answer": "I liked making paper planes when I was a child. My friends and I often flew them in the classroom and tried to see whose plane could travel the farthest.",
-          "translation": "小时候我喜欢折纸飞机。我和朋友们经常在教室里放飞它们，看看谁的飞机能飞得最远。"
+          "answer": "I used to fold simple things such as paper planes. I remember competing with my classmates to see whose plane flew the farthest.",
+          "memoryChunks": [
+            "paper planes",
+            "competing with my classmates",
+            "flew the farthest"
+          ],
+          "translation": "我小时候常常折一些简单的东西，比如纸飞机。我记得曾和同学们比赛，看谁的纸飞机飞得最远。"
         }
-      ],
-      "keyPhrases": [
-        "paper planes",
-        "faster and more convenient",
-        "personal and meaningful",
-        "write notes on my phone",
-        "travel the farthest"
       ],
       "sourceOrder": 6
     },
@@ -276,42 +378,64 @@ window.IELTS_DATA = {
       "items": [
         {
           "question": "Do you like advertisements?",
-          "answer": "Not really. Useful advertisements can help me learn about new products, but many of them are repetitive and distract me when I am using my phone.",
-          "translation": "不太喜欢。有用的广告能让我了解新产品，但很多广告内容重复，而且会在我使用手机时让我分心。"
+          "answer": "Not really, to be honest. Some ads help me learn about new products, but many are repetitive. I find it hard to stay focused when they keep appearing.",
+          "memoryChunks": [
+            "learn about new products",
+            "many are repetitive",
+            "hard to stay focused"
+          ],
+          "translation": "说实话，不太喜欢。有些广告能让我了解新产品，但很多都很重复。广告不停出现时，我很难保持专注。"
         },
         {
           "question": "Do you often see advertisements when you are on your phone or computer?",
-          "answer": "Yes, I see advertisements almost every time I use social media or visit a website. Some of them are useful, but too many ads can distract me from my work or study.",
-          "translation": "会，我几乎每次使用社交媒体或浏览网站时都会看到广告。有些广告很有用，但广告太多会让我在工作或学习时分心。"
+          "answer": "Yes, I see all kinds of ads on social media and websites. Some are useful, but too many make it difficult to stay focused on work or study.",
+          "memoryChunks": [
+            "all kinds of ads",
+            "social media and websites",
+            "difficult to stay focused"
+          ],
+          "translation": "会，我在社交媒体和网站上看到各种广告。有些有用，但太多广告会让人难以专注于工作或学习。"
         },
         {
           "question": "Do you see a lot of advertising on trains or other transport?",
-          "answer": "Yes, there are many advertisements on subways and buses. I often see ads for mobile apps, online shopping and local restaurants while I am travelling to work.",
-          "translation": "会，地铁和公交车上有很多广告。我上班途中经常看到手机应用、网购和本地餐厅的广告。"
+          "answer": "Yes, there are quite a few ads on subways and buses. For instance, I often see ads for mobile apps and online shopping on my way to work.",
+          "memoryChunks": [
+            "quite a few ads",
+            "on subways and buses",
+            "mobile apps and online shopping"
+          ],
+          "translation": "会，地铁和公交上有不少广告。比如，我上班路上经常看到手机应用和网购广告。"
         },
         {
           "question": "Is there an advertisement that made an impression on you when you were a child?",
-          "answer": "Yes, I remember a colourful advertisement for a soft drink. It had cheerful music and cartoon characters, so it was easy for children to remember.",
-          "translation": "有，我记得一则色彩鲜艳的饮料广告。它有欢快的音乐和卡通人物，所以孩子们很容易记住。"
+          "answer": "I remember seeing a colourful soft-drink ad when I was a kid. It had cheerful music and cartoon characters, so it was easy to remember.",
+          "memoryChunks": [
+            "remember seeing",
+            "soft-drink ad",
+            "cheerful music and cartoon characters"
+          ],
+          "translation": "我记得小时候看过一则色彩鲜艳的饮料广告。它有欢快的音乐和卡通角色，所以很容易记住。"
         },
         {
           "question": "What kind of advertising do you like?",
-          "answer": "I prefer short and practical advertisements that clearly explain a product. I also like ads with a little humour because they are more interesting and easier to remember.",
-          "translation": "我更喜欢简短、实用，并且能清楚介绍产品的广告。我也喜欢带一点幽默的广告，因为它们更有趣，也更容易记住。"
+          "answer": "I prefer short ads because they explain a product quickly. I'm also a big fan of ads with a little humour. They're easier to remember.",
+          "memoryChunks": [
+            "prefer short ads",
+            "explain a product quickly",
+            "a little humour"
+          ],
+          "translation": "我更喜欢短广告，因为它们能很快把产品讲清楚。我也很喜欢带点幽默的广告，比较容易记住。"
         },
         {
           "question": "Have you ever bought something because of an advertisement?",
-          "answer": "Yes, I once bought a pair of wireless earphones after seeing an online advert. I checked some reviews first, and they turned out to be useful for English listening practice.",
-          "translation": "买过。有一次我看了网上的广告后，买了一副无线耳机。我先查了一些评价，后来发现它们很适合用来练英语听力。"
+          "answer": "Yes, I remember buying wireless earphones after seeing an online ad. I made sure I checked some reviews first. They were useful for English listening practice.",
+          "memoryChunks": [
+            "buying wireless earphones",
+            "checked some reviews first",
+            "English listening practice"
+          ],
+          "translation": "买过。我记得看了一则网上广告后买了无线耳机。买之前我仔细看了些评价，后来发现它们很适合练英语听力。"
         }
-      ],
-      "keyPhrases": [
-        "distract me from my work or study",
-        "cheerful music and cartoon characters",
-        "while I am travelling to work",
-        "repetitive",
-        "short and practical advertisements",
-        "checked some reviews"
       ],
       "sourceOrder": 7
     },
@@ -324,31 +448,42 @@ window.IELTS_DATA = {
       "items": [
         {
           "question": "Do you like buying shoes? How often?",
-          "answer": "I do not buy shoes very often because I only replace them when necessary. I probably buy two or three pairs a year, usually for work or exercise.",
-          "translation": "我不经常买鞋，因为通常只有需要更换时才会购买。我一年大概买两三双，通常是工作或运动时穿的。"
+          "answer": "I'm not really into buying shoes. I only replace them when necessary, usually two or three pairs a year for work or exercise.",
+          "memoryChunks": [
+            "only replace them when necessary",
+            "two or three pairs a year"
+          ],
+          "translation": "我不太热衷于买鞋。只有需要时才会换，通常一年买两三双，用于工作或运动。"
         },
         {
           "question": "Have you ever bought shoes online?",
-          "answer": "Yes, I have bought shoes online several times because it is convenient and easy to compare prices. However, I always check the size carefully, and I return them if they do not fit me.",
-          "translation": "有，我在网上买过几次鞋，因为这样很方便，也容易比较价格。不过我总会仔细核对尺码，如果不合脚就会退货。"
+          "answer": "Yes, I prefer buying shoes online because I can compare prices easily. I make sure I check the size carefully, and I return them if they don't fit.",
+          "memoryChunks": [
+            "compare prices easily",
+            "check the size carefully",
+            "return them if they don't fit"
+          ],
+          "translation": "买过。我更喜欢网上买鞋，因为很容易比较价格。我会确保仔细看尺码，不合脚就退回去。"
         },
         {
           "question": "How much money do you usually spend on shoes?",
-          "answer": "I usually spend around three to five hundred yuan on a pair of shoes. I do not need an expensive brand, but I care about good quality and comfort.",
-          "translation": "我买一双鞋通常会花三百到五百元。我不需要昂贵的品牌，但会关注质量和舒适度。"
+          "answer": "I'd say about two hundred to three hundred yuan a pair. I care more about comfort and quality than brands, so I don't spend much money on expensive shoes.",
+          "memoryChunks": [
+            "two hundred to three hundred yuan",
+            "comfort and quality"
+          ],
+          "translation": "我觉得大概每双两三百元。相比品牌，我更看重舒适度和质量，所以不会在贵鞋上花很多钱。"
         },
         {
           "question": "Which do you prefer, fashionable shoes or comfortable shoes?",
-          "answer": "I definitely prefer comfortable shoes because I sometimes walk or stand for a long time. Fashion is important too, but comfort is more practical in my daily life.",
-          "translation": "我肯定更喜欢舒适的鞋，因为有时需要长时间走路或站立。时尚也很重要，但在日常生活中，舒适更实用。"
+          "answer": "I prefer comfortable shoes because I sometimes walk or stand for a long time. They make everyday life easier, even if they don't look very fashionable.",
+          "memoryChunks": [
+            "prefer comfortable shoes",
+            "walk or stand for a long time",
+            "make everyday life easier"
+          ],
+          "translation": "我更喜欢舒服的鞋，因为有时要走路或站很久。即使不太时髦，它们也能让日常生活更轻松。"
         }
-      ],
-      "keyPhrases": [
-        "when necessary",
-        "compare prices",
-        "do not fit me",
-        "good quality and comfort",
-        "more practical in my daily life"
       ],
       "sourceOrder": 8
     },
@@ -361,33 +496,44 @@ window.IELTS_DATA = {
       "items": [
         {
           "question": "What do you do when youu see rubbish on the street?",
-          "answer": "If it is safe and there is a bin nearby, I will pick it up and throw it away. I think keeping the street clean makes the area more comfortable for everyone.",
-          "translation": "如果安全而且附近有垃圾桶，我会把垃圾捡起来扔掉。我认为保持街道清洁能让大家生活得更舒适。"
+          "answer": "I try to pick it up if there's a bin nearby. I'd say it's a small action, but it makes the street nicer for everyone.",
+          "memoryChunks": [
+            "pick it up",
+            "if there's a bin nearby",
+            "makes the street nicer"
+          ],
+          "translation": "附近有垃圾桶的话，我会尽量把垃圾捡起来。我觉得这是个小举动，但能让街道对大家来说都更整洁。"
         },
         {
           "question": "How do you recycle things like paper and plastic?",
-          "answer": "I separate paper and plastic from other rubbish at home and put them into the correct recycling bins. I also reuse shopping bags when possible, which helps reduce waste.",
-          "translation": "我会在家把纸张和塑料与其他垃圾分开，再投入正确的回收箱。我也会尽可能重复使用购物袋，这有助于减少浪费。"
+          "answer": "I put paper and plastic together in a recycling bin at home. I make sure I keep them separate from food waste and other rubbish.",
+          "memoryChunks": [
+            "paper and plastic together",
+            "in a recycling bin",
+            "separate from food waste"
+          ],
+          "translation": "我在家把纸和塑料放进同一个回收桶，并确保它们和厨余及其他垃圾分开。"
         },
         {
           "question": "Is waste sorting common in your country?",
-          "answer": "Yes, it is quite common in many cities. In my neighbourhood, there are different bins for food waste and things that can be recycled. However, some people are still unsure which bin to use.",
-          "translation": "是的，在很多城市都挺常见。我住的小区里有不同的垃圾桶，分别放厨余垃圾和可回收物。不过，有些人仍然不太确定该用哪个垃圾桶。"
+          "answer": "I'd say it's common in many cities. For instance, my neighbourhood has different bins for different types of rubbish, although some people still use the wrong one.",
+          "memoryChunks": [
+            "common in many cities",
+            "different bins",
+            "some people still use the wrong one"
+          ],
+          "translation": "我觉得很多城市都很普遍。比如，我住的社区有不同垃圾桶，不过有些人还是会投错。"
         },
         {
           "question": "Did you recycle when you were a kid?",
-          "answer": "Yes, but in a simple way. My family collected old newspapers and plastic bottles and sold them for recycling. I sometimes helped, and it taught me that useful things should not just be thrown away.",
-          "translation": "会，但方式很简单。我家会收集旧报纸和塑料瓶，卖给回收的人。我有时会帮忙，这让我懂得有用的东西不应该直接扔掉。"
+          "answer": "Yes, but only in a simple way. When I was a kid, my family collected old newspapers and plastic bottles. I used to help my parents put them together.",
+          "memoryChunks": [
+            "When I was a kid",
+            "old newspapers and plastic bottles",
+            "used to help my parents"
+          ],
+          "translation": "会，但做法很简单。小时候，我家会收集旧报纸和塑料瓶，我以前常帮父母把它们整理到一起。"
         }
-      ],
-      "keyPhrases": [
-        "pick it up and throw it away",
-        "keeping the street clean",
-        "separate paper and plastic",
-        "recycling bins",
-        "reduce waste",
-        "different bins",
-        "sold them for recycling"
       ],
       "sourceOrder": 9
     },
@@ -400,32 +546,44 @@ window.IELTS_DATA = {
       "items": [
         {
           "question": "Do you often feel tired?",
-          "answer": "Yes, sometimes, especially when I have a busy day at work. I spend a lot of time looking at a computer screen, so my eyes and mind can feel tired in the evening.",
-          "translation": "有时会，特别是工作很忙的时候。我长时间看电脑屏幕，所以到了晚上，眼睛和精神都会感到疲惫。"
+          "answer": "Yes, pretty often, especially when I have a busy day at work. I spend a lot of time looking at a computer screen, so my eyes and mind feel tired in the evening.",
+          "memoryChunks": [
+            "a busy day at work",
+            "looking at a computer screen",
+            "eyes and mind feel tired"
+          ],
+          "translation": "会，挺经常的，尤其是工作很忙的时候。我长时间看电脑屏幕，所以到了晚上，眼睛和精神都会感到疲惫。"
         },
         {
           "question": "When would you feel tired?",
-          "answer": "I usually feel tired after working for a long time or attending several meetings in one day. I also feel tired when I do not get enough sleep the night before.",
-          "translation": "长时间工作或一天参加好几场会议后，我通常会感到疲惫。如果前一天晚上睡眠不足，我也会觉得累。"
+          "answer": "I feel tired after several meetings or a long day at work. I also rely on a good night's sleep. Without it, I find it hard to concentrate the next day.",
+          "memoryChunks": [
+            "several meetings or a long day",
+            "rely on a good night's sleep",
+            "hard to concentrate"
+          ],
+          "translation": "一天开了好几场会，或工作很久之后，我会觉得累。我也很需要睡个好觉，没睡好就很难在第二天集中注意力。"
         },
         {
           "question": "What do you do when you feel tired?",
-          "answer": "When I feel tired, I usually take a short break and listen to some pop music. Sometimes I play computer games or take a walk because these activities help me relax and clear my mind.",
-          "translation": "感到疲惫时，我通常会短暂休息一下，听一些流行音乐。有时我也会玩电脑游戏或散步，因为这些活动能让我放松并清醒头脑。"
+          "answer": "I take a break and listen to music. Once in a while, I play computer games with friends. It's a great way to relax and clear my mind.",
+          "memoryChunks": [
+            "listen to music",
+            "play computer games with friends",
+            "relax and clear my mind"
+          ],
+          "translation": "我会休息一下、听听音乐。偶尔也和朋友玩电脑游戏，这是很好的放松和清空思绪的方式。"
         },
         {
           "question": "When you feel tired, do you still go out with your friends?",
-          "answer": "It depends on how tired I am. If I've just had a busy day, a quiet meal with friends can help me relax, but if I'm exhausted, I'd rather stay home and rest.",
-          "translation": "这取决于我有多累。如果只是忙了一天，和朋友安静地吃顿饭能让我放松；但如果累得不行，我更愿意待在家里休息。"
+          "answer": "Not really, to be honest. I prefer staying at home because I need to rest. I can meet my friends another day.",
+          "memoryChunks": [
+            "prefer staying at home",
+            "need to rest",
+            "meet my friends another day"
+          ],
+          "translation": "说实话，不太会。我更愿意待在家里，因为需要休息。我可以改天再见朋友。"
         }
-      ],
-      "keyPhrases": [
-        "a busy day at work",
-        "looking at a computer screen",
-        "do not get enough sleep",
-        "take a short break",
-        "relax and clear my mind",
-        "stay home and rest"
       ],
       "sourceOrder": 10
     },
@@ -438,33 +596,44 @@ window.IELTS_DATA = {
       "items": [
         {
           "question": "How did you learn to be polite as a child?",
-          "answer": "I learned to be polite mainly from my parents and teachers. They taught me to say please and thank you, listen to other people and show respect to older people.",
-          "translation": "我主要从父母和老师那里学习礼貌。他们教我说“请”和“谢谢”、认真听别人说话，并尊重长辈。"
+          "answer": "When I was a kid, I learned from my parents and teachers. For instance, they taught me to say please and thank you when I needed help.",
+          "memoryChunks": [
+            "learned from my parents and teachers",
+            "say please and thank you",
+            "needed help"
+          ],
+          "translation": "小时候，我从父母和老师那里学习礼貌。比如，他们教我需要帮助时要说“请”和“谢谢”。"
         },
         {
           "question": "Do you think being polite is very important?",
-          "answer": "Yes, I do. Being polite shows care and respect, and it helps people communicate better. It can also make our relationships closer and warmer.",
-          "translation": "我认为很重要。礼貌体现关心和尊重，也能帮助人们更好地沟通，还可以让我们的关系更亲近、更温暖。"
+          "answer": "Yes, I'd say it's very important. Being polite makes conversations easier and helps people feel comfortable. That's why it matters even in small daily situations.",
+          "memoryChunks": [
+            "makes conversations easier",
+            "helps people feel comfortable",
+            "small daily situations"
+          ],
+          "translation": "是的，我觉得很重要。礼貌能让交流更容易，也让别人感觉舒服，所以日常小事中也需要讲礼貌。"
         },
         {
           "question": "On what occasions should we be polite?",
-          "answer": "I think we should be polite in everyday situations, especially when asking for help or speaking to strangers. Saying please and listening without interrupting can make a simple conversation more pleasant.",
-          "translation": "我觉得日常生活中都应该讲礼貌，特别是请人帮忙或和陌生人说话时。说一声“请”、认真听而不打断，都能让简单的交流更愉快。"
+          "answer": "I'd say we should be polite in everyday situations, especially when asking for help. For instance, saying please and thank you can make communication easier.",
+          "memoryChunks": [
+            "especially when asking for help",
+            "saying please and thank you",
+            "make communication easier"
+          ],
+          "translation": "我觉得日常生活中都应该有礼貌，尤其是请人帮忙时。比如，说“请”和“谢谢”能让交流更容易。"
         },
         {
           "question": "What did you do to show your politeness as a child?",
-          "answer": "As a child, I greeted my teachers and said thank you when someone helped me. My parents also reminded me to wait for my turn instead of interrupting other people.",
-          "translation": "小时候，我会和老师打招呼，别人帮忙时会说谢谢。父母还会提醒我等轮到自己再说话，不要打断别人。"
+          "answer": "When I was a kid, I greeted my teachers and thanked people who helped me. My parents also told me to wait instead of interrupting others.",
+          "memoryChunks": [
+            "greeted my teachers",
+            "thanked people who helped me",
+            "wait instead of interrupting others"
+          ],
+          "translation": "小时候，我会向老师问好，也会感谢帮助我的人。父母还告诉我要等别人说完，不要打断。"
         }
-      ],
-      "keyPhrases": [
-        "parents and teachers",
-        "show respect",
-        "shows care and respect",
-        "communicate better",
-        "closer and warmer",
-        "without interrupting",
-        "wait for my turn"
       ],
       "sourceOrder": 11
     },
@@ -477,30 +646,44 @@ window.IELTS_DATA = {
       "items": [
         {
           "question": "What will you do if you find something lost by others?",
-          "answer": "I will try to find the owner first. If I find it in a shopping mall or on public transport, I will give it to a staff member so the owner can get it back.",
-          "translation": "我会先设法找到失主。如果是在商场或公共交通上捡到的，我会交给工作人员，让失主能够取回。"
+          "answer": "I'd try to find the owner first. It really depends on where I find the item. In a mall or on a bus, I'd give it to a staff member.",
+          "memoryChunks": [
+            "find the owner first",
+            "where I find the item",
+            "a staff member"
+          ],
+          "translation": "我会先试着找失主，具体做法取决于在哪里捡到。在商场或公交车上，我会把东西交给工作人员。"
         },
         {
           "question": "Do you report to the police when finding something lost by others? Why?",
-          "answer": "It depends on what I find. If it is something important, such as a wallet or an identity card, I will report it to the police because they can find the owner more easily.",
-          "translation": "这取决于我捡到什么。如果是钱包或身份证之类的重要物品，我会交给警察，因为他们更容易找到失主。"
+          "answer": "It really depends on what I find. For instance, I'd take a lost wallet or identity card to the police because they can find the owner more easily.",
+          "memoryChunks": [
+            "what I find",
+            "a lost wallet or identity card",
+            "find the owner more easily"
+          ],
+          "translation": "这主要取决于捡到了什么。比如，捡到钱包或身份证，我会交给警察，因为他们更容易找到失主。"
         },
         {
           "question": "Have you ever lost things?",
-          "answer": "Yes, I have. I once left an umbrella on a bus because I was in a hurry. Since then, I always check my belongings before I get off.",
-          "translation": "有。我曾经因为赶时间把一把雨伞落在公交车上。从那以后，我下车前总会检查自己的随身物品。"
+          "answer": "Yes, I remember leaving an umbrella on a bus when I was in a hurry. Now I make sure I check my things before getting off.",
+          "memoryChunks": [
+            "leaving an umbrella on a bus",
+            "in a hurry",
+            "check my things"
+          ],
+          "translation": "丢过。我记得有一次赶时间，把雨伞落在了公交车上。现在下车前，我会确保检查好随身物品。"
         },
         {
           "question": "Will you post on social media if you lose your item?",
-          "answer": "Yes, I will, especially if the item is important. Social media can help me reach more people quickly, so there is a better chance of getting it back.",
-          "translation": "会，特别是在物品很重要的情况下。社交媒体能让我快速联系到更多人，所以找回物品的机会会更大。"
+          "answer": "Yes, especially if it's something important. I'd say social media can reach more people quickly. That gives me a better chance of finding it.",
+          "memoryChunks": [
+            "something important",
+            "reach more people quickly",
+            "a better chance of finding it"
+          ],
+          "translation": "会，尤其是重要的东西。我觉得社交媒体能很快让更多人看到消息，这样找回来的机会就更大。"
         }
-      ],
-      "keyPhrases": [
-        "find the owner",
-        "It depends on what I find",
-        "check my belongings",
-        "reach more people quickly"
       ],
       "sourceOrder": 12
     },
@@ -514,36 +697,53 @@ window.IELTS_DATA = {
         {
           "question": "Would you like to use a computer or tablet?",
           "answer": "I prefer using a computer because I need it for my work as a software engineer. It has a larger screen and a keyboard, so it is more convenient for writing code and joining online meetings.",
+          "memoryChunks": [
+            "prefer using a computer",
+            "a larger screen and a keyboard",
+            "writing code and joining online meetings"
+          ],
           "translation": "我更喜欢使用电脑，因为作为软件工程师，工作中需要用到它。电脑屏幕更大，而且有键盘，所以写代码和参加线上会议都更方便。"
         },
         {
           "question": "In what conditions would you use a computer or tablet?",
-          "answer": "I usually use a computer when I work or study at home. I use it to search for information, attend online meetings and finish my work more efficiently.",
-          "translation": "我通常在家工作或学习时使用电脑。我会用它查找信息、参加线上会议，并更高效地完成工作。"
+          "answer": "Most of the time, I use a computer for work or study at home. It helps me find information, join online meetings and finish tasks more quickly.",
+          "memoryChunks": [
+            "work or study at home",
+            "find information",
+            "finish tasks more quickly"
+          ],
+          "translation": "大多数时候，我在家工作或学习时用电脑。它能帮助我查资料、参加线上会议，也能更快完成任务。"
         },
         {
           "question": "When was the first time you used a computer or tablet?",
-          "answer": "I cannot remember exactly, but I think I first used a computer in primary school. We had computer classes, and my teacher showed us how to type and use some simple programs.",
-          "translation": "我记不清具体时间了，但我想第一次使用电脑是在小学。我们有电脑课，老师教我们打字和使用一些简单的程序。"
+          "answer": "I think it was in primary school. I remember learning to type in computer class, and the teacher showed us how to use simple programs.",
+          "memoryChunks": [
+            "in primary school",
+            "learning to type",
+            "use simple programs"
+          ],
+          "translation": "我想是在小学。我记得在电脑课上学打字，老师还教我们使用一些简单程序。"
         },
         {
           "question": "What would your life be like without computers or tablets?",
-          "answer": "My life would be much less convenient because I use a computer every day for work. It would take me longer to find information, communicate with my colleagues and solve problems.",
-          "translation": "如果没有电脑或平板，我的生活会不方便很多，因为我每天工作都要使用电脑。查找信息、与同事沟通和解决问题都会花更长时间。"
+          "answer": "I rely on my computer for work every day, so life would be much less convenient. Finding information and talking to colleagues would take longer without it.",
+          "memoryChunks": [
+            "rely on my computer",
+            "much less convenient",
+            "take longer without it"
+          ],
+          "translation": "我每天工作都依赖电脑，所以没有电脑，生活会不方便很多。查资料和与同事沟通都会花更长时间。"
         },
         {
           "question": "In what conditions would it be difficult for you to use a computer or tablet?",
-          "answer": "It would be difficult to use a computer when I am standing on a crowded bus or subway. There may not be enough space, and I cannot focus well in a noisy environment.",
-          "translation": "当我站在拥挤的公交车或地铁上时，使用电脑会很困难。那里可能没有足够的空间，而且在嘈杂的环境中我无法很好地集中注意力。"
+          "answer": "I find it hard to use a computer on a crowded bus or subway. There isn't enough space, and the noise makes it difficult to stay focused.",
+          "memoryChunks": [
+            "on a crowded bus or subway",
+            "isn't enough space",
+            "difficult to stay focused"
+          ],
+          "translation": "我觉得在拥挤的公交或地铁上很难用电脑。空间不够，噪音也让人难以保持专注。"
         }
-      ],
-      "keyPhrases": [
-        "a larger screen and a keyboard",
-        "more convenient",
-        "work or study at home",
-        "first used a computer in primary school",
-        "much less convenient",
-        "a crowded bus or subway"
       ],
       "sourceOrder": 13
     },
@@ -556,31 +756,44 @@ window.IELTS_DATA = {
       "items": [
         {
           "question": "Do you collect things?",
-          "answer": "Not really. I do not collect anything on purpose, but I keep some books and photos that are important to me. They remind me of different times in my life.",
-          "translation": "不太会。我不会特意收藏东西，但会保留一些对我很重要的书和照片。它们能让我想起人生中的不同时期。"
+          "answer": "Not really, to be honest. I just keep a few books and photos that matter to me. Looking at them puts me in a good mood because they bring back memories.",
+          "memoryChunks": [
+            "books and photos that matter to me",
+            "puts me in a good mood",
+            "bring back memories"
+          ],
+          "translation": "说实话，不算收藏。我只是留着几本重要的书和一些照片。看到它们会勾起回忆，让我心情变好。"
         },
         {
           "question": "Are there any things you have kept from your childhood?",
-          "answer": "Yes, I have kept a few childhood photos and an old school notebook. They bring back good memories and remind me of my school days.",
-          "translation": "有，我保留了几张童年照片和一本旧的学校笔记本。它们会带回美好的回忆，让我想起学生时代。"
+          "answer": "Yes, I've kept some childhood photos and an old school notebook. When I have free time, I sometimes look through them. It makes me feel happy to remember my school days.",
+          "memoryChunks": [
+            "childhood photos and an old school notebook",
+            "look through them",
+            "remember my school days"
+          ],
+          "translation": "有，我留着一些童年照片和一本旧笔记本。有空时会翻翻，想起学生时代会让我开心。"
         },
         {
           "question": "Would you keep old things for a long time? Why?",
-          "answer": "I would only keep old things that are useful or meaningful to me. If something has a special memory, I do not want to throw it away, but I also try to keep my home tidy.",
-          "translation": "我只会长期保留对我有用或有意义的旧物。如果某件东西承载着特别的回忆，我不想把它扔掉，但我也会尽量保持家里整洁。"
+          "answer": "It really depends on whether they're useful or meaningful. I keep things with special memories, but I make sure I don't fill my home with things I never use.",
+          "memoryChunks": [
+            "useful or meaningful",
+            "things with special memories",
+            "don't fill my home"
+          ],
+          "translation": "主要取决于它们是否有用或有意义。我会留着承载特别回忆的东西，但也会确保家里不会堆满从来不用的物品。"
         },
         {
           "question": "Where do you usually keep things you need?",
-          "answer": "I usually keep the things I use every day on my desk or in a drawer. I put them back after using them, so I can find them easily and keep my room tidy.",
-          "translation": "我通常把每天使用的东西放在书桌上或抽屉里。用完后我会把它们放回去，这样既容易找到，也能保持房间整洁。"
+          "answer": "I keep everyday things on my desk or in a drawer. I make sure I put them back after using them. It helps me find them quickly.",
+          "memoryChunks": [
+            "on my desk or in a drawer",
+            "put them back",
+            "find them quickly"
+          ],
+          "translation": "我把日用品放在桌上或抽屉里，用完一定放回去，这样很快就能找到。"
         }
-      ],
-      "keyPhrases": [
-        "important to me",
-        "bring back good memories",
-        "useful or meaningful",
-        "put them back after using them",
-        "keep my room tidy"
       ],
       "sourceOrder": 14
     },
@@ -593,31 +806,45 @@ window.IELTS_DATA = {
       "items": [
         {
           "question": "What do people usually buy on the street market?",
-          "answer": "People usually buy fresh fruit, vegetables, snacks and small daily items at street markets. These things are often affordable, and people can choose from many different products.",
-          "translation": "人们通常会在街头市场购买新鲜水果、蔬菜、零食和日常小物品。这些东西通常价格实惠，而且有很多不同的商品可供选择。"
+          "answer": "People buy all kinds of everyday things, like fruit, vegetables and snacks. I'd say low prices and plenty of choice are the main attractions.",
+          "memoryChunks": [
+            "fruit, vegetables and snacks",
+            "low prices",
+            "plenty of choice"
+          ],
+          "translation": "人们会买各种日用品，比如水果、蔬菜和零食。我觉得价格低、选择多是主要的吸引力。"
         },
         {
           "question": "Do you prefer to go shopping in the shopping mall or on the street market?",
           "answer": "I prefer shopping in a shopping mall because it is cleaner and more comfortable. There are more shops to choose from, and I can ask customer service for help if I need it.",
+          "memoryChunks": [
+            "prefer shopping in a shopping mall",
+            "cleaner and more comfortable",
+            "customer service"
+          ],
           "translation": "我更喜欢在购物中心购物，因为那里更干净、更舒适。可以选择的店铺更多，需要帮助时我也可以咨询客服人员。"
         },
         {
           "question": "When was the last time you went to a street market?",
-          "answer": "The last time I went to a street market was last weekend. My wife and I bought some fruit and snacks there. It was lively, and the prices were reasonable.",
-          "translation": "我上次去街头市场是在上周末。我和妻子在那里买了一些水果和零食。那里很热闹，而且价格也很合理。"
+          "answer": "It was last weekend. I remember buying some fruit and snacks with my wife. The market was lively, and we didn't spend much money on them.",
+          "memoryChunks": [
+            "last weekend",
+            "buying some fruit and snacks with my wife",
+            "didn't spend much money"
+          ],
+          "translation": "上次是上周末。我记得和妻子一起买了些水果和零食。市场很热闹，也没花很多钱。"
         },
         {
           "question": "Are there many street markets in China?",
-          "answer": "Yes, there are many street markets in China, especially near residential areas and in smaller cities. They are convenient because people can buy fresh food and daily items at reasonable prices.",
-          "translation": "有，中国有很多街头市场，特别是在居民区附近和较小的城市里。它们很方便，因为人们可以用合理的价格买到新鲜食物和日常用品。"
+          "answer": "Yes, there are quite a few, especially close to residential areas and in smaller cities. People can buy fresh food and everyday things at reasonable prices.",
+          "memoryChunks": [
+            "close to residential areas",
+            "in smaller cities",
+            "fresh food",
+            "at reasonable prices"
+          ],
+          "translation": "有不少，尤其是在居民区附近和小城市。人们可以用合理的价格买到新鲜食物和日用品。"
         }
-      ],
-      "keyPhrases": [
-        "affordable",
-        "cleaner and more comfortable",
-        "customer service",
-        "the prices were reasonable",
-        "near residential areas"
       ],
       "sourceOrder": 15
     },
@@ -630,21 +857,24 @@ window.IELTS_DATA = {
       "items": [
         {
           "question": "Do you prefer to sit by the window when travelling?",
-          "answer": "Yes, I do. I like looking out of the window at the scenery because it helps me relax. If I see something beautiful, I may take a photo and keep it as a memory.",
-          "translation": "喜欢。我喜欢看窗外的风景，因为这能让我放松。如果看到美丽的景色，我可能会拍照留作纪念。"
+          "answer": "Yes, I do prefer sitting by the window when I travel. I find it really relaxing to watch the scenery change outside, like the clouds drifting by.",
+          "memoryChunks": [
+            "prefer sitting by the window",
+            "watch the scenery change"
+          ],
+          "translation": "是的，旅行时我确实更喜欢坐在窗边。我觉得看着窗外的景色不断变化真的很放松，比如云朵缓缓飘过。"
         },
         {
           "question": "Did you have a long journey with your family as a child?",
-          "answer": "Yes, I did, but I cannot remember many details because it was a long time ago. I remember taking a train with my family to another city, and I enjoyed looking out of the window during the journey.",
-          "translation": "有过，但因为时间很久了，我记不清很多细节。我记得曾和家人坐火车去另一个城市，旅途中我很喜欢看窗外。"
+          "answer": "Yes. When I was a kid, we used to visit my grandparents during the Chinese New Year holiday. They lived in another city, so the drive took six or seven hours.",
+          "memoryChunks": [
+            "visit my grandparents",
+            "Chinese New Year holiday",
+            "lived in another city",
+            "six or seven hours"
+          ],
+          "translation": "有。小时候，我们春节假期常去看祖父母。他们住在另一个城市，开车要六七个小时。"
         }
-      ],
-      "keyPhrases": [
-        "looking out of the window",
-        "helps me relax",
-        "keep it as a memory",
-        "cannot remember many details",
-        "taking a train with my family"
       ],
       "sourceOrder": 16
     },
@@ -657,30 +887,43 @@ window.IELTS_DATA = {
       "items": [
         {
           "question": "Do you like art?",
-          "answer": "Yes, I like art, although I don't know much about it. I especially enjoy paintings of everyday places because I can understand them easily and notice small details.",
-          "translation": "喜欢，虽然我对艺术了解不多。我特别喜欢画日常场景的作品，因为容易看懂，也能留意到一些小细节。"
+          "answer": "Yes, I'm really into paintings of everyday places. I don't know much about art, but I find it easy to understand these pictures and notice small details.",
+          "memoryChunks": [
+            "really into paintings of everyday places",
+            "easy to understand",
+            "notice small details"
+          ],
+          "translation": "喜欢，我很喜欢描绘日常场景的画。虽然不太懂艺术，但我觉得这些画容易理解，也能留意到小细节。"
         },
         {
           "question": "Do you like visiting art galleries?",
-          "answer": "Yes, but I don't go very often. I like looking at the paintings at my own pace, and a quiet gallery can be a nice break from screens and work.",
-          "translation": "喜欢，但我去得不算经常。我喜欢按自己的节奏看画，安静的画廊也能让我暂时离开屏幕和工作，休息一下。"
+          "answer": "Yes, but only once in a while. I enjoy looking at paintings at my own pace. It's a great way to take my mind off work.",
+          "memoryChunks": [
+            "once in a while",
+            "at my own pace",
+            "take my mind off work"
+          ],
+          "translation": "喜欢，不过只是偶尔去。我喜欢按自己的节奏看画，这是暂时放下工作的好方式。"
         },
         {
           "question": "Do you want to be an artist?",
-          "answer": "Not really. I enjoy looking at art, but I'd rather keep it as an interest because I'm more confident working with computers than creating paintings.",
-          "translation": "不太想。我喜欢欣赏艺术，但更愿意把它当作兴趣，因为比起画画，我对电脑方面的工作更有信心。"
+          "answer": "Not really, to be honest. I prefer keeping art as an interest because I'm more confident working with computers than painting.",
+          "memoryChunks": [
+            "keeping art as an interest",
+            "more confident working with computers"
+          ],
+          "translation": "说实话，不太想。我更愿意把艺术当作兴趣，因为相比画画，我对电脑工作更有信心。"
         },
         {
           "question": "Do you like modern art or traditional art?",
-          "answer": "I usually prefer traditional art, especially paintings of natural scenery. The subjects are easier for me to understand, while some modern art needs more explanation.",
-          "translation": "我通常更喜欢传统艺术，尤其是自然风景画。这样的主题我更容易理解，而有些现代艺术需要更多解释。"
+          "answer": "I prefer traditional art because it's easier for me to understand. I'm a big fan of paintings of natural scenery, while some modern art needs more explanation.",
+          "memoryChunks": [
+            "prefer traditional art",
+            "easier for me to understand",
+            "paintings of natural scenery"
+          ],
+          "translation": "我更喜欢传统艺术，因为比较容易理解。我很喜欢自然风景画，而有些现代艺术需要更多解释。"
         }
-      ],
-      "keyPhrases": [
-        "notice small details",
-        "at my own pace",
-        "keep it as an interest",
-        "easier for me to understand"
       ],
       "sourceOrder": 17
     },
@@ -693,29 +936,43 @@ window.IELTS_DATA = {
         {
           "question": "What do you do right after getting up in the morning?",
           "answer": "I usually wash my face first because it helps me wake up. Then I have a simple breakfast and get ready for work, so I don't have to rush later.",
+          "memoryChunks": [
+            "wash my face first",
+            "have a simple breakfast",
+            "get ready for work"
+          ],
           "translation": "我通常先洗脸，因为这样能让我清醒。然后我会简单吃点早餐，准备上班，这样之后就不用太匆忙。"
         },
         {
           "question": "Is breakfast important?",
           "answer": "Yes, I think breakfast is important because I find it harder to concentrate when I'm hungry. It doesn't have to be a big meal; some bread and milk are enough for me.",
+          "memoryChunks": [
+            "harder to concentrate when I'm hungry",
+            "bread and milk are enough"
+          ],
           "translation": "是的，我觉得早餐很重要，因为饿着肚子时我更难集中注意力。不需要吃很多，对我来说，一些面包和牛奶就够了。"
         },
         {
           "question": "What is your morning routine?",
-          "answer": "In the morning, I usually wash my face to wake myself up, then have breakfast before going to work.",
-          "translation": "早上我通常先洗脸让自己清醒，然后上班前吃早餐。"
+          "answer": "I wash my face first because it helps me wake up. Then I have breakfast and get ready for work. I make sure I leave enough time so I don't have to rush.",
+          "memoryChunks": [
+            "wash my face first",
+            "have breakfast and get ready for work",
+            "leave enough time"
+          ],
+          "translation": "我先洗脸，让自己清醒过来。然后吃早饭、准备上班。我会确保时间充足，这样不用太赶。"
         },
         {
           "question": "Do you like to get up early in the morning?",
-          "answer": "Not particularly, but I like having enough time to get ready. On workdays, I get up early enough to have breakfast, while at weekends I prefer a slower start.",
-          "translation": "不算特别喜欢，但我喜欢留够准备时间。工作日我会起得早一些，好吃上早餐；周末我更喜欢慢慢开始一天。"
+          "answer": "Not really, to be honest. On weekdays, I get up early enough to have breakfast before work. At weekends, I prefer a slower start.",
+          "memoryChunks": [
+            "On weekdays",
+            "early enough to have breakfast",
+            "At weekends",
+            "a slower start"
+          ],
+          "translation": "说实话，不太喜欢早起。工作日我会早点起，留出上班前吃早饭的时间。周末则更喜欢慢慢开始一天。"
         }
-      ],
-      "keyPhrases": [
-        "wash my face to wake myself up",
-        "get ready for work",
-        "harder to concentrate",
-        "a slower start"
       ],
       "isNew": false,
       "sourceOrder": 18
@@ -729,42 +986,64 @@ window.IELTS_DATA = {
       "items": [
         {
           "question": "Do you like watching sports programs on TV?",
-          "answer": "Yes, occasionally, especially when there's an important match. I don't follow every game, but I enjoy the excitement when the score is close and either side could win.",
-          "translation": "喜欢，偶尔会看，特别是有重要比赛的时候。我不会追每一场，但比分接近、双方都有可能赢的时候，我很喜欢那种紧张刺激的感觉。"
+          "answer": "Yes, once in a while, especially for an important match. I find it exciting to watch when the score is close and either team could win.",
+          "memoryChunks": [
+            "once in a while",
+            "an important match",
+            "the score is close"
+          ],
+          "translation": "会，偶尔看，尤其是重要比赛。比分接近、两队都有可能获胜时，我觉得看起来很刺激。"
         },
         {
           "question": "Do you like to watch live sports games?",
-          "answer": "Yes, I prefer watching games live rather than watching the result afterwards. Not knowing who will win makes the match more exciting, especially in the final few minutes.",
-          "translation": "喜欢，我更喜欢实时看比赛，而不是事后看结果。不知道谁会赢会让比赛更刺激，尤其是在最后几分钟。"
+          "answer": "I prefer watching games live because I don't know who will win. It makes me feel more excited, especially in the final few minutes.",
+          "memoryChunks": [
+            "prefer watching games live",
+            "don't know who will win",
+            "the final few minutes"
+          ],
+          "translation": "我更喜欢看比赛直播，因为不知道谁会赢。这让我更兴奋，尤其是在最后几分钟。"
         },
         {
           "question": "Who do you like to watch sports games with?",
-          "answer": "I like watching matches with friends who enjoy the same sport. We can talk about the players and share our reactions, which makes the experience more fun.",
-          "translation": "我喜欢和同样喜欢这项运动的朋友一起看比赛。我们可以聊聊运动员、交流感受，这样看比赛更有趣。"
+          "answer": "I like watching with friends who enjoy the same sport. We can talk about the players and share our reactions. It's a great way to hang out with them.",
+          "memoryChunks": [
+            "friends who enjoy the same sport",
+            "talk about the players",
+            "share our reactions"
+          ],
+          "translation": "我喜欢和爱看同一种运动的朋友一起看。我们可以聊球员、分享感受，也是一起相处的好方式。"
         },
         {
           "question": "What kinds of games do you expect to watch in the future?",
-          "answer": "I'd like to watch more live basketball games in the future. I enjoy the fast pace, and I think following one team would help me understand the sport better.",
-          "translation": "以后我想多看一些篮球比赛直播。我喜欢它节奏快，而且我觉得持续关注一支球队能帮助我更了解这项运动。"
+          "answer": "I'd love to watch more live basketball games. I enjoy the fast pace, and following one team would help me understand the sport better.",
+          "memoryChunks": [
+            "watch more live basketball games",
+            "enjoy the fast pace",
+            "understand the sport better"
+          ],
+          "translation": "我很想多看一些篮球直播。我喜欢比赛快节奏的感觉，持续关注一支球队也能让我更了解这项运动。"
         },
         {
           "question": "Do you prefer to watch sports games alone or with a group of friends?",
-          "answer": "I usually prefer watching with a few friends. We can discuss the match and celebrate together, but I still want the room to be quiet enough to follow the game.",
-          "translation": "我通常更喜欢和几个朋友一起看。我们可以讨论比赛、一起庆祝，但我还是希望房间里不要太吵，能让我看清比赛进程。"
+          "answer": "I prefer watching with a few friends because we can celebrate together. However, I make sure I can still hear what's happening in the game.",
+          "memoryChunks": [
+            "watching with a few friends",
+            "celebrate together",
+            "hear what's happening in the game"
+          ],
+          "translation": "我更喜欢和几个朋友一起看，因为可以一起庆祝。不过，我也会确保自己仍能听清比赛里的情况。"
         },
         {
           "question": "Have you ever watched a sports game in a stadium?",
-          "answer": "No, I haven't watched a game in a stadium yet. I normally watch at home because it's convenient, but I'd like to experience the noise and excitement of a real crowd one day.",
-          "translation": "还没有在体育场里看过比赛。我通常在家看，因为比较方便，不过以后我想体验一下现场观众的欢呼和热闹气氛。"
+          "answer": "Not yet. Most of the time, I watch games at home because it's convenient. I'd love to experience the noise and excitement of a stadium one day.",
+          "memoryChunks": [
+            "watch games at home",
+            "because it's convenient",
+            "noise and excitement of a stadium"
+          ],
+          "translation": "还没有。大多数时候，我在家看比赛，因为很方便。我很想有一天感受体育场里的热闹和兴奋气氛。"
         }
-      ],
-      "keyPhrases": [
-        "the score is close",
-        "the final few minutes",
-        "share our reactions",
-        "the fast pace",
-        "follow the game",
-        "experience the noise and excitement"
       ],
       "sourceOrder": 19
     },
@@ -778,41 +1057,63 @@ window.IELTS_DATA = {
         {
           "question": "Do you like the morning or evening?",
           "answer": "I prefer the evening because I can relax after finishing work. I have more control over my time then, so I can study English or spend time with my wife.",
+          "memoryChunks": [
+            "prefer the evening",
+            "relax after finishing work",
+            "study English or spend time with my wife"
+          ],
           "translation": "我更喜欢晚上，因为工作结束后可以放松。那时我的时间安排更自由，可以学英语，也可以陪妻子。"
         },
         {
           "question": "What do you usually do in the evening?",
           "answer": "I usually have dinner with my wife and spend some time practising English. Later, I may watch a short programme or just rest, depending on how tired I feel.",
+          "memoryChunks": [
+            "have dinner with my wife",
+            "practising English",
+            "watch a short programme or just rest"
+          ],
           "translation": "我通常和妻子一起吃晚饭，再花一点时间练英语。之后可能看一小会儿节目，也可能直接休息，主要看自己有多累。"
         },
         {
           "question": "What did you do in the evening when you were little? Why?",
-          "answer": "When I was little, I usually finished my homework and then watched some television. It was a simple way to relax, and I didn't have as many things to worry about.",
-          "translation": "小时候，我通常写完作业后看一会儿电视。那是很简单的放松方式，而且当时也没有那么多事情需要操心。"
+          "answer": "When I was a kid, I used to finish my homework and then watch television. It was a simple way to relax, and I had fewer things to worry about.",
+          "memoryChunks": [
+            "finish my homework",
+            "watch television",
+            "fewer things to worry about"
+          ],
+          "translation": "小时候，我常常先写完作业，再看电视。那是很简单的放松方式，而且当时要操心的事更少。"
         },
         {
           "question": "Are there any differences between what you do in the evening now and what you did in the past?",
-          "answer": "Yes, my evenings are more organised now. As a student, I had more free time, but these days I need to fit English practice and household tasks around my work.",
-          "translation": "有区别，我现在的晚上安排得更有条理。学生时期我空闲时间更多，但现在我需要在工作之外安排英语练习和家务。"
+          "answer": "Yes. Compared to my student days, my evenings are more organised now. I used to have more free time, but now I fit English practice and housework around my job.",
+          "memoryChunks": [
+            "more organised now",
+            "used to have more free time",
+            "English practice and housework"
+          ],
+          "translation": "有区别。和学生时代相比，我现在晚上的安排更有规律。以前空闲时间更多，现在要在工作之余安排英语练习和家务。"
         },
         {
           "question": "Do you spend your evenings doing the same things on both weekends and weekdays? Why?",
           "answer": "Not exactly. On weekdays, I usually stay at home because I need to work the next morning, but at weekends I may go out for dinner or stay up a little later.",
+          "memoryChunks": [
+            "On weekdays, I usually stay at home",
+            "work the next morning",
+            "go out for dinner"
+          ],
           "translation": "不完全一样。工作日我通常待在家里，因为第二天早上要上班；周末我可能会出去吃晚饭，或者稍微晚一点睡。"
         },
         {
           "question": "What do you hate doing in the evening?",
-          "answer": "I dislike dealing with unexpected work late in the evening. By that time, I want to rest, and a work problem can make it difficult to switch off and sleep well.",
-          "translation": "我不喜欢晚上很晚还要处理临时工作。那时候我已经想休息了，而工作上的问题可能让我难以放下工作、好好睡觉。"
+          "answer": "I don't like having to deal with unexpected work late in the evening. I want to rest by then, and work problems can make it hard to sleep.",
+          "memoryChunks": [
+            "deal with unexpected work",
+            "want to rest",
+            "hard to sleep"
+          ],
+          "translation": "我不喜欢晚上很晚还要处理突发工作。那时我想休息了，而工作上的问题可能让我难以入睡。"
         }
-      ],
-      "keyPhrases": [
-        "have more control over my time",
-        "depending on how tired I feel",
-        "finished my homework",
-        "fit English practice and household tasks around my work",
-        "stay up a little later",
-        "switch off"
       ],
       "sourceOrder": 20
     },
@@ -825,30 +1126,44 @@ window.IELTS_DATA = {
       "items": [
         {
           "question": "Would you prefer to play in a personal garden or public garden?",
-          "answer": "I'd prefer a public garden because there is usually more space to walk around. I also like seeing other people enjoying themselves, as long as it isn't too crowded.",
-          "translation": "我更喜欢公共花园，因为通常有更大的空间可以走走。我也喜欢看到其他人享受休闲时光，只要那里不太拥挤就好。"
+          "answer": "I prefer a public garden because there's more space to walk around. I also enjoy seeing other people, as long as it isn't too crowded.",
+          "memoryChunks": [
+            "prefer a public garden",
+            "more space to walk around",
+            "isn't too crowded"
+          ],
+          "translation": "我更喜欢公共花园，因为散步的空间更大。我也喜欢看到其他人，只要不太拥挤就好。"
         },
         {
           "question": "How are the parks today different from those you visited as a kid?",
-          "answer": "The parks I visit now seem to have better paths and more exercise equipment. The ones I remember from childhood were simpler, although they were still fun places to play.",
-          "translation": "我现在去的公园似乎有更好的步道和更多健身器材。我记得小时候的公园比较简单，但在那里玩还是很开心。"
+          "answer": "Compared to the parks I visited as a child, today's parks have better paths and more exercise equipment. The old ones were smaller and simpler, but still fun.",
+          "memoryChunks": [
+            "better paths",
+            "more exercise equipment",
+            "smaller and simpler"
+          ],
+          "translation": "和小时候去的公园相比，现在的公园步道更好、健身器材更多。以前的公园更小、更简单，但也很好玩。"
         },
         {
           "question": "What do you like to do when visiting a park?",
-          "answer": "I usually walk around and enjoy the trees and fresh air. After spending most of the day at a computer, it's nice to move my body and rest my eyes.",
-          "translation": "我通常会四处走走，看看树、呼吸新鲜空气。一整天大部分时间都对着电脑，活动一下身体、让眼睛休息会让我感觉很好。"
+          "answer": "I usually walk around and enjoy the trees and fresh air. It helps me take a break from looking at a screen and gives my eyes a rest.",
+          "memoryChunks": [
+            "walk around",
+            "trees and fresh air",
+            "take a break from looking at a screen"
+          ],
+          "translation": "我通常会走走，看看树、呼吸新鲜空气。这能让我暂时离开屏幕，让眼睛休息一下。"
         },
         {
           "question": "Would you like to play in a public garden or park?",
-          "answer": "Yes, I'd enjoy doing something simple in a park, such as playing badminton with a friend. There is more room than at home, and being outdoors makes it more enjoyable.",
-          "translation": "愿意，我很喜欢在公园里做一些简单的活动，比如和朋友打羽毛球。那里比家里空间大，在户外也让活动更有趣。"
+          "answer": "Yes, I'd love to play badminton with a friend in a park. There is more space than at home, and being outdoors makes it more enjoyable.",
+          "memoryChunks": [
+            "play badminton with a friend",
+            "more space than at home",
+            "being outdoors"
+          ],
+          "translation": "想，我很愿意在公园和朋友打羽毛球。那里比家里空间大，户外环境也让活动更有意思。"
         }
-      ],
-      "keyPhrases": [
-        "more space to walk around",
-        "more exercise equipment",
-        "rest my eyes",
-        "being outdoors"
       ],
       "sourceOrder": 21
     },
@@ -861,30 +1176,44 @@ window.IELTS_DATA = {
       "items": [
         {
           "question": "Have you ever been to historical museums?",
-          "answer": "Yes, I've visited a history museum before. I liked looking at old objects because they made the past feel more real than simply reading dates in a textbook.",
-          "translation": "去过，我以前参观过历史博物馆。我喜欢看那些老物件，因为和只在课本里读年份相比，它们让我更真实地感受到过去。"
+          "answer": "Yes, I remember visiting a history museum and looking at old objects. I'd say they made the past feel more real than the dates in a textbook.",
+          "memoryChunks": [
+            "visiting a history museum",
+            "looking at old objects",
+            "made the past feel more real"
+          ],
+          "translation": "去过，我记得参观过历史博物馆，也看了不少老物件。我觉得它们比课本上的年代更能让人感受到过去。"
         },
         {
           "question": "Do you like history?",
-          "answer": "Yes, especially stories about how ordinary people lived in the past. I don't enjoy memorising lots of dates, but I like understanding why a place or a tradition has changed.",
-          "translation": "喜欢，尤其是过去普通人如何生活的故事。我不喜欢记很多年份，但我喜欢了解一个地方或一种传统为什么会发生变化。"
+          "answer": "I'm really into stories about how ordinary people lived. I don't enjoy memorising dates, but I like learning why places and traditions have changed.",
+          "memoryChunks": [
+            "really into stories",
+            "how ordinary people lived",
+            "don't enjoy memorising dates"
+          ],
+          "translation": "我很喜欢普通人过去如何生活的故事。我不喜欢背年代，但喜欢了解地方和传统为什么会变化。"
         },
         {
           "question": "When was the last time you read about history?",
-          "answer": "It was recently, when I read a short article about an old part of Beijing. I wanted to understand the buildings better, and the article explained what the area used to be like.",
-          "translation": "就是最近，我读过一篇介绍北京老城区的短文章。我想更了解那些建筑，而那篇文章讲了这一带过去的样子。"
+          "answer": "I recently read an article about an old part of Beijing. It helped me understand the buildings better. I'd say knowing a little history makes a place more interesting.",
+          "memoryChunks": [
+            "an old part of Beijing",
+            "understand the buildings better",
+            "history makes a place more interesting"
+          ],
+          "translation": "我最近读过一篇介绍北京老城区的文章，更了解了那里的建筑。我觉得知道一点历史，会让一个地方更有意思。"
         },
         {
           "question": "Did you like history when you were young?",
-          "answer": "A little. I enjoyed historical stories when I was young, but remembering dates for exams was less interesting. I usually understood the subject better when a teacher explained it through a story.",
-          "translation": "有一点喜欢。小时候我喜欢历史故事，但为了考试记年份就没那么有趣。老师通过故事来讲解时，我通常能更好地理解历史。"
+          "answer": "When I was a kid, I enjoyed historical stories more than memorising dates. I remember learning better when a teacher explained the subject through a story.",
+          "memoryChunks": [
+            "historical stories more than memorising dates",
+            "learning better",
+            "through a story"
+          ],
+          "translation": "小时候，比起背年代，我更喜欢历史故事。我记得老师用故事讲解时，我会学得更明白。"
         }
-      ],
-      "keyPhrases": [
-        "made the past feel more real",
-        "ordinary people lived in the past",
-        "what the area used to be like",
-        "explained it through a story"
       ],
       "sourceOrder": 22
     },
@@ -897,48 +1226,76 @@ window.IELTS_DATA = {
       "items": [
         {
           "question": "What films do you like?",
-          "answer": "I like comedies and films about everyday life. They help me relax after work, and I enjoy stories where the characters face problems that I can understand.",
-          "translation": "我喜欢喜剧和讲日常生活的电影。它们能让我在下班后放松，而且我喜欢角色面对的问题是我能够理解的那种故事。"
+          "answer": "I'm a big fan of comedies and films about everyday life. They put me in a good mood after work, especially when I can relate to the characters' problems.",
+          "memoryChunks": [
+            "comedies",
+            "films about everyday life",
+            "put me in a good mood"
+          ],
+          "translation": "我很喜欢喜剧和日常生活类电影。它们能让我下班后心情变好，尤其是能理解角色遇到的问题时。"
         },
         {
           "question": "Did you often watch films when you were a child?",
-          "answer": "Yes, I watched films quite often on television when I was a child. I especially liked animated films because the stories were easy to follow and the characters were funny.",
-          "translation": "是的，小时候我经常在电视上看电影。我尤其喜欢动画电影，因为故事容易看懂，角色也很有趣。"
+          "answer": "Yes, I used to watch films on television quite often. When I was a kid, I especially liked animated films because the stories were simple and the characters were funny.",
+          "memoryChunks": [
+            "used to watch films on television",
+            "animated films",
+            "stories were simple",
+            "characters were funny"
+          ],
+          "translation": "会，我以前常在电视上看电影。小时候尤其喜欢动画电影，因为故事简单，角色也有趣。"
         },
         {
           "question": "Did you ever go to the cinema alone as a child?",
-          "answer": "No, I didn't go to the cinema alone as a child. I usually watched films at home, and if I went to a cinema, an adult would normally come with me.",
-          "translation": "没有，我小时候不会独自去电影院。我通常在家看电影，如果去电影院，一般会有大人陪着我。"
+          "answer": "No. When I was a kid, I usually watched films at home. If I went to the cinema, an adult came with me instead of letting me go alone.",
+          "memoryChunks": [
+            "watched films at home",
+            "an adult came with me",
+            "instead of letting me go alone"
+          ],
+          "translation": "没有。小时候，我通常在家看电影。如果去电影院，大人会陪着我，而不会让我一个人去。"
         },
         {
           "question": "Do you often go to the cinema with your friends?",
           "answer": "Not very often these days, because it's hard to find a time that suits everyone. We sometimes go when there's a film we all want to see, but we usually meet for a meal instead.",
+          "memoryChunks": [
+            "hard to find a time",
+            "suits everyone",
+            "meet for a meal instead"
+          ],
           "translation": "现在不太经常，因为很难找到大家都有空的时间。如果有我们都想看的电影，有时也会去，但我们通常还是约着吃饭。"
         },
         {
           "question": "Do you think going to the cinema is a good way to spend time with friends?",
-          "answer": "Yes, I think it can be a good way to spend time together. We can enjoy the same story and discuss it afterwards, although I prefer having a meal together if we mainly want to chat.",
-          "translation": "是的，我觉得这是一起度过时光的好方式。我们可以看同一个故事，结束后再讨论；不过，如果主要想聊天，我更喜欢一起吃饭。"
+          "answer": "Yes, it's a great way to enjoy a story together and talk about it afterwards. However, if we mainly want to chat, I prefer having a meal together instead.",
+          "memoryChunks": [
+            "enjoy a story together",
+            "talk about it afterwards",
+            "having a meal together instead"
+          ],
+          "translation": "是的，这是一起欣赏故事、之后再聊聊的好方式。不过，如果主要是想聊天，我更愿意一起吃饭。"
         },
         {
           "question": "How often do you watch films?",
-          "answer": "I usually watch a film at home at the weekend if I have time. I don't try to watch everything new; I just choose something that looks enjoyable and suits my mood.",
-          "translation": "如果有时间，我通常会在周末在家看一部电影。我不会追着看所有新片，只会选看起来有趣、又符合当时心情的电影。"
+          "answer": "On weekends, I usually watch a film at home if I have time. It really depends on my mood. I choose something enjoyable rather than trying to watch every new release.",
+          "memoryChunks": [
+            "On weekends",
+            "watch a film at home",
+            "depends on my mood"
+          ],
+          "translation": "周末有空时，我通常会在家看部电影。主要看当时的心情。我会选一部想看的，不会追着看所有新片。"
         },
         {
           "question": "Do you prefer to watch films at home or in the cinema?",
           "answer": "I prefer watching films at home because it's comfortable and costs less. My wife and I can choose a convenient time, and we can pause the film if we need a break.",
+          "memoryChunks": [
+            "prefer watching films at home",
+            "comfortable and costs less",
+            "choose a convenient time",
+            "pause the film"
+          ],
           "translation": "我更喜欢在家看电影，因为舒服，也更省钱。我和妻子可以选方便的时间，需要休息时还可以暂停。"
         }
-      ],
-      "keyPhrases": [
-        "films about everyday life",
-        "easy to follow",
-        "come with me",
-        "a time that suits everyone",
-        "discuss it afterwards",
-        "suits my mood",
-        "pause the film"
       ],
       "sourceOrder": 23
     },
@@ -951,30 +1308,45 @@ window.IELTS_DATA = {
       "items": [
         {
           "question": "Have you ever seen old buildings in the city?",
-          "answer": "Yes, I see traditional houses in some older parts of Beijing. I like how they look different from the modern buildings around them, and they make the city more interesting to walk around.",
-          "translation": "见过，在北京一些老城区能看到传统住宅。我喜欢它们和周围现代建筑不同的样子，它们也让在城里散步变得更有趣。"
+          "answer": "Yes, there are quite a few traditional houses in older parts of Beijing. Compared to modern buildings, they have a different look, which makes the city more interesting.",
+          "memoryChunks": [
+            "traditional houses",
+            "older parts of Beijing",
+            "Compared to modern buildings",
+            "a different look"
+          ],
+          "translation": "见过，北京老城区有不少传统民居。和现代建筑相比，它们的样子很不一样，让城市更有意思。"
         },
         {
           "question": "Do you think we should preserve old buildings in cities?",
           "answer": "Yes, especially buildings that show something important about local history. We can repair them and give them a useful purpose, so people can still enjoy them instead of only seeing old photos.",
+          "memoryChunks": [
+            "show something important about local history",
+            "repair them",
+            "give them a useful purpose"
+          ],
           "translation": "应该，尤其是能体现重要地方历史的建筑。我们可以修缮它们，让它们继续发挥作用，这样人们仍能欣赏它们，而不只是看老照片。"
         },
         {
           "question": "Do you prefer living in an old building or a modern house?",
-          "answer": "I'd prefer a modern home because comfort matters most to me. Old buildings can be beautiful, but I would want reliable heating, a clean bathroom and enough space for my everyday needs.",
-          "translation": "我更愿意住现代住宅，因为舒适对我最重要。老建筑可能很漂亮，但我希望住处有可靠的供暖、干净的浴室，还有满足日常需要的空间。"
+          "answer": "I prefer a modern home because comfort matters most to me. For instance, I'd want reliable heating, a clean bathroom and enough space for daily life.",
+          "memoryChunks": [
+            "prefer a modern home",
+            "comfort matters most",
+            "reliable heating"
+          ],
+          "translation": "我更喜欢现代住宅，因为我最看重舒适度。比如，我希望供暖可靠、浴室干净，日常生活空间也够用。"
         },
         {
           "question": "Are there any old buildings you want to see in the future? Why?",
           "answer": "I'd like to spend more time visiting traditional courtyards in Beijing. I'm curious about how people used to live there, and I enjoy places where I can walk slowly and notice small details.",
+          "memoryChunks": [
+            "traditional courtyards in Beijing",
+            "how people used to live there",
+            "notice small details"
+          ],
           "translation": "以后我想多花些时间参观北京的传统四合院。我很好奇人们过去在那里如何生活，也喜欢可以慢慢走、观察小细节的地方。"
         }
-      ],
-      "keyPhrases": [
-        "older parts of Beijing",
-        "give them a useful purpose",
-        "comfort matters most to me",
-        "traditional courtyards"
       ],
       "sourceOrder": 24
     },
@@ -988,41 +1360,63 @@ window.IELTS_DATA = {
         {
           "question": "What kind of clothes do you like to wear?",
           "answer": "I usually wear simple, comfortable clothes, such as T-shirts and trousers. I spend a lot of time sitting at a desk, so I prefer clothes that let me move easily and don't feel too tight.",
+          "memoryChunks": [
+            "simple, comfortable clothes",
+            "sitting at a desk",
+            "let me move easily",
+            "don't feel too tight"
+          ],
           "translation": "我通常穿简单舒服的衣服，比如 T 恤和长裤。我很多时间都坐在桌前，所以更喜欢方便活动、不会太紧的衣服。"
         },
         {
           "question": "Do you prefer to wear comfortable and casual clothes or smart clothes?",
-          "answer": "I prefer comfortable and casual clothes for everyday life. They suit my work and make me feel relaxed, but I'd wear something smarter for an important meeting or a special occasion.",
-          "translation": "日常生活中，我更喜欢舒服休闲的衣服。它们适合我的工作，也让我感觉自在；不过，重要会议或特别场合我会穿得正式一些。"
+          "answer": "I prefer comfortable, casual clothes because they suit my everyday life. I wear smarter clothes for important meetings instead, but comfort still matters.",
+          "memoryChunks": [
+            "comfortable, casual clothes",
+            "suit my everyday life",
+            "smarter clothes for important meetings"
+          ],
+          "translation": "我更喜欢舒适的休闲服，因为适合日常生活。重要会议时会换成更正式的衣服，但舒适度仍然重要。"
         },
         {
           "question": "Do you like wearing T-shirts?",
           "answer": "Yes, I wear T-shirts quite often, especially in warm weather. They're easy to wash and match with other clothes, so I don't need to spend much time getting dressed.",
+          "memoryChunks": [
+            "wear T-shirts quite often",
+            "easy to wash and match"
+          ],
           "translation": "喜欢，我经常穿 T 恤，尤其是天气暖和的时候。它们容易清洗，也容易搭配，所以穿衣服不用花太多时间。"
         },
         {
           "question": "Do you spend a lot of time choosing clothes?",
-          "answer": "No, I usually decide quite quickly because most of my clothes are simple. I mainly check the weather and where I'm going, then choose something comfortable that fits the occasion.",
-          "translation": "不会，我通常很快就能决定，因为我的衣服大多很简单。我主要看看天气和要去哪里，然后选择舒服、适合那个场合的衣服。"
+          "answer": "Not really, to be honest. Most of my clothes are simple, so I choose quickly. I just make sure I check the weather and where I'm going.",
+          "memoryChunks": [
+            "clothes are simple",
+            "choose quickly",
+            "check the weather and where I'm going"
+          ],
+          "translation": "说实话，不会花很久。我的衣服大多很简单，所以选得很快。我只要确认一下天气和要去哪里就好。"
         },
         {
           "question": "Do you wear clothes of different styles on weekdays and weekends?",
-          "answer": "There's not a big difference because my work clothes are already quite casual. At weekends, I might wear sports clothes if I'm going for a walk, but comfort is important on both occasions.",
-          "translation": "区别不大，因为我的工作服装本来就比较休闲。周末如果出去散步，我可能穿运动服，但无论什么时候，舒适都很重要。"
+          "answer": "Most of the time, there's not much difference because my work clothes are already casual. On weekends, I might wear sports clothes for a walk.",
+          "memoryChunks": [
+            "not much difference",
+            "work clothes are already casual",
+            "sports clothes"
+          ],
+          "translation": "大多数时候没什么区别，因为我的工作服装本来就比较休闲。周末散步时，我可能会穿运动服。"
         },
         {
           "question": "What colour clothes do you like?",
           "answer": "I like simple colours such as black, white and blue. They're easy to combine, and I can wear the same items in different ways without buying a lot of clothes.",
+          "memoryChunks": [
+            "black, white and blue",
+            "easy to combine",
+            "without buying a lot of clothes"
+          ],
           "translation": "我喜欢黑色、白色和蓝色这些简单的颜色。它们容易搭配，同一件衣服也能穿出不同的组合，不用买很多衣服。"
         }
-      ],
-      "keyPhrases": [
-        "simple, comfortable clothes",
-        "a special occasion",
-        "match with other clothes",
-        "fits the occasion",
-        "not a big difference",
-        "easy to combine"
       ],
       "sourceOrder": 25
     },
@@ -1035,36 +1429,52 @@ window.IELTS_DATA = {
       "items": [
         {
           "question": "Are you good at telling jokes?",
-          "answer": "Not really. I sometimes forget an important part of a joke, so it doesn't sound as funny as I expected. I'm better at making small, casual comments that make my friends laugh.",
-          "translation": "不太擅长。我有时会忘记笑话里的一个重要部分，所以讲出来没有预想中好笑。我更擅长随口说些小玩笑，让朋友们笑一笑。"
+          "answer": "Not really, to be honest. I sometimes forget an important part of a joke. I make small, funny comments instead, which feels more natural with friends.",
+          "memoryChunks": [
+            "forget an important part",
+            "small, funny comments instead",
+            "more natural with friends"
+          ],
+          "translation": "说实话，不太擅长。我有时会忘掉笑话里的关键部分，所以会改成随口说些有趣的话，和朋友聊天时这样更自然。"
         },
         {
           "question": "Do your friends like to tell jokes?",
-          "answer": "Yes, some of my friends like sharing funny stories or short videos. They usually do it when we're chatting after work, and it helps everyone relax and forget about a busy day.",
-          "translation": "喜欢，我的一些朋友喜欢分享搞笑的故事或短视频。他们通常在下班聊天时分享，这能让大家放松，暂时忘记忙碌的一天。"
+          "answer": "Yes, quite a few of my friends share funny stories or videos after work. It puts me in a good mood and helps us forget about a busy day.",
+          "memoryChunks": [
+            "funny stories or videos",
+            "puts me in a good mood"
+          ],
+          "translation": "会，不少朋友下班后会分享有趣的故事或视频。这让我心情变好，也能让大家暂时忘掉一天的忙碌。"
         },
         {
           "question": "Do you like to watch comedies?",
-          "answer": "Yes, I enjoy comedies because they're an easy way to relax. After a tiring day, I'd rather watch something light and funny than a serious film that needs a lot of concentration.",
-          "translation": "喜欢，喜剧是很轻松的放松方式。累了一天之后，我更愿意看轻松好笑的内容，而不是需要非常专注的严肃电影。"
+          "answer": "Yes, I'm a big fan of comedies. After a tiring day, I prefer something light and funny because I don't want to concentrate on a serious story.",
+          "memoryChunks": [
+            "a big fan of comedies",
+            "something light and funny"
+          ],
+          "translation": "喜欢，我很爱看喜剧。累了一天后，我更喜欢轻松搞笑的内容，因为不想再费心看严肃的故事。"
         },
         {
           "question": "Have you ever watched a live show?",
-          "answer": "I haven't been to a live comedy show yet. I usually watch comedy online, but I'd like to try a live show because hearing the audience laugh together could be a fun experience.",
-          "translation": "我还没去现场看过喜剧表演。我通常在网上看，不过我想试试现场演出，因为和全场观众一起笑可能会很有趣。"
+          "answer": "I haven't been to a live comedy show yet. I usually watch online, but I'd love to try a live show and hear the audience laughing together.",
+          "memoryChunks": [
+            "haven't been to a live comedy show yet",
+            "watch online",
+            "audience laughing together"
+          ],
+          "translation": "我还没去过现场喜剧演出，通常在网上看。但我很想去试试，听听观众一起大笑的声音。"
         },
         {
           "question": "Are comedy shows popular in your country?",
-          "answer": "Yes, I think comedy shows are quite popular in China. Many people enjoy a short, funny performance after work, and clips are easy to share with friends online.",
-          "translation": "是的，我觉得喜剧节目在中国挺受欢迎。很多人喜欢下班后看一小段有趣的表演，而且片段很容易在网上分享给朋友。"
+          "answer": "I'd say they're quite popular in China. People enjoy a short, funny show after work. Plus, they can easily share clips with friends online.",
+          "memoryChunks": [
+            "quite popular in China",
+            "a short, funny show",
+            "share clips with friends"
+          ],
+          "translation": "我觉得喜剧节目在中国很受欢迎。人们下班后喜欢看简短有趣的节目，而且也很容易在网上把片段分享给朋友。"
         }
-      ],
-      "keyPhrases": [
-        "as funny as I expected",
-        "sharing funny stories",
-        "something light and funny",
-        "a live comedy show",
-        "easy to share"
       ],
       "sourceOrder": 26
     },
@@ -1078,35 +1488,53 @@ window.IELTS_DATA = {
         {
           "question": "Do you use headphones?",
           "answer": "Yes, I use headphones for English listening practice and online meetings. They help me hear more clearly, and I can listen to something without disturbing the people around me.",
+          "memoryChunks": [
+            "English listening practice and online meetings",
+            "hear more clearly",
+            "without disturbing the people around me"
+          ],
           "translation": "用，我会用耳机练英语听力、参加线上会议。耳机让我听得更清楚，也能避免打扰周围的人。"
         },
         {
           "question": "What type of headphones do you use?",
           "answer": "I prefer small wireless earphones because they're easy to carry. I can keep them in my bag and connect them to my phone quickly, which is useful when I'm travelling to work.",
+          "memoryChunks": [
+            "prefer small wireless earphones",
+            "easy to carry",
+            "connect them to my phone quickly"
+          ],
           "translation": "我更喜欢小巧的无线耳机，因为方便携带。我可以把它们放在包里，很快连接到手机，上下班路上用起来很方便。"
         },
         {
           "question": "When would you use headphones?",
-          "answer": "I usually use them when I'm listening to English or joining a meeting on my computer. I also use them on public transport, so other passengers don't have to hear what I'm listening to.",
-          "translation": "我通常在听英语或用电脑开会时戴耳机。我坐公共交通时也会使用，这样其他乘客就不用听我正在播放的内容了。"
+          "answer": "I use them for English listening and online meetings. I also wear them on public transport. It's convenient for me to listen without disturbing other passengers.",
+          "memoryChunks": [
+            "English listening and online meetings",
+            "on public transport",
+            "without disturbing other passengers"
+          ],
+          "translation": "我用耳机练英语听力、参加线上会议，也会在公共交通上用。这样听东西方便，又不会打扰其他乘客。"
         },
         {
           "question": "In what conditions would you not use headphones?",
-          "answer": "I wouldn't wear headphones when crossing a busy road because I need to hear the traffic. I also take them off when someone is speaking to me, so I can pay full attention.",
-          "translation": "过繁忙马路时我不会戴耳机，因为需要听见车辆的声音。有人和我说话时，我也会摘下来，这样能认真听对方说话。"
+          "answer": "I don't wear them when crossing a busy road. I make sure I can hear the traffic. I also take them off when someone talks to me, so I can pay attention.",
+          "memoryChunks": [
+            "don't wear them when crossing a busy road",
+            "hear the traffic",
+            "take them off"
+          ],
+          "translation": "过繁忙的马路时，我不会戴耳机，要确保能听见车流声。别人和我说话时，我也会摘掉，认真听对方说话。"
         },
         {
           "question": "Is wearing headphones comfortable?",
-          "answer": "Usually, yes, but my ears can feel uncomfortable if I wear them for too long. I try to take short breaks and keep the volume at a comfortable level.",
-          "translation": "通常挺舒服，但戴得太久，耳朵可能会不舒服。我会尽量隔一会儿休息一下，把音量保持在舒适的水平。"
+          "answer": "Usually, yes, but my ears feel a bit uncomfortable after a long time. That's why I take short breaks and keep the volume at a comfortable level.",
+          "memoryChunks": [
+            "a bit uncomfortable",
+            "take short breaks",
+            "volume at a comfortable level"
+          ],
+          "translation": "通常舒服，但戴久了耳朵会有点不舒服。所以我会短暂休息一下，把音量保持在舒适的水平。"
         }
-      ],
-      "keyPhrases": [
-        "without disturbing the people around me",
-        "easy to carry",
-        "on public transport",
-        "pay full attention",
-        "take short breaks"
       ],
       "sourceOrder": 27
     },
@@ -1119,30 +1547,44 @@ window.IELTS_DATA = {
       "items": [
         {
           "question": "Have you ever learnt about outer space and stars?",
-          "answer": "Yes, I learned some basic facts about planets at school. I still enjoy simple videos about space, especially when they use pictures to explain something that is difficult to imagine.",
-          "translation": "学过，在学校里我学过一些关于行星的基本知识。我现在仍喜欢看简单的太空视频，尤其喜欢那些用画面解释难以想象的事物的视频。"
+          "answer": "Yes. When I was a kid, I learned about planets at school. Now I enjoy simple space videos because pictures make difficult ideas easier to understand.",
+          "memoryChunks": [
+            "planets at school",
+            "simple space videos",
+            "easier to understand"
+          ],
+          "translation": "学过。小时候，我在学校学过行星知识。现在我喜欢看简单的太空视频，因为图片能让难懂的概念更容易理解。"
         },
         {
           "question": "Do you like science fiction movies? Why?",
-          "answer": "Yes, especially films that imagine how people might live in the future. I work with technology, so I enjoy seeing unusual ideas, as long as the story is clear and interesting.",
-          "translation": "喜欢，尤其是那些想象人类未来如何生活的电影。我的工作和科技有关，所以我喜欢看新奇的想法，只要故事清楚、有趣就好。"
+          "answer": "Yes, I'm really into films about life in the future. I enjoy unusual ideas, but I prefer a clear story because I want to follow what's happening easily.",
+          "memoryChunks": [
+            "films about life in the future",
+            "enjoy unusual ideas",
+            "prefer a clear story"
+          ],
+          "translation": "喜欢，我很喜欢讲未来生活的电影。我喜欢新奇的想法，但更愿意看故事清楚的电影，因为容易跟上情节。"
         },
         {
           "question": "Do you want to know more about outer space?",
-          "answer": "Yes, I'd like to know more about how astronauts live and work in space. Their daily tasks seem very different from ours, so even ordinary things like eating could be interesting to learn about.",
-          "translation": "想，我想多了解宇航员在太空里如何生活和工作。他们的日常任务似乎和我们很不同，所以即使是吃饭这样的普通事情也值得了解。"
+          "answer": "Yes, I'd love to know how astronauts live and work in space. For instance, even eating a meal is different there, so their daily lives seem interesting.",
+          "memoryChunks": [
+            "how astronauts live and work",
+            "eating a meal is different",
+            "daily lives seem interesting"
+          ],
+          "translation": "想，我很想知道宇航员怎样在太空生活和工作。比如，那里连吃饭都不一样，所以他们的日常生活很有意思。"
         },
         {
           "question": "Do you want to go into outer space in the future?",
-          "answer": "Probably not, although the view would be amazing. I think I'd find the journey stressful, and I'd rather learn about space through films and videos from the comfort of my home.",
-          "translation": "可能不想，虽然景色应该很震撼。但我觉得那样的旅程会让我紧张，我更愿意舒舒服服地在家通过电影和视频了解太空。"
+          "answer": "Not really, to be honest. The view would be amazing, but I'd find the journey stressful. I prefer watching space videos because I can stay comfortable at home.",
+          "memoryChunks": [
+            "find the journey stressful",
+            "prefer watching space videos",
+            "stay comfortable at home"
+          ],
+          "translation": "说实话，不太想。景色应该很棒，但旅程会让我有压力。我更愿意看太空视频，因为可以舒服地待在家里。"
         }
-      ],
-      "keyPhrases": [
-        "difficult to imagine",
-        "live in the future",
-        "live and work in space",
-        "from the comfort of my home"
       ],
       "sourceOrder": 28
     },
@@ -1156,41 +1598,64 @@ window.IELTS_DATA = {
         {
           "question": "Do you like singing? Why?",
           "answer": "Yes, I enjoy singing along to songs when I'm alone. I'm not a good singer, but it helps me relax, and I don't need any special equipment to enjoy it.",
+          "memoryChunks": [
+            "singing along to songs when I'm alone",
+            "helps me relax",
+            "don't need any special equipment"
+          ],
           "translation": "喜欢，我一个人时喜欢跟着歌唱。虽然唱得不好，但这能让我放松，而且不用任何特别的设备就能享受唱歌。"
         },
         {
           "question": "Have you ever learnt how to sing?",
-          "answer": "Only in school music lessons, where we learned some simple songs together. I haven't had professional training, so I mainly sing for fun rather than trying to perform well.",
-          "translation": "只在学校音乐课上学过，我们一起学过一些简单的歌曲。我没有接受过专业训练，所以主要是为了开心而唱，不会刻意追求唱得多好。"
+          "answer": "Only in school music lessons. When I was a kid, we learned simple songs together. I haven't had professional training, so I mainly sing for fun.",
+          "memoryChunks": [
+            "school music lessons",
+            "learned simple songs together",
+            "haven't had professional training",
+            "sing for fun"
+          ],
+          "translation": "只在学校音乐课上学过。小时候，我们一起学简单的歌曲。我没接受过专业训练，主要就是唱着玩。"
         },
         {
           "question": "Who do you want to sing for?",
-          "answer": "I'd be happy to sing for my wife or a few close friends. I would feel more comfortable with people I know well, especially if we could all sing together.",
-          "translation": "我很愿意唱给妻子或几个好朋友听。和熟悉的人在一起，我会更自在，特别是大家可以一起唱的时候。"
+          "answer": "I'd love to sing for my wife or a few close friends. It makes me feel more comfortable when I know everyone, especially if we sing together.",
+          "memoryChunks": [
+            "my wife or a few close friends",
+            "more comfortable",
+            "sing together"
+          ],
+          "translation": "我很愿意唱给妻子或几个好朋友听。大家都熟悉时，我会更自在，尤其是一起唱的时候。"
         },
         {
           "question": "Do you think singing can bring happiness to people?",
-          "answer": "Yes, I think it can, even if someone doesn't sing very well. A favourite song can bring back good memories, and singing with other people can make you feel closer to them.",
-          "translation": "我觉得可以，即使唱得不是很好也可以。喜欢的歌能唤起美好的回忆，和别人一起唱歌也能让彼此更亲近。"
+          "answer": "Yes, I'd say it can. A favourite song brings back good memories. Plus, singing together can help people feel closer, even if they don't sing very well.",
+          "memoryChunks": [
+            "brings back good memories",
+            "singing together",
+            "help people feel closer"
+          ],
+          "translation": "会，我觉得可以。喜欢的歌能带回美好回忆，而且一起唱歌能拉近关系，即使唱得不太好也一样。"
         },
         {
           "question": "Do you like listening to others singing?",
-          "answer": "Yes, especially when someone sings a song I know. I enjoy hearing different voices, but I prefer a relaxed performance to one where everyone is worrying about making mistakes.",
-          "translation": "喜欢，特别是别人唱我熟悉的歌时。我喜欢听不同的声音，不过我更喜欢轻松的表演，而不是所有人都担心出错的表演。"
+          "answer": "Yes, especially if I know the song. I prefer a relaxed performance because I enjoy hearing different voices without worrying about mistakes.",
+          "memoryChunks": [
+            "prefer a relaxed performance",
+            "hearing different voices",
+            "without worrying about mistakes"
+          ],
+          "translation": "喜欢，尤其是我知道的歌。我更喜欢轻松的表演，因为可以欣赏不同的声音，不用担心唱错。"
         },
         {
           "question": "Have you ever taken a singing class?",
-          "answer": "I've had ordinary music lessons at school, but I've never taken a separate singing course. If I wanted to improve, I'd start with a few simple lessons rather than a long training programme.",
-          "translation": "我在学校上过普通音乐课，但从没单独报过声乐课程。如果想唱得更好，我会先上几节简单的课，而不是参加长期训练。"
+          "answer": "I had music lessons at school, but no separate singing course. I'd love to improve a little, so I'd start with a few simple lessons instead of a long programme.",
+          "memoryChunks": [
+            "music lessons at school",
+            "improve a little",
+            "a few simple lessons instead of a long programme"
+          ],
+          "translation": "我在学校上过音乐课，但没单独学过唱歌。我很想进步一点，所以会先上几节简单的课，而不是长期课程。"
         }
-      ],
-      "keyPhrases": [
-        "singing along to songs",
-        "sing for fun",
-        "people I know well",
-        "bring back good memories",
-        "hearing different voices",
-        "a separate singing course"
       ],
       "sourceOrder": 29
     },
@@ -1203,42 +1668,65 @@ window.IELTS_DATA = {
       "items": [
         {
           "question": "Do you like science?",
-          "answer": "Yes, I like science when I can connect it with everyday life. I enjoy finding out how things work, which is also one reason I like being a software engineer.",
-          "translation": "喜欢，尤其是能和日常生活联系起来的科学。我喜欢弄明白事物如何运作，这也是我喜欢做软件工程师的原因之一。"
+          "answer": "Yes, I'm really into finding out how everyday things work. It helps me understand the world, and it's one reason I enjoy being a software engineer.",
+          "memoryChunks": [
+            "finding out how everyday things work",
+            "understand the world",
+            "being a software engineer"
+          ],
+          "translation": "喜欢，我很爱了解日常事物是怎么运作的。这能让我理解世界，也是我喜欢做软件工程师的原因之一。"
         },
         {
           "question": "When did you start to learn about science?",
-          "answer": "I first learned basic science at primary school. We talked about things like plants and the weather, and simple examples helped me understand ideas that would have been difficult to learn from words alone.",
-          "translation": "我最早是在小学接触基础科学的。我们学过植物、天气之类的内容，简单的例子让我理解了一些单靠文字比较难懂的知识。"
+          "answer": "When I was a kid, I learned basic science at primary school. For instance, we learned about plants and the weather through simple examples.",
+          "memoryChunks": [
+            "basic science at primary school",
+            "plants and the weather",
+            "through simple examples"
+          ],
+          "translation": "小时候，我在小学学过基础科学。比如，我们通过简单的例子学习植物和天气的知识。"
         },
         {
           "question": "Which science subject is interesting to you?",
-          "answer": "Physics is interesting to me because it explains things we use every day. For example, I like learning about electricity, although I prefer simple explanations to complicated calculations.",
-          "translation": "我对物理挺感兴趣，因为它能解释我们每天使用的东西。比如，我喜欢了解电的知识，不过我更喜欢简单的解释，不太喜欢复杂的计算。"
+          "answer": "I'd say physics is interesting because it explains things we use every day. I'm really into simple explanations of electricity, although complicated calculations are still difficult for me.",
+          "memoryChunks": [
+            "explains things we use every day",
+            "simple explanations of electricity",
+            "complicated calculations are still difficult"
+          ],
+          "translation": "我觉得物理有意思，因为它解释了日常使用的东西。我很喜欢简单地了解电的原理，不过复杂的计算对我来说仍然很难。"
         },
         {
           "question": "What kinds of interesting things have you done with science?",
-          "answer": "I've used ideas about logic to write simple computer programs. It can be satisfying to change one small part, test the result and finally understand why something wasn't working.",
-          "translation": "我用过逻辑方面的知识来写简单的计算机程序。修改一个小部分、测试结果，最后弄明白之前为什么不能正常运行，会让我很有成就感。"
+          "answer": "I've used logic to write simple computer programs. I remember changing one small part and testing it again. It makes me feel pleased when I finally solve the problem.",
+          "memoryChunks": [
+            "write simple computer programs",
+            "changing one small part",
+            "testing it again",
+            "solve the problem"
+          ],
+          "translation": "我用逻辑知识写过简单的程序。我记得改动一个小部分，再重新测试。最终解决问题时，我会很开心。"
         },
         {
           "question": "Do you like watching science TV programs?",
-          "answer": "Yes, sometimes, especially programmes that explain everyday questions clearly. I like seeing a simple experiment rather than just hearing a long explanation, because it's easier to remember what happens.",
-          "translation": "有时喜欢看，尤其是能把日常问题解释清楚的节目。我更喜欢看简单的实验，而不是听很长的讲解，因为实验过程更容易记住。"
+          "answer": "Yes, once in a while. I prefer programmes with simple experiments because I can see what happens. That makes the ideas easier to remember.",
+          "memoryChunks": [
+            "programmes with simple experiments",
+            "see what happens",
+            "easier to remember"
+          ],
+          "translation": "看，偶尔会看。我更喜欢有简单实验的节目，因为可以看到实际发生了什么，也更容易记住那些原理。"
         },
         {
           "question": "Do Chinese people often visit science museums?",
-          "answer": "I think some do, especially families with children. Science museums can give children a chance to try things themselves, although how often people visit probably depends on where they live.",
-          "translation": "我觉得有些人经常去，尤其是有孩子的家庭。科技馆能让孩子有机会亲手尝试，不过人们去得多不多，可能也取决于住在哪里。"
+          "answer": "I'd say some do, especially families with children. Science museums let children try things themselves, but visits depend on how far from the museum they live.",
+          "memoryChunks": [
+            "families with children",
+            "try things themselves",
+            "how far from the museum they live"
+          ],
+          "translation": "我觉得有些人会，尤其是带孩子的家庭。科技馆能让孩子亲手尝试，不过去得多不多，也取决于家离科技馆有多远。"
         }
-      ],
-      "keyPhrases": [
-        "finding out how things work",
-        "basic science",
-        "simple explanations",
-        "test the result",
-        "a simple experiment",
-        "try things themselves"
       ],
       "sourceOrder": 30
     },
@@ -1251,42 +1739,66 @@ window.IELTS_DATA = {
       "items": [
         {
           "question": "Did you enjoy travelling by car when you were a kid?",
-          "answer": "Yes, especially when the journey was part of a family outing. I liked looking out of the window, although sitting in the car for a very long time could make me bored.",
-          "translation": "喜欢，尤其是和家人一起出去玩的时候。我喜欢看窗外，不过在车里坐太久也会觉得无聊。"
+          "answer": "Yes. When I was a kid, I liked family trips by car. Looking out of the window helped me pass the time, although very long journeys could be boring.",
+          "memoryChunks": [
+            "family trips by car",
+            "Looking out of the window",
+            "pass the time"
+          ],
+          "translation": "喜欢。小时候，我喜欢和家人坐车出游。看窗外能帮我打发时间，不过路程太长也会无聊。"
         },
         {
           "question": "What types of cars do you like?",
-          "answer": "I like small, practical cars that are easy to park. I don't care much about an expensive brand; I would mainly look for something comfortable that doesn't cost too much to run.",
-          "translation": "我喜欢小巧实用、方便停车的车。我不太在意昂贵的品牌，主要想选舒服、日常使用开销又不太高的车。"
+          "answer": "I prefer small, practical cars because they're easy to park. I don't want to spend too much money on a car, so comfort and running costs matter more than the brand.",
+          "memoryChunks": [
+            "small, practical cars",
+            "easy to park",
+            "comfort and running costs"
+          ],
+          "translation": "我更喜欢小巧实用的车，因为好停车。我不想在车上花太多钱，所以相比品牌，更在意舒适度和使用成本。"
         },
         {
           "question": "Do you prefer to be a driver or a passenger?",
           "answer": "I prefer being a passenger because I can relax and enjoy the view. In a busy city, driving means paying attention all the time, and finding a parking space can be stressful.",
+          "memoryChunks": [
+            "prefer being a passenger",
+            "relax and enjoy the view",
+            "finding a parking space can be stressful"
+          ],
           "translation": "我更喜欢当乘客，因为可以放松、看看风景。在繁忙的城市里，开车需要一直集中注意力，找停车位也可能让人紧张。"
         },
         {
           "question": "What do you usually do when there is a traffic jam?",
-          "answer": "If I'm a passenger, I usually listen to music or look out of the window. If it seems that I'll be late, I send a quick message to the person who's waiting for me.",
-          "translation": "如果我是乘客，我通常会听音乐或看看窗外。如果看起来会迟到，我会赶紧给等我的人发条消息。"
+          "answer": "If I'm a passenger, I listen to music or look out of the window to pass the time. If I'll be late, I send a quick message to the person waiting for me.",
+          "memoryChunks": [
+            "If I'm a passenger",
+            "pass the time",
+            "If I'll be late",
+            "send a quick message"
+          ],
+          "translation": "如果我是乘客，我会听音乐或看窗外来打发时间。如果要迟到了，我会给等我的人发条消息。"
         },
         {
           "question": "Do you think car colours are important?",
-          "answer": "I think colour matters a little, but it's less important than safety and comfort. I'd choose a simple colour that I wouldn't get tired of, rather than something very bright just to attract attention.",
-          "translation": "我觉得颜色有一点重要，但没有安全和舒适重要。我会选一种不容易看腻的简单颜色，而不是只为了吸引注意而选特别鲜艳的颜色。"
+          "answer": "I'd say colour matters less than safety and comfort. I prefer simple colours because I don't get tired of them easily. I don't need a bright colour to attract attention.",
+          "memoryChunks": [
+            "less than safety and comfort",
+            "prefer simple colours",
+            "don't get tired of them easily"
+          ],
+          "translation": "我觉得颜色没有安全和舒适重要。我更喜欢简单的颜色，因为不容易看腻，也不需要用鲜艳的颜色吸引注意。"
         },
         {
           "question": "Will you buy an expensive car in the future?",
-          "answer": "Probably not. I'd rather choose a reliable car that meets my needs and save the extra money for other things. An expensive car would also cost more to maintain.",
-          "translation": "可能不会。我更愿意选一辆可靠、能满足需求的车，把省下来的钱用于其他事情。而且昂贵的车保养起来也更贵。"
+          "answer": "Not really, to be honest. I prefer a reliable car because it meets my needs and costs less to maintain. I'd rather save the extra money for other things.",
+          "memoryChunks": [
+            "prefer a reliable car",
+            "meets my needs",
+            "costs less to maintain",
+            "save the extra money"
+          ],
+          "translation": "说实话，不太想。我更喜欢可靠的车，因为满足需要、保养成本也低。我宁愿把多余的钱省下来做其他事。"
         }
-      ],
-      "keyPhrases": [
-        "looking out of the window",
-        "easy to park",
-        "enjoy the view",
-        "send a quick message",
-        "safety and comfort",
-        "meets my needs"
       ],
       "sourceOrder": 31
     },
@@ -1299,30 +1811,44 @@ window.IELTS_DATA = {
       "items": [
         {
           "question": "Did you like going to parks as a child?",
-          "answer": "Yes, I enjoyed going to parks as a child because there was space to run around. It felt more exciting than staying indoors, especially when I could play with other children.",
-          "translation": "喜欢，小时候我喜欢去公园，因为那里有地方可以跑跑跳跳。特别是能和其他孩子一起玩的时候，比待在室内有趣多了。"
+          "answer": "Yes. When I was a kid, I enjoyed running around in parks. It was a great way to play with other children instead of staying indoors.",
+          "memoryChunks": [
+            "running around in parks",
+            "play with other children",
+            "instead of staying indoors"
+          ],
+          "translation": "喜欢。小时候，我爱在公园跑来跑去。这是和其他孩子一起玩、走出室内的好方式。"
         },
         {
           "question": "Do you still like going to parks now?",
           "answer": "Yes, but now I usually go for a quiet walk rather than to play. A park is a useful place to take a break from screens and get some fresh air after work.",
+          "memoryChunks": [
+            "a quiet walk rather than to play",
+            "take a break from screens",
+            "get some fresh air"
+          ],
           "translation": "现在也喜欢，不过我通常是安静地散散步，不像小时候那样去玩。下班后去公园走走，能暂时离开屏幕，呼吸一点新鲜空气。"
         },
         {
           "question": "Would you like to see more parks in your country?",
-          "answer": "Yes, especially in busy neighbourhoods where people don't have much outdoor space. Even a small park could give nearby residents somewhere to walk, exercise and spend time together.",
-          "translation": "希望有更多，尤其是在户外空间不多的繁忙社区。即使是小公园，也能让附近居民有地方散步、运动和相处。"
+          "answer": "Yes, I'd love to see more parks in busy neighbourhoods. People need somewhere to walk and exercise. It's a great way to spend time together outdoors.",
+          "memoryChunks": [
+            "more parks in busy neighbourhoods",
+            "walk and exercise",
+            "spend time together outdoors"
+          ],
+          "translation": "希望，尤其是在繁忙的社区。人们需要散步和运动的地方，也能在户外一起相处。"
         },
         {
           "question": "Are there any parks you want to go to in the future?",
-          "answer": "I'd like to explore more parks in Beijing, especially ones with a lake or plenty of trees. I could visit with my wife at the weekend and enjoy a change from our usual routine.",
-          "translation": "我想多逛逛北京的公园，尤其是有湖或很多树的公园。周末我可以和妻子一起去，换一种不同于平时的生活节奏。"
+          "answer": "I'd love to explore more parks in Beijing, especially ones with lakes or trees. When I have free time, I could go with my wife for a change of scenery.",
+          "memoryChunks": [
+            "explore more parks in Beijing",
+            "lakes or trees",
+            "go with my wife"
+          ],
+          "translation": "我很想多逛逛北京的公园，尤其是有湖或很多树的。有空时，我可以和妻子一起去，换换环境。"
         }
-      ],
-      "keyPhrases": [
-        "space to run around",
-        "take a break from screens",
-        "outdoor space",
-        "a change from our usual routine"
       ],
       "sourceOrder": 32
     },
@@ -1335,30 +1861,45 @@ window.IELTS_DATA = {
       "items": [
         {
           "question": "Do you like shopping?",
-          "answer": "I like shopping when I actually need something, but I don't enjoy walking around shops for hours. I prefer having a clear idea of what to buy so I can avoid unnecessary spending.",
-          "translation": "确实需要买东西时，我喜欢购物，但不喜欢连续几个小时逛商店。我更愿意先想清楚要买什么，这样可以避免不必要的花费。"
+          "answer": "It really depends on whether I need something. I don't enjoy walking around shops for hours. I make sure I know what to buy, so I don't spend money unnecessarily.",
+          "memoryChunks": [
+            "whether I need something",
+            "don't enjoy walking around shops for hours",
+            "know what to buy"
+          ],
+          "translation": "主要看我是不是需要买东西。我不喜欢在店里逛好几个小时。我会确保自己知道要买什么，避免不必要的花费。"
         },
         {
           "question": "How often do you go shopping?",
-          "answer": "I buy everyday things fairly regularly, but I only shop for clothes or electronics when I need them. I usually make a short list first, so I don't forget anything important.",
-          "translation": "日常用品我买得比较规律，但衣服和电子产品只在需要时才买。我通常会先列个简短清单，以免忘记重要的东西。"
+          "answer": "I buy everyday things regularly, but clothes and electronics only when I need them. I make sure I write a short list first, so I don't forget anything.",
+          "memoryChunks": [
+            "everyday things regularly",
+            "only when I need them",
+            "write a short list first"
+          ],
+          "translation": "我会定期买日用品，但衣服和电子产品只在需要时才买。我会先写个小清单，避免漏买。"
         },
         {
           "question": "Do you prefer online shopping or in-store shopping?",
           "answer": "I usually prefer shopping online because I can compare prices without travelling anywhere. However, for things like shoes, I sometimes prefer a real shop so I can check how they fit.",
+          "memoryChunks": [
+            "prefer shopping online",
+            "compare prices",
+            "shoes",
+            "check how they fit"
+          ],
           "translation": "我通常更喜欢网购，因为不用出门就能比较价格。不过，买鞋这样的东西时，我有时更喜欢去实体店，可以看看合不合脚。"
         },
         {
           "question": "Have you ever returned anything you bought online?",
-          "answer": "Yes, I've returned clothes that didn't fit properly. I checked the return instructions and sent them back, but it still took some time, so now I read the size information more carefully.",
-          "translation": "退过，我退过尺码不合适的衣服。我查看退货说明后把它们寄了回去，但还是花了一些时间，所以现在会更仔细地看尺码信息。"
+          "answer": "Yes, I remember returning clothes that didn't fit. I followed the instructions and sent them back. Now I make sure I read the size information more carefully.",
+          "memoryChunks": [
+            "returning clothes that didn't fit",
+            "sent them back",
+            "read the size information more carefully"
+          ],
+          "translation": "退过，我记得退过不合身的衣服。我按说明把它们寄回去。现在我会确保更仔细地看尺码信息。"
         }
-      ],
-      "keyPhrases": [
-        "avoid unnecessary spending",
-        "make a short list",
-        "compare prices",
-        "didn't fit properly"
       ],
       "sourceOrder": 33
     },
@@ -1371,30 +1912,43 @@ window.IELTS_DATA = {
       "items": [
         {
           "question": "Do you wear a watch?",
-          "answer": "Yes, I like wearing a simple smart watch. It's useful for checking the time and my daily steps, and I don't need to take my phone out every time I want a quick look.",
-          "translation": "戴，我喜欢戴简单的智能手表。它方便看时间和每天的步数，而且不用每次想看一眼信息都掏出手机。"
+          "answer": "Yes, I wear a simple smart watch. It helps me check the time and my daily steps without taking my phone out every time.",
+          "memoryChunks": [
+            "a simple smart watch",
+            "check the time and my daily steps"
+          ],
+          "translation": "戴，我用一块简单的智能手表。它能帮我看时间和每天的步数，不用每次都掏手机。"
         },
         {
           "question": "Have you ever got a watch as a gift?",
-          "answer": "No, I haven't received a watch as a gift. I usually choose practical things like that myself, but I think a watch could be a thoughtful present if the giver knew my taste.",
-          "translation": "没有，我没有收到过作为礼物的手表。这类实用的东西我通常自己选，不过，如果送礼的人了解我的喜好，手表也会是一份用心的礼物。"
+          "answer": "No, I haven't. Most of the time, I choose practical things like watches myself. Still, I'd say a watch could be a nice gift if the giver knew my taste.",
+          "memoryChunks": [
+            "choose practical things like watches myself",
+            "a nice gift",
+            "if the giver knew my taste"
+          ],
+          "translation": "没有。大多数时候，手表这类实用品都是我自己选的。不过，如果送礼的人了解我的喜好，手表也会是不错的礼物。"
         },
         {
           "question": "Why do some people wear expensive watches?",
-          "answer": "I think some people like the design, while others see an expensive watch as a sign of success. Personally, I'd care more about whether it was comfortable and useful in daily life.",
-          "translation": "我觉得有些人喜欢它的设计，有些人则把昂贵的手表看作成功的象征。对我来说，我更在意它戴着舒不舒服、日常生活中是否实用。"
+          "answer": "It really depends on the person. Some like the design, while others see it as a sign of success. I'd say comfort and everyday use matter more to me.",
+          "memoryChunks": [
+            "like the design",
+            "a sign of success",
+            "comfort and everyday use matter more"
+          ],
+          "translation": "主要看个人。有些人喜欢设计，有些人把贵手表当作成功的象征。对我来说，舒适和日常用途更重要。"
         },
         {
           "question": "Do you think it is important to wear a watch? Why?",
-          "answer": "I think it's useful, but it isn't essential because most people can check the time on their phones. A watch is simply more convenient when your hands are full or your phone is in your bag.",
-          "translation": "我觉得有用，但不是必需品，因为大多数人用手机也能看时间。当双手拿着东西，或者手机放在包里时，手表只是更方便一些。"
+          "answer": "I'd say it's useful but not essential because phones can show the time too. A watch is more convenient when my hands are full or my phone is in my bag.",
+          "memoryChunks": [
+            "useful but not essential",
+            "phones can show the time",
+            "when my hands are full"
+          ],
+          "translation": "我觉得手表有用，但不是必需，因为手机也能看时间。手里拿满东西，或者手机放在包里时，手表更方便。"
         }
-      ],
-      "keyPhrases": [
-        "my daily steps",
-        "a thoughtful present",
-        "a sign of success",
-        "your hands are full"
       ],
       "sourceOrder": 34
     },
@@ -1407,48 +1961,77 @@ window.IELTS_DATA = {
       "items": [
         {
           "question": "What kinds of websites do you often visit?",
-          "answer": "I often visit websites about programming and English learning. I use them to find solutions for work and practise listening, so most of my online reading has a fairly clear purpose.",
-          "translation": "我经常访问编程和英语学习网站。我会用它们查找工作问题的解决办法、练习听力，所以我的大部分网上阅读都有比较明确的目的。"
+          "answer": "Most of the time, I visit programming and English-learning websites. It's convenient for me to find solutions for work and practise listening online.",
+          "memoryChunks": [
+            "programming and English-learning websites",
+            "find solutions for work",
+            "practise listening"
+          ],
+          "translation": "大多数时候，我会看编程和英语学习网站。在网上查工作问题的解决方法、练听力都很方便。"
         },
         {
           "question": "What is your favourite website?",
           "answer": "One website I particularly like is YouTube because I can find lessons on many subjects. For English practice, I prefer short videos with clear speech, so I can listen again without feeling overwhelmed.",
+          "memoryChunks": [
+            "particularly like is YouTube",
+            "find lessons on many subjects",
+            "short videos with clear speech"
+          ],
           "translation": "我特别喜欢的网站之一是 YouTube，因为可以找到很多不同科目的课程。练英语时，我更喜欢讲话清楚的短视频，方便反复听，也不会觉得压力太大。"
         },
         {
           "question": "Are there any changes to the websites you often visit?",
-          "answer": "Yes, many sites I use now have more videos and better search tools. That can make information easier to find, although extra pop-ups sometimes make a simple page more distracting.",
-          "translation": "有变化，我现在用的很多网站有了更多视频和更好的搜索工具。这让信息更容易找到，不过多出来的弹窗有时也会让简单的网页变得容易分散注意力。"
+          "answer": "Yes, there are more videos and better search tools now. It's convenient for me to find information, but extra pop-ups can make it harder to stay focused.",
+          "memoryChunks": [
+            "more videos and better search tools",
+            "find information",
+            "harder to stay focused"
+          ],
+          "translation": "有变化，现在视频更多，搜索工具也更好。查资料很方便，但额外的弹窗可能让人更难专注。"
         },
         {
           "question": "What kinds of websites are popular in your country?",
-          "answer": "I think shopping, video and news websites are quite popular in China. People use them to compare products, watch something entertaining or keep up with events, although many now access these services through apps.",
-          "translation": "我觉得购物、视频和新闻网站在中国挺受欢迎。人们用它们比较商品、看有趣的内容或了解时事，不过现在很多人通过应用程序使用这些服务。"
+          "answer": "I'd say shopping, video and news websites are popular. People use them to compare products, pass the time or follow events, although many now use apps for these things.",
+          "memoryChunks": [
+            "shopping, video and news websites",
+            "compare products",
+            "pass the time",
+            "follow events"
+          ],
+          "translation": "我觉得购物、视频和新闻网站很受欢迎。人们用它们比较产品、打发时间或了解时事，不过现在很多人通过应用做这些事。"
         },
         {
           "question": "Do you prefer getting information from websites or books?",
           "answer": "For a quick answer, I prefer websites because I can search for a specific question. If I want to understand a subject in depth, a well-organised book often helps me concentrate for longer.",
+          "memoryChunks": [
+            "For a quick answer",
+            "prefer websites",
+            "understand a subject in depth",
+            "a well-organised book"
+          ],
           "translation": "想快速找到答案时，我更喜欢网站，因为可以直接搜索具体问题。如果想深入了解一个主题，内容有条理的书通常能让我专注更长时间。"
         },
         {
           "question": "Would you like to have your own website?",
-          "answer": "Yes, I'd like to have a simple personal website to collect my learning notes. It would be useful to keep everything in one place, and I could share a link when someone needed help.",
-          "translation": "想，我想有一个简单的个人网站，用来整理学习笔记。把内容放在同一个地方很实用，别人需要帮助时，我也可以分享链接。"
+          "answer": "Yes, I'd love to have a simple website for my learning notes. It's a great way to keep everything together and share useful information with other people.",
+          "memoryChunks": [
+            "a simple website for my learning notes",
+            "keep everything together",
+            "share useful information"
+          ],
+          "translation": "想，我很愿意有个存放学习笔记的简单网站。这样能把资料放在一起，也方便和别人分享有用的信息。"
         },
         {
           "question": "What have you learned from websites that help with your life or studies?",
-          "answer": "I've learned useful programming skills and ways to practise English. A clear step-by-step explanation can help me solve a work problem, while short listening exercises make it easier to study a little every day.",
-          "translation": "我学到了实用的编程技能和练英语的方法。清楚的分步讲解能帮我解决工作中的问题，短听力练习则让我更容易坚持每天学一点。"
+          "answer": "I've learned programming skills and ways to practise English. For instance, a clear explanation can help me solve a work problem. Short listening exercises help me study regularly.",
+          "memoryChunks": [
+            "programming skills",
+            "ways to practise English",
+            "solve a work problem",
+            "Short listening exercises"
+          ],
+          "translation": "我学到了编程技能和练英语的方法。比如，清楚的讲解能帮助我解决工作问题，简短的听力练习则能帮助我规律学习。"
         }
-      ],
-      "keyPhrases": [
-        "find solutions for work",
-        "short videos with clear speech",
-        "easier to find",
-        "keep up with events",
-        "a specific question",
-        "keep everything in one place",
-        "study a little every day"
       ],
       "sourceOrder": 35
     },
@@ -1462,29 +2045,43 @@ window.IELTS_DATA = {
         {
           "question": "Do you like to keep things tidy?",
           "answer": "Yes, especially my desk, because I find it easier to concentrate in a tidy space. I don't need everything to look perfect, but I like being able to find what I need quickly.",
+          "memoryChunks": [
+            "easier to concentrate",
+            "don't need everything to look perfect",
+            "find what I need quickly"
+          ],
           "translation": "喜欢，特别是我的书桌，因为环境整洁时我更容易专注。我不要求所有东西都特别完美，但希望能很快找到需要的东西。"
         },
         {
           "question": "Do you use to keep your room tidy as a child?",
-          "answer": "Not always. As a child, I sometimes left books or toys around and needed reminders to put them away. Now I prefer tidying up a little at a time rather than leaving a big mess.",
-          "translation": "并不是一直都很整齐。小时候我有时会把书和玩具乱放，需要别人提醒才收起来。现在我更喜欢随手整理一点，而不是一直放着，最后变得很乱。"
+          "answer": "Not always. When I was a kid, I left books and toys around and needed reminders. Now I tidy up a little each day instead of waiting for a big mess.",
+          "memoryChunks": [
+            "left books and toys around",
+            "needed reminders",
+            "tidy up a little each day"
+          ],
+          "translation": "不总是。小时候，我会把书和玩具乱放，需要别人提醒。现在我每天收拾一点，不会等到很乱再整理。"
         },
         {
           "question": "How do you keep your work or study place tidy?",
           "answer": "I keep the things I use most often close to me and put other items in drawers. At the end of the day, I clear away cups and papers so the desk is ready for tomorrow.",
+          "memoryChunks": [
+            "things I use most often close to me",
+            "other items in drawers",
+            "clear away cups and papers"
+          ],
           "translation": "我会把经常用的东西放在手边，其他东西收进抽屉。一天结束时，我会收走杯子和纸张，让书桌第二天能直接使用。"
         },
         {
           "question": "Do you think that it is necessary to be tidy?",
-          "answer": "Yes, I think a basic level of tidiness is necessary because it saves time and makes a room more comfortable. However, spending hours trying to make everything perfect would be unnecessary for me.",
-          "translation": "我觉得保持基本整洁是必要的，因为能省时间，也能让房间更舒服。不过对我来说，花好几个小时把一切整理得完美就没必要了。"
+          "answer": "Yes, I'd say basic tidiness is necessary because it saves time and makes a room comfortable. However, I wouldn't spend hours trying to make everything perfect.",
+          "memoryChunks": [
+            "saves time",
+            "makes a room comfortable",
+            "wouldn't spend hours"
+          ],
+          "translation": "我觉得基本的整洁有必要，因为省时间，房间也更舒服。但我不会花好几个小时追求样样完美。"
         }
-      ],
-      "keyPhrases": [
-        "a tidy space",
-        "put them away",
-        "clear away cups and papers",
-        "a basic level of tidiness"
       ],
       "sourceOrder": 36
     },
@@ -1497,30 +2094,44 @@ window.IELTS_DATA = {
       "items": [
         {
           "question": "Do you like looking at yourself in the mirror? How often?",
-          "answer": "I mainly look in the mirror when I'm washing my face or getting ready to go out. I don't spend long doing it; I just check that my hair and clothes look tidy.",
-          "translation": "我主要在洗脸或准备出门时照镜子。我不会照很久，只是看看头发和衣服是不是整齐。"
+          "answer": "Most of the time, I look in the mirror when getting ready to go out. I just make sure my hair and clothes are tidy, so it doesn't take long.",
+          "memoryChunks": [
+            "when getting ready to go out",
+            "hair and clothes are tidy",
+            "doesn't take long"
+          ],
+          "translation": "大多数时候，我出门前会照镜子。主要是确认头发和衣服整齐，所以不会花很久。"
         },
         {
           "question": "Have you ever bought mirrors?",
-          "answer": "I haven't bought a mirror myself because the one in my bathroom is enough for me. If I needed another one, I'd choose something simple that didn't take up much space.",
-          "translation": "我自己没有买过镜子，因为浴室里的那面就够用了。如果需要再买一面，我会选简单、不太占地方的款式。"
+          "answer": "No, I haven't bought one myself. I'd say the bathroom mirror is enough for me. If I needed another one, I'd choose a simple design that didn't take up much space.",
+          "memoryChunks": [
+            "bathroom mirror is enough",
+            "If I needed another one",
+            "didn't take up much space"
+          ],
+          "translation": "没有，我没自己买过。我觉得浴室的镜子就够用了。如果还需要一面，我会选简单、不占地方的款式。"
         },
         {
           "question": "Do you usually take a mirror with you?",
-          "answer": "No, I don't usually carry a mirror with me. I rarely need one during the day, and if I want to check my appearance, I can normally use a mirror in a public bathroom.",
-          "translation": "我通常不会随身带镜子。白天我很少需要照镜子，如果想整理一下仪表，一般可以使用公共洗手间里的镜子。"
+          "answer": "Not really, to be honest. I rarely need a mirror during the day. If I want to check my appearance, I use one in a public bathroom instead.",
+          "memoryChunks": [
+            "rarely need a mirror",
+            "check my appearance",
+            "a public bathroom instead"
+          ],
+          "translation": "说实话，不太带。白天我很少需要镜子，想检查仪容时，就用公共洗手间的镜子。"
         },
         {
           "question": "Would you use mirrors to decorate your room?",
-          "answer": "Maybe, if a mirror made the room look brighter and more spacious. I would keep the design simple, though, because I'd want it to be useful as well as decorative.",
-          "translation": "可能会，如果镜子能让房间看起来更明亮、更宽敞的话。不过我会选简单的设计，因为希望它既好看又实用。"
+          "answer": "It really depends on the room. A mirror can make it brighter and more spacious, but I prefer a simple design because it should be useful too.",
+          "memoryChunks": [
+            "brighter and more spacious",
+            "prefer a simple design",
+            "should be useful too"
+          ],
+          "translation": "主要看房间情况。镜子能让房间更亮、更显宽敞，但我更喜欢简单的设计，因为也要实用。"
         }
-      ],
-      "keyPhrases": [
-        "look tidy",
-        "take up much space",
-        "check my appearance",
-        "brighter and more spacious"
       ],
       "sourceOrder": 37
     },
@@ -1534,41 +2145,63 @@ window.IELTS_DATA = {
         {
           "question": "Do you have a favorite teacher?",
           "answer": "Yes, I remember an English teacher who was patient when I made mistakes. I found English difficult, so that encouragement helped me keep trying instead of feeling embarrassed about asking questions.",
+          "memoryChunks": [
+            "an English teacher",
+            "patient when I made mistakes",
+            "encouragement helped me keep trying"
+          ],
           "translation": "有，我记得一位英语老师，在我犯错时很有耐心。我觉得英语比较难，所以那种鼓励让我愿意继续努力，不会因为问问题而难为情。"
         },
         {
           "question": "Do you want to be a teacher in the future?",
-          "answer": "Probably not as a full-time job, because I enjoy working as a software engineer. However, I'd be happy to help new colleagues learn useful skills, which involves a little teaching too.",
-          "translation": "可能不会把它当作全职工作，因为我喜欢做软件工程师。不过我很愿意帮助新同事学习实用技能，这其实也包含一点教学工作。"
+          "answer": "Not really, to be honest. I enjoy being a software engineer. However, I'd love to help new colleagues learn useful skills, which is a small part of teaching.",
+          "memoryChunks": [
+            "enjoy being a software engineer",
+            "help new colleagues",
+            "learn useful skills"
+          ],
+          "translation": "说实话，不太想。我喜欢做软件工程师。不过，我很愿意帮新同事学习实用技能，这也算一点教学。"
         },
         {
           "question": "Do you have a teacher from your past that you still remember?",
           "answer": "Yes, I still remember the English teacher who helped me when I struggled with the subject. I don't remember every lesson, but I remember feeling that I could ask questions without being judged.",
+          "memoryChunks": [
+            "English teacher who helped me",
+            "struggled with the subject",
+            "ask questions without being judged"
+          ],
           "translation": "有，我仍记得那位在我学英语遇到困难时帮助我的老师。我不记得每一节课，但记得在他面前可以放心提问，不用担心被评判。"
         },
         {
           "question": "Are you still in touch with your primary school teachers?",
-          "answer": "No, I'm not in touch with them now. It has been a long time since primary school, but I still appreciate the patience and help they gave me when I was young.",
-          "translation": "现在没有联系了。离小学毕业已经很久，不过我仍感谢他们在我小时候给予的耐心和帮助。"
+          "answer": "No, I don't keep in touch with them now. It has been a long time since primary school, but I still appreciate the patience and help they gave me.",
+          "memoryChunks": [
+            "don't keep in touch with them now",
+            "a long time",
+            "patience and help"
+          ],
+          "translation": "没有，现在不联系了。离小学毕业已经很久，但我仍然感谢他们当时的耐心和帮助。"
         },
         {
           "question": "In what ways has your favorite teacher helped you?",
           "answer": "My favourite teacher helped me feel less afraid of making mistakes in English. Instead of only pointing out problems, he explained things clearly and encouraged me to try again, which made learning less stressful.",
+          "memoryChunks": [
+            "less afraid of making mistakes",
+            "explained things clearly",
+            "encouraged me to try again"
+          ],
           "translation": "我最喜欢的老师让我没那么害怕在英语学习中犯错。他不会只指出问题，还会解释清楚，并鼓励我再试一次，这让学习压力小了很多。"
         },
         {
           "question": "Do you like your primary school teachers more than your high school teachers?",
-          "answer": "Not necessarily. My primary school teachers helped me build basic habits, while my high school teachers helped me understand more difficult subjects. I value both, so it's hard to say I prefer one group.",
-          "translation": "不一定。小学老师帮我养成基本习惯，高中老师则帮助我理解更难的学科知识。我都很珍惜他们的帮助，很难说更喜欢哪一类。"
+          "answer": "I'd say both groups helped me in different ways. Primary school teachers taught me basic habits, while high school teachers explained harder subjects. That's why I value both.",
+          "memoryChunks": [
+            "basic habits",
+            "explained harder subjects",
+            "I value both"
+          ],
+          "translation": "我觉得两类老师在不同方面帮助了我。小学老师教我基本习惯，高中老师讲更难的科目，所以我都很珍惜。"
         }
-      ],
-      "keyPhrases": [
-        "keep trying",
-        "help new colleagues",
-        "ask questions without being judged",
-        "I'm not in touch with them",
-        "less afraid of making mistakes",
-        "build basic habits"
       ],
       "sourceOrder": 38
     },
@@ -1581,36 +2214,54 @@ window.IELTS_DATA = {
       "items": [
         {
           "question": "Have you ever posted anything on social media?",
-          "answer": "Yes, I've shared photos and small updates about my life. I don't post everything, though; I mainly share things that my friends might enjoy or that I want to remember later.",
-          "translation": "发过，我分享过照片和生活中的小事。不过我不会什么都发，主要会分享朋友可能感兴趣、或者自己以后想回顾的内容。"
+          "answer": "Yes, once in a while, I share photos or small updates. It's a great way to share things my friends might enjoy, but I don't post every detail of my life.",
+          "memoryChunks": [
+            "share photos or small updates",
+            "things my friends might enjoy",
+            "don't post every detail"
+          ],
+          "translation": "发过，我偶尔会分享照片和近况。这能让我分享朋友可能感兴趣的东西，但不会把生活的每个细节都发出去。"
         },
         {
           "question": "When did you start using social media?",
           "answer": "I started using social media when I was a student. At first, it was mainly a way to chat with classmates, but now I also use it to keep in touch with people who live far away.",
+          "memoryChunks": [
+            "when I was a student",
+            "chat with classmates",
+            "now I also use it to keep in touch"
+          ],
           "translation": "我在学生时期开始使用社交媒体。最初主要用来和同学聊天，现在也用它和住得很远的人保持联系。"
         },
         {
           "question": "Do you think you spend too much time on social media?",
-          "answer": "Sometimes, yes. I may open an app to check one message and then spend too long looking at other posts, so I'm trying to put my phone away when I need to study.",
-          "translation": "有时会。我可能本来只想打开应用看一条消息，结果在其他动态上花了太久，所以需要学习时，我正努力把手机收起来。"
+          "answer": "Sometimes, yes. I open an app for one message and then spend time looking at other posts. Now I make sure I put my phone away when studying.",
+          "memoryChunks": [
+            "spend time looking at other posts",
+            "put my phone away",
+            "when studying"
+          ],
+          "translation": "有时会。我本来只想看一条消息，之后却花时间刷其他内容。现在学习时，我会确保把手机放到一边。"
         },
         {
           "question": "Do your friends use social media?",
-          "answer": "Yes, most of my friends use it to send messages and share photos. It makes staying in touch easier because we don't always have time to meet in person during the working week.",
-          "translation": "用，我大多数朋友用它发消息和分享照片。工作日大家不一定有时间见面，所以社交媒体让保持联系更容易。"
+          "answer": "Yes, most of my friends use it. We keep in touch with each other through messages and photos. It's convenient for me to contact them when we can't meet.",
+          "memoryChunks": [
+            "keep in touch with each other",
+            "messages and photos",
+            "when we can't meet"
+          ],
+          "translation": "用，大多数朋友都用。我们通过消息和照片保持联系。没法见面时，这样联系很方便。"
         },
         {
           "question": "What do people often do on social media?",
-          "answer": "People often chat with friends, share updates and watch short videos. Some also use it to learn practical skills or follow news, so it can be useful as long as they manage their time well.",
-          "translation": "人们经常在上面和朋友聊天、分享动态、看短视频。也有人用它学实用技能或看新闻，所以只要管理好时间，它还是很有用的。"
+          "answer": "People do all kinds of things, such as chatting, sharing photos and watching videos. Some learn useful skills too, but I'd say managing their time is important.",
+          "memoryChunks": [
+            "chatting, sharing photos and watching videos",
+            "learn useful skills",
+            "managing their time is important"
+          ],
+          "translation": "人们会做各种事情，比如聊天、分享照片和看视频。有些人也学实用技能，但我觉得控制好时间很重要。"
         }
-      ],
-      "keyPhrases": [
-        "small updates about my life",
-        "people who live far away",
-        "put my phone away",
-        "meet in person",
-        "manage their time well"
       ],
       "sourceOrder": 39
     },
@@ -1623,30 +2274,44 @@ window.IELTS_DATA = {
       "items": [
         {
           "question": "What was your childhood dream?",
-          "answer": "When I was a child, I wanted to make my own computer games. I liked playing games and wondered how they worked, and that interest later encouraged me to learn more about software.",
-          "translation": "小时候，我想制作自己的电脑游戏。我喜欢玩游戏，也好奇游戏是怎样运行的，这种兴趣后来促使我学习更多软件方面的知识。"
+          "answer": "When I was a kid, I wanted to make my own computer games. I used to wonder how they worked, and that interest later led me to learn about software.",
+          "memoryChunks": [
+            "make my own computer games",
+            "wonder how they worked",
+            "learn about software"
+          ],
+          "translation": "小时候，我想做自己的电脑游戏。我以前常常好奇游戏怎么运行，这份兴趣后来让我开始学习软件知识。"
         },
         {
           "question": "Are you the kind of person who sticks to dreams?",
-          "answer": "I usually keep working towards a goal if it still matters to me. I prefer taking small, regular steps, although I'm willing to change my plan when I learn something new or my situation changes.",
-          "translation": "如果一个目标对我仍然重要，我通常会继续努力。我更喜欢定期迈出一小步，不过，如果学到了新东西或情况发生变化，我也愿意调整计划。"
+          "answer": "Yes, if the goal still matters to me. I make sure I take small, regular steps, but I can change my plan when my situation changes.",
+          "memoryChunks": [
+            "if the goal still matters to me",
+            "take small, regular steps",
+            "change my plan"
+          ],
+          "translation": "会，只要目标对我仍然重要。我会确保自己规律地迈小步，但情况变化时，也会调整计划。"
         },
         {
           "question": "What is your dream job?",
           "answer": "My ideal job would still involve building useful software, but in a friendly team with a good work-life balance. I'd like chances to learn and grow without having to work late every night.",
+          "memoryChunks": [
+            "building useful software",
+            "a good work-life balance",
+            "chances to learn and grow"
+          ],
           "translation": "我的理想工作仍然是开发实用的软件，但希望团队友好、工作与生活比较平衡。我想有学习和成长的机会，同时不用每天晚上都加班。"
         },
         {
           "question": "Do you think you are an ambitious person?",
-          "answer": "Yes, to some extent. I want to improve my professional skills and English, but I'm more interested in steady progress than competing with everyone else or becoming famous.",
-          "translation": "在一定程度上是。我想提升专业技能和英语，但比起和所有人竞争或出名，我更在意稳定地进步。"
+          "answer": "I'd say I'm ambitious about improving my professional skills and English. I prefer steady progress because it matters more to me than competing with everyone else.",
+          "memoryChunks": [
+            "improving my professional skills and English",
+            "prefer steady progress",
+            "than competing with everyone else"
+          ],
+          "translation": "我觉得自己在提高专业技能和英语方面有进取心。我更喜欢稳步进步，因为这比和所有人竞争更重要。"
         }
-      ],
-      "keyPhrases": [
-        "make my own computer games",
-        "small, regular steps",
-        "a good work-life balance",
-        "steady progress"
       ],
       "sourceOrder": 40
     },
@@ -1659,30 +2324,45 @@ window.IELTS_DATA = {
       "items": [
         {
           "question": "Do you prefer sad or happy music?",
-          "answer": "I usually prefer happy music because it can improve my mood after a tiring day. However, if I want a quiet moment, I may choose a slower song, even if it sounds a little sad.",
-          "translation": "我通常更喜欢欢快的音乐，因为累了一天后它能改善心情。不过，如果想安静一会儿，我也会选择慢一点的歌，即使听起来有点伤感。"
+          "answer": "I prefer happy music because it puts me in a good mood after a tiring day. If I want a quiet moment, I might choose a slower song instead.",
+          "memoryChunks": [
+            "prefer happy music",
+            "puts me in a good mood",
+            "choose a slower song instead"
+          ],
+          "translation": "我更喜欢欢快的音乐，因为累了一天后，它能让我心情变好。如果想安静一会儿，我也可能改听慢歌。"
         },
         {
           "question": "Does happy music make you feel more excited?",
           "answer": "Yes, especially music with a strong, lively beat. It can give me a bit more energy when I'm tired, although I wouldn't choose it when I need to concentrate on difficult work.",
+          "memoryChunks": [
+            "a strong, lively beat",
+            "more energy when I'm tired",
+            "wouldn't choose it when I need to concentrate"
+          ],
           "translation": "会，尤其是节奏鲜明、活泼的音乐。疲倦时它能让我更有精神，不过需要专心处理困难工作时，我不会选这样的音乐。"
         },
         {
           "question": "Have you taken any music classes?",
-          "answer": "Yes, I had music lessons at school, where we learned simple songs and sang together. I haven't taken extra classes since then, but those lessons helped me enjoy music more.",
-          "translation": "上过，在学校音乐课上，我们学过简单的歌，也一起唱过歌。之后我没有再上额外的课程，但那些课让我更喜欢音乐了。"
+          "answer": "Yes. When I was a kid, I had music lessons at school. I remember learning simple songs and singing with my classmates, but I haven't taken extra classes since then.",
+          "memoryChunks": [
+            "music lessons at school",
+            "learning simple songs",
+            "singing with my classmates",
+            "haven't taken extra classes"
+          ],
+          "translation": "上过。小时候，我在学校上音乐课，记得学过简单的歌，也和同学一起唱过。不过之后没有额外报课。"
         },
         {
           "question": "Do you listen to music while doing other things?",
-          "answer": "Yes, I sometimes listen to music while doing housework or travelling. For work that needs a lot of concentration, I prefer quiet music without words or no music at all.",
-          "translation": "会，我有时做家务或出行时听音乐。如果工作需要非常专注，我更喜欢没有歌词的轻音乐，或者干脆不放音乐。"
+          "answer": "Yes, I listen while doing housework or travelling. For work, I prefer quiet music without words because it helps me stay focused. Sometimes I choose silence instead.",
+          "memoryChunks": [
+            "doing housework or travelling",
+            "quiet music without words",
+            "stay focused"
+          ],
+          "translation": "会，我做家务或出行时会听。工作时更喜欢没有歌词的轻音乐，因为这样能保持专注。有时也会选择安静。"
         }
-      ],
-      "keyPhrases": [
-        "improve my mood",
-        "a strong, lively beat",
-        "sang together",
-        "music without words"
       ],
       "sourceOrder": 41
     },
@@ -1694,138 +2374,226 @@ window.IELTS_DATA = {
       "items": [
         {
           "question": "What technology do you use at work?",
-          "answer": "I mainly use web development technologies, such as JavaScript and TypeScript. I also use tools like Git to manage code and work with my team.",
-          "translation": "我主要使用 JavaScript、TypeScript 等 Web 开发技术，也用 Git 管理代码并和团队协作。"
+          "answer": "I use JavaScript and TypeScript for web development. I also rely on Git to manage code and work with my team.",
+          "memoryChunks": [
+            "JavaScript and TypeScript",
+            "Git to manage code"
+          ],
+          "translation": "我用 JavaScript 和 TypeScript 做网页开发，也依靠 Git 管理代码、和团队合作。"
         },
         {
           "question": "What technology do you use when you study?",
-          "answer": "I mainly use my laptop and phone to study English. I can look up words, listen to recordings and review my notes, which makes it easier to practise after work.",
-          "translation": "我主要用笔记本电脑和手机学英语。我可以查单词、听录音、复习笔记，这让下班后练习更方便。"
+          "answer": "I rely on my laptop and phone to study English. I use them to look up words, listen to recordings and review notes. It's convenient for me to practise after work.",
+          "memoryChunks": [
+            "my laptop and phone",
+            "look up words",
+            "listen to recordings and review notes",
+            "practise after work"
+          ],
+          "translation": "我依靠电脑和手机学英语，用它们查词、听录音、复习笔记，下班后练习也很方便。"
         },
         {
           "question": "What subjects are you studying?",
-          "answer": "I'm working full-time now, but I'm studying English in my spare time. I'm focusing on speaking and listening because I want to communicate more confidently and prepare for my English test.",
-          "translation": "我现在全职工作，但空闲时也在学英语。我主要练口语和听力，因为想更自信地交流，也要准备英语考试。"
+          "answer": "I work full-time, so I study English when I have free time. Most of the time, I focus on speaking and listening to prepare for my test and communicate better.",
+          "memoryChunks": [
+            "study English when I have free time",
+            "speaking and listening",
+            "prepare for my test"
+          ],
+          "translation": "我全职工作，所以有空时学英语。大多数时候，我重点练口语和听力，为考试做准备，也为了更好地沟通。"
         },
         {
           "question": "Why did you choose to study that subject?",
           "answer": "I chose to study English because it's useful for both work and travel. As a software engineer, I often see information in English, and I want to understand it without translating every sentence.",
+          "memoryChunks": [
+            "useful for both work and travel",
+            "information in English",
+            "without translating every sentence"
+          ],
           "translation": "我选择学英语，因为它在工作和旅行中都很有用。作为软件工程师，我经常接触英文信息，希望不用每句话都翻译也能理解。"
         },
         {
           "question": "Do you like your subject? Is it very interesting?",
-          "answer": "Yes, I enjoy learning English, especially when I can understand something that used to be difficult. Speaking is still challenging, but noticing small improvements makes the learning process interesting.",
-          "translation": "喜欢，尤其是能听懂或看懂以前觉得难的内容时。口语对我来说仍有挑战，但发现自己一点点进步，会让学习过程变得有趣。"
+          "answer": "Yes, I find it satisfying to understand something that used to be difficult. Speaking is still challenging, but small improvements put me in a good mood.",
+          "memoryChunks": [
+            "understand something that used to be difficult",
+            "Speaking is still challenging",
+            "small improvements"
+          ],
+          "translation": "喜欢。我觉得能理解以前不懂的内容，很有成就感。口语仍然有挑战，但一点点进步也能让我开心。"
         },
         {
           "question": "Are you looking forward to working?",
-          "answer": "I'm already working as a software engineer, and I enjoy solving practical problems. I look forward to learning more through my job, especially when I can work with experienced colleagues on an interesting project.",
-          "translation": "我已经在做软件工程师了，也喜欢解决实际问题。我期待通过工作继续学习，特别是能和有经验的同事一起做有趣项目的时候。"
+          "answer": "I'm already a software engineer, and I enjoy solving practical problems. I'm looking forward to learning more from experienced colleagues on interesting projects.",
+          "memoryChunks": [
+            "already a software engineer",
+            "solving practical problems",
+            "learning more from experienced colleagues"
+          ],
+          "translation": "我已经是软件工程师了，也喜欢解决实际问题。我期待在有趣的项目中，向有经验的同事学习更多东西。"
         },
         {
           "question": "Do you prefer to study in the mornings or in the afternoons?",
           "answer": "If I can choose, I prefer the afternoon because I usually feel more awake then. However, on workdays I often study in the evening, so having a regular routine matters more than the exact time.",
+          "memoryChunks": [
+            "prefer the afternoon",
+            "more awake then",
+            "on workdays I often study in the evening"
+          ],
           "translation": "如果可以选择，我更喜欢下午，因为那时通常更清醒。不过工作日我经常只能晚上学，所以比起具体时间，保持规律更重要。"
         },
         {
           "question": "What work do you do?",
-          "answer": "I'm currently working full-time as a software developer, mainly focusing on developing new features and improving existing products.",
-          "translation": "我目前全职做软件开发，主要负责开发新功能和改进现有产品。"
+          "answer": "I'm a software developer. Most of the time, I work on new features or improve existing products.",
+          "memoryChunks": [
+            "a software developer",
+            "new features",
+            "improve existing products"
+          ],
+          "translation": "我是软件开发人员，大多数时候负责开发新功能或改进现有产品。"
         },
         {
           "question": "Why did you choose to do that type of work (or that job)?",
-          "answer": "When I was younger, I was interested in computer games, so I became curious about how software works. As I got older, I found that I enjoyed solving problems with code and creating useful products.",
-          "translation": "小时候我对电脑游戏感兴趣，所以好奇软件是怎样运行的；长大后，我发现自己喜欢用代码解决问题、创造有用的产品。"
+          "answer": "When I was a kid, I was interested in computer games. Later, I found that I enjoyed solving problems with code. That's why I chose to work in software.",
+          "memoryChunks": [
+            "interested in computer games",
+            "solving problems with code",
+            "chose to work in software"
+          ],
+          "translation": "小时候，我对电脑游戏感兴趣。后来发现自己喜欢用代码解决问题，所以选择了软件行业。"
         },
         {
           "question": "Do you like your job? Is it very interesting?",
-          "answer": "Yes, I do. I enjoy my job because I can solve problems and create new features. I also like working with my team and learning new things every day.",
-          "translation": "我喜欢这份工作，因为可以解决问题、开发新功能；我也喜欢和团队合作，并每天学习新东西。"
+          "answer": "Yes, I'm really into solving problems and creating new features. Plus, I enjoy working with my team and learning something new every day.",
+          "memoryChunks": [
+            "solving problems",
+            "creating new features",
+            "working with my team"
+          ],
+          "translation": "喜欢，我很喜欢解决问题、开发新功能。而且，我也享受团队合作和每天学到新东西。"
         },
         {
           "question": "Do you miss being a student?",
-          "answer": "Yes, I do. When I was a student, I had more free time to spend with my friends and classmates. Life was simpler and less stressful then.",
-          "translation": "是的。学生时期我有更多时间陪朋友和同学，那时生活更简单、压力更小。"
+          "answer": "Yes. I used to have more time with my friends and classmates. Compared to working life, being a student was simpler and less stressful.",
+          "memoryChunks": [
+            "more time with my friends and classmates",
+            "simpler and less stressful"
+          ],
+          "translation": "怀念。以前我有更多时间和朋友、同学相处。和工作后的生活相比，学生生活更简单，压力也更小。"
         },
         {
           "question": "Who helps you the most? And how?",
-          "answer": "At work, my team leader helps me the most. They have more experience and often give me useful feedback when I face a difficult problem. This helps me improve my skills.",
-          "translation": "工作中，团队负责人最能帮助我。他们经验更多，在我遇到难题时会给有用的反馈，这能帮助我提高技能。"
+          "answer": "I rely on my team leader the most. They have more experience and give me useful feedback. It helps me solve difficult problems and improve my skills.",
+          "memoryChunks": [
+            "rely on my team leader",
+            "useful feedback",
+            "improve my skills"
+          ],
+          "translation": "我最依靠团队负责人。他们更有经验，会给我有用的反馈，帮助我解决难题、提高技能。"
         },
         {
           "question": "Do you think that you subject is popular in your country?",
-          "answer": "Yes, English is a popular subject in China, and people learn it for different reasons. For me, it's mainly useful for work and communication, while some learners need it for study or travel.",
-          "translation": "是的，英语在中国是很受欢迎的学科，大家学习的原因不同。对我来说，它主要对工作和交流有用，而有些人是为了学习或旅行。"
+          "answer": "Yes, I'd say English is popular in China. People learn it for work, study or travel. For instance, I mainly use it to understand information and communicate at work.",
+          "memoryChunks": [
+            "work, study or travel",
+            "understand information",
+            "communicate at work"
+          ],
+          "translation": "是的，我觉得英语在中国很受欢迎。人们为工作、学习或旅行学英语。比如，我主要用它理解资料、进行工作交流。"
         },
         {
           "question": "Do you have any plans for your studies in the next five years?",
-          "answer": "Yes, I want to make my English more useful in everyday situations. After my test, I'd like to keep practising and take short courses when I need new skills for work.",
-          "translation": "有，我想让自己的英语在日常场景中更实用。考试结束后，我也想继续练习；工作需要新技能时，再学一些短课程。"
+          "answer": "Yes, I'd love to use English more confidently in everyday life. After my test, I plan to keep practising and take short courses when I need new skills for work.",
+          "memoryChunks": [
+            "use English more confidently",
+            "keep practising",
+            "take short courses"
+          ],
+          "translation": "有，我很想在日常生活中更自信地用英语。考完后，我打算继续练习，工作需要新技能时再上短期课程。"
         },
         {
           "question": "What are the benefits of being your age?",
-          "answer": "One benefit is that I have more work experience and understand my priorities better. I can make more of my own decisions now, although I also have more responsibilities than when I was a student.",
-          "translation": "一个好处是，我有了更多工作经验，也更清楚什么事情对自己重要。现在我能自己做更多决定，不过责任也比学生时期多。"
+          "answer": "I'd say I have more work experience and understand my priorities better now. Compared to my student days, I can make more decisions myself, although I have more responsibilities too.",
+          "memoryChunks": [
+            "more work experience",
+            "understand my priorities better",
+            "make more decisions myself",
+            "more responsibilities"
+          ],
+          "translation": "我觉得现在工作经验更多，也更清楚什么重要。和学生时期相比，我能自己做更多决定，但责任也更多。"
         },
         {
           "question": "Do you want to change your major?",
-          "answer": "I'm not studying at university now, so I don't have a major to change. If I went back to university, I'd probably choose computer science because it connects with the work I enjoy.",
-          "translation": "我现在不在大学读书，所以没有正在就读的专业可以换。如果再回大学，我可能还是会选计算机科学，因为它和我喜欢的工作有关。"
+          "answer": "I'm not at university now, so I don't have a major to change. If I went back, I'd say computer science would still suit me because I enjoy software work.",
+          "memoryChunks": [
+            "not at university now",
+            "If I went back",
+            "computer science would still suit me"
+          ],
+          "translation": "我现在不在大学，所以没有专业可以换。如果重新读大学，我觉得计算机科学仍然适合我，因为我喜欢软件工作。"
         },
         {
           "question": "How much time do you spend on your studies each week?",
-          "answer": "I try to study English for about half an hour a day, so roughly three or four hours a week. The total depends on how busy work is, but I prefer regular practice to one long session.",
-          "translation": "我尽量每天学半小时左右英语，所以一周大概三四个小时。总时长取决于工作有多忙，但比起一次学很久，我更喜欢有规律地练习。",
+          "answer": "It really depends on how busy work is. I aim for half an hour a day, or about three or four hours a week. I prefer regular practice because it's easier to keep going.",
+          "memoryChunks": [
+            "how busy work is",
+            "half an hour a day",
+            "three or four hours a week",
+            "regular practice"
+          ],
+          "translation": "主要取决于工作有多忙。我争取每天半小时，一周大约三四小时。我更喜欢规律练习，因为更容易坚持。",
           "note": "学习时长是示例，请按你实际的每周安排调整。"
         },
         {
           "question": "What changes would you like to see in your school?",
           "answer": "I'm no longer at school, but I'd like schools to offer more practical activities. For example, students could work together on small projects, so they could use what they learn instead of only preparing for exams.",
+          "memoryChunks": [
+            "no longer at school",
+            "more practical activities",
+            "work together on small projects",
+            "use what they learn"
+          ],
           "translation": "我已经不在学校读书了，但我希望学校增加一些实践活动。例如，让学生合作完成小项目，这样他们可以运用学到的知识，而不只是准备考试。"
         },
         {
           "question": "What requirements did you need to meet to get your current job?",
-          "answer": "I needed programming skills and the ability to explain how I solved problems. Teamwork was important too, because developing software involves discussing ideas, checking other people's work and making changes together.",
-          "translation": "我需要具备编程技能，也要能解释自己如何解决问题。团队合作同样重要，因为开发软件需要讨论想法、检查彼此的工作，并共同做出修改。"
+          "answer": "I needed programming skills and had to explain how I solved problems. Plus, I needed to work well with others because software development involves sharing ideas and checking each other's work.",
+          "memoryChunks": [
+            "programming skills",
+            "explain how I solved problems",
+            "work well with others"
+          ],
+          "translation": "我需要有编程技能，也得能解释自己如何解决问题。另外，还要善于合作，因为软件开发需要交流想法、检查彼此的工作。"
         },
         {
           "question": "Do you have any plans for your work in the next five years?",
-          "answer": "Yes, I do. In the next five years, I hope to improve my technical skills and take on more responsibility at work. I'd also like to work on more challenging projects with my team.",
-          "translation": "有。未来五年里，我希望提升技术技能，在工作中承担更多责任，也希望和团队一起做更有挑战性的项目。"
+          "answer": "Yes, I'd love to improve my technical skills and take on more responsibility. I'm looking forward to working on more challenging projects with my team.",
+          "memoryChunks": [
+            "improve my technical skills",
+            "take on more responsibility",
+            "more challenging projects"
+          ],
+          "translation": "有，我很想提高技术能力、承担更多责任，也期待和团队一起做更有挑战的项目。"
         },
         {
           "question": "What do you think is most important at the moment?",
-          "answer": "At the moment, the most important thing for me is improving my skills at work. I want to become more confident and do a better job in my team.",
-          "translation": "目前对我最重要的是提升工作技能。我想变得更自信，并在团队里把工作做得更好。"
+          "answer": "I'd say improving my skills at work matters most right now. It helps me feel more confident and do a better job in my team.",
+          "memoryChunks": [
+            "improving my skills at work",
+            "feel more confident",
+            "do a better job"
+          ],
+          "translation": "我觉得眼下最重要的是提高工作技能。这能让我更自信，也能在团队里把工作做得更好。"
         },
         {
           "question": "Do you want to change to another job?",
-          "answer": "No, not at the moment. I enjoy my current job, and I still have a lot to learn in this role.",
-          "translation": "目前不想。我喜欢现在的工作，而且在这个岗位上还有很多需要学习的地方。"
+          "answer": "Not really, to be honest. I enjoy my current job, and there are plenty of things I can still learn in this role.",
+          "memoryChunks": [
+            "enjoy my current job",
+            "plenty of things I can still learn"
+          ],
+          "translation": "说实话，暂时不想。我喜欢现在的工作，在这个岗位上还有很多东西可以学。"
         }
-      ],
-      "keyPhrases": [
-        "developing new features",
-        "improving existing products",
-        "web development technologies",
-        "manage code and work with my team",
-        "curious about how software works",
-        "solving problems with code",
-        "take on more responsibility at work",
-        "a lot to learn in this role",
-        "review my notes",
-        "in my spare time",
-        "without translating every sentence",
-        "noticing small improvements",
-        "solving practical problems",
-        "having a regular routine",
-        "for different reasons",
-        "keep practising",
-        "understand my priorities better",
-        "If I went back to university",
-        "regular practice",
-        "use what they learn",
-        "the ability to explain how I solved problems"
       ],
       "isNew": false,
       "sourceOrder": 42
@@ -1838,75 +2606,127 @@ window.IELTS_DATA = {
       "items": [
         {
           "question": "Where is your hometown?",
-          "answer": "My hometown is Baoding, a small city in Hebei Province. It's located north of Beijing.",
-          "translation": "我的家乡是保定，位于河北省，是北京以北的一座小城市。"
+          "answer": "My hometown is Baoding, a small city in Hebei Province. I'd say it's a peaceful place to live.",
+          "memoryChunks": [
+            "Baoding",
+            "in Hebei Province",
+            "a peaceful place"
+          ],
+          "translation": "我的家乡是河北保定，是一座小城市。我觉得那里生活比较安宁。"
         },
         {
           "question": "How long have you been living there?",
-          "answer": "I've been living there for about twenty-six years. It's where I grew up, so I know the city very well.",
-          "translation": "我在那里生活了大约二十六年。那里是我长大的地方，所以我对这座城市很熟悉。"
+          "answer": "I grew up there and lived there for about twenty-six years. That's why I know the city quite well.",
+          "memoryChunks": [
+            "grew up there",
+            "about twenty-six years"
+          ],
+          "translation": "我在那里长大，住了大约二十六年，所以对那座城市很熟悉。"
         },
         {
           "question": "Do you think you will continue living there for a long time?",
-          "answer": "No. I'm living in Beijing now because there are more job opportunities here.",
-          "translation": "不会。我现在住在北京，因为这里有更多工作机会。"
+          "answer": "No, I live in Beijing now. There are plenty of job opportunities here, so it suits my working life better.",
+          "memoryChunks": [
+            "live in Beijing now",
+            "plenty of job opportunities"
+          ],
+          "translation": "不会，我现在住在北京。这里工作机会多，更适合我的工作生活。"
         },
         {
           "question": "Please describe your hometown a little.",
-          "answer": "It's a small city with a peaceful pace of life. Compared with Beijing, it's less crowded and the people are friendly. I think it's a comfortable place to live.",
-          "translation": "它是一座生活节奏平静的小城市。和北京相比，人没那么多，人们也很友好，是个舒适的居住地。"
+          "answer": "I'd say it's a small city with a peaceful pace of life. Compared to Beijing, it's less crowded, and the people are friendly.",
+          "memoryChunks": [
+            "a peaceful pace of life",
+            "less crowded",
+            "people are friendly"
+          ],
+          "translation": "我觉得那是一座生活节奏平静的小城市。和北京相比，没那么拥挤，人们也很友好。"
         },
         {
           "question": "Is that a big city or a small place?",
-          "answer": "It's a small city.",
-          "translation": "它是一座小城市。"
+          "answer": "I'd say it's a small city, especially compared to Beijing.",
+          "memoryChunks": [
+            "a small city",
+            "compared to Beijing"
+          ],
+          "translation": "我觉得算小城市，尤其是和北京比起来。"
         },
         {
           "question": "What's your hometown famous for?",
-          "answer": "My hometown is famous for its local food, especially donkey meat sandwiches. They are very popular in Hebei Province.",
-          "translation": "我的家乡以当地食物闻名，特别是驴肉火烧；它在河北省非常受欢迎。"
+          "answer": "It's famous for local food, especially donkey meat sandwiches. I'm a big fan of them, and they're popular in Hebei Province too.",
+          "memoryChunks": [
+            "local food",
+            "donkey meat sandwiches",
+            "a big fan of them"
+          ],
+          "translation": "家乡以美食出名，尤其是驴肉火烧。我很喜欢吃，在河北也很受欢迎。"
         },
         {
           "question": "Did you learn about the history of your hometown at school?",
-          "answer": "Yes, I did. We learned a little about the history of Baoding in primary school. It helped me understand more about my hometown.",
-          "translation": "是的。小学时我们学过一点保定的历史，这让我更了解自己的家乡。"
+          "answer": "Yes. When I was a kid, we learned a little about Baoding's history at primary school. It helped me understand my hometown better.",
+          "memoryChunks": [
+            "Baoding's history",
+            "at primary school",
+            "understand my hometown better"
+          ],
+          "translation": "学过。小时候，我们在小学学过一点保定历史，这让我更了解家乡。"
         },
         {
           "question": "Do you like your hometown?",
-          "answer": "Yes, I like my hometown because it's familiar and has many memories from my childhood. I especially enjoy the local food, and visiting gives me a break from the busy pace of Beijing.",
-          "translation": "喜欢，因为家乡让我觉得熟悉，也承载着很多童年回忆。我尤其喜欢当地食物，回去看看也能让我暂时离开北京忙碌的生活节奏。"
+          "answer": "Yes, it feels familiar and brings back childhood memories. It makes me feel relaxed when I visit. Plus, I really enjoy the local food.",
+          "memoryChunks": [
+            "brings back childhood memories",
+            "makes me feel relaxed",
+            "enjoy the local food"
+          ],
+          "translation": "喜欢，那里很熟悉，也能让我想起童年。回去时我觉得很放松，而且特别喜欢当地美食。"
         },
         {
           "question": "Do you like living there?",
-          "answer": "Yes. Compared with Beijing, it's less crowded and the people are friendly. I think it's a comfortable place to live.",
-          "translation": "喜欢。和北京相比，这里人更少，人们也很友好；我觉得住在那里很舒服。"
+          "answer": "Yes. Compared to Beijing, it's less crowded and the people are friendly. I'd say it's a comfortable place to live.",
+          "memoryChunks": [
+            "Compared to Beijing",
+            "less crowded",
+            "people are friendly"
+          ],
+          "translation": "喜欢。和北京相比，那里没那么拥挤，人们也友好。我觉得是个住着舒服的地方。"
         },
         {
           "question": "What do you like (most) about your hometown?",
-          "answer": "I like the delicious local food most, especially donkey meat sandwiches. They are very famous in Hebei Province, and many visitors like to try them.",
-          "translation": "我最喜欢当地的美食，尤其是驴肉火烧；它在河北很有名，很多游客都想尝尝。"
+          "answer": "I'm a big fan of the local food, especially donkey meat sandwiches. They're well known in Hebei Province, and quite a few visitors like to try them.",
+          "memoryChunks": [
+            "a big fan of the local food",
+            "donkey meat sandwiches"
+          ],
+          "translation": "我很喜欢当地美食，尤其是驴肉火烧。它在河北很有名，不少游客都喜欢尝尝。"
         },
         {
           "question": "Is there anything you dislike about it?",
           "answer": "Because it's a small city, there aren't many entertainment facilities, and there's no subway, so it's a bit inconvenient.",
+          "memoryChunks": [
+            "aren't many entertainment facilities",
+            "there's no subway"
+          ],
           "translation": "因为是小城市，娱乐设施不多，也没有地铁，所以会有一点不方便。"
         },
         {
           "question": "Are there many young people in your hometown?",
-          "answer": "Yes, there are. There are several universities in Baoding, so you see a lot of young people.",
-          "translation": "有。保定有几所大学，所以能看到很多年轻人。"
+          "answer": "Yes, there are quite a few universities in Baoding. That's why you can see lots of young people around the city.",
+          "memoryChunks": [
+            "quite a few universities",
+            "lots of young people"
+          ],
+          "translation": "有，保定有好几所大学，所以在城里能看到很多年轻人。"
         },
         {
           "question": "Is your hometown a good places for young people to pursue their careers?",
-          "answer": "Not really. There aren't many job opportunities, so a lot of young people move to Beijing for work.",
-          "translation": "不太是。当地工作机会不多，所以许多年轻人会去北京工作。"
+          "answer": "Not really, to be honest. There aren't many job opportunities. That's why a lot of young people move to Beijing for work.",
+          "memoryChunks": [
+            "aren't many job opportunities",
+            "move to Beijing for work"
+          ],
+          "translation": "说实话，不太适合。工作机会不多，所以很多年轻人会去北京工作。"
         }
-      ],
-      "keyPhrases": [
-        "a small city in Hebei Province",
-        "donkey meat sandwiches",
-        "entertainment facilities",
-        "many memories from my childhood"
       ],
       "isNew": false,
       "sourceOrder": 43
@@ -1919,109 +2739,175 @@ window.IELTS_DATA = {
       "items": [
         {
           "question": "What kinds of accommodation do you live in?",
-          "answer": "I live in a flat in Beijing with my wife. It's a fairly ordinary home, but the area is quiet and public transport is nearby, which makes everyday life convenient.",
-          "translation": "我和妻子住在北京的一套公寓里。房子比较普通，但附近安静，公共交通也方便，日常生活很便利。",
+          "answer": "I live in a flat in Beijing with my wife. It's in a quiet area close to public transport, so I'd say everyday life is quite convenient.",
+          "memoryChunks": [
+            "a flat in Beijing with my wife",
+            "a quiet area",
+            "close to public transport"
+          ],
+          "translation": "我和妻子住在北京的一套公寓里。周围安静，离公共交通近，我觉得日常生活很方便。",
           "note": "房型采用公寓示例，请按实际住处调整。"
         },
         {
           "question": "Do you live in a house or a flat?",
-          "answer": "I live in a flat rather than a separate house. It suits our needs because we don't need a very large place, and it's easy to reach shops and public transport from the area.",
-          "translation": "我住的是公寓，不是独立住宅。它能满足我们的需要，因为我们不需要特别大的房子，而且附近购物和乘坐公共交通都很方便。"
+          "answer": "I live in a flat. It's big enough for our needs, and it's convenient for me to get to shops and public transport nearby.",
+          "memoryChunks": [
+            "live in a flat",
+            "big enough for our needs",
+            "shops and public transport"
+          ],
+          "translation": "我住公寓，空间够我们用。我去附近商店或乘坐公共交通都很方便。"
         },
         {
           "question": "Who do you live with?",
-          "answer": "I live with my wife. We enjoy spending time together at home after work.",
-          "translation": "我和妻子一起住。下班后我们喜欢在家共度时光。"
+          "answer": "I live with my wife. We spend time talking at home after work, and it helps me relax.",
+          "memoryChunks": [
+            "with my wife",
+            "spend time talking",
+            "helps me relax"
+          ],
+          "translation": "我和妻子一起住。下班后我们会在家聊聊天，这让我很放松。"
         },
         {
           "question": "Are the transport facilities to your home very good?",
-          "answer": "Yes, they are. There are bus stops and a subway station near my home, so it's easy for me to get around.",
-          "translation": "是的。家附近有公交站和地铁站，出行很方便。"
+          "answer": "Yes, there are bus stops and a subway station close to my home. It's convenient for me to get around without driving.",
+          "memoryChunks": [
+            "bus stops and a subway station",
+            "get around without driving"
+          ],
+          "translation": "很好，我家附近有公交站和地铁站。不用开车，出行也很方便。"
         },
         {
           "question": "How long have you lived there?",
-          "answer": "I've lived in this flat for about two years. I'm used to the area now, so I know where to buy everyday things and which routes are most convenient for work.",
-          "translation": "我在这套公寓里住了大约两年。现在已经很熟悉周围环境，知道去哪里买日用品，也知道哪条上班路线最方便。",
+          "answer": "I've lived here for about two years. It's convenient for me to buy everyday things nearby, and I know which routes are best for getting to work.",
+          "memoryChunks": [
+            "about two years",
+            "buy everyday things nearby",
+            "routes are best for getting to work"
+          ],
+          "translation": "我在这里住了大约两年。在附近买日用品很方便，我也知道上班走哪些路线最合适。",
           "note": "两年是示例，请替换为你的实际居住时长。"
         },
         {
           "question": "Do you plan to live there for a long time?",
-          "answer": "For the next few years, probably yes, because the location is convenient for daily life. I might move if my work situation changes, but I don't feel a need to move right now.",
-          "translation": "未来几年可能会继续住，因为位置对日常生活很方便。如果工作情况变化，我可能会搬家，但目前没有搬家的需要。"
+          "answer": "For the next few years, yes. It really depends on my work, but the location is convenient, so I don't need to move right now.",
+          "memoryChunks": [
+            "the next few years",
+            "depends on my work",
+            "don't need to move right now"
+          ],
+          "translation": "未来几年应该会。主要还是看工作情况，不过这里位置方便，所以目前没必要搬家。"
         },
         {
           "question": "Please describe the room you live in.",
-          "answer": "My bedroom is simple and quiet, with a bed, a wardrobe and a window that lets in natural light. I try to keep it tidy because I want it to feel restful after a busy day.",
-          "translation": "我的卧室简单、安静，有床、衣柜和一扇能透进自然光的窗户。我会尽量保持整洁，因为希望忙了一天后能在这里好好休息。"
+          "answer": "My bedroom is simple and quiet, with a bed, a wardrobe and a window for natural light. I make sure I keep it tidy so I can rest after work.",
+          "memoryChunks": [
+            "simple and quiet",
+            "a window for natural light",
+            "keep it tidy"
+          ],
+          "translation": "我的卧室简单、安静，有床、衣柜和透光的窗户。我会确保房间整洁，这样下班后能好好休息。"
         },
         {
           "question": "What part of your home do you like the most?",
-          "answer": "I like the bedroom most because it's the quietest place for me to rest. After spending the day working at a computer, I enjoy having a comfortable space where I can switch off.",
-          "translation": "我最喜欢卧室，因为对我来说，那是最安静、最适合休息的地方。白天一直对着电脑工作后，我喜欢有个舒服的空间，让自己放松下来。"
+          "answer": "I prefer the bedroom because it's the quietest place to rest. It helps me take my mind off work after spending the day at a computer.",
+          "memoryChunks": [
+            "prefer the bedroom",
+            "quietest place to rest",
+            "take my mind off work"
+          ],
+          "translation": "我最喜欢卧室，因为那里最安静，适合休息。在电脑前工作一天后，它能让我暂时放下工作。"
         },
         {
           "question": "Can you describe the place where you live?",
-          "answer": "It's a flat in a quiet residential area, with shops and public transport nearby. The home itself is fairly simple, but it has the space we need and feels comfortable after work.",
-          "translation": "它位于一个安静的住宅区，附近有商店和公共交通。家里的布置比较简单，但空间够用，下班后待着很舒服。"
+          "answer": "It's a flat in a quiet residential area, close to shops and public transport. I'd say it's simple but comfortable, and we have enough space for our daily needs.",
+          "memoryChunks": [
+            "a quiet residential area",
+            "close to shops and public transport",
+            "simple but comfortable"
+          ],
+          "translation": "我住在安静居民区的一套公寓里，离商店和公共交通都近。我觉得家里简单但舒适，日常使用的空间也足够。"
         },
         {
           "question": "What room does your family spend most of the time in?",
-          "answer": "My wife and I spend most of our time together in the living room. We can sit down, talk about our day and watch something, so it's the main place where we relax together.",
-          "translation": "我和妻子一起在客厅待的时间最多。我们可以坐下来，聊聊一天的事情，看看节目，所以那里是我们一起放松的主要地方。"
+          "answer": "We spend most of our time in the living room. It's a great way to relax together, whether we're talking about our day or watching something.",
+          "memoryChunks": [
+            "in the living room",
+            "relax together",
+            "talking about our day or watching something"
+          ],
+          "translation": "我们大部分时间都待在客厅。聊聊一天的事情，或者一起看点东西，都很适合放松。"
         },
         {
           "question": "What's your favorite room in your apartment/house?",
-          "answer": "My favourite room is the bedroom because it's quiet and comfortable. I don't need many things there; a good place to sleep and somewhere to put my clothes are the most important things to me.",
-          "translation": "我最喜欢的房间是卧室，因为安静、舒服。我不需要里面放很多东西，对我来说，能好好睡觉、有地方放衣服最重要。"
+          "answer": "I'd say the bedroom is my favourite because it's quiet and comfortable. I don't need many things there, just a good place to sleep and space for my clothes.",
+          "memoryChunks": [
+            "the bedroom is my favourite",
+            "quiet and comfortable",
+            "a good place to sleep"
+          ],
+          "translation": "我觉得最喜欢的是卧室，因为安静、舒服。我不需要很多东西，只要能好好睡觉，也有地方放衣服就行。"
         },
         {
           "question": "What makes you feel pleasant in your home?",
-          "answer": "The quiet atmosphere makes me feel relaxed at home. After work, I can rest in my bedroom and spend time with my wife.",
-          "translation": "家里安静的氛围让我放松；下班后我可以在卧室休息，也能陪妻子。"
+          "answer": "The quiet atmosphere puts me in a good mood. After work, I can rest in my bedroom and spend time talking with my wife.",
+          "memoryChunks": [
+            "quiet atmosphere",
+            "rest in my bedroom",
+            "spend time talking with my wife"
+          ],
+          "translation": "安静的氛围让我心情很好。下班后，我可以在卧室休息，也能和妻子聊聊天。"
         },
         {
           "question": "What do you usually do in your flat?",
-          "answer": "I usually rest, study English and spend time with my wife. We also do ordinary household tasks, but I try to keep some time in the evening for relaxing rather than thinking about work.",
-          "translation": "我通常在家休息、学英语、陪妻子。我们也会做日常家务，不过我会尽量在晚上留点时间放松，而不是一直想工作。"
+          "answer": "Most of the time, I rest, study English or spend time with my wife. We do housework too, but I make sure I leave some time to relax in the evening.",
+          "memoryChunks": [
+            "rest, study English",
+            "spend time with my wife",
+            "leave some time to relax"
+          ],
+          "translation": "大多数时候，我休息、学英语，或者和妻子相处。我们也做家务，不过我会确保晚上留些时间放松。"
         },
         {
           "question": "Do you think it is important to live in a comfortable environment?",
-          "answer": "Yes, because home is where I recover after a busy day. It doesn't have to be large or expensive, but a quiet, clean space helps me sleep better and feel ready for the next day.",
-          "translation": "重要，因为家是忙碌一天后恢复精力的地方。不一定要大，也不一定要贵，但安静、干净的空间能让我睡得更好，有精神迎接第二天。"
+          "answer": "Yes, I'd say it's important because home is where I rest after a busy day. A quiet, clean space helps me sleep well. It doesn't need to be large or expensive.",
+          "memoryChunks": [
+            "rest after a busy day",
+            "A quiet, clean space",
+            "helps me sleep well"
+          ],
+          "translation": "我觉得很重要，因为家是忙完一天后休息的地方。安静干净的空间能让我睡得好，不需要很大或很贵。"
         },
         {
           "question": "What's the difference between where you are living now and where you have lived in the past？",
-          "answer": "The biggest difference is that I now live with my wife in Beijing, while I grew up in my hometown. My life is more independent now, but I also have to take care of more things myself.",
-          "translation": "最大的区别是，我现在和妻子住在北京，而以前是在家乡长大的。现在的生活更独立，但也有更多事情需要自己照顾。"
+          "answer": "I used to live in my hometown, but now I live with my wife in Beijing. Compared to the past, I'm more independent and have more things to look after.",
+          "memoryChunks": [
+            "used to live in my hometown",
+            "now I live with my wife in Beijing",
+            "more independent"
+          ],
+          "translation": "以前我住在家乡，现在和妻子住在北京。和过去相比，我更独立，也有更多事情要自己照顾。"
         },
         {
           "question": "What kind of house or flat do you want to live in in the future?",
-          "answer": "I'd like a quiet home with enough natural light and a small space for work or study. I don't need a huge place; a comfortable layout and convenient transport would matter more to me.",
-          "translation": "我想住在安静、采光充足的家里，最好有一小块可以工作或学习的空间。我不需要很大的房子，布局舒适和交通便利对我更重要。"
+          "answer": "I'd love to have a quiet home with natural light and a small study area. I prefer a practical layout because I don't need a huge place. Good transport matters too.",
+          "memoryChunks": [
+            "natural light and a small study area",
+            "a practical layout",
+            "Good transport matters"
+          ],
+          "translation": "我很想住在安静、采光好、有小学习区的家里。我更喜欢实用的布局，因为不需要特别大的房子。交通方便也很重要。"
         },
         {
           "question": "Do you prefer living in a house or a flat?",
           "answer": "At the moment, I prefer a flat because it suits city life and is usually easier to look after. A house could offer more space, but I wouldn't want the extra cleaning and maintenance.",
+          "memoryChunks": [
+            "prefer a flat",
+            "easier to look after",
+            "wouldn't want the extra cleaning and maintenance"
+          ],
           "translation": "目前我更喜欢公寓，因为适合城市生活，通常也更容易打理。独立住宅可能更宽敞，但我不太想承担额外的清洁和维护工作。"
         }
-      ],
-      "keyPhrases": [
-        "bus stops and a subway station",
-        "quiet atmosphere",
-        "a flat in Beijing",
-        "suits our needs",
-        "I'm used to the area",
-        "my work situation changes",
-        "natural light",
-        "a comfortable space",
-        "a quiet residential area",
-        "talk about our day",
-        "a good place to sleep",
-        "ordinary household tasks",
-        "recover after a busy day",
-        "take care of more things myself",
-        "a comfortable layout",
-        "easier to look after"
       ],
       "isNew": false,
       "sourceOrder": 44
@@ -2034,42 +2920,71 @@ window.IELTS_DATA = {
       "items": [
         {
           "question": "Do you like the area that you live in?",
-          "answer": "Yes, I do. It's quiet and there are lots of shopping malls nearby, so it's very convenient for me.",
-          "translation": "我喜欢。这里很安静，附近也有很多商场，所以对我来说很方便。"
+          "answer": "Yes, I'd say it's a nice area. There are plenty of shopping malls nearby, and it's quiet, so everyday life is convenient.",
+          "memoryChunks": [
+            "plenty of shopping malls nearby",
+            "it's quiet",
+            "everyday life is convenient"
+          ],
+          "translation": "喜欢，我觉得这一带不错。附近商场很多，也很安静，所以日常生活方便。"
         },
         {
           "question": "Where do you like to go in that area?",
-          "answer": "In my free time, I like to go to the park or the shopping mall near my home.",
-          "translation": "空闲时，我喜欢去家附近的公园或商场。"
+          "answer": "When I have free time, I like going to the park or the shopping mall close to my home.",
+          "memoryChunks": [
+            "the park",
+            "the shopping mall"
+          ],
+          "translation": "有空时，我喜欢去家附近的公园或商场。"
         },
         {
           "question": "Do you know any famous people in your area?",
-          "answer": "No, I don't. It's mainly a residential area.",
-          "translation": "不认识。这里主要是住宅区。"
+          "answer": "Not really, to be honest. I don't know any famous people here. It's mainly a residential area.",
+          "memoryChunks": [
+            "don't know any famous people",
+            "mainly a residential area"
+          ],
+          "translation": "说实话，不认识。我不知道这一带有什么名人，这里主要是居民区。"
         },
         {
           "question": "What are some changes in the area recently?",
-          "answer": "Recently, a new park has been built near my home, and there are more shopping malls than before. I really like the park because it's a nice place to relax.",
-          "translation": "最近家附近新建了一个公园，商场也比以前多；我很喜欢这个公园，因为它适合放松。"
+          "answer": "A new park has been built, and there are more shopping malls than before. I'd say the park is the best change because it's a great place to relax.",
+          "memoryChunks": [
+            "A new park",
+            "more shopping malls",
+            "a great place to relax"
+          ],
+          "translation": "新建了公园，商场也比以前多了。我觉得公园是最好的变化，因为很适合放松。"
         },
         {
           "question": "Do you know any of your neighbors?",
-          "answer": "Yes, I know a few of them. We usually say hello when we meet.",
-          "translation": "认识几个。我们见面时通常会打招呼。"
+          "answer": "Yes, I know a few neighbours. Most of the time, we just say hello when we meet, but it's nice to see familiar faces.",
+          "memoryChunks": [
+            "know a few neighbours",
+            "say hello when we meet",
+            "familiar faces"
+          ],
+          "translation": "认识几个邻居。大多数时候，碰面就打个招呼，不过见到熟面孔感觉也不错。"
         },
         {
           "question": "Are the people in your neighborhood nice and friendly?",
-          "answer": "Yes, they are. They are polite and usually willing to help each other.",
-          "translation": "是的。他们很有礼貌，也通常愿意互相帮助。"
+          "answer": "Yes, I'd say they're friendly. They're polite and willing to help each other, which makes the neighbourhood a pleasant place to live.",
+          "memoryChunks": [
+            "polite and willing to help each other",
+            "a pleasant place to live"
+          ],
+          "translation": "是的，我觉得他们很友好。他们有礼貌，也愿意互相帮助，让社区住起来很舒服。"
         },
         {
           "question": "Do you live in a noisy or a quiet places?",
-          "answer": "I live in a quiet place. It's quiet and comfortable, so I can relax after work.",
-          "translation": "我住在安静的地方。这里安静又舒适，所以下班后我能放松。"
+          "answer": "I live in a quiet place. It helps me relax after work and puts me in a good mood when I get home.",
+          "memoryChunks": [
+            "a quiet place",
+            "helps me relax",
+            "puts me in a good mood"
+          ],
+          "translation": "我住的地方很安静。下班后可以放松，回到家心情也会变好。"
         }
-      ],
-      "keyPhrases": [
-        "lots of shopping malls nearby"
       ],
       "isNew": false,
       "sourceOrder": 45
