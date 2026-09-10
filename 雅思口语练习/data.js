@@ -5570,67 +5570,69 @@ window.IELTS_DATA = {
                   "你为什么去那里",
                   "并解释你对这个地方的感受"
                 ],
-                "storyTitle": "上海河边的一家小咖啡馆",
+                "storyTitle": "凉水河边的公园｜家庭出游、地点三美",
                 "draftCues": [
-                  "Shanghai",
-                  "riverside cafe",
-                  "wife",
-                  "rest",
-                  "window seat",
-                  "walk afterwards"
+                  "Liangshui River",
+                  "Beijing",
+                  "family last spring",
+                  "flowers and boats",
+                  "family photo",
+                  "grilled fish"
                 ],
-                "focus": "明确讲靠近自然景观的一个地方：河边咖啡馆，而不是泛泛讲整座城市。",
+                "focus": "沿用凉水河素材：把具体地点说成凉水河边的公园，并保留家庭出游、河边景色、当地人帮拍照和烤鱼等细节。",
                 "body": {
-                  "text": "Well, I know a few nice places near the water. But the first one that comes to my mind would be a small cafe by the Huangpu River. I went there with my wife during a short trip. We had spent the morning walking around the city, so we wanted somewhere to sit down and rest without going far from the river. The cafe was quite simple, with wooden tables and large windows. We chose a table by the window, ordered two drinks and watched boats moving along the river. It was a nice change from the busy streets and shops we had visited earlier. We talked about our trip and took a few photos, but most of the time we just enjoyed the view. Afterwards, we walked along the river for a while. I liked the place because we could enjoy a natural feature of the city while still being close to public transport and other facilities. I felt relaxed there, and the visit did not need much planning. If I went back to Shanghai, I would happily spend another quiet afternoon in that area.",
-                  "translation": "嗯，我知道几个靠近水边的好地方。但我首先想到的是黄浦江边的一家小咖啡馆。我和妻子短途旅行时去过那里。我们上午在城里走了很久，所以想找个能坐下休息、又不远离江边的地方。咖啡馆很简单，有木桌和大窗户。我们选了靠窗的桌子，点了两杯饮料，看船在江面上经过。和之前去过的繁忙街道、商店相比，这是很好的变化。我们聊了聊旅行，也拍了几张照片，但大部分时间只是在欣赏风景。之后，我们沿着江边走了一会儿。我喜欢那里，因为既能欣赏城市里的自然景观，又离公共交通和其他设施很近。我在那里觉得很放松，而且这次游览不需要做很多计划。如果再去上海，我很愿意在那一带再度过一个安静的下午。",
+                  "text": "Well, I have been to a few places near nature. But the first one that comes to my mind would be a park beside the Liangshui River in Beijing. I first learned about the river in a geography class. My teacher said it was about seventy kilometres long and looked like a flying dragon on the map. Last spring, I went to the park with my family because we wanted to see the river ourselves and spend some time outdoors. The water, flowers and small boats looked beautiful. A friendly local man offered to take a family photo for us and showed us a quiet place with a good view. Later, we ate spicy grilled fish in a small restaurant beside the river. I felt relaxed and happy there because the scenery was beautiful, the people were friendly and the food was delicious. I would definitely like to visit it again.",
+                  "translation": "嗯，我去过几个靠近自然景观的地方。但我首先想到的是北京凉水河边的一座公园。我最初是在地理课上知道这条河的。老师说它大约七十公里长，在地图上看起来像一条飞龙。去年春天，我和家人去了那座公园，因为我们想亲眼看看这条河，也想一起到户外活动。河水、花草和小船看起来很漂亮。一位友好的当地人主动帮我们拍全家福，还带我们去了一个视野很好的安静地点。后来，我们在河边的一家小餐馆吃了香辣烤鱼。我在那里感到轻松又开心，因为景色很美、人很友好、食物也很好吃。我肯定还想再去。",
                   "highlights": [
-                    "Huangpu River",
-                    "with my wife",
-                    "sit down and rest",
-                    "wooden tables and large windows",
-                    "table by the window",
-                    "watched boats",
-                    "felt relaxed"
+                    "Liangshui River",
+                    "in Beijing",
+                    "geography class",
+                    "flying dragon",
+                    "with my family",
+                    "water, flowers and small boats",
+                    "family photo",
+                    "spicy grilled fish"
                   ],
                   "paragraphStarts": [
-                    "The cafe was quite simple,",
-                    "We talked about our trip",
-                    "I liked the place because"
+                    "I first learned about the river",
+                    "Last spring, I went",
+                    "The water, flowers and small boats",
+                    "I felt relaxed and happy"
                   ]
                 },
                 "sourceOrder": 14,
                 "ending": {
                   "endingLead": {
                     "cue": "And explain how you feel about the place",
-                    "text": "As for how I feel about the cafe, I really like it. There are three simple reasons.",
-                    "translation": "至于我对这家咖啡馆的感受，我很喜欢它，有三个简单的原因。"
+                    "text": "As for how I feel about the park, I really like it. There are three simple reasons.",
+                    "translation": "至于我对这座公园的感受，我很喜欢它，有三个简单的原因。"
                   },
                   "reasons": [
                     {
-                      "text": "First of all, it gave me a quiet place to relax. You know, we had walked around the city for hours. Sitting by the window and watching the boats helped me feel better.",
-                      "translation": "它让我有一个安静放松的地方。你知道，我们已经在城里走了好几个小时。坐在窗边看船，让我舒服了不少。",
-                      "memory": "Emotion：走累了 → 窗边看船 → 放松",
+                      "text": "First of all, the river, flowers and small boats create a beautiful view. Walking there helped me relax and forget about work.",
+                      "translation": "首先，河水、花草和小船构成了美丽的景色。在那里散步让我放松，也能暂时忘掉工作。",
+                      "memory": "景美：河水花草小船 → 散步 → 放松",
                       "highlights": [
-                        "quiet place to relax",
-                        "watching the boats"
+                        "beautiful view",
+                        "helped me relax"
                       ]
                     },
                     {
-                      "text": "Secondly, I could spend some proper time with my wife. We talked about the trip and took a few photos. I think moments like these make a holiday feel special.",
-                      "translation": "我可以和妻子好好相处一会儿。我们聊旅行，也拍了几张照片。我觉得这样的时刻让假期变得特别。",
-                      "memory": "Relationship：和妻子聊天＋拍照 → 特别的回忆",
+                      "text": "Secondly, the local people were friendly. One man helped us take a family photo and showed us a quiet viewpoint, so we felt welcome.",
+                      "translation": "其次，当地人很友好。一位男士帮我们拍了全家福，还带我们去了一个安静的观景点，所以我们感到很受欢迎。",
+                      "memory": "人美：帮忙拍照指路 → 感到欢迎",
                       "highlights": [
-                        "time with my wife",
-                        "a holiday feel special"
+                        "local people were friendly",
+                        "family photo"
                       ]
                     },
                     {
-                      "text": "What's more, the visit was simple and easy to arrange. We just ordered two drinks and enjoyed the view. I liked being near the river without needing a long or expensive activity.",
-                      "translation": "这次游览简单、容易安排。我们只是点了两杯饮料，欣赏风景。我喜欢靠近江边，又不用安排很长或很贵的活动。",
-                      "memory": "Money / Convenience：两杯饮料＋江景 → 简单省心",
+                      "text": "What's more, the spicy grilled fish beside the river was delicious and affordable. It made our family trip more memorable.",
+                      "translation": "此外，河边的香辣烤鱼既好吃又实惠，让这次家庭出游更加难忘。",
+                      "memory": "食物美：河边烤鱼 → 好吃实惠 → 出游更难忘",
                       "highlights": [
-                        "two drinks",
-                        "simple and easy"
+                        "spicy grilled fish",
+                        "delicious and affordable"
                       ]
                     }
                   ],
@@ -5657,69 +5659,72 @@ window.IELTS_DATA = {
                   "它看起来怎么样",
                   "并解释你为什么喜欢去那里"
                 ],
-                "storyTitle": "上海陆家嘴的一家商场",
+                "storyTitle": "上海中心大厦｜上海旅行、观景与夜景",
                 "draftCues": [
-                  "Lujiazui",
-                  "friend recommended",
-                  "glass entrance",
-                  "bright",
-                  "food",
-                  "rainy afternoon"
+                  "Shanghai Tower",
+                  "Lujiazui, Shanghai",
+                  "travel programmes",
+                  "girlfriend",
+                  "glass building",
+                  "fast lift",
+                  "viewing area",
+                  "city lights"
                 ],
-                "focus": "把重点放在建筑外观和在里面做的事，说明为什么喜欢去。",
+                "focus": "沿用上海旅行素材，把建筑换成更好读的 Shanghai Tower；保留陆家嘴、高速电梯、观景层、城市江景和夜晚灯光等细节。",
                 "body": {
-                  "text": "Well, I have visited a few nice buildings. But the first one that comes to my mind would be a shopping mall in Lujiazui, Shanghai. A friend recommended it before my trip because it was easy to reach by underground and had plenty of places to eat. I went there with my wife while we were exploring that part of the city. The building looked modern, with a wide glass entrance and several floors around a bright central space. It was easy to find our way because there were clear signs. We did not plan to buy much. We mainly walked around, looked in a few shops and chose a restaurant for lunch. What I enjoyed most was how convenient and comfortable the place was. When it started raining outside, we could stay there, have a drink and talk instead of changing all our plans. There were also seats where we could rest after walking. For me, an enjoyable building does not have to be unusual or famous. It should meet people's everyday needs, and this mall did that very well.",
-                  "translation": "嗯，我去过几座不错的建筑。但我首先想到的是上海陆家嘴的一家商场。旅行前，一位朋友向我推荐了它，因为坐地铁很容易到，而且有很多吃饭的地方。我和妻子逛那片城区时去了那里。建筑看起来很现代，有宽大的玻璃入口，几层楼围绕着一个明亮的中央空间。指示牌很清楚，所以很容易找到路。我们没打算买很多东西，主要是走走看看，逛了几家店，选了一家餐厅吃午饭。我最喜欢的是它方便又舒服。外面开始下雨时，我们可以留在里面喝点东西、聊聊天，不用把所有计划都改掉。里面也有座位，走累了可以休息。对我来说，让人喜欢去的建筑不必特别奇特或有名，而应该满足日常需要，这家商场在这方面做得很好。",
+                  "text": "Well, I have visited a few interesting buildings. But the first one that comes to my mind would be Shanghai Tower in Lujiazui, Shanghai. I had seen it in travel programmes, and a friend recommended it before my trip. I visited it with my girlfriend during our last trip there. It is a very tall, modern glass building, and its shape curves slightly as it rises, so it is easy to recognise. We bought tickets in the morning and took a fast lift to the viewing area. From the large windows, we could see the river, boats, roads and many other tall buildings. We took a few photos and stayed until the city lights came on. The view became even more beautiful in the evening. I enjoy visiting Shanghai Tower because of its modern design, the wide view and the special memory I made there with my girlfriend.",
+                  "translation": "嗯，我去过几座有趣的建筑。但我首先想到的是上海陆家嘴的上海中心大厦。我以前在旅游节目里见过它，旅行前也有朋友向我推荐。我上次去上海时和女朋友参观了它。它是一座非常高的现代玻璃建筑，向上延伸时外形微微弯曲，因此很容易认出来。我们上午买了票，乘坐高速电梯到达观景层。从大窗户向外看，可以看到江面、船只、道路和许多其他高楼。我们拍了一些照片，一直待到城市灯光亮起。傍晚的景色变得更加漂亮。我喜欢参观上海中心大厦，因为它设计现代、视野开阔，而且我和女朋友在那里留下了特别的回忆。",
                   "highlights": [
+                    "Shanghai Tower",
                     "Lujiazui, Shanghai",
-                    "friend recommended it",
-                    "with my wife",
-                    "wide glass entrance",
-                    "clear signs",
-                    "restaurant for lunch",
-                    "convenient and comfortable",
-                    "started raining"
+                    "travel programmes",
+                    "with my girlfriend",
+                    "modern glass building",
+                    "fast lift",
+                    "viewing area",
+                    "city lights"
                   ],
                   "paragraphStarts": [
-                    "The building looked modern,",
-                    "We did not plan to buy much.",
-                    "What I enjoyed most",
-                    "For me, an enjoyable building"
+                    "I had seen it",
+                    "It is a very tall",
+                    "We bought tickets",
+                    "We took a few photos",
+                    "I enjoy visiting Shanghai Tower"
                   ]
                 },
                 "sourceOrder": 15,
                 "ending": {
                   "endingLead": {
                     "cue": "And explain why you enjoy visiting it",
-                    "text": "As for why I enjoy visiting the mall, there are three reasons.",
-                    "translation": "至于我为什么喜欢去这家商场，有三个原因。"
+                    "text": "As for why I enjoy visiting Shanghai Tower, there are three reasons.",
+                    "translation": "至于我为什么喜欢参观上海中心大厦，有三个原因。"
                   },
                   "reasons": [
                     {
-                      "text": "First of all, it is convenient to get there by metro. The signs inside are clear, and there are plenty of places to eat. You know, that makes a day out much easier.",
-                      "translation": "坐地铁过去很方便，里面的指示牌清楚，也有很多吃饭的地方。你知道，这会让外出的一天轻松很多。",
-                      "memory": "Convenience：地铁＋指示牌＋餐厅 → 方便",
+                      "text": "First of all, its modern glass design and curved shape make it look special. It is different from a normal office building, so it is easy to recognise.",
+                      "translation": "首先，现代玻璃设计和弯曲的外形让它看起来很特别。它和平常的办公楼不同，所以很容易认出来。",
+                      "memory": "造型：玻璃外观＋弯曲设计 → 与普通建筑不同 → 容易认出",
                       "highlights": [
-                        "convenient to get there",
-                        "places to eat"
+                        "modern glass design",
+                        "easy to recognise"
                       ]
                     },
                     {
-                      "text": "Secondly, it is a comfortable place to take a break. When it started raining, we could stay inside and have a drink. I felt relaxed because we could still enjoy ourselves.",
-                      "translation": "这是一个可以舒服休息的地方。开始下雨时，我们能待在里面喝点东西。我觉得很放松，因为仍然可以玩得开心。",
-                      "memory": "Emotion：避雨＋休息 → 放松",
+                      "text": "Secondly, visitors can enjoy a wide view of the city and the river. Looking down from such a high place helped me understand how large Shanghai really is.",
+                      "translation": "其次，游客可以欣赏开阔的城市和江景。从那么高的地方往下看，让我理解上海到底有多大。",
+                      "memory": "观景：高处看城市和江面 → 视野开阔 → 感受上海之大",
                       "highlights": [
-                        "comfortable place",
-                        "I felt relaxed"
+                        "wide view",
+                        "city and the river"
                       ]
                     },
                     {
-                      "text": "What's more, I enjoy spending time there with my wife. We can look around, choose a restaurant and have a chat. We do not need to buy lots of things to enjoy being together.",
-                      "translation": "我喜欢和妻子在那里相处。我们可以逛逛、选一家餐厅、聊聊天。不用买很多东西，也能享受在一起的时间。",
-                      "memory": "Relationship / Money：逛街聊天 → 不必买很多东西",
+                      "text": "What's more, I went there with my girlfriend and we watched the city lights come on together. This made the visit feel special and memorable.",
+                      "translation": "此外，我和女朋友一起去了那里，还一起看着城市灯光亮起。这让那次参观显得特别而难忘。",
+                      "memory": "关系：和女朋友看城市亮灯 → 共同经历 → 特别难忘",
                       "highlights": [
-                        "time there with my wife",
-                        "do not need to buy lots"
+                        "with my girlfriend",
+                        "special and memorable"
                       ]
                     }
                   ],
