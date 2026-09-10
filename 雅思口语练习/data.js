@@ -3417,7 +3417,44 @@ window.IELTS_DATA = {
                     "After a few weeks"
                   ]
                 },
-                "sourceOrder": 1
+                "sourceOrder": 1,
+                "ending": {
+                  "endingLead": {
+                    "cue": "And explain whether it was easy or difficult",
+                    "text": "As for whether it was easy or difficult, I found some parts difficult. There were three main challenges.",
+                    "translation": "至于这件事容易还是困难，我觉得有些部分挺难，主要有三个挑战。"
+                  },
+                  "reasons": [
+                    {
+                      "text": "First of all, we were both busy with work. You know, after a long morning at the computer, Li Hua often wanted to sit down again. Getting him outside took some effort.",
+                      "translation": "我们工作都很忙。你知道，在电脑前忙了一上午后，李华常常想继续坐着。让他出门活动需要费点心思。",
+                      "memory": "困难：工作忙＋累 → 不想活动",
+                      "highlights": [
+                        "busy with work",
+                        "Getting him outside"
+                      ]
+                    },
+                    {
+                      "text": "Secondly, it was hard to keep the habit on rainy days. Sometimes he wanted to skip the walk. We had to keep it short so that he would still join me.",
+                      "translation": "下雨时很难坚持。有时他想跳过散步，我们就得缩短时间，让他仍然愿意和我一起走。",
+                      "memory": "困难：下雨想放弃 → 缩短散步",
+                      "highlights": [
+                        "rainy days",
+                        "keep it short"
+                      ]
+                    },
+                    {
+                      "text": "What's more, the change took time, so I needed to be patient. I walked with him and reminded him to take breaks. I think doing it together made the difficult days easier.",
+                      "translation": "改变需要时间，所以我得有耐心。我陪他散步，提醒他休息。我觉得一起做，让难熬的日子容易了一些。",
+                      "memory": "Relationship：耐心陪伴＋提醒 → 更容易坚持",
+                      "highlights": [
+                        "be patient",
+                        "doing it together"
+                      ]
+                    }
+                  ],
+                  "mode": "reasons"
+                }
               },
               {
                 "id": "p2-feishu-popular-person",
@@ -3466,7 +3503,44 @@ window.IELTS_DATA = {
                     "I think he is popular"
                   ]
                 },
-                "sourceOrder": 2
+                "sourceOrder": 2,
+                "ending": {
+                  "endingLead": {
+                    "cue": "And explain why you think this person is popular",
+                    "text": "As for why Alex is popular, I think there are three simple reasons.",
+                    "translation": "至于Alex为什么受欢迎，我觉得有三个简单的原因。"
+                  },
+                  "reasons": [
+                    {
+                      "text": "First of all, he listens carefully when people have a problem. You know, a busy day can be quite stressful. Talking to someone calm like Alex helps people feel better.",
+                      "translation": "别人遇到问题时，他会认真听。你知道，忙碌的一天可能很有压力。和Alex这样沉稳的人聊聊，会让人好受一些。",
+                      "memory": "Emotion：认真听＋沉稳 → 减少压力",
+                      "highlights": [
+                        "listens carefully",
+                        "feel better"
+                      ]
+                    },
+                    {
+                      "text": "Secondly, he is willing to help with difficult work. He explains things step by step instead of taking over. This saves us time and helps us learn something useful.",
+                      "translation": "他愿意帮忙处理困难的工作。他会一步一步解释，而不是直接接手。这既节省时间，也让我们学到实用的东西。",
+                      "memory": "Time / Learning：逐步解释 → 省时＋学会方法",
+                      "highlights": [
+                        "step by step",
+                        "saves us time"
+                      ]
+                    },
+                    {
+                      "text": "What's more, he makes new colleagues feel welcome. He invites them to lunch and answers their questions patiently. I think these small things help him build good relationships with everyone.",
+                      "translation": "他让新同事感到受欢迎。他会邀请他们吃午饭，耐心回答问题。我觉得这些小事帮助他与大家建立了良好的关系。",
+                      "memory": "Relationship：邀请新同事＋耐心回答 → 建立信任",
+                      "highlights": [
+                        "feel welcome",
+                        "good relationships"
+                      ]
+                    }
+                  ],
+                  "mode": "reasons"
+                }
               },
               {
                 "id": "p2-feishu-admired-sportsperson",
@@ -3518,7 +3592,44 @@ window.IELTS_DATA = {
                     "I admire him mainly"
                   ]
                 },
-                "sourceOrder": 3
+                "sourceOrder": 3,
+                "ending": {
+                  "endingLead": {
+                    "cue": "And explain why you admire him/her",
+                    "text": "As for why I admire Yao Ming, there are three main reasons.",
+                    "translation": "至于我为什么钦佩姚明，主要有三个原因。"
+                  },
+                  "reasons": [
+                    {
+                      "text": "First of all, his success shows the value of hard work. You know, talent alone is not enough in sport. Thinking about his training encourages me to keep practising when progress is slow.",
+                      "translation": "他的成功说明了努力的价值。你知道，运动中只有天赋还不够。想到他的训练，我在进步慢时也会受到鼓励，继续练习。",
+                      "memory": "Emotion：成功背后的努力 → 鼓励自己坚持",
+                      "highlights": [
+                        "hard work",
+                        "keep practising"
+                      ]
+                    },
+                    {
+                      "text": "Secondly, he worked with teammates from different backgrounds. They needed to communicate and trust one another. As someone who works in a team, I think this is a useful example.",
+                      "translation": "他与不同背景的队友合作。他们需要交流、互相信任。作为也在团队里工作的人，我觉得这是一个很好的例子。",
+                      "memory": "Relationship：不同背景队友 → 沟通＋信任",
+                      "highlights": [
+                        "different backgrounds",
+                        "trust one another"
+                      ]
+                    },
+                    {
+                      "text": "What's more, he seems calm and thoughtful in interviews. Sometimes he is funny too, which makes him easy to listen to. I like people who can be successful and still seem friendly.",
+                      "translation": "他在采访中显得沉稳、善于思考，有时也很幽默，让人愿意听他说话。我喜欢取得成功后仍然显得友好的人。",
+                      "memory": "Personality：沉稳＋幽默＋友好",
+                      "highlights": [
+                        "calm and thoughtful",
+                        "still seem friendly"
+                      ]
+                    }
+                  ],
+                  "mode": "reasons"
+                }
               },
               {
                 "isNew": true,
@@ -3620,7 +3731,44 @@ window.IELTS_DATA = {
                       "closer to the teacher"
                     ]
                   }
-                ]
+                ],
+                "ending": {
+                  "endingLead": {
+                    "cue": "And explain how you feel about this person",
+                    "text": "As for how I feel about Mr Brown, I am grateful to him. There are three reasons.",
+                    "translation": "至于我对Brown老师的感受，我很感激他，有三个原因。"
+                  },
+                  "reasons": [
+                    {
+                      "text": "First of all, he was patient and broke the song into small steps, so I never felt lost in class. You know, I was only a child, so that really helped.",
+                      "memory": "老师耐心拆步骤 → 我能跟上 → 学习压力更小",
+                      "highlights": [
+                        "patient",
+                        "small steps"
+                      ],
+                      "translation": "首先，他很耐心，把歌曲拆成小步骤，所以我上课时不会不知所措。你知道，我当时只是个孩子，所以这真的很有帮助。"
+                    },
+                    {
+                      "text": "Secondly, he used music and simple actions, which made the lesson enjoyable and easy to remember. I could enjoy the lesson instead of worrying about every new word.",
+                      "memory": "唱歌加动作 → 课堂有趣 → 新技能更容易记住",
+                      "highlights": [
+                        "enjoyable",
+                        "easy to remember"
+                      ],
+                      "translation": "其次，他用音乐和简单动作，让课堂既有趣又好记。我可以享受课堂，不用为每个新单词担心。"
+                    },
+                    {
+                      "text": "What's more, he helped me sing the whole song and become more confident about using English. After that, I was more willing to speak in front of my classmates.",
+                      "memory": "最后完整唱出来 → 看到进步 → 对英语更有信心",
+                      "highlights": [
+                        "more confident",
+                        "using English"
+                      ],
+                      "translation": "最后，他帮助我唱完整首歌，也让我对使用英语更有信心。那以后，我更愿意在同学面前说英语。"
+                    }
+                  ],
+                  "mode": "feelings"
+                }
               },
               {
                 "isNew": true,
@@ -3736,7 +3884,44 @@ window.IELTS_DATA = {
                       "bring people closer"
                     ]
                   }
-                ]
+                ],
+                "ending": {
+                  "endingLead": {
+                    "cue": "And explain how you feel about him/her",
+                    "text": "As for how I feel about Li Hua, I admire him and enjoy spending time with him. There are three reasons.",
+                    "translation": "至于我对李华的感受，我钦佩他，也喜欢和他相处，有三个原因。"
+                  },
+                  "reasons": [
+                    {
+                      "text": "First of all, he is curious about old cities and different cultures. He reads books and visits museums to learn more. I like this attitude because he always has something interesting to share.",
+                      "translation": "他对古老城市和不同文化很好奇，会读书、参观博物馆来了解更多。我喜欢这种态度，因为他总有有趣的东西可以分享。",
+                      "memory": "Learning：好奇＋读书参观 → 有东西可分享",
+                      "highlights": [
+                        "curious about old cities",
+                        "interesting to share"
+                      ]
+                    },
+                    {
+                      "text": "Secondly, he worked hard to learn French because of his interest in history. Even when pronunciation was difficult, he kept practising. His trip to France made me feel proud of him.",
+                      "translation": "因为喜欢历史，他努力学习法语。即使发音困难，他仍然坚持练习。他去法国的经历让我为他感到骄傲。",
+                      "memory": "Emotion：坚持学法语 → 去法国 → 为他骄傲",
+                      "highlights": [
+                        "kept practising",
+                        "proud of him"
+                      ]
+                    },
+                    {
+                      "text": "What's more, he often shares historical stories with me. You know, we do not need an expensive activity to enjoy ourselves. A simple conversation can teach me something and bring us closer.",
+                      "translation": "他常和我分享历史故事。你知道，我们不用花很多钱安排活动也能享受相处。简单的聊天就能让我学到东西，也让我们更亲近。",
+                      "memory": "Relationship / Money：分享故事 → 低成本相处＋更亲近",
+                      "highlights": [
+                        "historical stories",
+                        "bring us closer"
+                      ]
+                    }
+                  ],
+                  "mode": "feelings"
+                }
               },
               {
                 "isNew": true,
@@ -3836,7 +4021,44 @@ window.IELTS_DATA = {
                       "helps us stay close"
                     ]
                   }
-                ]
+                ],
+                "ending": {
+                  "endingLead": {
+                    "cue": "And explain how you feel about him/her",
+                    "text": "As for how I feel about her, I really appreciate her. There are three simple reasons.",
+                    "translation": "至于我对她的感受，我很欣赏她，有三个简单的原因。"
+                  },
+                  "reasons": [
+                    {
+                      "text": "First of all, her photos help us remember trips and ordinary days long after they happen. You know, small details are easy to forget, but a photo brings them back.",
+                      "memory": "记录旅行和日常 → 以后能回想 → 回忆更清楚",
+                      "highlights": [
+                        "remember trips",
+                        "ordinary days"
+                      ],
+                      "translation": "首先，她的照片让我们在很久以后仍然记得旅行和普通的日子。你知道，小细节很容易忘记，而一张照片就能让人想起来。"
+                    },
+                    {
+                      "text": "Secondly, she normally uses her phone instead of buying an expensive camera, and she shares the pictures online without paying to print them. I think that is a practical way to enjoy a hobby.",
+                      "memory": "Money：用手机拍＋线上分享 → 不买昂贵相机、不花打印费",
+                      "highlights": [
+                        "uses her phone",
+                        "without paying"
+                      ],
+                      "translation": "她通常用手机，不用买昂贵的相机，也会在网上分享照片，不花钱打印。我觉得这是享受爱好的一种实用方式。"
+                    },
+                    {
+                      "text": "What's more, sharing the pictures gives our families something pleasant to talk about and keeps us close. We can talk about the same trip even when we are apart.",
+                      "memory": "给家人分享 → 增加共同话题 → 关系更亲近",
+                      "highlights": [
+                        "sharing the pictures",
+                        "keeps us close"
+                      ],
+                      "translation": "最后，分享照片给家人提供了愉快的话题，也让我们保持亲近。即使不在一起，我们也能聊同一段旅行。"
+                    }
+                  ],
+                  "mode": "feelings"
+                }
               },
               {
                 "isNew": true,
@@ -3925,7 +4147,45 @@ window.IELTS_DATA = {
                       "bring them closer"
                     ]
                   }
-                ]
+                ],
+                "ending": {
+                  "endingLead": {
+                    "cue": "And explain how you feel about the person",
+                    "text": "As for how I feel about Li Hua, I admire his patience and his skill. There are three reasons.",
+                    "translation": "至于我对李华的感受，我钦佩他的耐心和手艺，有三个原因。"
+                  },
+                  "reasons": [
+                    {
+                      "text": "First of all, when the roof fell off, he did not give up. He tried again and finally made the house strong. I think staying calm when something goes wrong is a useful quality.",
+                      "memory": "Emotion：屋顶掉了 → 没有放弃、耐心再试 → 成功后自豪",
+                      "highlights": [
+                        "the roof fell off",
+                        "did not give up",
+                        "finally"
+                      ],
+                      "translation": "其次，屋顶掉下来时，他没有放弃。他再次尝试，最后把房子做得牢固。我觉得出问题时保持冷静，是一种很有用的品质。"
+                    },
+                    {
+                      "text": "Secondly, being good at handcrafts can save money. Li Hua can make simple toys by himself instead of buying them. You know, small savings like this can be useful in daily life.",
+                      "memory": "Money：会做手工很省钱 → 可以自己做简单玩具",
+                      "highlights": [
+                        "save money",
+                        "make simple toys by himself"
+                      ],
+                      "translation": "最后，擅长手工可以省钱。李华能自己做简单的玩具，不用去买。你知道，这样的小节省在生活中也很有用。"
+                    },
+                    {
+                      "text": "What's more, he can make a simple toy as a personal gift, and making or sharing it with a friend can bring them closer. I would value something he made himself.",
+                      "memory": "Relationship：亲手做玩具当礼物或一起制作 → 更有心意 → 朋友关系更近",
+                      "highlights": [
+                        "a personal gift",
+                        "bring them closer"
+                      ],
+                      "translation": "他能做一个简单的玩具当私人礼物，一起制作或分享也能拉近朋友之间的关系。我会珍惜他亲手做的东西。"
+                    }
+                  ],
+                  "mode": "feelings"
+                }
               },
               {
                 "isNew": true,
@@ -3958,6 +4218,40 @@ window.IELTS_DATA = {
                     "主动改错 → 找老师帮助 → 一步步进步",
                     "旅行中真正用上 → 获得成就感 → 我很佩服"
                   ]
+                },
+                "ending": {
+                  "endingLead": {
+                    "cue": "And explain how you feel about this person",
+                    "text": "As for how I feel about Li Hua, my feelings changed as I saw his progress.",
+                    "translation": "至于我对李华的感受，随着看到他的进步，我的感受也发生了变化。"
+                  },
+                  "reasons": [
+                    {
+                      "text": "At first, I did not think he could succeed because French was difficult and he had little free time. I thought he would stop after a few weeks.",
+                      "highlights": [
+                        "did not think he could succeed",
+                        "little free time"
+                      ],
+                      "translation": "一开始，我觉得他不一定能成功，因为法语很难，他的空闲时间也少。我以为他几周后就会停下来。"
+                    },
+                    {
+                      "text": "However, he kept correcting his mistakes and practising every day. His patience and hard work helped him overcome each difficulty step by step.",
+                      "highlights": [
+                        "correcting his mistakes",
+                        "step by step"
+                      ],
+                      "translation": "然而，他一直纠正错误、每天练习。他的耐心和努力帮助他一步步克服困难。"
+                    },
+                    {
+                      "text": "Now he can speak French well, so I really admire him. His experience shows me that daily practice works, and I hope to learn from him in the future.",
+                      "highlights": [
+                        "speak French well",
+                        "learn from him"
+                      ],
+                      "translation": "现在他法语说得很好，所以我非常钦佩他。他的经历让我看到每天练习是有效的，以后我也希望向他学习。"
+                    }
+                  ],
+                  "mode": "feelings"
                 }
               }
             ]
@@ -4027,7 +4321,41 @@ window.IELTS_DATA = {
                     ]
                   }
                 ],
-                "isNew": false
+                "isNew": false,
+                "ending": {
+                  "endingLead": {
+                    "cue": "And explain how you feel about him",
+                    "text": "As for how I feel about Li Hua, my feelings changed as I saw his progress.",
+                    "translation": "至于我对李华的感受，随着看到他的进步，我的感受也发生了变化。"
+                  },
+                  "reasons": [
+                    {
+                      "text": "At first, I did not think he could succeed because French was difficult and he had little free time. I thought he would stop after a few weeks.",
+                      "highlights": [
+                        "did not think he could succeed",
+                        "little free time"
+                      ],
+                      "translation": "一开始，我觉得他不一定能成功，因为法语很难，他的空闲时间也少。我以为他几周后就会停下来。"
+                    },
+                    {
+                      "text": "However, he kept correcting his mistakes and practising every day. His patience and hard work helped him overcome each difficulty step by step.",
+                      "highlights": [
+                        "correcting his mistakes",
+                        "step by step"
+                      ],
+                      "translation": "然而，他一直纠正错误、每天练习。他的耐心和努力帮助他一步步克服困难。"
+                    },
+                    {
+                      "text": "Now he can speak French well, so I really admire him. His experience shows me that daily practice works, and I hope to learn from him in the future.",
+                      "highlights": [
+                        "speak French well",
+                        "learn from him"
+                      ],
+                      "translation": "现在他法语说得很好，所以我非常钦佩他。他的经历让我看到每天练习是有效的，以后我也希望向他学习。"
+                    }
+                  ],
+                  "mode": "feelings"
+                }
               },
               {
                 "question": "Describe a person who is good at learning and speaking new languages",
@@ -4089,7 +4417,41 @@ window.IELTS_DATA = {
                     ]
                   }
                 ],
-                "isNew": false
+                "isNew": false,
+                "ending": {
+                  "endingLead": {
+                    "cue": "And explain how you feel about him/her",
+                    "text": "As for how I feel about Li Hua, I admire him more now. Let me explain how my feelings changed.",
+                    "translation": "至于我对李华的感受，我现在更加钦佩他。我来解释一下感受是怎样变化的。"
+                  },
+                  "reasons": [
+                    {
+                      "text": "At first, I thought French was difficult and he had no time to practise. We also had a lot of homework, so I thought he might stop.",
+                      "highlights": [
+                        "difficult",
+                        "no time"
+                      ],
+                      "translation": "一开始，我觉得法语很难，他也没时间练习。我们作业很多，所以我以为他可能会放弃。"
+                    },
+                    {
+                      "text": "However, he tried his best and showed a real talent for languages. When he made mistakes, he corrected them and kept speaking.",
+                      "highlights": [
+                        "tried his best",
+                        "talent for languages"
+                      ],
+                      "translation": "然而，他很努力，也展现出了语言天赋。犯错时，他会纠正后继续说。"
+                    },
+                    {
+                      "text": "Now he speaks French fluently, and I want to learn from him. His progress shows me that daily practice really works. In the future, I hope to learn another language with him.",
+                      "highlights": [
+                        "speaks French fluently",
+                        "learn from him"
+                      ],
+                      "translation": "现在他法语很流利，我想向他学习。他的进步说明每天练习真的有效。将来我希望和他一起学另一门语言。"
+                    }
+                  ],
+                  "mode": "feelings"
+                }
               },
               {
                 "question": "Describe a person you know who would like to choose a career in the medical field (e.g. a doctor, a nurse)",
@@ -4151,7 +4513,41 @@ window.IELTS_DATA = {
                     ]
                   }
                 ],
-                "isNew": false
+                "isNew": false,
+                "ending": {
+                  "endingLead": {
+                    "cue": "And explain why he/she would like to choose this career",
+                    "text": "As for why he wants to choose this career, there are three main reasons.",
+                    "translation": "至于他为什么想选择这个职业，主要有三个原因。"
+                  },
+                  "reasons": [
+                    {
+                      "text": "First of all, his father is a doctor, so he has influenced Li Hua a lot and is respected by people in the hospital. Li Hua has heard many useful stories about his father's work.",
+                      "highlights": [
+                        "father is a doctor",
+                        "influenced Li Hua"
+                      ],
+                      "translation": "首先，他父亲是一名医生，对李华影响很大，也受到医院里人们的尊重。李华听过很多父亲工作中的有用故事。"
+                    },
+                    {
+                      "text": "Secondly, he thinks saving patients is meaningful and can give him a strong sense of achievement. Even helping one person feel better would make him happy.",
+                      "highlights": [
+                        "saving patients",
+                        "sense of achievement"
+                      ],
+                      "translation": "其次，他觉得救助病人很有意义，也能带来很强的成就感。即使只帮助一个人好受些，也会让他开心。"
+                    },
+                    {
+                      "text": "What's more, the pay is good. He may earn about 10,000 yuan a month and support a comfortable life. He could also take care of his parents in the future.",
+                      "highlights": [
+                        "pay is good",
+                        "10,000 yuan"
+                      ],
+                      "translation": "此外，收入不错。他每月可能挣大约一万元，过上舒适的生活。将来也能照顾父母。"
+                    }
+                  ],
+                  "mode": "reasons"
+                }
               }
             ]
           },
@@ -4219,7 +4615,41 @@ window.IELTS_DATA = {
                     ]
                   }
                 ],
-                "isNew": false
+                "isNew": false,
+                "ending": {
+                  "endingLead": {
+                    "cue": "And explain why you think the business is successful",
+                    "text": "As for why I think his business is successful, there are three reasons.",
+                    "translation": "至于我为什么认为他的生意很成功，有三个原因。"
+                  },
+                  "reasons": [
+                    {
+                      "text": "First of all, its products are popular, so the business makes a lot of money and grows quickly. The apps are simple to use, and the company listens carefully to its users.",
+                      "highlights": [
+                        "products are popular",
+                        "makes a lot of money"
+                      ],
+                      "translation": "首先，产品很受欢迎，所以公司赚到了很多钱，也发展得很快。应用容易使用，公司还会认真听取用户意见。"
+                    },
+                    {
+                      "text": "Secondly, its software helps many people. For example, its study apps can help students improve their grades. Students can study for a few minutes whenever they have free time.",
+                      "highlights": [
+                        "helps many people",
+                        "students improve their grades"
+                      ],
+                      "translation": "其次，软件帮助了很多人。比如，学习应用能帮助学生提高成绩。学生有空时，就能学上几分钟。"
+                    },
+                    {
+                      "text": "What's more, the company donates money to society and helps people who cannot afford enough food. Because of this, people trust the business and Li Hua feels proud of it.",
+                      "highlights": [
+                        "donates money",
+                        "cannot afford enough food"
+                      ],
+                      "translation": "此外，公司会向社会捐款，帮助买不起足够食物的人。因此，人们信任这家公司，李华也为此感到骄傲。"
+                    }
+                  ],
+                  "mode": "reasons"
+                }
               },
               {
                 "question": "Describe a person who works in a successful company",
@@ -4281,7 +4711,41 @@ window.IELTS_DATA = {
                     ]
                   }
                 ],
-                "isNew": false
+                "isNew": false,
+                "ending": {
+                  "endingLead": {
+                    "cue": "And explain why you think it is a successful company",
+                    "text": "As for why I think it is a successful company, there are three reasons.",
+                    "translation": "至于我为什么认为这是一家成功的公司，有三个原因。"
+                  },
+                  "reasons": [
+                    {
+                      "text": "First of all, its products are popular, so the company makes a lot of money and grows quickly. Many users tell the company what they need, and the team improves the apps every month.",
+                      "highlights": [
+                        "products are popular",
+                        "makes a lot of money"
+                      ],
+                      "translation": "首先，产品受欢迎，所以公司赚钱多、发展快。很多用户会说出自己的需求，团队每月都会改进应用。"
+                    },
+                    {
+                      "text": "Secondly, its software helps many people. For example, its study apps can help students improve their grades. They can watch short lessons and check their answers at home.",
+                      "highlights": [
+                        "helps many people",
+                        "students improve their grades"
+                      ],
+                      "translation": "其次，软件帮助了很多人。比如，学习应用能帮助学生提高成绩。他们在家就能看短课程、检查答案。"
+                    },
+                    {
+                      "text": "What's more, the company donates money to society and helps people who cannot afford enough food. This gives the company a good name and makes Li Hua's work more meaningful.",
+                      "highlights": [
+                        "donates money",
+                        "cannot afford enough food"
+                      ],
+                      "translation": "此外，公司会捐款，帮助买不起足够食物的人。这给公司带来了好名声，也让李华的工作更有意义。"
+                    }
+                  ],
+                  "mode": "reasons"
+                }
               }
             ]
           },
@@ -4349,7 +4813,41 @@ window.IELTS_DATA = {
                     ]
                   }
                 ],
-                "isNew": false
+                "isNew": false,
+                "ending": {
+                  "endingLead": {
+                    "cue": "And explain what made you like him/her",
+                    "text": "As for why I liked him, there were three simple reasons.",
+                    "translation": "至于我为什么喜欢他，有三个简单的原因。"
+                  },
+                  "reasons": [
+                    {
+                      "text": "First of all, he was clever and often helped me with schoolwork. He never made me feel stupid when I asked a simple question.",
+                      "highlights": [
+                        "clever",
+                        "helped me with schoolwork"
+                      ],
+                      "translation": "首先，他聪明，也经常帮助我学习。我问简单问题时，他从不会让我觉得自己很笨。"
+                    },
+                    {
+                      "text": "Secondly, he was funny and his jokes always cheered me up. Even after a difficult school day, we could laugh together on the way home.",
+                      "highlights": [
+                        "funny",
+                        "cheered me up"
+                      ],
+                      "translation": "其次，他很幽默，笑话总能让我开心。即使在学校度过了难熬的一天，回家路上我们仍然能一起笑。"
+                    },
+                    {
+                      "text": "What's more, he was kind and stayed with me whenever I had a problem. This is why I still trust him and value our long friendship today.",
+                      "highlights": [
+                        "kind",
+                        "whenever I had a problem"
+                      ],
+                      "translation": "此外，他很善良，我有困难时他都会陪着我。所以我现在仍然信任他，珍惜这段长久的友谊。"
+                    }
+                  ],
+                  "mode": "reasons"
+                }
               },
               {
                 "question": "Describe a person who loves to grow plants (e.g. vegetables, flowers) at home or in the garden",
@@ -4411,7 +4909,41 @@ window.IELTS_DATA = {
                     ]
                   }
                 ],
-                "isNew": false
+                "isNew": false,
+                "ending": {
+                  "endingLead": {
+                    "cue": "And explain why he/she loves growing plants",
+                    "text": "As for why she loves growing plants, there are three reasons.",
+                    "translation": "至于她为什么喜欢种植物，有三个原因。"
+                  },
+                  "reasons": [
+                    {
+                      "text": "First of all, gardening is her hobby. She is retired, so it makes her happy and helps her use her free time. Watching a small seed become a plant gives her something to look forward to.",
+                      "highlights": [
+                        "her hobby",
+                        "use her free time"
+                      ],
+                      "translation": "首先，种植物是她的爱好。她已经退休，这能让她开心，也能利用空闲时间。看着小种子长成植物，让她有了期待。"
+                    },
+                    {
+                      "text": "Secondly, eating her own vegetables is healthy because they are fresher than vegetables from a supermarket. She knows exactly how they were grown, so our family feels safe eating them.",
+                      "highlights": [
+                        "healthy",
+                        "fresher"
+                      ],
+                      "translation": "其次，吃自己种的蔬菜很健康，因为比超市的更新鲜。她清楚蔬菜是怎样种的，所以家人吃起来也放心。"
+                    },
+                    {
+                      "text": "What's more, growing vegetables saves money because buying them from shops can be expensive. She can also share extra vegetables with neighbours, which makes their relationship closer.",
+                      "highlights": [
+                        "saves money",
+                        "shops can be expensive"
+                      ],
+                      "translation": "此外，自己种菜能省钱，因为在商店买菜可能很贵。她还能把多余的菜分给邻居，让关系更亲近。"
+                    }
+                  ],
+                  "mode": "reasons"
+                }
               }
             ]
           },
@@ -4543,7 +5075,41 @@ window.IELTS_DATA = {
                     ]
                   }
                 ],
-                "sourceOrder": 7
+                "sourceOrder": 7,
+                "ending": {
+                  "endingLead": {
+                    "cue": "And explain why you think being organized is important to him/her",
+                    "text": "As for why being organized is important to Alex, I think there are three reasons.",
+                    "translation": "至于有条理为什么对Alex很重要，我觉得有三个原因。"
+                  },
+                  "reasons": [
+                    {
+                      "text": "First of all, a clear plan saves time and helps him avoid small mistakes. He does not need to remember everything in his head because it is written down.",
+                      "highlights": [
+                        "saves time",
+                        "avoid small mistakes"
+                      ],
+                      "translation": "首先，清楚的计划节省时间，也能帮助他避免小错误。他不用把所有事情记在脑子里，因为都写下来了。"
+                    },
+                    {
+                      "text": "Secondly, his plan reduces pressure for the whole team. Everyone knows what to do and when to finish it, so people can work together more easily.",
+                      "highlights": [
+                        "reduces pressure",
+                        "work together more easily"
+                      ],
+                      "translation": "其次，他的计划减少了整个团队的压力。每个人都知道做什么、什么时候完成，因此更容易合作。"
+                    },
+                    {
+                      "text": "What's more, being organized makes other people trust him. This is especially important because he often leads projects and his decisions affect the whole team.",
+                      "highlights": [
+                        "makes other people trust him",
+                        "leads projects"
+                      ],
+                      "translation": "此外，做事有条理会让别人信任他。这尤其重要，因为他经常带项目，他的决定影响整个团队。"
+                    }
+                  ],
+                  "mode": "reasons"
+                }
               },
               {
                 "id": "p2-happy-person",
@@ -4657,7 +5223,47 @@ window.IELTS_DATA = {
                 ],
                 "storyTitle": "种菜的奶奶｜快乐的人",
                 "reasonHint": false,
-                "sourceOrder": 10
+                "sourceOrder": 10,
+                "ending": {
+                  "endingLead": {
+                    "cue": "And explain why you think he/she is a happy person",
+                    "text": "As for why I think she is a happy person, there are three simple reasons.",
+                    "translation": "至于我为什么觉得她是一个快乐的人，有三个简单的原因。"
+                  },
+                  "reasons": [
+                    {
+                      "text": "First of all, growing vegetables saves money because she buys less food from shops and makes simple plant food from kitchen waste. The saving is small each week, but it is useful over time.",
+                      "highlights": [
+                        "saves money",
+                        "buys less food",
+                        "useful over time"
+                      ],
+                      "memory": "1 · Money：自己种菜＋厨余做肥料 → 少从商店买 → 节省生活费",
+                      "translation": "首先，种菜让她少买一些食物，也能用厨余做简单的肥料，所以能省钱。每周省得不多，但积累起来很有用。"
+                    },
+                    {
+                      "text": "Secondly, gardening gives her useful work and gentle exercise. Watching the plants grow makes her feel calm and proud, and she stays positive when the weather causes a problem.",
+                      "highlights": [
+                        "useful work",
+                        "calm and proud",
+                        "stays positive"
+                      ],
+                      "memory": "2 · Emotion：每天有事做＋看到蔬菜长大 → 平静自豪 → 遇到问题也积极",
+                      "translation": "其次，种菜让她有事可做，也有温和的运动。看着植物生长让她平静、自豪，天气出问题时她仍然保持积极。"
+                    },
+                    {
+                      "text": "What's more, she shares vegetables with relatives and neighbours, and our family often cooks with her. These simple activities give people time to talk, so she feels connected rather than lonely.",
+                      "highlights": [
+                        "shares vegetables",
+                        "cooks with her",
+                        "connected rather than lonely"
+                      ],
+                      "memory": "3 · Relationship：分蔬菜＋一起做饭聊天 → 不孤独 → 关系更亲近",
+                      "translation": "最后，她和亲戚邻居分享蔬菜，我们也经常和她做饭。这些简单的活动让大家有时间聊天，所以她感到亲近而不孤单。"
+                    }
+                  ],
+                  "mode": "reasons"
+                }
               },
               {
                 "id": "p2-local-famous-person",
@@ -4782,7 +5388,41 @@ window.IELTS_DATA = {
                     ]
                   }
                 ],
-                "sourceOrder": 11
+                "sourceOrder": 11,
+                "ending": {
+                  "endingLead": {
+                    "cue": "And explain how you feel about this person",
+                    "text": "As for how I feel about Yu Donglai, I respect him. There are three main reasons.",
+                    "translation": "至于我对于东来的感受，我尊敬他，主要有三个原因。"
+                  },
+                  "reasons": [
+                    {
+                      "text": "First of all, local people like the careful service in his stores. The company pays attention to ordinary problems, so shopping there feels easy and comfortable.",
+                      "highlights": [
+                        "careful service",
+                        "easy and comfortable"
+                      ],
+                      "translation": "首先，当地人喜欢店里周到的服务。公司重视普通的小问题，所以在那里购物感觉轻松、舒服。"
+                    },
+                    {
+                      "text": "Secondly, the company cares about both customers and staff. When workers feel respected, they are more willing to help customers, and this builds trust.",
+                      "highlights": [
+                        "customers and staff",
+                        "builds trust"
+                      ],
+                      "translation": "其次，公司关心顾客和员工。员工感到被尊重时，就更愿意帮助顾客，这也建立了信任。"
+                    },
+                    {
+                      "text": "What's more, the business has made our local area better known and attracted visitors. I respect him because his practical ideas have had a positive local influence.",
+                      "highlights": [
+                        "better known",
+                        "a positive local influence"
+                      ],
+                      "translation": "此外，他的生意让我们的家乡更出名，吸引了游客。我尊敬他，因为他的实用想法给当地带来了积极影响。"
+                    }
+                  ],
+                  "mode": "feelings"
+                }
               },
               {
                 "id": "p2-met-once-person",
@@ -4896,7 +5536,46 @@ window.IELTS_DATA = {
                     ]
                   }
                 ],
-                "sourceOrder": 12
+                "sourceOrder": 12,
+                "ending": {
+                  "endingLead": {
+                    "cue": "And explain how you feel about him/her",
+                    "text": "As for how I feel about Lei Jun, I admire him and would like to know him better. There are three reasons.",
+                    "translation": "至于我对雷军的感受，我钦佩他，也想进一步了解他，有三个原因。"
+                  },
+                  "reasons": [
+                    {
+                      "text": "First of all, he has a lot of experience in technology and business. I would like to learn how he makes useful products. You know, his ideas could help me in my own work.",
+                      "translation": "他在科技和商业方面很有经验。我想学习他怎样做出实用的产品。你知道，他的想法也可能帮助我自己的工作。",
+                      "memory": "Learning：经验丰富 → 学产品思路 → 帮助工作",
+                      "highlights": [
+                        "a lot of experience",
+                        "help me in my own work"
+                      ]
+                    },
+                    {
+                      "text": "Secondly, I also want to know how he stays calm and makes decisions when an unexpected problem appears. His method could help me solve problems more patiently at work.",
+                      "memory": "2 · 工作 / Emotion：突发问题时仍冷静决策 → 学习耐心解决问题 → 工作更稳",
+                      "highlights": [
+                        "stays calm",
+                        "an unexpected problem",
+                        "more patiently"
+                      ],
+                      "translation": "我也想知道遇到意外问题时，他如何保持冷静、作出决定。他的方法可以帮助我在工作中更耐心地解决问题。"
+                    },
+                    {
+                      "text": "What's more, although we spoke for only fifteen minutes, he listened carefully and treated me in a friendly way. I hope we can stay in touch and become friends in the technology field.",
+                      "memory": "5 · Relationship：只聊十五分钟但他认真又友好 → 希望保持联系 → 成为科技行业的朋友",
+                      "highlights": [
+                        "listened carefully",
+                        "stay in touch",
+                        "become friends"
+                      ],
+                      "translation": "虽然我们只聊了十五分钟，他仍然认真听，友好地对待我。我希望我们能保持联系，成为科技领域的朋友。"
+                    }
+                  ],
+                  "mode": "feelings"
+                }
               }
             ]
           }
@@ -5237,7 +5916,44 @@ window.IELTS_DATA = {
                     "I liked the place because"
                   ]
                 },
-                "sourceOrder": 14
+                "sourceOrder": 14,
+                "ending": {
+                  "endingLead": {
+                    "cue": "And explain how you feel about the place",
+                    "text": "As for how I feel about the cafe, I really like it. There are three simple reasons.",
+                    "translation": "至于我对这家咖啡馆的感受，我很喜欢它，有三个简单的原因。"
+                  },
+                  "reasons": [
+                    {
+                      "text": "First of all, it gave me a quiet place to relax. You know, we had walked around the city for hours. Sitting by the window and watching the boats helped me feel better.",
+                      "translation": "它让我有一个安静放松的地方。你知道，我们已经在城里走了好几个小时。坐在窗边看船，让我舒服了不少。",
+                      "memory": "Emotion：走累了 → 窗边看船 → 放松",
+                      "highlights": [
+                        "quiet place to relax",
+                        "watching the boats"
+                      ]
+                    },
+                    {
+                      "text": "Secondly, I could spend some proper time with my wife. We talked about the trip and took a few photos. I think moments like these make a holiday feel special.",
+                      "translation": "我可以和妻子好好相处一会儿。我们聊旅行，也拍了几张照片。我觉得这样的时刻让假期变得特别。",
+                      "memory": "Relationship：和妻子聊天＋拍照 → 特别的回忆",
+                      "highlights": [
+                        "time with my wife",
+                        "a holiday feel special"
+                      ]
+                    },
+                    {
+                      "text": "What's more, the visit was simple and easy to arrange. We just ordered two drinks and enjoyed the view. I liked being near the river without needing a long or expensive activity.",
+                      "translation": "这次游览简单、容易安排。我们只是点了两杯饮料，欣赏风景。我喜欢靠近江边，又不用安排很长或很贵的活动。",
+                      "memory": "Money / Convenience：两杯饮料＋江景 → 简单省心",
+                      "highlights": [
+                        "two drinks",
+                        "simple and easy"
+                      ]
+                    }
+                  ],
+                  "mode": "feelings"
+                }
               },
               {
                 "id": "p2-feishu-building-enjoy",
@@ -5289,7 +6005,44 @@ window.IELTS_DATA = {
                     "For me, an enjoyable building"
                   ]
                 },
-                "sourceOrder": 15
+                "sourceOrder": 15,
+                "ending": {
+                  "endingLead": {
+                    "cue": "And explain why you enjoy visiting it",
+                    "text": "As for why I enjoy visiting the mall, there are three reasons.",
+                    "translation": "至于我为什么喜欢去这家商场，有三个原因。"
+                  },
+                  "reasons": [
+                    {
+                      "text": "First of all, it is convenient to get there by metro. The signs inside are clear, and there are plenty of places to eat. You know, that makes a day out much easier.",
+                      "translation": "坐地铁过去很方便，里面的指示牌清楚，也有很多吃饭的地方。你知道，这会让外出的一天轻松很多。",
+                      "memory": "Convenience：地铁＋指示牌＋餐厅 → 方便",
+                      "highlights": [
+                        "convenient to get there",
+                        "places to eat"
+                      ]
+                    },
+                    {
+                      "text": "Secondly, it is a comfortable place to take a break. When it started raining, we could stay inside and have a drink. I felt relaxed because we could still enjoy ourselves.",
+                      "translation": "这是一个可以舒服休息的地方。开始下雨时，我们能待在里面喝点东西。我觉得很放松，因为仍然可以玩得开心。",
+                      "memory": "Emotion：避雨＋休息 → 放松",
+                      "highlights": [
+                        "comfortable place",
+                        "I felt relaxed"
+                      ]
+                    },
+                    {
+                      "text": "What's more, I enjoy spending time there with my wife. We can look around, choose a restaurant and have a chat. We do not need to buy lots of things to enjoy being together.",
+                      "translation": "我喜欢和妻子在那里相处。我们可以逛逛、选一家餐厅、聊聊天。不用买很多东西，也能享受在一起的时间。",
+                      "memory": "Relationship / Money：逛街聊天 → 不必买很多东西",
+                      "highlights": [
+                        "time there with my wife",
+                        "do not need to buy lots"
+                      ]
+                    }
+                  ],
+                  "mode": "reasons"
+                }
               },
               {
                 "isNew": true,
@@ -5368,7 +6121,44 @@ window.IELTS_DATA = {
                       "lively and memorable"
                     ]
                   }
-                ]
+                ],
+                "ending": {
+                  "endingLead": {
+                    "cue": "And how you felt about it",
+                    "text": "As for how I felt about the crowded festival, my feelings changed during the visit.",
+                    "translation": "至于我对这个拥挤美食节的感受，游览过程中我的感受发生了变化。"
+                  },
+                  "reasons": [
+                    {
+                      "text": "At first, I felt excited because there were lots of stalls and people. My girlfriend and I wanted to try local snacks. You know, it looked like a lively place to explore.",
+                      "translation": "一开始，看到很多摊位和人，我很兴奋。女朋友和我想尝尝当地小吃。你知道，看起来是个热闹、值得逛逛的地方。",
+                      "memory": "Emotion：摊位多＋想尝小吃 → 兴奋",
+                      "highlights": [
+                        "At first",
+                        "felt excited"
+                      ]
+                    },
+                    {
+                      "text": "However, I soon felt tired because we could hardly hear each other. There were too many people talking at once. It was difficult to enjoy a simple conversation with my girlfriend.",
+                      "translation": "然而，我们几乎听不清彼此，我很快就累了。太多人同时说话，想和女朋友简单聊聊都很困难。",
+                      "memory": "Emotion / Relationship：人多嘈杂 → 听不清＋疲惫",
+                      "highlights": [
+                        "However",
+                        "hardly hear each other"
+                      ]
+                    },
+                    {
+                      "text": "In the end, I felt disappointed because the food was expensive and did not taste good. We left for a quieter mall. I felt much better once we could sit down together.",
+                      "translation": "最后，食物又贵又不好吃，让我失望。我们去了更安静的商场。能坐下来相处后，我感觉好多了。",
+                      "memory": "Money / Emotion：贵且不好吃 → 离开 → 好受些",
+                      "highlights": [
+                        "In the end",
+                        "food was expensive"
+                      ]
+                    }
+                  ],
+                  "mode": "feelings"
+                }
               },
               {
                 "isNew": true,
@@ -5447,7 +6237,44 @@ window.IELTS_DATA = {
                       "lively and memorable"
                     ]
                   }
-                ]
+                ],
+                "ending": {
+                  "endingLead": {
+                    "cue": "And explain why you feel it's a noisy place",
+                    "text": "As for why I felt it was a noisy place, there were three main things I noticed.",
+                    "translation": "至于我为什么觉得那里很嘈杂，主要是我注意到了三件事。"
+                  },
+                  "reasons": [
+                    {
+                      "text": "First of all, there were many visitors talking at the same time. You know, the paths between the stalls were crowded. All those conversations mixed together, so there was noise all around us.",
+                      "translation": "很多游客同时说话。你知道，摊位之间的路很拥挤。所有谈话声混在一起，周围都是声音。",
+                      "memory": "噪音来源：游客同时说话＋人群拥挤",
+                      "highlights": [
+                        "visitors talking",
+                        "noise all around us"
+                      ]
+                    },
+                    {
+                      "text": "Secondly, the sellers were also talking loudly to customers. They needed people to hear them over the crowd. This added even more noise, and I found it hard to relax there.",
+                      "translation": "摊主也大声和顾客说话。他们需要让人们在嘈杂的人群中听见自己。这增加了更多噪音，我很难放松。",
+                      "memory": "Emotion：摊主大声说话 → 更嘈杂＋难放松",
+                      "highlights": [
+                        "sellers",
+                        "hard to relax"
+                      ]
+                    },
+                    {
+                      "text": "What's more, my girlfriend and I could hardly hear each other. We were standing close, but a normal conversation was still difficult. I think that shows how noisy the place really was.",
+                      "translation": "女朋友和我几乎听不清彼此。虽然站得很近，正常聊天仍然很困难。我觉得这就说明那里到底有多吵。",
+                      "memory": "Relationship：站得近也听不清 → 难以聊天",
+                      "highlights": [
+                        "hardly hear each other",
+                        "normal conversation"
+                      ]
+                    }
+                  ],
+                  "mode": "reasons"
+                }
               },
               {
                 "isNew": true,
@@ -5549,7 +6376,44 @@ window.IELTS_DATA = {
                       "shared time"
                     ]
                   }
-                ]
+                ],
+                "ending": {
+                  "endingLead": {
+                    "cue": "And explain why you enjoy visiting there",
+                    "text": "As for why I enjoy visiting the riverside park, there are three reasons.",
+                    "translation": "至于我为什么喜欢去河边公园，有三个原因。"
+                  },
+                  "reasons": [
+                    {
+                      "text": "First of all, the river, flowers and small boats create a beautiful view, so walking there helps me relax. You know, it is a nice change after a busy day at work.",
+                      "memory": "景美：河水花草小船 → 散步拍照 → 心情放松",
+                      "highlights": [
+                        "beautiful view",
+                        "helps me relax"
+                      ],
+                      "translation": "首先，河流、花和小船组成了美丽的景色，所以在那里散步能让我放松。你知道，忙碌工作一天后，这是一种不错的调节。"
+                    },
+                    {
+                      "text": "Secondly, local people are friendly. One man helped my family take a photo and showed us a quiet viewpoint. Small acts like that make me feel welcome.",
+                      "memory": "人美：帮忙拍照指路 → 感到欢迎",
+                      "highlights": [
+                        "friendly",
+                        "helped my family"
+                      ],
+                      "translation": "其次，当地人很友好。一位男士帮我们全家拍照，也带我们找到了一个安静的观景点。这样的小举动会让我感到受欢迎。"
+                    },
+                    {
+                      "text": "What's more, the grilled fish beside the river is simple but delicious, so the visit also gives us a good meal together. We can enjoy the food and have a relaxed conversation.",
+                      "memory": "食物美：河边烤鱼 → 一起吃饭 → 留下回忆",
+                      "highlights": [
+                        "grilled fish",
+                        "delicious"
+                      ],
+                      "translation": "最后，河边的烤鱼简单却好吃，所以这次出行也让我们一起吃了顿好饭。我们可以享受食物，轻松地聊聊天。"
+                    }
+                  ],
+                  "mode": "reasons"
+                }
               },
               {
                 "isNew": true,
@@ -5582,6 +6446,41 @@ window.IELTS_DATA = {
                     "人美：当地人和店员都愿意帮忙",
                     "食物美：小笼包和商场餐厅选择多"
                   ]
+                },
+                "ending": {
+                  "endingLead": {
+                    "cue": "And explain why you would like to visit it again",
+                    "text": "As for why I would like to visit Shanghai again, there are three reasons.",
+                    "translation": "至于我为什么想再去一次上海，有三个原因。"
+                  },
+                  "reasons": [
+                    {
+                      "text": "First of all, the scenery is amazing. Modern buildings, traditional streets and the river are close together, so I can enjoy several different views in one day.",
+                      "highlights": [
+                        "scenery is amazing",
+                        "different views"
+                      ],
+                      "translation": "首先，景色很棒。现代建筑、传统街道和江景离得很近，所以一天能看到几种不同的风景。"
+                    },
+                    {
+                      "text": "Secondly, local people made me feel welcome. One person helped us take a photo during our trip. You know, small acts of kindness like that leave a good memory.",
+                      "translation": "当地人让我感到受欢迎。旅行中有个人帮我们拍照。你知道，这样的小小善意会留下美好的回忆。",
+                      "memory": "Relationship：当地人帮拍照 → 友好回忆",
+                      "highlights": [
+                        "feel welcome",
+                        "helped us take a photo"
+                      ]
+                    },
+                    {
+                      "text": "What's more, the local food is delicious, especially xiaolongbao. Sharing it with my girlfriend gave us a lovely memory, so I would like to visit Shanghai again.",
+                      "highlights": [
+                        "local food is delicious",
+                        "visit Shanghai again"
+                      ],
+                      "translation": "此外，当地食物很好吃，尤其是小笼包。和女朋友一起分享，给我们留下了美好的回忆，所以我想再去一次上海。"
+                    }
+                  ],
+                  "mode": "reasons"
                 }
               }
             ]
@@ -5650,7 +6549,42 @@ window.IELTS_DATA = {
                     ]
                   }
                 ],
-                "isNew": false
+                "isNew": false,
+                "ending": {
+                  "endingLead": {
+                    "cue": "And explain why it is your favourite city",
+                    "text": "As for why Shanghai is my favourite city, there are three reasons.",
+                    "translation": "至于上海为什么是我最喜欢的城市，有三个原因。"
+                  },
+                  "reasons": [
+                    {
+                      "text": "First of all, the scenery is amazing. Modern buildings, traditional streets and the river are close together, so I can enjoy several different views in one day.",
+                      "highlights": [
+                        "scenery is amazing",
+                        "different views"
+                      ],
+                      "translation": "首先，景色很棒。现代建筑、传统街道和江景离得很近，所以一天能看到几种不同的风景。"
+                    },
+                    {
+                      "text": "Secondly, local people made me feel welcome. One person helped us take a photo during our trip. You know, small acts of kindness like that leave a good memory.",
+                      "translation": "当地人让我感到受欢迎。旅行中有个人帮我们拍照。你知道，这样的小小善意会留下美好的回忆。",
+                      "memory": "Relationship：当地人帮拍照 → 友好回忆",
+                      "highlights": [
+                        "feel welcome",
+                        "helped us take a photo"
+                      ]
+                    },
+                    {
+                      "text": "What's more, the local food is delicious, especially xiaolongbao. Sharing it with my girlfriend gave us a lovely memory, so I would like to visit Shanghai again.",
+                      "highlights": [
+                        "local food is delicious",
+                        "visit Shanghai again"
+                      ],
+                      "translation": "此外，当地食物很好吃，尤其是小笼包。和女朋友一起分享，给我们留下了美好的回忆，所以我想再去一次上海。"
+                    }
+                  ],
+                  "mode": "reasons"
+                }
               }
             ]
           },
@@ -5720,7 +6654,44 @@ window.IELTS_DATA = {
                     ]
                   }
                 ],
-                "isNew": false
+                "isNew": false,
+                "ending": {
+                  "endingLead": {
+                    "cue": "And explain why you would like to recommend it to others",
+                    "text": "As for why I would recommend Shanghai to others, there are three reasons.",
+                    "translation": "至于我为什么会向别人推荐上海，有三个原因。"
+                  },
+                  "reasons": [
+                    {
+                      "text": "First of all, the scenery is amazing, with modern buildings, traditional streets and a river view. These different views are close together, so visitors can see a lot in one day.",
+                      "highlights": [
+                        "scenery is amazing",
+                        "modern buildings",
+                        "traditional streets",
+                        "river view"
+                      ],
+                      "translation": "首先，景色很棒，有现代建筑、传统街道和江景。这些不同的景观离得很近，所以游客一天能看到很多东西。"
+                    },
+                    {
+                      "text": "Secondly, local people made me feel welcome. One person helped us take a photo during our trip. You know, small acts of kindness like that leave a good memory.",
+                      "translation": "当地人让我感到受欢迎。旅行中有个人帮我们拍照。你知道，这样的小小善意会留下美好的回忆。",
+                      "memory": "Relationship：当地人帮拍照 → 友好回忆",
+                      "highlights": [
+                        "feel welcome",
+                        "helped us take a photo"
+                      ]
+                    },
+                    {
+                      "text": "What's more, the local food is delicious, especially xiaolongbao. It was hot and full of soup, and sharing a basket with my girlfriend was a lovely part of the trip.",
+                      "highlights": [
+                        "local food is delicious",
+                        "xiaolongbao"
+                      ],
+                      "translation": "此外，当地食物很好吃，尤其是小笼包。它又热又多汁，和女朋友一起分享一笼，是这次旅行中美好的一部分。"
+                    }
+                  ],
+                  "mode": "reasons"
+                }
               },
               {
                 "question": "Describe a place you would like to visit in your free time",
@@ -5782,7 +6753,41 @@ window.IELTS_DATA = {
                     ]
                   }
                 ],
-                "isNew": false
+                "isNew": false,
+                "ending": {
+                  "endingLead": {
+                    "cue": "And explain why you would like to visit it",
+                    "text": "As for why I would like to visit Shanghai, there are three main reasons.",
+                    "translation": "至于我为什么想去上海，主要有三个原因。"
+                  },
+                  "reasons": [
+                    {
+                      "text": "First of all, I want to see its modern buildings, traditional streets and beautiful river view. Seeing old and new parts of the same city would be interesting to me.",
+                      "highlights": [
+                        "modern buildings",
+                        "traditional streets",
+                        "river view"
+                      ],
+                      "translation": "首先，我想看现代建筑、传统街道和美丽的江景。同一座城市的新旧两面，对我来说会很有趣。"
+                    },
+                    {
+                      "text": "Secondly, I have heard that local people are friendly to visitors. If I get lost, I believe someone will be willing to help me.",
+                      "highlights": [
+                        "friendly to visitors"
+                      ],
+                      "translation": "其次，我听说当地人对游客很友好。如果迷路，我相信会有人愿意帮忙。"
+                    },
+                    {
+                      "text": "What's more, I really want to try local food such as xiaolongbao. I have seen it online many times, but I want to taste the fresh one in Shanghai.",
+                      "highlights": [
+                        "try local food",
+                        "xiaolongbao"
+                      ],
+                      "translation": "此外，我很想尝尝小笼包等当地食物。我在网上见过很多次，但想在上海尝到新鲜的。"
+                    }
+                  ],
+                  "mode": "reasons"
+                }
               }
             ]
           },
@@ -5850,7 +6855,41 @@ window.IELTS_DATA = {
                     ]
                   }
                 ],
-                "isNew": false
+                "isNew": false,
+                "ending": {
+                  "endingLead": {
+                    "cue": "And explain why you think it is a boring place",
+                    "text": "As for why I found the place boring, there were three reasons.",
+                    "translation": "至于我为什么觉得这个地方无聊，有三个原因。"
+                  },
+                  "reasons": [
+                    {
+                      "text": "First of all, although the buildings and river were nice, the view was similar to my hometown, so it was not very attractive to me. After taking a few photos, I did not know what else to do there.",
+                      "highlights": [
+                        "similar to my hometown",
+                        "not very attractive"
+                      ],
+                      "translation": "首先，虽然建筑和江景不错，但和家乡的景色相似，所以对我没有太大吸引力。拍了几张照片之后，我就不知道还能做什么了。"
+                    },
+                    {
+                      "text": "Secondly, the local people seemed shy and did not really talk with me, so I had no chance to chat with them. I had hoped to hear some local stories, but that did not happen.",
+                      "highlights": [
+                        "local people seemed shy",
+                        "no chance to chat"
+                      ],
+                      "translation": "其次，当地人似乎比较害羞，没有怎么和我说话，所以我没机会和他们聊天。我本来希望听一些当地故事，但没能如愿。"
+                    },
+                    {
+                      "text": "What's more, it rained for two days, so I could only stay in the hotel and had little to do. We watched TV and played with our phones, which was no different from being at home.",
+                      "highlights": [
+                        "rained for two days",
+                        "stay in the hotel"
+                      ],
+                      "translation": "此外，下了两天雨，我只能待在酒店里，没什么可做。我们看电视、玩手机，和平时在家没什么区别。"
+                    }
+                  ],
+                  "mode": "reasons"
+                }
               }
             ]
           },
@@ -5917,7 +6956,41 @@ window.IELTS_DATA = {
                     ]
                   }
                 ],
-                "isNew": false
+                "isNew": false,
+                "ending": {
+                  "endingLead": {
+                    "cue": "And explain why you would not like to live there",
+                    "text": "As for why I would not like to live there, there are three main reasons.",
+                    "translation": "至于我为什么不想住在那里，主要有三个原因。"
+                  },
+                  "reasons": [
+                    {
+                      "text": "First of all, public transport is inconvenient, so travelling to work would take too long. There is only one bus every hour, and the nearest station is far away.",
+                      "highlights": [
+                        "public transport is inconvenient",
+                        "take too long"
+                      ],
+                      "translation": "首先，公共交通不方便，所以去上班会花很久。每小时只有一班公交，最近的车站也很远。"
+                    },
+                    {
+                      "text": "Secondly, most of my friends live in the city, so I might feel lonely there. I could call them online, but it would not feel the same as meeting them.",
+                      "highlights": [
+                        "friends live in the city",
+                        "feel lonely"
+                      ],
+                      "translation": "其次，大多数朋友住在城里，我可能会觉得孤单。我可以在网上联系他们，但感觉和见面不一样。"
+                    },
+                    {
+                      "text": "What's more, there are few shops or entertainment places nearby. Buying something simple or watching a film would require a long trip into town.",
+                      "highlights": [
+                        "few shops",
+                        "entertainment places"
+                      ],
+                      "translation": "此外，附近商店和娱乐场所很少。买点简单的东西，或者看一场电影，都需要去很远的镇上。"
+                    }
+                  ],
+                  "mode": "reasons"
+                }
               }
             ]
           },
@@ -5987,7 +7060,44 @@ window.IELTS_DATA = {
                     ]
                   }
                 ],
-                "isNew": false
+                "isNew": false,
+                "ending": {
+                  "endingLead": {
+                    "cue": "And explain why it is important",
+                    "text": "As for why this river is important, there are three reasons.",
+                    "translation": "至于这条河为什么重要，有三个原因。"
+                  },
+                  "reasons": [
+                    {
+                      "text": "First of all, it helps people relax. You know, many people are busy with work every day. A short walk by the river can help them feel better.",
+                      "translation": "它帮助人们放松。你知道，很多人每天都忙于工作。在河边散一小会儿步，就能让他们好受一些。",
+                      "memory": "Emotion：工作忙 → 河边散步 → 放松",
+                      "highlights": [
+                        "helps people relax",
+                        "A short walk"
+                      ]
+                    },
+                    {
+                      "text": "Secondly, families can spend time together there. They can walk, take photos or just have a chat. I think these simple things can make them feel closer.",
+                      "translation": "家人可以在那里一起活动。他们可以散步、拍照，或者只是聊聊天。我觉得这些简单的小事能让他们更亲近。",
+                      "memory": "Relationship：散步＋拍照＋聊天 → 更亲近",
+                      "highlights": [
+                        "spend time together",
+                        "feel closer"
+                      ]
+                    },
+                    {
+                      "text": "What's more, it helps local people make money. Many visitors buy food and drinks near the river. So, I think it is good for the small shops and restaurants there.",
+                      "translation": "它帮助当地人赚钱。很多游客会在河边买食物和饮料。所以，我觉得这对那里的小商店和餐厅有好处。",
+                      "memory": "Money：游客消费 → 帮助当地商店餐厅",
+                      "highlights": [
+                        "make money",
+                        "small shops and restaurants"
+                      ]
+                    }
+                  ],
+                  "mode": "reasons"
+                }
               }
             ]
           }
@@ -6482,7 +7592,44 @@ window.IELTS_DATA = {
                   }
                 ],
                 "isNew": true,
-                "sourceOrder": 20
+                "sourceOrder": 20,
+                "ending": {
+                  "endingLead": {
+                    "cue": "And explain why it's your least favorite movie",
+                    "text": "As for why it is my least favourite movie, there are three reasons.",
+                    "translation": "至于它为什么是我最不喜欢的电影，有三个原因。"
+                  },
+                  "reasons": [
+                    {
+                      "text": "First of all, the story moved too slowly, so I found it hard to stay interested. You know, I expected something exciting. Nearly an hour passed, but very little happened.",
+                      "translation": "故事发展太慢，我很难保持兴趣。你知道，我期待精彩的内容。将近一小时过去了，却没发生什么事情。",
+                      "memory": "Emotion：期待精彩 → 剧情慢 → 没兴趣",
+                      "highlights": [
+                        "moved too slowly",
+                        "very little happened"
+                      ]
+                    },
+                    {
+                      "text": "Secondly, people just talked and talked, and the film was much longer than it needed to be. I kept waiting for the story to move on. It felt like a waste of time.",
+                      "translation": "人们一直说个不停，电影也比需要的长很多。我一直等情节继续发展，感觉很浪费时间。",
+                      "memory": "Time：一直聊天＋电影太长 → 浪费时间",
+                      "highlights": [
+                        "talked and talked",
+                        "a waste of time"
+                      ]
+                    },
+                    {
+                      "text": "What's more, I wanted a relaxing evening with my girlfriend, but we both felt bored and disappointed. We had had a busy week. I think we could have enjoyed our time together more.",
+                      "translation": "我想和女朋友度过一个放松的晚上，但我们都无聊又失望。那周我们已经很忙了。我觉得这段相处时间本来可以更愉快。",
+                      "memory": "Relationship / Emotion：一起放松的期待 → 两人失望",
+                      "highlights": [
+                        "with my girlfriend",
+                        "bored and disappointed"
+                      ]
+                    }
+                  ],
+                  "mode": "reasons"
+                }
               }
             ]
           },
@@ -6571,7 +7718,44 @@ window.IELTS_DATA = {
                       "a clear stopping time"
                     ]
                   }
-                ]
+                ],
+                "ending": {
+                  "endingLead": {
+                    "cue": "And explain why you think it is a wast of time",
+                    "text": "As for why I think watching too many films is a waste of time, there are three reasons.",
+                    "translation": "至于我为什么觉得看太多电影浪费时间，有三个原因。"
+                  },
+                  "reasons": [
+                    {
+                      "text": "First of all, the television suggests another film automatically, so it is easy to keep watching and lose track of time. You know, I sometimes keep watching without really choosing to.",
+                      "memory": "1 · 自动推荐下一部 → 容易继续看 → 忘记时间",
+                      "highlights": [
+                        "another film automatically",
+                        "lose track of time"
+                      ],
+                      "translation": "电视会自动推荐另一部电影，所以很容易继续看下去，忘记时间。你知道，我有时不是认真作出选择，而是不知不觉就继续看。"
+                    },
+                    {
+                      "text": "Secondly, watching alone for too long leaves less time for people I care about. One film with friends can bring us closer. More films by myself do not give me the same feeling.",
+                      "translation": "独自看太久，会减少陪伴在乎的人的时间。和朋友看一部电影能让我们更亲近，而自己多看几部没有同样的感觉。",
+                      "memory": "Relationship：独自看太久 → 少陪伴家人朋友",
+                      "highlights": [
+                        "less time for people",
+                        "bring us closer"
+                      ]
+                    },
+                    {
+                      "text": "What's more, I often go to bed after midnight and feel tired at work the next day, so the habit affects more than one evening. I think getting enough sleep would be more useful.",
+                      "memory": "3 · 午夜后睡 → 第二天工作疲惫 → 影响不只一晚",
+                      "highlights": [
+                        "after midnight",
+                        "tired at work"
+                      ],
+                      "translation": "我经常午夜后才睡，第二天上班很累，所以这个习惯影响的不只是一个晚上。我觉得睡够觉会更有用。"
+                    }
+                  ],
+                  "mode": "reasons"
+                }
               },
               {
                 "isNew": true,
@@ -6654,7 +7838,44 @@ window.IELTS_DATA = {
                       "a warm conversation"
                     ]
                   }
-                ]
+                ],
+                "ending": {
+                  "endingLead": {
+                    "cue": "And explain why it was enjoyable",
+                    "text": "As for why the evening was enjoyable, there were three simple reasons.",
+                    "translation": "至于那个晚上为什么愉快，有三个简单的原因。"
+                  },
+                  "reasons": [
+                    {
+                      "text": "First of all, we had not met for a while, so watching the movie gave us time to talk and feel close again. It was nice to sit together instead of just sending messages.",
+                      "memory": "1 · 有段时间没见 → 一起看电影聊天 → 关系更近",
+                      "highlights": [
+                        "time to talk",
+                        "feel close again"
+                      ],
+                      "translation": "我们有一阵子没见了，所以看电影让我们有时间聊天，再次感到亲近。能坐在一起，而不只是发消息，感觉很好。"
+                    },
+                    {
+                      "text": "Secondly, the funny scenes, snacks and laughter made the living room feel relaxed and friendly. You know, after a busy week, that was exactly what we needed.",
+                      "memory": "3 · 有趣画面＋零食＋笑声 → 客厅气氛轻松",
+                      "highlights": [
+                        "snacks and laughter",
+                        "relaxed and friendly"
+                      ],
+                      "translation": "搞笑的片段、零食和笑声，让客厅里的气氛轻松又友好。你知道，忙了一周后，这正是我们需要的。"
+                    },
+                    {
+                      "text": "What's more, watching at home did not cost much money. We could prepare our own snacks and enjoy the film together. I think having good company mattered more than paying for expensive entertainment.",
+                      "translation": "在家看电影没花很多钱。我们可以自己准备零食，一起享受电影。我觉得有人陪伴，比花钱参加昂贵的娱乐更重要。",
+                      "memory": "Money / Relationship：在家看＋自备零食 → 便宜且开心",
+                      "highlights": [
+                        "did not cost much money",
+                        "good company"
+                      ]
+                    }
+                  ],
+                  "mode": "reasons"
+                }
               }
             ]
           },
@@ -6721,7 +7942,41 @@ window.IELTS_DATA = {
                     ]
                   }
                 ],
-                "isNew": false
+                "isNew": false,
+                "ending": {
+                  "endingLead": {
+                    "cue": "And explain how you feel about this law",
+                    "text": "As for how I would feel about this law, I would be happy to see it introduced. There are three reasons.",
+                    "translation": "至于我对这项法律的感受，我会很高兴看到它实施，有三个原因。"
+                  },
+                  "reasons": [
+                    {
+                      "text": "First of all, the city would stay clean, so it would have a better environment and attract more customers to local businesses. A clean street makes people want to stay longer and visit again.",
+                      "highlights": [
+                        "city would stay clean",
+                        "attract more customers"
+                      ],
+                      "translation": "首先，城市会保持干净，有更好的环境，也能为当地商家吸引更多顾客。干净的街道让人愿意多停留、再次来访。"
+                    },
+                    {
+                      "text": "Secondly, the law would help people understand the importance of protecting the environment. In time, putting waste in a bin could become an easy daily habit.",
+                      "highlights": [
+                        "understand the importance",
+                        "protecting the environment"
+                      ],
+                      "translation": "其次，法律会帮助人们理解保护环境的重要性。慢慢地，把垃圾扔进垃圾桶就能成为日常习惯。"
+                    },
+                    {
+                      "text": "What's more, the fine money could be used to plant more trees and flowers and make the city more beautiful. It could also support cleaners and buy more public bins.",
+                      "highlights": [
+                        "fine money",
+                        "trees and flowers"
+                      ],
+                      "translation": "此外，罚款可以用来种更多树和花，让城市更美丽，也可以支持清洁工、增加公共垃圾桶。"
+                    }
+                  ],
+                  "mode": "feelings"
+                }
               },
               {
                 "question": "Describe a law on environmental protection",
@@ -6782,7 +8037,41 @@ window.IELTS_DATA = {
                     ]
                   }
                 ],
-                "isNew": false
+                "isNew": false,
+                "ending": {
+                  "endingLead": {
+                    "cue": "And explain how you feel about this law",
+                    "text": "As for how I feel about this law, I think it is a good law. There are three reasons.",
+                    "translation": "至于我对这项法律的感受，我觉得它是一项好法律，有三个原因。"
+                  },
+                  "reasons": [
+                    {
+                      "text": "First of all, the city stays clean because people do not throw rubbish, so it has a better environment and attracts more customers to local businesses. People are more willing to eat, shop and spend time in a clean area.",
+                      "highlights": [
+                        "city stays clean",
+                        "attracts more customers"
+                      ],
+                      "translation": "首先，人们不乱扔垃圾，城市就会保持干净，环境更好，也能为当地商家吸引更多顾客。人们更愿意在干净的地方吃饭、购物和停留。"
+                    },
+                    {
+                      "text": "Secondly, the law helps people understand the importance of protecting the environment. After following it for some time, using a rubbish bin can become a natural habit.",
+                      "highlights": [
+                        "understand the importance",
+                        "protecting the environment"
+                      ],
+                      "translation": "其次，法律让人们了解环保的重要性。遵守一段时间之后，把垃圾扔进垃圾桶就可能成为自然的习惯。"
+                    },
+                    {
+                      "text": "What's more, the fine money can be used to plant more trees and flowers and make the city more beautiful. It can also support more bins and cleaning work in public places.",
+                      "highlights": [
+                        "fine money",
+                        "trees and flowers"
+                      ],
+                      "translation": "此外，罚款可以用于种树种花，让城市更美丽，也能支持增加垃圾桶和公共场所清洁工作。"
+                    }
+                  ],
+                  "mode": "feelings"
+                }
               },
               {
                 "question": "Describe a new law you would like to introduce in your country",
@@ -6843,7 +8132,41 @@ window.IELTS_DATA = {
                     ]
                   }
                 ],
-                "isNew": false
+                "isNew": false,
+                "ending": {
+                  "endingLead": {
+                    "cue": "And explain how you feel about this new law",
+                    "text": "As for how I would feel about this new law, I would be pleased to have it. There are three reasons.",
+                    "translation": "至于我对这项新法律的感受，我会很高兴有它，有三个原因。"
+                  },
+                  "reasons": [
+                    {
+                      "text": "First of all, the city would stay clean, so it would have a better environment and attract more customers to local businesses. People would enjoy walking and shopping there instead of leaving quickly.",
+                      "highlights": [
+                        "city would stay clean",
+                        "attract more customers"
+                      ],
+                      "translation": "首先，城市会保持干净，环境更好，也能为当地商家吸引更多顾客。人们会享受在那里散步购物，而不是赶快离开。"
+                    },
+                    {
+                      "text": "Secondly, the law would help people understand the importance of protecting the environment. Parents could also use it to teach children not to drop rubbish.",
+                      "highlights": [
+                        "understand the importance",
+                        "protecting the environment"
+                      ],
+                      "translation": "其次，法律会帮助人们理解环保的重要性。父母也能借此教孩子不要乱扔垃圾。"
+                    },
+                    {
+                      "text": "What's more, the fine money could be used to plant more trees and flowers and make the city more beautiful. It could also pay for new bins and regular cleaning.",
+                      "highlights": [
+                        "fine money",
+                        "trees and flowers"
+                      ],
+                      "translation": "此外，罚款可以用来种更多树和花，让城市更美丽，也能支付新垃圾桶和定期清洁的费用。"
+                    }
+                  ],
+                  "mode": "feelings"
+                }
               }
             ]
           },
@@ -6911,7 +8234,41 @@ window.IELTS_DATA = {
                     ]
                   }
                 ],
-                "isNew": false
+                "isNew": false,
+                "ending": {
+                  "endingLead": {
+                    "cue": "And explain why you set this goal",
+                    "text": "As for why I set this goal, there are three main reasons.",
+                    "translation": "至于我为什么设定这个目标，主要有三个原因。"
+                  },
+                  "reasons": [
+                    {
+                      "text": "First of all, I could lead a team and help everyone finish difficult projects. Doing more useful work would give me a strong sense of achievement.",
+                      "highlights": [
+                        "lead a team",
+                        "sense of achievement"
+                      ],
+                      "translation": "首先，我能带领团队，帮助大家完成困难的项目。做更多有用的工作，会给我很强的成就感。"
+                    },
+                    {
+                      "text": "Secondly, I could earn a higher salary. I now make about 7,000 yuan a month, while a manager can make about 12,000 yuan, so family life would be less stressful.",
+                      "highlights": [
+                        "higher salary",
+                        "12,000 yuan"
+                      ],
+                      "translation": "其次，我能获得更高的工资。我现在每月大约挣七千元，而经理大约能挣一万两千元，所以家庭生活的压力会小一些。"
+                    },
+                    {
+                      "text": "What's more, I could share my experience with new workers and possibly join an overseas project. That would help me meet different people and learn new ideas.",
+                      "highlights": [
+                        "share my experience",
+                        "overseas project"
+                      ],
+                      "translation": "此外，我能和新员工分享经验，也可能参与海外项目。这能帮助我认识不同的人、学习新想法。"
+                    }
+                  ],
+                  "mode": "reasons"
+                }
               },
               {
                 "question": "Describe an ambition that you have had for a long time",
@@ -6972,7 +8329,41 @@ window.IELTS_DATA = {
                     ]
                   }
                 ],
-                "isNew": false
+                "isNew": false,
+                "ending": {
+                  "endingLead": {
+                    "cue": "And explain why you have this ambition",
+                    "text": "As for why I have this ambition, there are three main reasons.",
+                    "translation": "至于我为什么有这个志向，主要有三个原因。"
+                  },
+                  "reasons": [
+                    {
+                      "text": "First of all, being a manager would let me lead the team and complete more difficult work. Finishing a project together would give me a real sense of achievement.",
+                      "highlights": [
+                        "lead the team",
+                        "sense of achievement"
+                      ],
+                      "translation": "首先，当经理可以让我带领团队，完成更困难的工作。一起完成项目会带来真正的成就感。"
+                    },
+                    {
+                      "text": "Secondly, the position has a better salary. A manager can make about 12,000 yuan a month, so I could improve my life and support my parents.",
+                      "highlights": [
+                        "better salary",
+                        "support my parents"
+                      ],
+                      "translation": "其次，这个职位的工资更高。经理每月大约能挣一万两千元，所以我可以改善生活、支持父母。"
+                    },
+                    {
+                      "text": "What's more, I could help new workers by sharing my experience and might have a chance to work overseas. This would help me continue growing in the future.",
+                      "highlights": [
+                        "help new workers",
+                        "work overseas"
+                      ],
+                      "translation": "此外，我可以分享经验、帮助新员工，也可能有机会去海外工作。这会帮助我以后继续成长。"
+                    }
+                  ],
+                  "mode": "reasons"
+                }
               }
             ]
           },
@@ -7042,7 +8433,43 @@ window.IELTS_DATA = {
                     ]
                   }
                 ],
-                "isNew": false
+                "isNew": false,
+                "ending": {
+                  "endingLead": {
+                    "cue": "And explain why people eat it on that special occasion/event",
+                    "text": "As for why people eat dumplings during the Spring Festival, there are three reasons.",
+                    "translation": "至于人们为什么在春节吃饺子，有三个原因。"
+                  },
+                  "reasons": [
+                    {
+                      "text": "First of all, dumplings are part of a long tradition. Chinese people have eaten them during the Spring Festival for thousands of years, so they are an important part of our culture.",
+                      "highlights": [
+                        "long tradition",
+                        "thousands of years",
+                        "our culture"
+                      ],
+                      "translation": "首先，饺子属于悠久的传统。中国人在春节吃饺子已经有很长的历史，所以它们是文化的重要部分。"
+                    },
+                    {
+                      "text": "Secondly, the shape of dumplings looks like ancient Chinese money and represents good luck. People eat them because they hope the new year will be happy and successful.",
+                      "highlights": [
+                        "ancient Chinese money",
+                        "good luck"
+                      ],
+                      "translation": "其次，饺子的形状像古代的钱，代表好运。人们吃饺子，是因为希望新的一年快乐、顺利。"
+                    },
+                    {
+                      "text": "What's more, family members can get together and make dumplings during the festival. While doing this, they share the highs and lows of their lives, which helps them build a better relationship. In my view, dumplings are really special, and I hope this tradition will continue in the future.",
+                      "highlights": [
+                        "family members can get together",
+                        "share the highs and lows",
+                        "better relationship"
+                      ],
+                      "translation": "此外，家人可以在节日里团聚，一起包饺子。大家分享生活中的喜怒哀乐，关系也更亲近。我觉得饺子真的很特别，希望这个传统以后一直延续。"
+                    }
+                  ],
+                  "mode": "reasons"
+                }
               },
               {
                 "question": "Describe a special cake you received from others",
@@ -7105,7 +8532,41 @@ window.IELTS_DATA = {
                     ]
                   }
                 ],
-                "isNew": false
+                "isNew": false,
+                "ending": {
+                  "endingLead": {
+                    "cue": "And explain why it's a special cake",
+                    "text": "As for why the cake was special, there were three reasons.",
+                    "translation": "至于这块蛋糕为什么特别，有三个原因。"
+                  },
+                  "reasons": [
+                    {
+                      "text": "First of all, Li Hua made it himself and spent about three hours on it. I knew he was busy, so the time and effort meant a lot to me.",
+                      "highlights": [
+                        "made it himself",
+                        "three hours"
+                      ],
+                      "translation": "首先，李华亲手做了蛋糕，花了大约三个小时。我知道他很忙，所以这些时间和心意对我很重要。"
+                    },
+                    {
+                      "text": "Secondly, it had a special taste because all the fruit was carefully chosen, so it felt unique. The sweet cream and fresh fruit worked well together, and I ate two pieces.",
+                      "highlights": [
+                        "special taste",
+                        "carefully chosen"
+                      ],
+                      "translation": "其次，水果都是精心挑选的，所以味道特别，感觉很独特。甜奶油和新鲜水果很搭，我吃了两块。"
+                    },
+                    {
+                      "text": "What's more, it was not only a cake. It showed that our friendship was strong and that he cared about me. Whenever I see a fruit cake now, I remember that happy evening.",
+                      "highlights": [
+                        "friendship was strong",
+                        "cared about me"
+                      ],
+                      "translation": "此外，它不只是一块蛋糕。它说明我们的友谊很牢固，他很在乎我。现在每次看到水果蛋糕，我都会想起那个快乐的晚上。"
+                    }
+                  ],
+                  "mode": "reasons"
+                }
               }
             ]
           },
@@ -7174,7 +8635,41 @@ window.IELTS_DATA = {
                     ]
                   }
                 ],
-                "isNew": false
+                "isNew": false,
+                "ending": {
+                  "endingLead": {
+                    "cue": "And explain what you think of this story/book",
+                    "text": "As for what I think of this story, I really like it. There are three reasons.",
+                    "translation": "至于我对这个故事的看法，我很喜欢它，有三个原因。"
+                  },
+                  "reasons": [
+                    {
+                      "text": "First of all, the story is interesting and the small lion is very cute. Its early mistakes are funny, so children can enjoy the story easily.",
+                      "highlights": [
+                        "story is interesting",
+                        "small lion is very cute"
+                      ],
+                      "translation": "首先，故事有趣，小狮子也很可爱。它最初犯的错误很逗，所以孩子们很容易喜欢这个故事。"
+                    },
+                    {
+                      "text": "Secondly, the pictures are beautiful. They attracted me when I was a little boy, and I even drew the lions. The pictures also made the simple story much easier to understand.",
+                      "highlights": [
+                        "pictures are beautiful",
+                        "drew the lions"
+                      ],
+                      "translation": "其次，图片很漂亮。小时候这些图片很吸引我，我还画过狮子。图片也让简单的故事更容易理解。"
+                    },
+                    {
+                      "text": "What's more, it taught me never to give up when I face difficulties, because the lion kept trying and finally succeeded. I still remember this lesson when I make mistakes at work.",
+                      "highlights": [
+                        "never to give up",
+                        "finally succeeded"
+                      ],
+                      "translation": "此外，它教会我遇到困难不要放弃，因为小狮子一直尝试，最后成功了。现在工作中犯错时，我仍然记得这个道理。"
+                    }
+                  ],
+                  "mode": "feelings"
+                }
               },
               {
                 "question": "Describe an advertisement with a famous person in it",
@@ -7235,7 +8730,41 @@ window.IELTS_DATA = {
                     ]
                   }
                 ],
-                "isNew": false
+                "isNew": false,
+                "ending": {
+                  "endingLead": {
+                    "cue": "And explain how you feel about the advertisement",
+                    "text": "As for how I feel about the advertisement, I find it interesting and meaningful. There are three reasons.",
+                    "translation": "至于我对这则广告的感受，我觉得它有趣，也有意义，有三个原因。"
+                  },
+                  "reasons": [
+                    {
+                      "text": "First of all, the advertisement is special because the singer created a song for the product, which can attract people and make it well known. I could still remember part of the song the next morning.",
+                      "highlights": [
+                        "created a song",
+                        "attract people"
+                      ],
+                      "translation": "首先，广告很特别，因为歌手为产品创作了一首歌，能吸引人们，让产品被更多人知道。第二天早上，我仍能记住一部分旋律。"
+                    },
+                    {
+                      "text": "Secondly, Zhang Jie is a singer I like, so he caught my attention immediately. Seeing a familiar person also made me trust the product a little more.",
+                      "highlights": [
+                        "a singer I like",
+                        "caught my attention"
+                      ],
+                      "translation": "其次，张杰是我喜欢的歌手，所以他马上吸引了我的注意。看到熟悉的人，也让我稍微信任这个产品一些。"
+                    },
+                    {
+                      "text": "What's more, it says that 10 yuan from every product sold will be donated to poor people, so the advertisement feels meaningful. Buying the laptop would therefore help someone as well as meet my own needs.",
+                      "highlights": [
+                        "10 yuan",
+                        "donated to poor people"
+                      ],
+                      "translation": "此外，广告说每卖出一件产品，就会捐出十元帮助穷人，所以我觉得它有意义。买电脑既能满足自己的需要，也能帮助别人。"
+                    }
+                  ],
+                  "mode": "feelings"
+                }
               },
               {
                 "question": "Describe a TV show/online program you have watched recently",
@@ -7298,7 +8827,41 @@ window.IELTS_DATA = {
                     ]
                   }
                 ],
-                "isNew": false
+                "isNew": false,
+                "ending": {
+                  "endingLead": {
+                    "cue": "And explain how you feel about it",
+                    "text": "As for how I feel about the programme, I enjoy it and would like to watch more. There are three reasons.",
+                    "translation": "至于我对这个节目的感受，我很喜欢，也想继续看，有三个原因。"
+                  },
+                  "reasons": [
+                    {
+                      "text": "First of all, the jokes and performances help me relax after work. Even simple jokes become funny because the performers use good faces and timing.",
+                      "highlights": [
+                        "help me relax",
+                        "good faces and timing"
+                      ],
+                      "translation": "首先，笑话和表演能让我下班后放松。表演者的表情和时机掌握得好，简单的笑话也会变得好笑。"
+                    },
+                    {
+                      "text": "Secondly, the program mixes modern and traditional dance in an interesting way. I can enjoy the show and learn a little about Chinese culture at the same time.",
+                      "highlights": [
+                        "modern and traditional dance",
+                        "Chinese culture"
+                      ],
+                      "translation": "其次，节目有趣地结合了现代和传统舞蹈。我既能欣赏节目，也能了解一点中国文化。"
+                    },
+                    {
+                      "text": "What's more, the original music puts me in a good mood and is easy to remember. That is why I would like to watch another episode next week.",
+                      "highlights": [
+                        "good mood",
+                        "another episode"
+                      ],
+                      "translation": "此外，原创音乐让我心情很好，也容易记住。所以我想下周再看一期。"
+                    }
+                  ],
+                  "mode": "feelings"
+                }
               },
               {
                 "question": "Describe an interesting video",
@@ -7360,7 +8923,44 @@ window.IELTS_DATA = {
                     ]
                   }
                 ],
-                "isNew": false
+                "isNew": false,
+                "ending": {
+                  "endingLead": {
+                    "cue": "And explain how you feel about it",
+                    "text": "As for how I feel about the video, it made me feel relaxed and happy. There are three reasons.",
+                    "translation": "至于我对这个视频的感受，它让我放松又开心，有三个原因。"
+                  },
+                  "reasons": [
+                    {
+                      "text": "First of all, the grandma in the clip was funny and easy to remember. She grew vegetables and made a carrot cake. You know, a simple story like that can help me forget about work.",
+                      "translation": "短片里的奶奶很有趣，也容易记住。她种菜、做胡萝卜蛋糕。你知道，这样简单的故事就能让我暂时忘掉工作。",
+                      "memory": "Emotion：搞笑奶奶＋简单故事 → 忘掉工作",
+                      "highlights": [
+                        "grandma in the clip",
+                        "forget about work"
+                      ]
+                    },
+                    {
+                      "text": "Secondly, the family story felt warm and familiar. It reminded me of my own grandma and the things we do together. I think that made the video feel more personal to me.",
+                      "translation": "家庭故事温暖又熟悉，让我想起自己的奶奶和我们一起做的事情。我觉得这让视频和我更有联系。",
+                      "memory": "Relationship：家庭故事 → 想起自己的奶奶",
+                      "highlights": [
+                        "warm and familiar",
+                        "my own grandma"
+                      ]
+                    },
+                    {
+                      "text": "What's more, sharing the clip gave my friends and me something to enjoy together. We later watched the whole film at home. We could have a good evening without spending much money.",
+                      "translation": "分享短片，让我和朋友有了能一起享受的东西。后来我们在家看了整部电影，不用花很多钱，就度过了一个愉快的晚上。",
+                      "memory": "Relationship / Money：分享短片 → 一起看电影 → 省钱开心",
+                      "highlights": [
+                        "sharing the clip",
+                        "without spending much money"
+                      ]
+                    }
+                  ],
+                  "mode": "feelings"
+                }
               }
             ]
           },
@@ -7429,7 +9029,41 @@ window.IELTS_DATA = {
                     ]
                   }
                 ],
-                "isNew": false
+                "isNew": false,
+                "ending": {
+                  "endingLead": {
+                    "cue": "And explain why you like/dislike it",
+                    "text": "As for why I like the Oriental Pearl Tower, there are three reasons.",
+                    "translation": "至于我为什么喜欢东方明珠塔，有三个原因。"
+                  },
+                  "reasons": [
+                    {
+                      "text": "First of all, its modern shape and round parts make it look special. It is very different from a normal office building, so people can recognise it immediately.",
+                      "highlights": [
+                        "modern shape",
+                        "look special"
+                      ],
+                      "translation": "首先，现代的外形和圆形部分让它看起来很特别。它和平常的办公楼很不一样，所以人们一下就能认出来。"
+                    },
+                    {
+                      "text": "Secondly, visitors can enjoy a wide view of the city and the river. Looking down from such a high place helped me understand how large Shanghai really is.",
+                      "highlights": [
+                        "wide view",
+                        "city and the river"
+                      ],
+                      "translation": "其次，游客可以欣赏开阔的城市和江景。从那么高的地方往下看，让我理解上海到底有多大。"
+                    },
+                    {
+                      "text": "What's more, its colourful lights are beautiful in the evening. They reflect on the water and make the whole riverside area feel lively and memorable.",
+                      "highlights": [
+                        "colourful lights",
+                        "in the evening"
+                      ],
+                      "translation": "此外，晚上的彩色灯光很漂亮。灯光映在水面上，让整片江边显得有活力，也令人难忘。"
+                    }
+                  ],
+                  "mode": "reasons"
+                }
               }
             ]
           },
@@ -7559,7 +9193,45 @@ window.IELTS_DATA = {
                     ]
                   }
                 ],
-                "sourceOrder": 23
+                "sourceOrder": 23,
+                "ending": {
+                  "endingLead": {
+                    "cue": "And explain why you would choose that gift for him/her",
+                    "text": "As for why I would choose this gift for Alex, there are three reasons.",
+                    "translation": "至于我为什么会给Alex选这个礼物，有三个原因。"
+                  },
+                  "reasons": [
+                    {
+                      "text": "First of all, the watch would be practical because Alex often misses important messages. It could remind him to check them and help him check his health. You know, it is something he could use every day.",
+                      "memory": "礼物题｜实用：他常漏看重要消息 → 手表提醒查看＋健康监测",
+                      "highlights": [
+                        "misses important messages",
+                        "remind him",
+                        "check his health"
+                      ],
+                      "translation": "这块手表会很实用，因为Alex经常漏看重要消息。它能提醒他查看，也能帮助他了解健康情况。你知道，这是他每天都能用到的东西。"
+                    },
+                    {
+                      "text": "Secondly, Alex gave me wireless headphones before, so the watch would return his kindness and make our friendship stronger. I want him to know that I remember his kindness and care about him too.",
+                      "memory": "礼物题 / Relationship：他以前送我耳机 → 我想回赠实用手表 → 友谊更牢",
+                      "highlights": [
+                        "return his kindness",
+                        "friendship stronger"
+                      ],
+                      "translation": "Alex以前送过我无线耳机，所以这块手表能回应他的好意，让我们的友谊更牢固。我想让他知道，我记得他的好意，也很在乎他。"
+                    },
+                    {
+                      "text": "What's more, the watch is available at a reasonable price, so I can afford it. I do not need to choose the most expensive one. I think a useful gift can still be special.",
+                      "translation": "这块手表的价格合理，我买得起。我不需要选最贵的一块。我觉得实用的礼物仍然可以很特别。",
+                      "memory": "Money：价格合理＋买得起 → 实用也特别",
+                      "highlights": [
+                        "reasonable price",
+                        "I can afford it"
+                      ]
+                    }
+                  ],
+                  "mode": "reasons"
+                }
               },
               {
                 "isNew": true,
@@ -7655,7 +9327,45 @@ window.IELTS_DATA = {
                       "proud and relieved"
                     ]
                   }
-                ]
+                ],
+                "ending": {
+                  "endingLead": {
+                    "cue": "And explain how you felt about the service",
+                    "text": "As for how I felt about the service, I was pleased with it. There were three reasons.",
+                    "translation": "至于我对这次服务的感受，我很满意，有三个原因。"
+                  },
+                  "reasons": [
+                    {
+                      "text": "First of all, the shop assistant asked about my budget and did not push the expensive watch, so I felt respected. You know, I wanted a useful gift without spending more than I could afford.",
+                      "memory": "服务题 / Money：先问预算＋不强推贵款 → 钱花得合适、感到被尊重",
+                      "highlights": [
+                        "asked about my budget",
+                        "felt respected"
+                      ],
+                      "translation": "店员先问预算，没有强推贵的手表，所以我觉得受到尊重。你知道，我想买一件实用的礼物，也想把花费控制在能承受的范围内。"
+                    },
+                    {
+                      "text": "Secondly, he compared two watches, explained the functions simply and helped me set up the app, so choosing the gift was easy. His clear explanation helped me feel less worried about choosing the wrong one.",
+                      "memory": "服务题：比较两块＋简单讲功能＋设置 App → 很快选好礼物",
+                      "highlights": [
+                        "compared two watches",
+                        "set up the app",
+                        "easy"
+                      ],
+                      "translation": "他比较两块手表，简单解释功能，还帮我设置应用，所以选礼物变得容易。他的清楚解释，让我不太担心选错。"
+                    },
+                    {
+                      "text": "What's more, I received useful help in the shop and saw that Alex liked the gift, so I felt proud and relieved. I think good service makes a shopping experience much more pleasant.",
+                      "memory": "服务题 / Emotion：店员帮忙＋Alex喜欢 → 自豪又安心",
+                      "highlights": [
+                        "received useful help",
+                        "proud and relieved"
+                      ],
+                      "translation": "我在店里得到了实用的帮助，也看到Alex喜欢这个礼物，所以感到自豪又安心。我觉得好的服务会让购物经历愉快很多。"
+                    }
+                  ],
+                  "mode": "feelings"
+                }
               }
             ]
           }
@@ -8219,7 +9929,44 @@ window.IELTS_DATA = {
                   }
                 ],
                 "isNew": true,
-                "sourceOrder": 27
+                "sourceOrder": 27,
+                "ending": {
+                  "endingLead": {
+                    "cue": "And explain why you do not like the trip",
+                    "text": "As for why I do not like this trip, there are three reasons.",
+                    "translation": "至于我为什么不喜欢这段路程，有三个原因。"
+                  },
+                  "reasons": [
+                    {
+                      "text": "First of all, standing on a crowded bus makes me tired before the working day begins. You know, it is not a comfortable way to start the day. I would rather have a quiet journey.",
+                      "memory": "拥挤公交上站一路 → 上班前就累了",
+                      "translation": "站在拥挤的公交车上，让我还没开始工作就已经累了。你知道，这样开始一天并不舒服。我更希望路程安静一些。",
+                      "highlights": [
+                        "crowded bus",
+                        "tired"
+                      ]
+                    },
+                    {
+                      "text": "Secondly, the journey time changes from day to day, so I worry about arriving late. Sometimes the road is clear, but on other days we hardly move. That makes it difficult to plan my morning.",
+                      "memory": "每天耗时不同 → 担心迟到",
+                      "translation": "每天的行程时间都不一样，所以我担心迟到。有时道路很通畅，有时几乎不动。这让我很难安排早上的时间。",
+                      "highlights": [
+                        "journey time",
+                        "worry about arriving late"
+                      ]
+                    },
+                    {
+                      "text": "What's more, I have to leave earlier than necessary, which gives me less time for breakfast and rest. I think I could use that extra time in a better way at home.",
+                      "memory": "不得不提早出门 → 早餐和休息时间更少",
+                      "translation": "我不得不比需要的时间更早出门，因此吃早饭和休息的时间更少。我觉得这些额外时间本来可以在家得到更好的利用。",
+                      "highlights": [
+                        "leave earlier",
+                        "less time"
+                      ]
+                    }
+                  ],
+                  "mode": "reasons"
+                }
               }
             ]
           },
@@ -8303,7 +10050,44 @@ window.IELTS_DATA = {
                       "speak English in class"
                     ]
                   }
-                ]
+                ],
+                "ending": {
+                  "endingLead": {
+                    "cue": "And explain how you felt about learning the skill",
+                    "text": "As for how I felt about learning the skill, my feelings changed during the lesson.",
+                    "translation": "至于学习这项技能时的感受，课堂上我的感受发生了变化。"
+                  },
+                  "reasons": [
+                    {
+                      "text": "At first, I felt nervous because the English words sounded fast and unfamiliar. I was only about ten. You know, singing in another language felt quite difficult at that age.",
+                      "translation": "一开始，英语单词听起来很快又陌生，所以我很紧张。我当时只有十岁左右。你知道，那个年纪用另一种语言唱歌，感觉挺难。",
+                      "memory": "Emotion：单词快＋陌生 → 紧张",
+                      "highlights": [
+                        "At first",
+                        "felt nervous"
+                      ]
+                    },
+                    {
+                      "text": "After a while, I felt more relaxed because Mr Brown divided the song into short lines. His simple actions helped us understand. Practising with classmates also made the lesson more enjoyable.",
+                      "translation": "过了一会儿，Brown老师把歌拆成短句，我就放松些了。他的简单动作帮助我们理解，和同学一起练习也让课堂更有趣。",
+                      "memory": "Emotion / Relationship：拆短句＋一起练 → 放松开心",
+                      "highlights": [
+                        "After a while",
+                        "more relaxed"
+                      ]
+                    },
+                    {
+                      "text": "In the end, I felt excited because we could sing the whole song together. It gave me confidence. After that, I was more willing to speak English in class.",
+                      "translation": "最后，我们能一起唱完整首歌了，我很兴奋，也有了信心。那以后，我更愿意在课堂上说英语。",
+                      "memory": "Emotion：唱完整首 → 兴奋＋自信",
+                      "highlights": [
+                        "In the end",
+                        "gave me confidence"
+                      ]
+                    }
+                  ],
+                  "mode": "feelings"
+                }
               },
               {
                 "id": "p2-impressive-course",
@@ -8404,7 +10188,42 @@ window.IELTS_DATA = {
                     ]
                   }
                 ],
-                "sourceOrder": 22
+                "sourceOrder": 22,
+                "ending": {
+                  "endingLead": {
+                    "cue": "And explain why it impressed you a lot",
+                    "text": "As for why this course impressed me, there are three reasons.",
+                    "translation": "至于这门课为什么让我印象深刻，有三个原因。"
+                  },
+                  "reasons": [
+                    {
+                      "text": "First of all, Mr Brown was very patient. No matter what mistakes we made, he kept teaching us and corrected us kindly. I felt safe asking him for help.",
+                      "highlights": [
+                        "very patient",
+                        "corrected us kindly"
+                      ],
+                      "translation": "首先，Brown老师很耐心。不管我们犯什么错误，他都一直教我们，友善地纠正。向他求助时，我感到很安心。"
+                    },
+                    {
+                      "text": "Secondly, we did not give up when the song was difficult. We practised it many times, and in the end, we sang it well together.",
+                      "highlights": [
+                        "did not give up",
+                        "many times",
+                        "sang it well"
+                      ],
+                      "translation": "其次，歌曲很难时，我们没有放弃。我们练了很多遍，最后一起唱好了。"
+                    },
+                    {
+                      "text": "What's more, the song was simple and easy to remember. Even now, I can still remember it, so the lesson is still special to me.",
+                      "highlights": [
+                        "easy to remember",
+                        "still remember it"
+                      ],
+                      "translation": "此外，这首歌简单又好记。即使现在，我仍然记得，所以这节课对我一直很特别。"
+                    }
+                  ],
+                  "mode": "reasons"
+                }
               }
             ]
           },
@@ -8499,7 +10318,44 @@ window.IELTS_DATA = {
                       "sense of responsibility"
                     ]
                   }
-                ]
+                ],
+                "ending": {
+                  "endingLead": {
+                    "cue": "And explain how you feel about this person",
+                    "text": "As for how I feel about Alex, I really admire him. There are three main reasons.",
+                    "translation": "至于我对Alex的感受，我很钦佩他，主要有三个原因。"
+                  },
+                  "reasons": [
+                    {
+                      "text": "First of all, Alex was a patient mentor when I was new. He helped me understand the team and become more confident at work. You know, that support meant a lot when everything was new.",
+                      "memory": "1 · 耐心带我 → 帮我适应团队 → 是可靠的导师",
+                      "highlights": [
+                        "a patient mentor",
+                        "more confident at work"
+                      ],
+                      "translation": "首先，我刚入职时，Alex是一位耐心的导师。他帮助我了解团队，让我在工作中更有信心。你知道，一切都陌生时，这种支持很重要。"
+                    },
+                    {
+                      "text": "Secondly, he stayed calm when the app had problems. He focused on a safe solution instead of rushing the release. His attitude also helped the rest of us feel less worried.",
+                      "memory": "2 · 问题前保持冷静 → 不盲目上线 → 处理得很稳",
+                      "highlights": [
+                        "stayed calm",
+                        "a safe solution"
+                      ],
+                      "translation": "其次，应用出问题时，他保持了冷静。他关注安全的解决方案，而不是急着发布。他的态度也让我们其他人没那么担心。"
+                    },
+                    {
+                      "text": "What's more, his staged-release idea was simple and practical. It gave us real feedback while protecting most students from the problem. I think good advice should be easy for a team to use.",
+                      "memory": "3 · 分步发布 → 获得真实反馈 → 保护大多数学生",
+                      "highlights": [
+                        "simple and practical",
+                        "real feedback"
+                      ],
+                      "translation": "第三，他分阶段发布的想法简单又实用，既能让我们得到真实反馈，也能保护大多数学生不受问题影响。我觉得好的建议应该让团队容易采用。"
+                    }
+                  ],
+                  "mode": "feelings"
+                }
               },
               {
                 "id": "p2-feishu-save-time",
@@ -8535,8 +10391,8 @@ window.IELTS_DATA = {
                 },
                 "focus": "复用已有的 Alex 系统故障经历。说清现在怎么做，再补充改变观念的难点，以及为什么省时。",
                 "body": {
-                  "text": "Well, I have made a few changes to save time at work. But the first one that comes to my mind would be asking for help earlier. I now ask for help earlier when I get stuck. At first, I thought a good software engineer should solve every problem alone. About a month ago, our shopping system became slow and some orders failed. I spent nearly an hour checking it, but I could not find the problem. Then I wrote down what I had checked and asked my colleague Alex for help. He checked the settings while I prepared test orders. We found one wrong setting and fixed it together. Since then, I have followed a simple rule. I try a few safe checks first. If I make no progress after twenty minutes, I share my notes and ask a teammate for help. This stops me from repeating the same steps. The difficult part was changing my thinking. I used to worry that asking for help would make me look less capable. However, Alex reminded me that working together is part of the job. As for how I feel, I'm pleased with this change. I waste less time on problems and feel less stressed. I also learn from my colleagues, so I can handle similar problems more quickly next time.",
-                  "translation": "嗯，为了节省工作时间，我做过几个改变。但我首先想到的是早点请求帮助。现在遇到困难时，我会更早寻求帮助。起初，我认为一个好的软件工程师应该独自解决所有问题。大约一个月前，我们的购物系统变慢，有些订单也失败了。我花了将近一个小时检查，却找不到问题。后来，我写下已经检查过的内容，并向同事 Alex 求助。他检查设置，我准备测试订单。我们发现了一处错误设置，一起修好了系统。从那以后，我开始遵循一个简单的规则。我会先做几项安全的检查。如果二十分钟后仍然没有进展，我就分享笔记，向队友求助。这能避免我反复做同样的检查。困难的部分是改变自己的想法。我以前担心，寻求帮助会显得自己能力不足。不过，Alex 提醒我，合作本来就是工作的一部分。至于我的感受，我很满意这个改变。我在问题上浪费的时间少了，压力也小了。我还能向同事学习，因此下次遇到类似问题时，能更快处理。",
+                  "text": "Well, I have made a few changes to save time at work. But the first one that comes to my mind would be asking for help earlier. I now ask for help earlier when I get stuck. At first, I thought a good software engineer should solve every problem alone. About a month ago, our shopping system became slow and some orders failed. I spent nearly an hour checking it, but I could not find the problem. Then I wrote down what I had checked and asked my colleague Alex for help. He checked the settings while I prepared test orders. We found one wrong setting and fixed it together. Since then, I have followed a simple rule. I try a few safe checks first. If I make no progress after twenty minutes, I share my notes and ask a teammate for help. This stops me from repeating the same steps. The difficult part was changing my thinking. I used to worry that asking for help would make me look less capable. However, Alex reminded me that working together is part of the job.",
+                  "translation": "嗯，为了节省工作时间，我做过几个改变。但我首先想到的是早点请求帮助。现在遇到困难时，我会更早寻求帮助。起初，我认为一个好的软件工程师应该独自解决所有问题。大约一个月前，我们的购物系统变慢，有些订单也失败了。我花了将近一个小时检查，却找不到问题。后来，我写下已经检查过的内容，并向同事 Alex 求助。他检查设置，我准备测试订单。我们发现了一处错误设置，一起修好了系统。从那以后，我开始遵循一个简单的规则。我会先做几项安全的检查。如果二十分钟后仍然没有进展，我就分享笔记，向队友求助。这能避免我反复做同样的检查。困难的部分是改变自己的想法。我以前担心，寻求帮助会显得自己能力不足。不过，Alex 提醒我，合作本来就是工作的一部分。",
                   "highlights": [
                     "ask for help earlier",
                     "solve every problem alone",
@@ -8544,17 +10400,52 @@ window.IELTS_DATA = {
                     "asked my colleague Alex for help",
                     "twenty minutes",
                     "share my notes",
-                    "changing my thinking",
-                    "less stressed"
+                    "changing my thinking"
                   ],
                   "paragraphStarts": [
                     "About a month ago,",
                     "Since then,",
-                    "The difficult part",
-                    "As for how I feel,"
+                    "The difficult part"
                   ]
                 },
-                "sourceOrder": 24
+                "sourceOrder": 24,
+                "ending": {
+                  "endingLead": {
+                    "cue": "And explain how you feel about the way/change",
+                    "text": "As for how I feel, I'm pleased with this change. There are three reasons.",
+                    "translation": "至于我的感受，我对这个改变很满意，有三个原因。"
+                  },
+                  "reasons": [
+                    {
+                      "text": "First of all, I waste less time repeating the same checks. You know, after twenty minutes without progress, another person may see something I missed. Asking earlier helps me move on more quickly.",
+                      "translation": "我反复做同样检查的时间减少了。你知道，二十分钟没有进展时，别人可能会看到我漏掉的东西。早点求助，让我能更快继续推进。",
+                      "memory": "Time：二十分钟没进展 → 求助 → 少重复检查",
+                      "highlights": [
+                        "waste less time",
+                        "Asking earlier"
+                      ]
+                    },
+                    {
+                      "text": "Secondly, I feel less stressed when a problem is difficult. I know I do not have to solve everything alone. Working with Alex makes a busy day feel easier to manage.",
+                      "translation": "遇到难题时，我的压力更小，因为我知道自己不必独自解决一切。和Alex一起工作，会让忙碌的一天更容易应对。",
+                      "memory": "Emotion：不用独自处理 → 减压",
+                      "highlights": [
+                        "less stressed",
+                        "do not have to solve everything alone"
+                      ]
+                    },
+                    {
+                      "text": "What's more, I also learn from my colleagues and work more closely with them. We share our notes and explain our ideas. I can handle similar problems more quickly next time.",
+                      "translation": "我也能向同事学习，和他们合作得更紧密。我们分享笔记、解释想法。下次遇到类似问题时，我就能更快处理。",
+                      "memory": "Learning / Relationship：分享方法 → 合作更好＋下次更快",
+                      "highlights": [
+                        "learn from my colleagues",
+                        "share our notes"
+                      ]
+                    }
+                  ],
+                  "mode": "feelings"
+                }
               },
               {
                 "id": "p2-feishu-lost-in-public",
@@ -8606,7 +10497,44 @@ window.IELTS_DATA = {
                     "Luckily, a member"
                   ]
                 },
-                "sourceOrder": 25
+                "sourceOrder": 25,
+                "ending": {
+                  "endingLead": {
+                    "cue": "And explain how you felt about it",
+                    "text": "As for how I felt about losing my bag, my feelings changed as the problem was solved.",
+                    "translation": "至于丢包这件事的感受，随着问题得到解决，我的感受也发生了变化。"
+                  },
+                  "reasons": [
+                    {
+                      "text": "At first, I felt worried because my notes and earphones were in the bag. The notes were important for my English practice. You know, making them again would take a lot of time.",
+                      "translation": "一开始，我很担心，因为笔记和耳机都在包里。笔记对我的英语练习很重要。你知道，重新做一遍要花很多时间。",
+                      "memory": "Emotion / Time：笔记重要 → 担心花时间重做",
+                      "highlights": [
+                        "At first",
+                        "notes and earphones"
+                      ]
+                    },
+                    {
+                      "text": "After a while, I felt relieved when the staff said they had found it. I could get everything back. I would not need to replace my earphones or start my notes again.",
+                      "translation": "过了一会儿，店员说找到了包，我就松了一口气。所有东西都能拿回来，不用重新买耳机，也不用重做笔记。",
+                      "memory": "Money / Emotion：找回物品 → 不用重买 → 安心",
+                      "highlights": [
+                        "felt relieved",
+                        "get everything back"
+                      ]
+                    },
+                    {
+                      "text": "In the end, I felt grateful because the staff had kept my bag safe. I thanked them when I returned. Their kindness reminded me to help other people when I can.",
+                      "translation": "最后，我很感激，因为店员帮我保管好了包。我回去时向他们道谢。他们的善意也提醒我，在力所能及时帮助别人。",
+                      "memory": "Relationship：店员保管 → 感激＋传递善意",
+                      "highlights": [
+                        "felt grateful",
+                        "Their kindness"
+                      ]
+                    }
+                  ],
+                  "mode": "feelings"
+                }
               },
               {
                 "id": "p2-feishu-impressive-party",
@@ -8658,7 +10586,44 @@ window.IELTS_DATA = {
                     "I left feeling closer"
                   ]
                 },
-                "sourceOrder": 26
+                "sourceOrder": 26,
+                "ending": {
+                  "endingLead": {
+                    "cue": "And explain why it impressed you a lot",
+                    "text": "As for why the party impressed me, there were three reasons.",
+                    "translation": "至于这场聚会为什么让我印象深刻，有三个原因。"
+                  },
+                  "reasons": [
+                    {
+                      "text": "First of all, the messages for Alex were personal and honest. Each person talked about a time when he had helped them. You know, that felt much warmer than just saying congratulations.",
+                      "translation": "送给Alex的话很真诚，也都来自亲身经历。每个人都讲了一次他帮助自己的事。你知道，这比只说一句恭喜温暖多了。",
+                      "memory": "Emotion：亲身经历＋真诚感谢 → 温暖",
+                      "highlights": [
+                        "personal and honest",
+                        "much warmer"
+                      ]
+                    },
+                    {
+                      "text": "Secondly, the party brought our team closer. We had time to share food and talk about things outside our usual tasks. I left feeling that we understood and appreciated one another more.",
+                      "translation": "聚会让团队更亲近。我们有时间分享食物，聊平常任务以外的事情。离开时，我觉得大家更理解、更欣赏彼此了。",
+                      "memory": "Relationship：分享食物＋交流 → 团队更亲近",
+                      "highlights": [
+                        "brought our team closer",
+                        "appreciated one another"
+                      ]
+                    },
+                    {
+                      "text": "What's more, we did not need expensive entertainment to make the evening special. The food was simple, and someone brought a card. I think the care behind the celebration mattered most.",
+                      "translation": "我们不用昂贵的娱乐，也能让晚上很特别。食物简单，有人带了卡片。我觉得庆祝背后的心意最重要。",
+                      "memory": "Money：简单饭菜＋卡片 → 心意让聚会特别",
+                      "highlights": [
+                        "did not need expensive entertainment",
+                        "care behind the celebration"
+                      ]
+                    }
+                  ],
+                  "mode": "reasons"
+                }
               },
               {
                 "isNew": true,
@@ -8735,7 +10700,45 @@ window.IELTS_DATA = {
                   "你为什么想买它",
                   "你怎样攒钱买它",
                   "解释买到它之后你的感受"
-                ]
+                ],
+                "ending": {
+                  "endingLead": {
+                    "cue": "And explain how you felt after buying it",
+                    "text": "As for how I felt after buying the watch, I felt proud and pleased. There were three reasons.",
+                    "translation": "至于买下手表后的感受，我很自豪、也很开心，有三个原因。"
+                  },
+                  "reasons": [
+                    {
+                      "text": "First of all, it was the first expensive thing I had saved for myself, so it represented my patience and made me feel proud. You know, I had worked towards it for four months.",
+                      "memory": "第一次靠自己攒钱买较贵物品 → 代表耐心和坚持 → 特别且自豪",
+                      "translation": "这是我第一次靠自己攒钱买到一件贵重物品，所以它代表着我的耐心，让我很自豪。你知道，我为此努力了四个月。",
+                      "highlights": [
+                        "saved for myself",
+                        "feel proud"
+                      ]
+                    },
+                    {
+                      "text": "Secondly, I felt relieved because I bought it without borrowing money. Saving a fixed amount each month made the goal easier to manage. I could enjoy the watch without worrying about a debt.",
+                      "translation": "我不用借钱就买下了它，所以很安心。每月存固定的钱，让目标更容易实现。我可以享受手表，不用担心欠债。",
+                      "memory": "Money / Emotion：固定存钱＋不借钱 → 安心",
+                      "highlights": [
+                        "without borrowing money",
+                        "without worrying about a debt"
+                      ]
+                    },
+                    {
+                      "text": "What's more, the watch was worth saving for because it could help me with work reminders and simple health records every day. Using it often makes me feel that my effort was worthwhile.",
+                      "memory": "实用：会议提醒＋健康记录 → 每天都能用",
+                      "highlights": [
+                        "worth saving for",
+                        "work reminders",
+                        "health records"
+                      ],
+                      "translation": "这块手表值得我攒钱买，因为它每天都能帮助我接收工作提醒、做简单的健康记录。经常使用它，让我觉得努力很值得。"
+                    }
+                  ],
+                  "mode": "feelings"
+                }
               },
               {
                 "isNew": true,
@@ -8836,7 +10839,44 @@ window.IELTS_DATA = {
                       "more balanced and supportive"
                     ]
                   }
-                ]
+                ],
+                "ending": {
+                  "endingLead": {
+                    "cue": "And explain how you felt about the experience",
+                    "text": "As for how I felt about the experience, my feelings changed during the conversation.",
+                    "translation": "至于对这次经历的感受，我的感受在谈话中发生了变化。"
+                  },
+                  "reasons": [
+                    {
+                      "text": "At first, I felt a little bored because I did not usually follow football. I did not know much about the match. You know, it can be hard to follow an unfamiliar topic.",
+                      "translation": "一开始，我有点无聊，因为平时不怎么关注足球，对那场比赛也不了解。你知道，跟上一个不熟悉的话题有时挺难。",
+                      "memory": "Emotion：不了解足球 → 有点无聊",
+                      "highlights": [
+                        "At first",
+                        "a little bored"
+                      ]
+                    },
+                    {
+                      "text": "After a while, I felt positive because I could see how excited Alex was. I asked a few simple questions and listened carefully. It felt good to show a friend some respect.",
+                      "translation": "过了一会儿，看到Alex很兴奋，我的感受变得积极。我问了几个简单问题，认真听他说。尊重朋友的感觉很好。",
+                      "memory": "Emotion / Relationship：认真听＋提问 → 尊重朋友",
+                      "highlights": [
+                        "After a while",
+                        "show a friend some respect"
+                      ]
+                    },
+                    {
+                      "text": "In the end, I felt closer to him because he listened to my work problem too. I think good communication works both ways. We do not have to like every topic to support each other.",
+                      "translation": "最后，他也听我讲工作问题，所以我觉得和他更亲近了。我觉得好的交流是相互的。不必喜欢每个话题，也能互相支持。",
+                      "memory": "Relationship：他也听我说 → 相互支持",
+                      "highlights": [
+                        "felt closer to him",
+                        "works both ways"
+                      ]
+                    }
+                  ],
+                  "mode": "feelings"
+                }
               },
               {
                 "isNew": true,
@@ -8869,6 +10909,40 @@ window.IELTS_DATA = {
                     "分步发布先收反馈 → 有时间修复 → 新决定更安全",
                     "十月稳定上线 → 结果证明正确 → 感到安心和自信"
                   ]
+                },
+                "ending": {
+                  "endingLead": {
+                    "cue": "And explain how you felt about the experience",
+                    "text": "As for how I felt about changing my decision, my feelings changed as the work progressed.",
+                    "translation": "至于改变决定时的感受，随着工作推进，我的感受也发生了变化。"
+                  },
+                  "reasons": [
+                    {
+                      "text": "At first, I felt disappointed because the team had prepared for the September release for a long time. I worried that the delay would affect our progress.",
+                      "highlights": [
+                        "felt disappointed",
+                        "affect our progress"
+                      ],
+                      "translation": "一开始，我很失望，因为团队为九月发布准备了很久。我担心延期会影响进度。"
+                    },
+                    {
+                      "text": "After the meeting, I understood that Alex's plan was safer. A small release gave us time to collect feedback and fix the app properly.",
+                      "highlights": [
+                        "plan was safer",
+                        "collect feedback"
+                      ],
+                      "translation": "开会之后，我理解了Alex的计划更安全。小范围发布给了我们收集反馈、认真修复应用的时间。"
+                    },
+                    {
+                      "text": "In the end, I felt relieved because the October release worked smoothly and students could use the lessons normally. The change was clearly worthwhile.",
+                      "highlights": [
+                        "felt relieved",
+                        "clearly worthwhile"
+                      ],
+                      "translation": "最后，十月发布很顺利，学生也能正常使用课程，我松了一口气。这个改变显然是值得的。"
+                    }
+                  ],
+                  "mode": "feelings"
                 }
               }
             ]
@@ -8939,7 +11013,41 @@ window.IELTS_DATA = {
                 "storyTitle": "学生软件延期｜遇到的科技问题",
                 "focus": "重点讲学生软件在最终测试时变慢、课程打不开，以及 Alex 建议先向小范围学生发布。",
                 "omit": "不需要技术术语；只说检查问题、开会、分步发布和最终结果。",
-                "isNew": false
+                "isNew": false,
+                "ending": {
+                  "endingLead": {
+                    "cue": "And explain how you solved it",
+                    "text": "As for how we solved the problem, we took three main steps.",
+                    "translation": "至于我们怎样解决这个问题，主要做了三个步骤。"
+                  },
+                  "reasons": [
+                    {
+                      "text": "First of all, I repeated the test and wrote down the problems clearly. This helped the team understand that the errors were serious and not random. We needed the same clear information before making a plan.",
+                      "highlights": [
+                        "repeated the test",
+                        "wrote down the problems"
+                      ],
+                      "translation": "首先，我重复测试，把问题写清楚。这帮助团队理解错误很严重，不是偶然出现的。制订计划之前，我们需要掌握同样清楚的信息。"
+                    },
+                    {
+                      "text": "Then Alex suggested that we release the app to a small group first. This gave us real feedback without affecting every student. I think that made the problem easier to deal with.",
+                      "highlights": [
+                        "a small group first",
+                        "real feedback"
+                      ],
+                      "translation": "然后Alex建议先把应用发布给一小部分学生。这让我们获得真实反馈，又不会影响每个学生。我觉得这让问题更容易处理。"
+                    },
+                    {
+                      "text": "What's more, we fixed the remaining problems and released the full version in October. The app worked smoothly, so I felt relieved and grateful. We checked the lessons carefully before the full release.",
+                      "highlights": [
+                        "released the full version",
+                        "relieved and grateful"
+                      ],
+                      "translation": "最后，我们修复剩余的问题，在十月发布完整版。应用运行流畅，所以我感到安心、也很感激。全面发布前，我们认真检查了课程。"
+                    }
+                  ],
+                  "mode": "steps"
+                }
               },
               {
                 "question": "Describe an important decision that you made",
@@ -9003,7 +11111,41 @@ window.IELTS_DATA = {
                 "storyTitle": "学生软件延期｜重要决定",
                 "focus": "重要决定是取消九月全面上线，改成先小范围发布、十月再全面上线。",
                 "omit": "不要把 Alex 说成最终决策者；他提出建议，我负责作出并说明决定。",
-                "isNew": false
+                "isNew": false,
+                "ending": {
+                  "endingLead": {
+                    "cue": "And explain why it was important",
+                    "text": "As for why the decision was important, there were three reasons.",
+                    "translation": "至于这个决定为什么重要，有三个原因。"
+                  },
+                  "reasons": [
+                    {
+                      "text": "First of all, releasing the app to everyone could have affected many students. Starting with a small group was a safer way to protect users.",
+                      "highlights": [
+                        "affected many students",
+                        "protect users"
+                      ],
+                      "translation": "首先，直接发布给所有人可能影响很多学生。先从小范围开始，是保护用户的更安全方式。"
+                    },
+                    {
+                      "text": "Secondly, the delay gave us enough time to fix the problems and test the app carefully. It helped us avoid a larger loss later.",
+                      "highlights": [
+                        "enough time",
+                        "avoid a larger loss"
+                      ],
+                      "translation": "其次，延期给了我们足够的时间修复问题、认真测试，也帮助我们避免以后更大的损失。"
+                    },
+                    {
+                      "text": "What's more, the small release went well and the full version worked smoothly in October. This result showed that the decision was responsible.",
+                      "highlights": [
+                        "worked smoothly in October",
+                        "responsible"
+                      ],
+                      "translation": "此外，小范围发布顺利，完整版在十月也运行流畅。这个结果说明决定是负责任的。"
+                    }
+                  ],
+                  "mode": "reasons"
+                }
               },
               {
                 "question": "Describe a plan that you had to change recently",
@@ -9068,7 +11210,41 @@ window.IELTS_DATA = {
                   }
                 ],
                 "storyTitle": "学生软件延期｜近期改变的计划",
-                "isNew": false
+                "isNew": false,
+                "ending": {
+                  "endingLead": {
+                    "cue": "And how you felt about the change",
+                    "text": "As for how I felt about changing the plan, my feelings changed as the work progressed.",
+                    "translation": "至于改变计划时的感受，随着工作推进，我的感受也发生了变化。"
+                  },
+                  "reasons": [
+                    {
+                      "text": "At first, I felt disappointed because the team had prepared for the September release for a long time. I worried that the delay would affect our progress.",
+                      "highlights": [
+                        "felt disappointed",
+                        "affect our progress"
+                      ],
+                      "translation": "一开始，我很失望，因为团队为九月发布准备了很久。我担心延期会影响进度。"
+                    },
+                    {
+                      "text": "After the meeting, I understood that Alex's plan was safer. A small release gave us time to collect feedback and fix the app properly.",
+                      "highlights": [
+                        "plan was safer",
+                        "collect feedback"
+                      ],
+                      "translation": "开会之后，我理解了Alex的计划更安全。小范围发布给了我们收集反馈、认真修复应用的时间。"
+                    },
+                    {
+                      "text": "In the end, I felt relieved because the October release worked smoothly and students could use the lessons normally. The change was clearly worthwhile.",
+                      "highlights": [
+                        "felt relieved",
+                        "clearly worthwhile"
+                      ],
+                      "translation": "最后，十月发布很顺利，学生也能正常使用课程，我松了一口气。这个改变显然是值得的。"
+                    }
+                  ],
+                  "mode": "feelings"
+                }
               }
             ]
           },
@@ -9136,7 +11312,41 @@ window.IELTS_DATA = {
                     ]
                   }
                 ],
-                "isNew": false
+                "isNew": false,
+                "ending": {
+                  "endingLead": {
+                    "cue": "And explain how you feel about the change",
+                    "text": "As for how I feel about this change, I am pleased with it. There are three reasons.",
+                    "translation": "至于我对这个改变的感受，我很满意，有三个原因。"
+                  },
+                  "reasons": [
+                    {
+                      "text": "First of all, my work is faster and safer now because two people can check different parts and notice different details. You know, this stops me from repeating the same checks for too long.",
+                      "highlights": [
+                        "faster and safer",
+                        "different details"
+                      ],
+                      "translation": "首先，我现在工作得更快也更安全，因为两个人可以检查不同部分，发现不同的细节。你知道，这能避免我长时间重复同样的检查。"
+                    },
+                    {
+                      "text": "Secondly, I feel less stressed and more confident because I know I do not have to face every difficult problem alone. I can stay calm and focus on the problem.",
+                      "highlights": [
+                        "less stressed",
+                        "more confident"
+                      ],
+                      "translation": "其次，我的压力更小，也更有信心，因为我知道自己不必独自面对每个难题。我可以保持冷静，专心处理问题。"
+                    },
+                    {
+                      "text": "What's more, the change has improved communication in my team. In the future, I will keep clear notes and speak up before a small problem becomes bigger. Sharing ideas also helps us trust one another.",
+                      "highlights": [
+                        "improved communication",
+                        "keep clear notes"
+                      ],
+                      "translation": "此外，这个改变改善了团队沟通。以后我会记清楚笔记，在小问题变大之前及时说出来。分享想法也帮助我们互相信任。"
+                    }
+                  ],
+                  "mode": "feelings"
+                }
               }
             ]
           },
@@ -9175,6 +11385,43 @@ window.IELTS_DATA = {
                 ],
                 "memoryChain": {
                   "story": "沿用Alex系统故障：一个月前认为工程师应该独自解决 → 自查一小时无果 → Alex合作修复 → 改变看法，及时求助也是好方法 → 不用独自面对，感到安心"
+                },
+                "ending": {
+                  "endingLead": {
+                    "cue": "And explain how you felt about the experience",
+                    "text": "As for how I felt about changing my opinion, I felt relieved and more confident. There are three reasons.",
+                    "translation": "至于改变观点后的感受，我感到安心，也更有信心，有三个原因。"
+                  },
+                  "reasons": [
+                    {
+                      "text": "First of all, I no longer feel that asking for help is a weakness. You know, everyone gets stuck sometimes. Accepting this idea has taken a lot of pressure off me.",
+                      "translation": "我不再觉得求助代表能力不足。你知道，每个人有时都会卡住。接受这个想法，让我的压力小了很多。",
+                      "memory": "Emotion：不再把求助当弱点 → 减少压力",
+                      "highlights": [
+                        "asking for help is a weakness",
+                        "pressure off me"
+                      ]
+                    },
+                    {
+                      "text": "Secondly, I can solve difficult problems more quickly now. If I make no progress after twenty minutes, I share my notes with a teammate. This saves time and helps us avoid a bigger problem.",
+                      "translation": "现在我能更快解决难题。二十分钟没有进展时，我会把笔记分享给队友。这节省时间，也帮助我们避免更大的问题。",
+                      "memory": "Time：二十分钟没进展 → 分享笔记 → 省时",
+                      "highlights": [
+                        "more quickly",
+                        "saves time"
+                      ]
+                    },
+                    {
+                      "text": "What's more, I work more closely with Alex and the rest of my team. We explain our ideas and learn from one another. I think this has made our working relationship stronger.",
+                      "translation": "我和Alex以及团队其他成员合作得更紧密。我们解释自己的想法，也互相学习。我觉得这让工作关系更加牢固。",
+                      "memory": "Relationship：交流想法＋互相学习 → 合作更牢",
+                      "highlights": [
+                        "work more closely",
+                        "relationship stronger"
+                      ]
+                    }
+                  ],
+                  "mode": "feelings"
                 }
               }
             ]
@@ -9243,7 +11490,41 @@ window.IELTS_DATA = {
                     ]
                   }
                 ],
-                "isNew": false
+                "isNew": false,
+                "ending": {
+                  "endingLead": {
+                    "cue": "And explain how you felt about the experience",
+                    "text": "As for how I felt about the experience, my feelings changed after I saw the messages.",
+                    "translation": "至于我对这次经历的感受，看到消息后，我的感受发生了变化。"
+                  },
+                  "reasons": [
+                    {
+                      "text": "At first, I felt embarrassed because Alex had waited for a long time. I was also worried that he might think I did not want to help him.",
+                      "highlights": [
+                        "felt embarrassed",
+                        "waited for a long time"
+                      ],
+                      "translation": "一开始，我很尴尬，因为Alex已经等了很久。我也担心他会认为我不想帮助他。"
+                    },
+                    {
+                      "text": "However, I had not ignored him on purpose. The meeting needed my full attention, and my phone was silent, so I felt better after I explained this clearly.",
+                      "highlights": [
+                        "not ignored him on purpose",
+                        "explained this clearly"
+                      ],
+                      "translation": "然而，我并不是故意不理他。会议需要我专心，手机也调成了静音，所以解释清楚后，我好受了一些。"
+                    },
+                    {
+                      "text": "Now I know I should send a short reply whenever possible. In the future, if I am truly busy, I will ask another teammate to help with an urgent problem.",
+                      "highlights": [
+                        "send a short reply",
+                        "ask another teammate"
+                      ],
+                      "translation": "现在我知道，只要有可能就应该先发一条简短回复。以后如果真的很忙，我会请另一位队友帮忙处理紧急问题。"
+                    }
+                  ],
+                  "mode": "feelings"
+                }
               },
               {
                 "question": "Describe a time when a person did something to help you solve a problem",
@@ -9306,7 +11587,41 @@ window.IELTS_DATA = {
                     ]
                   }
                 ],
-                "isNew": false
+                "isNew": false,
+                "ending": {
+                  "endingLead": {
+                    "cue": "And explain how you felt about the experience",
+                    "text": "As for how I felt about Alex helping me, I felt relieved and grateful. There are three reasons.",
+                    "translation": "至于Alex帮助我时的感受，我感到安心又感激，有三个原因。"
+                  },
+                  "reasons": [
+                    {
+                      "text": "First of all, I felt relieved because the system worked again and the complaints stopped. A serious problem was solved before it became even bigger.",
+                      "highlights": [
+                        "felt relieved",
+                        "complaints stopped"
+                      ],
+                      "translation": "首先，系统恢复正常、投诉也停止了，所以我松了一口气。一个严重的问题在变得更大之前就解决了。"
+                    },
+                    {
+                      "text": "Secondly, I felt grateful because Alex patiently read my notes and shared his method. He did not blame me for failing to solve it alone.",
+                      "highlights": [
+                        "felt grateful",
+                        "shared his method"
+                      ],
+                      "translation": "其次，我很感激，因为Alex耐心看了我的笔记，也分享了他的方法。他没有因为我没能独自解决问题而责怪我。"
+                    },
+                    {
+                      "text": "What's more, I learned that asking for help is not a weakness. Teamwork can make difficult work faster and safer, so I will speak up earlier next time.",
+                      "highlights": [
+                        "asking for help",
+                        "faster and safer"
+                      ],
+                      "translation": "此外，我明白了求助并不代表软弱。团队合作能让困难的工作更快、更安全，所以下次我会早点开口。"
+                    }
+                  ],
+                  "mode": "feelings"
+                }
               },
               {
                 "question": "Describe a time when you had a problem with using an electronic device",
@@ -9369,7 +11684,44 @@ window.IELTS_DATA = {
                     ]
                   }
                 ],
-                "isNew": false
+                "isNew": false,
+                "ending": {
+                  "endingLead": {
+                    "cue": "And explain how you solved the problem at last",
+                    "text": "As for how we solved the laptop problem, we took three main steps.",
+                    "translation": "至于我们怎样解决笔记本电脑的问题，主要做了三个步骤。"
+                  },
+                  "reasons": [
+                    {
+                      "text": "First of all, Alex checked the laptop and found that the storage was almost full. Old videos and temporary files were taking up most of the space. You know, finding the real cause made the next step much easier.",
+                      "translation": "首先，Alex检查电脑，发现存储空间几乎满了。旧视频和临时文件占用了大部分空间。你知道，找到真正原因后，下一步就容易多了。",
+                      "memory": "第一步：检查电脑 → 找到存储已满",
+                      "highlights": [
+                        "checked the laptop",
+                        "storage was almost full"
+                      ]
+                    },
+                    {
+                      "text": "Then we moved the old videos to another drive. We also deleted the temporary files that we did not need. This gave the laptop enough free space again.",
+                      "translation": "然后，我们把旧视频移到另一个硬盘，也删除了不需要的临时文件。这让电脑重新有了足够的可用空间。",
+                      "memory": "第二步：转移视频＋删除临时文件 → 腾出空间",
+                      "highlights": [
+                        "moved the old videos",
+                        "deleted the temporary files"
+                      ]
+                    },
+                    {
+                      "text": "What's more, we restarted the laptop and opened the report again. It worked normally, and I checked that my work was still there. The meeting could begin on time.",
+                      "translation": "最后，我们重启电脑，再次打开报告。电脑恢复正常，我也确认文件仍然存在。会议得以准时开始。",
+                      "memory": "第三步：重启＋打开报告 → 会议准时",
+                      "highlights": [
+                        "restarted the laptop",
+                        "begin on time"
+                      ]
+                    }
+                  ],
+                  "mode": "steps"
+                }
               },
               {
                 "question": "Describe a time when you worked in a group",
@@ -9432,7 +11784,41 @@ window.IELTS_DATA = {
                     ]
                   }
                 ],
-                "isNew": false
+                "isNew": false,
+                "ending": {
+                  "endingLead": {
+                    "cue": "And explain why you worked in the group",
+                    "text": "As for why I worked in a group, there were three reasons.",
+                    "translation": "至于我为什么和团队一起工作，有三个原因。"
+                  },
+                  "reasons": [
+                    {
+                      "text": "First of all, the technical problem was too complex for one person to solve quickly. There were many possible causes, so one person could easily miss something.",
+                      "highlights": [
+                        "too complex",
+                        "one person"
+                      ],
+                      "translation": "首先，这个技术问题太复杂，一个人很难迅速解决。可能的原因很多，一个人很容易漏掉某个细节。"
+                    },
+                    {
+                      "text": "Secondly, each teammate had different skills, so we could divide the work. This meant that several useful checks could happen at the same time.",
+                      "highlights": [
+                        "different skills",
+                        "divide the work"
+                      ],
+                      "translation": "其次，每位队友的技能不同，所以我们可以分工。这意味着几项有用的检查可以同时进行。"
+                    },
+                    {
+                      "text": "What's more, checking and testing together made the solution faster and safer. We also felt less stressed because everyone knew they were not facing the problem alone.",
+                      "highlights": [
+                        "testing together",
+                        "faster and safer"
+                      ],
+                      "translation": "此外，一起检查和测试，让解决方案更快也更安全。大家知道自己不是独自面对问题，压力也会更小。"
+                    }
+                  ],
+                  "mode": "reasons"
+                }
               }
             ]
           },
@@ -9500,7 +11886,41 @@ window.IELTS_DATA = {
                     ]
                   }
                 ],
-                "isNew": false
+                "isNew": false,
+                "ending": {
+                  "endingLead": {
+                    "cue": "And explain why you liked it",
+                    "text": "As for why I liked the match, there were three reasons.",
+                    "translation": "至于我为什么喜欢这场比赛，有三个原因。"
+                  },
+                  "reasons": [
+                    {
+                      "text": "First of all, the score was close and the last goal made the match exciting. Until the final minute, neither of us knew which team would win.",
+                      "highlights": [
+                        "score was close",
+                        "last goal",
+                        "exciting"
+                      ],
+                      "translation": "首先，比分很接近，最后一个进球让比赛很刺激。直到最后一分钟，我们都不知道哪支球队会赢。"
+                    },
+                    {
+                      "text": "Secondly, watching it helped me relax after a busy week. For about two hours, I forgot my work and simply enjoyed the game.",
+                      "highlights": [
+                        "helped me relax",
+                        "busy week"
+                      ],
+                      "translation": "其次，看比赛帮助我在忙碌一周后放松。大约两个小时里，我忘掉工作，只是享受比赛。"
+                    },
+                    {
+                      "text": "What's more, it gave my girlfriend and me some enjoyable time together. We shared food, laughed and had something interesting to discuss afterwards.",
+                      "highlights": [
+                        "enjoyable time together"
+                      ],
+                      "translation": "此外，它让我和女朋友愉快地相处了一段时间。我们分享食物、一起笑，赛后也有有趣的话题可聊。"
+                    }
+                  ],
+                  "mode": "reasons"
+                }
               }
             ]
           },
@@ -9568,7 +11988,40 @@ window.IELTS_DATA = {
                     ]
                   }
                 ],
-                "isNew": false
+                "isNew": false,
+                "ending": {
+                  "endingLead": {
+                    "cue": "And explain why you think it was a successful event",
+                    "text": "As for why I think the event was successful, there were three reasons.",
+                    "translation": "至于我为什么觉得这次活动很成功，有三个原因。"
+                  },
+                  "reasons": [
+                    {
+                      "text": "First of all, the walk and waiting time allowed all of us to chat and enjoy ourselves. The plan gave everyone enough time to speak instead of rushing from place to place.",
+                      "highlights": [
+                        "chat",
+                        "enjoy ourselves"
+                      ],
+                      "translation": "首先，散步和等待日出的时间让大家可以聊天、享受相处。计划给每个人足够的时间说话，不用匆忙赶路。"
+                    },
+                    {
+                      "text": "Secondly, sharing food and watching the sunrise together made our friendship stronger. We helped one another climb and took a group photo that we all still keep.",
+                      "highlights": [
+                        "friendship stronger"
+                      ],
+                      "translation": "其次，分享食物、一起看日出让我们的友谊更牢固。我们互相帮助爬山，也拍了一张大家一直保存的合照。"
+                    },
+                    {
+                      "text": "What's more, everyone arrived on time, and we reached the top before the sun appeared. That showed me the event was well planned, and I felt proud that everyone was happy.",
+                      "highlights": [
+                        "arrived on time",
+                        "before the sun appeared"
+                      ],
+                      "translation": "此外，所有人都准时到达，我们也在太阳升起前到了山顶。这说明活动计划得很好，看到大家开心，我也很自豪。"
+                    }
+                  ],
+                  "mode": "reasons"
+                }
               },
               {
                 "question": "Describe a special day out that costs you little money/didn't cost you much",
@@ -9629,7 +12082,44 @@ window.IELTS_DATA = {
                     ]
                   }
                 ],
-                "isNew": false
+                "isNew": false,
+                "ending": {
+                  "endingLead": {
+                    "cue": "And explain how you feel about the day",
+                    "text": "As for how I felt about the day, I felt relaxed, happy and pleased with the cost. There were three reasons.",
+                    "translation": "至于我对那一天的感受，我感到放松、开心，也很满意花费，有三个原因。"
+                  },
+                  "reasons": [
+                    {
+                      "text": "First of all, I felt relaxed because the hill was quiet and the air was fresh. You know, I had been busy with work. Watching the sky change colour helped me forget about my daily pressure.",
+                      "translation": "山顶安静、空气清新，所以我很放松。你知道，我之前一直忙于工作。看着天空变色，让我忘掉了日常压力。",
+                      "memory": "Emotion：安静＋空气清新 → 忘掉工作压力",
+                      "highlights": [
+                        "felt relaxed",
+                        "forget about my daily pressure"
+                      ]
+                    },
+                    {
+                      "text": "Secondly, I felt happy because I could spend proper time with three close friends. We walked, talked and shared breakfast together. These simple things made us feel closer.",
+                      "translation": "我很开心，因为能和三位好朋友好好相处。我们一起走路、聊天、分享早餐。这些简单的小事让我们更亲近。",
+                      "memory": "Relationship：散步＋聊天＋早餐 → 更亲近",
+                      "highlights": [
+                        "spend proper time",
+                        "feel closer"
+                      ]
+                    },
+                    {
+                      "text": "What's more, I was also pleased that the day cost very little. The hill was free, and about sixty yuan bought enough food for four people. I think the memory was better than an expensive meal.",
+                      "translation": "那天花费很少，我也很满意。山顶免费，大约六十元就买够了四个人的食物。我觉得这段回忆比昂贵的一餐更好。",
+                      "memory": "Money：免费景点＋60元四人食物 → 回忆更珍贵",
+                      "highlights": [
+                        "cost very little",
+                        "sixty yuan"
+                      ]
+                    }
+                  ],
+                  "mode": "feelings"
+                }
               },
               {
                 "question": "Describe a time when you got up early",
@@ -9691,7 +12181,41 @@ window.IELTS_DATA = {
                     ]
                   }
                 ],
-                "isNew": false
+                "isNew": false,
+                "ending": {
+                  "endingLead": {
+                    "cue": "And how you felt about it",
+                    "text": "As for how I felt about getting up early, my feelings changed during the trip.",
+                    "translation": "至于早起这件事的感受，旅途中我的感受发生了变化。"
+                  },
+                  "reasons": [
+                    {
+                      "text": "At first, I felt sleepy, but chatting with my friends helped me wake up. Their jokes made the dark and quiet walk much easier.",
+                      "highlights": [
+                        "felt sleepy",
+                        "chatting with my friends"
+                      ],
+                      "translation": "一开始，我很困，但和朋友聊天让我清醒了一些。他们的笑话让黑暗安静的路好走了很多。"
+                    },
+                    {
+                      "text": "After a while, sharing breakfast and the sunrise made us feel much closer. We had time to talk about things that we usually do not discuss online.",
+                      "highlights": [
+                        "sharing breakfast",
+                        "feel much closer"
+                      ],
+                      "translation": "过了一会儿，一起吃早餐、看日出，让我们感觉更亲近。我们有时间聊平时在网上不会说的事情。"
+                    },
+                    {
+                      "text": "In the end, the fresh air and beautiful view made the early start worthwhile. I was tired later that day, but I would happily do it again during a holiday.",
+                      "highlights": [
+                        "fresh air",
+                        "early start worthwhile"
+                      ],
+                      "translation": "最后，新鲜空气和美丽景色让我觉得早起很值得。虽然那天晚些时候有点累，但假期里我仍愿意再做一次。"
+                    }
+                  ],
+                  "mode": "feelings"
+                }
               }
             ]
           },
@@ -9760,7 +12284,41 @@ window.IELTS_DATA = {
                     ]
                   }
                 ],
-                "isNew": false
+                "isNew": false,
+                "ending": {
+                  "endingLead": {
+                    "cue": "And explain how you felt in the traffic jam",
+                    "text": "As for how I felt in the traffic jam, my feelings changed during the long wait.",
+                    "translation": "至于堵车时的感受，在漫长等待中，我的感受发生了变化。"
+                  },
+                  "reasons": [
+                    {
+                      "text": "At first, I felt unhappy because the traffic hardly moved and the long wait was tiring. I also worried that we would miss the places we wanted to visit.",
+                      "highlights": [
+                        "felt unhappy",
+                        "long wait"
+                      ],
+                      "translation": "一开始，我不开心，因为车流几乎不动，漫长等待让人疲惫。我也担心会错过想去的地方。"
+                    },
+                    {
+                      "text": "After a while, my friend and I played a mobile phone game together, so I became happy again. The game gave us something simple to do instead of watching the road.",
+                      "highlights": [
+                        "played a mobile phone game",
+                        "happy again"
+                      ],
+                      "translation": "过了一会儿，我和朋友一起玩手机游戏，所以又开心起来。游戏让我们有点简单的事情做，不用一直盯着路面。"
+                    },
+                    {
+                      "text": "What's more, playing and talking brought us closer, but I was exhausted in the end and probably will not visit that area at a busy time again. Next time, I will take the subway or leave much earlier.",
+                      "highlights": [
+                        "brought us closer",
+                        "will not visit that area"
+                      ],
+                      "translation": "此外，一起玩游戏、聊天让我们更亲近，但最后我已经筋疲力尽，以后大概不会在繁忙时段再去那片区域。下次我会坐地铁或更早出发。"
+                    }
+                  ],
+                  "mode": "feelings"
+                }
               }
             ]
           },
@@ -9829,7 +12387,42 @@ window.IELTS_DATA = {
                     ]
                   }
                 ],
-                "isNew": false
+                "isNew": false,
+                "ending": {
+                  "endingLead": {
+                    "cue": "And how you felt about it",
+                    "text": "As for how I felt about learning French this way, my feelings changed over time.",
+                    "translation": "至于用这种方式学法语的感受，我的感受随着时间发生了变化。"
+                  },
+                  "reasons": [
+                    {
+                      "text": "At first, French pronunciation was difficult and I made many mistakes. I sometimes felt embarrassed because the same word sounded wrong again and again.",
+                      "highlights": [
+                        "pronunciation was difficult",
+                        "many mistakes"
+                      ],
+                      "translation": "一开始，法语发音很难，我犯了很多错误。同一个词一次次读错，有时让我觉得尴尬。"
+                    },
+                    {
+                      "text": "After a while, books and videos helped me understand more words and sounds. Daily practice was short, so it was easy to continue even when I was busy.",
+                      "highlights": [
+                        "books and videos",
+                        "more words and sounds"
+                      ],
+                      "translation": "过了一段时间，书和视频帮助我理解了更多单词和发音。每天练习时间很短，即使忙的时候也容易坚持。"
+                    },
+                    {
+                      "text": "Now I feel more confident, and I want to keep practising for future travel. If I visit France, I hope to use French in a shop and have a simple conversation.",
+                      "highlights": [
+                        "more confident",
+                        "keep practising",
+                        "future travel"
+                      ],
+                      "translation": "现在我更有信心，也想继续练习，为以后旅行做准备。如果去法国，我希望能在商店使用法语，进行简单的交流。"
+                    }
+                  ],
+                  "mode": "feelings"
+                }
               }
             ]
           },
@@ -9897,7 +12490,41 @@ window.IELTS_DATA = {
                     ]
                   }
                 ],
-                "isNew": false
+                "isNew": false,
+                "ending": {
+                  "endingLead": {
+                    "cue": "And explain why people were interested in it",
+                    "text": "As for why people were interested in the news, there were three reasons.",
+                    "translation": "至于人们为什么对这条新闻感兴趣，有三个原因。"
+                  },
+                  "reasons": [
+                    {
+                      "text": "First of all, many things there are very cheap, so local families can save money. For example, people may be able to buy fresh food and daily products in one trip.",
+                      "highlights": [
+                        "very cheap",
+                        "save money"
+                      ],
+                      "translation": "首先，那里很多东西很便宜，所以当地家庭可以省钱。比如，人们一次就可能买齐新鲜食物和日用品。"
+                    },
+                    {
+                      "text": "Secondly, many products are the supermarket's own brands, so people want to try something different. These products are often simple and useful, and they cannot be found in every shop.",
+                      "highlights": [
+                        "own brands",
+                        "try something different"
+                      ],
+                      "translation": "其次，很多商品是超市自有品牌，所以大家想尝试不同的东西。这些商品通常简单实用，也不是每家店都有。"
+                    },
+                    {
+                      "text": "What's more, it is famous for its friendly and helpful service, which makes shopping more pleasant. Staff may answer questions, help older customers and deal with problems patiently.",
+                      "highlights": [
+                        "friendly and helpful service",
+                        "shopping more pleasant"
+                      ],
+                      "translation": "此外，它以友好、周到的服务闻名，让购物更加愉快。员工可能会回答问题、帮助老人，并耐心处理问题。"
+                    }
+                  ],
+                  "mode": "reasons"
+                }
               }
             ]
           },
@@ -9975,7 +12602,44 @@ window.IELTS_DATA = {
                   "你何时何地看了这次采访",
                   "解释你对这次采访的感受"
                 ],
-                "sourceOrder": 33
+                "sourceOrder": 33,
+                "ending": {
+                  "endingLead": {
+                    "cue": "And explain how you felt about the interview",
+                    "text": "As for how I felt about the interview, I felt encouraged and interested. There were three reasons.",
+                    "translation": "至于我对这次采访的感受，我感到受到鼓舞，也觉得很有兴趣，有三个原因。"
+                  },
+                  "reasons": [
+                    {
+                      "text": "First of all, I felt encouraged when Lei Jun talked honestly about his early mistakes. You know, it made success feel more realistic. It reminded me to keep learning when work is difficult.",
+                      "translation": "雷军坦诚谈到早期错误时，我受到了鼓舞。你知道，这让成功显得更加真实，也提醒我工作困难时继续学习。",
+                      "memory": "Emotion：坦诚讲错误 → 成功更真实＋受到鼓舞",
+                      "highlights": [
+                        "felt encouraged",
+                        "keep learning"
+                      ]
+                    },
+                    {
+                      "text": "Secondly, I found his simple examples useful for my own work. He said people should listen before making an important decision. I think that can help me work better with my colleagues.",
+                      "translation": "我觉得他的简单例子对自己的工作很有用。他说作重要决定前应该先听取意见。我觉得这能帮助我更好地和同事合作。",
+                      "memory": "Learning / Relationship：先听意见 → 改善团队合作",
+                      "highlights": [
+                        "useful for my own work",
+                        "work better with my colleagues"
+                      ]
+                    },
+                    {
+                      "text": "What's more, I was happy that I shared the interview with a colleague. We talked about it the next day and exchanged our ideas. A useful video gave us a good conversation.",
+                      "translation": "我很高兴把采访分享给了同事。第二天我们讨论了它，交换了想法。一个实用的视频给了我们一次很好的交流。",
+                      "memory": "Relationship：分享采访＋交流想法 → 好话题",
+                      "highlights": [
+                        "shared the interview",
+                        "exchanged our ideas"
+                      ]
+                    }
+                  ],
+                  "mode": "feelings"
+                }
               },
               {
                 "id": "p2-happy-important-decision",
@@ -10101,7 +12765,41 @@ window.IELTS_DATA = {
                     ]
                   }
                 ],
-                "sourceOrder": 34
+                "sourceOrder": 34,
+                "ending": {
+                  "endingLead": {
+                    "cue": "And explain why you were happy with the result",
+                    "text": "As for why I was happy with the result, there were three reasons.",
+                    "translation": "至于我为什么对结果感到满意，有三个原因。"
+                  },
+                  "reasons": [
+                    {
+                      "text": "First of all, pausing the feature prevented more failed orders and avoided a bigger loss for the company and its customers. It was the safer choice.",
+                      "highlights": [
+                        "prevented more failed orders",
+                        "avoided a bigger loss"
+                      ],
+                      "translation": "首先，暂停这项功能避免了更多订单失败，也避免了公司和顾客遭受更大的损失。这是更安全的选择。"
+                    },
+                    {
+                      "text": "Secondly, Alex and I found one wrong setting, corrected it and tested the system carefully. A few hours later, customers could place orders normally again.",
+                      "highlights": [
+                        "one wrong setting",
+                        "place orders normally again"
+                      ],
+                      "translation": "其次，Alex和我找到一处错误设置，修正后认真测试。几小时后，顾客又能正常下单了。"
+                    },
+                    {
+                      "text": "What's more, the team trusted my judgement afterwards. I felt relieved and more confident because a difficult decision had produced a good result.",
+                      "highlights": [
+                        "trusted my judgement",
+                        "relieved and more confident"
+                      ],
+                      "translation": "此外，团队后来更加信任我的判断。一个困难的决定带来了好结果，所以我感到安心，也更有信心。"
+                    }
+                  ],
+                  "mode": "reasons"
+                }
               }
             ]
           }

@@ -635,6 +635,27 @@ function partTwoAnswerAsStoryHtml(item) {
     ${translation ? `<p class="memory-chain story-memory-chain"><strong>中文参考</strong>${escapeHtml(translation)}</p>` : ""}`;
 }
 
+function partTwoEndingsHtml(questions = []) {
+  const entries = questions.filter((question) => question.ending);
+  return entries.map((question) => {
+    const ending = question.ending;
+    const heading = entries.length > 1 ? `对应题目：${question.text}` : "最后一问扣题";
+    return `<section class="simple-master-section part2-question-ending">
+      <h3>${escapeHtml(heading)}</h3>
+      <p class="reason-label"><strong>题卡要求：</strong>${escapeHtml(ending.endingLead.cue)}</p>
+      <p class="simple-master-english"><strong>${escapeHtml(ending.endingLead.text)}</strong></p>
+      <p class="translation"><strong>中文：</strong>${escapeHtml(ending.endingLead.translation)}</p>
+      <ol class="numbered-list topic-reason-list">
+        ${ending.reasons.map((reason) => `<li>
+          ${highlight(reason.text, reason.highlights)}
+          <p class="translation"><strong>中文：</strong>${escapeHtml(reason.translation)}</p>
+          ${reason.memory ? `<span class="memory-chain reason-memory-chain"><strong>理由中文链</strong>${escapeHtml(reason.memory)}</span>` : ""}
+        </li>`).join("")}
+      </ol>
+    </section>`;
+  }).join("");
+}
+
 function partTwoTipsHtml(tips, universalMaterials = []) {
   const section = tips.section;
   const nativeItems = (tips.topicGroups || []).flatMap((group) =>
@@ -669,7 +690,7 @@ function partTwoTipsHtml(tips, universalMaterials = []) {
         isNew,
         sourceOrder: matching[0].sourceOrder,
         title: story.title || baseEntry.group.title,
-        questions: matching.map((item) => ({ text: item.question, special: item.special, isNew })),
+        questions: matching.map((item) => ({ text: item.question, special: item.special, isNew, ending: item.ending })),
         item: {
           ...baseEntry.item,
           draftCues: story.draftCues || baseEntry.item.draftCues,
@@ -690,7 +711,7 @@ function partTwoTipsHtml(tips, universalMaterials = []) {
       isNew: item.isNew,
       sourceOrder: item.sourceOrder,
       title: item.storyTitle || item.name || group.title,
-      questions: [{ text: item.question, special: "", isNew: item.isNew }],
+      questions: [{ text: item.question, special: "", isNew: item.isNew, ending: item.ending }],
       item,
       merged: false
     }));
@@ -721,7 +742,7 @@ function partTwoTipsHtml(tips, universalMaterials = []) {
   const topicGroupsHtml = storyCards.length ? `
     <div class="section-heading">
       <h2>素材卡片</h2>
-      <p>一张卡只背一条故事。先覆盖题卡信息；有理由库时，再选择最贴题的理由，不需要全部讲。</p>
+      <p>一张卡只背一条故事；最后一问按对应题目，用 As for... 接三点简单展开。</p>
     </div>
     <div class="topic-guide-groups">
       ${storyCards.map(({ title, questions, item, merged }) => `<article class="card topic-guide-group story-material-card">
@@ -741,13 +762,13 @@ function partTwoTipsHtml(tips, universalMaterials = []) {
             <div class="topic-guide-body"><strong>这个素材的故事：</strong>${partTwoStoryHtml(item.body.text, item.body.highlights, item.body.paragraphStarts)}</div>
             ${item.body.translation ? `<p class="translation"><strong>中文：</strong>${escapeHtml(item.body.translation)}</p>` : ""}
             ${item.memoryChain?.story ? `<p class="memory-chain story-memory-chain"><strong>故事中文链</strong>${escapeHtml(item.memoryChain.story)}</p>` : ""}
-            ${item.reasons?.length ? `<p class="reason-label"><strong>${escapeHtml(item.pointsLabel || "可选理由 / 结尾点")}${merged && item.reasonHint !== false ? "（按题目选 3 条）" : ""}：</strong></p>
+            ${questions.some((question) => question.ending) ? partTwoEndingsHtml(questions) : (item.reasons?.length ? `<p class="reason-label"><strong>${escapeHtml(item.pointsLabel || "可选理由 / 结尾点")}${merged && item.reasonHint !== false ? "（按题目选 3 条）" : ""}：</strong></p>
               <ol class="numbered-list topic-reason-list">
                 ${item.reasons.map((reason, reasonIndex) => {
                   const reasonMemory = reason.memory || item.memoryChain?.reasons?.[reasonIndex];
                   return `<li>${highlight(reason.text, reason.highlights)}${reasonMemory ? `<span class="memory-chain reason-memory-chain"><strong>理由中文链</strong>${escapeHtml(reasonMemory)}</span>` : ""}</li>`;
                 }).join("")}
-              </ol>` : ""}
+              </ol>` : "")}
           ` : (item.answer?.length ? partTwoAnswerAsStoryHtml(item) : "")}
         </section>
       </article>`).join("")}
@@ -833,13 +854,13 @@ function partTwoTopicHtml(topic, { showFramework = true } = {}) {
     <div class="topic-guide-body">${partTwoStoryHtml(topic.body.text, topic.body.highlights, topic.body.paragraphStarts)}</div>
     ${topic.body.translation ? `<p class="translation"><strong>中文：</strong>${escapeHtml(topic.body.translation)}</p>` : ""}
     ${topic.memoryChain?.story ? `<p class="memory-chain story-memory-chain"><strong>故事中文链</strong>${escapeHtml(topic.memoryChain.story)}</p>` : ""}
-    ${topic.reasons?.length ? `<p class="reason-label"><strong>${escapeHtml(topic.pointsLabel || "可选理由 / 结尾点")}：</strong></p>
+    ${topic.ending ? partTwoEndingsHtml([{ text: topic.question, ending: topic.ending }]) : (topic.reasons?.length ? `<p class="reason-label"><strong>${escapeHtml(topic.pointsLabel || "可选理由 / 结尾点")}：</strong></p>
       <ol class="numbered-list topic-reason-list">
         ${topic.reasons.map((reason, reasonIndex) => {
           const reasonMemory = reason.memory || topic.memoryChain?.reasons?.[reasonIndex];
           return `<li>${highlight(reason.text, reason.highlights)}${reasonMemory ? `<span class="memory-chain reason-memory-chain"><strong>理由中文链</strong>${escapeHtml(reasonMemory)}</span>` : ""}</li>`;
         }).join("")}
-      </ol>` : ""}
+      </ol>` : "")}
     ` : `
     <div class="group-title section-heading"><div><h2>完整参考答案</h2><p>${escapeHtml(topic.answerNote || "“特殊”句负责贴合当前题目，其余句可重复使用。")}</p></div><button class="copy-button" type="button" data-copy-answer="${escapeHtml(topic.id || "")}">复制答案</button></div>
     <div class="answer-list">${(topic.answer || []).map((line) => `<div class="answer-line"><span class="badge ${line.kind === "特殊" ? "warm" : ""}">${escapeHtml(line.kind)}</span>${escapeHtml(line.text)}${line.translation ? `<p class="translation"><strong>中文：</strong>${escapeHtml(line.translation)}</p>` : ""}</div>`).join("") || '<p class="empty-state">这道题暂时没有完整答案。</p>'}</div>`}
