@@ -87,10 +87,12 @@ main { width: min(1360px, calc(100% - 32px)); min-height: calc(100vh - 72px); ma
 .question-status-tag { display: inline-flex; align-items: center; margin-left: 7px; padding: 2px 7px; border-radius: 999px; font-size: 10px; font-weight: 900; line-height: 1.45; vertical-align: 1px; white-space: nowrap; }
 .question-status-tag.status-new { background: #e9a93f; color: #3f2b09; }
 .question-status-tag.status-retained { background: #e5eef0; color: #345e64; }
+.question-status-tag.status-non-mainland { background: #e8e6f7; color: #55448c; }
 .sidebar-button:hover, .sidebar-button:focus-visible { background: var(--soft); }
 .sidebar-button.active { background: var(--accent); color: #fff; }
 .sidebar-button.active small { color: #d5e9e1; }
 .sidebar-button.active .status-new { background: #ffd990; color: #4d3408; }
+.sidebar-button.active .status-non-mainland { background: #e5ddff; color: #493578; }
 .sidebar-button.active .question-status-tag { box-shadow: inset 0 0 0 1px rgba(255,255,255,.45); }
 
 .panel { border: 1px solid var(--line); border-radius: 22px; background: var(--surface); box-shadow: var(--shadow); overflow: hidden; }
@@ -186,6 +188,9 @@ main { width: min(1360px, calc(100% - 32px)); min-height: calc(100vh - 72px); ma
 .story-question-special { display: block; margin-top: 2px; color: var(--muted); font-size: 13px; line-height: 1.55; }
 .story-question-special strong { color: #6f592c; }
 .story-material-card .topic-guide-item { margin-top: 13px; padding-top: 14px; }
+.story-card-group { margin: 2px 0 8px; color: var(--muted); font-size: 12px; font-weight: 800; line-height: 1.55; }
+.story-card-linked { margin: 0 0 10px; padding: 7px 10px; border: 1px solid var(--line); border-left: 3px solid var(--accent); border-radius: 8px; background: var(--accent-wash); color: var(--accent-strong); font-size: 13px; line-height: 1.6; }
+.story-card-linked strong { color: var(--accent); }
 .topic-guide-body { margin-top: 13px; color: #27463e; line-height: 1.8; }
 .part2-opening { text-decoration: underline; text-underline-offset: 3px; }
 p.part2-story-paragraph { margin: 0; }

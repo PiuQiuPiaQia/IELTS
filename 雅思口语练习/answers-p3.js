@@ -82,7 +82,7 @@ window.P3_ANSWERS = {
     "p": ["Yes, definitely.", "mainly because…", "listen to what customers say", "For example,…", "So…"]
   },
   "new-medical-career||Do you think being a doctor is easy or difficult?": {
-    "a": "我觉得当医生很难[I think it is hard to be a doctor]。最主要的原因是（The main reason is that…）医生每天要照顾病人的生命，所以他们的压力很大[doctors look after people's lives every day, so they are under a lot of pressure]，这也是很大的责任（it's a big responsibility）。比如（For example,…）很多医生每天工作十几个小时，他们下班的时候非常累[a lot of doctors work more than ten hours a day, and they are very tired when they finish work]。所以（So…）我觉得这份工作不轻松[I think this job is not easy]，但是医生也很有成就感（a real sense of achievement）。而且医生的收入比很多工作高[and doctors earn more money than people in many other jobs]。",
+    "a": "我觉得当医生很难[I think it is hard to be a doctor]。最主要的原因是（The main reason is that…）医生每天要照顾病人的生命，所以他们的压力很大[doctors look after people's lives every day, so they are under a lot of stress]，这也是很大的责任（it's a big responsibility）。比如（For example,…）很多医生每天工作十几个小时，他们下班的时候非常累[a lot of doctors work more than ten hours a day, and they are very tired when they finish work]。所以（So…）我觉得这份工作不轻松[I think this job is not easy]，但是医生也很有成就感（a real sense of achievement）。而且医生的收入比很多工作高[and doctors earn more money than people in many other jobs]。",
     "g": "情绪",
     "p": ["The main reason is that…", "it's a big responsibility", "For example,…", "So…", "a real sense of achievement"]
   },
@@ -392,7 +392,7 @@ window.P3_ANSWERS = {
     "p": ["It depends, but usually…", "The main reason is that…", "eat out with friends", "For example,…", "So…", "cook something simple at home"]
   },
   "new-live-sports-event||Why do some people like to watch sports events?": {
-    "a": "很多人喜欢看比赛[a lot of people like watching matches]，因为看比赛的时候他们可以忘掉不开心的事[they forget unhappy things]。最主要的原因是（The main reason is that…）大家平时压力很大[people are usually under a lot of pressure]，他们看一场球可以放松一下（relax after a long day）。比如（For example,…）很多人周末跟朋友一起看球赛[they watch a match with friends at the weekend]，然后他们心情很好[and they feel good]。所以（So…）看比赛帮我忘掉工作上的事（it helps me forget about…）。",
+    "a": "很多人喜欢看比赛[a lot of people like watching matches]，因为看比赛的时候他们可以忘掉不开心的事[they forget unhappy things]。最主要的原因是（The main reason is that…）大家平时压力很大[people are usually under a lot of stress]，他们看一场球可以放松一下（relax after a long day）。比如（For example,…）很多人周末跟朋友一起看球赛[they watch a match with friends at the weekend]，然后他们心情很好[and they feel good]。所以（So…）看比赛帮我忘掉工作上的事（it helps me forget about…）。",
     "g": "情绪",
     "p": ["it helps me forget about…", "The main reason is that…", "relax after a long day", "For example,…", "So…"]
   },
@@ -617,7 +617,7 @@ window.P3_ANSWERS = {
     "p": ["mainly because…", "something went wrong with…", "For example,…", "So…", "set myself a clear goal"]
   },
   "new-happy-event||Do you prefer to prepare and organize an activity or just take part in an activity?": {
-    "a": "我更喜欢只参加活动[I prefer to just take part in activities]，我不想自己组织[I do not want to organize them myself]。这主要是因为（mainly because…）组织一个活动是很大的责任（it's a big responsibility），所以我的压力会很大[I will feel a lot of pressure]。比如（For example,…）很多人办聚会的时候要花一个下午订位子和买东西[a lot of people spend a whole afternoon booking a place and buying things for a party]，所以他们在活动开始以前就已经很累了[they are already tired before the party starts]。跟组织比起来（Compared with…），参加活动轻松多了[taking part is much more relaxing]，所以（So…）我选择只参加[I choose to just take part]。",
+    "a": "我更喜欢只参加活动[I prefer to just take part in activities]，我不想自己组织[I do not want to organize them myself]。这主要是因为（mainly because…）组织一个活动是很大的责任（it's a big responsibility），所以我的压力会很大[I will feel a lot of stress]。比如（For example,…）很多人办聚会的时候要花一个下午订位子和买东西[a lot of people spend a whole afternoon booking a place and buying things for a party]，所以他们在活动开始以前就已经很累了[they are already tired before the party starts]。跟组织比起来（Compared with…），参加活动轻松多了[taking part is much more relaxing]，所以（So…）我选择只参加[I choose to just take part]。",
     "g": "情绪",
     "p": ["mainly because…", "it's a big responsibility", "For example,…", "Compared with…", "So…"]
   },
@@ -637,7 +637,7 @@ window.P3_ANSWERS = {
     "p": ["mainly because…", "everyone gets busy sometimes", "For example,…", "So…", "there's usually a good reason for it"]
   },
   "new-delayed-reply||Why do some people prefer sending a message instead of making a call?": {
-    "a": "我觉得发消息更轻松[I think texting is more relaxed]，因为人们不用马上回答[they do not have to answer at once]。这主要是因为（mainly because…）如果有人打电话[if someone calls you]，你必须马上接[you have to answer right away]，可是你正在忙的时候会觉得很尴尬[you feel embarrassed]。比如（For example,…）很多人在开会的时候接到电话[a lot of people get a call during a meeting]，他们只能马上挂掉[they have to hang up right away]，所以他们心里很紧张[they feel nervous]。所以（So…）大部分人更喜欢发消息[most people prefer to text]，因为发消息的时候他们没有压力[because they feel no pressure when texting]，他们有空以后再尽快回复（get back to… as soon as I can）。",
+    "a": "我觉得发消息更轻松[I think texting is more relaxed]，因为人们不用马上回答[they do not have to answer at once]。这主要是因为（mainly because…）如果有人打电话[if someone calls you]，你必须马上接[you have to answer right away]，可是你正在忙的时候会觉得很尴尬[you feel embarrassed]。比如（For example,…）很多人在开会的时候接到电话[a lot of people get a call during a meeting]，他们只能马上挂掉[they have to hang up right away]，所以他们心里很紧张[they feel nervous]。所以（So…）大部分人更喜欢发消息[most people prefer to text]，因为发消息的时候他们没有压力[because they feel no stress when texting]，他们有空以后再尽快回复（get back to… as soon as I can）。",
     "g": "情绪",
     "p": ["mainly because…", "For example,…", "So…", "get back to… as soon as I can"]
   },
@@ -757,7 +757,7 @@ window.P3_ANSWERS = {
     "p": ["mainly because…", "a stable income", "For example,…", "As a result,…", "turn to… for help"]
   },
   "new-teamwork||Why do some people prefer to work by themselves?": {
-    "a": "我觉得有一些人习惯一个人做事情[some people are used to doing things on their own]。这主要是因为（mainly because…）他们不用等别人[they do not have to wait for others]，所以他们心里更自在[they feel more free]。比如（For example,…）很多学生喜欢自己写作业[a lot of students like to do their homework on their own]，因为他们可以自己决定什么时候写[they can decide when to do it themselves]，所以他们没有压力[they feel no pressure]。所以（So…）我觉得小的事情自己做就可以[we can do the small things ourselves]，如果他们真的做不完，他们再去找别人帮忙（turn to… for help）。",
+    "a": "我觉得有一些人习惯一个人做事情[some people are used to doing things on their own]。这主要是因为（mainly because…）他们不用等别人[they do not have to wait for others]，所以他们心里更自在[they feel more free]。比如（For example,…）很多学生喜欢自己写作业[a lot of students like to do their homework on their own]，因为他们可以自己决定什么时候写[they can decide when to do it themselves]，所以他们没有压力[they feel no stress]。所以（So…）我觉得小的事情自己做就可以[we can do the small things ourselves]，如果他们真的做不完，他们再去找别人帮忙（turn to… for help）。",
     "g": "情绪",
     "p": ["mainly because…", "For example,…", "So…", "turn to… for help"]
   },
@@ -862,7 +862,7 @@ window.P3_ANSWERS = {
     "p": ["mainly because…", "For example,…", "So…", "make a difference to other people"]
   },
   "new-changed-opinion||Who do most young people like to share opinions with?": {
-    "a": "我觉得年轻人更愿意跟同年龄的朋友说自己的想法[young people prefer to share their ideas with friends of the same age]。主要是因为（mainly because…）朋友的年龄差不多[their friends are around the same age]，他们说话没有压力[they feel no pressure when they talk]，也不怕别人笑话他们[they are not afraid that others will laugh at them]。比如（For example,…）现在很多年轻人有事情的时候[when young people have something going on]，先在手机上跟朋友聊天[a lot of young people chat with their friends on their phones first]。所以（So…）年轻人遇到麻烦的时候[when young people have problems]，他们会先找朋友帮忙（turn to… for help）。",
+    "a": "我觉得年轻人更愿意跟同年龄的朋友说自己的想法[young people prefer to share their ideas with friends of the same age]。主要是因为（mainly because…）朋友的年龄差不多[their friends are around the same age]，他们说话没有压力[they feel no stress when they talk]，也不怕别人笑话他们[they are not afraid that others will laugh at them]。比如（For example,…）现在很多年轻人有事情的时候[when young people have something going on]，先在手机上跟朋友聊天[a lot of young people chat with their friends on their phones first]。所以（So…）年轻人遇到麻烦的时候[when young people have problems]，他们会先找朋友帮忙（turn to… for help）。",
     "g": "关系",
     "p": ["mainly because…", "For example,…", "So…", "turn to… for help"]
   },
@@ -1142,7 +1142,7 @@ window.P3_ANSWERS = {
     "p": ["It depends, but usually…", "because…", "pick something they'll actually use", "For example,…", "Also,…", "So…"]
   },
   "new-friend-gift||Will people feel happy when receiving an expensive gift?": {
-    "a": "不一定（Not really.），我觉得贵的礼物不一定让人开心[expensive gifts do not always make people happy]。因为（because…）礼物太贵，对方会有压力，觉得也要回一个贵的[feels pressure to give back]。比如（For example,…）很多人收到很贵的礼物时反而不太自在[do not feel comfortable]。而且（Also,…）他们收到一个小杯子却很开心，因为那是真的会用的东西（pick something they'll actually use）。所以（So…）心意才是最重要的（it's the thought that counts）。",
+    "a": "不一定（Not really.），我觉得贵的礼物不一定让人开心[expensive gifts do not always make people happy]。因为（because…）礼物太贵，对方会有压力，觉得也要回一个贵的[feels stress and wants to give one back]。比如（For example,…）很多人收到很贵的礼物时反而不太自在[do not feel comfortable]。而且（Also,…）他们收到一个小杯子却很开心，因为那是真的会用的东西（pick something they'll actually use）。所以（So…）心意才是最重要的（it's the thought that counts）。",
     "g": "情绪",
     "p": ["Not really.", "because…", "For example,…", "Also,…", "pick something they'll actually use", "So…", "it's the thought that counts"]
   },
@@ -1392,7 +1392,7 @@ window.P3_ANSWERS = {
     "p": ["I think…", "because…", "For example,…", "Also,…", "So…"]
   },
   "feishu-difficult-success-person||Is it difficult to do business in today's world?": {
-    "a": "是的（Yes, definitely.），现在做生意很难[doing business is very hard today]。因为（because…）竞争很强[the competition is very strong]。比如（For example,…）很多小店老板要不停了解顾客想要什么[a lot of small shop owners keep learning what customers want]。而且（Also,…）房租和材料的价格也很高[also, rent and materials are also expensive]。所以（So…）做生意的人压力很大[so people in business are under a lot of pressure]。",
+    "a": "是的（Yes, definitely.），现在做生意很难[doing business is very hard today]。因为（because…）竞争很强[the competition is very strong]。比如（For example,…）很多小店老板要不停了解顾客想要什么[a lot of small shop owners keep learning what customers want]。而且（Also,…）房租和材料的价格也很高[also, rent and materials are also expensive]。所以（So…）做生意的人压力很大[so people in business are under a lot of stress]。",
     "g": "钱",
     "p": ["Yes, definitely.", "because…", "For example,…", "Also,…", "So…"]
   },
@@ -1679,7 +1679,7 @@ window.P3_ANSWERS = {
     }
   },
   "feishu-difficult-success-person||Is it easy to start up a company?": {
-    "a": "不太容易[Not really.]。即使是一家小企业，也需要资金、计划，以及对顾客需求的清楚了解[Even a small business needs money, planning and a clear idea of what customers want.]。比如，开咖啡馆意味着还不知道会有多少顾客，就得先交房租[For example, opening a cafe means paying rent before knowing how many people will come.]。从小规模开始可以减少压力，但经营者仍然需要耐心，也需要有从错误中学习的能力[Starting on a small scale can reduce the pressure, but the owner still needs patience and the ability to learn from mistakes.]。",
+    "a": "不太容易[Not really.]。即使是一家小企业，也需要资金、计划，以及对顾客需求的清楚了解[Even a small business needs money, planning and a clear idea of what customers want.]。比如，开咖啡馆意味着还不知道会有多少顾客，就得先交房租[For example, opening a cafe means paying rent before knowing how many people will come.]。从小规模开始可以减少压力，但经营者仍然需要耐心，也需要有从错误中学习的能力[Starting on a small scale can reduce the stress, but the owner still needs patience and the ability to learn from mistakes.]。",
     "g": "钱",
     "p": [
       "money, planning",

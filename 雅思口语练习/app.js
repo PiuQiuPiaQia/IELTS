@@ -97,7 +97,7 @@ const PART3_COMPARISON_PHRASES = [
   "cities",
 ];
 const PART3_MATERIAL_PHRASES = {
-  M1: ["unwind", "release pressure", "calm the mind", "calm children", "peaceful moment", "feel calm", "help students relax", "help them relax", "helps them relax", "ease anxiety", "eases mild anxiety", "lift their mood", "lifts their mood", "lift people", "lifts the crowd", "lift children", "lifts my mood", "relaxing experience", "relax"],
+  M1: ["unwind", "relieve daily stress", "calm the mind", "calm children", "peaceful moment", "feel calm", "help students relax", "help them relax", "helps them relax", "ease anxiety", "eases mild anxiety", "lift their mood", "lifts their mood", "lift people", "lifts the crowd", "lift children", "lifts my mood", "relaxing experience", "relax"],
   M2: ["time-saving", "save time", "saves time", "efficient", "convenient", "convenience", "simplifies", "simplify", "reduce waiting", "reduces waiting", "less preparation", "no restrictions on time or location"],
   M3: ["practical", "cost-effective", "affordable", "budget-friendly", "value for money", "fits real needs", "fit their real needs", "fits their real needs", "fits my daily needs", "fits daily needs"],
   M4: ["broaden their horizons", "broadens their horizons", "broaden the helper", "broaden my horizons", "enrich their life experience", "life experience", "gain new knowledge", "gives them new knowledge", "new knowledge", "learn new skills", "learn new language skills", "learn useful skills", "useful skills", "explore new ideas", "explore different things", "open-minded", "personal growth", "helped me grow", "helps them grow"],
@@ -514,7 +514,7 @@ function renderPartOne() {
       <label class="search"><span aria-hidden="true">⌕</span><input id="part1-search" type="search" value="${escapeHtml(state.part1Query)}" placeholder="搜索题目、答案或中文…" autocomplete="off"></label>
       <span class="count" id="part1-count">显示 ${visibleTotal} 题</span>
     </div>
-    <p class="note">答案优先复用「通用句式与短语」里的熟悉表达：先直接回答，再补原因或细节。绿色记忆块按答案顺序串起复述骨架，练习时把它们说成完整句子。个人经历和时长请按实际情况调整。</p>
+    <p class="note">答案优先复用「通用句式与短语」里的熟悉表达：先直接回答，再补一个切题的具体例子或细节，不必每题都说 For example。绿色记忆块按答案顺序串起复述骨架，练习时把它们说成完整句子。例子中的人物、物品、平台、经历和时长是可替换的练习素材，请按实际情况调整。</p>
     <div id="part1-results">${visibleGroups.length ? partOneGroupsHtml(visibleGroups) : '<div class="empty-state">没有找到匹配的题目。</div>'}</div>
     </section>`;
   bindPartOneTabs();
@@ -557,11 +557,16 @@ function materialLabel(material) {
 }
 
 function questionStatusTag(item) {
-  return `<span class="question-status-tag ${item.isNew ? "status-new" : "status-retained"}">${item.isNew ? "新题" : "保留题"}</span>`;
+  const questionTag = `<span class="question-status-tag ${item.isNew ? "status-new" : "status-retained"}">${item.isNew ? "新题" : "保留题"}</span>`;
+  const regionTag = item.isNonMainland
+    ? '<span class="question-status-tag status-non-mainland">非大陆地区</span>'
+    : "";
+  return questionTag + regionTag;
 }
 
 function compareQuestionBankEntries(a, b) {
   return Number(Boolean(b.isNew)) - Number(Boolean(a.isNew)) ||
+    Number(Boolean(a.isNonMainland)) - Number(Boolean(b.isNonMainland)) ||
     (a.sourceOrder ?? Number.POSITIVE_INFINITY) - (b.sourceOrder ?? Number.POSITIVE_INFINITY);
 }
 
@@ -586,7 +591,7 @@ function renderPartTwo() {
     <div class="content-grid">
       <aside class="sidebar" aria-label="通用素材">
         <span class="sidebar-label">选择素材</span>
-        ${materials.map((item) => `<button class="sidebar-button ${item.id === material.id ? "active" : ""}" type="button" data-material-id="${escapeHtml(item.id)}"><strong>${escapeHtml(materialLabel(item))}${partTwoMaterialStatuses(item).map((isNew) => questionStatusTag({ isNew })).join("")}</strong><small>${escapeHtml(item.tipLabel || "通用框架")}</small></button>`).join("")}
+        ${materials.map((item) => `<button class="sidebar-button ${item.id === material.id ? "active" : ""}" type="button" data-material-id="${escapeHtml(item.id)}"><strong>${escapeHtml(materialLabel(item))}${partTwoMaterialStatuses(item).map((isNew) => questionStatusTag({ isNew })).join("")}</strong></button>`).join("")}
       </aside>
       <section class="panel">
         <header class="panel-header">
@@ -637,12 +642,7 @@ function partTwoAnswerAsStoryHtml(item) {
 
 function partTwoEndingsHtml(questions = []) {
   const entries = questions.filter((question) => question.ending);
-  return entries.map((question) => {
-    const ending = question.ending;
-    const heading = entries.length > 1 ? `对应题目：${question.text}` : "最后一问扣题";
-    return `<section class="simple-master-section part2-question-ending">
-      <h3>${escapeHtml(heading)}</h3>
-      <p class="reason-label"><strong>题卡要求：</strong>${escapeHtml(ending.endingLead.cue)}</p>
+  return entries.map(({ ending }) => `<section class="simple-master-section part2-question-ending">
       <p class="simple-master-english"><strong>${escapeHtml(ending.endingLead.text)}</strong></p>
       <p class="translation"><strong>中文：</strong>${escapeHtml(ending.endingLead.translation)}</p>
       <ol class="numbered-list topic-reason-list">
@@ -652,8 +652,7 @@ function partTwoEndingsHtml(questions = []) {
           ${reason.memory ? `<span class="memory-chain reason-memory-chain"><strong>理由中文链</strong>${escapeHtml(reason.memory)}</span>` : ""}
         </li>`).join("")}
       </ol>
-    </section>`;
-  }).join("");
+    </section>`).join("");
 }
 
 function partTwoTipsHtml(tips, universalMaterials = []) {
@@ -661,61 +660,21 @@ function partTwoTipsHtml(tips, universalMaterials = []) {
   const nativeItems = (tips.topicGroups || []).flatMap((group) =>
     group.items.map((item) => ({ group, item }))
   );
-  const itemByQuestion = new Map(nativeItems.map((entry) => [entry.item.question, entry]));
-  // 共用素材可以引用其他素材目录中的原题。
-  for (const material of state.data.part2) {
-    const entries = [
-      ...(material.topics || []).map((item) => ({ group: { title: materialLabel(material) }, item })),
-      ...(material.tips?.topicGroups || []).flatMap((group) => group.items.map((item) => ({ group, item })))
-    ];
-    for (const entry of entries) {
-      if (!itemByQuestion.has(entry.item.question)) itemByQuestion.set(entry.item.question, entry);
-    }
-  }
-  const mergedQuestions = new Set();
-  const mergedStoryCards = (tips.mergedStories || []).flatMap((story) => {
-    const questions = (story.questions || []).map((value) => {
-      const meta = typeof value === "string" ? { question: value } : value;
-      const entry = itemByQuestion.get(meta.question);
-      return entry ? { ...entry.item, special: meta.special || "" } : null;
-    }).filter(Boolean).sort(compareQuestionBankEntries);
-    if (!questions.length) return [];
-    questions.forEach((item) => mergedQuestions.add(item.question));
-    const baseEntry = itemByQuestion.get(story.baseQuestion) || itemByQuestion.get(questions[0].question);
-    // 同一故事的两类题分开列出，保证所有新题先于保留题。
-    return [true, false].flatMap((isNew) => {
-      const matching = questions.filter((item) => item.isNew === isNew);
-      if (!matching.length) return [];
-      return [{
-        isNew,
-        sourceOrder: matching[0].sourceOrder,
-        title: story.title || baseEntry.group.title,
-        questions: matching.map((item) => ({ text: item.question, special: item.special, isNew, ending: item.ending })),
-        item: {
-          ...baseEntry.item,
-          draftCues: story.draftCues || baseEntry.item.draftCues,
-          focus: story.focus || baseEntry.item.focus,
-          omit: story.omit || baseEntry.item.omit,
-          body: story.body || baseEntry.item.body,
-          memoryChain: story.memoryChain || baseEntry.item.memoryChain,
-          reasons: story.reasons || baseEntry.item.reasons,
-          pointsLabel: story.pointsLabel || "可选理由 / 结尾点",
-          reasonHint: story.reasonHint ?? baseEntry.item.reasonHint
-        },
-        merged: true
-      }];
-    });
-  });
-  const singleStoryCards = nativeItems.filter(({ item }) => !mergedQuestions.has(item.question))
-    .map(({ group, item }) => ({
-      isNew: item.isNew,
-      sourceOrder: item.sourceOrder,
-      title: item.storyTitle || item.name || group.title,
-      questions: [{ text: item.question, special: "", isNew: item.isNew, ending: item.ending }],
-      item,
-      merged: false
-    }));
-  const storyCards = [...mergedStoryCards, ...singleStoryCards].sort(compareQuestionBankEntries);
+  // 同素材互链可以跨素材目录（例如雷军串人物页和事件页），所以标签表要覆盖全部 Part 2 题目。
+  const allPartTwoItems = state.data.part2.flatMap((material) =>
+    (material.tips?.topicGroups || []).flatMap((group) => group.items)
+  );
+  const labelByQuestion = new Map(allPartTwoItems.map((item) =>
+    [item.question, item.name || item.storyTitle || item.question]
+  ));
+  const storyCards = nativeItems.map(({ group, item }) => ({
+    isNew: item.isNew,
+    sourceOrder: item.sourceOrder,
+    title: item.name || item.storyTitle || item.question,
+    group,
+    item,
+    linked: (item.linked || []).map((question) => labelByQuestion.get(question)).filter(Boolean)
+  })).sort(compareQuestionBankEntries);
   const techniqueHtml = tips.techniques?.length ? `<div class="note">
     <strong>Part 2 · 最后一问技巧</strong><br>
     前面先正常覆盖题卡信息；最后一问用 <strong>As for...</strong> 扣题，再按问法选择一种：<br>
@@ -741,36 +700,29 @@ function partTwoTipsHtml(tips, universalMaterials = []) {
     </article>` : "";
   const topicGroupsHtml = storyCards.length ? `
     <div class="section-heading">
-      <h2>素材卡片</h2>
-      <p>一张卡只背一条故事；最后一问按对应题目，用 As for... 接三点简单展开。</p>
+      <h2>逐题卡片</h2>
+      <p>一题一张卡：先看题卡小问，再背对应故事和理由；共用同一素材的题在卡片上互链，方便串题。</p>
     </div>
     <div class="topic-guide-groups">
-      ${storyCards.map(({ title, questions, item, merged }) => `<article class="card topic-guide-group story-material-card">
-        <h3>${escapeHtml(title)}</h3>
-        <p class="story-card-label">这些题目可以用这个素材</p>
-        <ol class="story-question-list">
-          ${questions.map((question) => `<li><span class="story-question-text">${escapeHtml(question.text)}${questionStatusTag(question)}</span>${question.special ? `<span class="story-question-special"><strong>只改：</strong>${escapeHtml(question.special)}</span>` : ""}</li>`).join("")}
-        </ol>
-        <section class="simple-master-section topic-guide-item">
-          ${item.cuePoints?.length ? `<ul class="numbered-list">${item.cuePoints.map((point, index) => `<li>${escapeHtml(point)}${item.cueTranslations?.[index] ? `<span class="memory-chain">${escapeHtml(item.cueTranslations[index])}</span>` : ""}</li>`).join("")}</ul>` : ""}
-          ${item.draftCues?.length ? `<p class="simple-master-cues"><strong>${merged ? "公共草稿" : "核心草稿"}：</strong>${item.draftCues.map(escapeHtml).join(" · ")}</p>` : ""}
-          ${(item.focus || item.omit) ? `<div class="meta-grid">
-            ${item.focus ? `<div class="meta-box"><span>扣题重点</span><strong>${escapeHtml(item.focus)}</strong></div>` : ""}
-            ${item.omit ? `<div class="meta-box"><span>可以省略</span><strong>${escapeHtml(item.omit)}</strong></div>` : ""}
-          </div>` : ""}
-          ${item.body?.text ? `
-            <div class="topic-guide-body"><strong>这个素材的故事：</strong>${partTwoStoryHtml(item.body.text, item.body.highlights, item.body.paragraphStarts)}</div>
-            ${item.body.translation ? `<p class="translation"><strong>中文：</strong>${escapeHtml(item.body.translation)}</p>` : ""}
-            ${item.memoryChain?.story ? `<p class="memory-chain story-memory-chain"><strong>故事中文链</strong>${escapeHtml(item.memoryChain.story)}</p>` : ""}
-            ${questions.some((question) => question.ending) ? partTwoEndingsHtml(questions) : (item.reasons?.length ? `<p class="reason-label"><strong>${escapeHtml(item.pointsLabel || "可选理由 / 结尾点")}${merged && item.reasonHint !== false ? "（按题目选 3 条）" : ""}：</strong></p>
-              <ol class="numbered-list topic-reason-list">
-                ${item.reasons.map((reason, reasonIndex) => {
-                  const reasonMemory = reason.memory || item.memoryChain?.reasons?.[reasonIndex];
-                  return `<li>${highlight(reason.text, reason.highlights)}${reasonMemory ? `<span class="memory-chain reason-memory-chain"><strong>理由中文链</strong>${escapeHtml(reasonMemory)}</span>` : ""}</li>`;
-                }).join("")}
-              </ol>` : "")}
-          ` : (item.answer?.length ? partTwoAnswerAsStoryHtml(item) : "")}
-        </section>
+      ${storyCards.map(({ title, group, item, linked }) => `<article class="card topic-guide-group story-material-card">
+        <h3>${escapeHtml(title)}${questionStatusTag(item)}</h3>
+        <p class="story-card-group">素材线：${escapeHtml(group.title)}${group.note ? ` · ${escapeHtml(group.note)}` : ""}</p>
+        ${item.fit && item.fit !== "新题" ? `<span class="badge">${escapeHtml(item.fit)}</span>` : ""}
+        ${title !== item.question ? `<p class="question">${escapeHtml(item.question)}</p>` : ""}
+        ${linked.length ? `<p class="story-card-linked"><strong>同素材可串：</strong>${linked.map(escapeHtml).join("、")}</p>` : ""}
+        ${item.cuePoints?.length ? `<ul class="numbered-list">${item.cuePoints.map((point, index) => `<li>${escapeHtml(point)}${item.cueTranslations?.[index] ? `<span class="memory-chain">${escapeHtml(item.cueTranslations[index])}</span>` : ""}</li>`).join("")}</ul>` : ""}
+        ${item.body?.text ? `
+          <div class="topic-guide-body"><strong>对应故事：</strong>${partTwoStoryHtml(item.body.text, item.body.highlights, item.body.paragraphStarts)}</div>
+          ${item.body.translation ? `<p class="translation"><strong>中文：</strong>${escapeHtml(item.body.translation)}</p>` : ""}
+          ${item.memoryChain?.story ? `<p class="memory-chain story-memory-chain"><strong>故事中文链</strong>${escapeHtml(item.memoryChain.story)}</p>` : ""}
+          ${item.ending ? partTwoEndingsHtml([{ text: item.question, ending: item.ending }]) : (item.reasons?.length ? `<p class="reason-label"><strong>${escapeHtml(item.pointsLabel || "可选理由 / 结尾点")}：</strong></p>
+            <ol class="numbered-list topic-reason-list">
+              ${item.reasons.map((reason, reasonIndex) => {
+                const reasonMemory = reason.memory || item.memoryChain?.reasons?.[reasonIndex];
+                return `<li>${highlight(reason.text, reason.highlights)}${reasonMemory ? `<span class="memory-chain reason-memory-chain"><strong>理由中文链</strong>${escapeHtml(reasonMemory)}</span>` : ""}</li>`;
+              }).join("")}
+            </ol>` : "")}
+        ` : (item.answer?.length ? partTwoAnswerAsStoryHtml(item) : '<p class="empty-state">这道题暂时没有完整答案。</p>')}
       </article>`).join("")}
     </div>` : "";
   const universalMaterialMap = new Map(universalMaterials.map((item) => [item.code, item]));
