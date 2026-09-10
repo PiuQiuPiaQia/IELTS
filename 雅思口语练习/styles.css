@@ -200,6 +200,8 @@ p.part2-story-paragraph { margin: 0; }
 .topic-reason-list { color: #27463e; line-height: 1.65; }
 .memory-chain { display: block; margin-top: 7px; padding: 7px 10px; border-radius: 9px; background: #fff8e8; color: #6f592c; font-size: 13px; line-height: 1.65; }
 .memory-chain strong { margin-right: 7px; font-size: 12px; }
+.cue-reason-list { margin: 5px 0 0; padding-left: 18px; color: #8a6d3b; font-size: 12px; line-height: 1.7; }
+.cue-reason-list li + li { margin-top: 2px; }
 .story-memory-chain { margin-top: 9px; }
 .reason-memory-chain { font-weight: 500; }
 .draft-cues { display: flex; flex-wrap: wrap; align-items: center; gap: 7px; margin-top: 13px; }

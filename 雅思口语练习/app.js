@@ -675,12 +675,6 @@ function partTwoTipsHtml(tips, universalMaterials = []) {
     item,
     linked: (item.linked || []).map((question) => labelByQuestion.get(question)).filter(Boolean)
   })).sort(compareQuestionBankEntries);
-  const techniqueHtml = tips.techniques?.length ? `<div class="note">
-    <strong>Part 2 · 最后一问技巧</strong><br>
-    前面先正常覆盖题卡信息；最后一问用 <strong>As for...</strong> 扣题，再按问法选择一种：<br>
-    ${tips.techniques.map((technique) => `${escapeHtml(technique.title)}（${escapeHtml(technique.when)}）：${technique.steps.map(escapeHtml).join(" → ")}`).join("<br>")}
-    ${tips.reasonIdeas?.length ? `<br>地点类使用三原因：${tips.reasonIdeas.map(escapeHtml).join(" → ")}` : ""}
-  </div>` : "";
   const sectionHtml = section?.answerSections?.length ? `
     <div class="section-heading">
       <h2>母版</h2>
@@ -701,7 +695,7 @@ function partTwoTipsHtml(tips, universalMaterials = []) {
   const topicGroupsHtml = storyCards.length ? `
     <div class="section-heading">
       <h2>逐题卡片</h2>
-      <p>一题一张卡：先看题卡小问，再背对应故事和理由；共用同一素材的题在卡片上互链，方便串题。</p>
+      <p>一题一张卡：先看题卡小问，再背对应故事；共用同一素材的题在卡片上互链，方便串题。</p>
     </div>
     <div class="topic-guide-groups">
       ${storyCards.map(({ title, group, item, linked }) => `<article class="card topic-guide-group story-material-card">
@@ -710,46 +704,26 @@ function partTwoTipsHtml(tips, universalMaterials = []) {
         ${item.fit && item.fit !== "新题" ? `<span class="badge">${escapeHtml(item.fit)}</span>` : ""}
         ${title !== item.question ? `<p class="question">${escapeHtml(item.question)}</p>` : ""}
         ${linked.length ? `<p class="story-card-linked"><strong>同素材可串：</strong>${linked.map(escapeHtml).join("、")}</p>` : ""}
-        ${item.cuePoints?.length ? `<ul class="numbered-list">${item.cuePoints.map((point, index) => `<li>${escapeHtml(point)}${item.cueTranslations?.[index] ? `<span class="memory-chain">${escapeHtml(item.cueTranslations[index])}</span>` : ""}</li>`).join("")}</ul>` : ""}
+        ${item.cuePoints?.length ? `<ul class="numbered-list">${item.cuePoints.map((point, index) => {
+          const isLast = index === item.cuePoints.length - 1;
+          const lines = isLast && item.ending?.reasons?.length
+            ? item.ending.reasons.map((reason) => reason.memory || reason.text)
+            : String(item.cuePointsNotes?.[index] || "").split("；").map((line) => line.trim()).filter(Boolean);
+          const answers = lines.length ? `<ul class="cue-reason-list">${lines.map((line) => `<li>${escapeHtml(line)}</li>`).join("")}</ul>` : "";
+          return `<li>${escapeHtml(point)}${item.cueTranslations?.[index] ? `<span class="memory-chain">${escapeHtml(item.cueTranslations[index])}</span>` : ""}${answers}</li>`;
+        }).join("")}</ul>` : ""}
         ${item.body?.text ? `
           <div class="topic-guide-body"><strong>对应故事：</strong>${partTwoStoryHtml(item.body.text, item.body.highlights, item.body.paragraphStarts)}</div>
           ${item.body.translation ? `<p class="translation"><strong>中文：</strong>${escapeHtml(item.body.translation)}</p>` : ""}
           ${item.memoryChain?.story ? `<p class="memory-chain story-memory-chain"><strong>故事中文链</strong>${escapeHtml(item.memoryChain.story)}</p>` : ""}
-          ${item.ending ? partTwoEndingsHtml([{ text: item.question, ending: item.ending }]) : (item.reasons?.length ? `<p class="reason-label"><strong>${escapeHtml(item.pointsLabel || "可选理由 / 结尾点")}：</strong></p>
-            <ol class="numbered-list topic-reason-list">
-              ${item.reasons.map((reason, reasonIndex) => {
-                const reasonMemory = reason.memory || item.memoryChain?.reasons?.[reasonIndex];
-                return `<li>${highlight(reason.text, reason.highlights)}${reasonMemory ? `<span class="memory-chain reason-memory-chain"><strong>理由中文链</strong>${escapeHtml(reasonMemory)}</span>` : ""}</li>`;
-              }).join("")}
-            </ol>` : "")}
+          ${item.ending ? partTwoEndingsHtml([{ text: item.question, ending: item.ending }]) : ""}
         ` : (item.answer?.length ? partTwoAnswerAsStoryHtml(item) : '<p class="empty-state">这道题暂时没有完整答案。</p>')}
       </article>`).join("")}
     </div>` : "";
-  const universalMaterialMap = new Map(universalMaterials.map((item) => [item.code, item]));
-  const materialsHtml = tips.materialUses?.length ? `
-    <div class="section-heading">
-      <h2>最后一问</h2>
-    </div>
-    <article class="card simple-master">
-      <p class="translation">只保留自然适配的素材，每道题选择一组即可。</p>
-      ${tips.materialUses.map((usage) => {
-        const item = universalMaterialMap.get(usage.code);
-        if (!item) return "";
-        return `<section class="simple-master-section">
-          <h3>${escapeHtml(item.code)} · ${escapeHtml(item.title)}</h3>
-          <p class="simple-master-cues"><strong>适用：</strong>${escapeHtml(usage.reason)}</p>
-          <p><strong>${escapeHtml(tips.usageLabel || "怎么套")}：</strong>${escapeHtml(usage.use)}</p>
-          <p class="simple-master-english">${highlight(item.paragraph, item.highlights)}</p>
-          <p class="translation"><strong>中文逻辑：</strong>${escapeHtml(item.chineseIdea)}</p>
-        </section>`;
-      }).join("")}
-    </article>` : "";
   return `
     <div class="card-list">
-      ${techniqueHtml}
       ${sectionHtml}
       ${topicGroupsHtml}
-      ${materialsHtml}
       ${tips.reminder ? `<div class="note"><strong>提醒：</strong>${escapeHtml(tips.reminder)}</div>` : ""}
     </div>`;
 }
