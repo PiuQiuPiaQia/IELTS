@@ -132,6 +132,23 @@ function highlight(text, phrases = []) {
   return safeText.replace(pattern, "<mark>$1</mark>");
 }
 
+function partTwoStoryHtml(text, phrases = [], paragraphStarts = []) {
+  const opening = text.match(/^.*?But the first one that comes to my mind would be [^.!?]+[.!?]/s)?.[0];
+  const boundaries = new Set([0, text.length]);
+  if (opening) boundaries.add(opening.length);
+  for (const start of paragraphStarts) {
+    const index = text.indexOf(start, opening?.length || 0);
+    if (index > 0) boundaries.add(index);
+  }
+  const offsets = [...boundaries].sort((a, b) => a - b);
+  return offsets.slice(0, -1).map((start, index) => text.slice(start, offsets[index + 1]).trim())
+    .filter(Boolean)
+    .map((paragraph) => {
+      const content = highlight(paragraph, phrases);
+      return `<p class="part2-story-paragraph">${paragraph === opening ? `<span class="part2-opening">${content}</span>` : content}</p>`;
+    }).join("");
+}
+
 function partThreeHighlightPhrases(item) {
   const phrases = item.comparison ? [...PART3_COMPARISON_PHRASES] : [];
   for (const code of item.materials || []) phrases.push(...(PART3_MATERIAL_PHRASES[code] || []));
@@ -614,7 +631,7 @@ function partTwoAnswerAsStoryHtml(item) {
   const translation = lines.map((line) => line.translation).filter(Boolean).join("");
   return `
     ${item.answerNote ? `<p class="translation">${escapeHtml(item.answerNote)}</p>` : ""}
-    <p class="topic-guide-body"><strong>这个素材的故事：</strong>${highlight(english, item.keys || [])}</p>
+    <div class="topic-guide-body"><strong>这个素材的故事：</strong>${partTwoStoryHtml(english, item.keys || [], lines.slice(1).map((line) => line.text))}</div>
     ${translation ? `<p class="memory-chain story-memory-chain"><strong>中文参考</strong>${escapeHtml(translation)}</p>` : ""}`;
 }
 
@@ -696,7 +713,7 @@ function partTwoTipsHtml(tips, universalMaterials = []) {
           <h3>${String(index + 1).padStart(2, "0")} · ${escapeHtml(answerSection.title)}</h3>
           ${draftCues.length ? `<p class="simple-master-cues"><strong>草稿：</strong>${draftCues.map(escapeHtml).join(" · ")}</p>` : ""}
           ${answerSection.lead ? `<p class="simple-master-english">${escapeHtml(answerSection.lead)}</p>` : ""}
-          <p class="simple-master-english">${highlight(answerSection.english, answerSection.keywords)}</p>
+          <div class="simple-master-english">${partTwoStoryHtml(answerSection.english, answerSection.keywords, answerSection.paragraphStarts)}</div>
           <p class="translation"><strong>中文：</strong>${escapeHtml(answerSection.translation)}</p>
         </section>`;
       }).join("")}
@@ -721,7 +738,7 @@ function partTwoTipsHtml(tips, universalMaterials = []) {
             ${item.omit ? `<div class="meta-box"><span>可以省略</span><strong>${escapeHtml(item.omit)}</strong></div>` : ""}
           </div>` : ""}
           ${item.body?.text ? `
-            <p class="topic-guide-body"><strong>这个素材的故事：</strong>${highlight(item.body.text, item.body.highlights)}</p>
+            <div class="topic-guide-body"><strong>这个素材的故事：</strong>${partTwoStoryHtml(item.body.text, item.body.highlights, item.body.paragraphStarts)}</div>
             ${item.body.translation ? `<p class="translation"><strong>中文：</strong>${escapeHtml(item.body.translation)}</p>` : ""}
             ${item.memoryChain?.story ? `<p class="memory-chain story-memory-chain"><strong>故事中文链</strong>${escapeHtml(item.memoryChain.story)}</p>` : ""}
             ${item.reasons?.length ? `<p class="reason-label"><strong>${escapeHtml(item.pointsLabel || "可选理由 / 结尾点")}${merged && item.reasonHint !== false ? "（按题目选 3 条）" : ""}：</strong></p>
@@ -813,7 +830,7 @@ function partTwoTopicHtml(topic, { showFramework = true } = {}) {
     ${showFramework && topic.framework?.length ? `<h3>答题框架</h3><ol class="numbered-list">${topic.framework.map((line) => `<li>${escapeHtml(line)}</li>`).join("")}</ol>` : ""}
     ${topic.body?.text ? `
     <div class="group-title section-heading"><div><h2>完整参考答案</h2><p>先背整段故事，再用「故事中文链」恢复；结尾理由按题目选 3 条即可。</p></div></div>
-    <p class="topic-guide-body">${highlight(topic.body.text, topic.body.highlights)}</p>
+    <div class="topic-guide-body">${partTwoStoryHtml(topic.body.text, topic.body.highlights, topic.body.paragraphStarts)}</div>
     ${topic.body.translation ? `<p class="translation"><strong>中文：</strong>${escapeHtml(topic.body.translation)}</p>` : ""}
     ${topic.memoryChain?.story ? `<p class="memory-chain story-memory-chain"><strong>故事中文链</strong>${escapeHtml(topic.memoryChain.story)}</p>` : ""}
     ${topic.reasons?.length ? `<p class="reason-label"><strong>${escapeHtml(topic.pointsLabel || "可选理由 / 结尾点")}：</strong></p>

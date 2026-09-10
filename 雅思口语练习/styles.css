@@ -187,6 +187,9 @@ main { width: min(1360px, calc(100% - 32px)); min-height: calc(100vh - 72px); ma
 .story-question-special strong { color: #6f592c; }
 .story-material-card .topic-guide-item { margin-top: 13px; padding-top: 14px; }
 .topic-guide-body { margin-top: 13px; color: #27463e; line-height: 1.8; }
+.part2-opening { text-decoration: underline; text-underline-offset: 3px; }
+p.part2-story-paragraph { margin: 0; }
+.part2-story-paragraph + .part2-story-paragraph { margin-top: 10px; }
 .topic-guide-body > strong { display: block; margin-bottom: 4px; color: var(--muted); font-size: 12px; }
 .reason-label { margin-top: 11px; color: var(--muted); font-size: 12px; }
 .topic-reason-list { color: #27463e; line-height: 1.65; }
