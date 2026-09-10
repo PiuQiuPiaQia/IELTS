@@ -2,7 +2,7 @@ const http = require("http");
 const fs = require("fs");
 const path = require("path");
 
-const ROOT = path.join(__dirname, "雅思口语练习");
+const ROOT = __dirname;
 const PORT = process.env.PORT ? Number(process.env.PORT) : 4821;
 
 const TYPES = {
@@ -16,24 +16,68 @@ const TYPES = {
   ".ico": "image/x-icon"
 };
 
+function sendDirectoryIndex(res) {
+  const links = [
+    ["雅思口语练习", "/雅思口语练习/"],
+    ["雅思批改作文", "/雅思批改作文/"]
+  ];
+  const body = links.map(([label, href]) => `<li><a href="${href}">${label}</a></li>`).join("");
+  res.writeHead(200, { "Content-Type": "text/html; charset=utf-8" });
+  res.end(`<!doctype html><meta charset="utf-8"><title>IELTS 本地预览</title><h1>IELTS 本地预览</h1><ul>${body}</ul>`);
+}
+
 http
   .createServer((req, res) => {
-    let urlPath = decodeURIComponent((req.url || "/").split("?")[0]);
-    if (urlPath === "/") urlPath = "/index.html";
-    const filePath = path.join(ROOT, urlPath);
-    if (!filePath.startsWith(ROOT)) {
+    let urlPath;
+    try {
+      urlPath = decodeURIComponent((req.url || "/").split("?")[0]);
+    } catch {
+      res.writeHead(400);
+      res.end("Bad request");
+      return;
+    }
+
+    const requestedPath = urlPath === "/" ? "/" : urlPath;
+    const filePath = path.resolve(ROOT, `.${requestedPath}`);
+    const relativePath = path.relative(ROOT, filePath);
+    if (relativePath.startsWith("..") || path.isAbsolute(relativePath)) {
       res.writeHead(403);
       res.end("Forbidden");
       return;
     }
-    fs.readFile(filePath, (err, data) => {
-      if (err) {
+
+    fs.stat(filePath, (statError, stats) => {
+      if (statError) {
         res.writeHead(404);
         res.end("Not found");
         return;
       }
-      res.writeHead(200, { "Content-Type": TYPES[path.extname(filePath)] || "application/octet-stream" });
-      res.end(data);
+      if (stats.isDirectory()) {
+        if (requestedPath === "/") {
+          sendDirectoryIndex(res);
+          return;
+        }
+        const indexPath = path.join(filePath, "index.html");
+        fs.readFile(indexPath, (indexError, data) => {
+          if (indexError) {
+            res.writeHead(404);
+            res.end("Not found");
+            return;
+          }
+          res.writeHead(200, { "Content-Type": TYPES[".html"] });
+          res.end(data);
+        });
+        return;
+      }
+      fs.readFile(filePath, (readError, data) => {
+        if (readError) {
+          res.writeHead(404);
+          res.end("Not found");
+          return;
+        }
+        res.writeHead(200, { "Content-Type": TYPES[path.extname(filePath)] || "application/octet-stream" });
+        res.end(data);
+      });
     });
   })
   .listen(PORT, () => console.log(`serving ${ROOT} on http://localhost:${PORT}`));
