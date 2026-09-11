@@ -3189,9 +3189,9 @@ window.IELTS_DATA = {
                     "easy to talk to"
                   ],
                   "paragraphStarts": [
-                    "I suggested taking a short walk",
-                    "The difficult part",
-                    "After a few weeks"
+                    "We have worked in the same",
+                    "At first, we walked for ten",
+                    "Sometimes he wanted to skip it"
                   ]
                 },
                 "sourceOrder": 1,
@@ -3294,9 +3294,9 @@ window.IELTS_DATA = {
                     "feel respected and supported"
                   ],
                   "paragraphStarts": [
-                    "For example,",
-                    "He is also kind to new staff.",
-                    "I think he is popular"
+                    "We have worked together for about",
+                    "For example, when I had trouble",
+                    "I think he is popular because"
                   ]
                 },
                 "sourceOrder": 2,
@@ -3406,9 +3406,10 @@ window.IELTS_DATA = {
                     "helped young players in China"
                   ],
                   "paragraphStarts": [
-                    "I first learned about him",
-                    "I have never met him in person",
-                    "As for his achievements"
+                    "He is a former Chinese basketball",
+                    "He is very tall, and he",
+                    "To be honest, he sounds like",
+                    "In 2016, he entered the Basketball"
                   ]
                 },
                 "sourceOrder": 3,
@@ -3515,8 +3516,9 @@ window.IELTS_DATA = {
                     "a simple children's song about animals"
                   ],
                   "paragraphStarts": [
-                    "However, he played the song",
-                    "In the end, our class"
+                    "He was a foreign English teacher",
+                    "At first, I was nervous because",
+                    "In the end, our class sang"
                   ]
                 },
                 "memoryChain": {
@@ -3670,9 +3672,9 @@ window.IELTS_DATA = {
                     "museum tour"
                   ],
                   "paragraphStarts": [
-                    "Later, he decided to learn Japanese",
-                    "However, Japanese was difficult",
-                    "In the end, he could"
+                    "We sat in the same class",
+                    "He often shares interesting stories with",
+                    "Later, he decided to learn Japanese"
                   ]
                 },
                 "memoryChain": {
@@ -3856,9 +3858,9 @@ window.IELTS_DATA = {
                     "photos of the sky"
                   ],
                   "paragraphStarts": [
-                    "She has liked photography since then",
-                    "She usually takes photos with her phone",
-                    "During our trip to Shanghai"
+                    "I still remember clearly that we",
+                    "She also takes photos of the",
+                    "Later, she chose a few pictures"
                   ],
                   "translation": "嗯，我身边很多人都喜欢拍照。但我首先想到的是我女朋友。我现在还很清楚地记得，我们大约十年前在大学认识的。我们当时在同一个学习小组，很快就成了好朋友。她从那时候起就喜欢摄影。现在她是一名工程师，但空闲时间她喜欢旅行，也喜欢刷社交媒体看好看的照片。她通常用手机拍照，因为手机轻便好带。我们旅行时、逛公园时，甚至尝新食物时她都会拍。上次去上海旅行，她拍了江景、高楼和我们的晚餐，还请一位热心的游客帮我们拍了合照。后来她挑了几张照片，分享给我们的家人。"
                 },
@@ -4014,8 +4016,9 @@ window.IELTS_DATA = {
                     "a small car and a pencil holder"
                   ],
                   "paragraphStarts": [
-                    "However, the roof fell off",
-                    "In the end, the house"
+                    "We have known each other for",
+                    "However, the roof fell off because",
+                    "In the end, the house looked"
                   ]
                 },
                 "memoryChain": {
@@ -4220,9 +4223,9 @@ window.IELTS_DATA = {
                     "know him quite well"
                   ],
                   "paragraphStarts": [
-                    "At first, pronunciation",
-                    "However, he did not give up.",
-                    "Several months later,"
+                    "I first met him on the",
+                    "At first, it was hard for",
+                    "Several months later, he could hold"
                   ]
                 },
                 "cuePointsNotes": [
@@ -4270,9 +4273,9 @@ window.IELTS_DATA = {
                     "know him quite well"
                   ],
                   "paragraphStarts": [
-                    "At first, pronunciation",
-                    "However, he did not give up.",
-                    "Several months later,"
+                    "I first met him on the",
+                    "At first, it was hard for",
+                    "Several months later, he could hold"
                   ]
                 },
                 "draftCues": [
@@ -4403,8 +4406,9 @@ window.IELTS_DATA = {
                     "about twenty minutes every evening"
                   ],
                   "paragraphStarts": [
-                    "He decided to learn Japanese",
-                    "Several months later,"
+                    "I first met him on the",
+                    "He decided to learn Japanese because",
+                    "Several months later, he could have"
                   ]
                 },
                 "draftCues": [
@@ -4536,9 +4540,9 @@ window.IELTS_DATA = {
                     "a children's hospital"
                   ],
                   "paragraphStarts": [
-                    "One day in high school,",
-                    "During the holidays,",
-                    "Now he is studying"
+                    "I first met him on the",
+                    "One day in high school, he",
+                    "During the holidays, he visited his"
                   ]
                 },
                 "draftCues": [
@@ -4665,8 +4669,10 @@ window.IELTS_DATA = {
                     "several schools"
                   ],
                   "paragraphStarts": [
-                    "He started the business six years ago.",
-                    "However, he worked very hard."
+                    "We met in high school, and",
+                    "He started his business six years",
+                    "At first, he had only a",
+                    "Three years later, the business grew"
                   ]
                 },
                 "draftCues": [
@@ -4793,8 +4799,9 @@ window.IELTS_DATA = {
                     "many local schools"
                   ],
                   "paragraphStarts": [
-                    "At first, he was a junior engineer",
-                    "He worked hard,"
+                    "We have known each other for",
+                    "At first, he was a junior",
+                    "For example, he helped design the"
                   ]
                 },
                 "draftCues": [
@@ -4929,9 +4936,9 @@ window.IELTS_DATA = {
                     "still friends today"
                   ],
                   "paragraphStarts": [
-                    "After school,",
-                    "I still remember one rainy day",
-                    "Although we are both busy now,"
+                    "We met on the first day",
+                    "After school, we often did our",
+                    "I still remember one rainy day"
                   ]
                 },
                 "draftCues": [
@@ -5055,8 +5062,9 @@ window.IELTS_DATA = {
                     "still very active"
                   ],
                   "paragraphStarts": [
-                    "She gets up early",
-                    "In autumn,"
+                    "She lives in the countryside",
+                    "She has a small garden beside",
+                    "In autumn, she picks the vegetables"
                   ]
                 },
                 "draftCues": [
@@ -5240,8 +5248,9 @@ window.IELTS_DATA = {
                     "different colours for work tasks and personal tasks"
                   ],
                   "paragraphStarts": [
-                    "Every morning,",
-                    "I noticed this quality clearly"
+                    "We have worked in the same",
+                    "He puts meetings and deadlines in",
+                    "I noticed this quality clearly during"
                   ]
                 },
                 "pointsLabel": "Why being organized is important to him＋Money / Emotion / Relationship",
@@ -5402,8 +5411,9 @@ window.IELTS_DATA = {
                     "hardly ever complains"
                   ],
                   "paragraphStarts": [
-                    "When she was young,",
-                    "A few years ago,"
+                    "She is retired and lives in",
+                    "She always smiles when we visit",
+                    "A few years ago, she bought"
                   ]
                 },
                 "pointsLabel": "Why she is a happy person · 3 原因",
@@ -5548,8 +5558,9 @@ window.IELTS_DATA = {
                     "young people who want to start their own projects"
                   ],
                   "paragraphStarts": [
-                    "He founded Xiaomi",
-                    "He is also known"
+                    "He is the founder of Xiaomi",
+                    "He also gives money to schools",
+                    "He is also known for his"
                   ]
                 },
                 "pointsLabel": "Why he is popular / how I feel · 3 原因",
@@ -5715,9 +5726,9 @@ window.IELTS_DATA = {
                     "stays calm under pressure"
                   ],
                   "paragraphStarts": [
-                    "At first, my manager",
-                    "However, I was nervous",
-                    "In the end, I relaxed"
+                    "He is the founder of Xiaomi",
+                    "However, I was nervous and spoke",
+                    "In the end, I relaxed and"
                   ]
                 },
                 "memoryChain": {
@@ -5930,9 +5941,8 @@ window.IELTS_DATA = {
                   ],
                   "paragraphStarts": [
                     "I first learned about the river",
-                    "Last spring, I went",
-                    "The water, flowers and small boats",
-                    "I felt relaxed and happy"
+                    "Later, we ate fried fish in",
+                    "I would definitely like to visit"
                   ]
                 },
                 "sourceOrder": 14,
@@ -6039,11 +6049,9 @@ window.IELTS_DATA = {
                     "a tourist area with seats"
                   ],
                   "paragraphStarts": [
-                    "I had seen it",
-                    "It is a very tall",
-                    "We bought tickets",
-                    "We took a few photos",
-                    "I enjoy visiting Shanghai Tower"
+                    "I first saw it in a",
+                    "Inside, there are a lot of",
+                    "I enjoy visiting it because the"
                   ]
                 },
                 "sourceOrder": 15,
@@ -6155,8 +6163,9 @@ window.IELTS_DATA = {
                     "stalls selling xiaolongbao, noodles and sweet drinks"
                   ],
                   "paragraphStarts": [
-                    "However, there were people everywhere",
-                    "In the end, we bought"
+                    "It was beside the river",
+                    "At first, the music and colourful",
+                    "In the end, we bought two"
                   ]
                 },
                 "pointsLabel": "Why it was crowded / how I felt · 对应观点",
@@ -6296,8 +6305,9 @@ window.IELTS_DATA = {
                     "so loud that we had to shout"
                   ],
                   "paragraphStarts": [
-                    "However, there were people everywhere",
-                    "In the end, we bought"
+                    "It was beside the river",
+                    "At first, the music and colourful",
+                    "In the end, we bought two"
                   ]
                 },
                 "pointsLabel": "Why it was noisy · 对应观点",
@@ -6441,8 +6451,10 @@ window.IELTS_DATA = {
                     "the flowers along the path"
                   ],
                   "paragraphStarts": [
-                    "I first visited it",
-                    "Now I go there"
+                    "The water, flowers and small boats",
+                    "In spring, the flowers along the",
+                    "Now I go there once or",
+                    "I enjoy the place because the"
                   ]
                 },
                 "pointsLabel": "Why I enjoy it · 景美、人美、食物美",
@@ -6667,9 +6679,9 @@ window.IELTS_DATA = {
                     "took the metro to the old town"
                   ],
                   "paragraphStarts": [
-                    "At first, we visited",
-                    "However, it rained",
-                    "In the end, we had"
+                    "It is in eastern China",
+                    "However, it rained one afternoon, so",
+                    "I would like to visit Shanghai"
                   ]
                 },
                 "cuePointsNotes": [
@@ -6713,9 +6725,9 @@ window.IELTS_DATA = {
                     "a small hotel near the river"
                   ],
                   "paragraphStarts": [
-                    "Last year, I went there",
-                    "On the first day,",
-                    "At night,"
+                    "It is in eastern China",
+                    "We travelled by high-speed train and",
+                    "At night, the lights beside the"
                   ]
                 },
                 "draftCues": [
@@ -6852,8 +6864,9 @@ window.IELTS_DATA = {
                     "the metro is cheap"
                   ],
                   "paragraphStarts": [
-                    "On the first day,",
-                    "In the evening,"
+                    "It is in eastern China and",
+                    "I went there with my girlfriend",
+                    "Later, we walked along the river"
                   ]
                 },
                 "draftCues": [
@@ -6985,8 +6998,9 @@ window.IELTS_DATA = {
                     "take photos from the top floor"
                   ],
                   "paragraphStarts": [
-                    "I plan to go there",
-                    "Before the trip,"
+                    "It is in eastern China",
+                    "I first became interested in it",
+                    "I plan to go there with"
                   ]
                 },
                 "draftCues": [
@@ -7119,8 +7133,9 @@ window.IELTS_DATA = {
                     "nothing special to buy"
                   ],
                   "paragraphStarts": [
-                    "At first, we went",
-                    "However, I did not enjoy"
+                    "I visited it with my girlfriend",
+                    "We went to the Shanghai Tower",
+                    "However, I gradually felt bored, and"
                   ]
                 },
                 "draftCues": [
@@ -7252,8 +7267,9 @@ window.IELTS_DATA = {
                     "keeps a few chickens"
                   ],
                   "paragraphStarts": [
-                    "In the morning,",
-                    "At night,"
+                    "It is a traditional one-floor house",
+                    "She also keeps a few chickens",
+                    "However, the buses are not frequent"
                   ]
                 },
                 "draftCues": [
@@ -7382,8 +7398,9 @@ window.IELTS_DATA = {
                     "gives water to farms and parks"
                   ],
                   "paragraphStarts": [
-                    "Last spring, I visited",
-                    "In the end, I understood"
+                    "It is in Beijing",
+                    "My teacher said it was about",
+                    "Later, we ate fried fish in"
                   ]
                 },
                 "draftCues": [
@@ -7583,9 +7600,9 @@ window.IELTS_DATA = {
                     "still boring"
                   ],
                   "paragraphStarts": [
-                    "The story was about",
-                    "However, the story was too slow",
-                    "In the end, I felt"
+                    "I watched it at home last",
+                    "At first, we expected a warm",
+                    "In the end, I felt bored"
                   ]
                 },
                 "memoryChain": {
@@ -7711,9 +7728,9 @@ window.IELTS_DATA = {
                     "after work to relax"
                   ],
                   "paragraphStarts": [
+                    "I usually watch films after work",
                     "I sent it to my girlfriend",
-                    "However, after they left,",
-                    "In the end, I went"
+                    "In the end, I went to"
                   ]
                 },
                 "pointsLabel": "Why watching too many movies wastes time · 4 个观点",
@@ -7850,8 +7867,9 @@ window.IELTS_DATA = {
                     "simple evening"
                   ],
                   "paragraphStarts": [
-                    "I sent it to my girlfriend",
-                    "After the movie,"
+                    "It was last Saturday",
+                    "We sat in the living room",
+                    "It was a simple evening, but"
                   ]
                 },
                 "pointsLabel": "Why the movie evening was enjoyable · 4 个观点",
@@ -7978,8 +7996,9 @@ window.IELTS_DATA = {
                     "cleaner streets"
                   ],
                   "paragraphStarts": [
-                    "People should follow it",
-                    "Local residents would have"
+                    "Anyone who broke it would have",
+                    "Rubbish can smell bad, attract insects",
+                    "I would be happy to see"
                   ]
                 },
                 "draftCues": [
@@ -8103,8 +8122,9 @@ window.IELTS_DATA = {
                     "most people used them"
                   ],
                   "paragraphStarts": [
-                    "During my trip,",
-                    "Everyone benefits from this law,"
+                    "I first learned about it when",
+                    "A local person told me that",
+                    "Everyone benefits from this law, especially"
                   ]
                 },
                 "draftCues": [
@@ -8227,8 +8247,10 @@ window.IELTS_DATA = {
                     "follow the law myself"
                   ],
                   "paragraphStarts": [
-                    "I got this idea",
-                    "If my country introduced this law,"
+                    "Anyone who broke it would have",
+                    "If my country introduced this law",
+                    "I got this idea when I",
+                    "I would follow the law myself"
                   ]
                 },
                 "draftCues": [
@@ -8361,8 +8383,9 @@ window.IELTS_DATA = {
                     "steady progress"
                   ],
                   "paragraphStarts": [
-                    "At first, I only",
-                    "Three years ago,"
+                    "I have had this goal for",
+                    "Since then, I have learned new",
+                    "My plan is to finish a"
                   ]
                 },
                 "draftCues": [
@@ -8489,8 +8512,9 @@ window.IELTS_DATA = {
                     "lead one more project"
                   ],
                   "paragraphStarts": [
-                    "Since then,",
-                    "Last month,"
+                    "I first had this ambition six",
+                    "Since then, I have worked hard",
+                    "Last month, I led a small"
                   ]
                 },
                 "draftCues": [
@@ -8622,9 +8646,9 @@ window.IELTS_DATA = {
                     "full of flavour"
                   ],
                   "paragraphStarts": [
-                    "Making them is not very difficult.",
-                    "Then we put",
-                    "When all the dumplings"
+                    "Chinese people often eat them during",
+                    "At first, we mix water and",
+                    "When all the dumplings are ready"
                   ]
                 },
                 "draftCues": [
@@ -8748,9 +8772,9 @@ window.IELTS_DATA = {
                     "not as perfect as one from a shop"
                   ],
                   "paragraphStarts": [
-                    "When I arrived,",
-                    "Li Hua told me",
-                    "We ate it,"
+                    "He called me and invited me",
+                    "I was surprised because he had",
+                    "It was not as perfect as"
                   ]
                 },
                 "draftCues": [
@@ -8878,9 +8902,9 @@ window.IELTS_DATA = {
                     "frightened the other animals away"
                   ],
                   "paragraphStarts": [
-                    "At first, its mother",
-                    "After that, it worked",
-                    "In the end, it could"
+                    "It is a children's story about",
+                    "Its mother taught it how to",
+                    "In the end, it could hunt"
                   ]
                 },
                 "draftCues": [
@@ -9003,8 +9027,9 @@ window.IELTS_DATA = {
                     "its battery lasts all day"
                   ],
                   "paragraphStarts": [
-                    "In the advertisement,",
-                    "The whole advertisement"
+                    "The famous person in it is",
+                    "The screen then shows the laptop",
+                    "Since then, I have seen it"
                   ]
                 },
                 "draftCues": [
@@ -9127,9 +9152,9 @@ window.IELTS_DATA = {
                     "wins a small prize"
                   ],
                   "paragraphStarts": [
-                    "Last weekend,",
-                    "My favourite part",
-                    "I normally watch"
+                    "I watched it recently",
+                    "The best performer wins a small",
+                    "After that, he sang a song"
                   ]
                 },
                 "draftCues": [
@@ -9254,9 +9279,9 @@ window.IELTS_DATA = {
                     "wanted to relax after a tiring day"
                   ],
                   "paragraphStarts": [
-                    "It showed a young man",
-                    "After a few seconds,",
-                    "I watched the whole video twice"
+                    "I watched it at home one",
+                    "At first, he wore normal clothes",
+                    "It even included some people shouting"
                   ]
                 },
                 "draftCues": [
@@ -9388,9 +9413,9 @@ window.IELTS_DATA = {
                     "a tourist area with seats"
                   ],
                   "paragraphStarts": [
-                    "The building is very tall",
-                    "We bought tickets",
-                    "One floor has a glass section"
+                    "It is in Lujiazui, in Shanghai",
+                    "It turns a little as it",
+                    "I like this building because the"
                   ],
                   "translation": "嗯，中国有很多高楼。但我首先想到的是上海中心大厦。它在上海陆家嘴。上次去上海旅行时，我和女朋友一起去参观了。这栋楼主要用作办公室，每天有很多公司在那里上班。从外面看，它全是玻璃的，造型非常不寻常。它往上会转一点，所以不像普通的写字楼。里面非常明亮、干净，还有一个带座位的游客区。窗户很大，房间不会觉得暗。我们在里面走了一圈，拍了几张照片。我喜欢这栋楼，因为它的设计很特别，里面又明亮又干净。"
                 },
@@ -9570,8 +9595,9 @@ window.IELTS_DATA = {
                     "compare a few models"
                   ],
                   "paragraphStarts": [
-                    "Now I want to return",
-                    "When I choose a gift,"
+                    "We met at work six years",
+                    "When I choose a gift, I",
+                    "I would compare a few models"
                   ]
                 },
                 "pointsLabel": "Why I would choose this gift · 3 原因",
@@ -9714,8 +9740,9 @@ window.IELTS_DATA = {
                     "The shop was clean and bright"
                   ],
                   "paragraphStarts": [
-                    "A shop assistant asked",
-                    "In the end, I bought"
+                    "I went there last month to",
+                    "The shop was clean and bright",
+                    "In the end, I bought the"
                   ]
                 },
                 "pointsLabel": "Why the service was good · 3 原因",
@@ -9884,9 +9911,9 @@ window.IELTS_DATA = {
                     "expensive and not as tasty as we expected"
                   ],
                   "paragraphStarts": [
-                    "I often go on Saturday afternoons",
+                    "To be honest, it is only",
                     "However, the place gets very crowded",
-                    "The sellers use loud speakers"
+                    "Also, the fried fish there is"
                   ]
                 },
                 "memoryChain": {
@@ -10014,7 +10041,8 @@ window.IELTS_DATA = {
                     "sang the song together"
                   ],
                   "paragraphStarts": [
-                    "However, he played the song",
+                    "The song was a simple children's",
+                    "At first, the words sounded fast",
                     "In the end, the whole class"
                   ]
                 },
@@ -10184,7 +10212,8 @@ window.IELTS_DATA = {
                     "sang the song together"
                   ],
                   "paragraphStarts": [
-                    "However, he played the song",
+                    "I especially remember one lesson when",
+                    "At first, the words sounded fast",
                     "In the end, the whole class"
                   ]
                 },
@@ -10323,8 +10352,9 @@ window.IELTS_DATA = {
                     "stable version in October"
                   ],
                   "paragraphStarts": [
-                    "He patiently taught me",
-                    "Last September,"
+                    "I met him six years ago",
+                    "We have worked together ever since",
+                    "I like working with him because"
                   ]
                 },
                 "pointsLabel": "Why I admire him · 3 个观点",
@@ -10421,7 +10451,7 @@ window.IELTS_DATA = {
                 "question": "Describe a way/change that helps you save a lot of time",
                 "isNew": true,
                 "fit": "新题",
-                "answerNote": "5.5 分目标参考答案；复用 Alex 系统故障故事，重点讲省时方法、实施过程、难点和感受。",
+                "answerNote": "5.5 分目标参考答案；用“做事前先做计划”的方法，重点讲怎么实施、坚持的难点，以及它既省时间又能应对突发问题。",
                 "cuePoints": [
                   "What it is",
                   "How you implement it",
@@ -10434,88 +10464,94 @@ window.IELTS_DATA = {
                   "实施起来有多难",
                   "并解释你对这个方法或改变的感受"
                 ],
-                "storyTitle": "节约时间的方法／改变｜卡住二十分钟后及时求助",
+                "storyTitle": "节约时间的方法／改变｜做事前先做计划",
                 "draftCues": [
-                  "ask for help earlier",
-                  "one hour alone",
-                  "Alex-checked together",
-                  "twenty-minute rule",
-                  "change my thinking",
-                  "less time-less stress"
+                  "make a plan first",
+                  "ten minutes every evening",
+                  "most important first",
+                  "leave free time",
+                  "plan the order",
+                  "problems can move"
                 ],
                 "memoryChain": {
-                  "story": "以前独自解决每个问题 → 系统故障自己查一小时没结果 → 写下笔记找 Alex，分工半小时修好 → 现在定规则：自查二十分钟没进展就求助 → 以前一个难题花一上午，现在半小时，每周省两三小时 → 难点是放下面子",
+                  "story": "做事之前先做计划 → 每天晚上十分钟写第二天的清单，最重要的事放最前 → 出门也写路线和时间、留出自由时间 → 难点是忙的时候坚持（以前习惯马上开始）→ 上周按报告＋两个会议＋邮件的顺序做，六点前完成 → 周四客户电话拖长，把邮件挪到第二天早上 → 又省时间又能应对突发问题",
                   "reasons": [
-                    "Time：以前一上午 → 现在半小时 → 每周省两三小时",
-                    "Emotion：不用独自处理 → 压力更小",
-                    "Learning / Relationship：分享笔记和想法 → 合作更好＋下次更快"
+                    "1 · Time：不用想先做什么＋不容易忘事 → 照清单做更快 → 省下很多时间",
+                    "2 · Problems：临时拖长的任务 → 把次要的事往后挪 → 突发情况也不乱",
+                    "3 · Emotion：知道什么最重要 → 心里更稳 → 忙的一天也好过"
                   ]
                 },
-                "focus": "复用已有的 Alex 系统故障经历。说清现在怎么做，再补充改变观念的难点，以及为什么省时。",
+                "focus": "改成“做事之前先做计划”：每天写清单、留出自由时间、坚持的难点，再用忙碌的一周说明它既省时间又能应对突发问题。",
                 "body": {
-                  "text": "Well, I have made a few changes to save time at work. But the first one that comes to my mind would be asking for help earlier. About a month ago, our shopping system became slow and some orders failed. I spent nearly an hour checking it, but I could not find the problem. Then I wrote down what I had checked and asked my colleague Alex for help. He checked the settings while I prepared test orders, and we fixed it quickly. Since then, I have followed a simple rule: I try a few safe checks first, and if I make no progress after twenty minutes, I share my notes and ask a teammate. This change saves me a lot of time, because most problems are now solved in about half an hour. The hard part was changing my thinking, because I used to worry that asking for help made me look weak.",
-                  "translation": "嗯，为了节省工作时间，我做过几个改变。但我首先想到的是早点请求帮助。起初，我认为一个好的软件工程师应该独自解决所有问题。大约一个月前，我们的购物系统变慢，有些订单也失败了。我花了将近一个小时检查，却找不到问题。后来我写下已经检查过的内容，向同事 Alex 求助。他检查设置，我准备测试订单。我们发现一处错误设置，大约半小时就修好了。从那以后，我遵循一个简单的规则：先做几项安全的检查，如果二十分钟后仍没有进展，就分享笔记、向队友求助。这个改变帮我省下很多时间。以前一个难题可能花掉我一整个上午，而且最后常常还是要求助；现在大多数问题半小时左右就能解决，所以每周能省下两三个小时，我可以把这些时间用在做其他事情上。困难的部分是改变自己的想法：我以前担心求助会显得能力不足。不过 Alex 提醒我，合作本来就是工作的一部分。",
+                  "text": "Well, I have made a few changes to save time. But the first one that comes to my mind would be making a plan before I start something. Every evening I spend ten minutes writing a list for the next day, and I put the most important thing first. For a trip, I also write down the route and the time, and I leave some free time. Making a plan is not difficult. The hard part is keeping the habit, because when I am busy I just want to start working straight away. So I keep the list on my phone and cross things off. For example, last week I planned the order of a report, two meetings and many emails, so I finished by six o'clock. On Thursday a client call took much longer than I expected, but I moved the emails to the next morning. This change saves me a lot of time, and it also helps me deal with problems that appear.",
+                  "translation": "嗯，为了节省时间，我做过几个改变。但我首先想到的是做事之前先做计划。每天晚上我会花十分钟写下第二天的清单，把最重要的事情放在最前面。如果要出门，我还会写下路线和时间，并且留出一些自由时间。做计划本身并不难。难的是坚持下去，因为一忙起来我就只想马上开始做事。所以我把清单放在手机里，做完一项就划掉。比如上周我按照一份报告、两个会议和很多邮件的顺序做计划，所以六点前就完成了。周四一个客户电话比我想的久得多，我就把邮件挪到第二天早上。这个改变帮我省下很多时间，也帮我应对突然出现的问题。",
                   "highlights": [
-                    "nearly an hour",
-                    "asked my colleague Alex for help",
-                    "twenty minutes",
-                    "share my notes",
+                    "making a plan before I start something",
+                    "ten minutes",
+                    "the most important thing first",
+                    "leave some free time",
+                    "not difficult",
+                    "keeping the habit",
+                    "cross things off",
+                    "finished by six o'clock",
+                    "took much longer than I expected",
+                    "moved the emails to the next morning",
                     "saves me a lot of time",
-                    "changing my thinking"
+                    "deal with problems that appear"
                   ],
                   "paragraphStarts": [
-                    "About a month ago,",
-                    "Since then,",
-                    "The difficult part"
+                    "Every evening I spend ten minutes",
+                    "The hard part is keeping the",
+                    "This change saves me a lot"
                   ]
                 },
                 "sourceOrder": 24,
                 "ending": {
                   "endingLead": {
-                    "cue": "And explain how you feel about the way/change",
-                    "text": "As for how I feel, I'm pleased with this change. There are three reasons.",
-                    "translation": "至于我的感受，我对这个改变很满意，有三个原因。"
+                    "text": "As for how I feel about this change, there are three reasons.",
+                    "translation": "至于我对这个改变的感受，有三个原因。"
                   },
                   "reasons": [
                     {
-                      "text": "First of all, it saves me a lot of time. Before, one problem could take me a whole morning. Now most problems are solved in about half an hour, so I can use that time for other tasks.",
-                      "translation": "首先，它帮我省下很多时间。以前一个难题可能花掉我一整个上午。现在大多数问题半小时左右就能解决，所以那些时间可以用在别的事情上。",
-                      "memory": "Time：以前一上午 → 现在半小时 → 时间能做别的",
+                      "text": "First of all, it saves me a lot of time. I do not waste time deciding what to do first, and I do not forget things and go back again. You know, ten minutes of planning can save me two hours.",
+                      "translation": "首先，它帮我省下很多时间。我不用浪费时间想先做哪件事，也不会忘事、来回跑。你知道，十分钟做计划能省下两个小时。",
+                      "memory": "Time：不用想先做什么＋不会忘事 → 十分钟计划省两小时 → 省下很多时间",
                       "highlights": [
                         "saves me a lot of time",
-                        "a whole morning",
-                        "about half an hour"
+                        "deciding what to do first",
+                        "ten minutes of planning"
                       ]
                     },
                     {
-                      "text": "Secondly, I feel less stressed when a problem is difficult, because I do not have to solve everything alone. You know, sharing the work makes a busy day feel much easier to manage. So I stay calmer now.",
-                      "translation": "其次，遇到难题时我压力更小，因为不必独自解决一切。你知道，一起分担让忙碌的一天容易应付得多。所以我现在更冷静。",
-                      "memory": "Emotion：不用独自面对 → 忙的一天更好应付 → 更冷静",
+                      "text": "Secondly, a plan helps me deal with problems that appear. When one task takes longer than I expected, I can move the less important things to another day. So a bad surprise does not ruin my whole day.",
+                      "translation": "其次，计划能帮我应对突然出现的问题。当一件事比我想的花的时间更长时，我可以把不太重要的事挪到另一天。所以一个糟糕的意外不会毁掉我一整天。",
+                      "memory": "Problems：任务比预期久 → 把次要的事挪到另一天 → 意外不影响整天",
                       "highlights": [
-                        "feel less stressed",
-                        "solve everything alone",
-                        "easier to manage"
+                        "problems that appear",
+                        "move the less important things",
+                        "does not ruin my whole day"
                       ]
                     },
                     {
-                      "text": "What's more, I learn from my colleagues, so I can handle similar problems more quickly next time. To be honest, sharing notes and ideas has also brought us closer as a team. So the change helped more than my work. I think that is important in any job, because nobody can solve everything alone.",
-                      "translation": "此外，我能向同事学习，所以下次遇到类似问题能处理得更快。说实话，分享笔记和想法也让我们团队更亲近了。所以这个改变帮到的不只是工作。我觉得这在任何工作里都重要，因为没人能独自解决一切。",
-                      "memory": "Learning / Relationship：分享方法 → 下次更快＋团队更近 → 好处更多",
+                      "text": "What's more, I feel calmer when I know what is most important. In the past I often worried about forgetting something. Now I can see everything on my list. I think planning is a good habit, because busy days feel easier.",
+                      "translation": "此外，知道什么最重要让我更安心。以前我常担心忘掉某件事。现在清单上什么都看得见。我觉得做计划是个好习惯，因为忙碌的日子会轻松一些。",
+                      "memory": "Emotion：知道最重要的事 → 不再担心忘事 → 忙的日子更轻松",
                       "highlights": [
-                        "learn from my colleagues",
-                        "handle similar problems more quickly",
-                        "brought us closer"
+                        "feel calmer",
+                        "worried about forgetting something",
+                        "busy days feel easier"
                       ]
                     }
                   ],
                   "mode": "feelings"
                 },
                 "cuePointsNotes": [
-                  "遇到困难时更早向同事求助（这就是我做的改变）",
-                  "现在先做几项安全自查，二十分钟没进展就写下检查过的东西、分享笔记找队友；一个月前购物系统变慢、订单失败，我自己查了将近一小时也没找到，写笔记给 Alex 后，他查设置、我准备测试订单，半小时左右就修好一处错误设置",
-                  "技术上不难；难的是改变想法——以前担心求助显得能力不足，Alex 提醒我合作本来就是工作的一部分",
-                  ""
-                ]
+                  "做事之前先做一个简单的计划（这就是我做的改变）",
+                  "每天晚上花十分钟写下第二天的清单，把最重要的事情放在最前面；出门会写下路线和时间，并且留出一些自由时间",
+                  "做计划本身不难；难的是忙的时候还坚持，以前我习惯马上开始做事，现在把清单放在手机里、做完就划掉",
+                  "省时间：不用想先做什么、也不容易忘事；上周按报告、两个会议和邮件的顺序做计划，六点前完成；周四客户电话拖长，就把邮件挪到第二天早上"
+                ],
+                "omit": "不用写软件或项目名称，也不用写公司内部细节。"
               },
               {
                 "id": "p2-feishu-lost-in-public",
@@ -10566,9 +10602,9 @@ window.IELTS_DATA = {
                     "check my seat"
                   ],
                   "paragraphStarts": [
-                    "When I left, I was in a hurry",
-                    "I only noticed it",
-                    "A staff member had found"
+                    "It happened last month, when I",
+                    "I went straight back to the",
+                    "I was very relieved, and since"
                   ]
                 },
                 "sourceOrder": 25,
@@ -10671,10 +10707,9 @@ window.IELTS_DATA = {
                     "feeling closer to my colleagues"
                   ],
                   "paragraphStarts": [
-                    "We booked a private room",
-                    "After dinner,",
-                    "What impressed me most",
-                    "I left feeling closer"
+                    "We held it last winter, in",
+                    "We wanted to celebrate his promotion",
+                    "He looked surprised and said he"
                   ]
                 },
                 "sourceOrder": 26,
@@ -10777,9 +10812,9 @@ window.IELTS_DATA = {
                     "checking my progress helped me continue"
                   ],
                   "paragraphStarts": [
-                    "However, it cost",
-                    "I decided to save",
-                    "In the end, I had"
+                    "It was the first expensive thing",
+                    "For four months, I ordered less",
+                    "In the end, I bought it"
                   ]
                 },
                 "pointsLabel": "Why saving money was worthwhile · 3 个观点",
@@ -10906,8 +10941,9 @@ window.IELTS_DATA = {
                     "listened carefully to me"
                   ],
                   "paragraphStarts": [
-                    "However, I kept listening",
-                    "Later, when I mentioned"
+                    "He had watched the match the",
+                    "However, I kept listening because it",
+                    "I felt patient and positive because"
                   ]
                 },
                 "pointsLabel": "Why I kept listening / how I felt＋Money / Emotion / Relationship",
@@ -11120,7 +11156,8 @@ window.IELTS_DATA = {
                     "October release"
                   ],
                   "paragraphStarts": [
-                    "However, during the final test",
+                    "It happened last September",
+                    "We held a meeting, and Alex",
                     "In the end, the October release"
                   ]
                 },
@@ -11168,9 +11205,9 @@ window.IELTS_DATA = {
                     "released the full version"
                   ],
                   "paragraphStarts": [
-                    "During the final test,",
-                    "We held a meeting",
-                    "We followed his advice,"
+                    "My team planned to release it",
+                    "I checked the error messages and",
+                    "We collected feedback, fixed the remaining"
                   ]
                 },
                 "draftCues": [
@@ -11303,8 +11340,9 @@ window.IELTS_DATA = {
                     "the full version was released in October without any big problems"
                   ],
                   "paragraphStarts": [
-                    "However, during the final test,",
-                    "We held a meeting"
+                    "My team planned to release it",
+                    "However, during the final test, the",
+                    "In the end, the small test"
                   ]
                 },
                 "draftCues": [
@@ -11446,9 +11484,9 @@ window.IELTS_DATA = {
                     "disappointed about the delay"
                   ],
                   "paragraphStarts": [
-                    "However, during the final test,",
-                    "We held a meeting,",
-                    "At first, I was disappointed"
+                    "I had to change it at",
+                    "However, during the final test, the",
+                    "At first, I was disappointed about"
                   ]
                 },
                 "pointsLabel": "How I felt about changing the plan · 3 原因",
@@ -11576,9 +11614,9 @@ window.IELTS_DATA = {
                     "prepared test orders"
                   ],
                   "paragraphStarts": [
-                    "Then, after our team",
-                    "Finally, I wrote down",
-                    "Since then,"
+                    "In the past, I believed that",
+                    "Finally, I wrote down what I",
+                    "Now, if I make no progress"
                   ]
                 },
                 "draftCues": [
@@ -11690,7 +11728,7 @@ window.IELTS_DATA = {
                 "sourceOrder": 58,
                 "isNew": false,
                 "body": {
-                  "text": "Well, I have changed my mind about a few things. But the first one would be solving work problems alone, about a month ago. In the past, I believed that a good engineer should solve every problem alone. Then, after our team released a new feature, the shopping system became slow and some orders failed. I searched online for nearly an hour, but nothing worked. Finally, I wrote down what I had checked and asked my colleague Alex for help, and we fixed the problem together. Now, if I make no progress after twenty minutes, I ask a teammate. I felt relieved because I did not have to face every problem alone.",
+                  "text": "Well, I have changed my mind about a few things. But the first one that comes to my mind would be solving work problems alone, about a month ago. In the past, I believed that a good engineer should solve every problem alone. Then, after our team released a new feature, the shopping system became slow and some orders failed. I searched online for nearly an hour, but nothing worked. Finally, I wrote down what I had checked and asked my colleague Alex for help, and we fixed the problem together. Now, if I make no progress after twenty minutes, I ask a teammate. I felt relieved because I did not have to face every problem alone.",
                   "highlights": [
                     "about a month ago",
                     "solve every problem alone",
@@ -11705,9 +11743,9 @@ window.IELTS_DATA = {
                     "face every problem alone"
                   ],
                   "paragraphStarts": [
-                    "Then, after our team",
-                    "Finally, I wrote down",
-                    "Since then,"
+                    "In the past, I believed that",
+                    "Then, after our team released a",
+                    "Now, if I make no progress"
                   ]
                 },
                 "draftCues": [
@@ -11815,8 +11853,9 @@ window.IELTS_DATA = {
                     "wrong setting"
                   ],
                   "paragraphStarts": [
-                    "At that time,",
-                    "When the meeting ended,"
+                    "It happened about a year ago",
+                    "At that time, I was in",
+                    "I replied at once, explained why"
                   ]
                 },
                 "draftCues": [
@@ -11945,9 +11984,9 @@ window.IELTS_DATA = {
                     "prepared test orders"
                   ],
                   "paragraphStarts": [
-                    "I first tried to solve it alone.",
-                    "When Alex returned",
-                    "We soon found"
+                    "It happened about a year ago",
+                    "I first tried to solve it",
+                    "He checked the new settings while"
                   ]
                 },
                 "draftCues": [
@@ -12080,9 +12119,9 @@ window.IELTS_DATA = {
                     "deleted the temporary files"
                   ],
                   "paragraphStarts": [
-                    "Suddenly, the laptop",
-                    "My colleague Alex checked",
-                    "We moved the videos"
+                    "I had this problem at the",
+                    "Suddenly, the laptop became very slow",
+                    "My colleague Alex checked the laptop"
                   ]
                 },
                 "draftCues": [
@@ -12215,9 +12254,9 @@ window.IELTS_DATA = {
                     "finding the cause quickly"
                   ],
                   "paragraphStarts": [
-                    "We divided the work:",
-                    "The main difficulty",
-                    "After about two hours,"
+                    "I worked with Alex and two",
+                    "We met in a small room",
+                    "The main difficulty was finding the"
                   ]
                 },
                 "draftCues": [
@@ -12352,9 +12391,9 @@ window.IELTS_DATA = {
                     "exciting"
                   ],
                   "paragraphStarts": [
-                    "At first, we sat",
-                    "The score stayed level",
-                    "In the final few minutes,"
+                    "I watched it on television at",
+                    "I watched it with my girlfriend",
+                    "In the final few minutes, one"
                   ]
                 },
                 "draftCues": [
@@ -12484,9 +12523,9 @@ window.IELTS_DATA = {
                     "bring warm clothes"
                   ],
                   "paragraphStarts": [
-                    "I checked the weather,",
-                    "One friend brought",
-                    "On the morning of the trip,"
+                    "I organized it for three close",
+                    "We also agreed to bring warm",
+                    "One friend brought a picnic mat"
                   ]
                 },
                 "draftCues": [
@@ -12611,9 +12650,9 @@ window.IELTS_DATA = {
                     "took turns carrying the food bag"
                   ],
                   "paragraphStarts": [
-                    "We met at 4:30",
-                    "On the way,",
-                    "We reached the top"
+                    "We met at 4:30 in the",
+                    "On the way, we stopped at",
+                    "We also took turns carrying the"
                   ]
                 },
                 "draftCues": [
@@ -12740,8 +12779,9 @@ window.IELTS_DATA = {
                     "heard birds singing"
                   ],
                   "paragraphStarts": [
-                    "We met at 4:30",
-                    "We climbed slowly,"
+                    "I got up at four o'clock",
+                    "I washed my face and left",
+                    "We also heard birds singing along"
                   ]
                 },
                 "draftCues": [
@@ -12875,9 +12915,9 @@ window.IELTS_DATA = {
                     "funny things from school"
                   ],
                   "paragraphStarts": [
-                    "At first, we simply waited",
-                    "Later, my friend opened",
-                    "We finally arrived"
+                    "This happened during my last trip",
+                    "The road was full of cars",
+                    "At first, we simply waited and"
                   ]
                 },
                 "draftCues": [
@@ -13006,9 +13046,9 @@ window.IELTS_DATA = {
                     "short Japanese videos for about twenty minutes every day"
                   ],
                   "paragraphStarts": [
-                    "I started with a simple Japanese book",
-                    "Whenever I had a question,",
-                    "At first, I could only"
+                    "I wanted to learn it for",
+                    "Every evening, I learned five words",
+                    "At first, I could only introduce"
                   ]
                 },
                 "draftCues": [
@@ -13134,8 +13174,9 @@ window.IELTS_DATA = {
                     "quite far from my home"
                   ],
                   "paragraphStarts": [
-                    "The report showed",
-                    "Many residents were excited"
+                    "I first noticed it on a",
+                    "The report showed the location of",
+                    "I am interested too, because the"
                   ]
                 },
                 "draftCues": [
@@ -13273,9 +13314,9 @@ window.IELTS_DATA = {
                     "shared the video with a colleague"
                   ],
                   "paragraphStarts": [
-                    "At first, I expected",
-                    "One part I found useful",
-                    "In the end, I felt"
+                    "The interviewer asked him about his",
+                    "One part I found useful was",
+                    "In the end, I felt encouraged"
                   ]
                 },
                 "memoryChain": {
@@ -13432,9 +13473,9 @@ window.IELTS_DATA = {
                     "Alex and the team shared their ideas"
                   ],
                   "paragraphStarts": [
-                    "However, during the final test",
-                    "Alex and the team shared their ideas",
-                    "To be honest, it was not an easy decision"
+                    "It happened last September",
+                    "However, during the final test, the",
+                    "I decided to release it in"
                   ],
                   "translation": "嗯，我在工作中做过几个重要决定。但我首先想到的是改变学习应用的发布计划。那是去年九月。我的团队原本计划在月底向所有学生发布这款应用。然而在最终测试时，应用变得很卡，一些课程打不开。我们开了会，我必须决定是按时发布还是改变计划。Alex 和团队分享了他们的想法，我也认真听了。但最终的决定是我做的，因为发布由我负责。我决定分阶段发布：先让一小群学生使用，收集他们的反馈，十月再全面发布。说实话，这个决定不容易，因为团队已经辛苦了好几个月。但保护学生比守住原来的日期更重要。"
                 },
