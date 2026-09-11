@@ -12891,7 +12891,7 @@ window.IELTS_DATA = {
                 "pointsLabel": "How I felt · 3 点",
                 "reasons": [
                   {
-                    "text": "At first, I felt unhappy because the traffic hardly moved and the long wait was tiring. I also worried that we would miss the places we wanted to visit.",
+                    "text": "At first, I felt unhappy because the traffic hardly moved and the long wait was tiring. I also worried that we would miss the attractions we wanted to see.",
                     "highlights": [
                       "felt unhappy",
                       "long wait"
@@ -12921,13 +12921,13 @@ window.IELTS_DATA = {
                   },
                   "reasons": [
                     {
-                      "text": "At first, I felt unhappy because the traffic hardly moved and the long wait was tiring. I also worried that we would miss the places we wanted to visit. So the mood in the taxi was quite low.",
+                      "text": "At first, I felt unhappy because the traffic hardly moved and the long wait was tiring. I also worried that we would miss the attractions we wanted to see. So the mood in the taxi was quite low.",
                       "highlights": [
                         "the traffic hardly moved",
                         "the long wait was tiring",
-                        "miss the places we wanted to visit"
+                        "miss the attractions we wanted to see"
                       ],
-                      "translation": "一开始我不开心，因为车几乎不动，漫长的等待很累人。我还担心会错过我们想去的地方。所以出租车里的气氛很低落。",
+                      "translation": "一开始我不开心，因为车几乎不动，漫长的等待很累人。我还担心会错过想去的景点。所以出租车里的气氛很低落。",
                       "memory": "At first：车不动＋等待久 → 担心错过地方 → 心情差"
                     },
                     {
@@ -14688,10 +14688,10 @@ window.IELTS_DATA = {
         {
           "question": "Are there any natural attractions that are great to visit?",
           "answerLanguage": "en",
-          "answer": "Yes, I think places such as lakes, mountains and forests can be great to visit. They give people a break from busy streets and a chance to enjoy fresh air and exercise. For example, an easy walk beside a lake can be enjoyable for a family at the weekend. The best choice depends on the visitors’ interests and how easy the place is to reach.",
+          "answer": "Yes, I think natural attractions such as lakes, mountains and forests are great to visit. They give people a break from busy streets and a chance to enjoy fresh air and exercise. For example, an easy walk beside a lake can be enjoyable for a family at the weekend. The best choice depends on the visitors’ interests and how easy the place is to reach.",
           "translation": {
             "question": "有没有很值得去的自然景点？",
-            "answer": "有，我觉得湖泊、山和森林都很值得去。它们让人暂时离开繁忙街道，有机会呼吸新鲜空气、活动身体。比如，周末一家人在湖边轻松散步，就可以很愉快。最好的选择取决于游客的兴趣，也取决于到达那里是否方便。"
+            "answer": "有，我觉得像湖泊、山和森林这样的自然景点很值得去。它们让人暂时离开繁忙街道，有机会呼吸新鲜空气、活动身体。比如，周末一家人在湖边轻松散步，就可以很愉快。最好的选择取决于游客的兴趣，也取决于到达那里是否方便。"
           },
           "structure": "观点 → 原因 → 例子 → 结果或限定",
           "materials": [
@@ -19820,7 +19820,7 @@ window.IELTS_DATA = {
           "materials": [],
           "translation": {
             "question": "你们国家的人经常去哪里度假？",
-            "answer": "我们国家的人度假常去海边或者山上的一些风景区，离城市不远。大家就是想离开城市透透气（get away from… for a day）。"
+            "answer": "我们国家的人度假常去海边或者山里的一些自然景点，离城市不远。大家就是想离开城市透透气（get away from… for a day）。"
           },
           "structure": "直接回答",
           "chunkPhrases": [
