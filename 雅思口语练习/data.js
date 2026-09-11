@@ -3464,7 +3464,7 @@ window.IELTS_DATA = {
                 "focus": "清楚交代我帮助李华改善了什么，以及为什么坚持下来并不容易。",
                 "body": {
                   "text": "Well, a few of my friends want to get fitter. But the first one that comes to my mind would be my colleague Li Hua. We have worked in the same team for about three years, and he is easy to talk to. A few months ago we were working on a busy project, and we sat at our computers all day. He often said he felt tired after work. I wanted to help because he was a good friend, and I also needed to move more. I suggested taking a short walk after lunch instead of looking at our phones. At first, we walked for ten minutes near the office; later we chose a longer route and reminded each other to take a break. The difficult part was keeping the habit on busy or rainy days. Sometimes he wanted to skip it, so we kept the walk short rather than giving up completely. After a few weeks, he felt more energetic and enjoyed going outside.",
-                  "translation": "嗯，我有几个朋友想让身体更好。但我首先想到的是我的同事李华。我们同一个团队工作了大约三年，他很好相处。事情发生在几个月前，当时我们正在忙一个项目。我们一天大部分时间都坐在电脑前，他经常说下班后很累。我想帮他，因为他是我的好朋友，而且我自己也需要多活动。我提议午饭后散一小会儿步，不要一直看手机。最初，我们在办公室附近走十分钟左右。后来，我们选了更长的路线，也会互相提醒离开座位休息一下。难的是在忙碌或下雨的日子里继续坚持。有时他想跳过，我们就缩短散步时间，而不是完全放弃。几周后，他告诉我自己更有精神了，也喜欢出去走走。我很开心，因为我们没花很多钱，就一起做出了有用的改变。",
+                  "translation": "嗯，我有几个朋友想让身体更好。但我首先想到的是我的同事李华。我们同一个团队工作了大约三年，他很好相处。几个月前，我们正在忙一个项目，整天坐在电脑前。他经常说下班后很累。我想帮他，因为他是我的好朋友，而且我自己也需要多活动。我提议午饭后散一小会儿步，不要一直看手机。最初，我们在办公室附近走十分钟左右。后来，我们选了更长的路线，也会互相提醒休息一下。难的是在忙碌或下雨的日子里继续坚持。有时他想跳过，我们就缩短散步时间，而不是完全放弃。几周后，他觉得自己更有精神了，也更喜欢到户外走走。",
                   "highlights": [
                     "a few months ago",
                     "busy project",
@@ -4210,7 +4210,7 @@ window.IELTS_DATA = {
                     "She also takes photos of the",
                     "Later, she chose a few pictures"
                   ],
-                  "translation": "嗯，我身边很多人都喜欢拍照。但我首先想到的是我女朋友。我现在还很清楚地记得，我们大约十年前在大学认识的。我们当时在同一个学习小组，很快就成了好朋友。她从那时候起就喜欢摄影。现在她是一名工程师，但空闲时间她喜欢旅行，也喜欢刷社交媒体看好看的照片。她通常用手机拍照，因为手机轻便好带。我们旅行时、逛公园时，甚至尝新食物时她都会拍。上次去上海旅行，她拍了江景、高楼和我们的晚餐，还请一位热心的游客帮我们拍了合照。后来她挑了几张照片，分享给我们的家人。"
+                  "translation": "嗯，我身边很多人都喜欢拍照。但我首先想到的是我女朋友。我现在还很清楚地记得，我们大约十年前在大学认识的。我们当时在同一个学习小组，很快就成了好朋友。她从那时候起就喜欢摄影。现在她是一名工程师，但空闲时间她喜欢旅行，也喜欢刷社交媒体看好看的照片。她通常用手机拍照，因为手机轻便好带。我们旅行时、逛公园时，甚至尝新食物时她都会拍。傍晚天空好看的时候，她也会拍天空。上次去上海旅行，她拍了江景、高楼和我们的晚餐，还请一位热心的游客帮我们拍了合照。后来她挑了几张照片，分享给我们的家人。"
                 },
                 "pointsLabel": "How I feel about her habit＋Money / Emotion / Relationship",
                 "reasons": [
@@ -4576,7 +4576,7 @@ window.IELTS_DATA = {
                 ],
                 "body": {
                   "text": "Well, a few people around me have overcome difficulties. But the first one that comes to my mind would be my classmate Li Hua. I first met him on the first day of high school, and we soon became friends. We have been friends for about ten years, and I know him quite well. He wanted to learn Japanese because he hoped to travel to Japan. At first, it was hard for him to remember new words, and he also had a lot of homework. He could only say a few basic words, but he did not give up. He wrote new words in a small notebook, watched simple Japanese videos and asked his teacher for help. Several months later, he could hold a short conversation. Last month he visited Japan and ordered food in Japanese. I think he succeeded because he practised a little every day.",
-                  "translation": "嗯，我周围有几个人克服过困难。但我首先想到的是我的同学李华。我高中第一天就认识了他，我们很快成了朋友。我们做朋友大约十年了，我很了解他。他想学日语，因为希望去日本旅行。一开始，记生词对他来说很难，作业也很多。他只会说几个简单单词，还经常犯同样的错误。然而他没有放弃。他把生词写在小本子上，看简单的日语视频，并向老师求助。我们有时会在午休时一起练习。几个月后，他能进行简短的对话了。上个月他去了日本，用日语点餐、问路。",
+                  "translation": "嗯，我周围有几个人克服过困难。但我首先想到的是我的同学李华。我高中第一天就认识了他，我们很快成了朋友。我们做朋友大约十年了，我很了解他。他想学日语，因为希望去日本旅行。一开始，记生词对他来说很难，作业也很多。他只会说几个简单单词，但他没有放弃。他把生词写在小本子上，看简单的日语视频，并向老师求助。几个月后，他能进行简短的对话了。上个月他去了日本，用日语点餐。我觉得他能成功，是因为他每天都练一点。",
                   "highlights": [
                     "first day of high school",
                     "travel to Japan",
@@ -6146,7 +6146,7 @@ window.IELTS_DATA = {
                 },
                 "body": {
                   "text": "Well, there are a few well-known people in my local area. But the first one that comes to my mind would be Lei Jun. He is the founder of Xiaomi and a well-known technology leader in China. He is in his fifties now, and he is one of the most famous business people in China. He lives and works in Beijing, which is my local area. He founded Xiaomi and helped make smartphones popular and affordable. He also gives money to schools and supports young people who want to start their own projects. The company grew from a small team into one of the biggest technology companies in China, and many local people use its phones every day. He is also known for his simple and friendly style. When he speaks in public, he sounds like a friend giving advice.",
-                  "translation": "嗯，我当地有几位知名人物。但我首先想到的是雷军。他是小米的创始人，也是中国知名的科技领袖。他现在五十多岁，是中国最有名的企业家之一。他生活和工作在北京，也就是我所在的地方。他创立了小米，让智能手机变得流行又平价。他还给学校捐钱，也支持想自己创业的年轻人。在他的带领下，公司从一个小团队成长为国内最大的科技公司之一。很多本地人每天都在用小米的手机和家用设备。他也以简单友好的个人风格出名。他公开讲话时，听起来像朋友在给建议，而不是一个遥不可及的老板。所以他几乎成了我所在地区家喻户晓的名字。",
+                  "translation": "嗯，我当地有几位知名人物。但我首先想到的是雷军。他是小米的创始人，也是中国知名的科技领袖。他现在五十多岁，是中国最有名的企业家之一。他生活和工作在北京，也就是我所在的地方。他创立了小米，让智能手机变得流行又平价。他还给学校捐钱，也支持想自己创业的年轻人。公司从一个小团队成长为国内最大的科技公司之一，很多本地人每天都在用它的手机。他也以简单友好的个人风格出名。他公开讲话时，听起来像朋友在给建议。",
                   "highlights": [
                     "Lei Jun",
                     "founder of Xiaomi",
@@ -6693,7 +6693,7 @@ window.IELTS_DATA = {
                 "focus": "沿用凉水河素材：把具体地点说成凉水河边的公园，并保留家庭出游、河边景色、当地人帮拍照和炸鱼等细节。",
                 "body": {
                   "text": "Well, I have been to a few quiet places near the water. But the first one that comes to my mind would be a riverside park in Beijing. I first learned about the river in a geography class. My teacher said it was about seventy kilometres long and looked like a flying dragon on the map. Last spring, I went to the park with my family because we wanted to see the river ourselves and spend a day outdoors. The water, flowers and small boats looked beautiful, and a local man took a family photo for us. Later, we ate fried fish in a small restaurant beside the river. I felt relaxed and happy there because the scenery was beautiful, the people were friendly and the food was delicious. I would definitely like to visit it again.",
-                  "translation": "嗯，我去过几个靠近自然景观的地方。但我首先想到的是北京的一个河边公园。我最初是在地理课上知道这条河的。老师说它大约七十公里长，在地图上看起来像一条飞龙。去年春天，我和家人去了那座公园，因为我们想亲眼看看这条河，也想一起到户外活动。河水、花草和小船看起来很漂亮。一位友好的当地人主动帮我们拍全家福，还带我们去了一个视野很好的安静地点。后来，我们在河边的一家小餐馆吃了炸鱼。我在那里感到轻松又开心，因为景色很美、人很友好、食物也很好吃。我肯定还想再去。",
+                  "translation": "嗯，我去过几个靠近水边的安静地方。但我首先想到的是北京的一个河边公园。我最初是在地理课上知道这条河的。老师说它大约七十公里长，在地图上看起来像一条飞龙。去年春天，我和家人去了那座公园，因为我们想亲眼看看这条河，也想一起到户外活动。河水、花草和小船看起来很漂亮，一位友好的当地人还帮我们拍了全家福。后来，我们在河边的一家小餐馆吃了炸鱼。我在那里感到轻松又开心，因为景色很美、人很友好、食物也很好吃。我肯定还想再去。",
                   "highlights": [
                     "the river",
                     "in Beijing",
@@ -7475,7 +7475,7 @@ window.IELTS_DATA = {
                 ],
                 "body": {
                   "text": "Well, I've been to a few cities. It's hard to choose a favourite. But the first one that comes to my mind would be Shanghai. It is in eastern China. I went there with my girlfriend last autumn, and we stayed for three days. At first, we visited the Bund and Lujiazui. The river, tall buildings and old streets looked beautiful together. A local person helped us take a photo, and we ate xiaolongbao. We also took the metro to the old town and bought some small gifts. However, it rained one afternoon, so we went into a big shopping mall, had dinner there and walked around. The metro was easy to use, and local people were friendly. Disneyland needs a whole day, and we only had three days, so we did not go there. Also, we did not see everything. Next time I plan to go there. I would like to visit Shanghai again because the scenery, the people and the food left a very good memory.",
-                  "translation": "嗯，我去过几个城市，很难选出一个最喜欢的。但我首先想到的是上海，它在中国东部。去年秋天我和女朋友一起去了三天。一开始，我们去了外滩和陆家嘴。江景、高楼和老街放在一起很好看。一位当地人帮我们拍了照，我们还吃了小笼包。不过有一天下午下雨了，我们就进了陆家嘴的一家大商场，在里面吃饭、逛了逛。地铁很方便，当地人也友好。迪士尼要玩一整天，而我们只待了三天，所以没去。而且，我们也没把所有地方看完。下次我打算去。因为风景、人和食物都留下了很好的回忆，我想再去一次上海。",
+                  "translation": "嗯，我去过几个城市，很难选出一个最喜欢的。但我首先想到的是上海，它在中国东部。去年秋天我和女朋友一起去了三天。一开始，我们去了外滩和陆家嘴。江景、高楼和老街放在一起很好看。一位当地人帮我们拍了照，我们还吃了小笼包。不过有一天下午下雨了，我们就进了一家大商场，在里面吃饭、逛了逛。地铁很方便，当地人也友好。迪士尼要玩一整天，而我们只待了三天，所以没去。而且，我们也没把所有地方看完。下次我打算去。因为风景、人和食物都留下了很好的回忆，我想再去一次上海。",
                   "highlights": [
                     "Shanghai",
                     "eastern China",
@@ -8619,7 +8619,7 @@ window.IELTS_DATA = {
                 "focus": "按观看时间、地点、电影内容、不喜欢的原因展开；主线仍是侦探找画，只讲剧情慢、一直聊天、浪费晚上。",
                 "body": {
                   "text": "Well, I watch a lot of films. Some are good, and some are pretty bad. But the first one that comes to my mind would be a family film. I watched it at home last month, on a Saturday evening. My girlfriend and I wanted to relax after a busy week, so we chose it on a video app. The story was about an old grandma who lived in the countryside. Every day, she got up early, watered her vegetables and talked with her family. At first, we expected a warm family story. However, the story was too slow. Nothing really happened, and the characters just talked. After almost an hour, the film was still boring. In the end, I felt bored and disappointed, and the film was much longer than it needed to be. Instead of relaxing, we wasted our evening.",
-                  "translation": "嗯，我看过很多电影，有些好，有些挺差。但我首先想到的是一部家庭电影。上个月我在家看了它。那是一个周六晚上，我和女朋友想在忙碌一周后放松一下。我们在视频应用上选了它，因为简介看起来温馨又简单。故事讲的是住在乡下的一位老奶奶。她每天早起浇菜、泡茶，和家人聊天。一开始，我们期待一个温馨的家庭故事。然而，剧情太慢了。几乎什么都没发生，角色就是一直说话。过了将近一个小时，电影还是很无聊。最后，我觉得无聊又失望。电影还比实际需要的长得多。我们没有放松下来，反而觉得浪费了一个晚上。所以它是我最不喜欢的电影。",
+                  "translation": "嗯，我看过很多电影，有些好，有些挺差。但我首先想到的是一部家庭电影。上个月我在家看了它。那是一个周六晚上，我和女朋友想在忙碌一周后放松一下。我们在视频应用上选了它。故事讲的是住在乡下的一位老奶奶。她每天早起浇菜，和家人聊天。一开始，我们期待一个温馨的家庭故事。然而，剧情太慢了。几乎什么都没发生，角色就是一直说话。过了将近一个小时，电影还是很无聊。最后，我觉得无聊又失望。电影还比实际需要的长得多。我们没有放松下来，反而觉得浪费了一个晚上。",
                   "highlights": [
                     "a family film",
                     "at home last month",
@@ -8912,7 +8912,7 @@ window.IELTS_DATA = {
                 },
                 "body": {
                   "text": "Well, I have had a few lovely evenings with friends. But the first one that comes to my mind would be a film night. It was last Saturday. In the afternoon, I found a short clip from a family film called Grandma's Garden about a funny grandma. I sent it to my girlfriend and two old friends, and that evening they came to my home. We sat in the living room, watched the full movie and prepared some popcorn and drinks. The story was warm and funny, so we laughed a lot. After the movie, we talked about our own families for a while. It was a simple evening, but everyone looked relaxed and happy.",
-                  "translation": "嗯，我和朋友度过过几个美好的夜晚。但我首先想到的是一场电影之夜。那是上周六。下午我刷到家庭电影《奶奶的花园》的一段短片。短片里一位有趣的奶奶在种菜、做胡萝卜蛋糕。我把短片发给了女朋友和两位老朋友。我们有一阵子没见了，所以那天晚上他们来到我家。我们坐在客厅里，看了完整电影，还准备了爆米花和饮料。故事温暖又有趣，我们笑了很多次。看完电影后，我们又聊了一会儿各自的家人。那是一个简单的晚上，但每个人看起来都很放松、很开心。",
+                  "translation": "嗯，我和朋友有过几个美好的夜晚。但我首先想到的是一场电影之夜。那是上周六。下午我刷到一部叫《奶奶的花园》的家庭电影的一段短片，讲的是一位有趣的奶奶。我把短片发给了女朋友和两位老朋友。那天晚上他们来到我家。我们坐在客厅里，看了完整电影，还准备了爆米花和饮料。故事温暖又有趣，我们笑了很多次。看完电影后，我们又聊了一会儿各自的家人。那是一个简单的晚上，但每个人看起来都很放松、很开心。",
                   "highlights": [
                     "film night",
                     "last Saturday",
@@ -10903,7 +10903,7 @@ window.IELTS_DATA = {
                 },
                 "body": {
                   "text": "Well, it's hard to choose a gift. There are a lot of options, like clothes or shoes. But the first one that comes to my mind would be a Xiaomi smart watch for Alex. We met at work six years ago, and he once gave me a pair of wireless headphones. Now I want to return his kindness with a useful gift. When I choose a gift, I think about his needs first. Alex often misses important messages, so a watch could remind him to check them, and it could also help him check his health. There are white and black ones, and I would choose the black one. I would compare a few models and pick one at a reasonable price.",
-                  "translation": "嗯，挑礼物不容易，选择很多，比如衣服或鞋子。但我首先想到的是给 Alex 买一块小米智能手表。我们六年前在工作中认识，他以前送过我一对无线耳机。现在我想用一件实用的礼物回报他的好意。我挑礼物时会先考虑对方的需求。Alex 经常漏看重要消息，所以智能手表可以提醒他查看，也能帮他了解健康状况。手表有白色和黑色，我会选黑色，因为看起来很酷。我会比较几个型号，选一块价格合理的。我想 Alex 会喜欢，因为他每天都能用得上。",
+                  "translation": "嗯，挑礼物不容易，选择很多，比如衣服或鞋子。但我首先想到的是给 Alex 买一块小米智能手表。我们六年前在工作中认识，他以前送过我一对无线耳机。现在我想用一件实用的礼物回报他的好意。我挑礼物时会先考虑对方的需求。Alex 经常漏看重要消息，所以智能手表可以提醒他查看，也能帮他了解健康状况。手表有白色和黑色，我会选黑色。我会比较几个型号，选一块价格合理的。",
                   "highlights": [
                     "Xiaomi smart watch",
                     "Alex",
@@ -11055,7 +11055,7 @@ window.IELTS_DATA = {
                 },
                 "body": {
                   "text": "Well, I have had a few good shopping experiences. But the first one that comes to my mind would be a visit to a Xiaomi shop. I went to the shop near my office last month to buy a smart watch as a gift for my friend Alex. A shop assistant asked about my budget first, compared two watches, explained the main functions simply and set up the app for me. The shop was clean and bright, and the staff were friendly. He did not push the expensive one. There were white and black watches, and I chose the black one because it looked cool. In the end, I bought the watch at a reasonable price. Alex liked it because it showed work reminders and checked his health. I felt respected and pleased with the service.",
-                  "translation": "嗯，我有过几次不错的购物经历。但我首先想到的是一家小米店。上个月我去办公室附近的那家店，给朋友 Alex 买一块智能手表当礼物。店员先问了我的预算，比较了两块手表，简单解释了主要功能，还帮我设置好应用。他没有强推贵的那款。手表有白色和黑色，我选了黑色，因为看起来很酷。最后我用合理的价格买下了手表。Alex 很喜欢，因为它能显示工作提醒，还能检查健康。我觉得受到尊重，对这次服务很满意。",
+                  "translation": "嗯，我有过几次不错的购物经历。但我首先想到的是一家小米店。上个月我去办公室附近的那家店，给朋友 Alex 买一块智能手表当礼物。店员先问了我的预算，比较了两块手表，简单解释了主要功能，还帮我设置好应用。他没有强推贵的那款。店里干净明亮，店员也很友好。手表有白色和黑色，我选了黑色，因为看起来很酷。最后我用合理的价格买下了手表。Alex 很喜欢，因为它能显示工作提醒，还能检查健康。我觉得受到尊重，对这次服务很满意。",
                   "highlights": [
                     "a Xiaomi shop",
                     "last month",
@@ -11711,7 +11711,7 @@ window.IELTS_DATA = {
                 },
                 "body": {
                   "text": "Well, I know a few older people I can learn from. But the first one that comes to my mind would be my colleague Alex. I met him six years ago when I started my first job as a software engineer. He is eight years older and became my mentor. We have worked together ever since. He patiently taught me how our team worked, and we often discuss problems during lunch. I like working with him because he explains things simply. Last September, just before we released a learning app, it became very slow and some lessons could not open. Alex stayed calm and suggested releasing it in stages, so we fixed the problems and released a stable version in October.",
-                  "translation": "嗯，我认识几位值得我学习的年长者。但我首先想到的是我的同事 Alex。我六年前入职第一份软件工程师工作时认识了他。他比我大八岁，成了我的导师。从那以后，我们一直一起开发和测试软件。他耐心地教我熟悉团队的工作方式，我们经常一起吃午饭时讨论技术问题、分享想法。我喜欢和他共事，因为他解释事情简单明了，从不会让我觉得自己很笨。去年九月，就在我们发布学生学习应用之前，应用变得很卡，一些课程打不开。会上 Alex 保持冷静，建议分阶段发布。我们采纳了他的建议，收集反馈、修复剩余问题，十月发布了稳定版本。那次经历让我更加敬佩他。",
+                  "translation": "嗯，我认识几位值得我学习的年长者。但我首先想到的是我的同事 Alex。我六年前入职第一份软件工程师工作时认识了他。他比我大八岁，成了我的导师。从那以后，我们一直一起工作。他耐心地教我熟悉团队的工作方式，我们经常在午饭时讨论问题。我喜欢和他共事，因为他解释事情简单明了。去年九月，就在我们发布学生学习应用之前，应用变得很卡，一些课程打不开。Alex 保持冷静，建议分阶段发布，所以我们修复了问题，十月发布了稳定版本。",
                   "highlights": [
                     "colleague Alex",
                     "six years ago",
@@ -11977,7 +11977,7 @@ window.IELTS_DATA = {
                 "focus": "按丢失、寻找、找回、感受的顺序讲清楚，并说明物品对我为什么重要。",
                 "body": {
                   "text": "Well, I have forgotten a few things when I was in a hurry. But the first one that comes to my mind would be my backpack in a cafe. It happened last month, when I was studying English there. When I left in a hurry, I picked up my phone but left my bag on the chair, and I only noticed it at the underground station. My notes and earphones were inside, so I felt worried. I went straight back to the cafe. A staff member had found the bag and kept it behind the counter. I told her what was inside, and she gave it back to me. I was very relieved, and since then I always check my seat before I leave.",
-                  "translation": "嗯，我匆忙时忘过几样东西。但我首先想到的是落在咖啡馆的背包。事情发生在上个月，我在那里学英语，待了大约一个小时。走的时候我很急，拿起了手机，却把包落在椅子上。到了地铁站我才发现。笔记和耳机都在里面，所以我很担心。我直接走回咖啡馆。一位店员已经找到了包，收在柜台后面。我告诉她里面有什么，她就把包还给了我。我非常安心，因为把这些笔记重做一遍要花很多时间。从那以后，我离开一个地方前都会检查自己的座位。",
+                  "translation": "嗯，我匆忙时忘过几样东西。但我首先想到的是落在咖啡馆的背包。事情发生在上个月，我在那里学英语。走的时候我很急，拿起了手机，却把包落在椅子上。到了地铁站我才发现。笔记和耳机都在里面，所以我很担心。我直接走回咖啡馆。一位店员已经找到了包，收在柜台后面。我告诉她里面有什么，她就把包还给了我。我非常安心，从那以后，我离开一个地方前都会检查自己的座位。",
                   "highlights": [
                     "backpack in a cafe",
                     "last month",
@@ -12214,7 +12214,7 @@ window.IELTS_DATA = {
                 },
                 "body": {
                   "text": "Well, I have saved money for a few things. But the first one that comes to my mind would be a smart watch. It was the first expensive thing I bought with my own savings, and I wanted it for meeting reminders and to track my steps and sleep. It cost about two thousand yuan, so I decided to save a fixed amount each month instead. For four months, I ordered less takeaway food, made coffee at home and moved the extra money into a separate account. Sometimes I wanted to spend the money on small things, but checking my progress helped me continue. In the end, I bought it without borrowing money and felt proud. I reached my goal by saving a little every month.",
-                  "translation": "嗯，我为几样东西存过钱。但我首先想到的是一块智能手表。它对我很特别，因为这是我第一次完全靠自己一点点存下的钱买到一件较贵的物品。我想用它接收会议提醒，记录步数和睡眠。不过，它大约要两千元，马上购买会占掉太多当月预算。所以我决定每月固定存一笔钱。连续四个月，我少点外卖，在家做咖啡，把省下的钱转进一个单独的账户。有时我想拿这些钱买些小东西，但看看自己的存钱进度，又能继续坚持。最后，我不用借钱就攒够了买手表的钱。戴上它时，我感到自豪又兴奋。它提醒我，持续做一点小小的努力，也能帮助自己实现目标。我现在仍然每天使用它，也因为是自己攒钱买的而更加珍惜它。",
+                  "translation": "嗯，我为几样东西存过钱。但我首先想到的是一块智能手表。这是我第一件用自己的存款买的贵东西，我想用它接收会议提醒，记录步数和睡眠。它大约要两千元，所以我决定改成每月固定存一笔钱。连续四个月，我少点外卖，在家做咖啡，把省下的钱转进一个单独的账户。有时我想拿这些钱买些小东西，但看看自己的存钱进度，又能继续坚持。最后，我不用借钱就买下了它，觉得很自豪。我靠每个月存一点钱达到了目标。",
                   "highlights": [
                     "smart watch",
                     "meeting reminders",
@@ -12577,7 +12577,7 @@ window.IELTS_DATA = {
                 ],
                 "body": {
                   "text": "Well, I have changed a few important decisions at work. But the first one that comes to my mind would be our release plan. It happened last September. My original decision was to release a learning app to all students at the end of the month, but during the final test it became slow and some lessons could not open. We held a meeting, and Alex suggested releasing it in stages. After listening to him and the team, I changed my decision: a small group of students would use it first, and we would collect their feedback and fix the problems. At first I was disappointed about the delay, but the small test went well. In the end, the October release worked smoothly, and the students could use the lessons normally.",
-                  "translation": "嗯，我在工作中改变过几个重要决定。但我首先想到的是我们的发布计划。那是去年九月。我原本的决定是在月底向所有学生发布这款学习应用。然而在最终测试时，应用变得很卡，一些课程打不开。我们开了会，Alex 建议分阶段发布。听了他的和团队的意见后，我改变了决定：先让一小群学生使用，收集反馈并修复问题，完整版本十月再上线。一开始我对延期有点失望，但小范围测试很顺利。最后，十月的发布运行平稳，学生也能正常使用课程了。",
+                  "translation": "嗯，我在工作中改变过几个重要决定。但我首先想到的是我们的发布计划。那是去年九月。我原本的决定是在月底向所有学生发布这款学习应用。然而在最终测试时，应用变得很卡，一些课程打不开。我们开了会，Alex 建议分阶段发布。听了他的意见和团队的想法后，我改变了决定：先让一小群学生使用，收集他们的反馈并修复问题。一开始我对延期有点失望，但小范围测试很顺利。最后，十月的发布运行平稳，学生也能正常使用课程了。",
                   "highlights": [
                     "important decisions",
                     "learning app",
@@ -14897,7 +14897,7 @@ window.IELTS_DATA = {
                 "storyTitle": "在家看雷军的访谈",
                 "body": {
                   "text": "Well, I have watched a few interviews with famous people. But the first one that comes to my mind would be an interview with Lei Jun. The interviewer asked him about his early working life, the mistakes he had made and how he worked with his team. He used simple examples and spoke openly about difficult moments. One part I found useful was about listening to others before making an important decision, which reminded me to be more open to suggestions at work. I watched it at home one evening last month, while looking for something interesting to watch. In the end, I felt encouraged, and I shared the video with a colleague.",
-                  "translation": "嗯，我看过几位名人的访谈。但我首先想到的是雷军的一段访谈。他是中国一位知名企业家。上个月的一个晚上，下班后我在家看了这段采访。当时我坐在沙发上，想找点有趣的内容，就发现了这个视频。主持人问了他早期的工作经历、犯过的错误，以及怎样和团队合作。一开始，我以为会是一大段产品讨论，所以不确定自己会不会看完。不过，他用了简单的例子，也坦诚地谈到了困难的时候。有一部分我觉得很有用，讲的是做重要决定前先听别人的意见。作为软件工程师，我有时会卡在一个问题上，却忘记向同事询问想法。他的解释提醒我要更有耐心，也要更愿意接受建议。最后，我感到受到鼓舞，因为采访展示了成功背后的努力。我把视频分享给一位同事，第二天我们还聊到了它。",
+                  "translation": "嗯，我看过几段名人的访谈。但我首先想到的是雷军的一段访谈。主持人问了他早期的工作经历、犯过的错误，以及他怎样和团队合作。他用了简单的例子，也坦诚地谈了困难的时候。我觉得有一段很有用，讲的是做重要决定前先听别人的意见，这提醒我在工作中要更愿意接受建议。上个月的一个晚上，我在家找点有趣的东西看，就看了这段访谈。最后，我感到受到鼓舞，还把视频分享给了一位同事。",
                   "highlights": [
                     "an interview with Lei Jun",
                     "his early working life",
@@ -15082,7 +15082,7 @@ window.IELTS_DATA = {
                     "However, during the final test, the",
                     "I decided to release it in"
                   ],
-                  "translation": "嗯，我在工作中做过几个重要决定。但我首先想到的是改变我们的发布计划。那是去年九月。我的团队原本计划在月底向所有学生发布这款应用。然而在最终测试时，应用变得很卡，一些课程打不开。我们开了会，我必须决定是按时发布还是改变计划。Alex 和团队分享了他们的想法，我也认真听了。但最终的决定是我做的，因为发布由我负责。我决定分阶段发布：先让一小群学生使用，收集他们的反馈，十月再全面发布。说实话，这个决定不容易，因为团队已经辛苦了好几个月。但保护学生比守住原来的日期更重要。"
+                  "translation": "嗯，我在工作中做过几个重要决定。但我首先想到的是改变我们的发布计划。那是去年九月。我的团队原本计划在月底向所有学生发布这款应用。然而在最终测试时，应用变得很卡，一些课程打不开。我们开了会，我必须决定是按时发布还是改变计划。Alex 和团队分享了他们的想法，我也认真听了。但最终的决定是我做的，因为发布由我负责。我决定分阶段发布：先让一小群学生使用，收集他们的反馈，十月再全面发布。说实话，这个决定不容易，因为团队已经辛苦了好几个月。但让应用保持稳定比守住原来的日期更重要。"
                 },
                 "pointsLabel": "Why I was happy with the result＋Money / Emotion / Relationship",
                 "reasons": [
