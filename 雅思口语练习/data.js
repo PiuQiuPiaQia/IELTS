@@ -3210,7 +3210,8 @@ window.IELTS_DATA = {
                         "both quite busy",
                         "wanted to sit down again",
                         "took some effort"
-                      ]
+                      ],
+                      "memoryEn": "Problems: quite busy → wanted to sit down → took some effort"
                     },
                     {
                       "text": "Secondly, it was hard to keep the habit on rainy days. Sometimes he wanted to skip the walk, so we kept it short. To be honest, a short walk was still much better than nothing.",
@@ -3220,7 +3221,8 @@ window.IELTS_DATA = {
                         "rainy days",
                         "wanted to skip the walk",
                         "better than nothing"
-                      ]
+                      ],
+                      "memoryEn": "Problems: on rainy days → wanted to skip → better than nothing"
                     },
                     {
                       "text": "What's more, the change took time, so I had to be patient. I reminded him to take breaks, and doing it together made the difficult days much easier. That is why we both still do it now. So I think friendship is not only about talking; it is also about helping each other build better habits.",
@@ -3230,7 +3232,8 @@ window.IELTS_DATA = {
                         "had to be patient",
                         "doing it together",
                         "still do it now"
-                      ]
+                      ],
+                      "memoryEn": "Relationship: be patient → doing it together → still do it now"
                     }
                   ],
                   "mode": "reasons"
@@ -3248,7 +3251,13 @@ window.IELTS_DATA = {
                     "2 · 下雨想跳过 → 把散步缩短 → 仍然一起走",
                     "3 · 改变需要时间 → 耐心陪着＋提醒 → 一起做更容易坚持"
                   ]
-                }
+                },
+                "cuePointsNotesEn": [
+                  "my colleague Li Hua；months ago ; working on a busy project",
+                  "he felt tired after work；a good friend ; needed to move more",
+                  "suggested taking a short walk；At first ; we walked for ten minutes；chose a longer route ; reminded each other；keeping the habit ; kept the walk short",
+                  ""
+                ]
               },
               {
                 "id": "p2-feishu-popular-person",
@@ -3315,7 +3324,8 @@ window.IELTS_DATA = {
                         "listens carefully",
                         "quite stressful",
                         "never rushes you"
-                      ]
+                      ],
+                      "memoryEn": "Emotion: listens carefully → someone calm like Alex → never rushes you"
                     },
                     {
                       "text": "Secondly, he is always willing to help with difficult work. He explains things step by step instead of simply taking over, so we save time and learn something useful at the same time. That is why people trust him.",
@@ -3325,7 +3335,8 @@ window.IELTS_DATA = {
                         "willing to help",
                         "step by step",
                         "save time and learn something useful"
-                      ]
+                      ],
+                      "memoryEn": "Learning: explains things step by step → save time → trust him"
                     },
                     {
                       "text": "What's more, he makes new colleagues feel welcome. He invites them to lunch and answers their questions patiently, even when the questions are very simple. I think these small things help him build good relationships with everyone. I think that is important in any workplace, because people work better when they feel supported.",
@@ -3335,7 +3346,8 @@ window.IELTS_DATA = {
                         "makes new colleagues feel welcome",
                         "invites them to lunch",
                         "build good relationships"
-                      ]
+                      ],
+                      "memoryEn": "Relationship: feel welcome → answers their questions patiently → build good relationships"
                     }
                   ],
                   "mode": "reasons"
@@ -3353,7 +3365,13 @@ window.IELTS_DATA = {
                     "2 · Time / Learning：逐步解释 → 省时间＋学会方法",
                     "3 · Relationship：邀请新同事＋耐心回答 → 建立信任"
                   ]
-                }
+                },
+                "cuePointsNotesEn": [
+                  "my colleague Alex",
+                  "friendly and calm ; listens carefully；step by step ; instead of taking over；kind to new staff ; invites them to lunch",
+                  "see him at work ; lunch breaks",
+                  ""
+                ]
               },
               {
                 "id": "p2-feishu-admired-sportsperson",
@@ -3428,7 +3446,8 @@ window.IELTS_DATA = {
                         "shows the value of hard work",
                         "talent alone is not enough",
                         "keep practising"
-                      ]
+                      ],
+                      "memoryEn": "Emotion: value of hard work → talent alone is not enough → keep practising"
                     },
                     {
                       "text": "Secondly, his achievements are really impressive. He played in the NBA, represented China and entered the Basketball Hall of Fame in 2016, but he never seems proud. To be honest, that is quite rare.",
@@ -3438,7 +3457,8 @@ window.IELTS_DATA = {
                         "his achievements are really impressive",
                         "entered the Basketball Hall of Fame",
                         "never seems proud"
-                      ]
+                      ],
+                      "memoryEn": "Achievement: played in the NBA → never seems proud → quite rare"
                     },
                     {
                       "text": "What's more, he seems calm and friendly in interviews, and he still helps young players in China. I like people who are successful and still friendly. I think that is a good example for young people.",
@@ -3448,7 +3468,8 @@ window.IELTS_DATA = {
                         "calm and friendly in interviews",
                         "helps young players",
                         "a good example for young people"
-                      ]
+                      ],
+                      "memoryEn": "People: calm and friendly → helps young players → still friendly"
                     }
                   ],
                   "mode": "reasons"
@@ -3467,7 +3488,14 @@ window.IELTS_DATA = {
                     "成就：NBA＋代表中国＋名人堂 → 依然谦虚 → 很难得",
                     "Personality：沉稳＋友好＋帮年轻人 → 成功也平易近人"
                   ]
-                }
+                },
+                "cuePointsNotesEn": [
+                  "Yao Ming ; a former Chinese basketball player",
+                  "basketball games on television ; followed him since then；he is very tall ; know his name",
+                  "never met him in person；calm and thoughtful ; friendly and easy-going",
+                  "played in the NBA ; represented China；In 2016 ; Basketball Hall of Fame；After he retired ; helped young players",
+                  ""
+                ]
               },
               {
                 "isNew": true,
@@ -3595,7 +3623,8 @@ window.IELTS_DATA = {
                         "never felt lost",
                         "only a child"
                       ],
-                      "translation": "首先，他很有耐心，把歌拆成小步骤，所以我在课上从没觉得跟不上。你知道，我那时只是个孩子，这让我觉得很安心。"
+                      "translation": "首先，他很有耐心，把歌拆成小步骤，所以我在课上从没觉得跟不上。你知道，我那时只是个孩子，这让我觉得很安心。",
+                      "memoryEn": "Learning: broke the song → never felt lost → feel safe"
                     },
                     {
                       "text": "Secondly, he used music and simple actions, which made the lesson enjoyable and easy to remember. I could enjoy the lesson instead of worrying about every new word, and that made a big difference.",
@@ -3605,7 +3634,8 @@ window.IELTS_DATA = {
                         "enjoyable and easy to remember",
                         "made a big difference"
                       ],
-                      "translation": "其次，他用音乐和简单动作，让这节课又有趣又好记。我可以享受课堂，而不是为每个生词担心，这差别很大。"
+                      "translation": "其次，他用音乐和简单动作，让这节课又有趣又好记。我可以享受课堂，而不是为每个生词担心，这差别很大。",
+                      "memoryEn": "Emotion: simple actions → easy to remember → every new word"
                     },
                     {
                       "text": "What's more, he helped me sing the whole song and become more confident about using English. After that, I was much more willing to speak in front of my classmates. So I still remember that lesson today. I think that is important for young learners, because confidence makes them keep trying.",
@@ -3615,7 +3645,8 @@ window.IELTS_DATA = {
                         "more confident",
                         "speak in front of my classmates"
                       ],
-                      "translation": "而且，他帮我唱完整首歌，也让我对用英语更有信心。从那以后，我更愿意在同学面前开口。所以那节课我到现在还记得。我觉得这对小孩子很重要，因为有信心才会继续尝试。"
+                      "translation": "而且，他帮我唱完整首歌，也让我对用英语更有信心。从那以后，我更愿意在同学面前开口。所以那节课我到现在还记得。我觉得这对小孩子很重要，因为有信心才会继续尝试。",
+                      "memoryEn": "Emotion: sing the whole song → more confident → willing to speak"
                     }
                   ],
                   "mode": "feelings"
@@ -3630,6 +3661,12 @@ window.IELTS_DATA = {
                   "小学时的外教 Mr Brown",
                   "他教我们唱一首英文歌",
                   "一开始单词又快又陌生，我有点紧张；他把歌放好几遍、分成短句，让我们小组练，还用简单动作解释意思，耐心纠正发音",
+                  ""
+                ],
+                "cuePointsNotesEn": [
+                  "Mr Brown ; a foreign English teacher",
+                  "sing an English song",
+                  "I was nervous ; fast and unfamiliar；divided it into short lines ; simple actions",
                   ""
                 ]
               },
@@ -3763,7 +3800,8 @@ window.IELTS_DATA = {
                         "curious about old cities",
                         "something interesting to share",
                         "learn a lot"
-                      ]
+                      ],
+                      "memoryEn": "Learning: curious about old cities → enjoy spending time with him"
                     },
                     {
                       "text": "Secondly, he worked hard to learn Japanese even when it was difficult. You know, he had little free time, but he practised every day, and his trip to Japan made me really proud of him.",
@@ -3773,7 +3811,8 @@ window.IELTS_DATA = {
                         "worked hard to learn Japanese",
                         "practised every day",
                         "proud of him"
-                      ]
+                      ],
+                      "memoryEn": "Emotion: worked hard → practised every day → proud of him"
                     },
                     {
                       "text": "What's more, he often shares stories with me. To be honest, a simple conversation can teach me something new and bring us closer, so I always look forward to talking with him. It costs nothing but means a lot. I think that is important in a friendship, because we can teach each other something new.",
@@ -3783,7 +3822,8 @@ window.IELTS_DATA = {
                         "shares stories with me",
                         "bring us closer",
                         "costs nothing but means a lot"
-                      ]
+                      ],
+                      "memoryEn": "Relationship: shares stories with me → bring us closer → costs nothing"
                     }
                   ],
                   "mode": "feelings"
@@ -3803,6 +3843,12 @@ window.IELTS_DATA = {
                   "高中同学李华",
                   "看简单的历史书、纪录片，还去本地博物馆；他常把有趣的历史故事讲给我听",
                   "他觉得历史能解释今天的城市和文化为什么不同；喜欢日本老城的故事，为了解那里的历史开始学日语",
+                  ""
+                ],
+                "cuePointsNotesEn": [
+                  "my high-school classmate Li Hua",
+                  "reads history books ; visits the local museum；shares interesting stories with me",
+                  "history helps him understand ; cultures are different today；old Japanese cities ; decided to learn Japanese",
                   ""
                 ]
               },
@@ -3930,7 +3976,8 @@ window.IELTS_DATA = {
                         "bring them all back",
                         "a lovely feeling"
                       ],
-                      "translation": "首先，她的照片帮我们在很久以后还记得旅行和普通的日子。你知道，小细节很容易忘，但一张照片就能把它们都带回来。这种感觉很好。"
+                      "translation": "首先，她的照片帮我们在很久以后还记得旅行和普通的日子。你知道，小细节很容易忘，但一张照片就能把它们都带回来。这种感觉很好。",
+                      "memoryEn": "Emotion: remember trips → easy to forget → bring them all back"
                     },
                     {
                       "text": "Secondly, she normally uses her phone instead of buying an expensive camera, and she shares the pictures online without paying to print them. I think that is a practical way to enjoy a hobby.",
@@ -3940,7 +3987,8 @@ window.IELTS_DATA = {
                         "without paying to print them",
                         "a practical way"
                       ],
-                      "translation": "其次，她通常用手机拍，而不是买昂贵的相机；她也在网上分享照片，不用花钱冲印。我觉得这是很实用的爱好方式。"
+                      "translation": "其次，她通常用手机拍，而不是买昂贵的相机；她也在网上分享照片，不用花钱冲印。我觉得这是很实用的爱好方式。",
+                      "memoryEn": "Money: uses her phone → without paying to print → practical way"
                     },
                     {
                       "text": "What's more, sharing the pictures gives our families something pleasant to talk about and keeps us close. We can talk about the same trip even when we are far apart. So it brings everyone together. I think photos are important for a family, because they keep our memories alive.",
@@ -3950,7 +3998,8 @@ window.IELTS_DATA = {
                         "keeps us close",
                         "brings everyone together"
                       ],
-                      "translation": "而且，分享照片给家人提供了愉快的话题，也让我们保持亲近。即使相隔很远，我们也能聊同一段旅行。所以它把大家聚在一起。我觉得照片对家庭很重要，因为它们让回忆一直活着。"
+                      "translation": "而且，分享照片给家人提供了愉快的话题，也让我们保持亲近。即使相隔很远，我们也能聊同一段旅行。所以它把大家聚在一起。我觉得照片对家庭很重要，因为它们让回忆一直活着。",
+                      "memoryEn": "Relationship: keeps us close → the same trip → far apart"
                     }
                   ],
                   "mode": "feelings"
@@ -3965,6 +4014,12 @@ window.IELTS_DATA = {
                   "我女朋友",
                   "大约十年前在大学认识（同一个学习小组），很快就成了好朋友；她从那时起就喜欢拍照",
                   "现在是工程师，空闲时爱旅行、刷社交媒体看好看的图；常用手机拍：旅行、逛公园、尝美食都会拍",
+                  ""
+                ],
+                "cuePointsNotesEn": [
+                  "my girlfriend",
+                  "met at university ; soon became good friends；liked photography since then",
+                  "works as an engineer ; scrolling through social media；takes photos with her phone",
                   ""
                 ]
               },
@@ -4081,7 +4136,8 @@ window.IELTS_DATA = {
                         "measured the piece again",
                         "the house was strong"
                       ],
-                      "translation": "首先，屋顶掉下来时他没有放弃。他重新量了那块纸板，剪了一块新的，更仔细地粘好，最后房子很结实。"
+                      "translation": "首先，屋顶掉下来时他没有放弃。他重新量了那块纸板，剪了一块新的，更仔细地粘好，最后房子很结实。",
+                      "memoryEn": "Emotion: roof fell off → did not give up → was strong"
                     },
                     {
                       "text": "Secondly, being good at handcrafts can save money. Li Hua can make simple toys by himself instead of buying them. You know, small savings like this can be quite useful in daily life.",
@@ -4091,7 +4147,8 @@ window.IELTS_DATA = {
                         "make simple toys by himself",
                         "useful in daily life"
                       ],
-                      "translation": "其次，擅长手工能省钱。李华可以自己做简单的玩具，而不用买。你知道，这样的小节省在日常生活中挺有用的。"
+                      "translation": "其次，擅长手工能省钱。李华可以自己做简单的玩具，而不用买。你知道，这样的小节省在日常生活中挺有用的。",
+                      "memoryEn": "Money: make simple toys → instead of buying them → small savings"
                     },
                     {
                       "text": "What's more, he can make a simple toy as a personal gift. To be honest, I would value something he made himself much more than something he bought from a shop. That is why I admire his skill. I think handmade gifts matter more than things we buy in a shop.",
@@ -4101,7 +4158,8 @@ window.IELTS_DATA = {
                         "something he made himself",
                         "admire his skill"
                       ],
-                      "translation": "而且，他能亲手做小玩具当礼物。说实话，比起商店买的东西，我会更珍惜他亲手做的。所以我很佩服他的手艺。我觉得亲手做的礼物比商店买的东西更有意义。"
+                      "translation": "而且，他能亲手做小玩具当礼物。说实话，比起商店买的东西，我会更珍惜他亲手做的。所以我很佩服他的手艺。我觉得亲手做的礼物比商店买的东西更有意义。",
+                      "memoryEn": "Relationship: personal gift → value something he made → admire his skill"
                     }
                   ],
                   "mode": "feelings"
@@ -4116,6 +4174,12 @@ window.IELTS_DATA = {
                   "高中同学李华，喜欢在家做小模型",
                   "上个月他用纸板做了一座小房子",
                   "我觉得很难，他却拆成量、剪、粘三步；后来屋顶掉了，因为一块纸板太短，他没放弃，重新量、剪、粘；最后房子整齐又牢固，放在书桌上",
+                  ""
+                ],
+                "cuePointsNotesEn": [
+                  "high-school classmate Li Hua ; small models at home",
+                  "a small house from cardboard",
+                  "broke it into three steps；the roof fell off ; did not give up；In the end ; looked neat and strong",
                   ""
                 ]
               },
@@ -4166,7 +4230,8 @@ window.IELTS_DATA = {
                         "stop after a few weeks"
                       ],
                       "translation": "一开始，我觉得他不一定能成功，因为日语很难，他的空闲时间也少。说实话，我以为他几周后就会放弃，就像很多人那样。",
-                      "memory": "At first：日语难＋空闲少 → 以为他几周就停"
+                      "memory": "At first：日语难＋空闲少 → 以为他几周就停",
+                      "memoryEn": "Time: Japanese was difficult → little free time → a few weeks"
                     },
                     {
                       "text": "However, he kept correcting his mistakes and practising every day. His patience and hard work helped him overcome each difficulty step by step, and he never complained about it. That really changed my mind about him.",
@@ -4176,7 +4241,8 @@ window.IELTS_DATA = {
                         "step by step"
                       ],
                       "translation": "然而，他一直改错、每天练习。他的耐心和努力帮助他一步步克服困难，而且他从不抱怨。这真的改变了我对他的看法。",
-                      "memory": "However：改错＋每天练 → 一步步克服困难"
+                      "memory": "However：改错＋每天练 → 一步步克服困难",
+                      "memoryEn": "Learning: correcting his mistakes → practising every day → step by step"
                     },
                     {
                       "text": "Now he can speak Japanese well, so I really admire him. You know, his experience shows me that daily practice works, and I hope I can learn from him in the future. I think that is important for anyone who wants to learn something new.",
@@ -4186,7 +4252,8 @@ window.IELTS_DATA = {
                         "learn from him"
                       ],
                       "translation": "现在他日语说得很好，所以我很钦佩他。你知道，他的经历让我看到每天练习是有效的，以后我也希望向他学习。我觉得这对任何想学新东西的人都很重要。",
-                      "memory": "Now：日语说得好 → 我钦佩 → 以后向他学习"
+                      "memory": "Now：日语说得好 → 我钦佩 → 以后向他学习",
+                      "memoryEn": "Achievement: speak Japanese well → really admire him → learn from him"
                     }
                   ],
                   "mode": "feelings"
@@ -4232,6 +4299,12 @@ window.IELTS_DATA = {
                   "高中同学李华，高中第一天认识",
                   "他想学日语，因为希望去日本旅行；但生词难记、作业又多，空闲时间很少；他只会几个基本词，还总犯同样的错",
                   "他没有放弃：把生词写在小本子上、看简单的日语视频、问老师；我们有时午休一起练；几个月后能简单对话，上个月去日本点餐、问路——我觉得他成功是因为每天练一点、从不放弃",
+                  ""
+                ],
+                "cuePointsNotesEn": [
+                  "my classmate Li Hua ; the first day",
+                  "learn Japanese ; travel to Japan；new words ; a lot of homework；a few basic words",
+                  "did not give up ; a small notebook；practised a little every day；a short conversation ; ordered food in Japanese",
                   ""
                 ]
               }
@@ -4326,7 +4399,8 @@ window.IELTS_DATA = {
                         "stop after a few weeks"
                       ],
                       "translation": "一开始，我觉得他不一定能成功，因为日语很难，他的空闲时间也少。说实话，我以为他几周后就会放弃，就像很多人那样。",
-                      "memory": "At first：日语难＋空闲少 → 以为他几周就停"
+                      "memory": "At first：日语难＋空闲少 → 以为他几周就停",
+                      "memoryEn": "Time: Japanese was difficult → little free time → a few weeks"
                     },
                     {
                       "text": "However, he kept correcting his mistakes and practising every day. His patience and hard work helped him overcome each difficulty step by step, and he never complained about it. That really changed my mind about him.",
@@ -4336,7 +4410,8 @@ window.IELTS_DATA = {
                         "step by step"
                       ],
                       "translation": "然而，他一直改错、每天练习。他的耐心和努力帮助他一步步克服困难，而且他从不抱怨。这真的改变了我对他的看法。",
-                      "memory": "However：改错＋每天练 → 一步步克服困难"
+                      "memory": "However：改错＋每天练 → 一步步克服困难",
+                      "memoryEn": "Learning: correcting his mistakes → practising every day → step by step"
                     },
                     {
                       "text": "Now he can speak Japanese well, so I admire him and hope to learn from him. You know, his progress shows me that daily practice really works, and I want to try the same way. So he is a good example for me. I think that is important for anyone who wants to learn something new.",
@@ -4346,7 +4421,8 @@ window.IELTS_DATA = {
                         "a good example"
                       ],
                       "translation": "现在他日语说得很好，所以我很钦佩他，也想向他学习。你知道，他的进步让我看到每天练习真的有效，我也想照着做。所以他是我很好的榜样。我觉得这对任何想学新东西的人都很重要。",
-                      "memory": "Now：日语说得好 → 每天练习有效 → 我的榜样"
+                      "memory": "Now：日语说得好 → 每天练习有效 → 我的榜样",
+                      "memoryEn": "Achievement: speak Japanese well → daily practice really works → good example"
                     }
                   ],
                   "mode": "feelings"
@@ -4371,7 +4447,13 @@ window.IELTS_DATA = {
                 "cuePointsNotes": [
                   "高中同学李华，高中第一天认识",
                   "他想学日语去日本旅行；生词难记＋作业多、空闲少；只会几个基本词，还总犯同样的错",
-                  "他没放弃：生词写进小本子(write notes)、看简单视频、问老师；午休和我一起练；几个月后能简单对话，上个月去日本点餐、问路",
+                  "他没放弃：生词写进小本子(write notes)、看简单视频、问老师；几个月后能简单对话，上个月去日本点餐、问路",
+                  ""
+                ],
+                "cuePointsNotesEn": [
+                  "my classmate Li Hua ; the first day",
+                  "learn Japanese ; travel to Japan；new words ; a lot of homework；a few basic words",
+                  "did not give up ; a small notebook ; watched simple Japanese videos ; asked his teacher for help；hold a short conversation ; asked for directions",
                   ""
                 ]
               },
@@ -4459,7 +4541,8 @@ window.IELTS_DATA = {
                         "might stop"
                       ],
                       "translation": "一开始，我觉得日语很难，他也没时间练。那时我们作业也很多，所以说实话，我以为他可能几周后就会放弃。",
-                      "memory": "At first：日语难＋没时间 → 作业多 → 以为他会停"
+                      "memory": "At first：日语难＋没时间 → 作业多 → 以为他会停",
+                      "memoryEn": "Time: Japanese was difficult → no time to practise → homework at that time"
                     },
                     {
                       "text": "However, he tried his best and showed a real talent for languages. Whenever he made mistakes, he corrected them and kept speaking, so his progress was much faster than I expected. That really surprised me.",
@@ -4469,7 +4552,8 @@ window.IELTS_DATA = {
                         "faster than I expected"
                       ],
                       "translation": "然而，他很努力，也显出了语言天赋。每次犯错，他都会改正后继续说，所以进步比我预想的快得多。这让我很意外。",
-                      "memory": "However：努力＋有天赋 → 犯错就改继续说 → 进步比预想快"
+                      "memory": "However：努力＋有天赋 → 犯错就改继续说 → 进步比预想快",
+                      "memoryEn": "Learning: tried his best → corrected them → faster than I expected"
                     },
                     {
                       "text": "Now he speaks Japanese fluently, and I want to learn from him. His progress shows me that daily practice really works. In the future, I hope to learn another language with him. I think that is important, because a second language can open many doors.",
@@ -4479,7 +4563,8 @@ window.IELTS_DATA = {
                         "learn another language with him"
                       ],
                       "translation": "现在他日语很流利，我想向他学习。他的进步让我看到每天练习真的有效。将来我希望和他一起再学一门语言。我觉得这很重要，因为多一门语言能打开很多机会。",
-                      "memory": "Now：日语流利 → 每天练习有效 → 想一起再学一门"
+                      "memory": "Now：日语流利 → 每天练习有效 → 想一起再学一门",
+                      "memoryEn": "Learning: speaks Japanese fluently → daily practice really works → another language"
                     }
                   ],
                   "mode": "feelings"
@@ -4505,6 +4590,12 @@ window.IELTS_DATA = {
                   "高中第一天认识，他坐我后面，很快成了好朋友",
                   "为了去日本旅行学日语；课后读简单的书、周末看日语视频、问老师；午休和我练，还把生词记在小本子上",
                   "日语：一开始只会几个基本词，几个月后能和老师短对话，后来说得很好，上个月去日本用日语点餐",
+                  ""
+                ],
+                "cuePointsNotesEn": [
+                  "first day of high school ; sat behind me",
+                  "learn Japanese ; travel to Japan；read simple books ; watched Japanese videos；practised together at lunch ; a small notebook",
+                  "short conversations ; ordered food in Japanese",
                   ""
                 ]
               },
@@ -4593,7 +4684,8 @@ window.IELTS_DATA = {
                         "matters a lot"
                       ],
                       "translation": "首先，他父亲是医生，在医院很受尊重，所以李华听过很多工作中有用的故事。你知道，这种影响对年轻人很重要。",
-                      "memory": "影响：爸爸是医生＋受尊重 → 听过很多故事 → 影响很大"
+                      "memory": "影响：爸爸是医生＋受尊重 → 听过很多故事 → 影响很大",
+                      "memoryEn": "People: his father is a doctor → well respected → matters a lot"
                     },
                     {
                       "text": "Secondly, he thinks saving patients is meaningful and gives him a strong sense of achievement. Even helping one person feel better would make him happy, and that is what he wants from a job.",
@@ -4603,7 +4695,8 @@ window.IELTS_DATA = {
                         "what he wants from a job"
                       ],
                       "translation": "其次，他觉得救病人很有意义，能带来很强的成就感。哪怕只让一个人好受些，他也会开心，这就是他想从工作中得到的东西。",
-                      "memory": "Emotion：救病人有意义 → 有成就感 → 帮到一个人也开心"
+                      "memory": "Emotion：救病人有意义 → 有成就感 → 帮到一个人也开心",
+                      "memoryEn": "Emotion: saving patients is meaningful → sense of achievement → make him happy"
                     },
                     {
                       "text": "What's more, the pay is good, so he can live comfortably and take care of his parents in the future. For him, a stable income is part of a good career. So he can have both meaning and money. I think a good salary is important, because a doctor should not worry about money while helping others.",
@@ -4613,7 +4706,8 @@ window.IELTS_DATA = {
                         "both meaning and money"
                       ],
                       "translation": "而且，收入不错，他能生活得舒服，将来也能照顾父母。对他来说，稳定的收入是好职业的一部分。所以他既有意义又有收入。我觉得收入好很重要，因为医生在救人时不该为钱发愁。",
-                      "memory": "Money：收入不错 → 生活舒服＋照顾父母 → 有意义也有钱"
+                      "memory": "Money：收入不错 → 生活舒服＋照顾父母 → 有意义也有钱",
+                      "memoryEn": "Money: the pay is good → live comfortably → meaning and money"
                     }
                   ],
                   "mode": "reasons"
@@ -4634,6 +4728,12 @@ window.IELTS_DATA = {
                   "高中第一天认识，他坐我后面",
                   "高中时他告诉我，想当医生，因为想救人",
                   "为进医学院每天努力读书；假期去爸爸的医院，看医生怎么和病人交流；还参加学校急救课，学了简单急救；现在在医学院，希望明年毕业当医生",
+                  ""
+                ],
+                "cuePointsNotesEn": [
+                  "first day of high school ; sat behind me",
+                  "wanted to be a doctor ; save people's lives",
+                  "read books and studied hard ; medical school；his father's hospital ; doctors talked to patients；joined a first-aid class；studying at medical school ; become a doctor",
                   ""
                 ]
               }
@@ -4723,7 +4823,8 @@ window.IELTS_DATA = {
                         "listens carefully to its users"
                       ],
                       "translation": "首先，产品很受欢迎，所以公司赚钱多、发展快。应用容易使用，公司也会认真听取用户意见。",
-                      "memory": "Money：产品受欢迎 → 赚钱＋发展快 → 听用户意见"
+                      "memory": "Money：产品受欢迎 → 赚钱＋发展快 → 听用户意见",
+                      "memoryEn": "Money: products are popular → makes a lot of money → listens carefully"
                     },
                     {
                       "text": "Secondly, its software helps many people. For example, its study apps can help students improve their grades, and students can study for a few minutes whenever they have free time. That is very convenient for them.",
@@ -4733,7 +4834,8 @@ window.IELTS_DATA = {
                         "very convenient"
                       ],
                       "translation": "其次，软件帮助了很多人。比如学习应用能帮学生提高成绩，学生有空时就能学上几分钟。这对他们很方便。",
-                      "memory": "Learning：学习应用提分 → 有空就能学 → 很方便"
+                      "memory": "Learning：学习应用提分 → 有空就能学 → 很方便",
+                      "memoryEn": "Learning: improve their grades → a few minutes → very convenient"
                     },
                     {
                       "text": "What's more, the company donates money to society and helps people who cannot afford enough food. Because of this, people trust the business and Li Hua feels proud of it. So success here is not only about money. I think a good company should give something back to society.",
@@ -4743,7 +4845,8 @@ window.IELTS_DATA = {
                         "not only about money"
                       ],
                       "translation": "此外，公司会向社会捐款，帮助买不起足够食物的人。因此，人们信任这家公司，李华也为它骄傲。所以这里的成功不只是钱。我觉得好公司应该回馈社会。",
-                      "memory": "Relationship：捐款帮人 → 大家信任 → 成功不只是钱"
+                      "memory": "Relationship：捐款帮人 → 大家信任 → 成功不只是钱",
+                      "memoryEn": "Relationship: donates money → people trust the business → not only about money"
                     }
                   ],
                   "mode": "reasons"
@@ -4770,6 +4873,13 @@ window.IELTS_DATA = {
                   "高中认识",
                   "创业是因为想做实用的应用、也想为自己工作；六年前只有一间小办公室、没有员工，大部分活自己干：白天写程序、晚上回用户消息；新应用出问题就一个个修，工作很辛苦",
                   "做学习软件和办公应用；三年后公司发展很快，很多人加入；去年有好几所学校开始用他的学习应用",
+                  ""
+                ],
+                "cuePointsNotesEn": [
+                  "my friend Li Hua ; a software company",
+                  "We met in high school",
+                  "make useful apps ; work for himself；no staff ; wrote programs during the day；fixed problems one by one",
+                  "study software and office apps；the business grew quickly；several schools started using",
                   ""
                 ]
               },
@@ -4852,7 +4962,8 @@ window.IELTS_DATA = {
                         "improves the apps every month"
                       ],
                       "translation": "首先，产品受欢迎，所以公司赚钱多、发展快。很多用户会说出自己的需求，团队每月都会改进应用。",
-                      "memory": "Money：产品受欢迎 → 赚钱发展快 → 每月改进"
+                      "memory": "Money：产品受欢迎 → 赚钱发展快 → 每月改进",
+                      "memoryEn": "Money: products are popular → makes a lot of money → every month"
                     },
                     {
                       "text": "Secondly, its software helps many people. For example, its study apps can help students improve their grades, and they can watch short lessons and check their answers at home. So the company is useful to ordinary families.",
@@ -4862,7 +4973,8 @@ window.IELTS_DATA = {
                         "useful to ordinary families"
                       ],
                       "translation": "其次，软件帮助了很多人。比如学习应用能帮学生提高成绩，他们在家就能看短课程、检查答案。所以这家公司对普通家庭很有用。",
-                      "memory": "Learning：学习应用提分 → 在家看课查答案 → 对家庭有用"
+                      "memory": "Learning：学习应用提分 → 在家看课查答案 → 对家庭有用",
+                      "memoryEn": "Learning: improve their grades → watch short lessons → ordinary families"
                     },
                     {
                       "text": "What's more, the company donates money to society and helps people who cannot afford enough food. This gives the company a good name and makes Li Hua's work more meaningful. So he is proud of his company. I think that is why so many people want to work for a company like that.",
@@ -4872,7 +4984,8 @@ window.IELTS_DATA = {
                         "proud of his company"
                       ],
                       "translation": "此外，公司会捐款，帮助买不起足够食物的人。这给公司带来好名声，也让李华的工作更有意义。所以他为公司感到自豪。我觉得这就是为什么很多人想去这样的公司工作。",
-                      "memory": "Relationship：捐款 → 好名声＋工作更有意义 → 他自豪"
+                      "memory": "Relationship：捐款 → 好名声＋工作更有意义 → 他自豪",
+                      "memoryEn": "Relationship: donates money → a good name → proud of his company"
                     }
                   ],
                   "mode": "reasons"
@@ -4896,6 +5009,12 @@ window.IELTS_DATA = {
                   "朋友李华",
                   "在这家公司六年：起初是初级工程师，帮资深同事做开发，主要查小问题、写简单代码；重要项目常加班；三年后升为高级工程师；去年他的学习应用被很多本地学校使用；现在带团队设计新软件",
                   "做学习软件和办公应用",
+                  ""
+                ],
+                "cuePointsNotesEn": [
+                  "my friend Li Hua",
+                  "a junior engineer ; checked small problems；stayed late on important projects；became a senior engineer；the study app ; many local schools；leads a team ; designs new software",
+                  "study software and office apps",
                   ""
                 ]
               }
@@ -4989,7 +5108,8 @@ window.IELTS_DATA = {
                         "made me trust him"
                       ],
                       "translation": "首先，他很聪明，经常帮我做功课。你知道，我问简单问题时他从不让我觉得自己笨，这让我很信任他。",
-                      "memory": "Learning：聪明＋帮我功课 → 从不让我难堪 → 我更信任他"
+                      "memory": "Learning：聪明＋帮我功课 → 从不让我难堪 → 我更信任他",
+                      "memoryEn": "Learning: clever → never made me feel stupid → trust him a lot"
                     },
                     {
                       "text": "Secondly, he was funny and his jokes always cheered me up. Even after a difficult school day, we could laugh together on the way home, so I always looked forward to seeing him.",
@@ -4999,7 +5119,8 @@ window.IELTS_DATA = {
                         "looked forward to seeing him"
                       ],
                       "translation": "其次，他很幽默，笑话总能让我开心。即使在学校度过了难熬的一天，回家路上我们也能一起笑，所以我总是期待见到他。",
-                      "memory": "Emotion：幽默 → 难熬的一天也能一起笑 → 期待见他"
+                      "memory": "Emotion：幽默 → 难熬的一天也能一起笑 → 期待见他",
+                      "memoryEn": "Emotion: cheered me up → laugh together → looked forward to seeing him"
                     },
                     {
                       "text": "What's more, he was kind and stayed with me whenever I had a problem. This is why I still trust him and value our long friendship today. So we are still in touch now. I think childhood friendship is special, because you grow up together.",
@@ -5009,7 +5130,8 @@ window.IELTS_DATA = {
                         "still in touch"
                       ],
                       "translation": "此外，他很善良，我有困难时他都在。所以我现在仍然信任他、珍惜这段长久的友谊。我们现在也还保持联系。我觉得童年的友谊很特别，因为你们是一起长大的。",
-                      "memory": "Relationship：困难时陪着我 → 信任＋珍惜友谊 → 现在还联系"
+                      "memory": "Relationship：困难时陪着我 → 信任＋珍惜友谊 → 现在还联系",
+                      "memoryEn": "Relationship: stayed with me → value our long friendship → in touch now"
                     }
                   ],
                   "mode": "reasons"
@@ -5030,6 +5152,12 @@ window.IELTS_DATA = {
                   "李华",
                   "小学第一天认识，他坐我后面；课间聊天，很快就成了好朋友",
                   "放学一起写作业，我不懂数学题时他慢慢讲、教我更简单的办法；周末去附近公园野餐或打篮球；有一天下雨我忘带伞，他把伞分给我，还送我回家",
+                  ""
+                ],
+                "cuePointsNotesEn": [
+                  "Li Hua",
+                  "first day of primary school ; sat behind me；talking during a break ; soon became good friends",
+                  "did our homework together ; explained it slowly；a nearby park ; a picnic or played basketball；forgot my umbrella ; walked me home",
                   ""
                 ]
               },
@@ -5115,7 +5243,8 @@ window.IELTS_DATA = {
                         "something to look forward to"
                       ],
                       "translation": "首先，种植物是她的爱好。她已经退休，这让她开心，也帮她打发空闲时间。看着小种子长成植物，让她有期待。",
-                      "memory": "Emotion：退休种植物 → 有事做＋有期待 → 开心"
+                      "memory": "Emotion：退休种植物 → 有事做＋有期待 → 开心",
+                      "memoryEn": "Emotion: gardening is her hobby → makes her happy → look forward to"
                     },
                     {
                       "text": "Secondly, eating her own vegetables is healthy because they are fresher than vegetables from a supermarket. She knows exactly how they were grown, so our family feels safe eating them. That is important for her.",
@@ -5125,7 +5254,8 @@ window.IELTS_DATA = {
                         "important for her"
                       ],
                       "translation": "其次，吃自己种的蔬菜很健康，因为比超市的更新鲜。她清楚它们是怎么种出来的，所以我们家人吃着放心。这对她很重要。",
-                      "memory": "Health：自己种的更新鲜 → 家人吃得放心 → 对她很重要"
+                      "memory": "Health：自己种的更新鲜 → 家人吃得放心 → 对她很重要",
+                      "memoryEn": "Food: her own vegetables → feels safe eating them → important for her"
                     },
                     {
                       "text": "What's more, growing vegetables saves money because buying them from shops can be expensive. She can also share extra vegetables with neighbours, which makes their relationship closer. So it is good for both her wallet and her friends. I think that is important for older people, because it keeps them active and happy.",
@@ -5135,7 +5265,8 @@ window.IELTS_DATA = {
                         "her wallet and her friends"
                       ],
                       "translation": "此外，自己种菜能省钱，因为在商店买菜可能很贵。她还能把多余的菜分给邻居，让关系更亲近。所以这既省钱又交朋友。我觉得这对老人很重要，因为能让他们保持活力和开心。",
-                      "memory": "Money / Relationship：省钱＋分菜给邻居 → 关系更近 → 省钱又交友"
+                      "memory": "Money / Relationship：省钱＋分菜给邻居 → 关系更近 → 省钱又交友",
+                      "memoryEn": "Money: growing vegetables saves money → share extra vegetables → relationship closer"
                     }
                   ],
                   "mode": "reasons"
@@ -5158,7 +5289,13 @@ window.IELTS_DATA = {
                 "cuePointsNotes": [
                   "我奶奶，住在乡下",
                   "家旁边有个小菜园，种番茄、卷心菜，还有好几种花",
-                  "早起浇水、除草、仔细检查；知道每株植物什么时候需要更多水；有时用厨余做简单肥料；秋天摘新鲜蔬菜，常分给邻居；假期我去帮忙，她教我怎么挑熟番茄，然后我们一起做午饭",
+                  "早起浇水、除草；有时用厨余做简单肥料；秋天摘新鲜蔬菜，常分给邻居；假期我去帮忙，她教我怎么挑熟番茄",
+                  ""
+                ],
+                "cuePointsNotesEn": [
+                  "my grandma ; lives in the countryside",
+                  "small garden beside her house ; tomatoes, cabbages",
+                  "gets up early ; water the plants ; remove weeds；plant food from kitchen waste；picks the vegetables ; to our neighbours；help her ; choose ripe tomatoes",
                   ""
                 ]
               }
@@ -5317,7 +5454,8 @@ window.IELTS_DATA = {
                         "keeps him calm"
                       ],
                       "translation": "首先，清楚的计划省时间、少犯错。你知道，他不用把所有事情记在脑子里，因为都写下来了。这让他很稳。",
-                      "memory": "Time：计划清楚 → 省时间少犯错 → 不用全靠脑子记"
+                      "memory": "Time：计划清楚 → 省时间少犯错 → 不用全靠脑子记",
+                      "memoryEn": "Time: a clear plan saves time → avoid small mistakes → remember everything"
                     },
                     {
                       "text": "Secondly, his plan reduces stress for the whole team. Everyone knows what to do and when to finish it, so people can work together much more easily. That is why our projects usually go well.",
@@ -5327,7 +5465,8 @@ window.IELTS_DATA = {
                         "projects usually go well"
                       ],
                       "translation": "其次，他的计划让整个团队压力更小。每个人都知道做什么、什么时候完成，所以合作容易很多。所以我们项目通常都顺利。",
-                      "memory": "Emotion：团队压力小 → 知道做什么、何时完成 → 项目顺利"
+                      "memory": "Emotion：团队压力小 → 知道做什么、何时完成 → 项目顺利",
+                      "memoryEn": "Emotion: reduces stress → knows what to do → projects usually go well"
                     },
                     {
                       "text": "What's more, being organized makes other people trust him. This is especially important because he often leads projects and his decisions affect the whole team. So people listen to him, and that is why he can lead a team so smoothly. I think being organized is important in any job, because it saves the whole team time.",
@@ -5337,7 +5476,8 @@ window.IELTS_DATA = {
                         "people listen to him"
                       ],
                       "translation": "此外，有条理让别人信任他。这尤其重要，因为他常带项目，他的决定影响整个团队。所以大家愿意听他的，他带团队也很顺。我觉得有条理在任何工作里都重要，因为能帮整个团队省时间。",
-                      "memory": "Relationship：有条理 → 让人信任 → 大家听他的"
+                      "memory": "Relationship：有条理 → 让人信任 → 大家听他的",
+                      "memoryEn": "Relationship: being organized → people trust him → listen to him"
                     }
                   ],
                   "mode": "reasons"
@@ -5352,6 +5492,12 @@ window.IELTS_DATA = {
                   "同事 Alex，和我在同一个软件团队约六年",
                   "每天早上写下三件最重要的事；把会议和截止日期放进日历；每次讨论后记简短笔记；发布新软件前准备一份清单",
                   "去年一次重要发布时最明显：他分好工、给每个人明确责任、按固定时间检查进度；我们很早就发现一个小问题，最后按时完成",
+                  ""
+                ],
+                "cuePointsNotesEn": [
+                  "my colleague Alex ; the same software team",
+                  "Every morning ; three most important tasks；meetings and deadlines ; in his calendar；short notes after each discussion；a simple checklist",
+                  "during an important release ; divided the work；a small problem early ; finished on time",
                   ""
                 ]
               },
@@ -5465,7 +5611,8 @@ window.IELTS_DATA = {
                         "passed that attitude on"
                       ],
                       "memory": "影响：曾祖父母快乐 → 她学会积极 → 传给我们",
-                      "translation": "首先，她受我曾祖父母的影响。他们都是快乐的人，所以她学会用积极的方式看待生活，也把这种态度传给了我们。"
+                      "translation": "首先，她受我曾祖父母的影响。他们都是快乐的人，所以她学会用积极的方式看待生活，也把这种态度传给了我们。",
+                      "memoryEn": "People: influenced by my great-grandparents → positive way → passed that attitude on"
                     },
                     {
                       "text": "Secondly, she loves life. She once told me that as a human being, we should enjoy life every day. She is outgoing, so she always finds something interesting to do. I really like that idea.",
@@ -5475,7 +5622,8 @@ window.IELTS_DATA = {
                         "something interesting to do"
                       ],
                       "memory": "Emotion：热爱生活 → 每天享受 → 总能找到乐趣",
-                      "translation": "其次，她热爱生活。她曾告诉我，作为一个人，我们应该每天享受生活。她性格外向，所以总能找到有趣的事做。我很喜欢这个想法。"
+                      "translation": "其次，她热爱生活。她曾告诉我，作为一个人，我们应该每天享受生活。她性格外向，所以总能找到有趣的事做。我很喜欢这个想法。",
+                      "memoryEn": "Emotion: loves life → enjoy life every day → something interesting to do"
                     },
                     {
                       "text": "What's more, she is a positive person. When she faces difficulties, she never gives up. Her good attitude helps her solve the problems in the end. In the future, I want to learn more from her.",
@@ -5485,7 +5633,8 @@ window.IELTS_DATA = {
                         "learn more from her"
                       ],
                       "memory": "积极：遇到困难不放弃 → 好心态解决问题 → 以后向她学",
-                      "translation": "而且，她是个积极的人。遇到困难时她从不放弃。良好的心态帮她最终解决问题。将来我想从她身上学到更多。"
+                      "translation": "而且，她是个积极的人。遇到困难时她从不放弃。良好的心态帮她最终解决问题。将来我想从她身上学到更多。",
+                      "memoryEn": "Emotion: never gives up → good attitude → learn more from her"
                     }
                   ],
                   "mode": "reasons"
@@ -5503,6 +5652,12 @@ window.IELTS_DATA = {
                   "我奶奶，退休后住在乡下",
                   "性格外向，对生活的态度很好",
                   "年轻时在公司很受欢迎，常讲笑话，给同事带来快乐；几年前在乡下买了小房子搬过去，种菜分给家人和邻居；这些简单的举动让身边的人都觉得舒服、放松",
+                  ""
+                ],
+                "cuePointsNotesEn": [
+                  "my grandma ; lives in the countryside",
+                  "outgoing ; good attitude towards life",
+                  "popular in her company ; told jokes；bought a small house ; moved there；made everyone around her ; nice and relaxed",
                   ""
                 ]
               },
@@ -5610,7 +5765,8 @@ window.IELTS_DATA = {
                         "almost everyone in my area"
                       ],
                       "memory": "产品：平价好用 → 本地人都在用 → 几乎人手一台",
-                      "translation": "首先，他的公司用合理的价格做实用的产品，所以很多本地人都在用。你知道，我这边几乎每个人每天都在用小米手机或家用设备。"
+                      "translation": "首先，他的公司用合理的价格做实用的产品，所以很多本地人都在用。你知道，我这边几乎每个人每天都在用小米手机或家用设备。",
+                      "memoryEn": "Money: useful products at fair prices → local people choose → almost everyone"
                     },
                     {
                       "text": "Secondly, he is popular because of his simple and friendly personal style. In his public talks, he sounds like a friend giving advice rather than a distant boss. So people feel close to him.",
@@ -5620,7 +5776,8 @@ window.IELTS_DATA = {
                         "feel close to him"
                       ],
                       "memory": "为人：说话像朋友 → 不像老板 → 大家觉得亲切",
-                      "translation": "其次，他受欢迎是因为他简单、友好的个人风格。他在公开讲话时像朋友在给建议，而不是遥不可及的老板。所以大家觉得他很亲切。"
+                      "translation": "其次，他受欢迎是因为他简单、友好的个人风格。他在公开讲话时像朋友在给建议，而不是遥不可及的老板。所以大家觉得他很亲切。",
+                      "memoryEn": "People: friendly personal style → a friend giving advice → feel close to him"
                     },
                     {
                       "text": "What's more, he often shares useful advice with young people. He encourages them to focus on real problems and keep improving. I admire him, and his story makes me believe that hard work and good ideas can bring success.",
@@ -5630,7 +5787,8 @@ window.IELTS_DATA = {
                         "hard work and good ideas"
                       ],
                       "memory": "感受：鼓励年轻人 → 关注真问题＋不断进步 → 努力能有回报",
-                      "translation": "而且，他经常和年轻人分享有用的建议。他鼓励大家关注真实的问题并不断进步。我很敬佩他，他的故事让我相信努力和好想法能带来成功。"
+                      "translation": "而且，他经常和年轻人分享有用的建议。他鼓励大家关注真实的问题并不断进步。我很敬佩他，他的故事让我相信努力和好想法能带来成功。",
+                      "memoryEn": "People: young people → real problems → hard work and good ideas"
                     }
                   ],
                   "mode": "reasons"
@@ -5650,6 +5808,12 @@ window.IELTS_DATA = {
                   "雷军，小米创始人，在北京生活和工作（就是我的当地）",
                   "创立小米，让智能手机变得流行又平价；在他的带领下，公司从小团队成长为中国最大的科技公司之一；很多本地人每天用小米的手机和家用设备",
                   "产品实用、价格合理；个人风格简单友好，公开讲话像朋友给建议，而不是遥不可及的老板",
+                  ""
+                ],
+                "cuePointsNotesEn": [
+                  "the founder of Xiaomi ; works in Beijing",
+                  "smartphones popular and affordable；grew from a small team ; biggest technology companies；many local people ; use its phones",
+                  "popular and affordable；simple and friendly style ; a friend giving advice",
                   ""
                 ]
               },
@@ -5788,7 +5952,8 @@ window.IELTS_DATA = {
                         "a lot of experience in technology and business",
                         "makes useful products",
                         "help me in my own work"
-                      ]
+                      ],
+                      "memoryEn": "Learning: experience in technology and business → useful products → my own work"
                     },
                     {
                       "text": "Secondly, I want to know how he stays calm when problems appear. To be honest, that is something I am still learning, so his method could really help me at work. I would like to ask him about it.",
@@ -5798,7 +5963,8 @@ window.IELTS_DATA = {
                         "something I am still learning",
                         "ask him about it"
                       ],
-                      "translation": "其次，我想知道遇到问题时他怎么保持冷静。说实话，这正是我还在学的东西，所以他的方法真的能帮到我。我想问问他。"
+                      "translation": "其次，我想知道遇到问题时他怎么保持冷静。说实话，这正是我还在学的东西，所以他的方法真的能帮到我。我想问问他。",
+                      "memoryEn": "Emotion: stays calm → still learning → ask him about it"
                     },
                     {
                       "text": "What's more, he was friendly to me even though we only met for fifteen minutes. He listened carefully and answered my questions patiently, so I hope we can stay in touch. I think we could learn a lot from each other.",
@@ -5808,7 +5974,8 @@ window.IELTS_DATA = {
                         "answered my questions patiently",
                         "stay in touch"
                       ],
-                      "translation": "而且，虽然我们只聊了十五分钟，他对我很友好。他认真听，也耐心回答我的问题，所以我希望我们能保持联系。我觉得我们互相都能学到很多。"
+                      "translation": "而且，虽然我们只聊了十五分钟，他对我很友好。他认真听，也耐心回答我的问题，所以我希望我们能保持联系。我觉得我们互相都能学到很多。",
+                      "memoryEn": "Relationship: friendly to me → stay in touch → learn a lot"
                     }
                   ],
                   "mode": "feelings"
@@ -5827,6 +5994,12 @@ window.IELTS_DATA = {
                   "雷军，小米创始人",
                   "上个月公司上海科技活动上见过一次；演讲后经理让我为内刊采访他，我们在安静的会议室聊了大约十五分钟",
                   "一开始我很紧张、说得太快；我问了实用产品、团队合作和突发问题；他微笑着认真听，说领导应该一次解决一个问题、多听团队意见；后来我放松下来，又问了他的职业经历；他冷静、耐心又友好，所以我想更了解他",
+                  ""
+                ],
+                "cuePointsNotesEn": [
+                  "Lei Jun ; the founder of Xiaomi",
+                  "a technology event ; in Shanghai last month；a quiet meeting room ; about fifteen minutes",
+                  "I was nervous ; spoke too quickly；useful products ; teamwork and unexpected problems；listened carefully ; one problem at a time；In the end ; asked about his career；calm, patient and friendly ; know more about him",
                   ""
                 ]
               }
@@ -5961,7 +6134,8 @@ window.IELTS_DATA = {
                         "create a beautiful view",
                         "helped me relax",
                         "a nice change"
-                      ]
+                      ],
+                      "memoryEn": "Scenery: flowers and small boats → helped me relax → a nice change"
                     },
                     {
                       "text": "Secondly, the local people were friendly. One man helped us take a family photo and showed us a quiet spot by the river, so we felt welcome. To be honest, small kindnesses like that make a trip special.",
@@ -5970,7 +6144,8 @@ window.IELTS_DATA = {
                       "highlights": [
                         "local people were friendly",
                         "make a trip special"
-                      ]
+                      ],
+                      "memoryEn": "People: take a family photo → a quiet spot → we felt welcome"
                     },
                     {
                       "text": "What's more, the fried fish beside the river was delicious and affordable. It made our family trip more memorable, and we still talk about that lunch. So I would happily go back again. I think simple trips like this are important for a family, because we can relax together.",
@@ -5980,7 +6155,8 @@ window.IELTS_DATA = {
                         "fried fish beside the river",
                         "delicious and affordable",
                         "go back again"
-                      ]
+                      ],
+                      "memoryEn": "Food: fried fish beside the river → delicious and affordable → go back again"
                     }
                   ],
                   "mode": "feelings"
@@ -5998,7 +6174,13 @@ window.IELTS_DATA = {
                     "2 · 人美：帮忙拍照指路 → 感到欢迎",
                     "3 · 食物美：河边炸鱼 → 好吃实惠 → 出游更难忘"
                   ]
-                }
+                },
+                "cuePointsNotesEn": [
+                  "a park ; beside the Liangshui River",
+                  "with my family",
+                  "in a geography class ; like a flying dragon；Last spring ; see the river ourselves",
+                  ""
+                ]
               },
               {
                 "id": "p2-feishu-building-enjoy",
@@ -6069,7 +6251,8 @@ window.IELTS_DATA = {
                         "the outside is made of glass",
                         "the shape is very unusual",
                         "easy to recognise"
-                      ]
+                      ],
+                      "memoryEn": "Design: made of glass → turns a little → easy to recognise"
                     },
                     {
                       "text": "Secondly, inside there are a lot of offices, and the space is very bright. There is also a tourist area with seats, so visitors can sit and rest. You know, that makes the building comfortable.",
@@ -6079,7 +6262,8 @@ window.IELTS_DATA = {
                         "a lot of offices",
                         "very bright",
                         "a tourist area with seats"
-                      ]
+                      ],
+                      "memoryEn": "Inside: a lot of offices → a tourist area → sit and rest"
                     },
                     {
                       "text": "What's more, I visited it with my girlfriend on our trip, so this building reminds me of that day. We took photos and talked about the design. I think a place can hold a good memory, so I would gladly go back.",
@@ -6089,7 +6273,8 @@ window.IELTS_DATA = {
                         "reminds me of that day",
                         "talked about the design",
                         "hold a good memory"
-                      ]
+                      ],
+                      "memoryEn": "Relationship: with my girlfriend → took photos and talked → gladly go back"
                     }
                   ],
                   "mode": "reasons"
@@ -6108,7 +6293,13 @@ window.IELTS_DATA = {
                     "3 · 关系：和女朋友一起参观 → 拍照、聊设计 → 愿意再去"
                   ]
                 },
-                "omit": "不要把江面、船只、城市全景、夜景这类楼外内容写进来。"
+                "omit": "不要把江面、船只、城市全景、夜景这类楼外内容写进来。",
+                "cuePointsNotesEn": [
+                  "Shanghai Tower in Lujiazui",
+                  "a travel programme ; a friend also recommended it",
+                  "covered in glass ; its shape is very unusual；a lot of offices ; very bright",
+                  ""
+                ]
               },
               {
                 "isNew": true,
@@ -6210,7 +6401,8 @@ window.IELTS_DATA = {
                         "felt excited",
                         "looked lively",
                         "My girlfriend felt the same"
-                      ]
+                      ],
+                      "memoryEn": "Emotion: stalls and the music → felt excited → my girlfriend felt the same"
                     },
                     {
                       "text": "However, I soon felt tired because we could hardly hear each other. There were too many people talking at once. It was difficult to enjoy a simple conversation with my girlfriend. You know, we just wanted to sit down somewhere quiet.",
@@ -6220,7 +6412,8 @@ window.IELTS_DATA = {
                         "could hardly hear each other",
                         "too many people talking at once",
                         "difficult to enjoy a simple conversation"
-                      ]
+                      ],
+                      "memoryEn": "Noise: could hardly hear each other → too many people talking"
                     },
                     {
                       "text": "In the end, I felt disappointed because the xiaolongbao was expensive and not as tasty as we expected. We left for a quieter mall, and I felt much better once we could sit down together. So the trip ended earlier than we planned. I think that is a lesson I will remember next time we choose a place to visit.",
@@ -6230,7 +6423,8 @@ window.IELTS_DATA = {
                         "the xiaolongbao was expensive and not as tasty as we expected",
                         "a quieter mall",
                         "ended earlier than we planned"
-                      ]
+                      ],
+                      "memoryEn": "Food: expensive and not as tasty → a quieter mall → ended earlier"
                     }
                   ],
                   "mode": "feelings"
@@ -6252,6 +6446,12 @@ window.IELTS_DATA = {
                   "去年秋天旅行的时候",
                   "和女朋友一起",
                   "在河边散步时看到美食节，想尝尝小笼包就走了进去",
+                  ""
+                ],
+                "cuePointsNotesEn": [
+                  "during a trip last autumn",
+                  "with my girlfriend",
+                  "a food festival ; wanted to try xiaolongbao",
                   ""
                 ]
               },
@@ -6352,7 +6552,8 @@ window.IELTS_DATA = {
                         "many visitors talking at the same time",
                         "paths between the stalls were crowded",
                         "noise all around us"
-                      ]
+                      ],
+                      "memoryEn": "Noise: talking at the same time → conversations mixed together → never stopped"
                     },
                     {
                       "text": "Secondly, the sellers were also talking loudly to customers. They needed people to hear them over the crowd. This added even more noise, and to be honest, I found it hard to relax there.",
@@ -6362,7 +6563,8 @@ window.IELTS_DATA = {
                         "sellers were also talking loudly",
                         "hear them over the crowd",
                         "hard to relax"
-                      ]
+                      ],
+                      "memoryEn": "People: talking loudly to customers → over the crowd → hard to relax"
                     },
                     {
                       "text": "What's more, my girlfriend and I could hardly hear each other. We were standing close, but a normal conversation was still difficult. I think that shows how noisy the place really was. So we did not stay long. So I think quiet places are better for a relaxing weekend.",
@@ -6372,7 +6574,8 @@ window.IELTS_DATA = {
                         "could hardly hear each other",
                         "a normal conversation was still difficult",
                         "did not stay long"
-                      ]
+                      ],
+                      "memoryEn": "Relationship: could hardly hear each other → standing close → did not stay long"
                     }
                   ],
                   "mode": "reasons"
@@ -6394,6 +6597,12 @@ window.IELTS_DATA = {
                   "上海河边的美食节",
                   "去年秋天旅行的时候",
                   "和女朋友进去买小笼包，排了很久的队，人多到听不清彼此说话",
+                  ""
+                ],
+                "cuePointsNotesEn": [
+                  "a food festival in Shanghai ; beside the river",
+                  "during a trip last autumn",
+                  "wanted to try xiaolongbao ; had to shout",
                   ""
                 ]
               },
@@ -6523,7 +6732,8 @@ window.IELTS_DATA = {
                         "helps me relax",
                         "the main reason I go there"
                       ],
-                      "translation": "首先，河水、花和小船构成很美的景色，所以在那里走走能让我放松。你知道，忙完一天工作后，这是个很好的转换。这是我去那里的主要原因。"
+                      "translation": "首先，河水、花和小船构成很美的景色，所以在那里走走能让我放松。你知道，忙完一天工作后，这是个很好的转换。这是我去那里的主要原因。",
+                      "memoryEn": "Scenery: flowers and small boats → helps me relax → the main reason"
                     },
                     {
                       "text": "Secondly, local people are friendly. One man helped my family take a photo and showed us a quiet spot by the river. Small acts like that make me feel welcome, and they make the place feel warm.",
@@ -6533,7 +6743,8 @@ window.IELTS_DATA = {
                         "showed us a quiet spot by the river",
                         "make the place feel warm"
                       ],
-                      "translation": "其次，当地人很友好。一位男士帮我们家拍了照，还带我们去了一个安静看河的地方。这样的小举动让我觉得受欢迎，也让这个地方很温暖。"
+                      "translation": "其次，当地人很友好。一位男士帮我们家拍了照，还带我们去了一个安静看河的地方。这样的小举动让我觉得受欢迎，也让这个地方很温暖。",
+                      "memoryEn": "People: take a photo → a quiet spot → make me feel welcome"
                     },
                     {
                       "text": "What's more, the fried fish beside the river is simple but delicious, so the visit also gives us a good meal together. We can enjoy the food and have a relaxed conversation. It is a simple pleasure. I think that is important for people in the city, because we all need some quiet time.",
@@ -6543,7 +6754,8 @@ window.IELTS_DATA = {
                         "a good meal together",
                         "a simple pleasure"
                       ],
-                      "translation": "此外，河边的炸鱼简单却好吃，所以这趟出行还能一起好好吃顿饭。我们可以享受美食、轻松聊天。这是一种简单的快乐。我觉得这对城市里的人很重要，因为大家都需要一点安静的时间。"
+                      "translation": "此外，河边的炸鱼简单却好吃，所以这趟出行还能一起好好吃顿饭。我们可以享受美食、轻松聊天。这是一种简单的快乐。我觉得这对城市里的人很重要，因为大家都需要一点安静的时间。",
+                      "memoryEn": "Food: fried fish → simple but delicious → a simple pleasure"
                     }
                   ],
                   "mode": "reasons"
@@ -6564,6 +6776,13 @@ window.IELTS_DATA = {
                   "水、花和小船，看起来安静又漂亮；第一次去时一位当地人帮我们拍照，还指了一个安静看河的地方",
                   "每月去一两次",
                   "通常和女朋友：沿河走走、拍几张照，有时在旁边小店吃炸鱼",
+                  ""
+                ],
+                "cuePointsNotesEn": [
+                  "beside the Liangshui River ; near my home",
+                  "flowers and small boats ; peaceful and attractive；helped us take a photo ; a quiet spot",
+                  "once or twice a month",
+                  "usually with my girlfriend ; walk beside the river",
                   ""
                 ]
               },
@@ -6614,7 +6833,8 @@ window.IELTS_DATA = {
                         "several different views"
                       ],
                       "translation": "首先，景色很棒。现代建筑、传统街道和江景离得很近，所以一天能看到几种不同的风景。你知道，这种组合很难在一个地方找到。",
-                      "memory": "景美：现代建筑＋老街＋江景靠得近 → 一天看几种风景"
+                      "memory": "景美：现代建筑＋老街＋江景靠得近 → 一天看几种风景",
+                      "memoryEn": "Scenery: modern buildings, traditional streets → close together → several different views"
                     },
                     {
                       "text": "Secondly, local people made me feel welcome. One person helped us take a photo during our trip. You know, small acts of kindness like that leave a good memory. So I felt relaxed there.",
@@ -6624,7 +6844,8 @@ window.IELTS_DATA = {
                         "made me feel welcome",
                         "helped us take a photo",
                         "leave a good memory"
-                      ]
+                      ],
+                      "memoryEn": "People: take a photo → made me feel welcome → leave a good memory"
                     },
                     {
                       "text": "What's more, three days was too short. We did not go to Disneyland, and we still want to eat xiaolongbao by the river again. I think a trip like that always leaves something for next time, so I would happily go back.",
@@ -6634,7 +6855,8 @@ window.IELTS_DATA = {
                         "leaves something for next time"
                       ],
                       "translation": "此外，三天太短了。我们没去迪士尼，而且还想再去江边吃小笼包。我觉得这样的旅行总会给下次留点期待，所以我很愿意再去。",
-                      "memory": "时间短：三天太短＋没去迪士尼 → 还想吃江边小笼包 → 愿意再去"
+                      "memory": "时间短：三天太短＋没去迪士尼 → 还想吃江边小笼包 → 愿意再去",
+                      "memoryEn": "Time: three days was too short → not go to Disneyland → go back"
                     }
                   ],
                   "mode": "reasons"
@@ -6689,6 +6911,12 @@ window.IELTS_DATA = {
                   "先去了外滩和陆家嘴，江、高楼和老街放在一起很好看，还有当地人帮我们拍照、吃了小笼包；有一天下雨，就进陆家嘴的大商场吃饭、逛逛；地铁方便，当地人也友好",
                   "景色美、人友好、地铁方便；三天没看完所有地方",
                   "景色、人和食物都留下了很好的回忆；但三天太短，没去迪士尼，也没看完所有地方；所以想下次再去，专门留一天去迪士尼，再吃一次江边的小笼包"
+                ],
+                "cuePointsNotesEn": [
+                  "with my girlfriend ; stayed for three days",
+                  "the Bund and Lujiazui ; looked beautiful together；it rained one afternoon ; a big shopping mall；easy to use ; local people were friendly",
+                  "looked beautiful together ; local people were friendly；only had three days ; did not see everything",
+                  ""
                 ]
               }
             ]
@@ -6778,7 +7006,8 @@ window.IELTS_DATA = {
                         "several different views"
                       ],
                       "translation": "首先，景色很棒。现代建筑、传统街道和江景离得很近，所以一天能看到几种不同的风景。你知道，这种组合很难在一个地方找到。",
-                      "memory": "景美：现代建筑＋老街＋江景靠得近 → 一天看几种风景"
+                      "memory": "景美：现代建筑＋老街＋江景靠得近 → 一天看几种风景",
+                      "memoryEn": "Scenery: modern buildings, traditional streets → close together → several different views"
                     },
                     {
                       "text": "Secondly, local people made me feel welcome. One person helped us take a photo during our trip. You know, small acts of kindness like that leave a good memory. So I felt relaxed there.",
@@ -6788,7 +7017,8 @@ window.IELTS_DATA = {
                         "made me feel welcome",
                         "helped us take a photo",
                         "leave a good memory"
-                      ]
+                      ],
+                      "memoryEn": "People: take a photo → made me feel welcome → leave a good memory"
                     },
                     {
                       "text": "What's more, the local food is delicious, especially xiaolongbao. Sharing it with my girlfriend gave us a lovely memory, so Shanghai has become my favourite city. I would happily go back tomorrow. I think a city that feels warm is more important than a city that only looks beautiful.",
@@ -6798,7 +7028,8 @@ window.IELTS_DATA = {
                         "my favourite city"
                       ],
                       "translation": "此外，当地食物很好吃，尤其是小笼包。和女朋友一起分享，给我们留下了美好的回忆，所以上海成了我最喜欢的城市。我明天就愿意再去。我觉得一个让人感到温暖的城市，比只是好看的城市更重要。",
-                      "memory": "食物美：小笼包＋和女朋友分享 → 美好回忆 → 最喜欢的城市"
+                      "memory": "食物美：小笼包＋和女朋友分享 → 美好回忆 → 最喜欢的城市",
+                      "memoryEn": "Food: especially xiaolongbao → Sharing it with my girlfriend → my favourite city"
                     }
                   ],
                   "mode": "reasons"
@@ -6826,6 +7057,12 @@ window.IELTS_DATA = {
                   "上海，在中国东部",
                   "朋友给我看了一段旅行视频，我就开始对它感兴趣",
                   "去年假期和女朋友去，坐高铁，住了七天：登上海中心看全城、沿江散步、逛老街和大商场、吃小笼包；晚上江边灯光很美；有一次迷路，一位当地人热心地带我们去地铁站",
+                  ""
+                ],
+                "cuePointsNotesEn": [
+                  "Shanghai ; in eastern China",
+                  "became interested in it ; a travel video",
+                  "during a holiday ; stayed for seven days；At night ; the lights beside the river；we got lost ; showed us the station",
                   ""
                 ]
               }
@@ -6919,7 +7156,8 @@ window.IELTS_DATA = {
                         "plenty to see"
                       ],
                       "translation": "首先，景色很棒：有现代建筑、传统街道和江景。这些不同的景观离得很近，所以游客一天能看到很多东西。所以可看的内容很多。",
-                      "memory": "景美：现代＋老街＋江景都近 → 一天看很多 → 值得推荐"
+                      "memory": "景美：现代＋老街＋江景都近 → 一天看很多 → 值得推荐",
+                      "memoryEn": "Scenery: modern buildings, traditional streets → a river view → close together"
                     },
                     {
                       "text": "Secondly, local people made me feel welcome. One person helped us take a photo during our trip. You know, small acts of kindness like that leave a good memory. So I felt relaxed there.",
@@ -6929,7 +7167,8 @@ window.IELTS_DATA = {
                         "made me feel welcome",
                         "helped us take a photo",
                         "leave a good memory"
-                      ]
+                      ],
+                      "memoryEn": "People: take a photo → made me feel welcome → leave a good memory"
                     },
                     {
                       "text": "What's more, the local food is delicious, especially xiaolongbao. It was hot and full of soup, and sharing a basket with my girlfriend was a lovely part of the trip. So I always recommend it to friends. I think food is a big part of any trip, because it teaches you about local life.",
@@ -6939,7 +7178,8 @@ window.IELTS_DATA = {
                         "recommend it to friends"
                       ],
                       "translation": "此外，当地食物很好吃，尤其是小笼包。它又热又多汁，和女朋友一起分享一笼，是这次旅行中美好的一部分。所以我总是推荐给朋友。我觉得吃是旅行的重要部分，因为能了解当地人的生活。",
-                      "memory": "食物美：小笼包热又多汁 → 一起分享的美好回忆 → 常推荐给朋友"
+                      "memory": "食物美：小笼包热又多汁 → 一起分享的美好回忆 → 常推荐给朋友",
+                      "memoryEn": "Food: hot and full of soup → sharing a basket → always recommend it"
                     }
                   ],
                   "mode": "reasons"
@@ -6967,6 +7207,12 @@ window.IELTS_DATA = {
                   "上海",
                   "在中国东部，是中国最大的城市之一",
                   "去年假期和女朋友坐高铁去，住了七天；第一天登上海中心往下看，看到很多道路、房子和船，拍了很多照片；后来沿江散步、逛大商场、吃小笼包；傍晚江边灯光很美，我们坐着聊天、安排第二天的行程",
+                  ""
+                ],
+                "cuePointsNotesEn": [
+                  "Shanghai",
+                  "in eastern China ; one of the largest cities",
+                  "with my girlfriend ; stayed for seven days；visited Shanghai Tower ; looked over the city；walked along the river ; a large shopping mall；In the evening ; the lights beside the river",
                   ""
                 ]
               },
@@ -7051,7 +7297,8 @@ window.IELTS_DATA = {
                         "only seen it in videos"
                       ],
                       "translation": "首先，我想看它的现代建筑、传统街道和美丽的江景。同一座城市的新旧两面，对我来说会很有趣。你知道，到目前为止我只在视频里见过。",
-                      "memory": "景美：想看现代＋老街＋江景 → 新旧两面有意思 → 只在视频里见过"
+                      "memory": "景美：想看现代＋老街＋江景 → 新旧两面有意思 → 只在视频里见过",
+                      "memoryEn": "Scenery: modern buildings, traditional streets → beautiful river view → seen it in videos"
                     },
                     {
                       "text": "Secondly, I have heard that local people are friendly to visitors. If I get lost, I believe someone will be willing to help me. That would make the trip much easier for us. So I am not worried about that.",
@@ -7061,7 +7308,8 @@ window.IELTS_DATA = {
                         "not worried about that"
                       ],
                       "translation": "其次，我听说当地人对游客很友好。如果我迷路，我相信会有人愿意帮忙。这会让我们的旅行轻松很多。所以我并不担心这个。",
-                      "memory": "人美：听说当地人友好 → 迷路有人帮 → 旅行更轻松"
+                      "memory": "人美：听说当地人友好 → 迷路有人帮 → 旅行更轻松",
+                      "memoryEn": "People: friendly to visitors → willing to help me → much easier for us"
                     },
                     {
                       "text": "What's more, I really want to try xiaolongbao. I have seen it online many times, but I want to taste the fresh one in Shanghai. To be honest, food is a big reason for the trip. I think trying local food is important, because it helps you understand the culture.",
@@ -7071,7 +7319,8 @@ window.IELTS_DATA = {
                         "a big reason for the trip"
                       ],
                       "translation": "此外，我很想尝尝小笼包。我在网上见过很多次，但我想在上海吃到新鲜的。说实话，吃是这趟旅行的一大理由。我觉得尝当地食物很重要，因为能帮你了解当地文化。",
-                      "memory": "食物：想尝小笼包 → 网上见过但要吃新鲜的 → 吃是重要理由"
+                      "memory": "食物：想尝小笼包 → 网上见过但要吃新鲜的 → 吃是重要理由",
+                      "memoryEn": "Food: want to try xiaolongbao → seen it online → taste the fresh one"
                     }
                   ],
                   "mode": "reasons"
@@ -7099,6 +7348,12 @@ window.IELTS_DATA = {
                   "上海，在中国东部",
                   "打算下一个长假期去，和女朋友坐高铁，待大约七天；计划登上海中心拍照、沿江散步、逛大商场、看晚上的船，还想尝小笼包；出发前会做一个简单的每日计划，避免浪费时间",
                   "大约七天",
+                  ""
+                ],
+                "cuePointsNotesEn": [
+                  "Shanghai ; in eastern China",
+                  "in my next long holiday ; with my girlfriend；visit Shanghai Tower ; walk along the river；Before the trip ; a simple daily plan",
+                  "stay for about seven days",
                   ""
                 ]
               }
@@ -7186,7 +7441,8 @@ window.IELTS_DATA = {
                         "did not know what else to do"
                       ],
                       "translation": "首先，虽然建筑和江景不错，但和我家乡很像，所以对我没有太大吸引力。拍了几张照片后，我就不知道还能做什么了。",
-                      "memory": "景色一般：和家乡相似 → 没吸引力 → 拍完照没事做"
+                      "memory": "景色一般：和家乡相似 → 没吸引力 → 拍完照没事做",
+                      "memoryEn": "Scenery: similar to my hometown → not very attractive → what else to do"
                     },
                     {
                       "text": "Secondly, the local people seemed shy and did not really talk with me, so I had no chance to chat with them. I had hoped to hear some local stories, but that did not happen. That was a pity.",
@@ -7196,7 +7452,8 @@ window.IELTS_DATA = {
                         "That was a pity"
                       ],
                       "translation": "其次，当地人似乎比较害羞，没怎么和我说话，所以我没机会和他们聊。我本来希望听一些当地故事，但没能如愿。挺可惜的。",
-                      "memory": "人：当地人害羞 → 没机会聊天 → 可惜"
+                      "memory": "人：当地人害羞 → 没机会聊天 → 可惜",
+                      "memoryEn": "People: the local people seemed shy → no chance to chat → a pity"
                     },
                     {
                       "text": "What's more, it rained for two days, so I could only stay in the hotel and had little to do. We watched TV and played with our phones, which was no different from being at home. I think the weather can really change a trip, so now I always check it before I go.",
@@ -7205,7 +7462,8 @@ window.IELTS_DATA = {
                         "no different from being at home"
                       ],
                       "translation": "此外，下了两天雨，我只能待在酒店，没什么可做。我们看电视、玩手机，和在家没什么区别。我觉得天气真的会影响旅行，所以现在我出门前一定会查。",
-                      "memory": "天气：下两天雨 → 只能待在酒店 → 和在家没区别"
+                      "memory": "天气：下两天雨 → 只能待在酒店 → 和在家没区别",
+                      "memoryEn": "Weather: rained for two days → stay in the hotel → being at home"
                     }
                   ],
                   "mode": "reasons"
@@ -7226,6 +7484,12 @@ window.IELTS_DATA = {
                   "上海，去年和女朋友去过，待了三天",
                   "和女朋友一起",
                   "第一天登上海中心看城市全景，之后去了几个有名的博物馆、尝了小笼包；出发前我列了很长的清单，本以为每天都会很精彩；结果没有想象中有趣，慢慢就觉得无聊，最后一天下午很累，比计划早很多回了酒店",
+                  ""
+                ],
+                "cuePointsNotesEn": [
+                  "last year ; stayed there for three days",
+                  "with my girlfriend",
+                  "went to the Shanghai Tower ; visited several museums；a long list ; every day to be exciting；gradually felt bored ; back to the hotel early",
                   ""
                 ]
               }
@@ -7320,7 +7584,8 @@ window.IELTS_DATA = {
                         "more than an hour every morning"
                       ],
                       "translation": "首先，公共交通不方便。每小时只有一班公交，车站还很远。你知道，每天早上上班要花一个多小时。",
-                      "memory": "交通：一小时一班＋车站远 → 上班超一小时"
+                      "memory": "交通：一小时一班＋车站远 → 上班超一小时",
+                      "memoryEn": "Transport: one bus every hour → far away → more than an hour"
                     },
                     {
                       "text": "Secondly, most of my friends live in the city, so I might feel lonely there. I could call them online, but to be honest, that is not the same as meeting them in person. So I would miss them a lot.",
@@ -7330,7 +7595,8 @@ window.IELTS_DATA = {
                         "would miss them a lot"
                       ],
                       "translation": "其次，我大多数朋友都住在城里，在那里我可能会觉得孤单。我可以在网上联系他们，但说实话，这和见面不一样。所以我会很想他们。",
-                      "memory": "Relationship：朋友都在城里 → 网上聊不等于见面 → 会孤单"
+                      "memory": "Relationship：朋友都在城里 → 网上聊不等于见面 → 会孤单",
+                      "memoryEn": "Relationship: friends live in the city → feel lonely → miss them a lot"
                     },
                     {
                       "text": "What's more, there are few shops or entertainment places nearby. If I wanted to buy something simple or watch a film, I would need a long trip into town. So daily life would be less convenient. I think convenience is important in daily life, so I would not want to live there.",
@@ -7340,7 +7606,8 @@ window.IELTS_DATA = {
                         "less convenient"
                       ],
                       "translation": "此外，附近几乎没有商店或娱乐场所。如果我想买点日用品或看场电影，就得跑很远进城。所以日常生活会不太方便。我觉得日常生活方便很重要，所以我不想住在那里。",
-                      "memory": "配套：商店娱乐少 → 买东西看电影要进城 → 日常不方便"
+                      "memory": "配套：商店娱乐少 → 买东西看电影要进城 → 日常不方便",
+                      "memoryEn": "Shops: few shops → a long trip into town → less convenient"
                     }
                   ],
                   "mode": "reasons"
@@ -7361,6 +7628,12 @@ window.IELTS_DATA = {
                   "我奶奶家，在乡下",
                   "传统的平房：三间卧室、一个大院子，还有一个菜园；晚上能看到更多星星，因为高楼和灯光少",
                   "假期去住：早上帮奶奶浇菜、摘番茄做午饭；下午在安静的院子里喝茶、聊我在城里的生活；空气好、很安静，住两三天休息得很好",
+                  ""
+                ],
+                "cuePointsNotesEn": [
+                  "my grandma's house",
+                  "a traditional one-floor house ; a vegetable garden；see more stars ; fewer tall buildings and lights",
+                  "water the vegetables ; pick some tomatoes；in the quiet yard ; talk about my life；air is clean ; perfect for a short visit",
                   ""
                 ]
               }
@@ -7449,7 +7722,8 @@ window.IELTS_DATA = {
                         "helps people relax",
                         "busy with work every day",
                         "feel better"
-                      ]
+                      ],
+                      "memoryEn": "Emotion: busy with work → a short walk → for people in the city"
                     },
                     {
                       "text": "Secondly, families can spend time together there. They can walk, take photos or just have a chat. I think these simple things can make them feel closer. So it brings families together.",
@@ -7459,7 +7733,8 @@ window.IELTS_DATA = {
                         "families can spend time together",
                         "take photos or just have a chat",
                         "brings families together"
-                      ]
+                      ],
+                      "memoryEn": "Relationship: spend time together → take photos → feel closer"
                     },
                     {
                       "text": "What's more, it helps local people make money. Many visitors buy food and drinks near the river. So, I think it is good for the small shops and restaurants there. That is good for the local economy. I think that is important for a city, because a river can bring people together.",
@@ -7469,7 +7744,8 @@ window.IELTS_DATA = {
                         "helps local people make money",
                         "buy food and drinks",
                         "the local economy"
-                      ]
+                      ],
+                      "memoryEn": "Money: buy food and drinks → small shops and restaurants → local economy"
                     }
                   ],
                   "mode": "reasons"
@@ -7494,6 +7770,12 @@ window.IELTS_DATA = {
                   "北京的凉水河",
                   "大约七十公里长",
                   "地理课上老师说过，地图上像一条飞龙，这个画面我一直记得；去年春天和家人去看了其中一段，水、花和小船很好看",
+                  ""
+                ],
+                "cuePointsNotesEn": [
+                  "the Liangshui River ; in Beijing",
+                  "about seventy kilometres long",
+                  "a geography class ; like a flying dragon；Last spring ; flowers and small boats",
                   ""
                 ]
               }
@@ -7645,7 +7927,8 @@ window.IELTS_DATA = {
                         "the story was too slow",
                         "Nothing really happened",
                         "lost interest quickly"
-                      ]
+                      ],
+                      "memoryEn": "Emotion: a warm family story → too slow → lost interest quickly"
                     },
                     {
                       "text": "Secondly, the characters just talked, and the film was much longer than it needed to be. I kept waiting for something interesting, but it never came. To be honest, that made it feel even longer.",
@@ -7655,7 +7938,8 @@ window.IELTS_DATA = {
                         "the characters just talked",
                         "much longer than it needed to be",
                         "never came"
-                      ]
+                      ],
+                      "memoryEn": "Time: characters just talked → much longer → feel even longer"
                     },
                     {
                       "text": "What's more, I wanted a relaxing evening with my girlfriend, but we both felt bored and disappointed. We had had a busy week. I think we could have enjoyed our time together more. I think a good film should give you something to talk about afterwards.",
@@ -7665,7 +7949,8 @@ window.IELTS_DATA = {
                         "a relaxing evening with my girlfriend",
                         "bored and disappointed",
                         "enjoyed our time together more"
-                      ]
+                      ],
+                      "memoryEn": "Relationship: relaxing evening → bored and disappointed → enjoyed our time"
                     }
                   ],
                   "mode": "reasons"
@@ -7674,6 +7959,12 @@ window.IELTS_DATA = {
                   "上个月，周六晚上，忙了一周想和女朋友放松",
                   "在家看的；在视频 App 上选的，因为简介看起来温馨又简单",
                   "讲一位住在乡下的老奶奶：每天早起浇菜、泡茶、和家人聊天；剧情太慢，几乎什么都没发生，角色一直说话，快一小时了还是很无聊；电影还特别长，感觉浪费了一个晚上",
+                  ""
+                ],
+                "cuePointsNotesEn": [
+                  "on a Saturday evening ; wanted to relax",
+                  "watched it at home；a video app ; a warm family story",
+                  "an old grandma ; lived in the countryside；the story was too slow ; still boring；much longer ; wasted our evening",
                   ""
                 ]
               }
@@ -7782,7 +8073,8 @@ window.IELTS_DATA = {
                         "another film automatically",
                         "lose track of time"
                       ],
-                      "translation": "电视会自动推荐另一部电影，所以很容易继续看下去，忘记时间。你知道，我有时不是认真作出选择，而是不知不觉就继续看。"
+                      "translation": "电视会自动推荐另一部电影，所以很容易继续看下去，忘记时间。你知道，我有时不是认真作出选择，而是不知不觉就继续看。",
+                      "memoryEn": "Use: suggests another film → keep watching → lose track of time"
                     },
                     {
                       "text": "Secondly, watching alone for too long leaves less time for people I care about. One film with friends can bring us closer. More films by myself do not give me the same feeling.",
@@ -7791,7 +8083,8 @@ window.IELTS_DATA = {
                       "highlights": [
                         "less time for people",
                         "bring us closer"
-                      ]
+                      ],
+                      "memoryEn": "Relationship: watching alone → people I care about"
                     },
                     {
                       "text": "What's more, I often go to bed after midnight and feel tired at work the next day, so the habit affects more than one evening. I think getting enough sleep would be more useful. I think everyone should control how much time they spend on screens.",
@@ -7800,7 +8093,8 @@ window.IELTS_DATA = {
                         "after midnight",
                         "tired at work"
                       ],
-                      "translation": "我经常午夜后才睡，第二天上班很累，所以这个习惯影响的不只是一个晚上。我觉得睡够觉会更有用。我觉得每个人都该控制看屏幕的时间。"
+                      "translation": "我经常午夜后才睡，第二天上班很累，所以这个习惯影响的不只是一个晚上。我觉得睡够觉会更有用。我觉得每个人都该控制看屏幕的时间。",
+                      "memoryEn": "Time: after midnight → tired at work → more than one evening"
                     }
                   ],
                   "mode": "reasons"
@@ -7819,6 +8113,12 @@ window.IELTS_DATA = {
                   "在网上看太多电影",
                   "下班后为了放松常常看",
                   "上周六刷到《Grandma's Garden》的短片，发给女朋友和两个朋友，晚上他们来我家一起看完，笑得很开心；朋友走后电视又自动推荐下一部，我一个人继续看，忘了时间，午夜后才睡，第二天很累",
+                  ""
+                ],
+                "cuePointsNotesEn": [
+                  "watching too many films online",
+                  "watch films after work ; to relax",
+                  "Grandma's Garden ; laughed a lot；kept watching alone ; forgot the time",
                   ""
                 ]
               },
@@ -7922,7 +8222,8 @@ window.IELTS_DATA = {
                         "time to talk and feel close again",
                         "instead of just sending messages"
                       ],
-                      "translation": "首先，我们有一阵子没见了，所以一起看电影让我们有时间聊天、重新亲近起来。能坐在一起，而不是只发消息，感觉很好。这是我最享受的部分。"
+                      "translation": "首先，我们有一阵子没见了，所以一起看电影让我们有时间聊天、重新亲近起来。能坐在一起，而不是只发消息，感觉很好。这是我最享受的部分。",
+                      "memoryEn": "Relationship: had not met → time to talk → feel close again"
                     },
                     {
                       "text": "Secondly, the funny scenes, popcorn and laughter made the living room feel relaxed and friendly. You know, after a busy week, that was exactly what we needed. So nobody wanted the evening to end.",
@@ -7932,7 +8233,8 @@ window.IELTS_DATA = {
                         "relaxed and friendly",
                         "exactly what we needed"
                       ],
-                      "translation": "其次，搞笑的片段、爆米花和笑声让客厅的气氛轻松又友好。你知道，忙了一周后，这正是我们需要的。所以谁都不想这个晚上结束。"
+                      "translation": "其次，搞笑的片段、爆米花和笑声让客厅的气氛轻松又友好。你知道，忙了一周后，这正是我们需要的。所以谁都不想这个晚上结束。",
+                      "memoryEn": "Emotion: popcorn and laughter → what we needed → evening to end"
                     },
                     {
                       "text": "What's more, watching at home did not cost much money. We could prepare our own popcorn and drinks and enjoy the film together. I think having good company mattered more than paying for expensive entertainment. I think simple evenings like this matter more than expensive nights out.",
@@ -7942,7 +8244,8 @@ window.IELTS_DATA = {
                         "did not cost much money",
                         "prepare our own popcorn and drinks",
                         "good company"
-                      ]
+                      ],
+                      "memoryEn": "Money: did not cost much → popcorn and drinks → good company"
                     }
                   ],
                   "mode": "reasons"
@@ -7961,6 +8264,12 @@ window.IELTS_DATA = {
                   "上周六晚上，在我家",
                   "下午刷到《Grandma's Garden》的短片，发给女朋友和两位老朋友；晚上他们来我家，在客厅一起看完整部电影、吃爆米花、喝饮料、笑个不停，看完还聊了各自的家人",
                   "女朋友和两位老朋友（有一阵子没见了）",
+                  ""
+                ],
+                "cuePointsNotesEn": [
+                  "last Saturday ; came to my home",
+                  "found a short clip ; Grandma's Garden；watched the full movie ; laughed a lot",
+                  "girlfriend and two old friends",
                   ""
                 ]
               }
@@ -8049,7 +8358,8 @@ window.IELTS_DATA = {
                         "looks clean and pleasant"
                       ],
                       "translation": "首先，城市会保持干净，这能吸引更多顾客到本地商家。你知道，人们更愿意在干净、舒服的地方吃饭和购物。",
-                      "memory": "环境：城市干净 → 吸引顾客 → 人们愿意停留"
+                      "memory": "环境：城市干净 → 吸引顾客 → 人们愿意停留",
+                      "memoryEn": "Place: city would stay clean → more customers → eat and shop"
                     },
                     {
                       "text": "Secondly, the law would help people understand the importance of protecting the environment. In time, putting rubbish in a bin could become a natural daily habit for everyone. That would be a real change in attitude.",
@@ -8059,7 +8369,8 @@ window.IELTS_DATA = {
                         "a real change in attitude"
                       ],
                       "translation": "其次，这部法律会让人们理解保护环境的重要性。时间久了，把垃圾扔进垃圾桶会成为大家自然的日常习惯。那才是态度的真正改变。",
-                      "memory": "习惯：理解环保重要 → 扔进垃圾桶成习惯 → 态度改变"
+                      "memory": "习惯：理解环保重要 → 扔进垃圾桶成习惯 → 态度改变",
+                      "memoryEn": "Learning: understand the importance → natural daily habit → change in attitude"
                     },
                     {
                       "text": "What's more, the fine money could be used to plant more trees and flowers and make the city more beautiful. It could also support cleaners and buy more public bins. So the money would go back to the city. I think a cleaner city benefits everyone, not only local businesses.",
@@ -8069,7 +8380,8 @@ window.IELTS_DATA = {
                         "go back to the city"
                       ],
                       "translation": "此外，罚款可以用来种更多树和花，让城市更美。也能支持清洁工、增加公共垃圾桶。所以这笔钱会回馈给城市。我觉得城市更干净对每个人都有好处，不只是商家。",
-                      "memory": "Money：罚款种树种花 → 支持清洁工＋买垃圾桶 → 回馈城市"
+                      "memory": "Money：罚款种树种花 → 支持清洁工＋买垃圾桶 → 回馈城市",
+                      "memoryEn": "Money: the fine money → support cleaners → back to the city"
                     }
                   ],
                   "mode": "feelings"
@@ -8094,6 +8406,12 @@ window.IELTS_DATA = {
                   "禁止在街上乱丢垃圾，违者罚款2000元",
                   "保持公共场所干净：垃圾会发臭、招虫子；政府还应放清楚的标识和足够的垃圾桶",
                   "会受欢迎：居民环境更好、清洁工工作量更少；大家习惯之后就会接受",
+                  ""
+                ],
+                "cuePointsNotesEn": [
+                  "a law against throwing rubbish ; 2,000 yuan",
+                  "keeps public places clean ; attract insects；clear signs and enough bins",
+                  "better environment ; the law would be popular；People should follow it",
                   ""
                 ]
               },
@@ -8175,7 +8493,8 @@ window.IELTS_DATA = {
                         "a clean area"
                       ],
                       "translation": "首先，因为人们不乱扔垃圾，城市保持干净，环境更好，也能为本地商家吸引更多顾客。人们更愿意在干净的area吃饭、购物、待着。",
-                      "memory": "环境：不乱扔垃圾 → 城市干净 → 商家吸引顾客"
+                      "memory": "环境：不乱扔垃圾 → 城市干净 → 商家吸引顾客",
+                      "memoryEn": "Place: not throw rubbish → the city stays clean → more customers"
                     },
                     {
                       "text": "Secondly, the law helps people understand the importance of protecting the environment. After following it for some time, using a rubbish bin can become a natural habit. So the change can last.",
@@ -8185,7 +8504,8 @@ window.IELTS_DATA = {
                         "the change can last"
                       ],
                       "translation": "其次，这部法律让人们了解环保的重要性。遵守一段时间之后，把垃圾扔进垃圾桶会成为自然的习惯。所以这个改变能持续下去。",
-                      "memory": "习惯：了解环保 → 扔垃圾桶成自然习惯 → 改变能持续"
+                      "memory": "习惯：了解环保 → 扔垃圾桶成自然习惯 → 改变能持续",
+                      "memoryEn": "Learning: understand the importance → using a rubbish bin → natural habit"
                     },
                     {
                       "text": "What's more, the fine money can be used to plant more trees and flowers and make the city more beautiful. It can also support more bins and cleaning work in public places. So the money goes back to the city. I think that is important, because a clean city belongs to everyone.",
@@ -8195,7 +8515,8 @@ window.IELTS_DATA = {
                         "goes back to the city"
                       ],
                       "translation": "此外，罚款可以用来种树种花，让城市更美。也能增加垃圾桶和公共场所的清洁工作。所以这笔钱回到了城市。我觉得这很重要，因为干净的城市属于每个人。",
-                      "memory": "Money：种树种花 → 增加垃圾桶＋清洁 → 回馈城市"
+                      "memory": "Money：种树种花 → 增加垃圾桶＋清洁 → 回馈城市",
+                      "memoryEn": "Money: trees and flowers → more bins → back to the city"
                     }
                   ],
                   "mode": "feelings"
@@ -8220,6 +8541,12 @@ window.IELTS_DATA = {
                   "禁止在公共场所乱丢垃圾，违者重罚",
                   "去年去香港时知道的：当地人告诉我乱丢垃圾会罚很多钱；旅行中看到街上垃圾桶很多，大多数人都往里扔，城市即使在繁忙的商业区也很干净",
                   "当地居民和清洁工最受益：环境更好、垃圾更少",
+                  ""
+                ],
+                "cuePointsNotesEn": [
+                  "a law against throwing rubbish ; large fine",
+                  "Hong Kong last year ; a large fine；rubbish bins ; most people used them",
+                  "residents and street cleaners ; a better environment",
                   ""
                 ]
               },
@@ -8301,7 +8628,8 @@ window.IELTS_DATA = {
                         "That helps everyone"
                       ],
                       "translation": "首先，城市会保持干净，也能为本地商家吸引更多顾客。你知道，人们愿意在干净的地方散步、购物，而不是赶快离开。这对大家都有好处。",
-                      "memory": "环境：城市干净 → 吸引顾客 → 大家愿意多停留"
+                      "memory": "环境：城市干净 → 吸引顾客 → 大家愿意多停留",
+                      "memoryEn": "Place: city would stay clean → more customers → walking and shopping"
                     },
                     {
                       "text": "Secondly, the law would help people understand the importance of protecting the environment. Parents could also use it to teach children not to drop rubbish. So it would help the next generation too.",
@@ -8311,7 +8639,8 @@ window.IELTS_DATA = {
                         "the next generation"
                       ],
                       "translation": "其次，这部法律会让人们理解环保的重要性。父母也可以用它教孩子不要乱扔垃圾。所以它也会帮到下一代。",
-                      "memory": "教育：理解环保 → 父母教孩子 → 帮到下一代"
+                      "memory": "教育：理解环保 → 父母教孩子 → 帮到下一代",
+                      "memoryEn": "Learning: understand the importance → teach children → help the next generation"
                     },
                     {
                       "text": "What's more, the fine money could be used to plant more trees and flowers and make the city more beautiful. It could also pay for new bins and regular cleaning. So the city would keep improving. I think the next generation will benefit most from this kind of law.",
@@ -8321,7 +8650,8 @@ window.IELTS_DATA = {
                         "keep improving"
                       ],
                       "translation": "此外，罚款可以用来种更多树和花，让城市更美。也能支付新垃圾桶和定期清洁的费用。所以城市会不断变好。我觉得下一代能从这类法律中受益最多。",
-                      "memory": "Money：种树种花 → 新垃圾桶＋定期清洁 → 城市持续变好"
+                      "memory": "Money：种树种花 → 新垃圾桶＋定期清洁 → 城市持续变好",
+                      "memoryEn": "Money: more trees and flowers → new bins → keep improving"
                     }
                   ],
                   "mode": "feelings"
@@ -8349,6 +8679,13 @@ window.IELTS_DATA = {
                   "在车站、学校、商场附近放清楚的标识和更多垃圾桶；人们会把瓶子、食品袋扔进桶里，街道更干净",
                   "会受欢迎：居民环境更好、清洁工更轻松",
                   "去年去新加坡，当地人告诉我他们有类似的法律，我在街上看到道路和公园都很干净",
+                  ""
+                ],
+                "cuePointsNotesEn": [
+                  "a law against throwing rubbish ; 2,000 yuan",
+                  "more bins ; near stations and schools；rubbish into bins ; roads and parks",
+                  "better environment ; the law would be popular",
+                  "Singapore last year ; a similar law there",
                   ""
                 ]
               }
@@ -8436,7 +8773,8 @@ window.IELTS_DATA = {
                         "what I really want from my career"
                       ],
                       "translation": "首先，我能带领团队，帮大家一起完成困难的项目。做更有用的工作会给我很强的成就感。你知道，这正是我想从职业中得到的东西。",
-                      "memory": "成长：带团队做难项目 → 做有用的工作 → 成就感强"
+                      "memory": "成长：带团队做难项目 → 做有用的工作 → 成就感强",
+                      "memoryEn": "Learning: lead a team → useful work → strong sense of achievement"
                     },
                     {
                       "text": "Secondly, I could earn a higher salary. I now make about 7,000 yuan a month, while a manager can make about 12,000 yuan, so family life would be less stressful. You know, that difference really matters for a family.",
@@ -8446,7 +8784,8 @@ window.IELTS_DATA = {
                         "less stressful"
                       ],
                       "translation": "其次，我能拿到更高的工资。我现在每月大约挣七千元，而经理大约能挣一万二，所以家庭生活的压力会小一些。",
-                      "memory": "Money：工资从七千到一万二 → 家庭压力更小"
+                      "memory": "Money：工资从七千到一万二 → 家庭压力更小",
+                      "memoryEn": "Money: 7,000 yuan → 12,000 yuan → less stressful"
                     },
                     {
                       "text": "What's more, I could share my experience with new workers and possibly join an overseas project. That would help me meet different people and learn new ideas. So I could keep growing. I think long-term goals are important, because they give your career a direction.",
@@ -8456,7 +8795,8 @@ window.IELTS_DATA = {
                         "keep growing"
                       ],
                       "translation": "此外，我能和新同事分享经验，也可能参加海外项目。这能帮我认识不同的人、学到新想法。所以我能不断成长。我觉得长期目标很重要，因为它们给职业一个方向。",
-                      "memory": "Learning：分享经验＋海外项目 → 认识不同的人 → 持续成长"
+                      "memory": "Learning：分享经验＋海外项目 → 认识不同的人 → 持续成长",
+                      "memoryEn": "Learning: share my experience → meet different people → keep growing"
                     }
                   ],
                   "mode": "reasons"
@@ -8480,6 +8820,12 @@ window.IELTS_DATA = {
                   "大约六年，从进公司当普通员工就有",
                   "在软件公司升职当经理",
                   "学新技能、重要项目加班、向经理请教；三年前成为高级员工；现在带新同事、偶尔主持小会；计划读完管理课程、再带一个项目，明年申请经理职位",
+                  ""
+                ],
+                "cuePointsNotesEn": [
+                  "about six years ; as a junior worker",
+                  "becoming a manager ; my software company",
+                  "new skills ; stayed late for important projects；became a senior worker；help new colleagues ; lead small meetings；finish a management course ; lead another project",
                   ""
                 ]
               },
@@ -8565,7 +8911,8 @@ window.IELTS_DATA = {
                         "the main reason for me"
                       ],
                       "translation": "首先，当经理能让我带领团队、完成更困难的工作。一起完成项目会带给我真正的成就感。这是我最主要的原因。",
-                      "memory": "成长：当经理带团队 → 一起完成项目 → 成就感"
+                      "memory": "成长：当经理带团队 → 一起完成项目 → 成就感",
+                      "memoryEn": "Learning: lead the team → difficult work → real sense of achievement"
                     },
                     {
                       "text": "Secondly, the position has a better salary. A manager can make about 12,000 yuan a month, so I could improve my life and support my parents. To be honest, that matters a lot to me.",
@@ -8575,7 +8922,8 @@ window.IELTS_DATA = {
                         "matters a lot to me"
                       ],
                       "translation": "其次，这个职位的工资更高。经理每月大约能挣一万二，所以我可以改善生活、支持父母。说实话，这对我很重要。",
-                      "memory": "Money：经理约一万二 → 改善生活＋支持父母 → 对我很重要"
+                      "memory": "Money：经理约一万二 → 改善生活＋支持父母 → 对我很重要",
+                      "memoryEn": "Money: 12,000 yuan → improve my life → support my parents"
                     },
                     {
                       "text": "What's more, I could help new workers by sharing my experience and might have a chance to work overseas. This would help me continue growing in the future. So I am working towards it step by step. I think having an ambition keeps people motivated at work.",
@@ -8585,7 +8933,8 @@ window.IELTS_DATA = {
                         "step by step"
                       ],
                       "translation": "此外，我能分享经验、帮助新同事，也可能有机会去海外工作。这会帮我以后继续成长。所以我正在一步步朝它努力。我觉得有志向能让人在工作中保持动力。",
-                      "memory": "Learning：分享经验帮新人＋海外 → 继续成长 → 一步步努力"
+                      "memory": "Learning：分享经验帮新人＋海外 → 继续成长 → 一步步努力",
+                      "memoryEn": "Learning: help new workers → work overseas → continue growing"
                     }
                   ],
                   "mode": "reasons"
@@ -8609,6 +8958,12 @@ window.IELTS_DATA = {
                   "在公司升职当经理",
                   "一直努力工作，有时加班，尽量把每件事做好；已经升了三次，现在是高级员工；跟现在的经理学习、帮新同事、在团队会上练习发言；上个月经理忙时我带队完成了一个小项目",
                   "明年（先读管理课程、再带一个项目）",
+                  ""
+                ],
+                "cuePointsNotesEn": [
+                  "becoming a manager ; in my company",
+                  "worked hard ; finish every task well；three promotions ; a senior worker；my current manager ; help new colleagues；led a small project ; on time",
+                  "a management course ; next year",
                   ""
                 ]
               }
@@ -8701,7 +9056,8 @@ window.IELTS_DATA = {
                         "during the Spring Festival"
                       ],
                       "translation": "首先，饺子是悠久传统的一部分，是我们文化中重要的一环。你知道，中国人在春节吃饺子已经有很长的历史了。",
-                      "memory": "传统：春节吃饺子很久 → 文化的重要部分"
+                      "memory": "传统：春节吃饺子很久 → 文化的重要部分",
+                      "memoryEn": "Culture: long tradition → the Spring Festival → part of our culture"
                     },
                     {
                       "text": "Secondly, their shape looks like ancient Chinese money and represents good luck. That is why people hope eating them will bring a happy and successful new year. It is a lovely idea.",
@@ -8711,7 +9067,8 @@ window.IELTS_DATA = {
                         "a lovely idea"
                       ],
                       "translation": "其次，饺子的形状像古代的钱，代表好运。所以人们希望吃饺子能带来快乐、顺利的新一年。这个寓意很美好。",
-                      "memory": "寓意：形状像古钱 → 代表好运 → 盼新年顺利"
+                      "memory": "寓意：形状像古钱 → 代表好运 → 盼新年顺利",
+                      "memoryEn": "Meaning: ancient Chinese money → good luck → successful new year"
                     },
                     {
                       "text": "What's more, families get together and make dumplings, so their relationships become closer. While they cook and eat, they can share the happy and difficult moments of their lives. So the food brings people together. I think traditions like this are important, because they connect the family.",
@@ -8721,7 +9078,8 @@ window.IELTS_DATA = {
                         "brings people together"
                       ],
                       "translation": "此外，家人聚在一起包饺子，关系也更亲近。做饭和吃饭的时候，大家可以分享生活里的开心和难处。所以这种食物把人们聚在一起。我觉得这样的传统很重要，因为它们把家人连在一起。",
-                      "memory": "Relationship：一起包饺子 → 分享喜怒哀乐 → 关系更近"
+                      "memory": "Relationship：一起包饺子 → 分享喜怒哀乐 → 关系更近",
+                      "memoryEn": "Relationship: families get together → relationships become closer → brings people together"
                     }
                   ],
                   "mode": "reasons"
@@ -8742,6 +9100,12 @@ window.IELTS_DATA = {
                   "饺子",
                   "春节（中国最常见的节日食物之一）",
                   "和面加水揉成软面团；切成很多小块，擀成又薄又圆的面皮；中间放肉和蔬菜馅，用手仔细捏紧；全部包好后放进热水煮几分钟，熟了就趁热吃",
+                  ""
+                ],
+                "cuePointsNotesEn": [
+                  "dumplings",
+                  "the Spring Festival ; festival foods in China",
+                  "mix water and flour ; soft dough；cut the dough ; thin and round；meat and vegetables ; carefully by hand；fully cooked ; while they are still hot",
                   ""
                 ]
               },
@@ -8825,7 +9189,8 @@ window.IELTS_DATA = {
                         "means much more than an expensive cake"
                       ],
                       "translation": "首先，李华亲手做的，花了三个小时，而我知道他很忙。你知道，这份心意比店里买的昂贵蛋糕更有意义。",
-                      "memory": "心意：亲手做＋三小时 → 他很忙 → 心意比价格重要"
+                      "memory": "心意：亲手做＋三小时 → 他很忙 → 心意比价格重要",
+                      "memoryEn": "Emotion: made it himself → three hours → effort means much more"
                     },
                     {
                       "text": "Secondly, it had a special taste because all the fruit was carefully chosen, so it felt unique. The sweet cream and fresh fruit worked well together, and I ate two pieces. So it was delicious.",
@@ -8835,7 +9200,8 @@ window.IELTS_DATA = {
                         "delicious"
                       ],
                       "translation": "其次，水果都是精心挑选的，所以味道很特别、很独特。甜奶油和新鲜水果很搭，我吃了两块。所以它真的很好吃。",
-                      "memory": "味道：水果精心挑选 → 甜奶油配新鲜水果 → 好吃"
+                      "memory": "味道：水果精心挑选 → 甜奶油配新鲜水果 → 好吃",
+                      "memoryEn": "Taste: carefully chosen → sweet cream and fresh fruit → delicious"
                     },
                     {
                       "text": "What's more, it was not only a cake. It showed that our friendship was strong and that he cared about me. Whenever I see a fruit cake now, I remember that happy evening. I think a gift's meaning is more important than its price.",
@@ -8845,7 +9211,8 @@ window.IELTS_DATA = {
                         "remember that happy evening"
                       ],
                       "translation": "此外，它不只是一块蛋糕。它说明我们的友谊很牢固，他也很在乎我。现在每次看到水果蛋糕，我都会想起那个快乐的晚上。我觉得礼物的意义比价格更重要。",
-                      "memory": "Relationship：不只是一块蛋糕 → 友谊牢固 → 看到水果蛋糕就想起"
+                      "memory": "Relationship：不只是一块蛋糕 → 友谊牢固 → 看到水果蛋糕就想起",
+                      "memoryEn": "Relationship: not only a cake → our friendship was strong"
                     }
                   ],
                   "mode": "reasons"
@@ -8866,6 +9233,12 @@ window.IELTS_DATA = {
                   "去年，我完成一个工作项目之后",
                   "在朋友李华家：他打电话叫我去他家",
                   "朋友李华亲手做的：蛋糕上有水果、巧克力和奶油；他说自己看了视频、花了三个小时，早上还专门去买水果，并在上面写下我的名字",
+                  ""
+                ],
+                "cuePointsNotesEn": [
+                  "last year ; after I finished a project",
+                  "called me ; invited me to his home",
+                  "made it himself ; fruit, chocolate and cream；a cooking video ; my name on top",
                   ""
                 ]
               }
@@ -8954,7 +9327,8 @@ window.IELTS_DATA = {
                         "the small lion is very cute"
                       ],
                       "translation": "首先，故事有趣，小狮子也很可爱。它一开始犯的错很逗，所以孩子很容易喜欢这个故事。我小时候特别喜欢。",
-                      "memory": "有趣：小狮子可爱＋犯错逗 → 孩子容易喜欢 → 我小时候爱看"
+                      "memory": "有趣：小狮子可爱＋犯错逗 → 孩子容易喜欢 → 我小时候爱看",
+                      "memoryEn": "Emotion: very cute → mistakes are funny → liked it a lot"
                     },
                     {
                       "text": "Secondly, the pictures are beautiful. They attracted me when I was a little boy and made the story easier to understand. To be honest, I even tried to draw the lions myself.",
@@ -8964,7 +9338,8 @@ window.IELTS_DATA = {
                         "draw the lions"
                       ],
                       "translation": "其次，图片很漂亮。我小时候就被它们吸引，它们也让故事更容易理解。说实话，我还试着自己画过狮子。",
-                      "memory": "Learning：图片漂亮 → 吸引我＋帮助理解 → 我还试着画"
+                      "memory": "Learning：图片漂亮 → 吸引我＋帮助理解 → 我还试着画",
+                      "memoryEn": "Learning: pictures are beautiful → easier to understand → tried to draw"
                     },
                     {
                       "text": "What's more, it taught me never to give up, and I still remember this lesson at work. When something is difficult, I try a few more times instead of stopping. So the story still helps me now. I think children's stories should teach something useful.",
@@ -8974,7 +9349,8 @@ window.IELTS_DATA = {
                         "still helps me now"
                       ],
                       "translation": "此外，它教会我不要放弃，我现在工作中还记得这个道理。遇到难事时，我会多试几次，而不是停下来。所以这个故事现在还在帮我。我觉得儿童故事应该教一些有用的道理。",
-                      "memory": "道理：不放弃 → 难事多试几次 → 现在仍有用"
+                      "memory": "道理：不放弃 → 难事多试几次 → 现在仍有用",
+                      "memoryEn": "Learning: never to give up → more times → helps me now"
                     }
                   ],
                   "mode": "feelings"
@@ -8995,6 +9371,12 @@ window.IELTS_DATA = {
                   "小狮子和它的妈妈（狮子）",
                   "小狮子想学捕猎，好自己找食物；一开始妈妈教它安静地移动和等待，它做得不好、什么都没抓到，还因为跑得太早吓跑了别的动物；妈妈让它耐心，它就每天认真看、反复练，最后自己捕到一只鹿，还把食物分给妈妈",
                   "小时候读的，因为里面的狮子图片很吸引我",
+                  ""
+                ],
+                "cuePointsNotesEn": [
+                  "a small lion ; its mother",
+                  "how to hunt ; find food by itself；move quietly and wait ; ran too early；a deer by itself ; shared the food",
+                  "the pictures of the lions ; attracted me",
                   ""
                 ]
               },
@@ -9080,7 +9462,8 @@ window.IELTS_DATA = {
                         "clever advertising"
                       ],
                       "translation": "首先，这位歌手为产品创作了一首歌，所以很吸引人，也让我记得住。你知道，第二天早上我还能想起其中一段。这是很聪明的广告。",
-                      "memory": "创意：歌手写歌 → 吸引人＋记得住 → 聪明的广告"
+                      "memory": "创意：歌手写歌 → 吸引人＋记得住 → 聪明的广告",
+                      "memoryEn": "Design: created a song → attracts people → stays in my mind"
                     },
                     {
                       "text": "Secondly, Zhang Jie is a singer I like, so he caught my attention immediately. Seeing a familiar person also made me trust the product a little more. So I watched the whole advertisement.",
@@ -9090,7 +9473,8 @@ window.IELTS_DATA = {
                         "trust the product"
                       ],
                       "translation": "其次，张杰是我喜欢的歌手，所以他一下吸引了我的注意。看到熟悉的人，也让我对这个产品多了一点信任。所以我把整支广告看完了。",
-                      "memory": "名人：喜欢的歌手 → 马上吸引注意＋多些信任 → 看完广告"
+                      "memory": "名人：喜欢的歌手 → 马上吸引注意＋多些信任 → 看完广告",
+                      "memoryEn": "Product: singer I like → caught my attention → trust the product"
                     },
                     {
                       "text": "What's more, 10 yuan from every product sold goes to poor people, so buying the laptop would also help others. To be honest, that makes the advertisement feel meaningful to me. So it is more than just selling. I think advertising should give something back, not only sell products.",
@@ -9100,7 +9484,8 @@ window.IELTS_DATA = {
                         "more than just selling"
                       ],
                       "translation": "此外，每卖出一件产品就有十元捐给穷人，所以买这台电脑也能帮到别人。说实话，这让我觉得这支广告很有意义。所以它不只是卖东西。我觉得广告也应该回馈社会，而不只是卖东西。",
-                      "memory": "善意：每件捐十元 → 买电脑也能帮人 → 不只是卖货"
+                      "memory": "善意：每件捐十元 → 买电脑也能帮人 → 不只是卖货",
+                      "memoryEn": "Money: 10 yuan → help others → more than just selling"
                     }
                   ],
                   "mode": "feelings"
@@ -9121,6 +9506,12 @@ window.IELTS_DATA = {
                   "张杰，一位很受欢迎的中国歌手",
                   "在家看电视时第一次看到的",
                   "小米笔记本的广告：他打开电脑、唱一首关于它的歌，展示自己用它做音乐；画面从不同角度展示电脑，说它轻薄好携带；整支广告不到一分钟，歌简单好记",
+                  ""
+                ],
+                "cuePointsNotesEn": [
+                  "Zhang Jie ; a popular Chinese singer",
+                  "on television at home ; first saw it",
+                  "a Xiaomi laptop ; a song about it；different sides ; light and easy to carry；less than a minute ; easy to remember",
                   ""
                 ]
               },
@@ -9205,7 +9596,8 @@ window.IELTS_DATA = {
                         "laugh a few times"
                       ],
                       "translation": "首先，笑话和表演能让我下班后放松。即使是简单的笑话也变得好笑，因为表演者的表情和节奏很好。所以我总能笑上几次。",
-                      "memory": "Emotion：笑话＋表演 → 下班后放松 → 总能笑几次"
+                      "memory": "Emotion：笑话＋表演 → 下班后放松 → 总能笑几次",
+                      "memoryEn": "Emotion: simple jokes → relax after work → laugh a few times"
                     },
                     {
                       "text": "Secondly, the program mixes modern and traditional dance in an interesting way. I can enjoy the show and learn a little about Chinese culture at the same time. That is a nice bonus.",
@@ -9215,7 +9607,8 @@ window.IELTS_DATA = {
                         "a nice bonus"
                       ],
                       "translation": "其次，这个节目把现代舞和传统舞有趣地结合起来。我既能享受节目，也能顺便了解一点中国文化。这是额外的收获。",
-                      "memory": "文化：现代＋传统舞结合 → 好看又了解文化 → 额外收获"
+                      "memory": "文化：现代＋传统舞结合 → 好看又了解文化 → 额外收获",
+                      "memoryEn": "Culture: modern and traditional dance → Chinese culture → nice bonus"
                     },
                     {
                       "text": "What's more, the original music puts me in a good mood and is easy to remember. That is why I would like to watch another episode next week. So it has become part of my weekend. I think a good programme should both entertain and teach you something.",
@@ -9225,7 +9618,8 @@ window.IELTS_DATA = {
                         "part of my weekend"
                       ],
                       "translation": "此外，原创音乐让我心情很好，也容易记住。所以我想下周再看一期。它已经成了我周末的一部分。我觉得好节目应该既好看又能学到东西。",
-                      "memory": "音乐：原创音乐好记 → 心情好 → 周末固定节目"
+                      "memory": "音乐：原创音乐好记 → 心情好 → 周末固定节目",
+                      "memoryEn": "Emotion: original music → easy to remember → part of my weekend"
                     }
                   ],
                   "mode": "feelings"
@@ -9247,6 +9641,12 @@ window.IELTS_DATA = {
                   "视频 App 上的才艺节目",
                   "普通年轻人唱歌、跳舞、讲笑话；上周最喜欢一位先跳现代舞、又加入传统中国动作的年轻人，他还唱了一首自己写的歌，现场的人都在欢呼",
                   "每周一次，每集约三十分钟",
+                  ""
+                ],
+                "cuePointsNotesEn": [
+                  "a talent show ; a video app",
+                  "young people ; sing, dance or tell jokes；a modern dance ; traditional Chinese movements",
+                  "once a week ; around thirty minutes",
                   ""
                 ]
               },
@@ -9331,7 +9731,8 @@ window.IELTS_DATA = {
                         "the young man was talented",
                         "modern and traditional dances",
                         "caught my eye"
-                      ]
+                      ],
+                      "memoryEn": "Talent: modern and traditional → fresh and unusual → caught my eye"
                     },
                     {
                       "text": "Secondly, the music was made by himself, and it matched the dance well. I also liked the shouting parts, because they made the whole performance more lively. So the video felt special.",
@@ -9341,7 +9742,8 @@ window.IELTS_DATA = {
                         "the music was made by himself",
                         "matched the dance well",
                         "felt special"
-                      ]
+                      ],
+                      "memoryEn": "Music: made by himself → matched the dance → more lively"
                     },
                     {
                       "text": "What's more, I sent the video to Li Hua and he laughed too. We talked about it the next day, so a simple video gave us something fun to share after a tiring day. I think sharing something funny is an easy way to stay close to friends.",
@@ -9351,7 +9753,8 @@ window.IELTS_DATA = {
                         "sent the video to Li Hua",
                         "something fun to share",
                         "after a tiring day"
-                      ]
+                      ],
+                      "memoryEn": "Relationship: sent the video → laughed too → talked about it"
                     }
                   ],
                   "mode": "feelings"
@@ -9376,6 +9779,12 @@ window.IELTS_DATA = {
                   "在家，一天晚上；晚饭后刷短视频时看到的",
                   "一个年轻人唱歌、讲笑话、跳特别的舞：一开始像街舞，几秒后音乐变成传统风格，动作也完全变了；他把现代舞和传统舞混在一起，音乐还是自己做的，中间还有喊声，看着很特别",
                   "为了放松；我还看了两遍，因为第一遍漏掉了一些好笑的细节",
+                  ""
+                ],
+                "cuePointsNotesEn": [
+                  "at home one evening；short videos after dinner",
+                  "singing and dancing ; like a modern dancer；modern and traditional dances ; made by himself",
+                  "relax after a tiring day；I watched it twice",
                   ""
                 ]
               }
@@ -9466,7 +9875,8 @@ window.IELTS_DATA = {
                         "mainly used for offices",
                         "an important part of the city",
                         "not only a place for visitors"
-                      ]
+                      ],
+                      "memoryEn": "Use: used for offices → important part of the city"
                     },
                     {
                       "text": "Secondly, from the outside, the building is covered in glass, and the shape is very unusual. It turns a little as it goes up, so it does not look like a normal office building. You know, I can recognise it at once.",
@@ -9476,7 +9886,8 @@ window.IELTS_DATA = {
                         "covered in glass",
                         "the shape is very unusual",
                         "recognise it at once"
-                      ]
+                      ],
+                      "memoryEn": "Design: covered in glass → very unusual → recognise it at once"
                     },
                     {
                       "text": "What's more, the inside is very bright and clean, and there is a tourist area with seats. You know, natural light makes a place feel comfortable. So I really enjoy this building, and I would visit it again.",
@@ -9486,7 +9897,8 @@ window.IELTS_DATA = {
                         "very bright and clean",
                         "a tourist area with seats",
                         "feel comfortable"
-                      ]
+                      ],
+                      "memoryEn": "Inside: bright and clean → natural light → visit it again"
                     }
                   ],
                   "mode": "reasons"
@@ -9508,6 +9920,12 @@ window.IELTS_DATA = {
                   "上海陆家嘴",
                   "很高，外面全是玻璃，造型非常不寻常——往上会转一点，和普通写字楼不一样；里面很明亮、很干净",
                   "喜欢：造型特别＋里面明亮干净；和女朋友一起参观、拍了照"
+                ],
+                "cuePointsNotesEn": [
+                  "used for offices ; many companies work there",
+                  "in Lujiazui, in Shanghai",
+                  "covered in glass ; shape is very unusual；very bright and clean",
+                  ""
                 ]
               }
             ]
@@ -9644,7 +10062,8 @@ window.IELTS_DATA = {
                         "remind him",
                         "use every day"
                       ],
-                      "translation": "首先，这块手表很实用，因为 Alex 经常漏看重要消息。它能提醒他，也能帮他看健康状况。你知道，这是他每天都能用上的东西。所以它是份实用的礼物。"
+                      "translation": "首先，这块手表很实用，因为 Alex 经常漏看重要消息。它能提醒他，也能帮他看健康状况。你知道，这是他每天都能用上的东西。所以它是份实用的礼物。",
+                      "memoryEn": "Product: misses important messages → remind him → use every day"
                     },
                     {
                       "text": "Secondly, Alex gave me wireless headphones before, so the watch would return his kindness and make our friendship stronger. To be honest, I want him to know that I remember his kindness.",
@@ -9654,7 +10073,8 @@ window.IELTS_DATA = {
                         "return his kindness",
                         "friendship stronger"
                       ],
-                      "translation": "其次，Alex 以前送过我无线耳机，所以这块手表能回报他的好意，也能让我们的友谊更牢固。说实话，我想让他知道我记得他的好。"
+                      "translation": "其次，Alex 以前送过我无线耳机，所以这块手表能回报他的好意，也能让我们的友谊更牢固。说实话，我想让他知道我记得他的好。",
+                      "memoryEn": "Relationship: wireless headphones → return his kindness → friendship stronger"
                     },
                     {
                       "text": "What's more, the watch has a reasonable price, so I can afford it and a useful gift can still be special. I do not need to choose the most expensive one in the shop. So it fits my budget. I think a thoughtful gift matters more than an expensive one.",
@@ -9664,7 +10084,8 @@ window.IELTS_DATA = {
                         "a reasonable price",
                         "can afford it",
                         "fits my budget"
-                      ]
+                      ],
+                      "memoryEn": "Money: reasonable price → I can afford it → fits my budget"
                     }
                   ],
                   "mode": "reasons"
@@ -9682,6 +10103,12 @@ window.IELTS_DATA = {
                   "在工作中认识的",
                   "六年了（他以前送过我一对无线耳机）",
                   "先想对方的需求：Alex 经常漏看重要消息，手表能提醒他查看，也能帮他看健康状况；有黑白两色，我会选黑色，因为很酷；再比较几个型号，选价格合理的",
+                  ""
+                ],
+                "cuePointsNotesEn": [
+                  "We met at work",
+                  "six years ago ; wireless headphones",
+                  "misses important messages ; check his health；white and black ; the black one；compare a few models ; a reasonable price",
                   ""
                 ]
               },
@@ -9788,7 +10215,8 @@ window.IELTS_DATA = {
                         "did not push the expensive watch",
                         "trusted his advice"
                       ],
-                      "translation": "首先，店员先问我的预算，没有强推贵的手表，所以我觉得受到尊重。你知道，我想买一份实用的礼物，也不想花太多钱。所以我信任他的建议。"
+                      "translation": "首先，店员先问我的预算，没有强推贵的手表，所以我觉得受到尊重。你知道，我想买一份实用的礼物，也不想花太多钱。所以我信任他的建议。",
+                      "memoryEn": "Money: asked about my budget → did not push → felt respected"
                     },
                     {
                       "text": "Secondly, he compared two watches, explained the functions simply and set up the app, so choosing the gift was easy. I did not have to worry about choosing the wrong one. So the whole process was smooth.",
@@ -9798,7 +10226,8 @@ window.IELTS_DATA = {
                         "set up the app",
                         "the whole process was smooth"
                       ],
-                      "translation": "其次，他比较了两块手表，简单解释了功能，还帮我设置应用，所以选礼物变得很容易。我不用担心选错。所以整个过程很顺利。"
+                      "translation": "其次，他比较了两块手表，简单解释了功能，还帮我设置应用，所以选礼物变得很容易。我不用担心选错。所以整个过程很顺利。",
+                      "memoryEn": "Service: compared two watches → the whole process was smooth"
                     },
                     {
                       "text": "What's more, I received useful help in the shop and saw that Alex liked the gift, so I felt proud and relieved. I think good service makes a shopping experience much more pleasant. I think good service is important for any business, because it makes customers come back.",
@@ -9808,7 +10237,8 @@ window.IELTS_DATA = {
                         "Alex liked the gift",
                         "much more pleasant"
                       ],
-                      "translation": "此外，我在店里得到了实用的帮助，也看到 Alex 喜欢这份礼物，所以既自豪又安心。我觉得好的服务会让购物体验愉快很多。我觉得好的服务对任何生意都重要，因为能让顾客愿意再来。"
+                      "translation": "此外，我在店里得到了实用的帮助，也看到 Alex 喜欢这份礼物，所以既自豪又安心。我觉得好的服务会让购物体验愉快很多。我觉得好的服务对任何生意都重要，因为能让顾客愿意再来。",
+                      "memoryEn": "Emotion: useful help → proud and relieved → good service is important"
                     }
                   ],
                   "mode": "feelings"
@@ -9826,6 +10256,12 @@ window.IELTS_DATA = {
                   "办公室附近的一家小米店",
                   "上个月，我去给朋友 Alex 买智能手表当礼物",
                   "店员先问我的预算，比较了两块手表，简单讲了主要功能，还帮我设置好应用；他没有强推贵的那款；黑白两色我选了黑色，因为好看；最后用合理的价格买下，Alex 也很喜欢（能提醒工作、看健康）",
+                  ""
+                ],
+                "cuePointsNotesEn": [
+                  "Xiaomi shop near my office",
+                  "last month ; a smart watch",
+                  "asked about my budget ; compared two watches；push the expensive one；white and black watches ; the black one；a reasonable price ; Alex liked it",
                   ""
                 ]
               }
@@ -9956,7 +10392,8 @@ window.IELTS_DATA = {
                         "very crowded, especially at weekends",
                         "paths are narrow",
                         "wait for people to move"
-                      ]
+                      ],
+                      "memoryEn": "Problems: paths are narrow → visitors and sellers → hardly hear each other"
                     },
                     {
                       "text": "Secondly, it is really noisy. You know, the sellers use loud speakers to call customers, and everyone talks at the same time, so it is hard to enjoy a quiet walk. After a while, I just want to go home.",
@@ -9966,7 +10403,8 @@ window.IELTS_DATA = {
                         "really noisy",
                         "loud speakers to call customers",
                         "hard to enjoy a quiet walk"
-                      ]
+                      ],
+                      "memoryEn": "Noise: loud speakers → talks at the same time → want to go home"
                     },
                     {
                       "text": "What's more, the fried fish there is expensive and not as tasty as we expected. To be honest, last Saturday we waited almost half an hour and paid nearly a hundred yuan for two plates of fried fish, so it was not worth the money. I think a beautiful place should stay comfortable for visitors.",
@@ -9976,7 +10414,8 @@ window.IELTS_DATA = {
                         "expensive and not as tasty as we expected",
                         "waited almost half an hour",
                         "not worth the money"
-                      ]
+                      ],
+                      "memoryEn": "Money: expensive and not as tasty → not worth the money"
                     }
                   ],
                   "mode": "reasons"
@@ -9990,6 +10429,12 @@ window.IELTS_DATA = {
                 "linked": [
                   "Describe a natural place in your city that you enjoy visiting",
                   "Describe an important river/lake in your country"
+                ],
+                "cuePointsNotesEn": [
+                  "beside the Liangshui River ; twenty minutes away",
+                  "Saturday afternoons ; with my girlfriend",
+                  "walk beside the water ; eat some fried fish",
+                  ""
                 ]
               }
             ]
@@ -10096,7 +10541,8 @@ window.IELTS_DATA = {
                         "sounded fast and unfamiliar",
                         "only about ten",
                         "did not want to make mistakes"
-                      ]
+                      ],
+                      "memoryEn": "Emotion: felt nervous → fast and unfamiliar → only about ten"
                     },
                     {
                       "text": "After a while, I felt more relaxed because Mr Brown divided the song into short lines. His simple actions helped us understand the words, and practising with my classmates made the lesson much more enjoyable.",
@@ -10106,7 +10552,8 @@ window.IELTS_DATA = {
                         "divided the song into short lines",
                         "simple actions",
                         "much more enjoyable"
-                      ]
+                      ],
+                      "memoryEn": "Learning: the song into short lines → understand the words → more relaxed"
                     },
                     {
                       "text": "In the end, I felt excited because we could sing the whole song together. It gave me confidence, and after that I was much more willing to speak English in class. So the lesson stayed with me.",
@@ -10116,7 +10563,8 @@ window.IELTS_DATA = {
                         "sing the whole song together",
                         "gave me confidence",
                         "speak English in class"
-                      ]
+                      ],
+                      "memoryEn": "Result: sing the whole song → confidence → willing to speak English"
                     }
                   ],
                   "mode": "feelings"
@@ -10134,6 +10582,12 @@ window.IELTS_DATA = {
                   "唱一首简单的英文歌",
                   "小学时一位外教 Mr Brown 教的，那时我大约十岁",
                   "一开始单词又快又陌生，有点紧张；他把歌放好几遍、分成短句、用简单动作解释意思；我们分组练习，他耐心纠正发音；最后全班一起把歌完整唱出来",
+                  ""
+                ],
+                "cuePointsNotesEn": [
+                  "singing a simple English song",
+                  "in primary school ; Mr Brown taught us",
+                  "fast and unfamiliar ; a little nervous；played the song several times ; used simple actions；in small groups ; corrected our pronunciation；the whole class ; sang the song together",
                   ""
                 ]
               },
@@ -10258,7 +10712,8 @@ window.IELTS_DATA = {
                         "felt safe asking him for help"
                       ],
                       "translation": "首先，Brown 老师非常耐心。不管我们犯什么错，他都继续教我们，温和地纠正。即使有不懂的地方，向他求助我也很安心。",
-                      "memory": "耐心：不管什么错误都温和纠正 → 求助很安心"
+                      "memory": "耐心：不管什么错误都温和纠正 → 求助很安心",
+                      "memoryEn": "Mentor: very patient → corrected us kindly → safe asking him for help"
                     },
                     {
                       "text": "Secondly, we did not give up when the song was difficult. We practised it many times together, and in the end we sang it well. To be honest, that made us feel proud of ourselves.",
@@ -10268,7 +10723,8 @@ window.IELTS_DATA = {
                         "proud of ourselves"
                       ],
                       "translation": "其次，歌难的时候我们没有放弃。我们一起练了很多遍，最后唱得很好。说实话，那让我们为自己感到骄傲。",
-                      "memory": "坚持：歌难也不放弃 → 练很多遍 → 最后唱得好"
+                      "memory": "坚持：歌难也不放弃 → 练很多遍 → 最后唱得好",
+                      "memoryEn": "Effort: did not give up → practised it many times → sang it well"
                     },
                     {
                       "text": "What's more, the song was simple and easy to remember. Even now, I can still remember it, so the lesson is still special to me. That is why I chose to talk about it today. I think a good teacher can make a subject interesting for life.",
@@ -10278,7 +10734,8 @@ window.IELTS_DATA = {
                         "chose to talk about it"
                       ],
                       "translation": "此外，那首歌简单又好记。即使现在我还记得，所以这节课对我来说一直很特别。这就是我今天选它来讲的原因。我觉得好老师能让一门课让人一辈子都觉得有趣。",
-                      "memory": "记忆：歌简单好记 → 现在还记得 → 所以选它来讲"
+                      "memory": "记忆：歌简单好记 → 现在还记得 → 所以选它来讲",
+                      "memoryEn": "Memory: easy to remember → still remember it → chose to talk about it"
                     }
                   ],
                   "mode": "reasons"
@@ -10296,6 +10753,12 @@ window.IELTS_DATA = {
                   "小学的英语课，我印象最深的是大约十岁时的一节课",
                   "就在我们平时的教室里",
                   "外教 Mr Brown 教我们唱一首简单的英文歌：先放好几遍、分成短句、用动作解释意思；我们分组练，他耐心纠正发音；最后全班一起唱了出来",
+                  ""
+                ],
+                "cuePointsNotesEn": [
+                  "in primary school ; when I was about ten",
+                  "in our usual classroom",
+                  "a simple English song ; into short lines；practised in small groups ; corrected our pronunciation；the whole class ; sang the song together",
                   ""
                 ]
               }
@@ -10399,7 +10862,8 @@ window.IELTS_DATA = {
                         "become more confident",
                         "meant a lot"
                       ],
-                      "translation": "首先，我刚入职时，Alex 是一位耐心的导师。他帮我了解团队，也让我在工作中更有信心。你知道，一切都陌生的时候，这种支持很重要。"
+                      "translation": "首先，我刚入职时，Alex 是一位耐心的导师。他帮我了解团队，也让我在工作中更有信心。你知道，一切都陌生的时候，这种支持很重要。",
+                      "memoryEn": "Mentor: a patient mentor → understand the team → more confident at work"
                     },
                     {
                       "text": "Secondly, he stayed calm when the app had problems. He focused on a safe solution instead of rushing the release. His attitude also helped the rest of us feel less worried. So the team kept working well.",
@@ -10409,7 +10873,8 @@ window.IELTS_DATA = {
                         "a safe solution",
                         "feel less worried"
                       ],
-                      "translation": "其次，应用出问题时他保持冷静。他关注安全的解决方案，而不是急着发布。他的态度也让我们其他人没那么担心。所以团队一直运转得很好。"
+                      "translation": "其次，应用出问题时他保持冷静。他关注安全的解决方案，而不是急着发布。他的态度也让我们其他人没那么担心。所以团队一直运转得很好。",
+                      "memoryEn": "Emotion: stayed calm → a safe solution → less worried"
                     },
                     {
                       "text": "What's more, his staged-release idea was simple and practical. It gave us real feedback while protecting most students from the problem. I think good advice should be easy for a team to use. So I always ask for his opinion first. I think having a mentor at work is really important for young people.",
@@ -10419,7 +10884,8 @@ window.IELTS_DATA = {
                         "real feedback",
                         "ask for his opinion first"
                       ],
-                      "translation": "第三，他分阶段发布的想法简单又实用。既能拿到真实反馈，又保护了大多数学生。我觉得好建议应该让团队容易采用。所以我现在总先问他的意见。我觉得工作中有导师对年轻人非常重要。"
+                      "translation": "第三，他分阶段发布的想法简单又实用。既能拿到真实反馈，又保护了大多数学生。我觉得好建议应该让团队容易采用。所以我现在总先问他的意见。我觉得工作中有导师对年轻人非常重要。",
+                      "memoryEn": "Advice: simple and practical → real feedback → ask for his opinion first"
                     }
                   ],
                   "mode": "feelings"
@@ -10441,6 +10907,12 @@ window.IELTS_DATA = {
                   "同事 Alex，比我大八岁",
                   "六年前我第一份软件工程师工作时认识他，他成了我的导师",
                   "从那以后一起开发和测试软件；他耐心教我团队怎么运作；我们常在午饭时讨论技术问题、分享想法；我喜欢和他一起工作，因为他讲得简单，从不让我觉得自己笨；去年九月学生应用出问题时他保持冷静、建议分阶段发布",
+                  ""
+                ],
+                "cuePointsNotesEn": [
+                  "my colleague Alex ; eight years older",
+                  "met him six years ago ; became my mentor",
+                  "worked together ever since；patiently taught me ; how our team worked；discuss problems during lunch；like working with him ; explains things simply；stayed calm ; suggested releasing it in stages",
                   ""
                 ]
               },
@@ -10474,7 +10946,7 @@ window.IELTS_DATA = {
                   "problems can move"
                 ],
                 "memoryChain": {
-                  "story": "做事之前先做计划 → 每天晚上十分钟写第二天的清单，最重要的事放最前 → 出门也写路线和时间、留出自由时间 → 难点是忙的时候坚持（以前习惯马上开始）→ 上周按报告＋两个会议＋邮件的顺序做，六点前完成 → 周四客户电话拖长，把邮件挪到第二天早上 → 又省时间又能应对突发问题",
+                  "story": "做事之前先做计划 → 每天晚上十分钟写第二天的清单，最重要的事放最前 → 难点是忙的时候坚持（以前习惯马上开始）→ 上个月团队有个很紧急的功能、期限很紧 → 我做完整计划、同事们按计划执行 → 整件事按时完成、没出问题，还提前一天 → 又省时间又能应对突发问题",
                   "reasons": [
                     "1 · Time：不用想先做什么＋不容易忘事 → 照清单做更快 → 省下很多时间",
                     "2 · Problems：临时拖长的任务 → 把次要的事往后挪 → 突发情况也不乱",
@@ -10483,26 +10955,27 @@ window.IELTS_DATA = {
                 },
                 "focus": "改成“做事之前先做计划”：每天写清单、留出自由时间、坚持的难点，再用忙碌的一周说明它既省时间又能应对突发问题。",
                 "body": {
-                  "text": "Well, I have made a few changes to save time. But the first one that comes to my mind would be making a plan before I start something. Every evening I spend ten minutes writing a list for the next day, and I put the most important thing first. For a trip, I also write down the route and the time, and I leave some free time. Making a plan is not difficult. The hard part is keeping the habit, because when I am busy I just want to start working straight away. So I keep the list on my phone and cross things off. For example, last week I planned the order of a report, two meetings and many emails, so I finished by six o'clock. On Thursday a client call took much longer than I expected, but I moved the emails to the next morning. This change saves me a lot of time, and it also helps me deal with problems that appear.",
-                  "translation": "嗯，为了节省时间，我做过几个改变。但我首先想到的是做事之前先做计划。每天晚上我会花十分钟写下第二天的清单，把最重要的事情放在最前面。如果要出门，我还会写下路线和时间，并且留出一些自由时间。做计划本身并不难。难的是坚持下去，因为一忙起来我就只想马上开始做事。所以我把清单放在手机里，做完一项就划掉。比如上周我按照一份报告、两个会议和很多邮件的顺序做计划，所以六点前就完成了。周四一个客户电话比我想的久得多，我就把邮件挪到第二天早上。这个改变帮我省下很多时间，也帮我应对突然出现的问题。",
+                  "text": "Well, I have made a few changes to save time. But the first one that comes to my mind would be making a plan before I start something. Every evening I spend ten minutes writing a list for the next day, and I put the most important thing first. Making a plan is not difficult. The hard part is keeping the habit, because when I am busy I just want to start working. So I keep the list on my phone. For example, last month our team had an urgent feature with a very tight deadline. I made a complete plan, and my teammates followed it closely. As a result, we finished the whole task on time, with no problems, and even a day early. This change saves me a lot of time, and it also helps me deal with problems that appear.",
+                  "translation": "嗯，为了节省时间，我做过几个改变。但我首先想到的是做事之前先做计划。每天晚上我会花十分钟写下第二天的清单，把最重要的事情放在最前面。做计划本身并不难。难的是坚持下去，因为一忙起来我就只想马上开始做事。所以我把清单放在手机里。比如上个月我们团队有一个很紧急的功能，期限非常紧。我做了一份完整的计划，同事们也严格按计划执行。结果我们整件事按时完成，没有出现问题，甚至还提前了一天。这个改变帮我省下很多时间，也帮我应对突然出现的问题。",
                   "highlights": [
                     "making a plan before I start something",
                     "ten minutes",
                     "the most important thing first",
-                    "leave some free time",
                     "not difficult",
                     "keeping the habit",
-                    "cross things off",
-                    "finished by six o'clock",
-                    "took much longer than I expected",
-                    "moved the emails to the next morning",
+                    "on my phone",
+                    "an urgent feature with a very tight deadline",
+                    "made a complete plan",
+                    "followed it closely",
+                    "finished the whole task on time",
+                    "a day early",
                     "saves me a lot of time",
                     "deal with problems that appear"
                   ],
                   "paragraphStarts": [
                     "Every evening I spend ten minutes",
-                    "The hard part is keeping the",
-                    "This change saves me a lot"
+                    "Making a plan is not difficult.",
+                    "For example, last month our team had an urgent feature"
                   ]
                 },
                 "sourceOrder": 24,
@@ -10520,7 +10993,8 @@ window.IELTS_DATA = {
                         "saves me a lot of time",
                         "deciding what to do first",
                         "ten minutes of planning"
-                      ]
+                      ],
+                      "memoryEn": "Time: ten minutes of planning → can save me two hours"
                     },
                     {
                       "text": "Secondly, a plan helps me deal with problems that appear. When one task takes longer than I expected, I can move the less important things to another day. So a bad surprise does not ruin my whole day.",
@@ -10530,7 +11004,8 @@ window.IELTS_DATA = {
                         "problems that appear",
                         "move the less important things",
                         "does not ruin my whole day"
-                      ]
+                      ],
+                      "memoryEn": "Problems: longer than I expected → the less important things → another day"
                     },
                     {
                       "text": "What's more, I feel calmer when I know what is most important. In the past I often worried about forgetting something. Now I can see everything on my list. I think planning is a good habit, because busy days feel easier.",
@@ -10540,18 +11015,25 @@ window.IELTS_DATA = {
                         "feel calmer",
                         "worried about forgetting something",
                         "busy days feel easier"
-                      ]
+                      ],
+                      "memoryEn": "Emotion: feel calmer → worried about forgetting → busy days feel easier"
                     }
                   ],
                   "mode": "feelings"
                 },
                 "cuePointsNotes": [
                   "做事之前先做一个简单的计划（这就是我做的改变）",
-                  "每天晚上花十分钟写下第二天的清单，把最重要的事情放在最前面；出门会写下路线和时间，并且留出一些自由时间",
-                  "做计划本身不难；难的是忙的时候还坚持，以前我习惯马上开始做事，现在把清单放在手机里、做完就划掉",
-                  "省时间：不用想先做什么、也不容易忘事；上周按报告、两个会议和邮件的顺序做计划，六点前完成；周四客户电话拖长，就把邮件挪到第二天早上"
+                  "每天晚上花十分钟写下第二天的清单，把最重要的事情放在最前面",
+                  "做计划本身不难；难的是忙的时候还坚持，以前我习惯马上开始做事，现在把清单放在手机里",
+                  "省时间：不用想先做什么、也不容易忘事；上个月团队有一个很紧急的功能、期限很紧，我做完整计划、同事们按计划执行，整件事按时完成、没出问题，还提前了一天"
                 ],
-                "omit": "不用写软件或项目名称，也不用写公司内部细节。"
+                "omit": "不用写软件或项目名称，也不用写公司内部细节。",
+                "cuePointsNotesEn": [
+                  "making a plan ; before I start",
+                  "writing a list ; the most important thing first",
+                  "a plan is not difficult；keeping the habit ; the list on my phone",
+                  ""
+                ]
               },
               {
                 "id": "p2-feishu-lost-in-public",
@@ -10623,7 +11105,8 @@ window.IELTS_DATA = {
                         "felt worried",
                         "making the notes again",
                         "many evenings writing them"
-                      ]
+                      ],
+                      "memoryEn": "Emotion: felt worried → notes and earphones → take a lot of time"
                     },
                     {
                       "text": "After a while, I felt relieved when the staff gave the bag back. I could get everything back, so I did not need to buy new earphones or write my notes again. So I saved both money and time.",
@@ -10633,7 +11116,8 @@ window.IELTS_DATA = {
                         "felt relieved",
                         "get everything back",
                         "saved both money and time"
-                      ]
+                      ],
+                      "memoryEn": "Money: gave the bag back → saved both money and time"
                     },
                     {
                       "text": "In the end, I felt grateful because the staff had kept my bag safe. I thanked them when I returned. Their kindness reminded me to help other people when I can. So I try to do the same for others.",
@@ -10643,7 +11127,8 @@ window.IELTS_DATA = {
                         "felt grateful",
                         "kept my bag safe",
                         "do the same for others"
-                      ]
+                      ],
+                      "memoryEn": "Emotion: kept my bag safe → felt grateful → do the same for others"
                     }
                   ],
                   "mode": "feelings"
@@ -10661,7 +11146,13 @@ window.IELTS_DATA = {
                     "2 · Money / Emotion：找回物品 → 不用重买 → 安心",
                     "3 · Relationship：店员保管 → 感激＋以后多帮别人"
                   ]
-                }
+                },
+                "cuePointsNotesEn": [
+                  "my backpack ; notes and earphones",
+                  "It happened last month ; studying English there；picked up my phone ; left my bag",
+                  "straight back to the cafe；found the bag ; kept it behind the counter；what was inside ; gave it back to me",
+                  ""
+                ]
               },
               {
                 "id": "p2-feishu-impressive-party",
@@ -10687,6 +11178,8 @@ window.IELTS_DATA = {
                 "draftCues": [
                   "last winter",
                   "restaurant",
+                  "urgent project",
+                  "Alex helped, finished on time",
                   "Alex promoted",
                   "ten colleagues",
                   "short speeches",
@@ -10694,12 +11187,16 @@ window.IELTS_DATA = {
                 ],
                 "focus": "交代庆祝的特殊事件、参加人数，再用具体安排解释为什么难忘。",
                 "body": {
-                  "text": "Well, I have been to a few small celebrations with colleagues. But the first one that comes to my mind would be a party for Alex. We held it last winter, in a restaurant near our office. We wanted to celebrate his promotion and thank him for helping us during a difficult project, so about ten of us booked a private room and ordered several dishes to share, such as noodles, chicken and vegetables. After dinner, each person said a few words about how Alex had helped them, and someone gave him a card from the whole team. He looked surprised and said he had not realised those small acts of help meant so much. The dishes were simple, but I left feeling closer to my colleagues.",
-                  "translation": "嗯，我参加过几次同事间的小型庆祝。但我首先想到的是为Alex举办的聚会。我们在去年冬天举办了这场聚会。地点在办公室附近的餐厅，团队大约十个人参加。我们想庆祝他晋升，也感谢他在一个困难项目中对大家的帮助。我们订了包间，点了几道菜一起吃，比如面条、鸡肉和蔬菜。菜式很简单，但气氛很温暖。饭后，每个人都说了几句，讲一次 Alex 帮助自己的经历。我讲了他如何耐心帮我解决工作问题。还有人送给他一张写着全组祝福的卡片。最让我印象深刻的是他的反应。他看起来很惊讶，说自己没有意识到那些小小的帮助对我们意义这么大。聚会没有昂贵的娱乐安排，但每个人都有亲身的事情可以分享。离开时，我觉得和同事更亲近了。这次聚会让我明白，有意义的庆祝在于让一个人感到被重视，而不是花很多钱。",
+                  "text": "Well, I have been to a few small celebrations with colleagues. But the first one that comes to my mind would be a party for Alex. We held it last winter, in a restaurant near our office. A few weeks before that, we had a very urgent project with a short deadline. Alex was experienced, so he helped us solve several problems quickly, and thanks to him, we finished the project on time. After that, he got promoted, so we held the party to celebrate his promotion and thank him. About ten of us booked a private room and ordered several dishes to share, such as noodles, chicken and vegetables. After dinner, each person said a few words about how Alex had helped them, and someone gave him a card from the whole team. He looked surprised and said he had not realised those small acts of help meant so much. The dishes were simple, but I left feeling closer to my colleagues.",
+                  "translation": "嗯，我参加过几次同事间的小型庆祝。但我首先想到的是为Alex举办的聚会。我们在去年冬天举办了这场聚会，地点在办公室附近的餐厅。就在几周前，我们有一个非常紧急、工期很短的项目。Alex经验丰富，帮我们很快解决了几个问题，多亏了他，项目才按时完成。之后他获得了升职，所以我们举办了这场聚会来庆祝他升职，也感谢他。我们团队大约十个人订了包间，点了几道菜一起吃，比如面条、鸡肉和蔬菜。饭后，每个人都说了几句，讲一次 Alex 帮助自己的经历。还有人送给他一张写着全组祝福的卡片。他看起来很惊讶，说自己没有意识到那些小小的帮助对我们意义这么大。菜式很简单，但离开时我觉得和同事更亲近了。",
                   "highlights": [
                     "a party for Alex",
                     "last winter",
                     "a restaurant near our office",
+                    "a very urgent project",
+                    "solve several problems quickly",
+                    "finished the project on time",
+                    "he got promoted",
                     "celebrate his promotion",
                     "about ten of us",
                     "a private room",
@@ -10708,7 +11205,7 @@ window.IELTS_DATA = {
                   ],
                   "paragraphStarts": [
                     "We held it last winter, in",
-                    "We wanted to celebrate his promotion",
+                    "A few weeks before that,",
                     "He looked surprised and said he"
                   ]
                 },
@@ -10728,7 +11225,8 @@ window.IELTS_DATA = {
                         "personal and honest",
                         "a time when he had helped them",
                         "warmer than just saying congratulations"
-                      ]
+                      ],
+                      "memoryEn": "Emotion: personal and honest → each person talked → much warmer"
                     },
                     {
                       "text": "Secondly, the party brought our team closer. We had time to share food and talk about things outside our usual tasks. I left feeling that we understood and appreciated one another more.",
@@ -10738,7 +11236,8 @@ window.IELTS_DATA = {
                         "brought our team closer",
                         "talk about things outside our usual tasks",
                         "appreciated one another more"
-                      ]
+                      ],
+                      "memoryEn": "Relationship: share food → appreciated one another more → brought our team closer"
                     },
                     {
                       "text": "What's more, we did not need expensive entertainment to make the evening special. The dishes were simple, and someone brought a card. I think the care behind the celebration mattered most. So a simple dinner was enough. I think that is what a good celebration should be about.",
@@ -10748,25 +11247,32 @@ window.IELTS_DATA = {
                         "expensive entertainment",
                         "someone brought a card",
                         "the care behind the celebration"
-                      ]
+                      ],
+                      "memoryEn": "Money: dishes were simple → did not need expensive entertainment"
                     }
                   ],
                   "mode": "reasons"
                 },
                 "cuePointsNotes": [
                   "去年冬天，在公司附近的一家餐厅，我们订了包间",
-                  "为了庆祝 Alex 升职，也感谢他在一个困难项目里帮我们",
+                  "几周前有个很紧急的项目，Alex经验丰富帮我们很快解决问题、按时完成，他因此升职，所以我们办聚会庆祝他升职、感谢他",
                   "我们团队大约十个人参加",
                   ""
                 ],
                 "memoryChain": {
-                  "story": "去年冬天，公司附近餐厅包间 → 约10人 → 庆祝 Alex 升职＋感谢他 → 每人讲一件被帮过的事 → 送签名卡 → 他很意外，说没想到这些小帮助这么重要 → 没有昂贵娱乐，但很温暖，散场时觉得团队更近",
+                  "story": "去年冬天，公司附近餐厅包间 → 约10人 → 几周前有个很紧急的项目，Alex经验丰富帮我们很快解决问题，项目按时完成 → 他因此升职 → 我们办聚会庆祝他升职＋感谢他 → 每人讲一件被帮过的事 → 送签名卡 → 他很意外，说没想到这些小帮助这么重要 → 没有昂贵娱乐，但很温暖，散场时觉得团队更近",
                   "reasons": [
                     "1 · Emotion：亲身经历＋真诚感谢 → 温暖",
                     "2 · Relationship：分享菜式＋交流 → 团队更亲近",
                     "3 · Money：简单菜式＋卡片 → 心意让聚会特别"
                   ]
-                }
+                },
+                "cuePointsNotesEn": [
+                  "last winter ; a restaurant near our office",
+                  "a very urgent project ; celebrate his promotion",
+                  "About ten of us",
+                  ""
+                ]
               },
               {
                 "isNew": true,
@@ -10863,7 +11369,8 @@ window.IELTS_DATA = {
                         "saved for myself",
                         "made me feel proud",
                         "worked towards it for four months"
-                      ]
+                      ],
+                      "memoryEn": "Emotion: first expensive thing → for four months → made me feel proud"
                     },
                     {
                       "text": "Secondly, I felt relieved because I bought it without borrowing money. Saving a fixed amount each month made the goal easier to manage. I could enjoy the watch without worrying about a debt. So the plan worked well.",
@@ -10873,7 +11380,8 @@ window.IELTS_DATA = {
                         "without borrowing money",
                         "saving a fixed amount each month",
                         "without worrying about a debt"
-                      ]
+                      ],
+                      "memoryEn": "Money: without borrowing money → a fixed amount → worrying about a debt"
                     },
                     {
                       "text": "What's more, the watch was worth saving for because it could help me with work reminders and simple health records every day. Using it often makes me feel that my effort was worthwhile. So I do not regret saving for it. I think saving habits are important, because they teach you patience.",
@@ -10883,7 +11391,8 @@ window.IELTS_DATA = {
                         "work reminders",
                         "my effort was worthwhile"
                       ],
-                      "translation": "此外，这块手表值得攒钱买，因为它每天都能帮我提醒工作、记录健康。经常用它让我觉得自己的努力很值得。所以我一点也不后悔为它存钱。我觉得存钱的习惯很重要，因为它教会你耐心。"
+                      "translation": "此外，这块手表值得攒钱买，因为它每天都能帮我提醒工作、记录健康。经常用它让我觉得自己的努力很值得。所以我一点也不后悔为它存钱。我觉得存钱的习惯很重要，因为它教会你耐心。",
+                      "memoryEn": "Value: work reminders → simple health records → my effort was worthwhile"
                     }
                   ],
                   "mode": "feelings"
@@ -10892,6 +11401,12 @@ window.IELTS_DATA = {
                   "去年攒钱买的智能手表，大约两千元",
                   "想用它提醒会议，也记录步数和睡眠；这是我第一次完全用自己攒的钱买比较贵的东西",
                   "每月存固定金额：四个月里少点外卖、在家冲咖啡，把省下来的钱转到另一个账户；有时很想花掉，就看看进度鼓励自己继续",
+                  ""
+                ],
+                "cuePointsNotesEn": [
+                  "a smart watch ; two thousand yuan",
+                  "meeting reminders ; track my steps and sleep；the first expensive thing ; my own savings",
+                  "save a fixed amount ; made coffee at home；wanted to spend the money ; checking my progress",
                   ""
                 ]
               },
@@ -11012,7 +11527,8 @@ window.IELTS_DATA = {
                         "felt a little bored",
                         "did not usually follow football",
                         "an unfamiliar topic"
-                      ]
+                      ],
+                      "memoryEn": "Emotion: follow football → did not know much → a little bored"
                     },
                     {
                       "text": "After a while, I felt positive because I could see how excited Alex was. I asked a few simple questions and listened carefully. It felt good to show a friend some respect. So I kept asking simple questions.",
@@ -11022,7 +11538,8 @@ window.IELTS_DATA = {
                         "how excited Alex was",
                         "asked a few simple questions",
                         "show a friend some respect"
-                      ]
+                      ],
+                      "memoryEn": "Emotion: how excited Alex was → listened carefully → show a friend some respect"
                     },
                     {
                       "text": "In the end, I felt closer to him because he listened to my work problem too. I think good communication works both ways. We do not have to like every topic to support each other. I think that is important for any friendship.",
@@ -11032,7 +11549,8 @@ window.IELTS_DATA = {
                         "felt closer to him",
                         "works both ways",
                         "support each other"
-                      ]
+                      ],
+                      "memoryEn": "Relationship: my work problem → works both ways → felt closer to him"
                     }
                   ],
                   "mode": "feelings"
@@ -11047,6 +11565,12 @@ window.IELTS_DATA = {
                   "同事 Alex",
                   "午饭时他讲前一晚看的足球赛，非常兴奋",
                   "我平时不看足球，一开始觉得有点无聊；但那场比赛对他很重要，我不想显得没礼貌；我看着他、点头，还问了几个简单问题（比如这个结果为什么重要），他很愿意讲",
+                  ""
+                ],
+                "cuePointsNotesEn": [
+                  "a football conversation with Alex",
+                  "the match the night before ; very excited",
+                  "do not usually follow football ; a little boring；kept listening ; meant a lot to him；nodded and asked ; a few simple questions",
                   ""
                 ]
               },
@@ -11097,7 +11621,8 @@ window.IELTS_DATA = {
                         "change a plan at the last minute"
                       ],
                       "translation": "一开始，我很失望，因为团队为九月发布准备了很久。我担心延期会影响我们的进度。说实话，没人喜欢在最后一刻改计划。",
-                      "memory": "At first：团队准备很久 → 失望＋担心进度"
+                      "memory": "At first：团队准备很久 → 失望＋担心进度",
+                      "memoryEn": "Emotion: prepared for the September release → felt disappointed → affect our progress"
                     },
                     {
                       "text": "After the meeting, I understood that Alex's plan was safer. A small release gave us time to collect feedback and fix the app properly. So the delay was actually useful. That changed my mind.",
@@ -11107,7 +11632,8 @@ window.IELTS_DATA = {
                         "changed my mind"
                       ],
                       "translation": "开会之后，我理解了 Alex 的方案更安全。小范围发布给了我们收集反馈、认真修复应用的时间。所以延期其实是有用的。这改变了我的想法。",
-                      "memory": "After the meeting：小范围更安全 → 有时间收集反馈 → 延期有用"
+                      "memory": "After the meeting：小范围更安全 → 有时间收集反馈 → 延期有用",
+                      "memoryEn": "Advice: plan was safer → time to collect feedback → actually useful"
                     },
                     {
                       "text": "In the end, I felt relieved because the October release worked smoothly and students could use the lessons normally. The change was clearly worthwhile. So I would make the same decision again. I think changing a plan is sometimes the responsible choice.",
@@ -11117,7 +11643,8 @@ window.IELTS_DATA = {
                         "the same decision again"
                       ],
                       "translation": "最后，十月发布很顺利，学生也能正常使用课程，我松了一口气。这个改变显然是值得的。所以再来一次我还会这么决定。我觉得有时候改变计划才是负责任的选择。",
-                      "memory": "In the end：十月顺利上线 → 学生正常用 → 改变值得"
+                      "memory": "In the end：十月顺利上线 → 学生正常用 → 改变值得",
+                      "memoryEn": "Result: October release worked smoothly → use the lessons normally → clearly worthwhile"
                     }
                   ],
                   "mode": "feelings"
@@ -11165,6 +11692,12 @@ window.IELTS_DATA = {
                   "去年九月",
                   "原本决定九月底向所有学生发布学习应用",
                   "最终测试时应用变慢、有些课程打不开；开会时 Alex 建议分阶段发布；听完他和团队的意见，我改变决定：先让一小部分学生使用、收集反馈、修复问题，完整版十月再发布",
+                  ""
+                ],
+                "cuePointsNotesEn": [
+                  "last September",
+                  "my original decision ; to all students",
+                  "became slow ; some lessons could not open；held a meeting ; suggested releasing it in stages；a small group of students ; collect their feedback",
                   ""
                 ]
               }
@@ -11260,7 +11793,8 @@ window.IELTS_DATA = {
                         "the same clear information"
                       ],
                       "translation": "首先，我重复测试，把问题清楚写下来。这帮助团队理解错误很严重、不是偶然。制订计划之前，我们需要掌握同样清楚的信息。",
-                      "memory": "前期：重复测试＋写清问题 → 团队知道问题严重 → 再定计划"
+                      "memory": "前期：重复测试＋写清问题 → 团队知道问题严重 → 再定计划",
+                      "memoryEn": "Teamwork: repeated the test → errors were serious → before making a plan"
                     },
                     {
                       "text": "Then Alex suggested that we release the app to a small group first. This gave us real feedback without affecting every student. I think that made the problem easier to deal with. So the problem became easier to handle.",
@@ -11270,7 +11804,8 @@ window.IELTS_DATA = {
                         "easier to deal with"
                       ],
                       "translation": "然后 Alex 建议先给小范围学生发布。这样既能拿到真实反馈，又不会影响所有学生。我觉得这让问题更容易处理。所以问题变得好解决多了。",
-                      "memory": "Alex 建议：先小范围发布 → 有反馈又不影响全部 → 更好处理"
+                      "memory": "Alex 建议：先小范围发布 → 有反馈又不影响全部 → 更好处理",
+                      "memoryEn": "Advice: to a small group first → real feedback → easier to handle"
                     },
                     {
                       "text": "What's more, we fixed the remaining problems and released the full version in October. The app worked smoothly, so I felt relieved and grateful. We checked the lessons carefully before the full release. I think clear communication is important in any team.",
@@ -11280,7 +11815,8 @@ window.IELTS_DATA = {
                         "checked the lessons carefully"
                       ],
                       "translation": "此外，我们修复了剩余问题，十月发布了完整版。应用运行流畅，所以我既安心又感激。全面发布前我们认真检查了课程。我觉得清楚的沟通在任何团队里都很重要。",
-                      "memory": "结果：十月发完整版 → 运行流畅 → 安心感激"
+                      "memory": "结果：十月发完整版 → 运行流畅 → 安心感激",
+                      "memoryEn": "Result: the full version in October → worked smoothly → felt relieved and grateful"
                     }
                   ],
                   "mode": "steps"
@@ -11308,6 +11844,12 @@ window.IELTS_DATA = {
                   "学习应用变得很慢、有几节课打不开",
                   "去年九月，在公司（团队准备月底发布）",
                   "我查了错误信息、重复测试，也找不到按时安全发布的办法",
+                  ""
+                ],
+                "cuePointsNotesEn": [
+                  "became very slow ; several lessons could not open",
+                  "a learning app at work ; last September",
+                  "checked the error messages ; repeated the test",
                   ""
                 ]
               },
@@ -11395,7 +11937,8 @@ window.IELTS_DATA = {
                         "spoil a product's name"
                       ],
                       "translation": "首先，直接向所有人发布可能影响很多学生。先从小范围开始，是保护用户更安全的方式。你知道，一次糟糕的发布可能毁掉产品的口碑。",
-                      "memory": "风险：直接发全员 → 可能影响很多人 → 小范围更安全"
+                      "memory": "风险：直接发全员 → 可能影响很多人 → 小范围更安全",
+                      "memoryEn": "Risk: to everyone → affected many students → a safer way"
                     },
                     {
                       "text": "Secondly, the delay gave us enough time to fix the problems and test the app carefully. It helped us avoid a much larger loss later. So the extra time was worth it. That is why I am glad we waited.",
@@ -11405,7 +11948,8 @@ window.IELTS_DATA = {
                         "worth it"
                       ],
                       "translation": "其次，延期给了我们足够时间修复问题、认真测试。这帮助我们避免以后更大的损失。所以多出来的时间很值得。所以我很庆幸我们等了。",
-                      "memory": "Time：延期 → 有时间修复测试 → 避免更大损失"
+                      "memory": "Time：延期 → 有时间修复测试 → 避免更大损失",
+                      "memoryEn": "Time: enough time to fix → avoid a much larger loss"
                     },
                     {
                       "text": "What's more, the small release went well and the full version worked smoothly in October. This result showed that the decision was responsible. So the team trusted my judgement more, and that gave me confidence in my own choices. I think a good leader should put customers first.",
@@ -11415,7 +11959,8 @@ window.IELTS_DATA = {
                         "trusted my judgement more"
                       ],
                       "translation": "此外，小范围发布顺利，完整版十月也运行流畅。这个结果说明这个决定是负责任的。所以团队更信任我的判断了。我觉得好的负责人应该把顾客放在第一位。",
-                      "memory": "结果：小范围顺利＋十月流畅 → 决定负责任 → 团队更信任"
+                      "memory": "结果：小范围顺利＋十月流畅 → 决定负责任 → 团队更信任",
+                      "memoryEn": "Result: small release went well → decision was responsible → trusted my judgement"
                     }
                   ],
                   "mode": "reasons"
@@ -11443,6 +11988,12 @@ window.IELTS_DATA = {
                   "推迟学习应用的全面发布",
                   "去年九月：最终测试发现应用变慢、课程打不开；我们开会讨论按时发布还是延期，Alex 建议拆成分步；听完他和团队意见后，我决定先给小范围学生使用，把全面发布改到十月，也把决定告诉项目经理并做了新的测试计划",
                   "十月完整版顺利上线，学生能正常使用课程",
+                  ""
+                ],
+                "cuePointsNotesEn": [
+                  "a learning app ; delaying the full release",
+                  "Last September ; the app became slow；release it on time ; into smaller steps；a small group first ; to October",
+                  "released in October ; without any big problems",
                   ""
                 ]
               },
@@ -11530,7 +12081,8 @@ window.IELTS_DATA = {
                         "change a plan at the last minute"
                       ],
                       "translation": "一开始，我很失望，因为团队为九月发布准备了很久。我担心延期会影响我们的进度。说实话，没人喜欢在最后一刻改计划。",
-                      "memory": "At first：团队准备很久 → 失望＋担心进度"
+                      "memory": "At first：团队准备很久 → 失望＋担心进度",
+                      "memoryEn": "Emotion: prepared for the September release → felt disappointed → affect our progress"
                     },
                     {
                       "text": "After the meeting, I understood that Alex's plan was safer. A small release gave us time to collect feedback and fix the app properly. So the delay was actually useful. That changed my mind.",
@@ -11540,7 +12092,8 @@ window.IELTS_DATA = {
                         "changed my mind"
                       ],
                       "translation": "开会之后，我理解了 Alex 的方案更安全。小范围发布给了我们收集反馈、认真修复应用的时间。所以延期其实是有用的。这改变了我的想法。",
-                      "memory": "After the meeting：小范围更安全 → 有时间收集反馈 → 延期有用"
+                      "memory": "After the meeting：小范围更安全 → 有时间收集反馈 → 延期有用",
+                      "memoryEn": "Advice: plan was safer → time to collect feedback → actually useful"
                     },
                     {
                       "text": "In the end, I felt relieved because the October release worked smoothly and students could use the lessons normally. The change was clearly worthwhile. So I would make the same decision again. I think changing a plan is sometimes the responsible choice.",
@@ -11550,7 +12103,8 @@ window.IELTS_DATA = {
                         "the same decision again"
                       ],
                       "translation": "最后，十月发布很顺利，学生也能正常使用课程，我松了一口气。这个改变显然是值得的。所以再来一次我还会这么决定。我觉得有时候改变计划才是负责任的选择。",
-                      "memory": "In the end：十月顺利上线 → 学生正常用 → 改变值得"
+                      "memory": "In the end：十月顺利上线 → 学生正常用 → 改变值得",
+                      "memoryEn": "Result: October release worked smoothly → use the lessons normally → clearly worthwhile"
                     }
                   ],
                   "mode": "feelings"
@@ -11578,6 +12132,12 @@ window.IELTS_DATA = {
                   "去年九月",
                   "最终测试时应用变慢、有些课程打不开",
                   "新计划：先让一小部分学生使用、收集反馈、修复问题，十月再发布完整版",
+                  ""
+                ],
+                "cuePointsNotesEn": [
+                  "at work last September",
+                  "the app became slow ; could not open",
+                  "a small group of students ; collect their feedback",
                   ""
                 ]
               }
@@ -11667,7 +12227,8 @@ window.IELTS_DATA = {
                         "repeating the same checks"
                       ],
                       "translation": "首先，现在我的工作更快也更安全，因为两个人可以检查不同部分、发现不同细节。你知道，这让我不会在同样的检查上耗太久。所以工作比以前快。",
-                      "memory": "效率：两人分工检查 → 不重复劳动 → 更快更安全"
+                      "memory": "效率：两人分工检查 → 不重复劳动 → 更快更安全",
+                      "memoryEn": "Teamwork: check different parts → repeating the same checks → faster and safer"
                     },
                     {
                       "text": "Secondly, I feel less stressed and more confident because I know I do not have to face every difficult problem alone. I can stay calm and focus on the problem. So I stay calm and focus on the problem.",
@@ -11677,7 +12238,8 @@ window.IELTS_DATA = {
                         "stay calm"
                       ],
                       "translation": "其次，我压力更小、更有信心，因为我知道不必独自面对每个难题。我可以保持冷静、专注解决问题。所以我能冷静下来专心处理问题。",
-                      "memory": "Emotion：不必独自面对 → 压力小＋有信心 → 保持冷静"
+                      "memory": "Emotion：不必独自面对 → 压力小＋有信心 → 保持冷静",
+                      "memoryEn": "Emotion: less stressed → more confident → stay calm and focus"
                     },
                     {
                       "text": "What's more, the change has improved communication in my team. In the future, I will keep clear notes and speak up before a small problem becomes bigger. Sharing ideas also helps us trust one another. I think that is important in any job, because teamwork solves problems faster.",
@@ -11687,7 +12249,8 @@ window.IELTS_DATA = {
                         "trust one another"
                       ],
                       "translation": "此外，这个改变改善了团队沟通。以后我会把笔记记清楚，在小问题变大之前说出来。分享想法也帮助我们互相信任。我觉得这在任何工作里都重要，因为团队合作解决问题更快。",
-                      "memory": "Relationship：沟通改善 → 记好笔记＋早说 → 互相更信任"
+                      "memory": "Relationship：沟通改善 → 记好笔记＋早说 → 互相更信任",
+                      "memoryEn": "Relationship: improved communication → keep clear notes → trust one another"
                     }
                   ],
                   "mode": "feelings"
@@ -11714,6 +12277,12 @@ window.IELTS_DATA = {
                   "卡住时更早求助（大约一个月前开始）",
                   "新功能上线后购物系统变慢、订单失败；我读错误信息、上网查、看视频，查了将近一小时都没用",
                   "我写下检查过的内容，请同事 Alex 帮忙：他查设置、我准备测试订单，一起找到并修好一处错误设置；现在先做几项安全自查，二十分钟没进展就分享笔记、找队友",
+                  ""
+                ],
+                "cuePointsNotesEn": [
+                  "asking for help earlier ; about a month ago",
+                  "the shopping system became slow ; some orders failed；searched online and watched videos ; nothing worked",
+                  "asked my colleague Alex ; fixed it together；no progress after twenty minutes ; share my notes",
                   ""
                 ]
               }
@@ -11773,7 +12342,8 @@ window.IELTS_DATA = {
                         "no longer feel that asking for help is a weakness",
                         "everyone gets stuck sometimes",
                         "reduced my stress"
-                      ]
+                      ],
+                      "memoryEn": "Emotion: help is a weakness → reduced my stress → much sooner now"
                     },
                     {
                       "text": "Secondly, I can solve difficult problems more quickly now. If I make no progress after twenty minutes, I share my notes with a teammate. This saves time and helps us avoid a bigger problem.",
@@ -11783,7 +12353,8 @@ window.IELTS_DATA = {
                         "solve difficult problems more quickly",
                         "after twenty minutes",
                         "avoid a bigger problem"
-                      ]
+                      ],
+                      "memoryEn": "Time: no progress after twenty minutes → share my notes → saves time"
                     },
                     {
                       "text": "What's more, I work more closely with Alex and the rest of my team. We explain our ideas and learn from one another. I think this has made our working relationship stronger. So the change helped everyone. I think that is important at work, because nobody can do everything alone.",
@@ -11793,7 +12364,8 @@ window.IELTS_DATA = {
                         "work more closely",
                         "learn from one another",
                         "working relationship stronger"
-                      ]
+                      ],
+                      "memoryEn": "Relationship: work more closely → learn from one another → relationship stronger"
                     }
                   ],
                   "mode": "feelings"
@@ -11814,6 +12386,12 @@ window.IELTS_DATA = {
                   "大约一个月前",
                   "以前认为好工程师应该独自解决每个问题",
                   "自查一小时没效果，和 Alex 合作很快修好；现在二十分钟没进展就求助，我也不必独自面对每个问题",
+                  ""
+                ],
+                "cuePointsNotesEn": [
+                  "About a month ago",
+                  "a good engineer ; solve every problem alone",
+                  "nothing worked ; fixed the problem together；ask a teammate ; face every problem alone",
                   ""
                 ]
               }
@@ -11906,7 +12484,8 @@ window.IELTS_DATA = {
                         "did not want to help him"
                       ],
                       "translation": "一开始我很尴尬，因为 Alex 等了很久。我也担心他会以为我不想帮他。你知道，那完全不是真的。",
-                      "memory": "At first：Alex 等很久 → 尴尬＋担心误会 → 其实不是那样"
+                      "memory": "At first：Alex 等很久 → 尴尬＋担心误会 → 其实不是那样",
+                      "memoryEn": "Emotion: waited for a long time → felt embarrassed → not want to help"
                     },
                     {
                       "text": "However, I had not ignored him on purpose. The meeting needed my full attention, and my phone was silent, so I did not see the message. After I explained, I felt better. So I explained it as soon as I could.",
@@ -11916,7 +12495,8 @@ window.IELTS_DATA = {
                         "After I explained"
                       ],
                       "translation": "不过，我并不是故意不理他。会议需要我全神贯注，手机又调成静音，所以我没看到消息。解释清楚之后我好受多了。所以我一有机会就解释了。",
-                      "memory": "However：不是故意忽略 → 会议＋静音 → 解释后好受些"
+                      "memory": "However：不是故意忽略 → 会议＋静音 → 解释后好受些",
+                      "memoryEn": "Problems: not ignored him on purpose → my phone was silent → felt better"
                     },
                     {
                       "text": "Now I know I should send a short reply as soon as possible. If I am really busy, I will ask another teammate to deal with urgent problems. That way, nobody has to wait too long. I think replying quickly is a small habit that shows respect.",
@@ -11926,7 +12506,8 @@ window.IELTS_DATA = {
                         "nobody has to wait too long"
                       ],
                       "translation": "现在我知道，只要有可能就应该先发一条简短回复。如果真的很忙，我会请另一位队友处理紧急问题。这样就不会有人等太久。我觉得及时回复是一个体现尊重的小习惯。",
-                      "memory": "Now：先发简短回复 → 真忙就请队友帮忙 → 不让别人久等"
+                      "memory": "Now：先发简短回复 → 真忙就请队友帮忙 → 不让别人久等",
+                      "memoryEn": "Advice: send a short reply → ask another teammate → nobody has to wait"
                     }
                   ],
                   "mode": "feelings"
@@ -11953,6 +12534,12 @@ window.IELTS_DATA = {
                   "同事 Alex",
                   "公司系统突然变慢，他发来一张报错截图，问我会不会修",
                   "当时我在开两小时的会、手机调了静音，没看到消息；会后看到好几条消息，我有点担心，马上回复、解释了原因，并回办公室一起检查系统，找到错误设置，赶在下班前修好",
+                  ""
+                ],
+                "cuePointsNotesEn": [
+                  "an urgent message from Alex",
+                  "suddenly became slow ; a screenshot of an error",
+                  "in a two-hour meeting ; my phone on silent；replied at once ; found a wrong setting",
                   ""
                 ]
               },
@@ -12037,7 +12624,8 @@ window.IELTS_DATA = {
                         "before it became even bigger"
                       ],
                       "translation": "首先，系统恢复正常、投诉也停止了，所以我松了一口气。一个严重的问题在变得更大之前就解决了。你知道，这对整个团队都是很大的安慰。",
-                      "memory": "Emotion：系统恢复＋投诉停止 → 问题没变大 → 大家松一口气"
+                      "memory": "Emotion：系统恢复＋投诉停止 → 问题没变大 → 大家松一口气",
+                      "memoryEn": "Emotion: the system worked again → complaints stopped → a big relief"
                     },
                     {
                       "text": "Secondly, I felt grateful because Alex patiently read my notes and shared his method. He did not blame me for failing to solve it alone. So I learned a lot from him that day. That meant a lot to me.",
@@ -12047,7 +12635,8 @@ window.IELTS_DATA = {
                         "learned a lot from him"
                       ],
                       "translation": "其次，我很感激，因为 Alex 耐心看了我的笔记，还分享了他的方法。他没有因为我没能独自解决而责怪我。所以那天我跟他学到很多。这对我很重要。",
-                      "memory": "Relationship：耐心看笔记＋分享方法 → 没有责怪我 → 感激"
+                      "memory": "Relationship：耐心看笔记＋分享方法 → 没有责怪我 → 感激",
+                      "memoryEn": "Relationship: patiently read my notes → did not blame me → felt grateful"
                     },
                     {
                       "text": "What's more, I learned that asking for help is not a weakness. Teamwork can make difficult work faster and safer, so I will speak up earlier next time. So this experience changed my working style. I think that is important for any team.",
@@ -12057,7 +12646,8 @@ window.IELTS_DATA = {
                         "changed my working style"
                       ],
                       "translation": "此外，我明白了求助并不代表软弱。团队合作能让困难的工作更快、更安全，所以下次我会更早开口。所以这次经历改变了我的工作方式。我觉得这对任何团队都很重要。",
-                      "memory": "Learning：求助≠软弱 → 合作更快更安全 → 工作方式改变"
+                      "memory": "Learning：求助≠软弱 → 合作更快更安全 → 工作方式改变",
+                      "memoryEn": "Learning: not a weakness → faster and safer → changed my working style"
                     }
                   ],
                   "mode": "feelings"
@@ -12084,6 +12674,12 @@ window.IELTS_DATA = {
                   "同事 Alex",
                   "大约一年前，新功能上线后购物系统变慢、订单失败，客服还收到了投诉",
                   "我先自己查：读错误信息、上网搜、看视频，都没用；后来写下检查过的东西；Alex 开完会回来看我的笔记，问了几个简单问题，提议分工——他查新设置，我准备测试订单；很快找到并小心修改了一处错误设置，重新测试后顾客能正常下单",
+                  ""
+                ],
+                "cuePointsNotesEn": [
+                  "my colleague Alex ; solve a problem",
+                  "some orders failed ; received complaints",
+                  "read the error messages ; nothing worked；everything I had checked；read my notes ; suggested dividing the work；found one wrong setting ; customers could place orders",
                   ""
                 ]
               },
@@ -12172,7 +12768,8 @@ window.IELTS_DATA = {
                         "could not open the report",
                         "restarting the laptop",
                         "nothing worked"
-                      ]
+                      ],
+                      "memoryEn": "Problems: could not open the report → several days → nothing worked"
                     },
                     {
                       "text": "Secondly, a colleague helped me check the laptop, and we found that the storage was almost full. Old videos and temporary files were taking up most of the space. So the laptop had enough free space again.",
@@ -12182,7 +12779,8 @@ window.IELTS_DATA = {
                         "the storage was almost full",
                         "Old videos and temporary files",
                         "enough free space"
-                      ]
+                      ],
+                      "memoryEn": "Problems: storage was almost full → temporary files → enough free space"
                     },
                     {
                       "text": "What's more, we moved the videos to another drive, deleted the temporary files and restarted the laptop. The report opened normally and the meeting began on time. So I did not miss anything important. I think we should back up our files regularly.",
@@ -12192,7 +12790,8 @@ window.IELTS_DATA = {
                         "moved the videos to another drive",
                         "the report opened normally",
                         "began on time"
-                      ]
+                      ],
+                      "memoryEn": "Result: moved the videos → deleted the temporary files → began on time"
                     }
                   ],
                   "mode": "steps"
@@ -12219,6 +12818,12 @@ window.IELTS_DATA = {
                   "去年",
                   "在办公室；一小时后要开团队会，我正在准备报告",
                   "笔记本突然很慢、报告打不开；重启、关掉几个程序都没用，用手机查、看视频也不行；后来 Alex 帮我检查，发现存储快满了（旧视频和临时文件）；我们把视频移到另一个盘、删掉临时文件、重启电脑，报告正常打开，会议也按时开始",
+                  ""
+                ],
+                "cuePointsNotesEn": [
+                  "last year",
+                  "at the office；preparing a report ; begin in one hour",
+                  "became very slow ; the report would not open；closed several programs ; nothing helped；Alex checked the laptop ; storage was almost full；restarted the laptop ; the meeting began on time",
                   ""
                 ]
               },
@@ -12307,7 +12912,8 @@ window.IELTS_DATA = {
                         "needed a team"
                       ],
                       "translation": "首先，这个技术问题太复杂，一个人很难迅速解决。可能的原因很多，一个人很容易漏掉细节。你知道，所以我们才需要团队。",
-                      "memory": "复杂度：原因太多 → 一个人容易漏 → 需要团队"
+                      "memory": "复杂度：原因太多 → 一个人容易漏 → 需要团队",
+                      "memoryEn": "Teamwork: many possible causes → easily miss something → needed a team"
                     },
                     {
                       "text": "Secondly, each teammate had different skills, so we could divide the work. This meant that several useful checks could happen at the same time. So we saved a lot of time. That was a big advantage.",
@@ -12317,7 +12923,8 @@ window.IELTS_DATA = {
                         "saved a lot of time"
                       ],
                       "translation": "其次，每位队友的技能不同，所以我们可以分工。这意味着几项有用的检查可以同时进行。所以我们省了很多时间。这是很大的优势。",
-                      "memory": "分工：技能不同 → 检查同时进行 → 省很多时间"
+                      "memory": "分工：技能不同 → 检查同时进行 → 省很多时间",
+                      "memoryEn": "Teamwork: different skills → divide the work → saved a lot of time"
                     },
                     {
                       "text": "What's more, we checked and tested the solution together, which made it faster and safer. Everyone knew they were not facing the problem alone, so the pressure was lower. So we finished the job faster. I think group work is valuable, because we learn from each other's skills.",
@@ -12327,7 +12934,8 @@ window.IELTS_DATA = {
                         "the pressure was lower"
                       ],
                       "translation": "此外，我们一起检查和测试方案，让它更快也更安全。大家都知道不是独自面对问题，所以压力更小。所以我们更快完成了任务。我觉得小组合作很有价值，因为能学到彼此的长处。",
-                      "memory": "Emotion：一起检查测试 → 更快更安全＋压力小 → 更快完成"
+                      "memory": "Emotion：一起检查测试 → 更快更安全＋压力小 → 更快完成",
+                      "memoryEn": "Emotion: tested the solution together → faster and safer → pressure was lower"
                     }
                   ],
                   "mode": "reasons"
@@ -12354,6 +12962,12 @@ window.IELTS_DATA = {
                   "修购物系统：我负责查错误信息",
                   "和 Alex 还有两位同事，一共四个人",
                   "新功能让购物系统变慢、订单失败；难的是既快速找到原因，又不能制造新问题；我们先在小房间定了简单计划再动手，分工是：我查错误信息、Alex 看设置、其他人准备测试订单；每十五分钟停下来交流；大约两小时后 Alex 找到错误设置，改好后测试恢复正常",
+                  ""
+                ],
+                "cuePointsNotesEn": [
+                  "fixing a shopping system ; checked the error messages",
+                  "with Alex and two teammates",
+                  "a new feature ; some orders were failing；finding the cause quickly ; without creating another problem；a simple plan ; Alex reviewed the settings；every fifteen minutes ; shared our findings；found a wrong setting ; the system was normal",
                   ""
                 ]
               }
@@ -12444,7 +13058,8 @@ window.IELTS_DATA = {
                         "stood up and cheered"
                       ],
                       "translation": "首先，比分一直很接近，最后那个进球让比赛非常刺激。直到最后一分钟，我们都不知道哪支球队会赢。你知道，我们俩都站起来欢呼了。",
-                      "memory": "刺激：比分接近 → 最后进球 → 到最后一分钟才知胜负"
+                      "memory": "刺激：比分接近 → 最后进球 → 到最后一分钟才知胜负",
+                      "memoryEn": "Emotion: the score was close → the last goal → neither of us knew"
                     },
                     {
                       "text": "Secondly, watching it helped me relax after a busy week. For about two hours, I forgot my work and simply enjoyed the game. So it was a good way to rest. That is why I like live sport.",
@@ -12454,7 +13069,8 @@ window.IELTS_DATA = {
                         "a good way to rest"
                       ],
                       "translation": "其次，看比赛帮我在忙碌一周后放松。大约两个小时里，我忘掉工作，只是享受比赛。所以这是很好的休息方式。这就是我喜欢看直播比赛的原因。",
-                      "memory": "Emotion：看球两小时 → 忘掉工作 → 很好的放松方式"
+                      "memory": "Emotion：看球两小时 → 忘掉工作 → 很好的放松方式",
+                      "memoryEn": "Emotion: relax after a busy week → a good way to rest"
                     },
                     {
                       "text": "What's more, it gave my girlfriend and me a happy evening together. We shared the potato chips and had something fun to talk about afterwards. So it was a lovely evening for both of us. I think watching sport together can bring people closer.",
@@ -12464,7 +13080,8 @@ window.IELTS_DATA = {
                         "something fun to talk about"
                       ],
                       "translation": "此外，它让我和女朋友有了一个愉快的夜晚。我们分享薯片和饮料、一起大笑，赛后还有有趣的话题可聊。所以对我们俩来说都是个美好的晚上。我觉得一起看比赛能让人更亲近。",
-                      "memory": "Relationship：分享食物＋一起笑 → 赛后还有话题 → 愉快的夜晚"
+                      "memory": "Relationship：分享食物＋一起笑 → 赛后还有话题 → 愉快的夜晚",
+                      "memoryEn": "Relationship: shared the potato chips → talk about afterwards → a lovely evening"
                     }
                   ],
                   "mode": "reasons"
@@ -12485,6 +13102,12 @@ window.IELTS_DATA = {
                   "电视上的足球直播",
                   "上周末，在家看的",
                   "和女朋友一起，事先准备了饮料和薯片；刚开始我们安静地认球员名字，后来两队对攻、比分一直持平，各自都错失机会；最后几分钟一名球员突破后卫打进致胜球，我们一下站起来欢呼",
+                  ""
+                ],
+                "cuePointsNotesEn": [
+                  "live football match ; on television",
+                  "at home last weekend",
+                  "with my girlfriend ; drinks and potato chips；both teams began attacking ; the score stayed level；ran past a defender ; stood up and cheered",
                   ""
                 ]
               }
@@ -12575,7 +13198,8 @@ window.IELTS_DATA = {
                         "nobody felt rushed"
                       ],
                       "translation": "首先，散步和等日出的时间让大家可以聊天、享受彼此的陪伴。计划留了足够的时间说话，所以没有人觉得赶。所以大家都不慌不忙。",
-                      "memory": "过程：散步＋等日出 → 有时间聊天 → 不用赶"
+                      "memory": "过程：散步＋等日出 → 有时间聊天 → 不用赶",
+                      "memoryEn": "Process: waiting for the sunrise → time to chat → nobody felt rushed"
                     },
                     {
                       "text": "Secondly, sharing food and watching the sunrise made our friendship stronger. We helped one another climb the hill and took a group photo that we still keep. So the trip brought us closer.",
@@ -12585,7 +13209,8 @@ window.IELTS_DATA = {
                         "brought us closer"
                       ],
                       "translation": "其次，分享食物、一起看日出让我们的友谊更牢固。我们互相帮忙爬山，还拍了一张一直保存着的合照。所以这次出游让我们更亲近了。",
-                      "memory": "Relationship：分享食物＋互相帮忙 → 一起看日出 → 友谊更牢"
+                      "memory": "Relationship：分享食物＋互相帮忙 → 一起看日出 → 友谊更牢",
+                      "memoryEn": "Relationship: sharing food → helped one another → friendship stronger"
                     },
                     {
                       "text": "What's more, everyone arrived on time and we reached the top before sunrise. This showed that the plan worked well, and I felt proud when I saw everyone happy. So I felt the plan had worked. I think planning is important, because it lets everyone enjoy the day.",
@@ -12595,7 +13220,8 @@ window.IELTS_DATA = {
                         "the plan worked well"
                       ],
                       "translation": "此外，所有人都准时到达，我们也在日出前到了山顶。这说明计划安排得很好，看到大家开心我也很自豪。所以我觉得计划成功了。我觉得计划很重要，因为这样大家才能真正享受那一天。",
-                      "memory": "结果：全员准时＋日出前登顶 → 计划成功 → 我很自豪"
+                      "memory": "结果：全员准时＋日出前登顶 → 计划成功 → 我很自豪",
+                      "memoryEn": "Result: arrived on time → the plan worked well → felt proud"
                     }
                   ],
                   "mode": "reasons"
@@ -12620,6 +13246,12 @@ window.IELTS_DATA = {
                   "和三个好朋友去附近小山看日出（上周末）",
                   "我在群里提议，因为大家很久没聚；查了天气、选了附近的小山、约好凌晨4:30集合；列了购物清单，只花约60元买面包、水果、饼干和水",
                   "一个朋友带野餐垫，另一个查徒步路线，我提醒大家穿合适的鞋；那天大家都准时到，打着手电慢慢走，日出前到了山顶",
+                  ""
+                ],
+                "cuePointsNotesEn": [
+                  "a sunrise trip ; three close friends",
+                  "suggested the idea ; not spent much time together；checked the weather ; meet at 4:30；about 60 yuan ; bread, fruit, biscuits and water",
+                  "brought a picnic mat ; checked the route；arrived on time ; the top before sunrise",
                   ""
                 ]
               },
@@ -12701,7 +13333,8 @@ window.IELTS_DATA = {
                         "met at 4:30",
                         "the quiet streets and cool air",
                         "kept talking on the way"
-                      ]
+                      ],
+                      "memoryEn": "Time: met at 4:30 → a little tired → quiet streets and cool air"
                     },
                     {
                       "text": "After a while, we reached the top and shared the food we had bought. It only cost about 60 yuan for the four of us. Watching the sunrise together was the best part. So the day felt really special.",
@@ -12711,7 +13344,8 @@ window.IELTS_DATA = {
                         "shared the food",
                         "about 60 yuan",
                         "Watching the sunrise together"
-                      ]
+                      ],
+                      "memoryEn": "Money: shared the food → about 60 yuan → watching the sunrise together"
                     },
                     {
                       "text": "In the end, I felt happy and relaxed without spending much money. We walked home before the streets became busy. I think a simple trip with good friends can be better than an expensive one. So we did not need to spend much. I think you do not need much money to have a good day out.",
@@ -12721,7 +13355,8 @@ window.IELTS_DATA = {
                         "without spending much money",
                         "before the streets became busy",
                         "better than an expensive one"
-                      ]
+                      ],
+                      "memoryEn": "Result: happy and relaxed → better than an expensive one"
                     }
                   ],
                   "mode": "feelings"
@@ -12746,6 +13381,12 @@ window.IELTS_DATA = {
                   "上周末",
                   "附近的小山，免费又离家近，走路就能到",
                   "没花交通和门票钱；路上在商店买面包、水果、饼干和瓶装水，只花了约60元，四个人够吃",
+                  ""
+                ],
+                "cuePointsNotesEn": [
+                  "last weekend",
+                  "a nearby hill ; paid nothing",
+                  "nothing for transport or tickets；about 60 yuan ; enough for all four",
                   ""
                 ]
               },
@@ -12832,7 +13473,8 @@ window.IELTS_DATA = {
                         "the dark and quiet walk"
                       ],
                       "translation": "一开始我很困，但和朋友聊天让我清醒了一些。他们的笑话让漆黑安静的路好走多了。你知道，我们一路都在聊天。所以我都忘了自己有多累。",
-                      "memory": "At first：很困 → 聊天＋笑话 → 一路说话忘了累"
+                      "memory": "At first：很困 → 聊天＋笑话 → 一路说话忘了累",
+                      "memoryEn": "Emotion: felt sleepy → chatting with my friends → forgot how tired I was"
                     },
                     {
                       "text": "After a while, sharing breakfast and the sunrise made us feel much closer. We had time to talk about things that we usually do not discuss online. So it was a very warm morning. That is a nice memory.",
@@ -12842,7 +13484,8 @@ window.IELTS_DATA = {
                         "usually do not discuss online"
                       ],
                       "translation": "过了一会儿，一起吃早餐、看日出让我们感觉更亲近。我们有时间聊平时在网上不会说的事。所以那是个很温暖的早晨。那是很美好的回忆。",
-                      "memory": "After a while：一起早餐＋看日出 → 聊平时不聊的事 → 更亲近"
+                      "memory": "After a while：一起早餐＋看日出 → 聊平时不聊的事 → 更亲近",
+                      "memoryEn": "Relationship: sharing breakfast → usually do not discuss online → much closer"
                     },
                     {
                       "text": "In the end, the fresh air and the beautiful view made getting up early worthwhile. I was a little tired later that day, but I would happily do it again during a holiday. So I would recommend it to anyone. I think it is worth getting up early once in a while.",
@@ -12852,7 +13495,8 @@ window.IELTS_DATA = {
                         "do it again during a holiday"
                       ],
                       "translation": "最后，清新的空气和美丽的景色让早起变得值得。那天晚些时候我有点累，但假期里我还会乐意再来一次。所以我会推荐给任何人。我觉得偶尔早起一次是值得的。",
-                      "memory": "In the end：空气好＋景色美 → 早起值得 → 愿意再来"
+                      "memory": "In the end：空气好＋景色美 → 早起值得 → 愿意再来",
+                      "memoryEn": "Result: the fresh air → getting up early worthwhile → do it again"
                     }
                   ],
                   "mode": "feelings"
@@ -12877,6 +13521,12 @@ window.IELTS_DATA = {
                   "上周末，四点钟",
                   "我平时七点后才起；那天洗了脸、穿上舒服的衣服、带上小包出门；4:30 和大家集合，走去附近的小山；路上花约60元买面包、水果、饼干和水；慢慢爬，日出前到山顶，一起吃早餐，看天色从灰变橙、太阳升起，拍照，然后在街上变忙之前走回家",
                   "和三个好朋友一起看日出",
+                  ""
+                ],
+                "cuePointsNotesEn": [
+                  "last weekend ; at four o'clock",
+                  "normally get up after seven；washed my face ; with a small bag；met at 4:30 ; walked to a nearby hill；about 60 yuan ; on food and water；reached the top before sunrise ; took several photos",
+                  "see the sunrise ; with three close friends",
                   ""
                 ]
               }
@@ -12968,7 +13618,8 @@ window.IELTS_DATA = {
                         "miss the attractions we wanted to see"
                       ],
                       "translation": "一开始我不开心，因为车几乎不动，漫长的等待很累人。我还担心会错过想去的景点。所以出租车里的气氛很低落。",
-                      "memory": "At first：车不动＋等待久 → 担心错过地方 → 心情差"
+                      "memory": "At first：车不动＋等待久 → 担心错过地方 → 心情差",
+                      "memoryEn": "Emotion: hardly moved → miss the attractions → quite low"
                     },
                     {
                       "text": "After a while, my friend and I played a mobile phone game together, so I became happy again. The game gave us something simple to do instead of watching the road. So I felt much better.",
@@ -12978,7 +13629,8 @@ window.IELTS_DATA = {
                         "felt much better"
                       ],
                       "translation": "过了一会儿，我和朋友一起玩手机游戏，所以我又开心起来。游戏让我们有点事做，不用一直盯着路面。所以我心情好多了。",
-                      "memory": "After a while：一起玩手机游戏 → 有事可做 → 又开心"
+                      "memory": "After a while：一起玩手机游戏 → 有事可做 → 又开心",
+                      "memoryEn": "Emotion: a mobile phone game → something simple to do → happy again"
                     },
                     {
                       "text": "What's more, playing and talking brought us closer, but I was exhausted in the end and probably will not visit that area at a busy time again. Next time, I will take the subway or leave much earlier. I think that is a lesson about choosing the right time to travel.",
@@ -12988,7 +13640,8 @@ window.IELTS_DATA = {
                         "take the subway or leave much earlier"
                       ],
                       "translation": "此外，一起玩、一起聊让我们更亲近，但最后我筋疲力尽，以后大概不会在高峰期去那片区域。下次我会坐地铁，或者更早出发。我觉得这是关于选对出行时间的教训。",
-                      "memory": "In the end：一起玩聊更亲近 → 但很累 → 下次坐地铁或早走"
+                      "memory": "In the end：一起玩聊更亲近 → 但很累 → 下次坐地铁或早走",
+                      "memoryEn": "Result: brought us closer → exhausted in the end → take the subway"
                     }
                   ],
                   "mode": "feelings"
@@ -13008,7 +13661,13 @@ window.IELTS_DATA = {
                 "cuePointsNotes": [
                   "上次去上海旅行的时候",
                   "坐出租车去一个热闹的购物区，堵在一条很忙的路上；路上全是车，将近两个小时几乎没动",
-                  "一开始只是等着，心情不好，因为我们以为只要半小时；看了地图更累；后来朋友打开一个简单的手机游戏，我们互相玩，还聊起学校里好笑的往事，笑了很久，车里的气氛才变好",
+                  "一开始只是等着，心情不好，因为我们以为只要半小时；后来朋友打开一个简单的手机游戏，我们互相玩，还聊起学校里好笑的往事，笑了很久，车里的气氛才变好",
+                  ""
+                ],
+                "cuePointsNotesEn": [
+                  "my last trip to Shanghai",
+                  "a popular shopping area ; a busy road；full of cars ; nearly two hours",
+                  "simply waited and felt unhappy ; only thirty minutes；a mobile phone game ; funny things from school",
                   ""
                 ]
               }
@@ -13100,7 +13759,8 @@ window.IELTS_DATA = {
                         "the hardest part"
                       ],
                       "translation": "一开始，日语对我来说很难，我犯了很多错误。我总是把同一个词忘了一遍又一遍，有时觉得很尴尬。你知道，那是最难的部分。所以我差点放弃。",
-                      "memory": "At first：日语难＋总犯错 → 同一个词老忘 → 差点放弃"
+                      "memory": "At first：日语难＋总犯错 → 同一个词老忘 → 差点放弃",
+                      "memoryEn": "Learning: difficult for me → forgot the same word → nearly gave up"
                     },
                     {
                       "text": "After a while, books and videos helped me understand more words and sounds. Daily practice was short, so it was easy to continue even when I was busy. So the routine really worked.",
@@ -13110,7 +13770,8 @@ window.IELTS_DATA = {
                         "easy to continue"
                       ],
                       "translation": "过了一段时间，书和视频帮助我理解了更多单词和发音。每天练习时间很短，所以即使忙也容易坚持。所以这个方法确实有效。",
-                      "memory": "After a while：书＋视频 → 懂更多词和发音 → 每天短而好坚持"
+                      "memory": "After a while：书＋视频 → 懂更多词和发音 → 每天短而好坚持",
+                      "memoryEn": "Learning: books and videos → more words and sounds → easy to continue"
                     },
                     {
                       "text": "Now I feel more confident, and I want to keep practising for future travel. If I visit Japan, I hope to use Japanese in a shop and have a simple conversation. So I will keep going. I think learning a language is important, because it opens many doors.",
@@ -13120,7 +13781,8 @@ window.IELTS_DATA = {
                         "use Japanese in a shop"
                       ],
                       "translation": "现在我更有信心，也想继续练习，为以后旅行做准备。如果去日本，我希望能在商店里用日语，进行简单的交流。所以我会坚持下去。我觉得学一门语言很重要，因为它能打开很多机会。",
-                      "memory": "Now：更有信心 → 继续为旅行练 → 想在日本用日语"
+                      "memory": "Now：更有信心 → 继续为旅行练 → 想在日本用日语",
+                      "memoryEn": "Learning: more confident → practising for future travel → Japanese in a shop"
                     }
                   ],
                   "mode": "feelings"
@@ -13141,6 +13803,12 @@ window.IELTS_DATA = {
                   "日语（跟着朋友李华的方法学）",
                   "想以后旅行时能自己点餐、问路；从一本简单的日语书和短视频开始；每天晚上学五个有用的单词、写在笔记本上；跟读发音、录下自己的声音再回听找错；有问题就问老师，不猜；周末还和李华练短对话",
                   "一开始只会自我介绍，几个月后能聊食物、天气和旅行计划，也记得更牢、说得更清楚",
+                  ""
+                ],
+                "cuePointsNotesEn": [
+                  "learning Japanese ; Li Hua's method",
+                  "order food ; ask for directions；a simple Japanese book ; short online videos；learned five words ; a small notebook；recorded my own voice ; to find mistakes；asked a teacher ; had a question；short conversations with Li Hua ; at weekends",
+                  "introduce myself ; food, weather and travel plans",
                   ""
                 ]
               }
@@ -13227,7 +13895,8 @@ window.IELTS_DATA = {
                         "in one trip"
                       ],
                       "translation": "首先，那里的很多东西很便宜，所以当地家庭可以省钱。比如，人们可能一次就能买齐新鲜食物和日用品。所以这对普通家庭是好消息。",
-                      "memory": "Money：东西便宜 → 一次买齐 → 家庭省钱"
+                      "memory": "Money：东西便宜 → 一次买齐 → 家庭省钱",
+                      "memoryEn": "Money: very cheap → in one trip → families can save money"
                     },
                     {
                       "text": "Secondly, many products are the supermarket's own brands, so people want to try something different. These products are often simple and useful, and they cannot be found in every shop. So people are curious about it.",
@@ -13237,7 +13906,8 @@ window.IELTS_DATA = {
                         "cannot be found in every shop"
                       ],
                       "translation": "其次，很多商品是超市自有品牌，所以大家想尝试不一样的东西。这些商品通常简单实用，也不是每家店都有。所以大家很好奇。",
-                      "memory": "特点：自有品牌 → 简单实用 → 别处不常见"
+                      "memory": "特点：自有品牌 → 简单实用 → 别处不常见",
+                      "memoryEn": "Products: own brands → simple and useful → cannot be found"
                     },
                     {
                       "text": "What's more, it is famous for its friendly and helpful service, which makes shopping more pleasant. Staff may answer questions, help older customers and deal with problems patiently. So everyone is looking forward to it. I think good service is the main reason people are excited about it.",
@@ -13247,7 +13917,8 @@ window.IELTS_DATA = {
                         "looking forward to it"
                       ],
                       "translation": "此外，它以友好、周到的服务出名，让购物更愉快。员工会回答问题、帮助老年顾客，并耐心处理问题。所以大家都在期待它开业。我觉得好的服务是大家这么期待的主要原因。",
-                      "memory": "服务：友好周到 → 回答＋帮老人＋耐心 → 大家期待"
+                      "memory": "服务：友好周到 → 回答＋帮老人＋耐心 → 大家期待",
+                      "memoryEn": "Service: friendly and helpful → help older customers → looking forward to it"
                     }
                   ],
                   "mode": "reasons"
@@ -13267,7 +13938,13 @@ window.IELTS_DATA = {
                 "cuePointsNotes": [
                   "家附近要开一家新的胖东来超市",
                   "上个月：先在本地电视节目上看到，后来很多人在邻里群里转发",
-                  "报道里有新店的位置、计划开业的月份、将在这里工作的本地员工；还介绍了宽敞的购物区和顾客可以休息的地方",
+                  "报道里有新店的位置、计划开业的月份、将在这里工作的本地员工；居民听说这家超市口碑不错，所以很期待",
+                  ""
+                ],
+                "cuePointsNotesEn": [
+                  "Pang Dong Lai supermarket ; near my home",
+                  "a local TV programme ; our neighbourhood group",
+                  "location of the new shop ; some local workers；good things about the supermarket",
                   ""
                 ]
               }
@@ -13360,7 +14037,8 @@ window.IELTS_DATA = {
                         "talked honestly about his early mistakes",
                         "success feel more realistic",
                         "keep learning"
-                      ]
+                      ],
+                      "memoryEn": "Emotion: his early mistakes → success feel more realistic → keep learning"
                     },
                     {
                       "text": "Secondly, I found his simple examples useful for my own work. He said people should listen before making an important decision. I think that can help me work better with my colleagues. So I learned something useful.",
@@ -13370,7 +14048,8 @@ window.IELTS_DATA = {
                         "simple examples",
                         "listen before making an important decision",
                         "work better with my colleagues"
-                      ]
+                      ],
+                      "memoryEn": "Learning: an important decision → work better with my colleagues → learned something useful"
                     },
                     {
                       "text": "What's more, I was happy that I shared the interview with a colleague. We talked about it the next day and exchanged our ideas. A useful video gave us a good conversation. So the video was worth watching. I think a video is worth sharing when it teaches you something.",
@@ -13380,7 +14059,8 @@ window.IELTS_DATA = {
                         "shared the interview with a colleague",
                         "exchanged our ideas",
                         "a good conversation"
-                      ]
+                      ],
+                      "memoryEn": "Relationship: shared the interview → exchanged our ideas → a good conversation"
                     }
                   ],
                   "mode": "feelings"
@@ -13393,6 +14073,12 @@ window.IELTS_DATA = {
                   "雷军，中国知名的企业家",
                   "主持人问他早年的工作、犯过的错，以及怎么和团队合作；我印象最深的一段是：做重要决定前先听别人的意见",
                   "上个月，下班后在家看的；我坐在沙发上找有意思的视频时刷到",
+                  ""
+                ],
+                "cuePointsNotesEn": [
+                  "Lei Jun ; a well-known business owner",
+                  "early working life ; the mistakes he had made；listening to others ; before making an important decision",
+                  "one evening last month ; at home；something interesting to watch",
                   ""
                 ]
               },
@@ -13543,7 +14229,8 @@ window.IELTS_DATA = {
                         "saved us a lot of trouble"
                       ],
                       "translation": "首先，分阶段发布比原计划效果更好。小范围的学生给了我们真实的反馈，所以我们在全面发布前发现了几个小问题。你知道，这后来帮我们省了很多麻烦。",
-                      "memory": "结果：小范围反馈 → 提前发现小问题 → 省麻烦"
+                      "memory": "结果：小范围反馈 → 提前发现小问题 → 省麻烦",
+                      "memoryEn": "Result: honest feedback → several small problems → a lot of trouble"
                     },
                     {
                       "text": "Secondly, the app became more stable and easier to use. Some students told us that the lessons were clearer after our changes, and the full version worked smoothly in October. So the quality was much better.",
@@ -13553,7 +14240,8 @@ window.IELTS_DATA = {
                         "worked smoothly in October"
                       ],
                       "translation": "其次，应用变得更稳定、更好用。有学生告诉我们，修改之后课程更清楚了，十月完整版也运行得很顺畅。所以质量好了很多。",
-                      "memory": "质量：应用更稳定更好用 → 十月顺利上线 → 质量更好"
+                      "memory": "质量：应用更稳定更好用 → 十月顺利上线 → 质量更好",
+                      "memoryEn": "Quality: more stable → worked smoothly in October → the quality was much better"
                     },
                     {
                       "text": "What's more, my manager was satisfied with the decision. She said putting students first was the right choice, and the team trusted my judgement more afterwards, because the call was mine. I think a good decision should protect users and support the team.",
@@ -13563,7 +14251,8 @@ window.IELTS_DATA = {
                         "trusted my judgement more"
                       ],
                       "translation": "此外，我的领导对这个决定很满意。她说把学生放在第一位是正确的选择，团队之后也更信任我的判断，因为决定是我下的。我觉得好的决定既要保护用户，也要带好团队。",
-                      "memory": "领导/团队：领导认可＋团队更信任（决定是我下的）→ 好决定既护用户也带团队"
+                      "memory": "领导/团队：领导认可＋团队更信任（决定是我下的）→ 好决定既护用户也带团队",
+                      "memoryEn": "Teamwork: satisfied with the decision → trusted my judgement → protect users"
                     }
                   ],
                   "mode": "reasons"
@@ -13586,6 +14275,12 @@ window.IELTS_DATA = {
                   "Describe a challenging technological problem you faced",
                   "Describe an important decision that you made",
                   "Describe a plan that you had to change recently"
+                ],
+                "cuePointsNotesEn": [
+                  "release it in stages ; final decision was mine",
+                  "the app became slow ; could not open；release it on time ; change the plan",
+                  "not an easy decision ; keeping the app stable",
+                  ""
                 ]
               }
             ]

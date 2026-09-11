@@ -707,9 +707,13 @@ function partTwoTipsHtml(tips, universalMaterials = []) {
         ${item.cuePoints?.length ? `<ul class="numbered-list">${item.cuePoints.map((point, index) => {
           const isLast = index === item.cuePoints.length - 1;
           const lines = isLast && item.ending?.reasons?.length
-            ? item.ending.reasons.map((reason) => reason.memory || reason.text)
-            : String(item.cuePointsNotes?.[index] || "").split("；").map((line) => line.trim()).filter(Boolean);
-          const answers = lines.length ? `<ul class="cue-reason-list">${lines.map((line) => `<li>${escapeHtml(line)}</li>`).join("")}</ul>` : "";
+            ? item.ending.reasons.map((reason) => ({ zh: reason.memory || reason.text, en: reason.memoryEn || "" }))
+            : (() => {
+                const zhLines = String(item.cuePointsNotes?.[index] || "").split("；").map((line) => line.trim()).filter(Boolean);
+                const enLines = String(item.cuePointsNotesEn?.[index] || "").split("；").map((line) => line.trim()).filter(Boolean);
+                return zhLines.map((zh, lineIndex) => ({ zh, en: enLines[lineIndex] || "" }));
+              })();
+          const answers = lines.length ? `<ul class="cue-reason-list">${lines.map(({ zh, en }) => `<li>${escapeHtml(zh)}${en ? `<span class="cue-note-en">${escapeHtml(en)}</span>` : ""}</li>`).join("")}</ul>` : "";
           return `<li>${escapeHtml(point)}${item.cueTranslations?.[index] ? `<span class="memory-chain">${escapeHtml(item.cueTranslations[index])}</span>` : ""}${answers}</li>`;
         }).join("")}</ul>` : ""}
         ${item.body?.text ? `
