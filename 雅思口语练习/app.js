@@ -567,8 +567,11 @@ function questionStatusTag(item) {
   return highFreqTag + questionTag + regionTag;
 }
 
+// priorityRank：按《2026 年 9–12 月雅思口语新题完整版》一级重点清单的行序固定在前，
+// 值越小越靠前（Part 1 为 1–15，Part 2 为 1–14）。未设置该字段的题目保持原有排序规则。
 function compareQuestionBankEntries(a, b) {
-  return Number(Boolean(b.isHighFreq)) - Number(Boolean(a.isHighFreq)) ||
+  return (a.priorityRank ?? Number.POSITIVE_INFINITY) - (b.priorityRank ?? Number.POSITIVE_INFINITY) ||
+    Number(Boolean(b.isHighFreq)) - Number(Boolean(a.isHighFreq)) ||
     Number(Boolean(b.isNew)) - Number(Boolean(a.isNew)) ||
     Number(Boolean(a.isNonMainland)) - Number(Boolean(b.isNonMainland)) ||
     (a.sourceOrder ?? Number.POSITIVE_INFINITY) - (b.sourceOrder ?? Number.POSITIVE_INFINITY);
@@ -675,6 +678,7 @@ function partTwoTipsHtml(tips, universalMaterials = []) {
     isNew: item.isNew,
     isHighFreq: item.isHighFreq,
     sourceOrder: item.sourceOrder,
+    priorityRank: item.priorityRank,
     title: item.name || item.storyTitle || item.question,
     group,
     item,

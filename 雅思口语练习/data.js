@@ -1,6 +1,10 @@
 // 飞书 2026 年 9–12 月题库，核对日期：2026-09-10。
 // isHighFreq=true 的高频标记对照 shuaifulaoshi.com/speaking/ 的当季 🔥 高频，核对于 2026-09-11。
+// 例外：Hometown（P1）与 Describe a time when you received good service in a shop/store（P2）
+// 另据《2026 年 9–12 月雅思口语新题完整版》一级重点清单补标为高频，补标日期：2026-09-11。
 // 按飞书题库维护原题；isNew 区分新题与保留题，sourceOrder 为题库顺序。
+// priorityRank 为《2026 年 9–12 月雅思口语新题完整版》一级重点清单的行序，值越小越靠前
+// （Part 1 为 1–15，Part 2 为 1–14）；未设置该字段的题目按原有规则排在其后。
 // Part 2 一题一张卡：题卡小问、对应故事与理由；共用素材的题目用 linked 互链方便串题。
 // 素材通过普通 script 标签载入，无需 fetch、构建步骤或本地服务器。
 
@@ -163,6 +167,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "september-names",
+      "priorityRank": 7,
       "isHighFreq": true,
       "tab": "名字",
       "title": "Names",
@@ -266,6 +271,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "september-fruit-vegetables",
+      "priorityRank": 4,
       "isHighFreq": true,
       "tab": "水果与蔬菜",
       "title": "Fruit and vegetables",
@@ -326,6 +332,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "september-paper-letters",
+      "priorityRank": 8,
       "isHighFreq": true,
       "tab": "纸张与书信",
       "title": "Paper",
@@ -387,6 +394,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "september-advertisements",
+      "priorityRank": 11,
       "isHighFreq": true,
       "tab": "广告",
       "title": "Advertisement",
@@ -459,6 +467,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "september-shoes",
+      "priorityRank": 5,
       "isHighFreq": true,
       "tab": "鞋子",
       "title": "Shoes",
@@ -509,6 +518,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "september-rubbish-recycling",
+      "priorityRank": 9,
       "isHighFreq": true,
       "tab": "垃圾与回收",
       "title": "Rubbish and recycling",
@@ -614,6 +624,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "september-politeness",
+      "priorityRank": 6,
       "isHighFreq": true,
       "tab": "礼貌",
       "title": "Politeness",
@@ -1475,6 +1486,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "retained-jokes-and-comedies",
+      "priorityRank": 15,
       "isHighFreq": true,
       "tab": "笑话与喜剧",
       "title": "Jokes and comedies",
@@ -1656,6 +1668,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "retained-singing",
+      "priorityRank": 13,
       "isHighFreq": true,
       "tab": "唱歌",
       "title": "Singing",
@@ -1986,6 +1999,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "retained-watches",
+      "priorityRank": 14,
       "isHighFreq": true,
       "tab": "手表",
       "title": "Watches",
@@ -2303,6 +2317,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "retained-social-media",
+      "priorityRank": 10,
       "isHighFreq": true,
       "tab": "社交媒体",
       "title": "Social media",
@@ -2475,6 +2490,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "work",
+      "priorityRank": 1,
       "isHighFreq": true,
       "tab": "职业与规划",
       "title": "Work or studies",
@@ -2718,6 +2734,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "home",
+      "priorityRank": 2,
       "tab": "家乡",
       "title": "Hometown",
       "description": "飞书 2026 年 9–12 月题库 · 保留题 · 5.5 分目标参考答案",
@@ -2857,6 +2874,7 @@ window.IELTS_DATA = {
           "translation": "不太适合。我家乡适合年轻人的工作机会不多。很多人会去北京找工作，因为离家不远。"
         }
       ],
+      "isHighFreq": true,
       "isNew": false,
       "sourceOrder": 43
     },
@@ -3053,6 +3071,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "home-area",
+      "priorityRank": 3,
       "isHighFreq": true,
       "tab": "居住区域",
       "title": "The area you live in",
@@ -3135,6 +3154,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "september-new-opportunities",
+      "priorityRank": 12,
       "isHighFreq": true,
       "tab": "新的机会",
       "title": "New opportunities",
@@ -3536,6 +3556,7 @@ window.IELTS_DATA = {
               },
               {
                 "id": "p2-feishu-popular-person",
+                "priorityRank": 11,
                 "code": "N02",
                 "name": "受欢迎的人",
                 "question": "Describe a popular person",
@@ -3779,6 +3800,7 @@ window.IELTS_DATA = {
                 "fit": "新题",
                 "answerNote": "5.5 分目标参考答案；先记住故事顺序，人物、时间和经历可按实际情况调整。",
                 "id": "p2-feishu-taught-new-skill",
+                "priorityRank": 5,
                 "code": "N04",
                 "name": "教你新技能的人",
                 "sourceOrder": 4,
@@ -4308,6 +4330,7 @@ window.IELTS_DATA = {
                 "fit": "新题",
                 "answerNote": "5.5 分目标参考答案；先记住故事顺序，人物、时间和经历可按实际情况调整。",
                 "id": "p2-feishu-handcraft-person",
+                "priorityRank": 6,
                 "code": "N09",
                 "name": "擅长做手工的人",
                 "sourceOrder": 9,
@@ -5930,6 +5953,7 @@ window.IELTS_DATA = {
               },
               {
                 "id": "p2-happy-person",
+                "priorityRank": 13,
                 "code": "S11",
                 "name": "我认识的快乐的人",
                 "isNew": true,
@@ -6433,6 +6457,7 @@ window.IELTS_DATA = {
               },
               {
                 "id": "p2-feishu-helpful-person",
+                "priorityRank": 7,
                 "name": "乐于助人的人",
                 "question": "Describe a person who often helps others",
                 "isNew": false,
@@ -6636,6 +6661,7 @@ window.IELTS_DATA = {
             "items": [
               {
                 "id": "p2-feishu-near-natural-place",
+                "priorityRank": 2,
                 "code": "N14",
                 "name": "去过的靠近自然的地方",
                 "question": "Describe somewhere near a natural place that you have been to",
@@ -6875,6 +6901,7 @@ window.IELTS_DATA = {
                 "fit": "新题",
                 "answerNote": "5.5 分目标参考答案；先记住故事顺序，人物、时间和经历可按实际情况调整。",
                 "id": "p2-feishu-crowded-place",
+                "priorityRank": 9,
                 "code": "N16",
                 "name": "拥挤的地方",
                 "sourceOrder": 16,
@@ -7030,6 +7057,7 @@ window.IELTS_DATA = {
                 "fit": "新题",
                 "answerNote": "5.5 分目标参考答案；先记住故事顺序，人物、时间和经历可按实际情况调整。",
                 "id": "p2-feishu-noisy-place",
+                "priorityRank": 1,
                 "code": "N17",
                 "name": "嘈杂的地方",
                 "sourceOrder": 17,
@@ -8707,6 +8735,7 @@ window.IELTS_DATA = {
                 "fit": "新题",
                 "answerNote": "5.5 分目标参考答案；先记住故事顺序，人物、时间和经历可按实际情况调整。",
                 "id": "p2-feishu-waste-time",
+                "priorityRank": 8,
                 "code": "N28",
                 "name": "浪费时间的活动",
                 "sourceOrder": 28,
@@ -8857,6 +8886,7 @@ window.IELTS_DATA = {
                 "fit": "新题",
                 "answerNote": "5.5 分目标参考答案；先记住故事顺序，人物、时间和经历可按实际情况调整。",
                 "id": "p2-feishu-enjoyable-evening",
+                "priorityRank": 14,
                 "code": "N32",
                 "name": "和朋友度过的愉快夜晚",
                 "sourceOrder": 32,
@@ -10527,6 +10557,7 @@ window.IELTS_DATA = {
               },
               {
                 "id": "p2-new-exciting-book",
+                "priorityRank": 4,
                 "name": "让你兴奋的书",
                 "question": "Describe an exciting book you have read",
                 "isNew": true,
@@ -10992,8 +11023,10 @@ window.IELTS_DATA = {
                 "fit": "新题",
                 "answerNote": "5.5 分目标参考答案；先记住故事顺序，人物、时间和经历可按实际情况调整。",
                 "id": "p2-feishu-good-shop-service",
+                "priorityRank": 3,
                 "code": "N29",
                 "name": "购物时的优质服务",
+                "isHighFreq": true,
                 "sourceOrder": 29,
                 "question": "Describe a time when you received good service in a shop/store",
                 "cuePoints": [
@@ -11182,6 +11215,7 @@ window.IELTS_DATA = {
             "items": [
               {
                 "id": "p2-feishu-disliked-short-trip",
+                "priorityRank": 10,
                 "name": "不喜欢的短途旅行",
                 "question": "Describe a short trip you often take but do not like",
                 "isHighFreq": true,
@@ -12156,6 +12190,7 @@ window.IELTS_DATA = {
                 "fit": "新题",
                 "answerNote": "5.5 分目标参考答案；先记住故事顺序，人物、时间和经历可按实际情况调整。",
                 "id": "p2-feishu-saved-money",
+                "priorityRank": 12,
                 "code": "N30",
                 "name": "攒钱买特别物品",
                 "sourceOrder": 30,

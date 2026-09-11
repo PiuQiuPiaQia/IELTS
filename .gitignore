@@ -25,3 +25,6 @@ build/
 
 # Claude local editor config (contains machine-specific paths)
 .claude/
+
+# WorkBuddy local agent data (memory, skills, session state)
+.workbuddy-ai/
