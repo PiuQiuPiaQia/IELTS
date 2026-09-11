@@ -1,4 +1,5 @@
 // 飞书 2026 年 9–12 月题库，核对日期：2026-09-10。
+// isHighFreq=true 的高频标记对照 shuaifulaoshi.com/speaking/ 的当季 🔥 高频，核对于 2026-09-11。
 // 按飞书题库维护原题；isNew 区分新题与保留题，sourceOrder 为题库顺序。
 // Part 2 一题一张卡：题卡小问、对应故事与理由；共用素材的题目用 linked 互链方便串题。
 // 素材通过普通 script 标签载入，无需 fetch、构建步骤或本地服务器。
@@ -108,6 +109,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "september-feeling-bored",
+      "isHighFreq": true,
       "tab": "无聊",
       "title": "Feeling bored",
       "description": "飞书 2026 年 9–12 月题库 · 新题 · 5.5 分目标参考答案",
@@ -161,6 +163,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "september-names",
+      "isHighFreq": true,
       "tab": "名字",
       "title": "Names",
       "description": "飞书 2026 年 9–12 月题库 · 新题 · 5.5 分目标参考答案",
@@ -212,6 +215,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "september-secondary-school",
+      "isHighFreq": true,
       "tab": "中学生活",
       "title": "Secondary school",
       "description": "飞书 2026 年 9–12 月题库 · 新题 · 5.5 分目标参考答案",
@@ -262,6 +266,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "september-fruit-vegetables",
+      "isHighFreq": true,
       "tab": "水果与蔬菜",
       "title": "Fruit and vegetables",
       "description": "飞书 2026 年 9–12 月题库 · 新题 · 5.5 分目标参考答案",
@@ -321,6 +326,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "september-paper-letters",
+      "isHighFreq": true,
       "tab": "纸张与书信",
       "title": "Paper",
       "description": "飞书 2026 年 9–12 月题库 · 新题 · 5.5 分目标参考答案",
@@ -381,6 +387,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "september-advertisements",
+      "isHighFreq": true,
       "tab": "广告",
       "title": "Advertisement",
       "description": "飞书 2026 年 9–12 月题库 · 新题 · 5.5 分目标参考答案",
@@ -452,6 +459,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "september-shoes",
+      "isHighFreq": true,
       "tab": "鞋子",
       "title": "Shoes",
       "description": "飞书 2026 年 9–12 月题库 · 新题 · 5.5 分目标参考答案",
@@ -501,6 +509,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "september-rubbish-recycling",
+      "isHighFreq": true,
       "tab": "垃圾与回收",
       "title": "Rubbish and recycling",
       "description": "飞书 2026 年 9–12 月题库 · 新题 · 5.5 分目标参考答案",
@@ -553,6 +562,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "september-tiredness",
+      "isHighFreq": true,
       "tab": "疲劳",
       "title": "Tiredness",
       "description": "飞书 2026 年 9–12 月题库 · 新题 · 5.5 分目标参考答案",
@@ -604,6 +614,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "september-politeness",
+      "isHighFreq": true,
       "tab": "礼貌",
       "title": "Politeness",
       "description": "飞书 2026 年 9–12 月题库 · 新题 · 5.5 分目标参考答案",
@@ -953,6 +964,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "morning",
+      "isHighFreq": true,
       "tab": "早晨习惯",
       "title": "Morning routines",
       "description": "飞书 2026 年 9–12 月题库 · 保留题 · 5.5 分目标参考答案",
@@ -1150,6 +1162,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "retained-public-gardens-and-parks",
+      "isHighFreq": true,
       "tab": "公共花园与公园",
       "title": "Public gardens and parks",
       "description": "飞书 2026 年 9–12 月题库 · 保留题 · 5.5 分目标参考答案",
@@ -1389,6 +1402,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "retained-clothing",
+      "isHighFreq": true,
       "tab": "衣服",
       "title": "Clothing",
       "description": "飞书 2026 年 9–12 月题库 · 保留题 · 5.5 分目标参考答案",
@@ -1461,6 +1475,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "retained-jokes-and-comedies",
+      "isHighFreq": true,
       "tab": "笑话与喜剧",
       "title": "Jokes and comedies",
       "description": "飞书 2026 年 9–12 月题库 · 保留题 · 5.5 分目标参考答案",
@@ -1525,6 +1540,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "retained-headphones",
+      "isHighFreq": true,
       "tab": "耳机",
       "title": "Headphones",
       "description": "飞书 2026 年 9–12 月题库 · 保留题 · 5.5 分目标参考答案",
@@ -1588,6 +1604,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "retained-outer-space-and-stars",
+      "isHighFreq": true,
       "tab": "太空与星星",
       "title": "Outer space and stars",
       "description": "飞书 2026 年 9–12 月题库 · 保留题 · 5.5 分目标参考答案",
@@ -1639,6 +1656,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "retained-singing",
+      "isHighFreq": true,
       "tab": "唱歌",
       "title": "Singing",
       "description": "飞书 2026 年 9–12 月题库 · 保留题 · 5.5 分目标参考答案",
@@ -1713,6 +1731,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "retained-science",
+      "isHighFreq": true,
       "tab": "科学",
       "title": "Science",
       "description": "飞书 2026 年 9–12 月题库 · 保留题 · 5.5 分目标参考答案",
@@ -1785,6 +1804,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "retained-cars",
+      "isHighFreq": true,
       "tab": "汽车",
       "title": "Cars",
       "description": "飞书 2026 年 9–12 月题库 · 保留题 · 5.5 分目标参考答案",
@@ -1860,6 +1880,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "retained-parks",
+      "isHighFreq": true,
       "tab": "公园",
       "title": "Parks",
       "description": "飞书 2026 年 9–12 月题库 · 保留题 · 5.5 分目标参考答案",
@@ -1912,6 +1933,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "retained-shopping",
+      "isHighFreq": true,
       "tab": "购物",
       "title": "Shopping",
       "description": "飞书 2026 年 9–12 月题库 · 保留题 · 5.5 分目标参考答案",
@@ -1964,6 +1986,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "retained-watches",
+      "isHighFreq": true,
       "tab": "手表",
       "title": "Watches",
       "description": "飞书 2026 年 9–12 月题库 · 保留题 · 5.5 分目标参考答案",
@@ -2014,6 +2037,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "retained-websites",
+      "isHighFreq": true,
       "tab": "网站",
       "title": "Websites",
       "description": "飞书 2026 年 9–12 月题库 · 保留题 · 5.5 分目标参考答案",
@@ -2099,6 +2123,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "retained-tidiness",
+      "isHighFreq": true,
       "tab": "整洁",
       "title": "Tidiness",
       "description": "飞书 2026 年 9–12 月题库 · 保留题 · 5.5 分目标参考答案",
@@ -2203,6 +2228,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "retained-teachers",
+      "isHighFreq": true,
       "tab": "老师",
       "title": "Teachers",
       "description": "飞书 2026 年 9–12 月题库 · 保留题 · 5.5 分目标参考答案",
@@ -2277,6 +2303,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "retained-social-media",
+      "isHighFreq": true,
       "tab": "社交媒体",
       "title": "Social media",
       "description": "飞书 2026 年 9–12 月题库 · 保留题 · 5.5 分目标参考答案",
@@ -2394,6 +2421,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "retained-music",
+      "isHighFreq": true,
       "tab": "音乐",
       "title": "Music",
       "description": "飞书 2026 年 9–12 月题库 · 保留题 · 5.5 分目标参考答案",
@@ -2447,6 +2475,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "work",
+      "isHighFreq": true,
       "tab": "职业与规划",
       "title": "Work or studies",
       "description": "飞书 2026 年 9–12 月题库 · 保留题 · 5.5 分目标参考答案",
@@ -2833,6 +2862,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "home-accommodation",
+      "isHighFreq": true,
       "tab": "居住环境",
       "title": "Home & Accommodation",
       "description": "飞书 2026 年 9–12 月题库 · 保留题 · 5.5 分目标参考答案",
@@ -3023,6 +3053,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "home-area",
+      "isHighFreq": true,
       "tab": "居住区域",
       "title": "The area you live in",
       "description": "飞书 2026 年 9–12 月题库 · 保留题 · 5.5 分目标参考答案",
@@ -3101,6 +3132,250 @@ window.IELTS_DATA = {
       ],
       "isNew": false,
       "sourceOrder": 45
+    },
+    {
+      "id": "september-new-opportunities",
+      "isHighFreq": true,
+      "tab": "新的机会",
+      "title": "New opportunities",
+      "description": "2026 年 9–12 月题库补录 · 新题 · 5.5 分目标参考答案",
+      "isNew": true,
+      "items": [
+        {
+          "question": "Are new opportunities important to people?",
+          "answer": "Yes, I'd say new opportunities are quite important. They help people learn new skills and meet different people. For example, a new project at work gave me the chance to learn a new programming language.",
+          "memoryChunks": [
+            "new opportunities are quite important",
+            "learn new skills",
+            "a new project at work"
+          ],
+          "translation": "重要，我觉得新机会挺重要的。它们能帮人学到新技能，也能认识不同的人。比如，工作中的一个新项目让我有机会学了一门新的编程语言。"
+        },
+        {
+          "question": "What new opportunities have you had recently?",
+          "answer": "Recently I joined a new project in my company. It was a chance to work with people from another team. I learned how they plan their work, and I also made a few new friends.",
+          "memoryChunks": [
+            "joined a new project",
+            "work with people from another team",
+            "made a few new friends"
+          ],
+          "translation": "最近我参加了公司的一个新项目。这是个和其他团队同事合作的机会。我了解了他们怎么安排工作，也交了几个新朋友。"
+        },
+        {
+          "question": "Would you like to have more new opportunities?",
+          "answer": "Yes, I'd love to have more. I'd like to try a project in another city, because it would help me grow and see a different way of working. But I know I need time to get used to new things.",
+          "memoryChunks": [
+            "I'd love to have more",
+            "a project in another city",
+            "get used to new things"
+          ],
+          "translation": "想，我很想有更多新机会。我想试试去别的城市做项目，因为这样能让我成长，也能看到不一样的工作方式。不过我知道，适应新东西需要时间。"
+        }
+      ],
+      "sourceOrder": 900
+    },
+    {
+      "id": "september-daily-routine",
+      "isHighFreq": true,
+      "tab": "日常作息",
+      "title": "Daily routine",
+      "description": "2026 年 9–12 月题库补录 · 新题 · 5.5 分目标参考答案",
+      "isNew": true,
+      "items": [
+        {
+          "question": "When do you wake up?",
+          "answer": "I usually wake up at around seven on weekdays. I set an alarm, but most of the time I wake up a few minutes before it. On weekends I sleep a little longer.",
+          "memoryChunks": [
+            "wake up at around seven on weekdays",
+            "most of the time",
+            "sleep a little longer"
+          ],
+          "translation": "工作日我通常七点左右起床。我定了闹钟，但大多数时候我会在闹钟响前几分钟醒。周末我会多睡一会儿。"
+        },
+        {
+          "question": "What is your daily routine?",
+          "answer": "On weekdays, I get up at seven, have breakfast and go to work. In the evening, I have dinner with my wife and then study English for about an hour. I go to bed at around eleven.",
+          "memoryChunks": [
+            "On weekdays",
+            "have dinner with my wife",
+            "study English for about an hour"
+          ],
+          "translation": "工作日我七点起床、吃早饭，然后去上班。晚上和妻子吃晚饭，然后学大约一小时英语。十一点左右睡觉。"
+        },
+        {
+          "question": "Have you ever changed your routine?",
+          "answer": "Yes, a few years ago I used to stay up late and play video games. Then I started to feel tired at work, so I changed my routine. Now I go to bed earlier and feel much better.",
+          "memoryChunks": [
+            "used to stay up late",
+            "feel tired at work",
+            "go to bed earlier"
+          ],
+          "translation": "改过。几年前我常常熬夜打游戏，后来上班时觉得很累，就改了作息。现在睡得早了，感觉好多了。"
+        },
+        {
+          "question": "Do you think it is important to have a daily routine?",
+          "answer": "Yes, I think so. When I have a routine, I can finish my work on time and still have time to relax. For example, I plan my English practice after dinner, so I don't forget it.",
+          "memoryChunks": [
+            "finish my work on time",
+            "have time to relax",
+            "after dinner"
+          ],
+          "translation": "重要，我觉得是。有规律作息时，我能按时完成工作，也还有时间放松。比如我把英语练习安排在晚饭后，这样就不会忘。"
+        },
+        {
+          "question": "What part of the day do you like most?",
+          "answer": "I like the evening most. After dinner, I have some free time to study English or watch a video with my wife. The house is quiet, and I feel relaxed.",
+          "memoryChunks": [
+            "like the evening most",
+            "have some free time",
+            "feel relaxed"
+          ],
+          "translation": "我最喜欢晚上。晚饭后我有一些空闲时间学英语，或者和妻子一起看视频。家里很安静，我觉得很放松。"
+        }
+      ],
+      "sourceOrder": 901
+    },
+    {
+      "id": "retained-hobby",
+      "isHighFreq": true,
+      "tab": "兴趣爱好",
+      "title": "Hobby",
+      "description": "2026 年 9–12 月题库补录 · 保留题 · 5.5 分目标参考答案",
+      "isNew": false,
+      "items": [
+        {
+          "question": "Do you have a hobby?",
+          "answer": "Yes, I'm really into badminton. I play it with my friends at weekends. It's a great way to relax after a busy week.",
+          "memoryChunks": [
+            "I'm really into badminton",
+            "with my friends at weekends",
+            "a great way to relax"
+          ],
+          "translation": "有，我很喜欢打羽毛球。周末我会和朋友一起打。这是忙碌一周后放松的好方法。"
+        },
+        {
+          "question": "What is your favourite hobby?",
+          "answer": "My favourite hobby is playing badminton. I started playing it in secondary school and I still enjoy it now. It keeps me active and I always feel good after a game.",
+          "memoryChunks": [
+            "playing badminton",
+            "in secondary school",
+            "keeps me active"
+          ],
+          "translation": "我最喜欢的爱好是打羽毛球。我中学时开始打，现在还是很喜欢。它能让我保持活力，每次打完我都感觉很舒服。"
+        },
+        {
+          "question": "How often do you do your hobby?",
+          "answer": "I play badminton once or twice a week. Usually I play on Saturday afternoons with two or three friends. If I'm busy, I may skip one week.",
+          "memoryChunks": [
+            "once or twice a week",
+            "on Saturday afternoons",
+            "may skip one week"
+          ],
+          "translation": "我一周打一到两次羽毛球。通常是周六下午和两三个朋友一起打。如果太忙，我可能会停一周。"
+        },
+        {
+          "question": "How much time do you spend on your hobby every week?",
+          "answer": "I spend about three hours a week on badminton. Each game takes around an hour and a half. I think that's enough for me, because I also need time for work and English.",
+          "memoryChunks": [
+            "about three hours a week",
+            "an hour and a half",
+            "enough for me"
+          ],
+          "translation": "我每周花大约三小时打羽毛球。每次大概一个半小时。我觉得对我来说够了，因为我还需要时间工作和学英语。"
+        },
+        {
+          "question": "Do you prefer to do your hobby alone or with others?",
+          "answer": "I prefer to play with others. Badminton is more fun when I play with friends, and we can talk and laugh between games. Playing alone would be boring for me.",
+          "memoryChunks": [
+            "prefer to play with others",
+            "between games",
+            "boring for me"
+          ],
+          "translation": "我更喜欢和别人一起。和朋友打球更有意思，我们可以在局间聊天、说笑。一个人打对我来说会很无聊。"
+        },
+        {
+          "question": "Why do you enjoy this hobby?",
+          "answer": "I enjoy it because it helps me stay fit and feel relaxed. For example, after a busy day at work, a game of badminton makes me forget my problems. It also puts me in a good mood.",
+          "memoryChunks": [
+            "stay fit and feel relaxed",
+            "forget my problems",
+            "puts me in a good mood"
+          ],
+          "translation": "我喜欢它，因为它能让我保持健康、感到放松。比如忙了一天之后，打一场羽毛球能让我忘掉烦恼。它还能让我心情变好。"
+        },
+        {
+          "question": "Have you ever tried to learn a hobby without a teacher?",
+          "answer": "Yes, I learned to play badminton by myself at first. I watched videos online and copied what the players did. Later a friend showed me the right way to hold the racket.",
+          "memoryChunks": [
+            "by myself at first",
+            "watched videos online",
+            "hold the racket"
+          ],
+          "translation": "试过，我一开始是自学打羽毛球的。我在网上看视频，模仿球员的动作。后来一个朋友教了我正确的握拍方法。"
+        },
+        {
+          "question": "Did you have any hobbies when you were a child?",
+          "answer": "Yes, when I was a kid, I used to play basketball with my classmates after school. I also collected small toy cars for a few years. I don't do either of them now.",
+          "memoryChunks": [
+            "When I was a kid",
+            "play basketball with my classmates",
+            "collected small toy cars"
+          ],
+          "translation": "有，我小时候放学后常和同学打篮球。我还收集过几年小玩具车。这两样现在都不做了。"
+        },
+        {
+          "question": "Would you like to start a new hobby in the future?",
+          "answer": "Yes, I'd love to try swimming. I think it's a good sport for my back, because I sit in front of a computer all day. I'm looking forward to learning it next summer.",
+          "memoryChunks": [
+            "I'd love to try swimming",
+            "sit in front of a computer all day",
+            "I'm looking forward to"
+          ],
+          "translation": "想，我很想试试游泳。我觉得这项运动对我的背有好处，因为我整天坐在电脑前。我期待明年夏天去学。"
+        }
+      ],
+      "sourceOrder": 902
+    },
+    {
+      "id": "retained-food",
+      "isHighFreq": true,
+      "tab": "食物",
+      "title": "Food",
+      "description": "2026 年 9–12 月题库补录 · 保留题 · 5.5 分目标参考答案",
+      "isNew": false,
+      "items": [
+        {
+          "question": "What is your favourite food?",
+          "answer": "My favourite food is noodles. I eat them once or twice a week, usually at a small restaurant near my home. I like them with vegetables and a little chilli.",
+          "memoryChunks": [
+            "My favourite food is noodles",
+            "once or twice a week",
+            "with vegetables and a little chilli"
+          ],
+          "translation": "我最喜欢的食物是面条。我一周吃一两次，通常在家附近的小馆子。我喜欢加蔬菜和一点辣椒。"
+        },
+        {
+          "question": "Has your favourite food changed from the past to now?",
+          "answer": "Yes, it has changed a bit. When I was a kid, I loved sweet food and always wanted cakes. Now I prefer simple food like noodles and vegetables, because I want to stay healthy.",
+          "memoryChunks": [
+            "changed a bit",
+            "When I was a kid",
+            "simple food like noodles and vegetables"
+          ],
+          "translation": "变了，有一点变化。我小时候很喜欢甜食，总想吃蛋糕。现在我更喜欢面条、蔬菜这类简单的食物，因为我想保持健康。"
+        },
+        {
+          "question": "Is it important for people to have meals with others (family or friends)?",
+          "answer": "Yes, I think it's quite important. When I have dinner with my wife, we talk about our day and share our news. It's a good way to keep in touch with each other.",
+          "memoryChunks": [
+            "have dinner with my wife",
+            "talk about our day",
+            "keep in touch with each other"
+          ],
+          "translation": "重要，我觉得挺重要的。和妻子一起吃晚饭时，我们会聊聊各自的一天，分享消息。这是保持联系的好方法。"
+        }
+      ],
+      "sourceOrder": 903
     }
   ],
   "part2": [
@@ -3264,6 +3539,7 @@ window.IELTS_DATA = {
                 "code": "N02",
                 "name": "受欢迎的人",
                 "question": "Describe a popular person",
+                "isHighFreq": true,
                 "isNew": true,
                 "fit": "新题",
                 "answerNote": "5.5 分目标参考答案；先记住故事顺序，人物、时间和经历可按实际情况调整。",
@@ -3378,6 +3654,7 @@ window.IELTS_DATA = {
                 "code": "N03",
                 "name": "钦佩的运动员",
                 "question": "Describe a successful sportsperson you admire",
+                "isHighFreq": true,
                 "isNew": true,
                 "fit": "新题",
                 "answerNote": "5.5 分目标参考答案；先记住故事顺序，人物、时间和经历可按实际情况调整。",
@@ -3506,6 +3783,7 @@ window.IELTS_DATA = {
                 "name": "教你新技能的人",
                 "sourceOrder": 4,
                 "question": "Describe a person who taught you a new skill",
+                "isHighFreq": true,
                 "cuePoints": [
                   "Who this person was",
                   "What the skill was",
@@ -3679,6 +3957,7 @@ window.IELTS_DATA = {
                 "name": "学习并喜欢历史的人",
                 "sourceOrder": 5,
                 "question": "Describe a person who learns history and loves history",
+                "isHighFreq": true,
                 "cuePoints": [
                   "Who this person is",
                   "How he/she learns history",
@@ -3861,6 +4140,7 @@ window.IELTS_DATA = {
                 "name": "喜欢拍照的人",
                 "sourceOrder": 8,
                 "question": "Describe a person you know who really likes taking photos",
+                "isHighFreq": true,
                 "cuePoints": [
                   "Who the person is",
                   "When and how you got to know him/her",
@@ -4032,6 +4312,7 @@ window.IELTS_DATA = {
                 "name": "擅长做手工的人",
                 "sourceOrder": 9,
                 "question": "Describe a person who is good at making things by hand",
+                "isHighFreq": true,
                 "cuePoints": [
                   "Who this person is",
                   "What he/she makes",
@@ -4192,6 +4473,7 @@ window.IELTS_DATA = {
                 "name": "做困难的事情并成功的人",
                 "sourceOrder": 13,
                 "question": "Describe a person you know who did something difficult and was successful",
+                "isHighFreq": true,
                 "cuePoints": [
                   "Who this person is",
                   "What difficult thing this person did",
@@ -4306,6 +4588,145 @@ window.IELTS_DATA = {
                   "learn Japanese ; travel to Japan；new words ; a lot of homework；a few basic words",
                   "did not give up ; a small notebook；practised a little every day；a short conversation ; ordered food in Japanese",
                   ""
+                ]
+              },
+              {
+                "id": "p2-new-fitness-improver",
+                "name": "努力提升健身的人",
+                "question": "Describe a person who has worked hard to improve their fitness",
+                "isNew": true,
+                "isHighFreq": true,
+                "cuePoints": [
+                  "Who this person is",
+                  "What he or she did to improve their fitness",
+                  "How long it took",
+                  "And explain how you feel about what this person did"
+                ],
+                "cueTranslations": [
+                  "这个人是谁",
+                  "他/她做了哪些努力来提升健身",
+                  "花了多长时间",
+                  "并解释你对这个人所做之事的感受"
+                ],
+                "draftCues": [
+                  "Li Hua",
+                  "colleague",
+                  "out of breath",
+                  "stairs instead of lift",
+                  "six months",
+                  "badminton"
+                ],
+                "focus": "讲同事李华自己下决心提升健身的过程；用一般过去时讲他做了什么，用现在时讲他现在的变化，半年这个时长要讲清楚。",
+                "body": {
+                  "text": "Well, I know a few people who try to stay fit. But the first one that comes to my mind would be my colleague Li Hua. We have worked in the same team for about three years, and he is easy to talk to. Last winter he noticed that he got out of breath after climbing the stairs to our office, and he decided to change that himself. At first he only walked for ten minutes after lunch, but soon he got off the bus two stops early and walked the rest of the way. He also took the stairs instead of the lift, even on rainy days. You know, he kept the same routine even when our project was really busy. It took him about six months to build this habit. Now he plays badminton with us on Friday evenings. To be honest, he looks much more energetic than before, and he says he sleeps better too.",
+                  "translation": "嗯，我认识几个努力保持身材的人。但我首先想到的是我的同事李华。我们在同一个团队工作了大约三年，他很好相处。去年冬天他发现，爬楼梯到我们办公室后会喘不上气，于是他决定自己改变。一开始他只是在午饭后走十分钟，但很快他就提前两站下车，把剩下的路走完。他还改爬楼梯、不坐电梯，下雨天也一样。你知道，即使我们的项目特别忙，他也保持着同样的作息。他花了大约半年时间才养成这个习惯。现在他每周五晚上和我们一起打羽毛球。说实话，他看起来比以前有精神多了，他说自己睡得也更好了。",
+                  "highlights": [
+                    "my colleague Li Hua",
+                    "worked in the same team for about three years",
+                    "easy to talk to",
+                    "Last winter",
+                    "got out of breath",
+                    "climbing the stairs",
+                    "decided to change that himself",
+                    "At first",
+                    "walked for ten minutes after lunch",
+                    "got off the bus two stops early",
+                    "took the stairs instead of the lift",
+                    "even on rainy days",
+                    "You know",
+                    "kept the same routine",
+                    "about six months",
+                    "plays badminton with us",
+                    "To be honest",
+                    "much more energetic than before"
+                  ],
+                  "paragraphStarts": [
+                    "We have worked in the same",
+                    "At first he only walked for ten",
+                    "You know, he kept the same routine"
+                  ]
+                },
+                "memoryChain": {
+                  "story": "同事李华 → 同团队约三年、很好相处 → 去年冬天爬楼梯到办公室就喘不上气 → 他自己下决心改变 → 先午饭后走十分钟 → 提前两站下车、走完剩下的路 → 爬楼梯不坐电梯，下雨也坚持 → 项目很忙时也没断 → 约半年养成习惯 → 现在周五和我们打羽毛球，更有精神、睡得更好",
+                  "reasons": [
+                    "1 · 起因：爬楼气喘 → 他自己下决心 → 从一件小事开始",
+                    "2 · 坚持：下雨、项目忙都没断 → 半年成习惯 → 现在打羽毛球",
+                    "3 · 我的感受：佩服他的自律 → 也带动身边的人 → 健康改变值得学"
+                  ]
+                },
+                "pointsLabel": "我的感受｜按需要选用",
+                "reasons": [
+                  {
+                    "text": "He changed himself instead of waiting for someone to push him, and that is why I respect him.",
+                    "memory": "自己下决心改变 → 不等别人推 → 让人佩服"
+                  },
+                  {
+                    "text": "He kept the habit for about six months, even when work was busy and the weather was bad.",
+                    "memory": "半年坚持 → 项目忙、下雨也没断"
+                  },
+                  {
+                    "text": "His progress shows me that small daily actions can make a real difference to health.",
+                    "memory": "健康改变靠每天的小行动 → 对我也有启发"
+                  }
+                ],
+                "sourceOrder": 903,
+                "ending": {
+                  "endingLead": {
+                    "cue": "And explain how you feel about what this person did",
+                    "text": "As for how I feel about what he did, I admire him a lot, and there are three reasons.",
+                    "translation": "至于我对他的做法有什么感受，我非常佩服他，主要有三个原因。"
+                  },
+                  "reasons": [
+                    {
+                      "text": "First of all, I respect him because he made the decision himself. You know, nobody told him to exercise or paid for a personal trainer. He just noticed a small problem and started with one short walk.",
+                      "memory": "佩服：决定是他自己下的 → 没人要求 → 从小事开始",
+                      "translation": "首先，我佩服他，因为这是他自己下的决心。你知道，没有人叫他去锻炼，也没人给他请私教。他只是发现了一个小问题，就从一次短短的散步开始。",
+                      "highlights": [
+                        "made the decision himself",
+                        "nobody told him to exercise",
+                        "one short walk"
+                      ],
+                      "memoryEn": "Respect: he decided himself → nobody told him → started small"
+                    },
+                    {
+                      "text": "Secondly, I am impressed that he kept going for six months. Many people give up after a week or two, but he still walks to work and plays badminton with us. That shows real self-control.",
+                      "memory": "坚持：半年没断 → 别人一两周就放弃 → 真正的自律",
+                      "translation": "其次，我很佩服他坚持了半年。很多人一两周就放弃了，但他现在还是走路上班，还和我们打羽毛球。这说明他真的有自律。",
+                      "highlights": [
+                        "kept going for six months",
+                        "give up after a week or two",
+                        "real self-control"
+                      ],
+                      "memoryEn": "Persistence: six months → others give up in a week or two → real self-control"
+                    },
+                    {
+                      "text": "What's more, his change makes me want to do the same. When a colleague beside me becomes healthier and happier, it is hard to stay lazy. So I think his effort is good not only for himself; it also encourages the people around him.",
+                      "memory": "影响：我也想跟着做 → 身边人难偷懒 → 带动周围人",
+                      "translation": "而且，他的改变让我也想这么做。当一个身边的同事变得更健康、更开心时，人很难继续懒下去。所以我觉得他的努力不只对他自己好，也会带动身边的人。",
+                      "highlights": [
+                        "makes me want to do the same",
+                        "hard to stay lazy",
+                        "encourages the people around him"
+                      ],
+                      "memoryEn": "Influence: I want to follow → hard to stay lazy → encourages others"
+                    }
+                  ],
+                  "mode": "reasons"
+                },
+                "cuePointsNotes": [
+                  "同事李华；我们同团队约三年，他很好相处",
+                  "去年冬天他爬楼梯到办公室就喘不上气；他自己决定改变：先午饭后走十分钟，后来提前两站下车走完剩下的路，爬楼梯不坐电梯，下雨天也坚持",
+                  "大约半年才养成这个习惯；项目很忙的时候他也没有断",
+                  ""
+                ],
+                "cuePointsNotesEn": [
+                  "my colleague Li Hua ; worked in the same team for about three years ; easy to talk to",
+                  "Last winter ; got out of breath ; climbing the stairs ; decided to change that himself ; walked for ten minutes after lunch ; got off the bus two stops early ; took the stairs instead of the lift",
+                  "about six months ; kept the same routine even when our project was really busy",
+                  ""
+                ],
+                "linked": [
+                  "Describe a person whose health and fitness you have helped to improve"
                 ]
               }
             ]
@@ -4459,6 +4880,7 @@ window.IELTS_DATA = {
               },
               {
                 "question": "Describe a person who is good at learning and speaking new languages",
+                "isHighFreq": true,
                 "sourceOrder": 37,
                 "memoryChain": {
                   "story": "高中第一天认识李华 → 为去日本学日语 → 书＋视频＋问老师 → 午休练习＋单词本 → 能说日语交流 → 去日本点餐",
@@ -4601,6 +5023,7 @@ window.IELTS_DATA = {
               },
               {
                 "question": "Describe a person you know who would like to choose a career in the medical field (e.g. a doctor, a nurse)",
+                "isHighFreq": true,
                 "sourceOrder": 40,
                 "memoryChain": {
                   "story": "高中第一天认识李华 → 想当医生救人 → 努力读书 → 去爸爸的医院观察 → 学急救 → 医学院＋明年毕业",
@@ -4745,6 +5168,7 @@ window.IELTS_DATA = {
             "items": [
               {
                 "question": "Describe a person you know who has a successful business",
+                "isHighFreq": true,
                 "sourceOrder": 38,
                 "memoryChain": {
                   "story": "李华六年前创业 → 小办公室＋没员工 → 白天写程序＋晚上回消息 → 逐个修问题 → 学校使用产品 → 公司出名 → 我们在高中认识；他创业是想做实用的应用，也想为自己工作。",
@@ -5026,6 +5450,7 @@ window.IELTS_DATA = {
             "items": [
               {
                 "question": "Describe a friend from your childhood",
+                "isHighFreq": true,
                 "sourceOrder": 41,
                 "memoryChain": {
                   "story": "小学第一天认识李华 → 坐我后面 → 一起写作业 → 公园野餐打球 → 雨天共伞送我回家 → 现在仍联系",
@@ -5163,6 +5588,7 @@ window.IELTS_DATA = {
               },
               {
                 "question": "Describe a person who loves to grow plants (e.g. vegetables, flowers) at home or in the garden",
+                "isHighFreq": true,
                 "sourceOrder": 42,
                 "memoryChain": {
                   "story": "奶奶住农村 → 家旁小花园 → 种菜种花 → 早起浇水除草 → 秋天收菜分享 → 我帮忙采摘做饭",
@@ -5311,6 +5737,7 @@ window.IELTS_DATA = {
                 "name": "做事很有条理的人",
                 "isNew": true,
                 "question": "Describe a person you know who is very organized",
+                "isHighFreq": true,
                 "cuePoints": [
                   "Who this person is",
                   "What this person usually does to stay organized",
@@ -5507,6 +5934,7 @@ window.IELTS_DATA = {
                 "name": "我认识的快乐的人",
                 "isNew": true,
                 "question": "Describe a happy person you know",
+                "isHighFreq": true,
                 "cuePoints": [
                   "Who this person is",
                   "What he/she is like",
@@ -6002,6 +6430,145 @@ window.IELTS_DATA = {
                   "I was nervous ; spoke too quickly；useful products ; teamwork and unexpected problems；listened carefully ; one problem at a time；In the end ; asked about his career；calm, patient and friendly ; know more about him",
                   ""
                 ]
+              },
+              {
+                "id": "p2-feishu-helpful-person",
+                "name": "乐于助人的人",
+                "question": "Describe a person who often helps others",
+                "isNew": false,
+                "isHighFreq": true,
+                "cuePoints": [
+                  "Who this person is",
+                  "How often he/she helps others",
+                  "How and why he/she helps others",
+                  "And how you feel about this person"
+                ],
+                "cueTranslations": [
+                  "这个人是谁",
+                  "他/她多久帮助别人一次",
+                  "他/她怎样以及为什么帮助别人",
+                  "并解释你对这个人的感受"
+                ],
+                "draftCues": [
+                  "colleague Alex",
+                  "same team",
+                  "almost every day",
+                  "never waits to be asked",
+                  "system slow-orders failed",
+                  "pass it on"
+                ],
+                "focus": "讲同事 Alex 平时怎么帮身边的人；习惯用现在时，具体那一次系统故障用过去时。",
+                "body": {
+                  "text": "Well, I know several kind people, but the first one that comes to my mind would be my colleague Alex. We work in the same team, and he is famous in our office for helping others. To be honest, he helps people almost every day, not just once in a while. He often spends his lunch break explaining a new system to younger colleagues, and he carries heavy boxes for the older staff. You know, he never waits for people to ask him. If he sees someone stuck, he walks over and offers a hand. Once our online shopping system suddenly became slow, and some orders failed. Alex read my notes, suggested dividing the work, and together we found one wrong setting. Later I asked him why he does all this. He said a senior colleague had helped him in the same way when he was new, so he just wanted to pass it on. I really admire him, and now I try to help new people too.",
+                  "translation": "嗯，我认识好几个善良的人，但我首先想到的是我的同事 Alex。我们在同一个团队工作，他在办公室里以乐于助人出名。说实话，他几乎每天都帮别人，不是偶尔才做一次。他常常用午休时间给年轻同事讲一个新系统，也会帮年纪大的同事搬重箱子。你知道，他从来不用别人开口。只要看到有人卡住了，他就会走过去帮一把。前段时间，我们的购物系统突然变慢，还有一些订单失败了。Alex 看了我的笔记，提议分工，我们一起找到了一个错误的设置。后来我问他为什么总这样做。他说他刚来时也有一位老同事这样帮过他，所以他就想把这份善意传下去。我真的很佩服他，现在我也试着去帮新同事。",
+                  "highlights": [
+                    "my colleague Alex",
+                    "the first one that comes to my mind",
+                    "famous in our office for helping others",
+                    "To be honest",
+                    "almost every day",
+                    "spends his lunch break explaining a new system",
+                    "carries heavy boxes for the older staff",
+                    "You know",
+                    "never waits for people to ask him",
+                    "offers a hand",
+                    "online shopping system",
+                    "some orders failed",
+                    "read my notes",
+                    "suggested dividing the work",
+                    "one wrong setting",
+                    "pass it on",
+                    "I really admire him"
+                  ],
+                  "paragraphStarts": [
+                    "To be honest, he helps people",
+                    "You know, he never waits",
+                    "Later I asked him why"
+                  ]
+                },
+                "sourceOrder": 904,
+                "ending": {
+                  "endingLead": {
+                    "cue": "And how you feel about this person",
+                    "text": "As for how I feel about Alex, I really admire him. There are three main reasons.",
+                    "translation": "至于我对 Alex 的感受，我真的很佩服他，主要有三个原因。"
+                  },
+                  "reasons": [
+                    {
+                      "text": "First of all, I admire him because he helps other people naturally, without waiting to be asked. He does not do it for money or praise; he simply notices when someone needs a hand. You know, that is not easy to keep doing every day.",
+                      "translation": "首先，我很佩服他，因为他帮助别人很自然，不用别人开口。他不是为了钱或者表扬，只是会注意到谁需要帮忙。你知道，每天都能坚持这样做并不容易。",
+                      "memory": "习惯：不用开口就帮忙 → 不为钱或表扬 → 每天坚持不容易",
+                      "highlights": [
+                        "without waiting to be asked",
+                        "not do it for money or praise",
+                        "needs a hand"
+                      ],
+                      "memoryEn": "Habit: without waiting to be asked → not for money or praise → not easy every day"
+                    },
+                    {
+                      "text": "Secondly, I feel grateful to him, because he helped me when I was stuck. He read my notes patiently, shared his method and did not blame me for failing to solve it alone. So I learned a lot from him that day.",
+                      "translation": "其次，我很感激他，因为在我卡住的时候他帮了我。他耐心看了我的笔记，分享了他的方法，也没有因为我没能独自解决而责怪我。所以那天我跟他学到很多。",
+                      "memory": "Relationship：他帮过我 → 耐心看笔记＋分享方法 → 学到很多",
+                      "highlights": [
+                        "feel grateful",
+                        "read my notes patiently",
+                        "learned a lot from him"
+                      ],
+                      "memoryEn": "Relationship: he helped me when I was stuck → read my notes patiently → learned a lot"
+                    },
+                    {
+                      "text": "What's more, he has changed the way I behave. I used to think asking for help was a weakness, but now I try to help new people in the same way. I think a team works much better when everyone is willing to help, and that often starts with one person like Alex.",
+                      "translation": "而且，他改变了我的做法。我以前觉得求助是软弱的表现，但现在我也试着用同样的方式帮助新同事。我觉得当每个人都愿意帮忙的时候，团队会好得多，而这往往是从像 Alex 这样一个人开始的。",
+                      "memory": "Learning：以前觉得求助是软弱 → 现在也帮新人 → 团队更好",
+                      "highlights": [
+                        "changed the way I behave",
+                        "asking for help was a weakness",
+                        "everyone is willing to help"
+                      ],
+                      "memoryEn": "Learning: asking for help was a weakness → help new people too → a better team"
+                    }
+                  ],
+                  "mode": "feelings"
+                },
+                "cuePointsNotes": [
+                  "同事 Alex；我们在同一个团队工作；他在办公室里以乐于助人出名",
+                  "几乎每天都帮，不是偶尔；常用午休时间给年轻同事讲新系统；也会帮年纪大的同事搬重箱子",
+                  "他从来不用别人开口，看到有人卡住就主动走过去帮；上次购物系统突然变慢、有些订单失败，他看了我的笔记，提议分工，一起找到一处错误设置；他说自己刚来时也被老同事这样帮过，所以想把善意传下去",
+                  ""
+                ],
+                "cuePointsNotesEn": [
+                  "my colleague Alex ; we work in the same team ; famous in our office for helping others",
+                  "almost every day ; spends his lunch break explaining a new system；carries heavy boxes for the older staff",
+                  "never waits for people to ask him ; offers a hand；online shopping system ; some orders failed；read my notes ; suggested dividing the work；one wrong setting ; pass it on",
+                  ""
+                ],
+                "memoryChain": {
+                  "story": "同事 Alex → 同一个团队，办公室里以乐于助人出名 → 几乎每天都帮：午休教年轻同事用新系统、帮老同事搬重箱子 → 从来不用别人开口，看到有人卡住就过去帮一把 → 上次购物系统变慢、订单失败，他看我的笔记、提议分工，一起找到一处错误设置 → 他说自己刚来时也被老同事这样帮过，想把善意传下去 → 我很佩服他，现在也帮新同事",
+                  "reasons": [
+                    "1 · 帮人是习惯不用开口 → 不为钱或表扬 → 每天都做不容易",
+                    "2 · 我卡住时他耐心帮我 → 看笔记＋分享方法不责怪我 → 学到很多",
+                    "3 · 以前觉得求助是软弱 → 现在也帮新人 → 团队更好"
+                  ]
+                },
+                "pointsLabel": "我的感受 · 3 原因",
+                "reasons": [
+                  {
+                    "text": "I admire him because he helps others as a habit, not as a special event.",
+                    "memory": "把帮忙当习惯，不当特例 → 佩服"
+                  },
+                  {
+                    "text": "I feel grateful because he helped me patiently when I was stuck with a problem.",
+                    "memory": "我卡住时他耐心帮我 → 感激"
+                  },
+                  {
+                    "text": "I feel lucky to work with him, because the whole team becomes friendlier.",
+                    "memory": "和他共事 → 整个团队更友善"
+                  }
+                ],
+                "linked": [
+                  "Describe a time when a person did something to help you solve a problem",
+                  "Describe a time when you worked in a group"
+                ]
               }
             ]
           }
@@ -6072,6 +6639,7 @@ window.IELTS_DATA = {
                 "code": "N14",
                 "name": "去过的靠近自然的地方",
                 "question": "Describe somewhere near a natural place that you have been to",
+                "isHighFreq": true,
                 "isNew": true,
                 "fit": "新题",
                 "answerNote": "5.5 分目标参考答案；先记住故事顺序，人物、时间和经历可按实际情况调整。",
@@ -6187,6 +6755,7 @@ window.IELTS_DATA = {
                 "code": "N15",
                 "name": "喜欢的建筑",
                 "question": "Describe a building you enjoy visiting (e.g. a library, a shopping mall, etc.)",
+                "isHighFreq": true,
                 "isNew": true,
                 "fit": "新题",
                 "answerNote": "5.5 分目标参考答案；先记住故事顺序，人物、时间和经历可按实际情况调整。",
@@ -6310,6 +6879,7 @@ window.IELTS_DATA = {
                 "name": "拥挤的地方",
                 "sourceOrder": 16,
                 "question": "Describe a crowded place you went to",
+                "isHighFreq": true,
                 "cuePoints": [
                   "When you went there",
                   "Who you went there with",
@@ -6464,6 +7034,7 @@ window.IELTS_DATA = {
                 "name": "嘈杂的地方",
                 "sourceOrder": 17,
                 "question": "Describe a noisy place you have been to",
+                "isHighFreq": true,
                 "cuePoints": [
                   "Where it is",
                   "When you went there",
@@ -7074,6 +7645,7 @@ window.IELTS_DATA = {
             "items": [
               {
                 "question": "Describe a place you have travelled to that you would like to recommend to others",
+                "isHighFreq": true,
                 "sourceOrder": 71,
                 "memoryChain": {
                   "story": "去年和女友去上海 → 高铁＋七天 → 上海中心看全城 → 河边＋商场＋小笼包 → 夜景下聊天 → 想推荐给别人 → 它在中国东部。",
@@ -7356,6 +7928,160 @@ window.IELTS_DATA = {
                   "stay for about seven days",
                   ""
                 ]
+              },
+              {
+                "id": "p2-new-favorite-place",
+                "name": "喜欢待的地方",
+                "question": "Describe a place you enjoy spending time in",
+                "isNew": true,
+                "isHighFreq": true,
+                "cuePoints": [
+                  "Where it is",
+                  "When you like to go there",
+                  "What you do there",
+                  "And explain why you like to visit there"
+                ],
+                "cueTranslations": [
+                  "它在哪里",
+                  "你喜欢什么时候去那里",
+                  "你在那里做什么",
+                  "并解释你为什么喜欢去那里"
+                ],
+                "draftCues": [
+                  "Liangshui River park",
+                  "near home",
+                  "weekend morning",
+                  "walk-photos-boats",
+                  "friendly-cheap food"
+                ],
+                "focus": "讲现在经常去的地方：习惯用现在时（每月一两次），具体某次经历用过去时；沿用地点素材的景美、人友好、食物好三条理由。",
+                "body": {
+                  "text": "Well, there are a few places I enjoy spending time in. But the first one that comes to my mind would be a park beside the Liangshui River, near my home. It is in the south of Beijing, about twenty minutes away, so I usually walk there or go by bus. I go there once or twice a month, usually on weekend mornings with my girlfriend. We like to arrive early, because the place is quiet and the air feels fresh. There we walk beside the water, take a few photos and watch the small boats go past. Then we sit on a bench and talk, or eat fried fish in a small restaurant nearby. You know, it is quite a simple place, but I never feel bored there. I enjoy spending time there mainly because the scenery is beautiful, the local people are friendly and the food is cheap and tasty.",
+                  "translation": "嗯，有几个地方是我喜欢待着的。但我首先想到的是家附近凉水河边的一个公园。它在北京南边，大约二十分钟路程，所以我通常走路或坐公交去。我每个月去一两次，通常是周末早上和女朋友一起。我们喜欢早点到，因为那时地方很安静，空气也很清新。我们在那里沿河散步、拍几张照片，看小船开过去。然后坐在长椅上聊天，或者在附近小馆吃炸鱼。你知道，那是个挺普通的地方，但我在那里从不觉得无聊。我喜欢待在那里，主要是因为景色美、当地人友好，还有东西又便宜又好吃。",
+                  "highlights": [
+                    "a park beside the Liangshui River",
+                    "near my home",
+                    "about twenty minutes away",
+                    "go by bus",
+                    "once or twice a month",
+                    "on weekend mornings with my girlfriend",
+                    "arrive early",
+                    "the place is quiet",
+                    "walk beside the water",
+                    "take a few photos",
+                    "watch the small boats go past",
+                    "sit on a bench and talk",
+                    "fried fish in a small restaurant",
+                    "You know",
+                    "quite a simple place",
+                    "the scenery is beautiful",
+                    "the local people are friendly",
+                    "cheap and tasty"
+                  ],
+                  "paragraphStarts": [
+                    "It is in the south of Beijing",
+                    "We like to arrive early",
+                    "You know, it is quite a simple place"
+                  ]
+                },
+                "memoryChain": {
+                  "story": "家附近的凉水河公园（北京南边，约二十分钟，走路或坐公交）→ 每月一两次，周末早上和女朋友一起 → 早到人少、空气清新 → 沿河散步、拍照、看小船 → 坐长椅聊天、附近吃炸鱼 → 景美、人友好、东西便宜好吃",
+                  "reasons": [
+                    "景美：河水＋小船 → 早上安静、空气好 → 散步拍照就放松",
+                    "人友好：当地人帮忙拍照、指安静的地方 → 感到受欢迎 → 愿意常去",
+                    "食物好：附近小馆炸鱼便宜好吃 → 散步后的固定安排 → 每次都心情好"
+                  ]
+                },
+                "pointsLabel": "Why I enjoy it · 景美、人友好、食物好",
+                "reasons": [
+                  {
+                    "text": "First, the water, the flowers and the small boats make the park peaceful, so a short walk there helps me relax.",
+                    "memory": "景美：河水花草小船 → 安静 → 散步放松",
+                    "highlights": [
+                      "peaceful",
+                      "helps me relax"
+                    ]
+                  },
+                  {
+                    "text": "Secondly, the local people are friendly. Once a man helped us take a photo and showed us a quiet spot beside the river.",
+                    "memory": "人友好：帮忙拍照指路 → 感到欢迎",
+                    "highlights": [
+                      "the local people are friendly",
+                      "a quiet spot beside the river"
+                    ]
+                  },
+                  {
+                    "text": "What's more, the fried fish in the small restaurant is cheap and tasty, so we always enjoy our time there.",
+                    "memory": "食物好：便宜好吃的炸鱼 → 待得开心",
+                    "highlights": [
+                      "cheap and tasty"
+                    ]
+                  }
+                ],
+                "sourceOrder": 902,
+                "ending": {
+                  "endingLead": {
+                    "cue": "And explain why you like to visit there",
+                    "text": "As for why I like to spend time there, there are three main reasons.",
+                    "translation": "至于我为什么喜欢待在那里，主要有三个原因。"
+                  },
+                  "reasons": [
+                    {
+                      "text": "First of all, the scenery there is beautiful. The water, the flowers and the small boats make the place peaceful, so it is a good place for a slow walk. You know, in spring the flowers along the path look especially nice, and I always take a few photos.",
+                      "translation": "首先，那里的景色很美。河水、花草和小船让这个地方很安静，所以很适合慢慢走走。你知道，春天路边开的花特别好看，我总会拍几张照片。",
+                      "memory": "景美：河水花草小船 → 安静适合散步 → 春天花好看、拍照",
+                      "highlights": [
+                        "the scenery there is beautiful",
+                        "small boats",
+                        "peaceful",
+                        "a good place for a slow walk"
+                      ],
+                      "memoryEn": "Scenery: water, flowers and small boats → peaceful → a good place for a slow walk"
+                    },
+                    {
+                      "text": "Secondly, the local people are friendly. Once a man helped us take a photo and showed us a quiet spot beside the river. That made us feel welcome, and now we go back quite often. We have never had any problems there.",
+                      "translation": "其次，当地人很友好。有一次一位男士帮我们拍照，还带我们去了河边一个安静的地方。这让我们觉得很受欢迎，现在我们常回去。我们在那里从来没遇到过麻烦。",
+                      "memory": "人友好：帮我们拍照＋指安静的地方 → 感到受欢迎 → 愿意常去",
+                      "highlights": [
+                        "the local people are friendly",
+                        "helped us take a photo",
+                        "a quiet spot beside the river",
+                        "feel welcome"
+                      ],
+                      "memoryEn": "People: helped us take a photo → a quiet spot beside the river → feel welcome"
+                    },
+                    {
+                      "text": "What's more, the food is cheap and tasty. After a walk we usually eat fried fish in a small restaurant nearby, and it only costs a little. To be honest, it is not a famous place, but we always leave in a good mood.",
+                      "translation": "此外，那里的食物又便宜又好吃。散完步我们通常会在附近的小馆吃炸鱼，花不了多少钱。说实话，那不是什么有名的地方，但我们每次都带着好心情离开。",
+                      "memory": "食物好：便宜好吃的炸鱼 → 散步后的固定安排 → 每次都心情好",
+                      "highlights": [
+                        "cheap and tasty",
+                        "fried fish in a small restaurant",
+                        "not a famous place",
+                        "in a good mood"
+                      ],
+                      "memoryEn": "Food: cheap and tasty fried fish → after a walk → leave in a good mood"
+                    }
+                  ],
+                  "mode": "reasons"
+                },
+                "cuePointsNotes": [
+                  "凉水河边的公园，离家很近；在北京南边，大约二十分钟，走路或坐公交",
+                  "每月去一两次；通常在周末早上和女朋友一起去；喜欢早点到，那时人少、空气清新",
+                  "沿河散步、拍几张照片、看小船开过去；然后坐在长椅上聊天；在附近小馆吃炸鱼",
+                  ""
+                ],
+                "cuePointsNotesEn": [
+                  "a park beside the Liangshui River ; near my home；in the south of Beijing, about twenty minutes away",
+                  "once or twice a month；on weekend mornings with my girlfriend；arrive early, when it is quiet and the air is fresh",
+                  "walk beside the water, take a few photos and watch the small boats；sit on a bench and talk；eat fried fish in a small restaurant",
+                  ""
+                ],
+                "linked": [
+                  "Describe a place you would like to visit in your free time",
+                  "Describe a natural place in your city that you enjoy visiting",
+                  "Describe an important river/lake in your country"
+                ]
               }
             ]
           },
@@ -7365,6 +8091,7 @@ window.IELTS_DATA = {
             "items": [
               {
                 "question": "Describe a boring place",
+                "isHighFreq": true,
                 "sourceOrder": 73,
                 "memoryChain": {
                   "story": "去年和女友去上海三天 → 塔＋博物馆＋小笼包 → 原本期待很高 → 渐渐无聊 → 最后一天下午提前回酒店",
@@ -7500,6 +8227,7 @@ window.IELTS_DATA = {
             "items": [
               {
                 "question": "Describe a home that you like to visit but do not want to live in",
+                "isHighFreq": true,
                 "sourceOrder": 72,
                 "memoryChain": {
                   "story": "奶奶的农村平房 → 三间卧室＋大院＋菜园 → 假期去住 → 浇菜摘番茄＋喝茶聊天 → 夜晚看星星 → 住两三天就离开 → 但公交少、车站远、商店少 → 只喜欢短住，不想长住",
@@ -7842,6 +8570,7 @@ window.IELTS_DATA = {
                 "id": "p2-feishu-least-favorite-movie",
                 "name": "最不喜欢的电影",
                 "question": "Describe your least favorite movie",
+                "isHighFreq": true,
                 "cuePoints": [
                   "When you watched it",
                   "Where you watched it",
@@ -7982,6 +8711,7 @@ window.IELTS_DATA = {
                 "name": "浪费时间的活动",
                 "sourceOrder": 28,
                 "question": "Describe an activity you do regularly that you think is a waste of time",
+                "isHighFreq": true,
                 "cuePoints": [
                   "What it is",
                   "When you usually do it",
@@ -8131,6 +8861,7 @@ window.IELTS_DATA = {
                 "name": "和朋友度过的愉快夜晚",
                 "sourceOrder": 32,
                 "question": "Describe an enjoyable evening you had with your friends",
+                "isHighFreq": true,
                 "cuePoints": [
                   "When and where it was",
                   "What you did",
@@ -8552,6 +9283,7 @@ window.IELTS_DATA = {
               },
               {
                 "question": "Describe a new law you would like to introduce in your country",
+                "isHighFreq": true,
                 "sourceOrder": 54,
                 "memoryChain": {
                   "story": "想立法禁止乱扔垃圾 → 违者罚两千 → 灵感来自新加坡 → 忙碌区域也干净 → 多设标牌和垃圾桶 → 居民与清洁工受益 → 我会为街道更干净而高兴，也会自己遵守法律。",
@@ -8831,6 +9563,7 @@ window.IELTS_DATA = {
               },
               {
                 "question": "Describe an ambition that you have had for a long time",
+                "isHighFreq": true,
                 "sourceOrder": 46,
                 "memoryChain": {
                   "story": "六年前入职就想当经理 → 努力工作＋偶尔加班 → 三次升职 → 向经理学＋帮新人 → 已能带小项目 → 希望明年实现",
@@ -8974,6 +9707,7 @@ window.IELTS_DATA = {
             "items": [
               {
                 "question": "Describe a food that people eat on special occasions/events",
+                "isHighFreq": true,
                 "sourceOrder": 52,
                 "memoryChain": {
                   "story": "春节吃饺子 → 水和面粉混合 → 得到面团 → 切成小块 → 放入肉和蔬菜 → 水煮后很好吃",
@@ -9250,6 +9984,7 @@ window.IELTS_DATA = {
             "items": [
               {
                 "question": "Describe a story/book with animals in it",
+                "isHighFreq": true,
                 "sourceOrder": 48,
                 "memoryChain": {
                   "story": "小狮子想独自捕猎 → 妈妈教它安静等待 → 开始总失败 → 妈妈让它耐心 → 每天努力练习 → 最后捕到鹿并和妈妈分享",
@@ -9382,6 +10117,7 @@ window.IELTS_DATA = {
               },
               {
                 "question": "Describe an advertisement with a famous person in it",
+                "isHighFreq": true,
                 "sourceOrder": 50,
                 "memoryChain": {
                   "story": "电视上看到小米笔记本广告 → 张杰出镜 → 打开电脑唱歌做音乐 → 展示轻便 → 广告很短但歌好记 → 想买来工作娱乐",
@@ -9652,6 +10388,7 @@ window.IELTS_DATA = {
               },
               {
                 "question": "Describe an interesting video",
+                "isHighFreq": true,
                 "sourceOrder": 55,
                 "memoryChain": {
                   "story": "晚饭后刷到视频 → 年轻人唱歌讲笑话 → 现代舞突然转传统舞 → 自制音乐＋喊声 → 我看了两遍 → 发给李华一起笑",
@@ -9787,6 +10524,143 @@ window.IELTS_DATA = {
                   "relax after a tiring day；I watched it twice",
                   ""
                 ]
+              },
+              {
+                "id": "p2-new-exciting-book",
+                "name": "让你兴奋的书",
+                "question": "Describe an exciting book you have read",
+                "isNew": true,
+                "isHighFreq": true,
+                "cuePoints": [
+                  "What the book is",
+                  "What it is about",
+                  "Why you read it",
+                  "And explain why you think it is an exciting book"
+                ],
+                "cueTranslations": [
+                  "这本书是什么",
+                  "它讲了什么",
+                  "你为什么读它",
+                  "并解释你为什么觉得它是一本让人兴奋的书"
+                ],
+                "draftCues": [
+                  "a little lion",
+                  "learn to hunt",
+                  "mother teaches patience",
+                  "follows a deer to the river",
+                  "the most exciting part"
+                ],
+                "focus": "书是什么、讲了什么用现在时说；读它的经历和小狮子的捕猎过程用过去时；最后一问用三个理由说明为什么读起来让人兴奋。",
+                "body": {
+                  "text": "Well, I read quite a few books in my free time. But the first one that comes to my mind would be a children's picture book about a little lion. It tells the story of a small lion and its mother. The small lion wanted to learn how to hunt, so it hoped to find food by itself. Its mother taught it how to move quietly and wait, but it always ran too early and frightened the other animals away. One afternoon, it followed a deer to the river alone, and that was the most exciting part. You know, the deer almost escaped, so the little lion had to hide behind the grass and wait for a long time. In the end, it caught the deer and proudly shared the food with its mother. To be honest, I read this book when I was a child, because the pictures of the lions attracted me, and my mother read it aloud to me almost every night.",
+                  "translation": "嗯，我空闲时读的书挺多的。但我首先想到的是一本关于小狮子的儿童图画书。它讲的是小狮子和它妈妈的故事。小狮子想学会捕猎，希望自己能找到食物。妈妈教它怎么安静地移动和等待，但它总是跑得太早，把别的动物都吓跑了。有一天下午，它独自跟着一只鹿到了河边，那是最让人兴奋的部分。你知道，那只鹿差点跑掉，所以小狮子只能躲在草丛后面等了很久。最后，它捕到了那只鹿，还骄傲地把食物分给妈妈。说实话，我是小时候读这本书的，因为书里狮子的图片吸引了我，而且妈妈几乎每天晚上读给我听。",
+                  "highlights": [
+                    "a children's picture book about a little lion",
+                    "a small lion and its mother",
+                    "learn how to hunt",
+                    "find food by itself",
+                    "move quietly and wait",
+                    "ran too early",
+                    "frightened the other animals away",
+                    "followed a deer to the river alone",
+                    "the most exciting part",
+                    "the deer almost escaped",
+                    "hide behind the grass",
+                    "wait for a long time",
+                    "caught the deer",
+                    "shared the food with its mother",
+                    "the pictures of the lions attracted me",
+                    "my mother read it aloud to me",
+                    "almost every night"
+                  ],
+                  "paragraphStarts": [
+                    "It tells the story of a",
+                    "One afternoon, it followed a deer",
+                    "To be honest, I read this book"
+                  ]
+                },
+                "sourceOrder": 901,
+                "ending": {
+                  "endingLead": {
+                    "cue": "And explain why you think it is an exciting book",
+                    "text": "As for why I think it is an exciting book, there are three reasons.",
+                    "translation": "至于我为什么觉得这是一本让人兴奋的书，有三个原因。"
+                  },
+                  "reasons": [
+                    {
+                      "text": "First of all, the story is full of danger and surprises. The little lion follows a deer to the river alone, and the deer almost escapes. You know, I kept turning the pages quickly because I wanted to know what would happen next.",
+                      "translation": "首先，这个故事充满危险和意外。小狮子独自跟着一只鹿到河边，那只鹿差点跑掉。你知道，我一页页翻得很快，因为我想知道接下来会发生什么。",
+                      "memory": "危险悬念：独自跟鹿到河边 → 鹿差点跑掉 → 急着翻页想知道结果",
+                      "highlights": [
+                        "full of danger and surprises",
+                        "follows a deer to the river alone",
+                        "turning the pages quickly"
+                      ],
+                      "memoryEn": "Suspense: danger and surprises → follows a deer alone → turn the pages quickly"
+                    },
+                    {
+                      "text": "Secondly, the pictures make every scene feel real. The lion runs fast and hides behind the grass, and the colours are bright and strong. So it feels a little like watching a short film.",
+                      "translation": "其次，图画让每个场景都显得很真实。狮子飞快地跑、躲在草丛后面，颜色又亮又浓。所以读起来有点像看一部短片。",
+                      "memory": "画面感：飞快地跑＋躲在草丛 → 颜色亮 → 像看短片",
+                      "highlights": [
+                        "make every scene feel real",
+                        "bright and strong",
+                        "like watching a short film"
+                      ],
+                      "memoryEn": "Pictures: scene feels real → bright colours → like a short film"
+                    },
+                    {
+                      "text": "What's more, the ending made me excited. The little lion fails many times, but it keeps trying and finally catches the deer and shares the food with its mother. I felt happy for it, and it taught me never to give up.",
+                      "translation": "而且，结尾让我很兴奋。小狮子失败了很多次，但它一直努力，最后捕到鹿，还把食物分给妈妈。我为它高兴，它也教会我不要放弃。",
+                      "memory": "情绪高潮：失败多次仍坚持 → 捕到鹿并分享 → 我为它高兴＋学会不放弃",
+                      "highlights": [
+                        "the ending made me excited",
+                        "keeps trying",
+                        "never to give up"
+                      ],
+                      "memoryEn": "Ending: keeps trying → catches the deer → never to give up"
+                    }
+                  ],
+                  "mode": "feelings"
+                },
+                "cuePointsNotes": [
+                  "一本关于小狮子的儿童图画书（小时候读的，书里有狮子的图片）",
+                  "小狮子想学会捕猎、自己找食物；妈妈教它安静移动和等待；它总跑得太早，把别的动物吓跑；有一天下午它独自跟着一只鹿到河边，鹿差点跑掉，它只能躲在草丛里等很久；最后它捕到鹿，还和妈妈分享食物",
+                  "小时候读的：狮子的图片吸引我，妈妈几乎每天晚上读给我听",
+                  ""
+                ],
+                "cuePointsNotesEn": [
+                  "a children's picture book about a little lion",
+                  "learn how to hunt ; find food by itself；move quietly and wait ; ran too early；followed a deer to the river alone ; the deer almost escaped；caught the deer ; shared the food with its mother",
+                  "the pictures of the lions attracted me ; my mother read it aloud to me",
+                  ""
+                ],
+                "memoryChain": {
+                  "story": "小狮子想学捕猎、自己找食物 → 妈妈教它安静移动和等待 → 它总跑得太早、吓跑别的动物 → 独自跟着一只鹿到河边 → 鹿差点跑掉，它躲在草丛里等很久 → 捕到鹿并和妈妈分享 → 小时候因为狮子图片吸引我，妈妈每晚读给我听",
+                  "reasons": [
+                    "危险悬念：独自跟鹿到河边＋鹿差点跑掉 → 急着翻页想知道结果",
+                    "画面感强：飞快地跑、躲在草丛＋颜色又亮又浓 → 像看一部短片",
+                    "情绪高潮：失败多次仍坚持 → 捕到鹿并分享 → 我为它高兴＋学会不放弃"
+                  ]
+                },
+                "pointsLabel": "Why it is exciting · 3 个原因",
+                "reasons": [
+                  {
+                    "text": "First of all, the story is full of danger and surprises, so it is hard to stop reading.",
+                    "memory": "危险悬念：小狮子独自外出 → 鹿差点跑掉 → 忍不住一直往下读"
+                  },
+                  {
+                    "text": "Secondly, the pictures are bright and strong, so every scene feels like a short film.",
+                    "memory": "画面强：颜色亮＋动作快 → 像看短片 → 更有画面感"
+                  },
+                  {
+                    "text": "What's more, the little lion keeps trying and finally catches the deer, so I felt excited and happy for it.",
+                    "memory": "情绪高潮：失败多次仍坚持 → 捕到鹿并分享 → 我又兴奋又为它高兴"
+                  }
+                ],
+                "linked": [
+                  "Describe a story/book with animals in it"
+                ]
               }
             ]
           },
@@ -9796,6 +10670,7 @@ window.IELTS_DATA = {
             "items": [
               {
                 "question": "Describe a tall building you like or dislike",
+                "isHighFreq": true,
                 "sourceOrder": 75,
                 "memoryChain": {
                   "story": "上海陆家嘴的上海中心 → 上次旅行和女朋友去参观 → 主要用于办公、很多公司在里面 → 很高，外面全是玻璃 → 造型很不寻常，往上会转一点 → 里面很明亮、很干净、窗户大 → 喜欢它的设计和光线",
@@ -10309,6 +11184,7 @@ window.IELTS_DATA = {
                 "id": "p2-feishu-disliked-short-trip",
                 "name": "不喜欢的短途旅行",
                 "question": "Describe a short trip you often take but do not like",
+                "isHighFreq": true,
                 "cuePoints": [
                   "Where you go",
                   "When you go there",
@@ -11159,6 +12035,7 @@ window.IELTS_DATA = {
                 "code": "N26",
                 "name": "印象深刻的聚会",
                 "question": "Describe a party for a special event that impressed you a lot",
+                "isHighFreq": true,
                 "isNew": true,
                 "fit": "新题",
                 "answerNote": "5.5 分目标参考答案；先记住故事顺序，人物、时间和经历可按实际情况调整。",
@@ -11283,6 +12160,7 @@ window.IELTS_DATA = {
                 "name": "攒钱买特别物品",
                 "sourceOrder": 30,
                 "question": "Describe a time when you saved money to buy something special",
+                "isHighFreq": true,
                 "cuePoints": [
                   "What the special thing was",
                   "Why you wanted to buy it",
@@ -11419,6 +12297,7 @@ window.IELTS_DATA = {
                 "name": "听不感兴趣的话",
                 "sourceOrder": 31,
                 "question": "Describe a time when someone talked about something you were not interested in but you kept listening",
+                "isHighFreq": true,
                 "cuePoints": [
                   "Who the person was",
                   "What he/she talked about",
@@ -11708,6 +12587,7 @@ window.IELTS_DATA = {
             "items": [
               {
                 "question": "Describe a challenging technological problem you faced",
+                "isHighFreq": true,
                 "sourceOrder": 49,
                 "memoryChain": {
                   "story": "去年九月准备发布学生软件 → 最终测试时变慢、课程打不开 → 自己检查仍不放心 → 开会讨论 → Alex 建议先小范围发布 → 修复后十月全面上线",
@@ -11999,6 +12879,7 @@ window.IELTS_DATA = {
               },
               {
                 "question": "Describe a plan that you had to change recently",
+                "isHighFreq": true,
                 "sourceOrder": 68,
                 "focus": "清楚对比原计划和新计划：九月面向全部学生发布，改成九月小范围测试、十月全面发布。",
                 "omit": "不需要增加学生开学忙等第二条支线，集中讲软件问题和分步发布。",
@@ -12294,6 +13175,7 @@ window.IELTS_DATA = {
             "items": [
               {
                 "question": "Describe a time when you changed an important opinion of yours",
+                "isHighFreq": true,
                 "sourceOrder": 58,
                 "isNew": false,
                 "body": {
@@ -12403,6 +13285,7 @@ window.IELTS_DATA = {
             "items": [
               {
                 "question": "Describe a time when you received a message or email and it took you a long time to reply",
+                "isHighFreq": true,
                 "sourceOrder": 61,
                 "memoryChain": {
                   "story": "Alex 发来系统报错＋截图 → 我在两小时会议且手机静音 → 会后看到多条消息 → 立刻解释并回办公室 → 一起检查错误设置 → 当天解决",
@@ -12685,6 +13568,7 @@ window.IELTS_DATA = {
               },
               {
                 "question": "Describe a time when you had a problem with using an electronic device",
+                "isHighFreq": true,
                 "sourceOrder": 65,
                 "memoryChain": {
                   "story": "去年办公室准备会议报告 → 笔记本突然很慢＋打不开文件 → 重启关软件仍无效 → Alex 检查储存空间 → 移走旧视频＋删临时文件 → 重启后按时开会",
@@ -12829,6 +13713,7 @@ window.IELTS_DATA = {
               },
               {
                 "question": "Describe a time when you worked in a group",
+                "isHighFreq": true,
                 "sourceOrder": 67,
                 "memoryChain": {
                   "story": "系统故障 → 我和 Alex＋两位队友开会 → 先定简单计划 → 分工查错误／设置／测试订单 → 每十五分钟同步 → 找到错误设置并恢复",
@@ -12979,6 +13864,7 @@ window.IELTS_DATA = {
             "items": [
               {
                 "question": "Describe a live sports event you watched and liked",
+                "isHighFreq": true,
                 "sourceOrder": 53,
                 "memoryChain": {
                   "story": "上周末和女友在家看足球直播 → 准备饮料和薯片 → 两队实力接近 → 认识球员＋猜胜负 → 大部分时间平分 → 最后几分钟绝杀并起身欢呼",
@@ -13392,6 +14278,7 @@ window.IELTS_DATA = {
               },
               {
                 "question": "Describe a time when you got up early",
+                "isHighFreq": true,
                 "sourceOrder": 69,
                 "memoryChain": {
                   "story": "凌晨四点闹钟响 → 洗脸穿衣出门 → 四点半和朋友集合 → 六十元买早餐 → 黑路上边聊边爬 → 山顶看天变橙＋日出拍照",
@@ -13820,6 +14707,7 @@ window.IELTS_DATA = {
             "items": [
               {
                 "question": "Describe a piece of local news that people are interested in",
+                "isHighFreq": true,
                 "sourceOrder": 43,
                 "memoryChain": {
                   "story": "本地电视看到新闻 → 邻里群继续转发 → 家附近要开胖东来 → 公布位置月份＋招聘本地员工 → 店内有休息区 → 家人邻居讨论要买什么",
@@ -13960,6 +14848,7 @@ window.IELTS_DATA = {
                 "name": "看过的名人采访",
                 "isNew": true,
                 "question": "Describe a time  watched a famous person being interviewed",
+                "isHighFreq": true,
                 "cuePoints": [
                   "Who the famous person was",
                   "What the interview was about",
@@ -14088,6 +14977,7 @@ window.IELTS_DATA = {
                 "name": "结果让我满意的重要决定",
                 "isNew": true,
                 "question": "Describe a time you made an important decision and were happy with the result",
+                "isHighFreq": true,
                 "cuePoints": [
                   "What the decision was",
                   "Why you made the decision",
@@ -14352,6 +15242,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "feishu-popular-person",
+      "isHighFreq": true,
       "category": "人物类",
       "title": "受欢迎的人",
       "partTwo": "受欢迎的人",
@@ -14503,6 +15394,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "feishu-admired-sportsperson",
+      "isHighFreq": true,
       "category": "人物类",
       "title": "钦佩的运动员",
       "partTwo": "钦佩的运动员",
@@ -14653,6 +15545,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "feishu-taught-new-skill",
+      "isHighFreq": true,
       "category": "人物类",
       "title": "新技能的学习与教学",
       "partTwo": "教你新技能的人",
@@ -14730,6 +15623,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "feishu-history-lover",
+      "isHighFreq": true,
       "category": "人物类",
       "title": "历史学习",
       "partTwo": "学习并喜欢历史的人",
@@ -14862,6 +15756,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "new-organized-person",
+      "isHighFreq": true,
       "category": "人物类",
       "title": "做事有条理",
       "partTwo": "有条理的人",
@@ -14939,6 +15834,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "feishu-photo-lover",
+      "isHighFreq": true,
       "category": "人物类",
       "title": "拍照习惯",
       "partTwo": "喜欢拍照的人",
@@ -15028,6 +15924,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "feishu-handcraft-person",
+      "isHighFreq": true,
       "category": "人物类",
       "title": "手工与艺术",
       "partTwo": "擅长做手工的人",
@@ -15110,6 +16007,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "new-happy-person",
+      "isHighFreq": true,
       "category": "人物类",
       "title": "快乐、儿童与积极情绪",
       "partTwo": "快乐人士",
@@ -15336,6 +16234,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "feishu-difficult-success-person",
+      "isHighFreq": true,
       "category": "人物类",
       "title": "成功、商业与金钱",
       "partTwo": "做困难的事情并成功的人",
@@ -15415,6 +16314,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "feishu-near-natural-place",
+      "isHighFreq": true,
       "category": "地点类",
       "title": "去过的靠近自然的地方",
       "partTwo": "去过的靠近自然的地方",
@@ -15495,6 +16395,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "feishu-building-enjoy",
+      "isHighFreq": true,
       "category": "地点类",
       "title": "喜欢的建筑",
       "partTwo": "喜欢的建筑",
@@ -15553,6 +16454,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "feishu-crowded-place",
+      "isHighFreq": true,
       "category": "地点类",
       "title": "拥挤城市",
       "partTwo": "拥挤地方",
@@ -15630,6 +16532,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "feishu-noisy-place",
+      "isHighFreq": true,
       "category": "地点类",
       "title": "噪音与公共空间",
       "partTwo": "嘈杂地",
@@ -15817,6 +16720,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "feishu-least-favorite-movie",
+      "isHighFreq": true,
       "category": "事物类",
       "title": "电影与观影方式",
       "partTwo": "最不喜欢的电影",
@@ -16411,6 +17315,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "feishu-impressive-party",
+      "isHighFreq": true,
       "category": "事件类",
       "title": "印象深刻的聚会",
       "partTwo": "印象深刻的聚会",
@@ -16516,6 +17421,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "feishu-disliked-short-trip",
+      "isHighFreq": true,
       "category": "事件类",
       "title": "出国旅行与了解世界",
       "partTwo": "不喜欢的短途旅行",
@@ -16580,6 +17486,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "feishu-waste-time",
+      "isHighFreq": true,
       "category": "事件类",
       "title": "时间、压力与规则",
       "partTwo": "浪费时间的活动",
@@ -16761,6 +17668,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "feishu-saved-money",
+      "isHighFreq": true,
       "category": "事件类",
       "title": "存钱与金钱管理",
       "partTwo": "攒钱买特别物品",
@@ -16838,6 +17746,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "feishu-kept-listening",
+      "isHighFreq": true,
       "category": "事件类",
       "title": "倾听与聊天话题",
       "partTwo": "听不感兴趣的话",
@@ -16882,6 +17791,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "feishu-enjoyable-evening",
+      "isHighFreq": true,
       "category": "事件类",
       "title": "大家庭相处",
       "partTwo": "和朋友度过的愉快夜晚",
@@ -16904,6 +17814,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "new-famous-interview",
+      "isHighFreq": true,
       "category": "事件类",
       "title": "名人采访与求职面试",
       "partTwo": "看过的名人采访",
@@ -16994,6 +17905,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "new-happy-important-decision",
+      "isHighFreq": true,
       "category": "事件类",
       "title": "决定的大小、速度与共识",
       "partTwo": "对结果开心的重要决定",
@@ -17152,6 +18064,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "new-language-speaker",
+      "isHighFreq": true,
       "category": "人物类",
       "title": "擅长学习和说语言的人",
       "partTwo": "擅长学习和说语言的人",
@@ -17260,6 +18173,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "new-successful-businessperson",
+      "isHighFreq": true,
       "category": "人物类",
       "title": "成功的生意人",
       "partTwo": "成功的生意人",
@@ -17438,6 +18352,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "new-medical-career",
+      "isHighFreq": true,
       "category": "人物类",
       "title": "想从事医疗行业的人",
       "partTwo": "想从事医疗行业的人",
@@ -17514,6 +18429,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "new-childhood-friend",
+      "isHighFreq": true,
       "category": "人物类",
       "title": "发小",
       "partTwo": "发小",
@@ -17623,6 +18539,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "new-home-gardener",
+      "isHighFreq": true,
       "category": "人物类",
       "title": "喜欢在家/花园种菜的人",
       "partTwo": "喜欢在家/花园种菜的人",
@@ -17734,6 +18651,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "new-local-news",
+      "isHighFreq": true,
       "category": "事物类",
       "title": "当地新闻",
       "partTwo": "当地新闻",
@@ -18036,6 +18954,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "new-long-held-ambition",
+      "isHighFreq": true,
       "category": "事物类",
       "title": "长远志向",
       "partTwo": "长远志向",
@@ -18255,6 +19174,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "new-animal-story",
+      "isHighFreq": true,
       "category": "事物类",
       "title": "包含动物的故事或书",
       "partTwo": "包含动物的故事或书",
@@ -18367,6 +19287,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "new-ai-problem",
+      "isHighFreq": true,
       "category": "事物类",
       "title": "遇到的科技问题",
       "partTwo": "遇到的科技问题",
@@ -18480,6 +19401,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "new-celebrity-advertisement",
+      "isHighFreq": true,
       "category": "事物类",
       "title": "名人出演的广告",
       "partTwo": "名人出演的广告",
@@ -18654,6 +19576,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "new-special-occasion-food",
+      "isHighFreq": true,
       "category": "事物类",
       "title": "特别场合的食物",
       "partTwo": "特别场合的食物",
@@ -18732,6 +19655,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "new-live-sports-event",
+      "isHighFreq": true,
       "category": "事物类",
       "title": "喜欢的现场体育赛事",
       "partTwo": "喜欢的现场体育赛事",
@@ -18843,6 +19767,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "new-general-law",
+      "isHighFreq": true,
       "category": "事物类",
       "title": "想颁布的新法律",
       "partTwo": "想颁布的新法律",
@@ -18958,6 +19883,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "new-interesting-video",
+      "isHighFreq": true,
       "category": "事物类",
       "title": "有趣视频",
       "partTwo": "有趣视频",
@@ -19286,6 +20212,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "new-changed-opinion",
+      "isHighFreq": true,
       "category": "事件类",
       "title": "改变重要想法",
       "partTwo": "改变重要想法",
@@ -19590,6 +20517,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "new-delayed-reply",
+      "isHighFreq": true,
       "category": "事件类",
       "title": "很久没收到回复的信息",
       "partTwo": "很久没回复别人的信息",
@@ -19945,6 +20873,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "new-electronic-device-problem",
+      "isHighFreq": true,
       "category": "事件类",
       "title": "使用电子设备碰到的问题",
       "partTwo": "使用电子设备碰到的问题",
@@ -20105,6 +21034,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "new-teamwork",
+      "isHighFreq": true,
       "category": "事件类",
       "title": "在团队中工作",
       "partTwo": "在团队中工作",
@@ -20216,6 +21146,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "new-changed-plan",
+      "isHighFreq": true,
       "category": "事件类",
       "title": "近期改变的计划",
       "partTwo": "近期改变的计划",
@@ -20328,6 +21259,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "new-early-morning",
+      "isHighFreq": true,
       "category": "事件类",
       "title": "早起经历",
       "partTwo": "早起经历",
@@ -20544,6 +21476,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "new-recommended-place",
+      "isHighFreq": true,
       "category": "地点类",
       "title": "推荐旅行过的地方",
       "partTwo": "推荐旅行过的地方",
@@ -20651,6 +21584,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "new-visit-home",
+      "isHighFreq": true,
       "category": "地点类",
       "title": "喜欢拜访但不想住的家",
       "partTwo": "喜欢拜访但不想住的家",
@@ -20760,6 +21694,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "new-boring-place",
+      "isHighFreq": true,
       "category": "地点类",
       "title": "去过的无聊地方",
       "partTwo": "去过的无聊地方",
@@ -20948,6 +21883,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "new-tall-building",
+      "isHighFreq": true,
       "category": "地点类",
       "title": "喜欢或不喜欢的高建筑",
       "partTwo": "喜欢或不喜欢的高建筑",
@@ -21102,6 +22038,991 @@ window.IELTS_DATA = {
         }
       ],
       "sourceOrder": 76
+    },
+    {
+      "id": "new-exciting-book",
+      "category": "事物类",
+      "title": "让你兴奋的书",
+      "partTwo": "让你兴奋的书",
+      "partTwoQuestion": "Describe an exciting book you have read",
+      "isNew": true,
+      "isHighFreq": true,
+      "items": [
+        {
+          "question": "What kinds of books do people like to read nowadays?",
+          "answerLanguage": "en",
+          "answer": "I think most people read books that are easy to enjoy in a short break. Many readers choose stories, self-help books and books about famous people, because they want to relax and also gain new knowledge. For example, young office workers often read short novels or books about cooking and travel on their phones. So light and practical books are the most popular choice today.",
+          "translation": {
+            "question": "现在人们喜欢读什么样的书？",
+            "answer": "我觉得大多数人会读那些在短暂休息里也容易读进去的书。很多读者选故事、自助类书籍和名人相关的书，因为他们既想放松，也想获得新知识。比如，年轻的上班族常在手机上看短篇小说，或者看做饭、旅行类的书。所以轻松又实用的书是现在最受欢迎的选择。"
+          },
+          "structure": "观点 → 原因 → 例子 → 结果或限定",
+          "materials": [
+            "M4"
+          ],
+          "chunkPhrases": [
+            "easy to enjoy in a short break",
+            "gain new knowledge",
+            "the most popular choice"
+          ],
+          "reasonExample": {
+            "reasonCn": "很多读者选故事、自助类书籍和名人相关的书，因为他们既想放松，也想获得新知识。",
+            "reasonEn": "Many readers choose stories, self-help books and books about famous people, because they want to relax and also gain new knowledge.",
+            "exCn": "比如，年轻的上班族常在手机上看短篇小说，或者看做饭、旅行类的书。",
+            "exEn": "For example, young office workers often read short novels or books about cooking and travel on their phones."
+          }
+        },
+        {
+          "question": "Do people still read magazines nowadays?",
+          "answerLanguage": "en",
+          "answer": "Yes, some people still read magazines, but not as many as before. Magazines are convenient because readers can look at them during a short wait, and the pictures and short articles are easy to enjoy. For example, many people read sports or fashion magazines at the hairdresser's or on a train. However, most readers now get the same information from their phones.",
+          "translation": {
+            "question": "现在人们还读杂志吗？",
+            "answer": "读，还是有人读杂志，但没有以前那么多了。杂志很方便，因为人们可以在短暂等待时翻一翻，而且图片和短文章读起来很轻松。比如，很多人在理发店或火车上看体育、时尚杂志。不过，现在大多数读者是从手机上获取同样的信息。"
+          },
+          "structure": "观点 → 原因 → 例子 → 结果或限定",
+          "materials": [
+            "M2"
+          ],
+          "chunkPhrases": [
+            "not as many as before",
+            "during a short wait",
+            "the same information from their phones"
+          ],
+          "reasonExample": {
+            "reasonCn": "杂志很方便，因为人们可以在短暂等待时翻一翻，而且图片和短文章读起来很轻松。",
+            "reasonEn": "Magazines are convenient because readers can look at them during a short wait, and the pictures and short articles are easy to enjoy.",
+            "exCn": "比如，很多人在理发店或火车上看体育、时尚杂志。",
+            "exEn": "For example, many people read sports or fashion magazines at the hairdresser's or on a train."
+          }
+        },
+        {
+          "question": "How are the books young people read different from those older people read?",
+          "answerLanguage": "en",
+          "answer": "I think the difference is clear. Young people often read fast-moving stories, comics and books about travel or new technology, because they are open to new ideas and like quick information. Older people may prefer history, family stories and books about health, and they often read slowly and enjoy the details. For example, many older readers enjoy history books for weeks, while students finish a novel in a couple of days.",
+          "translation": {
+            "question": "年轻人读的书和年长者读的书有什么不同？",
+            "answer": "我觉得差别很明显。年轻人常读节奏快的故事、漫画，还有旅行或新科技方面的书，因为他们愿意接受新想法，也喜欢快速获取信息。年长者可能更喜欢历史、家庭故事和健康类的书，他们往往读得慢，喜欢琢磨细节。比如，很多年长的读者会花好几周读历史书，而学生两天就能读完一本小说。"
+          },
+          "structure": "观点 → 对比（C1 老人 / 年轻人） → 例子 → 限定",
+          "materials": [],
+          "chunkPhrases": [
+            "open to new ideas",
+            "enjoy the details",
+            "in a couple of days"
+          ],
+          "reasonExample": {
+            "reasonCn": "年轻人常读节奏快的故事、漫画，还有旅行或新科技方面的书，因为他们愿意接受新想法，也喜欢快速获取信息。",
+            "reasonEn": "Young people often read fast-moving stories, comics and books about travel or new technology, because they are open to new ideas and like quick information.",
+            "exCn": "比如，很多年长的读者会花好几周读历史书，而学生两天就能读完一本小说。",
+            "exEn": "For example, many older readers enjoy history books for weeks, while students finish a novel in a couple of days."
+          }
+        },
+        {
+          "question": "Why can some books remain popular for a very long time?",
+          "answerLanguage": "en",
+          "answer": "I think a book stays popular when it deals with feelings that everyone can understand. Love, family and growing up do not change much over time, so new readers still find them close to their own lives. For example, a simple story about a child and a pet can still move readers after a hundred years. Also, teachers and parents keep recommending these books, so they become part of our traditions and each new generation meets them again.",
+          "translation": {
+            "question": "为什么有些书能长时间保持受欢迎？",
+            "answer": "我觉得一本书能一直受欢迎，是因为它讲的是大家都懂的情感。爱、家庭和成长这些内容随时间变化不大，所以新读者仍会觉得它们离自己的生活很近。比如，一个关于孩子和宠物的简单故事，一百年后依然能打动人。另外，老师和家长一直推荐这些书，它们就成了我们传统的一部分，每一代新读者都会再遇到它们。"
+          },
+          "structure": "观点 → 原因 → 例子 → 结果或限定",
+          "materials": [
+            "M8"
+          ],
+          "chunkPhrases": [
+            "close to their own lives",
+            "part of our traditions",
+            "each new generation"
+          ],
+          "reasonExample": {
+            "reasonCn": "爱、家庭和成长这些内容随时间变化不大，所以新读者仍会觉得它们离自己的生活很近。",
+            "reasonEn": "Love, family and growing up do not change much over time, so new readers still find them close to their own lives.",
+            "exCn": "比如，一个关于孩子和宠物的简单故事，一百年后依然能打动人。",
+            "exEn": "For example, a simple story about a child and a pet can still move readers after a hundred years."
+          }
+        },
+        {
+          "question": "Do people like to read the novel before watching the film?",
+          "answerLanguage": "en",
+          "answer": "I think many people do, but it depends on the story. Readers often want to understand the characters first, so the film feels more complete when they already know the background. For example, fans of a popular novel may finish the book before the film comes out, because they do not want any surprises spoiled. However, some people prefer to watch the film first, since the book may take much longer.",
+          "translation": {
+            "question": "人们喜欢在看电影之前先读原著小说吗？",
+            "answer": "我觉得很多人会这样，但要看是什么故事。读者通常想先了解人物，所以如果已经知道背景，看电影时会更完整。比如，一本热门小说的粉丝可能会在电影上映前把书读完，因为他们不想被剧透。不过，也有人喜欢先看电影，因为读书可能花的时间长得多。"
+          },
+          "structure": "观点 → 原因 → 例子 → 结果或限定",
+          "materials": [],
+          "chunkPhrases": [
+            "understand the characters first",
+            "any surprises spoiled",
+            "take much longer"
+          ],
+          "reasonExample": {
+            "reasonCn": "读者通常想先了解人物，所以如果已经知道背景，看电影时会更完整。",
+            "reasonEn": "Readers often want to understand the characters first, so the film feels more complete when they already know the background.",
+            "exCn": "比如，一本热门小说的粉丝可能会在电影上映前把书读完，因为他们不想被剧透。",
+            "exEn": "For example, fans of a popular novel may finish the book before the film comes out, because they do not want any surprises spoiled."
+          }
+        },
+        {
+          "question": "Why do some people think films are more exciting than books?",
+          "answerLanguage": "en",
+          "answer": "I think it is mainly because films use pictures, music and sound together. A car chase or a storm feels much stronger when you can see and hear it, and everything happens within two hours. For example, a fight scene in a film can be over in a minute but still make people hold their breath. Books need more patience, so they may feel slower.",
+          "translation": {
+            "question": "为什么有些人觉得电影比书更让人兴奋？",
+            "answer": "我觉得主要是因为电影把画面、音乐和声音放在一起。追车或者暴风雨，当你能看到、能听到时，感受会强烈得多，而且所有内容两个小时之内就演完。比如，电影里一场打斗一分钟就过去了，但还是能让人屏住呼吸。书需要更多耐心，所以可能感觉更慢。"
+          },
+          "structure": "观点 → 原因 → 例子 → 结果或限定",
+          "materials": [],
+          "chunkPhrases": [
+            "see and hear it",
+            "within two hours",
+            "hold their breath"
+          ],
+          "reasonExample": {
+            "reasonCn": "追车或者暴风雨，当你能看到、能听到时，感受会强烈得多，而且所有内容两个小时之内就演完。",
+            "reasonEn": "A car chase or a storm feels much stronger when you can see and hear it, and everything happens within two hours.",
+            "exCn": "比如，电影里一场打斗一分钟就过去了，但还是能让人屏住呼吸。",
+            "exEn": "For example, a fight scene in a film can be over in a minute but still make people hold their breath."
+          }
+        },
+        {
+          "question": "Why do some people like books while others like films?",
+          "answerLanguage": "en",
+          "answer": "I think it comes down to how people like to spend their time. Books let readers move at their own speed and imagine the scenes in their own way, which many people find relaxing. Films, on the other hand, give a complete picture in a short time, which makes them convenient for busy people who want quick enjoyment. For example, some readers enjoy a long novel on quiet evenings, while others just want a film after work.",
+          "translation": {
+            "question": "为什么有些人喜欢书，而有些人喜欢电影？",
+            "answer": "我觉得这取决于人们喜欢怎么花时间。书让读者按自己的速度读，用自己的方式想象画面，很多人觉得这样很放松。而电影在短时间内给出完整的画面，对想要快速娱乐的忙碌人群来说很方便。比如，有些读者喜欢在安静的晚上读长篇小说，另一些人下班后只想看部电影。"
+          },
+          "structure": "观点 → 原因 → 例子 → 结果或限定",
+          "materials": [
+            "M1",
+            "M2"
+          ],
+          "chunkPhrases": [
+            "at their own speed",
+            "in a short time",
+            "quick enjoyment"
+          ],
+          "reasonExample": {
+            "reasonCn": "书让读者按自己的速度读，用自己的方式想象画面，很多人觉得这样很放松。",
+            "reasonEn": "Books let readers move at their own speed and imagine the scenes in their own way, which many people find relaxing.",
+            "exCn": "比如，有些读者喜欢在安静的晚上读长篇小说，另一些人下班后只想看部电影。",
+            "exEn": "For example, some readers enjoy a long novel on quiet evenings, while others just want a film after work."
+          }
+        },
+        {
+          "question": "Do people like the film adaptations after reading the books?",
+          "answerLanguage": "en",
+          "answer": "I think their feelings are often mixed. People who loved the book usually have a clear picture in their minds, so small changes can feel disappointing. For example, readers may complain that a character looks wrong or that an important scene is missing. Still, many of them watch the adaptation anyway, because they want to see the story come to life on the screen.",
+          "translation": {
+            "question": "人们读完书之后会喜欢改编的电影吗？",
+            "answer": "我觉得他们的感受常常很复杂。喜欢原著的人心里通常有很清晰的画面，所以一点小改动就会让他们失望。比如，读者可能抱怨某个角色看起来不对，或者一个重要场景被删掉了。不过，很多人还是会去看改编电影，因为他们想看到这个故事在银幕上活起来。"
+          },
+          "structure": "观点 → 原因 → 例子 → 结果或限定",
+          "materials": [],
+          "chunkPhrases": [
+            "a clear picture in their minds",
+            "come to life",
+            "on the screen"
+          ],
+          "reasonExample": {
+            "reasonCn": "喜欢原著的人心里通常有很清晰的画面，所以一点小改动就会让他们失望。",
+            "reasonEn": "People who loved the book usually have a clear picture in their minds, so small changes can feel disappointing.",
+            "exCn": "比如，读者可能抱怨某个角色看起来不对，或者一个重要场景被删掉了。",
+            "exEn": "For example, readers may complain that a character looks wrong or that an important scene is missing."
+          }
+        },
+        {
+          "question": "Are films always worse than the original books?",
+          "answerLanguage": "en",
+          "answer": "No, I do not think films are always worse. A film can bring a story to a much wider audience, and some adaptations are even better than the book because the director cuts out slow parts. For example, a long novel with too many details may become a tighter and more exciting film. However, books still give readers more freedom to imagine, so both forms have their own strengths.",
+          "translation": {
+            "question": "电影总是比原著书差吗？",
+            "answer": "不，我不觉得电影总是更差。电影能把一个故事带给多得多的观众，有些改编甚至比原著更好，因为导演会删掉拖沓的部分。比如，一本细节太多的长篇小说，可能变成一部更紧凑、更精彩的电影。不过，书还是给读者更多想象的空间，所以两种形式各有各的长处。"
+          },
+          "structure": "观点 → 原因 → 例子 → 结果或限定",
+          "materials": [],
+          "chunkPhrases": [
+            "a much wider audience",
+            "more freedom to imagine",
+            "their own strengths"
+          ],
+          "reasonExample": {
+            "reasonCn": "电影能把一个故事带给多得多的观众，有些改编甚至比原著更好，因为导演会删掉拖沓的部分。",
+            "reasonEn": "A film can bring a story to a much wider audience, and some adaptations are even better than the book because the director cuts out slow parts.",
+            "exCn": "比如，一本细节太多的长篇小说，可能变成一部更紧凑、更精彩的电影。",
+            "exEn": "For example, a long novel with too many details may become a tighter and more exciting film."
+          }
+        }
+      ],
+      "sourceOrder": 901
+    },
+    {
+      "id": "new-favorite-place",
+      "category": "地点类",
+      "title": "喜欢待的地方",
+      "partTwo": "喜欢待的地方",
+      "partTwoQuestion": "Describe a place you enjoy spending time in",
+      "isNew": true,
+      "isHighFreq": true,
+      "items": [
+        {
+          "question": "Why do people prefer to go to quiet places?",
+          "answerLanguage": "en",
+          "answer": "I think people go to quiet places mainly to relax. Daily life in a city is noisy and busy, so a quiet park or a small coffee shop gives people a break from crowds and screens. For example, many office workers sit in a park at lunchtime and read or walk for twenty minutes. After that, they feel calmer and can focus on their work again.",
+          "translation": {
+            "question": "人们为什么更喜欢去安静的地方？",
+            "answer": "我觉得人们去安静的地方主要是为了放松。城市里的日常生活又吵又忙，所以一个安静的公园或小咖啡店能让人暂时离开人群和屏幕。比如，很多上班族午休时会坐在公园里看书，或者走二十分钟。之后他们会平静一些，也能重新专心工作。"
+          },
+          "structure": "观点 → 原因 → 例子 → 结果",
+          "materials": [
+            "M1"
+          ],
+          "chunkPhrases": [
+            "mainly to relax",
+            "a break from crowds and screens",
+            "feel calmer"
+          ]
+        },
+        {
+          "question": "Do older people prefer to be in quieter areas than younger people?",
+          "answerLanguage": "en",
+          "answer": "Yes, I think many older people prefer quieter areas. They often have a slower daily routine, so quiet parks, teahouses and riverside paths suit them better. Younger people usually enjoy busier places, such as shopping streets and live music venues, because they can meet friends there. Still, this is only a general pattern, because some young people also look for quiet places to study or work.",
+          "translation": {
+            "question": "老年人比年轻人更喜欢待在安静的区域吗？",
+            "answer": "是的，我觉得很多老年人更喜欢安静的区域。他们的日常生活节奏通常更慢，所以安静的公园、茶馆和河边小路更适合他们。年轻人一般喜欢更热闹的地方，比如商业街和现场音乐场所，因为他们可以在那里和朋友见面。不过，这只是一个普遍规律，因为有些年轻人也会找安静的地方学习或工作。"
+          },
+          "structure": "观点 → 老人 → 年轻人 → 限定",
+          "materials": [],
+          "chunkPhrases": [
+            "many older people prefer quieter areas",
+            "a slower daily routine",
+            "only a general pattern"
+          ]
+        },
+        {
+          "question": "Is it hard to find quiet places in cities?",
+          "answerLanguage": "en",
+          "answer": "It is getting harder, especially in the city centre, because cities are crowded and land is expensive. Roads, building work and shops create a lot of noise, and the few parks are often full of people. However, quiet places still exist if you know where to look. For example, a public library or a temple garden is usually peaceful, but you may have to travel a little to reach it.",
+          "translation": {
+            "question": "在城市里很难找到安静的地方吗？",
+            "answer": "越来越难了，尤其是在市中心，因为城市拥挤、地价又贵。道路、施工和商店制造了很多噪音，而仅有的几个公园常常挤满了人。不过，只要你会找，安静的地方还是有的。比如，公共图书馆或寺庙花园通常很清静，但你可能要走远一点才能到。"
+          },
+          "structure": "观点 → 原因 → 例子 → 限定",
+          "materials": [],
+          "chunkPhrases": [
+            "getting harder",
+            "if you know where to look",
+            "travel a little to reach it"
+          ]
+        },
+        {
+          "question": "What are some of the quiet places in cities?",
+          "answerLanguage": "en",
+          "answer": "There are quite a few, I think. Public libraries and small bookshops are quiet because people go there to read. Parks and riverside paths are peaceful early in the morning, before the crowds arrive. Some people also choose a teahouse or a small coffee shop in a side street. In the countryside places like these are everywhere, but in a city you have to look for corners away from the main roads.",
+          "translation": {
+            "question": "城市里有哪些安静的地方？",
+            "answer": "我觉得有不少。公共图书馆和小书店很安静，因为人们去那里是为了看书。公园和河边小路在清晨、人群到来之前也很清静。有些人还会选小巷里的茶馆或小咖啡店。在乡村，这样的地方到处都有，但在城市里，你得去找远离主干道的角落。"
+          },
+          "structure": "直接回答 → 举例 → 城/乡对比",
+          "materials": [],
+          "chunkPhrases": [
+            "Public libraries and small bookshops",
+            "before the crowds arrive",
+            "away from the main roads"
+          ]
+        }
+      ],
+      "sourceOrder": 902
+    },
+    {
+      "id": "new-fitness-improver",
+      "category": "人物类",
+      "title": "努力提升健身的人",
+      "partTwo": "努力提升健身的人",
+      "partTwoQuestion": "Describe a person who has worked hard to improve their fitness",
+      "isNew": true,
+      "isHighFreq": true,
+      "items": [
+        {
+          "question": "What should people do to stay healthy and fit today?",
+          "answerLanguage": "en",
+          "answer": "I think people should build a few simple daily habits instead of trying something extreme. Eating regular meals, sleeping enough and moving every day are the basics of a healthy lifestyle. For example, many office workers can get off the bus one stop early and walk the rest of the way. The key is to keep it steady, because a sudden plan is easy to give up.",
+          "translation": {
+            "question": "今天人们应该怎么做才能保持健康？",
+            "answer": "我觉得人们应该养成几个简单的日常习惯，而不是去做很极端的事。按时吃饭、睡够、每天活动，是健康生活方式的基础。比如，很多上班族可以提前一站下车，把剩下的路走完。关键是保持稳定，因为突然开始的计划很容易放弃。"
+          },
+          "structure": "观点 → 原因 → 例子 → 核心原则",
+          "materials": [
+            "M6"
+          ],
+          "chunkPhrases": [
+            "build a few simple daily habits",
+            "a healthy lifestyle",
+            "get off the bus one stop early",
+            "keep it steady"
+          ],
+          "reasonExample": {
+            "reasonCn": "按时吃饭、睡够、每天活动，是健康生活方式的基础。",
+            "reasonEn": "Eating regular meals, sleeping enough and moving every day are the basics of a healthy lifestyle.",
+            "exCn": "比如，很多上班族可以提前一站下车，把剩下的路走完。",
+            "exEn": "For example, many office workers can get off the bus one stop early and walk the rest of the way."
+          }
+        },
+        {
+          "question": "How can people improve both their physical and mental health?",
+          "answerLanguage": "en",
+          "answer": "I think the two sides are connected, so people should work on both together. Regular exercise keeps the body strong and also helps people relax after a busy day, so it lifts their mood as well. For example, someone who walks or swims three times a week often sleeps better and worries less. Talking with friends and taking proper breaks matter too, because feeling lonely or tired can slowly harm health.",
+          "translation": {
+            "question": "人们怎样才能同时改善身体健康和心理健康？",
+            "answer": "我觉得这两方面是相连的，所以人们应该一起改善。规律运动能让身体强壮，也帮助人在忙碌一天后放松，所以还能改善情绪。比如，一周走路或游泳三次的人，往往睡得更香、担心更少。和朋友聊聊天、适当休息也很重要，因为孤独或疲惫会慢慢损害健康。"
+          },
+          "structure": "观点 → 原因 → 例子 → 补充限定",
+          "materials": [
+            "M6",
+            "M1"
+          ],
+          "chunkPhrases": [
+            "work on both together",
+            "keeps the body strong",
+            "lifts their mood",
+            "taking proper breaks"
+          ],
+          "reasonExample": {
+            "reasonCn": "规律运动能让身体强壮，也帮助人在忙碌一天后放松，所以还能改善情绪。",
+            "reasonEn": "Regular exercise keeps the body strong and also helps people relax after a busy day, so it lifts their mood as well.",
+            "exCn": "比如，一周走路或游泳三次的人，往往睡得更香、担心更少。",
+            "exEn": "For example, someone who walks or swims three times a week often sleeps better and worries less."
+          }
+        },
+        {
+          "question": "Are people today healthier than they were in the past?",
+          "answerLanguage": "en",
+          "answer": "It is hard to give one answer. In some ways yes, because we know much more about food, exercise and disease, and hospitals are better than before. However, many people today sit all day and eat fast food, so they move much less than older people did when they were young. For example, my parents walked everywhere as children, while many children now go everywhere by car. So health depends more on daily habits than on the period we live in.",
+          "translation": {
+            "question": "今天的人比过去的人更健康吗？",
+            "answer": "很难给出一个答案。某些方面确实是的，因为我们对食物、运动和疾病的了解多了很多，医院也比以前更好。不过，今天很多人整天坐着、吃快餐，活动量比当年的老年人少得多。比如，我父母小时候去哪儿都走路，而现在很多孩子去哪儿都坐车。所以健康更多取决于日常习惯，而不是我们生活在哪个年代。"
+          },
+          "structure": "观点（两面）→ 变好的原因 → 变差的原因＋例子 → 结论",
+          "materials": [
+            "C1",
+            "M6"
+          ],
+          "chunkPhrases": [
+            "In some ways yes",
+            "sit all day",
+            "walked everywhere as children",
+            "depends more on daily habits"
+          ],
+          "reasonExample": {
+            "reasonCn": "某些方面确实是的，因为我们对食物、运动和疾病的了解多了很多，医院也比以前更好。",
+            "reasonEn": "In some ways yes, because we know much more about food, exercise and disease, and hospitals are better than before.",
+            "exCn": "比如，我父母小时候去哪儿都走路，而现在很多孩子去哪儿都坐车。",
+            "exEn": "For example, my parents walked everywhere as children, while many children now go everywhere by car."
+          }
+        },
+        {
+          "question": "What else can people do to keep fit besides sports?",
+          "answerLanguage": "en",
+          "answer": "There are quite a few simple things. People can eat more vegetables and less sugar, go to bed at a regular time and take short breaks during the day instead of sitting for hours. For example, some people climb the stairs at work or walk around while talking on the phone, and that adds up quickly. Housework and walking to the shops count as exercise too, so keeping fit does not have to mean the gym.",
+          "translation": {
+            "question": "除了运动，人们还能做什么来保持健康？",
+            "answer": "有不少简单的做法。人们可以多吃蔬菜、少吃糖，按时睡觉，白天短暂休息一下，而不是一坐几个小时。比如，有些人在上班时爬楼梯，或打电话时走动，累计起来很快。做家务、走去商店买东西也算运动，所以保持健康不一定非得去健身房。"
+          },
+          "structure": "观点 → 做法 → 例子 → 结果或限定",
+          "materials": [
+            "M6"
+          ],
+          "chunkPhrases": [
+            "eat more vegetables and less sugar",
+            "take short breaks",
+            "climb the stairs at work",
+            "that adds up quickly"
+          ],
+          "reasonExample": {
+            "reasonCn": "人们可以多吃蔬菜少吃糖、按时睡觉，白天短暂休息，而不是一坐几个小时。",
+            "reasonEn": "People can eat more vegetables and less sugar, go to bed at a regular time and take short breaks during the day instead of sitting for hours.",
+            "exCn": "比如，有些人在上班时爬楼梯，或打电话时走动，累计起来很快。",
+            "exEn": "For example, some people climb the stairs at work or walk around while talking on the phone, and that adds up quickly."
+          }
+        },
+        {
+          "question": "Which one is more important for a healthy life - a healthy diet or a regular exercise plan?",
+          "answerLanguage": "en",
+          "answer": "I would say a healthy diet matters a little more, but the two work best together. Food affects the body every day, and it is hard to exercise well if someone eats badly and feels tired all the time. For example, a person who eats properly but exercises twice a week is usually in better condition than someone who trains hard and eats fast food. Still, some regular movement is necessary, so a balanced lifestyle is the best answer.",
+          "translation": {
+            "question": "对健康生活来说，哪个更重要——健康饮食还是规律运动计划？",
+            "answer": "我觉得健康饮食稍微更重要一点，但两者配合起来效果最好。食物每天都在影响身体，而且如果一个人吃得不好、总是觉得累，也很难好好运动。比如，一个吃得正常、每周运动两次的人，通常比一个拼命训练却吃快餐的人状态更好。不过，规律活动还是需要的，所以平衡的生活方式才是最好的答案。"
+          },
+          "structure": "观点 → 原因 → 例子 → 限定",
+          "materials": [
+            "M6",
+            "M7"
+          ],
+          "chunkPhrases": [
+            "work best together",
+            "feels tired all the time",
+            "in better condition",
+            "a balanced lifestyle"
+          ],
+          "reasonExample": {
+            "reasonCn": "食物每天都在影响身体，而且如果一个人吃得不好、总是觉得累，也很难好好运动。",
+            "reasonEn": "Food affects the body every day, and it is hard to exercise well if someone eats badly and feels tired all the time.",
+            "exCn": "比如，一个吃得正常、每周运动两次的人，通常比一个拼命训练却吃快餐的人状态更好。",
+            "exEn": "For example, a person who eats properly but exercises twice a week is usually in better condition than someone who trains hard and eats fast food."
+          }
+        },
+        {
+          "question": "What things have the greatest influence on people's health?",
+          "answerLanguage": "en",
+          "answer": "I think daily habits have the greatest influence: what people eat, how much they move, how well they sleep and how much stress they carry. Money and the place they live matter too, because fresh food and safe places to exercise are not always cheap or nearby. For example, someone who works long hours may have no time to cook or walk. So health is shaped by everyday conditions, not only by personal effort.",
+          "translation": {
+            "question": "哪些因素对人们的健康影响最大？",
+            "answer": "我觉得日常生活习惯影响最大：吃什么、活动多少、睡得好不好、压力有多大。金钱和居住的地方也有影响，因为新鲜食物和安全的运动场所不一定便宜或就在附近。比如，一个工作时间很长的人，可能既没时间做饭，也没时间走路。所以健康是由日常条件决定的，而不只靠个人努力。"
+          },
+          "structure": "观点 → 展开四因素 → 补充社会条件＋例子 → 结论",
+          "materials": [
+            "M6",
+            "M1"
+          ],
+          "chunkPhrases": [
+            "daily habits have the greatest influence",
+            "how much stress they carry",
+            "not always cheap or nearby",
+            "everyday conditions"
+          ],
+          "reasonExample": {
+            "reasonCn": "我觉得日常生活习惯影响最大：吃什么、活动多少、睡得好不好、压力有多大。",
+            "reasonEn": "I think daily habits have the greatest influence: what people eat, how much they move, how well they sleep and how much stress they carry.",
+            "exCn": "比如，一个工作时间很长的人，可能既没时间做饭，也没时间走路。",
+            "exEn": "For example, someone who works long hours may have no time to cook or walk."
+          }
+        },
+        {
+          "question": "What can young people do to keep healthy?",
+          "answerLanguage": "en",
+          "answer": "Young people can try more active sports while they are still full of energy. Team games, running, swimming and gym classes are all good choices, and they are easier to keep up with friends. For example, many students play basketball after class or join a dance class at the weekend. Compared with older people, they can choose harder exercise, but they should also sleep enough and eat less fast food.",
+          "translation": {
+            "question": "年轻人可以做些什么来保持健康？",
+            "answer": "年轻人可以在自己精力还很足的时候多尝试激烈的运动。团队球类、跑步、游泳和健身课都是好选择，而且和朋友一起更容易坚持。比如，很多学生下课后打篮球，或者周末去上舞蹈课。和老年人相比，他们可以选更剧烈的运动，但也应该睡够、少吃快餐。"
+          },
+          "structure": "观点 → 做法 → 例子 → 对比限定",
+          "materials": [
+            "C1",
+            "M6"
+          ],
+          "chunkPhrases": [
+            "full of energy",
+            "easier to keep up with friends",
+            "Compared with older people",
+            "eat less fast food"
+          ],
+          "reasonExample": {
+            "reasonCn": "团队球类、跑步、游泳和健身课都是好选择，而且和朋友一起更容易坚持。",
+            "reasonEn": "Team games, running, swimming and gym classes are all good choices, and they are easier to keep up with friends.",
+            "exCn": "比如，很多学生下课后打篮球，或者周末去上舞蹈课。",
+            "exEn": "For example, many students play basketball after class or join a dance class at the weekend."
+          }
+        },
+        {
+          "question": "What do old people in your country do to keep fit?",
+          "answerLanguage": "en",
+          "answer": "In my country, many older people prefer gentle exercise, and they often do it in groups. You can see them doing tai chi or square dancing in the park early in the morning, and others just walk for an hour after dinner. For example, my neighbour walks with a few friends every evening and they chat while they walk. Compared with young people, they choose a slower pace, but they are very regular, so the habit lasts.",
+          "translation": {
+            "question": "在你的国家，老年人做些什么来保持健康？",
+            "answer": "在我们国家，很多老年人更喜欢温和的运动，而且常常是一群人一起做。早上你能看到他们在公园打太极或跳广场舞，也有人只是晚饭后走一个小时。比如，我邻居每天晚上和几个朋友一起散步，边走边聊天。和年轻人相比，他们节奏更慢，但非常规律，所以这个习惯能一直保持。"
+          },
+          "structure": "观点 → 具体活动 → 例子 → 对比限定",
+          "materials": [
+            "C1",
+            "M6",
+            "M5"
+          ],
+          "chunkPhrases": [
+            "prefer gentle exercise",
+            "do it in groups",
+            "Compared with young people",
+            "very regular"
+          ],
+          "reasonExample": {
+            "reasonCn": "在我们国家，很多老年人更喜欢温和的运动，而且常常是一群人一起做。",
+            "reasonEn": "In my country, many older people prefer gentle exercise, and they often do it in groups.",
+            "exCn": "比如，我邻居每天晚上和几个朋友一起散步，边走边聊天。",
+            "exEn": "For example, my neighbour walks with a few friends every evening and they chat while they walk."
+          }
+        },
+        {
+          "question": "What do children in your country do to keep fit?",
+          "answerLanguage": "en",
+          "answer": "Most children get their exercise at school and after class. They have PE lessons, run around the playground and play ball games, and many parents also send them to swimming or badminton classes at the weekend. For example, primary school children often skip rope or ride bikes in the neighbourhood in the evening. Compared with adults, they move more naturally, but too much homework and screen time can keep them sitting still.",
+          "translation": {
+            "question": "在你的国家，孩子们做些什么来保持健康？",
+            "answer": "大多数孩子的运动来自学校和课后。他们上体育课、在操场上跑动、打各种球，很多家长周末还会送他们去上游泳课或羽毛球课。比如，小学生晚上常在小区里跳绳或骑自行车。和成年人相比，他们动得更自然，但太多作业和屏幕时间会让他们一直坐着。"
+          },
+          "structure": "观点 → 做法 → 例子 → 对比＋限定",
+          "materials": [
+            "C1",
+            "M6"
+          ],
+          "chunkPhrases": [
+            "get their exercise at school",
+            "run around the playground",
+            "Compared with adults",
+            "keep them sitting still"
+          ],
+          "reasonExample": {
+            "reasonCn": "他们上体育课、在操场上跑动、打各种球，很多家长周末还会送他们去上游泳课或羽毛球课。",
+            "reasonEn": "They have PE lessons, run around the playground and play ball games, and many parents also send them to swimming or badminton classes at the weekend.",
+            "exCn": "比如，小学生晚上常在小区里跳绳或骑自行车。",
+            "exEn": "For example, primary school children often skip rope or ride bikes in the neighbourhood in the evening."
+          }
+        },
+        {
+          "question": "What can parents do to make their children like sports?",
+          "answerLanguage": "en",
+          "answer": "Parents should join in instead of only giving orders. If they play badminton or ride bikes with their children at weekends, sport becomes family time rather than homework. For example, a child who goes swimming with a parent every Saturday usually enjoys it more than a child who is sent to a class alone. Parents should also keep the activity easy and fun at first, and praise small progress.",
+          "translation": {
+            "question": "父母怎么做才能让孩子喜欢运动？",
+            "answer": "父母应该自己一起参与，而不是只会下命令。如果周末他们和孩子一起打羽毛球、骑车，运动就变成家庭时间，而不是作业。比如，每周六和父母一起去游泳的孩子，通常比被单独送去上课的孩子更享受运动。父母也应该一开始把活动安排得简单有趣，并多肯定孩子的小进步。"
+          },
+          "structure": "观点 → 原因 → 例子 → 做法限定",
+          "materials": [
+            "M5",
+            "M6"
+          ],
+          "chunkPhrases": [
+            "join in instead of only giving orders",
+            "family time",
+            "praise small progress"
+          ],
+          "reasonExample": {
+            "reasonCn": "如果周末父母和孩子一起打羽毛球或骑车，运动就变成家庭时间，而不是作业。",
+            "reasonEn": "If they play badminton or ride bikes with their children at weekends, sport becomes family time rather than homework.",
+            "exCn": "比如，每周六和父母一起去游泳的孩子，通常比被单独送去上课的孩子更享受运动。",
+            "exEn": "For example, a child who goes swimming with a parent every Saturday usually enjoys it more than a child who is sent to a class alone."
+          }
+        },
+        {
+          "question": "Why is it important to stay healthy when people get old?",
+          "answerLanguage": "en",
+          "answer": "Health matters more with age because the body recovers more slowly. If older people stay active and eat properly, they can keep doing everyday things by themselves, such as shopping, cooking and visiting friends. For example, an older person who walks every day is less likely to fall, and a fall can change everything at that age. Staying healthy also keeps their mood up and reduces the worry for their children.",
+          "translation": {
+            "question": "为什么人老了以后保持健康很重要？",
+            "answer": "年纪越大健康越重要，因为身体恢复得更慢。如果老年人保持活动、吃得合理，就能自己做日常的事，比如买东西、做饭、走亲访友。比如，每天散步的老年人更不容易摔倒，而在这个年纪摔一跤可能改变一切。保持健康也能让他们的心情更好，并减少子女的担心。"
+          },
+          "structure": "观点 → 原因 → 例子 → 结果",
+          "materials": [
+            "C1",
+            "M6"
+          ],
+          "chunkPhrases": [
+            "recovers more slowly",
+            "keep doing everyday things by themselves",
+            "less likely to fall",
+            "reduces the worry"
+          ],
+          "reasonExample": {
+            "reasonCn": "年纪越大健康越重要，因为身体恢复得更慢。",
+            "reasonEn": "Health matters more with age because the body recovers more slowly.",
+            "exCn": "比如，每天散步的老年人更不容易摔倒，而在这个年纪摔一跤可能改变一切。",
+            "exEn": "For example, an older person who walks every day is less likely to fall, and a fall can change everything at that age."
+          }
+        },
+        {
+          "question": "Is it important to have a healthy community?",
+          "answerLanguage": "en",
+          "answer": "Yes, I think it matters a lot, because people's habits are shaped by the place they live in. If a community has clean parks, safe walking paths and a sports ground, residents are far more likely to go outside and exercise. For example, in a neighbourhood with a small evening running group, neighbours meet each other and keep the habit together. A healthy community also helps people feel safe and supported.",
+          "translation": {
+            "question": "拥有一个健康的社区重要吗？",
+            "answer": "我觉得很重要，因为人们的习惯深受居住环境影响。如果一个社区有干净的公园、安全的步道和运动场地，居民更可能出门锻炼。比如，在一个有晚间跑步小组的社区里，邻居们互相认识，也能一起保持这个习惯。健康的社区还让人感到安全和被支持。"
+          },
+          "structure": "观点 → 原因 → 例子 → 补充结果",
+          "materials": [
+            "M6",
+            "M5"
+          ],
+          "chunkPhrases": [
+            "shaped by the place they live in",
+            "safe walking paths",
+            "keep the habit together",
+            "feel safe and supported"
+          ],
+          "reasonExample": {
+            "reasonCn": "我觉得很重要，因为人们的习惯深受居住环境影响。",
+            "reasonEn": "Yes, I think it matters a lot, because people's habits are shaped by the place they live in.",
+            "exCn": "比如，在一个有晚间跑步小组的社区里，邻居们互相认识，也能一起保持这个习惯。",
+            "exEn": "For example, in a neighbourhood with a small evening running group, neighbours meet each other and keep the habit together."
+          }
+        },
+        {
+          "question": "Can a healthy community give people a sense of belonging?",
+          "answerLanguage": "en",
+          "answer": "Yes, I believe it can. When people exercise or spend time together in their own area, they stop being strangers and start knowing each other's names and habits. For example, members of a community badminton group often help each other and celebrate small victories together. That shared experience makes people feel they are part of something, so they are more willing to stay and take care of the place.",
+          "translation": {
+            "question": "健康的社区能给人归属感吗？",
+            "answer": "我觉得可以。当人们在自己社区里一起运动、一起相处，他们就不再是陌生人，而开始知道彼此的名字和习惯。比如，社区羽毛球小组的成员常常互相帮忙，也一起庆祝小成绩。这种共同的经历让人觉得自己属于某个群体，所以更愿意留下来、一起爱护这个地方。"
+          },
+          "structure": "观点 → 原因 → 例子 → 结果",
+          "materials": [
+            "M5"
+          ],
+          "chunkPhrases": [
+            "stop being strangers",
+            "knowing each other's names and habits",
+            "celebrate small victories",
+            "part of something"
+          ],
+          "reasonExample": {
+            "reasonCn": "当人们在自己社区里一起运动、一起相处，他们就不再是陌生人，而开始知道彼此的名字和习惯。",
+            "reasonEn": "When people exercise or spend time together in their own area, they stop being strangers and start knowing each other's names and habits.",
+            "exCn": "比如，社区羽毛球小组的成员常常互相帮忙，也一起庆祝小成绩。",
+            "exEn": "For example, members of a community badminton group often help each other and celebrate small victories together."
+          }
+        },
+        {
+          "question": "Does the government have a role in building healthy communities?",
+          "answerLanguage": "en",
+          "answer": "Yes, definitely, because single families cannot build parks or sports centres by themselves. The government can plan safe walking and cycling paths, keep public sports grounds clean and affordable, and run free exercise classes and health checks for residents. For example, many cities now build a small fitness area in every neighbourhood park, and older people use it every morning. Of course, residents also need to use these facilities.",
+          "translation": {
+            "question": "政府在建设健康社区方面有作用吗？",
+            "answer": "当然有，因为单个家庭不可能自己建公园或运动中心。政府可以规划安全的步道和自行车道，让公共运动场地保持干净、价格亲民，并为居民提供免费的运动课和健康检查。比如，现在很多城市会在每个社区公园里建一小块健身区，老年人每天早上都会去用。当然，居民自己也要去使用这些设施。"
+          },
+          "structure": "观点 → 原因 → 政府做法＋例子 → 限定",
+          "materials": [
+            "M6",
+            "M3"
+          ],
+          "chunkPhrases": [
+            "cannot build parks or sports centres by themselves",
+            "keep public sports grounds clean and affordable",
+            "free exercise classes",
+            "use these facilities"
+          ],
+          "reasonExample": {
+            "reasonCn": "当然有，因为单个家庭不可能自己建公园或运动中心。",
+            "reasonEn": "Yes, definitely, because single families cannot build parks or sports centres by themselves.",
+            "exCn": "比如，现在很多城市会在每个社区公园里建一小块健身区，老年人每天早上都会去用。",
+            "exEn": "For example, many cities now build a small fitness area in every neighbourhood park, and older people use it every morning."
+          }
+        },
+        {
+          "question": "Does stress affect people's physical and mental health?",
+          "answerLanguage": "en",
+          "answer": "Yes, stress affects both, and the two sides influence each other. When someone is under pressure for a long time, they may sleep badly, lose their appetite or get headaches, and then they feel worried and tired the next day. For example, a worker facing a tight deadline may lie awake thinking about unfinished tasks. That is why regular rest, some exercise and support from family or friends are so important.",
+          "translation": {
+            "question": "压力会影响人们的身体健康和心理健康吗？",
+            "answer": "会，压力会同时影响身心，而且这两方面互相影响。一个人长期处在压力之下，可能会睡不好、没胃口或头痛，第二天又会觉得担心、疲惫。比如，一个赶工期的人可能躺着睡不着，一直想着没做完的事。所以规律休息、适当运动，以及家人朋友的支持才这么重要。"
+          },
+          "structure": "观点 → 原因 → 例子 → 结果或限定",
+          "materials": [
+            "M6",
+            "M1"
+          ],
+          "chunkPhrases": [
+            "affects both",
+            "sleep badly",
+            "lie awake thinking about unfinished tasks",
+            "support from family or friends"
+          ],
+          "reasonExample": {
+            "reasonCn": "一个人长期处在压力之下，可能会睡不好、没胃口或头痛，第二天又会觉得担心、疲惫。",
+            "reasonEn": "When someone is under pressure for a long time, they may sleep badly, lose their appetite or get headaches, and then they feel worried and tired the next day.",
+            "exCn": "比如，一个赶工期的人可能躺着睡不着，一直想着没做完的事。",
+            "exEn": "For example, a worker facing a tight deadline may lie awake thinking about unfinished tasks."
+          }
+        },
+        {
+          "question": "Do young people today pay more attention to their health than people did in the past?",
+          "answerLanguage": "en",
+          "answer": "In some ways yes. Young people today can find health information online in a second, and many of them count steps, go to the gym or choose low-sugar drinks instead of cola. For example, a student may check a fitness app every evening and join a running group at university. However, older people often keep simple habits such as walking and going to bed early. So attention has grown, but good habits are not always stronger.",
+          "translation": {
+            "question": "今天的年轻人比过去的人更关注自己的健康吗？",
+            "answer": "某些方面是的。今天的年轻人一秒钟就能在网上找到健康信息，很多人会记步数、去健身房，或选低糖饮料而不是可乐。比如，有学生每天晚上看健身 App，还参加了大学的跑步社团。不过，老年人往往保持着走路、早睡这类简单习惯。所以关注度是提高了，但好习惯不一定更强。"
+          },
+          "structure": "观点（部分同意）→ 原因 → 例子 → 对比限定",
+          "materials": [
+            "C1",
+            "M6"
+          ],
+          "chunkPhrases": [
+            "In some ways yes",
+            "count steps",
+            "keep simple habits",
+            "good habits are not always stronger"
+          ],
+          "reasonExample": {
+            "reasonCn": "今天的年轻人一秒钟就能在网上找到健康信息，很多人会记步数、去健身房，或选低糖饮料而不是可乐。",
+            "reasonEn": "Young people today can find health information online in a second, and many of them count steps, go to the gym or choose low-sugar drinks instead of cola.",
+            "exCn": "比如，有学生每天晚上看健身 App，还参加了大学的跑步社团。",
+            "exEn": "For example, a student may check a fitness app every evening and join a running group at university."
+          }
+        }
+      ],
+      "sourceOrder": 903
+    },
+    {
+      "id": "feishu-helpful-person",
+      "category": "人物类",
+      "title": "乐于助人的人",
+      "partTwo": "乐于助人的人",
+      "partTwoQuestion": "Describe a person who often helps others",
+      "isNew": false,
+      "isHighFreq": true,
+      "items": [
+        {
+          "question": "Do people help strangers in your country?",
+          "answerLanguage": "en",
+          "answer": "Yes, I think many people do, especially in small everyday situations. For example, if someone falls down in the street or cannot carry heavy bags, people usually stop and give a hand. On the other hand, some people walk past because they are in a hurry or worry about getting into trouble. So I would say most people are willing to help when the situation is clear.",
+          "translation": {
+            "question": "在你的国家，人们会帮助陌生人吗？",
+            "answer": "会，我觉得很多人都会，尤其是在日常的小事上。比如有人在大街上摔倒，或者拿不动很重的袋子，大家一般都会停下来帮一把。不过，也有人会直接走过去，因为他们赶时间，或者担心惹上麻烦。所以我觉得，只要情况清楚，大多数人是愿意帮忙的。"
+          },
+          "structure": "观点 → 例子 → 反面限定 → 结论",
+          "materials": [],
+          "chunkPhrases": [
+            "in small everyday situations",
+            "give a hand",
+            "in a hurry"
+          ]
+        },
+        {
+          "question": "In what professions do people help others a lot?",
+          "answerLanguage": "en",
+          "answer": "I think doctors, nurses and teachers help others a lot, because their daily work is about other people. For example, a nurse may stay late to look after a patient, and a teacher often gives extra time to a student who is falling behind. Social workers and firefighters are similar. Of course, these jobs are usually tiring and not very well paid, so I think they deserve more respect.",
+          "translation": {
+            "question": "哪些职业的人经常帮助别人？",
+            "answer": "我觉得医生、护士和老师帮助别人很多，因为他们的日常工作就是围绕别人的。比如护士可能很晚还留下来照顾病人，老师常常多花时间帮助跟不上的学生。社工和消防员也是这样。当然，这些工作通常很累，收入也不算高，所以我觉得他们更值得尊重。"
+          },
+          "structure": "观点 → 原因 → 例子 → 限定",
+          "materials": [],
+          "chunkPhrases": [
+            "their daily work is about other people",
+            "look after a patient",
+            "falling behind"
+          ]
+        },
+        {
+          "question": "Why are some people willing to help others?",
+          "answerLanguage": "en",
+          "answer": "I think there are a few reasons. First, helping others makes people feel useful and happy, because they can see that their action really matters. Second, many people were helped before, so they want to pass the kindness on. Also, helping a neighbour or a colleague can strengthen our emotional bonds and make relationships much closer and warmer. Of course, some people also hope to get help back one day, which is quite natural.",
+          "translation": {
+            "question": "为什么有些人愿意帮助别人？",
+            "answer": "我觉得有几个原因。第一，帮助别人让人觉得自己有用、开心，因为能看到自己的行动真的有意义。第二，很多人以前被别人帮过，所以想把这份善意传下去。而且，帮助邻居或同事能加深我们的情感联系，让关系变得更近、更温暖。当然，也有人是希望以后能得到回报，这也很自然。"
+          },
+          "structure": "观点 → 原因 → 原因 → 限定",
+          "materials": [
+            "M5"
+          ],
+          "chunkPhrases": [
+            "feel useful and happy",
+            "pass the kindness on",
+            "strengthen our emotional bonds",
+            "relationships much closer and warmer"
+          ]
+        },
+        {
+          "question": "Should children help their family with housework?",
+          "answerLanguage": "en",
+          "answer": "Yes, I think they should, and the tasks should match their age. Doing simple housework teaches children to be responsible and to think about other family members instead of only themselves. For example, a child can set the table before dinner or tidy up his own room. However, parents should not give too much work, because children also need time to study and rest.",
+          "translation": {
+            "question": "孩子应该帮家里做家务吗？",
+            "answer": "应该，我觉得应该，而且任务要跟年龄相符。做简单的家务能教孩子有责任心，也让他们想到家里其他人，而不是只顾自己。比如孩子可以在饭前摆好碗筷，或者收拾自己的房间。不过父母不该给太多活，因为孩子也需要时间学习和休息。"
+          },
+          "structure": "观点 → 原因 → 例子 → 限定",
+          "materials": [],
+          "chunkPhrases": [
+            "match their age",
+            "think about other family members",
+            "set the table"
+          ]
+        },
+        {
+          "question": "What kinds of housework can children do?",
+          "answerLanguage": "en",
+          "answer": "It depends on their age. Younger children can do easy jobs like putting their toys away, watering the plants or feeding a pet. When they get older, they can help with washing the dishes, cleaning the floor and taking out the rubbish. For example, many teenagers in my country can cook a simple meal when their parents come home late. The work should stay safe and not too heavy for them.",
+          "translation": {
+            "question": "孩子可以做哪些家务？",
+            "answer": "这要看年龄。小一点的孩子可以做简单的事，比如把玩具收好、给植物浇水、喂宠物。长大一些以后，他们可以帮忙洗碗、擦地、倒垃圾。比如在我的国家，很多青少年在父母晚回家时会自己做个简单的饭。这些活应该是安全的，也不能对他们来说太重。"
+          },
+          "structure": "分类（按年龄）→ 例子 → 限定",
+          "materials": [],
+          "chunkPhrases": [
+            "It depends on their age",
+            "putting their toys away",
+            "taking out the rubbish"
+          ]
+        },
+        {
+          "question": "Do children today help others less than before?",
+          "answerLanguage": "en",
+          "answer": "I think they help less in some ways, but not in all. Many children today spend hours on their phones, and excessive use can lead to distraction and time waste, so they have less time to help at home. For example, some of them never help their parents with dinner. However, they are often quick to help online, such as answering a question in a class group. So a balanced lifestyle matters more than simply blaming them.",
+          "translation": {
+            "question": "现在的孩子比以前帮助别人更少吗？",
+            "answer": "我觉得在某些方面是更少了，但不是全部。现在很多孩子花好几个小时玩手机，过度使用会导致分心和浪费时间，所以他们在家帮忙的时间更少。比如有些孩子从来不帮父母做晚饭。不过，他们在网上往往很愿意帮忙，比如在班级群里回答一个问题。所以比起一味责怪他们，保持平衡的生活更重要。"
+          },
+          "structure": "观点 → 今昔对比 → 例子 → 限定",
+          "materials": [
+            "M7"
+          ],
+          "chunkPhrases": [
+            "excessive use",
+            "lead to distraction and time waste",
+            "a balanced lifestyle"
+          ]
+        },
+        {
+          "question": "How can parents teach children to be kind?",
+          "answerLanguage": "en",
+          "answer": "I think parents teach this mostly by doing it themselves, because children copy what they see every day. For example, if a parent helps an old neighbour carry bags, the child will feel that this is normal and do the same thing. Parents can also talk about other people's feelings and praise their child when he shares his toys. So kindness is easier to learn from daily examples than from long lectures.",
+          "translation": {
+            "question": "父母怎样教孩子善良？",
+            "answer": "我觉得父母主要靠自己做给孩子看，因为孩子每天都照着看到的样子学。比如父母帮老邻居提袋子，孩子就会觉得这是正常的，自己也会这样做。父母也可以跟孩子聊别人的感受，孩子分享玩具时夸他一下。所以善良从日常的例子中学，比听长篇道理容易得多。"
+          },
+          "structure": "观点 → 原因 → 例子 → 结论",
+          "materials": [],
+          "chunkPhrases": [
+            "by doing it themselves",
+            "children copy what they see",
+            "daily examples"
+          ]
+        },
+        {
+          "question": "Should children be taught to help others at school?",
+          "answerLanguage": "en",
+          "answer": "Yes, I think schools should teach this, because children spend a large part of the day there. Lessons alone are not enough, so schools can organise simple activities, such as cleaning the classroom together or helping younger students read. Through these activities, children can learn new skills like teamwork and communication, and they grow personally. However, the tasks should stay small and safe, and they should not take time away from real lessons.",
+          "translation": {
+            "question": "学校应该教孩子帮助别人吗？",
+            "answer": "应该，我觉得学校应该教这个，因为孩子一天里很大一部分时间都在学校。只靠课堂讲是不够的，所以学校可以组织一些简单的活动，比如一起打扫教室，或者帮低年级同学阅读。通过这些活动，孩子能学到团队合作、沟通这些新技能，也能在个人成长上受益。不过，任务要小而安全，也不能占用正常上课的时间。"
+          },
+          "structure": "观点 → 原因 → 例子 → 限定",
+          "materials": [
+            "M4"
+          ],
+          "chunkPhrases": [
+            "spend a large part of the day there",
+            "learn new skills",
+            "grow personally"
+          ]
+        },
+        {
+          "question": "Is volunteering common in your country?",
+          "answerLanguage": "en",
+          "answer": "I would say it is becoming more common, but it is still not a big part of everyday life. Most volunteers are students or retired people, and they usually help in hospitals, libraries or community events. For example, university students may teach children in poor areas during the summer holiday. Working people join much less often, mainly because they are busy with their jobs and families.",
+          "translation": {
+            "question": "在你的国家，做志愿者常见吗？",
+            "answer": "我觉得现在越来越常见了，但它还不是日常生活里很重要的一部分。志愿者大多是学生或者退休的人，他们一般在医院、图书馆或者社区活动里帮忙。比如大学生会在暑假去贫困地区教孩子。上班族参加的少得多，主要是因为他们工作和家庭都很忙。"
+          },
+          "structure": "观点 → 人群/原因 → 例子 → 限定",
+          "materials": [],
+          "chunkPhrases": [
+            "becoming more common",
+            "retired people",
+            "during the summer holiday"
+          ]
+        },
+        {
+          "question": "Has society become less helpful than in the past?",
+          "answerLanguage": "en",
+          "answer": "I do not think so, but it has changed. In the past, people lived in the same neighbourhood for many years, so they knew each other and helped easily. Today many people move to big cities and hardly know their neighbours, so they help less in daily life. However, they often help in other ways, such as giving money online when a disaster happens. So the form of kindness is just different now.",
+          "translation": {
+            "question": "社会是不是比以前更不愿意帮助别人了？",
+            "answer": "我不这么认为，但它确实变了。以前人们在同一片社区住很多年，所以彼此认识，帮忙很自然。现在很多人搬到大城市，几乎不认识邻居，所以日常生活里帮得少了。不过他们常常用别的方式帮忙，比如发生灾难时在网上捐钱。所以现在只是善意的形式不同了。"
+          },
+          "structure": "观点 → 今昔对比 → 例子 → 限定",
+          "materials": [],
+          "chunkPhrases": [
+            "I do not think so",
+            "it has changed",
+            "the form of kindness is just different now"
+          ]
+        },
+        {
+          "question": "How can communities encourage people to help each other?",
+          "answerLanguage": "en",
+          "answer": "I think the easiest way is to organise simple group activities, because people are more willing to join when they do not have to do it alone. For example, a neighbourhood can hold a monthly cleaning day or a small food-sharing event. These activities give neighbours a chance to spend quality time together and shorten the distance between people. It also helps if local leaders thank volunteers publicly, so the work feels valued.",
+          "translation": {
+            "question": "社区怎样鼓励人们互相帮助？",
+            "answer": "我觉得最简单的办法是组织一些大家能一起做的小活动，因为不用一个人做的时候，人们更愿意参加。比如社区可以每月搞一次清洁日，或者办一个小型分享食物的活动。这些活动让邻居有机会一起度过有质量的时间，也拉近了人与人之间的距离。如果社区负责人公开感谢志愿者，也会更有帮助，这样大家会觉得这份付出被看到了。"
+          },
+          "structure": "观点 → 原因 → 例子 → 结果",
+          "materials": [
+            "M5"
+          ],
+          "chunkPhrases": [
+            "people are more willing to join",
+            "spend quality time together",
+            "shorten the distance between people"
+          ]
+        },
+        {
+          "question": "In what situations do people seek help from others?",
+          "answerLanguage": "en",
+          "answer": "I think people usually ask for help when a problem is too big or too new for them. For example, a student may ask a classmate for notes after missing a lesson, and an older person may ask a neighbour to fix something at home. People also ask for help when they are short of time, such as before an important deadline. So needing others is quite normal in daily life.",
+          "translation": {
+            "question": "人们在什么情况下会向别人求助？",
+            "answer": "我觉得人们通常在遇到对自己来说太大或者太陌生的问题时才会求助。比如学生缺了一节课，会找同学借笔记；老人家里有东西要修，会找邻居帮忙。人们时间不够的时候也会求助，比如重要截止日期之前。所以需要别人帮忙，在日常生活中是很正常的。"
+          },
+          "structure": "观点 → 分类 → 例子 → 结论",
+          "materials": [],
+          "chunkPhrases": [
+            "too big or too new for them",
+            "missing a lesson",
+            "short of time"
+          ]
+        },
+        {
+          "question": "Should people help their neighbours?",
+          "answerLanguage": "en",
+          "answer": "Yes, I think they should, because neighbours are the people who can reach us fastest in an emergency. If an old person falls at home or a family has a power cut, a neighbour can arrive in a few minutes, long before anyone else. Helping each other also strengthens our emotional bonds and makes relationships much closer and warmer. Of course, people should respect each other's privacy and not interfere too much.",
+          "translation": {
+            "question": "人们应该帮助邻居吗？",
+            "answer": "应该，我觉得应该，因为邻居是在紧急情况下能最快赶到我们身边的人。如果老人在家摔倒，或者一家人家里停电，邻居几分钟就能过来，比谁都早。互相帮助也能加深我们的情感联系，让关系变得更近、更温暖。当然，大家也要尊重彼此的隐私，不要管得太多。"
+          },
+          "structure": "观点 → 原因 → 例子 → 限定",
+          "materials": [
+            "M5"
+          ],
+          "chunkPhrases": [
+            "in an emergency",
+            "strengthens our emotional bonds",
+            "much closer and warmer"
+          ]
+        },
+        {
+          "question": "Is embarrassment a reason that stops people from asking for help?",
+          "answerLanguage": "en",
+          "answer": "Yes, I think it is a real reason, especially for young people. Many of them worry that others will think they are stupid or not capable, so they would rather struggle alone than ask. For example, a new employee may waste a whole afternoon on a simple task because he is afraid of looking foolish. In my view, this is a pity, because most people are happy to give a hand.",
+          "translation": {
+            "question": "尴尬是不是阻碍人们求助的一个原因？",
+            "answer": "是，我觉得这确实是一个原因，对年轻人尤其如此。很多人担心别人会觉得自己笨或者没能力，所以宁愿自己硬扛也不开口。比如新员工可能因为怕显得笨，在一个很简单的任务上浪费一下午。在我看来这挺可惜的，因为大多数人都很愿意帮一把。"
+          },
+          "structure": "观点 → 原因 → 例子 → 限定",
+          "materials": [],
+          "chunkPhrases": [
+            "a real reason",
+            "struggle alone",
+            "give a hand"
+          ]
+        },
+        {
+          "question": "Should parents teach their children to help others?",
+          "answerLanguage": "en",
+          "answer": "Yes, I believe they should, because the family is the first place where children learn how to treat people. Parents can start with small things at home, such as asking a child to share his snacks with a younger cousin or to visit a sick grandparent with the family. Step by step, the child learns to notice when others need help. However, parents should not force it or give a reward every time, or the child may help only for the reward.",
+          "translation": {
+            "question": "父母应该教孩子帮助别人吗？",
+            "answer": "应该，我认为父母应该教，因为家庭是孩子学习怎么对待别人的第一个地方。父母可以从家里的小事开始，比如让孩子把零食分给表弟表妹，或者跟家人一起去看望生病的祖辈。一步一步地，孩子就学会了留意别人什么时候需要帮助。不过，父母不该强迫，也不该每次都给奖励，否则孩子可能只是为了奖励才帮忙。"
+          },
+          "structure": "观点 → 原因 → 例子 → 限定",
+          "materials": [],
+          "chunkPhrases": [
+            "the first place where children learn",
+            "Step by step",
+            "help only for the reward"
+          ]
+        }
+      ],
+      "sourceOrder": 904
     }
   ],
   "toolkit": [

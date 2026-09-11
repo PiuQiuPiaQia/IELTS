@@ -557,15 +557,19 @@ function materialLabel(material) {
 }
 
 function questionStatusTag(item) {
+  const highFreqTag = item.isHighFreq
+    ? '<span class="question-status-tag status-highfreq">高频</span>'
+    : "";
   const questionTag = `<span class="question-status-tag ${item.isNew ? "status-new" : "status-retained"}">${item.isNew ? "新题" : "保留题"}</span>`;
   const regionTag = item.isNonMainland
     ? '<span class="question-status-tag status-non-mainland">非大陆地区</span>'
     : "";
-  return questionTag + regionTag;
+  return highFreqTag + questionTag + regionTag;
 }
 
 function compareQuestionBankEntries(a, b) {
-  return Number(Boolean(b.isNew)) - Number(Boolean(a.isNew)) ||
+  return Number(Boolean(b.isHighFreq)) - Number(Boolean(a.isHighFreq)) ||
+    Number(Boolean(b.isNew)) - Number(Boolean(a.isNew)) ||
     Number(Boolean(a.isNonMainland)) - Number(Boolean(b.isNonMainland)) ||
     (a.sourceOrder ?? Number.POSITIVE_INFINITY) - (b.sourceOrder ?? Number.POSITIVE_INFINITY);
 }
@@ -669,6 +673,7 @@ function partTwoTipsHtml(tips, universalMaterials = []) {
   ));
   const storyCards = nativeItems.map(({ group, item }) => ({
     isNew: item.isNew,
+    isHighFreq: item.isHighFreq,
     sourceOrder: item.sourceOrder,
     title: item.name || item.storyTitle || item.question,
     group,
@@ -859,7 +864,7 @@ function partThreeLibraryHtml(groups) {
     <header class="panel-header">
       <span class="eyebrow">PART 3 · REASONS &amp; EXAMPLES</span>
       <h2>理由 + 例子库</h2>
-      <p>从题目答案中提取<strong>理由</strong>和<strong>例子</strong>，按新题、保留题顺序排列，中英对照。橙色是理由、蓝色是例子，下面浅色是要背的英文。</p>
+      <p>从题目答案中提取<strong>理由</strong>和<strong>例子</strong>，按高频、新题、保留题顺序排列，中英对照。橙色是理由、蓝色是例子，下面浅色是要背的英文。</p>
     </header>
     <div class="panel-body p3-lib-body">${sections || '<p class="empty-state">暂无可展示的理由与例子。</p>'}</div>
   </section>`;
@@ -873,7 +878,7 @@ function partThreeQuestionListHtml(groups) {
     <header class="panel-header">
       <span class="eyebrow">PART 3 · QUESTION BANK</span>
       <h2>本季题目清单</h2>
-      <p>共 ${groups.length} 个话题、${questionCount} 道题。新题排在保留题前面，各类按飞书题库顺序排列。</p>
+      <p>共 ${groups.length} 个话题、${questionCount} 道题。高频题排在最前，其下新题先于保留题，各类按飞书题库顺序排列。</p>
     </header>
     <div class="panel-body p3-index-layout">
       <div class="p3-index-list">
