@@ -5910,12 +5910,12 @@ window.IELTS_DATA = {
                   "family last spring",
                   "flowers and boats",
                   "family photo",
-                  "grilled fish"
+                  "fried fish"
                 ],
-                "focus": "沿用凉水河素材：把具体地点说成凉水河边的公园，并保留家庭出游、河边景色、当地人帮拍照和烤鱼等细节。",
+                "focus": "沿用凉水河素材：把具体地点说成凉水河边的公园，并保留家庭出游、河边景色、当地人帮拍照和炸鱼等细节。",
                 "body": {
-                  "text": "Well, I have been to a few quiet places near the water. But the first one that comes to my mind would be a park beside the Liangshui River in Beijing. I first learned about the river in a geography class. My teacher said it was about seventy kilometres long and looked like a flying dragon on the map. Last spring, I went to the park with my family because we wanted to see the river ourselves and spend a day outdoors. The water, flowers and small boats looked beautiful, and a local man took a family photo for us. Later, we ate grilled fish in a small restaurant beside the river. I felt relaxed and happy there because the scenery was beautiful, the people were friendly and the food was delicious. I would definitely like to visit it again.",
-                  "translation": "嗯，我去过几个靠近自然景观的地方。但我首先想到的是北京凉水河边的一座公园。我最初是在地理课上知道这条河的。老师说它大约七十公里长，在地图上看起来像一条飞龙。去年春天，我和家人去了那座公园，因为我们想亲眼看看这条河，也想一起到户外活动。河水、花草和小船看起来很漂亮。一位友好的当地人主动帮我们拍全家福，还带我们去了一个视野很好的安静地点。后来，我们在河边的一家小餐馆吃了香辣烤鱼。我在那里感到轻松又开心，因为景色很美、人很友好、食物也很好吃。我肯定还想再去。",
+                  "text": "Well, I have been to a few quiet places near the water. But the first one that comes to my mind would be a park beside the Liangshui River in Beijing. I first learned about the river in a geography class. My teacher said it was about seventy kilometres long and looked like a flying dragon on the map. Last spring, I went to the park with my family because we wanted to see the river ourselves and spend a day outdoors. The water, flowers and small boats looked beautiful, and a local man took a family photo for us. Later, we ate fried fish in a small restaurant beside the river. I felt relaxed and happy there because the scenery was beautiful, the people were friendly and the food was delicious. I would definitely like to visit it again.",
+                  "translation": "嗯，我去过几个靠近自然景观的地方。但我首先想到的是北京凉水河边的一座公园。我最初是在地理课上知道这条河的。老师说它大约七十公里长，在地图上看起来像一条飞龙。去年春天，我和家人去了那座公园，因为我们想亲眼看看这条河，也想一起到户外活动。河水、花草和小船看起来很漂亮。一位友好的当地人主动帮我们拍全家福，还带我们去了一个视野很好的安静地点。后来，我们在河边的一家小餐馆吃了炸鱼。我在那里感到轻松又开心，因为景色很美、人很友好、食物也很好吃。我肯定还想再去。",
                   "highlights": [
                     "Liangshui River",
                     "in Beijing",
@@ -5954,20 +5954,20 @@ window.IELTS_DATA = {
                       ]
                     },
                     {
-                      "text": "Secondly, the local people were friendly. One man helped us take a family photo and showed us a quiet viewpoint, so we felt welcome. To be honest, small kindnesses like that make a trip special.",
-                      "translation": "其次，当地人很友好。一位男士帮我们拍了全家福，还带我们看了一个安静的观景点，所以我们觉得很受欢迎。说实话，这样的小善意让旅行变得特别。",
-                      "memory": "人美：帮拍全家福＋指安静的观景点 → 觉得受欢迎",
+                      "text": "Secondly, the local people were friendly. One man helped us take a family photo and showed us a quiet spot by the river, so we felt welcome. To be honest, small kindnesses like that make a trip special.",
+                      "translation": "其次，当地人很友好。一位男士帮我们拍了全家福，还带我们去了一个安静看河的地方，所以我们觉得很受欢迎。说实话，这样的小善意让旅行变得特别。",
+                      "memory": "人美：帮拍全家福＋指安静看河的地方 → 觉得受欢迎",
                       "highlights": [
                         "local people were friendly",
                         "make a trip special"
                       ]
                     },
                     {
-                      "text": "What's more, the grilled fish beside the river was delicious and affordable. It made our family trip more memorable, and we still talk about that lunch. So I would happily go back again. I think simple trips like this are important for a family, because we can relax together.",
-                      "translation": "此外，河边的烤鱼好吃又实惠。它让我们的家庭出游更难忘，我们现在还会聊起那顿午饭。所以我愿意再去一次。我觉得这样的简单出游对家庭很重要，因为大家可以一起放松。",
-                      "memory": "食物：烤鱼好吃实惠 → 出游难忘 → 还想再去",
+                      "text": "What's more, the fried fish beside the river was delicious and affordable. It made our family trip more memorable, and we still talk about that lunch. So I would happily go back again. I think simple trips like this are important for a family, because we can relax together.",
+                      "translation": "此外，河边的炸鱼好吃又实惠。它让我们的家庭出游更难忘，我们现在还会聊起那顿午饭。所以我愿意再去一次。我觉得这样的简单出游对家庭很重要，因为大家可以一起放松。",
+                      "memory": "食物：炸鱼好吃实惠 → 出游难忘 → 还想再去",
                       "highlights": [
-                        "grilled fish beside the river",
+                        "fried fish beside the river",
                         "delicious and affordable",
                         "go back again"
                       ]
@@ -5982,11 +5982,11 @@ window.IELTS_DATA = {
                   ""
                 ],
                 "memoryChain": {
-                  "story": "凉水河边公园（北京）→ 地理课听过：约70公里、地图上像飞龙 → 去年春天和家人去，想亲眼看看这条河 → 水、花、小船好看；当地人帮拍全家福、指了安静观景点 → 河边吃烤鱼 → 散步很放松",
+                  "story": "凉水河边公园（北京）→ 地理课听过：约70公里、地图上像飞龙 → 去年春天和家人去，想亲眼看看这条河 → 水、花、小船好看；当地人帮拍全家福、指了安静看河的地方 → 河边吃炸鱼 → 散步很放松",
                   "reasons": [
                     "1 · 景美：河水花草小船 → 散步 → 放松",
                     "2 · 人美：帮忙拍照指路 → 感到欢迎",
-                    "3 · 食物美：河边烤鱼 → 好吃实惠 → 出游更难忘"
+                    "3 · 食物美：河边炸鱼 → 好吃实惠 → 出游更难忘"
                   ]
                 }
               },
@@ -6010,35 +6010,33 @@ window.IELTS_DATA = {
                   "它看起来怎么样",
                   "并解释你为什么喜欢去那里"
                 ],
-                "storyTitle": "上海中心大厦｜上海旅行、观景与夜景",
+                "storyTitle": "上海中心大厦｜玻璃外观＋明亮内部",
                 "draftCues": [
                   "Shanghai Tower",
                   "Lujiazui, Shanghai",
                   "travel programmes",
                   "girlfriend",
-                  "glass building",
-                  "fast lift",
-                  "viewing area",
-                  "city lights"
+                  "glass outside",
+                  "offices and bright inside"
                 ],
-                "focus": "沿用上海旅行素材，把建筑换成更好读的 Shanghai Tower；保留陆家嘴、高速电梯、观景层、城市江景和夜晚灯光等细节。",
+                "focus": "只讲建筑本身：外面全是玻璃、造型很不寻常；里面有办公室、很明亮。",
                 "body": {
-                  "text": "Well, I have visited a few interesting buildings. But the first one that comes to my mind would be Shanghai Tower in Lujiazui, Shanghai. A friend recommended it before my trip. I visited it with my girlfriend during our last trip there. It is a very tall, modern glass building, and its shape curves slightly as it rises, so it is easy to recognise. Inside, the viewing area was bright and clean, and there was a rest area where visitors could sit down. We bought tickets in the morning and took a fast lift to the viewing area. From the large windows, we could see the river, boats, roads and many other tall buildings. We stayed until the city lights came on, and the view became even more beautiful in the evening. I enjoy visiting it because of its modern design, the wide view and the memory I made there with my girlfriend.",
-                  "translation": "嗯，我去过几座有趣的建筑。但我首先想到的是上海陆家嘴的上海中心大厦。我以前在旅游节目里见过它，旅行前也有朋友向我推荐。我上次去上海时和女朋友参观了它。它是一座非常高的现代玻璃建筑，向上延伸时外形微微弯曲，因此很容易认出来。我们上午买了票，乘坐高速电梯到达观景层。从大窗户向外看，可以看到江面、船只、道路和许多其他高楼。我们拍了一些照片，一直待到城市灯光亮起。傍晚的景色变得更加漂亮。我喜欢参观上海中心大厦，因为它设计现代、视野开阔，而且我和女朋友在那里留下了特别的回忆。",
+                  "text": "Well, I have visited a few interesting buildings. But the first one that comes to my mind would be Shanghai Tower in Lujiazui, Shanghai. I first saw it in a travel programme, and a friend also recommended it before my trip. I visited it with my girlfriend last year. From the outside, the whole building is covered in glass, and its shape is very unusual. It turns a little as it goes up, so it does not look like a normal tall building. Inside, there are a lot of offices, and the space is very bright. There is also a tourist area with seats, where visitors can sit down and rest. The windows are big and the walls are light in colour, so it feels clean and comfortable. We walked around inside and took a few photos. I enjoy visiting it because the design looks special and the inside is bright and open.",
+                  "translation": "嗯，我去过几座有趣的建筑。但我首先想到的是上海陆家嘴的上海中心大厦。我以前在旅游节目里见过它，旅行前朋友也向我推荐过。去年我和女朋友一起去参观了它。从外面看，整栋楼都是玻璃的，造型非常不寻常。它往上会转一点，所以不像普通的高楼。里面有很多办公室，空间非常明亮。还有一个带座位的游客区，游客可以坐下来休息。窗户很大，墙是浅色的，所以看起来干净又舒服。我们在里面走了一圈，拍了几张照片。我喜欢来这里，因为它的设计很特别，里面又明亮又开阔。",
                   "highlights": [
                     "Shanghai Tower",
                     "Lujiazui, Shanghai",
                     "with my girlfriend",
-                    "modern glass building",
-                    "fast lift",
-                    "viewing area",
-                    "city lights",
-                    "easy to recognise",
-                    "large windows",
-                    "modern design",
-                    "wide view",
-                    "the viewing area was bright and clean",
-                    "a rest area"
+                    "covered in glass",
+                    "shape is very unusual",
+                    "turns a little",
+                    "a lot of offices",
+                    "very bright",
+                    "windows are big",
+                    "light in colour",
+                    "clean and comfortable",
+                    "bright and open",
+                    "a tourist area with seats"
                   ],
                   "paragraphStarts": [
                     "I had seen it",
@@ -6051,39 +6049,38 @@ window.IELTS_DATA = {
                 "sourceOrder": 15,
                 "ending": {
                   "endingLead": {
-                    "cue": "And explain why you enjoy visiting it",
                     "text": "As for why I enjoy visiting Shanghai Tower, there are three reasons.",
                     "translation": "至于我为什么喜欢参观上海中心大厦，有三个原因。"
                   },
                   "reasons": [
                     {
-                      "text": "First of all, its modern glass design and curved shape make it look special. It is quite different from a normal office building, so it is easy to recognise. You know, you can see it from far away.",
-                      "translation": "首先，它现代的玻璃设计和弯曲造型让它看起来很特别。它和普通写字楼很不一样，所以很容易认出来。你知道，从很远就能看到它。",
-                      "memory": "造型：玻璃外观＋弯曲 → 和普通建筑不同 → 很远就能认出",
+                      "text": "First of all, the outside is made of glass, and the shape is very unusual. It turns a little as it goes up, so it looks different from a normal tall building. You know, that is why it is easy to recognise.",
+                      "translation": "首先，外面是玻璃做的，造型非常不寻常。它往上会转一点，所以和普通高楼看起来不一样。你知道，这就是它很好认的原因。",
+                      "memory": "造型：外面玻璃＋往上转 → 和普通高楼不同 → 很好认",
                       "highlights": [
-                        "modern glass design",
-                        "curved shape",
+                        "the outside is made of glass",
+                        "the shape is very unusual",
                         "easy to recognise"
                       ]
                     },
                     {
-                      "text": "Secondly, visitors can enjoy a wide view of the city and the river. Looking down from such a high place helped me understand how large Shanghai really is. That view was the best part of the day.",
-                      "translation": "其次，游客可以欣赏城市和江面的开阔景色。从那么高的地方往下看，让我明白上海到底有多大。那个景色是那天最棒的部分。",
-                      "memory": "观景：高处看城市和江面 → 感受上海之大 → 当天最棒",
+                      "text": "Secondly, inside there are a lot of offices, and the space is very bright. There is also a tourist area with seats, so visitors can sit and rest. You know, that makes the building comfortable.",
+                      "translation": "其次，里面有很多办公室，空间非常明亮。还有一个带座位的游客区，游客可以坐下来休息。你知道，这让整栋楼很舒服。",
+                      "memory": "内部：很多办公室＋明亮＋游客区座位 → 可以坐下休息 → 待着舒服",
                       "highlights": [
-                        "a wide view of the city and the river",
-                        "how large Shanghai really is",
-                        "the best part of the day"
+                        "a lot of offices",
+                        "very bright",
+                        "a tourist area with seats"
                       ]
                     },
                     {
-                      "text": "What's more, I went there with my girlfriend and we watched the city lights come on together. This made the visit feel special and memorable. To be honest, that memory matters more than the building itself. I think shared memories are important for a couple, because they bring us closer.",
-                      "translation": "此外，我和女朋友一起去，还一起看了城市亮灯。这让这次参观特别又难忘。说实话，那段回忆比建筑本身更重要。我觉得共同的回忆对情侣很重要，因为它们让我们更亲近。",
-                      "memory": "关系：和女朋友一起看亮灯 → 特别难忘 → 回忆比建筑重要",
+                      "text": "What's more, I visited it with my girlfriend on our trip, so this building reminds me of that day. We took photos and talked about the design. I think a place can hold a good memory, so I would gladly go back.",
+                      "translation": "此外，我是旅行时和女朋友一起去的，所以这栋楼会让我想起那天。我们一起拍了照，也聊了它的设计。我觉得一个地方能装下美好的回忆，所以我很愿意再去。",
+                      "memory": "关系：和女朋友一起参观 → 拍照、聊设计 → 愿意再去",
                       "highlights": [
-                        "with my girlfriend",
-                        "watched the city lights come on",
-                        "matters more than the building itself"
+                        "reminds me of that day",
+                        "talked about the design",
+                        "hold a good memory"
                       ]
                     }
                   ],
@@ -6091,18 +6088,19 @@ window.IELTS_DATA = {
                 },
                 "cuePointsNotes": [
                   "上海陆家嘴的上海中心大厦",
-                  "去之前朋友推荐的",
-                  "很高、现代的玻璃建筑，往上微微弯曲，所以很容易认出来",
-                  ""
+                  "以前在旅游节目里见过，旅行前朋友也向我推荐",
+                  "外面全是玻璃，造型非常不寻常，往上会转一点；里面有很多办公室，很明亮",
+                  "造型特别、里面明亮开阔；和女朋友一起参观、拍了照，留下了好回忆"
                 ],
                 "memoryChain": {
-                  "story": "上海陆家嘴的上海中心 → 旅行节目里看过，朋友也推荐 → 和女朋友去参观 → 很高的现代玻璃楼，外形微微弯曲 → 买票坐高速电梯上观景层，从大窗看江、船和道路 → 待到城市灯光亮起",
+                  "story": "上海陆家嘴的上海中心 → 旅游节目里看过，朋友也推荐 → 去年和女朋友去参观 → 外面全是玻璃、造型很不寻常 → 里面有很多办公室、很明亮 → 觉得设计和光线都很舒服",
                   "reasons": [
-                    "1 · 造型：玻璃外观＋弯曲设计 → 与普通建筑不同 → 容易认出",
-                    "2 · 观景：高处看城市和江面 → 视野开阔 → 感受上海之大",
-                    "3 · 关系：和女朋友看城市亮灯 → 共同经历 → 特别难忘"
+                    "1 · 造型：外面全是玻璃＋往上会转 → 和普通高楼不同 → 很好认",
+                    "2 · 内部：很多办公室＋大窗浅色墙 → 很明亮 → 待着舒服",
+                    "3 · 关系：和女朋友一起参观 → 拍照、聊设计 → 愿意再去"
                   ]
-                }
+                },
+                "omit": "不要把江面、船只、城市全景、夜景这类楼外内容写进来。"
               },
               {
                 "isNew": true,
@@ -6415,15 +6413,15 @@ window.IELTS_DATA = {
                 "focus": "沿用凉水河，补清楚它在城市附近、每月去一两次，通常和女朋友一起。",
                 "omit": "地图长度和地理课只作背景；本题重点是自然环境与日常放松。",
                 "memoryChain": {
-                  "story": "城市附近的凉水河 → 河水、花草和小船很好看 → 每月和女朋友去一两次 → 散步拍照后吃烤鱼 → 景美、人友好、食物好吃",
+                  "story": "城市附近的凉水河 → 河水、花草和小船很好看 → 每月和女朋友去一两次 → 散步拍照后吃炸鱼 → 景美、人友好、食物好吃",
                   "reasons": [
                     "景美：河水花草小船 → 适合散步拍照 → 心情放松",
                     "人美：当地人帮忙拍照指路 → 感到欢迎 → 愿意再来",
-                    "食物美：河边烤鱼简单好吃 → 旅行更完整 → 留下回忆"
+                    "食物美：河边炸鱼简单好吃 → 旅行更完整 → 留下回忆"
                   ]
                 },
                 "body": {
-                  "text": "Well, there are a few places for a walk near my home. But the first one that comes to my mind would be a park beside the Liangshui River in Beijing. The water, flowers and small boats make it look peaceful and attractive. In spring, the flowers along the path are especially beautiful. I first visited it with my family last spring, and a friendly local man helped us take a photo and showed us a quiet viewpoint. Now I go there once or twice a month, usually with my girlfriend. We walk beside the river, take a few photos and sometimes eat grilled fish in a small restaurant nearby. I enjoy the place because the scenery is beautiful, the people are friendly and the food is good.",
+                  "text": "Well, there are a few places for a walk near my home. But the first one that comes to my mind would be a park beside the Liangshui River in Beijing. The water, flowers and small boats make it look peaceful and attractive. In spring, the flowers along the path are especially beautiful. I first visited it with my family last spring, and a friendly local man helped us take a photo and showed us a quiet spot by the river. Now I go there once or twice a month, usually with my girlfriend. We walk beside the river, take a few photos and sometimes eat fried fish in a small restaurant nearby. I enjoy the place because the scenery is beautiful, the people are friendly and the food is good.",
                   "highlights": [
                     "Liangshui River",
                     "water, flowers and small boats",
@@ -6431,11 +6429,11 @@ window.IELTS_DATA = {
                     "helped us take a photo",
                     "once or twice a month",
                     "girlfriend",
-                    "grilled fish",
+                    "fried fish",
                     "scenery is beautiful",
                     "park beside",
                     "peaceful and attractive",
-                    "quiet viewpoint",
+                    "a quiet spot by the river",
                     "walk beside the river",
                     "take a few photos",
                     "food is good",
@@ -6458,7 +6456,7 @@ window.IELTS_DATA = {
                     ]
                   },
                   {
-                    "text": "Second, local people are friendly. One man helped my family take a photo and showed us a quiet viewpoint.",
+                    "text": "Second, local people are friendly. One man helped my family take a photo and showed us a quiet spot by the river.",
                     "memory": "人美：帮忙拍照指路 → 感到欢迎",
                     "highlights": [
                       "friendly",
@@ -6466,19 +6464,19 @@ window.IELTS_DATA = {
                     ]
                   },
                   {
-                    "text": "Finally, the grilled fish beside the river is simple but delicious, so the visit also gives us a good meal together.",
-                    "memory": "食物美：河边烤鱼 → 一起吃饭 → 留下回忆",
+                    "text": "Finally, the fried fish beside the river is simple but delicious, so the visit also gives us a good meal together.",
+                    "memory": "食物美：河边炸鱼 → 一起吃饭 → 留下回忆",
                     "highlights": [
-                      "grilled fish",
+                      "fried fish",
                       "delicious"
                     ]
                   },
                   {
-                    "text": "The riverside is free to visit, so it is an inexpensive place for a walk, while visitors can also buy grilled fish from the small riverside restaurants.",
-                    "memory": "Money：免费散步拍照＋顺便买河边烤鱼 → 出游省钱也照顾小生意",
+                    "text": "The riverside is free to visit, so it is an inexpensive place for a walk, while visitors can also buy fried fish from the small riverside restaurants.",
+                    "memory": "Money：免费散步拍照＋顺便买河边炸鱼 → 出游省钱也照顾小生意",
                     "highlights": [
                       "free to visit",
-                      "buy grilled fish from the small riverside restaurants"
+                      "buy fried fish from the small riverside restaurants"
                     ]
                   },
                   {
@@ -6516,24 +6514,24 @@ window.IELTS_DATA = {
                       "translation": "首先，河水、花和小船构成很美的景色，所以在那里走走能让我放松。你知道，忙完一天工作后，这是个很好的转换。这是我去那里的主要原因。"
                     },
                     {
-                      "text": "Secondly, local people are friendly. One man helped my family take a photo and showed us a quiet viewpoint. Small acts like that make me feel welcome, and they make the place feel warm.",
-                      "memory": "人美：帮拍照＋指观景点 → 觉得受欢迎 → 地方温暖",
+                      "text": "Secondly, local people are friendly. One man helped my family take a photo and showed us a quiet spot by the river. Small acts like that make me feel welcome, and they make the place feel warm.",
+                      "memory": "人美：帮拍照＋指安静看河的地方 → 觉得受欢迎 → 地方温暖",
                       "highlights": [
                         "local people are friendly",
-                        "showed us a quiet viewpoint",
+                        "showed us a quiet spot by the river",
                         "make the place feel warm"
                       ],
-                      "translation": "其次，当地人很友好。一位男士帮我们家拍了照，还带我们看了一个安静的观景点。这样的小举动让我觉得受欢迎，也让这个地方很温暖。"
+                      "translation": "其次，当地人很友好。一位男士帮我们家拍了照，还带我们去了一个安静看河的地方。这样的小举动让我觉得受欢迎，也让这个地方很温暖。"
                     },
                     {
-                      "text": "What's more, the grilled fish beside the river is simple but delicious, so the visit also gives us a good meal together. We can enjoy the food and have a relaxed conversation. It is a simple pleasure. I think that is important for people in the city, because we all need some quiet time.",
-                      "memory": "食物美：烤鱼简单好吃 → 一起吃饭聊天 → 简单的快乐",
+                      "text": "What's more, the fried fish beside the river is simple but delicious, so the visit also gives us a good meal together. We can enjoy the food and have a relaxed conversation. It is a simple pleasure. I think that is important for people in the city, because we all need some quiet time.",
+                      "memory": "食物美：炸鱼简单好吃 → 一起吃饭聊天 → 简单的快乐",
                       "highlights": [
-                        "grilled fish beside the river",
+                        "fried fish beside the river",
                         "a good meal together",
                         "a simple pleasure"
                       ],
-                      "translation": "此外，河边的烤鱼简单却好吃，所以这趟出行还能一起好好吃顿饭。我们可以享受美食、轻松聊天。这是一种简单的快乐。我觉得这对城市里的人很重要，因为大家都需要一点安静的时间。"
+                      "translation": "此外，河边的炸鱼简单却好吃，所以这趟出行还能一起好好吃顿饭。我们可以享受美食、轻松聊天。这是一种简单的快乐。我觉得这对城市里的人很重要，因为大家都需要一点安静的时间。"
                     }
                   ],
                   "mode": "reasons"
@@ -6551,9 +6549,9 @@ window.IELTS_DATA = {
                 ],
                 "cuePointsNotes": [
                   "北京凉水河边的公园（离家不远）",
-                  "水、花和小船，看起来安静又漂亮；第一次去时一位当地人帮我们拍照，还指了一个安静的观景点",
+                  "水、花和小船，看起来安静又漂亮；第一次去时一位当地人帮我们拍照，还指了一个安静看河的地方",
                   "每月去一两次",
-                  "通常和女朋友：沿河走走、拍几张照，有时在旁边小店吃烤鱼",
+                  "通常和女朋友：沿河走走、拍几张照，有时在旁边小店吃炸鱼",
                   ""
                 ]
               },
@@ -6577,16 +6575,16 @@ window.IELTS_DATA = {
                   "last autumn",
                   "girlfriend",
                   "Bund and Lujiazui",
-                  "visit again"
+                  "no Disneyland-next time"
                 ],
-                "focus": "沿用上海三日旅行；结尾明确 I would like to visit it again。",
+                "focus": "沿用上海三日旅行；用“没去迪士尼、没看完”说明时间不够，所以想再去；结尾明确 I would like to visit it again。",
                 "omit": "商场细节只需一句，重点仍是整座城市。",
                 "memoryChain": {
-                  "story": "去年秋天和女朋友去上海三天 → 外滩看河景和高楼 → 陆家嘴商场避雨吃饭 → 地铁方便、当地人友好、小笼包好吃 → 还有地方没看完，所以想再去",
+                  "story": "去年秋天和女朋友去上海三天 → 外滩看河景和高楼 → 陆家嘴商场避雨吃饭 → 地铁方便、当地人友好、小笼包好吃 → 三天太短、没去迪士尼、也没看完 → 想下次再去，专门留一天去迪士尼",
                   "reasons": [
                     "景美：高楼、老街和河景在一起",
                     "人美：当地人和店员都愿意帮忙",
-                    "食物美：小笼包和商场餐厅选择多"
+                    "时间短：三天太短＋没去迪士尼 → 还想吃江边小笼包 → 愿意再去"
                   ]
                 },
                 "ending": {
@@ -6617,14 +6615,14 @@ window.IELTS_DATA = {
                       ]
                     },
                     {
-                      "text": "What's more, the local food is delicious, especially xiaolongbao. We shared a basket by the river, and we had not seen everything, so there is a clear reason to go back. That is why I want to visit it again. I think that is a good reason to travel again, because every trip teaches you something new.",
+                      "text": "What's more, three days was too short. We did not go to Disneyland, and we still want to eat xiaolongbao by the river again. I think a trip like that always leaves something for next time, so I would happily go back.",
                       "highlights": [
-                        "the local food is delicious",
-                        "shared a basket by the river",
-                        "a clear reason to go back"
+                        "three days was too short",
+                        "did not go to Disneyland",
+                        "leaves something for next time"
                       ],
-                      "translation": "此外，当地食物很好吃，尤其是小笼包。我们在江边一起吃了一笼，而且我们还没看完所有地方，所以很有理由再去一次。这就是我想再去的原因。我觉得这就是再去的理由，因为每次旅行都能学到新东西。",
-                      "memory": "食物美：小笼包好吃＋还没看完 → 有理由再去"
+                      "translation": "此外，三天太短了。我们没去迪士尼，而且还想再去江边吃小笼包。我觉得这样的旅行总会给下次留点期待，所以我很愿意再去。",
+                      "memory": "时间短：三天太短＋没去迪士尼 → 还想吃江边小笼包 → 愿意再去"
                     }
                   ],
                   "mode": "reasons"
@@ -6643,8 +6641,8 @@ window.IELTS_DATA = {
                   "并解释你为什么想再去一次"
                 ],
                 "body": {
-                  "text": "Well, I've been to a few cities. It's hard to choose a favourite. But the first one that comes to my mind would be Shanghai. It is in eastern China. I went there with my girlfriend last autumn, and we stayed for three days. At first, we visited the Bund and Lujiazui. The river, tall buildings and old streets looked beautiful together. A local person helped us take a photo, and we ate xiaolongbao. We also took the metro to the old town and bought some small gifts. However, it rained one afternoon, so we went into a big shopping mall, had dinner there and walked around. The metro was easy to use, and local people were friendly. We did not see everything. I would like to visit Shanghai again because the scenery, the people and the food left a very good memory.",
-                  "translation": "嗯，我去过几个城市，很难选出一个最喜欢的。但我首先想到的是上海，它在中国东部。去年秋天我和女朋友一起去了三天。一开始，我们去了外滩和陆家嘴。江景、高楼和老街放在一起很好看。一位当地人帮我们拍了照，我们还吃了小笼包。不过有一天下午下雨了，我们就进了陆家嘴的一家大商场，在里面吃饭、逛了逛。地铁很方便，当地人也友好。最后我们玩得很开心，但没有把所有地方都看完。因为风景、人和食物都留下了很好的回忆，我想再去一次上海。",
+                  "text": "Well, I've been to a few cities. It's hard to choose a favourite. But the first one that comes to my mind would be Shanghai. It is in eastern China. I went there with my girlfriend last autumn, and we stayed for three days. At first, we visited the Bund and Lujiazui. The river, tall buildings and old streets looked beautiful together. A local person helped us take a photo, and we ate xiaolongbao. We also took the metro to the old town and bought some small gifts. However, it rained one afternoon, so we went into a big shopping mall, had dinner there and walked around. The metro was easy to use, and local people were friendly. Disneyland needs a whole day, and we only had three days, so we did not go there. Also, we did not see everything. Next time I plan to go there. I would like to visit Shanghai again because the scenery, the people and the food left a very good memory.",
+                  "translation": "嗯，我去过几个城市，很难选出一个最喜欢的。但我首先想到的是上海，它在中国东部。去年秋天我和女朋友一起去了三天。一开始，我们去了外滩和陆家嘴。江景、高楼和老街放在一起很好看。一位当地人帮我们拍了照，我们还吃了小笼包。不过有一天下午下雨了，我们就进了陆家嘴的一家大商场，在里面吃饭、逛了逛。地铁很方便，当地人也友好。迪士尼要玩一整天，而我们只待了三天，所以没去。而且，我们也没把所有地方看完。下次我打算去。因为风景、人和食物都留下了很好的回忆，我想再去一次上海。",
                   "highlights": [
                     "Shanghai",
                     "eastern China",
@@ -6661,6 +6659,9 @@ window.IELTS_DATA = {
                     "local person helped us take a photo",
                     "rained one afternoon",
                     "local people were friendly",
+                    "Disneyland needs a whole day",
+                    "did not go there",
+                    "Next time I plan to go there",
                     "did not see everything",
                     "helped us take a photo",
                     "took the metro to the old town"
@@ -6675,7 +6676,7 @@ window.IELTS_DATA = {
                   "去年秋天，和女朋友，待了三天",
                   "先去了外滩和陆家嘴，江、高楼和老街放在一起很好看，还有当地人帮我们拍照、吃了小笼包；有一天下雨，就进陆家嘴的大商场吃饭、逛逛；地铁方便，当地人也友好",
                   "景色美、人友好、地铁方便；三天没看完所有地方",
-                  ""
+                  "景色、人和食物都留下了很好的回忆；但三天太短，没去迪士尼，也没看完所有地方；所以想下次再去，专门留一天去迪士尼，再吃一次江边的小笼包"
                 ]
               }
             ]
@@ -7357,17 +7358,17 @@ window.IELTS_DATA = {
                 "sourceOrder": 70,
                 "storyTitle": "凉水河｜飞龙地图、家庭出游、地点三美",
                 "focus": "故事用三部曲：地理课看飞龙地图 → 和家人去河边 → 明白它为什么重要。",
-                "omit": "不用专业地理知识；只记三幅画面：地图像飞龙、当地人帮拍照、河边吃烤鱼。",
+                "omit": "不用专业地理知识；只记三幅画面：地图像飞龙、当地人帮拍照、河边吃炸鱼。",
                 "memoryChain": {
-                  "story": "第一部 At first：地理老师说凉水河约七十公里，地图上像飞龙 → 第二部 When I visited：和家人去河边，看花草小船、请当地人拍照、吃烤鱼 → 第三部 In the end：景色和食物吸引游客，友好的人让大家愿意再来，帮助当地生意 → 它在北京。",
+                  "story": "第一部 At first：地理老师说凉水河约七十公里，地图上像飞龙 → 第二部 When I visited：和家人去河边，看花草小船、请当地人拍照、吃炸鱼 → 第三部 In the end：景色和食物吸引游客，友好的人让大家愿意再来，帮助当地生意 → 它在北京。",
                   "reasons": [
                     "1 · 景美：河水、花草和小船 → 适合散步拍照 → 吸引游客",
-                    "2 · 人美：当地人主动帮全家拍照 → 还推荐安静观景点 → 让人感到欢迎",
-                    "3 · 食物美：河边吃到香辣烤鱼 → 价格合理 → 帮助附近小餐馆的生意"
+                    "2 · 人美：当地人主动帮全家拍照 → 还推荐安静看河的地方 → 让人感到欢迎",
+                    "3 · 食物美：河边吃到炸鱼 → 价格合理 → 帮助附近小餐馆的生意"
                   ]
                 },
                 "body": {
-                  "text": "Well, there are many rivers in China. But the first one that comes to my mind would be the Liangshui River. It is in Beijing. I first learned about it in a geography class. My teacher said it was about seventy kilometres long and looked like a flying dragon on the map. Last spring, I visited one part of the river with my family. The water, flowers and small boats looked beautiful, and a friendly local man took a family photo for us. Later, we ate grilled fish in a small restaurant beside the river. Its scenery and food attract visitors, and this also supports small local businesses. The river also gives water to farms and parks along the way.",
+                  "text": "Well, there are many rivers in China. But the first one that comes to my mind would be the Liangshui River. It is in Beijing. I first learned about it in a geography class. My teacher said it was about seventy kilometres long and looked like a flying dragon on the map. Last spring, I visited one part of the river with my family. The water, flowers and small boats looked beautiful, and a friendly local man took a family photo for us. Later, we ate fried fish in a small restaurant beside the river. Its scenery and food attract visitors, and this also supports small local businesses. The river also gives water to farms and parks along the way.",
                   "highlights": [
                     "Beijing",
                     "geography class",
@@ -7387,7 +7388,7 @@ window.IELTS_DATA = {
                 },
                 "draftCues": [
                   "1 At first: geography-dragon-map",
-                  "2 When I visited: scenery-local man-grilled fish",
+                  "2 When I visited: scenery-local man-fried fish",
                   "3 In the end: visitors-return-local business"
                 ],
                 "pointsLabel": "地点类三美｜景美 → 人美 → 食物美",
@@ -7407,7 +7408,7 @@ window.IELTS_DATA = {
                     ]
                   },
                   {
-                    "text": "What's more, the food near the river is delicious. The spicy grilled fish was fresh and affordable, and visitors like us support small local restaurants.",
+                    "text": "What's more, the food near the river is delicious. The fried fish was fresh and affordable, and visitors like us support small local restaurants.",
                     "highlights": [
                       "the food near the river is delicious",
                       "fresh and affordable",
@@ -9356,51 +9357,50 @@ window.IELTS_DATA = {
             ]
           },
           {
-            "title": "上海高楼｜东方明珠",
-            "note": "DOCX 没有给这题作答；这里保留你亲自写过的东方明珠草稿：造型 → 观景 → 夜灯。",
+            "title": "上海高楼｜上海中心大厦",
+            "note": "原来的东方明珠草稿改成上海中心大厦：外面全是玻璃、造型很不寻常，里面有办公室、很明亮。",
             "items": [
               {
                 "question": "Describe a tall building you like or dislike",
                 "sourceOrder": 75,
                 "memoryChain": {
-                  "story": "和女友去上海 → 东方明珠在河边 → 圆球造型很明显 → 坐电梯上观景层 → 克服紧张踩玻璃地板 → 看全城河流和夜晚灯光",
+                  "story": "上海陆家嘴的上海中心 → 上次旅行和女朋友去参观 → 主要用于办公、很多公司在里面 → 很高，外面全是玻璃 → 造型很不寻常，往上会转一点 → 里面很明亮、很干净、窗户大 → 喜欢它的设计和光线",
                   "reasons": [
-                    "圆球＋现代造型 → 不像普通办公楼 → 一眼认出",
-                    "高处看城市和河流 → 发现上海真的很大",
-                    "夜晚彩灯倒映水面 → 河边更热闹 → 记忆深刻"
+                    "用途：办公楼＋很多公司 → 城市重要部分 → 不只给游客",
+                    "造型：外面全是玻璃＋往上转 → 不像普通写字楼 → 一眼认出",
+                    "内部：明亮干净＋大窗 → 自然光舒服 → 喜欢并愿意再去"
                   ]
                 },
                 "body": {
-                  "text": "Well, there are a lot of tall buildings in Shanghai. But the first one that comes to my mind would be the Oriental Pearl Tower. I visited it with my girlfriend during our last trip there. It stands beside the river and is mainly used for sightseeing, television and communication. The building is very tall and has several large round parts, so it is easy to recognise. We took a fast lift to the viewing area, where we could see the river, boats and many other tall buildings. One floor has a glass section under visitors' feet, and I slowly stepped onto it and took a photo. Inside, there is also a small museum about the tower, and everything looked bright and clean. At night, the whole tower is covered in colourful lights, so we watched it again from the river.",
+                  "text": "Well, there are a lot of tall buildings in China. But the first one that comes to my mind would be Shanghai Tower. It is in Lujiazui, in Shanghai. I visited it with my girlfriend during our last trip there. The building is mainly used for offices, and many companies work there every day. From the outside, the building is covered in glass, and its shape is very unusual. It turns a little as it goes up, so it does not look like a normal office building. Inside, the space is very bright and clean. There is also a tourist area with seats, and the windows are large, so the rooms do not feel dark. We walked around and took a few photos. I like this building because the design is special and the inside is bright and clean.",
                   "highlights": [
-                    "Oriental Pearl Tower",
+                    "Shanghai Tower",
+                    "Lujiazui, in Shanghai",
                     "with my girlfriend",
-                    "sightseeing",
-                    "large round parts",
-                    "fast lift",
-                    "viewing area",
-                    "glass section",
-                    "colourful lights",
-                    "stands beside the river",
-                    "television and communication",
-                    "easy to recognise",
-                    "slowly stepped onto it",
-                    "a small museum about the tower",
-                    "bright and clean"
+                    "mainly used for offices",
+                    "many companies work there",
+                    "covered in glass",
+                    "shape is very unusual",
+                    "turns a little",
+                    "does not look like a normal office building",
+                    "very bright and clean",
+                    "windows are large",
+                    "a tourist area with seats"
                   ],
                   "paragraphStarts": [
                     "The building is very tall",
                     "We bought tickets",
                     "One floor has a glass section"
-                  ]
+                  ],
+                  "translation": "嗯，中国有很多高楼。但我首先想到的是上海中心大厦。它在上海陆家嘴。上次去上海旅行时，我和女朋友一起去参观了。这栋楼主要用作办公室，每天有很多公司在那里上班。从外面看，它全是玻璃的，造型非常不寻常。它往上会转一点，所以不像普通的写字楼。里面非常明亮、干净，还有一个带座位的游客区。窗户很大，房间不会觉得暗。我们在里面走了一圈，拍了几张照片。我喜欢这栋楼，因为它的设计很特别，里面又明亮又干净。"
                 },
                 "draftCues": [
-                  "Oriental Pearl",
-                  "Shanghai",
-                  "sightseeing",
-                  "round parts",
-                  "glass floor",
-                  "night lights"
+                  "Shanghai Tower",
+                  "Lujiazui, Shanghai",
+                  "offices",
+                  "glass outside",
+                  "unusual shape",
+                  "bright inside"
                 ],
                 "pointsLabel": "Why I like it · 3 原因",
                 "reasons": [
@@ -9412,11 +9412,11 @@ window.IELTS_DATA = {
                     ]
                   },
                   {
-                    "text": "Secondly, visitors can enjoy a wide view of the city and the river. Looking down from such a high place helped me understand how large Shanghai really is.",
+                    "text": "Secondly, the inside is bright and there is a tourist area with seats, so visitors can sit down and rest.",
                     "highlights": [
-                      "wide view",
-                      "city and the river"
-                    ]
+                      "a tourist area with seats"
+                    ],
+                    "memory": "内部：明亮＋游客区座位 → 可以休息 → 待着舒服"
                   },
                   {
                     "text": "What's more, its colourful lights are beautiful in the evening. They reflect on the water and make the whole riverside area feel lively and memorable.",
@@ -9429,40 +9429,39 @@ window.IELTS_DATA = {
                 "isNew": false,
                 "ending": {
                   "endingLead": {
-                    "cue": "And explain why you like/dislike it",
-                    "text": "As for why I like the Oriental Pearl Tower, there are three reasons.",
-                    "translation": "至于我为什么喜欢东方明珠塔，有三个原因。"
+                    "text": "As for why I like Shanghai Tower, there are three reasons.",
+                    "translation": "至于我为什么喜欢上海中心大厦，有三个原因。"
                   },
                   "reasons": [
                     {
-                      "text": "First of all, its modern shape and round parts make it look special. It is very different from a normal office building, so people can recognise it immediately. You know, it is a symbol of the city.",
+                      "text": "First of all, the building is mainly used for offices, and many companies work there every day. You know, it is an important part of the city. So it is not only a place for visitors.",
+                      "translation": "首先，这栋楼主要用作办公室，每天有很多公司在那里上班。你知道，它是城市里很重要的一部分。所以它不只是给游客参观的地方。",
+                      "memory": "用途：办公楼＋很多公司 → 城市重要部分 → 不只给游客",
                       "highlights": [
-                        "modern shape and round parts",
-                        "recognise it immediately",
-                        "a symbol of the city"
-                      ],
-                      "translation": "首先，它现代的外形和圆球让它看起来很特别。它和普通写字楼很不一样，所以人们一眼就能认出来。你知道，它是这座城市的标志。",
-                      "memory": "造型：现代外形＋圆球 → 一眼认出 → 城市标志"
+                        "mainly used for offices",
+                        "an important part of the city",
+                        "not only a place for visitors"
+                      ]
                     },
                     {
-                      "text": "Secondly, visitors can enjoy a wide view of the city and the river. Looking down from such a high place helped me understand how large Shanghai really is. That view was the best part of the day.",
+                      "text": "Secondly, from the outside, the building is covered in glass, and the shape is very unusual. It turns a little as it goes up, so it does not look like a normal office building. You know, I can recognise it at once.",
+                      "translation": "其次，从外面看，整栋楼都是玻璃的，造型非常不寻常。它往上会转一点，所以不像普通的写字楼。你知道，我一眼就能认出它。",
+                      "memory": "造型：外面全是玻璃＋往上转 → 不像普通写字楼 → 一眼认出",
                       "highlights": [
-                        "a wide view of the city and the river",
-                        "how large Shanghai really is",
-                        "the best part of the day"
-                      ],
-                      "translation": "其次，游客可以欣赏城市和江面的开阔景色。从那么高的地方往下看，让我明白上海到底有多大。那个景色是那天最棒的部分。",
-                      "memory": "观景：高处看城市和江 → 感受上海之大 → 当天最棒"
+                        "covered in glass",
+                        "the shape is very unusual",
+                        "recognise it at once"
+                      ]
                     },
                     {
-                      "text": "What's more, its colourful lights are beautiful in the evening. They reflect on the water and make the whole riverside area feel lively and memorable. So we watched it again from the river. I think a good building should become a symbol of the city.",
+                      "text": "What's more, the inside is very bright and clean, and there is a tourist area with seats. You know, natural light makes a place feel comfortable. So I really enjoy this building, and I would visit it again.",
+                      "translation": "此外，里面非常明亮、干净，还有一个带座位的游客区。你知道，自然光会让人待得舒服。所以我真的很喜欢这栋楼，也愿意再去一次。",
+                      "memory": "内部：明亮干净＋游客区座位 → 自然光舒服 → 喜欢并愿意再去",
                       "highlights": [
-                        "colourful lights",
-                        "reflect on the water",
-                        "lively and memorable"
-                      ],
-                      "translation": "此外，晚上的彩色灯光很漂亮。灯光映在水面上，让整片江边显得有活力又难忘。所以我们又在江边看了一次。我觉得好的建筑应该成为城市的标志。",
-                      "memory": "夜景：彩灯映水面 → 江边有活力 → 又看了一次"
+                        "very bright and clean",
+                        "a tourist area with seats",
+                        "feel comfortable"
+                      ]
                     }
                   ],
                   "mode": "reasons"
@@ -9480,10 +9479,10 @@ window.IELTS_DATA = {
                   "并解释你为什么喜欢/不喜欢它"
                 ],
                 "cuePointsNotes": [
-                  "主要用于观光、电视和通信",
-                  "上海，江边",
-                  "又高又醒目，有几个大圆球，很容易认出来；有一层脚下是玻璃地板，我一开始有点怕，慢慢踩上去拍了照；晚上整座塔亮起彩灯",
-                  ""
+                  "主要用作办公室，很多公司在那里上班",
+                  "上海陆家嘴",
+                  "很高，外面全是玻璃，造型非常不寻常——往上会转一点，和普通写字楼不一样；里面很明亮、很干净",
+                  "喜欢：造型特别＋里面明亮干净；和女朋友一起参观、拍了照"
                 ]
               }
             ]
@@ -9868,8 +9867,8 @@ window.IELTS_DATA = {
                 ],
                 "focus": "讲经常重复的通勤短途行程；习惯用现在时，具体一次堵车用过去时。",
                 "body": {
-                  "text": "Well, I take a few short trips quite often. But the first one that comes to my mind would be a riverside park beside the Liangshui River, near my home. To be honest, it is only about twenty minutes away, so I usually walk there or take a bus. I often go on Saturday afternoons with my girlfriend, because we want to relax after a busy week. We usually walk beside the water, take a few photos and eat some grilled fish at a small restaurant nearby. However, the place gets very crowded at weekends. You know, there are visitors and sellers everywhere, and the paths are quite narrow. The sellers use loud speakers, so it is noisy and we can hardly hear each other. Also, the grilled fish there is expensive and not as tasty as we expected.",
-                  "translation": "嗯，我经常做一些短途出游。但我首先想到的是家附近凉水河边的一个公园。说实话，那里只有大约二十分钟路程，所以我通常走路或坐公交去。我常在周六下午和女朋友一起去，因为想在忙碌一周后放松一下。我们一般会在河边走走、拍几张照片，再在附近小馆吃点烤鱼。不过周末那里非常拥挤。你知道，到处都是游客和摊主，小路也很窄。摊主用大喇叭，所以很吵，我们几乎听不清彼此说话。而且，那里的烤鱼又贵又没想象中好吃。",
+                  "text": "Well, I take a few short trips quite often. But the first one that comes to my mind would be a riverside park beside the Liangshui River, near my home. To be honest, it is only about twenty minutes away, so I usually walk there or take a bus. I often go on Saturday afternoons with my girlfriend, because we want to relax after a busy week. We usually walk beside the water, take a few photos and eat some fried fish at a small restaurant nearby. However, the place gets very crowded at weekends. You know, there are visitors and sellers everywhere, and the paths are quite narrow. The sellers use loud speakers, so it is noisy and we can hardly hear each other. Also, the fried fish there is expensive and not as tasty as we expected.",
+                  "translation": "嗯，我经常做一些短途出游。但我首先想到的是家附近凉水河边的一个公园。说实话，那里只有大约二十分钟路程，所以我通常走路或坐公交去。我常在周六下午和女朋友一起去，因为想在忙碌一周后放松一下。我们一般会在河边走走、拍几张照片，再在附近小馆吃点炸鱼。不过周末那里非常拥挤。你知道，到处都是游客和摊主，小路也很窄。摊主用大喇叭，所以很吵，我们几乎听不清彼此说话。而且，那里的炸鱼又贵又没想象中好吃。",
                   "highlights": [
                     "a riverside park beside the Liangshui River",
                     "To be honest",
@@ -9891,11 +9890,11 @@ window.IELTS_DATA = {
                   ]
                 },
                 "memoryChain": {
-                  "story": "家附近凉水河边公园（约二十分钟）→ 周六下午和女朋友去 → 河边散步、拍照、吃烤鱼 → 周末人非常多、路窄 → 摊主用大喇叭，很吵 → 食物又贵又不好吃",
+                  "story": "家附近凉水河边公园（约二十分钟）→ 周六下午和女朋友去 → 河边散步、拍照、吃炸鱼 → 周末人非常多、路窄 → 摊主用大喇叭，很吵 → 食物又贵又不好吃",
                   "reasons": [
                     "拥挤：路窄＋游客摊主多 → 听不清彼此＋只能站着等",
                     "嘈杂：大喇叭叫客人＋同时说话 → 没法安静散步",
-                    "烤鱼：又贵又不好吃＋等半小时近百块 → 不值"
+                    "炸鱼：又贵又不好吃＋等半小时近百块 → 不值"
                   ]
                 },
                 "pointsLabel": "不喜欢的原因｜按需要选用",
@@ -9943,9 +9942,9 @@ window.IELTS_DATA = {
                       ]
                     },
                     {
-                      "text": "What's more, the grilled fish there is expensive and not as tasty as we expected. To be honest, last Saturday we waited almost half an hour and paid nearly a hundred yuan for two plates of grilled fish, so it was not worth the money. I think a beautiful place should stay comfortable for visitors.",
-                      "memory": "烤鱼：又贵又不好吃＋等半小时、近百块 → 不值",
-                      "translation": "而且，那里的烤鱼又贵又没想象中好吃。说实话，上周六我们为两份烤鱼等了将近半小时，还花了将近一百块，所以很不值。我觉得好看的地方也应该让游客待得舒服。",
+                      "text": "What's more, the fried fish there is expensive and not as tasty as we expected. To be honest, last Saturday we waited almost half an hour and paid nearly a hundred yuan for two plates of fried fish, so it was not worth the money. I think a beautiful place should stay comfortable for visitors.",
+                      "memory": "炸鱼：又贵又不好吃＋等半小时、近百块 → 不值",
+                      "translation": "而且，那里的炸鱼又贵又没想象中好吃。说实话，上周六我们为两份炸鱼等了将近半小时，还花了将近一百块，所以很不值。我觉得好看的地方也应该让游客待得舒服。",
                       "highlights": [
                         "expensive and not as tasty as we expected",
                         "waited almost half an hour",
@@ -9958,7 +9957,7 @@ window.IELTS_DATA = {
                 "cuePointsNotes": [
                   "家附近凉水河边的公园（说实话只有二十分钟路程，走路或坐公交）",
                   "常在周六下午和女朋友一起去（忙了一周想放松）",
-                  "想在河边走走、拍几张照片、再在河边小馆吃点烤鱼",
+                  "想在河边走走、拍几张照片、再在河边小馆吃点炸鱼",
                   ""
                 ],
                 "linked": [
