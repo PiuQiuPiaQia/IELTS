@@ -3996,9 +3996,9 @@ window.IELTS_DATA = {
                 "focus": "人物统一为李华；重点说他通过书、纪录片和博物馆学历史，并因喜欢日本历史开始学日语。",
                 "omit": "不用背年份、王朝或重大事件；保留书、纪录片和博物馆三种方式。",
                 "body": {
-                  "text": "Well, a few of my friends enjoy history. But the first one that comes to my mind would be my high-school classmate Li Hua. We sat in the same class for three years, and we are still in touch now. He learns history in several simple ways: he reads history books for about an hour every evening, watches documentaries and visits the local museum two or three times a year. He often shares interesting stories with me. He loves history, especially stories about old Japanese cities, and he once told me that history helps him understand why cities and cultures are different today. Later, he decided to learn Japanese because he wanted to visit Japan and understand more of its history. Japanese was difficult and he had little free time, but he watched short videos, kept new words in a notebook and practised every day. Last month he visited Japan and joined a museum tour.",
+                  "text": "Well, a few of my friends enjoy history. But the first one that comes to my mind would be my classmate Li Hua. We sat in the same class for three years, and we are still in touch now. He learns history in several simple ways: he reads history books for about an hour every evening, watches documentaries and visits the local museum two or three times a year. He often shares interesting stories with me. He loves history, especially stories about old Japanese cities, and he once told me that history helps him understand why cities and cultures are different today. Later, he decided to learn Japanese because he wanted to visit Japan and understand more of its history. Japanese was difficult and he had little free time, but he watched short videos, kept new words in a notebook and practised every day. Last month he visited Japan and joined a museum tour.",
                   "highlights": [
-                    "high-school classmate Li Hua",
+                    "classmate Li Hua",
                     "the same class for three years",
                     "reads history books for about an hour every evening",
                     "documentaries",
@@ -4147,7 +4147,7 @@ window.IELTS_DATA = {
                   ""
                 ],
                 "cuePointsNotesEn": [
-                  "my high-school classmate Li Hua",
+                  "my classmate Li Hua",
                   "reads history books ; visits the local museum；shares interesting stories with me",
                   "history helps him understand ; cultures are different today；old Japanese cities ; decided to learn Japanese",
                   ""
@@ -4352,7 +4352,7 @@ window.IELTS_DATA = {
                 "focus": "人物是李华；直接说他平时喜欢做小模型，用纸板小房子展开“量、剪、粘”和失败后重做。",
                 "omit": "不讲上色、小灯、夹子或专业工具；不需要记太多操作动词。",
                 "body": {
-                  "text": "Well, I know a few people who like making things. But the first one that comes to my mind would be my high-school classmate Li Hua. We have known each other for more than ten years, and he is a patient person. He often makes small models at home. Last month, he made a small house from cardboard. He has also made a small car and a pencil holder from cardboard. The task looked difficult to me, but he broke it into three steps: measuring, cutting and gluing. However, the roof fell off because one piece was too short, but he did not give up. He measured it again, cut a new piece and glued it more carefully. In the end, the house looked neat and strong. I admire his patience, and this skill can also save him money because he can make simple toys himself.",
+                  "text": "Well, I know a few people who like making things. But the first one that comes to my mind would be my classmate Li Hua. We have known each other for more than ten years, and he is a patient person. He often makes small models at home. Last month, he made a small house from cardboard. He has also made a small car and a pencil holder from cardboard. The task looked difficult to me, but he broke it into three steps: measuring, cutting and gluing. However, the roof fell off because one piece was too short, but he did not give up. He measured it again, cut a new piece and glued it more carefully. In the end, the house looked neat and strong. I admire his patience, and this skill can also save him money because he can make simple toys himself.",
                   "highlights": [
                     "Li Hua",
                     "small models",
@@ -6683,7 +6683,7 @@ window.IELTS_DATA = {
                 ],
                 "storyTitle": "凉水河边的公园｜家庭出游、地点三美",
                 "draftCues": [
-                  "Liangshui River",
+                  "the river",
                   "Beijing",
                   "family last spring",
                   "flowers and boats",
@@ -6692,10 +6692,10 @@ window.IELTS_DATA = {
                 ],
                 "focus": "沿用凉水河素材：把具体地点说成凉水河边的公园，并保留家庭出游、河边景色、当地人帮拍照和炸鱼等细节。",
                 "body": {
-                  "text": "Well, I have been to a few quiet places near the water. But the first one that comes to my mind would be a park beside the Liangshui River in Beijing. I first learned about the river in a geography class. My teacher said it was about seventy kilometres long and looked like a flying dragon on the map. Last spring, I went to the park with my family because we wanted to see the river ourselves and spend a day outdoors. The water, flowers and small boats looked beautiful, and a local man took a family photo for us. Later, we ate fried fish in a small restaurant beside the river. I felt relaxed and happy there because the scenery was beautiful, the people were friendly and the food was delicious. I would definitely like to visit it again.",
-                  "translation": "嗯，我去过几个靠近自然景观的地方。但我首先想到的是北京凉水河边的一座公园。我最初是在地理课上知道这条河的。老师说它大约七十公里长，在地图上看起来像一条飞龙。去年春天，我和家人去了那座公园，因为我们想亲眼看看这条河，也想一起到户外活动。河水、花草和小船看起来很漂亮。一位友好的当地人主动帮我们拍全家福，还带我们去了一个视野很好的安静地点。后来，我们在河边的一家小餐馆吃了炸鱼。我在那里感到轻松又开心，因为景色很美、人很友好、食物也很好吃。我肯定还想再去。",
+                  "text": "Well, I have been to a few quiet places near the water. But the first one that comes to my mind would be a riverside park in Beijing. I first learned about the river in a geography class. My teacher said it was about seventy kilometres long and looked like a flying dragon on the map. Last spring, I went to the park with my family because we wanted to see the river ourselves and spend a day outdoors. The water, flowers and small boats looked beautiful, and a local man took a family photo for us. Later, we ate fried fish in a small restaurant beside the river. I felt relaxed and happy there because the scenery was beautiful, the people were friendly and the food was delicious. I would definitely like to visit it again.",
+                  "translation": "嗯，我去过几个靠近自然景观的地方。但我首先想到的是北京的一个河边公园。我最初是在地理课上知道这条河的。老师说它大约七十公里长，在地图上看起来像一条飞龙。去年春天，我和家人去了那座公园，因为我们想亲眼看看这条河，也想一起到户外活动。河水、花草和小船看起来很漂亮。一位友好的当地人主动帮我们拍全家福，还带我们去了一个视野很好的安静地点。后来，我们在河边的一家小餐馆吃了炸鱼。我在那里感到轻松又开心，因为景色很美、人很友好、食物也很好吃。我肯定还想再去。",
                   "highlights": [
-                    "Liangshui River",
+                    "the river",
                     "in Beijing",
                     "geography class",
                     "flying dragon",
@@ -6808,11 +6808,11 @@ window.IELTS_DATA = {
                 ],
                 "focus": "只讲建筑本身：外面全是玻璃、造型很不寻常；里面有办公室、很明亮。",
                 "body": {
-                  "text": "Well, I have visited a few interesting buildings. But the first one that comes to my mind would be Shanghai Tower in Lujiazui, Shanghai. I first saw it in a travel programme, and a friend also recommended it before my trip. I visited it with my girlfriend last year. From the outside, the whole building is covered in glass, and its shape is very unusual. It turns a little as it goes up, so it does not look like a normal tall building. Inside, there are a lot of offices, and the space is very bright. There is also a tourist area with seats, where visitors can sit down and rest. The windows are big and the walls are light in colour, so it feels clean and comfortable. We walked around inside and took a few photos. I enjoy visiting it because the design looks special and the inside is bright and open.",
-                  "translation": "嗯，我去过几座有趣的建筑。但我首先想到的是上海陆家嘴的上海中心大厦。我以前在旅游节目里见过它，旅行前朋友也向我推荐过。去年我和女朋友一起去参观了它。从外面看，整栋楼都是玻璃的，造型非常不寻常。它往上会转一点，所以不像普通的高楼。里面有很多办公室，空间非常明亮。还有一个带座位的游客区，游客可以坐下来休息。窗户很大，墙是浅色的，所以看起来干净又舒服。我们在里面走了一圈，拍了几张照片。我喜欢来这里，因为它的设计很特别，里面又明亮又开阔。",
+                  "text": "Well, I have visited a few interesting buildings. But the first one that comes to my mind would be Shanghai Tower. It is in Lujiazui, in Shanghai. I first saw it in a travel programme, and a friend also recommended it before my trip. I visited it with my girlfriend last year. From the outside, the whole building is covered in glass, and its shape is very unusual. It turns a little as it goes up, so it does not look like a normal tall building. Inside, there are a lot of offices, and the space is very bright. There is also a tourist area with seats, where visitors can sit down and rest. The windows are big and the walls are light in colour, so it feels clean and comfortable. We walked around inside and took a few photos. I enjoy visiting it because the design looks special and the inside is bright and open.",
+                  "translation": "嗯，我去过几座有趣的建筑。但我首先想到的是上海中心大厦。它位于上海陆家嘴。我以前在旅游节目里见过它，旅行前朋友也向我推荐过。去年我和女朋友一起去参观了它。从外面看，整栋楼都是玻璃的，造型非常不寻常。它往上会转一点，所以不像普通的高楼。里面有很多办公室，空间非常明亮。还有一个带座位的游客区，游客可以坐下来休息。窗户很大，墙是浅色的，所以看起来干净又舒服。我们在里面走了一圈，拍了几张照片。我喜欢来这里，因为它的设计很特别，里面又明亮又开阔。",
                   "highlights": [
                     "Shanghai Tower",
-                    "Lujiazui, Shanghai",
+                    "in Lujiazui, in Shanghai",
                     "with my girlfriend",
                     "covered in glass",
                     "shape is very unusual",
@@ -6931,7 +6931,7 @@ window.IELTS_DATA = {
                   ]
                 },
                 "body": {
-                  "text": "Well, I have been to a few crowded places. But the first one that comes to my mind would be a food festival in Shanghai. It was beside the river. I went there with my girlfriend during a trip last autumn. We wanted to try xiaolongbao, so we went in. At first, the music and colourful stalls felt exciting. There were stalls selling xiaolongbao, noodles and sweet drinks. However, there were people everywhere, the paths were narrow and we had to wait a long time for food. It was sometimes difficult to move or hear each other. In the end, we bought two boxes of xiaolongbao and found a quiet café nearby. I enjoyed the lively atmosphere, but I also felt tired and relieved when we left.",
+                  "text": "Well, I have been to a few crowded places. But the first one that comes to my mind would be a food festival. It was beside the river. I went there with my girlfriend during a trip last autumn. We wanted to try xiaolongbao, so we went in. At first, the music and colourful stalls felt exciting. There were stalls selling xiaolongbao, noodles and sweet drinks. However, there were people everywhere, the paths were narrow and we had to wait a long time for food. It was sometimes difficult to move or hear each other. In the end, we bought two boxes of xiaolongbao and found a quiet café nearby. I enjoyed the lively atmosphere, but I also felt tired and relieved when we left.",
                   "highlights": [
                     "food festival",
                     "girlfriend",
@@ -7013,15 +7013,15 @@ window.IELTS_DATA = {
                       "memoryEn": "Noise: could hardly hear each other → too many people talking"
                     },
                     {
-                      "text": "In the end, I felt disappointed because the xiaolongbao was expensive and not as tasty as we expected. We left for a quieter mall, and I felt much better once we could sit down together. So the trip ended earlier than we planned. I think that is a lesson I will remember next time we choose a place to visit.",
-                      "translation": "最后，我很失望，因为小笼包贵又没想象中好吃。我们离开去了一个安静的商场，一坐下来我就舒服多了。所以这次出门比计划结束得早。我觉得下次选地方玩的时候，我会记住这个教训。",
-                      "memory": "In the end：小笼包贵又没想象中好吃 → 去安静商场坐下 → 比计划早结束",
+                      "text": "In the end, I felt disappointed because the xiaolongbao was expensive and didn't taste good. We left for a quieter mall, and I felt much better once we could sit down together. So the trip ended earlier than we planned. I think that is a lesson I will remember next time we choose a place to visit.",
+                      "translation": "最后，我很失望，因为小笼包又贵又不好吃。我们离开去了一个安静的商场，一坐下来我就舒服多了。所以这次出门比计划结束得早。我觉得下次选地方玩的时候，我会记住这个教训。",
+                      "memory": "In the end：小笼包又贵又不好吃 → 去安静商场坐下 → 比计划早结束",
                       "highlights": [
-                        "the xiaolongbao was expensive and not as tasty as we expected",
+                        "the xiaolongbao was expensive and didn't taste good",
                         "a quieter mall",
                         "ended earlier than we planned"
                       ],
-                      "memoryEn": "Food: expensive and not as tasty → a quieter mall → ended earlier"
+                      "memoryEn": "Food: expensive and didn't taste good → a quieter mall → ended earlier"
                     }
                   ],
                   "mode": "feelings"
@@ -7087,7 +7087,7 @@ window.IELTS_DATA = {
                   ]
                 },
                 "body": {
-                  "text": "Well, I have been to a few noisy places. But the first one that comes to my mind would be a food festival in Shanghai. It was beside the river. I went there with my girlfriend during a trip last autumn. We wanted to try xiaolongbao, so we went in. At first, the music and colourful stalls felt exciting. However, there were people everywhere, the paths were narrow and we had to wait a long time for food. The visitors and sellers all made noise at the same time. The music from the loud speakers was so loud that we had to shout. In the end, we bought two boxes of xiaolongbao and found a quiet café nearby.",
+                  "text": "Well, I have been to a few noisy places. But the first one that comes to my mind would be a food festival. It was beside the river. I went there with my girlfriend during a trip last autumn. We wanted to try xiaolongbao, so we went in. At first, the music and colourful stalls felt exciting. However, there were people everywhere, the paths were narrow and we had to wait a long time for food. The visitors and sellers all made noise at the same time. The music from the loud speakers was so loud that we had to shout. In the end, we bought two boxes of xiaolongbao and found a quiet café nearby.",
                   "highlights": [
                     "food festival",
                     "last autumn",
@@ -7199,7 +7199,7 @@ window.IELTS_DATA = {
                   ""
                 ],
                 "cuePointsNotesEn": [
-                  "a food festival in Shanghai ; beside the river",
+                  "a food festival ; beside the river",
                   "during a trip last autumn",
                   "wanted to try xiaolongbao ; had to shout",
                   ""
@@ -7222,7 +7222,7 @@ window.IELTS_DATA = {
                   "And explain why you enjoy visiting there"
                 ],
                 "draftCues": [
-                  "Liangshui River",
+                  "the river",
                   "near home",
                   "flowers and boats",
                   "twice a month",
@@ -7239,9 +7239,9 @@ window.IELTS_DATA = {
                   ]
                 },
                 "body": {
-                  "text": "Well, there are a few places for a walk near my home. But the first one that comes to my mind would be a park beside the Liangshui River in Beijing. The water, flowers and small boats make it look peaceful and attractive. In spring, the flowers along the path are especially beautiful. I first visited it with my family last spring, and a friendly local man helped us take a photo and showed us a quiet spot by the river. Now I go there once or twice a month, usually with my girlfriend. We walk beside the river, take a few photos and sometimes eat fried fish in a small restaurant nearby. I enjoy the place because the scenery is beautiful, the people are friendly and the food is good.",
+                  "text": "Well, there are a few places for a walk near my home. But the first one that comes to my mind would be a riverside park in Beijing. The water, flowers and small boats make it look peaceful and attractive. In spring, the flowers along the path are especially beautiful. I first visited it with my family last spring, and a friendly local man helped us take a photo and showed us a quiet spot by the river. Now I go there once or twice a month, usually with my girlfriend. We walk beside the river, take a few photos and sometimes eat fried fish in a small restaurant nearby. I enjoy the place because the scenery is beautiful, the people are friendly and the food is good.",
                   "highlights": [
-                    "Liangshui River",
+                    "the river",
                     "water, flowers and small boats",
                     "family last spring",
                     "helped us take a photo",
@@ -7249,7 +7249,7 @@ window.IELTS_DATA = {
                     "girlfriend",
                     "fried fish",
                     "scenery is beautiful",
-                    "park beside",
+                    "riverside park",
                     "peaceful and attractive",
                     "a quiet spot by the river",
                     "walk beside the river",
@@ -7984,10 +7984,10 @@ window.IELTS_DATA = {
                 ],
                 "focus": "讲现在经常去的地方：习惯用现在时（每月一两次），具体某次经历用过去时；沿用地点素材的景美、人友好、食物好三条理由。",
                 "body": {
-                  "text": "Well, there are a few places I enjoy spending time in. But the first one that comes to my mind would be a park beside the Liangshui River, near my home. It is in the south of Beijing, about twenty minutes away, so I usually walk there or go by bus. I go there once or twice a month, usually on weekend mornings with my girlfriend. We like to arrive early, because the place is quiet and the air feels fresh. There we walk beside the water, take a few photos and watch the small boats go past. Then we sit on a bench and talk, or eat fried fish in a small restaurant nearby. You know, it is quite a simple place, but I never feel bored there. I enjoy spending time there mainly because the scenery is beautiful, the local people are friendly and the food is cheap and tasty.",
-                  "translation": "嗯，有几个地方是我喜欢待着的。但我首先想到的是家附近凉水河边的一个公园。它在北京南边，大约二十分钟路程，所以我通常走路或坐公交去。我每个月去一两次，通常是周末早上和女朋友一起。我们喜欢早点到，因为那时地方很安静，空气也很清新。我们在那里沿河散步、拍几张照片，看小船开过去。然后坐在长椅上聊天，或者在附近小馆吃炸鱼。你知道，那是个挺普通的地方，但我在那里从不觉得无聊。我喜欢待在那里，主要是因为景色美、当地人友好，还有东西又便宜又好吃。",
+                  "text": "Well, there are a few places I enjoy spending time in. But the first one that comes to my mind would be a riverside park near my home. It is in the south of Beijing, about twenty minutes away, so I usually walk there or go by bus. I go there once or twice a month, usually on weekend mornings with my girlfriend. We like to arrive early, because the place is quiet and the air feels fresh. There we walk beside the water, take a few photos and watch the small boats go past. Then we sit on a bench and talk, or eat fried fish in a small restaurant nearby. You know, it is quite a simple place, but I never feel bored there. I enjoy spending time there mainly because the scenery is beautiful, the local people are friendly and the food is cheap and tasty.",
+                  "translation": "嗯，有几个地方是我喜欢待着的。但我首先想到的是我家附近的一个河边公园。它在北京南边，大约二十分钟路程，所以我通常走路或坐公交去。我每个月去一两次，通常是周末早上和女朋友一起。我们喜欢早点到，因为那时地方很安静，空气也很清新。我们在那里沿河散步、拍几张照片，看小船开过去。然后坐在长椅上聊天，或者在附近小馆吃炸鱼。你知道，那是个挺普通的地方，但我在那里从不觉得无聊。我喜欢待在那里，主要是因为景色美、当地人友好，还有东西又便宜又好吃。",
                   "highlights": [
-                    "a park beside the Liangshui River",
+                    "a riverside park",
                     "near my home",
                     "about twenty minutes away",
                     "go by bus",
@@ -8100,7 +8100,7 @@ window.IELTS_DATA = {
                   ""
                 ],
                 "cuePointsNotesEn": [
-                  "a park beside the Liangshui River ; near my home；in the south of Beijing, about twenty minutes away",
+                  "a riverside park ; near my home；in the south of Beijing, about twenty minutes away",
                   "once or twice a month；on weekend mornings with my girlfriend；arrive early, when it is quiet and the air is fresh",
                   "walk beside the water, take a few photos and watch the small boats；sit on a bench and talk；eat fried fish in a small restaurant",
                   ""
@@ -8618,10 +8618,10 @@ window.IELTS_DATA = {
                 ],
                 "focus": "按观看时间、地点、电影内容、不喜欢的原因展开；主线仍是侦探找画，只讲剧情慢、一直聊天、浪费晚上。",
                 "body": {
-                  "text": "Well, I watch a lot of films. Some are good, and some are pretty bad. But the first one that comes to my mind would be a family film about an old grandma. I watched it at home last month, on a Saturday evening. My girlfriend and I wanted to relax after a busy week, so we chose it on a video app. The story was about an old grandma who lived in the countryside. Every day, she got up early, watered her vegetables and talked with her family. At first, we expected a warm family story. However, the story was too slow. Nothing really happened, and the characters just talked. After almost an hour, the film was still boring. In the end, I felt bored and disappointed, and the film was much longer than it needed to be. Instead of relaxing, we wasted our evening.",
-                  "translation": "嗯，我看过很多电影，有些好，有些挺差。但我首先想到的是一部讲老奶奶的家庭电影。上个月我在家看了它。那是一个周六晚上，我和女朋友想在忙碌一周后放松一下。我们在视频应用上选了它，因为简介看起来温馨又简单。故事讲的是住在乡下的一位老奶奶。她每天早起浇菜、泡茶，和家人聊天。一开始，我们期待一个温馨的家庭故事。然而，剧情太慢了。几乎什么都没发生，角色就是一直说话。过了将近一个小时，电影还是很无聊。最后，我觉得无聊又失望。电影还比实际需要的长得多。我们没有放松下来，反而觉得浪费了一个晚上。所以它是我最不喜欢的电影。",
+                  "text": "Well, I watch a lot of films. Some are good, and some are pretty bad. But the first one that comes to my mind would be a family film. I watched it at home last month, on a Saturday evening. My girlfriend and I wanted to relax after a busy week, so we chose it on a video app. The story was about an old grandma who lived in the countryside. Every day, she got up early, watered her vegetables and talked with her family. At first, we expected a warm family story. However, the story was too slow. Nothing really happened, and the characters just talked. After almost an hour, the film was still boring. In the end, I felt bored and disappointed, and the film was much longer than it needed to be. Instead of relaxing, we wasted our evening.",
+                  "translation": "嗯，我看过很多电影，有些好，有些挺差。但我首先想到的是一部家庭电影。上个月我在家看了它。那是一个周六晚上，我和女朋友想在忙碌一周后放松一下。我们在视频应用上选了它，因为简介看起来温馨又简单。故事讲的是住在乡下的一位老奶奶。她每天早起浇菜、泡茶，和家人聊天。一开始，我们期待一个温馨的家庭故事。然而，剧情太慢了。几乎什么都没发生，角色就是一直说话。过了将近一个小时，电影还是很无聊。最后，我觉得无聊又失望。电影还比实际需要的长得多。我们没有放松下来，反而觉得浪费了一个晚上。所以它是我最不喜欢的电影。",
                   "highlights": [
-                    "family film about an old grandma",
+                    "a family film",
                     "at home last month",
                     "Saturday evening",
                     "my girlfriend",
@@ -8911,10 +8911,10 @@ window.IELTS_DATA = {
                   "story": "周六下午刷到《Grandma's Garden》短片 → 奶奶种菜、做胡萝卜蛋糕 → 发给女朋友和两位老朋友 → 晚上来我家 → 客厅吃爆米花、喝饮料、看完整电影 → 大家笑得很开心 → 看完聊各自的家人 → 简单的一晚，轻松又愉快"
                 },
                 "body": {
-                  "text": "Well, I have had a few lovely evenings with friends. But the first one that comes to my mind would be a film night at my home. It was last Saturday. In the afternoon, I found a short clip from a family film called Grandma's Garden about a funny grandma. I sent it to my girlfriend and two old friends, and that evening they came to my home. We sat in the living room, watched the full movie and prepared some popcorn and drinks. The story was warm and funny, so we laughed a lot. After the movie, we talked about our own families for a while. It was a simple evening, but everyone looked relaxed and happy.",
-                  "translation": "嗯，我和朋友度过过几个美好的夜晚。但我首先想到的是在我家的一场电影之夜。那是上周六。下午我刷到家庭电影《奶奶的花园》的一段短片。短片里一位有趣的奶奶在种菜、做胡萝卜蛋糕。我把短片发给了女朋友和两位老朋友。我们有一阵子没见了，所以那天晚上他们来到我家。我们坐在客厅里，看了完整电影，还准备了爆米花和饮料。故事温暖又有趣，我们笑了很多次。看完电影后，我们又聊了一会儿各自的家人。那是一个简单的晚上，但每个人看起来都很放松、很开心。",
+                  "text": "Well, I have had a few lovely evenings with friends. But the first one that comes to my mind would be a film night. It was last Saturday. In the afternoon, I found a short clip from a family film called Grandma's Garden about a funny grandma. I sent it to my girlfriend and two old friends, and that evening they came to my home. We sat in the living room, watched the full movie and prepared some popcorn and drinks. The story was warm and funny, so we laughed a lot. After the movie, we talked about our own families for a while. It was a simple evening, but everyone looked relaxed and happy.",
+                  "translation": "嗯，我和朋友度过过几个美好的夜晚。但我首先想到的是一场电影之夜。那是上周六。下午我刷到家庭电影《奶奶的花园》的一段短片。短片里一位有趣的奶奶在种菜、做胡萝卜蛋糕。我把短片发给了女朋友和两位老朋友。我们有一阵子没见了，所以那天晚上他们来到我家。我们坐在客厅里，看了完整电影，还准备了爆米花和饮料。故事温暖又有趣，我们笑了很多次。看完电影后，我们又聊了一会儿各自的家人。那是一个简单的晚上，但每个人看起来都很放松、很开心。",
                   "highlights": [
-                    "film night at my home",
+                    "film night",
                     "last Saturday",
                     "Grandma's Garden",
                     "girlfriend and two old friends",
@@ -9052,15 +9052,15 @@ window.IELTS_DATA = {
                   ]
                 },
                 "body": {
-                  "text": "Well, there are a few laws I would like to see. But the first one that comes to my mind would be a law against throwing rubbish on the street. Anyone who broke it would have to pay a fine of 2,000 yuan. I got this idea when I visited Singapore last year and learned about a similar law there, and I noticed that the roads and parks were clean. People should follow it because it keeps public places clean. Rubbish can smell bad, attract insects and make a place unpleasant. The government should also put clear signs and enough bins in public areas. Local residents would have a better environment, so I believe the law would be popular. I would be happy to see cleaner streets.",
+                  "text": "Well, there are a few laws I would like to see. But the first one that comes to my mind would be a law against littering. Anyone who broke it would have to pay a fine of 2,000 yuan. I got this idea when I visited Singapore last year and learned about a similar law there, and I noticed that the roads and parks were clean. People should follow it because it keeps public places clean. Rubbish can smell bad, attract insects and make a place unpleasant. The government should also put clear signs and enough bins in public areas. Local residents would have a better environment, so I believe the law would be popular. I would be happy to see cleaner streets.",
                   "highlights": [
-                    "throwing rubbish",
+                    "littering",
                     "fine of 2,000 yuan",
                     "Singapore last year",
                     "keeps public places clean",
                     "clear signs and enough bins",
                     "law would be popular",
-                    "law against throwing rubbish on the street",
+                    "law against littering",
                     "smell bad, attract insects",
                     "better environment",
                     "cleaner streets"
@@ -9188,15 +9188,15 @@ window.IELTS_DATA = {
                   ]
                 },
                 "body": {
-                  "text": "Well, I know a few laws about keeping places clean. But the first one that comes to my mind would be a law against throwing rubbish on the street. I first learned about it when I visited Hong Kong last year. A local person told me that anyone who dropped rubbish in a public place could receive a large fine, which is a lot of money. During my trip, I saw rubbish bins on many streets, and most people used them. Everyone benefits from this law, especially local residents and street cleaners, because they have a better environment. The law left an impression on me.",
+                  "text": "Well, I know a few laws about keeping places clean. But the first one that comes to my mind would be a law against littering. I first learned about it when I visited Hong Kong last year. A local person told me that anyone who dropped rubbish in a public place could receive a large fine, which is a lot of money. During my trip, I saw rubbish bins on many streets, and most people used them. Everyone benefits from this law, especially local residents and street cleaners, because they have a better environment. The law left an impression on me.",
                   "highlights": [
-                    "throwing rubbish",
+                    "littering",
                     "Hong Kong last year",
                     "large fine",
                     "rubbish bins",
                     "local residents and street cleaners",
                     "left an impression",
-                    "law against throwing rubbish",
+                    "law against littering",
                     "dropped rubbish in a public place",
                     "most people used them"
                   ],
@@ -9324,10 +9324,10 @@ window.IELTS_DATA = {
                   ]
                 },
                 "body": {
-                  "text": "Well, there are a few laws I would like to introduce. But the first one that comes to my mind would be a law against throwing rubbish on the street. Anyone who broke it would have to pay a fine of 2,000 yuan. If my country introduced this law, there could be clear signs and more bins near stations and schools. Local residents would enjoy a better environment, so I think the law would be popular. I got this idea when I visited Singapore last year and a local person told me about a similar law there. I noticed that the roads and parks were very clean, and people put their rubbish into bins. I would follow the law myself.",
+                  "text": "Well, there are a few laws I would like to introduce. But the first one that comes to my mind would be a law against littering. Anyone who broke it would have to pay a fine of 2,000 yuan. If my country introduced this law, there could be clear signs and more bins near stations and schools. Local residents would enjoy a better environment, so I think the law would be popular. I got this idea when I visited Singapore last year and a local person told me about a similar law there. I noticed that the roads and parks were very clean, and people put their rubbish into bins. I would follow the law myself.",
                   "highlights": [
                     "there are a few laws I would like to introduce",
-                    "a law against throwing rubbish on the street",
+                    "a law against littering",
                     "a fine of 2,000 yuan",
                     "clear signs and more bins",
                     "the law would be popular",
@@ -9469,7 +9469,7 @@ window.IELTS_DATA = {
                   ]
                 },
                 "body": {
-                  "text": "Well, I have a few goals for the future. But the first one that comes to my mind would be becoming a manager in my software company. I have had this goal for about six years, since I joined the company as a junior worker. At first, I only checked small problems and helped senior staff. Since then, I have learned new skills, stayed late for important projects and asked my manager for advice. Three years ago, I became a senior worker, and now I help new colleagues and sometimes lead small meetings. My plan is to finish a management course, lead another project and apply for a manager position next year. I know it will take time, but I am making steady progress.",
+                  "text": "Well, I have a few goals for the future. But the first one that comes to my mind would be becoming a manager. I have had this goal for about six years, since I joined the company as a junior worker. At first, I only checked small problems and helped senior staff. Since then, I have learned new skills, stayed late for important projects and asked my manager for advice. Three years ago, I became a senior worker, and now I help new colleagues and sometimes lead small meetings. My plan is to finish a management course, lead another project and apply for a manager position next year. I know it will take time, but I am making steady progress.",
                   "highlights": [
                     "becoming a manager",
                     "about six years",
@@ -9604,7 +9604,7 @@ window.IELTS_DATA = {
                   ]
                 },
                 "body": {
-                  "text": "Well, I have a few ambitions for the future. But the first one that comes to my mind would be becoming a manager in my company. I first had this ambition six years ago when I joined the company as a junior worker. Since then, I have worked hard, sometimes worked overtime and tried to finish every task well. I have received three promotions and am now a senior worker. I also learn from my current manager, help new colleagues and practise speaking in team meetings. Last month, I led a small project while my manager was busy, and we finished it on time. I plan to take a management course and lead one more project. If things go well, I hope to achieve this ambition next year.",
+                  "text": "Well, I have a few ambitions for the future. But the first one that comes to my mind would be becoming a manager. I first had this ambition six years ago when I joined the company as a junior worker. Since then, I have worked hard, sometimes worked overtime and tried to finish every task well. I have received three promotions and am now a senior worker. I also learn from my current manager, help new colleagues and practise speaking in team meetings. Last month, I led a small project while my manager was busy, and we finished it on time. I plan to take a management course and lead one more project. If things go well, I hope to achieve this ambition next year.",
                   "highlights": [
                     "manager",
                     "six years ago",
@@ -9885,9 +9885,9 @@ window.IELTS_DATA = {
                   ]
                 },
                 "body": {
-                  "text": "Well, I have received a few lovely gifts from friends. But the first one that comes to my mind would be a cake from my friend Li Hua last year. He called me and invited me to his home after I finished a project at work. When I arrived, I noticed a beautiful cake covered with fruit, chocolate and cream. I was surprised because he had never made a cake for me before. Li Hua had made it himself: he watched a cooking video, bought the fruit that morning and wrote my name on top. It was not as perfect as one from a shop, but it looked warm and personal. We ate it, shared the highs and lows of our lives and had a great time.",
+                  "text": "Well, I have received a few lovely gifts from friends. But the first one that comes to my mind would be a cake from my friend Li Hua. He called me and invited me to his home after I finished a project at work. When I arrived, I noticed a beautiful cake covered with fruit, chocolate and cream. I was surprised because he had never made a cake for me before. Li Hua had made it himself: he watched a cooking video, bought the fruit that morning and wrote my name on top. It was not as perfect as one from a shop, but it looked warm and personal. We ate it, shared the highs and lows of our lives and had a great time.",
                   "highlights": [
-                    "Li Hua last year",
+                    "Li Hua",
                     "his home",
                     "fruit, chocolate and cream",
                     "made it himself",
@@ -10025,7 +10025,7 @@ window.IELTS_DATA = {
                   ]
                 },
                 "body": {
-                  "text": "Well, I read a few animal stories as a child. But the first one that comes to my mind would be a story about a little lion. It is a children's story about a small lion and its mother. The small lion wanted to learn how to hunt because it hoped to find food by itself. Its mother taught it how to move quietly and wait, but it ran too early and frightened the other animals away. The small lion felt sad, but its mother told it to be patient. After that, it practised every day. In the end, it could hunt a deer by itself and proudly shared the food with its mother. I read the story when I was a child because the pictures of the lions attracted me.",
+                  "text": "Well, I read a few animal stories as a child. But the first one that comes to my mind would be a story about a lion. It is a children's story about a small lion and its mother. The small lion wanted to learn how to hunt because it hoped to find food by itself. Its mother taught it how to move quietly and wait, but it ran too early and frightened the other animals away. The small lion felt sad, but its mother told it to be patient. After that, it practised every day. In the end, it could hunt a deer by itself and proudly shared the food with its mother. I read the story when I was a child because the pictures of the lions attracted me.",
                   "highlights": [
                     "small lion and its mother",
                     "learn how to hunt",
@@ -10158,7 +10158,7 @@ window.IELTS_DATA = {
                   ]
                 },
                 "body": {
-                  "text": "Well, I see quite a lot of advertisements. But the first one that comes to my mind would be a television advertisement for a Xiaomi laptop. The famous person in it is Zhang Jie, a popular Chinese singer. I first saw it on television at home one evening. In the advertisement, he opens the laptop, sings a song about it and shows how he uses it to make music. The screen then shows the laptop from different sides and explains that it is light and easy to carry. The whole advertisement lasts less than a minute, but the song is simple and easy to remember. The laptop comes in different colours, and the advertisement says its battery lasts all day. It attracted me immediately. Since then, I have seen it many times and have wanted to buy the laptop for work and entertainment.",
+                  "text": "Well, I see quite a lot of advertisements. But the first one that comes to my mind would be an advert for a Xiaomi laptop. The famous person in it is Zhang Jie, a popular Chinese singer. I first saw it on television at home one evening. In the advertisement, he opens the laptop, sings a song about it and shows how he uses it to make music. The screen then shows the laptop from different sides and explains that it is light and easy to carry. The whole advertisement lasts less than a minute, but the song is simple and easy to remember. The laptop comes in different colours, and the advertisement says its battery lasts all day. It attracted me immediately. Since then, I have seen it many times and have wanted to buy the laptop for work and entertainment.",
                   "highlights": [
                     "Xiaomi laptop",
                     "Zhang Jie",
@@ -10293,7 +10293,7 @@ window.IELTS_DATA = {
                   ]
                 },
                 "body": {
-                  "text": "Well, I watch a few programmes online to relax. But the first one that comes to my mind would be a talent show on a video app. I watched it recently. It is a weekly show in which ordinary young people sing, dance or tell jokes. The best performer wins a small prize at the end of each episode. Last weekend, I watched an episode at home after dinner. My favourite part was a young man who did a modern dance and then added some traditional Chinese movements. After that, he sang a song he had written himself. The song was simple, but the music was lively and everyone in the studio cheered. I normally watch the program once a week, and each episode is around thirty minutes.",
+                  "text": "Well, I watch a few programmes online to relax. But the first one that comes to my mind would be a talent show. I watched it recently. It is a weekly show in which ordinary young people sing, dance or tell jokes. The best performer wins a small prize at the end of each episode. Last weekend, I watched an episode at home after dinner. My favourite part was a young man who did a modern dance and then added some traditional Chinese movements. After that, he sang a song he had written himself. The song was simple, but the music was lively and everyone in the studio cheered. I normally watch the program once a week, and each episode is around thirty minutes.",
                   "highlights": [
                     "weekly show",
                     "Last weekend",
@@ -10302,7 +10302,7 @@ window.IELTS_DATA = {
                     "traditional Chinese movements",
                     "song he had written himself",
                     "once a week",
-                    "talent show on a video app",
+                    "talent show",
                     "sing, dance or tell jokes",
                     "everyone in the studio cheered",
                     "thirty minutes",
@@ -10429,7 +10429,7 @@ window.IELTS_DATA = {
                   ]
                 },
                 "body": {
-                  "text": "Well, I watch quite a lot of videos online. But the first one that comes to my mind would be a video of a young man singing and dancing. I watched it at home one evening, while looking through short videos after dinner. I watched it because I wanted to relax after a tiring day. It showed a young man singing, making jokes and dancing. At first, he wore normal clothes and moved like a modern dancer. After a few seconds, traditional music started, and he changed his movements completely. He mixed modern and traditional dances together, and the music was made by himself. It even included some people shouting, which made the performance unusual. I watched it twice, and later I sent it to Li Hua, and he laughed too. It made me laugh, and I felt much better afterwards.",
+                  "text": "Well, I watch quite a lot of videos online. But the first one that comes to my mind would be a video of a young man. I watched it at home one evening, while looking through short videos after dinner. I watched it because I wanted to relax after a tiring day. It showed a young man singing, making jokes and dancing. At first, he wore normal clothes and moved like a modern dancer. After a few seconds, traditional music started, and he changed his movements completely. He mixed modern and traditional dances together, and the music was made by himself. It even included some people shouting, which made the performance unusual. I watched it twice, and later I sent it to Li Hua, and he laughed too. It made me laugh, and I felt much better afterwards.",
                   "highlights": [
                     "at home one evening",
                     "modern dancer",
@@ -10583,10 +10583,10 @@ window.IELTS_DATA = {
                 ],
                 "focus": "书是什么、讲了什么用现在时说；读它的经历和小狮子的捕猎过程用过去时；最后一问用三个理由说明为什么读起来让人兴奋。",
                 "body": {
-                  "text": "Well, I read quite a few books in my free time. But the first one that comes to my mind would be a children's picture book about a little lion. It tells the story of a small lion and its mother. The small lion wanted to learn how to hunt, so it hoped to find food by itself. Its mother taught it how to move quietly and wait, but it always ran too early and frightened the other animals away. One afternoon, it followed a deer to the river alone, and that was the most exciting part. You know, the deer almost escaped, so the little lion had to hide behind the grass and wait for a long time. In the end, it caught the deer and proudly shared the food with its mother. To be honest, I read this book when I was a child, because the pictures of the lions attracted me, and my mother read it aloud to me almost every night.",
-                  "translation": "嗯，我空闲时读的书挺多的。但我首先想到的是一本关于小狮子的儿童图画书。它讲的是小狮子和它妈妈的故事。小狮子想学会捕猎，希望自己能找到食物。妈妈教它怎么安静地移动和等待，但它总是跑得太早，把别的动物都吓跑了。有一天下午，它独自跟着一只鹿到了河边，那是最让人兴奋的部分。你知道，那只鹿差点跑掉，所以小狮子只能躲在草丛后面等了很久。最后，它捕到了那只鹿，还骄傲地把食物分给妈妈。说实话，我是小时候读这本书的，因为书里狮子的图片吸引了我，而且妈妈几乎每天晚上读给我听。",
+                  "text": "Well, I read quite a few books in my free time. But the first one that comes to my mind would be a children's picture book. It tells the story of a small lion and its mother. The small lion wanted to learn how to hunt, so it hoped to find food by itself. Its mother taught it how to move quietly and wait, but it always ran too early and frightened the other animals away. One afternoon, it followed a deer to the river alone, and that was the most exciting part. You know, the deer almost escaped, so the little lion had to hide behind the grass and wait for a long time. In the end, it caught the deer and proudly shared the food with its mother. To be honest, I read this book when I was a child, because the pictures of the lions attracted me, and my mother read it aloud to me almost every night.",
+                  "translation": "嗯，我空闲时读的书挺多的。但我首先想到的是一本儿童图画书。它讲的是小狮子和它妈妈的故事。小狮子想学会捕猎，希望自己能找到食物。妈妈教它怎么安静地移动和等待，但它总是跑得太早，把别的动物都吓跑了。有一天下午，它独自跟着一只鹿到了河边，那是最让人兴奋的部分。你知道，那只鹿差点跑掉，所以小狮子只能躲在草丛后面等了很久。最后，它捕到了那只鹿，还骄傲地把食物分给妈妈。说实话，我是小时候读这本书的，因为书里狮子的图片吸引了我，而且妈妈几乎每天晚上读给我听。",
                   "highlights": [
-                    "a children's picture book about a little lion",
+                    "a children's picture book",
                     "a small lion and its mother",
                     "learn how to hunt",
                     "find food by itself",
@@ -10661,7 +10661,7 @@ window.IELTS_DATA = {
                   ""
                 ],
                 "cuePointsNotesEn": [
-                  "a children's picture book about a little lion",
+                  "a children's picture book",
                   "learn how to hunt ; find food by itself；move quietly and wait ; ran too early；followed a deer to the river alone ; the deer almost escaped；caught the deer ; shared the food with its mother",
                   "the pictures of the lions attracted me ; my mother read it aloud to me",
                   ""
@@ -10902,11 +10902,11 @@ window.IELTS_DATA = {
                   ]
                 },
                 "body": {
-                  "text": "Well, it's hard to choose a gift. There are a lot of options, like clothes or shoes. But the first one that comes to my mind would be a Xiaomi smart watch for my friend Alex. We met at work six years ago, and he once gave me a pair of wireless headphones. Now I want to return his kindness with a useful gift. When I choose a gift, I think about his needs first. Alex often misses important messages, so a watch could remind him to check them, and it could also help him check his health. There are white and black ones, and I would choose the black one. I would compare a few models and pick one at a reasonable price.",
-                  "translation": "嗯，挑礼物不容易，选择很多，比如衣服或鞋子。但我首先想到的是给朋友 Alex 买一块小米智能手表。我们六年前在工作中认识，他以前送过我一对无线耳机。现在我想用一件实用的礼物回报他的好意。我挑礼物时会先考虑对方的需求。Alex 经常漏看重要消息，所以智能手表可以提醒他查看，也能帮他了解健康状况。手表有白色和黑色，我会选黑色，因为看起来很酷。我会比较几个型号，选一块价格合理的。我想 Alex 会喜欢，因为他每天都能用得上。",
+                  "text": "Well, it's hard to choose a gift. There are a lot of options, like clothes or shoes. But the first one that comes to my mind would be a Xiaomi smart watch for Alex. We met at work six years ago, and he once gave me a pair of wireless headphones. Now I want to return his kindness with a useful gift. When I choose a gift, I think about his needs first. Alex often misses important messages, so a watch could remind him to check them, and it could also help him check his health. There are white and black ones, and I would choose the black one. I would compare a few models and pick one at a reasonable price.",
+                  "translation": "嗯，挑礼物不容易，选择很多，比如衣服或鞋子。但我首先想到的是给 Alex 买一块小米智能手表。我们六年前在工作中认识，他以前送过我一对无线耳机。现在我想用一件实用的礼物回报他的好意。我挑礼物时会先考虑对方的需求。Alex 经常漏看重要消息，所以智能手表可以提醒他查看，也能帮他了解健康状况。手表有白色和黑色，我会选黑色，因为看起来很酷。我会比较几个型号，选一块价格合理的。我想 Alex 会喜欢，因为他每天都能用得上。",
                   "highlights": [
                     "Xiaomi smart watch",
-                    "friend Alex",
+                    "Alex",
                     "met at work six years ago",
                     "wireless headphones",
                     "return his kindness",
@@ -11054,10 +11054,10 @@ window.IELTS_DATA = {
                   ]
                 },
                 "body": {
-                  "text": "Well, I have had a few good shopping experiences. But the first one that comes to my mind would be a visit to a Xiaomi shop near my office. I went there last month to buy a smart watch as a gift for my friend Alex. A shop assistant asked about my budget first, compared two watches, explained the main functions simply and set up the app for me. The shop was clean and bright, and the staff were friendly. He did not push the expensive one. There were white and black watches, and I chose the black one because it looked cool. In the end, I bought the watch at a reasonable price. Alex liked it because it showed work reminders and checked his health. I felt respected and pleased with the service.",
-                  "translation": "嗯，我有过几次不错的购物经历。但我首先想到的是办公室附近一家小米店。上个月我去那里给朋友 Alex 买一块智能手表当礼物。店员先问了我的预算，比较了两块手表，简单解释了主要功能，还帮我设置好应用。他没有强推贵的那款。手表有白色和黑色，我选了黑色，因为看起来很酷。最后我用合理的价格买下了手表。Alex 很喜欢，因为它能显示工作提醒，还能检查健康。我觉得受到尊重，对这次服务很满意。",
+                  "text": "Well, I have had a few good shopping experiences. But the first one that comes to my mind would be a visit to a Xiaomi shop. I went to the shop near my office last month to buy a smart watch as a gift for my friend Alex. A shop assistant asked about my budget first, compared two watches, explained the main functions simply and set up the app for me. The shop was clean and bright, and the staff were friendly. He did not push the expensive one. There were white and black watches, and I chose the black one because it looked cool. In the end, I bought the watch at a reasonable price. Alex liked it because it showed work reminders and checked his health. I felt respected and pleased with the service.",
+                  "translation": "嗯，我有过几次不错的购物经历。但我首先想到的是一家小米店。上个月我去办公室附近的那家店，给朋友 Alex 买一块智能手表当礼物。店员先问了我的预算，比较了两块手表，简单解释了主要功能，还帮我设置好应用。他没有强推贵的那款。手表有白色和黑色，我选了黑色，因为看起来很酷。最后我用合理的价格买下了手表。Alex 很喜欢，因为它能显示工作提醒，还能检查健康。我觉得受到尊重，对这次服务很满意。",
                   "highlights": [
-                    "Xiaomi shop near my office",
+                    "a Xiaomi shop",
                     "last month",
                     "smart watch",
                     "asked about my budget",
@@ -11075,7 +11075,7 @@ window.IELTS_DATA = {
                     "The shop was clean and bright"
                   ],
                   "paragraphStarts": [
-                    "I went there last month to",
+                    "I went to the shop near my office last month to",
                     "The shop was clean and bright",
                     "In the end, I bought the"
                   ]
@@ -11240,10 +11240,10 @@ window.IELTS_DATA = {
                 ],
                 "focus": "讲经常重复的通勤短途行程；习惯用现在时，具体一次堵车用过去时。",
                 "body": {
-                  "text": "Well, I take a few short trips quite often. But the first one that comes to my mind would be a riverside park beside the Liangshui River, near my home. To be honest, it is only about twenty minutes away, so I usually walk there or take a bus. I often go on Saturday afternoons with my girlfriend, because we want to relax after a busy week. We usually walk beside the water, take a few photos and eat some fried fish at a small restaurant nearby. However, the place gets very crowded at weekends. You know, there are visitors and sellers everywhere, and the paths are quite narrow. The sellers use loud speakers, so it is noisy and we can hardly hear each other. Also, the fried fish there is expensive and not as tasty as we expected.",
-                  "translation": "嗯，我经常做一些短途出游。但我首先想到的是家附近凉水河边的一个公园。说实话，那里只有大约二十分钟路程，所以我通常走路或坐公交去。我常在周六下午和女朋友一起去，因为想在忙碌一周后放松一下。我们一般会在河边走走、拍几张照片，再在附近小馆吃点炸鱼。不过周末那里非常拥挤。你知道，到处都是游客和摊主，小路也很窄。摊主用大喇叭，所以很吵，我们几乎听不清彼此说话。而且，那里的炸鱼又贵又没想象中好吃。",
+                  "text": "Well, I take a few short trips quite often. But the first one that comes to my mind would be a riverside park near my home. To be honest, it is only about twenty minutes away, so I usually walk there or take a bus. I often go on Saturday afternoons with my girlfriend, because we want to relax after a busy week. We usually walk beside the water, take a few photos and eat some fried fish at a small restaurant nearby. However, the place gets very crowded at weekends. You know, there are visitors and sellers everywhere, and the paths are quite narrow. The sellers use loud speakers, so it is noisy and we can hardly hear each other. Also, the fried fish there is expensive and doesn't taste good.",
+                  "translation": "嗯，我经常做一些短途出游。但我首先想到的是我家附近的一个河边公园。说实话，那里只有大约二十分钟路程，所以我通常走路或坐公交去。我常在周六下午和女朋友一起去，因为想在忙碌一周后放松一下。我们一般会在河边走走、拍几张照片，再在附近小馆吃点炸鱼。不过周末那里非常拥挤。你知道，到处都是游客和摊主，小路也很窄。摊主用大喇叭，所以很吵，我们几乎听不清彼此说话。而且，那里的炸鱼又贵又不好吃。",
                   "highlights": [
-                    "a riverside park beside the Liangshui River",
+                    "a riverside park near my home",
                     "To be honest",
                     "about twenty minutes away",
                     "on Saturday afternoons with my girlfriend",
@@ -11254,7 +11254,7 @@ window.IELTS_DATA = {
                     "paths are quite narrow",
                     "loud speakers",
                     "can hardly hear each other",
-                    "expensive and not as tasty as we expected"
+                    "expensive and doesn't taste good"
                   ],
                   "paragraphStarts": [
                     "To be honest, it is only",
@@ -11263,7 +11263,7 @@ window.IELTS_DATA = {
                   ]
                 },
                 "memoryChain": {
-                  "story": "家附近凉水河边公园（约二十分钟）→ 周六下午和女朋友去 → 河边散步、拍照、吃炸鱼 → 周末人非常多、路窄 → 摊主用大喇叭，很吵 → 食物又贵又不好吃",
+                  "story": "家附近河边公园（约二十分钟）→ 周六下午和女朋友去 → 河边散步、拍照、吃炸鱼 → 周末人非常多、路窄 → 摊主用大喇叭，很吵 → 食物又贵又不好吃",
                   "reasons": [
                     "拥挤：路窄＋游客摊主多 → 听不清彼此＋只能站着等",
                     "嘈杂：大喇叭叫客人＋同时说话 → 没法安静散步",
@@ -11317,21 +11317,21 @@ window.IELTS_DATA = {
                       "memoryEn": "Noise: loud speakers → talks at the same time → want to go home"
                     },
                     {
-                      "text": "What's more, the fried fish there is expensive and not as tasty as we expected. To be honest, last Saturday we waited almost half an hour and paid nearly a hundred yuan for two plates of fried fish, so it was not worth the money. I think a beautiful place should stay comfortable for visitors.",
+                      "text": "What's more, the fried fish there is expensive and doesn't taste good. To be honest, last Saturday we waited almost half an hour and paid nearly a hundred yuan for two plates of fried fish, so it was not worth the money. I think a beautiful place should stay comfortable for visitors.",
                       "memory": "炸鱼：又贵又不好吃＋等半小时、近百块 → 不值",
-                      "translation": "而且，那里的炸鱼又贵又没想象中好吃。说实话，上周六我们为两份炸鱼等了将近半小时，还花了将近一百块，所以很不值。我觉得好看的地方也应该让游客待得舒服。",
+                      "translation": "而且，那里的炸鱼又贵又不好吃。说实话，上周六我们为两份炸鱼等了将近半小时，还花了将近一百块，所以很不值。我觉得好看的地方也应该让游客待得舒服。",
                       "highlights": [
-                        "expensive and not as tasty as we expected",
+                        "expensive and doesn't taste good",
                         "waited almost half an hour",
                         "not worth the money"
                       ],
-                      "memoryEn": "Money: expensive and not as tasty → not worth the money"
+                      "memoryEn": "Money: expensive and doesn't taste good → not worth the money"
                     }
                   ],
                   "mode": "reasons"
                 },
                 "cuePointsNotes": [
-                  "家附近凉水河边的公园（说实话只有二十分钟路程，走路或坐公交）",
+                  "家附近河边的公园（说实话只有二十分钟路程，走路或坐公交）",
                   "常在周六下午和女朋友一起去（忙了一周想放松）",
                   "想在河边走走、拍几张照片、再在河边小馆吃点炸鱼",
                   ""
@@ -11341,7 +11341,7 @@ window.IELTS_DATA = {
                   "Describe an important river/lake in your country"
                 ],
                 "cuePointsNotesEn": [
-                  "beside the Liangshui River ; twenty minutes away",
+                  "a riverside park near my home ; twenty minutes away",
                   "Saturday afternoons ; with my girlfriend",
                   "walk beside the water ; eat some fried fish",
                   ""
@@ -11528,7 +11528,7 @@ window.IELTS_DATA = {
                 "answer": [
                   {
                     "kind": "课程",
-                    "text": "Well, I have taken a few courses over the years. But the first one that comes to my mind would be my English course in primary school. I especially remember one lesson when I was about ten. A foreign teacher called Mr Brown taught us a simple English song.",
+                    "text": "Well, I have taken a few courses over the years. But the first one that comes to my mind would be my English course. I especially remember one lesson when I was about ten. A foreign teacher called Mr Brown taught us a simple English song.",
                     "translation": "嗯，这些年我上过几门课程。但我首先想到的是小学时的英语课。我尤其记得十岁左右的一节课。一位叫 Mr Brown 的外教教我们唱一首简单的英文歌。"
                   },
                   {
@@ -11556,9 +11556,9 @@ window.IELTS_DATA = {
                   ]
                 },
                 "body": {
-                  "text": "Well, I have taken a few courses over the years. But the first one that comes to my mind would be my English course in primary school. I especially remember one lesson when I was about ten. A foreign teacher called Mr Brown taught us a simple English song in our usual classroom. At first, the words sounded fast and unfamiliar, so I felt a little nervous. However, he played the song several times, divided it into short lines and used simple actions to explain the meaning. We practised in small groups, and he corrected our pronunciation patiently. In the end, the whole class sang the song together. I felt excited and more confident about speaking English.",
+                  "text": "Well, I have taken a few courses over the years. But the first one that comes to my mind would be my English course. I especially remember one lesson when I was about ten. A foreign teacher called Mr Brown taught us a simple English song in our usual classroom. At first, the words sounded fast and unfamiliar, so I felt a little nervous. However, he played the song several times, divided it into short lines and used simple actions to explain the meaning. We practised in small groups, and he corrected our pronunciation patiently. In the end, the whole class sang the song together. I felt excited and more confident about speaking English.",
                   "highlights": [
-                    "English course in primary school",
+                    "English course",
                     "about ten",
                     "Mr Brown",
                     "usual classroom",
@@ -11865,10 +11865,10 @@ window.IELTS_DATA = {
                 },
                 "focus": "改成“做事之前先做计划”：每天写清单、留出自由时间、坚持的难点，再用忙碌的一周说明它既省时间又能应对突发问题。",
                 "body": {
-                  "text": "Well, I have made a few changes to save time. But the first one that comes to my mind would be making a plan before I start something. Every evening I spend ten minutes writing a list for the next day, and I put the most important thing first. Making a plan is not difficult. The hard part is keeping the habit, because when I am busy I just want to start working. So I keep the list on my phone. For example, last month our team had an urgent feature with a very tight deadline. I made a complete plan, and my teammates followed it closely. As a result, we finished the whole task on time, with no problems, and even a day early. This change saves me a lot of time, and it also helps me deal with problems that appear.",
-                  "translation": "嗯，为了节省时间，我做过几个改变。但我首先想到的是做事之前先做计划。每天晚上我会花十分钟写下第二天的清单，把最重要的事情放在最前面。做计划本身并不难。难的是坚持下去，因为一忙起来我就只想马上开始做事。所以我把清单放在手机里。比如上个月我们团队有一个很紧急的功能，期限非常紧。我做了一份完整的计划，同事们也严格按计划执行。结果我们整件事按时完成，没有出现问题，甚至还提前了一天。这个改变帮我省下很多时间，也帮我应对突然出现的问题。",
+                  "text": "Well, I have made a few changes to save time. But the first one that comes to my mind would be making a plan. Every evening I spend ten minutes writing a list for the next day, and I put the most important thing first. Making a plan is not difficult. The hard part is keeping the habit, because when I am busy I just want to start working. So I keep the list on my phone. For example, last month our team had an urgent feature with a very tight deadline. I made a complete plan, and my teammates followed it closely. As a result, we finished the whole task on time, with no problems, and even a day early. This change saves me a lot of time, and it also helps me deal with problems that appear.",
+                  "translation": "嗯，为了节省时间，我做过几个改变。但我首先想到的是做计划。每天晚上我会花十分钟写下第二天的清单，把最重要的事情放在最前面。做计划本身并不难。难的是坚持下去，因为一忙起来我就只想马上开始做事。所以我把清单放在手机里。比如上个月我们团队有一个很紧急的功能，期限非常紧。我做了一份完整的计划，同事们也严格按计划执行。结果我们整件事按时完成，没有出现问题，甚至还提前了一天。这个改变帮我省下很多时间，也帮我应对突然出现的问题。",
                   "highlights": [
-                    "making a plan before I start something",
+                    "making a plan",
                     "ten minutes",
                     "the most important thing first",
                     "not difficult",
@@ -12213,11 +12213,10 @@ window.IELTS_DATA = {
                   "story": "想买智能手表 → 第一次完全靠自己存钱买较贵物品，很特别 → 两千元，连续四个月少外卖、在家做咖啡 → 看存钱进度坚持 → 攒够买到 → 自豪、每天用、更加珍惜"
                 },
                 "body": {
-                  "text": "Well, I have saved money for a few things. But the first one that comes to my mind would be a smart watch I saved up for last year. It was the first expensive thing I bought with my own savings, and I wanted it for meeting reminders and to track my steps and sleep. It cost about two thousand yuan, so I decided to save a fixed amount each month instead. For four months, I ordered less takeaway food, made coffee at home and moved the extra money into a separate account. Sometimes I wanted to spend the money on small things, but checking my progress helped me continue. In the end, I bought it without borrowing money and felt proud. I reached my goal by saving a little every month.",
-                  "translation": "嗯，我为几样东西存过钱。但我首先想到的是去年我存钱买的一块智能手表。它对我很特别，因为这是我第一次完全靠自己一点点存下的钱买到一件较贵的物品。我想用它接收会议提醒，记录步数和睡眠。不过，它大约要两千元，马上购买会占掉太多当月预算。所以我决定每月固定存一笔钱。连续四个月，我少点外卖，在家做咖啡，把省下的钱转进一个单独的账户。有时我想拿这些钱买些小东西，但看看自己的存钱进度，又能继续坚持。最后，我不用借钱就攒够了买手表的钱。戴上它时，我感到自豪又兴奋。它提醒我，持续做一点小小的努力，也能帮助自己实现目标。我现在仍然每天使用它，也因为是自己攒钱买的而更加珍惜它。",
+                  "text": "Well, I have saved money for a few things. But the first one that comes to my mind would be a smart watch. It was the first expensive thing I bought with my own savings, and I wanted it for meeting reminders and to track my steps and sleep. It cost about two thousand yuan, so I decided to save a fixed amount each month instead. For four months, I ordered less takeaway food, made coffee at home and moved the extra money into a separate account. Sometimes I wanted to spend the money on small things, but checking my progress helped me continue. In the end, I bought it without borrowing money and felt proud. I reached my goal by saving a little every month.",
+                  "translation": "嗯，我为几样东西存过钱。但我首先想到的是一块智能手表。它对我很特别，因为这是我第一次完全靠自己一点点存下的钱买到一件较贵的物品。我想用它接收会议提醒，记录步数和睡眠。不过，它大约要两千元，马上购买会占掉太多当月预算。所以我决定每月固定存一笔钱。连续四个月，我少点外卖，在家做咖啡，把省下的钱转进一个单独的账户。有时我想拿这些钱买些小东西，但看看自己的存钱进度，又能继续坚持。最后，我不用借钱就攒够了买手表的钱。戴上它时，我感到自豪又兴奋。它提醒我，持续做一点小小的努力，也能帮助自己实现目标。我现在仍然每天使用它，也因为是自己攒钱买的而更加珍惜它。",
                   "highlights": [
                     "smart watch",
-                    "last year",
                     "meeting reminders",
                     "two thousand yuan",
                     "four months",
@@ -12342,7 +12341,7 @@ window.IELTS_DATA = {
                 "draftCues": [
                   "colleague",
                   "football match",
-                  "lunch break",
+                  "a football conversation with Alex",
                   "important to him",
                   "respect"
                 ],
@@ -12357,10 +12356,10 @@ window.IELTS_DATA = {
                   ]
                 },
                 "body": {
-                  "text": "Well, sometimes people talk about things I am not really interested in. But the first one that comes to my mind would be a football conversation with Alex during a lunch break. He had watched the match the night before and was very excited. I do not usually follow football, so at first I found it a little boring. However, I kept listening because it meant a lot to him and I did not want to be rude. I nodded and asked a few simple questions, and he enjoyed explaining it. Later, when I mentioned a work problem, he listened carefully to me too. I felt patient and positive because the conversation strengthened our relationship.",
+                  "text": "Well, sometimes people talk about things I am not really interested in. But the first one that comes to my mind would be a football conversation with Alex. He had watched the match the night before and was very excited. I do not usually follow football, so at first I found it a little boring. However, I kept listening because it meant a lot to him and I did not want to be rude. I nodded and asked a few simple questions, and he enjoyed explaining it. Later, when I mentioned a work problem, he listened carefully to me too. I felt patient and positive because the conversation strengthened our relationship.",
                   "highlights": [
                     "Alex",
-                    "lunch break",
+                    "a football conversation with Alex",
                     "a little boring",
                     "kept listening",
                     "did not want to be rude",
@@ -12577,8 +12576,8 @@ window.IELTS_DATA = {
                   "并解释你对这次经历的感受"
                 ],
                 "body": {
-                  "text": "Well, I have changed a few important decisions at work. But the first one that comes to my mind would be the release plan for a learning app. It happened last September. My original decision was to release a learning app to all students at the end of the month, but during the final test it became slow and some lessons could not open. We held a meeting, and Alex suggested releasing it in stages. After listening to him and the team, I changed my decision: a small group of students would use it first, and we would collect their feedback and fix the problems. At first I was disappointed about the delay, but the small test went well. In the end, the October release worked smoothly, and the students could use the lessons normally.",
-                  "translation": "嗯，我在工作中改变过几个重要决定。但我首先想到的是学习应用的发布计划。那是去年九月。我原本的决定是在月底向所有学生发布这款学习应用。然而在最终测试时，应用变得很卡，一些课程打不开。我们开了会，Alex 建议分阶段发布。听了他的和团队的意见后，我改变了决定：先让一小群学生使用，收集反馈并修复问题，完整版本十月再上线。一开始我对延期有点失望，但小范围测试很顺利。最后，十月的发布运行平稳，学生也能正常使用课程了。",
+                  "text": "Well, I have changed a few important decisions at work. But the first one that comes to my mind would be our release plan. It happened last September. My original decision was to release a learning app to all students at the end of the month, but during the final test it became slow and some lessons could not open. We held a meeting, and Alex suggested releasing it in stages. After listening to him and the team, I changed my decision: a small group of students would use it first, and we would collect their feedback and fix the problems. At first I was disappointed about the delay, but the small test went well. In the end, the October release worked smoothly, and the students could use the lessons normally.",
+                  "translation": "嗯，我在工作中改变过几个重要决定。但我首先想到的是我们的发布计划。那是去年九月。我原本的决定是在月底向所有学生发布这款学习应用。然而在最终测试时，应用变得很卡，一些课程打不开。我们开了会，Alex 建议分阶段发布。听了他的和团队的意见后，我改变了决定：先让一小群学生使用，收集反馈并修复问题，完整版本十月再上线。一开始我对延期有点失望，但小范围测试很顺利。最后，十月的发布运行平稳，学生也能正常使用课程了。",
                   "highlights": [
                     "important decisions",
                     "learning app",
@@ -12633,17 +12632,15 @@ window.IELTS_DATA = {
                   ]
                 },
                 "body": {
-                  "text": "Well, I have faced a few difficult problems with technology. But the first one that comes to my mind would be a problem with a learning app at work last September. My team planned to release it to all students at the end of the month, but during the final test it became very slow and several lessons could not open. I checked the error messages and repeated the test, but I could not find a safe way to release it on time. Alex, a senior engineer on my team, stayed calm and suggested releasing it to a small group first. We collected feedback, fixed the remaining problems and released the full version in October.",
+                  "text": "Well, I have faced a few difficult problems with technology. But the first one that comes to my mind would be a problem with a learning app. It happened last September at work. My team planned to release it to all students at the end of the month, but during the final test it became very slow and several lessons could not open. I checked the error messages and repeated the test, but I could not find a safe way to release it on time. Alex, a senior engineer on my team, stayed calm and suggested releasing it to a small group first. We collected feedback, fixed the remaining problems and released the full version in October.",
                   "highlights": [
                     "learning app",
-                    "last September",
                     "very slow",
                     "lessons could not open",
                     "error messages",
                     "small group first",
                     "collected feedback",
                     "full version in October",
-                    "at work",
                     "repeated the test",
                     "safe way to release it on time",
                     "senior engineer",
@@ -12780,17 +12777,16 @@ window.IELTS_DATA = {
                   ]
                 },
                 "body": {
-                  "text": "Well, I have made a few important decisions at work. But the first one that comes to my mind would be delaying the full release of a learning app last September. My team planned to release it to all students by the end of the month. However, during the final test, the app became slow and some lessons could not open. We held a meeting to decide whether to release it on time or delay it. Alex suggested breaking the release into smaller steps. After listening to him and the rest of the team, I decided to release it to a small group first and move the full release to October. I explained the decision to the project manager and made a new testing plan. In the end, the small test went well, and the full version was released in October without any big problems.",
+                  "text": "Well, I have made a few important decisions at work. But the first one that comes to my mind would be delaying the release of a learning app. My team planned to release it to all students by the end of the month. However, during the final test, the app became slow and some lessons could not open. We held a meeting to decide whether to release it on time or delay it. Alex suggested breaking the release into smaller steps. After listening to him and the rest of the team, I decided to release it to a small group first and move the full release to October. I explained the decision to the project manager and made a new testing plan. In the end, the small test went well, and the full version was released in October without any big problems.",
                   "highlights": [
                     "learning app",
-                    "last September",
                     "app became slow",
                     "delay it",
                     "After listening to him",
                     "small group first",
                     "full release to October",
                     "new testing plan",
-                    "delaying the full release",
+                    "delaying the release",
                     "release it on time or delay it",
                     "breaking the release into smaller steps",
                     "explained the decision to the project manager",
@@ -12934,7 +12930,7 @@ window.IELTS_DATA = {
                   ]
                 },
                 "body": {
-                  "text": "Well, I have had to change a few plans at work. But the first one that comes to my mind would be our plan for a learning app. I had to change it at work last September. My team's original plan was to release a learning app to all students at the end of that month. However, during the final test, the app became slow and some lessons could not open. We held a meeting, and Alex suggested that we release it in stages. Our new plan was to let a small group of students use it first, collect their feedback and fix the problems. We then planned to release the full version in October. At first, I was disappointed about the delay, but the small test went well and the final version worked smoothly.",
+                  "text": "Well, I have had to change a few plans at work. But the first one that comes to my mind would be our release plan. I had to change it at work last September. My team's original plan was to release a learning app to all students at the end of that month. However, during the final test, the app became slow and some lessons could not open. We held a meeting, and Alex suggested that we release it in stages. Our new plan was to let a small group of students use it first, collect their feedback and fix the problems. We then planned to release the full version in October. At first, I was disappointed about the delay, but the small test went well and the final version worked smoothly.",
                   "highlights": [
                     "last September",
                     "original plan",
@@ -12944,7 +12940,7 @@ window.IELTS_DATA = {
                     "small group of students",
                     "full version in October",
                     "final version worked smoothly",
-                    "plan for a learning app",
+                    "our release plan",
                     "all students",
                     "held a meeting",
                     "collect their feedback",
@@ -13074,16 +13070,15 @@ window.IELTS_DATA = {
                   ]
                 },
                 "body": {
-                  "text": "Well, I have made a few changes recently. But the first one that comes to my mind would be asking for help earlier at work, about a month ago. In the past, I believed that a good engineer should solve every problem alone. Then, after our team released a new feature, the shopping system became slow and some orders failed. I searched online and watched videos for nearly an hour, but nothing worked. Finally, I wrote down what I had checked and asked my colleague Alex for help. He reviewed the settings while I prepared test orders, and we fixed it together. Now, if I make no progress after twenty minutes, I share my notes and ask a teammate.",
+                  "text": "Well, I have made a few changes recently. But the first one that comes to my mind would be asking for help earlier. In the past, I believed that a good engineer should solve every problem alone. Then, after our team released a new feature, the shopping system became slow and some orders failed. I searched online and watched videos for nearly an hour, but nothing worked. Finally, I wrote down what I had checked and asked my colleague Alex for help. He reviewed the settings while I prepared test orders, and we fixed it together. Now, if I make no progress after twenty minutes, I share my notes and ask a teammate.",
                   "highlights": [
-                    "about a month ago",
                     "solve every problem alone",
                     "orders failed",
                     "nearly an hour",
                     "asked my colleague Alex for help",
                     "after twenty minutes",
                     "share my notes",
-                    "asking for help earlier at work",
+                    "asking for help earlier",
                     "new feature",
                     "searched online",
                     "reviewed the settings",
@@ -13214,16 +13209,15 @@ window.IELTS_DATA = {
                 "sourceOrder": 58,
                 "isNew": false,
                 "body": {
-                  "text": "Well, I have changed my mind about a few things. But the first one that comes to my mind would be solving work problems alone, about a month ago. In the past, I believed that a good engineer should solve every problem alone. Then, after our team released a new feature, the shopping system became slow and some orders failed. I searched online for nearly an hour, but nothing worked. Finally, I wrote down what I had checked and asked my colleague Alex for help, and we fixed the problem together. Now, if I make no progress after twenty minutes, I ask a teammate. I felt relieved because I did not have to face every problem alone.",
+                  "text": "Well, I have changed my mind about a few things. But the first one that comes to my mind would be solving problems alone. It happened about a month ago. In the past, I believed that a good engineer should solve every problem alone. Then, after our team released a new feature, the shopping system became slow and some orders failed. I searched online for nearly an hour, but nothing worked. Finally, I wrote down what I had checked and asked my colleague Alex for help, and we fixed the problem together. Now, if I make no progress after twenty minutes, I ask a teammate. I felt relieved because I did not have to face every problem alone.",
                   "highlights": [
-                    "about a month ago",
                     "solve every problem alone",
                     "orders failed",
                     "nearly an hour",
                     "Alex for help",
                     "after twenty minutes",
                     "felt relieved",
-                    "solving work problems alone",
+                    "solving problems alone",
                     "new feature",
                     "searched online",
                     "face every problem alone"
@@ -13473,7 +13467,7 @@ window.IELTS_DATA = {
                   ]
                 },
                 "body": {
-                  "text": "Well, I've had a few problems at work. Some were quite difficult. But the first one that comes to my mind would be a time when my colleague Alex helped me solve a problem. It happened about a year ago after our team released a new feature. The online shopping system became very slow, some orders failed and the customer service team received complaints. I first tried to solve it alone: I read the error messages, searched online and watched a few videos, but nothing worked, so I wrote down everything I had checked. When Alex returned from a meeting, he read my notes and suggested dividing the work. He checked the new settings while I prepared test orders. We soon found one wrong setting, fixed it and tested the system again, and customers could place orders normally.",
+                  "text": "Well, I've had a few problems at work. Some were quite difficult. But the first one that comes to my mind would be a time when Alex helped me. It happened about a year ago after our team released a new feature. The online shopping system became very slow, some orders failed and the customer service team received complaints. I first tried to solve it alone: I read the error messages, searched online and watched a few videos, but nothing worked, so I wrote down everything I had checked. When Alex returned from a meeting, he read my notes and suggested dividing the work. He checked the new settings while I prepared test orders. We soon found one wrong setting, fixed it and tested the system again, and customers could place orders normally.",
                   "highlights": [
                     "about a year ago",
                     "online shopping system",
@@ -13483,7 +13477,7 @@ window.IELTS_DATA = {
                     "dividing the work",
                     "one wrong setting",
                     "place orders normally",
-                    "colleague Alex helped me solve a problem",
+                    "Alex helped me",
                     "customer service team received complaints",
                     "searched online",
                     "prepared test orders"
@@ -13759,7 +13753,7 @@ window.IELTS_DATA = {
                   ]
                 },
                 "body": {
-                  "text": "Well, I often work with other people on software projects. But the first one that comes to my mind would be fixing a shopping system with my team. I worked with Alex and two teammates. A new feature had made our online shopping system slow, and some orders were failing. We met in a small room and agreed on a simple plan before touching the system. We divided the work: I checked the error messages, Alex reviewed the settings and the others prepared test orders. Every fifteen minutes, we stopped and shared our findings. The main difficulty was finding the cause quickly without creating another problem, so nobody made a change alone. After about two hours, Alex found a wrong setting. We corrected it, ran the test orders again and saw that the system was normal.",
+                  "text": "Well, I often work with other people on software projects. But the first one that comes to my mind would be fixing a shopping system. I worked with Alex and two teammates. A new feature had made our online shopping system slow, and some orders were failing. We met in a small room and agreed on a simple plan before touching the system. We divided the work: I checked the error messages, Alex reviewed the settings and the others prepared test orders. Every fifteen minutes, we stopped and shared our findings. The main difficulty was finding the cause quickly without creating another problem, so nobody made a change alone. After about two hours, Alex found a wrong setting. We corrected it, ran the test orders again and saw that the system was normal.",
                   "highlights": [
                     "Alex and two teammates",
                     "orders were failing",
@@ -13910,7 +13904,7 @@ window.IELTS_DATA = {
                   ]
                 },
                 "body": {
-                  "text": "Well, I have watched a few exciting sports events. But the first one that comes to my mind would be a live football match on television. I watched it on television at home last weekend. I do not follow every football game, so I chose this one because both teams were strong. I watched it with my girlfriend and we prepared drinks and potato chips. Soon both teams began attacking, and we talked about which side might win. The score stayed level for most of the game, and each team missed a good chance. In the final few minutes, one player ran past a defender and scored the winning goal. We both stood up and cheered because it happened so suddenly. After the match, we talked about that goal again while cleaning the table.",
+                  "text": "Well, I have watched a few exciting sports events. But the first one that comes to my mind would be a live football match. I watched it on television at home last weekend. I do not follow every football game, so I chose this one because both teams were strong. I watched it with my girlfriend and we prepared drinks and potato chips. Soon both teams began attacking, and we talked about which side might win. The score stayed level for most of the game, and each team missed a good chance. In the final few minutes, one player ran past a defender and scored the winning goal. We both stood up and cheered because it happened so suddenly. After the match, we talked about that goal again while cleaning the table.",
                   "highlights": [
                     "television at home last weekend",
                     "with my girlfriend",
@@ -14050,7 +14044,7 @@ window.IELTS_DATA = {
                   ]
                 },
                 "body": {
-                  "text": "Well, I have organized a few activities with friends. But the first one that comes to my mind would be a sunrise trip to a nearby hill. I organized it for three close friends last weekend. I suggested the idea in our group chat because we had not spent much time together. I checked the weather, chose a nearby hill and asked everyone to meet at 4:30. We also agreed to bring warm clothes because it would be cold before sunrise. I spent only about 60 yuan on bread, fruit, biscuits and water. One friend brought a picnic mat and another checked the route. We all arrived on time, walked slowly and reached the top before sunrise. Then we put the food on the mat and watched the sky become bright together.",
+                  "text": "Well, I have organized a few activities with friends. But the first one that comes to my mind would be a sunrise trip. I organized it for three close friends last weekend. I suggested the idea in our group chat because we had not spent much time together. I checked the weather, chose a nearby hill and asked everyone to meet at 4:30. We also agreed to bring warm clothes because it would be cold before sunrise. I spent only about 60 yuan on bread, fruit, biscuits and water. One friend brought a picnic mat and another checked the route. We all arrived on time, walked slowly and reached the top before sunrise. Then we put the food on the mat and watched the sky become bright together.",
                   "highlights": [
                     "three close friends last weekend",
                     "group chat",
@@ -14060,7 +14054,7 @@ window.IELTS_DATA = {
                     "picnic mat",
                     "arrived on time",
                     "before sunrise",
-                    "sunrise trip to a nearby hill",
+                    "sunrise trip",
                     "had not spent much time together",
                     "watched the sky become bright",
                     "chat",
@@ -14188,9 +14182,9 @@ window.IELTS_DATA = {
                   ]
                 },
                 "body": {
-                  "text": "Well, I have had a few nice days out without spending much. But the first one that comes to my mind would be a sunrise trip with three close friends last weekend. We met at 4:30 in the morning and walked to a nearby hill, so we paid nothing for transport or tickets. On the way, we stopped at a shop and spent only about 60 yuan on bread, fruit, biscuits and bottled water, which was enough for all four of us. We climbed slowly and chatted about school and work. We also took turns carrying the food bag. We reached the top before sunrise, and when the sky turned orange we took photos and stayed there for nearly an hour.",
+                  "text": "Well, I have had a few nice days out without spending much. But the first one that comes to my mind would be a sunrise trip. It was last weekend. We met at 4:30 in the morning and walked to a nearby hill, so we paid nothing for transport or tickets. On the way, we stopped at a shop and spent only about 60 yuan on bread, fruit, biscuits and bottled water, which was enough for all four of us. We climbed slowly and chatted about school and work. We also took turns carrying the food bag. We reached the top before sunrise, and when the sky turned orange we took photos and stayed there for nearly an hour.",
                   "highlights": [
-                    "three close friends last weekend",
+                    "sunrise trip",
                     "nearby hill",
                     "4:30",
                     "60 yuan",
@@ -14324,7 +14318,7 @@ window.IELTS_DATA = {
                   ]
                 },
                 "body": {
-                  "text": "Well, I have got up early for a few different reasons. But the first one that comes to my mind would be a sunrise trip last weekend. I got up at four o'clock to see the sunrise with three close friends. I normally get up after seven, so the alarm in the dark was difficult. I washed my face and left home with a small bag. We met at 4:30 and walked to a nearby hill, and on the way we spent about 60 yuan on food and water. The road was quiet and the air was a little cold, but talking helped us stay awake. We also heard birds singing along the path. We reached the top before sunrise and shared the food there. We watched the sky change from grey to orange, took several photos and walked home before the streets became busy.",
+                  "text": "Well, I have got up early for a few different reasons. But the first one that comes to my mind would be a sunrise trip. It was last weekend. I got up at four o'clock to see the sunrise with three close friends. I normally get up after seven, so the alarm in the dark was difficult. I washed my face and left home with a small bag. We met at 4:30 and walked to a nearby hill, and on the way we spent about 60 yuan on food and water. The road was quiet and the air was a little cold, but talking helped us stay awake. We also heard birds singing along the path. We reached the top before sunrise and shared the food there. We watched the sky change from grey to orange, took several photos and walked home before the streets became busy.",
                   "highlights": [
                     "four o'clock",
                     "alarm in the dark",
@@ -14334,7 +14328,7 @@ window.IELTS_DATA = {
                     "talking helped us stay awake",
                     "before sunrise",
                     "grey to orange",
-                    "sunrise trip last weekend",
+                    "sunrise trip",
                     "three close friends",
                     "washed my face",
                     "shared the food",
@@ -14610,10 +14604,10 @@ window.IELTS_DATA = {
                   ]
                 },
                 "body": {
-                  "text": "Well, I have tried a few ways to learn a language. But the first one that comes to my mind would be learning Japanese by following my friend Li Hua's method. I wanted to learn it for future travel because I hoped to order food and ask for directions by myself. I started with a simple Japanese book and short online videos. Every evening, I learned five words and wrote them in a small notebook, and I recorded my own voice to find mistakes. I also listened to short Japanese videos for about twenty minutes every day. I asked a teacher when I had a question, and I practised short conversations with Li Hua at weekends. At first, I could only introduce myself, but after several months I could talk about food, weather and travel plans.",
+                  "text": "Well, I have tried a few ways to learn a language. But the first one that comes to my mind would be learning Japanese. I wanted to learn it for future travel because I hoped to order food and ask for directions by myself. I started with a simple Japanese book and short online videos. Every evening, I learned five words and wrote them in a small notebook, and I recorded my own voice to find mistakes. I also listened to short Japanese videos for about twenty minutes every day. I asked a teacher when I had a question, and I practised short conversations with Li Hua at weekends. At first, I could only introduce myself, but after several months I could talk about food, weather and travel plans.",
                   "highlights": [
                     "Japanese",
-                    "Li Hua's method",
+                    "learning Japanese",
                     "future travel",
                     "small notebook",
                     "recorded my own voice",
@@ -14753,9 +14747,9 @@ window.IELTS_DATA = {
                   ]
                 },
                 "body": {
-                  "text": "Well, people in my area talk about a few kinds of local news. But the first one that comes to my mind would be a new Pang Dong Lai supermarket near my home. I first noticed it on a local TV programme last month, and later many people shared it in our neighbourhood group. The report showed the location of the new shop, the planned opening month and some local workers. Many residents were excited because they had heard good things about the supermarket. I am interested too, because the nearest large supermarket is quite far from my home now.",
+                  "text": "Well, people in my area talk about a few kinds of local news. But the first one that comes to my mind would be a new supermarket near my home. I first noticed it on a local TV programme last month, and later many people shared it in our neighbourhood group. The report showed the location of the new shop, the planned opening month and some local workers. Many residents were excited because they had heard good things about the supermarket. I am interested too, because the nearest large supermarket is quite far from my home now.",
                   "highlights": [
-                    "a new Pang Dong Lai supermarket",
+                    "a new supermarket near my home",
                     "on a local TV programme last month",
                     "our neighbourhood group",
                     "the location of the new shop",
@@ -14902,7 +14896,7 @@ window.IELTS_DATA = {
                 "answerNote": "示范经历：观看采访，用过去时叙述；可按自己实际看过的内容调整。",
                 "storyTitle": "在家看雷军的访谈",
                 "body": {
-                  "text": "Well, I have watched a few interviews with famous people. But the first one that comes to my mind would be an interview with Lei Jun, a well-known business owner in China. The interviewer asked him about his early working life, the mistakes he had made and how he worked with his team. He used simple examples and spoke openly about difficult moments. One part I found useful was about listening to others before making an important decision, which reminded me to be more open to suggestions at work. I watched it at home one evening last month, while looking for something interesting to watch. In the end, I felt encouraged, and I shared the video with a colleague.",
+                  "text": "Well, I have watched a few interviews with famous people. But the first one that comes to my mind would be an interview with Lei Jun. The interviewer asked him about his early working life, the mistakes he had made and how he worked with his team. He used simple examples and spoke openly about difficult moments. One part I found useful was about listening to others before making an important decision, which reminded me to be more open to suggestions at work. I watched it at home one evening last month, while looking for something interesting to watch. In the end, I felt encouraged, and I shared the video with a colleague.",
                   "translation": "嗯，我看过几位名人的访谈。但我首先想到的是雷军的一段访谈。他是中国一位知名企业家。上个月的一个晚上，下班后我在家看了这段采访。当时我坐在沙发上，想找点有趣的内容，就发现了这个视频。主持人问了他早期的工作经历、犯过的错误，以及怎样和团队合作。一开始，我以为会是一大段产品讨论，所以不确定自己会不会看完。不过，他用了简单的例子，也坦诚地谈到了困难的时候。有一部分我觉得很有用，讲的是做重要决定前先听别人的意见。作为软件工程师，我有时会卡在一个问题上，却忘记向同事询问想法。他的解释提醒我要更有耐心，也要更愿意接受建议。最后，我感到受到鼓舞，因为采访展示了成功背后的努力。我把视频分享给一位同事，第二天我们还聊到了它。",
                   "highlights": [
                     "an interview with Lei Jun",
@@ -15034,8 +15028,8 @@ window.IELTS_DATA = {
                 "answer": [
                   {
                     "kind": "背景",
-                    "text": "Well, I have made a few difficult decisions at work. But the first one that comes to my mind would be pausing a new feature in our shopping system. I made this decision at work about a year ago. My team had just released a new feature for an online shopping system. Soon afterwards, the system became slow and some customers could not complete their orders.",
-                    "translation": "嗯，我做过几个困难的工作决定。但我首先想到的是暂停购物系统一个新功能的决定。大约一年前我在工作中做出了这个决定。当时，我们团队刚为一个在线购物系统发布了新功能。没过多久，系统就变慢了，一些顾客无法完成订单。"
+                    "text": "Well, I have made a few difficult decisions at work. But the first one that comes to my mind would be pausing a new feature. I made this decision at work about a year ago. My team had just released a new feature for an online shopping system. Soon afterwards, the system became slow and some customers could not complete their orders.",
+                    "translation": "嗯，我做过几个困难的工作决定。但我首先想到的是暂停一个新功能的决定。大约一年前我在工作中做出了这个决定。当时，我们团队刚为一个在线购物系统发布了新功能。没过多久，系统就变慢了，一些顾客无法完成订单。"
                   },
                   {
                     "kind": "决定",
@@ -15067,7 +15061,7 @@ window.IELTS_DATA = {
                   ]
                 },
                 "body": {
-                  "text": "Well, I have made a few important decisions at work. But the first one that comes to my mind would be changing our release plan for a learning app. It happened last September. My team had planned to release the app to all students at the end of the month. However, during the final test, the app became slow and some lessons could not open. We held a meeting, and I had to decide whether to release it on time or change the plan. Alex and the team shared their ideas, and I listened carefully. But the final decision was mine, because I was responsible for the release. I decided to release it in stages: a small group of students would use it first, and we would collect their feedback before the full release in October. To be honest, it was not an easy decision, because the team had worked hard for months. But keeping the app stable was more important than keeping the original date.",
+                  "text": "Well, I have made a few important decisions at work. But the first one that comes to my mind would be changing our release plan. It happened last September. My team had planned to release the app to all students at the end of the month. However, during the final test, the app became slow and some lessons could not open. We held a meeting, and I had to decide whether to release it on time or change the plan. Alex and the team shared their ideas, and I listened carefully. But the final decision was mine, because I was responsible for the release. I decided to release it in stages: a small group of students would use it first, and we would collect their feedback before the full release in October. To be honest, it was not an easy decision, because the team had worked hard for months. But keeping the app stable was more important than keeping the original date.",
                   "highlights": [
                     "changing our release plan",
                     "last September",
@@ -15088,7 +15082,7 @@ window.IELTS_DATA = {
                     "However, during the final test, the",
                     "I decided to release it in"
                   ],
-                  "translation": "嗯，我在工作中做过几个重要决定。但我首先想到的是改变学习应用的发布计划。那是去年九月。我的团队原本计划在月底向所有学生发布这款应用。然而在最终测试时，应用变得很卡，一些课程打不开。我们开了会，我必须决定是按时发布还是改变计划。Alex 和团队分享了他们的想法，我也认真听了。但最终的决定是我做的，因为发布由我负责。我决定分阶段发布：先让一小群学生使用，收集他们的反馈，十月再全面发布。说实话，这个决定不容易，因为团队已经辛苦了好几个月。但保护学生比守住原来的日期更重要。"
+                  "translation": "嗯，我在工作中做过几个重要决定。但我首先想到的是改变我们的发布计划。那是去年九月。我的团队原本计划在月底向所有学生发布这款应用。然而在最终测试时，应用变得很卡，一些课程打不开。我们开了会，我必须决定是按时发布还是改变计划。Alex 和团队分享了他们的想法，我也认真听了。但最终的决定是我做的，因为发布由我负责。我决定分阶段发布：先让一小群学生使用，收集他们的反馈，十月再全面发布。说实话，这个决定不容易，因为团队已经辛苦了好几个月。但保护学生比守住原来的日期更重要。"
                 },
                 "pointsLabel": "Why I was happy with the result＋Money / Emotion / Relationship",
                 "reasons": [
