@@ -3,8 +3,10 @@
 // 例外：Hometown（P1）与 Describe a time when you received good service in a shop/store（P2）
 // 另据《2026 年 9–12 月雅思口语新题完整版》一级重点清单补标为高频，补标日期：2026-09-11。
 // 按飞书题库维护原题；isNew 区分新题与保留题，sourceOrder 为题库顺序。
-// priorityRank 为《2026 年 9–12 月雅思口语新题完整版》一级重点清单的行序，值越小越靠前
-// （Part 1 为 1–15，Part 2 为 1–14）；未设置该字段的题目按原有规则排在其后。
+// xiaohongshu=true 表示该题出自小红书《2026 年 9–12 月雅思口语新题完整版》一级重点清单，
+// 页面上显示「小红书」标签，并排在所有题目最前面。
+// priorityRank 为同一份清单的行序，值越小越靠前（Part 1 为 1–15，Part 2 为 1–14）；
+// 未设置这两个字段的题目按原有规则排在其后。
 // Part 2 一题一张卡：题卡小问、对应故事与理由；共用素材的题目用 linked 互链方便串题。
 // 素材通过普通 script 标签载入，无需 fetch、构建步骤或本地服务器。
 
@@ -167,6 +169,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "september-names",
+      "xiaohongshu": true,
       "priorityRank": 7,
       "isHighFreq": true,
       "tab": "名字",
@@ -271,6 +274,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "september-fruit-vegetables",
+      "xiaohongshu": true,
       "priorityRank": 4,
       "isHighFreq": true,
       "tab": "水果与蔬菜",
@@ -332,6 +336,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "september-paper-letters",
+      "xiaohongshu": true,
       "priorityRank": 8,
       "isHighFreq": true,
       "tab": "纸张与书信",
@@ -394,6 +399,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "september-advertisements",
+      "xiaohongshu": true,
       "priorityRank": 11,
       "isHighFreq": true,
       "tab": "广告",
@@ -467,6 +473,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "september-shoes",
+      "xiaohongshu": true,
       "priorityRank": 5,
       "isHighFreq": true,
       "tab": "鞋子",
@@ -518,6 +525,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "september-rubbish-recycling",
+      "xiaohongshu": true,
       "priorityRank": 9,
       "isHighFreq": true,
       "tab": "垃圾与回收",
@@ -624,6 +632,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "september-politeness",
+      "xiaohongshu": true,
       "priorityRank": 6,
       "isHighFreq": true,
       "tab": "礼貌",
@@ -1486,6 +1495,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "retained-jokes-and-comedies",
+      "xiaohongshu": true,
       "priorityRank": 15,
       "isHighFreq": true,
       "tab": "笑话与喜剧",
@@ -1668,6 +1678,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "retained-singing",
+      "xiaohongshu": true,
       "priorityRank": 13,
       "isHighFreq": true,
       "tab": "唱歌",
@@ -1999,6 +2010,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "retained-watches",
+      "xiaohongshu": true,
       "priorityRank": 14,
       "isHighFreq": true,
       "tab": "手表",
@@ -2317,6 +2329,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "retained-social-media",
+      "xiaohongshu": true,
       "priorityRank": 10,
       "isHighFreq": true,
       "tab": "社交媒体",
@@ -2490,6 +2503,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "work",
+      "xiaohongshu": true,
       "priorityRank": 1,
       "isHighFreq": true,
       "tab": "职业与规划",
@@ -2719,11 +2733,11 @@ window.IELTS_DATA = {
         },
         {
           "question": "Do you want to change to another job?",
-          "answer": "No, not really. I enjoy programming, and I can earn a good salary in my current job. I hope to get promoted at my company in the next five years.",
+          "answer": "No, not really. I enjoy programming, and I can earn a good salary in my current job. I hope to get a promotion at my company in the next five years.",
           "memoryChunks": [
             "enjoy programming",
             "a good salary",
-            "get promoted",
+            "get a promotion",
             "the next five years"
           ],
           "translation": "不太想。我喜欢编程，目前这份工作也能让我拿到不错的薪水。我希望在未来五年内在公司获得晋升。"
@@ -2734,6 +2748,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "home",
+      "xiaohongshu": true,
       "priorityRank": 2,
       "tab": "家乡",
       "title": "Hometown",
@@ -3071,6 +3086,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "home-area",
+      "xiaohongshu": true,
       "priorityRank": 3,
       "isHighFreq": true,
       "tab": "居住区域",
@@ -3154,6 +3170,7 @@ window.IELTS_DATA = {
     },
     {
       "id": "september-new-opportunities",
+      "xiaohongshu": true,
       "priorityRank": 12,
       "isHighFreq": true,
       "tab": "新的机会",
@@ -3556,6 +3573,7 @@ window.IELTS_DATA = {
               },
               {
                 "id": "p2-feishu-popular-person",
+                "xiaohongshu": true,
                 "priorityRank": 11,
                 "code": "N02",
                 "name": "受欢迎的人",
@@ -3800,6 +3818,7 @@ window.IELTS_DATA = {
                 "fit": "新题",
                 "answerNote": "5.5 分目标参考答案；先记住故事顺序，人物、时间和经历可按实际情况调整。",
                 "id": "p2-feishu-taught-new-skill",
+                "xiaohongshu": true,
                 "priorityRank": 5,
                 "code": "N04",
                 "name": "教你新技能的人",
@@ -4330,6 +4349,7 @@ window.IELTS_DATA = {
                 "fit": "新题",
                 "answerNote": "5.5 分目标参考答案；先记住故事顺序，人物、时间和经历可按实际情况调整。",
                 "id": "p2-feishu-handcraft-person",
+                "xiaohongshu": true,
                 "priorityRank": 6,
                 "code": "N09",
                 "name": "擅长做手工的人",
@@ -5953,6 +5973,7 @@ window.IELTS_DATA = {
               },
               {
                 "id": "p2-happy-person",
+                "xiaohongshu": true,
                 "priorityRank": 13,
                 "code": "S11",
                 "name": "我认识的快乐的人",
@@ -6457,6 +6478,7 @@ window.IELTS_DATA = {
               },
               {
                 "id": "p2-feishu-helpful-person",
+                "xiaohongshu": true,
                 "priorityRank": 7,
                 "name": "乐于助人的人",
                 "question": "Describe a person who often helps others",
@@ -6661,6 +6683,7 @@ window.IELTS_DATA = {
             "items": [
               {
                 "id": "p2-feishu-near-natural-place",
+                "xiaohongshu": true,
                 "priorityRank": 2,
                 "code": "N14",
                 "name": "去过的靠近自然的地方",
@@ -6681,34 +6704,34 @@ window.IELTS_DATA = {
                   "你为什么去那里",
                   "并解释你对这个地方的感受"
                 ],
-                "storyTitle": "凉水河边的公园｜家庭出游、地点三美",
+                "storyTitle": "河边小公园｜朋友推荐、地点三美",
                 "draftCues": [
-                  "the river",
                   "Beijing",
+                  "first learned about it from a friend",
                   "family last spring",
                   "flowers and boats",
                   "family photo",
                   "fried fish"
                 ],
-                "focus": "沿用凉水河素材：把具体地点说成凉水河边的公园，并保留家庭出游、河边景色、当地人帮拍照和炸鱼等细节。",
+                "focus": "重点讲公园本身：朋友推荐后和家人同去；公园紧邻河边，保留河边景色、当地人帮拍照和炸鱼等细节，不展开讲河的背景。",
                 "body": {
-                  "text": "Well, I have been to a few quiet places near the water. But the first one that comes to my mind would be a riverside park in Beijing. I first learned about the river in a geography class. My teacher said it was about seventy kilometres long and looked like a flying dragon on the map. Last spring, I went to the park with my family because we wanted to see the river ourselves and spend a day outdoors. The water, flowers and small boats looked beautiful, and a local man took a family photo for us. Later, we ate fried fish in a small restaurant beside the river. I felt relaxed and happy there because the scenery was beautiful, the people were friendly and the food was delicious. I would definitely like to visit it again.",
-                  "translation": "嗯，我去过几个靠近水边的安静地方。但我首先想到的是北京的一个河边公园。我最初是在地理课上知道这条河的。老师说它大约七十公里长，在地图上看起来像一条飞龙。去年春天，我和家人去了那座公园，因为我们想亲眼看看这条河，也想一起到户外活动。河水、花草和小船看起来很漂亮，一位友好的当地人还帮我们拍了全家福。后来，我们在河边的一家小餐馆吃了炸鱼。我在那里感到轻松又开心，因为景色很美、人很友好、食物也很好吃。我肯定还想再去。",
+                  "text": "Well, I have been to a few quiet places near the water. But the first one that comes to my mind would be a riverside park in Beijing. I first learned about this park from a friend, so I went there with my family last spring. The park sits right beside the river, and the water, flowers and small boats look really nice. A local man took a family photo for us, and he showed us a quiet spot by the water. Later, we ate fried fish in a small restaurant near the park. I felt relaxed and happy there because the scenery was beautiful, the people were friendly and the food was delicious. I would definitely like to visit it again.",
+                  "translation": "嗯，我去过几个靠近水边的安静地方。但我首先想到的是北京的一个河边公园。我最初是从一个朋友那里知道这个公园的，所以去年春天我和家人一起去了。公园就紧挨着河边，河水、花草和小船看起来都很好看。一位友好的当地人帮我们拍了全家福，还带我们去了一个安静看水的地方。后来，我们在公园附近的一家小餐馆吃了炸鱼。我在那里感到轻松又开心，因为景色很美、人很友好、食物也很好吃。我肯定还想再去。",
                   "highlights": [
-                    "the river",
-                    "in Beijing",
-                    "geography class",
-                    "flying dragon",
+                    "a riverside park in Beijing",
+                    "I first learned about this park from a friend",
                     "with my family",
+                    "right beside the river",
                     "water, flowers and small boats",
+                    "a quiet spot by the water",
                     "family photo",
                     "scenery was beautiful",
                     "food was delicious",
                     "like to visit it again"
                   ],
                   "paragraphStarts": [
-                    "I first learned about the river",
-                    "Later, we ate fried fish in",
+                    "I first learned about this park",
+                    "A local man took a family photo",
                     "I would definitely like to visit"
                   ]
                 },
@@ -6721,15 +6744,15 @@ window.IELTS_DATA = {
                   },
                   "reasons": [
                     {
-                      "text": "First of all, the river, flowers and small boats create a beautiful view. Walking there helped me relax and forget about work. You know, it is a nice change after a busy week in the city.",
-                      "translation": "首先，河水、花和小船构成很美的景色。在那里走走能让我放松、忘掉工作。你知道，在城里忙了一周之后，这样的变化很好。",
-                      "memory": "景美：河水花草小船 → 散步放松 → 忙一周后的好变化",
+                      "text": "First of all, the park sits right beside the river, so the view is beautiful. Walking there helped me relax and forget about work. You know, it is a nice change after a busy week in the city.",
+                      "translation": "首先，公园就紧挨着河边，所以景色很美。在那里走走能让我放松、忘掉工作。你知道，在城里忙了一周之后，这样的变化很好。",
+                      "memory": "景美：公园紧邻河边 → 散步放松 → 忙一周后的好变化",
                       "highlights": [
-                        "create a beautiful view",
+                        "sits right beside the river",
                         "helped me relax",
                         "a nice change"
                       ],
-                      "memoryEn": "Scenery: flowers and small boats → helped me relax → a nice change"
+                      "memoryEn": "Scenery: right beside the river → helped me relax → a nice change"
                     },
                     {
                       "text": "Secondly, the local people were friendly. One man helped us take a family photo and showed us a quiet spot by the river, so we felt welcome. To be honest, small kindnesses like that make a trip special.",
@@ -6756,23 +6779,23 @@ window.IELTS_DATA = {
                   "mode": "feelings"
                 },
                 "cuePointsNotes": [
-                  "北京凉水河边的一个公园",
+                  "北京的一个河边公园",
                   "和家里人一起去的",
-                  "地理课上听过这条河：大约七十公里长，地图上像一条飞龙；去年春天想去亲眼看看这条河",
+                  "最初是从一个朋友那里知道这个公园的；去年春天就带家人一起去了",
                   ""
                 ],
                 "memoryChain": {
-                  "story": "凉水河边公园（北京）→ 地理课听过：约70公里、地图上像飞龙 → 去年春天和家人去，想亲眼看看这条河 → 水、花、小船好看；当地人帮拍全家福、指了安静看河的地方 → 河边吃炸鱼 → 散步很放松",
+                  "story": "北京的一个河边小公园 → 最初从朋友那里知道 → 去年春天和家人一起去 → 公园紧邻河边，水、花、小船好看；当地人帮拍全家福、指了安静看水的地方 → 公园附近吃炸鱼 → 散步很放松",
                   "reasons": [
-                    "1 · 景美：河水花草小船 → 散步 → 放松",
+                    "1 · 景美：公园紧邻河边 → 散步 → 放松",
                     "2 · 人美：帮忙拍照指路 → 感到欢迎",
                     "3 · 食物美：河边炸鱼 → 好吃实惠 → 出游更难忘"
                   ]
                 },
                 "cuePointsNotesEn": [
-                  "a park ; beside the Liangshui River",
+                  "a riverside park ; in Beijing",
                   "with my family",
-                  "in a geography class ; like a flying dragon；Last spring ; see the river ourselves",
+                  "first learned about it from a friend；went there last spring",
                   ""
                 ]
               },
@@ -6901,6 +6924,7 @@ window.IELTS_DATA = {
                 "fit": "新题",
                 "answerNote": "5.5 分目标参考答案；先记住故事顺序，人物、时间和经历可按实际情况调整。",
                 "id": "p2-feishu-crowded-place",
+                "xiaohongshu": true,
                 "priorityRank": 9,
                 "code": "N16",
                 "name": "拥挤的地方",
@@ -6923,7 +6947,7 @@ window.IELTS_DATA = {
                 "focus": "地点是上海河边的周末美食节；重点突出人多、走路慢和排队。",
                 "omit": "不用记游客人数或节日正式名称。",
                 "memoryChain": {
-                  "story": "去年秋天和女朋友去上海 → 河边碰到周末美食节 → 想尝小笼包所以进去 → 人很多、走得慢、买小笼包要排队 → 先兴奋后疲惫，最后去安静咖啡馆休息",
+                  "story": "去年秋天和女朋友去上海 → 河边碰到周末美食节（第一次参加） → 想尝小笼包所以进去 → 人很多、走得慢、买小笼包要排队 → 先兴奋后疲惫，最后去安静咖啡馆休息",
                   "reasons": [
                     "摊位和游客很多 → 路变窄 → 走路很慢",
                     "大家排队买小笼包 → 等了很久 → 感到疲惫",
@@ -6931,7 +6955,7 @@ window.IELTS_DATA = {
                   ]
                 },
                 "body": {
-                  "text": "Well, I have been to a few crowded places. But the first one that comes to my mind would be a food festival. It was beside the river. I went there with my girlfriend during a trip last autumn. We wanted to try xiaolongbao, so we went in. At first, the music and colourful stalls felt exciting. There were stalls selling xiaolongbao, noodles and sweet drinks. However, there were people everywhere, the paths were narrow and we had to wait a long time for food. It was sometimes difficult to move or hear each other. In the end, we bought two boxes of xiaolongbao and found a quiet café nearby. I enjoyed the lively atmosphere, but I also felt tired and relieved when we left.",
+                  "text": "Well, I have been to a few crowded places. But the first one that comes to my mind would be a food festival. It was beside the river. I went there with my girlfriend during a trip last autumn. We wanted to try xiaolongbao, so we went in. At first, it was our first time at a food festival, so we felt excited. There were stalls selling xiaolongbao, noodles and sweet drinks. However, there were people everywhere, the paths were narrow and we had to wait a long time for food. It was sometimes difficult to move or hear each other. In the end, we bought two boxes of xiaolongbao and found a quiet café nearby. I enjoyed the lively atmosphere, but I also felt tired and relieved when we left.",
                   "highlights": [
                     "food festival",
                     "girlfriend",
@@ -6944,7 +6968,8 @@ window.IELTS_DATA = {
                     "quiet café nearby",
                     "tired and relieved",
                     "beside the river",
-                    "music and colourful stalls",
+                    "our first time at a food festival",
+                    "felt excited",
                     "paths were narrow",
                     "difficult to move or hear",
                     "However",
@@ -6952,7 +6977,7 @@ window.IELTS_DATA = {
                   ],
                   "paragraphStarts": [
                     "It was beside the river",
-                    "At first, the music and colourful",
+                    "At first, it was our first time",
                     "In the end, we bought two"
                   ]
                 },
@@ -7057,6 +7082,7 @@ window.IELTS_DATA = {
                 "fit": "新题",
                 "answerNote": "5.5 分目标参考答案；先记住故事顺序，人物、时间和经历可按实际情况调整。",
                 "id": "p2-feishu-noisy-place",
+                "xiaohongshu": true,
                 "priorityRank": 1,
                 "code": "N17",
                 "name": "嘈杂的地方",
@@ -7074,12 +7100,15 @@ window.IELTS_DATA = {
                   "food festival",
                   "music",
                   "sellers and visitors",
-                  "could not hear"
+                  "could not hear",
+                  "crowded road",
+                  "felt tired",
+                  "quiet café break"
                 ],
-                "focus": "沿用上海美食节，重点切到音乐、叫卖声和人群说话声。",
-                "omit": "拥挤感简短带过，不需要再编新地点。",
+                "focus": "沿用上海美食节，重点切到音乐、叫卖声和人群说话声；结尾补「道路很挤、周围全是人 → 出来时很累 → 去附近安静的咖啡馆休息一下」。",
+                "omit": "不需要再编新地点；拥挤和疲惫各说一两句，最后落在咖啡馆休息即可。",
                 "memoryChain": {
-                  "story": "去年秋天和女朋友去上海 → 河边碰到周末美食节 → 想尝小笼包所以进去 → 人很多、走得慢、买小笼包要排队 → 先兴奋后疲惫，最后去安静咖啡馆休息 → 游客和摊主同时制造噪音。",
+                  "story": "去年秋天和女朋友去上海 → 河边碰到周末美食节（第一次参加） → 想尝小笼包所以进去 → 一开始很兴奋 → 人很多、走得慢、买小笼包要排队 → 道路很挤、周围全是人 → 出来时觉得很累 → 在附近找了家安静的咖啡馆休息一下 → 游客和摊主同时制造噪音。",
                   "reasons": [
                     "摊位和游客很多 → 路变窄 → 走路很慢",
                     "大家排队买小笼包 → 等了很久 → 感到疲惫",
@@ -7087,7 +7116,7 @@ window.IELTS_DATA = {
                   ]
                 },
                 "body": {
-                  "text": "Well, I have been to a few noisy places. But the first one that comes to my mind would be a food festival. It was beside the river. I went there with my girlfriend during a trip last autumn. We wanted to try xiaolongbao, so we went in. At first, the music and colourful stalls felt exciting. However, there were people everywhere, the paths were narrow and we had to wait a long time for food. The visitors and sellers all made noise at the same time. The music from the loud speakers was so loud that we had to shout. In the end, we bought two boxes of xiaolongbao and found a quiet café nearby.",
+                  "text": "Well, I have been to a few noisy places. But the first one that comes to my mind would be a food festival. It was beside the river. I went there with my girlfriend during a trip last autumn. We wanted to try xiaolongbao, so we went in. At first, it was our first time at a food festival, so we felt excited. However, there were people everywhere, the paths were narrow and we had to wait a long time for food. The visitors and sellers all made noise at the same time. The music from the loud speakers was so loud that we had to shout. In the end, we bought two boxes of xiaolongbao. The road was really crowded, and there were so many people around us. When we came out, we felt very tired, so we found a quiet café nearby to take a break.",
                   "highlights": [
                     "food festival",
                     "last autumn",
@@ -7096,16 +7125,21 @@ window.IELTS_DATA = {
                     "people everywhere",
                     "made noise at the same time",
                     "In the end",
+                    "The road was really crowded",
+                    "so many people around us",
+                    "felt very tired",
                     "quiet café nearby",
+                    "to take a break",
                     "beside the river",
                     "girlfriend",
-                    "music and colourful stalls",
+                    "our first time at a food festival",
+                    "felt excited",
                     "sellers",
                     "so loud that we had to shout"
                   ],
                   "paragraphStarts": [
                     "It was beside the river",
-                    "At first, the music and colourful",
+                    "At first, it was our first time",
                     "In the end, we bought two"
                   ]
                 },
@@ -7195,13 +7229,13 @@ window.IELTS_DATA = {
                 "cuePointsNotes": [
                   "上海河边的美食节",
                   "去年秋天旅行的时候",
-                  "和女朋友进去买小笼包，排了很久的队，人多到听不清彼此说话",
+                  "和女朋友进去买小笼包，排了很久的队；人多到听不清彼此说话；道路很挤，周围全是人；出来时觉得很累；就在附近找了家安静的咖啡馆休息一下",
                   ""
                 ],
                 "cuePointsNotesEn": [
                   "a food festival ; beside the river",
                   "during a trip last autumn",
-                  "wanted to try xiaolongbao ; had to shout",
+                  "wanted to try xiaolongbao；had to shout；the road was crowded ; so many people around us；felt very tired；a quiet café nearby",
                   ""
                 ]
               },
@@ -8735,6 +8769,7 @@ window.IELTS_DATA = {
                 "fit": "新题",
                 "answerNote": "5.5 分目标参考答案；先记住故事顺序，人物、时间和经历可按实际情况调整。",
                 "id": "p2-feishu-waste-time",
+                "xiaohongshu": true,
                 "priorityRank": 8,
                 "code": "N28",
                 "name": "浪费时间的活动",
@@ -8886,6 +8921,7 @@ window.IELTS_DATA = {
                 "fit": "新题",
                 "answerNote": "5.5 分目标参考答案；先记住故事顺序，人物、时间和经历可按实际情况调整。",
                 "id": "p2-feishu-enjoyable-evening",
+                "xiaohongshu": true,
                 "priorityRank": 14,
                 "code": "N32",
                 "name": "和朋友度过的愉快夜晚",
@@ -10557,6 +10593,7 @@ window.IELTS_DATA = {
               },
               {
                 "id": "p2-new-exciting-book",
+                "xiaohongshu": true,
                 "priorityRank": 4,
                 "name": "让你兴奋的书",
                 "question": "Describe an exciting book you have read",
@@ -11023,6 +11060,7 @@ window.IELTS_DATA = {
                 "fit": "新题",
                 "answerNote": "5.5 分目标参考答案；先记住故事顺序，人物、时间和经历可按实际情况调整。",
                 "id": "p2-feishu-good-shop-service",
+                "xiaohongshu": true,
                 "priorityRank": 3,
                 "code": "N29",
                 "name": "购物时的优质服务",
@@ -11215,6 +11253,7 @@ window.IELTS_DATA = {
             "items": [
               {
                 "id": "p2-feishu-disliked-short-trip",
+                "xiaohongshu": true,
                 "priorityRank": 10,
                 "name": "不喜欢的短途旅行",
                 "question": "Describe a short trip you often take but do not like",
@@ -12085,34 +12124,38 @@ window.IELTS_DATA = {
                   "多少人参加",
                   "并解释为什么让你印象深刻"
                 ],
-                "storyTitle": "为 Alex 晋升举办的小聚会",
+                "storyTitle": "为导师 Alex 举办的升职聚会，我送了一支钢笔",
                 "draftCues": [
+                  "my mentor",
                   "last winter",
                   "restaurant",
                   "urgent project",
                   "Alex helped, finished on time",
-                  "Alex promoted",
+                  "Alex got a promotion",
                   "ten colleagues",
                   "short speeches",
-                  "felt valued"
+                  "small gift",
+                  "closer to Alex"
                 ],
-                "focus": "交代庆祝的特殊事件、参加人数，再用具体安排解释为什么难忘。",
+                "focus": "他是我的导师；聚会是庆祝他升职、感谢他；我提前准备了一支钢笔当礼物，从那以后我们的关系更近了。",
                 "body": {
-                  "text": "Well, I have been to a few small celebrations with colleagues. But the first one that comes to my mind would be a party for Alex. We held it last winter, in a restaurant near our office. A few weeks before that, we had a very urgent project with a short deadline. Alex was experienced, so he helped us solve several problems quickly, and thanks to him, we finished the project on time. After that, he got promoted, so we held the party to celebrate his promotion and thank him. About ten of us booked a private room and ordered several dishes to share, such as noodles, chicken and vegetables. After dinner, each person said a few words about how Alex had helped them, and someone gave him a card from the whole team. He looked surprised and said he had not realised those small acts of help meant so much. The dishes were simple, but I left feeling closer to my colleagues.",
-                  "translation": "嗯，我参加过几次同事间的小型庆祝。但我首先想到的是为Alex举办的聚会。我们在去年冬天举办了这场聚会，地点在办公室附近的餐厅。就在几周前，我们有一个非常紧急、工期很短的项目。Alex经验丰富，帮我们很快解决了几个问题，多亏了他，项目才按时完成。之后他获得了升职，所以我们举办了这场聚会来庆祝他升职，也感谢他。我们团队大约十个人订了包间，点了几道菜一起吃，比如面条、鸡肉和蔬菜。饭后，每个人都说了几句，讲一次 Alex 帮助自己的经历。还有人送给他一张写着全组祝福的卡片。他看起来很惊讶，说自己没有意识到那些小小的帮助对我们意义这么大。菜式很简单，但离开时我觉得和同事更亲近了。",
+                  "text": "Well, I have been to a few small celebrations with colleagues. But the first one that comes to my mind would be a party for Alex. He is my mentor at work, not just a colleague. We held it last winter, in a restaurant near our office. A few weeks before that, we had a very urgent project with a short deadline. Alex was experienced, so he helped us solve several problems quickly, and thanks to him, we finished the project on time. After that, he got a promotion, so we held the party to celebrate and thank him. About ten of us booked a private room and ordered several dishes to share, such as noodles, chicken and vegetables. After dinner, each person said a few words about how Alex had helped them. I had also prepared a small gift for him, a good pen, to say thank you. He looked surprised and said he liked the pen very much. He also said he had not realised those small acts of help meant so much. Since that evening, Alex and I have been much closer, and I am not afraid to ask him questions now.",
+                  "translation": "嗯，我参加过几次同事间的小型庆祝。但我首先想到的是为 Alex 举办的聚会。他是我的导师，不只是同事。我们在去年冬天办了这场聚会，地点在办公室附近的餐厅。就在几周前，我们有一个非常紧急、工期很短的项目。Alex 经验丰富，帮我们很快解决了几个问题，多亏了他，项目才按时完成。之后他升职了，所以我们办了这场聚会来庆祝，也感谢他。我们团队大约十个人订了包间，点了几道菜一起吃，比如面条、鸡肉和蔬菜。饭后，每个人都说了几句 Alex 帮过自己的事。我还提前给他准备了一份小礼物——一支好钢笔，向他道谢。他看起来很意外，说他非常喜欢这支笔。他还说自己没有意识到那些小小的帮助对我们意义这么大。从那天晚上以后，我和 Alex 的关系近了很多，现在我也不怕问他问题了。",
                   "highlights": [
                     "a party for Alex",
+                    "my mentor at work",
                     "last winter",
                     "a restaurant near our office",
                     "a very urgent project",
                     "solve several problems quickly",
                     "finished the project on time",
-                    "he got promoted",
-                    "celebrate his promotion",
+                    "he got a promotion",
+                    "to celebrate and thank him",
                     "about ten of us",
-                    "a private room",
-                    "a card from the whole team",
-                    "feeling closer to my colleagues"
+                    "each person said a few words",
+                    "prepared a small gift for him",
+                    "said he liked the pen very much",
+                    "much closer"
                   ],
                   "paragraphStarts": [
                     "We held it last winter, in",
@@ -12129,58 +12172,60 @@ window.IELTS_DATA = {
                   },
                   "reasons": [
                     {
-                      "text": "First of all, the messages for Alex were personal and honest. Each person talked about a time when he had helped them. You know, that felt much warmer than just saying congratulations. So it felt really warm.",
-                      "translation": "首先，大家对 Alex 说的话都很真诚、很具体。每个人都讲了一件他曾帮过自己的事。你知道，这比单纯说恭喜温暖得多。所以现场气氛很暖。",
-                      "memory": "Emotion：每人讲被帮的事 → 真诚具体 → 比说恭喜温暖",
+                      "text": "First of all, Alex is my mentor, not just a colleague. When I started my first job, he taught me how to do my work step by step, and he still helps me whenever I have a problem. So I really wanted to thank him in a proper way.",
+                      "translation": "首先，Alex 是我的导师，不只是同事。我刚开始第一份工作时，他一步一步教我怎么做事，现在我有问题他还是会帮我。所以我特别想好好地谢谢他。",
+                      "memory": "导师关系：第一份工作就带我 → 一直帮我 → 我特别想好好谢他",
                       "highlights": [
-                        "personal and honest",
-                        "a time when he had helped them",
-                        "warmer than just saying congratulations"
+                        "my mentor, not just a colleague",
+                        "taught me how to do my work step by step",
+                        "still helps me whenever I have a problem",
+                        "wanted to thank him"
                       ],
-                      "memoryEn": "Emotion: personal and honest → each person talked → much warmer"
+                      "memoryEn": "Mentor: he taught me from my first job → still helps me → I wanted to thank him"
                     },
                     {
-                      "text": "Secondly, the party brought our team closer. We had time to share food and talk about things outside our usual tasks. I left feeling that we understood and appreciated one another more.",
-                      "translation": "其次，这次聚会让我们团队更亲近。我们有时一起吃饭，聊工作之外的事。离开时我觉得我们更理解、也更欣赏彼此了。",
-                      "memory": "Relationship：一起吃饭聊工作外的事 → 更理解彼此 → 团队更近",
+                      "text": "Secondly, I had prepared a small gift for him, a good pen. He did not expect it at all, and he looked really surprised. You know, he said he liked the pen very much.",
+                      "translation": "其次，我提前给他准备了一份小礼物——一支好钢笔。他完全没想到，看起来很意外。你知道，他说他非常喜欢这支笔。",
+                      "memory": "礼物：准备了一支好钢笔 → 他完全没想到 → 他很喜欢这支笔",
                       "highlights": [
-                        "brought our team closer",
-                        "talk about things outside our usual tasks",
-                        "appreciated one another more"
+                        "prepared a small gift for him",
+                        "he did not expect it at all",
+                        "He looked really surprised",
+                        "he said he liked the pen very much"
                       ],
-                      "memoryEn": "Relationship: share food → appreciated one another more → brought our team closer"
+                      "memoryEn": "Gift: a good pen → he did not expect it → he liked it very much"
                     },
                     {
-                      "text": "What's more, we did not need expensive entertainment to make the evening special. The dishes were simple, and someone brought a card. I think the care behind the celebration mattered most. So a simple dinner was enough. I think that is what a good celebration should be about.",
-                      "translation": "此外，我们不需要昂贵的娱乐也能让这个晚上特别。菜式很简单，有人送了一张卡片。我觉得庆祝背后的心意最重要。所以一顿简单的饭就够了。我觉得好的庆祝活动就该是这个样子。",
-                      "memory": "Money：简单菜式＋卡片 → 心意最重要 → 不用花大钱",
+                      "text": "What's more, since that evening Alex and I have been much closer. I am not afraid to ask him questions now, and he often asks me how my work is going. So for me it was not just a dinner; it was the evening my mentor became a real friend.",
+                      "translation": "此外，从那天晚上以后，我和 Alex 的关系近了很多。现在我不怕问他问题了，他也常问我工作怎么样。所以对我来说，那不只是一顿饭，而是我的导师变成真正的朋友的那个晚上。",
+                      "memory": "关系：之后近了很多 → 不怕问他问题 → 导师变成真正的朋友",
                       "highlights": [
-                        "expensive entertainment",
-                        "someone brought a card",
-                        "the care behind the celebration"
+                        "Alex and I have been much closer",
+                        "not afraid to ask him questions",
+                        "the evening my mentor became a real friend"
                       ],
-                      "memoryEn": "Money: dishes were simple → did not need expensive entertainment"
+                      "memoryEn": "Relationship: much closer since then → not afraid to ask him → mentor became a real friend"
                     }
                   ],
                   "mode": "reasons"
                 },
                 "cuePointsNotes": [
                   "去年冬天，在公司附近的一家餐厅，我们订了包间",
-                  "几周前有个很紧急的项目，Alex经验丰富帮我们很快解决问题、按时完成，他因此升职，所以我们办聚会庆祝他升职、感谢他",
+                  "他是我的导师；几周前有个很紧急的项目，Alex经验丰富帮我们很快解决问题、按时完成，他因此升职，所以我们办聚会庆祝他升职、感谢他；我还准备了一支钢笔当礼物",
                   "我们团队大约十个人参加",
                   ""
                 ],
                 "memoryChain": {
-                  "story": "去年冬天，公司附近餐厅包间 → 约10人 → 几周前有个很紧急的项目，Alex经验丰富帮我们很快解决问题，项目按时完成 → 他因此升职 → 我们办聚会庆祝他升职＋感谢他 → 每人讲一件被帮过的事 → 送签名卡 → 他很意外，说没想到这些小帮助这么重要 → 没有昂贵娱乐，但很温暖，散场时觉得团队更近",
+                  "story": "导师 Alex：我第一份工作就带我、一直帮我 → 去年冬天，公司附近餐厅包间，约10人 → 几周前有个很紧急的项目，他帮我们很快解决、项目按时完成 → 他因此升职 → 我们办聚会庆祝＋感谢他 → 每人讲一件被帮过的事 → 我提前准备了一支钢笔当礼物 → 他完全没想到，说很喜欢这支笔 → 从那以后我和他关系近了很多，也不怕问他问题了",
                   "reasons": [
-                    "1 · Emotion：亲身经历＋真诚感谢 → 温暖",
-                    "2 · Relationship：分享菜式＋交流 → 团队更亲近",
-                    "3 · Money：简单菜式＋卡片 → 心意让聚会特别"
+                    "1 · 导师关系：第一份工作就带我 → 一直帮我 → 我特别想好好谢他",
+                    "2 · 礼物：准备了一支好钢笔 → 他完全没想到 → 他很喜欢这支笔",
+                    "3 · 关系：之后近了很多 → 不怕问他问题 → 导师变成真正的朋友"
                   ]
                 },
                 "cuePointsNotesEn": [
                   "last winter ; a restaurant near our office",
-                  "a very urgent project ; celebrate his promotion",
+                  "my mentor；a very urgent project ; he got a promotion；prepared a small gift",
                   "About ten of us",
                   ""
                 ]
@@ -12190,6 +12235,7 @@ window.IELTS_DATA = {
                 "fit": "新题",
                 "answerNote": "5.5 分目标参考答案；先记住故事顺序，人物、时间和经历可按实际情况调整。",
                 "id": "p2-feishu-saved-money",
+                "xiaohongshu": true,
                 "priorityRank": 12,
                 "code": "N30",
                 "name": "攒钱买特别物品",
@@ -12339,49 +12385,51 @@ window.IELTS_DATA = {
                   "And explain how you felt about the experience"
                 ],
                 "draftCues": [
-                  "colleague",
+                  "mentor",
                   "football match",
                   "a football conversation with Alex",
-                  "important to him",
-                  "respect"
+                  "my mentor, show respect",
+                  "gave me advice"
                 ],
-                "focus": "同事午休时一直讲足球比赛；我不懂足球，但因为这件事对他很重要而认真听。",
+                "focus": "导师午休时一直讲足球比赛；我不懂足球，但他是我的导师、我要表示尊重，所以认真听下去。",
                 "omit": "不用记球队、球员或比分。",
                 "memoryChain": {
-                  "story": "午休和同事 Alex 吃饭 → 他兴奋地讲昨晚足球比赛 → 我不看足球、开始有点无聊 → 仍然点头并问简单问题，因为他很开心 → 他后来也认真听我的工作烦恼",
+                  "story": "午休和导师 Alex 吃饭 → 他兴奋地讲昨晚足球比赛 → 我不看足球、开始有点无聊 → 但他是我的导师、我要表示尊重，所以继续点头并问简单问题 → 他后来也认真听我的工作烦恼，还给了我建议",
                   "reasons": [
-                    "话题对他重要 → 认真听表示尊重 → 关系更好",
+                    "他是我的导师 → 认真听表示尊重 → 关系更好",
                     "不用懂足球 → 问简单问题即可 → 对方感到被重视",
                     "我耐心听他 → 后来他也听我 → 交流是双向的"
                   ]
                 },
                 "body": {
-                  "text": "Well, sometimes people talk about things I am not really interested in. But the first one that comes to my mind would be a football conversation with Alex. He had watched the match the night before and was very excited. I do not usually follow football, so at first I found it a little boring. However, I kept listening because it meant a lot to him and I did not want to be rude. I nodded and asked a few simple questions, and he enjoyed explaining it. Later, when I mentioned a work problem, he listened carefully to me too. I felt patient and positive because the conversation strengthened our relationship.",
+                  "text": "Well, sometimes people talk about things I am not really interested in. But the first one that comes to my mind would be a football conversation with Alex. He is my mentor at work, and he has taught me a lot. He had watched the match the night before and was very excited. I do not usually follow football, so at first I found it a little boring. However, I kept listening because he is my mentor and I respect him. I wanted to show him respect. I nodded and asked a few simple questions, and he enjoyed explaining it. Later, when I mentioned a work problem, he listened carefully and gave me some advice. I felt patient and positive because the conversation strengthened our relationship.",
+                  "translation": "嗯，有时候别人会聊一些我其实不太感兴趣的事。但我首先想到的是和 Alex 的一次聊足球。他是我的导师，教过我很多东西。前一天晚上他看了那场比赛，非常兴奋。我平时不看足球，所以一开始觉得有点无聊。但我还是继续听了下去，因为他是我的导师，我很尊重他。我想表示对他的尊重。我看着他、点头，还问了几个简单的问题，他很愿意讲。后来我提到一个工作上的问题，他也认真听，还给了我一些建议。我觉得自己很有耐心，心情也很好，因为这次谈话让我们关系更近了。",
                   "highlights": [
                     "Alex",
                     "a football conversation with Alex",
+                    "my mentor",
                     "a little boring",
                     "kept listening",
-                    "did not want to be rude",
+                    "wanted to show him respect",
                     "simple questions",
-                    "strengthened our relationship",
-                    "meant a lot to him",
-                    "listened carefully to me"
+                    "listened carefully",
+                    "gave me some advice",
+                    "strengthened our relationship"
                   ],
                   "paragraphStarts": [
                     "He had watched the match the",
-                    "However, I kept listening because it",
+                    "However, I kept listening because he",
                     "I felt patient and positive because"
                   ]
                 },
                 "pointsLabel": "Why I kept listening / how I felt＋Money / Emotion / Relationship",
                 "reasons": [
                   {
-                    "text": "The topic was important to Alex, so listening carefully was a simple way to show respect.",
-                    "memory": "对他重要 → 认真听 → 表示尊重",
+                    "text": "Alex is my mentor and has taught me a lot at work, so listening carefully was a simple way to show him respect.",
+                    "memory": "他是我的导师 → 认真听 → 表示尊重",
                     "highlights": [
-                      "important to Alex",
-                      "show respect"
+                      "my mentor",
+                      "show him respect"
                     ]
                   },
                   {
@@ -12444,26 +12492,29 @@ window.IELTS_DATA = {
                       "memoryEn": "Emotion: follow football → did not know much → a little bored"
                     },
                     {
-                      "text": "After a while, I felt positive because I could see how excited Alex was. I asked a few simple questions and listened carefully. It felt good to show a friend some respect. So I kept asking simple questions.",
-                      "translation": "过了一会儿，我的感觉变好了，因为我能看出 Alex 有多兴奋。我问了几个简单的问题，认真听他说。尊重朋友的感觉很好。所以我继续问了一些简单的问题。",
-                      "memory": "After a while：他很兴奋 → 我提问＋认真听 → 尊重朋友",
+                      "text": "After a while, I felt positive because I could see how excited Alex was. He is my mentor, so I wanted to show him respect, and I listened carefully. You know, asking a few simple questions was an easy way to do that.",
+                      "translation": "过了一会儿，我的感觉变好了，因为我能看出 Alex 有多兴奋。他是我的导师，所以我想表示尊重，就认真听他讲。你知道，问几个简单的问题就是很容易做到的方式。",
+                      "memory": "After a while：他是我的导师 → 想表示尊重 → 认真听＋问简单问题",
                       "highlights": [
                         "how excited Alex was",
-                        "asked a few simple questions",
-                        "show a friend some respect"
+                        "He is my mentor",
+                        "wanted to show him respect",
+                        "listened carefully",
+                        "simple questions"
                       ],
-                      "memoryEn": "Emotion: how excited Alex was → listened carefully → show a friend some respect"
+                      "memoryEn": "Emotion: my mentor → wanted to show respect → listened carefully"
                     },
                     {
-                      "text": "In the end, I felt closer to him because he listened to my work problem too. I think good communication works both ways. We do not have to like every topic to support each other. I think that is important for any friendship.",
-                      "translation": "最后，我觉得和他更亲近了，因为他后来也认真听我讲工作上的问题。我觉得好的沟通是双向的。我们不必喜欢每个话题，也能互相支持。我觉得这对任何友谊都很重要。",
-                      "memory": "In the end：他也听我说工作 → 沟通是双向的 → 关系更近",
+                      "text": "In the end, I felt closer to him because he listened to my work problem too, and he even gave me some advice. I think good communication works both ways. We do not have to like every topic to support each other. I think that is important for any relationship.",
+                      "translation": "最后，我觉得和他更亲近了，因为他后来也认真听我讲工作上的问题，还给了我一些建议。我觉得好的沟通是双向的。我们不必喜欢每个话题，也能互相支持。我觉得这对任何关系都很重要。",
+                      "memory": "In the end：他也听我说工作＋给我建议 → 沟通是双向的 → 关系更近",
                       "highlights": [
                         "felt closer to him",
+                        "gave me some advice",
                         "works both ways",
                         "support each other"
                       ],
-                      "memoryEn": "Relationship: my work problem → works both ways → felt closer to him"
+                      "memoryEn": "Relationship: he listened and gave advice → works both ways → felt closer to him"
                     }
                   ],
                   "mode": "feelings"
@@ -12475,15 +12526,15 @@ window.IELTS_DATA = {
                   "并解释你对这次经历的感受"
                 ],
                 "cuePointsNotes": [
-                  "同事 Alex",
+                  "我的导师 Alex",
                   "午饭时他讲前一晚看的足球赛，非常兴奋",
-                  "我平时不看足球，一开始觉得有点无聊；但那场比赛对他很重要，我不想显得没礼貌；我看着他、点头，还问了几个简单问题（比如这个结果为什么重要），他很愿意讲",
+                  "我平时不看足球，一开始觉得有点无聊；但他是我的导师，我很尊重他，所以想表示尊重；我看着他、点头，还问了几个简单问题（比如这个结果为什么重要），他很愿意讲",
                   ""
                 ],
                 "cuePointsNotesEn": [
-                  "a football conversation with Alex",
+                  "my mentor Alex",
                   "the match the night before ; very excited",
-                  "do not usually follow football ; a little boring；kept listening ; meant a lot to him；nodded and asked ; a few simple questions",
+                  "do not usually follow football ; a little boring；kept listening ; my mentor ; show respect；nodded and asked ; a few simple questions",
                   ""
                 ]
               },
@@ -14887,7 +14938,7 @@ window.IELTS_DATA = {
                 "draftCues": [
                   "last month-at home-online interview-Lei Jun",
                   "early work-mistakes-teamwork",
-                  "calm explanation-useful for my work"
+                  "stayed energetic and calm-hard times"
                 ],
                 "fit": "新题 · 观看采访",
                 "focus": "明确是自己在家观看主持人采访雷军；说明采访内容和看完后的感受。题干保留飞书原文的缺词。",
@@ -14896,26 +14947,27 @@ window.IELTS_DATA = {
                 "answerNote": "示范经历：观看采访，用过去时叙述；可按自己实际看过的内容调整。",
                 "storyTitle": "在家看雷军的访谈",
                 "body": {
-                  "text": "Well, I have watched a few interviews with famous people. But the first one that comes to my mind would be an interview with Lei Jun. The interviewer asked him about his early working life, the mistakes he had made and how he worked with his team. He used simple examples and spoke openly about difficult moments. One part I found useful was about listening to others before making an important decision, which reminded me to be more open to suggestions at work. I watched it at home one evening last month, while looking for something interesting to watch. In the end, I felt encouraged, and I shared the video with a colleague.",
-                  "translation": "嗯，我看过几段名人的访谈。但我首先想到的是雷军的一段访谈。主持人问了他早期的工作经历、犯过的错误，以及他怎样和团队合作。他用了简单的例子，也坦诚地谈了困难的时候。我觉得有一段很有用，讲的是做重要决定前先听别人的意见，这提醒我在工作中要更愿意接受建议。上个月的一个晚上，我在家找点有趣的东西看，就看了这段访谈。最后，我感到受到鼓舞，还把视频分享给了一位同事。",
+                  "text": "Well, I have watched a few interviews with famous people. But the first one that comes to my mind would be an interview with Lei Jun. The interviewer asked him about his early working life, the mistakes he had made and how he worked with his team. He used simple examples and spoke openly about his hard times. What impressed me the most was that he stayed energetic and calm when he faced difficult situations. I watched it at home one evening last month, when I was looking for something interesting to watch. It encouraged me a lot, and I shared it with a colleague. So I still remember it.",
+                  "translation": "嗯，我看过几段名人的访谈。但我首先想到的是雷军的一段访谈。主持人问了他早期的工作经历、犯过的错误，以及他怎样和团队合作。他用了简单的例子，也坦诚地谈了自己难的时候。让我印象最深的是，他面对困难时仍然很有干劲，也很冷静。上个月的一个晚上，我在家想找点有意思的东西看，就看了这段访谈。它让我很受鼓舞，我还把它分享给了一位同事。所以到现在我还记得。",
                   "highlights": [
                     "an interview with Lei Jun",
                     "his early working life",
                     "the mistakes he had made",
-                    "spoke openly about difficult moments",
-                    "listening to others before making an important decision",
+                    "spoke openly about his hard times",
+                    "stayed energetic and calm when he faced difficult situations",
                     "at home one evening last month",
-                    "felt encouraged",
-                    "shared the video with a colleague"
+                    "encouraged me a lot",
+                    "shared it with a colleague",
+                    "so I still remember it"
                   ],
                   "paragraphStarts": [
                     "The interviewer asked him about his",
-                    "One part I found useful was",
-                    "In the end, I felt encouraged"
+                    "What impressed me the most was",
+                    "It encouraged me a lot"
                   ]
                 },
                 "memoryChain": {
-                  "story": "上个月下班后在家看雷军访谈 → 主持人问早期工作、错误和团队合作 → 本来怕只讲产品 → 简单例子、坦诚谈困难 → 学到决定前听别人意见 → 受到鼓舞、分享给同事"
+                  "story": "上个月下班后在家看雷军访谈 → 主持人问早期工作、错误和团队合作 → 本来怕只讲产品 → 简单例子、坦诚谈难处 → 印象最深：面对困难仍很有干劲、很冷静 → 受到鼓舞、分享给同事、所以至今记得"
                 },
                 "pointsLabel": "观看采访的感受｜按需要选用",
                 "reasonHint": false,
@@ -14959,26 +15011,26 @@ window.IELTS_DATA = {
                       "memoryEn": "Emotion: his early mistakes → success feel more realistic → keep learning"
                     },
                     {
-                      "text": "Secondly, I found his simple examples useful for my own work. He said people should listen before making an important decision. I think that can help me work better with my colleagues. So I learned something useful.",
-                      "translation": "其次，他那些简单的例子对我的工作很有用。他说做重要决定之前应该先听别人意见。我觉得这能帮我更好地和同事合作。所以我学到了有用的东西。",
-                      "memory": "Learning：先听后决定 → 帮我和同事合作 → 学到方法",
+                      "text": "Secondly, I found his attitude useful for my own work. He never gave up, even when things were hard. I think that can help me work better with my colleagues. So I learned something useful.",
+                      "translation": "其次，他的态度对我的工作很有用。就算事情很难，他也从不放弃。我觉得这能帮我更好地和同事合作。所以我学到了有用的东西。",
+                      "memory": "Learning：不放弃 → 帮我和同事合作 → 学到方法",
                       "highlights": [
-                        "simple examples",
-                        "listen before making an important decision",
+                        "his attitude useful for my own work",
+                        "He never gave up",
                         "work better with my colleagues"
                       ],
-                      "memoryEn": "Learning: an important decision → work better with my colleagues → learned something useful"
+                      "memoryEn": "Learning: never gave up → work better with my colleagues → learned something useful"
                     },
                     {
-                      "text": "What's more, I was happy that I shared the interview with a colleague. We talked about it the next day and exchanged our ideas. A useful video gave us a good conversation. So the video was worth watching. I think a video is worth sharing when it teaches you something.",
-                      "translation": "此外，我很高兴把这段采访分享给了同事。我们第二天聊了聊，交换了想法。一个有用的视频给了我们一次很好的交流。所以这个视频很值得看。我觉得一个视频能让你学到东西，就值得分享。",
-                      "memory": "Relationship：分享给同事 → 第二天交流想法 → 一次好对话",
+                      "text": "What's more, this interview taught me a lot. It encouraged me to become a better programmer, and I also want to be a successful person like him in the future. So it gave me a clear goal.",
+                      "translation": "此外，我从这段采访里学到了很多。它鼓励我成为更好的程序员，我以后也想成为像他一样成功的人。所以它给了我一个明确的目标。",
+                      "memory": "Goal：学到很多 → 想成为更好的程序员 → 想成为像他一样成功的人",
                       "highlights": [
-                        "shared the interview with a colleague",
-                        "exchanged our ideas",
-                        "a good conversation"
+                        "this interview taught me a lot",
+                        "encouraged me to become a better programmer",
+                        "a successful person like him"
                       ],
-                      "memoryEn": "Relationship: shared the interview → exchanged our ideas → a good conversation"
+                      "memoryEn": "Goal: learned a lot → become a better programmer → a successful person like him"
                     }
                   ],
                   "mode": "feelings"
@@ -14989,13 +15041,13 @@ window.IELTS_DATA = {
                 ],
                 "cuePointsNotes": [
                   "雷军，中国知名的企业家",
-                  "主持人问他早年的工作、犯过的错，以及怎么和团队合作；我印象最深的一段是：做重要决定前先听别人的意见",
+                  "主持人问他早年的工作、犯过的错，以及怎么和团队合作；我印象最深的是：他面对困难时还是很有干劲、很冷静",
                   "上个月，下班后在家看的；我坐在沙发上找有意思的视频时刷到",
                   ""
                 ],
                 "cuePointsNotesEn": [
                   "Lei Jun ; a well-known business owner",
-                  "early working life ; the mistakes he had made；listening to others ; before making an important decision",
+                  "early working life ; the mistakes he had made；stayed energetic and calm ; when he faced difficult situations",
                   "one evening last month ; at home；something interesting to watch",
                   ""
                 ]

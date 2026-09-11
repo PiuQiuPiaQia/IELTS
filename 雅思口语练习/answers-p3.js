@@ -877,7 +877,7 @@ window.P3_ANSWERS = {
     "p": ["It depends, but usually…", "mainly because…", "many more job opportunities", "For example,…", "a stable income", "So…"]
   },
   "new-recent-change||Is it good for people to get a job promotion?": {
-    "a": "我觉得升职对大部分人是好事（Yes, definitely.）。主要是因为（mainly because…）升职以后[after a promotion]，他们有更稳定的收入（a stable income），他们家里花钱也更轻松[their family can spend money more easily]。比如（For example,…）很多人去年升职了[a lot of people got promoted last year]，他们每个月多拿两千块[they get two thousand yuan more every month]，他们也很有成就感（a real sense of achievement）。所以（So…）就算工作累一点[even if the work is a bit tiring]，大部分人还是想升职[most people still want a promotion]。",
+    "a": "我觉得升职对大部分人是好事（Yes, definitely.）。主要是因为（mainly because…）升职以后[after a promotion]，他们有更稳定的收入（a stable income），他们家里花钱也更轻松[their family can spend money more easily]。比如（For example,…）很多人去年升职了[a lot of people got a promotion last year]，他们每个月多拿两千块[they get two thousand yuan more every month]，他们也很有成就感（a real sense of achievement）。所以（So…）就算工作累一点[even if the work is a bit tiring]，大部分人还是想升职[most people still want a promotion]。",
     "g": "钱",
     "p": ["Yes, definitely.", "mainly because…", "a stable income", "For example,…", "a real sense of achievement", "So…"]
   },

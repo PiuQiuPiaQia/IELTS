@@ -89,6 +89,8 @@ main { width: min(1360px, calc(100% - 32px)); min-height: calc(100vh - 72px); ma
 .question-status-tag.status-retained { background: #e5eef0; color: #345e64; }
 .question-status-tag.status-non-mainland { background: #e8e6f7; color: #55448c; }
 .question-status-tag.status-highfreq { background: #c0392b; color: #fff; }
+/* 小红书：该题出自小红书《2026 年 9–12 月雅思口语新题完整版》一级重点清单 */
+.question-status-tag.status-xiaohongshu { background: #ffe4ea; color: #c2185b; box-shadow: inset 0 0 0 1px #ffb8ca; }
 .sidebar-button:hover, .sidebar-button:focus-visible { background: var(--soft); }
 .sidebar-button.active { background: var(--accent); color: #fff; }
 .sidebar-button.active small { color: #d5e9e1; }

@@ -557,6 +557,10 @@ function materialLabel(material) {
 }
 
 function questionStatusTag(item) {
+  // 小红书：出自小红书《2026 年 9–12 月雅思口语新题完整版》一级重点清单的题目，排在所有题目最前。
+  const xiaohongshuTag = item.xiaohongshu
+    ? '<span class="question-status-tag status-xiaohongshu">小红书</span>'
+    : "";
   const highFreqTag = item.isHighFreq
     ? '<span class="question-status-tag status-highfreq">高频</span>'
     : "";
@@ -564,13 +568,15 @@ function questionStatusTag(item) {
   const regionTag = item.isNonMainland
     ? '<span class="question-status-tag status-non-mainland">非大陆地区</span>'
     : "";
-  return highFreqTag + questionTag + regionTag;
+  return xiaohongshuTag + highFreqTag + questionTag + regionTag;
 }
 
-// priorityRank：按《2026 年 9–12 月雅思口语新题完整版》一级重点清单的行序固定在前，
-// 值越小越靠前（Part 1 为 1–15，Part 2 为 1–14）。未设置该字段的题目保持原有排序规则。
+// xiaohongshu：出自小红书《2026 年 9–12 月雅思口语新题完整版》一级重点清单的题目，永远排在最前。
+// priorityRank：同一份清单的行序，值越小越靠前（Part 1 为 1–15，Part 2 为 1–14）。
+// 未设置这两个字段的题目保持原有排序规则。
 function compareQuestionBankEntries(a, b) {
-  return (a.priorityRank ?? Number.POSITIVE_INFINITY) - (b.priorityRank ?? Number.POSITIVE_INFINITY) ||
+  return Number(Boolean(b.xiaohongshu)) - Number(Boolean(a.xiaohongshu)) ||
+    (a.priorityRank ?? Number.POSITIVE_INFINITY) - (b.priorityRank ?? Number.POSITIVE_INFINITY) ||
     Number(Boolean(b.isHighFreq)) - Number(Boolean(a.isHighFreq)) ||
     Number(Boolean(b.isNew)) - Number(Boolean(a.isNew)) ||
     Number(Boolean(a.isNonMainland)) - Number(Boolean(b.isNonMainland)) ||
@@ -677,6 +683,7 @@ function partTwoTipsHtml(tips, universalMaterials = []) {
   const storyCards = nativeItems.map(({ group, item }) => ({
     isNew: item.isNew,
     isHighFreq: item.isHighFreq,
+    xiaohongshu: item.xiaohongshu,
     sourceOrder: item.sourceOrder,
     priorityRank: item.priorityRank,
     title: item.name || item.storyTitle || item.question,
