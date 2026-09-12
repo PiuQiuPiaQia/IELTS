@@ -10,7 +10,7 @@
 | `analyze.py` | 流水线脚本：MLX Whisper 转写 + ffmpeg 静音检测，产出统计。**不打分** |
 | `recordings/` | 用户存的录音（gitignore） |
 | `output/<录音名>/` | 每次分析的产物（gitignore）：`report.md`、`transcript.txt`、`transcript.json`、`metrics.json` |
-| `错题本.md` | 累计错题与替换表（2026-09-12 建，已覆盖 10 份录音：8 份 P2 单题 + 2 份完整模考）。**默认不动**，仅用户明确要求跨录音汇总时更新 |
+| `错题本.md` | **错句清单**：按错误类型分组，只记说错的句子（来源 10 份录音批改）。**默认不动**，仅用户明确要求时更新 |
 | `README.md` | 面向人的使用说明；本文件面向 agent |
 
 ## 进 git 的边界
