@@ -572,7 +572,7 @@ function questionStatusTag(item) {
 }
 
 // xiaohongshu：出自小红书《2026 年 9–12 月雅思口语新题完整版》一级重点清单的题目，永远排在最前。
-// priorityRank：同一份清单的行序，值越小越靠前（Part 1 为 1–15，Part 2 为 1–14）。
+// priorityRank：同一份清单的行序，值越小越靠前（Part 1 为 1–15，Part 2 为 1–14，Part 3 与对应 Part 2 题目一致，为 1–14）。
 // 未设置这两个字段的题目保持原有排序规则。
 function compareQuestionBankEntries(a, b) {
   return Number(Boolean(b.xiaohongshu)) - Number(Boolean(a.xiaohongshu)) ||
@@ -889,7 +889,7 @@ function partThreeQuestionListHtml(groups) {
     <header class="panel-header">
       <span class="eyebrow">PART 3 · QUESTION BANK</span>
       <h2>本季题目清单</h2>
-      <p>共 ${groups.length} 个话题、${questionCount} 道题。高频题排在最前，其下新题先于保留题，各类按飞书题库顺序排列。</p>
+      <p>共 ${groups.length} 个话题、${questionCount} 道题。小红书重点题排在最前（与对应 Part 2 题目顺序一致），其下高频题，再按新题先于保留题，各类按飞书题库顺序排列。</p>
     </header>
     <div class="panel-body p3-index-layout">
       <div class="p3-index-list">

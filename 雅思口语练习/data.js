@@ -6,6 +6,7 @@
 // xiaohongshu=true 表示该题出自小红书《2026 年 9–12 月雅思口语新题完整版》一级重点清单，
 // 页面上显示「小红书」标签，并排在所有题目最前面。
 // priorityRank 为同一份清单的行序，值越小越靠前（Part 1 为 1–15，Part 2 为 1–14）；
+// Part 3 的 xiaohongshu/priorityRank 与对应 Part 2 题目保持一致，同样是 1–14，排在所有题组最前。
 // 未设置这两个字段的题目按原有规则排在其后。
 // Part 2 一题一张卡：题卡小问、对应故事与理由；共用素材的题目用 linked 互链方便串题。
 // 素材通过普通 script 标签载入，无需 fetch、构建步骤或本地服务器。
@@ -15302,6 +15303,8 @@ window.IELTS_DATA = {
     },
     {
       "id": "feishu-popular-person",
+      "xiaohongshu": true,
+      "priorityRank": 11,
       "isHighFreq": true,
       "category": "人物类",
       "title": "受欢迎的人",
@@ -15605,6 +15608,8 @@ window.IELTS_DATA = {
     },
     {
       "id": "feishu-taught-new-skill",
+      "xiaohongshu": true,
+      "priorityRank": 5,
       "isHighFreq": true,
       "category": "人物类",
       "title": "新技能的学习与教学",
@@ -15984,6 +15989,8 @@ window.IELTS_DATA = {
     },
     {
       "id": "feishu-handcraft-person",
+      "xiaohongshu": true,
+      "priorityRank": 6,
       "isHighFreq": true,
       "category": "人物类",
       "title": "手工与艺术",
@@ -16067,6 +16074,8 @@ window.IELTS_DATA = {
     },
     {
       "id": "new-happy-person",
+      "xiaohongshu": true,
+      "priorityRank": 13,
       "isHighFreq": true,
       "category": "人物类",
       "title": "快乐、儿童与积极情绪",
@@ -16374,6 +16383,8 @@ window.IELTS_DATA = {
     },
     {
       "id": "feishu-near-natural-place",
+      "xiaohongshu": true,
+      "priorityRank": 2,
       "isHighFreq": true,
       "category": "地点类",
       "title": "去过的靠近自然的地方",
@@ -16514,6 +16525,8 @@ window.IELTS_DATA = {
     },
     {
       "id": "feishu-crowded-place",
+      "xiaohongshu": true,
+      "priorityRank": 9,
       "isHighFreq": true,
       "category": "地点类",
       "title": "拥挤城市",
@@ -16592,6 +16605,8 @@ window.IELTS_DATA = {
     },
     {
       "id": "feishu-noisy-place",
+      "xiaohongshu": true,
+      "priorityRank": 1,
       "isHighFreq": true,
       "category": "地点类",
       "title": "噪音与公共空间",
@@ -17481,6 +17496,8 @@ window.IELTS_DATA = {
     },
     {
       "id": "feishu-disliked-short-trip",
+      "xiaohongshu": true,
+      "priorityRank": 10,
       "isHighFreq": true,
       "category": "事件类",
       "title": "出国旅行与了解世界",
@@ -17546,6 +17563,8 @@ window.IELTS_DATA = {
     },
     {
       "id": "feishu-waste-time",
+      "xiaohongshu": true,
+      "priorityRank": 8,
       "isHighFreq": true,
       "category": "事件类",
       "title": "时间、压力与规则",
@@ -17651,6 +17670,8 @@ window.IELTS_DATA = {
     },
     {
       "id": "feishu-good-shop-service",
+      "xiaohongshu": true,
+      "priorityRank": 3,
       "category": "事件类",
       "title": "购物服务与消费",
       "partTwo": "购物服务",
@@ -17728,6 +17749,8 @@ window.IELTS_DATA = {
     },
     {
       "id": "feishu-saved-money",
+      "xiaohongshu": true,
+      "priorityRank": 12,
       "isHighFreq": true,
       "category": "事件类",
       "title": "存钱与金钱管理",
@@ -17851,6 +17874,8 @@ window.IELTS_DATA = {
     },
     {
       "id": "feishu-enjoyable-evening",
+      "xiaohongshu": true,
+      "priorityRank": 14,
       "isHighFreq": true,
       "category": "事件类",
       "title": "大家庭相处",
@@ -22101,6 +22126,8 @@ window.IELTS_DATA = {
     },
     {
       "id": "new-exciting-book",
+      "xiaohongshu": true,
+      "priorityRank": 4,
       "category": "事物类",
       "title": "让你兴奋的书",
       "partTwo": "让你兴奋的书",
@@ -22823,6 +22850,8 @@ window.IELTS_DATA = {
     },
     {
       "id": "feishu-helpful-person",
+      "xiaohongshu": true,
+      "priorityRank": 7,
       "category": "人物类",
       "title": "乐于助人的人",
       "partTwo": "乐于助人的人",
