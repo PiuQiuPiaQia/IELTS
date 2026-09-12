@@ -3480,8 +3480,8 @@ window.IELTS_DATA = {
                 ],
                 "focus": "清楚交代我帮助李华改善了什么，以及为什么坚持下来并不容易。",
                 "body": {
-                  "text": "Well, a few of my friends want to get fitter. But the first one that comes to my mind would be my colleague Li Hua. We have worked in the same team for about three years, and he is easy to talk to. A few months ago we were working on a busy project, and we sat at our computers all day. He often said he felt tired after work. I wanted to help because he was a good friend, and I also needed to move more. I suggested taking a short walk after lunch instead of looking at our phones. At first, we walked for ten minutes near the office; later we chose a longer route and reminded each other to take a break. The difficult part was keeping the habit on busy or rainy days. Sometimes he wanted to skip it, so we kept the walk short rather than giving up completely. After a few weeks, he felt more energetic and enjoyed going outside.",
-                  "translation": "嗯，我有几个朋友想让身体更好。但我首先想到的是我的同事李华。我们同一个团队工作了大约三年，他很好相处。几个月前，我们正在忙一个项目，整天坐在电脑前。他经常说下班后很累。我想帮他，因为他是我的好朋友，而且我自己也需要多活动。我提议午饭后散一小会儿步，不要一直看手机。最初，我们在办公室附近走十分钟左右。后来，我们选了更长的路线，也会互相提醒休息一下。难的是在忙碌或下雨的日子里继续坚持。有时他想跳过，我们就缩短散步时间，而不是完全放弃。几周后，他觉得自己更有精神了，也更喜欢到户外走走。",
+                  "text": "Well, I have helped a few people get fitter. But the first one that comes to my mind would be my colleague Li Hua. We have worked in the same team for about three years, and he is easy to talk to. A few months ago we were working on a busy project, and we sat at our computers all day. He often said he felt tired after work. I wanted to help because he was a good friend, and I also needed to move more. I suggested taking a short walk after lunch instead of looking at our phones. At first, we walked for ten minutes near the office; later we chose a longer route and reminded each other to take a break. The difficult part was keeping the habit on busy or rainy days. Sometimes he wanted to skip it, so we kept the walk short rather than giving up completely. After a few weeks, he felt more energetic and enjoyed going outside.",
+                  "translation": "嗯，我帮过几个人改善身体。但我首先想到的是我的同事李华。我们同一个团队工作了大约三年，他很好相处。几个月前，我们正在忙一个项目，整天坐在电脑前。他经常说下班后很累。我想帮他，因为他是我的好朋友，而且我自己也需要多活动。我提议午饭后散一小会儿步，不要一直看手机。最初，我们在办公室附近走十分钟左右。后来，我们选了更长的路线，也会互相提醒休息一下。难的是在忙碌或下雨的日子里继续坚持。有时他想跳过，我们就缩短散步时间，而不是完全放弃。几周后，他觉得自己更有精神了，也更喜欢到户外走走。",
                   "highlights": [
                     "a few months ago",
                     "busy project",
@@ -3725,8 +3725,8 @@ window.IELTS_DATA = {
                 ],
                 "focus": "交代运动成就、从采访中形成的印象，以及对自己的具体影响。",
                 "body": {
-                  "text": "Well, there are a lot of successful sportspeople. But the first one that comes to my mind would be Yao Ming. He is a former Chinese basketball player, and he is one of the most famous sportspeople in my country. I first learned about him through basketball games on television when I was a child, and I have followed him since then. He is very tall, and he is famous in China and also in the US, so even people who do not follow basketball know his name. I have never met him in person, so my impression comes from interviews. He seems calm and thoughtful, and he sometimes uses humour when he answers questions. To be honest, he sounds like a friendly and easy-going person. As for his achievements, he played in the NBA for several years and also represented China in international games. In 2016, he entered the Basketball Hall of Fame, which is a very high honour for a player. After he retired, he also helped young players in China.",
-                  "translation": "嗯，成功的运动员有很多。但我首先想到的是姚明。他是一位退役的中国篮球运动员，也是我国最有名的运动员之一。我小时候通过电视上的篮球比赛认识了他，从那以后就一直关注他。他个子很高，在中国和美国都很有名，所以即使不看篮球的人也知道他的名字。我没有亲自见过他，所以对他的印象来自采访。他看起来沉稳、有想法，回答问题有时还很幽默。说实话，他听起来是个友好、随和的人。说到他的成就，他在 NBA 打了好几年，也代表中国参加过国际比赛。2016 年他进入了篮球名人堂，这对球员来说是非常高的荣誉。退役之后，他还帮助过中国年轻球员。",
+                  "text": "Well, I admire a few sportspeople. But the first one that comes to my mind would be Yao Ming. He is a former Chinese basketball player, and he is one of the most famous sportspeople in my country. I first learned about him through basketball games on television when I was a child, and I have followed him since then. He is very tall, and he is famous in China and also in the US, so even people who do not follow basketball know his name. I have never met him in person, so my impression comes from interviews. He seems calm and thoughtful, and he sometimes uses humour when he answers questions. To be honest, he sounds like a friendly and easy-going person. As for his achievements, he played in the NBA for several years and also represented China in international games. In 2016, he entered the Basketball Hall of Fame, which is a very high honour for a player. After he retired, he also helped young players in China.",
+                  "translation": "嗯，我欣赏几位运动员。但我首先想到的是姚明。他是一位退役的中国篮球运动员，也是我国最有名的运动员之一。我小时候通过电视上的篮球比赛认识了他，从那以后就一直关注他。他个子很高，在中国和美国都很有名，所以即使不看篮球的人也知道他的名字。我没有亲自见过他，所以对他的印象来自采访。他看起来沉稳、有想法，回答问题有时还很幽默。说实话，他听起来是个友好、随和的人。说到他的成就，他在 NBA 打了好几年，也代表中国参加过国际比赛。2016 年他进入了篮球名人堂，这对球员来说是非常高的荣誉。退役之后，他还帮助过中国年轻球员。",
                   "highlights": [
                     "Yao Ming",
                     "a former Chinese basketball player",
@@ -3844,8 +3844,8 @@ window.IELTS_DATA = {
                 "focus": "人物是小学英语老师；技能是唱一首英文歌，重点讲他怎样一步一步教我。",
                 "omit": "不讲复杂音乐知识，也不用记歌曲名字。",
                 "body": {
-                  "text": "Well, a few teachers have helped me learn new things. But the first one that comes to my mind would be Mr Brown. He was my English teacher in primary school. He was a young man in his twenties, and he always smiled in class. One time he taught me how to sing an English song. At first, I was nervous because I had never sung an English song before. However, he was patient. He broke the song into short lines and taught us step by step. He explained it with simple actions and asked us to practise in small groups. In the end, I sang the song together with my classmates. I felt excited and more confident about speaking English.",
-                  "translation": "嗯，有几位老师帮我学过新东西。但我首先想到的是 Brown 老师。他是我小学的英语老师。他那时才二十多岁，上课总是面带微笑。有一次他教我怎么唱一首英文歌。起初我很紧张，因为我以前从没唱过英文歌。不过他很有耐心。他把歌拆成一个个短句，一步一步教我们。他用简单的动作解释，还让我们分组练习。最后，我和同学们一起把这首歌唱完了。我很兴奋，对说英语也更有信心了。",
+                  "text": "Well, I have learned a few new skills. But the first one that comes to my mind would be Mr Brown. He was my English teacher in primary school. He was a young man in his twenties, and he always smiled in class. One time he taught me how to sing an English song. At first, I was nervous because I had never sung an English song before. However, he was patient. He broke the song into short lines and taught us step by step. He explained it with simple actions and asked us to practise in small groups. In the end, I sang the song together with my classmates. I felt excited and more confident about speaking English.",
+                  "translation": "嗯，我学过几项新技能。但我首先想到的是 Brown 老师。他是我小学的英语老师。他那时才二十多岁，上课总是面带微笑。有一次他教我怎么唱一首英文歌。起初我很紧张，因为我以前从没唱过英文歌。不过他很有耐心。他把歌拆成一个个短句，一步一步教我们。他用简单的动作解释，还让我们分组练习。最后，我和同学们一起把这首歌唱完了。我很兴奋，对说英语也更有信心了。",
                   "highlights": [
                     "Mr Brown",
                     "my English teacher in primary school",
@@ -4013,7 +4013,7 @@ window.IELTS_DATA = {
                 "focus": "人物统一为李华；重点说他通过书、纪录片和博物馆学历史，并因喜欢日本历史开始学日语。",
                 "omit": "不用背年份、王朝或重大事件；保留书、纪录片和博物馆三种方式。",
                 "body": {
-                  "text": "Well, a few of my friends enjoy history. But the first one that comes to my mind would be my classmate Li Hua. We sat in the same class for three years, and we are still in touch now. He learns history in several simple ways: he reads history books for about an hour every evening, watches documentaries and visits the local museum two or three times a year. He often shares interesting stories with me. He loves history, especially stories about old Japanese cities, and he once told me that history helps him understand why cities and cultures are different today. Later, he decided to learn Japanese because he wanted to visit Japan and understand more of its history. Japanese was difficult and he had little free time, but he watched short videos, kept new words in a notebook and practised every day. Last month he visited Japan and joined a museum tour.",
+                  "text": "Well, I know a few people interested in history. But the first one that comes to my mind would be my classmate Li Hua. We sat in the same class for three years, and we are still in touch now. He learns history in several simple ways: he reads history books for about an hour every evening, watches documentaries and visits the local museum two or three times a year. He often shares interesting stories with me. He loves history, especially stories about old Japanese cities, and he once told me that history helps him understand why cities and cultures are different today. Later, he decided to learn Japanese because he wanted to visit Japan and understand more of its history. Japanese was difficult and he had little free time, but he watched short videos, kept new words in a notebook and practised every day. Last month he visited Japan and joined a museum tour.",
                   "highlights": [
                     "classmate Li Hua",
                     "the same class for three years",
@@ -4206,7 +4206,7 @@ window.IELTS_DATA = {
                   ]
                 },
                 "body": {
-                  "text": "Well, a lot of people around me like taking photos. But the first one that comes to my mind would be my girlfriend. I still remember clearly that we first met at university about ten years ago. We were in the same study group, and we soon became good friends. She has liked photography since then. Now she works as an engineer, but in her free time she loves travelling and scrolling through social media for beautiful pictures. She usually takes photos with her phone, because it is light and easy to carry. She takes photos when we travel, when we walk in a park, and even when we try interesting food. She also takes photos of the sky when it looks beautiful in the evening. During our trip to Shanghai, she took photos of the river, the tall buildings and our dinner, and she asked a friendly visitor to take a photo of us together. Later, she chose a few pictures and shared them with our families.",
+                  "text": "Well, I know a few people good at taking photos. But the first one that comes to my mind would be my girlfriend. I still remember clearly that we first met at university about ten years ago. We were in the same study group, and we soon became good friends. She has liked photography since then. Now she works as an engineer, but in her free time she loves travelling and scrolling through social media for beautiful pictures. She usually takes photos with her phone, because it is light and easy to carry. She takes photos when we travel, when we walk in a park, and even when we try interesting food. She also takes photos of the sky when it looks beautiful in the evening. During our trip to Shanghai, she took photos of the river, the tall buildings and our dinner, and she asked a friendly visitor to take a photo of us together. Later, she chose a few pictures and shared them with our families.",
                   "highlights": [
                     "my girlfriend",
                     "we first met at university about ten years ago",
@@ -4227,7 +4227,7 @@ window.IELTS_DATA = {
                     "She also takes photos of the",
                     "Later, she chose a few pictures"
                   ],
-                  "translation": "嗯，我身边很多人都喜欢拍照。但我首先想到的是我女朋友。我现在还很清楚地记得，我们大约十年前在大学认识的。我们当时在同一个学习小组，很快就成了好朋友。她从那时候起就喜欢摄影。现在她是一名工程师，但空闲时间她喜欢旅行，也喜欢刷社交媒体看好看的照片。她通常用手机拍照，因为手机轻便好带。我们旅行时、逛公园时，甚至尝新食物时她都会拍。傍晚天空好看的时候，她也会拍天空。上次去上海旅行，她拍了江景、高楼和我们的晚餐，还请一位热心的游客帮我们拍了合照。后来她挑了几张照片，分享给我们的家人。"
+                  "translation": "嗯，我认识几个很会拍照的人。但我首先想到的是我女朋友。我现在还很清楚地记得，我们大约十年前在大学认识的。我们当时在同一个学习小组，很快就成了好朋友。她从那时候起就喜欢摄影。现在她是一名工程师，但空闲时间她喜欢旅行，也喜欢刷社交媒体看好看的照片。她通常用手机拍照，因为手机轻便好带。我们旅行时、逛公园时，甚至尝新食物时她都会拍。傍晚天空好看的时候，她也会拍天空。上次去上海旅行，她拍了江景、高楼和我们的晚餐，还请一位热心的游客帮我们拍了合照。后来她挑了几张照片，分享给我们的家人。"
                 },
                 "pointsLabel": "How I feel about her habit＋Money / Emotion / Relationship",
                 "reasons": [
@@ -4370,7 +4370,7 @@ window.IELTS_DATA = {
                 "focus": "人物是李华；直接说他平时喜欢做小模型，用纸板小房子展开“量、剪、粘”和失败后重做。",
                 "omit": "不讲上色、小灯、夹子或专业工具；不需要记太多操作动词。",
                 "body": {
-                  "text": "Well, I know a lot of people good at making things. But the first one that comes to my mind would be my classmate Li Hua. We have known each other for more than ten years, and he is a patient person. He often makes small models at home. Last month, he made a small house from cardboard. He has also made a small car and a pencil holder from cardboard. The task looked difficult to me, but he broke it into three steps: measuring, cutting and gluing. However, the roof fell off because one piece was too short, but he did not give up. He measured it again, cut a new piece and glued it more carefully. In the end, the house looked neat and strong. I admire his patience, and this skill can also save him money because he can make simple toys himself.",
+                  "text": "Well, I know a few people good at making things. But the first one that comes to my mind would be my classmate Li Hua. We have known each other for more than ten years, and he is a patient person. He often makes small models at home. Last month, he made a small house from cardboard. He has also made a small car and a pencil holder from cardboard. The task looked difficult to me, but he broke it into three steps: measuring, cutting and gluing. However, the roof fell off because one piece was too short, but he did not give up. He measured it again, cut a new piece and glued it more carefully. In the end, the house looked neat and strong. I admire his patience, and this skill can also save him money because he can make simple toys himself.",
                   "highlights": [
                     "Li Hua",
                     "small models",
@@ -4593,8 +4593,8 @@ window.IELTS_DATA = {
                   "并解释你对这个人的感受"
                 ],
                 "body": {
-                  "text": "Well, a few people around me have overcome difficulties. But the first one that comes to my mind would be my classmate Li Hua. I first met him on the first day of high school, and we soon became friends. We have been friends for about ten years, and I know him quite well. He wanted to learn Japanese because he hoped to travel to Japan. At first, it was hard for him to remember new words, and he also had a lot of homework. He could only say a few basic words, but he did not give up. He wrote new words in a small notebook, watched simple Japanese videos and asked his teacher for help. Several months later, he could hold a short conversation. Last month he visited Japan and ordered food in Japanese. I think he succeeded because he practised a little every day.",
-                  "translation": "嗯，我周围有几个人克服过困难。但我首先想到的是我的同学李华。我高中第一天就认识了他，我们很快成了朋友。我们做朋友大约十年了，我很了解他。他想学日语，因为希望去日本旅行。一开始，记生词对他来说很难，作业也很多。他只会说几个简单单词，但他没有放弃。他把生词写在小本子上，看简单的日语视频，并向老师求助。几个月后，他能进行简短的对话了。上个月他去了日本，用日语点餐。我觉得他能成功，是因为他每天都练一点。",
+                  "text": "Well, I know a few people with difficult goals. But the first one that comes to my mind would be my classmate Li Hua. I first met him on the first day of high school, and we soon became friends. We have been friends for about ten years, and I know him quite well. He wanted to learn Japanese because he hoped to travel to Japan. At first, it was hard for him to remember new words, and he also had a lot of homework. He could only say a few basic words, but he did not give up. He wrote new words in a small notebook, watched simple Japanese videos and asked his teacher for help. Several months later, he could hold a short conversation. Last month he visited Japan and ordered food in Japanese. I think he succeeded because he practised a little every day.",
+                  "translation": "嗯，我认识几个做过困难事情的人。但我首先想到的是我的同学李华。我高中第一天就认识了他，我们很快成了朋友。我们做朋友大约十年了，我很了解他。他想学日语，因为希望去日本旅行。一开始，记生词对他来说很难，作业也很多。他只会说几个简单单词，但他没有放弃。他把生词写在小本子上，看简单的日语视频，并向老师求助。几个月后，他能进行简短的对话了。上个月他去了日本，用日语点餐。我觉得他能成功，是因为他每天都练一点。",
                   "highlights": [
                     "first day of high school",
                     "travel to Japan",
@@ -4659,8 +4659,8 @@ window.IELTS_DATA = {
                 ],
                 "focus": "讲同事李华自己下决心提升健身的过程；用一般过去时讲他做了什么，用现在时讲他现在的变化，半年这个时长要讲清楚。",
                 "body": {
-                  "text": "Well, I know a lot of people trying to stay fit. But the first one that comes to my mind would be my colleague Li Hua. We have worked in the same team for about three years, and he is easy to talk to. Last winter he noticed that he got out of breath after climbing the stairs to our office, and he decided to change that himself. At first he only walked for ten minutes after lunch, but soon he got off the bus two stops early and walked the rest of the way. He also took the stairs instead of the lift, even on rainy days. You know, he kept the same routine even when our project was really busy. It took him about six months to build this habit. Now he plays badminton with us on Friday evenings. To be honest, he looks much more energetic than before, and he says he sleeps better too.",
-                  "translation": "嗯，我认识很多努力保持身材的人。但我首先想到的是我的同事李华。我们在同一个团队工作了大约三年，他很好相处。去年冬天他发现，爬楼梯到我们办公室后会喘不上气，于是他决定自己改变。一开始他只是在午饭后走十分钟，但很快他就提前两站下车，把剩下的路走完。他还改爬楼梯、不坐电梯，下雨天也一样。你知道，即使我们的项目特别忙，他也保持着同样的作息。他花了大约半年时间才养成这个习惯。现在他每周五晚上和我们一起打羽毛球。说实话，他看起来比以前有精神多了，他说自己睡得也更好了。",
+                  "text": "Well, I know a few people trying to stay fit. But the first one that comes to my mind would be my colleague Li Hua. We have worked in the same team for about three years, and he is easy to talk to. Last winter he noticed that he got out of breath after climbing the stairs to our office, and he decided to change that himself. At first he only walked for ten minutes after lunch, but soon he got off the bus two stops early and walked the rest of the way. He also took the stairs instead of the lift, even on rainy days. You know, he kept the same routine even when our project was really busy. It took him about six months to build this habit. Now he plays badminton with us on Friday evenings. To be honest, he looks much more energetic than before, and he says he sleeps better too.",
+                  "translation": "嗯，我认识几个努力保持身材的人。但我首先想到的是我的同事李华。我们在同一个团队工作了大约三年，他很好相处。去年冬天他发现，爬楼梯到我们办公室后会喘不上气，于是他决定自己改变。一开始他只是在午饭后走十分钟，但很快他就提前两站下车，把剩下的路走完。他还改爬楼梯、不坐电梯，下雨天也一样。你知道，即使我们的项目特别忙，他也保持着同样的作息。他花了大约半年时间才养成这个习惯。现在他每周五晚上和我们一起打羽毛球。说实话，他看起来比以前有精神多了，他说自己睡得也更好了。",
                   "highlights": [
                     "my colleague Li Hua",
                     "worked in the same team for about three years",
@@ -4788,7 +4788,7 @@ window.IELTS_DATA = {
                   ]
                 },
                 "body": {
-                  "text": "Well, a few people around me have overcome difficulties. But the first one that comes to my mind would be my classmate Li Hua. I first met him on the first day of high school, and we soon became friends. We have been friends for about ten years, and I know him quite well. He wanted to learn Japanese because he hoped to travel to Japan. At first, it was hard for him to remember new words, and he also had a lot of homework. He could only say a few basic words, but he did not give up. He wrote new words in a small notebook, watched simple Japanese videos and asked his teacher for help. Several months later, he could hold a short conversation. Last month, he visited Japan, ordered food and asked for directions in Japanese.",
+                  "text": "Well, I know a few people with difficult experiences. But the first one that comes to my mind would be my classmate Li Hua. I first met him on the first day of high school, and we soon became friends. We have been friends for about ten years, and I know him quite well. He wanted to learn Japanese because he hoped to travel to Japan. At first, it was hard for him to remember new words, and he also had a lot of homework. He could only say a few basic words, but he did not give up. He wrote new words in a small notebook, watched simple Japanese videos and asked his teacher for help. Several months later, he could hold a short conversation. Last month, he visited Japan, ordered food and asked for directions in Japanese.",
                   "highlights": [
                     "first day of high school",
                     "travel to Japan",
@@ -4932,7 +4932,7 @@ window.IELTS_DATA = {
                   ]
                 },
                 "body": {
-                  "text": "Well, a few of my friends speak another language. But the first one that comes to my mind would be my classmate Li Hua. I first met him on the first day of high school, when he sat behind me. We soon became good friends. We have been friends for about ten years, and we often study together. He decided to learn Japanese because he wanted to travel to Japan. He read simple books after school, watched Japanese videos at weekends and asked his teacher for help. He usually watched Japanese videos for about twenty minutes every evening. Sometimes we practised together at lunch, and he kept new words in a small notebook. Several months later, he could have short conversations, and last month he visited Japan. During the trip, he ordered food in Japanese, which made him very proud.",
+                  "text": "Well, I know a few people good at languages. But the first one that comes to my mind would be my classmate Li Hua. I first met him on the first day of high school, when he sat behind me. We soon became good friends. We have been friends for about ten years, and we often study together. He decided to learn Japanese because he wanted to travel to Japan. He read simple books after school, watched Japanese videos at weekends and asked his teacher for help. He usually watched Japanese videos for about twenty minutes every evening. Sometimes we practised together at lunch, and he kept new words in a small notebook. Several months later, he could have short conversations, and last month he visited Japan. During the trip, he ordered food in Japanese, which made him very proud.",
                   "highlights": [
                     "first day of high school",
                     "travel to Japan",
@@ -5075,7 +5075,7 @@ window.IELTS_DATA = {
                   ]
                 },
                 "body": {
-                  "text": "Well, my friends have different plans for their careers. But the first one that comes to my mind would be my classmate Li Hua. I first met him on the first day of high school, when he sat behind me, and we soon became good friends. We are still close friends now, and he often tells me about his studies. One day in high school, he told me that he wanted to be a doctor because he hoped to save people's lives. It was in our second year of high school, and he has never changed his mind since then. He read books and studied hard every day because it was difficult to enter medical school. During the holidays, he visited his father's hospital and watched how doctors talked to patients, and he also joined a first-aid class at school. Now he is studying at medical school, and he hopes to graduate and become a doctor next year. He would like to work in a children's hospital and help young patients.",
+                  "text": "Well, I know a few people interested in medical jobs. But the first one that comes to my mind would be my classmate Li Hua. I first met him on the first day of high school, when he sat behind me, and we soon became good friends. We are still close friends now, and he often tells me about his studies. One day in high school, he told me that he wanted to be a doctor because he hoped to save people's lives. It was in our second year of high school, and he has never changed his mind since then. He read books and studied hard every day because it was difficult to enter medical school. During the holidays, he visited his father's hospital and watched how doctors talked to patients, and he also joined a first-aid class at school. Now he is studying at medical school, and he hopes to graduate and become a doctor next year. He would like to work in a children's hospital and help young patients.",
                   "highlights": [
                     "first day of high school",
                     "wanted to be a doctor",
@@ -5360,7 +5360,7 @@ window.IELTS_DATA = {
                   ]
                 },
                 "body": {
-                  "text": "Well, a few of my friends work for successful companies. But the first one that comes to my mind would be my friend Li Hua. We have known each other for a long time, and he is a hard-working person. He has worked for a successful software company for six years. At first, he was a junior engineer: he checked small problems and wrote simple parts of the programs, and he often stayed late on important projects. After three years, he became a senior engineer, and now he leads a team that designs new software. The company makes study software and office apps. For example, he helped design the study app that many local schools now use.",
+                  "text": "Well, I know a few people working in big companies. But the first one that comes to my mind would be my friend Li Hua. We have known each other for a long time, and he is a hard-working person. He has worked for a successful software company for six years. At first, he was a junior engineer: he checked small problems and wrote simple parts of the programs, and he often stayed late on important projects. After three years, he became a senior engineer, and now he leads a team that designs new software. The company makes study software and office apps. For example, he helped design the study app that many local schools now use.",
                   "highlights": [
                     "friend Li Hua",
                     "a hard-working person",
@@ -5640,7 +5640,7 @@ window.IELTS_DATA = {
                   ]
                 },
                 "body": {
-                  "text": "Well, a few people in my family enjoy growing plants. But the first one that comes to my mind would be my grandma. She lives in the countryside. She is in her seventies now, but she is still very active. She has a small garden beside her house and grows tomatoes, cabbages and several kinds of flowers there. She gets up early to water the plants and remove weeds, and she sometimes makes plant food from kitchen waste. In autumn, she picks the vegetables and gives some to our neighbours. I sometimes help her, and she shows me how to choose ripe tomatoes. The work is not easy, but she always looks relaxed and happy in the garden.",
+                  "text": "Well, I know a few people good at growing plants. But the first one that comes to my mind would be my grandma. She lives in the countryside. She is in her seventies now, but she is still very active. She has a small garden beside her house and grows tomatoes, cabbages and several kinds of flowers there. She gets up early to water the plants and remove weeds, and she sometimes makes plant food from kitchen waste. In autumn, she picks the vegetables and gives some to our neighbours. I sometimes help her, and she shows me how to choose ripe tomatoes. The work is not easy, but she always looks relaxed and happy in the garden.",
                   "highlights": [
                     "countryside",
                     "small garden",
@@ -5800,7 +5800,7 @@ window.IELTS_DATA = {
                 "answer": [
                   {
                     "kind": "人物",
-                    "text": "Well, some people are very good at planning their day. But the first one that comes to my mind would be my colleague Alex. We have worked in the same software team for about six years, and I often depend on him when a project becomes complicated.",
+                    "text": "Well, I know a few people good at planning their day. But the first one that comes to my mind would be my colleague Alex. We have worked in the same software team for about six years, and I often depend on him when a project becomes complicated.",
                     "translation": "嗯，有些人很擅长安排一天的事情。但我首先想到的是我的同事Alex。我们在同一个软件团队工作了大约六年，项目变得复杂时，我经常会依靠他。"
                   },
                   {
@@ -5833,7 +5833,7 @@ window.IELTS_DATA = {
                   ]
                 },
                 "body": {
-                  "text": "Well, some people are very good at planning their day. But the first one that comes to my mind would be my colleague Alex. We have worked in the same software team for about six years. He is patient and calm, and he never complains. Every morning, he writes down his three most important tasks. He puts meetings and deadlines in his calendar and takes short notes after each discussion. Before we release new software, he also prepares a simple checklist. He even uses different colours for work tasks and personal tasks. I noticed this quality clearly during an important release last year. Alex divided the work, gave each person a clear responsibility and checked our progress at fixed times. We found a small problem early and finished on time.",
+                  "text": "Well, I know a few people good at planning their day. But the first one that comes to my mind would be my colleague Alex. We have worked in the same software team for about six years. He is patient and calm, and he never complains. Every morning, he writes down his three most important tasks. He puts meetings and deadlines in his calendar and takes short notes after each discussion. Before we release new software, he also prepares a simple checklist. He even uses different colours for work tasks and personal tasks. I noticed this quality clearly during an important release last year. Alex divided the work, gave each person a clear responsibility and checked our progress at fixed times. We found a small problem early and finished on time.",
                   "highlights": [
                     "six years",
                     "three most important tasks",
@@ -6004,8 +6004,8 @@ window.IELTS_DATA = {
                   ]
                 },
                 "body": {
-                  "text": "Well, I know a lot of happy people in my daily life. But the first one that comes to my mind would be my colleague Alex. We have worked together for about six years. He is a cheerful and positive person, and he hardly ever complains. He always looks on the bright side, even when work is busy. He shows his happiness in very simple ways. He smiles a lot, and he often tells jokes during our breaks. When something goes wrong, he never gets angry or worried. He just says \"don't worry, we will find a way\", and then he keeps trying. I think he is a happy person, because he stays calm when things are difficult. Being with him makes the whole office feel lighter.",
-                  "translation": "嗯，我在日常生活中认识很多快乐的人。但我首先想到的是我的同事 Alex。我们一起工作了大约六年。他是个开朗乐观的人，几乎从不抱怨。即使工作很忙，他也总是往好处看。他用很简单的方式表达自己的快乐。他经常笑，也常在休息时讲笑话。出了问题的时候，他从不生气或发愁。他只是说“别担心，我们会找到办法的”，然后继续尝试。我觉得他是个快乐的人，因为遇到困难时他总是很冷静。和他在一起，整个办公室都轻松起来。",
+                  "text": "Well, I know a few people. But the first one that comes to my mind would be my colleague Alex. We have worked together for about six years. He is a cheerful and positive person, and he hardly ever complains. He always looks on the bright side, even when work is busy. He shows his happiness in very simple ways. He smiles a lot, and he often tells jokes during our breaks. When something goes wrong, he never gets angry or worried. He just says \"don't worry, we will find a way\", and then he keeps trying. I think he is a happy person, because he stays calm when things are difficult. Being with him makes the whole office feel lighter.",
+                  "translation": "嗯，我认识几个人。但我首先想到的是我的同事 Alex。我们一起工作了大约六年。他是个开朗乐观的人，几乎从不抱怨。即使工作很忙，他也总是往好处看。他用很简单的方式表达自己的快乐。他经常笑，也常在休息时讲笑话。出了问题的时候，他从不生气或发愁。他只是说“别担心，我们会找到办法的”，然后继续尝试。我觉得他是个快乐的人，因为遇到困难时他总是很冷静。和他在一起，整个办公室都轻松起来。",
                   "highlights": [
                     "my colleague Alex",
                     "worked together for about six years",
@@ -6154,8 +6154,8 @@ window.IELTS_DATA = {
                   ]
                 },
                 "body": {
-                  "text": "Well, there are a few well-known people in my local area. But the first one that comes to my mind would be Lei Jun. He is the founder of Xiaomi and a well-known technology leader in China. He is in his fifties now, and he is one of the most famous business people in China. He lives and works in Beijing, which is my local area. He founded Xiaomi and helped make smartphones popular and affordable. He also gives money to schools and supports young people who want to start their own projects. The company grew from a small team into one of the biggest technology companies in China, and many local people use its phones every day. He is also known for his simple and friendly style. When he speaks in public, he sounds like a friend giving advice.",
-                  "translation": "嗯，我当地有几位知名人物。但我首先想到的是雷军。他是小米的创始人，也是中国知名的科技领袖。他现在五十多岁，是中国最有名的企业家之一。他生活和工作在北京，也就是我所在的地方。他创立了小米，让智能手机变得流行又平价。他还给学校捐钱，也支持想自己创业的年轻人。公司从一个小团队成长为国内最大的科技公司之一，很多本地人每天都在用它的手机。他也以简单友好的个人风格出名。他公开讲话时，听起来像朋友在给建议。",
+                  "text": "Well, I know a few people in my local area. But the first one that comes to my mind would be Lei Jun. He is the founder of Xiaomi and a well-known technology leader in China. He is in his fifties now, and he is one of the most famous business people in China. He lives and works in Beijing, which is my local area. He founded Xiaomi and helped make smartphones popular and affordable. He also gives money to schools and supports young people who want to start their own projects. The company grew from a small team into one of the biggest technology companies in China, and many local people use its phones every day. He is also known for his simple and friendly style. When he speaks in public, he sounds like a friend giving advice.",
+                  "translation": "嗯，我在当地认识几个人。但我首先想到的是雷军。他是小米的创始人，也是中国知名的科技领袖。他现在五十多岁，是中国最有名的企业家之一。他生活和工作在北京，也就是我所在的地方。他创立了小米，让智能手机变得流行又平价。他还给学校捐钱，也支持想自己创业的年轻人。公司从一个小团队成长为国内最大的科技公司之一，很多本地人每天都在用它的手机。他也以简单友好的个人风格出名。他公开讲话时，听起来像朋友在给建议。",
                   "highlights": [
                     "Lei Jun",
                     "founder of Xiaomi",
@@ -6303,7 +6303,7 @@ window.IELTS_DATA = {
                 "answer": [
                   {
                     "kind": "人物",
-                    "text": "Well, I sometimes meet new people through work. But the first one that comes to my mind would be Lei Jun. He is the founder of Xiaomi and a well-known technology leader in China. He is a product manager at another software company, and I only met him once. Although our conversation was short, he left a strong impression on me.",
+                    "text": "Well, I have met a few new people recently. But the first one that comes to my mind would be Lei Jun. He is the founder of Xiaomi and a well-known technology leader in China. He is a product manager at another software company, and I only met him once. Although our conversation was short, he left a strong impression on me.",
                     "translation": "嗯，我有时通过工作认识新的人。但我首先想到的是雷军。他是小米的创始人，也是中国知名的科技企业领导者。他是另一家软件公司的产品经理，我只见过他一次。虽然我们聊得不久，但他给我留下了很深的印象。"
                   },
                   {
@@ -6329,7 +6329,7 @@ window.IELTS_DATA = {
                 ],
                 "storyTitle": "只见过一次的雷军｜想进一步了解的人",
                 "body": {
-                  "text": "Well, I sometimes meet new people through work. But the first one that comes to my mind would be Lei Jun. He is the founder of Xiaomi and a well-known technology leader in China. I had only seen him in videos online before that day, and I met him only once, at a technology event held by my company in Shanghai last month. My manager asked me to interview him for our internal newsletter. We sat in a quiet meeting room and had about fifteen minutes. However, I was nervous and spoke too quickly. I asked him about useful products, teamwork and unexpected problems. He smiled, listened carefully and said a leader should focus on one problem at a time and ask the team for ideas. In the end, I relaxed and asked about his career. He seemed calm, patient and friendly, so I would like to know more about him. I would especially like to know how he started his company and how he stays calm under pressure.",
+                  "text": "Well, I have met a few new people recently. But the first one that comes to my mind would be Lei Jun. He is the founder of Xiaomi and a well-known technology leader in China. I had only seen him in videos online before that day, and I met him only once, at a technology event held by my company in Shanghai last month. My manager asked me to interview him for our internal newsletter. We sat in a quiet meeting room and had about fifteen minutes. However, I was nervous and spoke too quickly. I asked him about useful products, teamwork and unexpected problems. He smiled, listened carefully and said a leader should focus on one problem at a time and ask the team for ideas. In the end, I relaxed and asked about his career. He seemed calm, patient and friendly, so I would like to know more about him. I would especially like to know how he started his company and how he stays calm under pressure.",
                   "highlights": [
                     "Lei Jun",
                     "only once",
@@ -6495,8 +6495,8 @@ window.IELTS_DATA = {
                 ],
                 "focus": "讲同事 Alex 平时怎么帮身边的人；习惯用现在时，具体那一次他帮我用过去时。",
                 "body": {
-                  "text": "Well, I know several kind people, but the first one that comes to my mind would be my colleague Alex. We work in the same team, and he is famous in our office for helping others. He helps people whenever they need it. When someone has a problem, he is always ready to give a hand. He never waits for people to ask him. He is also very good at explaining things. He often spends his lunch break explaining a new system to younger colleagues, and he can explain it in very simple words. He is happy to share his experience with others, too. Last month, I found the system was very slow. Alex sat beside me and helped me patiently. We checked the problem together, and in the end, we solved it. Later I asked him why he does this. He said a senior colleague helped him when he was new, and he wanted to pass it on. I really admire him, and now I try to help new people too.",
-                  "translation": "嗯，我认识好几个善良的人，但我首先想到的是我的同事 Alex。我们在同一个团队工作，他在办公室里以乐于助人出名。只要别人需要，他就会帮忙。有人遇到问题的时候，他总是愿意搭把手，从来不用别人开口。他还特别会解释事情。他常常用午休时间给年轻同事讲一个新系统，而且能用很简单的话讲清楚。他也愿意把自己的经验分享给别人。上个月，我发现系统变得很慢。Alex 坐在我旁边，耐心地帮我。我们一起检查这个问题，最后把它解决了。后来我问他为什么这样做。他说他刚来的时候，有一位老同事帮过他，所以他也想把这份善意传下去。我真的很佩服他，现在我也试着去帮新同事。",
+                  "text": "Well, I know a few people ready to help others. But the first one that comes to my mind would be my colleague Alex. We work in the same team, and he is famous in our office for helping others. He helps people whenever they need it. When someone has a problem, he is always ready to give a hand. He never waits for people to ask him. He is also very good at explaining things. He often spends his lunch break explaining a new system to younger colleagues, and he can explain it in very simple words. He is happy to share his experience with others, too. Last month, I found the system was very slow. Alex sat beside me and helped me patiently. We checked the problem together, and in the end, we solved it. Later I asked him why he does this. He said a senior colleague helped him when he was new, and he wanted to pass it on. I really admire him, and now I try to help new people too.",
+                  "translation": "嗯，我认识几个乐于助人的人。但我首先想到的是我的同事 Alex。我们在同一个团队工作，他在办公室里以乐于助人出名。只要别人需要，他就会帮忙。有人遇到问题的时候，他总是愿意搭把手，从来不用别人开口。他还特别会解释事情。他常常用午休时间给年轻同事讲一个新系统，而且能用很简单的话讲清楚。他也愿意把自己的经验分享给别人。上个月，我发现系统变得很慢。Alex 坐在我旁边，耐心地帮我。我们一起检查这个问题，最后把它解决了。后来我问他为什么这样做。他说他刚来的时候，有一位老同事帮过他，所以他也想把这份善意传下去。我真的很佩服他，现在我也试着去帮新同事。",
                   "highlights": [
                     "my colleague Alex",
                     "famous in our office for helping others",
@@ -7259,7 +7259,7 @@ window.IELTS_DATA = {
                   ]
                 },
                 "body": {
-                  "text": "Well, there are a few places for a walk near my home. But the first one that comes to my mind would be a riverside park in Beijing. The water, flowers and small boats make it look peaceful and attractive. In spring, the flowers along the path are especially beautiful. I first visited it with my family last spring, and a friendly local man helped us take a photo and showed us a quiet spot by the river. Now I go there once or twice a month, usually with my girlfriend. We walk beside the river, take a few photos and sometimes eat fried fish in a small restaurant nearby. I enjoy the place because the scenery is beautiful, the people are friendly and the food is good.",
+                  "text": "Well, I visit a few natural places near my home. But the first one that comes to my mind would be a riverside park in Beijing. The water, flowers and small boats make it look peaceful and attractive. In spring, the flowers along the path are especially beautiful. I first visited it with my family last spring, and a friendly local man helped us take a photo and showed us a quiet spot by the river. Now I go there once or twice a month, usually with my girlfriend. We walk beside the river, take a few photos and sometimes eat fried fish in a small restaurant nearby. I enjoy the place because the scenery is beautiful, the people are friendly and the food is good.",
                   "highlights": [
                     "the river",
                     "water, flowers and small boats",
@@ -7704,7 +7704,7 @@ window.IELTS_DATA = {
                   ]
                 },
                 "body": {
-                  "text": "Well, there are a few places I would recommend for a holiday. But the first one that comes to my mind would be Shanghai. It is in eastern China and is one of the largest cities in China. The city is clean and the metro is cheap, so travelling there is easy. I went there with my girlfriend last year during a holiday. We travelled by high-speed train and stayed for seven days. On the first day, we visited Shanghai Tower and looked over the city, and we took lots of photos. Later, we walked along the river, visited a large shopping mall and tried local food such as xiaolongbao. In the evening, the lights beside the river were beautiful.",
+                  "text": "Well, I have travelled to a few places. But the first one that comes to my mind would be Shanghai. It is in eastern China and is one of the largest cities in China. The city is clean and the metro is cheap, so travelling there is easy. I went there with my girlfriend last year during a holiday. We travelled by high-speed train and stayed for seven days. On the first day, we visited Shanghai Tower and looked over the city, and we took lots of photos. Later, we walked along the river, visited a large shopping mall and tried local food such as xiaolongbao. In the evening, the lights beside the river were beautiful.",
                   "highlights": [
                     "eastern China",
                     "girlfriend last year",
@@ -7848,7 +7848,7 @@ window.IELTS_DATA = {
                   ]
                 },
                 "body": {
-                  "text": "Well, there are a few places I would like to visit in my free time. But the first one that comes to my mind would be Shanghai. It is in eastern China. I would like to go there in my next long holiday. I first became interested in it after a friend showed me a travel video. We will visit Shanghai Tower, walk along the river and spend some time in a large shopping mall, and I also want to try xiaolongbao and take photos from the top floor. I plan to go there with my girlfriend by high-speed train and stay for about seven days. Before the trip, I will make a simple daily plan.",
+                  "text": "Well, I would like to visit a few places. But the first one that comes to my mind would be Shanghai. It is in eastern China. I would like to go there in my next long holiday. I first became interested in it after a friend showed me a travel video. We will visit Shanghai Tower, walk along the river and spend some time in a large shopping mall, and I also want to try xiaolongbao and take photos from the top floor. I plan to go there with my girlfriend by high-speed train and stay for about seven days. Before the trip, I will make a simple daily plan.",
                   "highlights": [
                     "eastern China",
                     "next long holiday",
@@ -8004,8 +8004,8 @@ window.IELTS_DATA = {
                 ],
                 "focus": "讲现在经常去的地方：习惯用现在时（每月一两次），具体某次经历用过去时；沿用地点素材的景美、人友好、食物好三条理由。",
                 "body": {
-                  "text": "Well, there are a few places I enjoy spending time in. But the first one that comes to my mind would be a riverside park near my home. It is in the south of Beijing, about twenty minutes away, so I usually walk there or go by bus. I go there once or twice a month, usually on weekend mornings with my girlfriend. We like to arrive early, because the place is quiet and the air feels fresh. There we walk beside the water, take a few photos and watch the small boats go past. Then we sit on a bench and talk, or eat fried fish in a small restaurant nearby. You know, it is quite a simple place, but I never feel bored there. I enjoy spending time there mainly because the scenery is beautiful, the local people are friendly and the food is cheap and tasty.",
-                  "translation": "嗯，有几个地方是我喜欢待着的。但我首先想到的是我家附近的一个河边公园。它在北京南边，大约二十分钟路程，所以我通常走路或坐公交去。我每个月去一两次，通常是周末早上和女朋友一起。我们喜欢早点到，因为那时地方很安静，空气也很清新。我们在那里沿河散步、拍几张照片，看小船开过去。然后坐在长椅上聊天，或者在附近小馆吃炸鱼。你知道，那是个挺普通的地方，但我在那里从不觉得无聊。我喜欢待在那里，主要是因为景色美、当地人友好，还有东西又便宜又好吃。",
+                  "text": "Well, I go to a few places in my free time. But the first one that comes to my mind would be a riverside park near my home. It is in the south of Beijing, about twenty minutes away, so I usually walk there or go by bus. I go there once or twice a month, usually on weekend mornings with my girlfriend. We like to arrive early, because the place is quiet and the air feels fresh. There we walk beside the water, take a few photos and watch the small boats go past. Then we sit on a bench and talk, or eat fried fish in a small restaurant nearby. You know, it is quite a simple place, but I never feel bored there. I enjoy spending time there mainly because the scenery is beautiful, the local people are friendly and the food is cheap and tasty.",
+                  "translation": "嗯，我空闲时会去几个地方。但我首先想到的是我家附近的一个河边公园。它在北京南边，大约二十分钟路程，所以我通常走路或坐公交去。我每个月去一两次，通常是周末早上和女朋友一起。我们喜欢早点到，因为那时地方很安静，空气也很清新。我们在那里沿河散步、拍几张照片，看小船开过去。然后坐在长椅上聊天，或者在附近小馆吃炸鱼。你知道，那是个挺普通的地方，但我在那里从不觉得无聊。我喜欢待在那里，主要是因为景色美、当地人友好，还有东西又便宜又好吃。",
                   "highlights": [
                     "a riverside park",
                     "near my home",
@@ -8286,7 +8286,7 @@ window.IELTS_DATA = {
                   ]
                 },
                 "body": {
-                  "text": "Well, there are a few homes I like to visit during holidays. But the first one that comes to my mind would be my grandma's house. It is a traditional one-floor house with three bedrooms, a large yard and a vegetable garden, and I usually visit it during long holidays. In the morning, I help my grandma water the vegetables and pick some tomatoes for lunch. In the afternoon, we sit in the quiet yard, drink tea and talk about my life in the city. She also keeps a few chickens in the yard. At night, I can see more stars because there are fewer tall buildings and lights. The air is clean and the place feels peaceful, so it is perfect for a short visit. However, the buses are not frequent and the station is far away, so getting to work would take too long. There are also few shops nearby.",
+                  "text": "Well, I visit a few homes during holidays. But the first one that comes to my mind would be my grandma's house. It is a traditional one-floor house with three bedrooms, a large yard and a vegetable garden, and I usually visit it during long holidays. In the morning, I help my grandma water the vegetables and pick some tomatoes for lunch. In the afternoon, we sit in the quiet yard, drink tea and talk about my life in the city. She also keeps a few chickens in the yard. At night, I can see more stars because there are fewer tall buildings and lights. The air is clean and the place feels peaceful, so it is perfect for a short visit. However, the buses are not frequent and the station is far away, so getting to work would take too long. There are also few shops nearby.",
                   "highlights": [
                     "grandma's house",
                     "traditional one-floor house",
@@ -8433,7 +8433,7 @@ window.IELTS_DATA = {
                   ]
                 },
                 "body": {
-                  "text": "Well, there are many rivers in China. But the first one that comes to my mind would be the Liangshui River. It is in Beijing. I first learned about it in a geography class. My teacher said it was about seventy kilometres long and looked like a flying dragon on the map. Last spring, I visited one part of the river with my family. The water, flowers and small boats looked beautiful, and a friendly local man took a family photo for us. Later, we ate fried fish in a small restaurant beside the river. Its scenery and food attract visitors, and this also supports small local businesses. The river also gives water to farms and parks along the way.",
+                  "text": "Well, I have visited a few rivers in China. But the first one that comes to my mind would be the Liangshui River. It is in Beijing. I first learned about it in a geography class. My teacher said it was about seventy kilometres long and looked like a flying dragon on the map. Last spring, I visited one part of the river with my family. The water, flowers and small boats looked beautiful, and a friendly local man took a family photo for us. Later, we ate fried fish in a small restaurant beside the river. Its scenery and food attract visitors, and this also supports small local businesses. The river also gives water to farms and parks along the way.",
                   "highlights": [
                     "Beijing",
                     "geography class",
@@ -8638,8 +8638,8 @@ window.IELTS_DATA = {
                 ],
                 "focus": "按观看时间、地点、电影内容、不喜欢的原因展开；主线仍是侦探找画，只讲剧情慢、一直聊天、浪费晚上。",
                 "body": {
-                  "text": "Well, I watch a lot of films. Some are good, and some are pretty bad. But the first one that comes to my mind would be a family film. I watched it at home last month, on a Saturday evening. My girlfriend and I wanted to relax after a busy week, so we chose it on a video app. The story was about an old grandma who lived in the countryside. Every day, she got up early, watered her vegetables and talked with her family. At first, we expected a warm family story. However, the story was too slow. Nothing really happened, and the characters just talked. After almost an hour, the film was still boring. In the end, I felt bored and disappointed, and the film was much longer than it needed to be. Instead of relaxing, we wasted our evening.",
-                  "translation": "嗯，我看过很多电影，有些好，有些挺差。但我首先想到的是一部家庭电影。上个月我在家看了它。那是一个周六晚上，我和女朋友想在忙碌一周后放松一下。我们在视频应用上选了它。故事讲的是住在乡下的一位老奶奶。她每天早起浇菜，和家人聊天。一开始，我们期待一个温馨的家庭故事。然而，剧情太慢了。几乎什么都没发生，角色就是一直说话。过了将近一个小时，电影还是很无聊。最后，我觉得无聊又失望。电影还比实际需要的长得多。我们没有放松下来，反而觉得浪费了一个晚上。",
+                  "text": "Well, I have watched a few films. Some are good, and some are pretty bad. But the first one that comes to my mind would be a family film. I watched it at home last month, on a Saturday evening. My girlfriend and I wanted to relax after a busy week, so we chose it on a video app. The story was about an old grandma who lived in the countryside. Every day, she got up early, watered her vegetables and talked with her family. At first, we expected a warm family story. However, the story was too slow. Nothing really happened, and the characters just talked. After almost an hour, the film was still boring. In the end, I felt bored and disappointed, and the film was much longer than it needed to be. Instead of relaxing, we wasted our evening.",
+                  "translation": "嗯，我看过几部电影，有些好，有些挺差。但我首先想到的是一部家庭电影。上个月我在家看了它。那是一个周六晚上，我和女朋友想在忙碌一周后放松一下。我们在视频应用上选了它。故事讲的是住在乡下的一位老奶奶。她每天早起浇菜，和家人聊天。一开始，我们期待一个温馨的家庭故事。然而，剧情太慢了。几乎什么都没发生，角色就是一直说话。过了将近一个小时，电影还是很无聊。最后，我觉得无聊又失望。电影还比实际需要的长得多。我们没有放松下来，反而觉得浪费了一个晚上。",
                   "highlights": [
                     "a family film",
                     "at home last month",
@@ -8769,118 +8769,114 @@ window.IELTS_DATA = {
                   "And explain why you think it is a wast of time"
                 ],
                 "draftCues": [
-                  "movies at night",
+                  "watching TV",
                   "after work",
-                  "automatic suggestion",
-                  "one more movie",
-                  "sleep late"
+                  "only one show",
+                  "forget the time",
+                  "no time to exercise",
+                  "change the habit"
                 ],
-                "focus": "活动统一为晚上看电影；重点讲朋友离开后自己又继续看，并说这是常见的下班放松习惯。",
-                "omit": "不讲平台、算法或多部电影情节；只记自动推荐、继续看和睡得太晚。",
+                "focus": "活动统一为下班后看电视；重点讲一集接一集、总是忘记时间，以及它挤掉了运动和陪家人的时间。",
+                "omit": "不讲具体日期、片名、朋友聚会或几点睡；只记忘记时间、占用时间和挤掉其他事。",
                 "memoryChain": {
-                  "story": "第一部 At first：周六刷到《Grandma's Garden》短片 → 奶奶种菜、做胡萝卜蛋糕 → 发给女朋友和两位朋友 → 晚上来我家吃爆米花、喝饮料、看完整电影 → 第二部 However：朋友走后电视自动推荐下一部 → 我为了放松又看一部 → 忘了时间 → 第三部 In the end：午夜后才睡、第二天很累 → 和朋友看一部省钱、放松、关系近 → 独自多看一部就是浪费时间"
+                  "story": "下班后看电视放松 → 一开始只想看一个节目 → 但一集接一集，总是忘记时间 → 整个晚上就这么过去了 → 占了太多时间，没时间运动、也没时间陪家人 → 我觉得这是浪费时间，现在在改这个习惯"
                 },
                 "body": {
-                  "text": "Well, I waste too much time on a few things. But the first one that comes to my mind would be watching too many films online. I usually watch films after work to relax. Last Saturday I found a short clip from a family film called Grandma's Garden about a funny grandma. I sent it to my girlfriend and two friends, and that evening they came to my home. We watched the full movie with popcorn and drinks, and laughed a lot. However, after they left, the TV suggested another movie, so I kept watching alone and forgot the time. In the end, I went to bed after midnight and felt tired the next day. The extra movie was a waste of time.",
+                  "text": "Well, I do a few things regularly. But the first one that comes to my mind would be watching TV. I usually watch TV after work, because I want to relax. At first I only plan to watch one show, but I always forget the time. When one show finishes, the next one starts, and I just sit there and keep watching. It takes up a lot of my evening. Because of this, I have no time to exercise, and I spend less time with my family. I think it is a waste of time, and now I am trying to change this habit.",
+                  "translation": "嗯，我常做几件事。但我首先想到的是看电视。我通常下班后看电视，因为想放松。一开始我只打算看一个节目，但我总是忘记时间。一个节目结束，下一个就开始了，我就坐在那里继续看。它占用了我晚上的很多时间。因为这个，我没有时间运动，陪家人的时间也变少了。我觉得这是浪费时间，现在我正在努力改掉这个习惯。",
                   "highlights": [
-                    "Grandma's Garden",
-                    "girlfriend and two friends",
-                    "full movie with popcorn and drinks",
-                    "However",
-                    "after they left",
-                    "TV suggested another movie",
-                    "forgot the time",
-                    "In the end",
-                    "after midnight",
-                    "tired the next day",
-                    "watching too many films online",
-                    "kept watching alone",
-                    "waste of time",
-                    "after work to relax"
+                    "watching TV",
+                    "after work",
+                    "want to relax",
+                    "only plan to watch one show",
+                    "always forget the time",
+                    "the next one starts",
+                    "keep watching",
+                    "takes up a lot of my evening",
+                    "no time to exercise",
+                    "less time with my family",
+                    "a waste of time",
+                    "trying to change this habit"
                   ],
                   "paragraphStarts": [
-                    "I usually watch films after work",
-                    "I sent it to my girlfriend",
-                    "In the end, I went to"
+                    "I usually watch TV after work",
+                    "When one show finishes",
+                    "Because of this, I have no time"
                   ]
                 },
-                "pointsLabel": "Why watching too many movies wastes time · 4 个观点",
+                "pointsLabel": "Why watching TV wastes time · 3 个观点",
                 "reasons": [
                   {
-                    "text": "The television suggests another film automatically, so it is easy to keep watching and lose track of time.",
-                    "memory": "1 · 自动推荐下一部 → 容易继续看 → 忘记时间",
+                    "text": "I always forget the time, because one show finishes and the next one starts.",
+                    "memory": "1 · 忘记时间：一集接一集 → 坐了几小时 → 一晚上过去",
                     "highlights": [
-                      "another film automatically",
-                      "lose track of time"
+                      "forget the time",
+                      "the next one starts"
                     ]
                   },
                   {
-                    "text": "Movies help me forget about work for a short time, but watching a second one usually adds little value.",
-                    "memory": "2 · 短暂忘掉工作 → 第二部没多少新价值 → 之后后悔",
+                    "text": "It takes up time I could use for exercise and my family.",
+                    "memory": "2 · 挤掉重要的事：没时间运动 → 少陪家人",
                     "highlights": [
-                      "forget about work",
-                      "adds little value"
+                      "takes up time",
+                      "exercise and my family"
                     ]
                   },
                   {
-                    "text": "I often go to bed after midnight and feel tired at work the next day, so the habit affects more than one evening.",
-                    "memory": "3 · 午夜后睡 → 第二天工作疲惫 → 影响不只一晚",
+                    "text": "After hours of TV I do not even feel relaxed, and I cannot remember most of what I watched.",
+                    "memory": "3 · 没有收获：也没放松 → 记不住看了什么",
                     "highlights": [
-                      "after midnight",
-                      "tired at work"
-                    ]
-                  },
-                  {
-                    "text": "One planned movie can be relaxing, but continuing without a clear stopping time turns it into wasted time.",
-                    "memory": "4 · 按计划看一部能放松 → 没有停止时间就过度 → 变成浪费",
-                    "highlights": [
-                      "one planned movie",
-                      "a clear stopping time"
+                      "do not even feel relaxed",
+                      "cannot remember"
                     ]
                   }
                 ],
                 "ending": {
                   "endingLead": {
                     "cue": "And explain why you think it is a wast of time",
-                    "text": "As for why I think watching too many films is a waste of time, there are three reasons.",
-                    "translation": "至于我为什么觉得看太多电影浪费时间，有三个原因。"
+                    "text": "As for why I think watching TV is a waste of time, there are three reasons.",
+                    "translation": "至于我为什么觉得看电视浪费时间，有三个原因。"
                   },
                   "reasons": [
                     {
-                      "text": "First of all, the television suggests another film automatically, so it is easy to keep watching and lose track of time. You know, I sometimes keep watching without really choosing to. So the choice is made for me.",
-                      "memory": "1 · 自动推荐下一部 → 容易继续看 → 忘记时间",
+                      "text": "First of all, I always forget the time when I watch TV. One show finishes and the next one starts, so I sit there for hours. The whole evening is gone before I notice.",
+                      "translation": "首先，我看电视时总是忘记时间。一个节目结束，下一个就开始，所以我一坐就是好几个小时。等我注意到的时候，整个晚上已经过去了。",
+                      "memory": "忘记时间：一集接一集 → 坐了几小时 → 一晚上过去了",
                       "highlights": [
-                        "another film automatically",
-                        "lose track of time"
+                        "always forget the time",
+                        "One show finishes and the next one starts",
+                        "sit there for hours",
+                        "The whole evening is gone"
                       ],
-                      "translation": "电视会自动推荐另一部电影，所以很容易继续看下去，忘记时间。你知道，我有时不是认真作出选择，而是不知不觉就继续看。",
-                      "memoryEn": "Use: suggests another film → keep watching → lose track of time"
+                      "memoryEn": "Time: forget the time → one show then the next → the evening is gone"
                     },
                     {
-                      "text": "Secondly, watching alone for too long leaves less time for people I care about. One film with friends can bring us closer. More films by myself do not give me the same feeling.",
-                      "translation": "独自看太久，会减少陪伴在乎的人的时间。和朋友看一部电影能让我们更亲近，而自己多看几部没有同样的感觉。",
-                      "memory": "Relationship：独自看太久 → 少陪伴家人朋友",
+                      "text": "Secondly, it takes up time I could use for other things. I have no time to exercise, and I spend less time with my family. These things are more important to me.",
+                      "translation": "其次，它占用了我本可以用来做别的事的时间。我没有时间运动，陪家人的时间也变少了。这些事对我来说更重要。",
+                      "memory": "挤掉重要的事：没时间运动 → 少陪家人 → 这些更重要",
                       "highlights": [
-                        "less time for people",
-                        "bring us closer"
+                        "takes up time",
+                        "no time to exercise",
+                        "less time with my family",
+                        "more important"
                       ],
-                      "memoryEn": "Relationship: watching alone → people I care about"
+                      "memoryEn": "Cost: no time to exercise → less time with family → more important"
                     },
                     {
-                      "text": "What's more, I often go to bed after midnight and feel tired at work the next day, so the habit affects more than one evening. I think getting enough sleep would be more useful. I think everyone should control how much time they spend on screens.",
-                      "memory": "3 · 午夜后睡 → 第二天工作疲惫 → 影响不只一晚",
+                      "text": "What's more, after hours of TV I do not even feel relaxed. I cannot remember most of the shows I watched. So the evening feels empty, and that is why I want to change.",
+                      "translation": "而且，看了几个小时的电视之后，我甚至没觉得放松。我看过的节目大部分都记不住。所以那个晚上感觉很空虚，这就是我想改变的原因。",
+                      "memory": "没有收获：也没放松 → 记不住看了什么 → 晚上很空虚",
                       "highlights": [
-                        "after midnight",
-                        "tired at work"
+                        "do not even feel relaxed",
+                        "cannot remember most of the shows",
+                        "feels empty"
                       ],
-                      "translation": "我经常午夜后才睡，第二天上班很累，所以这个习惯影响的不只是一个晚上。我觉得睡够觉会更有用。我觉得每个人都该控制看屏幕的时间。",
-                      "memoryEn": "Time: after midnight → tired at work → more than one evening"
+                      "memoryEn": "Value: not relaxed → cannot remember → the evening feels empty"
                     }
                   ],
                   "mode": "reasons"
                 },
                 "linked": [
-                  "Describe an enjoyable evening you had with your friends",
                   "Describe an interesting video"
                 ],
                 "cueTranslations": [
@@ -8890,15 +8886,15 @@ window.IELTS_DATA = {
                   "并解释你为什么认为这是浪费时间"
                 ],
                 "cuePointsNotes": [
-                  "在网上看太多电影",
-                  "下班后为了放松常常看",
-                  "上周六刷到《Grandma's Garden》的短片，发给女朋友和两个朋友，晚上他们来我家一起看完，笑得很开心；朋友走后电视又自动推荐下一部，我一个人继续看，忘了时间，午夜后才睡，第二天很累",
+                  "看电视",
+                  "下班后、晚上看",
+                  "想放松，一开始只想看一个节目；但一集接一集，总是忘记时间",
                   ""
                 ],
                 "cuePointsNotesEn": [
-                  "watching too many films online",
-                  "watch films after work ; to relax",
-                  "Grandma's Garden ; laughed a lot；kept watching alone ; forgot the time",
+                  "watching TV",
+                  "after work ; in the evening",
+                  "to relax ; only plan to watch one show；one show finishes, the next one starts ; forget the time",
                   ""
                 ]
               },
@@ -8923,70 +8919,62 @@ window.IELTS_DATA = {
                 "draftCues": [
                   "last Saturday evening",
                   "girlfriend-two old friends",
-                  "living room",
-                  "Grandma's Garden",
-                  "popcorn-laughter"
+                  "at my home",
+                  "film about robots",
+                  "snacks on the sofa",
+                  "talk after the film"
                 ],
-                "focus": "直接套用家里看《Grandma's Garden》的晚上；明确女朋友和两位老朋友都在，重点讲爆米花、笑声和聊天。",
-                "omit": "本题只讲朋友们一起看第一部电影的愉快部分；不用展开朋友离开后继续看的浪费时间部分。",
+                "focus": "统一为在家和朋友看机器人电影的晚上；按「准备零食 → 坐沙发看 → 看完讨论」的顺序讲，重点放在看完后的讨论。",
+                "omit": "不讲电影的具体情节、导演或演员；只记零食、沙发和看完后的讨论。",
                 "memoryChain": {
-                  "story": "周六下午刷到《Grandma's Garden》短片 → 奶奶种菜、做胡萝卜蛋糕 → 发给女朋友和两位老朋友 → 晚上来我家 → 客厅吃爆米花、喝饮料、看完整电影 → 大家笑得很开心 → 看完聊各自的家人 → 简单的一晚，轻松又愉快"
+                  "story": "周六晚上女朋友和两位老朋友来我家 → 决定看一部关于机器人的电影 → 开始前准备了很多零食和饮料 → 一起坐在沙发上看 → 电影很刺激，大家都很投入 → 看完讨论了很久，各有各的想法 → 简单的晚上，轻松又愉快"
                 },
                 "body": {
-                  "text": "Well, I have had a few lovely evenings with friends. But the first one that comes to my mind would be a film night. It was last Saturday. In the afternoon, I found a short clip from a family film called Grandma's Garden about a funny grandma. I sent it to my girlfriend and two old friends, and that evening they came to my home. We sat in the living room, watched the full movie and prepared some popcorn and drinks. The story was warm and funny, so we laughed a lot. After the movie, we talked about our own families for a while. It was a simple evening, but everyone looked relaxed and happy.",
-                  "translation": "嗯，我和朋友有过几个美好的夜晚。但我首先想到的是一场电影之夜。那是上周六。下午我刷到一部叫《奶奶的花园》的家庭电影的一段短片，讲的是一位有趣的奶奶。我把短片发给了女朋友和两位老朋友。那天晚上他们来到我家。我们坐在客厅里，看了完整电影，还准备了爆米花和饮料。故事温暖又有趣，我们笑了很多次。看完电影后，我们又聊了一会儿各自的家人。那是一个简单的晚上，但每个人看起来都很放松、很开心。",
+                  "text": "Well, I have had a few lovely evenings with friends. But the first one that comes to my mind would be a film night at my home. It was last Saturday. My girlfriend and two old friends came over in the evening. We decided to watch a film about robots. Before it started, we prepared a lot of snacks and drinks, and then we all sat on the sofa together. The film was really exciting, and we all enjoyed it a lot. After it finished, we talked about it for a long time. Everyone had different ideas about the story. It was a simple evening, but everyone looked relaxed and happy.",
+                  "translation": "嗯，我和朋友有过几个美好的夜晚。但我首先想到的是在我家的一场电影之夜。那是上周六。我女朋友和两位老朋友晚上过来了。我们决定看一部关于机器人的电影。开始前，我们准备了很多零食和饮料，然后一起坐在沙发上。这部电影真的很刺激，我们都很喜欢。看完之后，我们讨论了很久。大家对故事有不同的想法。那是一个简单的晚上，但每个人看起来都很放松、很开心。",
                   "highlights": [
-                    "film night",
+                    "a film night at my home",
                     "last Saturday",
-                    "Grandma's Garden",
                     "girlfriend and two old friends",
-                    "full movie",
-                    "popcorn and drinks",
-                    "laughed a lot",
-                    "talked about our own families",
+                    "a film about robots",
+                    "prepared a lot of snacks and drinks",
+                    "sat on the sofa together",
+                    "really exciting",
+                    "talked about it for a long time",
+                    "different ideas about the story",
                     "relaxed and happy",
-                    "living room",
-                    "warm and funny",
                     "simple evening"
                   ],
                   "paragraphStarts": [
                     "It was last Saturday",
-                    "We sat in the living room",
-                    "It was a simple evening, but"
+                    "Before it started, we prepared",
+                    "After it finished, we talked"
                   ]
                 },
-                "pointsLabel": "Why the movie evening was enjoyable · 4 个观点",
+                "pointsLabel": "Why the movie evening was enjoyable · 3 个观点",
                 "reasons": [
                   {
-                    "text": "We had not met for a while, so watching the movie gave us time to talk and feel close again.",
-                    "memory": "1 · 有段时间没见 → 一起看电影聊天 → 关系更近",
+                    "text": "The film about robots was exciting, and everyone enjoyed it.",
+                    "memory": "1 · 机器人电影很刺激 → 大家都很投入",
                     "highlights": [
-                      "time to talk",
-                      "feel close again"
+                      "about robots was exciting",
+                      "everyone enjoyed it"
                     ]
                   },
                   {
-                    "text": "The short clip gave everyone the same simple topic, so choosing a film was quick and nobody argued.",
-                    "memory": "2 · 先分享同一段短片 → 选电影很快 → 没人争论",
+                    "text": "We prepared snacks and drinks and sat on the sofa together, so the evening felt relaxed.",
+                    "memory": "2 · 自备零食饮料＋坐沙发 → 气氛很放松",
                     "highlights": [
-                      "the same simple topic",
-                      "choosing a film was quick"
+                      "snacks and drinks",
+                      "sat on the sofa"
                     ]
                   },
                   {
-                    "text": "The funny scenes, popcorn and laughter made the living room feel relaxed and friendly.",
-                    "memory": "3 · 有趣画面＋爆米花＋笑声 → 客厅气氛轻松",
+                    "text": "After the film we talked for a long time, and everyone had different ideas.",
+                    "memory": "3 · 看完讨论很久 → 各有各的想法 → 最好玩的部分",
                     "highlights": [
-                      "popcorn and laughter",
-                      "relaxed and friendly"
-                    ]
-                  },
-                  {
-                    "text": "The story reminded us of our own families, so we had a warm conversation after the movie.",
-                    "memory": "4 · 想起自己的家人 → 看完继续聊天 → 晚上更有意义",
-                    "highlights": [
-                      "our own families",
-                      "a warm conversation"
+                      "talked for a long time",
+                      "different ideas"
                     ]
                   }
                 ],
@@ -8998,43 +8986,46 @@ window.IELTS_DATA = {
                   },
                   "reasons": [
                     {
-                      "text": "First of all, we had not met for a while, so watching the movie gave us time to talk and feel close again. It was nice to sit together instead of just sending messages. That is what I enjoyed most.",
-                      "memory": "Relationship：很久没见 → 一起看电影聊天 → 重新亲近",
+                      "text": "First of all, the film itself was great. It was about robots, and the story was exciting. We all enjoyed it from the beginning to the end.",
+                      "translation": "首先，电影本身很棒。它讲的是机器人，故事很刺激。我们从头到尾都很投入。",
+                      "memory": "电影：讲机器人 → 故事很刺激 → 从头到尾都投入",
                       "highlights": [
-                        "we had not met for a while",
-                        "time to talk and feel close again",
-                        "instead of just sending messages"
+                        "the film itself was great",
+                        "about robots",
+                        "the story was exciting",
+                        "from the beginning to the end"
                       ],
-                      "translation": "首先，我们有一阵子没见了，所以一起看电影让我们有时间聊天、重新亲近起来。能坐在一起，而不是只发消息，感觉很好。这是我最享受的部分。",
-                      "memoryEn": "Relationship: had not met → time to talk → feel close again"
+                      "memoryEn": "Film: about robots → story was exciting → enjoyed it all"
                     },
                     {
-                      "text": "Secondly, the funny scenes, popcorn and laughter made the living room feel relaxed and friendly. You know, after a busy week, that was exactly what we needed. So nobody wanted the evening to end.",
-                      "memory": "Emotion：画面＋爆米花＋笑声 → 忙一周后正好需要 → 不想结束",
+                      "text": "Secondly, the evening felt very relaxed. We prepared a lot of snacks and drinks, and we all sat on the sofa together. After a busy week, that was exactly what we needed.",
+                      "translation": "其次，那个晚上感觉很放松。我们准备了很多零食和饮料，一起坐在沙发上。忙了一周之后，这正是我们需要的。",
+                      "memory": "气氛：零食饮料＋坐沙发 → 忙一周后正好需要",
                       "highlights": [
-                        "funny scenes, popcorn and laughter",
-                        "relaxed and friendly",
+                        "felt very relaxed",
+                        "a lot of snacks and drinks",
+                        "sat on the sofa together",
                         "exactly what we needed"
                       ],
-                      "translation": "其次，搞笑的片段、爆米花和笑声让客厅的气氛轻松又友好。你知道，忙了一周后，这正是我们需要的。所以谁都不想这个晚上结束。",
-                      "memoryEn": "Emotion: popcorn and laughter → what we needed → evening to end"
+                      "memoryEn": "Relaxed: snacks and drinks → sat on the sofa → what we needed"
                     },
                     {
-                      "text": "What's more, watching at home did not cost much money. We could prepare our own popcorn and drinks and enjoy the film together. I think having good company mattered more than paying for expensive entertainment. I think simple evenings like this matter more than expensive nights out.",
-                      "translation": "此外，在家看电影没花多少钱。我们可以自己准备爆米花和饮料，一起享受电影。我觉得有好朋友作伴，比花钱去昂贵的地方娱乐更重要。我觉得这样简单的晚上，比花钱出去更珍贵。",
-                      "memory": "Money / Relationship：在家看＋自备爆米花饮料 → 便宜 → 陪伴比花钱重要",
+                      "text": "What's more, the talk after the film was the best part. We all had different ideas about the story, and we talked for a long time. It was much better than watching a film alone.",
+                      "translation": "而且，看完电影后的讨论是最好的部分。我们对故事有不同的想法，聊了很久。这比一个人看电影好多了。",
+                      "memory": "讨论：各有各的想法 → 聊了很久 → 比一个人看好",
                       "highlights": [
-                        "did not cost much money",
-                        "prepare our own popcorn and drinks",
-                        "good company"
+                        "the talk after the film",
+                        "the best part",
+                        "different ideas about the story",
+                        "much better than watching a film alone"
                       ],
-                      "memoryEn": "Money: did not cost much → popcorn and drinks → good company"
+                      "memoryEn": "Talk: different ideas → talked for a long time → better than watching alone"
                     }
                   ],
                   "mode": "reasons"
                 },
                 "linked": [
-                  "Describe an activity you do regularly that you think is a waste of time",
+                  "Describe an exciting book you have read",
                   "Describe an interesting video"
                 ],
                 "cueTranslations": [
@@ -9045,13 +9036,13 @@ window.IELTS_DATA = {
                 ],
                 "cuePointsNotes": [
                   "上周六晚上，在我家",
-                  "下午刷到《Grandma's Garden》的短片，发给女朋友和两位老朋友；晚上他们来我家，在客厅一起看完整部电影、吃爆米花、喝饮料、笑个不停，看完还聊了各自的家人",
-                  "女朋友和两位老朋友（有一阵子没见了）",
+                  "看了一部关于机器人的电影；开始前准备了很多零食和饮料，一起坐在沙发上看；看完讨论了很久，各有各的想法",
+                  "女朋友和两位老朋友",
                   ""
                 ],
                 "cuePointsNotesEn": [
-                  "last Saturday ; came to my home",
-                  "found a short clip ; Grandma's Garden；watched the full movie ; laughed a lot",
+                  "last Saturday evening ; at my home",
+                  "a film about robots；prepared a lot of snacks and drinks ; sat on the sofa together；talked about it for a long time ; different ideas",
                   "girlfriend and two old friends",
                   ""
                 ]
@@ -9074,7 +9065,7 @@ window.IELTS_DATA = {
                   ]
                 },
                 "body": {
-                  "text": "Well, there are a few laws I would like to see. But the first one that comes to my mind would be a law against littering. Anyone who broke it would have to pay a fine of 2,000 yuan. I got this idea when I visited Singapore last year and learned about a similar law there, and I noticed that the roads and parks were clean. People should follow it because it keeps public places clean. Rubbish can smell bad, attract insects and make a place unpleasant. The government should also put clear signs and enough bins in public areas. Local residents would have a better environment, so I believe the law would be popular. I would be happy to see cleaner streets.",
+                  "text": "Well, I would like to see a few new laws. But the first one that comes to my mind would be a law against littering. Anyone who broke it would have to pay a fine of 2,000 yuan. I got this idea when I visited Singapore last year and learned about a similar law there, and I noticed that the roads and parks were clean. People should follow it because it keeps public places clean. Rubbish can smell bad, attract insects and make a place unpleasant. The government should also put clear signs and enough bins in public areas. Local residents would have a better environment, so I believe the law would be popular. I would be happy to see cleaner streets.",
                   "highlights": [
                     "littering",
                     "fine of 2,000 yuan",
@@ -9346,9 +9337,9 @@ window.IELTS_DATA = {
                   ]
                 },
                 "body": {
-                  "text": "Well, there are a few laws I would like to introduce. But the first one that comes to my mind would be a law against littering. Anyone who broke it would have to pay a fine of 2,000 yuan. If my country introduced this law, there could be clear signs and more bins near stations and schools. Local residents would enjoy a better environment, so I think the law would be popular. I got this idea when I visited Singapore last year and a local person told me about a similar law there. I noticed that the roads and parks were very clean, and people put their rubbish into bins. I would follow the law myself.",
+                  "text": "Well, I would like to introduce a few new laws. But the first one that comes to my mind would be a law against littering. Anyone who broke it would have to pay a fine of 2,000 yuan. If my country introduced this law, there could be clear signs and more bins near stations and schools. Local residents would enjoy a better environment, so I think the law would be popular. I got this idea when I visited Singapore last year and a local person told me about a similar law there. I noticed that the roads and parks were very clean, and people put their rubbish into bins. I would follow the law myself.",
                   "highlights": [
-                    "there are a few laws I would like to introduce",
+                    "would like to introduce a few new laws",
                     "a law against littering",
                     "a fine of 2,000 yuan",
                     "clear signs and more bins",
@@ -9770,7 +9761,7 @@ window.IELTS_DATA = {
                   ]
                 },
                 "body": {
-                  "text": "Well, there are a lot of foods for special occasions in China. But the first one that comes to my mind would be dumplings. Chinese people often eat them during the Spring Festival. They are one of the most common festival foods in China. Making them is not very difficult. At first, we mix water and flour together until we get soft dough. After that, we cut the dough into many small pieces and make each piece thin and round. Then we put some meat and vegetables in the middle and close it carefully by hand. When all the dumplings are ready, we boil them in hot water for several minutes. We take them out when they are fully cooked and eat them while they are still hot. They are soft outside, full of flavour inside and really delicious.",
+                  "text": "Well, I have tried a few special foods. But the first one that comes to my mind would be dumplings. Chinese people often eat them during the Spring Festival. They are one of the most common festival foods in China. Making them is not very difficult. At first, we mix water and flour together until we get soft dough. After that, we cut the dough into many small pieces and make each piece thin and round. Then we put some meat and vegetables in the middle and close it carefully by hand. When all the dumplings are ready, we boil them in hot water for several minutes. We take them out when they are fully cooked and eat them while they are still hot. They are soft outside, full of flavour inside and really delicious.",
                   "highlights": [
                     "dumplings",
                     "Spring Festival",
@@ -10180,7 +10171,7 @@ window.IELTS_DATA = {
                   ]
                 },
                 "body": {
-                  "text": "Well, I see quite a lot of advertisements. But the first one that comes to my mind would be an advert for a Xiaomi laptop. The famous person in it is Zhang Jie, a popular Chinese singer. I first saw it on television at home one evening. In the advertisement, he opens the laptop, sings a song about it and shows how he uses it to make music. The screen then shows the laptop from different sides and explains that it is light and easy to carry. The whole advertisement lasts less than a minute, but the song is simple and easy to remember. The laptop comes in different colours, and the advertisement says its battery lasts all day. It attracted me immediately. Since then, I have seen it many times and have wanted to buy the laptop for work and entertainment.",
+                  "text": "Well, I have seen a few advertisements. But the first one that comes to my mind would be an advert for a Xiaomi laptop. The famous person in it is Zhang Jie, a popular Chinese singer. I first saw it on television at home one evening. In the advertisement, he opens the laptop, sings a song about it and shows how he uses it to make music. The screen then shows the laptop from different sides and explains that it is light and easy to carry. The whole advertisement lasts less than a minute, but the song is simple and easy to remember. The laptop comes in different colours, and the advertisement says its battery lasts all day. It attracted me immediately. Since then, I have seen it many times and have wanted to buy the laptop for work and entertainment.",
                   "highlights": [
                     "Xiaomi laptop",
                     "Zhang Jie",
@@ -10451,7 +10442,7 @@ window.IELTS_DATA = {
                   ]
                 },
                 "body": {
-                  "text": "Well, I watch quite a lot of videos online. But the first one that comes to my mind would be a video of a young man. I watched it at home one evening, while looking through short videos after dinner. I watched it because I wanted to relax after a tiring day. It showed a young man singing, making jokes and dancing. At first, he wore normal clothes and moved like a modern dancer. After a few seconds, traditional music started, and he changed his movements completely. He mixed modern and traditional dances together, and the music was made by himself. It even included some people shouting, which made the performance unusual. I watched it twice, and later I sent it to Li Hua, and he laughed too. It made me laugh, and I felt much better afterwards.",
+                  "text": "Well, I have watched a few videos online. But the first one that comes to my mind would be a video of a young man. I watched it at home one evening, while looking through short videos after dinner. I watched it because I wanted to relax after a tiring day. It showed a young man singing, making jokes and dancing. At first, he wore normal clothes and moved like a modern dancer. After a few seconds, traditional music started, and he changed his movements completely. He mixed modern and traditional dances together, and the music was made by himself. It even included some people shouting, which made the performance unusual. I watched it twice, and later I sent it to Li Hua, and he laughed too. It made me laugh, and I felt much better afterwards.",
                   "highlights": [
                     "at home one evening",
                     "modern dancer",
@@ -10598,39 +10589,39 @@ window.IELTS_DATA = {
                   "并解释你为什么觉得它是一本让人兴奋的书"
                 ],
                 "draftCues": [
-                  "a little lion",
-                  "learn to hunt",
-                  "mother teaches patience",
-                  "follows a deer to the river",
-                  "the most exciting part"
+                  "a sci-fi novel",
+                  "robots think for themselves",
+                  "engineer must stop them",
+                  "turn off the main machine",
+                  "only a few minutes",
+                  "but he makes it"
                 ],
-                "focus": "书是什么、讲了什么用现在时说；读它的经历和小狮子的捕猎过程用过去时；最后一问用三个理由说明为什么读起来让人兴奋。",
+                "focus": "书是什么、讲了什么用现在时说；高潮部分和读它的经历用过去时；最后一问用三个理由说明为什么读起来让人兴奋。",
                 "body": {
-                  "text": "Well, I read quite a few books in my free time. But the first one that comes to my mind would be a children's picture book. It tells the story of a small lion and its mother. The small lion wanted to learn how to hunt, so it hoped to find food by itself. Its mother taught it how to move quietly and wait, but it always ran too early and frightened the other animals away. One afternoon, it followed a deer to the river alone, and that was the most exciting part. You know, the deer almost escaped, so the little lion had to hide behind the grass and wait for a long time. In the end, it caught the deer and proudly shared the food with its mother. To be honest, I read this book when I was a child, because the pictures of the lions attracted me, and my mother read it aloud to me almost every night.",
-                  "translation": "嗯，我空闲时读的书挺多的。但我首先想到的是一本儿童图画书。它讲的是小狮子和它妈妈的故事。小狮子想学会捕猎，希望自己能找到食物。妈妈教它怎么安静地移动和等待，但它总是跑得太早，把别的动物都吓跑了。有一天下午，它独自跟着一只鹿到了河边，那是最让人兴奋的部分。你知道，那只鹿差点跑掉，所以小狮子只能躲在草丛后面等了很久。最后，它捕到了那只鹿，还骄傲地把食物分给妈妈。说实话，我是小时候读这本书的，因为书里狮子的图片吸引了我，而且妈妈几乎每天晚上读给我听。",
+                  "text": "Well, I read quite a few books in my free time. But the first one that comes to my mind would be a science fiction novel called The Last Robots. My friend lent it to me last year. The story happens about a hundred years in the future. A big company makes very clever robots, and people use them everywhere. The robots can think and make their own decisions. One engineer finds out that they do not listen to people any more, and he has to stop them. The most exciting part is near the end. He goes into the company's main building at night to turn off the main machine. The robots want to stop him, and he has only a few minutes. But in the end, he makes it. I read this book because my friend told me it was very exciting, and I am quite interested in new technology.",
+                  "translation": "嗯，我空闲时读的书挺多的。但我首先想到的是一本科幻小说，叫《最后的机器人》。我朋友去年借给我的。故事发生在大约一百年后的未来。一家大公司造出了非常聪明的机器人，人们到处都在用。这些机器人会思考，还能自己做决定。一个工程师发现它们不再听人的话了，他必须阻止它们。最让人兴奋的部分在接近结尾的地方。他夜里进入公司的主楼，去关掉主机。机器人想阻止他，而他只有几分钟。但最后他做到了。我读这本书是因为朋友说它很刺激，而且我对新科技挺感兴趣的。",
                   "highlights": [
-                    "a children's picture book",
-                    "a small lion and its mother",
-                    "learn how to hunt",
-                    "find food by itself",
-                    "move quietly and wait",
-                    "ran too early",
-                    "frightened the other animals away",
-                    "followed a deer to the river alone",
-                    "the most exciting part",
-                    "the deer almost escaped",
-                    "hide behind the grass",
-                    "wait for a long time",
-                    "caught the deer",
-                    "shared the food with its mother",
-                    "the pictures of the lions attracted me",
-                    "my mother read it aloud to me",
-                    "almost every night"
+                    "a science fiction novel",
+                    "The Last Robots",
+                    "My friend lent it to me",
+                    "a hundred years in the future",
+                    "very clever robots",
+                    "think and make their own decisions",
+                    "do not listen to people any more",
+                    "has to stop them",
+                    "The most exciting part",
+                    "main building at night",
+                    "turn off the main machine",
+                    "only a few minutes",
+                    "want to stop him",
+                    "in the end, he makes it",
+                    "my friend told me it was very exciting",
+                    "interested in new technology"
                   ],
                   "paragraphStarts": [
-                    "It tells the story of a",
-                    "One afternoon, it followed a deer",
-                    "To be honest, I read this book"
+                    "The story happens about",
+                    "The most exciting part is near the end",
+                    "I read this book because"
                   ]
                 },
                 "sourceOrder": 901,
@@ -10642,78 +10633,80 @@ window.IELTS_DATA = {
                   },
                   "reasons": [
                     {
-                      "text": "First of all, the story is full of danger and surprises. The little lion follows a deer to the river alone, and the deer almost escapes. You know, I kept turning the pages quickly because I wanted to know what would happen next.",
-                      "translation": "首先，这个故事充满危险和意外。小狮子独自跟着一只鹿到河边，那只鹿差点跑掉。你知道，我一页页翻得很快，因为我想知道接下来会发生什么。",
-                      "memory": "危险悬念：独自跟鹿到河边 → 鹿差点跑掉 → 急着翻页想知道结果",
+                      "text": "First of all, some parts are really tense. The engineer goes into the main building at night, and the robots try to stop him. He has only a few minutes, so I felt nervous when I read it.",
+                      "translation": "首先，有些段落真的很紧张。工程师夜里进入主楼，机器人想阻止他。他只有几分钟，所以我读到那里的时候很紧张。",
+                      "memory": "紧张感：夜里进主楼 → 机器人想拦他 → 只有几分钟 → 我读到很紧张",
                       "highlights": [
-                        "full of danger and surprises",
-                        "follows a deer to the river alone",
-                        "turning the pages quickly"
+                        "some parts are really tense",
+                        "The engineer goes into the main building at night",
+                        "only a few minutes",
+                        "I felt nervous"
                       ],
-                      "memoryEn": "Suspense: danger and surprises → follows a deer alone → turn the pages quickly"
+                      "memoryEn": "Tense: main building at night → robots try to stop him → only a few minutes → felt nervous"
                     },
                     {
-                      "text": "Secondly, the pictures make every scene feel real. The lion runs fast and hides behind the grass, and the colours are bright and strong. So it feels a little like watching a short film.",
-                      "translation": "其次，图画让每个场景都显得很真实。狮子飞快地跑、躲在草丛后面，颜色又亮又浓。所以读起来有点像看一部短片。",
-                      "memory": "画面感：飞快地跑＋躲在草丛 → 颜色亮 → 像看短片",
+                      "text": "Secondly, I could not guess the ending. Every time I thought the engineer was safe, something new went wrong. So I kept reading late into the night.",
+                      "translation": "其次，我猜不到结局。每次我以为主角安全了，又出了新的问题。所以我一直读到很晚。",
+                      "memory": "悬念：猜不到结局 → 以为安全了又出问题 → 一直读到很晚",
                       "highlights": [
-                        "make every scene feel real",
-                        "bright and strong",
-                        "like watching a short film"
+                        "I could not guess the ending",
+                        "something new went wrong",
+                        "kept reading late into the night"
                       ],
-                      "memoryEn": "Pictures: scene feels real → bright colours → like a short film"
+                      "memoryEn": "Suspense: could not guess the ending → something new went wrong → read late into the night"
                     },
                     {
-                      "text": "What's more, the ending made me excited. The little lion fails many times, but it keeps trying and finally catches the deer and shares the food with its mother. I felt happy for it, and it taught me never to give up.",
-                      "translation": "而且，结尾让我很兴奋。小狮子失败了很多次，但它一直努力，最后捕到鹿，还把食物分给妈妈。我为它高兴，它也教会我不要放弃。",
-                      "memory": "情绪高潮：失败多次仍坚持 → 捕到鹿并分享 → 我为它高兴＋学会不放弃",
+                      "text": "What's more, the new technology in the book feels possible. We already use smart machines in our daily life, so I often thought it could really happen one day. That made the story even more exciting for me.",
+                      "translation": "而且，书里的新科技让人觉得有可能成真。我们日常生活里已经在用智能机器了，所以我常想，也许有一天它真的会发生。这让这个故事更让我兴奋。",
+                      "memory": "代入感：新科技像真的 → 我们已在用智能机器 → 觉得也许真会发生 → 更兴奋",
                       "highlights": [
-                        "the ending made me excited",
-                        "keeps trying",
-                        "never to give up"
+                        "the new technology in the book feels possible",
+                        "use smart machines in our daily life",
+                        "it could really happen one day",
+                        "even more exciting"
                       ],
-                      "memoryEn": "Ending: keeps trying → catches the deer → never to give up"
+                      "memoryEn": "Real: new technology feels possible → use smart machines → could really happen → more exciting"
                     }
                   ],
                   "mode": "feelings"
                 },
                 "cuePointsNotes": [
-                  "一本关于小狮子的儿童图画书（小时候读的，书里有狮子的图片）",
-                  "小狮子想学会捕猎、自己找食物；妈妈教它安静移动和等待；它总跑得太早，把别的动物吓跑；有一天下午它独自跟着一只鹿到河边，鹿差点跑掉，它只能躲在草丛里等很久；最后它捕到鹿，还和妈妈分享食物",
-                  "小时候读的：狮子的图片吸引我，妈妈几乎每天晚上读给我听",
+                  "一本科幻小说《最后的机器人》；朋友去年借给我的",
+                  "故事发生在约一百年后：一家公司造出很聪明的机器人，人们到处都在用；机器人会思考、自己做决定，一个工程师发现它们不再听人的话，必须阻止它们；最刺激的在结尾：他夜里进主楼关主机，机器人想拦他，他只有几分钟，但最后做到了",
+                  "朋友说这本书很刺激；我对新科技很感兴趣",
                   ""
                 ],
                 "cuePointsNotesEn": [
-                  "a children's picture book",
-                  "learn how to hunt ; find food by itself；move quietly and wait ; ran too early；followed a deer to the river alone ; the deer almost escaped；caught the deer ; shared the food with its mother",
-                  "the pictures of the lions attracted me ; my mother read it aloud to me",
+                  "a science fiction novel ; The Last Robots；my friend lent it to me",
+                  "a hundred years in the future ; very clever robots；think and make their own decisions ; do not listen to people any more；the main building at night ; turn off the main machine ; only a few minutes ; but he makes it",
+                  "my friend told me it was very exciting；interested in new technology",
                   ""
                 ],
                 "memoryChain": {
-                  "story": "小狮子想学捕猎、自己找食物 → 妈妈教它安静移动和等待 → 它总跑得太早、吓跑别的动物 → 独自跟着一只鹿到河边 → 鹿差点跑掉，它躲在草丛里等很久 → 捕到鹿并和妈妈分享 → 小时候因为狮子图片吸引我，妈妈每晚读给我听",
+                  "story": "一本科幻小说《最后的机器人》→ 朋友去年借给我 → 故事发生在约一百年后 → 公司造出很聪明的机器人、到处都在用 → 机器人会自己思考做决定 → 工程师发现它们不再听人的话、必须阻止 → 结尾他夜里进主楼关主机、机器人想拦他、只有几分钟 → 最后他做到了 → 读它是因为朋友说刺激，而且我对新科技感兴趣",
                   "reasons": [
-                    "危险悬念：独自跟鹿到河边＋鹿差点跑掉 → 急着翻页想知道结果",
-                    "画面感强：飞快地跑、躲在草丛＋颜色又亮又浓 → 像看一部短片",
-                    "情绪高潮：失败多次仍坚持 → 捕到鹿并分享 → 我为它高兴＋学会不放弃"
+                    "紧张感：夜里进主楼 → 机器人想拦他 → 只有几分钟 → 我读到很紧张",
+                    "悬念：猜不到结局 → 以为安全了又出问题 → 一直读到很晚",
+                    "代入感：新科技像真的 → 我们已在用智能机器 → 觉得也许真会发生 → 更兴奋"
                   ]
                 },
                 "pointsLabel": "Why it is exciting · 3 个原因",
                 "reasons": [
                   {
-                    "text": "First of all, the story is full of danger and surprises, so it is hard to stop reading.",
-                    "memory": "危险悬念：小狮子独自外出 → 鹿差点跑掉 → 忍不住一直往下读"
+                    "text": "First of all, some parts are really tense. The engineer goes into the main building at night, and he has only a few minutes.",
+                    "memory": "紧张感：夜里进主楼 → 机器人想拦他 → 只有几分钟"
                   },
                   {
-                    "text": "Secondly, the pictures are bright and strong, so every scene feels like a short film.",
-                    "memory": "画面强：颜色亮＋动作快 → 像看短片 → 更有画面感"
+                    "text": "Secondly, I could not guess the ending. Every time I thought the engineer was safe, something new went wrong.",
+                    "memory": "悬念：猜不到结局 → 以为安全了又出问题"
                   },
                   {
-                    "text": "What's more, the little lion keeps trying and finally catches the deer, so I felt excited and happy for it.",
-                    "memory": "情绪高潮：失败多次仍坚持 → 捕到鹿并分享 → 我又兴奋又为它高兴"
+                    "text": "What's more, the new technology in the book feels possible, so I often thought it could really happen one day.",
+                    "memory": "代入感：新科技像真的 → 我们已在用智能机器 → 也许真会发生"
                   }
                 ],
                 "linked": [
-                  "Describe a story/book with animals in it"
+                  "Describe an enjoyable evening you had with your friends"
                 ]
               }
             ]
@@ -10735,7 +10728,7 @@ window.IELTS_DATA = {
                   ]
                 },
                 "body": {
-                  "text": "Well, there are a lot of tall buildings in China. But the first one that comes to my mind would be Shanghai Tower. It is in Lujiazui, in Shanghai. I visited it with my girlfriend during our last trip there. The building is mainly used for offices, and many companies work there every day. From the outside, the building is covered in glass, and its shape is very unusual. It turns a little as it goes up, so it does not look like a normal office building. Inside, the space is very bright and clean. There is also a tourist area with seats, and the windows are large, so the rooms do not feel dark. We walked around and took a few photos. I like this building because the design is special and the inside is bright and clean.",
+                  "text": "Well, I have visited a few tall buildings. But the first one that comes to my mind would be Shanghai Tower. It is in Lujiazui, in Shanghai. I visited it with my girlfriend during our last trip there. The building is mainly used for offices, and many companies work there every day. From the outside, the building is covered in glass, and its shape is very unusual. It turns a little as it goes up, so it does not look like a normal office building. Inside, the space is very bright and clean. There is also a tourist area with seats, and the windows are large, so the rooms do not feel dark. We walked around and took a few photos. I like this building because the design is special and the inside is bright and clean.",
                   "highlights": [
                     "Shanghai Tower",
                     "Lujiazui, in Shanghai",
@@ -10755,7 +10748,7 @@ window.IELTS_DATA = {
                     "It turns a little as it",
                     "I like this building because the"
                   ],
-                  "translation": "嗯，中国有很多高楼。但我首先想到的是上海中心大厦。它在上海陆家嘴。上次去上海旅行时，我和女朋友一起去参观了。这栋楼主要用作办公室，每天有很多公司在那里上班。从外面看，它全是玻璃的，造型非常不寻常。它往上会转一点，所以不像普通的写字楼。里面非常明亮、干净，还有一个带座位的游客区。窗户很大，房间不会觉得暗。我们在里面走了一圈，拍了几张照片。我喜欢这栋楼，因为它的设计很特别，里面又明亮又干净。"
+                  "translation": "嗯，我去过几座高楼。但我首先想到的是上海中心大厦。它在上海陆家嘴。上次去上海旅行时，我和女朋友一起去参观了。这栋楼主要用作办公室，每天有很多公司在那里上班。从外面看，它全是玻璃的，造型非常不寻常。它往上会转一点，所以不像普通的写字楼。里面非常明亮、干净，还有一个带座位的游客区。窗户很大，房间不会觉得暗。我们在里面走了一圈，拍了几张照片。我喜欢这栋楼，因为它的设计很特别，里面又明亮又干净。"
                 },
                 "draftCues": [
                   "Shanghai Tower",
@@ -10892,7 +10885,7 @@ window.IELTS_DATA = {
                 "answer": [
                   {
                     "kind": "朋友",
-                    "text": "Well, it's hard to choose a gift. There are a lot of options, like clothes or shoes. But the first one that comes to my mind would be a Xiaomi smart watch. The gift would be for Alex. I met him on my first day at my current company because we joined the same software team. He helped me understand the work and introduced me to the other team members.",
+                    "text": "Well, I would like to buy a few gifts. There are a lot of options, like clothes or shoes. But the first one that comes to my mind would be a Xiaomi smart watch. The gift would be for Alex. I met him on my first day at my current company because we joined the same software team. He helped me understand the work and introduced me to the other team members.",
                     "translation": "嗯，选礼物不容易。选择很多，比如衣服或鞋子。但我首先想到的是一块小米智能手表。这份礼物是准备送给Alex的。我在现在这家公司上班的第一天认识了他，因为我们进入了同一个软件团队。他帮我熟悉工作，还把我介绍给了其他团队成员。"
                   },
                   {
@@ -10925,8 +10918,8 @@ window.IELTS_DATA = {
                   ]
                 },
                 "body": {
-                  "text": "Well, it's hard to choose a gift. There are a lot of options, like clothes or shoes. But the first one that comes to my mind would be a Xiaomi smart watch for Alex. We met at work six years ago, and he once gave me a pair of wireless headphones. Now I want to return his kindness with a useful gift. When I choose a gift, I think about his needs first. Alex often misses important messages, so a watch could remind him to check them, and it could also help him check his health. There are white and black ones, and I would choose the black one. I would compare a few models and pick one at a reasonable price.",
-                  "translation": "嗯，挑礼物不容易，选择很多，比如衣服或鞋子。但我首先想到的是给 Alex 买一块小米智能手表。我们六年前在工作中认识，他以前送过我一对无线耳机。现在我想用一件实用的礼物回报他的好意。我挑礼物时会先考虑对方的需求。Alex 经常漏看重要消息，所以智能手表可以提醒他查看，也能帮他了解健康状况。手表有白色和黑色，我会选黑色。我会比较几个型号，选一块价格合理的。",
+                  "text": "Well, I would like to buy a few gifts. There are a lot of options, like clothes or shoes. But the first one that comes to my mind would be a Xiaomi smart watch for Alex. We met at work six years ago, and he once gave me a pair of wireless headphones. Now I want to return his kindness with a useful gift. When I choose a gift, I think about his needs first. Alex often misses important messages, so a watch could remind him to check them, and it could also help him check his health. There are white and black ones, and I would choose the black one. I would compare a few models and pick one at a reasonable price.",
+                  "translation": "嗯，我想买几件礼物，比如衣服或鞋子。但我首先想到的是给 Alex 买一块小米智能手表。我们六年前在工作中认识，他以前送过我一对无线耳机。现在我想用一件实用的礼物回报他的好意。我挑礼物时会先考虑对方的需求。Alex 经常漏看重要消息，所以智能手表可以提醒他查看，也能帮他了解健康状况。手表有白色和黑色，我会选黑色。我会比较几个型号，选一块价格合理的。",
                   "highlights": [
                     "Xiaomi smart watch",
                     "Alex",
@@ -11177,9 +11170,7 @@ window.IELTS_DATA = {
                   ],
                   "mode": "feelings"
                 },
-                "linked": [
-                  "Describe something you bought that you were happy with"
-                ],
+                "linked": [],
                 "cueTranslations": [
                   "这家店在哪里",
                   "你什么时候去的店里",
@@ -12390,8 +12381,8 @@ window.IELTS_DATA = {
                   ]
                 },
                 "body": {
-                  "text": "Well, sometimes people talk about things I am not really interested in. But the first one that comes to my mind would be a football conversation with Alex. He is my mentor at work, and he has taught me a lot. He had watched the match the night before and was very excited. I do not usually follow football, so at first I found it a little boring. However, I kept listening because he is my mentor and I respect him. I wanted to show him respect. I nodded and asked a few simple questions, and he enjoyed explaining it. Later, when I mentioned a work problem, he listened carefully and gave me some advice. I felt patient and positive because the conversation strengthened our relationship.",
-                  "translation": "嗯，有时候别人会聊一些我其实不太感兴趣的事。但我首先想到的是和 Alex 的一次聊足球。他是我的导师，教过我很多东西。前一天晚上他看了那场比赛，非常兴奋。我平时不看足球，所以一开始觉得有点无聊。但我还是继续听了下去，因为他是我的导师，我很尊重他。我想表示对他的尊重。我看着他、点头，还问了几个简单的问题，他很愿意讲。后来我提到一个工作上的问题，他也认真听，还给了我一些建议。我觉得自己很有耐心，心情也很好，因为这次谈话让我们关系更近了。",
+                  "text": "Well, I have listened to a few boring talks. But the first one that comes to my mind would be a football conversation with Alex. He is my mentor at work, and he has taught me a lot. He had watched the match the night before and was very excited. I do not usually follow football, so at first I found it a little boring. However, I kept listening because he is my mentor and I respect him. I wanted to show him respect. I nodded and asked a few simple questions, and he enjoyed explaining it. Later, when I mentioned a work problem, he listened carefully and gave me some advice. I felt patient and positive because the conversation strengthened our relationship.",
+                  "translation": "嗯，我听过几次不感兴趣的谈话。但我首先想到的是和 Alex 的一次聊足球。他是我的导师，教过我很多东西。前一天晚上他看了那场比赛，非常兴奋。我平时不看足球，所以一开始觉得有点无聊。但我还是继续听了下去，因为他是我的导师，我很尊重他。我想表示对他的尊重。我看着他、点头，还问了几个简单的问题，他很愿意讲。后来我提到一个工作上的问题，他也认真听，还给了我一些建议。我觉得自己很有耐心，心情也很好，因为这次谈话让我们关系更近了。",
                   "highlights": [
                     "Alex",
                     "a football conversation with Alex",
@@ -13248,7 +13239,7 @@ window.IELTS_DATA = {
                 "sourceOrder": 58,
                 "isNew": false,
                 "body": {
-                  "text": "Well, I have changed my mind about a few things. But the first one that comes to my mind would be solving problems alone. It happened about a month ago. In the past, I believed that a good engineer should solve every problem alone. Then, after our team released a new feature, the shopping system became slow and some orders failed. I searched online for nearly an hour, but nothing worked. Finally, I wrote down what I had checked and asked my colleague Alex for help, and we fixed the problem together. Now, if I make no progress after twenty minutes, I ask a teammate. I felt relieved because I did not have to face every problem alone.",
+                  "text": "Well, I have changed a few opinions. But the first one that comes to my mind would be solving problems alone. It happened about a month ago. In the past, I believed that a good engineer should solve every problem alone. Then, after our team released a new feature, the shopping system became slow and some orders failed. I searched online for nearly an hour, but nothing worked. Finally, I wrote down what I had checked and asked my colleague Alex for help, and we fixed the problem together. Now, if I make no progress after twenty minutes, I ask a teammate. I felt relieved because I did not have to face every problem alone.",
                   "highlights": [
                     "solve every problem alone",
                     "orders failed",
@@ -13364,7 +13355,7 @@ window.IELTS_DATA = {
                   ]
                 },
                 "body": {
-                  "text": "Well, I receive a lot of messages at work. But the first one that comes to my mind would be an urgent message from Alex. It happened about a year ago at work. Our company system suddenly became slow, and Alex sent me a screenshot of an error and asked whether I knew how to fix it. At that time, I was in a two-hour meeting and had put my phone on silent, so I did not see the message. When the meeting ended, I saw several messages from him and felt worried. I replied at once, explained why I was late and went back to our office. We checked the system together, found a wrong setting and fixed the problem before the end of the day.",
+                  "text": "Well, I receive a few messages at work. But the first one that comes to my mind would be an urgent message from Alex. It happened about a year ago at work. Our company system suddenly became slow, and Alex sent me a screenshot of an error and asked whether I knew how to fix it. At that time, I was in a two-hour meeting and had put my phone on silent, so I did not see the message. When the meeting ended, I saw several messages from him and felt worried. I replied at once, explained why I was late and went back to our office. We checked the system together, found a wrong setting and fixed the problem before the end of the day.",
                   "highlights": [
                     "message from Alex",
                     "about a year ago",
@@ -13647,7 +13638,7 @@ window.IELTS_DATA = {
                   ]
                 },
                 "body": {
-                  "text": "Well, I sometimes have problems with electronic devices. But the first one that comes to my mind would be a problem with my laptop. I had this problem at the office last year. I was preparing a report for a meeting that would begin in one hour. Suddenly, the laptop became very slow and the report would not open. I restarted it and closed several programs, but nothing helped, and I became worried that I might lose my work. My colleague Alex checked the laptop and found that its storage was almost full because of old videos and temporary files. We moved the videos to another drive, deleted the temporary files and restarted the laptop. The report opened normally, and the meeting began on time.",
+                  "text": "Well, I have had a few problems with electronic devices. But the first one that comes to my mind would be a problem with my laptop. I had this problem at the office last year. I was preparing a report for a meeting that would begin in one hour. Suddenly, the laptop became very slow and the report would not open. I restarted it and closed several programs, but nothing helped, and I became worried that I might lose my work. My colleague Alex checked the laptop and found that its storage was almost full because of old videos and temporary files. We moved the videos to another drive, deleted the temporary files and restarted the laptop. The report opened normally, and the meeting began on time.",
                   "highlights": [
                     "office last year",
                     "one hour",
@@ -13792,7 +13783,7 @@ window.IELTS_DATA = {
                   ]
                 },
                 "body": {
-                  "text": "Well, I often work with other people on software projects. But the first one that comes to my mind would be fixing a shopping system. I worked with Alex and two teammates. A new feature had made our online shopping system slow, and some orders were failing. We met in a small room and agreed on a simple plan before touching the system. We divided the work: I checked the error messages, Alex reviewed the settings and the others prepared test orders. Every fifteen minutes, we stopped and shared our findings. The main difficulty was finding the cause quickly without creating another problem, so nobody made a change alone. After about two hours, Alex found a wrong setting. We corrected it, ran the test orders again and saw that the system was normal.",
+                  "text": "Well, I have worked in a few groups. But the first one that comes to my mind would be fixing a shopping system. I worked with Alex and two teammates. A new feature had made our online shopping system slow, and some orders were failing. We met in a small room and agreed on a simple plan before touching the system. We divided the work: I checked the error messages, Alex reviewed the settings and the others prepared test orders. Every fifteen minutes, we stopped and shared our findings. The main difficulty was finding the cause quickly without creating another problem, so nobody made a change alone. After about two hours, Alex found a wrong setting. We corrected it, ran the test orders again and saw that the system was normal.",
                   "highlights": [
                     "Alex and two teammates",
                     "orders were failing",
@@ -14357,7 +14348,7 @@ window.IELTS_DATA = {
                   ]
                 },
                 "body": {
-                  "text": "Well, I have got up early for a few different reasons. But the first one that comes to my mind would be a sunrise trip. It was last weekend. I got up at four o'clock to see the sunrise with three close friends. I normally get up after seven, so the alarm in the dark was difficult. I washed my face and left home with a small bag. We met at 4:30 and walked to a nearby hill, and on the way we spent about 60 yuan on food and water. The road was quiet and the air was a little cold, but talking helped us stay awake. We also heard birds singing along the path. We reached the top before sunrise and shared the food there. We watched the sky change from grey to orange, took several photos and walked home before the streets became busy.",
+                  "text": "Well, I have got up early a few times. But the first one that comes to my mind would be a sunrise trip. It was last weekend. I got up at four o'clock to see the sunrise with three close friends. I normally get up after seven, so the alarm in the dark was difficult. I washed my face and left home with a small bag. We met at 4:30 and walked to a nearby hill, and on the way we spent about 60 yuan on food and water. The road was quiet and the air was a little cold, but talking helped us stay awake. We also heard birds singing along the path. We reached the top before sunrise and shared the food there. We watched the sky change from grey to orange, took several photos and walked home before the streets became busy.",
                   "highlights": [
                     "four o'clock",
                     "alarm in the dark",
@@ -14786,7 +14777,7 @@ window.IELTS_DATA = {
                   ]
                 },
                 "body": {
-                  "text": "Well, people in my area talk about a few kinds of local news. But the first one that comes to my mind would be a new supermarket near my home. I first noticed it on a local TV programme last month, and later many people shared it in our neighbourhood group. The report showed the location of the new shop, the planned opening month and some local workers. Many residents were excited because they had heard good things about the supermarket. I am interested too, because the nearest large supermarket is quite far from my home now.",
+                  "text": "Well, I have heard a few pieces of local news. But the first one that comes to my mind would be a new supermarket near my home. I first noticed it on a local TV programme last month, and later many people shared it in our neighbourhood group. The report showed the location of the new shop, the planned opening month and some local workers. Many residents were excited because they had heard good things about the supermarket. I am interested too, because the nearest large supermarket is quite far from my home now.",
                   "highlights": [
                     "a new supermarket near my home",
                     "on a local TV programme last month",
