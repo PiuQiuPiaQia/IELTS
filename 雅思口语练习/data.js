@@ -3594,32 +3594,35 @@ window.IELTS_DATA = {
                   "你通常什么时候见到他/她",
                   "并解释你为什么认为这个人受欢迎"
                 ],
-                "storyTitle": "办公室里乐于助人的 Alex",
+                "storyTitle": "办公室里人缘最好的 Alex",
                 "draftCues": [
                   "Alex",
                   "colleague",
-                  "patient",
-                  "daily meetings",
-                  "new staff",
-                  "trust"
+                  "helpful",
+                  "tells jokes",
+                  "morning meetings",
+                  "shared snacks",
+                  "popular"
                 ],
-                "focus": "围绕受欢迎的原因展开，用帮助同事的具体经历支撑。",
+                "focus": "围绕「为什么受欢迎」展开：爱帮忙、幽默、爱分享三点，用上周分享零食做例子。",
                 "body": {
-                  "text": "Well, I know a few popular people at work. But the first one that comes to my mind would be my colleague Alex. We have worked together for about six years, and everyone in our team likes him. He is friendly and calm, and he listens carefully. He helps people without making them feel uncomfortable. For example, when I had trouble with a task, he sat beside me and asked me to explain the problem. He helped me check it step by step instead of taking over, and he made sure I understood. He is also kind to new staff. He invites them to lunch and explains things they are shy to ask about. I normally see him at work, especially during our morning meetings and lunch breaks. I think he is popular because people feel respected and supported around him.",
-                  "translation": "嗯，我认识几个在工作中很受欢迎的人。但我首先想到的是我的同事 Alex。我们一起工作了大约六年，团队里每个人都很喜欢他。他友好、沉稳，别人说话时会认真听。他愿意帮忙，也不会让别人难堪。比如，我有一次工作任务遇到困难，他坐在旁边，让我说清楚发生了什么。他帮我一步一步检查问题，而不是直接接手，还确认我听懂了。他对新同事也很好，请他们吃午饭，解释他们不好意思问的事。我通常在工作时见到他，尤其是晨会和午休时。我觉得他受欢迎，是因为大家在他身边感到被尊重、被支持。",
+                  "text": "Well, I know a few popular people at work. But the first one that comes to my mind would be my colleague Alex. We have worked together for about six years, and everyone in our team likes him. He is friendly and helpful, and he is always ready to give a hand. He also tells jokes quite often, and they always make us laugh. I normally see him at work, especially during our morning meetings and lunch breaks. Last week, he shared some snacks with us during the break. We sat together, talked and laughed for a long time. I think he is popular because he is kind and funny, and people feel happy around him.",
+                  "translation": "嗯，我认识几个在工作中很受欢迎的人。但我首先想到的是我的同事 Alex。我们一起工作了大约六年，团队里每个人都很喜欢他。他友好、乐于助人，总是愿意帮别人一把。他还经常讲笑话，每次都把我们逗笑。我通常在工作时见到他，尤其是晨会和午休的时候。上周，他在休息时和我们分享了一些零食。我们坐在一起聊了很久，笑得很开心。我觉得他受欢迎，是因为他既善良又风趣，大家在他身边都觉得很开心。",
                   "highlights": [
-                    "colleague Alex",
+                    "my colleague Alex",
                     "worked together for about six years",
-                    "friendly and calm",
-                    "listens carefully",
-                    "check it step by step",
-                    "kind to new staff",
+                    "everyone in our team likes him",
+                    "friendly and helpful",
+                    "always ready to give a hand",
+                    "tells jokes quite often",
+                    "make us laugh",
                     "morning meetings and lunch breaks",
-                    "feel respected and supported"
+                    "shared some snacks with us",
+                    "kind and funny"
                   ],
                   "paragraphStarts": [
                     "We have worked together for about",
-                    "For example, when I had trouble",
+                    "I normally see him at work",
                     "I think he is popular because"
                   ]
                 },
@@ -3632,59 +3635,59 @@ window.IELTS_DATA = {
                   },
                   "reasons": [
                     {
-                      "text": "First of all, he listens carefully when someone has a problem. You know, a busy day can be quite stressful, and talking to someone calm like Alex really helps people feel better. He never rushes you.",
-                      "translation": "首先，别人遇到问题时他会认真听。你知道，忙碌的一天会很有压力，和一个像 Alex 这样冷静的人聊聊，真的会让人舒服很多。他从不催你。",
-                      "memory": "Emotion：认真听＋沉稳 → 减压 → 不催人",
+                      "text": "First of all, he is always ready to help others. When someone has a problem at work, he is the first person they ask. You know, that makes people trust him.",
+                      "translation": "首先，他总是愿意帮助别人。工作里谁遇到了问题，第一个想到的就是找他。你知道，这让大家很信任他。",
+                      "memory": "帮忙：别人有困难就找他 → 大家信任他",
                       "highlights": [
-                        "listens carefully",
-                        "quite stressful",
-                        "never rushes you"
+                        "always ready to help others",
+                        "the first person they ask",
+                        "makes people trust him"
                       ],
-                      "memoryEn": "Emotion: listens carefully → someone calm like Alex → never rushes you"
+                      "memoryEn": "Helpful: the first person they ask → people trust him"
                     },
                     {
-                      "text": "Secondly, he is always willing to help with difficult work. He explains things step by step instead of simply taking over, so we save time and learn something useful at the same time. That is why people trust him.",
-                      "translation": "其次，遇到难做的工作他总是愿意帮忙。他会一步步解释，而不是直接接手，所以我们既省时间又学到有用的东西。所以大家都信任他。",
-                      "memory": "Time / Learning：逐步解释 → 省时间＋学到方法 → 建立信任",
+                      "text": "Secondly, he has a good sense of humour. He often tells jokes during our breaks, and they always make us laugh. After a busy morning, that really helps the whole team relax.",
+                      "translation": "其次，他很有幽默感。他常在休息时讲笑话，每次都把我们逗笑。忙了一上午之后，这真的能让整个团队放松下来。",
+                      "memory": "幽默：常讲笑话 → 让大家开心、放松",
                       "highlights": [
-                        "willing to help",
-                        "step by step",
-                        "save time and learn something useful"
+                        "a good sense of humour",
+                        "make us laugh",
+                        "helps the whole team relax"
                       ],
-                      "memoryEn": "Learning: explains things step by step → save time → trust him"
+                      "memoryEn": "Humour: tells jokes → make us laugh → the team relaxes"
                     },
                     {
-                      "text": "What's more, he makes new colleagues feel welcome. He invites them to lunch and answers their questions patiently, even when the questions are very simple. I think these small things help him build good relationships with everyone. I think that is important in any workplace, because people work better when they feel supported.",
-                      "translation": "而且，他让新同事觉得很受欢迎。他会请他们吃午饭，耐心回答他们的问题，哪怕问题很简单。我觉得这些小举动帮他跟所有人都建立了好关系。我觉得这在任何职场都很重要，因为人感到被支持时工作会更好。",
-                      "memory": "Relationship：请吃饭＋耐心回答 → 新人安心 → 关系好",
+                      "text": "What's more, he likes sharing things with us. Last week he brought some snacks and shared them with the whole team. I think these small things make everyone want to be around him.",
+                      "translation": "而且，他喜欢跟我们分享东西。上周他带了些零食，分给了整个团队。我觉得正是这些小事，让大家都愿意待在他身边。",
+                      "memory": "分享：上周带零食分给大家 → 大家都喜欢待在他身边",
                       "highlights": [
-                        "makes new colleagues feel welcome",
-                        "invites them to lunch",
-                        "build good relationships"
+                        "sharing things with us",
+                        "shared them with the whole team",
+                        "want to be around him"
                       ],
-                      "memoryEn": "Relationship: feel welcome → answers their questions patiently → build good relationships"
+                      "memoryEn": "Sharing: shared snacks last week → everyone wants to be around him"
                     }
                   ],
                   "mode": "reasons"
                 },
                 "cuePointsNotes": [
-                  "同事 Alex",
-                  "友好、冷静，别人说话时认真听；愿意帮忙又不让人难堪：坐在我旁边让我先说情况，再一步步帮我查，而不是直接接手，还确认我听懂了；对新同事也友善，请他们吃午饭、解释他们不好意思问的事",
-                  "上班时常见到他：早会＋午饭休息",
+                  "同事 Alex；一起工作约六年",
+                  "友好、爱帮忙，总愿意搭把手；常讲笑话，总把大家逗笑",
+                  "上班时：晨会＋午休；上周休息时还和大家分享零食",
                   ""
                 ],
                 "memoryChain": {
-                  "story": "同事 Alex → 上班时常见：早会＋午饭 → 友好冷静、认真听 → 帮人不抢着做：带我一步步查问题，还确认我懂了 → 对新同事也好：请吃饭、耐心解释 → 大家觉得被尊重和支持，所以他人缘好",
+                  "story": "同事 Alex → 上班时常见：早会＋午休 → 友好爱帮忙，总是愿意搭把手 → 常讲笑话把大家逗笑 → 上周休息时和大家分享零食，一起聊很久 → 他既善良又风趣，大家都喜欢跟他在一起 → 所以他人缘好",
                   "reasons": [
-                    "1 · Emotion：认真听＋沉稳 → 让人压力小",
-                    "2 · Time / Learning：逐步解释 → 省时间＋学会方法",
-                    "3 · Relationship：邀请新同事＋耐心回答 → 建立信任"
+                    "1 · 帮忙：别人有困难就找他 → 大家信任他",
+                    "2 · 幽默：常讲笑话 → 让大家开心、放松",
+                    "3 · 分享：上周带零食分给大家 → 大家都喜欢待在他身边"
                   ]
                 },
                 "cuePointsNotesEn": [
-                  "my colleague Alex",
-                  "friendly and calm ; listens carefully；step by step ; instead of taking over；kind to new staff ; invites them to lunch",
-                  "see him at work ; lunch breaks",
+                  "my colleague Alex；worked together for six years",
+                  "friendly and helpful ; always ready to give a hand；tells jokes ; make us laugh",
+                  "morning meetings ; lunch breaks；shared some snacks with us",
                   ""
                 ]
               },
@@ -3838,38 +3841,33 @@ window.IELTS_DATA = {
                   "short lines",
                   "confident"
                 ],
-                "focus": "人物是小学外教；技能是唱一首英文歌，重点讲他怎样一步一步教我。",
+                "focus": "人物是小学英语老师；技能是唱一首英文歌，重点讲他怎样一步一步教我。",
                 "omit": "不讲复杂音乐知识，也不用记歌曲名字。",
                 "body": {
-                  "text": "Well, a few teachers have helped me learn new things. But the first one that comes to my mind would be Mr Brown. He was a foreign English teacher who taught me how to sing an English song when I was in primary school. He was a young man in his twenties, and he always smiled in class. The song was a simple children's song about animals, and we learned it line by line. At first, I was nervous because the words sounded fast and unfamiliar. However, he played the song several times, divided it into short lines and asked us to practise in small groups. He corrected our pronunciation patiently and used simple actions to explain the meaning. In the end, our class sang the whole song together. I felt excited and more confident about speaking English.",
+                  "text": "Well, a few teachers have helped me learn new things. But the first one that comes to my mind would be Mr Brown. He was my English teacher in primary school. He was a young man in his twenties, and he always smiled in class. One time he taught me how to sing an English song. At first, I was nervous because I had never sung an English song before. However, he was patient. He broke the song into short lines and taught us step by step. He explained it with simple actions and asked us to practise in small groups. In the end, I sang the song together with my classmates. I felt excited and more confident about speaking English.",
+                  "translation": "嗯，有几位老师帮我学过新东西。但我首先想到的是 Brown 老师。他是我小学的英语老师。他那时才二十多岁，上课总是面带微笑。有一次他教我怎么唱一首英文歌。起初我很紧张，因为我以前从没唱过英文歌。不过他很有耐心。他把歌拆成一个个短句，一步一步教我们。他用简单的动作解释，还让我们分组练习。最后，我和同学们一起把这首歌唱完了。我很兴奋，对说英语也更有信心了。",
                   "highlights": [
                     "Mr Brown",
-                    "primary school",
-                    "At first",
-                    "fast and unfamiliar",
-                    "short lines",
-                    "small groups",
-                    "pronunciation patiently",
-                    "In the end",
-                    "more confident",
-                    "foreign English teacher",
-                    "sing an English song",
-                    "played the song several times",
-                    "simple actions",
-                    "sang the whole song",
-                    "patient",
+                    "my English teacher in primary school",
                     "a young man in his twenties",
                     "always smiled in class",
-                    "a simple children's song about animals"
+                    "sing an English song",
+                    "At first",
+                    "short lines",
+                    "step by step",
+                    "simple actions",
+                    "small groups",
+                    "In the end",
+                    "more confident"
                   ],
                   "paragraphStarts": [
-                    "He was a foreign English teacher",
+                    "He was my English teacher in primary school",
                     "At first, I was nervous because",
-                    "In the end, our class sang"
+                    "In the end, I sang the song"
                   ]
                 },
                 "memoryChain": {
-                  "story": "第一部 At first：小学外教教英文歌，我觉得语速快、很紧张 → 第二部 However：他把歌曲分成短句，带我们分组练习并纠正发音 → 第三部 In the end：全班完整唱完，我更敢开口说英语",
+                  "story": "第一部 At first：小学英语老师教英文歌，我从没唱过英文歌、很紧张 → 第二部 However：他很有耐心，把歌拆成短句、一步步教，用动作解释、让我们分组练习 → 第三部 In the end：我和同学一起唱完整首歌，很兴奋、更敢开口说英语",
                   "reasons": [
                     "老师耐心拆步骤 → 我能跟上 → 学习压力更小",
                     "唱歌加动作 → 课堂有趣 → 新技能更容易记住",
@@ -3977,15 +3975,15 @@ window.IELTS_DATA = {
                   "并解释你对这个人的感受"
                 ],
                 "cuePointsNotes": [
-                  "小学时的外教 Mr Brown",
+                  "小学时的英语老师 Mr Brown",
                   "他教我们唱一首英文歌",
-                  "一开始单词又快又陌生，我有点紧张；他把歌放好几遍、分成短句，让我们小组练，还用简单动作解释意思，耐心纠正发音",
+                  "一开始我有点紧张，因为我以前从没唱过英文歌；他很有耐心，把歌拆成短句、一步步教；他用简单动作解释意思，还让我们分组练习；最后我和同学一起把歌完整唱了出来",
                   ""
                 ],
                 "cuePointsNotesEn": [
-                  "Mr Brown ; a foreign English teacher",
+                  "Mr Brown ; my English teacher in primary school",
                   "sing an English song",
-                  "I was nervous ; fast and unfamiliar；divided it into short lines ; simple actions",
+                  "nervous ; never sung an English song before；he was patient ; broke the song into short lines ; step by step；simple actions ; practised in small groups；sang the song with my classmates",
                   ""
                 ]
               },
@@ -4372,7 +4370,7 @@ window.IELTS_DATA = {
                 "focus": "人物是李华；直接说他平时喜欢做小模型，用纸板小房子展开“量、剪、粘”和失败后重做。",
                 "omit": "不讲上色、小灯、夹子或专业工具；不需要记太多操作动词。",
                 "body": {
-                  "text": "Well, I know a few people who like making things. But the first one that comes to my mind would be my classmate Li Hua. We have known each other for more than ten years, and he is a patient person. He often makes small models at home. Last month, he made a small house from cardboard. He has also made a small car and a pencil holder from cardboard. The task looked difficult to me, but he broke it into three steps: measuring, cutting and gluing. However, the roof fell off because one piece was too short, but he did not give up. He measured it again, cut a new piece and glued it more carefully. In the end, the house looked neat and strong. I admire his patience, and this skill can also save him money because he can make simple toys himself.",
+                  "text": "Well, I know a lot of people good at making things. But the first one that comes to my mind would be my classmate Li Hua. We have known each other for more than ten years, and he is a patient person. He often makes small models at home. Last month, he made a small house from cardboard. He has also made a small car and a pencil holder from cardboard. The task looked difficult to me, but he broke it into three steps: measuring, cutting and gluing. However, the roof fell off because one piece was too short, but he did not give up. He measured it again, cut a new piece and glued it more carefully. In the end, the house looked neat and strong. I admire his patience, and this skill can also save him money because he can make simple toys himself.",
                   "highlights": [
                     "Li Hua",
                     "small models",
@@ -4437,11 +4435,11 @@ window.IELTS_DATA = {
                     ]
                   },
                   {
-                    "text": "He can make a simple toy as a personal gift, and making or sharing it with a friend can bring them closer.",
-                    "memory": "Relationship：亲手做玩具当礼物或一起制作 → 更有心意 → 朋友关系更近",
+                    "text": "He can make small gifts by hand, and I think a handmade gift is more special.",
+                    "memory": "Relationship：亲手做小礼物 → 手工的更有心意",
                     "highlights": [
-                      "a personal gift",
-                      "bring them closer"
+                      "make small gifts by hand",
+                      "a handmade gift is more special"
                     ]
                   }
                 ],
@@ -4475,15 +4473,15 @@ window.IELTS_DATA = {
                       "memoryEn": "Money: make simple toys → instead of buying them → small savings"
                     },
                     {
-                      "text": "What's more, he can make a simple toy as a personal gift. To be honest, I would value something he made himself much more than something he bought from a shop. That is why I admire his skill. I think handmade gifts matter more than things we buy in a shop.",
-                      "memory": "Relationship：亲手做礼物 → 比买的更珍贵 → 我佩服他的手艺",
+                      "text": "What's more, he can make small gifts by hand. I think a handmade gift is more special. So I really admire his skill.",
+                      "memory": "Relationship：亲手做小礼物 → 手工的更有心意 → 我佩服他的手艺",
                       "highlights": [
-                        "a personal gift",
-                        "something he made himself",
+                        "make small gifts by hand",
+                        "a handmade gift is more special",
                         "admire his skill"
                       ],
-                      "translation": "而且，他能亲手做小玩具当礼物。说实话，比起商店买的东西，我会更珍惜他亲手做的。所以我很佩服他的手艺。我觉得亲手做的礼物比商店买的东西更有意义。",
-                      "memoryEn": "Relationship: personal gift → value something he made → admire his skill"
+                      "translation": "而且，他会亲手做小礼物。我觉得手工做的礼物更特别。所以我很佩服他的手艺。",
+                      "memoryEn": "Relationship: make small gifts by hand → a handmade gift is more special → admire his skill"
                     }
                   ],
                   "mode": "feelings"
@@ -4661,8 +4659,8 @@ window.IELTS_DATA = {
                 ],
                 "focus": "讲同事李华自己下决心提升健身的过程；用一般过去时讲他做了什么，用现在时讲他现在的变化，半年这个时长要讲清楚。",
                 "body": {
-                  "text": "Well, I know a few people who try to stay fit. But the first one that comes to my mind would be my colleague Li Hua. We have worked in the same team for about three years, and he is easy to talk to. Last winter he noticed that he got out of breath after climbing the stairs to our office, and he decided to change that himself. At first he only walked for ten minutes after lunch, but soon he got off the bus two stops early and walked the rest of the way. He also took the stairs instead of the lift, even on rainy days. You know, he kept the same routine even when our project was really busy. It took him about six months to build this habit. Now he plays badminton with us on Friday evenings. To be honest, he looks much more energetic than before, and he says he sleeps better too.",
-                  "translation": "嗯，我认识几个努力保持身材的人。但我首先想到的是我的同事李华。我们在同一个团队工作了大约三年，他很好相处。去年冬天他发现，爬楼梯到我们办公室后会喘不上气，于是他决定自己改变。一开始他只是在午饭后走十分钟，但很快他就提前两站下车，把剩下的路走完。他还改爬楼梯、不坐电梯，下雨天也一样。你知道，即使我们的项目特别忙，他也保持着同样的作息。他花了大约半年时间才养成这个习惯。现在他每周五晚上和我们一起打羽毛球。说实话，他看起来比以前有精神多了，他说自己睡得也更好了。",
+                  "text": "Well, I know a lot of people trying to stay fit. But the first one that comes to my mind would be my colleague Li Hua. We have worked in the same team for about three years, and he is easy to talk to. Last winter he noticed that he got out of breath after climbing the stairs to our office, and he decided to change that himself. At first he only walked for ten minutes after lunch, but soon he got off the bus two stops early and walked the rest of the way. He also took the stairs instead of the lift, even on rainy days. You know, he kept the same routine even when our project was really busy. It took him about six months to build this habit. Now he plays badminton with us on Friday evenings. To be honest, he looks much more energetic than before, and he says he sleeps better too.",
+                  "translation": "嗯，我认识很多努力保持身材的人。但我首先想到的是我的同事李华。我们在同一个团队工作了大约三年，他很好相处。去年冬天他发现，爬楼梯到我们办公室后会喘不上气，于是他决定自己改变。一开始他只是在午饭后走十分钟，但很快他就提前两站下车，把剩下的路走完。他还改爬楼梯、不坐电梯，下雨天也一样。你知道，即使我们的项目特别忙，他也保持着同样的作息。他花了大约半年时间才养成这个习惯。现在他每周五晚上和我们一起打羽毛球。说实话，他看起来比以前有精神多了，他说自己睡得也更好了。",
                   "highlights": [
                     "my colleague Li Hua",
                     "worked in the same team for about three years",
@@ -5987,133 +5985,123 @@ window.IELTS_DATA = {
                   "And explain why you think he/she is a happy person"
                 ],
                 "draftCues": [
-                  "grandma",
-                  "retired",
-                  "countryside",
-                  "outgoing",
-                  "told jokes",
-                  "grew vegetables"
+                  "Alex",
+                  "colleague",
+                  "cheerful",
+                  "tells jokes",
+                  "never gives up",
+                  "brings happiness"
                 ],
-                "fit": "奶奶菜园素材直接适配",
-                "focus": "人物是奶奶；先说外向性格和年轻时讲笑话受欢迎，再说退休后在乡下种菜分给大家，最后用曾祖父母的影响、热爱生活和积极态度三个原因解释她为什么快乐。",
-                "omit": "不讲种菜技术细节；快乐题重点在性格和生活态度，蔬菜只作为她分享快乐的小例子。",
+                "fit": "Alex 职场素材直接适配",
+                "focus": "人物是同事 Alex；先说开朗乐观、几乎不抱怨，再说他用笑和笑话表现快乐，最后用不气馁、把快乐带给别人、从不抱怨三个原因解释他为什么是快乐的人。",
+                "omit": "不讲具体工作内容；快乐题重点在性格和面对困难的态度，工作只作为他乐观的小例子。",
                 "memoryChain": {
-                  "story": "奶奶退休住乡下 → 外向、生活态度好 → 年轻时在公司受欢迎：爱讲笑话，给大家带来快乐 → 现在乡下买小房子 → 种菜分给家人和邻居 → 身边的人都觉得很舒服放松 → 三个原因：受曾祖父母影响 → 热爱生活，每天享受 → 积极面对困难不放弃",
+                  "story": "同事 Alex → 一起工作约六年 → 开朗乐观，几乎从不抱怨，工作再忙也往好处看 → 常笑、常讲笑话，出问题时从不生气，只说会找到办法然后继续试 → 遇到困难他很冷静 → 和他在一起整个办公室都轻松 → 三个原因：不气馁 → 讲笑话把快乐带给别人 → 几乎不抱怨",
                   "reasons": [
-                    "曾祖父母是快乐的人 → 教她积极看待生活",
-                    "热爱生活 → 人活着就该每天享受生活 → 外向，总能找到乐趣",
-                    "积极的人 → 遇到困难不放弃 → 好心态总能解决问题"
+                    "不气馁：出问题他积极面对 → 保持积极不放弃 → 按时完成",
+                    "幽默：常讲笑话 → 他一笑大家也笑 → 把快乐带给别人",
+                    "心态：几乎从不抱怨 → 忙时也往好处看 → 所以他总是很快乐"
                   ]
                 },
                 "body": {
-                  "text": "Well, I know a few people who are usually cheerful. But the first one that comes to my mind would be my grandma. She is retired and lives in the countryside. She is over seventy now, but she still walks and works in her garden every day. She is outgoing and has a good attitude towards life. She always smiles when we visit her, and she hardly ever complains. When she was young, she was popular in her company. She often told jokes and brought happiness to her colleagues. A few years ago, she bought a small house in the countryside and moved there. She grew some vegetables in the garden and gave them to family members and neighbours. These simple actions made everyone around her feel nice and relaxed.",
-                  "translation": "嗯，我认识几个总是很开心的人。但我首先想到的是我的奶奶。她已经退休，住在乡下。她现在七十多岁了，但每天还走路、在菜园里干活。她性格外向，对生活的态度很好。我们去看她时她总是笑，也几乎从不抱怨。年轻时她在公司很受欢迎。她经常讲笑话，给同事带来快乐。几年前，她在乡下买了一栋小房子并搬了过去。她在院子里种了一些蔬菜，分给家人和邻居。这些简单的举动让身边的每个人都觉得很舒服、很放松。",
+                  "text": "Well, I know a lot of happy people in my daily life. But the first one that comes to my mind would be my colleague Alex. We have worked together for about six years. He is a cheerful and positive person, and he hardly ever complains. He always looks on the bright side, even when work is busy. He shows his happiness in very simple ways. He smiles a lot, and he often tells jokes during our breaks. When something goes wrong, he never gets angry or worried. He just says \"don't worry, we will find a way\", and then he keeps trying. I think he is a happy person, because he stays calm when things are difficult. Being with him makes the whole office feel lighter.",
+                  "translation": "嗯，我在日常生活中认识很多快乐的人。但我首先想到的是我的同事 Alex。我们一起工作了大约六年。他是个开朗乐观的人，几乎从不抱怨。即使工作很忙，他也总是往好处看。他用很简单的方式表达自己的快乐。他经常笑，也常在休息时讲笑话。出了问题的时候，他从不生气或发愁。他只是说“别担心，我们会找到办法的”，然后继续尝试。我觉得他是个快乐的人，因为遇到困难时他总是很冷静。和他在一起，整个办公室都轻松起来。",
                   "highlights": [
-                    "my grandma",
-                    "retired",
-                    "countryside",
-                    "outgoing",
-                    "good attitude towards life",
-                    "popular in her company",
-                    "told jokes",
-                    "brought happiness",
-                    "bought a small house",
-                    "grew some vegetables",
-                    "gave them to",
-                    "feel nice and relaxed",
-                    "lives in the countryside",
-                    "family members and neighbours",
-                    "good attitude",
-                    "over seventy now",
-                    "works in her garden every day",
-                    "always smiles",
-                    "hardly ever complains"
+                    "my colleague Alex",
+                    "worked together for about six years",
+                    "cheerful and positive",
+                    "hardly ever complains",
+                    "looks on the bright side",
+                    "smiles a lot",
+                    "tells jokes",
+                    "never gets angry or worried",
+                    "keeps trying",
+                    "stays calm",
+                    "feel lighter"
                   ],
                   "paragraphStarts": [
-                    "She is retired and lives in",
-                    "She always smiles when we visit",
-                    "A few years ago, she bought"
+                    "We have worked together for about",
+                    "He shows his happiness in",
+                    "I think he is a happy person"
                   ]
                 },
-                "pointsLabel": "Why she is a happy person · 3 原因",
+                "pointsLabel": "Why he is a happy person · 3 原因",
                 "reasons": [
                   {
-                    "text": "First of all, she was influenced by my great-grandparents. They were happy people, so she learned to look at life in a positive way.",
+                    "text": "First of all, he always deals with problems in a positive way. He stays positive and never gives up.",
                     "highlights": [
-                      "influenced by my great-grandparents",
-                      "happy people",
-                      "positive way"
+                      "deals with problems in a positive way",
+                      "stays positive and never gives up"
                     ],
-                    "memory": "1 · 影响：曾祖父母是快乐的人 → 教她积极看待生活"
+                    "memory": "1 · 不气馁：积极面对问题 → 保持积极不放弃"
                   },
                   {
-                    "text": "Secondly, she loves life. She once told me that as a human being, we should enjoy life every day. She is outgoing, so she always finds something interesting to do.",
+                    "text": "Secondly, he often tells jokes, and his happiness is easy to catch. He really brings happiness to other people.",
                     "highlights": [
-                      "loves life",
-                      "enjoy life every day",
-                      "outgoing"
+                      "tells jokes",
+                      "easy to catch",
+                      "brings happiness to other people"
                     ],
-                    "memory": "2 · 热爱生活：人活着就该每天享受生活 → 外向 → 总能找到乐趣"
+                    "memory": "2 · 幽默：常讲笑话 → 他一笑大家也笑 → 把快乐带给别人"
                   },
                   {
-                    "text": "What's more, she is a positive person. When she faces difficulties, she never gives up. Her good attitude helps her solve the problems in the end.",
+                    "text": "What's more, he hardly ever complains. When work is busy, he still looks on the bright side.",
                     "highlights": [
-                      "positive person",
-                      "never gives up",
-                      "good attitude",
-                      "solve the problems"
+                      "hardly ever complains",
+                      "looks on the bright side"
                     ],
-                    "memory": "3 · 积极：遇到困难不放弃 → 好心态 → 总能解决问题"
+                    "memory": "3 · 心态：几乎从不抱怨 → 忙时也往好处看"
                   }
                 ],
-                "storyTitle": "种菜的奶奶｜快乐的人",
+                "storyTitle": "办公室里最乐观的 Alex｜快乐的人",
                 "reasonHint": false,
                 "sourceOrder": 10,
                 "ending": {
                   "endingLead": {
                     "cue": "And explain why you think he/she is a happy person",
-                    "text": "As for why I think she is a happy person, I think my grandma is the happiest person I have known. There are three reasons.",
-                    "translation": "至于我为什么认为她是个快乐的人，我觉得奶奶是我认识的最快乐的人，有三个原因。"
+                    "text": "As for why I think he is a happy person, I think Alex is one of the happiest people I know. There are three reasons.",
+                    "translation": "至于我为什么认为他是个快乐的人，我觉得 Alex 是我认识的最快乐的人之一，有三个原因。"
                   },
                   "reasons": [
                     {
-                      "text": "First of all, she was influenced by my great-grandparents. They were happy people, so she learned to look at life in a positive way, and she passed that attitude on to us.",
+                      "text": "First of all, he always deals with problems in a positive way. When something goes wrong, he stays positive and never gives up. Last month we had a lot of work to do before a deadline, and everyone was nervous. Alex stayed calm and said we would find a way. He kept trying, and in the end we finished it on time.",
                       "highlights": [
-                        "influenced by my great-grandparents",
-                        "look at life in a positive way",
-                        "passed that attitude on"
+                        "deals with problems in a positive way",
+                        "stays positive and never gives up",
+                        "finished it on time"
                       ],
-                      "memory": "影响：曾祖父母快乐 → 她学会积极 → 传给我们",
-                      "translation": "首先，她受我曾祖父母的影响。他们都是快乐的人，所以她学会用积极的方式看待生活，也把这种态度传给了我们。",
-                      "memoryEn": "People: influenced by my great-grandparents → positive way → passed that attitude on"
+                      "memory": "不气馁：出问题他积极面对 → 保持积极不放弃 → 按时完成",
+                      "translation": "首先，他总是以积极的方式处理问题。出问题的时候，他保持积极，从不放弃。上个月我们在截止日期前有很多工作要做，大家都很紧张。Alex 很冷静，说我们会找到办法。他一直尝试，最后我们按时完成了。",
+                      "memoryEn": "Positive: deals with problems in a positive way → stays positive → finished on time"
                     },
                     {
-                      "text": "Secondly, she loves life. She once told me that as a human being, we should enjoy life every day. She is outgoing, so she always finds something interesting to do. I really like that idea.",
+                      "text": "Secondly, he often tells jokes during our breaks, and his happiness is easy to catch. When he laughs, everyone around him laughs too. I think he really brings happiness to other people.",
                       "highlights": [
-                        "loves life",
-                        "enjoy life every day",
-                        "something interesting to do"
+                        "tells jokes",
+                        "easy to catch",
+                        "brings happiness to other people"
                       ],
-                      "memory": "Emotion：热爱生活 → 每天享受 → 总能找到乐趣",
-                      "translation": "其次，她热爱生活。她曾告诉我，作为一个人，我们应该每天享受生活。她性格外向，所以总能找到有趣的事做。我很喜欢这个想法。",
-                      "memoryEn": "Emotion: loves life → enjoy life every day → something interesting to do"
+                      "memory": "幽默：常讲笑话 → 他一笑大家也笑 → 把快乐带给别人",
+                      "translation": "其次，他常在休息时讲笑话，他的快乐很容易感染别人。他一笑，周围的人也跟着笑。我觉得他真的把快乐带给了别人。",
+                      "memoryEn": "Humour: tells jokes → everyone laughs too → brings happiness to others"
                     },
                     {
-                      "text": "What's more, she is a positive person. When she faces difficulties, she never gives up. Her good attitude helps her solve the problems in the end. In the future, I want to learn more from her.",
+                      "text": "What's more, he hardly ever complains. When work is busy, he still looks on the bright side and says we are learning something. I think that is why he stays happy most of the time.",
                       "highlights": [
-                        "a positive person",
-                        "never gives up",
-                        "learn more from her"
+                        "hardly ever complains",
+                        "looks on the bright side",
+                        "stays happy"
                       ],
-                      "memory": "积极：遇到困难不放弃 → 好心态解决问题 → 以后向她学",
-                      "translation": "而且，她是个积极的人。遇到困难时她从不放弃。良好的心态帮她最终解决问题。将来我想从她身上学到更多。",
-                      "memoryEn": "Emotion: never gives up → good attitude → learn more from her"
+                      "memory": "心态：几乎从不抱怨 → 忙时也往好处看 → 所以他总是很快乐",
+                      "translation": "而且，他几乎从不抱怨。工作忙的时候，他还是往好处看，说我们总能学到东西。我觉得这就是他大多数时候都很快乐的原因。",
+                      "memoryEn": "Attitude: hardly ever complains → looks on the bright side → stays happy"
                     }
                   ],
                   "mode": "reasons"
                 },
                 "linked": [
-                  "Describe a person who loves to grow plants (e.g. vegetables, flowers) at home or in the garden"
+                  "Describe a popular person",
+                  "Describe a person who often helps others"
                 ],
                 "cueTranslations": [
                   "这个人是谁",
@@ -6122,15 +6110,15 @@ window.IELTS_DATA = {
                   "并解释你为什么认为他/她是个快乐的人"
                 ],
                 "cuePointsNotes": [
-                  "我奶奶，退休后住在乡下",
-                  "性格外向，对生活的态度很好",
-                  "年轻时在公司很受欢迎，常讲笑话，给同事带来快乐；几年前在乡下买了小房子搬过去，种菜分给家人和邻居；这些简单的举动让身边的人都觉得舒服、放松",
+                  "同事 Alex；一起工作约六年",
+                  "开朗乐观，几乎从不抱怨；工作再忙也往好处看",
+                  "常笑、常讲笑话；出问题时从不生气，只说会找到办法然后继续试",
                   ""
                 ],
                 "cuePointsNotesEn": [
-                  "my grandma ; lives in the countryside",
-                  "outgoing ; good attitude towards life",
-                  "popular in her company ; told jokes；bought a small house ; moved there；made everyone around her ; nice and relaxed",
+                  "my colleague Alex；worked together for six years",
+                  "cheerful and positive ; hardly ever complains；looks on the bright side",
+                  "smiles a lot ; tells jokes；never gets angry ; keeps trying",
                   ""
                 ]
               },
@@ -6499,37 +6487,35 @@ window.IELTS_DATA = {
                 "draftCues": [
                   "colleague Alex",
                   "same team",
-                  "almost every day",
+                  "whenever someone needs help",
                   "never waits to be asked",
-                  "system slow-orders failed",
+                  "the system was very slow",
+                  "he helped me patiently",
                   "pass it on"
                 ],
-                "focus": "讲同事 Alex 平时怎么帮身边的人；习惯用现在时，具体那一次系统故障用过去时。",
+                "focus": "讲同事 Alex 平时怎么帮身边的人；习惯用现在时，具体那一次他帮我用过去时。",
                 "body": {
-                  "text": "Well, I know several kind people, but the first one that comes to my mind would be my colleague Alex. We work in the same team, and he is famous in our office for helping others. To be honest, he helps people almost every day, not just once in a while. He often spends his lunch break explaining a new system to younger colleagues, and he carries heavy boxes for the older staff. You know, he never waits for people to ask him. If he sees someone stuck, he walks over and offers a hand. Once our online shopping system suddenly became slow, and some orders failed. Alex read my notes, suggested dividing the work, and together we found one wrong setting. Later I asked him why he does all this. He said a senior colleague had helped him in the same way when he was new, so he just wanted to pass it on. I really admire him, and now I try to help new people too.",
-                  "translation": "嗯，我认识好几个善良的人，但我首先想到的是我的同事 Alex。我们在同一个团队工作，他在办公室里以乐于助人出名。说实话，他几乎每天都帮别人，不是偶尔才做一次。他常常用午休时间给年轻同事讲一个新系统，也会帮年纪大的同事搬重箱子。你知道，他从来不用别人开口。只要看到有人卡住了，他就会走过去帮一把。前段时间，我们的购物系统突然变慢，还有一些订单失败了。Alex 看了我的笔记，提议分工，我们一起找到了一个错误的设置。后来我问他为什么总这样做。他说他刚来时也有一位老同事这样帮过他，所以他就想把这份善意传下去。我真的很佩服他，现在我也试着去帮新同事。",
+                  "text": "Well, I know several kind people, but the first one that comes to my mind would be my colleague Alex. We work in the same team, and he is famous in our office for helping others. He helps people whenever they need it. When someone has a problem, he is always ready to give a hand. He never waits for people to ask him. He is also very good at explaining things. He often spends his lunch break explaining a new system to younger colleagues, and he can explain it in very simple words. He is happy to share his experience with others, too. Last month, I found the system was very slow. Alex sat beside me and helped me patiently. We checked the problem together, and in the end, we solved it. Later I asked him why he does this. He said a senior colleague helped him when he was new, and he wanted to pass it on. I really admire him, and now I try to help new people too.",
+                  "translation": "嗯，我认识好几个善良的人，但我首先想到的是我的同事 Alex。我们在同一个团队工作，他在办公室里以乐于助人出名。只要别人需要，他就会帮忙。有人遇到问题的时候，他总是愿意搭把手，从来不用别人开口。他还特别会解释事情。他常常用午休时间给年轻同事讲一个新系统，而且能用很简单的话讲清楚。他也愿意把自己的经验分享给别人。上个月，我发现系统变得很慢。Alex 坐在我旁边，耐心地帮我。我们一起检查这个问题，最后把它解决了。后来我问他为什么这样做。他说他刚来的时候，有一位老同事帮过他，所以他也想把这份善意传下去。我真的很佩服他，现在我也试着去帮新同事。",
                   "highlights": [
                     "my colleague Alex",
-                    "the first one that comes to my mind",
                     "famous in our office for helping others",
-                    "To be honest",
-                    "almost every day",
-                    "spends his lunch break explaining a new system",
-                    "carries heavy boxes for the older staff",
-                    "You know",
+                    "whenever they need it",
+                    "always ready to give a hand",
                     "never waits for people to ask him",
-                    "offers a hand",
-                    "online shopping system",
-                    "some orders failed",
-                    "read my notes",
-                    "suggested dividing the work",
-                    "one wrong setting",
+                    "very good at explaining things",
+                    "spends his lunch break explaining a new system",
+                    "in very simple words",
+                    "share his experience with others",
+                    "I found the system was very slow",
+                    "helped me patiently",
+                    "checked the problem together",
                     "pass it on",
                     "I really admire him"
                   ],
                   "paragraphStarts": [
-                    "To be honest, he helps people",
-                    "You know, he never waits",
+                    "He helps people whenever",
+                    "He is also very good at explaining",
                     "Later I asked him why"
                   ]
                 },
@@ -6542,70 +6528,70 @@ window.IELTS_DATA = {
                   },
                   "reasons": [
                     {
-                      "text": "First of all, I admire him because he helps other people naturally, without waiting to be asked. He does not do it for money or praise; he simply notices when someone needs a hand. You know, that is not easy to keep doing every day.",
-                      "translation": "首先，我很佩服他，因为他帮助别人很自然，不用别人开口。他不是为了钱或者表扬，只是会注意到谁需要帮忙。你知道，每天都能坚持这样做并不容易。",
-                      "memory": "习惯：不用开口就帮忙 → 不为钱或表扬 → 每天坚持不容易",
+                      "text": "First of all, I admire him because he helps people naturally, without waiting to be asked. He does not do it for money or praise. He just notices when someone needs a hand. You know, not many people would do that.",
+                      "translation": "首先，我很佩服他，因为他帮人很自然，不用别人开口。他不是为了钱或者表扬，只是会注意到谁需要帮忙。你知道，不是很多人做得到。",
+                      "memory": "品格：不用开口就帮 → 不为钱或表扬",
                       "highlights": [
                         "without waiting to be asked",
                         "not do it for money or praise",
-                        "needs a hand"
+                        "not many people would do that"
                       ],
-                      "memoryEn": "Habit: without waiting to be asked → not for money or praise → not easy every day"
+                      "memoryEn": "Character: without waiting to be asked → not for money or praise"
                     },
                     {
-                      "text": "Secondly, I feel grateful to him, because he helped me when I was stuck. He read my notes patiently, shared his method and did not blame me for failing to solve it alone. So I learned a lot from him that day.",
-                      "translation": "其次，我很感激他，因为在我卡住的时候他帮了我。他耐心看了我的笔记，分享了他的方法，也没有因为我没能独自解决而责怪我。所以那天我跟他学到很多。",
-                      "memory": "Relationship：他帮过我 → 耐心看笔记＋分享方法 → 学到很多",
+                      "text": "Secondly, I admire his way of helping. He can explain difficult things in very simple words, and he never makes people feel stupid. He also shares his own experience, so I can solve the problem alone next time.",
+                      "translation": "其次，我佩服他帮人的方式。他能用很简单的话把难的事情讲清楚，而且从不让别人觉得难堪。他还会分享自己的经验，这样下次我就能自己解决问题了。",
+                      "memory": "方式：把难的事讲简单 → 还教经验",
                       "highlights": [
-                        "feel grateful",
-                        "read my notes patiently",
-                        "learned a lot from him"
+                        "explain difficult things in very simple words",
+                        "never makes people feel stupid",
+                        "shares his own experience"
                       ],
-                      "memoryEn": "Relationship: he helped me when I was stuck → read my notes patiently → learned a lot"
+                      "memoryEn": "Way: simple words → shares experience"
                     },
                     {
-                      "text": "What's more, he has changed the way I behave. I used to think asking for help was a weakness, but now I try to help new people in the same way. I think a team works much better when everyone is willing to help, and that often starts with one person like Alex.",
-                      "translation": "而且，他改变了我的做法。我以前觉得求助是软弱的表现，但现在我也试着用同样的方式帮助新同事。我觉得当每个人都愿意帮忙的时候，团队会好得多，而这往往是从像 Alex 这样一个人开始的。",
-                      "memory": "Learning：以前觉得求助是软弱 → 现在也帮新人 → 团队更好",
+                      "text": "What's more, he has changed me a lot. He said he just wanted to pass the help on, and now I want to do the same. I think a team works much better when everyone is ready to help.",
+                      "translation": "而且，他改变了我很多。他说他只是想把这份帮助传下去，现在我也想这样做。我觉得当每个人都愿意帮忙的时候，团队会好得多。",
+                      "memory": "影响：想把善意传下去 → 我也这样做",
                       "highlights": [
-                        "changed the way I behave",
-                        "asking for help was a weakness",
-                        "everyone is willing to help"
+                        "changed me a lot",
+                        "pass the help on",
+                        "everyone is ready to help"
                       ],
-                      "memoryEn": "Learning: asking for help was a weakness → help new people too → a better team"
+                      "memoryEn": "Impact: pass it on → I do the same"
                     }
                   ],
                   "mode": "feelings"
                 },
                 "cuePointsNotes": [
-                  "同事 Alex；我们在同一个团队工作；他在办公室里以乐于助人出名",
-                  "几乎每天都帮，不是偶尔；常用午休时间给年轻同事讲新系统；也会帮年纪大的同事搬重箱子",
-                  "他从来不用别人开口，看到有人卡住就主动走过去帮；上次购物系统突然变慢、有些订单失败，他看了我的笔记，提议分工，一起找到一处错误设置；他说自己刚来时也被老同事这样帮过，所以想把善意传下去",
+                  "同事 Alex；同一个团队，乐于助人出名",
+                  "别人需要就帮，不固定时间；从来不用别人开口",
+                  "用简单的话解释，也分享经验；上个月系统变慢，他耐心帮我一起检查解决；想把善意传下去",
                   ""
                 ],
                 "cuePointsNotesEn": [
-                  "my colleague Alex ; we work in the same team ; famous in our office for helping others",
-                  "almost every day ; spends his lunch break explaining a new system；carries heavy boxes for the older staff",
-                  "never waits for people to ask him ; offers a hand；online shopping system ; some orders failed；read my notes ; suggested dividing the work；one wrong setting ; pass it on",
+                  "my colleague Alex；same team ; famous for helping others",
+                  "whenever they need it；never waits to be asked",
+                  "in simple words ; shares experience；the system was slow ; he helped me patiently；wants to pass it on",
                   ""
                 ],
                 "memoryChain": {
-                  "story": "同事 Alex → 同一个团队，办公室里以乐于助人出名 → 几乎每天都帮：午休教年轻同事用新系统、帮老同事搬重箱子 → 从来不用别人开口，看到有人卡住就过去帮一把 → 上次购物系统变慢、订单失败，他看我的笔记、提议分工，一起找到一处错误设置 → 他说自己刚来时也被老同事这样帮过，想把善意传下去 → 我很佩服他，现在也帮新同事",
+                  "story": "同事 Alex → 同一个团队，办公室里以乐于助人出名 → 只要别人需要就帮：有人遇到问题他总是愿意搭把手，从来不用别人开口 → 很会解释：能用很简单的话把难的事讲清楚，也愿意分享自己的经验 → 上个月我发现系统变慢，他坐在我旁边耐心帮我，我们一起检查并解决 → 他说自己刚来时也被老同事这样帮过，想把善意传下去 → 我很佩服他，现在也帮新同事",
                   "reasons": [
-                    "1 · 帮人是习惯不用开口 → 不为钱或表扬 → 每天都做不容易",
-                    "2 · 我卡住时他耐心帮我 → 看笔记＋分享方法不责怪我 → 学到很多",
-                    "3 · 以前觉得求助是软弱 → 现在也帮新人 → 团队更好"
+                    "1 · 不用开口就主动帮 → 不为钱或表扬",
+                    "2 · 把难的事讲简单 → 还教经验",
+                    "3 · 想把善意传下去 → 我也这样做"
                   ]
                 },
                 "pointsLabel": "我的感受 · 3 原因",
                 "reasons": [
                   {
-                    "text": "I admire him because he helps others as a habit, not as a special event.",
-                    "memory": "把帮忙当习惯，不当特例 → 佩服"
+                    "text": "I admire him because he helps others naturally, without waiting to be asked.",
+                    "memory": "不用开口就主动帮 → 佩服"
                   },
                   {
-                    "text": "I feel grateful because he helped me patiently when I was stuck with a problem.",
-                    "memory": "我卡住时他耐心帮我 → 感激"
+                    "text": "I admire the way he helps, because he can explain difficult things in very simple words.",
+                    "memory": "他把难的事讲得很简单 → 佩服"
                   },
                   {
                     "text": "I feel lucky to work with him, because the whole team becomes friendlier.",
@@ -11076,41 +11062,43 @@ window.IELTS_DATA = {
                 "draftCues": [
                   "Xiaomi shop near office",
                   "last month",
-                  "smart watch gift",
+                  "smart watch for myself",
+                  "record exercise and health",
                   "budget-compare",
                   "set up app",
                   "reasonable price"
                 ],
-                "focus": "沿用送朋友智能手表：店员帮我比较型号、解释健康功能并连接 App。 地点补办公室附近的小米店；选款需求是消息提醒，选黑色因为很酷。",
+                "focus": "给自己买智能手表：想记录运动和健康，觉得有用。店员帮我比较型号、简单讲功能并连接 App，地点是办公室附近的小米店。",
                 "omit": "只保留小米和黑色这两个简单细节，不讲复杂参数。",
                 "memoryChain": {
-                  "story": "办公室附近的小米店 → 上个月去给 Alex 买智能手表礼物 → 店员先问预算 → 比较两块、简单讲功能、设置 App → 不推贵款 → 黑白两色选黑色，因为很酷 → 合理价格买到 → Alex 喜欢，我自豪，友谊更近",
+                  "story": "办公室附近的小米店 → 上个月去给自己买智能手表：想记录运动和健康，觉得有用 → 店员先问预算 → 比较两块、简单讲功能、设置 App → 不推贵款 → 黑白两色选黑色，因为很酷 → 合理价格买到 → 现在每天用，觉得很值",
                   "reasons": [
                     "Money：先问预算＋不强推贵款 → 钱花得合适、感到被尊重",
-                    "服务题：比较两块＋简单讲功能＋设置 App → 很快选好礼物",
-                    "Emotion：店员帮忙＋Alex 喜欢 → 自豪又安心"
+                    "服务：比较两块＋简单讲功能＋设置 App → 很快就选好",
+                    "Emotion：店员帮忙＋现在每天用 → 觉得买得值、很满意"
                   ]
                 },
                 "body": {
-                  "text": "Well, I have had a few good shopping experiences. But the first one that comes to my mind would be a visit to a Xiaomi shop. I went to the shop near my office last month to buy a smart watch as a gift for my friend Alex. A shop assistant asked about my budget first, compared two watches, explained the main functions simply and set up the app for me. The shop was clean and bright, and the staff were friendly. He did not push the expensive one. There were white and black watches, and I chose the black one because it looked cool. In the end, I bought the watch at a reasonable price. Alex liked it because it showed work reminders and checked his health. I felt respected and pleased with the service.",
-                  "translation": "嗯，我有过几次不错的购物经历。但我首先想到的是一家小米店。上个月我去办公室附近的那家店，给朋友 Alex 买一块智能手表当礼物。店员先问了我的预算，比较了两块手表，简单解释了主要功能，还帮我设置好应用。他没有强推贵的那款。店里干净明亮，店员也很友好。手表有白色和黑色，我选了黑色，因为看起来很酷。最后我用合理的价格买下了手表。Alex 很喜欢，因为它能显示工作提醒，还能检查健康。我觉得受到尊重，对这次服务很满意。",
+                  "text": "Well, I have had a few good shopping experiences. But the first one that comes to my mind would be a visit to a Xiaomi shop. I went to the shop near my office last month to buy a smart watch for myself. I wanted to record my exercise and health, and I thought it would be very useful. A shop assistant asked about my budget first, compared two watches, explained the main functions simply and set up the app for me. The shop was clean and bright, and the staff were friendly. He did not push the expensive one. There were white and black watches, and I chose the black one because it looked cool. In the end, I bought the watch at a reasonable price. I use it every day now, and I find it really useful. I felt respected and pleased with the service.",
+                  "translation": "嗯，我有过几次不错的购物经历。但我首先想到的是一家小米店。上个月我去办公室附近的那家店，给自己买一块智能手表。我想记录我的运动和健康状况，觉得它会非常有用。店员先问了我的预算，比较了两块手表，简单解释了主要功能，还帮我设置好应用。他没有强推贵的那款。店里干净明亮，店员也很友好。手表有白色和黑色，我选了黑色，因为看起来很酷。最后我用合理的价格买下了手表。现在我每天都在用，觉得它真的很有用。我觉得受到尊重，对这次服务很满意。",
                   "highlights": [
                     "a Xiaomi shop",
                     "last month",
-                    "smart watch",
+                    "buy a smart watch for myself",
+                    "record my exercise and health",
+                    "very useful",
                     "asked about my budget",
                     "compared two watches",
+                    "explained the main functions simply",
                     "set up the app",
                     "did not push the expensive one",
+                    "The shop was clean and bright",
                     "black",
-                    "reasonable price",
-                    "felt respected",
-                    "buy a smart watch as a gift",
-                    "explained the main functions simply",
                     "looked cool",
-                    "showed work reminders",
-                    "pleased with the service",
-                    "The shop was clean and bright"
+                    "reasonable price",
+                    "I use it every day now",
+                    "felt respected",
+                    "pleased with the service"
                   ],
                   "paragraphStarts": [
                     "I went to the shop near my office last month to",
@@ -11121,7 +11109,7 @@ window.IELTS_DATA = {
                 "pointsLabel": "Why the service was good · 3 原因",
                 "reasons": [
                   {
-                    "text": "First of all, the shop assistant asked about my budget and did not push the expensive watch, so I felt respected. I wanted a useful gift without spending more than I could afford.",
+                    "text": "First of all, the shop assistant asked about my budget and did not push the expensive watch, so I felt respected. I wanted something useful without spending more than I could afford.",
                     "highlights": [
                       "asked about my budget",
                       "felt respected"
@@ -11129,21 +11117,21 @@ window.IELTS_DATA = {
                     "memory": "1 · Money：先问预算＋不强推贵款 → 钱花得合适、感到被尊重"
                   },
                   {
-                    "text": "Secondly, he compared two watches, explained the functions simply and helped me set up the app, so choosing the gift was easy.",
+                    "text": "Secondly, he compared two watches, explained the functions simply and helped me set up the app, so choosing one was easy.",
                     "highlights": [
                       "compared two watches",
                       "set up the app",
                       "easy"
                     ],
-                    "memory": "2 · 比较两块＋简单讲功能＋设置 App → 很快选好礼物"
+                    "memory": "2 · 比较两块＋简单讲功能＋设置 App → 很快就选好"
                   },
                   {
-                    "text": "What's more, I received useful help in the shop and saw that Alex liked the gift, so I felt proud and relieved.",
+                    "text": "What's more, I received useful help in the shop, and now I use the watch every day, so I feel very happy with my choice.",
                     "highlights": [
                       "received useful help",
-                      "proud and relieved"
+                      "use the watch every day"
                     ],
-                    "memory": "3 · Emotion：店员帮忙＋Alex 喜欢 → 自豪又安心"
+                    "memory": "3 · Emotion：店员帮忙＋每天在用 → 觉得很值"
                   }
                 ],
                 "ending": {
@@ -11154,43 +11142,43 @@ window.IELTS_DATA = {
                   },
                   "reasons": [
                     {
-                      "text": "First of all, the assistant asked about my budget and did not push the expensive watch, so I felt respected. You know, I wanted a useful gift without spending too much money. So I trusted his advice.",
-                      "memory": "Money：先问预算＋不强推 → 感到被尊重 → 信任他的建议",
+                      "text": "First of all, the assistant asked about my budget and did not push the expensive watch, so I felt respected. You know, I wanted something useful without spending too much money. So I trusted his advice.",
+                      "memory": "Money：先问预算＋不强推 → 感到被尊重",
                       "highlights": [
                         "asked about my budget",
                         "did not push the expensive watch",
                         "trusted his advice"
                       ],
-                      "translation": "首先，店员先问我的预算，没有强推贵的手表，所以我觉得受到尊重。你知道，我想买一份实用的礼物，也不想花太多钱。所以我信任他的建议。",
-                      "memoryEn": "Money: asked about my budget → did not push → felt respected"
+                      "translation": "首先，店员先问我的预算，没有强推贵的手表，所以我觉得受到尊重。你知道，我想买个实用的东西，也不想花太多钱。所以我信任他的建议。",
+                      "memoryEn": "Money: asked about my budget → felt respected"
                     },
                     {
-                      "text": "Secondly, he compared two watches, explained the functions simply and set up the app, so choosing the gift was easy. I did not have to worry about choosing the wrong one. So the whole process was smooth.",
-                      "memory": "服务：比较两款＋讲功能＋设App → 选礼物容易 → 过程顺利",
+                      "text": "Secondly, he compared two watches, explained the functions simply and set up the app, so choosing one was easy. I did not have to worry about choosing the wrong one. So the whole process was smooth.",
+                      "memory": "服务：比较两款＋讲功能 → 选起来容易",
                       "highlights": [
                         "compared two watches",
                         "set up the app",
                         "the whole process was smooth"
                       ],
-                      "translation": "其次，他比较了两块手表，简单解释了功能，还帮我设置应用，所以选礼物变得很容易。我不用担心选错。所以整个过程很顺利。",
-                      "memoryEn": "Service: compared two watches → the whole process was smooth"
+                      "translation": "其次，他比较了两块手表，简单解释了功能，还帮我设置应用，所以选起来很容易。我不用担心选错。所以整个过程很顺利。",
+                      "memoryEn": "Service: compared two watches → easy to choose"
                     },
                     {
-                      "text": "What's more, I received useful help in the shop and saw that Alex liked the gift, so I felt proud and relieved. I think good service makes a shopping experience much more pleasant. I think good service is important for any business, because it makes customers come back.",
-                      "memory": "Emotion：店员帮忙＋Alex 喜欢 → 自豪又安心 → 好服务很重要",
+                      "text": "What's more, I received useful help in the shop, and now I use the watch every day, so I feel very happy with my choice. I think good service makes a shopping experience much more pleasant. I think good service is important for any business, because it makes customers come back.",
+                      "memory": "Emotion：店员帮忙＋每天在用 → 觉得很值",
                       "highlights": [
                         "received useful help",
-                        "Alex liked the gift",
+                        "use the watch every day",
                         "much more pleasant"
                       ],
-                      "translation": "此外，我在店里得到了实用的帮助，也看到 Alex 喜欢这份礼物，所以既自豪又安心。我觉得好的服务会让购物体验愉快很多。我觉得好的服务对任何生意都重要，因为能让顾客愿意再来。",
-                      "memoryEn": "Emotion: useful help → proud and relieved → good service is important"
+                      "translation": "此外，我在店里得到了实用的帮助，现在这块表我每天都在用，所以我对自己的选择很满意。我觉得好的服务会让购物体验愉快很多。我觉得好的服务对任何生意都重要，因为能让顾客愿意再来。",
+                      "memoryEn": "Emotion: useful help → use it every day"
                     }
                   ],
                   "mode": "feelings"
                 },
                 "linked": [
-                  "Describe a gift you would like to buy for yourfriend"
+                  "Describe something you bought that you were happy with"
                 ],
                 "cueTranslations": [
                   "这家店在哪里",
@@ -11200,14 +11188,14 @@ window.IELTS_DATA = {
                 ],
                 "cuePointsNotes": [
                   "办公室附近的一家小米店",
-                  "上个月，我去给朋友 Alex 买智能手表当礼物",
-                  "店员先问我的预算，比较了两块手表，简单讲了主要功能，还帮我设置好应用；他没有强推贵的那款；黑白两色我选了黑色，因为好看；最后用合理的价格买下，Alex 也很喜欢（能提醒工作、看健康）",
+                  "上个月，我去给自己买智能手表；想记录运动和健康，觉得很有用",
+                  "先问预算、比较两块、简单讲功能、帮我设置应用；没有强推贵的那款；黑白两色选了黑色；最后用合理的价格买下，现在每天用",
                   ""
                 ],
                 "cuePointsNotesEn": [
                   "Xiaomi shop near my office",
-                  "last month ; a smart watch",
-                  "asked about my budget ; compared two watches；push the expensive one；white and black watches ; the black one；a reasonable price ; Alex liked it",
+                  "last month ; a smart watch for myself；record my exercise and health ; very useful",
+                  "asked about my budget ; compared two watches；did not push the expensive one；white and black watches ; the black one；a reasonable price ; use it every day",
                   ""
                 ]
               }
@@ -11441,7 +11429,7 @@ window.IELTS_DATA = {
                   ]
                 },
                 "memoryChain": {
-                  "story": "第一部 At first：小学外教教英文歌，我觉得语速快、很紧张 → 第二部 However：他把歌曲分成短句，带我们分组练习并纠正发音 → 第三部 In the end：全班完整唱完，我更敢开口说英语",
+                  "story": "第一部 At first：小时候在小学（约十岁）学的技能是唱一首简单英文歌；歌词又快又陌生，有点紧张 → 第二部 However：Mr Brown 把歌放几遍、拆成短句、用动作解释意思，我们分组练习、他耐心纠正发音 → 第三部 In the end：全班一起唱完整首歌，我更敢开口说英语",
                   "reasons": [
                     "歌曲拆成短句 → 小孩子也能跟上 → 学会新技能不害怕",
                     "旋律加动作 → 新单词和发音更好记 → 回家也能继续练",
@@ -11536,7 +11524,7 @@ window.IELTS_DATA = {
                 "cuePointsNotesEn": [
                   "singing a simple English song",
                   "in primary school ; Mr Brown taught us",
-                  "fast and unfamiliar ; a little nervous；played the song several times ; used simple actions；in small groups ; corrected our pronunciation；the whole class ; sang the song together",
+                  "fast and unfamiliar ; a little nervous；played the song several times ; into short lines ; used simple actions；in small groups ; corrected our pronunciation；the whole class ; sang the song together",
                   ""
                 ]
               },
