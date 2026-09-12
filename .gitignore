@@ -31,3 +31,4 @@ build/
 
 # WorkBuddy local agent data (memory, skills, session state)
 .workbuddy-ai/
+.workbuddy/
