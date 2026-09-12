@@ -90,6 +90,10 @@ def transcribe(
         "True",
         "--verbose",
         "False",
+        # Without this, a long trailing silence makes Whisper loop the same phrase
+        # hundreds of times (seen once as "the things that are" x 300+).
+        "--condition-on-previous-text",
+        "False",
     ]
     subprocess.run(command, check=True)
     transcript = output_dir / "transcript.json"

@@ -1,4 +1,12 @@
+# Recordings and analysis results are personal data — never commit them.
 recordings/
 output/
 __pycache__/
 *.pyc
+
+# Safety net: an audio file dropped anywhere in this folder
+*.m4a
+*.mp3
+*.wav
+*.mp4
+*.aiff

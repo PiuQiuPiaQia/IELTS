@@ -23,6 +23,9 @@ build/
 # Local research archive
 /调研资料/
 
+# Personal recordings — never commit audio, wherever it lands
+*.m4a
+
 # Claude local editor config (contains machine-specific paths)
 .claude/
 
