@@ -23409,7 +23409,7 @@ window.IELTS_DATA = {
     }
   ],
   "chunks": {
-    "groups": [
+        "groups": [
       {
         "title": "一、开场表态",
         "items": [
@@ -23479,6 +23479,139 @@ window.IELTS_DATA = {
           { "en": "I used to…", "zh": "我以前常常…" },
           { "en": "I would always … when I was a kid.", "zh": "我小时候总是…" },
           { "en": "It turned out that…", "zh": "结果是…" }
+        ]
+      },
+      {
+        "title": "七、起承转合骨架",
+        "items": [
+          { "en": "the first one that comes to my mind would be", "zh": "我第一个想到的是……" },
+          { "en": "at first", "zh": "一开始，……" },
+          { "en": "I know a few people", "zh": "我认识几个……" },
+          { "en": "in the end", "zh": "到最后，……" },
+          { "en": "since then", "zh": "从那以后" },
+          { "en": "I have been to a few", "zh": "我去过几个……" },
+          { "en": "I have watched a few", "zh": "我看过几个……" },
+          { "en": "after that", "zh": "那之后，……" },
+          { "en": "to be honest", "zh": "说实话，……" },
+          { "en": "we soon became good friends", "zh": "我们很快就成了好朋友" },
+          { "en": "I still remember", "zh": "我还记得……" },
+          { "en": "you know", "zh": "你知道的，……" },
+          { "en": "when I was a child", "zh": "我小时候" },
+          { "en": "the hard part is keeping the habit", "zh": "难的是把习惯坚持下去" },
+          { "en": "what impressed me the most", "zh": "最让我印象深刻的是……" }
+        ]
+      },
+      {
+        "title": "八、描写一个人",
+        "items": [
+          { "en": "did not give up", "zh": "没有放弃" },
+          { "en": "easy to talk to", "zh": "好相处、好说话" },
+          { "en": "always ready to give a hand", "zh": "总是愿意帮一把" },
+          { "en": "never complains", "zh": "从不抱怨" },
+          { "en": "looks on the bright side", "zh": "凡事往好处想" },
+          { "en": "stays calm when things are difficult", "zh": "遇到难事也很冷静" },
+          { "en": "friendly and helpful", "zh": "和气又热心" },
+          { "en": "explain it in very simple words", "zh": "用很简单的话解释清楚" },
+          { "en": "practised a little every day", "zh": "每天练一点" },
+          { "en": "step by step", "zh": "一步一步地" },
+          { "en": "makes us laugh", "zh": "让我们笑" },
+          { "en": "patient and calm", "zh": "有耐心又沉得住气" }
+        ]
+      },
+      {
+        "title": "九、手机与屏幕",
+        "items": [
+          { "en": "scrolling through social media", "zh": "刷社交媒体" },
+          { "en": "watched short videos", "zh": "看短视频" },
+          { "en": "put my phone on silent", "zh": "把手机调成静音" },
+          { "en": "takes up a lot of my evening", "zh": "占掉我很多晚上的时间" },
+          { "en": "forget the time", "zh": "忘了时间" }
+        ]
+      },
+      {
+        "title": "十、地点与出行",
+        "items": [
+          { "en": "beside the river", "zh": "在河边" },
+          { "en": "take a few photos", "zh": "拍几张照片" },
+          { "en": "once or twice a month", "zh": "一个月一两次" },
+          { "en": "the scenery is beautiful", "zh": "风景很美" },
+          { "en": "people everywhere", "zh": "到处都是人" },
+          { "en": "wait a long time", "zh": "等很久" },
+          { "en": "twenty minutes away", "zh": "二十分钟的路" },
+          { "en": "the air feels fresh", "zh": "空气很清新" },
+          { "en": "sit on a bench and talk", "zh": "坐在长椅上聊天" },
+          { "en": "would definitely like to visit it again", "zh": "一定还想再去一次" },
+          { "en": "the people were friendly", "zh": "人都很友善" },
+          { "en": "the food was delicious", "zh": "东西很好吃" }
+        ]
+      },
+      {
+        "title": "十一、运动与健康",
+        "items": [
+          { "en": "take a break", "zh": "歇一会儿" },
+          { "en": "got out of breath", "zh": "喘不上气" },
+          { "en": "took the stairs instead of the lift", "zh": "走楼梯不坐电梯" },
+          { "en": "got off the bus two stops early", "zh": "提前两站下车" },
+          { "en": "build this habit", "zh": "养成这个习惯" },
+          { "en": "take a short walk after lunch", "zh": "午饭后走一小段" },
+          { "en": "looks much more energetic", "zh": "看着精神多了" },
+          { "en": "sleeps better", "zh": "睡得更好" },
+          { "en": "plays badminton", "zh": "打羽毛球" }
+        ]
+      },
+      {
+        "title": "十二、情绪与反应",
+        "items": [
+          { "en": "felt excited", "zh": "很兴奋" },
+          { "en": "felt bored", "zh": "觉得无聊" },
+          { "en": "felt worried", "zh": "很担心" },
+          { "en": "felt relaxed and happy", "zh": "又放松又开心" },
+          { "en": "felt proud", "zh": "很自豪" },
+          { "en": "felt relieved", "zh": "松了一口气" },
+          { "en": "felt respected", "zh": "觉得被尊重" },
+          { "en": "felt much better", "zh": "心情好多了" }
+        ]
+      },
+      {
+        "title": "十三、花钱与时间",
+        "items": [
+          { "en": "on time", "zh": "按时" },
+          { "en": "at a reasonable price", "zh": "价格合理" },
+          { "en": "save a fixed amount each month", "zh": "每个月存固定的一笔" },
+          { "en": "ordered less takeaway food", "zh": "少点外卖" },
+          { "en": "without borrowing money", "zh": "没有借钱" },
+          { "en": "saves me a lot of time", "zh": "帮我省很多时间" },
+          { "en": "spend less time with my family", "zh": "陪家人的时间变少" }
+        ]
+      },
+      {
+        "title": "十四、与人的相处",
+        "items": [
+          { "en": "explains things simply", "zh": "事情讲得简单清楚" },
+          { "en": "pass it on", "zh": "把这份好往下传" },
+          { "en": "strengthened our relationship", "zh": "让我们关系更近了" }
+        ]
+      },
+      {
+        "title": "十五、工作与协作",
+        "items": [
+          { "en": "release it in stages", "zh": "分阶段上线" },
+          { "en": "stayed calm", "zh": "保持冷静" },
+          { "en": "divided the work", "zh": "把活分开做" },
+          { "en": "gave each person a clear responsibility", "zh": "每人负责一块" },
+          { "en": "finished on time", "zh": "按时完成" },
+          { "en": "made steady progress", "zh": "稳稳地往前推" },
+          { "en": "ask for help", "zh": "开口找人帮忙" },
+          { "en": "found the cause", "zh": "找到原因" }
+        ]
+      },
+      {
+        "title": "十六、学习与技能",
+        "items": [
+          { "en": "practised in small groups", "zh": "分组练" },
+          { "en": "corrected our pronunciation patiently", "zh": "耐心地纠发音" },
+          { "en": "hold a short conversation", "zh": "能做简短的对话" },
+          { "en": "recorded my own voice", "zh": "录自己的音" }
         ]
       }
     ],
