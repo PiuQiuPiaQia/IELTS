@@ -23409,230 +23409,76 @@ window.IELTS_DATA = {
     }
   ],
   "chunks": {
-    "intro": "本页把 Part 1、Part 2、Part 3 的本季新题拆成同一套词块。词块按“链”记忆：想起链头，后面几个自然跟出来。结构模板负责“怎么摆”，词块链负责“说什么”，两者分开练。",
-    "usage": [
-      "先背结构模板（P1 三步、P3 PREC），再背词块链。",
-      "每条链只记链头，其余靠联想带出；说的时候允许只用其中 3-4 个。",
-      "Part 2 直接用「Part 2」页的人物类三部曲和地点类三原因母版，本页的词块链只往故事段里填。",
-      "抽到新题时，从这套词块里挑组合，不要临时造新表达。",
-      "带 ★ 的是本季新题里反复出现的词块，时间不够时只背 ★。"
-    ],
-    "structures": [
+    "groups": [
       {
-        "part": "Part 1",
-        "title": "三步直接回答",
-        "note": "两到三句就够。先表态，再给一个原因，最后补一个具体细节。不要展开成 Part 2。",
-        "steps": [
-          {
-            "label": "① 表态",
-            "en": "Yes, I do. / Not really. / Honestly, I don't.",
-            "zh": "直接给出立场，不要绕。"
-          },
-          {
-            "label": "② 原因",
-            "en": "…mainly because it helps me relax.",
-            "zh": "一个原因就够，用 because 接住。"
-          },
-          {
-            "label": "③ 细节",
-            "en": "For example, I usually… / I did that last week.",
-            "zh": "一个具体细节或频率词收尾。"
-          }
-        ],
-        "demo": {
-          "question": "Do you like watching videos online?",
-          "english": "Yes, I do. I mainly watch videos online because it helps me relax after work. For example, I usually watch some short cooking videos before dinner.",
-          "translation": "喜欢。我主要在网上看视频，因为下班后它能帮我放松。比如我一般会在晚饭前看几个做菜的短视频。"
-        }
-      },
-      {
-        "part": "Part 3",
-        "title": "PREC 四步",
-        "note": "每题都摆成 Point → Reason → Example → Consequence。四句起步，能说到六句就够 5.5。需要对比时，在 Reason 后面加一句 By contrast。",
-        "steps": [
-          {
-            "label": "P 观点",
-            "en": "I think… / Personally, I'd say…",
-            "zh": "第一句必须给明确立场。"
-          },
-          {
-            "label": "R 原因",
-            "en": "The main reason is that…",
-            "zh": "一个原因，接一个词块。"
-          },
-          {
-            "label": "E 例子",
-            "en": "For example, … / Take my own case,…",
-            "zh": "举例，直接调用词块链。"
-          },
-          {
-            "label": "C 结果",
-            "en": "As a result, … / So over time,…",
-            "zh": "落到影响或结果，收住。"
-          },
-          {
-            "label": "＋对比（可选）",
-            "en": "By contrast, older people usually…",
-            "zh": "只有逻辑自然时才加，别硬套。"
-          }
-        ],
-        "demo": {
-          "question": "Do people need to have goals?",
-          "english": "I think people do need goals. The main reason is that a clear goal helps them make a plan instead of wasting time. For example, my friend wanted to learn French, so he broke it into small steps and practised every day. As a result, he could speak it fluently in about two years.",
-          "translation": "我认为人确实需要目标。主要原因是明确的目标能帮人做出计划，而不是浪费时间。比如我朋友想学法语，他把目标拆成小步骤，每天练习。结果大约两年后他就能流利地说法语了。"
-        }
-      }
-    ],
-    "functionChunks": [
-      {
-        "title": "表态开头（P1 / P3 第一句）",
+        "title": "一、开场表态",
         "items": [
-          {
-            "en": "Yes, definitely.",
-            "zh": "当然是的。",
-            "star": true
-          },
-          {
-            "en": "Not really.",
-            "zh": "其实不太。",
-            "star": true
-          },
-          {
-            "en": "Honestly, I don't.",
-            "zh": "老实说，我不。",
-            "star": true
-          },
-          {
-            "en": "I think so, yes.",
-            "zh": "我觉得是的。"
-          },
-          {
-            "en": "It depends, but usually…",
-            "zh": "看情况，不过一般来说…",
-            "star": true
-          }
+          { "en": "Yes, definitely.", "zh": "当然是的。" },
+          { "en": "Not really.", "zh": "其实不太。" },
+          { "en": "I think…", "zh": "我觉得…" },
+          { "en": "It depends, but usually…", "zh": "看情况，不过一般来说…" }
         ]
       },
       {
-        "title": "给原因（R）",
+        "title": "二、连接骨架",
         "items": [
-          {
-            "en": "mainly because…",
-            "zh": "主要是因为…",
-            "star": true
-          },
-          {
-            "en": "The main reason is that…",
-            "zh": "主要原因是…",
-            "star": true
-          },
-          {
-            "en": "That's because…",
-            "zh": "那是因为…"
-          },
-          {
-            "en": "What matters most is…",
-            "zh": "最重要的是…"
-          }
+          { "en": "mainly because…", "zh": "主要是因为…" },
+          { "en": "The main reason is that…", "zh": "主要原因是…" },
+          { "en": "For example,…", "zh": "比如说…" },
+          { "en": "Also,…", "zh": "而且…" },
+          { "en": "So…", "zh": "所以…" },
+          { "en": "As a result,…", "zh": "结果是…" },
+          { "en": "Compared with…", "zh": "和…相比" },
+          { "en": "it has both good and bad sides", "zh": "它有好的一面也有不好的一面" }
         ]
       },
       {
-        "title": "举例（E）",
+        "title": "三、内容词块 · 日常与心情",
         "items": [
-          {
-            "en": "For example,…",
-            "zh": "比如说…",
-            "star": true
-          },
-          {
-            "en": "Take my own case,…",
-            "zh": "拿我自己来说…",
-            "star": true
-          },
-          {
-            "en": "Something like this happened to me.",
-            "zh": "我自己就遇到过这种事。"
-          },
-          {
-            "en": "a real-life example",
-            "zh": "一个真实的例子",
-            "star": true
-          }
+          { "en": "save money", "zh": "省钱" },
+          { "en": "relax after a long day", "zh": "忙完一天之后放松一下" },
+          { "en": "get some fresh air", "zh": "呼吸点新鲜空气" },
+          { "en": "go for a walk after dinner", "zh": "晚饭后去散步" },
+          { "en": "cook something simple at home", "zh": "在家做点简单的饭" },
+          { "en": "eat out with friends", "zh": "和朋友出去吃" },
+          { "en": "it helps me forget about…", "zh": "它能让我忘掉…" },
+          { "en": "easy to follow", "zh": "容易上手、容易跟" }
         ]
       },
       {
-        "title": "结果与收尾（C）",
+        "title": "四、内容词块 · 工作与目标",
         "items": [
-          {
-            "en": "As a result,…",
-            "zh": "结果是…",
-            "star": true
-          },
-          {
-            "en": "So over time,…",
-            "zh": "所以时间一长…",
-            "star": true
-          },
-          {
-            "en": "That's why…",
-            "zh": "所以才会…",
-            "star": true
-          },
-          {
-            "en": "In the end,…",
-            "zh": "最后…",
-            "star": true
-          }
+          { "en": "a stable income", "zh": "稳定的收入" },
+          { "en": "set myself a clear goal", "zh": "给自己定个明确的目标" },
+          { "en": "break it down into small steps", "zh": "把它拆成一个个小步骤" },
+          { "en": "see real progress", "zh": "看到实实在在的进步" },
+          { "en": "stick to a routine", "zh": "保持固定的作息" },
+          { "en": "many more job opportunities", "zh": "多很多工作机会" },
+          { "en": "learn new skills", "zh": "学新技能" },
+          { "en": "make a difference to other people", "zh": "能帮到别人、对别人有意义" }
         ]
       },
       {
-        "title": "限定与让步（避免说死）",
+        "title": "五、内容词块 · 人与人",
         "items": [
-          {
-            "en": "in a moderate way",
-            "zh": "适度地",
-            "star": true
-          },
-          {
-            "en": "it depends on the situation",
-            "zh": "这要看具体情况",
-            "star": true
-          },
-          {
-            "en": "it's not for everyone",
-            "zh": "并不是所有人都适合",
-            "star": true
-          },
-          {
-            "en": "it has both good and bad sides",
-            "zh": "它有好的一面也有不好的一面",
-            "star": true
-          }
+          { "en": "turn to… for help", "zh": "向…求助" },
+          { "en": "everyone gets busy sometimes", "zh": "谁都有忙的时候" },
+          { "en": "keep in touch with…", "zh": "和…保持联系" },
+          { "en": "it teaches you to think about others", "zh": "它教会你替别人着想" },
+          { "en": "it's the thought that counts", "zh": "心意最重要" },
+          { "en": "keep an open mind", "zh": "保持开放的心态" },
+          { "en": "keep people safe", "zh": "保障大家的安全" },
+          { "en": "it's everyone's responsibility", "zh": "这是每个人的责任" }
         ]
       },
       {
-        "title": "对比（只在逻辑自然时用）",
+        "title": "六、时态",
         "items": [
-          {
-            "en": "By contrast,…",
-            "zh": "相比之下…",
-            "star": true
-          },
-          {
-            "en": "Compared with…",
-            "zh": "和…相比",
-            "star": true
-          },
-          {
-            "en": "while young people usually…",
-            "zh": "而年轻人通常…",
-            "star": true
-          },
-          {
-            "en": "in cities / in the countryside",
-            "zh": "在城市里／在乡下",
-            "star": true
-          }
+          { "en": "I was …ing when…", "zh": "我正在…的时候…" },
+          { "en": "The last time I … was … ago.", "zh": "我上一次…是在…之前。" },
+          { "en": "I used to…", "zh": "我以前常常…" },
+          { "en": "I would always … when I was a kid.", "zh": "我小时候总是…" },
+          { "en": "It turned out that…", "zh": "结果是…" }
         ]
       }
     ],
